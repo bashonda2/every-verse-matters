@@ -79,13 +79,14 @@
   {
     "id": "scripture-gems",
     "name": "Scripture Gems",
-    "tier": 1,
+    "tier": 2,
     "type": "podcast",
     "url": "https://scripturegemspodcast.com",
     "hosts": "Jon & Jay Fullmer",
     "specialty": "Weekly gems and insights",
     "search_query_template": "Scripture Gems podcast {scripture_block}",
-    "active": true
+    "active": false,
+    "note": "Appears inactive since March 2024"
   },
   {
     "id": "teaching-with-power",
@@ -156,9 +157,9 @@
   {
     "id": "unshaken-saints",
     "name": "Unshaken Saints",
-    "tier": 2,
+    "tier": 1,
     "type": "podcast",
-    "url": "https://unshakensaints.com",
+    "url": "https://www.unshaken.org",
     "hosts": "Various",
     "specialty": "Apologetics-oriented, faith-building",
     "search_query_template": "Unshaken Saints {scripture_block}",
@@ -218,5 +219,15 @@
     "specialty": "Devotional conversations",
     "search_query_template": "Talk of Him podcast {scripture_block}",
     "active": true
+  },
+  {
+    "id": "church-news",
+    "name": "Church News",
+    "tier": 1,
+    "type": "articles",
+    "url": "https://www.thechurchnews.com",
+    "search_query_template": "site:thechurchnews.com \"come follow me\" \"{scripture_block}\"",
+    "active": true,
+    "note": "Weekly verified quote compilations \u2014 key source for sources_registry.json population"
   }
 ]
