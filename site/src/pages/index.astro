@@ -336,7 +336,7 @@ const hasVerseCount = existsSync(join(weekDir, 'commentary.json'))
           <svg id="icon-loading" width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:none;" class="spin"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5" stroke-dasharray="18 10"/></svg>
           <span id="audio-label">Listen to introduction</span>
         </button>
-        {audioUrl && <span style="font-size:10px;color:var(--text-light);letter-spacing:.05em;text-transform:uppercase;">AI Voice · Nova</span>}
+        {audioUrl && <span style="font-size:10px;color:var(--text-light);letter-spacing:.05em;text-transform:uppercase;">AI Voice · Echo</span>}
       </div>
 
       {audioUrl && <audio id="hook-audio" src={audioUrl} preload="none" />}

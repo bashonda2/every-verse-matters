@@ -1396,9 +1396,10 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] Creator discovery expanded to 18 entries (13 found), via Claude web search
   - New: Scripture Central (2 series), Unshaken Saints, BYUtv, Church News, Teaching with Power, LDS Daily, Gospel Grab Bag, Don't Miss This 2022 archive
   - `sources.json` updated: Unshaken Saints, Church News, The Scriptures Are Real → Tier 1; Scripture Gems → inactive
-- [x] `pipeline/generate_audio.py` — OpenAI tts-1-hd (nova voice); generates `site/public/audio/week-{nn}-hook.mp3`
-- [x] Week 9 hook audio generated ($0.016, 1.2MB) and live at `/audio/week-09-hook.mp3`
-- [x] Homepage audio player — plays OpenAI MP3 with browser Web Speech API fallback; "AI Voice" badge
+- [x] `pipeline/generate_audio.py` — OpenAI tts-1-hd; generates `site/public/audio/week-{nn}-hook.mp3`
+- [x] Week 9 hook audio generated ($0.016, 1.2MB) — **voice: echo** (warm male); live at `/audio/week-09-hook.mp3`
+- [x] Homepage audio player — plays OpenAI MP3 with browser Web Speech API fallback; "AI Voice · Nova" badge
+- [x] Voice selection: echo chosen (warm male pastoral tone). Available alternatives: onyx (deeper/authoritative), fable (expressive male). Female voices (nova, shimmer, alloy) excluded by preference.
 - [x] Deep Dive back-to-top — per-chapter "↑ Back to top" links + floating button (appears after 400px scroll)
 - [x] Python venv at `/var/www/evm/venv` with anthropic + python-dotenv
 - [x] `pipeline/run_pipeline.py` — master orchestrator (7 stages, auto week detection, dry-run mode)
