@@ -8,266 +8,515 @@ const schedule = JSON.parse(readFileSync(join(root, 'data', 'cfm_schedule.json')
 
 const today = new Date().toISOString().split('T')[0];
 
-// Prefer the week that has content AND is closest/most relevant:
-// 1. If today's week has content, use it
-// 2. If the upcoming week has content (pipeline runs ahead), use that
-// 3. Fall back to the week with the most recent content
 const hasContentFor = (w: any) => {
   const dir = join(root, 'content', 'weeks', '2026', `week-${String(w.week).padStart(2, '0')}`);
   return existsSync(join(dir, 'commentary.json'));
 };
 
 const todayWeek = schedule.find((w: any) => today >= w.date_start && today <= w.date_end);
-const nextWeek = todayWeek ? schedule.find((w: any) => w.week === todayWeek.week + 1) : null;
+const nextWeekEntry = todayWeek ? schedule.find((w: any) => w.week === todayWeek.week + 1) : null;
 
-// Show upcoming week if it has content (pipeline runs a week ahead), else today, else first with content
 const currentWeek =
-  (nextWeek && hasContentFor(nextWeek) ? nextWeek : null) ??
+  (nextWeekEntry && hasContentFor(nextWeekEntry) ? nextWeekEntry : null) ??
   (todayWeek && hasContentFor(todayWeek) ? todayWeek : null) ??
   [...schedule].reverse().find(hasContentFor) ??
   schedule[8];
 
 const currentWeekNum = currentWeek.week;
-
-// Load hook + snippets for current week
 const weekDir = join(root, 'content', 'weeks', '2026', `week-${String(currentWeekNum).padStart(2, '0')}`);
-const hookPath = join(weekDir, 'hook.json');
-const snippetsPath = join(weekDir, 'snippets.json');
 
-const hookData = existsSync(hookPath) ? JSON.parse(readFileSync(hookPath, 'utf-8')) : null;
-const snippetsData = existsSync(snippetsPath) ? JSON.parse(readFileSync(snippetsPath, 'utf-8')) : null;
+const hookData = existsSync(join(weekDir, 'hook.json'))
+  ? JSON.parse(readFileSync(join(weekDir, 'hook.json'), 'utf-8'))
+  : null;
+
+const snippetsData = existsSync(join(weekDir, 'snippets.json'))
+  ? JSON.parse(readFileSync(join(weekDir, 'snippets.json'), 'utf-8'))
+  : null;
 const snippets: any[] = snippetsData?.snippets ?? [];
 
-// Audio: use pre-generated MP3 if available, otherwise fall back to browser TTS
+const creatorsData: any[] = existsSync(join(weekDir, 'creators.json'))
+  ? JSON.parse(readFileSync(join(weekDir, 'creators.json'), 'utf-8'))
+  : [];
+const foundCreators = creatorsData.filter((c: any) => c.found && c.content).slice(0, 8);
+
 const audioUrl: string | null = hookData?.audio_url ?? null;
 const hookText: string = hookData?.hook ?? '';
 
-// Category labels + colors for snippet badges
-const categoryMeta: Record<string, { label: string; color: string }> = {
-  hebrew_insight:    { label: 'Hebrew',      color: 'bg-amber-900/40 text-amber-300 border-amber-700/40' },
-  cross_reference:   { label: 'Cross-Ref',   color: 'bg-blue-900/40 text-blue-300 border-blue-700/40' },
-  historical_context:{ label: 'History',     color: 'bg-stone-800/60 text-stone-300 border-stone-600/40' },
-  restoration_lens:  { label: 'Restoration', color: 'bg-emerald-900/40 text-emerald-300 border-emerald-700/40' },
-  application:       { label: 'Application', color: 'bg-purple-900/40 text-purple-300 border-purple-700/40' },
-  prophetic:         { label: 'Prophetic',   color: 'bg-rose-900/40 text-rose-300 border-rose-700/40' },
-  creator_highlight: { label: 'Creators',    color: 'bg-sky-900/40 text-sky-300 border-sky-700/40' },
+const categoryMeta: Record<string, { label: string; bg: string; color: string }> = {
+  hebrew_insight:    { label: 'Hebrew',      bg: '#E8DDD0', color: '#6B5B44' },
+  cross_reference:   { label: 'Cross-Ref',   bg: '#D4E2D4', color: '#3D5C3D' },
+  historical_context:{ label: 'Historical',  bg: '#D9DDE8', color: '#3D4A6B' },
+  restoration_lens:  { label: 'Restoration', bg: '#E8D9D0', color: '#6B4A3D' },
+  application:       { label: 'Application', bg: '#E0DDD4', color: '#5C5440' },
+  prophetic:         { label: 'Prophetic',   bg: '#E0D4E8', color: '#5C3D6B' },
+  creator_highlight: { label: 'Creators',    bg: '#D4DDE8', color: '#3D4D6B' },
 };
 
-// Past and upcoming weeks (excluding current)
-const otherWeeks = schedule.filter((w: any) => w.week !== currentWeekNum);
-const hasContent = (w: any) => {
-  const dir = join(root, 'content', 'weeks', '2026', `week-${String(w.week).padStart(2, '0')}`);
-  return existsSync(join(dir, 'commentary.json'));
+const creatorIcons: Record<string, string> = {
+  'podcast': '🎙️',
+  'video': '📺',
+  'article': '📰',
+  'articles': '📰',
+  'podcast_video': '🎧',
+  'podcast/video': '🎧',
+  'podcast/video/articles': '🔍',
+  'printables': '✏️',
 };
+
+const otherWeeks = schedule.filter((w: any) => w.week !== currentWeekNum);
+const hasVerseCount = existsSync(join(weekDir, 'commentary.json'))
+  ? JSON.parse(readFileSync(join(weekDir, 'commentary.json'), 'utf-8')).length
+  : 0;
 ---
 
-<Layout title={`Week ${currentWeekNum}: ${currentWeek.title} | EveryVerseMatters`}>
+<Layout title={`Week ${currentWeekNum}: ${currentWeek.title}`} wide={true}>
+<style>
+  /* ── CSS variables (re-declared for scoped use) ── */
+  :root {
+    --gold: #9E7A38;
+    --gold-light: #C4A35A;
+    --gold-muted: #B8976A;
+    --gold-faint: rgba(158,122,56,0.08);
+    --gold-border: rgba(158,122,56,0.25);
+    --cream: #FAF7F2;
+    --cream-dark: #F3EDE3;
+    --parchment: #F5F0E8;
+    --warm-white: #FDFCFA;
+    --text: #2C2418;
+    --text-2: #5C4F3D;
+    --text-muted: #8A7D6B;
+    --text-light: #A89B87;
+    --border: #E8E0D4;
+    --shadow: rgba(44,36,24,0.06);
+    --shadow-gold: rgba(158,122,56,0.10);
+  }
 
-  <!-- ── CURRENT WEEK FEATURED SECTION ── -->
-  <div class="mb-16">
-    <p class="font-sans text-xs uppercase tracking-widest text-gold/60 mb-3">This Week's Study</p>
+  html.dark {
+    --gold: #c9a84c;
+    --gold-light: #e0c878;
+    --gold-muted: #b89a44;
+    --gold-faint: rgba(201,168,76,0.08);
+    --gold-border: rgba(201,168,76,0.25);
+    --cream: #1a1a2e;
+    --cream-dark: #242445;
+    --parchment: #1e1e36;
+    --warm-white: #1a1a2e;
+    --text: #e0e0e0;
+    --text-2: #c0c0d0;
+    --text-muted: #8a8aa0;
+    --text-light: #6a6a80;
+    --border: #2e2e55;
+    --shadow: rgba(0,0,0,0.2);
+    --shadow-gold: rgba(201,168,76,0.08);
+  }
 
-    <div class="mb-1 flex flex-wrap items-baseline gap-3">
-      <h1 class="font-sans text-3xl md:text-4xl font-bold text-gold leading-tight">
-        Week {currentWeekNum}: {currentWeek.title}
-      </h1>
-    </div>
-    <p class="font-sans text-sm text-text-muted mb-1">{currentWeek.date_start} — {currentWeek.date_end}</p>
-    <p class="font-sans text-lg text-text/80 mb-2">{currentWeek.scripture_block}</p>
-    <a
-      href={currentWeek.official_url}
-      target="_blank"
-      rel="noopener"
-      class="font-sans text-xs text-gold/50 hover:text-gold/80 transition-colors underline underline-offset-2"
-    >
-      Official Come, Follow Me Lesson &rarr;
+  /* Sections */
+  .pg { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+
+  /* ── HERO ── */
+  .hero { padding: 3.5rem 2rem 2rem; }
+  .week-label { font-family:'Cinzel',serif; font-size:11px; letter-spacing:.3em; text-transform:uppercase; color:var(--gold-muted); margin-bottom:.75rem; }
+  .week-title { font-family:'Cormorant Garamond',serif; font-weight:600; font-size:48px; line-height:1.15; color:var(--text); margin-bottom:.6rem; letter-spacing:-.01em; }
+  .week-title span { color:var(--gold); }
+  .week-meta { display:flex; align-items:center; gap:1.25rem; flex-wrap:wrap; margin-bottom:.5rem; }
+  .week-date { font-size:15px; color:var(--text-muted); }
+  .week-scripture { font-size:15px; color:var(--text-2); font-weight:500; }
+  .meta-dot { width:3px; height:3px; border-radius:50%; background:var(--text-light); flex-shrink:0; }
+  .cfm-link { display:inline-flex; align-items:center; gap:.4rem; font-size:13px; font-weight:500; color:var(--gold-muted); text-decoration:none; margin-top:.5rem; transition:color .2s; }
+  .cfm-link:hover { color:var(--gold); }
+  .cfm-link svg { width:14px; height:14px; }
+
+  /* ── HOOK CARD ── */
+  .hook-section { margin: 1.5rem auto 0; }
+  .hook-card {
+    background: linear-gradient(135deg, var(--warm-white) 0%, var(--parchment) 100%);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 10px 10px 0;
+    padding: 2.5rem 3rem;
+    position: relative;
+    box-shadow: 0 2px 20px var(--shadow), 0 1px 4px var(--shadow-gold);
+  }
+  .hook-card::before {
+    content: '"';
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 80px;
+    color: var(--gold-border);
+    position: absolute;
+    top: 4px;
+    left: 18px;
+    line-height: 1;
+    pointer-events: none;
+  }
+  .hook-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--text-2);
+    font-style: italic;
+    padding-left: 1rem;
+  }
+  .hook-lead { font-style:normal; font-weight:600; color:var(--text); }
+  .hook-actions { display:flex; align-items:center; gap:1rem; margin-top:1.5rem; padding-left:1rem; }
+  .listen-btn {
+    display:inline-flex; align-items:center; gap:.5rem;
+    padding:.45rem 1.1rem;
+    border-radius:100px;
+    border:1px solid var(--border);
+    background:var(--warm-white);
+    color:var(--text-2);
+    font-family:'Source Sans 3',sans-serif;
+    font-size:13px; font-weight:500;
+    cursor:pointer; transition:all .2s;
+    text-decoration:none;
+  }
+  .listen-btn:hover { border-color:var(--gold-border); color:var(--gold); box-shadow:0 1px 6px var(--shadow-gold); }
+
+  /* ── DIVIDER ── */
+  .divider { display:flex; align-items:center; gap:1rem; margin:2.25rem auto; }
+  .divider-line { flex:1; height:1px; background:linear-gradient(90deg,transparent,var(--border),transparent); }
+  .divider-gem { color:var(--gold-border); font-size:12px; }
+
+  /* ── TWO COLUMNS ── */
+  .cols-header { font-family:'Cinzel',serif; font-size:11px; letter-spacing:.3em; text-transform:uppercase; color:var(--text-light); margin-bottom:1.25rem; }
+  .cols-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.75rem; align-items:start; }
+  @media (max-width:768px) {
+    .cols-grid { grid-template-columns:1fr; }
+    .week-title { font-size:36px; }
+    .hook-card { padding:2rem 1.5rem; }
+    .hook-card::before { font-size:52px; top:4px; left:12px; }
+    .hook-text { font-size:18px; padding-left:.5rem; }
+  }
+
+  /* ── CARD ── */
+  .card {
+    background:var(--warm-white);
+    border:1px solid var(--border);
+    border-radius:10px;
+    overflow:hidden;
+    transition:box-shadow .2s;
+  }
+  .card:hover { box-shadow:0 4px 18px var(--shadow); }
+  .card-head {
+    padding:1.25rem 1.5rem .85rem;
+    border-bottom:1px solid var(--border);
+  }
+  .card-label { font-family:'Cinzel',serif; font-size:10px; letter-spacing:.25em; text-transform:uppercase; color:var(--gold-muted); margin-bottom:.45rem; }
+  .card-title { font-family:'Cormorant Garamond',serif; font-size:22px; font-weight:600; color:var(--text); line-height:1.3; }
+  .card-subtitle { font-size:14px; color:var(--text-muted); margin-top:.2rem; }
+  .card-body { padding:1.25rem 1.5rem; }
+  .theme-lbl { font-family:'Cinzel',serif; font-size:10px; letter-spacing:.2em; text-transform:uppercase; color:var(--gold-muted); margin-bottom:.5rem; }
+  .card-body p { font-size:15px; color:var(--text-2); line-height:1.75; margin-bottom:.75rem; }
+  .prompts { list-style:none; padding:0; }
+  .prompts li {
+    font-size:14px; color:var(--text-2);
+    padding:.5rem 0 .5rem 1.35rem;
+    border-bottom:1px solid rgba(232,224,212,0.5);
+    position:relative; line-height:1.6;
+  }
+  .prompts li::before { content:'✦'; position:absolute; left:0; color:var(--gold-light); font-size:8px; top:.65rem; }
+  .prompts li:last-child { border-bottom:none; }
+
+  /* ── SNIPPETS ── */
+  .snippets-card .card-body { padding:0; }
+  .snippet {
+    display:block; padding:1.1rem 1.5rem;
+    border-bottom:1px solid var(--border);
+    text-decoration:none; color:inherit;
+    transition:background .15s;
+  }
+  .snippet:last-child { border-bottom:none; }
+  .snippet:hover { background:var(--gold-faint); }
+  .snippet-head { display:flex; align-items:center; gap:.6rem; margin-bottom:.3rem; }
+  .snippet-tag {
+    font-size:10px; font-weight:600; letter-spacing:.07em; text-transform:uppercase;
+    padding:2px 8px; border-radius:3px; line-height:1.6; flex-shrink:0;
+  }
+  .snippet-verse { font-size:12px; color:var(--text-muted); font-weight:500; }
+  .snippet-text { font-size:14px; color:var(--text-2); line-height:1.65; }
+  .snippet-cta { font-size:12px; color:var(--gold-muted); margin-top:.35rem; display:inline-block; }
+
+  /* ── CREATORS ── */
+  .creators-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:1.1rem; }
+  .creators-lbl { font-family:'Cinzel',serif; font-size:11px; letter-spacing:.3em; text-transform:uppercase; color:var(--text-light); }
+  .creators-all { font-size:13px; color:var(--gold-muted); text-decoration:none; font-weight:500; }
+  .creators-all:hover { color:var(--gold); }
+  .creators-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:.75rem; }
+  .creator-chip {
+    display:flex; align-items:center; gap:.75rem;
+    padding:.7rem 1rem;
+    background:var(--warm-white);
+    border:1px solid var(--border);
+    border-radius:8px;
+    text-decoration:none; color:inherit;
+    transition:all .2s;
+  }
+  .creator-chip:hover { border-color:var(--gold-border); box-shadow:0 2px 8px var(--shadow-gold); }
+  .creator-icon { width:32px; height:32px; border-radius:6px; background:var(--gold-faint); display:flex; align-items:center; justify-content:center; font-size:14px; flex-shrink:0; }
+  .creator-name { font-size:13px; font-weight:600; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .creator-type { font-size:11px; color:var(--text-muted); }
+
+  /* ── DEEP DIVE CTA ── */
+  .cta-card {
+    background:linear-gradient(135deg, var(--text) 0%, #3D3425 100%);
+    border-radius:10px;
+    padding:2.25rem 2.5rem;
+    display:flex; align-items:center; justify-content:space-between; gap:2rem; flex-wrap:wrap;
+  }
+  html.dark .cta-card { background:linear-gradient(135deg,#242445 0%,#1a1a2e 100%); }
+  .cta-lbl { font-family:'Cinzel',serif; font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--gold-light); margin-bottom:.5rem; }
+  .cta-title { font-family:'Cormorant Garamond',serif; font-size:26px; font-weight:500; color:#FAF7F2; line-height:1.3; margin-bottom:.4rem; }
+  .cta-desc { font-size:14px; color:#A89B87; line-height:1.65; }
+  .cta-btn {
+    display:inline-flex; align-items:center; gap:.5rem;
+    padding:.75rem 1.5rem;
+    background:var(--gold);
+    color:var(--cream);
+    border-radius:6px; text-decoration:none;
+    font-family:'Source Sans 3',sans-serif;
+    font-size:14px; font-weight:600; letter-spacing:.02em;
+    transition:all .2s; white-space:nowrap;
+  }
+  .cta-btn:hover { background:var(--gold-light); box-shadow:0 2px 12px rgba(158,122,56,.3); }
+
+  /* ── SCHEDULE ── */
+  .schedule-row {
+    display:flex; align-items:center; gap:1rem;
+    padding:.6rem 1rem; border-radius:8px;
+    border:1px solid var(--border);
+    background:var(--warm-white);
+    transition:border-color .15s, background .15s;
+  }
+  .schedule-row.has-content { cursor:pointer; }
+  .schedule-row.has-content:hover { border-color:var(--gold-border); background:var(--gold-faint); }
+  .schedule-row.past { opacity:.55; }
+  .wk-num { font-family:'Cinzel',serif; font-size:11px; font-weight:600; color:var(--gold-muted); width:2.5rem; flex-shrink:0; }
+  .wk-title { font-size:14px; font-weight:600; color:var(--text); flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .wk-scripture { font-size:12px; color:var(--text-muted); flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; display:none; }
+  @media(min-width:640px){ .wk-scripture { display:block; } }
+  .wk-date { font-size:12px; color:var(--text-light); flex-shrink:0; display:none; }
+  @media(min-width:768px){ .wk-date { display:block; } }
+  .wk-badge { font-size:10px; color:var(--gold); border:1px solid var(--gold-border); padding:1px 8px; border-radius:100px; flex-shrink:0; }
+</style>
+
+<!-- ══════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════ -->
+<section class="pg hero anim-hero">
+  <p class="week-label">This Week's Study</p>
+  <h1 class="week-title">Week {currentWeekNum}: <span>{currentWeek.title}</span></h1>
+  <div class="week-meta">
+    <span class="week-date">{currentWeek.date_start.slice(5).replace('-', '/')} – {currentWeek.date_end.slice(5).replace('-', '/')}, 2026</span>
+    <span class="meta-dot"></span>
+    <span class="week-scripture">{currentWeek.scripture_block}</span>
+  </div>
+  {currentWeek.official_url && (
+    <a href={currentWeek.official_url} target="_blank" rel="noopener" class="cfm-link">
+      Official Come, Follow Me Lesson
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3l5 5-5 5"/></svg>
     </a>
+  )}
+</section>
 
-    <!-- Hook paragraph + audio player -->
-    {hookData?.hook && (
-      <div class="mt-6">
-        <blockquote id="hook-text" class="border-l-2 border-gold/40 pl-5 py-1 text-text/90 text-base md:text-lg leading-relaxed italic font-serif">
-          {hookData.hook}
-        </blockquote>
+<!-- ══════════════════════════════════════════════
+     HOOK
+══════════════════════════════════════════════ -->
+{hookData?.hook && (
+  <section class="pg hook-section anim-hook">
+    <div class="hook-card">
+      <p class="hook-text" id="hook-text">
+        <span class="hook-lead">{hookData.hook.split('—')[0].trim()}</span>
+        {hookData.hook.includes('—') ? ' — ' + hookData.hook.split('—').slice(1).join('—') : ''}
+      </p>
 
-        <!-- Audio play button -->
-        <div class="mt-3 pl-5 flex items-center gap-3">
-          <button
-            id="audio-play-btn"
-            aria-label="Listen to this week's introduction"
-            class="group flex items-center gap-2 text-xs font-sans text-gold/60 hover:text-gold transition-colors"
-          >
-            <span id="audio-icon" class="flex items-center justify-center w-7 h-7 rounded-full border border-gold/30 group-hover:border-gold/60 transition-colors">
-              <!-- Play icon -->
-              <svg id="icon-play" class="w-3 h-3 ml-0.5 fill-current" viewBox="0 0 12 12">
-                <polygon points="2,1 11,6 2,11" />
-              </svg>
-              <!-- Pause icon (hidden by default) -->
-              <svg id="icon-pause" class="w-3 h-3 fill-current hidden" viewBox="0 0 12 12">
-                <rect x="2" y="1" width="3" height="10" rx="0.5" />
-                <rect x="7" y="1" width="3" height="10" rx="0.5" />
-              </svg>
-              <!-- Loading spinner (hidden by default) -->
-              <svg id="icon-loading" class="w-3 h-3 animate-spin hidden" viewBox="0 0 12 12" fill="none">
-                <circle cx="6" cy="6" r="4.5" stroke="currentColor" stroke-width="1.5" stroke-dasharray="14 8" />
-              </svg>
-            </span>
-            <span id="audio-label">Listen</span>
-          </button>
-          {audioUrl && (
-            <span class="text-[10px] font-sans text-gold/30 uppercase tracking-wider">AI Voice</span>
-          )}
-        </div>
-
-        {/* Hidden audio element for MP3 playback */}
-        {audioUrl && <audio id="hook-audio" src={audioUrl} preload="none" />}
+      <div class="hook-actions">
+        <button id="audio-play-btn" class="listen-btn" aria-label="Listen to this week's introduction">
+          <svg id="icon-play" width="16" height="16" viewBox="0 0 16 16" style="fill:currentColor;"><path d="M4 2.5l10 5.5-10 5.5z"/></svg>
+          <svg id="icon-pause" width="16" height="16" viewBox="0 0 16 16" style="fill:currentColor;display:none;"><rect x="3" y="2" width="4" height="12" rx="1"/><rect x="9" y="2" width="4" height="12" rx="1"/></svg>
+          <svg id="icon-loading" width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:none;" class="spin"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5" stroke-dasharray="18 10"/></svg>
+          <span id="audio-label">Listen to introduction</span>
+        </button>
+        {audioUrl && <span style="font-size:10px;color:var(--text-light);letter-spacing:.05em;text-transform:uppercase;">AI Voice · Nova</span>}
       </div>
-    )}
 
-    <!-- Two-column layout -->
-    <div class="mt-8 grid md:grid-cols-2 gap-6">
+      {audioUrl && <audio id="hook-audio" src={audioUrl} preload="none" />}
+    </div>
+  </section>
+)}
 
-      <!-- LEFT: Official Curriculum -->
-      <div class="bg-navy-light rounded-2xl p-6 border border-navy-lighter">
-        <p class="font-sans text-xs uppercase tracking-widest text-gold/50 mb-4">Official Curriculum</p>
-        <h3 class="font-sans text-lg font-semibold text-gold mb-1">{currentWeek.title}</h3>
-        <p class="font-sans text-sm text-text-muted mb-4">{currentWeek.scripture_block}</p>
+<!-- ══════════════════════════════════════════════
+     ORNAMENTAL DIVIDER
+══════════════════════════════════════════════ -->
+<div class="pg divider">
+  <div class="divider-line"></div>
+  <span class="divider-gem">✦</span>
+  <div class="divider-line"></div>
+</div>
 
-        <div class="space-y-3 text-sm text-text/80 font-sans leading-relaxed">
-          <div>
-            <p class="text-gold/70 font-semibold text-xs uppercase tracking-wide mb-1">This Week's Theme</p>
-            <p>The Abrahamic covenant moves from promise to fulfillment — from the impossible announcement of Isaac's birth to his binding on Mount Moriah. These chapters ask the defining question of covenant life: do we trust God enough to obey when we cannot see the end?</p>
-          </div>
-          <div>
-            <p class="text-gold/70 font-semibold text-xs uppercase tracking-wide mb-1">Key Study Questions</p>
-            <ul class="list-disc list-inside space-y-1 text-text/70">
-              <li>What does Abraham's hospitality reveal about his relationship with God?</li>
-              <li>How does "Is anything too hard for the LORD?" apply to your life?</li>
-              <li>What does the binding of Isaac teach us about covenant faithfulness?</li>
-              <li>Where do you see Christ foreshadowed in these chapters?</li>
-            </ul>
-          </div>
-        </div>
+<!-- ══════════════════════════════════════════════
+     TWO COLUMNS
+══════════════════════════════════════════════ -->
+<section class="pg anim-cols" style="padding-bottom:2.5rem;">
+  <p class="cols-header">Start Your Study</p>
+  <div class="cols-grid">
 
-        <a
-          href={currentWeek.official_url}
-          target="_blank"
-          rel="noopener"
-          class="inline-block mt-5 font-sans text-xs bg-navy border border-gold/30 text-gold/80 hover:text-gold hover:border-gold/60 px-4 py-2 rounded-lg transition-colors"
-        >
-          Open Official Lesson &rarr;
+    <!-- LEFT: Official Curriculum -->
+    <div class="card">
+      <div class="card-head">
+        <p class="card-label">Official Curriculum</p>
+        <h2 class="card-title">{currentWeek.title}</h2>
+        <p class="card-subtitle">{currentWeek.scripture_block}</p>
+      </div>
+      <div class="card-body">
+        <p class="theme-lbl">This Week's Theme</p>
+        <p>The Abrahamic covenant moves from promise to fulfillment — from the impossible announcement of Isaac's birth to his binding on Mount Moriah. These chapters ask the defining question of covenant life: do we trust God enough to obey when we cannot see the end?</p>
+        <ul class="prompts">
+          <li>What does Abraham's hospitality to the three visitors teach about how we receive revelation?</li>
+          <li>Why did Sarah laugh — and what changed by Genesis 21:6?</li>
+          <li>How does Abraham's willingness to sacrifice Isaac foreshadow the Atonement?</li>
+          <li>What does "Is any thing too hard for the LORD?" mean in your life right now?</li>
+        </ul>
+        <a href={currentWeek.official_url} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:.4rem;margin-top:1.1rem;font-size:13px;color:var(--gold-muted);text-decoration:none;font-weight:500;" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--gold-muted)'">
+          Open Official Lesson
+          <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3l5 5-5 5"/></svg>
         </a>
       </div>
+    </div>
 
-      <!-- RIGHT: Companion Snippets -->
-      <div class="bg-navy-light rounded-2xl p-6 border border-navy-lighter">
-        <p class="font-sans text-xs uppercase tracking-widest text-gold/50 mb-4">What You Might Not Know</p>
-
-        {snippets.length > 0 ? (
-          <div class="space-y-4">
-            {snippets.map((s: any) => {
-              const meta = categoryMeta[s.category] ?? { label: s.category, color: 'bg-navy text-text-muted border-navy-lighter' };
-              const href = `/2026/week/${currentWeekNum}#${s.deep_dive_anchor}`;
-              return (
-                <a href={href} class="block group">
-                  <div class="flex items-start gap-3">
-                    <span class={`mt-0.5 shrink-0 font-sans text-[10px] font-semibold uppercase tracking-wider border px-1.5 py-0.5 rounded ${meta.color}`}>
-                      {meta.label}
-                    </span>
-                    <div>
-                      <p class="font-sans text-xs text-text-muted mb-0.5">{s.verse_reference}</p>
-                      <p class="text-sm text-text/80 leading-relaxed group-hover:text-text transition-colors">{s.snippet_text}</p>
-                    </div>
-                  </div>
-                </a>
-              );
-            })}
-          </div>
-        ) : (
-          <p class="text-text-muted text-sm font-sans">Companion insights are being generated...</p>
+    <!-- RIGHT: Companion Snippets -->
+    <div class="card snippets-card">
+      <div class="card-head">
+        <p class="card-label">What You Might Not Know</p>
+      </div>
+      <div class="card-body">
+        {snippets.length > 0 ? snippets.map((s: any) => {
+          const meta = categoryMeta[s.category] ?? { label: s.category, bg: '#E8E0D4', color: '#5C4F3D' };
+          const href = `/2026/week/${currentWeekNum}#${s.deep_dive_anchor}`;
+          return (
+            <a href={href} class="snippet">
+              <div class="snippet-head">
+                <span class="snippet-tag" style={`background:${meta.bg};color:${meta.color};`}>{meta.label}</span>
+                <span class="snippet-verse">{s.verse_reference}</span>
+              </div>
+              <p class="snippet-text">{s.snippet_text}</p>
+              <span class="snippet-cta">Read in Deep Dive →</span>
+            </a>
+          );
+        }) : (
+          <p style="padding:1.5rem;font-size:14px;color:var(--text-muted);">Companion insights coming soon.</p>
         )}
       </div>
     </div>
-
-    <!-- Deep Dive CTA -->
-    <div class="mt-6 text-center">
-      <a
-        href={`/2026/week/${currentWeekNum}`}
-        class="inline-block font-sans bg-gold text-navy font-semibold px-8 py-3 rounded-lg hover:bg-gold-light transition-colors text-sm tracking-wide"
-      >
-        Read the Full Deep Dive — 167 Verses &rarr;
-      </a>
-    </div>
   </div>
+</section>
 
-  <!-- ── ALL WEEKS SCHEDULE ── -->
-  <div>
-    <div class="flex items-center gap-4 mb-6">
-      <h2 class="font-sans text-xl font-bold text-gold">2026 Schedule</h2>
-      <div class="flex-1 h-px bg-navy-lighter"></div>
-      <p class="font-sans text-xs text-text-muted">Old Testament — Come, Follow Me</p>
+<!-- ══════════════════════════════════════════════
+     CREATORS THIS WEEK
+══════════════════════════════════════════════ -->
+{foundCreators.length > 0 && (
+  <section class="pg anim-creators" style="padding-bottom:2.5rem;">
+    <div class="creators-head">
+      <span class="creators-lbl">This Week's Creators</span>
+      <a href="/about#sources" class="creators-all">All sources →</a>
     </div>
-
-    <div class="grid gap-2">
-      {otherWeeks.map((w: any) => {
-        const isPast = w.date_end < today;
-        const isUpcoming = w.date_start > today;
-        const content = hasContent(w);
-
+    <div class="creators-grid">
+      {foundCreators.map((c: any) => {
+        const icon = creatorIcons[c.content?.content_type ?? ''] ?? '📖';
+        const typeLabel = c.content?.content_type?.replace(/_/g, '/') ?? '';
+        const guest = c.content?.hosts_or_guests;
         return (
-          <div class={`flex items-center gap-4 px-4 py-3 rounded-xl border transition-colors ${
-            content
-              ? 'border-navy-lighter bg-navy-light hover:border-gold/30 cursor-pointer'
-              : isPast
-              ? 'border-navy-lighter/50 bg-navy/30 opacity-60'
-              : 'border-navy-lighter/60 bg-navy/20'
-          }`}>
-            <span class={`font-sans text-xs font-bold shrink-0 w-10 text-center ${content ? 'text-gold' : 'text-text-muted'}`}>
-              W{w.week}
-            </span>
-            <div class="flex-1 min-w-0">
-              {content ? (
-                <a href={`/2026/week/${w.week}`} class="block group">
-                  <p class="font-sans text-sm font-semibold text-text group-hover:text-gold transition-colors truncate">{w.title}</p>
-                  <p class="font-sans text-xs text-text-muted truncate">{w.scripture_block}</p>
-                </a>
-              ) : (
-                <div>
-                  <p class="font-sans text-sm font-semibold text-text/60 truncate">{w.title}</p>
-                  <p class="font-sans text-xs text-text-muted truncate">{w.scripture_block}</p>
-                </div>
-              )}
+          <a href={c.content.url} target="_blank" rel="noopener" class="creator-chip">
+            <div class="creator-icon">{icon}</div>
+            <div style="min-width:0;">
+              <div class="creator-name">{c.source_name.split('—')[0].trim()}</div>
+              <div class="creator-type">{typeLabel}{guest ? ` · ${guest.split(',')[0].trim()}` : ''}</div>
             </div>
-            <span class="font-sans text-xs text-text-muted shrink-0 hidden sm:block">{w.date_start.slice(5)}</span>
-            {content && (
-              <span class="font-sans text-[10px] text-gold/70 border border-gold/30 px-2 py-0.5 rounded-full shrink-0">Live</span>
-            )}
-          </div>
+          </a>
         );
       })}
     </div>
-  </div>
+  </section>
+)}
 
+<!-- ══════════════════════════════════════════════
+     DEEP DIVE CTA
+══════════════════════════════════════════════ -->
+<section class="pg anim-cta" style="padding-bottom:3rem;">
+  <div class="cta-card">
+    <div style="flex:1;min-width:260px;">
+      <p class="cta-lbl">Go Deeper</p>
+      <h2 class="cta-title">Verse-by-Verse Deep Dive</h2>
+      <p class="cta-desc">
+        {hasVerseCount > 0 ? `${hasVerseCount} verses` : 'Full commentary'} — Hebrew word studies, cross-references, Restoration connections, prophetic teachings, and practical application for every verse in {currentWeek.scripture_block}.
+      </p>
+    </div>
+    <a href={`/2026/week/${currentWeekNum}`} class="cta-btn">
+      Enter Deep Dive
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     DIVIDER
+══════════════════════════════════════════════ -->
+<div class="pg divider">
+  <div class="divider-line"></div>
+  <span class="divider-gem">✦</span>
+  <div class="divider-line"></div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     2026 SCHEDULE
+══════════════════════════════════════════════ -->
+<section class="pg" style="padding-bottom:4rem;">
+  <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1.25rem;">
+    <p class="cols-header" style="margin:0;">2026 Schedule — Old Testament</p>
+    <div style="flex:1;height:1px;background:var(--border);"></div>
+  </div>
+  <div style="display:grid;gap:.5rem;">
+    {otherWeeks.map((w: any) => {
+      const content = hasContentFor(w);
+      const isPast = w.date_end < today;
+      return content ? (
+        <a href={`/2026/week/${w.week}`} class={`schedule-row has-content ${isPast ? 'past' : ''}`} style="text-decoration:none;color:inherit;">
+          <span class="wk-num">W{w.week}</span>
+          <span class="wk-title">{w.title}</span>
+          <span class="wk-scripture">{w.scripture_block}</span>
+          <span class="wk-date">{w.date_start.slice(5).replace('-', '/')}</span>
+          <span class="wk-badge">Live</span>
+        </a>
+      ) : (
+        <div class={`schedule-row ${isPast ? 'past' : ''}`}>
+          <span class="wk-num" style="color:var(--text-light);">W{w.week}</span>
+          <span class="wk-title" style="color:var(--text-muted);font-weight:400;">{w.title}</span>
+          <span class="wk-scripture">{w.scripture_block}</span>
+          <span class="wk-date">{w.date_start.slice(5).replace('-', '/')}</span>
+        </div>
+      );
+    })}
+  </div>
+</section>
+
+<!-- spin animation -->
+<style>@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}.spin{animation:spin 1s linear infinite}</style>
 
 <script define:vars={{ hookText, audioUrl }}>
 (function () {
-  const btn = document.getElementById('audio-play-btn');
+  var btn = document.getElementById('audio-play-btn');
   if (!btn) return;
+  var iconPlay = document.getElementById('icon-play');
+  var iconPause = document.getElementById('icon-pause');
+  var iconLoad = document.getElementById('icon-loading');
+  var label = document.getElementById('audio-label');
+  var mp3 = document.getElementById('hook-audio');
+  var playing = false;
 
-  const iconPlay    = document.getElementById('icon-play');
-  const iconPause   = document.getElementById('icon-pause');
-  const iconLoading = document.getElementById('icon-loading');
-  const label       = document.getElementById('audio-label');
-  const mp3         = document.getElementById('hook-audio');
-
-  let playing = false;
-  let utterance = null;
-
-  function setIcon(state) {
-    iconPlay.classList.toggle('hidden', state !== 'play');
-    iconPause.classList.toggle('hidden', state !== 'pause');
-    iconLoading.classList.toggle('hidden', state !== 'loading');
-    label.textContent = state === 'pause' ? 'Pause' : state === 'loading' ? 'Loading…' : 'Listen';
+  function setIcon(s) {
+    iconPlay.style.display = s === 'play' ? '' : 'none';
+    iconPause.style.display = s === 'pause' ? '' : 'none';
+    iconLoad.style.display = s === 'loading' ? '' : 'none';
+    label.textContent = s === 'pause' ? 'Pause' : s === 'loading' ? 'Loading…' : 'Listen to introduction';
   }
 
   function stopAll() {
@@ -277,60 +526,36 @@ const hasContent = (w: any) => {
     setIcon('play');
   }
 
-  // MP3 path (pre-generated OpenAI TTS)
-  if (mp3) {
-    mp3.addEventListener('ended', stopAll);
-    mp3.addEventListener('error', () => {
-      // Fall back to browser TTS if MP3 fails
-      startBrowserTTS();
-    });
-  }
-
   function startBrowserTTS() {
     if (!window.speechSynthesis || !hookText) return;
     window.speechSynthesis.cancel();
-    utterance = new SpeechSynthesisUtterance(hookText);
-    utterance.rate = 0.93;
-    utterance.pitch = 1.0;
-
-    // Pick the best available English voice
-    const voices = window.speechSynthesis.getVoices();
-    const preferred = voices.find(v =>
-      ['Samantha', 'Karen', 'Serena', 'Moira', 'Victoria'].some(n => v.name.includes(n))
-    ) || voices.find(v => v.lang.startsWith('en') && !v.name.toLowerCase().includes('google')) 
-      || voices.find(v => v.lang.startsWith('en'));
-    if (preferred) utterance.voice = preferred;
-
-    utterance.onstart  = () => { playing = true; setIcon('pause'); };
-    utterance.onend    = stopAll;
-    utterance.onerror  = stopAll;
-    window.speechSynthesis.speak(utterance);
+    var u = new SpeechSynthesisUtterance(hookText);
+    u.rate = 0.93; u.pitch = 1.0;
+    var voices = window.speechSynthesis.getVoices();
+    var v = voices.find(function(v){ return ['Samantha','Karen','Serena','Moira'].some(function(n){ return v.name.includes(n); }); })
+          || voices.find(function(v){ return v.lang.startsWith('en') && !v.name.toLowerCase().includes('google'); })
+          || voices.find(function(v){ return v.lang.startsWith('en'); });
+    if (v) u.voice = v;
+    u.onstart = function(){ playing = true; setIcon('pause'); };
+    u.onend = stopAll; u.onerror = stopAll;
+    window.speechSynthesis.speak(u);
   }
 
-  btn.addEventListener('click', () => {
-    if (playing) {
-      stopAll();
-      return;
-    }
+  if (mp3) {
+    mp3.addEventListener('ended', stopAll);
+    mp3.addEventListener('error', startBrowserTTS);
+  }
 
+  btn.addEventListener('click', function() {
+    if (playing) { stopAll(); return; }
     if (mp3 && audioUrl) {
-      // Use pre-generated AI audio
       setIcon('loading');
-      mp3.play().then(() => {
-        playing = true;
-        setIcon('pause');
-      }).catch(() => {
-        startBrowserTTS();
-      });
+      mp3.play().then(function(){ playing = true; setIcon('pause'); }).catch(startBrowserTTS);
     } else {
-      // Browser TTS fallback
-      // Voices may not be loaded yet on first click
       if (window.speechSynthesis.getVoices().length === 0) {
-        window.speechSynthesis.onvoiceschanged = () => startBrowserTTS();
-        window.speechSynthesis.getVoices(); // trigger load
-      } else {
-        startBrowserTTS();
-      }
+        window.speechSynthesis.onvoiceschanged = startBrowserTTS;
+        window.speechSynthesis.getVoices();
+      } else { startBrowserTTS(); }
     }
   });
 })();

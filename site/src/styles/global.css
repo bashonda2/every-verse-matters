@@ -1,88 +1,168 @@
 @import "tailwindcss";
 
+/* ─────────────────────────────────────────
+   DESIGN TOKENS — Light (default)
+   ───────────────────────────────────────── */
 @theme {
-  --color-gold: #c9a84c;
-  --color-gold-light: #e0c878;
-  --color-gold-dark: #a88a2e;
-  --color-navy: #1a1a2e;
-  --color-navy-light: #242445;
-  --color-navy-lighter: #2e2e55;
-  --color-slate: #b0b0c0;
-  --color-text: #e0e0e0;
-  --color-text-muted: #8a8aa0;
-  --color-verse-bg: #1e1e36;
-  --color-expand-bg: #222244;
+  /* Brand colors */
+  --color-gold:        #9E7A38;
+  --color-gold-light:  #C4A35A;
+  --color-gold-muted:  #B8976A;
+  --color-gold-faint:  rgba(158, 122, 56, 0.08);
+  --color-gold-border: rgba(158, 122, 56, 0.25);
+
+  /* Surface */
+  --color-cream:       #FAF7F2;
+  --color-cream-dark:  #F3EDE3;
+  --color-parchment:   #F5F0E8;
+  --color-warm-white:  #FDFCFA;
+
+  /* Text */
+  --color-text:        #2C2418;
+  --color-text-2:      #5C4F3D;
+  --color-text-muted:  #8A7D6B;
+  --color-text-light:  #A89B87;
+
+  /* Structural (mapped to old names for VerseCommentary etc.) */
+  --color-navy:        #FAF7F2;
+  --color-navy-light:  #F5F0E8;
+  --color-navy-lighter:#E8E0D4;
+  --color-verse-bg:    #F5F0E8;
+  --color-expand-bg:   #F0EBE0;
+  --color-border:      #E8E0D4;
+  --color-shadow-warm: rgba(44, 36, 24, 0.06);
+  --color-shadow-gold: rgba(158, 122, 56, 0.10);
 }
 
-/* Light mode overrides */
-html.light {
-  --color-gold: #8a6d1b;
-  --color-gold-light: #6b5316;
-  --color-gold-dark: #a88a2e;
-  --color-navy: #f8f6f1;
-  --color-navy-light: #eeebe3;
-  --color-navy-lighter: #ddd9cf;
-  --color-slate: #666;
-  --color-text: #2c2c2c;
-  --color-text-muted: #6b6b7b;
-  --color-verse-bg: #f0ede5;
-  --color-expand-bg: #e8e4db;
+/* ─────────────────────────────────────────
+   DARK MODE OVERRIDES (html.dark)
+   ───────────────────────────────────────── */
+html.dark {
+  --color-gold:        #c9a84c;
+  --color-gold-light:  #e0c878;
+  --color-gold-muted:  #b89a44;
+  --color-gold-faint:  rgba(201, 168, 76, 0.08);
+  --color-gold-border: rgba(201, 168, 76, 0.25);
+
+  --color-cream:       #1a1a2e;
+  --color-cream-dark:  #242445;
+  --color-parchment:   #1e1e36;
+  --color-warm-white:  #1a1a2e;
+
+  --color-text:        #e0e0e0;
+  --color-text-2:      #c0c0d0;
+  --color-text-muted:  #8a8aa0;
+  --color-text-light:  #6a6a80;
+
+  --color-navy:        #1a1a2e;
+  --color-navy-light:  #242445;
+  --color-navy-lighter:#2e2e55;
+  --color-verse-bg:    #1e1e36;
+  --color-expand-bg:   #222244;
+  --color-border:      #2e2e55;
+  --color-shadow-warm: rgba(0, 0, 0, 0.2);
+  --color-shadow-gold: rgba(201, 168, 76, 0.08);
 }
 
+/* ─────────────────────────────────────────
+   BASE STYLES
+   ───────────────────────────────────────── */
 body {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 17px;
-  line-height: 1.9;
-  background-color: var(--color-navy);
+  font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  background-color: var(--color-cream);
   color: var(--color-text);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6, nav, .font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
 }
 
+nav, .font-sans, button, label, input, select, textarea {
+  font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* ─────────────────────────────────────────
+   VERSE DISPLAY
+   ───────────────────────────────────────── */
 .verse-text {
   border-left: 3px solid var(--color-gold);
   padding: 0.85rem 1.25rem;
   background: var(--color-verse-bg);
   font-style: italic;
-  line-height: 1.9;
-  font-size: 1rem;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.85;
   border-radius: 0 0.5rem 0.5rem 0;
+  color: var(--color-text-2);
 }
 
+/* ─────────────────────────────────────────
+   EXPANDABLE SECTIONS (details/summary)
+   ───────────────────────────────────────── */
 details summary {
   cursor: pointer;
   user-select: none;
 }
 
-details summary::-webkit-details-marker {
-  display: none;
-}
+details summary::-webkit-details-marker { display: none; }
 
-details[open] summary .chevron {
-  transform: rotate(90deg);
-}
+details[open] summary .chevron { transform: rotate(90deg); }
 
 .chevron {
   transition: transform 0.2s ease;
   display: inline-block;
 }
 
-/* Theme toggle button */
+/* ─────────────────────────────────────────
+   THEME TOGGLE BUTTON
+   ───────────────────────────────────────── */
 .theme-toggle {
-  background: none;
-  border: 1px solid var(--color-navy-lighter);
-  color: var(--color-text-muted);
-  border-radius: 0.5rem;
-  padding: 0.35rem 0.5rem;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: transparent;
   cursor: pointer;
-  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  font-size: 14px;
+  transition: all 0.2s;
   line-height: 1;
-  transition: border-color 0.2s, color 0.2s;
+  padding: 0;
 }
+
 .theme-toggle:hover {
-  border-color: var(--color-gold);
+  border-color: var(--color-gold-border);
   color: var(--color-gold);
 }
+
+/* ─────────────────────────────────────────
+   HOMEPAGE — CINZEL LABEL UTILITY
+   ───────────────────────────────────────── */
+.label-cinzel {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+/* ─────────────────────────────────────────
+   ANIMATIONS
+   ───────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.anim-hero    { animation: fadeUp 0.55s ease-out both; }
+.anim-hook    { animation: fadeUp 0.55s ease-out 0.12s both; }
+.anim-cols    { animation: fadeUp 0.55s ease-out 0.24s both; }
+.anim-creators{ animation: fadeUp 0.55s ease-out 0.34s both; }
+.anim-cta     { animation: fadeUp 0.55s ease-out 0.42s both; }

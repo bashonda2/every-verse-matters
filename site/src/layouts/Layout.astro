@@ -4,9 +4,14 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  wide?: boolean;
 }
 
-const { title, description = "Deep, verse-by-verse scripture commentary for Come, Follow Me — powered by AI." } = Astro.props;
+const {
+  title,
+  description = "Deep, verse-by-verse scripture commentary for Come, Follow Me — powered by AI.",
+  wide = false,
+} = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -16,56 +21,88 @@ const { title, description = "Deep, verse-by-verse scripture commentary for Come
   <meta name="description" content={description}>
   <title>{title} | EveryVerseMatters</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Apply saved theme immediately to avoid flash -->
   <script is:inline>
     (function() {
-      var theme = localStorage.getItem('evm-theme');
-      if (theme === 'light') document.documentElement.classList.add('light');
+      if (localStorage.getItem('evm-theme') === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
     })();
   </script>
 </head>
+
 <body class="min-h-screen flex flex-col">
-  <header class="border-b border-navy-lighter">
-    <nav class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between font-sans">
-      <a href="/" class="text-gold text-xl font-bold tracking-wide hover:text-gold-light transition-colors">
-        Every Verse Matters
+
+  <!-- ── HEADER ── -->
+  <header style="position:sticky;top:0;z-index:100;border-bottom:1px solid var(--color-border);backdrop-filter:blur(12px);background:rgba(250,247,242,0.95);" class="dark:bg-opacity-95 transition-colors">
+    <div style="max-width:1100px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:68px;">
+
+      <!-- Wordmark -->
+      <a href="/" style="text-decoration:none;display:flex;flex-direction:column;align-items:flex-start;line-height:1;gap:1px;">
+        <span style="font-family:'Cinzel',serif;font-size:10px;letter-spacing:0.35em;text-transform:uppercase;color:var(--color-text-muted);">Every</span>
+        <span id="wordmark-main" style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:26px;color:var(--color-gold);letter-spacing:0.01em;line-height:1.1;position:relative;">
+          Verse Matters
+          <span style="position:absolute;bottom:-2px;left:0;width:100%;height:1.5px;background:linear-gradient(90deg,var(--color-gold),var(--color-gold-light),transparent);opacity:0.5;display:block;"></span>
+        </span>
       </a>
-      <div class="flex items-center gap-5 text-sm text-text-muted">
-        <a href="/2026/week/9" class="hover:text-gold transition-colors">This Week</a>
-        <a href="/weeks" class="hover:text-gold transition-colors">All Weeks</a>
-        <a href="/about" class="hover:text-gold transition-colors">About</a>
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">
-          <span id="theme-icon">&#9789;</span>
+
+      <!-- Nav -->
+      <nav style="display:flex;align-items:center;gap:1.75rem;">
+        <a href="/2026/week/9" style="font-family:'Source Sans 3',sans-serif;font-size:13px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase;color:var(--color-text-muted);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='var(--color-gold)'" onmouseout="this.style.color='var(--color-text-muted)'">This Week</a>
+        <a href="/weeks" style="font-family:'Source Sans 3',sans-serif;font-size:13px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase;color:var(--color-text-muted);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='var(--color-gold)'" onmouseout="this.style.color='var(--color-text-muted)'">All Weeks</a>
+        <a href="/about" style="font-family:'Source Sans 3',sans-serif;font-size:13px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase;color:var(--color-text-muted);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='var(--color-gold)'" onmouseout="this.style.color='var(--color-text-muted)'">About</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark mode">
+          <span id="theme-icon"></span>
         </button>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 
-  <main class="flex-1 max-w-4xl mx-auto px-4 py-8 w-full">
+  <!-- ── MAIN ── -->
+  <main class={`flex-1 w-full ${wide ? '' : 'max-w-4xl mx-auto px-4'} py-8`}>
     <slot />
   </main>
 
-  <footer class="border-t border-navy-lighter mt-12">
-    <div class="max-w-4xl mx-auto px-4 py-6 text-center text-xs text-text-muted font-sans leading-relaxed">
-      <p>EveryVerseMatters.com is an independent study resource and is not affiliated with, endorsed by, or sponsored by The Church of Jesus Christ of Latter-day Saints.</p>
-      <p class="mt-1">Come, Follow Me is a trademark of Intellectual Reserve, Inc. Commentary is AI-supported and should be used as a supplemental study aid.</p>
-      <p class="mt-2 text-gold/60">&copy; 2026 EveryVerseMatters.com</p>
-    </div>
+  <!-- ── FOOTER ── -->
+  <footer style="border-top:1px solid var(--color-border);background:var(--color-cream-dark);padding:2rem;text-align:center;margin-top:2rem;">
+    <p style="font-family:'Source Sans 3',sans-serif;font-size:12px;color:var(--color-text-muted);line-height:1.9;max-width:700px;margin:0 auto;">
+      EveryVerseMatters.com is an independent study resource and is not affiliated with, endorsed by, or sponsored by The Church of Jesus Christ of Latter-day Saints.
+      Come, Follow Me is a trademark of Intellectual Reserve, Inc. Commentary is AI-supported and should be used as a supplemental study aid. Third-party content is linked with attribution; all rights remain with the original creators.
+      <br><span style="color:var(--color-gold-muted);">&copy; 2026 EveryVerseMatters.com</span>
+    </p>
   </footer>
 
+  <!-- Theme toggle script -->
   <script is:inline>
     (function() {
       var btn = document.getElementById('theme-toggle');
       var icon = document.getElementById('theme-icon');
+
       function updateIcon() {
-        var isLight = document.documentElement.classList.contains('light');
-        icon.textContent = isLight ? '\u2600' : '\u263D';
+        var isDark = document.documentElement.classList.contains('dark');
+        // Show moon in light mode (click to go dark), sun in dark mode (click to go light)
+        icon.textContent = isDark ? '\u2600' : '\u263D';
       }
+
       updateIcon();
+
       btn.addEventListener('click', function() {
-        document.documentElement.classList.toggle('light');
-        var isLight = document.documentElement.classList.contains('light');
-        localStorage.setItem('evm-theme', isLight ? 'light' : 'dark');
+        var isDark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('evm-theme', isDark ? 'dark' : 'light');
         updateIcon();
+        // Update sticky header bg for dark mode
+        var hdr = document.querySelector('header');
+        if (hdr) {
+          hdr.style.background = isDark
+            ? 'rgba(26,26,46,0.95)'
+            : 'rgba(250,247,242,0.95)';
+        }
       });
     })();
   </script>
