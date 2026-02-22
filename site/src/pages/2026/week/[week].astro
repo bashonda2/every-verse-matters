@@ -40,7 +40,7 @@ const nextWeek = weekNum < 52 ? weekNum + 1 : null;
 ---
 
 <Layout title={`Week ${weekNum}: ${weekData?.title ?? 'Unknown'}`}>
-  <div class="mb-8">
+  <div id="top" class="mb-8">
     <div class="flex items-center justify-between mb-2 font-sans">
       {prevWeek ? (
         <a href={`/2026/week/${prevWeek}`} class="text-text-muted hover:text-gold text-sm transition-colors">&larr; Week {prevWeek}</a>
@@ -103,6 +103,21 @@ const nextWeek = weekNum < 52 ? weekNum + 1 : null;
             .map((v: any) => (
               <VerseCommentary {...v} />
             ))}
+
+          {/* Per-chapter back to top */}
+          <div class="flex items-center justify-between mt-2 mb-2">
+            <div class="flex-1 h-px bg-navy-lighter/60"></div>
+            <a
+              href="#top"
+              class="mx-4 flex items-center gap-1.5 font-sans text-xs text-text-muted hover:text-gold transition-colors group"
+            >
+              <svg class="w-3 h-3 group-hover:-translate-y-0.5 transition-transform" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="2,8 6,4 10,8" />
+              </svg>
+              Back to top
+            </a>
+            <div class="flex-1 h-px bg-navy-lighter/60"></div>
+          </div>
         </section>
       ))}
 
@@ -152,4 +167,32 @@ const nextWeek = weekNum < 52 ? weekNum + 1 : null;
       <a href={`/2026/week/${nextWeek}`} class="text-text-muted hover:text-gold text-sm transition-colors">Week {nextWeek} &rarr;</a>
     ) : <span />}
   </div>
+
+  <!-- Floating back-to-top button -->
+  <button
+    id="float-top-btn"
+    aria-label="Back to top"
+    class="fixed bottom-6 right-6 z-50 w-10 h-10 rounded-full bg-navy-light border border-gold/30 text-gold/70 hover:text-gold hover:border-gold/60 shadow-lg transition-all duration-200 opacity-0 translate-y-2 pointer-events-none flex items-center justify-center"
+  >
+    <svg class="w-4 h-4" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="3,11 8,5 13,11" />
+    </svg>
+  </button>
+
+  <script>
+    // Floating back-to-top: show after scrolling 400px
+    const btn = document.getElementById('float-top-btn');
+    if (btn) {
+      const toggle = () => {
+        const show = window.scrollY > 400;
+        btn.classList.toggle('opacity-0', !show);
+        btn.classList.toggle('opacity-100', show);
+        btn.classList.toggle('translate-y-2', !show);
+        btn.classList.toggle('translate-y-0', show);
+        btn.classList.toggle('pointer-events-none', !show);
+      };
+      window.addEventListener('scroll', toggle, { passive: true });
+      btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    }
+  </script>
 </Layout>
