@@ -1,46 +1,153 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+const root = join(process.cwd(), '..');
+const registryPath = join(root, 'data', 'sources_registry.json');
+const registry: any[] = JSON.parse(readFileSync(registryPath, 'utf-8'));
+
+const categoryMeta: Record<string, { label: string; description: string; icon: string }> = {
+  official_church: {
+    label: 'Official Church Sources',
+    description: 'Church-published curriculum, General Conference talks, and verified resources.',
+    icon: '⛪',
+  },
+  prophetic_commentary: {
+    label: 'Prophetic Commentary',
+    description: 'Individual General Conference talks and published teachings by Church leaders.',
+    icon: '📖',
+  },
+  scholarly_academic: {
+    label: 'Scholarly & Academic',
+    description: 'Peer-reviewed and institutionally published biblical scholarship.',
+    icon: '🎓',
+  },
+  cfm_creator: {
+    label: 'Come, Follow Me Creators',
+    description: 'Trusted weekly content producers in the LDS CFM community.',
+    icon: '🎙️',
+  },
+};
+
+const categoryOrder = ['official_church', 'prophetic_commentary', 'scholarly_academic', 'cfm_creator'];
+
+const byCategory: Record<string, any[]> = {};
+for (const entry of registry) {
+  if (!byCategory[entry.category]) byCategory[entry.category] = [];
+  byCategory[entry.category].push(entry);
+}
 ---
 
-<Layout title="About">
-  <h1 class="font-sans text-3xl font-bold text-gold mb-6">About Every Verse Matters</h1>
+<Layout title="About | EveryVerseMatters">
 
-  <div class="space-y-6 text-text/80 leading-[1.85]">
+  <h1 class="font-sans text-3xl font-bold text-gold mb-8">About Every Verse Matters</h1>
+
+  <div class="space-y-6 text-text/80 leading-[1.85] mb-14">
+
     <p>
-      EveryVerseMatters.com is a continuing gospel education platform for adult members of The Church of Jesus Christ of Latter-day Saints. It provides deep, verse-by-verse scripture commentary running parallel to the Come, Follow Me curriculum.
+      EveryVerseMatters.com is a continuing gospel education platform for adult members of The Church of Jesus Christ of Latter-day Saints — deep, verse-by-verse scripture commentary running parallel to the Come, Follow Me curriculum.
     </p>
 
-    <h2 class="font-sans text-xl font-semibold text-gold/90 pt-4">The Problem</h2>
+    <h2 class="font-sans text-xl font-semibold text-gold/90 pt-2">The Problem</h2>
     <p>
-      The Church's CES program — Seminary and Institute — effectively ends at age 35. Come, Follow Me has become the centerpiece of member scripture study since 2019, and dozens of podcasts, blogs, and YouTube channels produce content weekly. But no single member can consume it all, and no single creator can synthesize every dimension for every verse.
+      The Church's CES program — Seminary and Institute — effectively ends at age 35. Come, Follow Me has become the centerpiece of member scripture study since 2019, and dozens of podcasts, blogs, and YouTube channels produce content weekly. But no single member can consume it all, and no single creator synthesizes every dimension for every verse.
     </p>
     <p>
       The Old Testament — the 2026 curriculum — is where members struggle most and need the deepest support.
     </p>
 
-    <h2 class="font-sans text-xl font-semibold text-gold/90 pt-4">The Solution</h2>
+    <h2 class="font-sans text-xl font-semibold text-gold/90 pt-2">The Solution</h2>
     <p>
       For every verse in the week's reading, EVM provides narrative commentary, Hebrew word studies, cross-references across all Standard Works, Ancient Near Eastern historical context, JST revisions, Book of Mormon parallels, General Conference quotes, Christological typology, and practical application. No single human creator can cover all these dimensions in a weekly production cycle. AI can — for every verse, every week.
     </p>
     <p>
-      Alongside the AI commentary, EVM catalogs the best third-party CFM content — Scripture Central, Follow Him, Don't Miss This, and more — indexed by verse, with links and attribution. We drive traffic to creators, never replace them.
+      Alongside the AI commentary, EVM catalogs the best third-party CFM content — Scripture Central, Follow Him, Don't Miss This, Unshaken Saints, and more — indexed by verse, with links and attribution. We drive traffic to creators, never replace them.
     </p>
 
-    <h2 class="font-sans text-xl font-semibold text-gold/90 pt-4">Historical Inspiration</h2>
+    <h2 class="font-sans text-xl font-semibold text-gold/90 pt-2">Historical Inspiration</h2>
     <p>
-      This platform carries the spiritual legacy of the School of the Prophets (D&amp;C 88), established by Joseph Smith in Kirtland, Ohio in 1833 — the Church's first adult continuing education program where leaders studied theology, Hebrew, history, and the mysteries of the kingdom. EVM is a modern digital continuation of that tradition.
+      This platform carries the spiritual legacy of the School of the Prophets (D&C 88), established by Joseph Smith in Kirtland, Ohio in 1833 — the Church's first adult continuing education program where leaders studied theology, Hebrew, history, and the mysteries of the kingdom. EVM is a modern digital continuation of that tradition.
     </p>
 
-    <h2 class="font-sans text-xl font-semibold text-gold/90 pt-4">Built By</h2>
+    <h2 class="font-sans text-xl font-semibold text-gold/90 pt-2">Built By</h2>
     <p>
       EveryVerseMatters.com is built by a Latter-day Saint returned missionary and software engineer who believes that deep scripture study shouldn't end when Institute does.
     </p>
 
-    <div class="mt-8">
+    <div class="mt-2">
       <blockquote class="verse-text text-sm">
         "And I give unto you a commandment that you shall teach one another the doctrine of the kingdom. Teach ye diligently and my grace shall attend you."
-        <span class="block text-text-muted text-xs mt-2 not-italic">— D&amp;C 88:77-78</span>
+        <span class="block text-text-muted text-xs mt-2 not-italic">— D&C 88:77-78</span>
       </blockquote>
     </div>
+
+    <div class="mt-4 p-4 rounded-xl bg-navy-light border border-navy-lighter text-sm font-sans text-text-muted">
+      EveryVerseMatters.com is an independent study resource and is not affiliated with, endorsed by, or sponsored by The Church of Jesus Christ of Latter-day Saints. Come, Follow Me is a trademark of Intellectual Reserve, Inc. All commentary is AI-generated and should be used as a supplemental study aid, not as authoritative doctrinal interpretation. Third-party content is linked with attribution; all rights remain with the original creators.
+    </div>
   </div>
+
+  <!-- ── SOURCES SECTION ── -->
+  <div>
+    <div class="flex items-center gap-4 mb-2">
+      <h2 class="font-sans text-2xl font-bold text-gold">Sources</h2>
+      <div class="flex-1 h-px bg-navy-lighter"></div>
+    </div>
+    <p class="font-sans text-sm text-text-muted mb-10">
+      Every quote, insight, and claim on EVM traces to a vetted source in this registry. {registry.length} sources currently verified.
+    </p>
+
+    <div class="space-y-12">
+      {categoryOrder.map((cat) => {
+        const entries = byCategory[cat] ?? [];
+        if (!entries.length) return null;
+        const meta = categoryMeta[cat];
+        return (
+          <div>
+            <div class="flex items-center gap-3 mb-1">
+              <span class="text-xl">{meta.icon}</span>
+              <h3 class="font-sans text-lg font-semibold text-gold/90">{meta.label}</h3>
+              <span class="font-sans text-xs text-text-muted border border-navy-lighter px-2 py-0.5 rounded-full">{entries.length}</span>
+            </div>
+            <p class="font-sans text-sm text-text-muted mb-5 ml-8">{meta.description}</p>
+
+            <div class="grid gap-3 ml-8">
+              {entries.map((s: any) => (
+                <div class="bg-navy-light rounded-xl p-4 border border-navy-lighter">
+                  <div class="flex items-start justify-between gap-4">
+                    <div class="min-w-0">
+                      {s.url ? (
+                        <a
+                          href={s.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="font-sans text-sm font-semibold text-gold hover:text-gold-light transition-colors"
+                        >
+                          {s.name} &rarr;
+                        </a>
+                      ) : (
+                        <p class="font-sans text-sm font-semibold text-gold">{s.name}</p>
+                      )}
+                      {s.author && s.author !== s.name && (
+                        <p class="font-sans text-xs text-text-muted mt-0.5">
+                          {s.author}{s.date ? ` · ${s.date}` : ''}
+                        </p>
+                      )}
+                      {s.description && (
+                        <p class="font-sans text-xs text-text/60 mt-1.5 leading-relaxed">{s.description}</p>
+                      )}
+                    </div>
+                    <span class="shrink-0 font-sans text-[10px] text-emerald-400 border border-emerald-800/50 bg-emerald-900/20 px-2 py-0.5 rounded-full whitespace-nowrap">
+                      verified
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+
 </Layout>
