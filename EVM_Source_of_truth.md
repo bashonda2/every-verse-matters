@@ -1,10 +1,10 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** February 22, 2026 (4:00 PM MT)
+**Last Updated:** February 22, 2026 (5:00 PM MT)
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** Hack Week complete — everyversematters.com live with three-tier homepage, Deep Dive (167 verses), 18 creators, 26-source registry, audio playback (OpenAI TTS), back-to-top nav, weekly cron running
+**Status:** Hack Week complete — everyversematters.com live with editorial light-first redesign, 26-source registry, OpenAI TTS audio, 18-creator catalog, cron automation running. Ready to share.
 
 ---
 
@@ -1139,6 +1139,8 @@ Potential premium features:
 - **Mobile-First** — most members study on their phones
 - **Fast** — static generation, minimal JavaScript, CDN-cached
 - **Reverent but Modern** — not churchy clip art, not Silicon Valley minimalism. Think: a beautiful study Bible meets a modern web app.
+- **Editorial, Not Technical** — cream/parchment palette, serif typography (Cormorant Garamond), Cinzel small caps labels. Feels like a premium devotional publication, not a tech product. Intentionally accessible to older readers.
+- **Light-First** — default theme is light/cream. Dark mode available via toggle. Target audience (35+ adults) is more comfortable with light backgrounds.
 
 ---
 
@@ -1405,6 +1407,23 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] MCP server: stdio-only (Cursor/Claude Desktop integration). HTTP transport needed for Phase 2 web integration — not PM2-able yet.
 - [x] Kerry Muhlestein's The Scriptures Are Real — added to sources registry + Tier 1 discovery catalog
 - [x] One Minute Scripture Study (Cali Black) — added to registry with discovery note (not web-indexable)
+- [x] Homepage full aesthetic redesign — editorial light-first theme with three fonts:
+  - **Cormorant Garamond** (serif) — week title, hook paragraph, verse text
+  - **Source Sans 3** (humanist sans) — all UI, nav, card body
+  - **Cinzel** (small caps) — section labels, card headers, week markers
+  - Cream/parchment/warm-white palette (#FAF7F2, #F5F0E8, #FDFCFA); gold shifted to #9E7A38
+  - Light-first by default; dark mode toggled via `html.dark` class (localStorage persisted)
+  - New two-line wordmark: "EVERY" (Cinzel) over "Verse Matters" (Cormorant) with gradient underline
+  - Sticky frosted glass header (backdrop-filter blur)
+  - Hook card: gradient parchment background, decorative 80px `"` quote mark, gold left border
+  - Ornamental `✦` dividers between sections
+  - Snippet tags in muted warm palette (not neon)
+  - Creator chips grid with emoji type icons
+  - Dark gradient Deep Dive CTA banner with gold button
+  - Schedule: compact clickable rows with Live badge
+  - Staggered fadeUp animations on page load
+- [x] About page "The Solution" copy rewritten — warmer, reader-first, removed AI-intimidation framing
+- [x] "Built By" copy corrected — "built with AI by a Latter-day Saint returned missionary"
 
 **Remaining:**
 - [ ] `verify_quotes` pipeline — strip unverifiable prophetic quotes from Week 9 commentary
@@ -1533,4 +1552,4 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 
 *The MCP-first architecture described in Sections 5-6 is the core differentiator — it enables a single person (Aaron) to operate a content platform that would normally require a full editorial team, publishing fresh, deep, verified content every single week without manual intervention. The same tools power the automated pipeline, interactive development, and the user-facing AI experience. The Source Registry (Section 12) is the editorial backbone that makes the platform trustworthy: every quote is traceable, every source is vetted, nothing ships unverified.*
 
-*Hack Week (Feb 22-27, 2026) status: site live at everyversematters.com — 167-verse Deep Dive, three-tier homepage with OpenAI TTS audio, 18-creator catalog, 26-source registry, back-to-top navigation, cron automation running. Next milestone: first fully automated pipeline run for Week 10 on Saturday March 7, 2026.*
+*Hack Week (Feb 22-27, 2026) status: site live at everyversematters.com — editorial light-first redesign with Cormorant Garamond/Cinzel typography, 167-verse Deep Dive, three-tier homepage with OpenAI TTS audio, 18-creator catalog, 26-source registry, cron automation live. Ready to share with family/ward. Next milestone: first fully automated pipeline run for Week 10 on Saturday March 7, 2026.*
