@@ -1,69 +1,213 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { readFileSync } from 'fs';
+import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
 const root = join(process.cwd(), '..');
 const schedule = JSON.parse(readFileSync(join(root, 'data', 'cfm_schedule.json'), 'utf-8'));
 
 const today = new Date().toISOString().split('T')[0];
-const currentWeek = schedule.find((w: any) => today >= w.date_start && today <= w.date_end) || schedule[8];
+
+// Prefer the week that has content AND is closest/most relevant:
+// 1. If today's week has content, use it
+// 2. If the upcoming week has content (pipeline runs ahead), use that
+// 3. Fall back to the week with the most recent content
+const hasContentFor = (w: any) => {
+  const dir = join(root, 'content', 'weeks', '2026', `week-${String(w.week).padStart(2, '0')}`);
+  return existsSync(join(dir, 'commentary.json'));
+};
+
+const todayWeek = schedule.find((w: any) => today >= w.date_start && today <= w.date_end);
+const nextWeek = todayWeek ? schedule.find((w: any) => w.week === todayWeek.week + 1) : null;
+
+// Show upcoming week if it has content (pipeline runs a week ahead), else today, else first with content
+const currentWeek =
+  (nextWeek && hasContentFor(nextWeek) ? nextWeek : null) ??
+  (todayWeek && hasContentFor(todayWeek) ? todayWeek : null) ??
+  [...schedule].reverse().find(hasContentFor) ??
+  schedule[8];
+
+const currentWeekNum = currentWeek.week;
+
+// Load hook + snippets for current week
+const weekDir = join(root, 'content', 'weeks', '2026', `week-${String(currentWeekNum).padStart(2, '0')}`);
+const hookPath = join(weekDir, 'hook.json');
+const snippetsPath = join(weekDir, 'snippets.json');
+
+const hookData = existsSync(hookPath) ? JSON.parse(readFileSync(hookPath, 'utf-8')) : null;
+const snippetsData = existsSync(snippetsPath) ? JSON.parse(readFileSync(snippetsPath, 'utf-8')) : null;
+const snippets: any[] = snippetsData?.snippets ?? [];
+
+// Category labels + colors for snippet badges
+const categoryMeta: Record<string, { label: string; color: string }> = {
+  hebrew_insight:    { label: 'Hebrew',      color: 'bg-amber-900/40 text-amber-300 border-amber-700/40' },
+  cross_reference:   { label: 'Cross-Ref',   color: 'bg-blue-900/40 text-blue-300 border-blue-700/40' },
+  historical_context:{ label: 'History',     color: 'bg-stone-800/60 text-stone-300 border-stone-600/40' },
+  restoration_lens:  { label: 'Restoration', color: 'bg-emerald-900/40 text-emerald-300 border-emerald-700/40' },
+  application:       { label: 'Application', color: 'bg-purple-900/40 text-purple-300 border-purple-700/40' },
+  prophetic:         { label: 'Prophetic',   color: 'bg-rose-900/40 text-rose-300 border-rose-700/40' },
+  creator_highlight: { label: 'Creators',    color: 'bg-sky-900/40 text-sky-300 border-sky-700/40' },
+};
+
+// Past and upcoming weeks (excluding current)
+const otherWeeks = schedule.filter((w: any) => w.week !== currentWeekNum);
+const hasContent = (w: any) => {
+  const dir = join(root, 'content', 'weeks', '2026', `week-${String(w.week).padStart(2, '0')}`);
+  return existsSync(join(dir, 'commentary.json'));
+};
 ---
 
-<Layout title="Continuing Gospel Education">
-  <div class="text-center py-12">
-    <h1 class="font-sans text-4xl md:text-5xl font-bold text-gold mb-3 tracking-tight">
-      Every Verse Matters
-    </h1>
-    <p class="text-xl text-text-muted font-sans max-w-xl mx-auto leading-relaxed">
-      Deep, verse-by-verse scripture commentary for Come, Follow Me — powered by AI, grounded in scholarship, centered on the Restoration.
-    </p>
-  </div>
+<Layout title={`Week ${currentWeekNum}: ${currentWeek.title} | EveryVerseMatters`}>
 
-  <div class="bg-navy-light rounded-2xl p-8 mb-12 border border-navy-lighter">
-    <p class="font-sans text-xs uppercase tracking-widest text-gold/60 mb-2">This Week's Study</p>
-    <h2 class="font-sans text-2xl font-bold text-gold mb-1">
-      <a href={`/2026/week/${currentWeek.week}`} class="hover:text-gold-light transition-colors">
-        Week {currentWeek.week}: {currentWeek.title}
-      </a>
-    </h2>
-    <p class="text-text-muted font-sans text-sm mb-1">
-      {currentWeek.date_start} to {currentWeek.date_end}
-    </p>
-    <p class="text-text/80 text-lg mb-4">{currentWeek.scripture_block}</p>
+  <!-- ── CURRENT WEEK FEATURED SECTION ── -->
+  <div class="mb-16">
+    <p class="font-sans text-xs uppercase tracking-widest text-gold/60 mb-3">This Week's Study</p>
+
+    <div class="mb-1 flex flex-wrap items-baseline gap-3">
+      <h1 class="font-sans text-3xl md:text-4xl font-bold text-gold leading-tight">
+        Week {currentWeekNum}: {currentWeek.title}
+      </h1>
+    </div>
+    <p class="font-sans text-sm text-text-muted mb-1">{currentWeek.date_start} — {currentWeek.date_end}</p>
+    <p class="font-sans text-lg text-text/80 mb-2">{currentWeek.scripture_block}</p>
     <a
-      href={`/2026/week/${currentWeek.week}`}
-      class="inline-block font-sans bg-gold text-navy font-semibold px-6 py-2.5 rounded-lg hover:bg-gold-light transition-colors text-sm"
+      href={currentWeek.official_url}
+      target="_blank"
+      rel="noopener"
+      class="font-sans text-xs text-gold/50 hover:text-gold/80 transition-colors underline underline-offset-2"
     >
-      Start Studying
+      Official Come, Follow Me Lesson &rarr;
     </a>
+
+    <!-- Hook paragraph -->
+    {hookData?.hook && (
+      <blockquote class="mt-6 border-l-2 border-gold/40 pl-5 py-1 text-text/90 text-base md:text-lg leading-relaxed italic font-serif">
+        {hookData.hook}
+      </blockquote>
+    )}
+
+    <!-- Two-column layout -->
+    <div class="mt-8 grid md:grid-cols-2 gap-6">
+
+      <!-- LEFT: Official Curriculum -->
+      <div class="bg-navy-light rounded-2xl p-6 border border-navy-lighter">
+        <p class="font-sans text-xs uppercase tracking-widest text-gold/50 mb-4">Official Curriculum</p>
+        <h3 class="font-sans text-lg font-semibold text-gold mb-1">{currentWeek.title}</h3>
+        <p class="font-sans text-sm text-text-muted mb-4">{currentWeek.scripture_block}</p>
+
+        <div class="space-y-3 text-sm text-text/80 font-sans leading-relaxed">
+          <div>
+            <p class="text-gold/70 font-semibold text-xs uppercase tracking-wide mb-1">This Week's Theme</p>
+            <p>The Abrahamic covenant moves from promise to fulfillment — from the impossible announcement of Isaac's birth to his binding on Mount Moriah. These chapters ask the defining question of covenant life: do we trust God enough to obey when we cannot see the end?</p>
+          </div>
+          <div>
+            <p class="text-gold/70 font-semibold text-xs uppercase tracking-wide mb-1">Key Study Questions</p>
+            <ul class="list-disc list-inside space-y-1 text-text/70">
+              <li>What does Abraham's hospitality reveal about his relationship with God?</li>
+              <li>How does "Is anything too hard for the LORD?" apply to your life?</li>
+              <li>What does the binding of Isaac teach us about covenant faithfulness?</li>
+              <li>Where do you see Christ foreshadowed in these chapters?</li>
+            </ul>
+          </div>
+        </div>
+
+        <a
+          href={currentWeek.official_url}
+          target="_blank"
+          rel="noopener"
+          class="inline-block mt-5 font-sans text-xs bg-navy border border-gold/30 text-gold/80 hover:text-gold hover:border-gold/60 px-4 py-2 rounded-lg transition-colors"
+        >
+          Open Official Lesson &rarr;
+        </a>
+      </div>
+
+      <!-- RIGHT: Companion Snippets -->
+      <div class="bg-navy-light rounded-2xl p-6 border border-navy-lighter">
+        <p class="font-sans text-xs uppercase tracking-widest text-gold/50 mb-4">What You Might Not Know</p>
+
+        {snippets.length > 0 ? (
+          <div class="space-y-4">
+            {snippets.map((s: any) => {
+              const meta = categoryMeta[s.category] ?? { label: s.category, color: 'bg-navy text-text-muted border-navy-lighter' };
+              const href = `/2026/week/${currentWeekNum}#${s.deep_dive_anchor}`;
+              return (
+                <a href={href} class="block group">
+                  <div class="flex items-start gap-3">
+                    <span class={`mt-0.5 shrink-0 font-sans text-[10px] font-semibold uppercase tracking-wider border px-1.5 py-0.5 rounded ${meta.color}`}>
+                      {meta.label}
+                    </span>
+                    <div>
+                      <p class="font-sans text-xs text-text-muted mb-0.5">{s.verse_reference}</p>
+                      <p class="text-sm text-text/80 leading-relaxed group-hover:text-text transition-colors">{s.snippet_text}</p>
+                    </div>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        ) : (
+          <p class="text-text-muted text-sm font-sans">Companion insights are being generated...</p>
+        )}
+      </div>
+    </div>
+
+    <!-- Deep Dive CTA -->
+    <div class="mt-6 text-center">
+      <a
+        href={`/2026/week/${currentWeekNum}`}
+        class="inline-block font-sans bg-gold text-navy font-semibold px-8 py-3 rounded-lg hover:bg-gold-light transition-colors text-sm tracking-wide"
+      >
+        Read the Full Deep Dive — 167 Verses &rarr;
+      </a>
+    </div>
   </div>
 
-  <div class="grid md:grid-cols-3 gap-6 mb-12">
-    <div class="bg-navy-light rounded-xl p-6 border border-navy-lighter">
-      <h3 class="font-sans text-gold font-semibold mb-2">Verse-by-Verse Depth</h3>
-      <p class="text-sm text-text/70 leading-relaxed">
-        Every verse gets narrative commentary, Hebrew word studies, cross-references across all Standard Works, historical context, and Restoration insights.
-      </p>
+  <!-- ── ALL WEEKS SCHEDULE ── -->
+  <div>
+    <div class="flex items-center gap-4 mb-6">
+      <h2 class="font-sans text-xl font-bold text-gold">2026 Schedule</h2>
+      <div class="flex-1 h-px bg-navy-lighter"></div>
+      <p class="font-sans text-xs text-text-muted">Old Testament — Come, Follow Me</p>
     </div>
-    <div class="bg-navy-light rounded-xl p-6 border border-navy-lighter">
-      <h3 class="font-sans text-gold font-semibold mb-2">Creator Roundup</h3>
-      <p class="text-sm text-text/70 leading-relaxed">
-        We catalog content from Scripture Central, Follow Him, Don't Miss This, and dozens more — so you never miss the best insights each week.
-      </p>
-    </div>
-    <div class="bg-navy-light rounded-xl p-6 border border-navy-lighter">
-      <h3 class="font-sans text-gold font-semibold mb-2">Restoration-Centered</h3>
-      <p class="text-sm text-text/70 leading-relaxed">
-        JST revisions, Book of Mormon parallels, temple connections, and General Conference insights — the lens no other commentary provides.
-      </p>
+
+    <div class="grid gap-2">
+      {otherWeeks.map((w: any) => {
+        const isPast = w.date_end < today;
+        const isUpcoming = w.date_start > today;
+        const content = hasContent(w);
+
+        return (
+          <div class={`flex items-center gap-4 px-4 py-3 rounded-xl border transition-colors ${
+            content
+              ? 'border-navy-lighter bg-navy-light hover:border-gold/30 cursor-pointer'
+              : isPast
+              ? 'border-navy-lighter/50 bg-navy/30 opacity-60'
+              : 'border-navy-lighter/60 bg-navy/20'
+          }`}>
+            <span class={`font-sans text-xs font-bold shrink-0 w-10 text-center ${content ? 'text-gold' : 'text-text-muted'}`}>
+              W{w.week}
+            </span>
+            <div class="flex-1 min-w-0">
+              {content ? (
+                <a href={`/2026/week/${w.week}`} class="block group">
+                  <p class="font-sans text-sm font-semibold text-text group-hover:text-gold transition-colors truncate">{w.title}</p>
+                  <p class="font-sans text-xs text-text-muted truncate">{w.scripture_block}</p>
+                </a>
+              ) : (
+                <div>
+                  <p class="font-sans text-sm font-semibold text-text/60 truncate">{w.title}</p>
+                  <p class="font-sans text-xs text-text-muted truncate">{w.scripture_block}</p>
+                </div>
+              )}
+            </div>
+            <span class="font-sans text-xs text-text-muted shrink-0 hidden sm:block">{w.date_start.slice(5)}</span>
+            {content && (
+              <span class="font-sans text-[10px] text-gold/70 border border-gold/30 px-2 py-0.5 rounded-full shrink-0">Live</span>
+            )}
+          </div>
+        );
+      })}
     </div>
   </div>
 
-  <div class="text-center">
-    <blockquote class="verse-text max-w-lg mx-auto text-sm">
-      "And as all have not faith, seek ye diligently and teach one another words of wisdom; yea, seek ye out of the best books words of wisdom; seek learning, even by study and also by faith."
-      <span class="block text-text-muted text-xs mt-2 not-italic">— D&amp;C 88:118</span>
-    </blockquote>
-  </div>
 </Layout>
