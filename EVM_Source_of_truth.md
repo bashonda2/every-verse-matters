@@ -1,10 +1,10 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** February 23, 2026 (4:00 AM MT)
+**Last Updated:** February 22, 2026 (3:00 PM MT)
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** MVP live at everyversematters.com — Week 9 commentary (167/167 verses), creator roundup (5 sources), chapter overviews, light/dark mode, MCP server (17 tools)
+**Status:** Hack Week complete — everyversematters.com live with three-tier homepage, Deep Dive (167 verses), 18 creators, Source Registry (23 sources), About > Sources page, weekly cron automation running
 
 ---
 
@@ -409,7 +409,9 @@ Build once, use everywhere.
 
 ### 5.4 Hosting & Infrastructure
 - **Server:** Aaron's VPS at `209.74.80.143` (SSH: `ssh emree-vps`) — also hosts Emree (PM2, port 3000) and MissionChecklist (Docker, port 5050)
-- **MCP Server:** TypeScript (`@modelcontextprotocol/sdk`) — PM2 on port 3001
+- **MCP Server:** TypeScript (`@modelcontextprotocol/sdk`) at `/var/www/evm/mcp-server/` — **currently stdio transport** (Cursor/Claude Desktop only). HTTP/SSE transport needed for Phase 2 web integration; nginx already has `/api/` → port 3001 proxy ready.
+- **Python Pipeline:** Venv at `/var/www/evm/venv` — `anthropic`, `python-dotenv`. Run scripts via `source /var/www/evm/venv/bin/activate`.
+- **Cron:** `/var/www/evm/run_weekly_pipeline.sh` — Saturdays 11:00 UTC (4:00 AM MT). Logs: `/var/www/evm/logs/cron/`
 - **Content Store:** JSON files in `/content/` directory (MVP), PostgreSQL planned for Phase 2+
 - **Reverse Proxy:** Nginx — static site at `/var/www/evm/site/`, API proxy `/api/` → port 3001
 - **Nginx Config:** `/etc/nginx/sites-available/everyversematters.com`
@@ -484,6 +486,12 @@ WEEKLY AUTOMATED PIPELINE (cron — runs every Saturday)
 ```
 
 Pipeline runs on Saturday morning so content is live before Sunday study. The key point: this is the SAME tools Aaron uses interactively. The cron job is just one client of the MCP server.
+
+**Cron implementation:** `/var/www/evm/run_weekly_pipeline.sh` runs via crontab at `0 11 * * 6` (Saturdays 11:00 UTC = 4:00 AM MT). Uses Python venv at `/var/www/evm/venv`. Logs to `/var/www/evm/logs/cron/` (keeps last 12 runs).
+
+**Two-cycle discovery (Phase 2):** For every week, the creator discovery pipeline should run two passes — (1) current 2026 cycle, (2) 2022 OT archive cycle for the same scripture block. Different guest scholars, different angles, 100% still relevant. Doubles catalog depth at no additional cost. Add `cycle` field to creator entries.
+
+**Church News as Source Registry feeder:** Church News publishes "What Have Church Leaders Said" articles every week with fully attributed prophetic quotes (speaker, talk title, date). Scraping this weekly auto-populates `sources_registry.json` and solves the quote hallucination problem systematically. Implement in Phase 2.
 
 ### 6.2 Stage 1: Commentary Generation
 
@@ -1374,29 +1382,39 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] Light/dark mode toggle
 - [x] Deployed full site to VPS replacing landing page
 
-**Remaining (Days 1-5):**
-- [ ] Create `data/sources_registry.json` with initial vetted sources
-- [ ] Run `verify_quotes` against Source Registry — strip unverifiable quotes from Week 9 commentary
-- [ ] Build homepage hook generation pipeline (`pipeline/generate_hooks.py`)
-- [ ] Build companion snippet extraction pipeline (`pipeline/generate_snippets.py`)
-- [ ] Generate hook and snippets for Week 9
-- [ ] Rebuild homepage with new two-column layout (hook + official CFM left + companion snippets right)
-- [ ] Update About page with dynamic Sources section (generated from `sources_registry.json`)
-- [ ] Run creator discovery for remaining Tier 1 sources (Scripture Central, One Minute Scripture Study, Scripture Gems)
-- [ ] Deploy MCP server as PM2 process on VPS (port 3001)
-- [ ] Set up cron job for weekly automation (full pipeline including hooks/snippets)
+**Completed (Days 1-5):**
+- [x] `data/sources_registry.json` created — 23 verified sources across 4 categories
+- [x] Homepage hook generation pipeline (`pipeline/generate_hooks.py`) built and run for Week 9
+- [x] Companion snippet extraction pipeline (`pipeline/generate_snippets.py`) built and run for Week 9
+- [x] Homepage rebuilt — three-tier Weekly Feed with hook blockquote, two-column layout, 52-week schedule
+- [x] About page updated — dynamic Sources section generated from `sources_registry.json`
+- [x] Creator discovery expanded to 18 entries (13 found), via Claude web search
+  - New: Scripture Central (2 series), Unshaken Saints, BYUtv, Church News, Teaching with Power, LDS Daily, Gospel Grab Bag, Don't Miss This 2022 archive
+  - `sources.json` updated: Unshaken Saints → Tier 1, Scripture Gems → inactive, Church News added
+- [x] Python venv at `/var/www/evm/venv` with anthropic + python-dotenv
+- [x] `pipeline/run_pipeline.py` — master orchestrator (7 stages, auto week detection, dry-run mode)
+- [x] Cron job live — Saturdays 11:00 UTC (4:00 AM MT): `/var/www/evm/run_weekly_pipeline.sh`
+- [x] Deploy pipeline: `rsync site/dist/ → /var/www/evm/site/dist/` with nginx serving from `dist/`
+- [x] MCP server: stdio-only (Cursor/Claude Desktop integration). HTTP transport needed for Phase 2 web integration — not PM2-able yet.
+
+**Remaining:**
+- [ ] `verify_quotes` pipeline — strip unverifiable prophetic quotes from Week 9 commentary
+- [ ] Individual verse pages for SEO (`/genesis/18/1`)
 - [ ] Share with family/ward for feedback
 
 ### Phase 2: Weekly Production (March–April 2026)
-- [ ] Pipeline running automatically every Saturday (all stages including hook/snippets)
+- [ ] Pipeline running automatically every Saturday — first fully automated run: Week 10 (Mar 2)
+- [ ] Verify Week 10 pipeline output and fix any issues
+- [ ] Implement two-cycle creator discovery (2026 current + 2022 archive) in `discover_creators.py`
+- [ ] Implement Church News scraping to auto-populate `sources_registry.json` weekly
 - [ ] Backfill Weeks 1-8 (Deep Dive + homepage content)
 - [ ] Source Registry populated with 50+ verified prophetic commentary sources
-- [ ] Source Registry populated with all Tier 1 and Tier 2 creator sources
 - [ ] Refine hook and snippet prompts based on reader feedback
+- [ ] Individual verse pages for SEO (`/genesis/18/1`)
+- [ ] MCP server HTTP transport — needed for Phase 3 user-facing AI chat
 - [ ] Admin dashboard for pipeline monitoring
 - [ ] Add search functionality
 - [ ] Social media presence (Instagram, Facebook)
-- [ ] Begin user-facing AI chat development (Phase 3 prep)
 
 ### Phase 3: Growth (May–December 2026)
 - [ ] Full year of OT content live (52 weeks, both homepage and Deep Dive)
@@ -1502,3 +1520,5 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 *This document is the living source of truth for EveryVerseMatters.com. It is maintained collaboratively between Claude (PM/content engine) and Aaron (builder/owner). Updated as decisions are made and the product evolves.*
 
 *The MCP-first architecture described in Sections 5-6 is the core differentiator — it enables a single person (Aaron) to operate a content platform that would normally require a full editorial team, publishing fresh, deep, verified content every single week without manual intervention. The same tools power the automated pipeline, interactive development, and the user-facing AI experience. The Source Registry (Section 12) is the editorial backbone that makes the platform trustworthy: every quote is traceable, every source is vetted, nothing ships unverified.*
+
+*Hack Week (Feb 22-27, 2026) status: site live at everyversematters.com, 167-verse Deep Dive for Week 9, three-tier homepage, 18 creator catalog, 23-source registry, cron automation running. Next milestone: first fully automated pipeline run for Week 10 on Saturday March 7.*
