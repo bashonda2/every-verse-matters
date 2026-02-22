@@ -1375,21 +1375,14 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] Deployed full site to VPS replacing landing page
 
 **Remaining (Days 1-5):**
-- [ ] Fix commentary gaps (~12 missing verses) — re-run pipeline for failed batches
-- [ ] Clean duplicate verses (18:27, 18:28-29, 22:22-23)
-- [ ] Add chapter overview paragraphs to Deep Dive content
 - [ ] Create `data/sources_registry.json` with initial vetted sources
-- [ ] Run `verify_quotes` against Source Registry — strip unverifiable quotes
+- [ ] Run `verify_quotes` against Source Registry — strip unverifiable quotes from Week 9 commentary
 - [ ] Build homepage hook generation pipeline (`pipeline/generate_hooks.py`)
 - [ ] Build companion snippet extraction pipeline (`pipeline/generate_snippets.py`)
 - [ ] Generate hook and snippets for Week 9
+- [ ] Rebuild homepage with new two-column layout (hook + official CFM left + companion snippets right)
+- [ ] Update About page with dynamic Sources section (generated from `sources_registry.json`)
 - [ ] Run creator discovery for remaining Tier 1 sources (Scripture Central, One Minute Scripture Study, Scripture Gems)
-- [ ] Build MVP site (Astro):
-  - [ ] Homepage with Week 9 section (hook + two-column layout)
-  - [ ] Deep Dive page for Week 9
-  - [ ] About page with dynamic Sources section
-  - [ ] All Weeks index
-- [ ] Deploy full site to VPS replacing landing page
 - [ ] Deploy MCP server as PM2 process on VPS (port 3001)
 - [ ] Set up cron job for weekly automation (full pipeline including hooks/snippets)
 - [ ] Share with family/ward for feedback
