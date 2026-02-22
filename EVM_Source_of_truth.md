@@ -1,10 +1,10 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** February 22, 2026 (11:00 PM MT)
+**Last Updated:** February 23, 2026 (4:00 AM MT)
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** MCP server built (17 tools), commentary pipeline complete for Week 9 (154 verses), site live at everyversematters.com with SSL
+**Status:** MVP live at everyversematters.com — Week 9 commentary (167/167 verses), creator roundup (5 sources), chapter overviews, light/dark mode, MCP server (17 tools)
 
 ---
 
@@ -1183,14 +1183,22 @@ PASS if the response is:
 - [x] Nginx reverse proxy configured on VPS (static site + /api/ proxy to port 3001)
 - [x] Landing page deployed to everyversematters.com (HTTPS live)
 - [x] MCP server config created (`.cursor/mcp.json`)
+- [x] Gap-filled 13 missing verses — **167/167 verses complete** (Genesis 18-23, zero gaps)
+- [x] Fixed duplicate/incorrect KJV text (Genesis 18:27, 18:28, 22:22-23)
+- [x] Generated chapter overviews for all 6 chapters
+- [x] Creator discovery pipeline run — 5 creators found with URLs (Don't Miss This, Follow Him, Talking Scripture, Meridian Magazine, LDS Daily)
+- [x] Built Astro site with full week view, verse-by-verse commentary, expandable sections, creator roundup, chapter navigation
+- [x] Built Home page, About page, All Weeks index (52 weeks, Week 9 active)
+- [x] Light/dark mode toggle with localStorage persistence
+- [x] Deployed full site to VPS replacing landing page
 
 **Remaining (Days 1-5):**
-- [ ] Fix JSON parser for failed batches, re-run to fill gaps (~13 missing verses)
-- [ ] Run creator discovery pipeline for Week 9
-- [ ] Build MVP site (Astro) — week view, verse commentary, creator roundup
-- [ ] Deploy MCP server to VPS (PM2 on port 3001)
-- [ ] Deploy full site to VPS replacing landing page
-- [ ] Set up cron job for weekly automation
+- [ ] Deploy MCP server as PM2 process on VPS (port 3001)
+- [ ] Set up cron job for weekly automated pipeline
+- [ ] Individual verse pages for SEO (`/genesis/18/1`)
+- [ ] Mobile responsiveness polish pass
+- [ ] Fix JSON parser reliability for future pipeline runs
+- [ ] Run creator discovery for remaining Tier 1 sources (Scripture Central, One Minute Scripture Study, Scripture Gems)
 - [ ] Share with family/ward for feedback
 
 ### Phase 2: Weekly Production (March–April 2026)

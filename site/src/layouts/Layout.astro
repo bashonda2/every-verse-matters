@@ -1,0 +1,73 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Deep, verse-by-verse scripture commentary for Come, Follow Me — powered by AI." } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content={description}>
+  <title>{title} | EveryVerseMatters</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script is:inline>
+    (function() {
+      var theme = localStorage.getItem('evm-theme');
+      if (theme === 'light') document.documentElement.classList.add('light');
+    })();
+  </script>
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="border-b border-navy-lighter">
+    <nav class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between font-sans">
+      <a href="/" class="text-gold text-xl font-bold tracking-wide hover:text-gold-light transition-colors">
+        Every Verse Matters
+      </a>
+      <div class="flex items-center gap-5 text-sm text-text-muted">
+        <a href="/2026/week/9" class="hover:text-gold transition-colors">This Week</a>
+        <a href="/weeks" class="hover:text-gold transition-colors">All Weeks</a>
+        <a href="/about" class="hover:text-gold transition-colors">About</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">
+          <span id="theme-icon">&#9789;</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="flex-1 max-w-4xl mx-auto px-4 py-8 w-full">
+    <slot />
+  </main>
+
+  <footer class="border-t border-navy-lighter mt-12">
+    <div class="max-w-4xl mx-auto px-4 py-6 text-center text-xs text-text-muted font-sans leading-relaxed">
+      <p>EveryVerseMatters.com is an independent study resource and is not affiliated with, endorsed by, or sponsored by The Church of Jesus Christ of Latter-day Saints.</p>
+      <p class="mt-1">Come, Follow Me is a trademark of Intellectual Reserve, Inc. Commentary is AI-supported and should be used as a supplemental study aid.</p>
+      <p class="mt-2 text-gold/60">&copy; 2026 EveryVerseMatters.com</p>
+    </div>
+  </footer>
+
+  <script is:inline>
+    (function() {
+      var btn = document.getElementById('theme-toggle');
+      var icon = document.getElementById('theme-icon');
+      function updateIcon() {
+        var isLight = document.documentElement.classList.contains('light');
+        icon.textContent = isLight ? '\u2600' : '\u263D';
+      }
+      updateIcon();
+      btn.addEventListener('click', function() {
+        document.documentElement.classList.toggle('light');
+        var isLight = document.documentElement.classList.contains('light');
+        localStorage.setItem('evm-theme', isLight ? 'light' : 'dark');
+        updateIcon();
+      });
+    })();
+  </script>
+</body>
+</html>

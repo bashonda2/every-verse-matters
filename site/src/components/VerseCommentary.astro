@@ -1,0 +1,171 @@
+---
+interface WordStudy {
+  term_english: string;
+  term_original: string;
+  transliteration?: string;
+  meaning: string;
+  significance: string;
+}
+
+interface CrossRef {
+  reference: string;
+  connection: string;
+}
+
+interface PropheticQuote {
+  speaker: string;
+  talk_title: string;
+  date: string;
+  quote_or_paraphrase: string;
+}
+
+interface RestorationLens {
+  jst_changes?: string;
+  bom_parallels?: string;
+  dc_connections?: string;
+  temple_connections?: string;
+}
+
+interface Props {
+  book: string;
+  chapter: number;
+  verse: number;
+  text_kjv: string;
+  commentary: {
+    narrative: string;
+    word_study?: WordStudy[];
+    cross_references?: CrossRef[];
+    historical_context?: string;
+    restoration_lens?: RestorationLens;
+    prophetic_quotes?: PropheticQuote[];
+    christological_typology?: string;
+    application?: string;
+  };
+}
+
+const { book, chapter, verse, text_kjv, commentary } = Astro.props;
+const c = commentary;
+const ref = `${book} ${chapter}:${verse}`;
+---
+
+<article id={`v${verse}`} class="mb-10 scroll-mt-20">
+  <h3 class="font-sans text-gold font-semibold text-xl mb-3">{ref}</h3>
+
+  <blockquote class="verse-text text-text/90 mb-5">
+    {text_kjv}
+  </blockquote>
+
+  {c.narrative && (
+    <div class="text-text/85 mb-5 whitespace-pre-line">
+      {c.narrative}
+    </div>
+  )}
+
+  {c.word_study && c.word_study.length > 0 && (
+    <details class="mb-3 bg-expand-bg rounded-lg">
+      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+        <span class="chevron text-xs">&#9654;</span> Word Study
+      </summary>
+      <div class="px-4 pb-4 space-y-3">
+        {c.word_study.map((w: WordStudy) => (
+          <div>
+            <span class="font-semibold text-gold">{w.term_english}</span>
+            {w.term_original && <span class="text-text-muted ml-1">({w.term_original})</span>}
+            {w.transliteration && <span class="text-text-muted ml-1 italic">— {w.transliteration}</span>}
+            <p class="text-text/75 mt-1">{w.meaning}</p>
+            {w.significance && <p class="text-text/65 mt-1">{w.significance}</p>}
+          </div>
+        ))}
+      </div>
+    </details>
+  )}
+
+  {c.cross_references && c.cross_references.length > 0 && (
+    <details class="mb-3 bg-expand-bg rounded-lg">
+      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+        <span class="chevron text-xs">&#9654;</span> Cross-References
+      </summary>
+      <div class="px-4 pb-4 space-y-2">
+        {c.cross_references.map((r: CrossRef) => (
+          <div>
+            <span class="font-semibold text-gold">{r.reference}</span>
+            <span class="text-text/70 ml-1">— {r.connection}</span>
+          </div>
+        ))}
+      </div>
+    </details>
+  )}
+
+  {c.historical_context && (
+    <details class="mb-3 bg-expand-bg rounded-lg">
+      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+        <span class="chevron text-xs">&#9654;</span> Historical &amp; Cultural Context
+      </summary>
+      <div class="px-4 pb-4 text-text/75 leading-relaxed whitespace-pre-line">
+        {c.historical_context}
+      </div>
+    </details>
+  )}
+
+  {c.restoration_lens && (
+    <details class="mb-3 bg-expand-bg rounded-lg">
+      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+        <span class="chevron text-xs">&#9654;</span> Restoration Lens
+      </summary>
+      <div class="px-4 pb-4 space-y-2 text-text/75 leading-relaxed">
+        {c.restoration_lens.jst_changes && (
+          <div><span class="font-semibold text-gold text-xs uppercase">JST:</span> <span class="whitespace-pre-line">{c.restoration_lens.jst_changes}</span></div>
+        )}
+        {c.restoration_lens.bom_parallels && (
+          <div><span class="font-semibold text-gold text-xs uppercase">Book of Mormon:</span> <span class="whitespace-pre-line">{c.restoration_lens.bom_parallels}</span></div>
+        )}
+        {c.restoration_lens.dc_connections && (
+          <div><span class="font-semibold text-gold text-xs uppercase">D&amp;C:</span> <span class="whitespace-pre-line">{c.restoration_lens.dc_connections}</span></div>
+        )}
+        {c.restoration_lens.temple_connections && (
+          <div><span class="font-semibold text-gold text-xs uppercase">Temple:</span> <span class="whitespace-pre-line">{c.restoration_lens.temple_connections}</span></div>
+        )}
+      </div>
+    </details>
+  )}
+
+  {c.prophetic_quotes && c.prophetic_quotes.length > 0 && (
+    <details class="mb-3 bg-expand-bg rounded-lg">
+      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+        <span class="chevron text-xs">&#9654;</span> From the Prophets
+      </summary>
+      <div class="px-4 pb-4 space-y-3">
+        {c.prophetic_quotes.map((q: PropheticQuote) => (
+          <blockquote class="border-l-2 border-gold/40 pl-3">
+            <p class="text-text/75 italic">"{q.quote_or_paraphrase}"</p>
+            <p class="text-text-muted text-sm mt-1">— {q.speaker}{q.talk_title ? `, "${q.talk_title}"` : ''}{q.date ? ` (${q.date})` : ''}</p>
+          </blockquote>
+        ))}
+      </div>
+    </details>
+  )}
+
+  {c.christological_typology && (
+    <details class="mb-3 bg-expand-bg rounded-lg">
+      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+        <span class="chevron text-xs">&#9654;</span> Pointing to Christ
+      </summary>
+      <div class="px-4 pb-4 text-text/75 leading-relaxed whitespace-pre-line">
+        {c.christological_typology}
+      </div>
+    </details>
+  )}
+
+  {c.application && (
+    <details class="mb-3 bg-expand-bg rounded-lg">
+      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+        <span class="chevron text-xs">&#9654;</span> Application
+      </summary>
+      <div class="px-4 pb-4 text-text/75 leading-relaxed whitespace-pre-line">
+        {c.application}
+      </div>
+    </details>
+  )}
+
+  <hr class="border-navy-lighter mt-6" />
+</article>

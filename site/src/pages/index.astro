@@ -1,0 +1,69 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+const root = join(process.cwd(), '..');
+const schedule = JSON.parse(readFileSync(join(root, 'data', 'cfm_schedule.json'), 'utf-8'));
+
+const today = new Date().toISOString().split('T')[0];
+const currentWeek = schedule.find((w: any) => today >= w.date_start && today <= w.date_end) || schedule[8];
+---
+
+<Layout title="Continuing Gospel Education">
+  <div class="text-center py-12">
+    <h1 class="font-sans text-4xl md:text-5xl font-bold text-gold mb-3 tracking-tight">
+      Every Verse Matters
+    </h1>
+    <p class="text-xl text-text-muted font-sans max-w-xl mx-auto leading-relaxed">
+      Deep, verse-by-verse scripture commentary for Come, Follow Me — powered by AI, grounded in scholarship, centered on the Restoration.
+    </p>
+  </div>
+
+  <div class="bg-navy-light rounded-2xl p-8 mb-12 border border-navy-lighter">
+    <p class="font-sans text-xs uppercase tracking-widest text-gold/60 mb-2">This Week's Study</p>
+    <h2 class="font-sans text-2xl font-bold text-gold mb-1">
+      <a href={`/2026/week/${currentWeek.week}`} class="hover:text-gold-light transition-colors">
+        Week {currentWeek.week}: {currentWeek.title}
+      </a>
+    </h2>
+    <p class="text-text-muted font-sans text-sm mb-1">
+      {currentWeek.date_start} to {currentWeek.date_end}
+    </p>
+    <p class="text-text/80 text-lg mb-4">{currentWeek.scripture_block}</p>
+    <a
+      href={`/2026/week/${currentWeek.week}`}
+      class="inline-block font-sans bg-gold text-navy font-semibold px-6 py-2.5 rounded-lg hover:bg-gold-light transition-colors text-sm"
+    >
+      Start Studying
+    </a>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-6 mb-12">
+    <div class="bg-navy-light rounded-xl p-6 border border-navy-lighter">
+      <h3 class="font-sans text-gold font-semibold mb-2">Verse-by-Verse Depth</h3>
+      <p class="text-sm text-text/70 leading-relaxed">
+        Every verse gets narrative commentary, Hebrew word studies, cross-references across all Standard Works, historical context, and Restoration insights.
+      </p>
+    </div>
+    <div class="bg-navy-light rounded-xl p-6 border border-navy-lighter">
+      <h3 class="font-sans text-gold font-semibold mb-2">Creator Roundup</h3>
+      <p class="text-sm text-text/70 leading-relaxed">
+        We catalog content from Scripture Central, Follow Him, Don't Miss This, and dozens more — so you never miss the best insights each week.
+      </p>
+    </div>
+    <div class="bg-navy-light rounded-xl p-6 border border-navy-lighter">
+      <h3 class="font-sans text-gold font-semibold mb-2">Restoration-Centered</h3>
+      <p class="text-sm text-text/70 leading-relaxed">
+        JST revisions, Book of Mormon parallels, temple connections, and General Conference insights — the lens no other commentary provides.
+      </p>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <blockquote class="verse-text max-w-lg mx-auto text-sm">
+      "And as all have not faith, seek ye diligently and teach one another words of wisdom; yea, seek ye out of the best books words of wisdom; seek learning, even by study and also by faith."
+      <span class="block text-text-muted text-xs mt-2 not-italic">— D&amp;C 88:118</span>
+    </blockquote>
+  </div>
+</Layout>

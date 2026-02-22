@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { readFileSync, existsSync } from 'fs';
+import { join } from 'path';
+
+const root = join(process.cwd(), '..');
+const schedule = JSON.parse(readFileSync(join(root, 'data', 'cfm_schedule.json'), 'utf-8'));
+
+const weeksWithStatus = schedule.map((w: any) => {
+  const weekDir = join(root, 'content', 'weeks', '2026', `week-${String(w.week).padStart(2, '0')}`);
+  const hasContent = existsSync(join(weekDir, 'commentary.json'));
+  return { ...w, hasContent };
+});
+---
+
+<Layout title="All Weeks — 2026 Old Testament">
+  <h1 class="font-sans text-3xl font-bold text-gold mb-2">2026 Schedule</h1>
+  <p class="text-text-muted font-sans mb-8">Come, Follow Me: Old Testament</p>
+
+  <div class="space-y-2">
+    {weeksWithStatus.map((w: any) => (
+      <a
+        href={w.hasContent ? `/2026/week/${w.week}` : undefined}
+        class:list={[
+          "block rounded-lg p-4 font-sans transition-colors border",
+          w.hasContent
+            ? "bg-navy-light border-navy-lighter hover:border-gold/30 cursor-pointer"
+            : "bg-navy border-navy-lighter/50 opacity-50 cursor-default pointer-events-none"
+        ]}
+      >
+        <div class="flex items-center justify-between">
+          <div>
+            <span class="text-text-muted text-xs">Week {w.week}</span>
+            <h3 class="text-gold font-semibold text-sm">{w.title}</h3>
+            <p class="text-text/60 text-xs mt-0.5">{w.scripture_block}</p>
+          </div>
+          <div class="text-right">
+            <p class="text-text-muted text-xs">{w.date_start}</p>
+            {w.hasContent ? (
+              <span class="text-xs text-green-400/80 font-medium">Available</span>
+            ) : (
+              <span class="text-xs text-text-muted">Coming soon</span>
+            )}
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
+</Layout>

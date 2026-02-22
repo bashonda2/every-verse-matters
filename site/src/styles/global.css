@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #c9a84c;
+  --color-gold-light: #e0c878;
+  --color-gold-dark: #a88a2e;
+  --color-navy: #1a1a2e;
+  --color-navy-light: #242445;
+  --color-navy-lighter: #2e2e55;
+  --color-slate: #b0b0c0;
+  --color-text: #e0e0e0;
+  --color-text-muted: #8a8aa0;
+  --color-verse-bg: #1e1e36;
+  --color-expand-bg: #222244;
+}
+
+/* Light mode overrides */
+html.light {
+  --color-gold: #8a6d1b;
+  --color-gold-light: #6b5316;
+  --color-gold-dark: #a88a2e;
+  --color-navy: #f8f6f1;
+  --color-navy-light: #eeebe3;
+  --color-navy-lighter: #ddd9cf;
+  --color-slate: #666;
+  --color-text: #2c2c2c;
+  --color-text-muted: #6b6b7b;
+  --color-verse-bg: #f0ede5;
+  --color-expand-bg: #e8e4db;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 17px;
+  line-height: 1.9;
+  background-color: var(--color-navy);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6, nav, .font-sans {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.verse-text {
+  border-left: 3px solid var(--color-gold);
+  padding: 0.85rem 1.25rem;
+  background: var(--color-verse-bg);
+  font-style: italic;
+  line-height: 1.9;
+  font-size: 1rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+details summary {
+  cursor: pointer;
+  user-select: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary .chevron {
+  transform: rotate(90deg);
+}
+
+.chevron {
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--color-navy-lighter);
+  color: var(--color-text-muted);
+  border-radius: 0.5rem;
+  padding: 0.35rem 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  transition: border-color 0.2s, color 0.2s;
+}
+.theme-toggle:hover {
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+}
