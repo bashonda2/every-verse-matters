@@ -26,6 +26,36 @@ One destination where members go each week and find:
 2. **Aggregated Third-Party Content** — cataloged, indexed by verse, with links and attribution to every major CFM creator
 3. **Official Curriculum** — the Church's own CFM manual content running as the backbone
 
+### Three-Tier Content Architecture
+
+EVM delivers content through three tiers, each serving a different reader need:
+
+**Tier 1: The Homepage — "Weekly Feed"**
+A single scrolling page with one section per week (52 weeks). Each week's section contains:
+- **Hook Paragraph** — A Claude-generated opening paragraph (Sonnet or Opus quality) that synthesizes the official CFM lesson and the Deep Dive content into something compelling, insightful, and attention-getting. This is NOT a dry summary — it's the opening 30 seconds of the best Gospel Doctrine teacher's lesson. May include a verified prophetic quote that connects to the week's theme. Purpose: make the reader say "I need to study this week."
+- **Two-Column Layout:**
+  - **Left Column: Official Curriculum** — Key questions, study prompts, and themes from the Church's Come, Follow Me manual for that week. Links to churchofjesuschrist.org.
+  - **Right Column: Curated Companion Content** — 5-7 bite-sized insights extracted by Claude from the Deep Dive page. Each snippet is 2-3 sentences, tied to a specific verse or theme, designed to surprise or enlighten. Each links to the exact verse on the Deep Dive page. These are the most interesting, surprising, or practically useful insights — the "wait, really?" moments that drive click-through.
+
+**Tier 2: The Deep Dive Page**
+The full verse-by-verse commentary for each week. Every word study, every cross-reference, every Restoration Lens section, every prophetic quote (verified), every application. This is the serious study destination — linked from companion snippets on the homepage. URL pattern: `everyversematters.com/deep-dive/2026/week-{nn}`
+
+**Tier 3: User-Facing AI (Future — Phase 2+)**
+A chat interface where members ask questions grounded in the Deep Dive content database. Powered by the same MCP server. Every response passes through the dual-pass safety audit. (See the "User-Facing AI Experience" subsection below.)
+
+**Content Flow:**
+```
+Deep Dive (Tier 2) is generated FIRST by the pipeline
+    ↓
+Homepage content (Tier 1) is generated FROM the Deep Dive
+    - Hook paragraph synthesizes Deep Dive + official CFM
+    - Companion snippets are extracted from Deep Dive highlights
+    ↓
+User-Facing AI (Tier 3) answers questions FROM the Deep Dive database
+```
+
+The Deep Dive is the engine. The Homepage is the storefront. The AI is the concierge.
+
 ### Why AI Is the Differentiator
 For any single verse, Claude can simultaneously synthesize:
 - Hebrew/Greek root words and translation nuances
@@ -169,34 +199,58 @@ For every verse in the week's reading, Claude generates:
 - AI-generated summary of each creator's unique contribution that week
 - URL verification on every link before publish
 
-### 3.2 Content Hierarchy (How a User Experiences a Week)
+### 3.2 Content Hierarchy — Homepage View (Tier 1)
 
 ```
-WEEK VIEW
+HOMEPAGE (single scrolling page, one section per week)
+├── Week 9: Sarah and Isaac
+│   ├── Hook Paragraph (compelling synthesis, verified quote)
+│   ├── TWO COLUMNS:
+│   │   ├── LEFT: Official CFM Curriculum
+│   │   │   ├── Week title, date range, scripture block
+│   │   │   ├── Key study questions from manual
+│   │   │   ├── Study prompts
+│   │   │   └── Link to churchofjesuschrist.org lesson
+│   │   └── RIGHT: Curated Companion Content
+│   │       ├── Snippet 1: "Did you know..." + link to Deep Dive verse
+│   │       ├── Snippet 2: Hebrew insight + link
+│   │       ├── Snippet 3: Cross-reference connection + link
+│   │       ├── Snippet 4: Restoration Lens highlight + link
+│   │       ├── Snippet 5: Historical context gem + link
+│   │       ├── Snippet 6: Application insight + link
+│   │       └── Snippet 7: Creator roundup note + link
+│   └── "Read the Full Deep Dive →" button
+├── Week 10: Jacob and Esau
+│   └── [same structure]
+└── ... (all 52 weeks)
+```
+
+### 3.2b Content Hierarchy — Deep Dive View (Tier 2)
+
+```
+DEEP DIVE PAGE (one per week, linked from homepage)
 ├── Week Title & Date Range
 ├── Scripture Block (e.g., "Genesis 18-23")
-├── Official CFM Summary & Key Questions
+├── Chapter Navigation (jump links)
 ├── VERSE-BY-VERSE SECTION
 │   ├── Chapter Header (e.g., Genesis 18)
+│   │   ├── Chapter Overview (2-3 paragraphs — added context)
 │   │   ├── Verse 1 — Full EVM Commentary
 │   │   │   ├── Narrative
 │   │   │   ├── Word Study (expandable)
 │   │   │   ├── Cross-References (expandable)
 │   │   │   ├── Restoration Lens (expandable)
-│   │   │   └── Third-Party Highlights (what creators said about this verse)
+│   │   │   ├── From the Prophets (verified quotes only)
+│   │   │   ├── Christological Typology (expandable)
+│   │   │   └── Application
 │   │   ├── Verse 2 — Full EVM Commentary
-│   │   │   └── [same structure]
-│   │   └── ...
-│   ├── Chapter Header (e.g., Genesis 19)
 │   │   └── ...
 │   └── ...
 ├── WEEKLY CREATOR ROUNDUP
 │   ├── Scripture Central — summary + link
-│   ├── Don't Miss This — summary + link
 │   ├── Follow Him — summary + link
-│   ├── Talking Scripture — summary + link
 │   └── [all other creators]
-└── DISCUSSION QUESTIONS / STUDY PROMPTS
+└── Sources (link to About > Sources page)
 ```
 
 ### 3.3 Data Model
@@ -396,12 +450,16 @@ GET /api/pipeline/history                   → Pipeline run history (admin)
 POST /api/chat                              → User-facing AI chat endpoint (calls MCP ask tool)
 GET /api/analytics/popular                  → Popular queries (admin)
 GET /api/analytics/engagement               → Verse engagement stats (admin)
+GET /api/weeks/:weekId/hook                 → Hook paragraph for a week
+GET /api/weeks/:weekId/snippets             → Companion snippets for a week
+GET /api/registry                           → Full source registry (for About > Sources page)
+GET /api/registry/:category                 → Sources filtered by category
 ```
 
 ### 5.7 SEO Strategy
 Every verse gets its own URL: `everyversematters.com/genesis/18/1`
-Every week gets its own URL: `everyversematters.com/2026/week/9`
-This creates thousands of indexable, scripture-rich pages that rank for specific verse searches.
+Every Deep Dive page gets its own URL: `everyversematters.com/deep-dive/2026/week-9`
+This creates thousands of indexable, scripture-rich pages that rank for specific verse searches. The Deep Dive URL structure keeps the full commentary as a distinct, linkable destination separate from the homepage.
 
 ---
 
@@ -414,12 +472,14 @@ The weekly content pipeline is a cron script that calls MCP tools in sequence �
 ```
 WEEKLY AUTOMATED PIPELINE (cron — runs every Saturday)
 
-1. generate_commentary(current_week + 1)     → produces all verse-by-verse content
-2. discover_creators(current_week + 1)        → finds third-party content
+1. generate_commentary(current_week + 1)     → Deep Dive content (all verse-by-verse)
+2. discover_creators(current_week + 1)        → third-party content
 3. verify_urls(current_week + 1)              → checks all links
-4. verify_quotes(current_week + 1)            → validates prophetic quotes
-5. run_qa(current_week + 1)                   → full QA pass
-6. IF qa_pass: publish(current_week + 1)
+4. verify_quotes(current_week + 1)            → validates against Source Registry
+5. generate_hook(current_week + 1)            → homepage hook paragraph
+6. generate_snippets(current_week + 1)        → companion snippets for homepage
+7. run_qa(current_week + 1)                   → full QA pass
+8. IF qa_pass: publish(current_week + 1)
    ELSE: flag_review() and notify Aaron
 ```
 
@@ -539,23 +599,105 @@ response = client.messages.create(
    - Flag any verses that seem incomplete or problematic
 3. Output `quality_report.json` with pass/fail status and any flags
 
-### 6.5 Stage 4: Site Rebuild & Deploy
+### 6.5 Stage 5: Homepage Hook Paragraph Generation
+
+**Script:** `pipeline/generate_hooks.py`
+**API:** Claude API — model `claude-sonnet-4-5-20250929` (or Opus for premium quality)
+**Trigger:** After Stage 1 (commentary) completes
+**Input:** Deep Dive commentary for the week + official CFM manual content
+**Output:** `content/weeks/{year}/week-{nn}/hook.json`
+
+**Process:**
+1. Load the completed Deep Dive commentary for the week
+2. Load (or fetch) the official CFM manual content for the week
+3. Call Claude API with the Hook Generation Prompt (below)
+4. Claude synthesizes both sources into one compelling paragraph
+5. If a prophetic quote is included, verify against `data/sources_registry.json`
+6. Save to `hook.json`
+
+**Hook Generation Prompt Template:**
+```
+You are writing the opening hook paragraph for EveryVerseMatters.com's weekly
+scripture study page. This paragraph appears on the homepage and must make
+readers want to dive deeper into this week's study.
+
+INPUTS:
+- This week's Come, Follow Me lesson: [official CFM content]
+- This week's Deep Dive commentary highlights: [top insights from commentary]
+
+WRITE ONE PARAGRAPH (4-6 sentences) that:
+- Opens with something surprising, insightful, or emotionally resonant
+- Synthesizes the official lesson theme with the deeper scholarly/spiritual insights
+- May include ONE verified prophetic quote if it powerfully connects (optional)
+- Ends with a sense of invitation — the reader should feel drawn to study further
+- Tone: warm, intelligent, faithful, compelling — like the opening of the best
+  sacrament meeting talk you've ever heard
+
+DO NOT:
+- Use generic devotional language ("This week we learn about God's love...")
+- Summarize the chapter contents like a textbook
+- Include more than one quote
+- Sound like AI-generated marketing copy
+
+OUTPUT: A single paragraph of natural, compelling prose.
+```
+
+### 6.6 Stage 6: Companion Snippet Extraction
+
+**Script:** `pipeline/generate_snippets.py`
+**API:** Claude API — model `claude-haiku-4-5-20251001` (cost-efficient for extraction)
+**Trigger:** After Stage 1 (commentary) completes
+**Input:** Deep Dive commentary for the week
+**Output:** `content/weeks/{year}/week-{nn}/snippets.json`
+
+**Process:**
+1. Load the completed Deep Dive commentary for the week
+2. Call Claude API with the Snippet Extraction Prompt
+3. Claude selects the 5-7 most interesting/surprising/useful insights
+4. Each snippet includes: the insight (2-3 sentences), the verse reference, and a link target
+5. Save to `snippets.json`
+
+**Snippet Extraction Prompt Template:**
+```
+You are selecting the most compelling insights from EveryVerseMatters.com's
+Deep Dive commentary to display as companion snippets on the homepage.
+
+INPUT: Full Deep Dive commentary for Week [N]: [scripture block]
+
+SELECT 5-7 SNIPPETS that are:
+- Surprising ("Did you know the Hebrew word for 'laugh' is the root of Isaac's name?")
+- Practically useful ("This verse's application to modern parenting is...")
+- Scholarly but accessible ("Ancient Near Eastern hospitality customs reveal...")
+- Cross-reference connections that illuminate ("Alma 7:10 connects to this verse because...")
+- Restoration-specific insights ("The JST changes this verse in a way that...")
+
+FOR EACH SNIPPET, PROVIDE:
+- snippet_text: 2-3 sentences, compelling and self-contained
+- verse_reference: The specific verse this relates to (e.g., "Genesis 18:2")
+- deep_dive_anchor: URL anchor for linking (e.g., "genesis-18-2")
+- category: One of [hebrew_insight, cross_reference, historical_context,
+  restoration_lens, application, prophetic, creator_highlight]
+
+OUTPUT: JSON array of 5-7 snippet objects.
+```
+
+### 6.7 Stage 7: Site Rebuild & Deploy
 
 **Script:** `pipeline/build_and_deploy.sh`
-**Trigger:** Cron, every Saturday at 7:30 AM MT (only if Stages 1-3 succeeded)
+**Trigger:** After all content stages succeed
 **Process:**
 1. Check `quality_report.json` — if critical failures, abort and alert Aaron
 2. Run Next.js/Astro static build: reads from `/content/` directory
 3. Build generates HTML pages for:
-   - The new week's page (`/2026/week/{nn}`)
+   - The new week's Deep Dive page (`/deep-dive/2026/week-{nn}`)
+   - Homepage section for the new week (hook + two-column layout)
    - Individual verse pages (`/{book}/{chapter}/{verse}`)
-   - Updated home page (current week featured)
    - Updated "All Weeks" index
 4. Deploy to Nginx webroot on VPS
 5. Purge Cloudflare cache for updated pages
 6. Log deployment status
 
-### 6.6 Commentary Prompt Template
+### 6.8 Commentary Prompt Template
 
 This is the system prompt used for all commentary generation API calls. It is the single most important prompt in the system.
 
@@ -676,7 +818,7 @@ Return valid JSON with this structure for each verse:
 }
 ```
 
-### 6.7 Creator Discovery Prompt Template
+### 6.9 Creator Discovery Prompt Template
 
 ```
 SYSTEM PROMPT — EVM Third-Party Content Discoverer
@@ -715,7 +857,7 @@ Return valid JSON:
 }
 ```
 
-### 6.8 Pipeline Configuration Files
+### 6.10 Pipeline Configuration Files
 
 **`data/cfm_schedule.json`** — Full weekly schedule (generated from Section 2)
 ```json
@@ -775,7 +917,7 @@ Return valid JSON:
 }
 ```
 
-### 6.9 Pipeline Directory Structure
+### 6.11 Pipeline Directory Structure
 
 ```
 everyversematters/
@@ -793,23 +935,30 @@ everyversematters/
 │   └── tsconfig.json
 │
 ├── pipeline/                          # Cron client — calls MCP tools in sequence
-│   ├── generate_commentary.py         # Stage 1: Commentary generation
+│   ├── generate_commentary.py         # Stage 1: Deep Dive commentary generation
 │   ├── discover_creators.py           # Stage 2: Third-party content discovery
 │   ├── verify_and_check.py            # Stage 3: URL verification + QA
-│   ├── build_and_deploy.sh            # Stage 4: Static site build + deploy
-│   ├── notify.py                      # Stage 5: Email admin summary
+│   ├── verify_quotes.py               # Stage 4: Quote verification against Source Registry
+│   ├── generate_hooks.py              # Stage 5: Homepage hook paragraph generation
+│   ├── generate_snippets.py           # Stage 6: Companion snippet extraction
+│   ├── build_and_deploy.sh            # Stage 7: Static site build + deploy
+│   ├── notify.py                      # Email admin summary
 │   ├── run_pipeline.py                # Master orchestrator (runs all stages)
 │   ├── prompts/
-│   │   ├── commentary_system.txt      # System prompt from Section 6.6
-│   │   └── discovery_system.txt       # System prompt from Section 6.7
+│   │   ├── commentary_system.txt      # System prompt from Section 6.8
+│   │   ├── discovery_system.txt       # System prompt from Section 6.9
+│   │   ├── hook_generation.txt        # Hook paragraph prompt from Section 6.5
+│   │   └── snippet_extraction.txt     # Snippet extraction prompt from Section 6.6
 │   └── utils/
 │       ├── api_client.py              # Claude API wrapper with retry/logging
 │       ├── json_parser.py             # Parse and validate Claude JSON output
+│       ├── registry_loader.py         # Load and query sources_registry.json
 │       └── cost_tracker.py            # Token usage and cost monitoring
 │
 ├── data/                              # Static reference data
 │   ├── cfm_schedule.json              # Full 52-week schedule
 │   ├── sources.json                   # Third-party creator catalog
+│   ├── sources_registry.json          # Master source registry (whitelist)
 │   ├── config.json                    # Pipeline configuration
 │   └── kjv_verses/                    # KJV text by book (for verse text)
 │       ├── genesis.json
@@ -820,28 +969,35 @@ everyversematters/
 │   └── weeks/
 │       └── 2026/
 │           ├── week-09/
-│           │   ├── commentary.json    # Verse-by-verse commentary
+│           │   ├── commentary.json    # Verse-by-verse Deep Dive commentary
 │           │   ├── creators.json      # Third-party content catalog
+│           │   ├── hook.json          # Homepage hook paragraph
+│           │   ├── snippets.json      # Companion snippets (5-7 per week)
 │           │   ├── quality_report.json # QA results
 │           │   └── metadata.json      # Run stats (tokens, cost, timing)
 │           ├── week-10/
 │           └── ...
 │
-├── site/                              # Next.js or Astro frontend
+├── site/                              # Astro frontend
 │   ├── src/
 │   │   ├── pages/
-│   │   │   ├── index.astro            # Home page
-│   │   │   ├── about.astro            # About/mission page
+│   │   │   ├── index.astro            # Homepage — Weekly Feed (scrolling, two-column)
+│   │   │   ├── about.astro            # About page with dynamic Sources section
+│   │   │   ├── deep-dive/
+│   │   │   │   └── [week].astro       # Deep Dive pages (verse-by-verse)
 │   │   │   ├── weeks/
-│   │   │   │   └── [week].astro       # Weekly view
+│   │   │   │   └── [week].astro       # All Weeks index
 │   │   │   └── [book]/
 │   │   │       └── [chapter]/
-│   │   │           └── [verse].astro  # Individual verse pages
+│   │   │           └── [verse].astro  # Individual verse pages (SEO)
 │   │   ├── components/
-│   │   │   ├── VerseCommentary.astro  # Single verse display
+│   │   │   ├── WeekSection.astro      # Homepage week section (hook + two columns)
+│   │   │   ├── CompanionSnippet.astro # Individual companion snippet card
+│   │   │   ├── VerseCommentary.astro  # Single verse display (Deep Dive)
 │   │   │   ├── WordStudy.astro        # Expandable word study
 │   │   │   ├── CrossReferences.astro  # Expandable cross-refs
 │   │   │   ├── CreatorCard.astro      # Third-party content card
+│   │   │   ├── SourcesGrid.astro      # About > Sources section (from registry)
 │   │   │   ├── WeekNav.astro          # Week navigation
 │   │   │   └── Layout.astro           # Base layout
 │   │   └── styles/
@@ -937,65 +1093,19 @@ Potential premium features:
 
 ## 9. MVP DEFINITION — WHAT WE BUILD FIRST
 
-### MVP Scope
-- **One week of content** fully built out as proof of concept
-- **Week 9 (Feb 23 – Mar 1): Genesis 18–23 — Sarah and Isaac**
-  - This is the upcoming week and a rich, narrative-heavy block
-- Full verse-by-verse commentary for all 6 chapters (generated via API pipeline)
-- Third-party content catalog for that week (discovered via API + web search)
-- Official CFM curriculum integration
-- Clean, simple, mobile-responsive design
-- Deployed to Aaron's VPS at everyversematters.com
+### MVP Scope (Updated)
+- **Homepage** with Week 9 section fully built: hook paragraph, two-column layout (official curriculum left, companion snippets right), link to Deep Dive
+- **Deep Dive page** for Week 9 (Genesis 18-23): full verse-by-verse commentary with all gaps filled, duplicate verses cleaned, chapter overviews added
+- **About page** with Sources section: dynamic, generated from `data/sources_registry.json`, grouped by category
+- All prophetic quotes verified against Source Registry or stripped
+- Clean, mobile-responsive design (two columns stack on mobile)
+- Deployed to VPS at everyversematters.com
 
-### MVP Build Order (Hack Week Feb 23-27)
-
-```
-Day 1 (Sunday Feb 23):
-├── Set up project repo with directory structure from Section 6.9
-├── Scaffold MCP server with tool stubs
-├── Create data/cfm_schedule.json (full 52-week schedule)
-├── Create data/sources.json (creator catalog)
-├── Build pipeline/generate_commentary.py (Stage 1)
-├── Run Stage 1 for Week 9 — generate all commentary
-└── Validate JSON output structure
-
-Day 2 (Monday Feb 24):
-├── Build pipeline/discover_creators.py (Stage 2)
-├── Run Stage 2 for Week 9 — discover all creator content
-├── Build pipeline/verify_and_check.py (Stage 3)
-├── Run Stage 3 — verify all URLs
-└── Aaron reviews commentary quality
-
-Day 3 (Tuesday Feb 25):
-├── Initialize Astro/Next.js site in /site
-├── Build Layout component (header, nav, footer)
-├── Build WeekView page — reads from content/weeks/2026/week-09/
-├── Build VerseCommentary component with expandable sections
-└── Build CreatorCard component
-
-Day 4 (Wednesday Feb 26):
-├── Build Home page (current week featured)
-├── Build About page
-├── Build AllWeeks index (schedule with placeholder weeks)
-├── Individual verse pages (SEO)
-├── Mobile responsiveness pass
-└── Styling polish
-
-Day 5 (Thursday Feb 27):
-├── Nginx config for everyversematters.com
-├── DNS pointed to VPS
-├── SSL via Let's Encrypt
-├── Deploy and test
-├── Build pipeline/run_pipeline.py (master orchestrator)
-├── Set up cron job for weekly automation
-└── Share with family/ward for feedback
-```
-
-### MVP Pages
-1. **Home** — What is EVM, current week featured
-2. **This Week** — Full week view (verse-by-verse + creator roundup)
-3. **About** — Mission, team (Aaron), historical inspiration
-4. **All Weeks** — Schedule/index (most weeks placeholder until pipeline generates content)
+### MVP Pages (Updated)
+1. **Homepage** — Weekly Feed with Week 9 section (hook + two columns), placeholder sections for other weeks
+2. **Deep Dive: Week 9** — Full verse-by-verse commentary for Genesis 18-23
+3. **About** — Mission, team (Aaron), historical inspiration, Sources section
+4. **All Weeks** — Schedule/index (most weeks placeholder)
 
 ### What's NOT in MVP
 - User accounts / login
@@ -1003,6 +1113,7 @@ Day 5 (Thursday Feb 27):
 - Search
 - Audio narration
 - Email subscriptions
+- User-facing AI chat (Phase 2)
 - Archive (previous years)
 - Mobile app
 - Admin dashboard (use JSON logs for now)
@@ -1142,7 +1253,88 @@ PASS if the response is:
 
 ---
 
-## 12. TOOLING ROLES — WHO DOES WHAT
+## 12. SOURCE REGISTRY
+
+### Purpose
+The Source Registry is EVM's editorial backbone — a living, curated catalog of every source the platform is authorized to draw from. It serves three functions simultaneously:
+
+1. **Reader credibility** — Members can see exactly where content comes from. No black box. Every prophetic quote traces to a specific General Conference talk. Every Hebrew insight traces to a scholarly source. Every creator reference links to the original content.
+2. **MCP whitelist** — The pipeline and user-facing AI draw from approved sources only. If a source isn't in the registry, the system doesn't use it. This is the content guardrail implemented as data, not just prompt instructions.
+3. **Discovery tool** — Members browsing the Sources page find new podcasts, scholars, and study tools they didn't know about. The Sources page is a value-add on its own.
+
+### Source Categories
+
+| Category | Description | Examples |
+|----------|-------------|----------|
+| **Official Church Sources** | Church-published materials | CFM manual, General Conference talks, seminary/institute manuals, Gospel Topics essays, Ensign/Liahona articles |
+| **Scripture & Text** | Primary scripture texts and translations | KJV, JST revisions, Dead Sea Scrolls references, Hebrew/Greek lexicons |
+| **Scholarly/Academic** | Peer-reviewed or institutionally published biblical scholarship | BYU RSC, Maxwell Institute, Scripture Central research articles, published ANE scholarship |
+| **CFM Creators** | Weekly Come Follow Me content producers | Podcasts, YouTube channels, blogs — the existing Tier 1 and Tier 2 catalog |
+| **Prophetic Commentary** | Specific, individually cited talks and publications by Church leaders | Individual General Conference talks (speaker, title, date), published books, Ensign articles |
+| **Historical/Archaeological** | ANE scholarship, geographic context, archaeological findings | Specific academic publications, archaeological survey reports, geographic references |
+
+### Registry Data Model
+
+Each source entry in the registry contains:
+
+```json
+{
+  "id": "gc-holland-grandeur-2003",
+  "name": "The Grandeur of God",
+  "category": "prophetic_commentary",
+  "type": "general_conference_talk",
+  "author": "Elder Jeffrey R. Holland",
+  "date": "2003-04",
+  "url": "https://www.churchofjesuschrist.org/study/general-conference/2003/04/the-grandeur-of-god",
+  "verified": true,
+  "verified_at": "2026-02-23",
+  "mcp_authorized": true,
+  "notes": "Apostolic address on God's nature and majesty",
+  "added_at": "2026-02-23",
+  "added_by": "aaron"
+}
+```
+
+### Registry File Location
+`data/sources_registry.json` — loaded by the MCP server at startup. The Sources page on the website is generated from this same file (single source of truth).
+
+### How the Registry Integrates with the Pipeline
+
+```
+COMMENTARY GENERATION
+  → Claude generates verse commentary including prophetic quotes
+  → verify_quotes tool checks each quote against sources_registry.json
+  → If quote matches a verified source → include with citation
+  → If quote cannot be verified → flag and strip before publish
+  → Only verified, registry-sourced quotes appear on the site
+
+USER-FACING AI
+  → User asks a question
+  → AI generates response grounded in Deep Dive content
+  → Any quotes or citations checked against registry
+  → Guardrail audit (Haiku) includes source verification check
+
+SOURCES PAGE (About > Sources)
+  → Generated from data/sources_registry.json
+  → Grouped by category
+  → Each entry shows: name, author/host, type, URL, description
+  → Dynamic — updated whenever new sources are vetted and added
+  → Readers can browse and discover new study resources
+```
+
+### Source Vetting Process
+1. Source is identified (by pipeline discovery, user suggestion, or Aaron's research)
+2. Source is evaluated for: doctrinal alignment, content quality, active status, URL validity
+3. If approved, Aaron adds entry to `data/sources_registry.json` with `verified: true` and `mcp_authorized: true`
+4. MCP server picks up the new source on next load
+5. Sources page updates automatically
+
+### Key Principle: EVERYTHING QUOTED MUST BE SOURCED
+No prophetic quote, no scholarly claim, no historical fact appears on EVM without a traceable entry in the Source Registry. If it can't be verified and sourced, it doesn't ship. This is a non-negotiable editorial standard.
+
+---
+
+## 13. TOOLING ROLES — WHO DOES WHAT
 
 | Tool | Role | When to Use |
 |------|------|-------------|
@@ -1155,68 +1347,73 @@ PASS if the response is:
 
 ---
 
-## 13. ROADMAP
+## 14. ROADMAP
 
 ### Phase 1: Proof of Concept — Hack Week (Feb 22-27, 2026)
 
-**Completed (Night of Feb 22 — Day 0 head start):**
-- [x] Domain secured (everyversematters.com + .org at Namecheap)
-- [x] EVM Source of Truth created and iterated (3 major revisions)
-- [x] Project repo initialized with full directory structure (Section 6.9)
-- [x] `data/cfm_schedule.json` — full 52-week schedule with all chapters expanded
-- [x] `data/sources.json` — 20 third-party creator sources (11 Tier 1, 9 Tier 2)
+**Completed (Night of Feb 22 — Day 0):**
+- [x] Domain secured (everyversematters.com + .org)
+- [x] Source of Truth created and iterated (4+ major revisions)
+- [x] Project repo initialized with full directory structure
+- [x] `data/cfm_schedule.json` — full 52-week schedule
+- [x] `data/sources.json` — 20 third-party creator sources
 - [x] `data/config.json` — pipeline configuration
-- [x] Commentary pipeline built (`pipeline/generate_commentary.py`) with streaming, batching, error handling
-- [x] Commentary pipeline run for Week 9: **154 verses generated** across Genesis 18-23
-  - Model: `claude-haiku-4-5-20251001` (cost-optimized at $1/$5 per MTok)
-  - Runtime: ~71 minutes, estimated cost: ~$2.10
-  - 3 verses per batch, 32k max_tokens, streaming enabled
-  - Some JSON parse failures saved to `logs/errors/` for re-run
-- [x] MCP server built (TypeScript, `@modelcontextprotocol/sdk`) — **17 tools across 5 categories:**
-  - Content: generate_commentary, discover_creators, search_content
-  - Publishing: get_week, list_weeks, get_verse
-  - QA: verify_urls, flag_review, run_qa
-  - User AI: ask (with dual-pass Haiku audit), lesson_prep, compare_creators, deep_dive
-  - Analytics: log_query, get_popular_queries, get_verse_engagement, get_unmet_needs
-- [x] DNS pointed to VPS (`209.74.80.143`) — both @ and www A records
-- [x] SSL configured via Let's Encrypt (auto-renewing, expires May 23, 2026)
-- [x] Nginx reverse proxy configured on VPS (static site + /api/ proxy to port 3001)
-- [x] Landing page deployed to everyversematters.com (HTTPS live)
-- [x] MCP server config created (`.cursor/mcp.json`)
-- [x] Gap-filled 13 missing verses — **167/167 verses complete** (Genesis 18-23, zero gaps)
+- [x] Commentary pipeline built with streaming, batching, error handling
+- [x] Commentary pipeline run for Week 9: 154 verses across Genesis 18-23
+- [x] MCP server built (TypeScript) — 17 tools across 5 categories
+- [x] DNS pointed to VPS, SSL configured, Nginx reverse proxy live
+- [x] Landing page deployed to everyversematters.com
+- [x] Three-tier content architecture defined (Homepage → Deep Dive → AI)
+- [x] Source Registry architecture designed
+- [x] Gap-filled 13 missing verses — 167/167 verses complete (Genesis 18-23, zero gaps)
 - [x] Fixed duplicate/incorrect KJV text (Genesis 18:27, 18:28, 22:22-23)
 - [x] Generated chapter overviews for all 6 chapters
-- [x] Creator discovery pipeline run — 5 creators found with URLs (Don't Miss This, Follow Him, Talking Scripture, Meridian Magazine, LDS Daily)
+- [x] Creator discovery pipeline run — 5 creators found with URLs
 - [x] Built Astro site with full week view, verse-by-verse commentary, expandable sections, creator roundup, chapter navigation
-- [x] Built Home page, About page, All Weeks index (52 weeks, Week 9 active)
-- [x] Light/dark mode toggle with localStorage persistence
+- [x] Built Home page, About page, All Weeks index
+- [x] Light/dark mode toggle
 - [x] Deployed full site to VPS replacing landing page
 
 **Remaining (Days 1-5):**
-- [ ] Deploy MCP server as PM2 process on VPS (port 3001)
-- [ ] Set up cron job for weekly automated pipeline
-- [ ] Individual verse pages for SEO (`/genesis/18/1`)
-- [ ] Mobile responsiveness polish pass
-- [ ] Fix JSON parser reliability for future pipeline runs
+- [ ] Fix commentary gaps (~12 missing verses) — re-run pipeline for failed batches
+- [ ] Clean duplicate verses (18:27, 18:28-29, 22:22-23)
+- [ ] Add chapter overview paragraphs to Deep Dive content
+- [ ] Create `data/sources_registry.json` with initial vetted sources
+- [ ] Run `verify_quotes` against Source Registry — strip unverifiable quotes
+- [ ] Build homepage hook generation pipeline (`pipeline/generate_hooks.py`)
+- [ ] Build companion snippet extraction pipeline (`pipeline/generate_snippets.py`)
+- [ ] Generate hook and snippets for Week 9
 - [ ] Run creator discovery for remaining Tier 1 sources (Scripture Central, One Minute Scripture Study, Scripture Gems)
+- [ ] Build MVP site (Astro):
+  - [ ] Homepage with Week 9 section (hook + two-column layout)
+  - [ ] Deep Dive page for Week 9
+  - [ ] About page with dynamic Sources section
+  - [ ] All Weeks index
+- [ ] Deploy full site to VPS replacing landing page
+- [ ] Deploy MCP server as PM2 process on VPS (port 3001)
+- [ ] Set up cron job for weekly automation (full pipeline including hooks/snippets)
 - [ ] Share with family/ward for feedback
 
 ### Phase 2: Weekly Production (March–April 2026)
-- [ ] Pipeline running automatically every Saturday
-- [ ] Backfill Weeks 1-8 (Jan–Feb 2026 content)
-- [ ] Refine commentary prompts based on feedback
-- [ ] Add more Tier 2 sources to discovery pipeline
+- [ ] Pipeline running automatically every Saturday (all stages including hook/snippets)
+- [ ] Backfill Weeks 1-8 (Deep Dive + homepage content)
+- [ ] Source Registry populated with 50+ verified prophetic commentary sources
+- [ ] Source Registry populated with all Tier 1 and Tier 2 creator sources
+- [ ] Refine hook and snippet prompts based on reader feedback
 - [ ] Admin dashboard for pipeline monitoring
 - [ ] Add search functionality
 - [ ] Social media presence (Instagram, Facebook)
+- [ ] Begin user-facing AI chat development (Phase 3 prep)
 
 ### Phase 3: Growth (May–December 2026)
-- [ ] Full year of OT content live (all 52 weeks)
+- [ ] Full year of OT content live (52 weeks, both homepage and Deep Dive)
+- [ ] User-facing AI chat live on site (grounded in Deep Dive, audited by Haiku)
 - [ ] Email subscription for weekly content notification
+- [ ] Source Registry exceeds 200 verified sources
 - [ ] Begin backfilling 2022 OT cycle content
-- [ ] Add personal study features (highlights, notes)
-- [ ] Explore audio narration (TTS on commentary)
-- [ ] SEO optimization pass — target top-3 for verse-specific searches
+- [ ] Personal study features (highlights, notes)
+- [ ] Audio narration exploration (TTS on Deep Dive commentary)
+- [ ] SEO optimization — target top-3 for verse-specific searches
 
 ### Phase 4: Multi-Year Platform (2027+)
 - [ ] 2027 curriculum support (New Testament)
@@ -1224,25 +1421,27 @@ PASS if the response is:
 - [ ] Premium tier launch
 - [ ] Mobile app consideration
 - [ ] Community features (discussion, sharing)
-- [ ] AI-powered Q&A (ask any question about any verse)
 
 ---
 
-## 14. COST PROJECTIONS
+## 15. COST PROJECTIONS
 
 ### Weekly Operating Costs (Automated Pipeline)
 
 | Component | Model | Estimated Weekly Cost |
 |-----------|-------|---------------------|
-| Commentary Generation | Haiku 4.5 | $2-4 |
+| Deep Dive Commentary | Haiku 4.5 | $2-4 |
+| Hook Paragraph Generation | Sonnet 4.5 | $0.10-0.25 |
+| Companion Snippet Extraction | Haiku 4.5 | $0.05-0.10 |
+| Quote Verification | Sonnet + Web Search | $0.25-0.50 |
 | Creator Discovery | Sonnet + Web Search | $1-3 |
 | URL Verification + QA | Sonnet + Web Search | $0.50-1 |
-| VPS Hosting | Existing server | $0 (already running) |
-| Domain | Annual | ~$0.25/week ($13/year) |
+| VPS Hosting | Existing server | $0 |
+| Domain | Annual | ~$0.25/week |
 | Cloudflare CDN | Free tier | $0 |
 | User-Facing AI (responses + Haiku audits) | Sonnet + Haiku | $5-50/month (scales with traffic) |
-| **Total Weekly** | | **~$4-8/week** |
-| **Total Annual** | | **~$200-420/year** |
+| **Total Weekly** | | **~$4-9/week** |
+| **Total Annual** | | **~$210-470/year** |
 
 **Actual Week 9 Data (first real pipeline run, Feb 22):**
 - Model: `claude-haiku-4-5-20251001` ($1/$5 per MTok)
@@ -1262,7 +1461,7 @@ PASS if the response is:
 
 ---
 
-## 15. OPEN QUESTIONS
+## 16. OPEN QUESTIONS
 
 1. **Astro vs Next.js:** Astro is simpler for a content-heavy static site. Next.js offers more flexibility for future features (user accounts, API routes). Recommendation: Astro for MVP, migrate if needed.
 2. **Content Review Workflow:** For MVP, Aaron reviews JSON files directly. Future: simple admin page that shows flagged verses with approve/edit/reject buttons.
@@ -1277,10 +1476,16 @@ PASS if the response is:
 11. **User Session Management:** Anonymous sessions with no login for MVP. Track sessions via cookie/local storage for conversation continuity. No PII collected.
 12. **Rate Limiting:** Need per-session and per-IP rate limits on the user-facing AI to prevent abuse and manage API costs. Suggested: 20 queries per session, 50 per IP per day for free tier.
 13. **MCP Server Framework:** Use the official MCP SDK (TypeScript or Python). Reference: https://modelcontextprotocol.io
+14. **Hook Paragraph Model Choice:** Sonnet vs Opus for hook generation. Sonnet is likely sufficient and far cheaper. Test both for Week 9 and compare quality. One paragraph per week = negligible cost difference.
+15. **Companion Snippet Count:** 5-7 per week is the target. Test whether readers prefer fewer (3-4 high-impact) or more (8-10 comprehensive). A/B test in Phase 2.
+16. **Source Registry Initial Population:** Priority is General Conference talks cited in Week 9 commentary. Then expand to all CFM creator URLs. Then scholarly sources. Target: 50 verified sources before Week 10 publishes.
+17. **Mobile Two-Column Behavior:** Two columns should stack on mobile (official curriculum on top, companion content below). Or should they tab? Test with family feedback.
+18. **Deep Dive URL Structure:** `everyversematters.com/deep-dive/2026/week-9` vs `everyversematters.com/2026/week-9/deep-dive`. The former keeps Deep Dive as its own section; the latter nests it under the week. Recommendation: the former, for cleaner SEO.
+19. **Homepage Scroll vs Pagination:** For 52 weeks of content, infinite scroll may be too long. Consider showing only current week + 2 previous + 2 upcoming, with "Show All Weeks" expanding. Or use pagination.
 
 ---
 
-## 16. KEY REFERENCES
+## 17. KEY REFERENCES
 
 - **Anthropic API Docs:** https://docs.anthropic.com
 - **Claude Web Search Tool:** https://docs.anthropic.com/en/docs/build-with-claude/tool-use/web-search
@@ -1295,7 +1500,7 @@ PASS if the response is:
 
 ---
 
-## 17. DISCLAIMER (Required on Site)
+## 18. DISCLAIMER (Required on Site)
 
 > EveryVerseMatters.com is an independent study resource and is not affiliated with, endorsed by, or sponsored by The Church of Jesus Christ of Latter-day Saints. Come, Follow Me is a trademark of Intellectual Reserve, Inc. All commentary is AI-generated and should be used as a supplemental study aid, not as authoritative doctrinal interpretation. Third-party content is linked with attribution; all rights remain with the original creators.
 
@@ -1303,4 +1508,4 @@ PASS if the response is:
 
 *This document is the living source of truth for EveryVerseMatters.com. It is maintained collaboratively between Claude (PM/content engine) and Aaron (builder/owner). Updated as decisions are made and the product evolves.*
 
-*The MCP-first architecture described in Sections 5-6 is the core differentiator — it enables a single person (Aaron) to operate a content platform that would normally require a full editorial team, publishing fresh, deep, verified content every single week without manual intervention. The same tools power the automated pipeline, interactive development, and the user-facing AI experience.*
+*The MCP-first architecture described in Sections 5-6 is the core differentiator — it enables a single person (Aaron) to operate a content platform that would normally require a full editorial team, publishing fresh, deep, verified content every single week without manual intervention. The same tools power the automated pipeline, interactive development, and the user-facing AI experience. The Source Registry (Section 12) is the editorial backbone that makes the platform trustworthy: every quote is traceable, every source is vetted, nothing ships unverified.*
