@@ -1,10 +1,10 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** February 22, 2026 (3:00 PM MT)
+**Last Updated:** February 22, 2026 (4:00 PM MT)
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** Hack Week complete — everyversematters.com live with three-tier homepage, Deep Dive (167 verses), 18 creators, Source Registry (23 sources), About > Sources page, weekly cron automation running
+**Status:** Hack Week complete — everyversematters.com live with three-tier homepage, Deep Dive (167 verses), 18 creators, 26-source registry, audio playback (OpenAI TTS), back-to-top nav, weekly cron running
 
 ---
 
@@ -326,27 +326,30 @@ PIPELINE_RUNS
 | **Talking Scripture** | Podcast | Mike Day, Bryce Dunford | Conversational deep dives | talkingscripture.com | Web search: "Talking Scripture [scripture block]" |
 | **Line Upon Line** | Video/Podcast | Living Scriptures | Wide-audience, family-friendly overviews | livingscriptures.com | Web search: "Line Upon Line Living Scriptures [scripture block]" |
 | **Meridian Magazine CFM** | Podcast/Articles | Scot & Maurine Proctor | Written depth, Holy Land context, photography | latterdaysaintmag.com | Web search: "Meridian Magazine Come Follow Me [scripture block]" |
-| **One Minute Scripture Study** | Podcast | Kristen Walker Smith | Quick daily bites, accessible | oneminutescripturestudy.com | Web search: "One Minute Scripture Study [scripture block]" |
-| **Scripture Gems** | Podcast | Jon & Jay Fullmer | Weekly gems and insights | scripturegemspodcast.com | Web search: "Scripture Gems podcast [scripture block]" |
-| **Teaching with Power** | Podcast/Blog | Benjamin Wilcox | Seminary/Sunday School teacher focus | teachingwithpower.com | Web search: "Teaching with Power [scripture block]" |
-| **Come Follow Me Daily** | Website | Various | Daily aggregation site | comefollowhimdaily.com | Direct fetch: check weekly page |
-| **LDS Daily** | Website/Blog | Holly Wallace et al. | Weekly study guides, aggregated podcast lists | ldsdaily.com | Web search: "LDS Daily Come Follow Me [scripture block]" |
+| **One Minute Scripture Study** | Podcast | Cali Black | Quick daily bites (1-5 min, 5x/week), accessible | oneminutescripturestudy.com | RSS feed / podcast app — not web-indexable |
+| **Teaching with Power** | Podcast/Blog | Benjamin Wilcox | Seminary/Sunday School teacher focus, downloadable lesson materials | teachingwithpower.com | Web search: "Teaching with Power [scripture block]" |
+| **The Scriptures Are Real** | Podcast/Video | Kerry Muhlestein & Lamar Newmeyer | BYU Egyptology/ancient scripture, expert interviews, top 0.5% global podcasts | podcasts.apple.com/us/podcast/the-scriptures-are-real/id1600496638 | Web search: "Scriptures Are Real Muhlestein [scripture block]" |
+| **Unshaken Saints** | Podcast/Video | Jared Halverson | Verse-by-verse deep dives (2-4 hrs), faith-crisis support, closest format to EVM | unshaken.org | Web search: "Unshaken Saints [scripture block]" |
+| **Church News** | Articles | Church News staff | Weekly verified prophetic quote compilations — key Source Registry feeder | thechurchnews.com | Web search: "Church News Come Follow Me [scripture block] leaders said" |
+| **Come Follow Me Daily** | Website | Various | Weekly aggregation of all CFM content | comefollowhimdaily.com | Direct fetch: check weekly page |
+| **LDS Daily** | Website/Blog | LDS Daily | Weekly study guides, historical context, aggregated podcast links | ldsdaily.com | Web search: "LDS Daily Come Follow Me [scripture block]" |
 
 ### Tier 2: Supplementary/Specialized Sources
 
 | Source | Type | Specialty |
 |--------|------|-----------|
-| **BYU Religious Studies Center (RSC)** | Articles | Academic articles by BYU religion faculty |
-| **BYUtv Come Follow Up** | Video | Television-quality studio discussions |
-| **Maxwell Institute** | Podcast/Articles | Academic, interfaith-friendly scholarship |
-| **Unshaken Saints** | Podcast | Apologetics-oriented, faith-building |
-| **Book of Mormon Central** | Articles/Video | BoM cross-references (esp. relevant for OT year) |
+| **BYU Religious Studies Center (RSC)** | Articles | Peer-reviewed academic articles by BYU religion faculty; evergreen by scripture block |
+| **BYUtv Come Follow Up** | Video | Television-quality studio discussions; re-airing 2022 OT episodes in 2026 |
+| **Maxwell Institute** | Podcast/Articles | Academic, interfaith-friendly scholarship; irregular publication schedule |
+| **Book of Mormon Central** | Articles/Video | BoM cross-references (especially relevant for OT year) |
 | **The Red Crystal** | Blog/Printables | Youth lesson helps and teacher resources |
-| **Gospel Grab Bag** | Blog/Printables | Primary and family activity resources |
+| **Gospel Grab Bag** | Blog/Printables | Primary and family activity resources (ages 1-16) |
 | **Hope in Christ** | Podcast | Ben Peterson — devotional approach |
 | **Talk of Him** | Podcast | Ganel-Lynn Condie & John Fossum |
 | **Church Newsroom** | Official | Official Church supplementary resources |
 | **Insights from the Apostles** | Video | Monthly videos from Quorum of the Twelve |
+
+*Note: Scripture Gems (Jon & Jay Fullmer) appears inactive since March 2024 — downgraded from Tier 1.*
 
 ### Tier 3: Archive Sources (for backfill from previous OT cycle)
 - 2022 was the last Old Testament year in CFM
@@ -1383,19 +1386,25 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] Deployed full site to VPS replacing landing page
 
 **Completed (Days 1-5):**
-- [x] `data/sources_registry.json` created — 23 verified sources across 4 categories
+- [x] `data/sources_registry.json` created — 26 verified sources across 4 categories
 - [x] Homepage hook generation pipeline (`pipeline/generate_hooks.py`) built and run for Week 9
 - [x] Companion snippet extraction pipeline (`pipeline/generate_snippets.py`) built and run for Week 9
 - [x] Homepage rebuilt — three-tier Weekly Feed with hook blockquote, two-column layout, 52-week schedule
-- [x] About page updated — dynamic Sources section generated from `sources_registry.json`
+- [x] About page updated — dynamic Sources section generated from `sources_registry.json`; "Built By" copy corrected
 - [x] Creator discovery expanded to 18 entries (13 found), via Claude web search
   - New: Scripture Central (2 series), Unshaken Saints, BYUtv, Church News, Teaching with Power, LDS Daily, Gospel Grab Bag, Don't Miss This 2022 archive
-  - `sources.json` updated: Unshaken Saints → Tier 1, Scripture Gems → inactive, Church News added
+  - `sources.json` updated: Unshaken Saints, Church News, The Scriptures Are Real → Tier 1; Scripture Gems → inactive
+- [x] `pipeline/generate_audio.py` — OpenAI tts-1-hd (nova voice); generates `site/public/audio/week-{nn}-hook.mp3`
+- [x] Week 9 hook audio generated ($0.016, 1.2MB) and live at `/audio/week-09-hook.mp3`
+- [x] Homepage audio player — plays OpenAI MP3 with browser Web Speech API fallback; "AI Voice" badge
+- [x] Deep Dive back-to-top — per-chapter "↑ Back to top" links + floating button (appears after 400px scroll)
 - [x] Python venv at `/var/www/evm/venv` with anthropic + python-dotenv
 - [x] `pipeline/run_pipeline.py` — master orchestrator (7 stages, auto week detection, dry-run mode)
 - [x] Cron job live — Saturdays 11:00 UTC (4:00 AM MT): `/var/www/evm/run_weekly_pipeline.sh`
 - [x] Deploy pipeline: `rsync site/dist/ → /var/www/evm/site/dist/` with nginx serving from `dist/`
 - [x] MCP server: stdio-only (Cursor/Claude Desktop integration). HTTP transport needed for Phase 2 web integration — not PM2-able yet.
+- [x] Kerry Muhlestein's The Scriptures Are Real — added to sources registry + Tier 1 discovery catalog
+- [x] One Minute Scripture Study (Cali Black) — added to registry with discovery note (not web-indexable)
 
 **Remaining:**
 - [ ] `verify_quotes` pipeline — strip unverifiable prophetic quotes from Week 9 commentary
@@ -1443,6 +1452,7 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 |-----------|-------|---------------------|
 | Deep Dive Commentary | Haiku 4.5 | $2-4 |
 | Hook Paragraph Generation | Sonnet 4.5 | $0.10-0.25 |
+| Hook Audio (TTS) | OpenAI tts-1-hd | ~$0.02/week |
 | Companion Snippet Extraction | Haiku 4.5 | $0.05-0.10 |
 | Quote Verification | Sonnet + Web Search | $0.25-0.50 |
 | Creator Discovery | Sonnet + Web Search | $1-3 |
@@ -1453,6 +1463,8 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 | User-Facing AI (responses + Haiku audits) | Sonnet + Haiku | $5-50/month (scales with traffic) |
 | **Total Weekly** | | **~$4-9/week** |
 | **Total Annual** | | **~$210-470/year** |
+
+*Audio (OpenAI): requires `OPENAI_API_KEY` in `.env`. Not part of the Anthropic-only cost estimates above. Added separately per week at negligible cost.*
 
 **Actual Week 9 Data (first real pipeline run, Feb 22):**
 - Model: `claude-haiku-4-5-20251001` ($1/$5 per MTok)
@@ -1521,4 +1533,4 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 
 *The MCP-first architecture described in Sections 5-6 is the core differentiator — it enables a single person (Aaron) to operate a content platform that would normally require a full editorial team, publishing fresh, deep, verified content every single week without manual intervention. The same tools power the automated pipeline, interactive development, and the user-facing AI experience. The Source Registry (Section 12) is the editorial backbone that makes the platform trustworthy: every quote is traceable, every source is vetted, nothing ships unverified.*
 
-*Hack Week (Feb 22-27, 2026) status: site live at everyversematters.com, 167-verse Deep Dive for Week 9, three-tier homepage, 18 creator catalog, 23-source registry, cron automation running. Next milestone: first fully automated pipeline run for Week 10 on Saturday March 7.*
+*Hack Week (Feb 22-27, 2026) status: site live at everyversematters.com — 167-verse Deep Dive, three-tier homepage with OpenAI TTS audio, 18-creator catalog, 26-source registry, back-to-top navigation, cron automation running. Next milestone: first fully automated pipeline run for Week 10 on Saturday March 7, 2026.*
