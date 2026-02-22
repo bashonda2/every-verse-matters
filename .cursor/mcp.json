@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "evm": {
+      "command": "node",
+      "args": ["/Users/aaronblonquist/EVM/mcp-server/dist/server.js"],
+      "env": {
+        "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}"
+      }
+    }
+  }
+}

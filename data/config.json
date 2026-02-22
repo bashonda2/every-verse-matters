@@ -1,0 +1,18 @@
+{
+  "commentary_model": "claude-haiku-4-5-20251001",
+  "discovery_model": "claude-sonnet-4-5-20250929",
+  "max_tokens_per_chapter": 16000,
+  "pipeline_timezone": "America/Denver",
+  "pipeline_schedule": {
+    "commentary": "0 4 * * 6",
+    "discovery": "0 6 * * 6",
+    "verify": "0 7 * * 6",
+    "build": "30 7 * * 6",
+    "notify": "0 8 * * 6"
+  },
+  "notification_email": "aaron@everyversematters.com",
+  "cost_alert_threshold_weekly": 50.00,
+  "anthropic_api_key_env": "ANTHROPIC_API_KEY",
+  "content_dir": "content/weeks",
+  "log_dir": "logs"
+}
