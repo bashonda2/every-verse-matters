@@ -1,7 +1,7 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** February 22, 2026 (8:30 PM MT)
+**Last Updated:** February 23, 2026
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
 **Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline. All 9 weeks live. Homepage tagline + lesson title heading added. Ready to share.
@@ -436,7 +436,7 @@ Build once, use everywhere.
 | Layer | Technology | Why |
 |-------|-----------|-----|
 | **MCP Server** | Official MCP SDK (TypeScript or Python) | Exposes all tools via standard protocol |
-| **Frontend** | Next.js or Astro | Static generation for SEO + fast page loads; consumes MCP tools |
+| **Frontend** | Astro (static) | Static generation for SEO + fast page loads; consumes MCP tools |
 | **Chat Widget** | React component | User-facing AI interface, calls MCP server via API |
 | **Styling** | Tailwind CSS | Rapid development, mobile-first, modern aesthetic |
 | **Content Store** | PostgreSQL or SQLite | Structured storage for commentary, creator content, and query logs |
@@ -526,7 +526,7 @@ Pipeline runs on Saturday morning so content is live before Sunday study. The ke
 ### 6.2 Stage 1: Commentary Generation
 
 **Script:** `pipeline/generate_commentary.py`
-**API:** Claude API — model `claude-opus-4-6` (or latest Opus)
+**API:** Claude API — model `claude-haiku-4-5` for standard weeks; Opus reserved for high-complexity chapters (Isaiah, Job, Psalms) where literary depth justifies cost
 **Trigger:** Cron, every Saturday at 4:00 AM MT
 **Input:** Week number → looked up in `data/cfm_schedule.json` → returns scripture block
 **Output:** `content/weeks/{year}/week-{nn}/commentary.json`
@@ -1425,7 +1425,7 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
   - `sources.json` updated: Unshaken Saints, Church News, The Scriptures Are Real → Tier 1; Scripture Gems → inactive
 - [x] `pipeline/generate_audio.py` — OpenAI tts-1-hd; generates `site/public/audio/week-{nn}-hook.mp3`
 - [x] Week 9 hook audio generated ($0.016, 1.2MB) — **voice: echo** (warm male); live at `/audio/week-09-hook.mp3`
-- [x] Homepage audio player — plays OpenAI MP3 with browser Web Speech API fallback; "AI Voice · Nova" badge
+- [x] Homepage audio player — plays OpenAI MP3 with browser Web Speech API fallback; no badge shown (implementation detail hidden from users)
 - [x] Voice selection: echo chosen (warm male pastoral tone). Available alternatives: onyx (deeper/authoritative), fable (expressive male). Female voices (nova, shimmer, alloy) excluded by preference.
 - [x] Deep Dive back-to-top — per-chapter "↑ Back to top" links + floating button (appears after 400px scroll)
 - [x] Python venv at `/var/www/evm/venv` with anthropic + python-dotenv
@@ -1574,25 +1574,28 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 
 ## 16. OPEN QUESTIONS
 
-1. **Astro vs Next.js:** Astro is simpler for a content-heavy static site. Next.js offers more flexibility for future features (user accounts, API routes). Recommendation: Astro for MVP, migrate if needed.
-2. **Content Review Workflow:** For MVP, Aaron reviews JSON files directly. Future: simple admin page that shows flagged verses with approve/edit/reject buttons.
-3. **Third-Party Content Permissions:** Linking and summarizing is standard fair use. No embedded content. Include "not affiliated" disclaimer on every page.
-4. **Church Trademark Compliance:** Cannot use official Church logos. Must include "not affiliated with The Church of Jesus Christ of Latter-day Saints" disclaimer.
-5. **Commentary Versioning:** When prompts improve, re-run pipeline for historical weeks. Track `generated_by` model version in each commentary entry.
-6. **Multiple Translations:** KJV is standard for LDS use. Consider showing alternate translations as an expandable section in future.
-7. **Backfill Strategy:** Pipeline generates forward from current week. Backfill Weeks 1-8 as a batch job in Phase 2. Use Batch API for cost savings.
-8. **Prophetic Quote Accuracy:** Claude may hallucinate General Conference quotes. QA step should flag any quote that can't be web-verified. Consider removing prophetic quotes from automated pipeline and adding them manually, or using web search to verify each quote in real-time.
-9. **Rate Limits:** Monitor Anthropic API rate limits. If weekly pipeline exceeds limits, stagger chapter generation across multiple hours.
-10. **Chat Widget Technology:** Embedded React component calling MCP server via API? Or a third-party chat widget? Recommendation: custom React component for full control over UX and guardrails.
-11. **User Session Management:** Anonymous sessions with no login for MVP. Track sessions via cookie/local storage for conversation continuity. No PII collected.
-12. **Rate Limiting:** Need per-session and per-IP rate limits on the user-facing AI to prevent abuse and manage API costs. Suggested: 20 queries per session, 50 per IP per day for free tier.
-13. **MCP Server Framework:** Use the official MCP SDK (TypeScript or Python). Reference: https://modelcontextprotocol.io
-14. **Hook Paragraph Model Choice:** Sonnet vs Opus for hook generation. Sonnet is likely sufficient and far cheaper. Test both for Week 9 and compare quality. One paragraph per week = negligible cost difference.
-15. **Companion Snippet Count:** 5-7 per week is the target. Test whether readers prefer fewer (3-4 high-impact) or more (8-10 comprehensive). A/B test in Phase 2.
-16. **Source Registry Initial Population:** Priority is General Conference talks cited in Week 9 commentary. Then expand to all CFM creator URLs. Then scholarly sources. Target: 50 verified sources before Week 10 publishes.
-17. **Mobile Two-Column Behavior:** Two columns should stack on mobile (official curriculum on top, companion content below). Or should they tab? Test with family feedback.
-18. **Deep Dive URL Structure:** `everyversematters.com/deep-dive/2026/week-9` vs `everyversematters.com/2026/week-9/deep-dive`. The former keeps Deep Dive as its own section; the latter nests it under the week. Recommendation: the former, for cleaner SEO.
-19. **Homepage Scroll vs Pagination:** For 52 weeks of content, infinite scroll may be too long. Consider showing only current week + 2 previous + 2 upcoming, with "Show All Weeks" expanding. Or use pagination.
+1. **Content Review Workflow:** For MVP, Aaron reviews JSON files directly. Future: simple admin page that shows flagged verses with approve/edit/reject buttons.
+2. **Third-Party Content Permissions:** Linking and summarizing is standard fair use. No embedded content. Include "not affiliated" disclaimer on every page.
+3. **Church Trademark Compliance:** Cannot use official Church logos. Must include "not affiliated with The Church of Jesus Christ of Latter-day Saints" disclaimer.
+4. **Commentary Versioning:** When prompts improve, re-run pipeline for historical weeks. Track `generated_by` model version in each commentary entry.
+5. **Multiple Translations:** KJV is standard for LDS use. Consider showing alternate translations as an expandable section in future.
+6. **Backfill Strategy:** Weeks 1-8 have rich summaries. Full verse-by-verse backfill via Batch API (50% discount) planned for Phase 2.
+7. **Rate Limits:** Monitor Anthropic API rate limits. If weekly pipeline exceeds limits, stagger chapter generation across multiple hours.
+8. **Chat Widget Technology:** Embedded React component calling MCP server via API? Or a third-party chat widget? Recommendation: custom React component for full control over UX and guardrails.
+9. **User Session Management:** Anonymous sessions with no login for MVP. Track sessions via cookie/local storage for conversation continuity. No PII collected.
+10. **Rate Limiting:** Need per-session and per-IP rate limits on the user-facing AI to prevent abuse and manage API costs. Suggested: 20 queries per session, 50 per IP per day for free tier.
+11. **MCP Server Framework:** Use the official MCP SDK (TypeScript or Python). Reference: https://modelcontextprotocol.io
+12. **Companion Snippet Count:** 5-7 per week is the target. Test whether readers prefer fewer (3-4 high-impact) or more (8-10 comprehensive). A/B test in Phase 2.
+13. **Source Registry Initial Population:** Priority is General Conference talks cited in Week 9 commentary. Then expand to all CFM creator URLs. Then scholarly sources. Target: 50 verified sources before Week 10 publishes.
+14. **Mobile Two-Column Behavior:** Two columns should stack on mobile (official curriculum on top, companion content below). Or should they tab? Test with family feedback.
+15. **Deep Dive URL Structure:** `everyversematters.com/deep-dive/2026/week-9` vs `everyversematters.com/2026/week-9/deep-dive`. The former keeps Deep Dive as its own section; the latter nests it under the week. Recommendation: the former, for cleaner SEO.
+16. **Homepage Scroll vs Pagination:** For 52 weeks of content, infinite scroll may be too long. Consider showing only current week + 2 previous + 2 upcoming, with "Show All Weeks" expanding. Or use pagination.
+
+### Resolved Decisions
+
+- **Astro vs Next.js** → **Astro.** Chosen for MVP. Static generation, simpler, no server needed. Next.js migration deferred to Phase 3+ if user accounts or server-side features are required.
+- **Hook Paragraph Model** → **Claude Sonnet.** Sufficient quality at far lower cost than Opus. One paragraph per week makes cost difference negligible either way. Resolved Week 9.
+- **Prophetic Quote Accuracy** → **Three-layer system implemented.** Layer 1: prompt hardening (omit rather than guess). Layer 2: `verify_references.py` checks all cross-references. Layer 3: `run_qa.py` Haiku audit blocks deploy if >10% of verses fail. Remaining edge case: quotes from non-web-indexed sources — mitigated by requiring all 4 citation fields before including any quote.
 
 ---
 
