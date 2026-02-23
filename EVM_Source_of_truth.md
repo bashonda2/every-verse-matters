@@ -1503,7 +1503,6 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [ ] First fully automated pipeline run — Week 10, Saturday March 7, 2026
 - [ ] Verify Week 10 output and adjust if needed
 - [ ] Implement Church News scraping to auto-populate `sources_registry.json` weekly
-- [ ] Backfill full verse-by-verse commentary for Weeks 1-8 via Anthropic Batch API (50% discount)
 - [ ] Source Registry populated with 50+ verified prophetic commentary sources
 - [ ] Refine hook and snippet prompts based on reader feedback
 - [ ] Individual verse pages for SEO (`/genesis/18/1`)
@@ -1521,6 +1520,7 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [ ] Personal study features (highlights, notes)
 - [ ] Audio narration exploration (TTS on Deep Dive commentary)
 - [ ] Individual verse pages for SEO (`/genesis/18/1`) — dedicated URL per verse for deep search indexing
+- [ ] Backfill full verse-by-verse commentary for Weeks 1-8 via Anthropic Batch API (50% discount)
 - [ ] SEO optimization — target top-3 for verse-specific searches
 
 ### Phase 4: Multi-Year Platform (2027+)
