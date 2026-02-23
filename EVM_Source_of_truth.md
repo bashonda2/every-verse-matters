@@ -1496,7 +1496,6 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] Nav "This Week" → "This Week — Deep Dive"
 
 **Remaining:**
-- [ ] Individual verse pages for SEO (`/genesis/18/1`)
 - [ ] Share with family/ward for feedback
 - [ ] Monitor first fully automated run — Week 10, Saturday March 7
 
@@ -1521,6 +1520,7 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [ ] Begin backfilling 2022 OT cycle content
 - [ ] Personal study features (highlights, notes)
 - [ ] Audio narration exploration (TTS on Deep Dive commentary)
+- [ ] Individual verse pages for SEO (`/genesis/18/1`) — dedicated URL per verse for deep search indexing
 - [ ] SEO optimization — target top-3 for verse-specific searches
 
 ### Phase 4: Multi-Year Platform (2027+)
