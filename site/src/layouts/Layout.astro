@@ -18,7 +18,11 @@ const { title, description = 'Deep Come, Follow Me scripture study — every ver
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;600&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <style is:global>#tagline-row{display:none}@media(min-width:860px){#tagline-row{display:block}}</style>
+  <style is:global>
+    #tagline-row { display: block; }
+    #tagline-text { font-size: 11px; }
+    @media (min-width: 860px) { #tagline-text { font-size: 15px; white-space: nowrap; } }
+  </style>
 </head>
 <body class="min-h-screen flex flex-col">
 
@@ -26,8 +30,8 @@ const { title, description = 'Deep Come, Follow Me scripture study — every ver
   <header style="position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);background:rgba(250,247,242,0.95);" class="dark:bg-opacity-95 transition-colors">
 
     <!-- Row 1: Wordmark + Nav -->
-    <div style="max-width:1200px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:60px;border-bottom:1px solid var(--color-border);">
-      <a href="/" style="text-decoration:none;display:flex;flex-direction:column;align-items:flex-start;line-height:1;gap:1px;">
+    <div style="max-width:1200px;margin:0 auto;padding:10px 2rem;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--color-border);">
+      <a href="/" style="text-decoration:none;display:flex;flex-direction:column;align-items:flex-start;line-height:1;gap:2px;">
         <span style="font-family:'Cinzel',serif;font-size:12px;font-weight:600;letter-spacing:0.35em;text-transform:uppercase;color:#5c4220;">Every</span>
         <span id="wordmark-main" style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:26px;color:var(--color-gold);letter-spacing:0.01em;line-height:1.1;position:relative;">
           Verse Matters
@@ -44,10 +48,10 @@ const { title, description = 'Deep Come, Follow Me scripture study — every ver
       </nav>
     </div>
 
-    <!-- Row 2: Tagline — full width, own dedicated row (desktop only) -->
+    <!-- Row 2: Tagline — full width, own dedicated row (all screens) -->
     <div id="tagline-row" style="width:100%;border-bottom:1px solid var(--color-border);">
-      <div style="max-width:1200px;margin:0 auto;padding:9px 2rem;">
-        <span style="font-family:'Source Sans 3',sans-serif;font-size:15px;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#5c4220;white-space:nowrap;">Come, Follow Me &mdash; Every scholar &middot; Every insight &middot; Every verse</span>
+      <div style="max-width:1200px;margin:0 auto;padding:7px 2rem;">
+        <span id="tagline-text" style="font-family:'Source Sans 3',sans-serif;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;color:#5c4220;">Come, Follow Me &mdash; Every scholar &middot; Every insight &middot; Every verse</span>
       </div>
     </div>
 
