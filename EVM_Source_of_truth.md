@@ -1482,6 +1482,19 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] CFM lesson title heading above hook paragraph: italic Cormorant Garamond, driven by `lesson_title` field in cfm_schedule.json
 - [x] `cfm_schedule.json`: added `lesson_title` to all 52 weeks (official Church question-format titles)
 
+**UI / Header Polish (Feb 23, 2026):**
+- [x] Removed "AI Voice · Echo" label from homepage audio buttons — users don't need to see implementation details
+- [x] Removed "verified" badge from About page sources — cheapened the look
+- [x] Fixed critical deploy bug: `global.css` was referenced as a `<link href="/src/styles/global.css">` (never loaded in production). Fixed by importing in Astro frontmatter — all CSS custom variables now load correctly
+- [x] Fixed deploy path: Nginx serves from `/var/www/evm/site/dist/` — all prior manual deploys were going to wrong path `/var/www/evm/dist/`. SOT updated with prominent warning.
+- [x] Header rebuilt as two-row layout:
+  - Row 1: Wordmark ("EVERY" / "Verse Matters") + Nav — padding-based height so "EVERY" never clips on mobile
+  - Row 2: Full-width tagline bar, left-aligned under wordmark, visible on all screen sizes (11px mobile, 15px desktop)
+- [x] "EVERY" wordmark label: bumped to 12px bold, dark brown `#5c4220` — clearly readable
+- [x] Tagline: 15px, `font-weight:800`, dark brown `#5c4220`, own dedicated row, left-aligned with wordmark
+- [x] Nav: `white-space:nowrap` on all links, gap tightened to 1.25rem (0.75rem on small phones), 12px font
+- [x] Nav "This Week" → "This Week — Deep Dive"
+
 **Remaining:**
 - [ ] Individual verse pages for SEO (`/genesis/18/1`)
 - [ ] Share with family/ward for feedback
