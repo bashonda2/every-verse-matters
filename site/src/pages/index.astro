@@ -264,7 +264,6 @@ const creatorIcons: Record<string, string> = {
           <svg id="icon-loading" width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:none" class="spin"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5" stroke-dasharray="18 10"/></svg>
           <span id="audio-label">Listen to introduction</span>
         </button>
-        {currentContent.hook.audio_url && <span style="font-size:10px;color:var(--text-light);letter-spacing:.05em;text-transform:uppercase;">AI Voice · Echo</span>}
       </div>
       {currentContent.hook.audio_url && <audio id="hook-audio" src={currentContent.hook.audio_url} preload="none" />}
     </div>
@@ -397,7 +396,6 @@ const creatorIcons: Record<string, string> = {
                   <svg class="pause-icon" width="14" height="14" viewBox="0 0 16 16" style="fill:currentColor;display:none"><rect x="3" y="2" width="4" height="12" rx="1"/><rect x="9" y="2" width="4" height="12" rx="1"/></svg>
                   <span class="btn-label">Listen</span>
                 </button>
-                <span style="font-size:10px;color:var(--text-light);letter-spacing:.05em;text-transform:uppercase;">AI Voice · Echo</span>
               </div>
             )}
           </div>
