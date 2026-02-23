@@ -412,11 +412,19 @@ Build once, use everywhere.
 
 ### 5.4 Hosting & Infrastructure
 - **Server:** Aaron's VPS at `209.74.80.143` (SSH: `ssh root@209.74.80.143`) — also hosts Emree (PM2, port 3000) and MissionChecklist (Docker, port 5050)
-- **MCP Server:** TypeScript (`@modelcontextprotocol/sdk`) at `/var/www/evm/mcp-server/` — **currently stdio transport** (Cursor/Claude Desktop only). HTTP/SSE transport needed for Phase 2 web integration; nginx already has `/api/` → port 3001 proxy ready.
+- **MCP Server:** TypeScript (`@modelcontextprotocol/sdk`) at `/var/www/evm/mcp-server/`
+  - **stdio transport** (Cursor/Claude Desktop): launched on-demand by IDE. Entry: `dist/server.js`.
+  - **HTTP transport** (Phase 3 web chat): `dist/http-server.js`, managed by PM2 as `evm-mcp-http`, listening on `127.0.0.1:3002`. Exposes 4 user-facing tools only (`ask`, `lesson_prep`, `compare_creators`, `deep_dive`). Auth: `MCP_HTTP_API_KEY` (Bearer token). Rate limit: 60 req/min per IP. Live at `https://everyversematters.com/api/mcp`.
+  - Ecosystem config: `/var/www/evm/mcp-server/ecosystem.config.cjs`
 - **Python Pipeline:** Venv at `/var/www/evm/venv` — `anthropic`, `python-dotenv`. Run scripts via `source /var/www/evm/venv/bin/activate`.
 - **Cron:** `/var/www/evm/run_weekly_pipeline.sh` — Saturdays 11:00 UTC (4:00 AM MT). Logs: `/var/www/evm/logs/cron/`
 - **Content Store:** JSON files in `/content/` directory (MVP), PostgreSQL planned for Phase 2+
-- **Reverse Proxy:** Nginx — static site served from `/var/www/evm/site/dist/`, API proxy `/api/` → port 3001
+- **Reverse Proxy:** Nginx — static site served from `/var/www/evm/site/dist/`, API proxy `/api/` → `127.0.0.1:3002` (EVM MCP HTTP server)
+
+> ℹ️ **Port map on VPS:**
+> - `3000` — emree-server (API)
+> - `3001` — emree-admin (Next.js admin panel)
+> - `3002` — evm-mcp-http (EVM MCP HTTP server) ← Nginx `/api/` proxy target
 - **Nginx Config:** `/etc/nginx/sites-available/everyversematters.com`
 - **Domain:** everyversematters.com (primary), everyversematters.org (redirect)
 - **SSL:** Let's Encrypt via certbot (auto-renewing, cert at `/etc/letsencrypt/live/everyversematters.com/`)
@@ -1432,7 +1440,8 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] `pipeline/run_pipeline.py` — master orchestrator (7 stages, auto week detection, dry-run mode)
 - [x] Cron job live — Saturdays 11:00 UTC (4:00 AM MT): `/var/www/evm/run_weekly_pipeline.sh`
 - [x] Deploy pipeline: `rsync site/dist/ → /var/www/evm/site/dist/` with nginx serving from `dist/`
-- [x] MCP server: stdio-only (Cursor/Claude Desktop integration). HTTP transport needed for Phase 2 web integration — not PM2-able yet.
+- [x] MCP server stdio transport (Cursor/Claude Desktop integration) — `dist/server.js`
+- [x] MCP server HTTP transport — `dist/http-server.js`, PM2 `evm-mcp-http`, port 3002, auth + rate limiting. Exposes user tools only. Live at `https://everyversematters.com/api/mcp`. Health: `https://everyversematters.com/api/health`.
 - [x] Kerry Muhlestein's The Scriptures Are Real — added to sources registry + Tier 1 discovery catalog
 - [x] One Minute Scripture Study (Cali Black) — added to registry with discovery note (not web-indexable)
 - [x] Homepage full aesthetic redesign — editorial light-first theme with three fonts:
@@ -1506,7 +1515,7 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [ ] Source Registry populated with 50+ verified prophetic commentary sources
 - [ ] Refine hook and snippet prompts based on reader feedback
 - [ ] Individual verse pages for SEO (`/genesis/18/1`)
-- [ ] MCP server HTTP transport — needed for Phase 3 user-facing AI chat
+- [x] MCP server HTTP transport — live on port 3002, PM2-managed, auth + rate limiting ✓
 - [ ] Admin dashboard for pipeline monitoring
 - [ ] Add search functionality
 - [ ] Social media presence (Instagram, Facebook)

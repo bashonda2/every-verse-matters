@@ -7,12 +7,16 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
-    "dev": "tsx src/server.ts"
+    "start:http": "node dist/http-server.js",
+    "dev": "tsx src/server.ts",
+    "dev:http": "tsx src/http-server.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",
     "@modelcontextprotocol/sdk": "^1.0.0",
-    "dotenv": "^16.4.0"
+    "@types/express": "^5.0.6",
+    "dotenv": "^16.4.0",
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
