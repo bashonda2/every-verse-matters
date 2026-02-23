@@ -411,17 +411,25 @@ Build once, use everywhere.
 | Future admin dashboard | Web UI for monitoring pipeline, reviewing flagged content, viewing analytics |
 
 ### 5.4 Hosting & Infrastructure
-- **Server:** Aaron's VPS at `209.74.80.143` (SSH: `ssh emree-vps`) — also hosts Emree (PM2, port 3000) and MissionChecklist (Docker, port 5050)
+- **Server:** Aaron's VPS at `209.74.80.143` (SSH: `ssh root@209.74.80.143`) — also hosts Emree (PM2, port 3000) and MissionChecklist (Docker, port 5050)
 - **MCP Server:** TypeScript (`@modelcontextprotocol/sdk`) at `/var/www/evm/mcp-server/` — **currently stdio transport** (Cursor/Claude Desktop only). HTTP/SSE transport needed for Phase 2 web integration; nginx already has `/api/` → port 3001 proxy ready.
 - **Python Pipeline:** Venv at `/var/www/evm/venv` — `anthropic`, `python-dotenv`. Run scripts via `source /var/www/evm/venv/bin/activate`.
 - **Cron:** `/var/www/evm/run_weekly_pipeline.sh` — Saturdays 11:00 UTC (4:00 AM MT). Logs: `/var/www/evm/logs/cron/`
 - **Content Store:** JSON files in `/content/` directory (MVP), PostgreSQL planned for Phase 2+
-- **Reverse Proxy:** Nginx — static site at `/var/www/evm/site/`, API proxy `/api/` → port 3001
+- **Reverse Proxy:** Nginx — static site served from `/var/www/evm/site/dist/`, API proxy `/api/` → port 3001
 - **Nginx Config:** `/etc/nginx/sites-available/everyversematters.com`
 - **Domain:** everyversematters.com (primary), everyversematters.org (redirect)
 - **SSL:** Let's Encrypt via certbot (auto-renewing, cert at `/etc/letsencrypt/live/everyversematters.com/`)
 - **DNS:** Namecheap — A records for `@` and `www` → `209.74.80.143`
 - **VPS Path:** `/var/www/evm/` (site static files + MCP server + content data)
+
+> ⚠️ **DEPLOY PATH — DO NOT GET THIS WRONG:**
+> Nginx serves from **`/var/www/evm/site/dist/`** (confirmed via `nginx -T | grep root`).
+> The correct deploy command is always:
+> ```
+> rsync -az --delete site/dist/ root@209.74.80.143:/var/www/evm/site/dist/
+> ```
+> **NOT** `/var/www/evm/dist/` — that directory exists but Nginx does not serve from it.
 
 ### 5.5 Tech Stack
 
