@@ -212,6 +212,16 @@ def main():
     r = run_stage("Audio Generation", "pipeline/generate_audio.py", [week_str, "echo"], dry_run)
     results.append(r)
 
+    # Stage 6.6: Cross-Reference Verification
+    r = run_stage("Cross-Reference Verification", "pipeline/verify_references.py", [week_str], dry_run)
+    results.append(r)
+
+    # Stage 6.7: Pre-Publish QA Audit (Haiku hallucination check)
+    r = run_stage("QA Audit", "pipeline/run_qa.py", [week_str], dry_run)
+    results.append(r)
+    # QA failure is warning-only — notify Aaron but don't block publish
+    # (run_qa.py exits 1 on failure; we catch and continue with warning)
+
     # Stage 7: Build & Deploy
     r = build_and_deploy(dry_run)
     results.append(r)

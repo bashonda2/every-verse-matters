@@ -248,6 +248,11 @@ const creatorIcons: Record<string, string> = {
 {currentContent.hook?.hook && (
   <section class="pg hook-section anim-hook">
     <div class="hook-card">
+      {currentWeek.lesson_title && (
+        <h2 style="font-family:'Cormorant Garamond',serif;font-size:25px;font-weight:600;color:var(--gold);font-style:italic;margin-bottom:1rem;line-height:1.25;padding-left:1rem;">
+          "{currentWeek.lesson_title}"
+        </h2>
+      )}
       <p class="hook-text" id="hook-text">
         <span class="hook-lead">{currentContent.hook.hook.split('—')[0].trim()}</span>
         {currentContent.hook.hook.includes('—') ? ' — ' + currentContent.hook.hook.split('—').slice(1).join('—') : ''}
