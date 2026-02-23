@@ -1,10 +1,10 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** February 22, 2026 (7:30 PM MT)
+**Last Updated:** February 22, 2026 (8:30 PM MT)
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** Pipeline fully automated (8 stages). All 9 weeks live with content. Homepage: Week 9 featured → Weeks 8–1 in descending order → future schedule. Ready to share.
+**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline. All 9 weeks live. Homepage tagline + lesson title heading added. Ready to share.
 
 ---
 
@@ -492,15 +492,22 @@ Pipeline runs on Saturday morning so content is live before Sunday study. The ke
 
 **Cron implementation:** `/var/www/evm/run_weekly_pipeline.sh` runs via crontab at `0 11 * * 6` (Saturdays 11:00 UTC = 4:00 AM MT). Uses Python venv at `/var/www/evm/venv`. Logs to `/var/www/evm/logs/cron/` (keeps last 12 runs).
 
-**Full 8-stage pipeline (as of Feb 22):**
+**Full 10-stage pipeline (as of Feb 22):**
 1. `generate_commentary` — verse-by-verse Deep Dive (Haiku, ~$2-4)
 2. `discover_creators` — Claude + web search, 2026 current + 2022 archive passes (~$1-3)
-3. URL verification — graceful skip until built
-4. `verify_quotes` — checks registry, web search, strips unverifiable quotes before publish
+3. URL verification — graceful skip (to be built)
+4. `verify_quotes` — checks registry, web search, strips unverifiable prophetic quotes
 5. `generate_hooks` — Sonnet hook paragraph (~$0.12)
 6. `generate_snippets` — Haiku companion snippets (~$0.02)
 6.5 `generate_audio` — OpenAI tts-1-hd echo voice (~$0.02)
+6.6 `verify_references` — cross-reference existence check against all Standard Works
+6.7 `run_qa` — Haiku hallucination audit on all verses with quotes/JST; blocks if >10% fail
 7. Build + rsync deploy
+
+**Anti-hallucination architecture (three layers):**
+- **Layer 1 — Prompt**: `commentary_system.txt` requires all 4 citation fields for any quote (speaker, exact title, month/year, direct quote text). Explicit instruction to omit rather than guess.
+- **Layer 2 — Reference verification**: `verify_references.py` checks every cross-reference against verse count tables for all Standard Works. Catches impossible verse numbers before publish.
+- **Layer 3 — Haiku audit**: `run_qa.py` uses Claude Haiku as a second-opinion auditor on every verse with prophetic quotes or JST claims. Flags generic/suspicious citations. Blocks deploy if >10% of verses fail. Cost: ~$0.001/verse × ~50 audited verses = ~$0.05/week.
 
 **Two-cycle discovery:** `discover_creators.py` runs two passes per week — (1) 2026 current cycle, (2) 2022 OT archive cycle. Different guest scholars, different angles, 100% still relevant.
 
@@ -1450,6 +1457,22 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] OpenAI package installed in VPS venv; OPENAI_API_KEY synced to VPS .env
 - [x] VPS dry-run of Week 10 pipeline: all 8 stages execute correctly
 - [x] All new pipeline scripts + Weeks 1-8 content synced to VPS
+
+**Completed (Anti-Hallucination Hardening):**
+- [x] `pipeline/prompts/commentary_system.txt` hardened with non-negotiable accuracy rules:
+  - Prophetic quotes: require ALL FOUR (speaker, exact talk title, exact month/year, direct quote) — omit if uncertain
+  - Cross-references: must exist at cited book/chapter/verse; connection must match actual text
+  - JST changes: only if certain — most verses have none; "None" is correct
+  - Hebrew/Greek: don't fabricate etymology; hedge appropriately
+  - Principle: "Less is more. Accuracy is everything."
+- [x] `pipeline/run_qa.py` — Haiku pre-publish hallucination audit on every verse with quotes/JST claims; flags high/medium risk; blocks deploy if >10% fail
+- [x] `pipeline/verify_references.py` — cross-reference existence checker against all Standard Works (verse count data for OT, NT, BoM, D&C, PGP); flags impossible verse references
+- [x] `run_pipeline.py` updated — now 10 stages including verify_references (6.6) and run_qa (6.7)
+
+**Homepage UI additions:**
+- [x] Header tagline: "Come, Follow Me — Every scholar · Every insight · Every verse" (10px, 0.15em tracking, muted, under wordmark)
+- [x] CFM lesson title heading above hook paragraph: italic Cormorant Garamond, driven by `lesson_title` field in cfm_schedule.json
+- [x] `cfm_schedule.json`: added `lesson_title` to all 52 weeks (official Church question-format titles)
 
 **Remaining:**
 - [ ] Individual verse pages for SEO (`/genesis/18/1`)
