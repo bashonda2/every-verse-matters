@@ -1,10 +1,10 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** February 22, 2026 (5:00 PM MT)
+**Last Updated:** February 22, 2026 (7:30 PM MT)
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** Hack Week complete — everyversematters.com live with editorial light-first redesign, 26-source registry, OpenAI TTS audio, 18-creator catalog, cron automation running. Ready to share.
+**Status:** Pipeline fully automated (8 stages). All 9 weeks live with content. Homepage: Week 9 featured → Weeks 8–1 in descending order → future schedule. Ready to share.
 
 ---
 
@@ -492,9 +492,21 @@ Pipeline runs on Saturday morning so content is live before Sunday study. The ke
 
 **Cron implementation:** `/var/www/evm/run_weekly_pipeline.sh` runs via crontab at `0 11 * * 6` (Saturdays 11:00 UTC = 4:00 AM MT). Uses Python venv at `/var/www/evm/venv`. Logs to `/var/www/evm/logs/cron/` (keeps last 12 runs).
 
-**Two-cycle discovery (Phase 2):** For every week, the creator discovery pipeline should run two passes — (1) current 2026 cycle, (2) 2022 OT archive cycle for the same scripture block. Different guest scholars, different angles, 100% still relevant. Doubles catalog depth at no additional cost. Add `cycle` field to creator entries.
+**Full 8-stage pipeline (as of Feb 22):**
+1. `generate_commentary` — verse-by-verse Deep Dive (Haiku, ~$2-4)
+2. `discover_creators` — Claude + web search, 2026 current + 2022 archive passes (~$1-3)
+3. URL verification — graceful skip until built
+4. `verify_quotes` — checks registry, web search, strips unverifiable quotes before publish
+5. `generate_hooks` — Sonnet hook paragraph (~$0.12)
+6. `generate_snippets` — Haiku companion snippets (~$0.02)
+6.5 `generate_audio` — OpenAI tts-1-hd echo voice (~$0.02)
+7. Build + rsync deploy
 
-**Church News as Source Registry feeder:** Church News publishes "What Have Church Leaders Said" articles every week with fully attributed prophetic quotes (speaker, talk title, date). Scraping this weekly auto-populates `sources_registry.json` and solves the quote hallucination problem systematically. Implement in Phase 2.
+**Two-cycle discovery:** `discover_creators.py` runs two passes per week — (1) 2026 current cycle, (2) 2022 OT archive cycle. Different guest scholars, different angles, 100% still relevant.
+
+**Church News as Source Registry feeder:** Church News publishes "What Have Church Leaders Said" weekly — pre-verified prophetic quotes with full attribution. Scraping this weekly auto-populates `sources_registry.json`. Implement in Phase 2.
+
+**Week Summary pipeline:** `generate_week_summary.py` generates a week-level summary (hook, overview, themes, key verses, restoration lens, application, highlights) for weeks without full verse-by-verse commentary. Used for backfill and as a lighter product tier. Cost: ~$0.06/week.
 
 ### 6.2 Stage 1: Commentary Generation
 
@@ -1426,17 +1438,29 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] About page "The Solution" copy rewritten — warmer, reader-first, removed AI-intimidation framing
 - [x] "Built By" copy corrected — "built with AI by a Latter-day Saint returned missionary"
 
+**Completed (Evening of Feb 22):**
+- [x] `pipeline/generate_week_summary.py` — Sonnet generates hook, overview, themes, key verses, restoration lens, application, and 5-6 highlights per week (~$0.06/week). Auto-writes hook.json and snippets.json from output.
+- [x] Week summaries generated for Weeks 1-8 ($0.49 total)
+- [x] Audio generated for all 8 past weeks (OpenAI tts-1-hd, echo voice, ~$0.01/week)
+- [x] Homepage redesigned — Week 9 featured at top, Weeks 8→1 below in descending order (same two-column layout), future weeks as compact schedule. Each past week has audio play button.
+- [x] Deep Dive fallback view — Weeks 1-8 show rich summary page (overview, themes, key verses, restoration lens, application) instead of "coming soon"
+- [x] `pipeline/discover_creators.py` built — Claude + web search, 2026 + 2022 archive passes, batches of 5 creators
+- [x] `pipeline/verify_quotes.py` built — checks registry, web search verification, strips unverifiable quotes from commentary before publish
+- [x] `pipeline/run_pipeline.py` updated — full 8-stage pipeline (commentary, creator discovery, url check, quote verify, hooks, snippets, audio, build+deploy)
+- [x] OpenAI package installed in VPS venv; OPENAI_API_KEY synced to VPS .env
+- [x] VPS dry-run of Week 10 pipeline: all 8 stages execute correctly
+- [x] All new pipeline scripts + Weeks 1-8 content synced to VPS
+
 **Remaining:**
-- [ ] `verify_quotes` pipeline — strip unverifiable prophetic quotes from Week 9 commentary
 - [ ] Individual verse pages for SEO (`/genesis/18/1`)
 - [ ] Share with family/ward for feedback
+- [ ] Monitor first fully automated run — Week 10, Saturday March 7
 
 ### Phase 2: Weekly Production (March–April 2026)
-- [ ] Pipeline running automatically every Saturday — first fully automated run: Week 10 (Mar 2)
-- [ ] Verify Week 10 pipeline output and fix any issues
-- [ ] Implement two-cycle creator discovery (2026 current + 2022 archive) in `discover_creators.py`
+- [ ] First fully automated pipeline run — Week 10, Saturday March 7, 2026
+- [ ] Verify Week 10 output and adjust if needed
 - [ ] Implement Church News scraping to auto-populate `sources_registry.json` weekly
-- [ ] Backfill Weeks 1-8 (Deep Dive + homepage content)
+- [ ] Backfill full verse-by-verse commentary for Weeks 1-8 via Anthropic Batch API (50% discount)
 - [ ] Source Registry populated with 50+ verified prophetic commentary sources
 - [ ] Refine hook and snippet prompts based on reader feedback
 - [ ] Individual verse pages for SEO (`/genesis/18/1`)
@@ -1553,4 +1577,4 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 
 *The MCP-first architecture described in Sections 5-6 is the core differentiator — it enables a single person (Aaron) to operate a content platform that would normally require a full editorial team, publishing fresh, deep, verified content every single week without manual intervention. The same tools power the automated pipeline, interactive development, and the user-facing AI experience. The Source Registry (Section 12) is the editorial backbone that makes the platform trustworthy: every quote is traceable, every source is vetted, nothing ships unverified.*
 
-*Hack Week (Feb 22-27, 2026) status: site live at everyversematters.com — editorial light-first redesign with Cormorant Garamond/Cinzel typography, 167-verse Deep Dive, three-tier homepage with OpenAI TTS audio, 18-creator catalog, 26-source registry, cron automation live. Ready to share with family/ward. Next milestone: first fully automated pipeline run for Week 10 on Saturday March 7, 2026.*
+*Hack Week complete. Site live at everyversematters.com with 9 weeks of content: Week 9 (167-verse Deep Dive + creator roundup) at top, Weeks 8–1 in descending order (rich summaries with audio for every week). Pipeline is fully automated in 8 stages — runs every Saturday without any human intervention. Next milestone: Week 10 automated run on Saturday March 7, 2026.*
