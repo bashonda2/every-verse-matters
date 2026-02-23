@@ -183,17 +183,10 @@ def main():
             sys.exit(1)
 
     # Stage 2: Creator Discovery
-    try:
-        from pipeline.discover_creators import discover_creators
-        print(f"\n{'='*60}\n  STAGE: Creator Discovery\n{'='*60}")
-        if not dry_run:
-            discover_creators(week_num)
-        results.append({"stage": "creator_discovery", "status": "dry_run" if dry_run else "success", "elapsed": 0})
-    except ImportError:
-        print("\n  discover_creators.py not found — skipping")
-        results.append({"stage": "creator_discovery", "status": "skipped", "elapsed": 0})
+    r = run_stage("Creator Discovery", "pipeline/discover_creators.py", [week_str], dry_run)
+    results.append(r)
 
-    # Stage 3: URL Verification
+    # Stage 3: URL Verification (graceful skip if script missing)
     try:
         from pipeline.verify_and_check import verify_and_check
         print(f"\n{'='*60}\n  STAGE: URL Verification\n{'='*60}")
@@ -204,14 +197,8 @@ def main():
         results.append({"stage": "url_verification", "status": "skipped", "elapsed": 0})
 
     # Stage 4: Quote Verification
-    try:
-        from pipeline.verify_quotes import verify_quotes
-        print(f"\n{'='*60}\n  STAGE: Quote Verification\n{'='*60}")
-        if not dry_run:
-            verify_quotes(week_num)
-        results.append({"stage": "quote_verification", "status": "dry_run" if dry_run else "success", "elapsed": 0})
-    except ImportError:
-        results.append({"stage": "quote_verification", "status": "skipped", "elapsed": 0})
+    r = run_stage("Quote Verification", "pipeline/verify_quotes.py", [week_str], dry_run)
+    results.append(r)
 
     # Stage 5: Hook Generation
     r = run_stage("Hook Generation", "pipeline/generate_hooks.py", [week_str], dry_run)
@@ -219,6 +206,10 @@ def main():
 
     # Stage 6: Snippet Extraction
     r = run_stage("Snippet Extraction", "pipeline/generate_snippets.py", [week_str], dry_run)
+    results.append(r)
+
+    # Stage 6.5: Audio Generation (requires OPENAI_API_KEY)
+    r = run_stage("Audio Generation", "pipeline/generate_audio.py", [week_str, "echo"], dry_run)
     results.append(r)
 
     # Stage 7: Build & Deploy

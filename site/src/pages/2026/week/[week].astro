@@ -24,6 +24,9 @@ const verses: any[] = hasCommentary ? JSON.parse(readFileSync(commPath, 'utf-8')
 const overviewsPath = join(weekDir, 'chapter_overviews.json');
 const overviews: Record<string, string> = existsSync(overviewsPath) ? JSON.parse(readFileSync(overviewsPath, 'utf-8')) : {};
 
+const summaryPath = join(weekDir, 'week_summary.json');
+const weekSummary: any = existsSync(summaryPath) ? JSON.parse(readFileSync(summaryPath, 'utf-8')) : null;
+
 const creatorsPath = join(weekDir, 'creators.json');
 const creators: any[] = existsSync(creatorsPath) ? JSON.parse(readFileSync(creatorsPath, 'utf-8')) : [];
 const foundCreators = creators.filter((c: any) => c.found && c.content);
@@ -68,7 +71,69 @@ const nextWeek = weekNum < 52 ? weekNum + 1 : null;
     )}
   </div>
 
-  {!hasCommentary ? (
+  {!hasCommentary && weekSummary ? (
+    <!-- Week Summary view (no verse-by-verse yet) -->
+    <div class="space-y-8">
+      {weekSummary.hook && (
+        <blockquote style="border-left:3px solid var(--color-gold);padding:.85rem 1.25rem;background:var(--color-verse-bg);font-style:italic;font-family:'Cormorant Garamond',Georgia,serif;font-size:1.1rem;line-height:1.85;border-radius:0 .5rem .5rem 0;color:var(--color-text-2);">
+          {weekSummary.hook}
+        </blockquote>
+      )}
+
+      {weekSummary.overview && (
+        <div>
+          <h2 class="font-sans text-lg font-semibold mb-3" style="color:var(--color-gold)">Overview</h2>
+          <div class="text-text/80 leading-relaxed whitespace-pre-line text-[15px]">{weekSummary.overview}</div>
+        </div>
+      )}
+
+      {weekSummary.themes?.length > 0 && (
+        <div>
+          <h2 class="font-sans text-lg font-semibold mb-3" style="color:var(--color-gold)">Key Themes</h2>
+          <ul class="space-y-1">
+            {weekSummary.themes.map((t: string) => (
+              <li class="flex items-start gap-2 text-[15px] text-text/80">
+                <span style="color:var(--color-gold);margin-top:.25rem;font-size:.6rem;">✦</span> {t}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {weekSummary.key_verses?.length > 0 && (
+        <div>
+          <h2 class="font-sans text-lg font-semibold mb-4" style="color:var(--color-gold)">Key Verses</h2>
+          <div class="space-y-5">
+            {weekSummary.key_verses.map((kv: any) => (
+              <div class="bg-navy-light rounded-xl p-5 border border-navy-lighter">
+                <p class="font-sans text-xs font-semibold mb-1" style="color:var(--color-gold)">{kv.reference}</p>
+                {kv.text_kjv && <blockquote class="verse-text text-sm mb-3">{kv.text_kjv}</blockquote>}
+                <p class="text-text/75 text-sm leading-relaxed">{kv.insight}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {weekSummary.restoration_lens && (
+        <div>
+          <h2 class="font-sans text-lg font-semibold mb-3" style="color:var(--color-gold)">Restoration Lens</h2>
+          <div class="text-text/80 leading-relaxed whitespace-pre-line text-[15px]">{weekSummary.restoration_lens}</div>
+        </div>
+      )}
+
+      {weekSummary.application && (
+        <div>
+          <h2 class="font-sans text-lg font-semibold mb-3" style="color:var(--color-gold)">Application</h2>
+          <div class="text-text/80 leading-relaxed whitespace-pre-line text-[15px]">{weekSummary.application}</div>
+        </div>
+      )}
+
+      <div class="mt-8 p-4 rounded-xl border border-navy-lighter bg-navy-light text-center">
+        <p class="font-sans text-sm text-text-muted">Full verse-by-verse commentary for this week is coming in a future update.</p>
+      </div>
+    </div>
+  ) : !hasCommentary ? (
     <div class="text-center py-16">
       <p class="text-text-muted text-lg font-sans">Commentary for this week hasn't been generated yet.</p>
       <p class="text-text-muted text-sm mt-2 font-sans">Check back soon — content is being produced weekly.</p>

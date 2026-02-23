@@ -5,44 +5,57 @@ import { join } from 'path';
 
 const root = join(process.cwd(), '..');
 const schedule = JSON.parse(readFileSync(join(root, 'data', 'cfm_schedule.json'), 'utf-8'));
-
 const today = new Date().toISOString().split('T')[0];
 
-const hasContentFor = (w: any) => {
-  const dir = join(root, 'content', 'weeks', '2026', `week-${String(w.week).padStart(2, '0')}`);
-  return existsSync(join(dir, 'commentary.json'));
-};
+// ─── Helpers ────────────────────────────────────────────────
+function weekDir(w: any) {
+  return join(root, 'content', 'weeks', '2026', `week-${String(w.week).padStart(2, '0')}`);
+}
+function loadJSON(path: string) {
+  return existsSync(path) ? JSON.parse(readFileSync(path, 'utf-8')) : null;
+}
+function hasCommentary(w: any) { return existsSync(join(weekDir(w), 'commentary.json')); }
+function hasSummary(w: any)    { return existsSync(join(weekDir(w), 'week_summary.json')); }
+function hasAnyContent(w: any) { return hasCommentary(w) || hasSummary(w); }
 
-const todayWeek = schedule.find((w: any) => today >= w.date_start && today <= w.date_end);
-const nextWeekEntry = todayWeek ? schedule.find((w: any) => w.week === todayWeek.week + 1) : null;
+// ─── Detect current/featured week ───────────────────────────
+const todayWeek   = schedule.find((w: any) => today >= w.date_start && today <= w.date_end);
+const nextWeekObj = todayWeek ? schedule.find((w: any) => w.week === todayWeek.week + 1) : null;
 
 const currentWeek =
-  (nextWeekEntry && hasContentFor(nextWeekEntry) ? nextWeekEntry : null) ??
-  (todayWeek && hasContentFor(todayWeek) ? todayWeek : null) ??
-  [...schedule].reverse().find(hasContentFor) ??
+  (nextWeekObj && hasAnyContent(nextWeekObj) ? nextWeekObj : null) ??
+  (todayWeek   && hasAnyContent(todayWeek)   ? todayWeek   : null) ??
+  [...schedule].reverse().find(hasAnyContent) ??
   schedule[8];
 
 const currentWeekNum = currentWeek.week;
-const weekDir = join(root, 'content', 'weeks', '2026', `week-${String(currentWeekNum).padStart(2, '0')}`);
 
-const hookData = existsSync(join(weekDir, 'hook.json'))
-  ? JSON.parse(readFileSync(join(weekDir, 'hook.json'), 'utf-8'))
-  : null;
+// ─── Past weeks with content, descending (excluding current) ─
+const pastWeeks = schedule
+  .filter((w: any) => w.week < currentWeekNum && hasAnyContent(w))
+  .sort((a: any, b: any) => b.week - a.week);
 
-const snippetsData = existsSync(join(weekDir, 'snippets.json'))
-  ? JSON.parse(readFileSync(join(weekDir, 'snippets.json'), 'utf-8'))
-  : null;
-const snippets: any[] = snippetsData?.snippets ?? [];
+// ─── Future weeks (no content yet) ──────────────────────────
+const futureWeeks = schedule.filter((w: any) => w.week > currentWeekNum);
 
-const creatorsData: any[] = existsSync(join(weekDir, 'creators.json'))
-  ? JSON.parse(readFileSync(join(weekDir, 'creators.json'), 'utf-8'))
-  : [];
-const foundCreators = creatorsData.filter((c: any) => c.found && c.content).slice(0, 8);
+// ─── Load content for a week ────────────────────────────────
+function loadWeekContent(w: any) {
+  const dir = weekDir(w);
+  const hook      = loadJSON(join(dir, 'hook.json'));
+  const snippets  = (loadJSON(join(dir, 'snippets.json'))?.snippets ?? []) as any[];
+  const creators  = ((loadJSON(join(dir, 'creators.json')) ?? []) as any[])
+                      .filter((c: any) => c.found && c.content).slice(0, 6);
+  const hasFull   = hasCommentary(w);
+  const verseCount = hasFull
+    ? (JSON.parse(readFileSync(join(dir, 'commentary.json'), 'utf-8')) as any[]).length
+    : 0;
+  return { hook, snippets, creators, hasFull, verseCount };
+}
 
-const audioUrl: string | null = hookData?.audio_url ?? null;
-const hookText: string = hookData?.hook ?? '';
+const currentContent = loadWeekContent(currentWeek);
 
-const categoryMeta: Record<string, { label: string; bg: string; color: string }> = {
+// ─── Tag meta ────────────────────────────────────────────────
+const tagMeta: Record<string, { label: string; bg: string; color: string }> = {
   hebrew_insight:    { label: 'Hebrew',      bg: '#E8DDD0', color: '#6B5B44' },
   cross_reference:   { label: 'Cross-Ref',   bg: '#D4E2D4', color: '#3D5C3D' },
   historical_context:{ label: 'Historical',  bg: '#D9DDE8', color: '#3D4A6B' },
@@ -53,260 +66,174 @@ const categoryMeta: Record<string, { label: string; bg: string; color: string }>
 };
 
 const creatorIcons: Record<string, string> = {
-  'podcast': '🎙️',
-  'video': '📺',
-  'article': '📰',
-  'articles': '📰',
-  'podcast_video': '🎧',
-  'podcast/video': '🎧',
-  'podcast/video/articles': '🔍',
-  'printables': '✏️',
+  podcast: '🎙️', video: '📺', article: '📰', articles: '📰',
+  podcast_video: '🎧', 'podcast/video': '🎧', 'podcast/video/articles': '🔍', printables: '✏️',
 };
-
-const otherWeeks = schedule.filter((w: any) => w.week !== currentWeekNum);
-const hasVerseCount = existsSync(join(weekDir, 'commentary.json'))
-  ? JSON.parse(readFileSync(join(weekDir, 'commentary.json'), 'utf-8')).length
-  : 0;
 ---
 
 <Layout title={`Week ${currentWeekNum}: ${currentWeek.title}`} wide={true}>
+
 <style>
-  /* ── CSS variables (re-declared for scoped use) ── */
   :root {
-    --gold: #9E7A38;
-    --gold-light: #C4A35A;
-    --gold-muted: #B8976A;
-    --gold-faint: rgba(158,122,56,0.08);
-    --gold-border: rgba(158,122,56,0.25);
-    --cream: #FAF7F2;
-    --cream-dark: #F3EDE3;
-    --parchment: #F5F0E8;
-    --warm-white: #FDFCFA;
-    --text: #2C2418;
-    --text-2: #5C4F3D;
-    --text-muted: #8A7D6B;
-    --text-light: #A89B87;
-    --border: #E8E0D4;
-    --shadow: rgba(44,36,24,0.06);
-    --shadow-gold: rgba(158,122,56,0.10);
+    --gold:#9E7A38;--gold-light:#C4A35A;--gold-muted:#B8976A;
+    --gold-faint:rgba(158,122,56,0.08);--gold-border:rgba(158,122,56,0.25);
+    --cream:#FAF7F2;--cream-dark:#F3EDE3;--parchment:#F5F0E8;--warm-white:#FDFCFA;
+    --text:#2C2418;--text-2:#5C4F3D;--text-muted:#8A7D6B;--text-light:#A89B87;
+    --border:#E8E0D4;--shadow:rgba(44,36,24,0.06);--shadow-gold:rgba(158,122,56,0.10);
   }
-
   html.dark {
-    --gold: #c9a84c;
-    --gold-light: #e0c878;
-    --gold-muted: #b89a44;
-    --gold-faint: rgba(201,168,76,0.08);
-    --gold-border: rgba(201,168,76,0.25);
-    --cream: #1a1a2e;
-    --cream-dark: #242445;
-    --parchment: #1e1e36;
-    --warm-white: #1a1a2e;
-    --text: #e0e0e0;
-    --text-2: #c0c0d0;
-    --text-muted: #8a8aa0;
-    --text-light: #6a6a80;
-    --border: #2e2e55;
-    --shadow: rgba(0,0,0,0.2);
-    --shadow-gold: rgba(201,168,76,0.08);
+    --gold:#c9a84c;--gold-light:#e0c878;--gold-muted:#b89a44;
+    --gold-faint:rgba(201,168,76,0.08);--gold-border:rgba(201,168,76,0.25);
+    --cream:#1a1a2e;--cream-dark:#242445;--parchment:#1e1e36;--warm-white:#1a1a2e;
+    --text:#e0e0e0;--text-2:#c0c0d0;--text-muted:#8a8aa0;--text-light:#6a6a80;
+    --border:#2e2e55;--shadow:rgba(0,0,0,0.2);--shadow-gold:rgba(201,168,76,0.08);
   }
 
-  /* Sections */
-  .pg { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+  .pg { max-width:1100px; margin:0 auto; padding:0 2rem; }
 
-  /* ── HERO ── */
-  .hero { padding: 3.5rem 2rem 2rem; }
-  .week-label { font-family:'Cinzel',serif; font-size:11px; letter-spacing:.3em; text-transform:uppercase; color:var(--gold-muted); margin-bottom:.75rem; }
-  .week-title { font-family:'Cormorant Garamond',serif; font-weight:600; font-size:48px; line-height:1.15; color:var(--text); margin-bottom:.6rem; letter-spacing:-.01em; }
+  /* HERO */
+  .hero { padding:3.5rem 2rem 2rem; }
+  .week-label { font-family:'Cinzel',serif;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-muted);margin-bottom:.75rem; }
+  .week-title { font-family:'Cormorant Garamond',serif;font-weight:600;font-size:48px;line-height:1.15;color:var(--text);margin-bottom:.6rem;letter-spacing:-.01em; }
   .week-title span { color:var(--gold); }
-  .week-meta { display:flex; align-items:center; gap:1.25rem; flex-wrap:wrap; margin-bottom:.5rem; }
-  .week-date { font-size:15px; color:var(--text-muted); }
-  .week-scripture { font-size:15px; color:var(--text-2); font-weight:500; }
-  .meta-dot { width:3px; height:3px; border-radius:50%; background:var(--text-light); flex-shrink:0; }
-  .cfm-link { display:inline-flex; align-items:center; gap:.4rem; font-size:13px; font-weight:500; color:var(--gold-muted); text-decoration:none; margin-top:.5rem; transition:color .2s; }
+  .week-meta { display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap;margin-bottom:.5rem; }
+  .week-date { font-size:15px;color:var(--text-muted); }
+  .week-scripture { font-size:15px;color:var(--text-2);font-weight:500; }
+  .meta-dot { width:3px;height:3px;border-radius:50%;background:var(--text-light);flex-shrink:0; }
+  .cfm-link { display:inline-flex;align-items:center;gap:.4rem;font-size:13px;font-weight:500;color:var(--gold-muted);text-decoration:none;margin-top:.5rem;transition:color .2s; }
   .cfm-link:hover { color:var(--gold); }
-  .cfm-link svg { width:14px; height:14px; }
+  .cfm-link svg { width:14px;height:14px; }
 
-  /* ── HOOK CARD ── */
-  .hook-section { margin: 1.5rem auto 0; }
+  /* HOOK */
+  .hook-section { margin:1.5rem auto 0; }
   .hook-card {
-    background: linear-gradient(135deg, var(--warm-white) 0%, var(--parchment) 100%);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--gold);
-    border-radius: 0 10px 10px 0;
-    padding: 2.5rem 3rem;
-    position: relative;
-    box-shadow: 0 2px 20px var(--shadow), 0 1px 4px var(--shadow-gold);
+    background:linear-gradient(135deg,var(--warm-white) 0%,var(--parchment) 100%);
+    border:1px solid var(--border);border-left:3px solid var(--gold);
+    border-radius:0 10px 10px 0;padding:2.5rem 3rem;position:relative;
+    box-shadow:0 2px 20px var(--shadow),0 1px 4px var(--shadow-gold);
   }
+  .hook-card.compact { padding:1.75rem 2.25rem; }
   .hook-card::before {
-    content: '"';
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 80px;
-    color: var(--gold-border);
-    position: absolute;
-    top: 4px;
-    left: 18px;
-    line-height: 1;
-    pointer-events: none;
+    content:'"';font-family:'Cormorant Garamond',serif;font-size:80px;
+    color:var(--gold-border);position:absolute;top:4px;left:18px;line-height:1;pointer-events:none;
   }
-  .hook-text {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    line-height: 1.8;
-    color: var(--text-2);
-    font-style: italic;
-    padding-left: 1rem;
-  }
-  .hook-lead { font-style:normal; font-weight:600; color:var(--text); }
-  .hook-actions { display:flex; align-items:center; gap:1rem; margin-top:1.5rem; padding-left:1rem; }
+  .hook-card.compact::before { font-size:52px;top:2px;left:12px; }
+  .hook-text { font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.8;color:var(--text-2);font-style:italic;padding-left:1rem; }
+  .hook-text.sm { font-size:17px;padding-left:.75rem; }
+  .hook-lead { font-style:normal;font-weight:600;color:var(--text); }
+  .hook-actions { display:flex;align-items:center;gap:1rem;margin-top:1.25rem;padding-left:1rem; }
   .listen-btn {
-    display:inline-flex; align-items:center; gap:.5rem;
-    padding:.45rem 1.1rem;
-    border-radius:100px;
-    border:1px solid var(--border);
-    background:var(--warm-white);
-    color:var(--text-2);
-    font-family:'Source Sans 3',sans-serif;
-    font-size:13px; font-weight:500;
-    cursor:pointer; transition:all .2s;
-    text-decoration:none;
+    display:inline-flex;align-items:center;gap:.5rem;padding:.4rem 1rem;
+    border-radius:100px;border:1px solid var(--border);background:var(--warm-white);
+    color:var(--text-2);font-family:'Source Sans 3',sans-serif;font-size:13px;font-weight:500;
+    cursor:pointer;transition:all .2s;text-decoration:none;
   }
-  .listen-btn:hover { border-color:var(--gold-border); color:var(--gold); box-shadow:0 1px 6px var(--shadow-gold); }
+  .listen-btn:hover { border-color:var(--gold-border);color:var(--gold);box-shadow:0 1px 6px var(--shadow-gold); }
 
-  /* ── DIVIDER ── */
-  .divider { display:flex; align-items:center; gap:1rem; margin:2.25rem auto; }
-  .divider-line { flex:1; height:1px; background:linear-gradient(90deg,transparent,var(--border),transparent); }
-  .divider-gem { color:var(--gold-border); font-size:12px; }
+  /* DIVIDER */
+  .divider { display:flex;align-items:center;gap:1rem;margin:2rem auto; }
+  .divider-line { flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent); }
+  .divider-gem { color:var(--gold-border);font-size:12px; }
 
-  /* ── TWO COLUMNS ── */
-  .cols-header { font-family:'Cinzel',serif; font-size:11px; letter-spacing:.3em; text-transform:uppercase; color:var(--text-light); margin-bottom:1.25rem; }
-  .cols-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.75rem; align-items:start; }
-  @media (max-width:768px) {
+  /* COLS */
+  .cols-header { font-family:'Cinzel',serif;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--text-light);margin-bottom:1.25rem; }
+  .cols-grid { display:grid;grid-template-columns:1fr 1fr;gap:1.75rem;align-items:start; }
+  @media(max-width:768px){
     .cols-grid { grid-template-columns:1fr; }
     .week-title { font-size:36px; }
     .hook-card { padding:2rem 1.5rem; }
-    .hook-card::before { font-size:52px; top:4px; left:12px; }
-    .hook-text { font-size:18px; padding-left:.5rem; }
+    .hook-card::before { font-size:52px;top:4px;left:12px; }
+    .hook-text { font-size:18px;padding-left:.5rem; }
   }
 
-  /* ── CARD ── */
-  .card {
-    background:var(--warm-white);
-    border:1px solid var(--border);
-    border-radius:10px;
-    overflow:hidden;
-    transition:box-shadow .2s;
-  }
+  /* CARD */
+  .card { background:var(--warm-white);border:1px solid var(--border);border-radius:10px;overflow:hidden;transition:box-shadow .2s; }
   .card:hover { box-shadow:0 4px 18px var(--shadow); }
-  .card-head {
-    padding:1.25rem 1.5rem .85rem;
-    border-bottom:1px solid var(--border);
-  }
-  .card-label { font-family:'Cinzel',serif; font-size:10px; letter-spacing:.25em; text-transform:uppercase; color:var(--gold-muted); margin-bottom:.45rem; }
-  .card-title { font-family:'Cormorant Garamond',serif; font-size:22px; font-weight:600; color:var(--text); line-height:1.3; }
-  .card-subtitle { font-size:14px; color:var(--text-muted); margin-top:.2rem; }
+  .card-head { padding:1.25rem 1.5rem .85rem;border-bottom:1px solid var(--border); }
+  .card-label { font-family:'Cinzel',serif;font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold-muted);margin-bottom:.45rem; }
+  .card-title { font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:var(--text);line-height:1.3; }
+  .card-subtitle { font-size:14px;color:var(--text-muted);margin-top:.2rem; }
   .card-body { padding:1.25rem 1.5rem; }
-  .theme-lbl { font-family:'Cinzel',serif; font-size:10px; letter-spacing:.2em; text-transform:uppercase; color:var(--gold-muted); margin-bottom:.5rem; }
-  .card-body p { font-size:15px; color:var(--text-2); line-height:1.75; margin-bottom:.75rem; }
-  .prompts { list-style:none; padding:0; }
-  .prompts li {
-    font-size:14px; color:var(--text-2);
-    padding:.5rem 0 .5rem 1.35rem;
-    border-bottom:1px solid rgba(232,224,212,0.5);
-    position:relative; line-height:1.6;
-  }
-  .prompts li::before { content:'✦'; position:absolute; left:0; color:var(--gold-light); font-size:8px; top:.65rem; }
+  .theme-lbl { font-family:'Cinzel',serif;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-muted);margin-bottom:.5rem; }
+  .card-body p { font-size:15px;color:var(--text-2);line-height:1.75;margin-bottom:.75rem; }
+  .prompts { list-style:none;padding:0; }
+  .prompts li { font-size:14px;color:var(--text-2);padding:.5rem 0 .5rem 1.35rem;border-bottom:1px solid rgba(232,224,212,0.5);position:relative;line-height:1.6; }
+  .prompts li::before { content:'✦';position:absolute;left:0;color:var(--gold-light);font-size:8px;top:.65rem; }
   .prompts li:last-child { border-bottom:none; }
 
-  /* ── SNIPPETS ── */
+  /* SNIPPETS */
   .snippets-card .card-body { padding:0; }
-  .snippet {
-    display:block; padding:1.1rem 1.5rem;
-    border-bottom:1px solid var(--border);
-    text-decoration:none; color:inherit;
-    transition:background .15s;
-  }
+  .snippet { display:block;padding:1.1rem 1.5rem;border-bottom:1px solid var(--border);text-decoration:none;color:inherit;transition:background .15s; }
   .snippet:last-child { border-bottom:none; }
   .snippet:hover { background:var(--gold-faint); }
-  .snippet-head { display:flex; align-items:center; gap:.6rem; margin-bottom:.3rem; }
-  .snippet-tag {
-    font-size:10px; font-weight:600; letter-spacing:.07em; text-transform:uppercase;
-    padding:2px 8px; border-radius:3px; line-height:1.6; flex-shrink:0;
-  }
-  .snippet-verse { font-size:12px; color:var(--text-muted); font-weight:500; }
-  .snippet-text { font-size:14px; color:var(--text-2); line-height:1.65; }
-  .snippet-cta { font-size:12px; color:var(--gold-muted); margin-top:.35rem; display:inline-block; }
+  .snippet-head { display:flex;align-items:center;gap:.6rem;margin-bottom:.3rem; }
+  .snippet-tag { font-size:10px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;padding:2px 8px;border-radius:3px;line-height:1.6;flex-shrink:0; }
+  .snippet-verse { font-size:12px;color:var(--text-muted);font-weight:500; }
+  .snippet-text { font-size:14px;color:var(--text-2);line-height:1.65; }
+  .snippet-cta { font-size:12px;color:var(--gold-muted);margin-top:.35rem;display:inline-block; }
 
-  /* ── CREATORS ── */
-  .creators-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:1.1rem; }
-  .creators-lbl { font-family:'Cinzel',serif; font-size:11px; letter-spacing:.3em; text-transform:uppercase; color:var(--text-light); }
-  .creators-all { font-size:13px; color:var(--gold-muted); text-decoration:none; font-weight:500; }
-  .creators-all:hover { color:var(--gold); }
-  .creators-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:.75rem; }
-  .creator-chip {
-    display:flex; align-items:center; gap:.75rem;
-    padding:.7rem 1rem;
-    background:var(--warm-white);
-    border:1px solid var(--border);
-    border-radius:8px;
-    text-decoration:none; color:inherit;
-    transition:all .2s;
-  }
-  .creator-chip:hover { border-color:var(--gold-border); box-shadow:0 2px 8px var(--shadow-gold); }
-  .creator-icon { width:32px; height:32px; border-radius:6px; background:var(--gold-faint); display:flex; align-items:center; justify-content:center; font-size:14px; flex-shrink:0; }
-  .creator-name { font-size:13px; font-weight:600; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .creator-type { font-size:11px; color:var(--text-muted); }
+  /* CREATORS */
+  .creators-head { display:flex;align-items:center;justify-content:space-between;margin-bottom:1.1rem; }
+  .creators-lbl { font-family:'Cinzel',serif;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--text-light); }
+  .creators-grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.75rem; }
+  .creator-chip { display:flex;align-items:center;gap:.75rem;padding:.7rem 1rem;background:var(--warm-white);border:1px solid var(--border);border-radius:8px;text-decoration:none;color:inherit;transition:all .2s; }
+  .creator-chip:hover { border-color:var(--gold-border);box-shadow:0 2px 8px var(--shadow-gold); }
+  .creator-icon { width:32px;height:32px;border-radius:6px;background:var(--gold-faint);display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0; }
+  .creator-name { font-size:13px;font-weight:600;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+  .creator-type { font-size:11px;color:var(--text-muted); }
 
-  /* ── DEEP DIVE CTA ── */
-  .cta-card {
-    background:linear-gradient(135deg, var(--text) 0%, #3D3425 100%);
-    border-radius:10px;
-    padding:2.25rem 2.5rem;
-    display:flex; align-items:center; justify-content:space-between; gap:2rem; flex-wrap:wrap;
-  }
+  /* DEEP DIVE CTA */
+  .cta-card { background:linear-gradient(135deg,var(--text) 0%,#3D3425 100%);border-radius:10px;padding:2.25rem 2.5rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap; }
   html.dark .cta-card { background:linear-gradient(135deg,#242445 0%,#1a1a2e 100%); }
-  .cta-lbl { font-family:'Cinzel',serif; font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--gold-light); margin-bottom:.5rem; }
-  .cta-title { font-family:'Cormorant Garamond',serif; font-size:26px; font-weight:500; color:#FAF7F2; line-height:1.3; margin-bottom:.4rem; }
-  .cta-desc { font-size:14px; color:#A89B87; line-height:1.65; }
-  .cta-btn {
-    display:inline-flex; align-items:center; gap:.5rem;
-    padding:.75rem 1.5rem;
-    background:var(--gold);
-    color:var(--cream);
-    border-radius:6px; text-decoration:none;
-    font-family:'Source Sans 3',sans-serif;
-    font-size:14px; font-weight:600; letter-spacing:.02em;
-    transition:all .2s; white-space:nowrap;
-  }
-  .cta-btn:hover { background:var(--gold-light); box-shadow:0 2px 12px rgba(158,122,56,.3); }
+  .cta-lbl { font-family:'Cinzel',serif;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-light);margin-bottom:.5rem; }
+  .cta-title { font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:500;color:#FAF7F2;line-height:1.3;margin-bottom:.4rem; }
+  .cta-desc { font-size:14px;color:#A89B87;line-height:1.65; }
+  .cta-btn { display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.5rem;background:var(--gold);color:var(--cream);border-radius:6px;text-decoration:none;font-family:'Source Sans 3',sans-serif;font-size:14px;font-weight:600;letter-spacing:.02em;transition:all .2s;white-space:nowrap; }
+  .cta-btn:hover { background:var(--gold-light);box-shadow:0 2px 12px rgba(158,122,56,.3); }
+  .cta-btn.outline { background:transparent;border:1.5px solid rgba(255,255,255,0.3);color:#FAF7F2; }
+  .cta-btn.outline:hover { background:rgba(255,255,255,0.1);box-shadow:none; }
 
-  /* ── SCHEDULE ── */
-  .schedule-row {
-    display:flex; align-items:center; gap:1rem;
-    padding:.6rem 1rem; border-radius:8px;
-    border:1px solid var(--border);
-    background:var(--warm-white);
-    transition:border-color .15s, background .15s;
-  }
+  /* PAST WEEK SECTIONS */
+  .past-week-section { padding-top:0;padding-bottom:0.5rem; }
+  .past-week-hero { padding:2rem 2rem 1.25rem; }
+  .past-week-title { font-family:'Cormorant Garamond',serif;font-weight:600;font-size:34px;line-height:1.2;color:var(--text);margin-bottom:.5rem; }
+  .past-week-title span { color:var(--gold); }
+
+  /* SCHEDULE */
+  .schedule-row { display:flex;align-items:center;gap:1rem;padding:.6rem 1rem;border-radius:8px;border:1px solid var(--border);background:var(--warm-white);transition:border-color .15s,background .15s; }
   .schedule-row.has-content { cursor:pointer; }
-  .schedule-row.has-content:hover { border-color:var(--gold-border); background:var(--gold-faint); }
-  .schedule-row.past { opacity:.55; }
-  .wk-num { font-family:'Cinzel',serif; font-size:11px; font-weight:600; color:var(--gold-muted); width:2.5rem; flex-shrink:0; }
-  .wk-title { font-size:14px; font-weight:600; color:var(--text); flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .wk-scripture { font-size:12px; color:var(--text-muted); flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; display:none; }
+  .schedule-row.has-content:hover { border-color:var(--gold-border);background:var(--gold-faint); }
+  .wk-num { font-family:'Cinzel',serif;font-size:11px;font-weight:600;color:var(--gold-muted);width:2.5rem;flex-shrink:0; }
+  .wk-title { font-size:14px;font-weight:600;color:var(--text);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
+  .wk-scripture { font-size:12px;color:var(--text-muted);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:none; }
   @media(min-width:640px){ .wk-scripture { display:block; } }
-  .wk-date { font-size:12px; color:var(--text-light); flex-shrink:0; display:none; }
+  .wk-date { font-size:12px;color:var(--text-light);flex-shrink:0;display:none; }
   @media(min-width:768px){ .wk-date { display:block; } }
-  .wk-badge { font-size:10px; color:var(--gold); border:1px solid var(--gold-border); padding:1px 8px; border-radius:100px; flex-shrink:0; }
+  .wk-badge { font-size:10px;color:var(--gold);border:1px solid var(--gold-border);padding:1px 8px;border-radius:100px;flex-shrink:0; }
+
+  @keyframes fadeUp { from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:translateY(0)} }
+  .anim-hero    { animation:fadeUp .55s ease-out both; }
+  .anim-hook    { animation:fadeUp .55s ease-out .12s both; }
+  .anim-cols    { animation:fadeUp .55s ease-out .24s both; }
+  .anim-creators{ animation:fadeUp .55s ease-out .34s both; }
+  .anim-cta     { animation:fadeUp .55s ease-out .42s both; }
+  @keyframes spin { from{transform:rotate(0)} to{transform:rotate(360deg)} }
+  .spin { animation:spin 1s linear infinite; }
 </style>
 
-<!-- ══════════════════════════════════════════════
-     HERO
-══════════════════════════════════════════════ -->
+<!-- ═══════ WEEK SECTION MACRO ═══════
+     Renders a full week section (hero + hook + two columns + creators + CTA)
+     Used for current week AND past weeks
+-->
+
+{/* ════════════════════════════════════════════
+    CURRENT WEEK — FEATURED / FULL TREATMENT
+════════════════════════════════════════════ */}
 <section class="pg hero anim-hero">
   <p class="week-label">This Week's Study</p>
   <h1 class="week-title">Week {currentWeekNum}: <span>{currentWeek.title}</span></h1>
   <div class="week-meta">
-    <span class="week-date">{currentWeek.date_start.slice(5).replace('-', '/')} – {currentWeek.date_end.slice(5).replace('-', '/')}, 2026</span>
+    <span class="week-date">{currentWeek.date_start.slice(5).replace('-','/')} – {currentWeek.date_end.slice(5).replace('-','/')}, 2026</span>
     <span class="meta-dot"></span>
     <span class="week-scripture">{currentWeek.scripture_block}</span>
   </div>
@@ -318,49 +245,32 @@ const hasVerseCount = existsSync(join(weekDir, 'commentary.json'))
   )}
 </section>
 
-<!-- ══════════════════════════════════════════════
-     HOOK
-══════════════════════════════════════════════ -->
-{hookData?.hook && (
+{currentContent.hook?.hook && (
   <section class="pg hook-section anim-hook">
     <div class="hook-card">
       <p class="hook-text" id="hook-text">
-        <span class="hook-lead">{hookData.hook.split('—')[0].trim()}</span>
-        {hookData.hook.includes('—') ? ' — ' + hookData.hook.split('—').slice(1).join('—') : ''}
+        <span class="hook-lead">{currentContent.hook.hook.split('—')[0].trim()}</span>
+        {currentContent.hook.hook.includes('—') ? ' — ' + currentContent.hook.hook.split('—').slice(1).join('—') : ''}
       </p>
-
       <div class="hook-actions">
-        <button id="audio-play-btn" class="listen-btn" aria-label="Listen to this week's introduction">
-          <svg id="icon-play" width="16" height="16" viewBox="0 0 16 16" style="fill:currentColor;"><path d="M4 2.5l10 5.5-10 5.5z"/></svg>
-          <svg id="icon-pause" width="16" height="16" viewBox="0 0 16 16" style="fill:currentColor;display:none;"><rect x="3" y="2" width="4" height="12" rx="1"/><rect x="9" y="2" width="4" height="12" rx="1"/></svg>
-          <svg id="icon-loading" width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:none;" class="spin"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5" stroke-dasharray="18 10"/></svg>
+        <button id="audio-play-btn" class="listen-btn" aria-label="Listen">
+          <svg id="icon-play" width="16" height="16" viewBox="0 0 16 16" style="fill:currentColor"><path d="M4 2.5l10 5.5-10 5.5z"/></svg>
+          <svg id="icon-pause" width="16" height="16" viewBox="0 0 16 16" style="fill:currentColor;display:none"><rect x="3" y="2" width="4" height="12" rx="1"/><rect x="9" y="2" width="4" height="12" rx="1"/></svg>
+          <svg id="icon-loading" width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:none" class="spin"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5" stroke-dasharray="18 10"/></svg>
           <span id="audio-label">Listen to introduction</span>
         </button>
-        {audioUrl && <span style="font-size:10px;color:var(--text-light);letter-spacing:.05em;text-transform:uppercase;">AI Voice · Echo</span>}
+        {currentContent.hook.audio_url && <span style="font-size:10px;color:var(--text-light);letter-spacing:.05em;text-transform:uppercase;">AI Voice · Echo</span>}
       </div>
-
-      {audioUrl && <audio id="hook-audio" src={audioUrl} preload="none" />}
+      {currentContent.hook.audio_url && <audio id="hook-audio" src={currentContent.hook.audio_url} preload="none" />}
     </div>
   </section>
 )}
 
-<!-- ══════════════════════════════════════════════
-     ORNAMENTAL DIVIDER
-══════════════════════════════════════════════ -->
-<div class="pg divider">
-  <div class="divider-line"></div>
-  <span class="divider-gem">✦</span>
-  <div class="divider-line"></div>
-</div>
+<div class="pg divider anim-cols"><div class="divider-line"></div><span class="divider-gem">✦</span><div class="divider-line"></div></div>
 
-<!-- ══════════════════════════════════════════════
-     TWO COLUMNS
-══════════════════════════════════════════════ -->
 <section class="pg anim-cols" style="padding-bottom:2.5rem;">
   <p class="cols-header">Start Your Study</p>
   <div class="cols-grid">
-
-    <!-- LEFT: Official Curriculum -->
     <div class="card">
       <div class="card-head">
         <p class="card-label">Official Curriculum</p>
@@ -376,60 +286,49 @@ const hasVerseCount = existsSync(join(weekDir, 'commentary.json'))
           <li>How does Abraham's willingness to sacrifice Isaac foreshadow the Atonement?</li>
           <li>What does "Is any thing too hard for the LORD?" mean in your life right now?</li>
         </ul>
-        <a href={currentWeek.official_url} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:.4rem;margin-top:1.1rem;font-size:13px;color:var(--gold-muted);text-decoration:none;font-weight:500;" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--gold-muted)'">
-          Open Official Lesson
-          <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3l5 5-5 5"/></svg>
-        </a>
+        {currentWeek.official_url && (
+          <a href={currentWeek.official_url} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:.4rem;margin-top:1.1rem;font-size:13px;color:var(--gold-muted);text-decoration:none;font-weight:500;" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--gold-muted)'">
+            Open Official Lesson <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3l5 5-5 5"/></svg>
+          </a>
+        )}
       </div>
     </div>
-
-    <!-- RIGHT: Companion Snippets -->
     <div class="card snippets-card">
-      <div class="card-head">
-        <p class="card-label">What You Might Not Know</p>
-      </div>
+      <div class="card-head"><p class="card-label">What You Might Not Know</p></div>
       <div class="card-body">
-        {snippets.length > 0 ? snippets.map((s: any) => {
-          const meta = categoryMeta[s.category] ?? { label: s.category, bg: '#E8E0D4', color: '#5C4F3D' };
-          const href = `/2026/week/${currentWeekNum}#${s.deep_dive_anchor}`;
+        {currentContent.snippets.length > 0 ? currentContent.snippets.slice(0,6).map((s: any) => {
+          const m = tagMeta[s.category] ?? { label: s.category, bg: '#E8E0D4', color: '#5C4F3D' };
           return (
-            <a href={href} class="snippet">
+            <a href={`/2026/week/${currentWeekNum}#${s.deep_dive_anchor}`} class="snippet">
               <div class="snippet-head">
-                <span class="snippet-tag" style={`background:${meta.bg};color:${meta.color};`}>{meta.label}</span>
+                <span class="snippet-tag" style={`background:${m.bg};color:${m.color};`}>{m.label}</span>
                 <span class="snippet-verse">{s.verse_reference}</span>
               </div>
               <p class="snippet-text">{s.snippet_text}</p>
               <span class="snippet-cta">Read in Deep Dive →</span>
             </a>
           );
-        }) : (
-          <p style="padding:1.5rem;font-size:14px;color:var(--text-muted);">Companion insights coming soon.</p>
-        )}
+        }) : <p style="padding:1.5rem;font-size:14px;color:var(--text-muted);">Insights coming soon.</p>}
       </div>
     </div>
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════════
-     CREATORS THIS WEEK
-══════════════════════════════════════════════ -->
-{foundCreators.length > 0 && (
-  <section class="pg anim-creators" style="padding-bottom:2.5rem;">
+{currentContent.creators.length > 0 && (
+  <section class="pg anim-creators" style="padding-bottom:2rem;">
     <div class="creators-head">
       <span class="creators-lbl">This Week's Creators</span>
-      <a href="/about#sources" class="creators-all">All sources →</a>
+      <a href="/about" style="font-size:13px;color:var(--gold-muted);text-decoration:none;font-weight:500;">All sources →</a>
     </div>
     <div class="creators-grid">
-      {foundCreators.map((c: any) => {
+      {currentContent.creators.map((c: any) => {
         const icon = creatorIcons[c.content?.content_type ?? ''] ?? '📖';
-        const typeLabel = c.content?.content_type?.replace(/_/g, '/') ?? '';
-        const guest = c.content?.hosts_or_guests;
         return (
           <a href={c.content.url} target="_blank" rel="noopener" class="creator-chip">
             <div class="creator-icon">{icon}</div>
             <div style="min-width:0;">
               <div class="creator-name">{c.source_name.split('—')[0].trim()}</div>
-              <div class="creator-type">{typeLabel}{guest ? ` · ${guest.split(',')[0].trim()}` : ''}</div>
+              <div class="creator-type">{c.content?.content_type?.replace(/_/g,'/')}{c.content?.hosts_or_guests ? ` · ${c.content.hosts_or_guests.split(',')[0].trim()}` : ''}</div>
             </div>
           </a>
         );
@@ -438,125 +337,208 @@ const hasVerseCount = existsSync(join(weekDir, 'commentary.json'))
   </section>
 )}
 
-<!-- ══════════════════════════════════════════════
-     DEEP DIVE CTA
-══════════════════════════════════════════════ -->
 <section class="pg anim-cta" style="padding-bottom:3rem;">
   <div class="cta-card">
     <div style="flex:1;min-width:260px;">
       <p class="cta-lbl">Go Deeper</p>
       <h2 class="cta-title">Verse-by-Verse Deep Dive</h2>
       <p class="cta-desc">
-        {hasVerseCount > 0 ? `${hasVerseCount} verses` : 'Full commentary'} — Hebrew word studies, cross-references, Restoration connections, prophetic teachings, and practical application for every verse in {currentWeek.scripture_block}.
+        {currentContent.verseCount > 0 ? `${currentContent.verseCount} verses` : 'Full commentary'} — Hebrew word studies, cross-references, Restoration connections, prophetic teachings, and practical application for every verse in {currentWeek.scripture_block}.
       </p>
     </div>
     <a href={`/2026/week/${currentWeekNum}`} class="cta-btn">
-      Enter Deep Dive
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+      Enter Deep Dive <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
     </a>
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════════
-     DIVIDER
-══════════════════════════════════════════════ -->
-<div class="pg divider">
-  <div class="divider-line"></div>
-  <span class="divider-gem">✦</span>
-  <div class="divider-line"></div>
-</div>
+{/* ════════════════════════════════════════════
+    PAST WEEKS — DESCENDING ORDER (8 → 1)
+    Same layout, slightly compact
+════════════════════════════════════════════ */}
+{pastWeeks.map((w: any) => {
+  const wc = loadWeekContent(w);
+  if (!wc.hook) return null;
 
-<!-- ══════════════════════════════════════════════
-     2026 SCHEDULE
-══════════════════════════════════════════════ -->
+  const hasAudio = wc.hook.audio_url;
+  const deepDiveHref = `/2026/week/${w.week}`;
+  const isSummaryOnly = !wc.hasFull;
+
+  return (
+    <div>
+      <div class="pg divider"><div class="divider-line"></div><span class="divider-gem">✦</span><div class="divider-line"></div></div>
+
+      <section class="pg past-week-section">
+        <div class="past-week-hero">
+          <p class="week-label" style="font-size:10px;">Week {w.week} · {w.date_start.slice(5).replace('-','/')}–{w.date_end.slice(5).replace('-','/')}</p>
+          <h2 class="past-week-title">{w.title}: <span>{w.scripture_block}</span></h2>
+          {w.official_url && (
+            <a href={w.official_url} target="_blank" rel="noopener" class="cfm-link" style="margin-top:.25rem;">
+              Official Lesson <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3l5 5-5 5"/></svg>
+            </a>
+          )}
+        </div>
+
+        <div class="pg hook-section" style="padding:0 0 1.25rem;">
+          <div class="hook-card compact">
+            <p class={`hook-text sm`}>
+              <span class="hook-lead">{wc.hook.hook.split('—')[0].trim()}</span>
+              {wc.hook.hook.includes('—') ? ' — ' + wc.hook.hook.split('—').slice(1).join('—') : ''}
+            </p>
+            {hasAudio && (
+              <div class="hook-actions">
+                <button class="listen-btn past-audio-btn" data-src={wc.hook.audio_url} data-text={wc.hook.hook} aria-label="Listen">
+                  <svg class="play-icon" width="14" height="14" viewBox="0 0 16 16" style="fill:currentColor"><path d="M4 2.5l10 5.5-10 5.5z"/></svg>
+                  <svg class="pause-icon" width="14" height="14" viewBox="0 0 16 16" style="fill:currentColor;display:none"><rect x="3" y="2" width="4" height="12" rx="1"/><rect x="9" y="2" width="4" height="12" rx="1"/></svg>
+                  <span class="btn-label">Listen</span>
+                </button>
+                <span style="font-size:10px;color:var(--text-light);letter-spacing:.05em;text-transform:uppercase;">AI Voice · Echo</span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        <div class="cols-grid" style="padding:0 2rem 1.5rem;">
+          {/* LEFT: Official Curriculum summary */}
+          <div class="card">
+            <div class="card-head">
+              <p class="card-label">Official Curriculum</p>
+              <h3 class="card-title" style="font-size:19px;">{w.title}</h3>
+              <p class="card-subtitle">{w.scripture_block}</p>
+            </div>
+            <div class="card-body">
+              {wc.hook && loadJSON(join(root, 'content', 'weeks', '2026', `week-${String(w.week).padStart(2,'0')}`, 'week_summary.json'))?.themes && (
+                <div>
+                  <p class="theme-lbl">Key Themes</p>
+                  <ul class="prompts">
+                    {(loadJSON(join(root, 'content', 'weeks', '2026', `week-${String(w.week).padStart(2,'0')}`, 'week_summary.json'))?.themes ?? []).map((t: string) => (
+                      <li>{t}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              <a href={deepDiveHref} style="display:inline-flex;align-items:center;gap:.4rem;margin-top:1rem;font-size:13px;color:var(--gold-muted);text-decoration:none;font-weight:500;" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--gold-muted)'">
+                {isSummaryOnly ? 'Read Week Summary' : 'Read Full Deep Dive'} →
+              </a>
+            </div>
+          </div>
+
+          {/* RIGHT: Highlights/snippets */}
+          <div class="card snippets-card">
+            <div class="card-head"><p class="card-label">What You Might Not Know</p></div>
+            <div class="card-body">
+              {wc.snippets.length > 0 ? wc.snippets.slice(0,5).map((s: any) => {
+                const m = tagMeta[s.category] ?? { label: s.category, bg: '#E8E0D4', color: '#5C4F3D' };
+                const anchor = s.deep_dive_anchor ?? '';
+                return (
+                  <a href={`${deepDiveHref}${anchor ? '#' + anchor : ''}`} class="snippet">
+                    <div class="snippet-head">
+                      <span class="snippet-tag" style={`background:${m.bg};color:${m.color};`}>{m.label}</span>
+                      <span class="snippet-verse">{s.verse_reference}</span>
+                    </div>
+                    <p class="snippet-text">{s.snippet_text}</p>
+                    <span class="snippet-cta">{isSummaryOnly ? 'Read Summary' : 'Read in Deep Dive'} →</span>
+                  </a>
+                );
+              }) : <p style="padding:1.5rem;font-size:14px;color:var(--text-muted);">Insights coming soon.</p>}
+            </div>
+          </div>
+        </div>
+
+        {/* Past week CTA */}
+        <div style="padding:0 2rem 1rem;">
+          <div class="cta-card" style="padding:1.5rem 2rem;">
+            <div style="flex:1;min-width:200px;">
+              <p class="cta-lbl">{isSummaryOnly ? 'Week Summary' : 'Deep Dive'}</p>
+              <h3 class="cta-title" style="font-size:20px;">{isSummaryOnly ? 'Overview & Key Insights' : 'Verse-by-Verse Commentary'}</h3>
+              <p class="cta-desc" style="font-size:13px;">
+                {isSummaryOnly
+                  ? `Overview, themes, key verses, and Restoration connections for ${w.scripture_block}.`
+                  : `${wc.verseCount} verses — Hebrew word studies, cross-references, and Restoration insights.`}
+              </p>
+            </div>
+            <a href={deepDiveHref} class="cta-btn outline" style="font-size:13px;padding:.6rem 1.25rem;">
+              {isSummaryOnly ? 'Read Summary' : 'Enter Deep Dive'}
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+})}
+
+{/* ════════════════════════════════════════════
+    UPCOMING WEEKS — COMPACT SCHEDULE
+════════════════════════════════════════════ */}
+<div class="pg divider"><div class="divider-line"></div><span class="divider-gem">✦</span><div class="divider-line"></div></div>
+
 <section class="pg" style="padding-bottom:4rem;">
   <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1.25rem;">
-    <p class="cols-header" style="margin:0;">2026 Schedule — Old Testament</p>
+    <p class="cols-header" style="margin:0;">Coming Up — 2026 Old Testament</p>
     <div style="flex:1;height:1px;background:var(--border);"></div>
   </div>
   <div style="display:grid;gap:.5rem;">
-    {otherWeeks.map((w: any) => {
-      const content = hasContentFor(w);
-      const isPast = w.date_end < today;
-      return content ? (
-        <a href={`/2026/week/${w.week}`} class={`schedule-row has-content ${isPast ? 'past' : ''}`} style="text-decoration:none;color:inherit;">
-          <span class="wk-num">W{w.week}</span>
-          <span class="wk-title">{w.title}</span>
-          <span class="wk-scripture">{w.scripture_block}</span>
-          <span class="wk-date">{w.date_start.slice(5).replace('-', '/')}</span>
-          <span class="wk-badge">Live</span>
-        </a>
-      ) : (
-        <div class={`schedule-row ${isPast ? 'past' : ''}`}>
-          <span class="wk-num" style="color:var(--text-light);">W{w.week}</span>
-          <span class="wk-title" style="color:var(--text-muted);font-weight:400;">{w.title}</span>
-          <span class="wk-scripture">{w.scripture_block}</span>
-          <span class="wk-date">{w.date_start.slice(5).replace('-', '/')}</span>
-        </div>
-      );
-    })}
+    {futureWeeks.map((w: any) => (
+      <div class="schedule-row">
+        <span class="wk-num" style="color:var(--text-light);">W{w.week}</span>
+        <span class="wk-title" style="color:var(--text-muted);font-weight:400;">{w.title}</span>
+        <span class="wk-scripture">{w.scripture_block}</span>
+        <span class="wk-date">{w.date_start.slice(5).replace('-','/')}</span>
+      </div>
+    ))}
   </div>
 </section>
 
-<!-- spin animation -->
-<style>@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}.spin{animation:spin 1s linear infinite}</style>
+<!-- Audio scripts -->
+<script define:vars={{ hookText: currentContent.hook?.hook ?? '', audioUrl: currentContent.hook?.audio_url ?? null }}>
+/* Current week audio */
+(function(){
+  var btn=document.getElementById('audio-play-btn');
+  if(!btn) return;
+  var ip=document.getElementById('icon-play'),ipu=document.getElementById('icon-pause'),il=document.getElementById('icon-loading'),lbl=document.getElementById('audio-label'),mp3=document.getElementById('hook-audio');
+  var playing=false;
+  function setIcon(s){ip.style.display=s==='play'?'':'none';ipu.style.display=s==='pause'?'':'none';il.style.display=s==='loading'?'':'none';lbl.textContent=s==='pause'?'Pause':s==='loading'?'Loading…':'Listen to introduction';}
+  function stopAll(){if(mp3){mp3.pause();mp3.currentTime=0;}if(window.speechSynthesis)window.speechSynthesis.cancel();playing=false;setIcon('play');}
+  function tts(){if(!window.speechSynthesis||!hookText)return;window.speechSynthesis.cancel();var u=new SpeechSynthesisUtterance(hookText);u.rate=0.93;var vs=window.speechSynthesis.getVoices();var v=vs.find(function(v){return['Samantha','Karen','Serena'].some(function(n){return v.name.includes(n);});})||vs.find(function(v){return v.lang.startsWith('en');});if(v)u.voice=v;u.onstart=function(){playing=true;setIcon('pause');};u.onend=stopAll;u.onerror=stopAll;window.speechSynthesis.speak(u);}
+  if(mp3){mp3.addEventListener('ended',stopAll);mp3.addEventListener('error',tts);}
+  btn.addEventListener('click',function(){if(playing){stopAll();return;}if(mp3&&audioUrl){setIcon('loading');mp3.play().then(function(){playing=true;setIcon('pause');}).catch(tts);}else{if(window.speechSynthesis.getVoices().length===0){window.speechSynthesis.onvoiceschanged=tts;window.speechSynthesis.getVoices();}else tts();}});
+})();
+</script>
 
-<script define:vars={{ hookText, audioUrl }}>
-(function () {
-  var btn = document.getElementById('audio-play-btn');
-  if (!btn) return;
-  var iconPlay = document.getElementById('icon-play');
-  var iconPause = document.getElementById('icon-pause');
-  var iconLoad = document.getElementById('icon-loading');
-  var label = document.getElementById('audio-label');
-  var mp3 = document.getElementById('hook-audio');
-  var playing = false;
+<script>
+/* Past week audio buttons */
+(function(){
+  var btns=document.querySelectorAll('.past-audio-btn');
+  var currentAudio=null;
+  var currentBtn=null;
+  btns.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var src=btn.getAttribute('data-src');
+      var play=btn.querySelector('.play-icon');
+      var pause=btn.querySelector('.pause-icon');
+      var lbl=btn.querySelector('.btn-label');
 
-  function setIcon(s) {
-    iconPlay.style.display = s === 'play' ? '' : 'none';
-    iconPause.style.display = s === 'pause' ? '' : 'none';
-    iconLoad.style.display = s === 'loading' ? '' : 'none';
-    label.textContent = s === 'pause' ? 'Pause' : s === 'loading' ? 'Loading…' : 'Listen to introduction';
-  }
+      // Stop any currently playing
+      if(currentAudio&&currentBtn&&currentBtn!==btn){
+        currentAudio.pause();currentAudio.currentTime=0;
+        var cp=currentBtn.querySelector('.play-icon'),cpa=currentBtn.querySelector('.pause-icon'),cl=currentBtn.querySelector('.btn-label');
+        if(cp)cp.style.display='';if(cpa)cpa.style.display='none';if(cl)cl.textContent='Listen';
+        currentAudio=null;currentBtn=null;
+      }
 
-  function stopAll() {
-    if (mp3) { mp3.pause(); mp3.currentTime = 0; }
-    if (window.speechSynthesis) window.speechSynthesis.cancel();
-    playing = false;
-    setIcon('play');
-  }
-
-  function startBrowserTTS() {
-    if (!window.speechSynthesis || !hookText) return;
-    window.speechSynthesis.cancel();
-    var u = new SpeechSynthesisUtterance(hookText);
-    u.rate = 0.93; u.pitch = 1.0;
-    var voices = window.speechSynthesis.getVoices();
-    var v = voices.find(function(v){ return ['Samantha','Karen','Serena','Moira'].some(function(n){ return v.name.includes(n); }); })
-          || voices.find(function(v){ return v.lang.startsWith('en') && !v.name.toLowerCase().includes('google'); })
-          || voices.find(function(v){ return v.lang.startsWith('en'); });
-    if (v) u.voice = v;
-    u.onstart = function(){ playing = true; setIcon('pause'); };
-    u.onend = stopAll; u.onerror = stopAll;
-    window.speechSynthesis.speak(u);
-  }
-
-  if (mp3) {
-    mp3.addEventListener('ended', stopAll);
-    mp3.addEventListener('error', startBrowserTTS);
-  }
-
-  btn.addEventListener('click', function() {
-    if (playing) { stopAll(); return; }
-    if (mp3 && audioUrl) {
-      setIcon('loading');
-      mp3.play().then(function(){ playing = true; setIcon('pause'); }).catch(startBrowserTTS);
-    } else {
-      if (window.speechSynthesis.getVoices().length === 0) {
-        window.speechSynthesis.onvoiceschanged = startBrowserTTS;
-        window.speechSynthesis.getVoices();
-      } else { startBrowserTTS(); }
-    }
+      if(!currentAudio||currentBtn!==btn){
+        var audio=new Audio(src);
+        audio.addEventListener('ended',function(){play.style.display='';pause.style.display='none';lbl.textContent='Listen';currentAudio=null;currentBtn=null;});
+        audio.play();
+        play.style.display='none';pause.style.display='';lbl.textContent='Pause';
+        currentAudio=audio;currentBtn=btn;
+      } else {
+        currentAudio.pause();currentAudio.currentTime=0;
+        play.style.display='';pause.style.display='none';lbl.textContent='Listen';
+        currentAudio=null;currentBtn=null;
+      }
+    });
   });
 })();
 </script>
