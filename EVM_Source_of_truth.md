@@ -1507,13 +1507,21 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] Nav: `white-space:nowrap` on all links, gap tightened to 1.25rem (0.75rem on small phones), 12px font
 - [x] Nav "This Week" → "This Week — Deep Dive"
 
-**The Covenant Rendering (TCR) Integration (Feb 23, 2026):**
-- [x] TCR Genesis (all 50 chapters) copied into `content/tcr/genesis/` — CC-BY-4.0, translated from WLC by Aaron Blonquist (https://github.com/bashonda2/the-covenant-rendering)
-- [x] `mcp-server/src/db.ts` — `getTcrChapter()`, `getTcrVerse()`, `getTcrContextForChapters()` functions
-- [x] `pipeline/generate_commentary.py` — loads TCR data per chapter; injects TCR rendering + translator notes + key terms into AI prompt context for Genesis weeks. Future books added as TCR expands.
-- [x] `mcp-server/src/tools/user_ai.ts` — `ask` and `deep_dive` tools load TCR context; Hebrew word studies in `deep_dive` now reference TCR translator notes
-- [x] Deep Dive UI — verse cards for Genesis weeks now show **KJV | TCR** toggle tabs. TCR panel shows: modern rendering, expanded rendering (for chesed/kavod/berit etc.), key terms with Hebrew/transliteration/semantic range, translator notes (collapsible), attribution
-- [x] Site deployed with TCR integration live
+**The Covenant Rendering (TCR) Integration (Feb 23–24, 2026):**
+- [x] TCR Genesis (all 50 chapters) in `content/tcr/genesis/` — CC-BY-4.0, by Aaron Blonquist
+- [x] `mcp-server/src/db.ts` — `getTcrChapter()`, `getTcrVerse()`, `getTcrContextForChapters()`
+- [x] `pipeline/generate_commentary.py` — TCR context injected into AI prompt for Genesis weeks
+- [x] `mcp-server/src/tools/user_ai.ts` — `ask` and `deep_dive` tools load TCR context
+- [x] Deep Dive UI — verse cards for Genesis weeks show **KJV | TCR** toggle tabs
+- [x] GitHub repos created:
+  - EVM: https://github.com/bashonda2/every-verse-matters
+  - TCR: https://github.com/bashonda2/the-covenant-rendering
+- [x] `thecovenantrendering.com` domain purchased (Namecheap), DNS → `209.74.80.143`
+- [x] TCR standalone site live at https://thecovenantrendering.com — Astro static, Nginx + SSL, separate VPS web root `/var/www/tcr/`, deploy via `~/TCR/deploy.sh`
+- [x] EVM homepage TCR announcement banner (deep teal) — links to thecovenantrendering.com
+- [x] EVM nav: "Our Translation" link → thecovenantrendering.com
+- [x] Verse card TCR attribution links updated to thecovenantrendering.com
+- **Architecture decision:** TCR lives at its own domain from day one. EVM links out to it. When TCR expands beyond Genesis, thecovenantrendering.com becomes a full standalone resource; EVM remains the LDS/CFM layer on top.
 
 **Remaining:**
 - [x] Share with family/ward for feedback — shared Feb 23, 2026
