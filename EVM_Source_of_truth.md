@@ -1509,6 +1509,7 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 
 **The Covenant Rendering (TCR) Integration (Feb 23–24, 2026):**
 - [x] TCR Genesis (all 50 chapters) in `content/tcr/genesis/` — CC-BY-4.0, by Aaron Blonquist
+- **TCR full methodology, data structure, generation workflow, and roadmap:** see `/Users/aaronblonquist/TCR/TCR_Source_of_truth.md`
 - [x] `mcp-server/src/db.ts` — `getTcrChapter()`, `getTcrVerse()`, `getTcrContextForChapters()`
 - [x] `pipeline/generate_commentary.py` — TCR context injected into AI prompt for Genesis weeks
 - [x] `mcp-server/src/tools/user_ai.ts` — `ask` and `deep_dive` tools load TCR context
