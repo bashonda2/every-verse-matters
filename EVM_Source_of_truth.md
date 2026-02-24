@@ -411,6 +411,9 @@ Build once, use everywhere.
 | Future admin dashboard | Web UI for monitoring pipeline, reviewing flagged content, viewing analytics |
 
 ### 5.4 Hosting & Infrastructure
+- **GitHub Repos:**
+  - EVM (this project): https://github.com/bashonda2/every-verse-matters
+  - The Covenant Rendering (TCR): https://github.com/bashonda2/the-covenant-rendering
 - **Server:** Aaron's VPS at `209.74.80.143` (SSH: `ssh root@209.74.80.143`) — also hosts Emree (PM2, port 3000) and MissionChecklist (Docker, port 5050)
 - **MCP Server:** TypeScript (`@modelcontextprotocol/sdk`) at `/var/www/evm/mcp-server/`
   - **stdio transport** (Cursor/Claude Desktop): launched on-demand by IDE. Entry: `dist/server.js`.
