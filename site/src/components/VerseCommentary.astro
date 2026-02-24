@@ -26,11 +26,31 @@ interface RestorationLens {
   temple_connections?: string;
 }
 
+interface TcrKeyTerm {
+  hebrew: string;
+  transliteration: string;
+  rendered_as: string;
+  semantic_range: string;
+  note: string;
+}
+
+interface TcrVerse {
+  verse: number;
+  text_hebrew: string;
+  text_kjv: string;
+  rendering: string;
+  expanded_rendering?: string;
+  translator_notes?: string[];
+  key_terms?: TcrKeyTerm[];
+  reading_level?: string;
+}
+
 interface Props {
   book: string;
   chapter: number;
   verse: number;
   text_kjv: string;
+  tcr?: TcrVerse | null;
   commentary: {
     narrative: string;
     word_study?: WordStudy[];
@@ -43,17 +63,94 @@ interface Props {
   };
 }
 
-const { book, chapter, verse, text_kjv, commentary } = Astro.props;
+const { book, chapter, verse, text_kjv, tcr, commentary } = Astro.props;
 const c = commentary;
 const ref = `${book} ${chapter}:${verse}`;
+const verseId = `v${book.replace(/\s/g,'-')}-${chapter}-${verse}`;
 ---
 
 <article id={`v${verse}`} class="mb-10 scroll-mt-20">
   <h3 class="font-sans text-gold font-semibold text-xl mb-3">{ref}</h3>
 
-  <blockquote class="verse-text text-text/90 mb-5">
-    {text_kjv}
-  </blockquote>
+  {tcr ? (
+    <div class="mb-5">
+      {/* Translation toggle tabs */}
+      <div class="flex items-center gap-0 mb-3" role="tablist" aria-label="Bible translation">
+        <button
+          role="tab"
+          aria-selected="true"
+          data-target={`${verseId}-kjv`}
+          data-group={verseId}
+          class="tx-tab tx-tab-active font-sans text-xs font-semibold px-3 py-1.5 rounded-l-md border border-r-0 transition-colors"
+          style="border-color:var(--color-border);background:var(--color-gold);color:#fff;"
+        >KJV</button>
+        <button
+          role="tab"
+          aria-selected="false"
+          data-target={`${verseId}-tcr`}
+          data-group={verseId}
+          class="tx-tab font-sans text-xs font-semibold px-3 py-1.5 rounded-r-md border transition-colors"
+          style="border-color:var(--color-border);background:transparent;color:var(--color-text-muted);"
+        >TCR</button>
+      </div>
+
+      {/* KJV panel */}
+      <div id={`${verseId}-kjv`} class="tx-panel">
+        <blockquote class="verse-text text-text/90">
+          {text_kjv}
+        </blockquote>
+      </div>
+
+      {/* TCR panel */}
+      <div id={`${verseId}-tcr`} class="tx-panel hidden">
+        <blockquote class="verse-text text-text/90 mb-3">
+          {tcr.rendering}
+        </blockquote>
+
+        {tcr.expanded_rendering && (
+          <p class="text-sm leading-relaxed mb-3 pl-1" style="color:var(--color-text-muted);font-style:italic;border-left:2px solid var(--color-gold);padding-left:.75rem;">
+            {tcr.expanded_rendering}
+          </p>
+        )}
+
+        {tcr.key_terms && tcr.key_terms.length > 0 && (
+          <div class="space-y-2 mb-3">
+            {tcr.key_terms.map((kt: TcrKeyTerm) => (
+              <div class="text-sm pl-1" style="border-left:2px solid var(--color-border);padding-left:.75rem;">
+                <span class="font-sans font-semibold" style="color:var(--color-gold);">{kt.rendered_as}</span>
+                <span class="font-sans text-xs ml-1.5" style="color:var(--color-text-muted);">{kt.hebrew} · {kt.transliteration}</span>
+                <p class="mt-0.5" style="color:var(--color-text-muted);">{kt.note}</p>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {tcr.translator_notes && tcr.translator_notes.length > 0 && (
+          <details class="bg-expand-bg rounded-lg text-sm">
+            <summary class="px-3 py-2 font-sans font-medium flex items-center gap-2 cursor-pointer" style="color:var(--color-text-muted);">
+              <span class="chevron text-xs">&#9654;</span> Translator Notes
+            </summary>
+            <ul class="px-4 pb-3 space-y-1.5 list-none">
+              {tcr.translator_notes.map((note: string) => (
+                <li class="flex gap-2" style="color:var(--color-text-muted);">
+                  <span style="color:var(--color-gold);margin-top:.2rem;font-size:.55rem;">✦</span>
+                  <span>{note}</span>
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
+
+        <p class="font-sans text-xs mt-2" style="color:var(--color-text-muted);opacity:.6;">
+          The Covenant Rendering · Aaron Blonquist · CC-BY-4.0 · translated from Westminster Leningrad Codex
+        </p>
+      </div>
+    </div>
+  ) : (
+    <blockquote class="verse-text text-text/90 mb-5">
+      {text_kjv}
+    </blockquote>
+  )}
 
   {c.narrative && (
     <div class="text-text/85 mb-5 whitespace-pre-line">

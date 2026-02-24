@@ -120,12 +120,73 @@ def get_week(week_num, year=2026):
     raise ValueError(f"Week {week_num} ({year}) not found in schedule")
 
 
+def load_tcr_chapter(book, chapter):
+    """Load The Covenant Rendering (TCR) data for a chapter, if available."""
+    slug_map = {"Genesis": "genesis"}
+    slug = slug_map.get(book)
+    if not slug:
+        return None
+    path = ROOT / "content" / "tcr" / slug / f"chapter-{chapter:02d}.json"
+    if not path.exists():
+        return None
+    with open(path) as f:
+        return json.load(f)
+
+
+def format_tcr_context(tcr_chapter, verse_start, verse_end):
+    """Format TCR verses for the given range into a context block for the prompt."""
+    if not tcr_chapter:
+        return ""
+
+    chunks = []
+    for v in tcr_chapter["verses"]:
+        if not (verse_start <= v["verse"] <= verse_end):
+            continue
+
+        parts = [
+            f"  Verse {v['verse']}:",
+            f"    Hebrew (WLC): {v['text_hebrew']}",
+            f"    KJV:          {v['text_kjv']}",
+            f"    TCR Rendering: {v['rendering']}",
+        ]
+
+        if v.get("expanded_rendering"):
+            parts.append(f"    Expanded Meaning: {v['expanded_rendering']}")
+
+        if v.get("translator_notes"):
+            notes = " | ".join(v["translator_notes"][:3])  # cap at 3 to avoid bloat
+            parts.append(f"    Translator Notes: {notes}")
+
+        if v.get("key_terms"):
+            for kt in v["key_terms"][:4]:  # cap at 4 key terms
+                parts.append(
+                    f"    Key Term — {kt['hebrew']} ({kt['transliteration']}) → \"{kt['rendered_as']}\": {kt['note']}"
+                )
+
+        chunks.append("\n".join(parts))
+
+    if not chunks:
+        return ""
+
+    return (
+        "\n\nTHE COVENANT RENDERING (TCR) — SOURCE CONTEXT:\n"
+        "The following is a scholarly modern English translation of these verses from the original Hebrew "
+        "(Westminster Leningrad Codex), translated by Aaron Blonquist and released under CC-BY-4.0. "
+        "Use the TCR rendering, translator notes, and key term definitions to ENRICH your commentary — "
+        "especially for Hebrew word studies, theological depth, and translation nuances. "
+        "You may reference 'The Covenant Rendering' by name when noting that a word carries deeper Hebrew meaning.\n\n"
+        + "\n\n".join(chunks)
+    )
+
+
 def generate_verse_batch(
     book, chapter, verse_start, verse_end,
     week_title, week_num, scripture_block,
-    system_prompt, model,
+    system_prompt, model, tcr_chapter=None,
 ):
     """Generate commentary for a batch of verses within a chapter."""
+
+    tcr_context = format_tcr_context(tcr_chapter, verse_start, verse_end)
 
     user_message = (
         f"Generate verse-by-verse commentary for {book} chapter {chapter}, "
@@ -134,6 +195,7 @@ def generate_verse_batch(
         f"The full week's reading is {scripture_block}. "
         f"Cover every verse from {verse_start} to {verse_end}. "
         f"Follow the commentary structure exactly."
+        + tcr_context
     )
 
     print(f"    Batch: {book} {chapter}:{verse_start}-{verse_end}...")
@@ -173,7 +235,11 @@ def generate_verse_batch(
 def generate_chapter(book, chapter, week_title, week_num, scripture_block, system_prompt, model):
     """Generate commentary for a full chapter by splitting into batches."""
     total_verses = get_verse_count(book, chapter)
-    print(f"  {book} {chapter} ({total_verses} verses)")
+    tcr_chapter = load_tcr_chapter(book, chapter)
+    if tcr_chapter:
+        print(f"  {book} {chapter} ({total_verses} verses) [TCR available ✓]")
+    else:
+        print(f"  {book} {chapter} ({total_verses} verses)")
 
     all_verses = []
     all_usage = []
@@ -186,7 +252,7 @@ def generate_chapter(book, chapter, week_title, week_num, scripture_block, syste
             verses, usage = generate_verse_batch(
                 book, chapter, verse, batch_end,
                 week_title, week_num, scripture_block,
-                system_prompt, model,
+                system_prompt, model, tcr_chapter=tcr_chapter,
             )
             all_verses.extend(verses)
             all_usage.append(usage)

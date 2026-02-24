@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Genesis",
+    "chapter": 6,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-02-23T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַֽיְהִי֙ כִּֽי־הֵחֵ֣ל הָאָדָ֔ם לָרֹ֖ב עַל־פְּנֵ֣י הָאֲדָמָ֑ה וּבָנ֖וֹת יֻלְּד֥וּ לָהֶֽם׃",
+      "text_kjv": "And it came to pass, when men began to multiply on the face of the earth, and daughters were born unto them,",
+      "rendering": "When mankind began to multiply on the face of the ground and daughters were born to them,",
+      "translator_notes": [
+        "'Mankind' translates ha'adam (הָאָדָם), used here collectively for the human race. The setting is the spread of humanity across the earth, continuing the population growth implied in chapter 5.",
+        "'On the face of the ground' (al-penei ha'adamah) — the same phrase that connects humanity to the soil throughout Genesis. The verse sets the stage for the crisis that follows."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיִּרְא֤וּ בְנֵי־הָֽאֱלֹהִים֙ אֶת־בְּנ֣וֹת הָאָדָ֔ם כִּ֥י טֹבֹ֖ת הֵ֑נָּה וַיִּקְח֤וּ לָהֶם֙ נָשִׁ֔ים מִכֹּ֖ל אֲשֶׁ֥ר בָּחָֽרוּ׃",
+      "text_kjv": "That the sons of God saw the daughters of men that they were fair; and they took them wives of all which they chose.",
+      "rendering": "the sons of God saw that the daughters of mankind were beautiful, and they took as wives any they chose.",
+      "translator_notes": [
+        "'Sons of God' (benei-ha'Elohim, בְּנֵי הָאֱלֹהִים) — one of the most debated phrases in Genesis. Major interpretations include: (1) angelic beings or divine beings from God's heavenly court (the most common ancient Jewish and early Christian reading; cf. Job 1:6; 2:1; 38:7; Psalm 29:1; 82:6); (2) descendants of Seth's godly line intermarrying with Cain's ungodly line; (3) ancient kings or rulers who bore the title 'sons of God' as a royal designation. The rendering preserves the Hebrew phrase without resolving the identity question.",
+        "'Took as wives any they chose' (vayyiqchu lahem nashim mikkol asher bacharu) — the language of 'taking' wives and choosing freely has been read as either legitimate marriage or coercive seizure. The context (leading to divine judgment) suggests the marriages are portrayed negatively, though the precise nature of the transgression is not made explicit."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּנֵי הָאֱלֹהִים",
+          "transliteration": "benei ha'Elohim",
+          "rendered_as": "sons of God",
+          "semantic_range": "sons of God, divine beings, angels, supernatural beings, godly men",
+          "note": "The phrase is used elsewhere in the Hebrew Bible exclusively for heavenly/angelic beings (Job 1:6; 2:1; 38:7). However, the broader term 'sons of' (benei) can indicate membership in a category rather than literal parentage. The text is ambiguous and the rendering preserves that ambiguity."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיֹּ֣אמֶר יְהוָ֗ה לֹֽא־יָד֨וֹן רוּחִ֤י בָֽאָדָם֙ לְעֹלָ֔ם בְּשַׁגַּ֖ם ה֣וּא בָשָׂ֑ר וְהָי֣וּ יָמָ֔יו מֵאָ֥ה וְעֶשְׂרִ֖ים שָׁנָֽה׃",
+      "text_kjv": "And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years.",
+      "rendering": "Then the LORD said, \"My spirit will not remain in mankind forever, for he is flesh. His days will be 120 years.\"",
+      "translator_notes": [
+        "This verse is extremely difficult in Hebrew. The verb yadon (יָדוֹן) is uncertain — proposals include 'strive,' 'contend,' 'abide,' 'remain,' 'rule,' or 'shield.' The rendering follows the reading 'remain' (from dun/din), understanding God's spirit as the life-giving breath (cf. 2:7) that will not sustain human life indefinitely.",
+        "'For he is flesh' (beshaggam hu vasar, בְּשַׁגַּם הוּא בָשָׂר) — the word beshaggam is also difficult. It is either a compound word meaning 'because also' (be + she + gam) or related to shagag ('to err, to go astray'). 'Flesh' (basar) emphasizes human mortality and weakness — humanity is fundamentally physical and perishable.",
+        "'120 years' — this has been interpreted as: (1) the maximum human lifespan going forward (though post-flood patriarchs still exceed it); (2) a grace period of 120 years before the flood arrives; (3) a general statement about the reduction of human lifespans. The text does not specify which meaning is intended."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "הַנְּפִלִ֞ים הָי֣וּ בָאָרֶץ֮ בַּיָּמִ֣ים הָהֵם֒ וְגַ֣ם אַחֲרֵי־כֵ֗ן אֲשֶׁ֨ר יָבֹ֜אוּ בְּנֵ֤י הָאֱלֹהִים֙ אֶל־בְּנ֣וֹת הָאָדָ֔ם וְיָלְד֖וּ לָהֶ֑ם הֵ֧מָּה הַגִּבֹּרִ֛ים אֲשֶׁ֥ר מֵעוֹלָ֖ם אַנְשֵׁ֥י הַשֵּֽׁם׃",
+      "text_kjv": "There were giants in the earth in those days; and also after that, when the sons of God came in unto the daughters of men, and they bare children to them, the same became mighty men which were of old, men of renown.",
+      "rendering": "The Nephilim were on the earth in those days—and also afterward—when the sons of God went in to the daughters of mankind and they bore children to them. These were the mighty men of old, men of renown.",
+      "translator_notes": [
+        "'Nephilim' (הַנְּפִלִים) is retained untranslated because its meaning is uncertain and its use as a designation for a specific group is well established. The word may be related to the root n-p-l (נָפַל, 'to fall') — hence 'fallen ones' — but this etymology is disputed. The Septuagint translated it as gigantes ('giants'), which is the basis of the KJV's 'giants.' The Nephilim appear again in Numbers 13:33, where the Israelite spies report seeing them in Canaan.",
+        "The syntax of the verse is complex. It may be saying: (1) the Nephilim were already on earth when the sons of God intermarried; (2) the Nephilim were the offspring of these unions; (3) both — they were present before and continued after. The phrase 'and also afterward' (vegam acharei-khen) indicates their presence was not limited to one period.",
+        "'Mighty men of old, men of renown' (hagibborim asher me'olam anshei hasshem) — gibborim are 'mighty warriors' or 'heroes.' Anshei hasshem literally means 'men of the name' — famous or renowned. The language recalls ancient hero traditions but the narrative context is judgment, not celebration."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נְּפִלִים",
+          "transliteration": "Nephilim",
+          "rendered_as": "Nephilim",
+          "semantic_range": "Nephilim, fallen ones, giants (LXX interpretation)",
+          "note": "Left untranslated due to the uncertainty of its meaning. The word designates a distinctive and formidable group. Whether they are the offspring of the unions in v. 2 or a separate phenomenon is ambiguous in the text."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיַּ֣רְא יְהוָ֔ה כִּ֥י רַבָּ֛ה רָעַ֥ת הָאָדָ֖ם בָּאָ֑רֶץ וְכָל־יֵ֙צֶר֙ מַחְשְׁבֹ֣ת לִבּ֔וֹ רַ֥ק רַ֖ע כָּל־הַיּֽוֹם׃",
+      "text_kjv": "And GOD saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of his heart was only evil continually.",
+      "rendering": "The LORD saw that the wickedness of mankind was great on the earth, and that every inclination of the thoughts of his heart was only evil all the time.",
+      "translator_notes": [
+        "This verse presents one of the most sweeping moral assessments in scripture. The evaluation is comprehensive: 'every inclination... only evil... all the time.' Three absolute terms (every, only, all the time) leave no room for exception.",
+        "'Every inclination of the thoughts of his heart' (kol-yetser machshevot libbo, כָּל יֵצֶר מַחְשְׁבֹת לִבּוֹ) — the word yetser (יֵצֶר, 'inclination, formation, imagination') comes from the same root as yatsar ('to form,' used for God forming the man in 2:7). The yetser is the inner formation or bent of the human heart — the direction of thought and desire. In later Jewish theology, the yetser hara ('evil inclination') becomes a major concept. Here the yetser is wholly given over to evil.",
+        "The LORD's evaluation in chapter 1 was 'very good' (1:31); now the evaluation is 'only evil.' The contrast frames the narrative arc from creation to corruption."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יֵצֶר",
+          "transliteration": "yetser",
+          "rendered_as": "inclination",
+          "semantic_range": "inclination, formation, imagination, purpose, plan",
+          "note": "From yatsar ('to form'). The inner shaping of thought and desire. Here it is entirely evil — humanity's inner life has been comprehensively corrupted. The same term recurs after the flood in 8:21."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיִּנָּ֣חֶם יְהוָ֔ה כִּֽי־עָשָׂ֥ה אֶת־הָאָדָ֖ם בָּאָ֑רֶץ וַיִּתְעַצֵּ֖ב אֶל־לִבּֽוֹ׃",
+      "text_kjv": "And it repented the LORD that he had made man on the earth, and it grieved him at his heart.",
+      "rendering": "The LORD regretted that he had made mankind on the earth, and he was grieved to his heart.",
+      "translator_notes": [
+        "'Regretted' translates vayyinnachem (וַיִּנָּחֶם), from nacham (נָחַם), which can mean 'to be sorry, to regret, to repent, to relent, to be comforted.' This is the same root used in 5:29 for Noah's name ('this one will comfort/relieve us'). The juxtaposition is striking: Noah is supposed to bring nacham (comfort), but God feels nacham (regret). The word creates a painful irony.",
+        "'Grieved to his heart' (vayyit'atstsev el-libbo, וַיִּתְעַצֵּב אֶל לִבּוֹ) — the root '-ts-b is the same root used for the woman's pain in childbirth (3:16) and the man's toil with the ground (3:17). Humanity's itstsavon (painful toil) now produces divine itstsavon (grief). God experiences pain in response to what his creation has become.",
+        "This verse raises profound theological questions about divine emotions, omniscience, and immutability. The text presents God as genuinely affected by human wickedness — experiencing regret and grief. The rendering follows the text's anthropomorphic language faithfully."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיֹּ֣אמֶר יְהוָ֗ה אֶמְחֶ֨ה אֶת־הָאָדָ֤ם אֲשֶׁר־בָּרָ֙אתִי֙ מֵעַל֙ פְּנֵ֣י הָֽאֲדָמָ֔ה מֵֽאָדָם֙ עַד־בְּהֵמָ֔ה עַד־רֶ֖מֶשׂ וְעַד־ע֣וֹף הַשָּׁמָ֑יִם כִּ֥י נִחַ֖מְתִּי כִּ֥י עֲשִׂיתִֽם׃",
+      "text_kjv": "And the LORD said, I will destroy man whom I have created from the face of the earth; both man, and beast, and the creeping thing, and the fowls of the air; for it repenteth me that I have made them.",
+      "rendering": "The LORD said, \"I will blot out mankind whom I have created from the face of the ground—mankind together with animals, crawling things, and birds of the sky—for I regret that I have made them.\"",
+      "translator_notes": [
+        "'Blot out' translates emcheh (אֶמְחֶה), from machah (מָחָה, 'to wipe, to blot out, to erase'). The image is of wiping a surface clean — erasing what has been written or created. The same verb is used in Exodus 32:32–33 for blotting a name from God's book.",
+        "The scope of judgment encompasses not only humanity but animals, crawling things, and birds — the same categories created in chapter 1. The corruption of humanity has consequences for the entire created order. The ecological scope of judgment mirrors the ecological scope of the original blessing.",
+        "'For I regret that I have made them' — nichamti (נִחַמְתִּי) repeats the nacham of verse 6, confirming the divine grief that motivates the judgment."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְנֹ֕חַ מָ֥צָא חֵ֖ן בְּעֵינֵ֥י יְהוָֽה׃",
+      "text_kjv": "But Noah found grace in the eyes of the LORD.",
+      "rendering": "But Noah found favor in the eyes of the LORD.",
+      "translator_notes": [
+        "'Found favor' translates matsa chen (מָצָא חֵן), literally 'found grace/favor.' The word chen (חֵן) means 'grace, favor, charm, attractiveness.' This is the first occurrence of chen in the Bible. The phrase 'found favor in the eyes of' is a Hebrew idiom meaning 'to be regarded favorably by' or 'to win the approval of.' Following the prompt's guidance on idioms, the original expression is retained here as it is still intelligible in English and preserves the theological weight of 'favor/grace.'",
+        "This single verse pivots the entire narrative. After the sweeping condemnation of all humanity (vv. 5–7), one man stands as an exception. The Hebrew word order is emphatic — veNoach ('But Noah') — placing Noah in sharp contrast to the universal wickedness. The name Noach also creates a wordplay with chen when read backward (n-ch / ch-n), though whether this is intentional is debated."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֵן",
+          "transliteration": "chen",
+          "rendered_as": "favor",
+          "semantic_range": "grace, favor, charm, attractiveness, kindness",
+          "note": "The first occurrence of this theologically crucial word. Chen is unmerited favor — attractiveness in someone's eyes that leads to gracious treatment. Its appearance here, in the context of universal judgment, establishes a foundational biblical pattern: judgment and grace coexist."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "אֵ֚לֶּה תּוֹלְדֹ֣ת נֹ֔חַ נֹ֗חַ אִ֥ישׁ צַדִּ֛יק תָּמִ֥ים הָיָ֖ה בְּדֹרֹתָ֑יו אֶת־הָֽאֱלֹהִ֖ים הִתְהַלֶּךְ־נֹֽחַ׃",
+      "text_kjv": "These are the generations of Noah: Noah was a just man and perfect in his generations, and Noah walked with God.",
+      "rendering": "These are the generations of Noah. Noah was a righteous man, blameless in his generation. Noah walked with God.",
+      "translator_notes": [
+        "This is the third toledot formula in Genesis (cf. 2:4; 5:1).",
+        "'Righteous' (tsaddiq, צַדִּיק) — the first use of this word in the Bible. Tsaddiq denotes one who conforms to the standard of right relationship — with God and with others. It becomes one of the most important character descriptions in the Hebrew Bible.",
+        "'Blameless' (tamim, תָּמִים) means 'complete, whole, without blemish, having integrity.' It is the same word used for sacrificial animals that must be 'without blemish' (Leviticus 1:3, 10). Applied to Noah, it indicates moral integrity and wholeness of character, not sinless perfection.",
+        "'In his generation' (bedorotav, בְּדֹרֹתָיו) — the qualification 'in his generation' has been read two ways: (1) as a compliment — Noah was righteous even amid a wicked generation; (2) as a limitation — he was righteous only by the low standards of his generation. The text likely intends the former, but the ambiguity has been noted since ancient times.",
+        "'Noah walked with God' (et-ha'Elohim hithhallekh-Noach) — the same phrase used for Enoch (5:22, 24). Only these two men are said to have 'walked with God' in the pre-flood narrative. The language of intimate, sustained divine companionship sets Noah apart."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "צַדִּיק",
+          "transliteration": "tsaddiq",
+          "rendered_as": "righteous",
+          "semantic_range": "righteous, just, innocent, right, correct",
+          "note": "The first occurrence of this foundational word. A tsaddiq is one who lives rightly — in conformity with God's standards and in right relationship with others. The concept of righteousness becomes central to the entire biblical narrative."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיּ֥וֹלֶד נֹ֖חַ שְׁלֹשָׁ֣ה בָנִ֑ים אֶת־שֵׁ֖ם אֶת־חָ֥ם וְאֶת־יָֽפֶת׃",
+      "text_kjv": "And Noah begat three sons, Shem, Ham, and Japheth.",
+      "rendering": "Noah fathered three sons: Shem, Ham, and Japheth.",
+      "translator_notes": [
+        "The three sons are listed as in 5:32. They will become the three branches of post-flood humanity in the Table of Nations (chapter 10)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַתִּשָּׁחֵ֥ת הָאָ֖רֶץ לִפְנֵ֣י הָֽאֱלֹהִ֑ים וַתִּמָּלֵ֥א הָאָ֖רֶץ חָמָֽס׃",
+      "text_kjv": "The earth also was corrupt before God, and the earth was filled with violence.",
+      "rendering": "Now the earth was corrupt before God, and the earth was filled with violence.",
+      "translator_notes": [
+        "'Corrupt' translates vattishshachet (וַתִּשָּׁחֵת), from shachat (שָׁחַת, 'to corrupt, to ruin, to destroy'). The same root will appear in verse 13 and 17 for God's intention to 'destroy' — the earth corrupted itself, and God will complete the corruption/destruction. There is a grim wordplay: humanity's self-corruption leads to God's destruction using the same verb.",
+        "'Violence' translates chamas (חָמָס), meaning 'violence, injustice, wrong, cruelty.' Chamas is a broader term than simple physical violence — it encompasses oppression, injustice, and the violation of others' rights and dignity. The earth is full of it."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חָמָס",
+          "transliteration": "chamas",
+          "rendered_as": "violence",
+          "semantic_range": "violence, injustice, wrong, cruelty, oppression",
+          "note": "A comprehensive term for human wrongdoing that injures others. It encompasses physical violence, social injustice, and the abuse of power. The earth's fullness of chamas is the stated reason for the flood — not merely ritual impurity or theological error, but active harm done to others."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיַּ֧רְא אֱלֹהִ֛ים אֶת־הָאָ֖רֶץ וְהִנֵּ֣ה נִשְׁחָ֑תָה כִּֽי־הִשְׁחִ֧ית כָּל־בָּשָׂ֛ר אֶת־דַּרְכּ֖וֹ עַל־הָאָֽרֶץ׃",
+      "text_kjv": "And God looked upon the earth, and, behold, it was corrupt; for all flesh had corrupted his way upon the earth.",
+      "rendering": "God saw the earth, and it was corrupt, for all flesh had corrupted its way on the earth.",
+      "translator_notes": [
+        "'God saw the earth' (vayyar Elohim et-ha'arets) — this echoes 1:31 ('God saw everything that he had made, and it was very good'). The divine evaluation formula from creation returns, but the verdict has reversed: what was 'very good' is now 'corrupt.' The Hebrew structure deliberately mirrors the creation account to underscore the anti-creation that corruption represents.",
+        "'All flesh had corrupted its way' — 'flesh' (basar, בָּשָׂר) is used broadly for all living creatures. The corruption is not limited to humans; 'all flesh' — possibly including the animal world — has departed from God's intended order."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיֹּ֨אמֶר אֱלֹהִ֜ים לְנֹ֗חַ קֵ֤ץ כָּל־בָּשָׂר֙ בָּ֣א לְפָנַ֔י כִּֽי־מָלְאָ֥ה הָאָ֛רֶץ חָמָ֖ס מִפְּנֵיהֶ֑ם וְהִנְנִ֥י מַשְׁחִיתָ֖ם אֶת־הָאָֽרֶץ׃",
+      "text_kjv": "And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth.",
+      "rendering": "God said to Noah, \"The end of all flesh has come before me, for the earth is filled with violence because of them. I am about to destroy them along with the earth.",
+      "translator_notes": [
+        "'The end of all flesh has come before me' (qets kol-basar ba lefanai) — qets means 'end, limit, conclusion.' God announces the termination of the present order.",
+        "'I am about to destroy them along with the earth' (hineni mashchitam et-ha'arets) — the verb mashchit is from the same root shachat used for the earth's corruption (v. 11–12). The wordplay is devastating: because they have corrupted (shachat) the earth, God will destroy (shachat) them with the earth. God's judgment mirrors the crime — the verb of their sin becomes the verb of their sentence.",
+        "'Along with the earth' (et-ha'arets) — the preposition et can mean 'with' or be the direct object marker. If 'with,' God destroys them along with the earth; if the object marker, God destroys them and the earth. Both readings indicate the cosmic scope of the judgment."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "עֲשֵׂ֤ה לְךָ֙ תֵּבַ֣ת עֲצֵי־גֹ֔פֶר קִנִּ֖ים תַּעֲשֶׂ֣ה אֶת־הַתֵּבָ֑ה וְכָפַרְתָּ֥ אֹתָ֛הּ מִבַּ֥יִת וּמִח֖וּץ בַּכֹּֽפֶר׃",
+      "text_kjv": "Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch.",
+      "rendering": "Make yourself an ark of gopher wood. You shall make rooms in the ark and coat it inside and out with pitch.",
+      "translator_notes": [
+        "'Ark' translates tevah (תֵּבָה), a word used only here (for Noah's ark) and in Exodus 2:3, 5 (for the basket in which baby Moses is placed). It is not the word used for the ark of the covenant (aron). Tevah may be an Egyptian loanword meaning 'chest' or 'box.' The vessel is essentially a large, sealed container — not a ship designed for navigation.",
+        "'Gopher wood' (atsei-gopher, עֲצֵי גֹפֶר) — the type of wood is unknown. Gopher appears only here in the Hebrew Bible and has not been conclusively identified. Proposals include cypress, cedar, or resinous wood. The rendering retains the untranslatable term.",
+        "'Coat it... with pitch' (vekhapharta... bakkopher) — there is a significant wordplay here: the verb kaphar (כָּפַר, 'to coat, to cover') and the noun kopher (כֹּפֶר, 'pitch, covering') share the same root as the theological term kippur (כִּפֻּר, 'atonement'). The ark is 'atoned' — covered, sealed, protected — using the language that will later describe the covering of sin. The rendering uses 'coat' for the verb and 'pitch' for the noun, but the theological resonance is noted."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תֵּבָה",
+          "transliteration": "tevah",
+          "rendered_as": "ark",
+          "semantic_range": "ark, chest, box, vessel",
+          "note": "Not a ship but a sealed container — a vessel of preservation. Its only other biblical occurrence is for Moses's basket (Exodus 2:3), creating a link between the two stories of divine rescue through water."
+        },
+        {
+          "hebrew": "כָּפַר",
+          "transliteration": "kaphar",
+          "rendered_as": "coat",
+          "semantic_range": "to cover, to coat, to smear, to atone, to make atonement",
+          "note": "The root of 'atonement' (Yom Kippur = Day of Atonement). Here used in its literal, physical sense — sealing the ark with pitch. But the theological overtone is unmistakable: the ark is 'covered' for protection, just as atonement 'covers' sin for forgiveness."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְזֶ֕ה אֲשֶׁ֥ר תַּעֲשֶׂ֖ה אֹתָ֑הּ שְׁלֹ֧שׁ מֵא֣וֹת אַמָּ֗ה אֹ֚רֶךְ הַתֵּבָ֔ה חֲמִשִּׁ֤ים אַמָּה֙ רָחְבָּ֔הּ וּשְׁלֹשִׁ֥ים אַמָּ֖ה קוֹמָתָֽהּ׃",
+      "text_kjv": "And this is the fashion which thou shalt make it of: The length of the ark shall be three hundred cubits, the breadth of it fifty cubits, and the height of it thirty cubits.",
+      "rendering": "This is how you are to make it: the length of the ark 300 cubits, its width 50 cubits, and its height 30 cubits.",
+      "translator_notes": [
+        "A cubit (ammah, אַמָּה) is approximately 18 inches (45 cm). At 300 cubits long, the ark would be approximately 450 feet (137 meters) long, 75 feet (23 meters) wide, and 45 feet (14 meters) high. These are substantial dimensions — roughly the length of a modern cargo ship. The proportions (6:1 length-to-width ratio) are consistent with a seaworthy vessel, though the ark is designed for flotation and survival, not navigation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "צֹ֣הַר ׀ תַּעֲשֶׂ֣ה לַתֵּבָ֗ה וְאֶל־אַמָּה֙ תְּכַלֶּ֣נָּה מִלְמַ֔עְלָה וּפֶ֥תַח הַתֵּבָ֖ה בְּצִדָּ֣הּ תָּשִׂ֑ים תַּחְתִּיִּ֛ם שְׁנִיִּ֥ם וּשְׁלִשִׁ֖ים תַּעֲשֶֽׂהָ׃",
+      "text_kjv": "A window shalt thou make to the ark, and in a cubit shalt thou finish it above; and the door of the ark shalt thou set in the side thereof; with lower, second, and third stories shalt thou make it.",
+      "rendering": "Make a roof for the ark, and finish it to a cubit above. Set the door of the ark in its side. Make it with lower, second, and third decks.",
+      "translator_notes": [
+        "'Roof' translates tsohar (צֹהַר), a word of uncertain meaning. It could refer to: (1) a roof or covering; (2) a window or opening for light (from tsohar, 'noon/brightness'); (3) a skylight. The KJV's 'window' follows the light-related meaning. 'Roof' is adopted here as the more likely meaning given the instruction to 'finish it to a cubit above,' which suggests a roof with a one-cubit gap for ventilation.",
+        "'Three decks' (tachtiyyim sheniyyim ushelishim) — literally 'lower ones, second ones, and third ones.' The ark has three levels — lower, middle, and upper."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַאֲנִ֗י הִנְנִי֩ מֵבִ֨יא אֶת־הַמַּבּ֥וּל מַ֙יִם֙ עַל־הָאָ֔רֶץ לְשַׁחֵ֣ת כָּל־בָּשָׂ֗ר אֲשֶׁר־בּוֹ֙ ר֣וּחַ חַיִּ֔ים מִתַּ֖חַת הַשָּׁמָ֑יִם כֹּ֥ל אֲשֶׁר־בָּאָ֖רֶץ יִגְוָֽע׃",
+      "text_kjv": "And, behold, I, even I, do bring a flood of waters upon the earth, to destroy all flesh, wherein is the breath of life, from under heaven; and every thing that is in the earth shall die.",
+      "rendering": "And I—I am about to bring the flood, waters upon the earth, to destroy all flesh in which there is the breath of life from under the sky. Everything that is on the earth will perish.",
+      "translator_notes": [
+        "'I—I am about to bring' (va'ani hineni mevi) — the emphatic 'I' (va'ani) followed by hineni ('here I am') and the participle mevi ('bringing') creates a solemn, emphatic divine announcement. God personally takes responsibility for the coming destruction.",
+        "'The flood' (hammabbul, הַמַּבּוּל) — this word appears only in the flood narrative (Genesis 6–9) and in Psalm 29:10. It designates a unique, catastrophic deluge, not ordinary flooding. The definite article ('the flood') treats it as a singular, unrepeatable event.",
+        "'The breath of life' (ruach chayyim, רוּחַ חַיִּים) — ruach here means 'breath' or 'spirit of life.' Every creature animated by the divine breath will be destroyed. The same breath that gave life in 2:7 will be extinguished.",
+        "'Perish' translates yigva (יִגְוָע), from gava (גָּוַע, 'to die, to expire, to breathe one's last'). This is a more visceral word for death than the standard mut — it suggests gasping, expiring."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מַבּוּל",
+          "transliteration": "mabbul",
+          "rendered_as": "flood",
+          "semantic_range": "flood, deluge, heavenly ocean",
+          "note": "A word unique to the Genesis flood narrative and Psalm 29:10. It may be related to the cosmic waters — the mabbul as the release of the primordial waters held back since creation (cf. 1:6–7). The flood is not merely heavy rain but a return to the watery chaos of 1:2."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַהֲקִמֹתִ֥י אֶת־בְּרִיתִ֖י אִתָּ֑ךְ וּבָאתָ֙ אֶל־הַתֵּבָ֔ה אַתָּ֕ה וּבָנֶ֛יךָ וְאִשְׁתְּךָ֥ וּנְשֵֽׁי־בָנֶ֖יךָ אִתָּֽךְ׃",
+      "text_kjv": "But with thee will I establish my covenant; and thou shalt come into the ark, thou, and thy sons, and thy wife, and thy sons' wives with thee.",
+      "rendering": "But I will establish my covenant with you, and you will enter the ark—you, your sons, your wife, and your sons' wives with you.",
+      "expanded_rendering": "The Hebrew word berit — here rendered 'covenant' — appears for the first time in the Bible. A berit is not a contract that can be broken by mutual consent but a sacred, binding bond sealed by oath. The Hebrew root may relate to 'cutting,' referencing the ancient practice of cutting animals in two and passing between the halves to seal an agreement. When God establishes a berit, He binds Himself — permanently, irrevocably — to the promises He makes.",
+      "translator_notes": [
+        "'I will establish my covenant' (vahaqimoti et-beriti, וַהֲקִמֹתִי אֶת בְּרִיתִי) — this is the first occurrence of the word berit (בְּרִית, 'covenant') in the Bible. The covenant concept will become the central organizing principle of the biblical narrative. Here it is introduced without definition or ceremony — God simply declares that he will establish his covenant with Noah. The formal covenant ceremony comes in 9:8–17.",
+        "The verb haqim ('to establish, to set up, to confirm') rather than karat ('to cut,' the more common verb for covenant-making) may suggest the confirmation of an existing arrangement rather than the initiation of a new one.",
+        "'But' (the waw on vahaqimoti) marks a stark contrast: God will destroy all flesh, BUT he will establish his covenant with Noah. Judgment and covenant exist in tension — God's saving purpose persists through the destruction."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, agreement, treaty, pact, obligation",
+          "note": "The first occurrence of the Bible's most important relational term. A berit is a solemn, binding commitment between parties — more than a contract, it establishes a relationship with obligations and promises. The biblical narrative is structured around a series of covenants: with Noah, Abraham, Moses/Israel, David, and the 'new covenant' of the prophets."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וּמִכָּל־הָ֠חַי מִֽכָּל־בָּשָׂ֞ר שְׁנַ֧יִם מִכֹּ֛ל תָּבִ֥יא אֶל־הַתֵּבָ֖ה לְהַחֲיֹ֣ת אִתָּ֑ךְ זָכָ֥ר וּנְקֵבָ֖ה יִהְיֽוּ׃",
+      "text_kjv": "And of every living thing of all flesh, two of every sort shalt thou bring into the ark, to keep them alive with thee; they shall be male and female.",
+      "rendering": "And from every living thing, from all flesh, you shall bring two of every kind into the ark to keep them alive with you. They shall be male and female.",
+      "translator_notes": [
+        "'To keep them alive with you' (lehachayot ittakh, לְהַחֲיֹת אִתָּךְ) — the purpose of the ark is preservation of life. The hiphil of chayah ('to live') means 'to cause to live, to keep alive.' Noah's mission is life-preservation amid universal death.",
+        "'Male and female' (zakhar unqevah, זָכָר וּנְקֵבָה) — the same pairing from 1:27. The creation mandate of fruitfulness and multiplication is preserved through the ark. The ark functions as a micro-creation — a remnant of the original order carried through the waters of judgment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "מֵהָע֣וֹף לְמִינֵ֗הוּ וּמִן־הַבְּהֵמָה֙ לְמִינָ֔הּ מִכֹּ֛ל רֶ֥מֶשׂ הָאֲדָמָ֖ה לְמִינֵ֑הוּ שְׁנַ֧יִם מִכֹּ֛ל יָבֹ֥אוּ אֵלֶ֖יךָ לְהַחֲיֽוֹת׃",
+      "text_kjv": "Of fowls after their kind, and of cattle after their kind, of every creeping thing of the earth after his kind, two of every sort shall come unto thee, to keep them alive.",
+      "rendering": "Of the birds according to their kinds, of the livestock according to their kinds, and of every crawling thing of the ground according to its kind—two of every kind will come to you, to be kept alive.",
+      "translator_notes": [
+        "'Will come to you' (yavo'u eleikha) — the animals come to Noah; he does not need to hunt or gather them. The gathering is divinely orchestrated.",
+        "The categories — birds, livestock, crawling things — echo the creation categories of chapter 1 (1:20–25). The 'according to their kinds' (leminehu) formula also echoes 1:11–12, 21, 24–25. The ark preserves the created order 'according to its kinds.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְאַתָּ֣ה קַח־לְךָ֗ מִכָּל־מַאֲכָל֙ אֲשֶׁ֣ר יֵאָכֵ֔ל וְאָסַפְתָּ֖ אֵלֶ֑יךָ וְהָיָ֥ה לְךָ֛ וְלָהֶ֖ם לְאָכְלָֽה׃",
+      "text_kjv": "And take thou unto thee of all food that is eaten, and thou shalt gather it to thee; and it shall be for food for thee, and for them.",
+      "rendering": "And you, take for yourself every kind of food that is eaten and gather it to yourself, and it will be food for you and for them.\"",
+      "translator_notes": [
+        "The provision for food encompasses both human and animal needs. The instruction is practical — the ark must be provisioned for an extended voyage. God commands the preparation but leaves the details to Noah's judgment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיַּ֖עַשׂ נֹ֑חַ כְּ֠כֹל אֲשֶׁ֨ר צִוָּ֥ה אֹת֛וֹ אֱלֹהִ֖ים כֵּ֥ן עָשָֽׂה׃",
+      "text_kjv": "Thus did Noah; according to all that God commanded him, so did he.",
+      "rendering": "Noah did this; according to all that God commanded him, so he did.",
+      "translator_notes": [
+        "'According to all that God commanded him, so he did' — this formula of exact obedience will be repeated (7:5, 9, 16). Noah's obedience is total and without recorded hesitation, question, or negotiation. He does not speak in chapter 6 — he simply acts. In a generation defined by corruption and violence, Noah's silent obedience stands as the defining response of faith.",
+        "The formula echoes the creation pattern: God speaks, and the response corresponds exactly to the command (cf. 1:3, 'Let there be light, and there was light'). Noah's obedience mirrors creation's obedience to the Creator's word."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

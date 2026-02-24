@@ -1,0 +1,597 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Genesis",
+    "chapter": 1,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-02-23T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+      "text_kjv": "In the beginning God created the heaven and the earth.",
+      "rendering": "In the beginning, God created the heavens and the earth.",
+      "translator_notes": [
+        "'Heavens' (plural) reflects the Hebrew hashamayim (הַשָּׁמַיִם), which is grammatically plural. Most modern translations render this as 'heavens' rather than the KJV's singular 'heaven.'",
+        "The Hebrew reshit (רֵאשִׁית) means 'beginning' or 'first.' Whether this refers to an absolute beginning ('In the beginning, God created...') or a temporal clause ('When God began to create...') is debated among scholars. The traditional absolute reading is retained here as it is the most natural reading of the Masoretic vowel pointing.",
+        "The particle et (אֵת) marks the definite direct object and has no English equivalent. It appears twice, once before 'the heavens' and once before 'the earth,' giving both objects equal grammatical weight."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בָּרָא",
+          "transliteration": "bara",
+          "rendered_as": "created",
+          "semantic_range": "to create, to shape, to bring into being",
+          "note": "This verb is used exclusively with God as its subject in the Hebrew Bible — only God 'bara.' It implies creation that is uniquely divine, distinct from human making or forming."
+        },
+        {
+          "hebrew": "אֱלֹהִים",
+          "transliteration": "Elohim",
+          "rendered_as": "God",
+          "semantic_range": "God, gods, divine beings, mighty ones",
+          "note": "Grammatically plural but takes a singular verb here (bara), indicating a singular God performing the action. The plural form is sometimes called the 'plural of majesty.'"
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃",
+      "text_kjv": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
+      "rendering": "Now the earth was formless and empty, and darkness was over the surface of the deep, and the Spirit of God was hovering over the surface of the waters.",
+      "translator_notes": [
+        "'Now' rather than 'And' signals a circumstantial clause in the Hebrew. The syntax here (waw + noun, rather than the wayyiqtol narrative form) indicates this verse describes the state of the earth, not a sequential action after verse 1.",
+        "The phrase tohu vavohu (תֹהוּ וָבֹהוּ) is a rhyming pair found only here and in Jeremiah 4:23 and Isaiah 34:11. It describes a state of formlessness, emptiness, and disorder — not nothingness, but an unformed, unfilled condition. 'Formless and empty' captures both elements: tohu (formless, waste, chaos) and vohu (emptiness, void).",
+        "'The deep' translates tehom (תְהוֹם), referring to the primordial waters or abyss. Some scholars note a possible linguistic connection to the Babylonian Tiamat (the chaos sea-goddess in the Enuma Elish), though this is debated. In the Hebrew text, tehom is not personified or mythologized — it is simply the deep waters.",
+        "'Spirit of God' translates ruach Elohim (רוּחַ אֱלֹהִים). This is genuinely ambiguous: ruach can mean 'spirit,' 'wind,' or 'breath,' and Elohim can function as an adjective meaning 'mighty' or 'great.' Possible readings include: (1) 'the Spirit of God' (a divine person), (2) 'a wind from God' or 'a divine wind,' (3) 'a mighty wind.' The traditional reading 'Spirit of God' is retained here.",
+        "'Hovering' (merachephet, מְרַחֶפֶת) replaces the KJV's 'moved.' This verb appears elsewhere only in Deuteronomy 32:11, where it describes an eagle hovering over its young. It suggests protective, watchful presence rather than mere motion."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תֹהוּ וָבֹהוּ",
+          "transliteration": "tohu vavohu",
+          "rendered_as": "formless and empty",
+          "semantic_range": "formlessness and emptiness, waste and void, chaos and desolation",
+          "note": "A rhyming word-pair (hendiadys) describing primordial disorder. Tohu alone can mean 'wasteland,' 'chaos,' 'nothingness,' or 'futility.' Vohu appears only with tohu and reinforces the sense of emptiness."
+        },
+        {
+          "hebrew": "תְהוֹם",
+          "transliteration": "tehom",
+          "rendered_as": "the deep",
+          "semantic_range": "deep, abyss, primordial waters, ocean depths",
+          "note": "Refers to the primordial body of water. Used without the definite article here, which is unusual and may suggest it functions almost as a proper noun."
+        },
+        {
+          "hebrew": "רוּחַ",
+          "transliteration": "ruach",
+          "rendered_as": "Spirit",
+          "semantic_range": "spirit, wind, breath",
+          "note": "The semantic overlap between 'spirit,' 'wind,' and 'breath' is inherent to the Hebrew and cannot be fully captured in English. The context must determine which meaning is primary, though the ambiguity may be intentional."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽיְהִי־אֽוֹר׃",
+      "text_kjv": "And God said, Let there be light: and there was light.",
+      "rendering": "Then God said, \"Let there be light,\" and there was light.",
+      "translator_notes": [
+        "The Hebrew is strikingly brief and powerful — only five words. The jussive form yehi (יְהִי, 'let there be') followed immediately by the identical form vayehi (וַיְהִי, 'and there was') creates a dramatic verbal echo: command and fulfillment mirror each other exactly.",
+        "'Then' renders the wayyiqtol (וַיֹּאמֶר), the standard Hebrew narrative verb form, which conveys sequential action. This marks the beginning of God's creative speech."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אוֹר",
+          "transliteration": "or",
+          "rendered_as": "light",
+          "semantic_range": "light, daylight, illumination",
+          "note": "This is light as a phenomenon, created before the luminaries (sun, moon, stars) which do not appear until day 4 (v. 14–19). The text presents light as independent of the celestial bodies."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיַּ֧רְא אֱלֹהִ֛ים אֶת־הָא֖וֹר כִּי־ט֑וֹב וַיַּבְדֵּ֣ל אֱלֹהִ֔ים בֵּ֥ין הָא֖וֹר וּבֵ֥ין הַחֹֽשֶׁךְ׃",
+      "text_kjv": "And God saw the light, that it was good: and God divided the light from the darkness.",
+      "rendering": "God saw that the light was good, and God separated the light from the darkness.",
+      "translator_notes": [
+        "'Good' translates tov (טוֹב), which encompasses a range of meaning: good, beautiful, fitting, pleasing, functioning as intended. This is the first of seven occurrences of God evaluating his creation as 'good' in this chapter (vv. 4, 10, 12, 18, 21, 25, 31).",
+        "'Separated' (hivdil, הִבְדִּיל) is a key verb in this chapter, appearing five times (vv. 4, 6, 7, 14, 18). The act of creation in Genesis 1 is substantially an act of separation — dividing light from darkness, waters from waters, day from night. This organizing, ordering activity contrasts with the 'formless and empty' state of v. 2."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "טוֹב",
+          "transliteration": "tov",
+          "rendered_as": "good",
+          "semantic_range": "good, beautiful, pleasant, fitting, right, functioning properly",
+          "note": "Not merely a moral judgment but an assessment that creation is functioning as intended — it is right, fitting, and beautiful. The word carries aesthetic, functional, and moral dimensions."
+        },
+        {
+          "hebrew": "הִבְדִּיל",
+          "transliteration": "hivdil",
+          "rendered_as": "separated",
+          "semantic_range": "to separate, to divide, to distinguish, to set apart",
+          "note": "From the root b-d-l. This verb becomes important in Levitical legislation for distinguishing clean from unclean, holy from common. Its use here at creation establishes separation as a foundational divine activity."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיִּקְרָ֨א אֱלֹהִ֤ים ׀ לָאוֹר֙ י֔וֹם וְלַחֹ֖שֶׁךְ קָ֣רָא לָ֑יְלָה וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם אֶחָֽד׃",
+      "text_kjv": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
+      "rendering": "God called the light \"day,\" and the darkness he called \"night.\" And there was evening and there was morning—the first day.",
+      "translator_notes": [
+        "The act of naming in the ancient Near East signifies authority and dominion. By naming the light and darkness, God demonstrates sovereign authority over them.",
+        "The Hebrew reads yom echad (יוֹם אֶחָד), literally 'day one' using the cardinal number, not the ordinal 'first day' (which would be yom rishon). This is unique — days 2 through 5 use ordinal numbers (second, third, fourth, fifth), and day 6 uses the ordinal with the definite article ('the sixth day'). Some scholars see significance in 'day one' as emphasizing its uniqueness. The rendering 'the first day' follows convention for English readability, but the literal Hebrew is 'one day.'",
+        "The formula 'there was evening and there was morning' establishes the pattern for each creative day. The sequence evening-then-morning (rather than morning-then-evening) reflects the Hebrew reckoning of a day from sunset to sunset, a practice still observed in Jewish tradition.",
+        "The meaning of 'day' (yom) in Genesis 1 is debated. It can refer to a literal 24-hour period, a longer age, or a literary/structural framework. The text itself does not resolve this, and this rendering does not take a position on the question."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יוֹם",
+          "transliteration": "yom",
+          "rendered_as": "day",
+          "semantic_range": "day, daytime, period of time, age, era",
+          "note": "Yom can refer to the daylight portion of a day, a 24-hour period, or an indefinite period of time. Its precise meaning in Genesis 1 has been debated throughout Jewish and Christian history."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּת֣וֹךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃",
+      "text_kjv": "And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.",
+      "rendering": "Then God said, \"Let there be an expanse in the midst of the waters, and let it separate the waters from the waters.\"",
+      "translator_notes": [
+        "'Expanse' translates raqia (רָקִיעַ), from the root raqa meaning 'to beat out' or 'to spread out' (as a metalworker hammers metal into a thin sheet). The KJV's 'firmament' comes from the Latin Vulgate's firmamentum, which implies a solid dome — and indeed, ancient Israelite cosmology likely conceived of a solid dome separating the waters above from those below. 'Expanse' is used here as a more neutral term that does not commit to either a solid or atmospheric interpretation. The translator note preserves the original conceptual background.",
+        "The separation of 'waters from waters' reflects ancient Near Eastern cosmology in which the sky was understood as holding back an upper ocean (the source of rain) from the lower waters (seas, rivers, underground springs). This cosmological framework is shared with other ancient Near Eastern creation texts but is here presented within a monotheistic, ordered framework."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רָקִיעַ",
+          "transliteration": "raqia",
+          "rendered_as": "expanse",
+          "semantic_range": "expanse, firmament, dome, vault, something spread out",
+          "note": "From raqa ('to stamp, beat out, spread'). The root suggests something hammered or stretched out. In ancient cosmology, this was conceived as a solid barrier; modern translations typically use 'expanse' or 'vault.' The rendering 'expanse' is used consistently throughout this chapter."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיַּ֣עַשׂ אֱלֹהִים֮ אֶת־הָרָקִ֒יעַ֒ וַיַּבְדֵּ֗ל בֵּ֤ין הַמַּ֙יִם֙ אֲשֶׁר֙ מִתַּ֣חַת לָרָקִ֔יעַ וּבֵ֣ין הַמַּ֔יִם אֲשֶׁ֖ר מֵעַ֣ל לָרָקִ֑יעַ וַֽיְהִי־כֵֽן׃",
+      "text_kjv": "And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.",
+      "rendering": "So God made the expanse and separated the waters that were below the expanse from the waters that were above the expanse. And it was so.",
+      "translator_notes": [
+        "The verb here is asah (עָשָׂה, 'made'), distinct from bara (בָּרָא, 'created') in verse 1. Asah is the common word for making or doing and is not restricted to divine activity. The alternation between bara and asah throughout this chapter has been much discussed; the two verbs appear to be used as near-synonyms here, though bara carries a stronger sense of bringing into being something new.",
+        "'And it was so' (vayehi-khen, וַיְהִי־כֵן) is a formulaic confirmation that God's command was carried out. It appears six times in this chapter (vv. 7, 9, 11, 15, 24, 30)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיִּקְרָ֧א אֱלֹהִ֛ים לָרָקִ֖יעַ שָׁמָ֑יִם וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם שֵׁנִֽי׃",
+      "text_kjv": "And God called the firmament Heaven. And the evening and the morning were the second day.",
+      "rendering": "God called the expanse \"sky.\" And there was evening and there was morning—the second day.",
+      "translator_notes": [
+        "The Hebrew shamayim (שָׁמַיִם) is the same word translated 'heavens' in verse 1. Here it refers specifically to the visible sky (the raqia), while in verse 1 it refers to the cosmic heavens. English requires a distinction that the Hebrew leaves fluid. 'Sky' is used here to differentiate from the broader 'heavens' of verse 1.",
+        "Day 2 is notably the only day in the creation account that lacks the formula 'God saw that it was good.' Many scholars suggest this is because the separation of the waters is not completed until day 3, when the lower waters are gathered and dry land appears — and day 3 receives two 'good' evaluations (vv. 10 and 12), perhaps compensating for the absence here."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים יִקָּו֨וּ הַמַּ֜יִם מִתַּ֤חַת הַשָּׁמַ֙יִם֙ אֶל־מָק֣וֹם אֶחָ֔ד וְתֵרָאֶ֖ה הַיַּבָּשָׁ֑ה וַֽיְהִי־כֵֽן׃",
+      "text_kjv": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.",
+      "rendering": "Then God said, \"Let the waters below the sky be gathered into one place, and let the dry land appear.\" And it was so.",
+      "translator_notes": [
+        "'Gathered' translates yiqqavu (יִקָּווּ), from the root qavah, meaning 'to gather, to collect, to converge.' The same root appears in the noun miqveh ('gathering, collection, pool') in the next verse.",
+        "'Dry land' translates yabbashah (יַבָּשָׁה), which specifically denotes land that is dry in contrast to water. It is named 'earth' (erets) in the next verse, but here its defining characteristic is its dryness — its emergence from the waters."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיִּקְרָ֨א אֱלֹהִ֤ים ׀ לַיַּבָּשָׁה֙ אֶ֔רֶץ וּלְמִקְוֵ֥ה הַמַּ֖יִם קָרָ֣א יַמִּ֑ים וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+      "text_kjv": "And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.",
+      "rendering": "God called the dry land \"earth,\" and the gathering of the waters he called \"seas.\" And God saw that it was good.",
+      "translator_notes": [
+        "'Earth' translates erets (אֶרֶץ), which can mean earth, land, ground, territory, or country depending on context. Here it refers to the dry land as opposed to the seas.",
+        "'Gathering' translates miqveh (מִקְוֵה), from the same root as the verb in verse 9. This word later gives its name to the miqveh — the ritual immersion pool in Jewish practice.",
+        "'Seas' (yammim, יַמִּים) is plural, indicating multiple bodies of water, even though they were gathered into 'one place' (v. 9). This may reflect the observable reality of distinct seas and oceans.",
+        "This is the first of two 'good' evaluations on day 3 (see also v. 12), which some scholars connect to the absence of a 'good' declaration on day 2."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים תַּֽדְשֵׁ֤א הָאָ֙רֶץ֙ דֶּ֔שֶׁא עֵ֚שֶׂב מַזְרִ֣יעַ זֶ֔רַע עֵ֣ץ פְּרִ֞י עֹ֤שֶׂה פְּרִי֙ לְמִינ֔וֹ אֲשֶׁ֥ר זַרְעוֹ־ב֖וֹ עַל־הָאָ֑רֶץ וַֽיְהִי־כֵֽן׃",
+      "text_kjv": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.",
+      "rendering": "Then God said, \"Let the earth sprout vegetation—seed-bearing plants and fruit trees bearing fruit according to their kinds, with their seed in them, on the earth.\" And it was so.",
+      "translator_notes": [
+        "The Hebrew uses a cognate construction: tadshé ha'arets deshe (תַּדְשֵׁא הָאָרֶץ דֶּשֶׁא) — literally 'let the earth vegetate vegetation' or 'let the earth sprout sprouts.' The verb and its object share the same root (d-sh-a), creating an emphatic expression. 'Sprout vegetation' captures this.",
+        "The text appears to describe three categories of plant life: (1) deshe (דֶּשֶׁא) — vegetation or green growth in general; (2) esev mazria zera (עֵשֶׂב מַזְרִיעַ זֶרַע) — seed-bearing plants/herbs; (3) ets peri (עֵץ פְּרִי) — fruit trees. However, the precise relationship between these categories is debated. Some read deshe as the general category with the other two as subcategories. The rendering treats deshe as the general term, with the other two specifying types of vegetation.",
+        "'According to their kinds' (lemino, לְמִינוֹ) introduces a key concept in this chapter — that plants and animals reproduce 'according to their kind' (min, מִין). This phrase establishes the idea of distinct, ordered categories in creation."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מִין",
+          "transliteration": "min",
+          "rendered_as": "kind",
+          "semantic_range": "kind, type, species, category",
+          "note": "This term establishes categories of living things. It should not be equated with the modern biological concept of 'species' — it is a broader category indicating recognizable types that reproduce true to their nature."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַתּוֹצֵ֨א הָאָ֜רֶץ דֶּ֠שֶׁא עֵ֣שֶׂב מַזְרִ֤יעַ זֶ֙רַע֙ לְמִינֵ֔הוּ וְעֵ֧ץ עֹֽשֶׂה־פְּרִ֛י אֲשֶׁ֥ר זַרְעוֹ־ב֖וֹ לְמִינֵ֑הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+      "text_kjv": "And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good.",
+      "rendering": "The earth brought forth vegetation—seed-bearing plants according to their kinds, and trees bearing fruit with their seed in them, according to their kinds. And God saw that it was good.",
+      "translator_notes": [
+        "The fulfillment (v. 12) closely mirrors the command (v. 11), following the pattern established throughout this chapter: God speaks, and creation responds in exact obedience. Minor variations between command and fulfillment are characteristic of Hebrew narrative style.",
+        "This is the second 'good' evaluation on day 3. See the note on verse 8 regarding the absence of this formula on day 2."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם שְׁלִישִֽׁי׃",
+      "text_kjv": "And the evening and the morning were the third day.",
+      "rendering": "And there was evening and there was morning—the third day.",
+      "translator_notes": [
+        "The formula is identical in structure to verse 5 and will recur for each subsequent day. Beginning with day 2, the ordinal numbers are used (sheni, 'second'; shelishi, 'third'; etc.), whereas day 1 uniquely uses the cardinal number echad ('one'). See the note on verse 5."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים יְהִ֤י מְאֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהַבְדִּ֕יל בֵּ֥ין הַיּ֖וֹם וּבֵ֣ין הַלָּ֑יְלָה וְהָי֤וּ לְאֹתֹת֙ וּלְמוֹעֲדִ֔ים וּלְיָמִ֖ים וְשָׁנִֽים׃",
+      "text_kjv": "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:",
+      "rendering": "Then God said, \"Let there be lights in the expanse of the sky to separate the day from the night, and let them serve as signs for appointed times, for days, and for years.",
+      "translator_notes": [
+        "'Lights' translates meorot (מְאֹרֹת), meaning 'luminaries' or 'light-bearers.' This is distinct from or (אוֹר, 'light') in verse 3. The luminaries are vessels or bearers of light, not light itself — light was already created on day 1.",
+        "'Appointed times' translates moadim (מוֹעֲדִים), which the KJV renders 'seasons.' However, moadim does not primarily mean seasons of the year (spring, summer, etc.) but rather 'appointed times' or 'fixed occasions' — including festivals, sacred assemblies, and liturgical seasons. This word later becomes the technical term for Israel's appointed feasts (Leviticus 23). The rendering 'appointed times' preserves this broader meaning.",
+        "'Signs' (otot, אֹתוֹת) refers to indicators or markers. The celestial bodies serve as signs — marking times, seasons, and possibly portents. This does not imply astrology but rather the observable use of celestial cycles for timekeeping and calendar-setting.",
+        "God's speech in verse 14 continues through verse 15. The verse division is an editorial addition; the Hebrew flows as a single command."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מְאֹרֹת",
+          "transliteration": "meorot",
+          "rendered_as": "lights",
+          "semantic_range": "luminaries, light-bearers, light-sources",
+          "note": "Derived from or ('light') with a mem prefix indicating an instrument — literally 'things that give light.' The distinction between light (or, day 1) and light-bearers (meorot, day 4) is significant in the structure of the chapter."
+        },
+        {
+          "hebrew": "מוֹעֲדִים",
+          "transliteration": "moadim",
+          "rendered_as": "appointed times",
+          "semantic_range": "appointed times, festivals, seasons, fixed occasions, sacred assemblies",
+          "note": "From the root y-'-d ('to appoint, to designate'). More than seasonal markers, moadim are God's designated times — the word is used throughout the Torah for Israel's sacred calendar."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְהָי֤וּ לִמְאוֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהָאִ֖יר עַל־הָאָ֑רֶץ וַֽיְהִי־כֵֽן׃",
+      "text_kjv": "And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so.",
+      "rendering": "And let them be lights in the expanse of the sky to give light on the earth.\" And it was so.",
+      "translator_notes": [
+        "This verse completes God's speech that began in verse 14. The closing quotation mark is placed here. The practical function of the luminaries is stated: to give light on the earth. This is their purpose — they serve creation, not the other way around.",
+        "In the context of the ancient Near East, where sun and moon were widely worshiped as deities, this text is strikingly demythologizing. The sun and moon are not named; they are merely 'lights' that God made and placed in the sky. They are servants of God's purposes, not objects of worship."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיַּ֣עַשׂ אֱלֹהִ֔ים אֶת־שְׁנֵ֥י הַמְּאֹרֹ֖ת הַגְּדֹלִ֑ים אֶת־הַמָּא֤וֹר הַגָּדֹל֙ לְמֶמְשֶׁ֣לֶת הַיּ֔וֹם וְאֶת־הַמָּא֤וֹר הַקָּטֹן֙ לְמֶמְשֶׁ֣לֶת הַלַּ֔יְלָה וְאֵ֖ת הַכּוֹכָבִֽים׃",
+      "text_kjv": "And God made two great lights; the great light to rule the day, and the lesser light to rule the night: he made the stars also.",
+      "rendering": "God made the two great lights—the greater light to govern the day and the lesser light to govern the night—and the stars.",
+      "translator_notes": [
+        "The Hebrew deliberately avoids the words shemesh ('sun') and yareach ('moon'). These are referred to only as 'the greater light' (hammaor haggadol) and 'the lesser light' (hammaor haqqaton). This is widely understood as a deliberate polemical choice — in surrounding cultures, the sun (Shamash) and moon (Sin/Yarikh) were major deities. By reducing them to unnamed functional objects, the text strips them of any divine status.",
+        "'Govern' translates memshelet (מֶמְשֶׁלֶת), from the root m-sh-l ('to rule, to have dominion'). The KJV's 'rule' is also accurate. 'Govern' is used here to convey the orderly, administrative nature of their role.",
+        "'And the stars' (ve'et hakkokhavim) appears almost as an afterthought in the Hebrew — a brief addition at the end of the verse. This is another element of the text's anti-mythological perspective: the stars, also worshiped in the ancient Near East, are given no elaboration. God simply made them."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מֶמְשֶׁלֶת",
+          "transliteration": "memshelet",
+          "rendered_as": "govern",
+          "semantic_range": "rule, dominion, governance, authority",
+          "note": "The luminaries are assigned governance over day and night. This language of rule anticipates the dominion language used of humanity in verses 26 and 28, creating a parallel between the luminaries' role in the sky and humanity's role on earth."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיִּתֵּ֥ן אֹתָ֛ם אֱלֹהִ֖ים בִּרְקִ֣יעַ הַשָּׁמָ֑יִם לְהָאִ֖יר עַל־הָאָֽרֶץ׃",
+      "text_kjv": "And God set them in the firmament of the heaven to give light upon the earth,",
+      "rendering": "God set them in the expanse of the sky to give light on the earth,",
+      "translator_notes": [
+        "'Set' translates natan (נָתַן), which primarily means 'to give' but here carries the sense of 'to place, to set, to appoint.' God gives the luminaries their position — they are placed where God determines, reinforcing their subordinate, created status.",
+        "Verses 17–18 form a single sentence continuing from the making of the lights in verse 16. The verse divisions break up what is a continuous statement of purpose."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְלִמְשֹׁל֙ בַּיּ֣וֹם וּבַלַּ֔יְלָה וּֽלֲהַבְדִּ֔יל בֵּ֥ין הָא֖וֹר וּבֵ֣ין הַחֹ֑שֶׁךְ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+      "text_kjv": "And to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good.",
+      "rendering": "to govern the day and the night, and to separate the light from the darkness. And God saw that it was good.",
+      "translator_notes": [
+        "This verse completes the purpose statement for the luminaries, echoing the language of verse 4 where God himself separated light from darkness. Now the luminaries are given this function as God's instruments — maintaining the separation that God established.",
+        "The verb 'to separate' (lehavdil) appears here for the fifth time in the chapter (vv. 4, 6, 7, 14, 18), underscoring that creation is fundamentally an act of ordering and distinguishing."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם רְבִיעִֽי׃",
+      "text_kjv": "And the evening and the morning were the fourth day.",
+      "rendering": "And there was evening and there was morning—the fourth day.",
+      "translator_notes": [
+        "The standard day-closing formula. Day 4 corresponds structurally to day 1: on day 1 God created light and separated it from darkness; on day 4 God creates the light-bearers to govern that separation. This pattern of correspondence (days 1–3 forming domains, days 4–6 filling those domains with rulers/inhabitants) is a widely recognized structural feature of Genesis 1."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יִשְׁרְצ֣וּ הַמַּ֔יִם שֶׁ֖רֶץ נֶ֣פֶשׁ חַיָּ֑ה וְעוֹף֙ יְעוֹפֵ֣ף עַל־הָאָ֔רֶץ עַל־פְּנֵ֖י רְקִ֥יעַ הַשָּׁמָֽיִם׃",
+      "text_kjv": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.",
+      "rendering": "Then God said, \"Let the waters swarm with living creatures, and let birds fly above the earth across the face of the expanse of the sky.\"",
+      "translator_notes": [
+        "'Swarm' translates yishretsu (יִשְׁרְצוּ), from the root sh-r-ts, meaning 'to swarm, to teem, to multiply abundantly.' The noun sherets (שֶׁרֶץ, 'swarming things') from the same root emphasizes the abundance and teeming nature of aquatic life. The KJV's 'bring forth abundantly' captures the sense but loses the vividness of 'swarm.'",
+        "'Living creatures' translates nephesh chayyah (נֶפֶשׁ חַיָּה), literally 'a living soul' or 'a living being.' Nephesh here refers to animate life — creatures that breathe, move, and live. It does not carry the later Greek philosophical meaning of an 'immortal soul' separable from the body.",
+        "'Birds' translates oph (עוֹף), which broadly covers flying creatures — not just birds but potentially including winged insects. 'Birds' is used for readability, but the Hebrew category is broader.",
+        "'Across the face of the expanse' — the Hebrew al-penei (עַל־פְּנֵי, 'upon the face of') indicates the birds fly in front of or against the backdrop of the sky, not within the raqia itself."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נֶפֶשׁ חַיָּה",
+          "transliteration": "nephesh chayyah",
+          "rendered_as": "living creatures",
+          "semantic_range": "living being, living soul, animate creature, life",
+          "note": "Nephesh fundamentally means 'that which breathes' — a living, animate being. It is applied to animals here and to humans in Genesis 2:7. The term does not imply the Greek dualistic concept of an immortal soul separate from the body."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיִּבְרָ֣א אֱלֹהִ֔ים אֶת־הַתַּנִּינִ֖ם הַגְּדֹלִ֑ים וְאֵ֣ת כָּל־נֶ֣פֶשׁ הַֽחַיָּ֣ה ׀ הָֽרֹמֶ֡שֶׂת אֲשֶׁר֩ שָׁרְצ֨וּ הַמַּ֜יִם לְמִינֵהֶ֗ם וְאֵ֨ת כָּל־ע֤וֹף כָּנָף֙ לְמִינֵ֔הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+      "text_kjv": "And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good.",
+      "rendering": "So God created the great sea creatures and every living thing that moves, with which the waters swarmed, according to their kinds, and every winged bird according to its kind. And God saw that it was good.",
+      "translator_notes": [
+        "The verb bara (בָּרָא, 'created') reappears here — its second use in the chapter (after v. 1). Its use for the sea creatures may be significant: the creation of animate life is presented as a new, distinctly divine act, not merely a continuation of the previous creative work.",
+        "'Great sea creatures' translates tanninim hagedolim (הַתַּנִּינִם הַגְּדֹלִים). The KJV's 'great whales' is too narrow. Tannin (תַּנִּין) can refer to large sea creatures, serpents, or even mythological sea monsters (cf. Isaiah 27:1; Psalm 74:13; Job 7:12). In ancient Near Eastern mythology, the sea and its monsters represented chaos, and the creator deity's defeat of the sea monster was a central motif. Here, God simply creates these creatures — they are not rivals or adversaries but part of his ordered creation. The text demythologizes what surrounding cultures mythologized.",
+        "'Every winged bird' translates kol-oph kanaph (כָּל־עוֹף כָּנָף), literally 'every bird of wing' or 'every winged flyer.' The addition of kanaph ('wing') specifies that this refers to winged flying creatures."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תַּנִּינִם",
+          "transliteration": "tanninim",
+          "rendered_as": "sea creatures",
+          "semantic_range": "sea monsters, serpents, dragons, large marine creatures",
+          "note": "This word carries mythological echoes in the broader ancient Near Eastern context, where sea monsters represented primordial chaos. By stating that God 'created' (bara) them, the text places these creatures firmly within God's sovereign creative order rather than opposing it."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיְבָ֧רֶךְ אֹתָ֛ם אֱלֹהִ֖ים לֵאמֹ֑ר פְּר֣וּ וּרְב֗וּ וּמִלְא֤וּ אֶת־הַמַּ֙יִם֙ בַּיַּמִּ֔ים וְהָע֖וֹף יִ֥רֶב בָּאָֽרֶץ׃",
+      "text_kjv": "And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.",
+      "rendering": "God blessed them, saying, \"Be fruitful and multiply and fill the waters in the seas, and let the birds multiply on the earth.\"",
+      "translator_notes": [
+        "This is the first occurrence of divine blessing (vayyevarekh, וַיְבָרֶךְ) in the Bible. Blessing in the Hebrew Bible is not merely a wish or prayer — it is a bestowal of power, vitality, and capacity. God's blessing here empowers the creatures to reproduce and fill their habitats.",
+        "'Be fruitful and multiply' (peru urevu, פְּרוּ וּרְבוּ) is a command that becomes a major theme in Genesis, repeated to humanity (1:28), to Noah (9:1, 7), and echoed throughout the patriarchal narratives. It is a word of blessing and empowerment, not merely a command.",
+        "The KJV's 'fowl' is updated to 'birds' for modern readability. The Hebrew oph (עוֹף) is the same word as in verse 20."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בָּרַךְ",
+          "transliteration": "barakh",
+          "rendered_as": "blessed",
+          "semantic_range": "to bless, to kneel, to praise, to endow with power",
+          "note": "The first blessing in scripture. In the Hebrew Bible, divine blessing confers vitality, fertility, and the power to flourish. It is a performative act — God's blessing accomplishes what it declares."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם חֲמִישִֽׁי׃",
+      "text_kjv": "And the evening and the morning were the fifth day.",
+      "rendering": "And there was evening and there was morning—the fifth day.",
+      "translator_notes": [
+        "Day 5 corresponds structurally to day 2: on day 2 God separated the waters and created the sky-domain; on day 5 he fills those domains with sea creatures and birds. This 'forming-then-filling' pattern continues the structural symmetry of the chapter."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים תּוֹצֵ֨א הָאָ֜רֶץ נֶ֤פֶשׁ חַיָּה֙ לְמִינָ֔הּ בְּהֵמָ֥ה וָרֶ֛מֶשׂ וְחַֽיְתוֹ־אֶ֖רֶץ לְמִינָ֑הּ וַֽיְהִי־כֵֽן׃",
+      "text_kjv": "And God said, Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind: and it was so.",
+      "rendering": "Then God said, \"Let the earth bring forth living creatures according to their kinds—livestock, crawling things, and wild animals of the earth according to their kinds.\" And it was so.",
+      "translator_notes": [
+        "Three categories of land animals are specified: (1) behemah (בְּהֵמָה) — domesticated animals or livestock; (2) remes (רֶמֶשׂ) — crawling or creeping things, including small animals, reptiles, and insects; (3) chayyat-erets (חַיְתוֹ־אֶרֶץ) — wild animals, literally 'living things of the earth.' The distinction between behemah (domesticated) and chayyah (wild) is important in later biblical legislation (Leviticus 11).",
+        "'Let the earth bring forth' (totse ha'arets) — the earth is commanded to participate in producing land animals. This is notable: unlike the sea creatures, which God bara ('created'), the land animals are brought forth from the earth. The earth is an agent in God's creative process, though under God's sovereign command."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּהֵמָה",
+          "transliteration": "behemah",
+          "rendered_as": "livestock",
+          "semantic_range": "cattle, livestock, domesticated animals, beasts",
+          "note": "Broadly refers to large domesticated animals — cattle, sheep, goats, donkeys. The KJV's 'cattle' is too narrow for modern English. 'Livestock' better captures the range of domesticated animals."
+        },
+        {
+          "hebrew": "רֶמֶשׂ",
+          "transliteration": "remes",
+          "rendered_as": "crawling things",
+          "semantic_range": "creeping things, crawling creatures, small animals, things that move along the ground",
+          "note": "From the root r-m-s ('to creep, to move along the ground'). This is a broad category encompassing reptiles, insects, and small ground-dwelling creatures."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיַּ֣עַשׂ אֱלֹהִים֩ אֶת־חַיַּ֨ת הָאָ֜רֶץ לְמִינָ֗הּ וְאֶת־הַבְּהֵמָה֙ לְמִינָ֔הּ וְאֵ֛ת כָּל־רֶ֥מֶשׂ הָֽאֲדָמָ֖ה לְמִינֵ֑הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+      "text_kjv": "And God made the beast of the earth after his kind, and cattle after their kind, and every thing that creepeth upon the earth after his kind: and God saw that it was good.",
+      "rendering": "God made the wild animals of the earth according to their kinds, the livestock according to their kinds, and every creature that crawls on the ground according to its kind. And God saw that it was good.",
+      "translator_notes": [
+        "The order of the animal categories changes between the command (v. 24: livestock, crawling things, wild animals) and the fulfillment (v. 25: wild animals, livestock, crawling things). Such variation in repeated lists is a common feature of Hebrew style and does not imply a different order of events.",
+        "Note that 'ground' here translates adamah (אֲדָמָה), distinct from erets (אֶרֶץ, 'earth/land') used elsewhere. Adamah refers to the cultivable soil or ground — the same word from which adam ('humanity/man') is derived in Genesis 2:7. The wordplay between adamah and adam is a significant motif in Genesis."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּצַלְמֵ֖נוּ כִּדְמוּתֵ֑נוּ וְיִרְדּוּ֩ בִדְגַ֨ת הַיָּ֜ם וּבְע֣וֹף הַשָּׁמַ֗יִם וּבַבְּהֵמָה֙ וּבְכָל־הָאָ֔רֶץ וּבְכָל־הָרֶ֖מֶשׂ הָֽרֹמֵ֥שׂ עַל־הָאָֽרֶץ׃",
+      "text_kjv": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.",
+      "rendering": "Then God said, \"Let us make humanity in our image, according to our likeness, and let them rule over the fish of the sea, over the birds of the sky, over the livestock, over all the earth, and over every crawling thing that crawls on the earth.\"",
+      "translator_notes": [
+        "'Humanity' translates adam (אָדָם), which here is clearly a collective noun referring to humankind as a whole, not a specific individual or male. This is confirmed by the plural pronoun 'them' (yirdu, 'let them rule') in the same verse and by the explicit 'male and female' in verse 27. The KJV's 'man' reflects older English usage where 'man' could mean 'humankind,' but this is no longer standard usage.",
+        "The plural 'Let us make' (na'aseh, נַעֲשֶׂה) and 'our image... our likeness' (betsalmenu... kidmutenu) have generated extensive debate. Major interpretations include: (1) God addresses a heavenly court or divine council (cf. 1 Kings 22:19; Isaiah 6:8; Job 1:6); (2) a 'plural of deliberation' — God deliberating with himself; (3) a 'plural of majesty' (the 'royal we'); (4) Christian tradition reads this as a reference to the Trinity. The text does not resolve this ambiguity, and this rendering does not favor any particular interpretation.",
+        "'Image' (tselem, צֶלֶם) and 'likeness' (demut, דְּמוּת) are near-synonyms used together for emphasis. Tselem often refers to a physical representation or statue (cf. the 'images' of tumors in 1 Samuel 6:5). Demut indicates resemblance or similarity. Together they convey that humanity bears a resemblance to God — though the precise nature of this resemblance (physical? functional? relational? vocational?) has been debated throughout Jewish and Christian history.",
+        "'Rule' translates yirdu (יִרְדּוּ), from radah (רָדָה), meaning 'to rule, to have dominion, to tread.' This is a strong verb implying authoritative governance. The scope of human rule extends over all other living creatures — fish, birds, livestock, and crawling things — and over 'all the earth' itself."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אָדָם",
+          "transliteration": "adam",
+          "rendered_as": "humanity",
+          "semantic_range": "human being, humankind, humanity, man, mankind",
+          "note": "Here used collectively for the human species. Related to adamah ('ground/soil'), a wordplay developed in Genesis 2:7 where God forms adam from the adamah. The word can function as a proper name ('Adam'), a generic noun ('a human being'), or a collective ('humanity')."
+        },
+        {
+          "hebrew": "צֶלֶם",
+          "transliteration": "tselem",
+          "rendered_as": "image",
+          "semantic_range": "image, likeness, representation, statue, form",
+          "note": "In the ancient Near East, a king's image or statue represented his authority and presence in distant territories. Humanity as God's 'image' may imply that humans function as God's representatives on earth — exercising delegated authority over creation."
+        },
+        {
+          "hebrew": "דְּמוּת",
+          "transliteration": "demut",
+          "rendered_as": "likeness",
+          "semantic_range": "likeness, resemblance, similarity, form, pattern",
+          "note": "From the root d-m-h ('to be like, to resemble'). Used alongside tselem to qualify or expand the concept — humanity resembles God in some significant way. Some scholars argue demut limits tselem: humans are like God but not identical to God."
+        },
+        {
+          "hebrew": "רָדָה",
+          "transliteration": "radah",
+          "rendered_as": "rule",
+          "semantic_range": "to rule, to have dominion, to reign, to tread, to subjugate",
+          "note": "A verb of strong governance. In context, it describes humanity's delegated authority over the animal kingdom and the earth. Whether this implies benevolent stewardship or authoritative control is debated — the verb itself carries the sense of firm rule."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיִּבְרָ֨א אֱלֹהִ֤ים ׀ אֶת־הָֽאָדָם֙ בְּצַלְמ֔וֹ בְּצֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑וֹ זָכָ֥ר וּנְקֵבָ֖ה בָּרָ֥א אֹתָֽם׃",
+      "text_kjv": "So God created man in his own image, in the image of God created he him; male and female created he them.",
+      "rendering": "So God created humanity in his own image;\n  in the image of God he created him;\n  male and female he created them.",
+      "translator_notes": [
+        "This verse is structured as Hebrew poetry — three parallel lines, each using the verb bara ('created'). The threefold repetition of bara is emphatic and unique in this chapter; no other creative act receives this level of emphasis. The poetic structure is preserved in the rendering with line breaks.",
+        "The shift from singular 'him' (oto, אֹתוֹ) to plural 'them' (otam, אֹתָם) within the same verse is significant. It reflects the movement from adam as a collective singular ('humanity') to the concrete reality of male and female individuals. Both male and female together constitute the 'image of God' — the image is not limited to one sex.",
+        "'Male and female' (zakhar unqevah, זָכָר וּנְקֵבָה) are biological terms — zakhar ('male,' literally 'the one who is remembered/marked') and neqevah ('female,' literally 'the one who is pierced/bored'). These terms emphasize the sexual differentiation of humanity as part of God's creative design.",
+        "The verb bara ('created') appears three times in this single verse — and only three other times in the entire chapter (vv. 1, 21, and here). Its concentration in this verse underscores that the creation of humanity is the climactic act of divine creation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיְבָ֣רֶךְ אֹתָם֮ אֱלֹהִים֒ וַיֹּ֨אמֶר לָהֶ֜ם אֱלֹהִ֗ים פְּר֥וּ וּרְב֛וּ וּמִלְא֥וּ אֶת־הָאָ֖רֶץ וְכִבְשֻׁ֑הָ וּרְד֞וּ בִּדְגַ֤ת הַיָּם֙ וּבְע֣וֹף הַשָּׁמַ֔יִם וּבְכָל־חַיָּ֖ה הָֽרֹמֶ֥שֶׂת עַל־הָאָֽרֶץ׃",
+      "text_kjv": "And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.",
+      "rendering": "God blessed them, and God said to them, \"Be fruitful and multiply and fill the earth and subdue it, and rule over the fish of the sea, over the birds of the sky, and over every living thing that moves on the earth.\"",
+      "translator_notes": [
+        "The blessing and commission to humanity echoes the blessing given to the sea creatures and birds in verse 22, but with significant additions: 'subdue' the earth and 'rule over' all living creatures. Humanity shares the blessing of fertility with the animals but receives a unique mandate of governance.",
+        "'Fill' translates mil'u (מִלְאוּ). The KJV's 'replenish' reflected 17th-century English where 'replenish' simply meant 'fill' (not 'fill again'). The Hebrew carries no implication of refilling something previously filled.",
+        "'Subdue' translates kivshuha (וְכִבְשֻׁהָ), from the root k-v-sh (כָּבַשׁ), which is a strong verb meaning 'to subdue, to bring under control, to conquer.' Elsewhere it is used for subjugating enemies (Numbers 32:22, 29) or forcing someone into servitude (Nehemiah 5:5; Jeremiah 34:11, 16). Its strength has generated much discussion about humanity's relationship to the earth — whether this authorizes exploitation or responsible management. The text presents it as a divine commission within the context of a creation pronounced 'very good.'",
+        "'Rule' translates redu (וּרְדוּ), the imperative of radah, the same verb used in verse 26. Here it is addressed directly to humanity as a command."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כָּבַשׁ",
+          "transliteration": "kavash",
+          "rendered_as": "subdue",
+          "semantic_range": "to subdue, to conquer, to bring under control, to subjugate, to dominate",
+          "note": "A strong verb of forceful control. Its use here implies that the earth, while good, requires human effort to cultivate, manage, and bring under productive order. The force of the verb should not be softened, but its context — within a creation that God has blessed and called good — should inform its interpretation."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים הִנֵּה֩ נָתַ֨תִּי לָכֶ֜ם אֶת־כָּל־עֵ֣שֶׂב ׀ זֹרֵ֣עַ זֶ֗רַע אֲשֶׁר֙ עַל־פְּנֵ֣י כָל־הָאָ֔רֶץ וְאֶת־כָּל־הָעֵ֛ץ אֲשֶׁר־בּ֥וֹ פְרִי־עֵ֖ץ זֹרֵ֣עַ זָ֑רַע לָכֶ֥ם יִֽהְיֶ֖ה לְאָכְלָֽה׃",
+      "text_kjv": "And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat.",
+      "rendering": "Then God said, \"Look, I have given you every seed-bearing plant on the face of all the earth, and every tree that has fruit with seed in it. They will be yours for food.",
+      "translator_notes": [
+        "'Look' translates hinneh (הִנֵּה), the Hebrew attention-getting particle. The KJV's 'Behold' is archaic; 'Look' serves the same function in modern English — drawing attention to what follows.",
+        "'Food' translates okhlah (אָכְלָה), from the root '-k-l ('to eat'). The KJV's 'meat' reflected older English usage where 'meat' simply meant 'food' in general, not specifically animal flesh. 'Food' is the accurate modern rendering.",
+        "This verse, along with verse 30, prescribes a vegetarian diet for both humans and animals at creation. Explicit divine permission to eat animal flesh does not come until after the flood (Genesis 9:3). This has been noted by Jewish and Christian commentators throughout history as indicating an ideal or original state that differs from the post-fall, post-flood reality.",
+        "God's speech continues into verse 30. The quotation remains open."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הִנֵּה",
+          "transliteration": "hinneh",
+          "rendered_as": "Look",
+          "semantic_range": "behold, look, see, here, indeed",
+          "note": "A presentative particle used to draw attention. It introduces a statement of significance. In narrative, it often signals a shift in perspective or an important revelation. Rendered naturally in context rather than always as the archaic 'behold.'"
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וּֽלְכָל־חַיַּ֣ת הָ֠אָ֠רֶץ וּלְכָל־ע֨וֹף הַשָּׁמַ֜יִם וּלְכֹ֣ל ׀ רוֹמֵ֣שׂ עַל־הָאָ֗רֶץ אֲשֶׁר־בּוֹ֙ נֶ֣פֶשׁ חַיָּ֔ה אֶת־כָּל־יֶ֥רֶק עֵ֖שֶׂב לְאָכְלָ֑ה וַֽיְהִי־כֵֽן׃",
+      "text_kjv": "And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat: and it was so.",
+      "rendering": "And to every wild animal of the earth, to every bird of the sky, and to everything that crawls on the earth—everything that has life in it—I have given every green plant for food.\" And it was so.",
+      "translator_notes": [
+        "'Everything that has life in it' translates asher-bo nephesh chayyah (אֲשֶׁר־בּוֹ נֶפֶשׁ חַיָּה), literally 'in which is a living being/soul.' This defines which creatures receive the provision of green plants — those possessing animate life (nephesh chayyah).",
+        "'Every green plant' translates kol-yereq esev (כָּל־יֶרֶק עֵשֶׂב), literally 'all greenness of plants.' Yereq means 'green,' 'greenery,' or 'vegetation.' The animal diet prescribed here is entirely plant-based, paralleling the human diet of seeds and fruits in verse 29.",
+        "This verse completes God's speech that began in verse 29. The closing quotation mark is placed after 'for food.'",
+        "The statement that all animals were originally given plants for food includes predators. The text presents an originally non-violent creation — a theme echoed in Isaiah's vision of the restored creation where 'the lion will eat straw like the ox' (Isaiah 11:7; 65:25)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיַּ֤רְא אֱלֹהִים֙ אֶת־כָּל־אֲשֶׁ֣ר עָשָׂ֔ה וְהִנֵּה־ט֖וֹב מְאֹ֑ד וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם הַשִּׁשִּֽׁי׃",
+      "text_kjv": "And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.",
+      "rendering": "God saw everything that he had made, and it was very good. And there was evening and there was morning—the sixth day.",
+      "translator_notes": [
+        "'Very good' (tov meod, טוֹב מְאֹד) is the climactic evaluation of the entire creation. All previous evaluations were simply 'good' (tov); now, with creation complete and humanity in place, the whole is assessed as 'very good.' The intensifier meod ('very, exceedingly') elevates this final assessment above all previous ones.",
+        "The Hebrew has 'the sixth day' (yom hashishi, יוֹם הַשִּׁשִּׁי) with the definite article ha- (הַ) before the ordinal — the only day (besides possibly the seventh day in 2:3) to receive the definite article. Days 2–5 are simply 'a second day,' 'a third day,' etc., but this is 'THE sixth day.' Many scholars see this as marking the climactic significance of day 6 as the culmination of creation.",
+        "The hinneh (הִנֵּה, 'behold/look') before 'very good' has been integrated into the English naturally. The Hebrew reads literally: 'And God saw all that he had made, and look — very good.' The 'look' functions as an exclamation emphasizing the quality of the assessment."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "טוֹב מְאֹד",
+          "transliteration": "tov meod",
+          "rendered_as": "very good",
+          "semantic_range": "very good, exceedingly good, supremely fitting",
+          "note": "The superlative assessment of completed creation. Tov encompasses goodness, beauty, fitness, and moral rightness; meod intensifies it to the highest degree. This is God's verdict on the totality of what he has made — everything, taken together, is supremely good."
+        }
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

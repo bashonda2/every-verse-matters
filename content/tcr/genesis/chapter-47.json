@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Genesis",
+    "chapter": 47,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-02-23T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיָּבֹ֣א יוֹסֵף֮ וַיַּגֵּ֣ד לְפַרְעֹה֒ וַיֹּ֗אמֶר אָבִ֨י וְאַחַ֜י וְצֹאנָ֤ם וּבְקָרָם֙ וְכׇל־אֲשֶׁ֣ר לָהֶ֔ם בָּ֖אוּ מֵאֶ֣רֶץ כְּנָ֑עַן וְהִנָּ֖ם בְּאֶ֥רֶץ גֹּֽשֶׁן׃",
+      "text_kjv": "Then Joseph came and told Pharaoh, and said, My father and my brethren, and their flocks, and their herds, and all that they have, are come out of the land of Canaan; and, behold, they are in the land of Goshen.",
+      "rendering": "Then Joseph came and told Pharaoh, saying, \"My father and my brothers, with their flocks and their herds and all that they have, have come from the land of Canaan, and behold, they are in the land of Goshen.\"",
+      "translator_notes": [
+        "Joseph acts as intermediary between his family and Pharaoh, navigating the delicate politics of settling foreigners in Egypt. He has already placed them in Goshen before seeking formal royal permission — a shrewd move that presents Pharaoh with a fait accompli in the most favorable location.",
+        "'The land of Goshen' (erets Goshen) — the fertile eastern Nile delta region, ideal for pastoral families. It was geographically separate enough from the Egyptian heartland to allow the Israelites to maintain their distinct identity, yet close enough to benefit from Egyptian resources."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גֹּשֶׁן",
+          "transliteration": "Goshen",
+          "rendered_as": "Goshen",
+          "semantic_range": "a region in the eastern Nile delta",
+          "note": "Goshen becomes the Israelite homeland in Egypt — a place of both provision and eventual oppression. Its location in the delta, away from the centers of Egyptian culture and religion, allows Israel to grow as a distinct people, fulfilling God's promise to Jacob (46:3)."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וּמִקְצֵ֣ה אֶחָ֔יו לָקַ֖ח חֲמִשָּׁ֣ה אֲנָשִׁ֑ים וַיַּצִּגֵ֖ם לִפְנֵ֥י פַרְעֹֽה׃",
+      "text_kjv": "And he took some of his brethren, even five men, and presented them unto Pharaoh.",
+      "rendering": "From among his brothers he took five men and presented them before Pharaoh.",
+      "translator_notes": [
+        "'Five men' (chamishah anashim) — Joseph selects five of his eleven brothers, presumably those who would make the best impression. The Hebrew 'from the end/extremity of his brothers' (miqqetseh echav) has been variously interpreted: some take it as 'from among' and others as 'the least significant' — that is, Joseph deliberately chose the least impressive brothers so Pharaoh would not conscript them into royal service.",
+        "'Presented them' (vayyatsigem) — the same verb used for formally setting something or someone before an authority. Joseph carefully stages this audience."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיֹּ֧אמֶר פַּרְעֹ֛ה אֶל־אֶחָ֖יו מַה־מַּעֲשֵׂיכֶ֑ם וַיֹּאמְר֣וּ אֶל־פַּרְעֹ֗ה רֹעֵ֥ה צֹאן֙ עֲבָדֶ֔יךָ גַּם־אֲנַ֖חְנוּ גַּם־אֲבוֹתֵֽינוּ׃",
+      "text_kjv": "And Pharaoh said unto his brethren, What is your occupation? And they said unto Pharaoh, Thy servants are shepherds, both we, and also our fathers.",
+      "rendering": "Pharaoh said to his brothers, \"What is your occupation?\" They said to Pharaoh, \"Your servants are shepherds of flocks, both we and our fathers.\"",
+      "translator_notes": [
+        "'Shepherds of flocks' (ro'ei tson) — the brothers openly declare their pastoral identity. This is significant because shepherding was considered lowly or even abominable to Egyptians (see 46:34). Yet they do not hide their vocation; they identify with the occupation of their fathers, anchoring themselves in patriarchal continuity.",
+        "'Both we and our fathers' (gam-anachnu gam-avoteinu) — the emphasis on generational continuity frames shepherding not merely as a livelihood but as a heritage. Abraham, Isaac, and Jacob were all herdsmen. The brothers claim their place in this lineage."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רֹעֵה צֹאן",
+          "transliteration": "ro'ei tson",
+          "rendered_as": "shepherds of flocks",
+          "semantic_range": "shepherds, keepers of flock, pastoralists",
+          "note": "The shepherd identity runs deep in Israel's self-understanding. God Himself will later be called Israel's Shepherd (Psalm 23:1; 80:1), and Israel's leaders are judged by how well they shepherd God's people. The brothers' honest declaration before Pharaoh is both humble and identity-defining."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיֹּאמְר֣וּ אֶל־פַּרְעֹ֗ה לָג֤וּר בָּאָ֙רֶץ֙ בָּ֔אנוּ כִּי־אֵ֣ין מִרְעֶ֗ה לַצֹּאן֙ אֲשֶׁ֣ר לַעֲבָדֶ֔יךָ כִּֽי־כָבֵ֥ד הָרָעָ֖ב בְּאֶ֣רֶץ כְּנָ֑עַן וְעַתָּ֛ה יֵֽשְׁבוּ־נָ֥א עֲבָדֶ֖יךָ בְּאֶ֥רֶץ גֹּֽשֶׁן׃",
+      "text_kjv": "They said moreover unto Pharaoh, For to sojourn in the land are we come; for thy servants have no pasture for their flocks; for the famine is sore in the land of Canaan: now therefore, we pray thee, let thy servants dwell in the land of Goshen.",
+      "rendering": "They said to Pharaoh, \"We have come to sojourn in the land, for there is no pasture for the flocks that belong to your servants, because the famine is severe in the land of Canaan. Now, we ask, let your servants dwell in the land of Goshen.\"",
+      "translator_notes": [
+        "'To sojourn' (lagur) — not to settle permanently but to reside as aliens. This word choice is theologically significant: the brothers frame their presence as temporary, as guests rather than settlers. This sojourning language (ger, magur, lagur) runs through the patriarchal narratives, expressing Israel's fundamental posture as strangers in every land except the one God has promised.",
+        "'The famine is severe' (kaved hara'av) — literally 'heavy is the famine.' The adjective kaved (heavy, weighty) conveys the crushing, oppressive nature of the famine. It is the same root used for Pharaoh's hardened (heavy) heart in Exodus."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "לָגוּר",
+          "transliteration": "lagur",
+          "rendered_as": "to sojourn",
+          "semantic_range": "to sojourn, dwell as an alien, reside temporarily",
+          "note": "The sojourning motif defines patriarchal existence. Abraham was a sojourner (ger) in Canaan (23:4). Jacob will describe his entire life as 'sojourning' (v. 9). The brothers' use of this term signals that Egypt is not their home — they remain oriented toward the promised land even as they seek refuge."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיֹּ֣אמֶר פַּרְעֹ֔ה אֶל־יוֹסֵ֖ף לֵאמֹ֑ר אָבִ֥יךָ וְאַחֶ֖יךָ בָּ֥אוּ אֵלֶֽיךָ׃",
+      "text_kjv": "And Pharaoh spake unto Joseph, saying, Thy father and thy brethren are come unto thee:",
+      "rendering": "Then Pharaoh said to Joseph, \"Your father and your brothers have come to you.\"",
+      "translator_notes": [
+        "Pharaoh addresses Joseph directly, acknowledging the family's arrival. The phrasing 'have come to you' (ba'u elekha) places Joseph as the family's anchor in Egypt — they have come to Joseph, not to Egypt. This underscores Joseph's role as the providential link between the family and the foreign power."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "אֶ֤רֶץ מִצְרַ֙יִם֙ לְפָנֶ֣יךָ הִ֔וא בְּמֵיטַ֣ב הָאָ֔רֶץ הוֹשֵׁ֥ב אֶת־אָבִ֖יךָ וְאֶת־אַחֶ֑יךָ יֵשְׁב֣וּ בְּאֶ֣רֶץ גֹּ֗שֶׁן וְאִם־יָדַ֙עְתָּ֙ וְיֶשׁ־בָּ֜ם אַנְשֵׁי־חַ֔יִל וְשַׂמְתָּ֛ם שָׂרֵ֥י מִקְנֶ֖ה עַל־אֲשֶׁר־לִֽי׃",
+      "text_kjv": "The land of Egypt is before thee; in the best of the land make thy father and brethren to dwell; in the land of Goshen let them dwell: and if thou knowest any men of activity among them, then make them rulers over my cattle.",
+      "rendering": "The land of Egypt is before you. Settle your father and your brothers in the best of the land; let them dwell in the land of Goshen. And if you know any capable men among them, appoint them as chief herdsmen over my livestock.\"",
+      "translator_notes": [
+        "'In the best of the land' (bemeitav ha'arets) — Pharaoh's generosity exceeds the brothers' request. They asked only for Goshen; Pharaoh offers the finest portion of all Egypt. This lavish hospitality reflects Joseph's immense value to Pharaoh, and it fulfills God's promise that Israel would be settled in Egypt (46:3-4).",
+        "'Capable men' (anshei-chayil) — men of strength, skill, and competence. The term chayil denotes valor, ability, and substance. Pharaoh recognizes that skilled herdsmen would be an asset and offers them positions of responsibility over royal livestock — a mark of trust and honor.",
+        "'Chief herdsmen over my livestock' (sarei miqneh al-asher-li) — literally 'rulers of livestock over what is mine.' Pharaoh invites Joseph's brothers into royal service. This is a remarkable integration: foreign shepherds, whose occupation Egyptians disdained, are offered oversight of the king's own herds."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אַנְשֵׁי־חַיִל",
+          "transliteration": "anshei-chayil",
+          "rendered_as": "capable men",
+          "semantic_range": "men of valor, men of ability, worthy men, competent men",
+          "note": "The term chayil encompasses both moral and practical competence. It appears throughout Scripture to describe warriors (Judges 6:12), capable women (Proverbs 31:10), and men of substance. Pharaoh's request for such men signals his respect for their skills."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיָּבֵ֤א יוֹסֵף֙ אֶת־יַעֲקֹ֣ב אָבִ֔יו וַיַּעֲמִדֵ֖הוּ לִפְנֵ֣י פַרְעֹ֑ה וַיְבָ֥רֶךְ יַעֲקֹ֖ב אֶת־פַּרְעֹֽה׃",
+      "text_kjv": "And Joseph brought in Jacob his father, and set him before Pharaoh: and Jacob blessed Pharaoh.",
+      "rendering": "Then Joseph brought his father Jacob and set him before Pharaoh, and Jacob blessed Pharaoh.",
+      "translator_notes": [
+        "'Jacob blessed Pharaoh' (vayevarekh Ya'aqov et-Par'oh) — this is an extraordinary moment. The aged patriarch, a landless sojourner dependent on Pharaoh's hospitality, pronounces blessing upon the most powerful ruler in the known world. The writer of Hebrews notes the theological principle at work: 'without any dispute the lesser is blessed by the greater' (Hebrews 7:7). Jacob's authority to bless derives not from political power but from his standing as bearer of the Abrahamic covenant.",
+        "'Set him before Pharaoh' (vayyaamidehu lifnei Far'oh) — the verb 'amad (to stand, set upright) gives the scene a formal, courtly character. Yet what follows is not obeisance but blessing — Jacob is the one who confers, not receives."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "וַיְבָרֶךְ",
+          "transliteration": "vayevarekh",
+          "rendered_as": "blessed",
+          "semantic_range": "blessed, spoke a blessing, conferred blessing",
+          "note": "Jacob blesses Pharaoh both upon arrival (v. 7) and departure (v. 10). The patriarch's blessing frames the entire audience, placing the covenant bearer in a position of spiritual authority over the world's greatest king. Through Abraham's seed, all nations are blessed (12:3) — and here that promise takes visible form."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֹּ֥אמֶר פַּרְעֹ֖ה אֶֽל־יַעֲקֹ֑ב כַּמָּ֕ה יְמֵ֖י שְׁנֵ֥י חַיֶּֽיךָ׃",
+      "text_kjv": "And Pharaoh said unto Jacob, How old art thou?",
+      "rendering": "Pharaoh said to Jacob, \"How many are the days of the years of your life?\"",
+      "translator_notes": [
+        "'How many are the days of the years of your life?' (kamah yemei shenei chayyekha) — the Hebrew is far more expansive than 'how old are you?' Pharaoh asks about the days, the years, and the life — a layered expression that invites reflection on the totality of a life lived. The phrasing suggests Pharaoh was struck by Jacob's aged appearance. Jacob's response will match this expansiveness with theological depth."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֹּ֤אמֶר יַעֲקֹב֙ אֶל־פַּרְעֹ֔ה יְמֵי֙ שְׁנֵ֣י מְגוּרַ֔י שְׁלֹשִׁ֥ים וּמְאַ֖ת שָׁנָ֑ה מְעַ֣ט וְרָעִ֗ים הָיוּ֙ יְמֵי֙ שְׁנֵ֣י חַיַּ֔י וְלֹ֣א הִשִּׂ֗יגוּ אֶת־יְמֵי֙ שְׁנֵי֙ חַיֵּ֣י אֲבֹתַ֔י בִּימֵ֖י מְגוּרֵיהֶֽם׃",
+      "text_kjv": "And Jacob said unto Pharaoh, The days of the years of my pilgrimage are an hundred and thirty years: few and evil have the days of the years of my life been, and have not attained unto the days of the years of the life of my fathers in the days of their pilgrimage.",
+      "rendering": "Jacob said to Pharaoh, \"The days of the years of my sojourning are one hundred and thirty years. Few and difficult have been the days of the years of my life, and they have not reached the days of the years of my fathers in the days of their sojourning.\"",
+      "translator_notes": [
+        "'My sojourning' (megurai) — Jacob does not say 'my life' (chayyai) first, but 'my sojourning.' He defines his entire existence as that of a stranger and pilgrim. The word magur/megurai comes from the same root as ger (sojourner, alien). Jacob's self-understanding is profoundly theological: he has never been at home in this world. His true home is the promise, not yet realized.",
+        "'Few and difficult' (me'at vera'im) — literally 'few and evil.' Jacob's assessment is brutally honest. Though 130 years is long by modern standards, it falls short of Abraham's 175 years and Isaac's 180 years. And the quality of those years — marked by Esau's enmity, Laban's deception, Dinah's violation, Rachel's death, Joseph's loss — has been ra'im: evil, grievous, full of sorrow.",
+        "'Have not reached' (lo hissigu) — the verb nasag means to overtake, attain, reach. Jacob's years have not caught up with his fathers'. This is a statement of both quantity (shorter lifespan) and quality (greater suffering). There is no self-pity but a sober reckoning before the throne of the world's most powerful king."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מְגוּרַי",
+          "transliteration": "megurai",
+          "rendered_as": "my sojourning",
+          "semantic_range": "my sojourning, my pilgrimage, my temporary dwelling, my time as a stranger",
+          "note": "This is one of Scripture's most theologically dense self-descriptions. Jacob sees his entire life — from fleeing Esau to working for Laban to burying Rachel to mourning Joseph — as one continuous sojourn. The New Testament picks up this theme: the patriarchs 'confessed that they were strangers and pilgrims on the earth' (Hebrews 11:13)."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיְבָ֥רֶךְ יַעֲקֹ֖ב אֶת־פַּרְעֹ֑ה וַיֵּצֵ֖א מִלִּפְנֵ֥י פַרְעֹֽה׃",
+      "text_kjv": "And Jacob blessed Pharaoh, and went out from before Pharaoh.",
+      "rendering": "Jacob blessed Pharaoh and went out from before Pharaoh.",
+      "translator_notes": [
+        "Jacob's audience with Pharaoh is framed by two blessings — one upon entering (v. 7) and one upon departing. The patriarch arrives as a supplicant but acts as a priest, conferring divine favor on the king. This second blessing confirms that Jacob's authority derives from his covenant status: he is the one through whom blessing flows to the nations (12:3)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיּוֹשֵׁ֣ב יוֹסֵף֮ אֶת־אָבִ֣יו וְאֶת־אֶחָיו֒ וַיִּתֵּ֨ן לָהֶ֤ם אֲחֻזָּה֙ בְּאֶ֣רֶץ מִצְרַ֔יִם בְּמֵיטַ֥ב הָאָ֖רֶץ בְּאֶ֣רֶץ רַעְמְסֵ֑ס כַּאֲשֶׁ֖ר צִוָּ֥ה פַרְעֹֽה׃",
+      "text_kjv": "And Joseph placed his father and his brethren, and gave them a possession in the land of Egypt, in the best of the land, in the land of Rameses, as Pharaoh had commanded.",
+      "rendering": "Joseph settled his father and his brothers and gave them a possession in the land of Egypt, in the best of the land, in the land of Rameses, as Pharaoh had commanded.",
+      "translator_notes": [
+        "'A possession' (achuzzah) — the word denotes a permanent holding or estate, not merely a temporary campsite. This is the same term used for Abraham's purchase of the cave of Machpelah (23:4, 9, 20). Joseph secures for his family a deeded holding in Egypt's choicest territory.",
+        "'The land of Rameses' (erets Ra'meses) — this appears to be another name for Goshen, or a specific district within it. The name Rameses is likely an editorial update reflecting the later name of the region, as the city of Rameses (Pi-Ramesses) was built centuries later. The name would become grimly familiar: it is one of the store cities the enslaved Israelites would build (Exodus 1:11)."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֲחֻזָּה",
+          "transliteration": "achuzzah",
+          "rendered_as": "a possession",
+          "semantic_range": "possession, property, holding, estate",
+          "note": "The granting of achuzzah in Egypt creates a paradox: Israel receives a permanent holding in a land that is not their inheritance. This property in Egypt provides security during the famine but must eventually be relinquished when God brings them to the land He promised their fathers."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיְכַלְכֵּ֤ל יוֹסֵף֙ אֶת־אָבִ֣יו וְאֶת־אֶחָ֔יו וְאֵ֖ת כׇּל־בֵּ֣ית אָבִ֑יו לֶ֖חֶם לְפִ֥י הַטָּֽף׃",
+      "text_kjv": "And Joseph nourished his father, and his brethren, and all his father's household, with bread, according to their families.",
+      "rendering": "Joseph sustained his father and his brothers and all his father's household with bread, according to the number of their children.",
+      "translator_notes": [
+        "'Sustained' (vayekhalkel) — from the root kul, meaning to contain, sustain, provide for. Joseph's role as sustainer fulfills the providential purpose revealed in 45:5-7. The same root appears in 1 Kings 4:7 for Solomon's provisioning system. Joseph's administration foreshadows royal stewardship.",
+        "'According to the number of their children' (lefi hattaf) — literally 'according to the mouth of the little ones.' The provision was calculated per dependent, ensuring each family received food proportional to its size. The word taf refers specifically to small children, suggesting Joseph's particular attention to the most vulnerable members of the household."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "וַיְכַלְכֵּל",
+          "transliteration": "vayekhalkel",
+          "rendered_as": "sustained",
+          "semantic_range": "sustained, nourished, provided for, maintained",
+          "note": "The pilpel form of kul intensifies the meaning: Joseph thoroughly and continuously provides. This word choice elevates Joseph's care beyond mere feeding to comprehensive sustenance — a role that mirrors God's own sustaining of Israel."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְלֶ֤חֶם אֵין֙ בְּכׇל־הָאָ֔רֶץ כִּֽי־כָבֵ֥ד הָרָעָ֖ב מְאֹ֑ד וַתֵּ֜לַהּ אֶ֤רֶץ מִצְרַ֙יִם֙ וְאֶ֣רֶץ כְּנַ֔עַן מִפְּנֵ֖י הָרָעָֽב׃",
+      "text_kjv": "And there was no bread in all the land; for the famine was very sore, so that the land of Egypt and all the land of Canaan fainted by reason of the famine.",
+      "rendering": "Now there was no food in all the land, for the famine was very severe, and the land of Egypt and the land of Canaan languished because of the famine.",
+      "translator_notes": [
+        "'Languished' (vattelah) — from the root lahah, meaning to be exhausted, to faint, to languish. The land itself is personified as weakening under the famine's oppression. Both Egypt and Canaan are affected — the famine is universal, sparing no nation. This sets the stage for Joseph's sweeping economic measures.",
+        "This verse marks the beginning of a narrative section (vv. 13-26) describing Joseph's administration of the famine. The narrator shifts from the family story to a political-economic account of how Joseph centralized all wealth and land under Pharaoh's control."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיְלַקֵּ֣ט יוֹסֵ֗ף אֶת־כׇּל־הַכֶּ֙סֶף֙ הַנִּמְצָ֤א בְאֶֽרֶץ־מִצְרַ֙יִם֙ וּבְאֶ֣רֶץ כְּנַ֔עַן בַּשֶּׁ֖בֶר אֲשֶׁר־הֵ֣ם שֹׁבְרִ֑ים וַיָּבֵ֥א יוֹסֵ֛ף אֶת־הַכֶּ֖סֶף בֵּ֥יתָה פַרְעֹֽה׃",
+      "text_kjv": "And Joseph gathered up all the money that was found in the land of Egypt, and in the land of Canaan, for the corn which they bought: and Joseph brought the money into Pharaoh's house.",
+      "rendering": "Joseph collected all the money that was found in the land of Egypt and in the land of Canaan in exchange for the grain they were buying, and Joseph brought the money into Pharaoh's house.",
+      "translator_notes": [
+        "'Collected all the money' (vaylaqet et-kol-hakkesef) — the verb laqat means to gather, glean, collect. Joseph systematically drains the monetary supply of two entire regions. The word kesef (silver/money) underscores that coinage-equivalent silver was the medium of exchange. All of it flows to Pharaoh's treasury.",
+        "'For the grain they were buying' (bashever asher-hem shoverim) — the root shavar here means to buy grain. Joseph's stored grain becomes the instrument of total economic consolidation. What began as wise administration now transforms the entire social order."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כֶּסֶף",
+          "transliteration": "kesef",
+          "rendered_as": "money",
+          "semantic_range": "silver, money, payment",
+          "note": "In the ancient Near East, kesef (silver) functioned as the standard medium of exchange before coined money existed. Joseph's collection of 'all the silver' represents a complete monetary transfer — the first stage of economic centralization under Pharaoh."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיִּתֹּ֣ם הַכֶּ֗סֶף מֵאֶ֣רֶץ מִצְרַיִם֮ וּמֵאֶ֣רֶץ כְּנַעַן֒ וַיָּבֹ֨אוּ כׇל־מִצְרַ֤יִם אֶל־יוֹסֵף֙ לֵאמֹ֔ר הָֽבָה־לָּ֣נוּ לֶ֔חֶם וְלָ֥מָּה נָמ֖וּת נֶגְדֶּ֑ךָ כִּ֥י אָפֵ֖ס כָּֽסֶף׃",
+      "text_kjv": "And when money failed in the land of Egypt, and in the land of Canaan, all the Egyptians came unto Joseph, and said, Give us bread: for why should we die in thy presence? for the money faileth.",
+      "rendering": "When the money was exhausted from the land of Egypt and from the land of Canaan, all the Egyptians came to Joseph, saying, \"Give us bread! Why should we die before you? For the money is gone.\"",
+      "translator_notes": [
+        "'The money was exhausted' (vayyittom hakkesef) — the verb tamam means to be complete, finished, used up. The money has not merely diminished — it is entirely gone. The people's desperation drives them to appeal directly to Joseph, and their plea is raw: 'Why should we die before you?'",
+        "'Why should we die before you?' (lammah namut negdekha) — literally 'why should we die in front of you?' The people frame their starvation as something Joseph is witnessing and therefore bears responsibility for. Their cry is both a plea and a subtle accusation — will you watch us perish?"
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיֹּ֤אמֶר יוֹסֵף֙ הָב֣וּ מִקְנֵיכֶ֔ם וְאֶתְּנָ֥ה לָכֶ֖ם בְּמִקְנֵיכֶ֑ם אִם־אָפֵ֖ס כָּֽסֶף׃",
+      "text_kjv": "And Joseph said, Give your cattle; and I will give you for your cattle, if money fail.",
+      "rendering": "Joseph said, \"Give me your livestock, and I will give you food in exchange for your livestock, if the money is gone.\"",
+      "translator_notes": [
+        "'Give me your livestock' (havu miqneikhem) — Joseph proposes the next stage of exchange: livestock for grain. The word miqneh (livestock, cattle) represents the people's primary productive asset after money. By accepting livestock as payment, Joseph transfers the means of agricultural production to Pharaoh's control."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיָּבִ֣יאוּ אֶת־מִקְנֵיהֶם֮ אֶל־יוֹסֵף֒ וַיִּתֵּ֣ן לָהֶם֩ יוֹסֵ֨ף לֶ֜חֶם בַּסּוּסִ֗ים וּבְמִקְנֵ֥ה הַצֹּ֛אן וּבְמִקְנֵ֥ה הַבָּקָ֖ר וּבַחֲמֹרִ֑ים וַיְנַהֲלֵ֤ם בַּלֶּ֙חֶם֙ בְּכׇל־מִקְנֵהֶ֔ם בַּשָּׁנָ֖ה הַהִֽוא׃",
+      "text_kjv": "And they brought their cattle unto Joseph: and Joseph gave them bread in exchange for horses, and for the flocks, and for the cattle of the herds, and for the asses: and he fed them with bread for all their cattle for that year.",
+      "rendering": "So they brought their livestock to Joseph, and Joseph gave them bread in exchange for the horses, the flocks, the herds of cattle, and the donkeys. He provided them with bread in exchange for all their livestock that year.",
+      "translator_notes": [
+        "The catalogue of livestock — horses (sussim), flocks (tson), herds of cattle (baqar), and donkeys (chamorim) — represents every category of animal wealth. The thoroughness of the list emphasizes the completeness of the transfer. By year's end, the people have no animals left.",
+        "'He provided them' (vayenahelem) — from the root nahal, to lead, guide, provide for. The same root is used of God leading Israel through the wilderness (Exodus 15:13). Joseph guides the people through famine with careful provision, though at enormous cost to their independence."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַתִּתֹּם֮ הַשָּׁנָ֣ה הַהִוא֒ וַיָּבֹ֨אוּ אֵלָ֜יו בַּשָּׁנָ֣ה הַשֵּׁנִ֗ית וַיֹּ֤אמְרוּ לוֹ֙ לֹֽא־נְכַחֵ֣ד מֵֽאֲדֹנִ֔י כִּ֣י אִם־תַּ֧ם הַכֶּ֛סֶף וּמִקְנֵ֥ה הַבְּהֵמָ֖ה אֶל־אֲדֹנִ֑י לֹ֤א נִשְׁאַר֙ לִפְנֵ֣י אֲדֹנִ֔י בִּלְתִּ֥י אִם־גְּוִיָּתֵ֖נוּ וְאַדְמָתֵֽנוּ׃",
+      "text_kjv": "When that year was ended, they came unto him the second year, and said unto him, We will not hide it from my lord, how that our money is spent; my lord also hath our herds of cattle; there is not ought left in the sight of my lord, but our bodies, and our lands:",
+      "rendering": "When that year ended, they came to him the following year and said to him, \"We will not hide from my lord that the money is spent, and the herds of livestock belong to my lord. There is nothing left before my lord except our bodies and our land.",
+      "translator_notes": [
+        "'We will not hide from my lord' (lo-nekached me'adoni) — the people's transparency reveals their total vulnerability. They have nothing left to bargain with and openly confess it. The repeated 'my lord' (adoni) reflects the power imbalance — Joseph holds all leverage.",
+        "'Our bodies and our land' (geviyyotenu ve'admatenu) — geviyyah refers to the physical body, often a dead body or corpse. The people offer the last two things they possess: their very persons and their ancestral soil. This language carries the weight of desperation — they speak of their bodies as if they are already nearly dead."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גְּוִיָּתֵנוּ",
+          "transliteration": "geviyyotenu",
+          "rendered_as": "our bodies",
+          "semantic_range": "our bodies, our corpses, our persons",
+          "note": "The word geviyyah often refers to a dead body (Judges 14:8-9; 1 Samuel 31:10, 12). The people's use of this term for their living selves conveys a grim reality: they are offering the shells of people already stripped of everything that sustains life. It is a profound expression of destitution."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "לָ֧מָּה נָמ֣וּת לְעֵינֶ֗יךָ גַּם־אֲנַ֙חְנוּ֙ גַּ֣ם אַדְמָתֵ֔נוּ קְנֵֽה־אֹתָ֥נוּ וְאֶת־אַדְמָתֵ֖נוּ בַּלָּ֑חֶם וְנִֽהְיֶ֞ה אֲנַ֤חְנוּ וְאַדְמָתֵ֙נוּ֙ עֲבָדִ֣ים לְפַרְעֹ֔ה וְתֶן־זֶ֗רַע וְנִחְיֶה֙ וְלֹ֣א נָמ֔וּת וְהָאֲדָמָ֖ה לֹ֥א תֵשָֽׁם׃",
+      "text_kjv": "Wherefore shall we die before thine eyes, both we and our land? buy us and our land for bread, and we and our land will be servants unto Pharaoh: and give us seed, that we may live, and not die, that the land be not desolate.",
+      "rendering": "Why should we die before your eyes, both we and our land? Buy us and our land in exchange for bread, and we and our land will be slaves to Pharaoh. Give us seed so that we may live and not die, and the land will not become desolate.\"",
+      "translator_notes": [
+        "'Buy us and our land' (qeneh-otanu ve'et-admatenu) — the people voluntarily request their own purchase. The verb qanah (to buy, acquire) is used here for acquiring persons — a transaction that transforms free citizens into royal dependents. The people initiate this exchange, driven by the primal need to survive.",
+        "'Slaves to Pharaoh' (avadim leFar'oh) — the word avadim (slaves, servants) here describes a feudal relationship: the people become crown serfs bound to the land. This foreshadows the later enslavement of the Israelites (Exodus 1:13-14), where the same word describes brutal bondage. The irony is thick: Joseph saves Egypt through a system that will later devour his own descendants.",
+        "'Give us seed' (veten-zera) — the plea for seed represents hope beyond mere survival. Seed means future harvests, renewed productivity, life continuing. The word zera (seed) resonates with the covenant promises — Abraham's 'seed' would be great. Here, agricultural seed and covenantal seed share the same Hebrew word."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עֲבָדִים",
+          "transliteration": "avadim",
+          "rendered_as": "slaves",
+          "semantic_range": "slaves, servants, bondmen, subjects",
+          "note": "The Egyptian people's voluntary self-enslavement to Pharaoh creates the very political structure that will later oppress Israel. The word avadim will echo through Exodus as God demands: 'Let my people go, that they may serve (ya'avdu) me' (Exodus 7:16). The contrast between serving Pharaoh and serving God defines the exodus narrative."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיִּ֨קֶן יוֹסֵ֜ף אֶת־כׇּל־אַדְמַ֤ת מִצְרַ֙יִם֙ לְפַרְעֹ֔ה כִּֽי־מָכְר֤וּ מִצְרַ֙יִם֙ אִ֣ישׁ שָׂדֵ֔הוּ כִּֽי־חָזַ֥ק עֲלֵהֶ֖ם הָרָעָ֑ב וַתְּהִ֥י הָאָ֖רֶץ לְפַרְעֹֽה׃",
+      "text_kjv": "And Joseph bought all the land of Egypt for Pharaoh; for the Egyptians sold every man his field, because the famine prevailed over them: so the land became Pharaoh's.",
+      "rendering": "So Joseph bought all the land of Egypt for Pharaoh, for every Egyptian sold his field because the famine overpowered them. And the land became Pharaoh's.",
+      "translator_notes": [
+        "'Bought all the land of Egypt' (vayyiqen Yosef et-kol-admat Mitsrayim) — the consolidation is complete. Every privately held field passes to the crown. Joseph has created a command economy in which Pharaoh owns all land, all livestock, and all labor. The narrator states this without moral commentary, leaving readers to assess the implications.",
+        "'The famine overpowered them' (chazaq alehem hara'av) — the verb chazaq (to be strong, overpower) portrays the famine as a conquering force. The people did not sell willingly from abundance but surrendered under duress. The famine, not Joseph, is the proximate agent of their dispossession."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְאֶת־הָעָ֕ם הֶעֱבִ֥יר אֹת֖וֹ לֶעָרִ֑ים מִקְצֵ֥ה גְבוּל־מִצְרַ֖יִם וְעַד־קָצֵֽהוּ׃",
+      "text_kjv": "And as for the people, he removed them to cities from one end of the borders of Egypt even to the other end thereof.",
+      "rendering": "As for the people, he relocated them to the cities from one end of Egypt's border to the other.",
+      "translator_notes": [
+        "'He relocated them to the cities' (he'evir oto le'arim) — Joseph moves the rural population into urban centers. This mass relocation severs the people's attachment to their ancestral lands and completes their dependence on Pharaoh's centralized system. Some textual traditions (notably the Samaritan Pentateuch and LXX) read 'he made them slaves' (he'evid) rather than 'he removed them to cities,' which would make the enslavement even more explicit.",
+        "'From one end of Egypt's border to the other' (miqqetseh gevul-Mitsrayim ve'ad-qatsehu) — the geographical scope emphasizes that this was not a local measure but a nationwide transformation. No region of Egypt was exempt from Joseph's reorganization."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "רַ֛ק אַדְמַ֥ת הַכֹּהֲנִ֖ים לֹ֣א קָנָ֑ה כִּי֩ חֹ֨ק לַכֹּהֲנִ֜ים מֵאֵ֣ת פַּרְעֹ֗ה וְאָֽכְל֤וּ אֶת־חֻקָּם֙ אֲשֶׁ֨ר נָתַ֤ן לָהֶם֙ פַּרְעֹ֔ה עַל־כֵּ֕ן לֹ֥א מָכְר֖וּ אֶת־אַדְמָתָֽם׃",
+      "text_kjv": "Only the land of the priests bought he not; for the priests had a portion assigned them of Pharaoh, and did eat their portion which Pharaoh gave them: wherefore they sold not their lands.",
+      "rendering": "Only the land of the priests he did not buy, for the priests had a fixed allotment from Pharaoh, and they ate from their allotment that Pharaoh gave them. Therefore they did not sell their land.",
+      "translator_notes": [
+        "'The priests' (hakkohanim) — the Egyptian priestly class held a privileged position, receiving a state-funded stipend (choq) from Pharaoh. Their exemption from land sale reflects the deeply embedded power of the Egyptian religious establishment. The priestly class maintained its independent land base while everyone else lost theirs.",
+        "'A fixed allotment' (choq) — the word choq means a prescribed portion, statute, or decree. It refers here to the regular provision Pharaoh guaranteed to the priests. Because they had guaranteed income, they had no need to sell their land for food. This same word choq will later describe God's statutes given to Israel — laws that sustain and order life."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֹק",
+          "transliteration": "choq",
+          "rendered_as": "a fixed allotment",
+          "semantic_range": "statute, prescribed portion, allotment, decree, ordinance",
+          "note": "The Egyptian priests' choq from Pharaoh parallels the later Levitical provisions in Israel, where priests received prescribed portions from sacrifices and tithes (Numbers 18:8-20). The structural similarity highlights a universal ancient pattern: religious servants are sustained by the governing authority."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיֹּ֤אמֶר יוֹסֵף֙ אֶל־הָעָ֔ם הֵן֩ קָנִ֨יתִי אֶתְכֶ֥ם הַיּ֛וֹם וְאֶת־אַדְמַתְכֶ֖ם לְפַרְעֹ֑ה הֵֽא־לָכֶ֣ם זֶ֔רַע וּזְרַעְתֶּ֖ם אֶת־הָאֲדָמָֽה׃",
+      "text_kjv": "Then Joseph said unto the people, Behold, I have bought you this day and your land for Pharaoh: lo, here is seed for you, and ye shall sow the land.",
+      "rendering": "Then Joseph said to the people, \"Behold, I have bought you this day, and your land, for Pharaoh. Here is seed for you; sow the land.",
+      "translator_notes": [
+        "'I have bought you this day' (qaniti etkhem hayyom) — Joseph formally declares the transaction complete. The people and their land now belong to Pharaoh. Yet immediately he provides seed — the instrument of future productivity. Joseph's administration combines consolidation of power with genuine provision for the people's survival.",
+        "'Here is seed for you' (he-lakhem zera) — after stripping the people of money, livestock, land, and freedom, Joseph gives back the one thing that makes life possible: seed for planting. This act of provision within a system of total control creates a complex moral picture — Joseph preserves life even as he restructures society around absolute royal authority."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְהָיָה֙ בַּתְּבוּאֹ֔ת וּנְתַתֶּ֥ם חֲמִישִׁ֖ית לְפַרְעֹ֑ה וְאַרְבַּ֣ע הַיָּדֹ֡ת יִהְיֶ֣ה לָכֶם֩ לְזֶ֨רַע הַשָּׂדֶ֧ה וּֽלְאׇכְלְכֶ֛ם וְלַאֲשֶׁ֥ר בְּבָתֵּיכֶ֖ם וְלֶאֱכֹ֥ל לְטַפְּכֶֽם׃",
+      "text_kjv": "And it shall come to pass in the increase, that ye shall give the fifth part unto Pharaoh, and four parts shall be your own, for seed of the field, and for your food, and for them of your households, and for food for your little ones.",
+      "rendering": "At the harvest, you shall give a fifth to Pharaoh, and four parts shall be yours — for seed for the field, for your food, for those in your households, and for food for your little ones.\"",
+      "translator_notes": [
+        "'A fifth' (chamishit) — a twenty percent tax on agricultural production. By ancient Near Eastern standards, this was a moderate rate. Mesopotamian tax rates could reach a third or more. Joseph's system, while built on total royal ownership, leaves the people with eighty percent of their produce — enough for seed, food, and family sustenance.",
+        "'Four parts' (arba hayadot) — literally 'four hands,' meaning four portions out of five. The metaphor of 'hands' for portions is distinctive Hebrew idiom. The people retain the substantial majority of their harvest, making the system workable rather than extractive to the point of collapse."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֲמִישִׁית",
+          "transliteration": "chamishit",
+          "rendered_as": "a fifth",
+          "semantic_range": "a fifth part, one-fifth, twenty percent",
+          "note": "This twenty-percent levy becomes the permanent tax structure of Egypt. It establishes Pharaoh's ongoing claim on all agricultural production. Later, Israel's own tithing system will require a tenth (ma'aser) for the LORD — notably less than Pharaoh's demand, reflecting God's more generous economy."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיֹּאמְר֖וּ הֶחֱיִתָ֑נוּ נִמְצָא־חֵן֙ בְּעֵינֵ֣י אֲדֹנִ֔י וְהָיִ֥ינוּ עֲבָדִ֖ים לְפַרְעֹֽה׃",
+      "text_kjv": "And they said, Thou hast saved our lives: let us find grace in the sight of my lord, and we will be Pharaoh's servants.",
+      "rendering": "They said, \"You have saved our lives! Let us find favor in the eyes of my lord, and we will be Pharaoh's servants.\"",
+      "translator_notes": [
+        "'You have saved our lives' (hecheyitanu) — literally 'you have caused us to live.' The hiphil form of chayah emphasizes Joseph's agency in their survival. Despite losing everything — money, livestock, land, and personal freedom — the people express gratitude. Survival itself is the supreme value when death looms.",
+        "'Let us find favor' (nimtsa-chen) — the word chen (grace, favor) appears throughout Genesis at moments of dependency: Noah found chen before God (6:8), Jacob sought chen from Esau (33:8), Joseph found chen in Potiphar's house (39:4). The people now seek the same gracious regard from Joseph that sustains the vulnerable before the powerful."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הֶחֱיִתָנוּ",
+          "transliteration": "hecheyitanu",
+          "rendered_as": "you have saved our lives",
+          "semantic_range": "you have kept us alive, you have preserved our lives, you have given us life",
+          "note": "This declaration echoes Joseph's own theological interpretation of his story: 'God sent me before you to preserve life' (45:5). The people unknowingly affirm the divine purpose behind Joseph's rise to power. Their physical salvation through Joseph foreshadows Israel's greater salvation through God."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיָּ֣שֶׂם אֹתָ֣הּ יוֹסֵ֡ף לְחֹק֩ עַד־הַיּ֨וֹם הַזֶּ֜ה עַל־אַדְמַ֥ת מִצְרַ֛יִם לְפַרְעֹ֖ה לַחֹ֑מֶשׁ רַ֞ק אַדְמַ֤ת הַכֹּֽהֲנִים֙ לְבַדָּ֔ם לֹ֥א הָיְתָ֖ה לְפַרְעֹֽה׃",
+      "text_kjv": "And Joseph made it a law over the land of Egypt unto this day, that Pharaoh should have the fifth part; except the land of the priests only, which became not Pharaoh's.",
+      "rendering": "So Joseph established it as a statute over the land of Egypt, to this day, that a fifth belongs to Pharaoh. Only the land of the priests alone did not become Pharaoh's.",
+      "translator_notes": [
+        "'Established it as a statute' (vayyasem otah lechoq) — Joseph's emergency measure becomes permanent law. The word choq (statute, decree) gives the arrangement the force of enduring legislation. What began as famine relief becomes the foundational economic structure of Egypt.",
+        "'To this day' (ad-hayyom hazzeh) — this editorial note places the narrative in historical perspective, suggesting the arrangement persisted into the time of the narrator. The fifth-tax and priestly exemption became permanent features of the Egyptian economy, both attributed to Joseph's administration during the great famine."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיֵּ֧שֶׁב יִשְׂרָאֵ֛ל בְּאֶ֥רֶץ מִצְרַ֖יִם בְּאֶ֣רֶץ גֹּ֑שֶׁן וַיֵּאָחֲז֣וּ בָ֔הּ וַיִּפְר֥וּ וַיִּרְבּ֖וּ מְאֹֽד׃",
+      "text_kjv": "And Israel dwelt in the land of Egypt, in the country of Goshen; and they had possessions therein, and grew, and multiplied exceedingly.",
+      "rendering": "Israel dwelt in the land of Egypt, in the land of Goshen. They acquired property in it and were fruitful and multiplied greatly.",
+      "translator_notes": [
+        "'They acquired property' (vayyiahazu bah) — from the root achaz, to seize, take hold of, acquire. While the Egyptians are losing their land, Israel is gaining property in Goshen. The contrast is striking and deliberate: Joseph's family prospers in the very land whose native inhabitants are being dispossessed.",
+        "'Were fruitful and multiplied' (vayyifru vayyirbu) — this language directly echoes the creation mandate (1:28) and God's promise to Jacob at Bethel (35:11). The verbs parah (to be fruitful) and ravah (to multiply) are covenant markers. In Egypt, removed from the promised land, Israel begins to fulfill the promise of becoming a great nation. This growth will eventually provoke Pharaoh's fear (Exodus 1:7-10)."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "וַיִּפְרוּ וַיִּרְבּוּ",
+          "transliteration": "vayyifru vayyirbu",
+          "rendered_as": "were fruitful and multiplied",
+          "semantic_range": "were fruitful and increased, bore fruit and became many",
+          "note": "This paired expression is a signature of covenant fulfillment. It first appears in the creation blessing (1:28), is repeated to Noah (9:1, 7), and is promised to the patriarchs. Its appearance here signals that even in Egypt, God's creational and covenantal purposes are advancing. Seventy souls are becoming a nation."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיְחִ֤י יַעֲקֹב֙ בְּאֶ֣רֶץ מִצְרַ֔יִם שְׁבַ֥ע עֶשְׂרֵ֖ה שָׁנָ֑ה וַיְהִ֤י יְמֵֽי־יַעֲקֹב֙ שְׁנֵ֣י חַיָּ֔יו שֶׁ֣בַע שָׁנִ֔ים וְאַרְבָּעִ֥ים וּמְאַ֖ת שָׁנָֽה׃",
+      "text_kjv": "And Jacob lived in the land of Egypt seventeen years: so the whole age of Jacob was an hundred forty and seven years.",
+      "rendering": "Jacob lived in the land of Egypt seventeen years, and the days of Jacob, the years of his life, were one hundred and forty-seven years.",
+      "translator_notes": [
+        "'Seventeen years' — Jacob's final seventeen years in Egypt mirror the seventeen years Joseph spent with his father before being sold (37:2). The number creates a poignant symmetry: the years of separation are answered by years of reunion. Jacob's life ends with the same duration of closeness to Joseph with which it began.",
+        "'One hundred and forty-seven years' — shorter than Abraham (175) and Isaac (180), confirming Jacob's own assessment that his days 'have not reached' those of his fathers (v. 9). Yet these 147 years encompass one of Scripture's most dramatic arcs: from grasping Esau's heel to blessing Pharaoh."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיִּקְרְב֣וּ יְמֵֽי־יִשְׂרָאֵ֮ל לָמוּת֒ וַיִּקְרָ֣א ׀ לִבְנ֣וֹ לְיוֹסֵ֗ף וַיֹּ֤אמֶר לוֹ֙ אִם־נָ֨א מָצָ֤אתִי חֵן֙ בְּעֵינֶ֔יךָ שִֽׂים־נָ֥א יָדְךָ֖ תַּ֣חַת יְרֵכִ֑י וְעָשִׂ֤יתָ עִמָּדִי֙ חֶ֣סֶד וֶאֱמֶ֔ת אַל־נָ֥א תִקְבְּרֵ֖נִי בְּמִצְרָֽיִם׃",
+      "text_kjv": "And the time drew nigh that Israel must die: and he called his son Joseph, and said unto him, If now I have found grace in thy sight, put, I pray thee, thy hand under my thigh, and deal kindly and truly with me; bury me not, I pray thee, in Egypt:",
+      "rendering": "When the time drew near for Israel to die, he called his son Joseph and said to him, \"If now I have found favor in your eyes, please place your hand under my thigh and deal with me in steadfast love and faithfulness. Do not bury me in Egypt.",
+      "translator_notes": [
+        "'Place your hand under my thigh' (sim-na yadekha tachat yerekhi) — this solemn oath gesture appears only twice in Scripture: here and when Abraham's servant swore regarding Isaac's bride (24:2, 9). The thigh (yarekh) is associated with procreative power and descendants. By placing his hand there, Joseph swears by Jacob's offspring — by the covenant future itself. The gesture binds the oath to the most sacred dimension of family continuity.",
+        "'Steadfast love and faithfulness' (chesed ve'emet) — this paired expression describes covenant loyalty enacted in truth. Chesed is lovingkindness that exceeds obligation; emet is reliability, trustworthiness, fidelity. Together they describe the highest form of interpersonal commitment. Jacob asks Joseph not merely for a favor but for an act of covenantal faithfulness.",
+        "'Do not bury me in Egypt' (al-na tiqbereni beMitsrayim) — Jacob's insistence on burial outside Egypt is not merely sentimental. It is a theological statement: Egypt is not home. The land of promise, where Abraham and Isaac are buried, is where Jacob's body must rest. His burial there is an act of faith in God's promise that Israel will return to Canaan."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד וֶאֱמֶת",
+          "transliteration": "chesed ve'emet",
+          "rendered_as": "steadfast love and faithfulness",
+          "semantic_range": "lovingkindness and truth, covenant loyalty and faithfulness, mercy and fidelity",
+          "note": "This word pair is one of Scripture's most important theological expressions. It describes God's own character (Exodus 34:6) and the ideal of human covenant relationships. Jacob asks Joseph for the same quality of faithfulness that God extends to His people — a love that endures and a truth that does not waver."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְשָׁכַבְתִּי֙ עִם־אֲבֹתַ֔י וּנְשָׂאתַ֙נִי֙ מִמִּצְרַ֔יִם וּקְבַרְתַּ֖נִי בִּקְבֻרָתָ֑ם וַיֹּאמַ֕ר אָנֹכִ֖י אֶעֱשֶׂ֥ה כִדְבָרֶֽךָ׃",
+      "text_kjv": "But I will lie with my fathers, and thou shalt carry me out of Egypt, and bury me in their buryingplace. And he said, I will do as thou hast said.",
+      "rendering": "When I lie down with my fathers, you shall carry me out of Egypt and bury me in their burial place.\" He said, \"I will do as you have said.\"",
+      "translator_notes": [
+        "'I will lie down with my fathers' (veshakhavti im-avotai) — the expression 'to lie with one's fathers' is a standard idiom for death that carries the hope of reunion. Jacob envisions joining Abraham, Sarah, Isaac, and Rebekah in the cave of Machpelah — the one piece of the promised land that the patriarchs actually owned.",
+        "'Their burial place' (qivratam) — the cave of Machpelah in Hebron, purchased by Abraham from Ephron the Hittite (chapter 23). This cave is the patriarchal family tomb and the tangible anchor of Israel's claim to the promised land. Jacob's burial there will affirm his belonging to the covenant community and the covenant land."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיֹּ֗אמֶר הִשָּׁבְעָ֣ה לִי֒ וַיִּשָּׁבַ֣ע ל֔וֹ וַיִּשְׁתַּ֥חוּ יִשְׂרָאֵ֖ל עַל־רֹ֥אשׁ הַמִּטָּֽה׃",
+      "text_kjv": "And he said, Swear unto me. And he sware unto him. And Israel bowed himself upon the bed's head.",
+      "rendering": "He said, \"Swear to me.\" So Joseph swore to him. Then Israel bowed in worship at the head of the bed.",
+      "translator_notes": [
+        "'Swear to me' (hishav'ah li) — Jacob requires a formal oath, not merely a promise. The shevuah (oath) invokes God as witness and guarantor, making the commitment inviolable. Jacob's insistence reveals both the gravity of the request and his awareness that circumstances in Egypt might tempt Joseph to bury his father there instead.",
+        "'Israel bowed in worship at the head of the bed' (vayyishtachu Yisra'el al-rosh hamittah) — the verb hishtachavah means to bow down in worship or reverence. Jacob, too frail to rise, worships God from his bed. The LXX (Septuagint) reads 'upon the top of his staff' (matteh instead of mittah), which Hebrews 11:21 follows. Whether bed or staff, the image is the same: a dying patriarch worshipping God in gratitude that his burial in the promised land is secured.",
+        "The switch from 'Jacob' (the human name) to 'Israel' (the covenant name) at this climactic moment is significant. It is Israel — the one who wrestled with God and prevailed — who worships at the end. The covenant identity has the final word."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "וַיִּשְׁתַּחוּ",
+          "transliteration": "vayyishtachu",
+          "rendered_as": "bowed in worship",
+          "semantic_range": "bowed down, prostrated, worshipped",
+          "note": "This verb describes the deepest physical expression of reverence in Hebrew. Jacob's act of worship at the head of his bed is an act of faith: he trusts that God's promises regarding the land will be fulfilled, and he entrusts his body to that future. Hebrews 11:21 cites this moment as exemplary faith."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

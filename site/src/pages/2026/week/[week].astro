@@ -21,6 +21,23 @@ const commPath = join(weekDir, 'commentary.json');
 const hasCommentary = existsSync(commPath);
 const verses: any[] = hasCommentary ? JSON.parse(readFileSync(commPath, 'utf-8')) : [];
 
+// Load TCR data for this week's chapters, keyed by "Book Chapter:Verse"
+const tcrSlugMap: Record<string, string> = { Genesis: 'genesis' };
+const tcrIndex: Record<string, any> = {};
+if (weekData?.chapters) {
+  for (const ch of weekData.chapters) {
+    const slug = tcrSlugMap[ch.book];
+    if (!slug) continue;
+    const padded = String(ch.chapter).padStart(2, '0');
+    const tcrPath = join(root, 'content', 'tcr', slug, `chapter-${padded}.json`);
+    if (!existsSync(tcrPath)) continue;
+    const tcrChapter = JSON.parse(readFileSync(tcrPath, 'utf-8'));
+    for (const v of tcrChapter.verses) {
+      tcrIndex[`${ch.book} ${ch.chapter}:${v.verse}`] = v;
+    }
+  }
+}
+
 const overviewsPath = join(weekDir, 'chapter_overviews.json');
 const overviews: Record<string, string> = existsSync(overviewsPath) ? JSON.parse(readFileSync(overviewsPath, 'utf-8')) : {};
 
@@ -166,7 +183,7 @@ const nextWeek = weekNum < 52 ? weekNum + 1 : null;
           {chapterVerses
             .sort((a: any, b: any) => a.verse - b.verse)
             .map((v: any) => (
-              <VerseCommentary {...v} />
+              <VerseCommentary {...v} tcr={tcrIndex[`${v.book} ${v.chapter}:${v.verse}`] ?? null} />
             ))}
 
           {/* Per-chapter back to top */}
@@ -259,5 +276,33 @@ const nextWeek = weekNum < 52 ? weekNum + 1 : null;
       window.addEventListener('scroll', toggle, { passive: true });
       btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
     }
+
+    // Translation toggle (KJV ↔ TCR)
+    document.querySelectorAll<HTMLButtonElement>('.tx-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        const group = tab.dataset.group!;
+        const targetId = tab.dataset.target!;
+
+        // Update panels
+        document.querySelectorAll<HTMLElement>(`.tx-panel`).forEach(panel => {
+          if (panel.id && panel.id.startsWith(group + '-')) {
+            panel.classList.toggle('hidden', panel.id !== targetId);
+          }
+        });
+
+        // Update tab styles
+        document.querySelectorAll<HTMLButtonElement>(`.tx-tab[data-group="${group}"]`).forEach(t => {
+          const isActive = t === tab;
+          t.setAttribute('aria-selected', String(isActive));
+          if (isActive) {
+            t.style.background = 'var(--color-gold)';
+            t.style.color = '#fff';
+          } else {
+            t.style.background = 'transparent';
+            t.style.color = 'var(--color-text-muted)';
+          }
+        });
+      });
+    });
   </script>
 </Layout>

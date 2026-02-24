@@ -1504,6 +1504,14 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] Nav: `white-space:nowrap` on all links, gap tightened to 1.25rem (0.75rem on small phones), 12px font
 - [x] Nav "This Week" → "This Week — Deep Dive"
 
+**The Covenant Rendering (TCR) Integration (Feb 23, 2026):**
+- [x] TCR Genesis (all 50 chapters) copied into `content/tcr/genesis/` — CC-BY-4.0, translated from WLC by Aaron Blonquist
+- [x] `mcp-server/src/db.ts` — `getTcrChapter()`, `getTcrVerse()`, `getTcrContextForChapters()` functions
+- [x] `pipeline/generate_commentary.py` — loads TCR data per chapter; injects TCR rendering + translator notes + key terms into AI prompt context for Genesis weeks. Future books added as TCR expands.
+- [x] `mcp-server/src/tools/user_ai.ts` — `ask` and `deep_dive` tools load TCR context; Hebrew word studies in `deep_dive` now reference TCR translator notes
+- [x] Deep Dive UI — verse cards for Genesis weeks now show **KJV | TCR** toggle tabs. TCR panel shows: modern rendering, expanded rendering (for chesed/kavod/berit etc.), key terms with Hebrew/transliteration/semantic range, translator notes (collapsible), attribution
+- [x] Site deployed with TCR integration live
+
 **Remaining:**
 - [x] Share with family/ward for feedback — shared Feb 23, 2026
 - [ ] Monitor first fully automated run — Week 10, Saturday March 7
@@ -1587,7 +1595,7 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 2. **Third-Party Content Permissions:** Linking and summarizing is standard fair use. No embedded content. Include "not affiliated" disclaimer on every page.
 3. **Church Trademark Compliance:** Cannot use official Church logos. Must include "not affiliated with The Church of Jesus Christ of Latter-day Saints" disclaimer.
 4. **Commentary Versioning:** When prompts improve, re-run pipeline for historical weeks. Track `generated_by` model version in each commentary entry.
-5. **Multiple Translations:** KJV is standard for LDS use. Consider showing alternate translations as an expandable section in future.
+5. **Multiple Translations:** KJV is standard for LDS use. **The Covenant Rendering (TCR)** has been integrated as the second translation. Other translations (NIV, ESV, etc.) are encumbered by licensing restrictions — TCR was authored specifically to provide a license-free modern English rendering from the Hebrew source text (WLC). TCR is open-source (CC-BY-4.0) and will eventually be published on GitHub.
 6. **Backfill Strategy:** Weeks 1-8 have rich summaries. Full verse-by-verse backfill via Batch API (50% discount) planned for Phase 2.
 7. **Rate Limits:** Monitor Anthropic API rate limits. If weekly pipeline exceeds limits, stagger chapter generation across multiple hours.
 8. **Chat Widget Technology:** Embedded React component calling MCP server via API? Or a third-party chat widget? Recommendation: custom React component for full control over UX and guardrails.

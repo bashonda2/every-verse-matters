@@ -7,6 +7,8 @@ import {
   getSchedule,
   readJSON,
   fileExists,
+  getTcrVerse,
+  getTcrContextForChapters,
 } from "../db.js";
 
 function getClient(): Anthropic {
@@ -33,6 +35,20 @@ function loadCommentaryContext(week: number, year: number): string {
     );
   }
   return chunks.join("\n");
+}
+
+function loadTcrContext(week: number, year: number): string {
+  const weekData = getWeek(week, year);
+  if (!weekData) return "";
+  const context = getTcrContextForChapters(weekData.chapters);
+  if (!context) return "";
+  return (
+    "\n\nTHE COVENANT RENDERING (TCR) — TRANSLATION LAYER:\n" +
+    "Modern English rendering translated directly from the Hebrew (Westminster Leningrad Codex) " +
+    "by Aaron Blonquist (CC-BY-4.0). Includes Hebrew word studies, translator notes, and " +
+    "expanded renderings for covenantal terms. Use this to enrich Hebrew word-level insights.\n\n" +
+    context
+  );
 }
 
 function loadCreatorsContext(week: number, year: number): string {
@@ -144,6 +160,12 @@ export function registerUserAiTools(server: McpServer) {
       if (week) {
         context += loadCommentaryContext(week, year);
         context += "\n\nCREATOR CONTENT:\n" + loadCreatorsContext(week, year);
+        const tcrCtx = loadTcrContext(week, year);
+        if (tcrCtx) context += tcrCtx;
+      } else if (book && chapter) {
+        // No week context, but we can still pull TCR for the viewed chapter
+        const tcrCtx = getTcrContextForChapters([{ book, chapter }]);
+        if (tcrCtx) context += "\n\nTHE COVENANT RENDERING (TCR):\n" + tcrCtx;
       }
 
       const weekData = week ? getWeek(week, year) : null;
@@ -422,12 +444,32 @@ Provide a comparison highlighting:
         ? Object.keys(dimDescriptions).filter((d) => d !== "all")
         : dimensions;
 
+      // Pull TCR data for this specific verse
+      const tcrVerse = getTcrVerse(book, chapter, verse);
+      let tcrBlock = "";
+      if (tcrVerse) {
+        tcrBlock = `\nTHE COVENANT RENDERING (TCR) for ${book} ${chapter}:${verse}:\n` +
+          `  Hebrew (WLC): ${tcrVerse.text_hebrew}\n` +
+          `  KJV: ${tcrVerse.text_kjv}\n` +
+          `  TCR Rendering: ${tcrVerse.rendering}\n` +
+          (tcrVerse.expanded_rendering ? `  Expanded Meaning: ${tcrVerse.expanded_rendering}\n` : "") +
+          (tcrVerse.translator_notes?.length
+            ? `  Translator Notes:\n${tcrVerse.translator_notes.map((n) => `    • ${n}`).join("\n")}\n`
+            : "") +
+          (tcrVerse.key_terms?.length
+            ? `  Key Terms:\n${tcrVerse.key_terms.map((t) =>
+                `    • ${t.hebrew} (${t.transliteration}) → "${t.rendered_as}" — ${t.semantic_range}. ${t.note}`
+              ).join("\n")}\n`
+            : "") +
+          `(TCR by Aaron Blonquist, CC-BY-4.0, translated from Westminster Leningrad Codex)\n`;
+      }
+
       const userMessage = `Provide a deep dive on ${book} ${chapter}:${verse}.
 
-${existingCommentary ? `EXISTING EVM COMMENTARY (go DEEPER than this):\n${existingCommentary}\n\n` : ""}DIMENSIONS TO EXPLORE:
+${existingCommentary ? `EXISTING EVM COMMENTARY (go DEEPER than this):\n${existingCommentary}\n\n` : ""}${tcrBlock ? `${tcrBlock}\n` : ""}DIMENSIONS TO EXPLORE:
 ${selectedDims.map((d) => `- ${dimDescriptions[d]}`).join("\n")}
 
-Go substantially deeper than the standard commentary. This is for a user who wants exhaustive depth on this specific verse.`;
+Go substantially deeper than the standard commentary. This is for a user who wants exhaustive depth on this specific verse.${tcrVerse ? " Leverage the TCR Hebrew word studies and translator notes to illuminate the Hebrew layer." : ""}`;
 
       const stream = client.messages.stream({
         model: "claude-sonnet-4-5-20250929",
