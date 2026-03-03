@@ -1,0 +1,124 @@
+name: Weekly Pipeline
+
+on:
+  schedule:
+    # Every Saturday at 11:00 UTC (4:00 AM Mountain Time)
+    - cron: "0 11 * * 6"
+
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "Week number (leave empty for auto-detect)"
+        required: false
+        type: string
+      skip_deploy:
+        description: "Skip build & deploy step"
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: pipeline-run
+  cancel-in-progress: false
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install site dependencies
+        working-directory: site
+        run: npm ci
+
+      - name: Determine week number
+        id: week
+        run: |
+          if [ -n "${{ inputs.week }}" ]; then
+            echo "num=${{ inputs.week }}" >> "$GITHUB_OUTPUT"
+            echo "Using manual week: ${{ inputs.week }}"
+          else
+            WEEK=$(python3 -c "
+          import sys; sys.path.insert(0, '.')
+          from pipeline.run_pipeline import detect_next_week
+          print(detect_next_week())
+          ")
+            echo "num=$WEEK" >> "$GITHUB_OUTPUT"
+            echo "Auto-detected week: $WEEK"
+          fi
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python3 pipeline/run_pipeline.py ${{ steps.week.outputs.num }}
+
+      - name: Commit generated content
+        run: |
+          git config user.name "EVM Pipeline Bot"
+          git config user.email "pipeline@everyversematters.com"
+          WEEK_PADDED=$(printf "%02d" ${{ steps.week.outputs.num }})
+          git add content/weeks/2026/week-${WEEK_PADDED}/
+          git add logs/pipeline_runs.json
+          if git diff --cached --quiet; then
+            echo "No new content to commit"
+          else
+            git commit -m "Week ${WEEK_PADDED}: auto-generated pipeline content"
+            git push
+          fi
+
+      - name: Build Astro site
+        if: ${{ inputs.skip_deploy != true }}
+        working-directory: site
+        run: npm run build
+
+      - name: Deploy to VPS
+        if: ${{ inputs.skip_deploy != true }}
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$VPS_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
+          rsync -az --delete site/dist/ root@${{ secrets.VPS_HOST }}:/var/www/evm/site/dist/
+
+      - name: Pipeline summary
+        if: always()
+        run: |
+          WEEK_PADDED=$(printf "%02d" ${{ steps.week.outputs.num }})
+          WEEK_DIR="content/weeks/2026/week-${WEEK_PADDED}"
+          echo "## Pipeline Results — Week ${{ steps.week.outputs.num }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f "${WEEK_DIR}/metadata.json" ]; then
+            python3 -c "
+          import json
+          meta = json.load(open('${WEEK_DIR}/metadata.json'))
+          print(f'- **Title:** {meta[\"title\"]}')
+          print(f'- **Scripture:** {meta[\"scripture_block\"]}')
+          print(f'- **Verses generated:** {meta[\"total_verses\"]}')
+          print(f'- **Cost:** \${meta[\"estimated_cost_usd\"]:.2f}')
+          print(f'- **Errors:** {len(meta[\"errors\"])}')
+          " >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No metadata found — pipeline may have failed before commentary generation." >> $GITHUB_STEP_SUMMARY
+          fi

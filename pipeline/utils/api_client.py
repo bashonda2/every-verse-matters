@@ -2,10 +2,22 @@ import os
 import time
 import json
 import anthropic
+import httpx
 from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
+
+_TRANSIENT_ERRORS = (
+    anthropic.RateLimitError,
+    anthropic.InternalServerError,
+    anthropic.APIConnectionError,
+    httpx.RemoteProtocolError,
+    httpx.ReadError,
+    ConnectionResetError,
+    ConnectionError,
+    OSError,
+)
 
 
 def get_client():
@@ -26,7 +38,7 @@ def call_claude(
     user_message,
     model=None,
     max_tokens=16000,
-    max_retries=3,
+    max_retries=4,
 ):
     """Call Claude API with streaming to handle long responses. Returns usage stats and raw text."""
     client = get_client()
@@ -58,16 +70,19 @@ def call_claude(
             }
             return {"text": text, "usage": usage}
 
-        except anthropic.RateLimitError:
-            wait = 2 ** (attempt + 1) * 10
-            print(f"  Rate limited. Waiting {wait}s before retry {attempt + 1}/{max_retries}...")
-            time.sleep(wait)
-        except anthropic.APIError as e:
-            if attempt < max_retries - 1:
-                wait = 2 ** (attempt + 1) * 5
-                print(f"  API error: {e}. Retrying in {wait}s ({attempt + 1}/{max_retries})...")
-                time.sleep(wait)
-            else:
+        except _TRANSIENT_ERRORS as e:
+            if attempt >= max_retries - 1:
                 raise
+            wait = min(2 ** (attempt + 1) * 10, 120)
+            label = type(e).__name__
+            print(f"  {label}: {e}. Retrying in {wait}s ({attempt + 1}/{max_retries})...")
+            time.sleep(wait)
+
+        except anthropic.APIError as e:
+            if attempt >= max_retries - 1:
+                raise
+            wait = 2 ** (attempt + 1) * 5
+            print(f"  API error: {e}. Retrying in {wait}s ({attempt + 1}/{max_retries})...")
+            time.sleep(wait)
 
     raise RuntimeError(f"Failed after {max_retries} retries")
