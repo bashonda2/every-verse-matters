@@ -1,10 +1,10 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** February 23, 2026
+**Last Updated:** March 4, 2026
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline. All 9 weeks live. Homepage tagline + lesson title heading added. Ready to share.
+**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline automated via GitHub Actions (migrated from VPS cron). Batch size 6 verses. Week 10 generating. Ready to share.
 
 ---
 
@@ -365,7 +365,7 @@ PIPELINE_RUNS
 
 Instead of a rigid cron pipeline, EVM is built around an MCP (Model Context Protocol) server hosted on Aaron's VPS. This server exposes tools that can be called:
 - **Interactively** — from Cursor or Claude Desktop, for content review and steering
-- **Programmatically** — from cron for weekly automation
+- **Programmatically** — from GitHub Actions for weekly automation (migrated from VPS cron March 2026)
 - **From the website** — powering the user-facing AI chat
 
 Build once, use everywhere.
@@ -407,7 +407,7 @@ Build once, use everywhere.
 | everyversematters.com chat widget | User-facing AI — members ask questions, get grounded answers |
 | Aaron in Cursor | Interactive builds, content review, steering commentary generation |
 | Aaron in Claude.ai | PM work, strategy, research, Source of Truth updates |
-| Cron job (weekly) | Automated pipeline — calls generate_commentary, discover_creators, verify_urls, publish |
+| GitHub Actions (weekly) | Automated pipeline — runs `run_pipeline.py`, commits content, builds & deploys via rsync |
 | Future admin dashboard | Web UI for monitoring pipeline, reviewing flagged content, viewing analytics |
 
 ### 5.4 Hosting & Infrastructure
@@ -419,8 +419,8 @@ Build once, use everywhere.
   - **stdio transport** (Cursor/Claude Desktop): launched on-demand by IDE. Entry: `dist/server.js`.
   - **HTTP transport** (Phase 3 web chat): `dist/http-server.js`, managed by PM2 as `evm-mcp-http`, listening on `127.0.0.1:3002`. Exposes 4 user-facing tools only (`ask`, `lesson_prep`, `compare_creators`, `deep_dive`). Auth: `MCP_HTTP_API_KEY` (Bearer token). Rate limit: 60 req/min per IP. Live at `https://everyversematters.com/api/mcp`.
   - Ecosystem config: `/var/www/evm/mcp-server/ecosystem.config.cjs`
-- **Python Pipeline:** Venv at `/var/www/evm/venv` — `anthropic`, `python-dotenv`. Run scripts via `source /var/www/evm/venv/bin/activate`.
-- **Cron:** `/var/www/evm/run_weekly_pipeline.sh` — Saturdays 11:00 UTC (4:00 AM MT). Logs: `/var/www/evm/logs/cron/`
+- **Python Pipeline:** Dependencies in `requirements.txt` — `anthropic`, `openai`, `python-dotenv`. Runs in GitHub Actions (Python 3.12) or locally.
+- **CI/CD:** GitHub Actions workflow `.github/workflows/weekly-pipeline.yml` — Saturdays 11:00 UTC (4:00 AM MT). Also supports manual dispatch with explicit week number. Auto-commits content and deploys via rsync. *(Replaced VPS cron in March 2026.)*
 - **Content Store:** JSON files in `/content/` directory (MVP), PostgreSQL planned for Phase 2+
 - **Reverse Proxy:** Nginx — static site served from `/var/www/evm/site/dist/`, API proxy `/api/` → `127.0.0.1:3002` (EVM MCP HTTP server)
 
@@ -452,11 +452,11 @@ Build once, use everywhere.
 | **Styling** | Tailwind CSS | Rapid development, mobile-first, modern aesthetic |
 | **Content Store** | PostgreSQL or SQLite | Structured storage for commentary, creator content, and query logs |
 | **Content Files** | JSON files in `/content/` directory | Simple, git-versioned, fallback for MVP |
-| **Pipeline Client** | Python 3.11+ | Cron script that calls MCP tools in sequence |
+| **Pipeline Client** | Python 3.12+ | GitHub Actions workflow that runs pipeline stages in sequence |
 | **AI API** | Anthropic Claude API (Opus for commentary, Sonnet for summaries, Haiku for audits) | Native web search tool, best quality |
 | **Search** | PostgreSQL FTS or Meilisearch | Full-text search across commentary |
 | **CDN** | Cloudflare (free tier) | Caching, performance, DDoS protection |
-| **Cron** | systemd timer or crontab on VPS | Weekly pipeline scheduling |
+| **CI/CD** | GitHub Actions (cron schedule + manual dispatch) | Weekly pipeline scheduling, auto-commit, deploy |
 | **Monitoring** | Query logs + analytics tools + email alerts | Pipeline and AI interaction health tracking |
 
 ### 5.6 API Endpoints
@@ -487,32 +487,42 @@ This creates thousands of indexable, scripture-rich pages that rank for specific
 
 ---
 
-## 6. AUTOMATED CONTENT PIPELINE — CRON AS MCP CLIENT
+## 6. AUTOMATED CONTENT PIPELINE — GITHUB ACTIONS
 
-The weekly content pipeline is a cron script that calls MCP tools in sequence — the same tools Aaron uses interactively in Cursor and Claude Desktop. The cron job is just one client of the MCP server. The automation produces all content without human intervention; Aaron reviews output but does not need to trigger or manage the process.
+The weekly content pipeline runs as a GitHub Actions workflow (`.github/workflows/weekly-pipeline.yml`). It executes every Saturday at 11:00 UTC (4:00 AM MT) or on manual dispatch with an explicit week number. The workflow generates all content, commits it to the repo, builds the Astro site, and deploys to the VPS via rsync — zero human intervention for standard weekly production. Aaron reviews output but does not need to trigger or manage the process.
 
-### 6.1 Pipeline Sequence (MCP Tool Calls)
+> **History:** Pipeline automation was originally VPS cron (`/var/www/evm/run_weekly_pipeline.sh`). Migrated to GitHub Actions in March 2026 for reliability, visibility, and easier debugging.
+
+### 6.1 Pipeline Sequence
 
 ```
-WEEKLY AUTOMATED PIPELINE (cron — runs every Saturday)
+WEEKLY AUTOMATED PIPELINE (GitHub Actions — runs every Saturday 4:00 AM MT)
 
-1. generate_commentary(current_week + 1)     → Deep Dive content (all verse-by-verse)
-2. discover_creators(current_week + 1)        → third-party content
-3. verify_urls(current_week + 1)              → checks all links
-4. verify_quotes(current_week + 1)            → validates against Source Registry
-5. generate_hook(current_week + 1)            → homepage hook paragraph
-6. generate_snippets(current_week + 1)        → companion snippets for homepage
-7. run_qa(current_week + 1)                   → full QA pass
-8. IF qa_pass: publish(current_week + 1)
-   ELSE: flag_review() and notify Aaron
+1. generate_commentary(next_week)     → Deep Dive content (all verse-by-verse)
+2. discover_creators(next_week)       → third-party content
+3. verify_urls(next_week)             → checks all links (graceful skip if missing)
+4. verify_quotes(next_week)           → validates against Source Registry
+5. generate_hook(next_week)           → homepage hook paragraph
+6. generate_snippets(next_week)       → companion snippets for homepage
+6.5 generate_audio(next_week)         → OpenAI TTS audio
+6.6 verify_references(next_week)      → cross-reference existence check
+6.7 run_qa(next_week)                 → Haiku hallucination audit
+7. git commit + push                  → auto-commits generated content to repo
+8. npm run build                      → Astro static site build
+9. rsync deploy                       → push dist/ to VPS
 ```
 
-Pipeline runs on Saturday morning so content is live before Sunday study. The key point: this is the SAME tools Aaron uses interactively. The cron job is just one client of the MCP server.
+Pipeline runs on Saturday morning so content is live before Sunday study.
 
-**Cron implementation:** `/var/www/evm/run_weekly_pipeline.sh` runs via crontab at `0 11 * * 6` (Saturdays 11:00 UTC = 4:00 AM MT). Uses Python venv at `/var/www/evm/venv`. Logs to `/var/www/evm/logs/cron/` (keeps last 12 runs).
+**GitHub Actions implementation:** `.github/workflows/weekly-pipeline.yml` — cron `0 11 * * 6`. Also supports `workflow_dispatch` with optional `week` input for manual runs. Requires 4 secrets: `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, `VPS_SSH_KEY`, `VPS_HOST`. Auto-commits content with `git pull --rebase` to handle concurrent changes. Posts a summary to the workflow run page with verse count, cost, and error count.
 
-**Full 10-stage pipeline (as of Feb 22):**
-1. `generate_commentary` — verse-by-verse Deep Dive (Haiku, ~$2-4)
+**`run_pipeline.py` flags:**
+- `--skip-build` — skips internal build & deploy (used in CI where GitHub Actions handles deploy separately)
+- `--skip-commentary` — skips commentary generation if content already exists
+- `--dry-run` — show what would run without executing
+
+**Full 10-stage pipeline (as of March 2026):**
+1. `generate_commentary` — verse-by-verse Deep Dive (Haiku, ~$2-4, batch size 6 verses)
 2. `discover_creators` — Claude + web search, 2026 current + 2022 archive passes (~$1-3)
 3. URL verification — graceful skip (to be built)
 4. `verify_quotes` — checks registry, web search, strips unverifiable prophetic quotes
@@ -521,7 +531,7 @@ Pipeline runs on Saturday morning so content is live before Sunday study. The ke
 6.5 `generate_audio` — OpenAI tts-1-hd echo voice (~$0.02)
 6.6 `verify_references` — cross-reference existence check against all Standard Works
 6.7 `run_qa` — Haiku hallucination audit on all verses with quotes/JST; blocks if >10% fail
-7. Build + rsync deploy
+7. Auto-commit + Astro build + rsync deploy
 
 **Anti-hallucination architecture (three layers):**
 - **Layer 1 — Prompt**: `commentary_system.txt` requires all 4 citation fields for any quote (speaker, exact title, month/year, direct quote text). Explicit instruction to omit rather than guess.
@@ -537,54 +547,55 @@ Pipeline runs on Saturday morning so content is live before Sunday study. The ke
 ### 6.2 Stage 1: Commentary Generation
 
 **Script:** `pipeline/generate_commentary.py`
-**API:** Claude API — model `claude-haiku-4-5` for standard weeks; Opus reserved for high-complexity chapters (Isaiah, Job, Psalms) where literary depth justifies cost
-**Trigger:** Cron, every Saturday at 4:00 AM MT
+**API:** Claude API (streaming) — model `claude-haiku-4-5` for standard weeks; Opus reserved for high-complexity chapters (Isaiah, Job, Psalms) where literary depth justifies cost
+**Trigger:** GitHub Actions weekly workflow (Saturdays 4:00 AM MT) or manual dispatch
 **Input:** Week number → looked up in `data/cfm_schedule.json` → returns scripture block
 **Output:** `content/weeks/{year}/week-{nn}/commentary.json`
 
 **Process:**
 1. Read `data/cfm_schedule.json` to determine the NEXT week's scripture block
-2. For each chapter in the block, call Claude API with the Commentary Prompt Template (Section 6.6)
-3. Claude generates verse-by-verse commentary for every verse in the chapter
-4. Response is parsed into structured JSON per verse
+2. For each chapter in the block, split into batches of 6 verses
+3. For each batch, call Claude API (streaming) with the Commentary Prompt Template (Section 6.6)
+4. Response parsed via `json_parser.py` (strips markdown fences, fixes misplaced fields, handles trailing commas)
 5. All chapters assembled into `commentary.json` for the week
 6. Metadata logged to `logs/pipeline_runs.json`
 
 **API Call Structure:**
 ```python
-response = client.messages.create(
-    model="claude-opus-4-6",
-    max_tokens=16000,
-    system=COMMENTARY_SYSTEM_PROMPT,  # From Section 6.6
-    messages=[
-        {
-            "role": "user",
-            "content": f"Generate verse-by-verse commentary for {chapter_reference}. "
-                       f"This is Week {week_num} of Come, Follow Me 2026: '{week_title}'. "
-                       f"Cover every verse. Follow the commentary structure exactly."
-        }
-    ]
-)
+# Uses streaming to avoid 10-minute timeout on long responses
+with client.messages.stream(
+    model="claude-haiku-4-5-20251001",
+    max_tokens=32000,
+    thinking={"type": "disabled"},
+    system=COMMENTARY_SYSTEM_PROMPT,
+    messages=[{"role": "user", "content": user_message}],
+) as stream:
+    response = stream.get_final_message()
 ```
 
-**Chunking Strategy:**
-- Large scripture blocks (10+ chapters) are split into individual chapter calls
-- Each chapter call targets ~8,000-16,000 tokens of output
-- Small chapters (under 15 verses) can be batched 2-3 per call
+**Batching Strategy:**
+- `VERSES_PER_BATCH = 6` — each API call generates commentary for 6 verses
+- Large scripture blocks (10+ chapters) produce ~60 API calls per week
+- Each call generates ~9,000-18,000 output tokens (comfortably within 32,000 max_tokens)
+- Batch size 6 balances runtime (~90 min for a large week) against quality (no meaningful degradation vs batch size 3)
 - The pipeline tracks token usage per call for cost monitoring
+
+**Retry & Error Handling:**
+- `api_client.py` retries on transient errors: `ConnectionResetError`, `httpx.RemoteProtocolError`, `RateLimitError`, `InternalServerError`, `APIConnectionError`
+- Exponential backoff up to 120s, 4 attempts max
+- `json_parser.py` handles markdown code fences (`` ```json ... ``` ``), misplaced commentary fields, extra braces, and trailing commas
+- Failed batches save raw response to `logs/errors/` for debugging; pipeline continues with remaining batches
 
 **Cost Estimate:**
 - Average week: ~150-250 verses across 3-8 chapters
-- Estimated tokens per week: 80,000-150,000 output tokens
-- At Opus pricing: ~$15-30/week
-- Alternative: Use Sonnet for first draft (~$3-5/week), Opus for review pass
-- Annual estimate: $800-1,500 for full year of OT commentary
+- At Haiku pricing: ~$1.50-4.00/week
+- Annual estimate: ~$100-200 for full year of OT commentary
 
 ### 6.3 Stage 2: Third-Party Content Discovery
 
 **Script:** `pipeline/discover_creators.py`
 **API:** Claude API — model `claude-sonnet-4-5-20250929` with `web_search` tool enabled
-**Trigger:** Cron, every Saturday at 6:00 AM MT
+**Trigger:** Stage 2 of GitHub Actions weekly pipeline
 **Input:** Week's scripture block + creator list from `data/sources.json`
 **Output:** `content/weeks/{year}/week-{nn}/creators.json`
 
@@ -631,7 +642,7 @@ response = client.messages.create(
 
 **Script:** `pipeline/verify_and_check.py`
 **API:** Claude API — model `claude-sonnet-4-5-20250929` with `web_search` tool
-**Trigger:** Cron, every Saturday at 7:00 AM MT
+**Trigger:** Stage 3 of GitHub Actions weekly pipeline (currently graceful skip — to be built)
 **Input:** `commentary.json` and `creators.json` from Stages 1-2
 **Output:** Updated files with verification flags + `quality_report.json`
 
@@ -983,7 +994,10 @@ everyversematters/
 │   ├── package.json
 │   └── tsconfig.json
 │
-├── pipeline/                          # Cron client — calls MCP tools in sequence
+├── .github/workflows/
+│   └── weekly-pipeline.yml            # GitHub Actions: weekly cron + manual dispatch
+│
+├── pipeline/                          # Content generation pipeline (called by GitHub Actions)
 │   ├── generate_commentary.py         # Stage 1: Deep Dive commentary generation
 │   ├── discover_creators.py           # Stage 2: Third-party content discovery
 │   ├── verify_and_check.py            # Stage 3: URL verification + QA
