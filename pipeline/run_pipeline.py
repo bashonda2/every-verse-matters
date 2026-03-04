@@ -148,6 +148,7 @@ def main():
     parser.add_argument("week", nargs="?", type=int, help="Week number (default: auto-detect)")
     parser.add_argument("--dry-run", action="store_true", help="Show what would run without executing")
     parser.add_argument("--skip-commentary", action="store_true", help="Skip Stage 1 if commentary already exists")
+    parser.add_argument("--skip-build", action="store_true", help="Skip build & deploy (for CI where deploy is handled separately)")
     args = parser.parse_args()
 
     week_num = args.week or detect_next_week()
@@ -222,9 +223,13 @@ def main():
     # QA failure is warning-only — notify Aaron but don't block publish
     # (run_qa.py exits 1 on failure; we catch and continue with warning)
 
-    # Stage 7: Build & Deploy
-    r = build_and_deploy(dry_run)
-    results.append(r)
+    # Stage 7: Build & Deploy (skipped in CI; GitHub Actions handles this)
+    if args.skip_build:
+        print("\n  Skipping Build & Deploy (--skip-build)")
+        results.append({"stage": "build_deploy", "status": "skipped", "elapsed": 0})
+    else:
+        r = build_and_deploy(dry_run)
+        results.append(r)
 
     # Summary
     print(f"\n{'='*60}")
@@ -241,7 +246,13 @@ def main():
 
     send_notification(week_num, results, dry_run)
 
-    if failures > 0:
+    # Audio and QA failures are non-critical — only fail on content-generation errors
+    non_critical = {"Audio Generation", "QA Audit", "url_verification"}
+    critical_failures = sum(
+        1 for r in results
+        if r["status"] in ("failed", "error") and r["stage"] not in non_critical
+    )
+    if critical_failures > 0:
         sys.exit(1)
 
 

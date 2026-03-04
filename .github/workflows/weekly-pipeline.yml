@@ -65,12 +65,12 @@ jobs:
             echo "Auto-detected week: $WEEK"
           fi
 
-      - name: Run pipeline
+      - name: Run pipeline (generate content)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python3 pipeline/run_pipeline.py ${{ steps.week.outputs.num }}
+          python3 pipeline/run_pipeline.py ${{ steps.week.outputs.num }} --skip-build
 
       - name: Commit generated content
         run: |
@@ -79,6 +79,7 @@ jobs:
           WEEK_PADDED=$(printf "%02d" ${{ steps.week.outputs.num }})
           git add content/weeks/2026/week-${WEEK_PADDED}/
           git add logs/pipeline_runs.json
+          git add -f logs/errors/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No new content to commit"
           else
@@ -91,16 +92,20 @@ jobs:
         working-directory: site
         run: npm run build
 
-      - name: Deploy to VPS
+      - name: Set up SSH for deploy
         if: ${{ inputs.skip_deploy != true }}
-        env:
-          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
         run: |
           mkdir -p ~/.ssh
-          echo "$VPS_SSH_KEY" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
-          rsync -az --delete site/dist/ root@${{ secrets.VPS_HOST }}:/var/www/evm/site/dist/
+
+      - name: Deploy to VPS
+        if: ${{ inputs.skip_deploy != true }}
+        run: |
+          rsync -az --delete -e "ssh -i ~/.ssh/deploy_key" \
+            site/dist/ \
+            root@${{ secrets.VPS_HOST }}:/var/www/evm/site/dist/
 
       - name: Pipeline summary
         if: always()
