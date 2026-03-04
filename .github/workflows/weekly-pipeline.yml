@@ -87,6 +87,7 @@ jobs:
             echo "No new content to commit"
           else
             git commit -m "Week ${WEEK_PADDED}: auto-generated pipeline content"
+            git pull --rebase origin main
             git push
           fi
 
