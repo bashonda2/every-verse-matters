@@ -18,7 +18,7 @@ from pipeline.utils.api_client import call_claude, load_config
 from pipeline.utils.json_parser import extract_json, validate_verse_commentary
 from pipeline.utils.cost_tracker import log_pipeline_run, estimate_cost
 
-VERSES_PER_BATCH = 3
+VERSES_PER_BATCH = 6
 
 
 # Verse counts for OT books used in CFM 2026
