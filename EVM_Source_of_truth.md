@@ -1,10 +1,10 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** March 4, 2026
+**Last Updated:** March 15, 2026
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline automated via GitHub Actions (migrated from VPS cron). Batch size 6 verses. Week 10 generating. Ready to share.
+**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline automated via GitHub Actions (migrated from VPS cron). Batch size 6 verses. Weeks 3-12 live. Automated Saturday runs confirmed working (Mar 7, Mar 14). Contact emails live on both EVM and TCR.
 
 ---
 
@@ -432,6 +432,7 @@ Build once, use everywhere.
 - **Domain:** everyversematters.com (primary), everyversematters.org (redirect)
 - **SSL:** Let's Encrypt via certbot (auto-renewing, cert at `/etc/letsencrypt/live/everyversematters.com/`)
 - **DNS:** Namecheap — A records for `@` and `www` → `209.74.80.143`
+- **Email:** `contact@everyversematters.com` → Gmail via ImprovMX (MX: `mx1/mx2.improvmx.com`). Displayed in site footer and About page. TCR uses `contact@thecovenantrendering.com` → Hotmail via Namecheap email forwarding (separate to preserve TCR's scholarly/interfaith positioning).
 - **VPS Path:** `/var/www/evm/` (site static files + MCP server + content data)
 
 > ⚠️ **DEPLOY PATH — DO NOT GET THIS WRONG:**
@@ -1157,18 +1158,19 @@ Potential premium features:
 ## 9. MVP DEFINITION — WHAT WE BUILD FIRST
 
 ### MVP Scope (Updated)
-- **Homepage** with Week 9 section fully built: hook paragraph, two-column layout (official curriculum left, companion snippets right), link to Deep Dive
-- **Deep Dive page** for Week 9 (Genesis 18-23): full verse-by-verse commentary with all gaps filled, duplicate verses cleaned, chapter overviews added
-- **About page** with Sources section: dynamic, generated from `data/sources_registry.json`, grouped by category
+- **Homepage** with weekly sections fully built: hook paragraph, two-column layout (official curriculum left, companion snippets right), link to Deep Dive
+- **Deep Dive pages** for Weeks 3-12 live with full verse-by-verse commentary
+- **About page** with Sources section: dynamic, generated from `data/sources_registry.json`, grouped by category. Contact email for feedback.
 - All prophetic quotes verified against Source Registry or stripped
 - Clean, mobile-responsive design (two columns stack on mobile)
 - Deployed to VPS at everyversematters.com
+- **Contact:** `contact@everyversematters.com` (forwarded via ImprovMX). TCR uses `contact@thecovenantrendering.com` (forwarded via Namecheap email forwarding). Kept separate to maintain TCR's scholarly independence.
 
 ### MVP Pages (Updated)
-1. **Homepage** — Weekly Feed with Week 9 section (hook + two columns), placeholder sections for other weeks
-2. **Deep Dive: Week 9** — Full verse-by-verse commentary for Genesis 18-23
-3. **About** — Mission, team (Aaron), historical inspiration, Sources section
-4. **All Weeks** — Schedule/index (most weeks placeholder)
+1. **Homepage** — Weekly Feed with sections for all weeks, Deep Dive links for weeks with content
+2. **Deep Dive: Weeks 3-12** — Full verse-by-verse commentary (Genesis 1-41, Moses 2-8, Abraham 1-5)
+3. **About** — Mission, historical inspiration, Sources section, contact email
+4. **All Weeks** — Schedule/index with content status per week
 
 ### What's NOT in MVP
 - User accounts / login
