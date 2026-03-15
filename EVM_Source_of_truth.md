@@ -972,7 +972,7 @@ Return valid JSON:
     "build": "30 7 * * 6",
     "notify": "0 8 * * 6"
   },
-  "notification_email": "aaron@everyversematters.com",
+  "notification_email": "contact@everyversematters.com",
   "cost_alert_threshold_weekly": 50.00,
   "anthropic_api_key_env": "ANTHROPIC_API_KEY"
 }
