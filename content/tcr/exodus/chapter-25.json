@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Exodus",
+    "chapter": 25,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses, saying,",
+      "rendering": "The LORD spoke to Moses, saying,",
+      "translator_notes": [
+        "The tabernacle instructions begin. God initiates — 'The LORD spoke to Moses' — maintaining the pattern that all worship structures originate in divine command, not human invention."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "דַּבֵּר֙ אֶל־בְּנֵ֣י יִשְׂרָאֵ֔ל וְיִקְחוּ־לִ֖י תְּרוּמָ֑ה מֵאֵ֤ת כׇּל־אִישׁ֙ אֲשֶׁ֣ר יִדְּבֶ֣נּוּ לִבּ֔וֹ תִּקְח֖וּ אֶת־תְּרוּמָתִֽי׃",
+      "text_kjv": "Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering.",
+      "rendering": "\"Speak to the sons of Israel, that they take for Me a contribution. From every person whose heart moves him, you shall receive My contribution.",
+      "translator_notes": [
+        "'A contribution' (terumah) — from the verb rum ('to lift up, to raise'). A terumah is something lifted up from one's possessions and given to God. The offering is voluntary: 'from every person whose heart moves him' (kol-ish asher yiddevenu libbo). The tabernacle is funded by willing hearts, not compulsory taxation."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תְּרוּמָה",
+          "transliteration": "terumah",
+          "rendered_as": "contribution",
+          "semantic_range": "contribution, offering, heave offering, that which is lifted up",
+          "note": "From rum ('to lift up'). A terumah is something lifted from one's possessions and dedicated to God. The offering is voluntary ('whose heart moves him'), establishing that the tabernacle is built by willing generosity, not compulsion."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְזֹאת֙ הַתְּרוּמָ֔ה אֲשֶׁ֥ר תִּקְח֖וּ מֵאִתָּ֑ם זָהָ֥ב וָכֶ֖סֶף וּנְחֹֽשֶׁת׃",
+      "text_kjv": "And this is the offering which ye shall take of them; gold, and silver, and brass,",
+      "rendering": "This is the contribution you shall receive from them: gold, silver, and bronze,",
+      "translator_notes": [
+        "The materials list begins with the most precious metals and descends: gold, silver, bronze. The materials that Israel took from Egypt (12:35-36) now find their purpose — what was plundered from the oppressor becomes the raw material for God's dwelling."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וּתְכֵ֧לֶת וְאַרְגָּמָ֛ן וְתוֹלַ֥עַת שָׁנִ֖י וְשֵׁ֥שׁ וְעִזִּֽים׃",
+      "text_kjv": "And blue, and purple, and scarlet, and fine linen, and goats hair,",
+      "rendering": "blue, purple, and scarlet yarn, fine linen, and goats' hair,",
+      "translator_notes": [
+        "The dyed yarns — blue (tekhelet), purple (argaman), scarlet (tola'at shani) — are luxury materials associated with royalty. The tabernacle is a royal residence: God is King, and His dwelling is furnished accordingly."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְעֹרֹ֨ת אֵילִ֧ם מְאׇדָּמִ֛ים וְעֹרֹ֥ת תְּחָשִׁ֖ים וַעֲצֵ֥י שִׁטִּֽים׃",
+      "text_kjv": "And rams’ skins dyed red, and badgers’ skins, and shittim wood,",
+      "rendering": "rams' skins dyed red, fine leather, and acacia wood,",
+      "translator_notes": [
+        "Rams' skins, fine leather (tachash — the exact animal is unknown; proposals include dugong, dolphin, or fine goatskin), and acacia wood (atsei shittim) — desert-available materials. The tabernacle is built from what the wilderness provides, supplemented by what Egypt supplied."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "שֶׁ֖מֶן לַמָּאֹ֑ר בְּשָׂמִים֙ לְשֶׁ֣מֶן הַמִּשְׁחָ֔ה וְלִקְטֹ֖רֶת הַסַּמִּֽים׃",
+      "text_kjv": "Oil for the light, spices for anointing oil, and for sweet incense,",
+      "rendering": "oil for the light, spices for the anointing oil and for the fragrant incense,",
+      "translator_notes": [
+        "Oil for the lamp (the menorah, vv.31-40) and spices for anointing oil and incense. Light and fragrance — the tabernacle engages sight and smell as well as the hearing that dominated Sinai."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "אַבְנֵי־שֹׁ֕הַם וְאַבְנֵ֖י מִלֻּאִ֑ים לָאֵפֹ֖ד וְלַחֹֽשֶׁן׃",
+      "text_kjv": "Onyx stones, and stones to be set in the ephod, and in the breastplate.",
+      "rendering": "onyx stones and stones for setting, for the ephod and for the breastpiece.",
+      "translator_notes": [
+        "Precious stones for the priestly vestments (detailed in ch28). The contribution encompasses the full range of materials: metals, textiles, wood, oils, spices, and gems."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְעָ֥שׂוּ לִ֖י מִקְדָּ֑שׁ וְשָׁכַנְתִּ֖י בְּתוֹכָֽם׃",
+      "text_kjv": "And let them make me a sanctuary; that I may dwell among them.",
+      "rendering": "They are to construct a sanctuary for Me so that I may dwell in their midst.",
+      "expanded_rendering": "'Let them make Me a sanctuary, that I may dwell among them' — the Hebrew shakan ('dwell') is the root of Shekhinah, the concept of God's localized, tangible presence among His people. The tabernacle is not a building for God to visit occasionally but a residence for God to inhabit permanently. The entire exodus — the plagues, the Passover, the sea crossing, the march through the wilderness — has been moving toward this single sentence: God wants to live with His people. Not above them, not beyond them, but among them (betokham, 'in their midst'). The sanctuary makes that possible.",
+      "translator_notes": [
+        "'Let them make Me a sanctuary, that I may dwell among them' (ve'asu li miqdash veshakhanti betokham) — one of the most important verses in Exodus. The word miqdash ('sanctuary') is from qadosh ('holy'): a holy place, a place set apart for God. The verb shakhanti ('I may dwell') is from shakan — the root of Shekhinah. God's stated purpose for the tabernacle is not sacrifice, ceremony, or religion but dwelling: I want to live among you. The destination of the exodus is not merely the promised land but God's presence."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מִקְדָּשׁ ... וְשָׁכַנְתִּי",
+          "transliteration": "miqdash ... veshakhanti",
+          "rendered_as": "sanctuary ... I may dwell",
+          "semantic_range": "holy place, sanctuary; dwell, tabernacle, take up residence",
+          "note": "Miqdash from qadosh ('holy'): a place set apart for God. Shakhanti from shakan ('to dwell'): the root of Shekhinah. The tabernacle's purpose is not primarily sacrifice but dwelling — God living among His people. This verse defines the exodus destination: not merely land but divine presence."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "כְּכֹ֗ל אֲשֶׁ֤ר אֲנִי֙ מַרְאֶ֣ה אוֹתְךָ֔ אֵ֚ת תַּבְנִ֣ית הַמִּשְׁכָּ֔ן וְאֵ֖ת תַּבְנִ֣ית כׇּל־כֵּלָ֑יו וְכֵ֖ן תַּעֲשֽׂוּ׃ {ס}",
+      "text_kjv": "According to all that I shew thee, after the pattern of the tabernacle, and the pattern of all the instruments thereof, even so shall ye make it.",
+      "rendering": "According to all that I show you — the pattern of the tabernacle and the pattern of all its furnishings — so you shall make it.",
+      "translator_notes": [
+        "'The pattern' (tavnit) — the tabernacle is not designed by human creativity but built according to a heavenly blueprint. The word tavnit means 'pattern, model, plan.' The earthly sanctuary replicates a heavenly reality (cf. Hebrews 8:5). The instruction 'so you shall make it' (ken ta'asu) demands exact compliance with the revealed design."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תַּבְנִית",
+          "transliteration": "tavnit",
+          "rendered_as": "pattern",
+          "semantic_range": "pattern, model, plan, blueprint, form",
+          "note": "The tabernacle follows a heavenly original. The earthly sanctuary is a copy of a divine reality. Hebrews 8:5 cites this concept: Moses was shown 'the pattern' on the mountain. Human construction replicates divine design."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְעָשׂ֥וּ אֲר֖וֹן עֲצֵ֣י שִׁטִּ֑ים אַמָּתַ֨יִם וָחֵ֜צִי אׇרְכּ֗וֹ וְאַמָּ֤ה וָחֵ֙צִי֙ רׇחְבּ֔וֹ וְאַמָּ֥ה וָחֵ֖צִי קֹמָתֽוֹ׃",
+      "text_kjv": "And they shall make an ark of shittim wood: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof, and a cubit and a half the height thereof.",
+      "rendering": "They shall make an ark of acacia wood. It shall be two and a half cubits long, a cubit and a half wide, and a cubit and a half high.",
+      "translator_notes": [
+        "The ark (aron) is the first item described because it is the most sacred. It is a wooden chest (approximately 3.75 x 2.25 x 2.25 feet) that will contain the covenant tablets. The word aron is different from tevah (Noah's ark / Moses's basket) — it means a chest or box."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְצִפִּיתָ֤ אֹתוֹ֙ זָהָ֣ב טָה֔וֹר מִבַּ֥יִת וּמִח֖וּץ תְּצַפֶּ֑נּוּ וְעָשִׂ֧יתָ עָלָ֛יו זֵ֥ר זָהָ֖ב סָבִֽיב׃",
+      "text_kjv": "And thou shalt overlay it with pure gold, within and without shalt thou overlay it, and shalt make upon it a crown of gold round about.",
+      "rendering": "You shall overlay it with pure gold — inside and outside you shall overlay it — and you shall make a molding of gold around it.",
+      "translator_notes": [
+        "Gold inside and outside — the ark is entirely gold-covered. The internal gold means that even what is invisible (the interior, which only God sees) is as precious as the exterior. Nothing in God's presence is merely decorative; everything is substantial."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְיָצַ֣קְתָּ לּ֗וֹ אַרְבַּע֙ טַבְּעֹ֣ת זָהָ֔ב וְנָ֣תַתָּ֔ה עַ֖ל אַרְבַּ֣ע פַּעֲמֹתָ֑יו וּשְׁתֵּ֣י טַבָּעֹ֗ת עַל־צַלְעוֹ֙ הָֽאֶחָ֔ת וּשְׁתֵּי֙ טַבָּעֹ֔ת עַל־צַלְע֖וֹ הַשֵּׁנִֽית׃",
+      "text_kjv": "And thou shalt cast four rings of gold for it, and put them in the four corners thereof; and two rings shall be in the one side of it, and two rings in the other side of it.",
+      "rendering": "You shall cast four gold rings for it and put them on its four feet, two rings on one side and two rings on the other.",
+      "translator_notes": [
+        "Four rings for carrying poles ensure the ark can be transported without being touched directly. The holiness of the ark requires mediated handling — even the priests who carry it do not touch its surface."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְעָשִׂ֥יתָ בַדֵּ֖י עֲצֵ֣י שִׁטִּ֑ים וְצִפִּיתָ֥ אֹתָ֖ם זָהָֽב׃",
+      "text_kjv": "And thou shalt make staves of shittim wood, and overlay them with gold.",
+      "rendering": "You shall make poles of acacia wood and overlay them with gold.",
+      "translator_notes": [
+        "Acacia wood overlaid with gold — strength (wood) clothed in glory (gold). The combination appears throughout the tabernacle furniture."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְהֵבֵאתָ֤ אֶת־הַבַּדִּים֙ בַּטַּבָּעֹ֔ת עַ֖ל צַלְעֹ֣ת הָאָרֹ֑ן לָשֵׂ֥את אֶת־הָאָרֹ֖ן בָּהֶֽם׃",
+      "text_kjv": "And thou shalt put the staves into the rings by the sides of the ark, that the ark may be borne with them.",
+      "rendering": "You shall put the poles through the rings on the sides of the ark, to carry the ark by them.",
+      "translator_notes": [
+        "The poles go through the rings for carrying. The ark is designed for movement: it travels with Israel through the wilderness. God's dwelling is not a fixed temple but a portable presence."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "בְּטַבְּעֹת֙ הָאָרֹ֔ן יִהְי֖וּ הַבַּדִּ֑ים לֹ֥א יָסֻ֖רוּ מִמֶּֽנּוּ׃",
+      "text_kjv": "The staves shall be in the rings of the ark: they shall not be taken from it.",
+      "rendering": "The poles shall remain in the rings of the ark; they shall not be removed from it.",
+      "translator_notes": [
+        "'The poles shall not be removed' (lo yasuru mimmennu) — the ark is always ready to move. Even when stationary, the carrying poles remain in place. God's presence is perpetually mobile — He goes where His people go."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְנָתַתָּ֖ אֶל־הָאָרֹ֑ן אֵ֚ת הָעֵדֻ֔ת אֲשֶׁ֥ר אֶתֵּ֖ן אֵלֶֽיךָ׃",
+      "text_kjv": "And thou shalt put into the ark the testimony which I shall give thee.",
+      "rendering": "You shall put into the ark the Testimony that I shall give you.",
+      "translator_notes": [
+        "'The Testimony' (ha'edut) — the stone tablets of the covenant, which will be written by God's own finger (31:18). The ark is, at its core, a container for God's words. The most sacred object in Israel holds text."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְעָשִׂ֥יתָ כַפֹּ֖רֶת זָהָ֣ב טָה֑וֹר אַמָּתַ֤יִם וָחֵ֙צִי֙ אׇרְכָּ֔הּ וְאַמָּ֥ה וָחֵ֖צִי רׇחְבָּֽהּ׃",
+      "text_kjv": "And thou shalt make a mercy seat of pure gold: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof.",
+      "rendering": "You shall make an atonement cover of pure gold, two and a half cubits long and a cubit and a half wide.",
+      "expanded_rendering": "The Hebrew kapporet — rendered 'atonement cover' — is from the root kaphar, meaning to cover over, to ransom, to make reconciliation. The kapporet is not merely the lid of the ark but the specific place where blood is sprinkled on the Day of Atonement (Yom Kippur), covering Israel's sins so that God's presence can continue to dwell among a sinful people. Without the kapporet, the holiness of God and the sinfulness of Israel cannot coexist in the same space. The atonement cover is what makes the Shekhinah possible — it is the theological hinge on which the entire tabernacle turns.",
+      "translator_notes": [
+        "'An atonement cover' (kapporet) — from the root kaphar ('to cover, to atone'). Traditionally rendered 'mercy seat.' The kapporet is the gold lid of the ark, the place where atonement is enacted on Yom Kippur (Leviticus 16:14-15). It is both furniture (a lid) and theology (the place of covering/atonement). This is the first appearance of the kippur register term in a tabernacle context."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כַּפֹּרֶת",
+          "transliteration": "kapporet",
+          "rendered_as": "atonement cover",
+          "semantic_range": "mercy seat, atonement cover, place of covering, propitiatory",
+          "note": "From kaphar ('to cover, to atone'). The kapporet is the gold lid of the ark and the place where the high priest sprinkles blood on Yom Kippur (Leviticus 16). It is simultaneously furniture (a lid) and theology (the place where sin is covered and God's wrath is turned away). This is the first major appearance of the kippur register term in Exodus."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְעָשִׂ֛יתָ שְׁנַ֥יִם כְּרֻבִ֖ים זָהָ֑ב מִקְשָׁה֙ תַּעֲשֶׂ֣ה אֹתָ֔ם מִשְּׁנֵ֖י קְצ֥וֹת הַכַּפֹּֽרֶת׃",
+      "text_kjv": "And thou shalt make two cherubims of gold, of beaten work shalt thou make them, in the two ends of the mercy seat.",
+      "rendering": "You shall make two cherubim of gold. You shall make them of hammered work at the two ends of the atonement cover.",
+      "translator_notes": [
+        "Two cherubim (keruvim) — angelic figures, not the chubby infants of Renaissance art but powerful guardian beings associated with God's throne (cf. Genesis 3:24; Ezekiel 1, 10; Psalm 80:1). They are beaten from the same piece of gold as the kapporet — not attached but integral to the atonement cover."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַ֠עֲשֵׂ֠ה כְּר֨וּב אֶחָ֤ד מִקָּצָה֙ מִזֶּ֔ה וּכְרוּב־אֶחָ֥ד מִקָּצָ֖ה מִזֶּ֑ה מִן־הַכַּפֹּ֛רֶת תַּעֲשׂ֥וּ אֶת־הַכְּרֻבִ֖ים עַל־שְׁנֵ֥י קְצוֹתָֽיו׃",
+      "text_kjv": "And make one cherub on the one end, and the other cherub on the other end: even of the mercy seat shall ye make the cherubims on the two ends thereof.",
+      "rendering": "Make one cherub at one end and one cherub at the other end. Of one piece with the atonement cover you shall make the cherubim at its two ends.",
+      "translator_notes": [
+        "The cherubim and the kapporet are 'one piece' (miqqashah) — hammered from a single mass of gold. The unity of the design means the guardians of God's throne and the place of atonement are inseparable. Where atonement happens, God's throne-guardians are present."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְהָי֣וּ הַכְּרֻבִים֩ פֹּרְשֵׂ֨י כְנָפַ֜יִם לְמַ֗עְלָה סֹכְכִ֤ים בְּכַנְפֵיהֶם֙ עַל־הַכַּפֹּ֔רֶת וּפְנֵיהֶ֖ם אִ֣ישׁ אֶל־אָחִ֑יו אֶ֨ל־הַכַּפֹּ֔רֶת יִהְי֖וּ פְּנֵ֥י הַכְּרֻבִֽים׃",
+      "text_kjv": "And the cherubim shall stretch forth their wings on high, covering the mercy seat with their wings, and their faces shall look one to another; toward the mercy seat shall the faces of the cherubims be.",
+      "rendering": "The cherubim shall spread out their wings above, overshadowing the atonement cover with their wings, facing one another. The faces of the cherubim shall be turned toward the atonement cover.",
+      "translator_notes": [
+        "Wings outstretched, facing each other, looking down at the kapporet — the cherubim create a canopy over the atonement cover. Between their wings, above the kapporet, is where God's presence will be manifest (v22). The space between the cherubim is the most sacred space in all of Israel."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְנָתַתָּ֧ אֶת־הַכַּפֹּ֛רֶת עַל־הָאָרֹ֖ן מִלְמָ֑עְלָה וְאֶל־הָ֣אָרֹ֔ן תִּתֵּן֙ אֶת־הָ֣עֵדֻ֔ת אֲשֶׁ֥ר אֶתֵּ֖ן אֵלֶֽיךָ׃",
+      "text_kjv": "And thou shalt put the mercy seat above upon the ark; and in the ark thou shalt put the testimony that I shall give thee.",
+      "rendering": "You shall put the atonement cover on top of the ark, and in the ark you shall put the Testimony that I shall give you.",
+      "translator_notes": [
+        "The structure is complete: Testimony inside the ark, kapporet on top, cherubim above. The layers move from written word (tablets) to atoning cover (kapporet) to divine presence (between the cherubim). Word, atonement, and presence are architecturally unified."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְנוֹעַדְתִּ֣י לְךָ֮ שָׁם֒ וְדִבַּרְתִּ֨י אִתְּךָ֜ מֵעַ֣ל הַכַּפֹּ֗רֶת מִבֵּין֙ שְׁנֵ֣י הַכְּרֻבִ֔ים אֲשֶׁ֖ר עַל־אֲר֣וֹן הָעֵדֻ֑ת אֵ֣ת כׇּל־אֲשֶׁ֧ר אֲצַוֶּ֛ה אוֹתְךָ֖ אֶל־בְּנֵ֥י יִשְׂרָאֵֽל׃ {פ}",
+      "text_kjv": "And there I will meet with thee, and I will commune with thee from above the mercy seat, from between the two cherubims which are upon the ark of the testimony, of all things which I will give thee in commandment unto the children of Israel.",
+      "rendering": "There I will meet with you, and from above the atonement cover, from between the two cherubim that are on the ark of the Testimony, I will speak with you about all that I will command you concerning the sons of Israel.",
+      "translator_notes": [
+        "'There I will meet with you' (venoadti lekha sham) — the verb ya'ad ('to meet, to appoint') is the root of mo'ed ('meeting, appointed time'). The space above the kapporet, between the cherubim, is the appointed meeting place between God and Moses. God's communication with Israel happens at the point of atonement. The word and the covering are inseparable: God speaks from the place where sin is covered."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "וְנוֹעַדְתִּי לְךָ שָׁם",
+          "transliteration": "venoadti lekha sham",
+          "rendered_as": "there I will meet with you",
+          "semantic_range": "appoint a meeting, meet by arrangement, encounter at the designated place",
+          "note": "From ya'ad ('to appoint, to meet'). The space above the kapporet is the appointed meeting place. God's communication with Israel occurs at the point of atonement — the word is spoken from where sin is covered. Meeting and covering are architecturally and theologically inseparable."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְעָשִׂ֥יתָ שֻׁלְחָ֖ן עֲצֵ֣י שִׁטִּ֑ים אַמָּתַ֤יִם אׇרְכּוֹ֙ וְאַמָּ֣ה רׇחְבּ֔וֹ וְאַמָּ֥ה וָחֵ֖צִי קֹמָתֽוֹ׃",
+      "text_kjv": "Thou shalt also make a table of shittim wood: two cubits shall be the length thereof, and a cubit the breadth thereof, and a cubit and a half the height thereof.",
+      "rendering": "You shall make a table of acacia wood, two cubits long, a cubit wide, and a cubit and a half high.",
+      "translator_notes": [
+        "The table of acacia wood — the second piece of tabernacle furniture. It holds the 'bread of the Presence' (lechem hapanim, v30). The table represents God's provision and fellowship."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְצִפִּיתָ֥ אֹת֖וֹ זָהָ֣ב טָה֑וֹר וְעָשִׂ֥יתָ לּ֛וֹ זֵ֥ר זָהָ֖ב סָבִֽיב׃",
+      "text_kjv": "And thou shalt overlay it with pure gold, and make thereto a crown of gold round about.",
+      "rendering": "You shall overlay it with pure gold and make a molding of gold around it.",
+      "translator_notes": [
+        "Gold overlay, gold molding — the same construction pattern as the ark. Everything in the tabernacle's interior is gold: the furnishings match the sanctuary's holy character."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְעָשִׂ֨יתָ לּ֥וֹ מִסְגֶּ֛רֶת טֹ֖פַח סָבִ֑יב וְעָשִׂ֧יתָ זֵר־זָהָ֛ב לְמִסְגַּרְתּ֖וֹ סָבִֽיב׃",
+      "text_kjv": "And thou shalt make unto it a border of an hand breadth round about, and thou shalt make a golden crown to the border thereof round about.",
+      "rendering": "You shall make a rim around it a handbreadth wide, and a gold molding around the rim.",
+      "translator_notes": [
+        "A rim (misgeret) and molding secure the objects on the table surface. The practical details ensure that the sacred bread is not displaced during transport."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְעָשִׂ֣יתָ לּ֔וֹ אַרְבַּ֖ע טַבְּעֹ֣ת זָהָ֑ב וְנָתַתָּ֙ אֶת־הַטַּבָּעֹ֔ת עַ֚ל אַרְבַּ֣ע הַפֵּאֹ֔ת אֲשֶׁ֖ר לְאַרְבַּ֥ע רַגְלָֽיו׃",
+      "text_kjv": "And thou shalt make for it four rings of gold, and put the rings in the four corners that are on the four feet thereof.",
+      "rendering": "You shall make four gold rings for it and attach the rings to the four corners at its four legs.",
+      "translator_notes": [
+        "Four rings, as with the ark — the table is also portable. Every piece of tabernacle furniture is designed for movement."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "לְעֻמַּת֙ הַמִּסְגֶּ֔רֶת תִּהְיֶ֖יןָ הַטַּבָּעֹ֑ת לְבָתִּ֣ים לְבַדִּ֔ים לָשֵׂ֖את אֶת־הַשֻּׁלְחָֽן׃",
+      "text_kjv": "Over against the border shall the rings be for places of the staves to bear the table.",
+      "rendering": "The rings shall be close to the rim, as holders for the poles to carry the table.",
+      "translator_notes": [
+        "Poles near the rim for carrying — the engineering details are precise. The tabernacle is mobile worship architecture: every piece can be disassembled, carried, and reassembled."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְעָשִׂ֤יתָ אֶת־הַבַּדִּים֙ עֲצֵ֣י שִׁטִּ֔ים וְצִפִּיתָ֥ אֹתָ֖ם זָהָ֑ב וְנִשָּׂא־בָ֖ם אֶת־הַשֻּׁלְחָֽן׃",
+      "text_kjv": "And thou shalt make the staves of shittim wood, and overlay them with gold, that the table may be borne with them.",
+      "rendering": "You shall make the poles of acacia wood and overlay them with gold, and the table shall be carried with them.",
+      "translator_notes": [
+        "Acacia and gold poles — the carrying system is consistent across all major furnishings."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְעָשִׂ֨יתָ קְּעָרֹתָ֜יו וְכַפֹּתָ֗יו וּקְשׂוֹתָיו֙ וּמְנַקִּיֹּתָ֔יו אֲשֶׁ֥ר יֻסַּ֖ךְ בָּהֵ֑ן זָהָ֥ב טָה֖וֹר תַּעֲשֶׂ֥ה אֹתָֽם׃",
+      "text_kjv": "And thou shalt make the dishes thereof, and spoons thereof, and covers thereof, and bowls thereof, to cover withal: of pure gold shalt thou make them.",
+      "rendering": "You shall make its plates, its dishes, its pitchers, and its bowls for pouring drink offerings. You shall make them of pure gold.",
+      "translator_notes": [
+        "Plates, dishes, pitchers, bowls — the tableware for the bread of the Presence and the drink offerings. All pure gold. The table is fully set for the divine meal."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְנָתַתָּ֧ עַֽל־הַשֻּׁלְחָ֛ן לֶ֥חֶם פָּנִ֖ים לְפָנַ֥י תָּמִֽיד׃ {פ}",
+      "text_kjv": "And thou shalt set upon the table shewbread before me alway.",
+      "rendering": "You shall set the bread of the Presence on the table before Me at all times.",
+      "translator_notes": [
+        "'The bread of the Presence' (lechem hapanim) — literally 'bread of the face' or 'face bread.' Twelve loaves (Leviticus 24:5-6), one for each tribe, set before God's face at all times. The bread represents Israel's constant presence before God and God's constant provision for Israel. The table is never empty — the relationship is perpetual."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְעָשִׂ֥יתָ מְנֹרַ֖ת זָהָ֣ב טָה֑וֹר מִקְשָׁ֞ה תֵּעָשֶׂ֤ה*(בספרי ספרד ואשכנז תֵּיעָשֶׂ֤ה) הַמְּנוֹרָה֙ יְרֵכָ֣הּ וְקָנָ֔הּ גְּבִיעֶ֛יהָ כַּפְתֹּרֶ֥יהָ וּפְרָחֶ֖יהָ מִמֶּ֥נָּה יִהְיֽוּ׃",
+      "text_kjv": "And thou shalt make a candlestick of pure gold: of beaten work shall the candlestick be made: his shaft, and his branches, his bowls, his knops, and his flowers, shall be of the same.",
+      "rendering": "You shall make a lampstand of pure gold. The lampstand shall be made of hammered work — its base, its stem, its cups, its buds, and its blossoms shall be of one piece with it.",
+      "translator_notes": [
+        "The lampstand (menorah) — the third major piece. Pure gold, hammered from a single piece (miqqashah, as with the cherubim). The menorah provides light in the tabernacle's interior — without it, the sanctuary is dark. Light in God's dwelling comes from a source God designed."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְשִׁשָּׁ֣ה קָנִ֔ים יֹצְאִ֖ים מִצִּדֶּ֑יהָ שְׁלֹשָׁ֣ה&thinsp;׀ קְנֵ֣י מְנֹרָ֗ה מִצִּדָּהּ֙ הָאֶחָ֔ד וּשְׁלֹשָׁה֙ קְנֵ֣י מְנֹרָ֔ה מִצִּדָּ֖הּ הַשֵּׁנִֽי׃",
+      "text_kjv": "And six branches shall come out of the sides of it; three branches of the candlestick out of the one side, and three branches of the candlestick out of the other side:",
+      "rendering": "Six branches shall extend from its sides — three branches from one side and three branches from the other.",
+      "translator_notes": [
+        "Six branches extend from a central stem — three on each side, plus the central shaft, making seven lights total. The number seven signals completeness (as in creation's seven days). The menorah is a tree of light."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "שְׁלֹשָׁ֣ה גְ֠בִעִ֠ים מְֽשֻׁקָּדִ֞ים בַּקָּנֶ֣ה הָאֶחָד֮ כַּפְתֹּ֣ר וָפֶ֒רַח֒ וּשְׁלֹשָׁ֣ה גְבִעִ֗ים מְשֻׁקָּדִ֛ים בַּקָּנֶ֥ה הָאֶחָ֖ד כַּפְתֹּ֣ר וָפָ֑רַח כֵּ֚ן לְשֵׁ֣שֶׁת הַקָּנִ֔ים הַיֹּצְאִ֖ים מִן־הַמְּנֹרָֽה׃",
+      "text_kjv": "Three bowls made like unto almonds, with a knop and a flower in one branch; and three bowls made like almonds in the other branch, with a knop and a flower: so in the six branches that come out of the candlestick.",
+      "rendering": "Three cups shaped like almond blossoms, each with a bud and a blossom, on one branch, and three cups shaped like almond blossoms, each with a bud and a blossom, on the other branch — so for all six branches extending from the lampstand.",
+      "translator_notes": [
+        "Almond blossom design (meshukadim) — the almond (shaqed) is the first tree to bloom in spring, and its name puns with shoqed ('watching, wakeful'). The menorah's design evokes both natural beauty and divine vigilance. Jeremiah 1:11-12 will play on this same pun."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וּבַמְּנֹרָ֖ה אַרְבָּעָ֣ה גְבִעִ֑ים מְשֻׁ֨קָּדִ֔ים כַּפְתֹּרֶ֖יהָ וּפְרָחֶֽיהָ׃",
+      "text_kjv": "And in the candlestick shall be four bowls made like unto almonds, with their knops and their flowers.",
+      "rendering": "On the lampstand itself there shall be four cups shaped like almond blossoms, with their buds and blossoms.",
+      "translator_notes": [
+        "The central stem has four cups — more than the branches, making it visually dominant. The design radiates from the center outward."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וְכַפְתֹּ֡ר תַּ֩חַת֩ שְׁנֵ֨י הַקָּנִ֜ים מִמֶּ֗נָּה וְכַפְתֹּר֙ תַּ֣חַת שְׁנֵ֤י הַקָּנִים֙ מִמֶּ֔נָּה וְכַפְתֹּ֕ר תַּחַת־שְׁנֵ֥י הַקָּנִ֖ים מִמֶּ֑נָּה לְשֵׁ֙שֶׁת֙ הַקָּנִ֔ים הַיֹּצְאִ֖ים מִן־הַמְּנֹרָֽה׃",
+      "text_kjv": "And there shall be a knop under two branches of the same, and a knop under two branches of the same, and a knop under two branches of the same, according to the six branches that proceed out of the candlestick.",
+      "rendering": "A bud shall be under each pair of branches extending from it — a bud under the first pair, a bud under the second pair, and a bud under the third pair — for the six branches extending from the lampstand.",
+      "translator_notes": [
+        "Buds at each branching point integrate the branches into the central structure. The whole is organic — a single golden tree with seven flowering tops."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "כַּפְתֹּרֵיהֶ֥ם וּקְנֹתָ֖ם מִמֶּ֣נָּה יִהְי֑וּ כֻּלָּ֛הּ מִקְשָׁ֥ה אַחַ֖ת זָהָ֥ב טָהֽוֹר׃",
+      "text_kjv": "Their knops and their branches shall be of the same: all it shall be one beaten work of pure gold.",
+      "rendering": "Their buds and their branches shall be of one piece with it, the whole of it a single piece of hammered work of pure gold.",
+      "translator_notes": [
+        "'A single piece of hammered work' (miqqashah achat) — no soldering, no assembly. The entire menorah is beaten from one talent of gold. The unity of the design reflects the unity of the God it serves."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְעָשִׂ֥יתָ אֶת־נֵרֹתֶ֖יהָ שִׁבְעָ֑ה וְהֶֽעֱלָה֙ אֶת־נֵ֣רֹתֶ֔יהָ וְהֵאִ֖יר עַל־עֵ֥בֶר פָּנֶֽיהָ׃",
+      "text_kjv": "And thou shalt make the seven lamps thereof: and they shall light the lamps thereof, that they may give light over against it.",
+      "rendering": "You shall make seven lamps for it, and the lamps shall be set up so as to give light on the area in front of it.",
+      "translator_notes": [
+        "Seven lamps illuminate the space 'in front of it' (al-ever panehah) — the menorah faces the table of showbread across the sanctuary. Light falls on the bread of the Presence. Provision is visible in the light God provides."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וּמַלְקָחֶ֥יהָ וּמַחְתֹּתֶ֖יהָ זָהָ֥ב טָהֽוֹר׃",
+      "text_kjv": "And the tongs thereof, and the snuffdishes thereof, shall be of pure gold.",
+      "rendering": "Its tongs and its trays shall be of pure gold.",
+      "translator_notes": [
+        "Tongs and trays of pure gold — the tools for maintaining the lamps are as sacred as the lampstand itself. Nothing in the tabernacle is mundane."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "כִּכָּ֛ר זָהָ֥ב טָה֖וֹר יַעֲשֶׂ֣ה אֹתָ֑הּ אֵ֥ת כׇּל־הַכֵּלִ֖ים הָאֵֽלֶּה׃",
+      "text_kjv": "Of a talent of pure gold shall he make it, with all these vessels.",
+      "rendering": "It shall be made, with all these utensils, from a talent of pure gold.",
+      "translator_notes": [
+        "One talent of gold (approximately 75 pounds / 34 kilograms) for the entire menorah and its utensils. The weight is enormous, the craftsmanship extraordinary."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וּרְאֵ֖ה וַעֲשֵׂ֑ה בְּתַ֨בְנִיתָ֔ם אֲשֶׁר־אַתָּ֥ה מׇרְאֶ֖ה בָּהָֽר׃ {ס}",
+      "text_kjv": "And look that thou make them after their pattern, which was shewed thee in the mount.",
+      "rendering": "See that you make them according to the pattern that was shown you on the mountain.\"",
+      "translator_notes": [
+        "'According to the pattern shown you on the mountain' (betavnitam asher-attah mor'eh bahar) — the chapter closes as it began (v9): the earthly tabernacle must replicate the heavenly design. Human creativity serves divine specification. The final word is the mountain — Sinai remains the origin point of everything Israel builds."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Leviticus",
+    "chapter": 4,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses, saying,",
+      "rendering": "The LORD spoke to Moses:",
+      "translator_notes": [
+        "The fourth offering is introduced with the standard divine speech formula. Unlike the olah and shelamim, which are voluntary ('when a person brings'), the chata't is triggered by a specific situation: unintentional sin (v2). The shift from voluntary worship to required response marks a change in the sacrificial system's tone — the next two offerings (chata't and asham) address failure rather than devotion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "דַּבֵּ֞ר אֶל־בְּנֵ֣י יִשְׂרָאֵל֮ לֵאמֹר֒ נֶ֗פֶשׁ כִּֽי־תֶחֱטָ֤א בִשְׁגָגָה֙ מִכֹּל֙ מִצְוֺ֣ת יְהֹוָ֔ה אֲשֶׁ֖ר לֹ֣א תֵעָשֶׂ֑ינָה וְעָשָׂ֕ה מֵאַחַ֖ת מֵהֵֽנָּה׃",
+      "text_kjv": "Speak unto the children of Israel, saying, If a soul shall sin through ignorance against any of the commandments of the LORD concerning things which ought not to be done, and shall do against any of them:",
+      "rendering": "\"Speak to the Israelites and say: When a person sins unintentionally against any of the LORD's commandments — doing what must not be done — and commits one of them:",
+      "expanded_rendering": "The chata't — the purification offering (traditionally 'sin offering') — addresses a specific problem: sin contaminates the sanctuary. When an Israelite sins, even unintentionally, the pollution touches the sacred space where God dwells. The chata't does not primarily cleanse the sinner — it purifies the sanctuary so that God's presence can remain. The blood is applied not to the worshipper but to sacred objects: the altar horns, the veil, the mercy seat. Without regular purification, the accumulated contamination of human sin would drive God's presence out of the tabernacle. The chata't is the offering that keeps God near.",
+      "translator_notes": [
+        "The key phrase is bishgagah ('unintentionally, inadvertently, by mistake'). The chata't addresses sins committed without awareness or intent — violations of God's commands that the person did not realize they were committing. Deliberate, defiant sin (bemad yamim, Num 15:30-31) has no sacrificial remedy. The verb chata ('to sin') originally means 'to miss the mark' — the person aimed at obedience but missed. The chapter will distinguish four categories of offerer (priest, congregation, leader, commoner), each with different procedures, reflecting the principle that greater authority brings greater responsibility."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חַטָּאת",
+          "transliteration": "chata't",
+          "rendered_as": "purification offering",
+          "semantic_range": "sin offering, purification offering, decontamination sacrifice",
+          "note": "From chata ('to miss, to sin'). The chata't is better understood as a 'purification offering' than a 'sin offering' because its primary function is to cleanse the sanctuary from the contamination caused by sin, not to punish the sinner. The blood is applied to sacred objects (altar horns, veil, mercy seat), purifying the space where God dwells. The offering protects divine-human proximity by removing what would force God to withdraw."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אִ֣ם הַכֹּהֵ֧ן הַמָּשִׁ֛יחַ יֶחֱטָ֖א לְאַשְׁמַ֣ת הָעָ֑ם וְהִקְרִ֡יב עַ֣ל חַטָּאתוֹ֩ אֲשֶׁ֨ר חָטָ֜א פַּ֣ר בֶּן־בָּקָ֥ר תָּמִ֛ים לַיהֹוָ֖ה לְחַטָּֽאת׃",
+      "text_kjv": "If the priest that is anointed do sin according to the sin of the people; then let him bring for his sin, which he hath sinned, a young bullock without blemish unto the LORD for a sin offering.",
+      "rendering": "If the anointed priest sins, bringing guilt on the people, he shall present for the sin he has committed an unblemished young bull to the LORD as a purification offering.",
+      "translator_notes": [
+        "The first category: the anointed priest (hakkohen hammashiach — literally 'the messiah-priest,' the anointed one). His sin brings ashmat ha'am ('guilt upon the people') because the priest represents the community before God. A priest's sin contaminates the entire sacrificial system. The required animal — a young bull (par ben-baqar) — is the most expensive offering in the system, reflecting the gravity of priestly failure. What follows (v4-12) is the most elaborate chata't procedure, with blood applied inside the sanctuary itself."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְהֵבִ֣יא אֶת־הַפָּ֗ר אֶל־פֶּ֛תַח אֹ֥הֶל מוֹעֵ֖ד לִפְנֵ֣י יְהֹוָ֑ה וְסָמַ֤ךְ אֶת־יָדוֹ֙ עַל־רֹ֣אשׁ הַפָּ֔ר וְשָׁחַ֥ט אֶת־הַפָּ֖ר לִפְנֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "And he shall bring the bullock unto the door of the tabernacle of the congregation before the LORD; and shall lay his hand upon the bullock's head, and kill the bullock before the LORD.",
+      "rendering": "He shall bring the bull to the entrance of the tent of meeting before the LORD, lay his hand on the bull's head, and slaughter the bull before the LORD.",
+      "translator_notes": [
+        "The opening ritual is identical to the olah and shelamim: bring, lay hand, slaughter. But what follows will differ dramatically — the blood of the priestly chata't goes inside the sanctuary, not just on the outer altar. The semikhah (hand-laying) here identifies the priest with his own sin offering — even the mediator between God and Israel must present his own sacrifice through the same gesture of personal identification."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְלָקַ֛ח הַכֹּהֵ֥ן הַמָּשִׁ֖יחַ מִדַּ֣ם הַפָּ֑ר וְהֵבִ֥יא אֹת֖וֹ אֶל־אֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "And the priest that is anointed shall take of the bullock's blood, and bring it to the tabernacle of the congregation:",
+      "rendering": "The anointed priest shall take some of the bull's blood and bring it into the tent of meeting.",
+      "translator_notes": [
+        "The blood enters the tent of meeting itself — crossing the threshold that the olah blood never crosses. The outer altar receives olah and shelamim blood; the inner sanctuary receives the priestly chata't blood. The deeper the sin penetrates (a priest's sin reaches the heart of the sanctuary), the deeper the blood must go to purify it. This spatial logic — blood follows contamination to its source — governs the entire chata't system."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְטָבַ֧ל הַכֹּהֵ֛ן אֶת־אֶצְבָּע֖וֹ בַּדָּ֑ם וְהִזָּ֨ה מִן־הַדָּ֜ם שֶׁ֤בַע פְּעָמִים֙ לִפְנֵ֣י יְהֹוָ֔ה אֶת־פְּנֵ֖י פָּרֹ֥כֶת הַקֹּֽדֶשׁ׃",
+      "text_kjv": "And the priest shall dip his finger in the blood, and sprinkle of the blood seven times before the LORD, before the vail of the sanctuary.",
+      "rendering": "The priest shall dip his finger in the blood and sprinkle some of the blood seven times before the LORD, in front of the veil of the sanctuary.",
+      "translator_notes": [
+        "Seven sprinklings (hizzah sheva pe'amim) before the parokhet — the curtain separating the holy place from the most holy place. Seven is the number of completeness; seven applications ensure thorough purification. The finger-dipping and sprinkling technique (hizzah, distinct from zaraq/'dashing') produces a fine spray directed at the veil — the boundary of God's innermost dwelling. The priest's sin has contaminated the boundary of the holy of holies, and the blood must reach that boundary to cleanse it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְנָתַן֩ הַכֹּהֵ֨ן מִן־הַדָּ֜ם עַל־קַ֠רְנ֠וֹת מִזְבַּ֨ח קְטֹ֤רֶת הַסַּמִּים֙ לִפְנֵ֣י יְהֹוָ֔ה אֲשֶׁ֖ר בְּאֹ֣הֶל מוֹעֵ֑ד וְאֵ֣ת כׇּל־דַּ֣ם הַ֠פָּ֠ר יִשְׁפֹּ֗ךְ אֶל־יְסוֹד֙ מִזְבַּ֣ח הָעֹלָ֔ה אֲשֶׁר־פֶּ֖תַח אֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "And the priest shall put some of the blood upon the horns of the altar of sweet incense before the LORD, which is in the tabernacle of the congregation; and shall pour all the blood of the bullock at the bottom of the altar of the burnt offering, which is at the door of the tabernacle of the congregation.",
+      "rendering": "The priest shall put some of the blood on the horns of the incense altar before the LORD, which is inside the tent of meeting. All the remaining blood of the bull he shall pour out at the base of the burnt offering altar at the entrance of the tent of meeting.",
+      "translator_notes": [
+        "The blood is applied to two locations: first on the horns of the inner incense altar (the qarnot — projections at the four corners, considered the most potent points of the altar), then the remainder poured at the base of the outer burnt offering altar. The blood moves from inside to outside — purifying both the inner and outer sacred zones. The horns represent the altar's power and efficacy; placing blood on them purifies the instrument of worship itself."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְאֶת־כׇּל־חֵ֛לֶב פַּ֥ר הַחַטָּ֖את יָרִ֣ים מִמֶּ֑נּוּ אֶת־הַחֵ֙לֶב֙ הַֽמְכַסֶּ֣ה עַל־הַקֶּ֔רֶב וְאֵת֙ כׇּל־הַחֵ֔לֶב אֲשֶׁ֖ר עַל־הַקֶּֽרֶב׃",
+      "text_kjv": "And he shall take off from it all the fat of the bullock for the sin offering; the fat that covereth the inwards, and all the fat that is upon the inwards,",
+      "rendering": "He shall remove all the fat from the bull of the purification offering — the fat covering the entrails and all the fat surrounding the entrails,",
+      "translator_notes": [
+        "The fat procedure follows the same pattern as the shelamim (3:3-4) — the chelev covering the internal organs is removed for burning on the altar. Even in a purification offering, the fat belongs to God. The chata't differs from the olah (which is entirely burned) and the shelamim (which is shared): the fat goes to the altar, but the meat is neither shared with the worshipper nor entirely consumed on the altar — for the priestly chata't, the meat is burned outside the camp (v12)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְאֵת֙ שְׁתֵּ֣י הַכְּלָיֹ֔ת וְאֶת־הַחֵ֙לֶב֙ אֲשֶׁ֣ר עֲלֵיהֶ֔ן אֲשֶׁ֖ר עַל־הַכְּסָלִ֑ים וְאֶת־הַיֹּתֶ֙רֶת֙ עַל־הַכָּבֵ֔ד עַל־הַכְּלָיֹ֖ת יְסִירֶֽנָּה׃",
+      "text_kjv": "And the two kidneys, and the fat that is upon them, which is by the flanks, and the caul above the liver, with the kidneys, it shall he take away,",
+      "rendering": "the two kidneys and the fat on them near the loins, and the lobe of the liver — he shall remove it along with the kidneys,",
+      "translator_notes": [
+        "The kidney-liver-lobe formula, identical to 3:4, 3:10, 3:15. The same internal organs belong to God regardless of offering type. This consistency across olah, shelamim, and chata't establishes a fixed principle: the innermost fat is always God's portion, never consumed by priest or worshipper."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כַּאֲשֶׁ֣ר יוּרַ֔ם מִשּׁ֖וֹר זֶ֣בַח הַשְּׁלָמִ֑ים וְהִקְטִירָם֙ הַכֹּהֵ֔ן עַ֖ל מִזְבַּ֥ח הָעֹלָֽה׃",
+      "text_kjv": "As it was taken off from the bullock of the sacrifice of peace offerings: and the priest shall burn them upon the altar of the burnt offering.",
+      "rendering": "just as the fat is removed from the bull of the peace offering. The priest shall turn them into smoke on the burnt offering altar.",
+      "translator_notes": [
+        "The explicit comparison — 'just as from the bull of the peace offering' (ka'asher yuram mishor zevach hashelamim) — links the chata't fat procedure to the shelamim. The sacrificial system is internally cross-referential: each offering borrows from and builds upon the others. The fat goes to the same altar and the same fire regardless of whether the occasion is celebration (shelamim) or purification (chata't)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְאֶת־ע֤וֹר הַפָּר֙ וְאֶת־כׇּל־בְּשָׂר֔וֹ עַל־רֹאשׁ֖וֹ וְעַל־כְּרָעָ֑יו וְקִרְבּ֖וֹ וּפִרְשֽׁוֹ׃",
+      "text_kjv": "And the skin of the bullock, and all his flesh, with his head, and with his legs, and his inwards, and his dung,",
+      "rendering": "But the hide of the bull, all its flesh, its head, its legs, its entrails, and its dung —",
+      "translator_notes": [
+        "Everything not burned on the altar — hide, flesh, head, legs, entrails, dung — is listed for disposal outside the camp (v12). Unlike the olah (where everything is burned on the altar) and the shelamim (where the worshipper eats much of it), the priestly chata't meat goes to neither altar nor table. It is too holy for the worshipper but cannot go on the altar because the blood was applied inside the sanctuary. The meat is in a liminal category — sacred but unusable — and must be destroyed outside the camp."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְהוֹצִ֣יא אֶת־כׇּל־הַ֠פָּ֠ר אֶל־מִח֨וּץ לַֽמַּחֲנֶ֜ה אֶל־מָק֤וֹם טָהוֹר֙ אֶל־שֶׁ֣פֶךְ הַדֶּ֔שֶׁן וְשָׂרַ֥ף אֹת֛וֹ עַל־עֵצִ֖ים בָּאֵ֑שׁ עַל־שֶׁ֣פֶךְ הַדֶּ֔שֶׁן יִשָּׂרֵֽף׃ {ס}",
+      "text_kjv": "Even the whole bullock shall he carry forth without the camp unto a clean place, where the ashes are poured out, and burn him on the wood with fire: where the ashes are poured out shall he be burnt.",
+      "rendering": "the entire bull he shall carry outside the camp to a ritually clean place, to the ash dump, and burn it on a wood fire. It shall be burned at the ash dump.",
+      "translator_notes": [
+        "The bull is carried outside the camp (el-michutz lamachaneh) — beyond the boundaries of the community — and burned at the shefekh haddeshen ('ash dump,' where altar ashes are deposited). The location must be tahor ('ritually clean'), not because the bull is profane but because it is laden with absorbed impurity from the sanctuary purification. The author of Hebrews connects this practice to Jesus suffering 'outside the gate' (Heb 13:11-12). The burning outside the camp completes the priestly chata't procedure — the most elaborate in the entire sacrificial system."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְאִ֨ם כׇּל־עֲדַ֤ת יִשְׂרָאֵל֙ יִשְׁגּ֔וּ וְנֶעְלַ֣ם דָּבָ֔ר מֵעֵינֵ֖י הַקָּהָ֑ל וְ֠עָשׂ֠וּ אַחַ֨ת מִכׇּל־מִצְוֺ֧ת יְהֹוָ֛ה אֲשֶׁ֥ר לֹא־תֵעָשֶׂ֖ינָה וְאָשֵֽׁמוּ׃",
+      "text_kjv": "And if the whole congregation of Israel sin through ignorance, and the thing be hid from the eyes of the assembly, and they have done somewhat against any of the commandments of the LORD concerning things which should not be done, and are guilty;",
+      "rendering": "If the entire community of Israel sins unintentionally — the matter being hidden from the eyes of the assembly — and they do what is forbidden by any of the LORD's commandments, and they incur guilt,",
+      "translator_notes": [
+        "The second category: the entire congregation (kol-adat Yisra'el). Collective, unintentional sin is possible when the community as a whole violates a commandment without realizing it — perhaps through a misunderstanding of the law or an oversight by the leadership. The phrase ne'elam davar me'einei haqqahal ('the matter was hidden from the assembly's eyes') emphasizes that ignorance, not defiance, triggers this procedure. The communal chata't requires the same bull as the priestly chata't (v14), reinforcing the gravity of collective failure."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְנוֹדְעָה֙ הַֽחַטָּ֔את אֲשֶׁ֥ר חָטְא֖וּ עָלֶ֑יהָ וְהִקְרִ֨יבוּ הַקָּהָ֜ל פַּ֤ר בֶּן־בָּקָר֙ לְחַטָּ֔את וְהֵבִ֣יאוּ אֹת֔וֹ לִפְנֵ֖י אֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "When the sin, which they have sinned against it, is known, then the congregation shall offer a young bullock for the sin, and bring him before the tabernacle of the congregation.",
+      "rendering": "when the sin they have committed becomes known, the assembly shall present a young bull as a purification offering and bring it before the tent of meeting.",
+      "translator_notes": [
+        "The purification offering is triggered when the sin 'becomes known' (nod'ah) — awareness of the violation initiates the sacrificial response. The congregation collectively provides the bull (not individuals separately), and the elders represent the community in the hand-laying (v15). The same animal — a young bull, the most costly offering — is required for both priestly and communal sin, establishing equivalence between the priest's failure and the community's failure in terms of their impact on the sanctuary."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְ֠סָמְכ֠וּ זִקְנֵ֨י הָעֵדָ֧ה אֶת־יְדֵיהֶ֛ם עַל־רֹ֥אשׁ הַפָּ֖ר לִפְנֵ֣י יְהֹוָ֑ה וְשָׁחַ֥ט אֶת־הַפָּ֖ר לִפְנֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "And the elders of the congregation shall lay their hands upon the head of the bullock before the LORD: and the bullock shall be killed before the LORD.",
+      "rendering": "The elders of the community shall lay their hands on the bull's head before the LORD, and the bull shall be slaughtered before the LORD.",
+      "translator_notes": [
+        "The elders (ziqnei ha'edah) perform the semikhah on behalf of the whole congregation — they are the community's representatives in the act of identification. Multiple hands on one animal: the corporate nature of this offering is made physical. The passive 'shall be slaughtered' (shachat) leaves the agent unspecified — the slaughter may be performed by the elders, a designated individual, or a priest."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְהֵבִ֛יא הַכֹּהֵ֥ן הַמָּשִׁ֖יחַ מִדַּ֣ם הַפָּ֑ר אֶל־אֹ֖הֶל מוֹעֵֽד׃",
+      "text_kjv": "And the priest that is anointed shall bring of the bullock's blood to the tabernacle of the congregation:",
+      "rendering": "The anointed priest shall bring some of the bull's blood into the tent of meeting.",
+      "translator_notes": [
+        "The same anointed priest who offered his own chata't (v3-12) now mediates the community's purification. The blood again enters the tent of meeting — communal sin, like priestly sin, penetrates to the inner sanctuary. The procedure from v16-21 closely parallels v5-12, creating a structural echo: what contaminates the sanctuary at the deepest level requires the same intensive purification."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְטָבַ֧ל הַכֹּהֵ֛ן אֶצְבָּע֖וֹ מִן־הַדָּ֑ם וְהִזָּ֞ה שֶׁ֤בַע פְּעָמִים֙ לִפְנֵ֣י יְהֹוָ֔ה אֵ֖ת פְּנֵ֥י הַפָּרֹֽכֶת׃",
+      "text_kjv": "And the priest shall dip his finger in some of the blood, and sprinkle it seven times before the LORD, even before the vail.",
+      "rendering": "The priest shall dip his finger in the blood and sprinkle it seven times before the LORD, in front of the veil.",
+      "translator_notes": [
+        "Identical to v6 — seven sprinklings before the veil. The blood purification for communal sin reaches the same depth as for priestly sin. The repetition of the exact procedure reinforces the principle: the gravity of contamination is measured not by the offerer's status but by the contamination's proximity to God's presence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וּמִן־הַדָּ֗ם יִתֵּ֞ן עַל־קַרְנֹ֤ת הַמִּזְבֵּ֙חַ֙ אֲשֶׁר֙ לִפְנֵ֣י יְהֹוָ֔ה אֲשֶׁ֖ר בְּאֹ֣הֶל מוֹעֵ֑ד וְאֶת־כׇּל־הַדָּם֙ יִשְׁפֹּ֔ךְ אֶל־יְסוֹד֙ מִזְבַּ֣ח הָעֹלָ֔ה אֲשֶׁר־פֶּ֖תַח אֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "And he shall put some of the blood upon the horns of the altar which is before the LORD, that is in the tabernacle of the congregation, and shall pour out all the blood at the bottom of the altar of the burnt offering, which is at the door of the tabernacle of the congregation.",
+      "rendering": "He shall put some of the blood on the horns of the altar that stands before the LORD inside the tent of meeting. All the remaining blood he shall pour out at the base of the burnt offering altar at the entrance of the tent of meeting.",
+      "translator_notes": [
+        "The two-altar blood application — inner incense altar horns, then outer altar base — mirrors v7 exactly. The same dual purification addresses the same depth of contamination. The inner altar's horns and the outer altar's foundation together represent the full vertical extent of sacred space: from the innermost point of worship to the very ground of the sacrificial system."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְאֵ֥ת כׇּל־חֶלְבּ֖וֹ יָרִ֣ים מִמֶּ֑נּוּ וְהִקְטִ֖יר הַמִּזְבֵּֽחָה׃",
+      "text_kjv": "And he shall take all his fat from him, and burn it upon the altar.",
+      "rendering": "He shall remove all its fat and turn it into smoke on the altar.",
+      "translator_notes": [
+        "The fat procedure is abbreviated here — 'all its fat' (kol-chelbo) without the detailed organ-by-organ list of v8-10. The text assumes the reader now knows which fat portions are meant: the internal organ fat, kidney fat, and liver lobe specified in the priestly chata't section and in the shelamim (ch 3). Abbreviation through familiarity is a feature of Levitical legislation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְעָשָׂ֣ה לַפָּ֔ר כַּאֲשֶׁ֤ר עָשָׂה֙ לְפַ֣ר הַֽחַטָּ֔את כֵּ֖ן יַעֲשֶׂה־לּ֑וֹ וְכִפֶּ֧ר עֲלֵהֶ֛ם הַכֹּהֵ֖ן וְנִסְלַ֥ח לָהֶֽם׃",
+      "text_kjv": "And he shall do with the bullock as he did with the bullock for a sin offering, so shall he do with this: and the priest shall make an atonement for them, and it shall be forgiven them.",
+      "rendering": "He shall do with the bull exactly as he did with the bull of the priestly purification offering — so shall he do with this one. The priest shall make atonement for them, and they shall be forgiven.",
+      "translator_notes": [
+        "The explicit cross-reference ('as he did with the bull of the chata't') confirms that the communal and priestly procedures are identical. The chapter's climactic phrase appears for the first time: veniselach lahem ('and they shall be forgiven'). The Hebrew n-s-l-ch ('forgive') appears only with God as subject — only God can forgive. The sacrificial system does not generate forgiveness mechanically; it provides the means through which God, who alone can forgive, chooses to do so."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "וְנִסְלַח",
+          "transliteration": "veniselach",
+          "rendered_as": "they shall be forgiven",
+          "semantic_range": "to be forgiven, to be pardoned, to receive remission",
+          "note": "The verb salach ('to forgive') is used exclusively with God as subject in the Hebrew Bible — no human ever 'salachs' another. Divine forgiveness is not automatic; it is a sovereign act that the sacrifice makes possible but does not compel. The passive 'shall be forgiven' (niselach) is a divine passive — the unstated agent is God Himself."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְהוֹצִ֣יא אֶת־הַפָּ֗ר אֶל־מִחוּץ֙ לַֽמַּחֲנֶ֔ה וְשָׂרַ֣ף אֹת֔וֹ כַּאֲשֶׁ֣ר שָׂרַ֔ף אֵ֖ת הַפָּ֣ר הָרִאשׁ֑וֹן חַטַּ֥את הַקָּהָ֖ל הֽוּא׃ {ס}",
+      "text_kjv": "And he shall carry forth the bullock without the camp, and burn him as he burned the first bullock: it is a sin offering for the congregation.",
+      "rendering": "He shall carry the bull outside the camp and burn it just as he burned the first bull. It is the purification offering of the assembly.",
+      "translator_notes": [
+        "The communal bull is burned outside the camp, exactly as the priestly bull (v12). The closing identification — chattat haqqahal hu ('it is the purification offering of the assembly') — names the offering formally. The first two categories (priest and congregation) share identical procedures because both contaminate the inner sanctuary. The next two categories (leader and commoner) will have simpler procedures because their sins affect only the outer altar."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "אֲשֶׁ֥ר נָשִׂ֖יא יֶֽחֱטָ֑א וְעָשָׂ֡ה אַחַ֣ת מִכׇּל־מִצְוֺת֩ יְהֹוָ֨ה אֱלֹהָ֜יו אֲשֶׁ֧ר לֹא־תֵעָשֶׂ֛ינָה בִּשְׁגָגָ֖ה וְאָשֵֽׁם׃",
+      "text_kjv": "When a ruler hath sinned, and done somewhat through ignorance against any of the commandments of the LORD his God concerning things which should not be done, and is guilty;",
+      "rendering": "When a leader sins, doing unintentionally what is forbidden by any commandment of the LORD his God, and incurs guilt,",
+      "translator_notes": [
+        "The third category: the nasi ('leader, ruler, chieftain'). The word asher ('when') rather than im ('if') introduces this section — some scholars note this as an expectation that leaders will sin, not merely a hypothetical. The nasi is a tribal or civic leader, below the priest but above the common Israelite. His offering (a male goat, v23) is less costly than the priestly/communal bull but more than the commoner's female goat or lamb (v28, 32). The graduated scale reflects a principle: authority corresponds to both responsibility and required sacrifice."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "אוֹ־הוֹדַ֤ע אֵלָיו֙ חַטָּאת֔וֹ אֲשֶׁ֥ר חָטָ֖א בָּ֑הּ וְהֵבִ֧יא אֶת־קׇרְבָּנ֛וֹ שְׂעִ֥יר עִזִּ֖ים זָכָ֥ר תָּמִֽים׃",
+      "text_kjv": "Or if his sin, wherein he hath sinned, come to his knowledge; he shall bring his offering, a kid of the goats, a male without blemish:",
+      "rendering": "or when his sin is made known to him, he shall bring as his offering an unblemished male goat.",
+      "translator_notes": [
+        "Again, the sin must be 'made known' (hoda elav) before the offering is triggered — unknowing sin requires discovery before it can be addressed. The leader's animal is a male goat (se'ir izzim zakhar) — male because of his public authority, goat rather than bull because his sin affects the outer altar, not the inner sanctuary. The graduated animal scale matches the graduated blood application: inner sanctuary receives bull blood; outer altar receives goat blood."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְסָמַ֤ךְ יָדוֹ֙ עַל־רֹ֣אשׁ הַשָּׂעִ֔יר וְשָׁחַ֣ט אֹת֔וֹ בִּמְק֛וֹם אֲשֶׁר־יִשְׁחַ֥ט אֶת־הָעֹלָ֖ה לִפְנֵ֣י יְהֹוָ֑ה חַטָּ֖את הֽוּא׃",
+      "text_kjv": "And he shall lay his hand upon the head of the goat, and kill it in the place where they kill the burnt offering before the LORD: it is a sin offering.",
+      "rendering": "He shall lay his hand on the goat's head and slaughter it at the place where the burnt offering is slaughtered before the LORD. It is a purification offering.",
+      "translator_notes": [
+        "The goat is slaughtered at the same location as the olah — the north side of the altar (1:11). This spatial overlap connects the chata't to the olah: purification and devotion share the same sacred ground. The identification chattat hu ('it is a purification offering') formally classifies the sacrifice. Unlike the priestly chata't, the leader's blood stays on the outer altar — it does not enter the tent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְלָקַ֨ח הַכֹּהֵ֜ן מִדַּ֤ם הַחַטָּאת֙ בְּאֶצְבָּע֔וֹ וְנָתַ֕ן עַל־קַרְנֹ֖ת מִזְבַּ֣ח הָעֹלָ֑ה וְאֶת־דָּמ֣וֹ יִשְׁפֹּ֔ךְ אֶל־יְס֖וֹד מִזְבַּ֥ח הָעֹלָֽה׃",
+      "text_kjv": "And the priest shall take of the blood of the sin offering with his finger, and put it upon the horns of the altar of burnt offering, and shall pour out his blood at the bottom of the altar of burnt offering.",
+      "rendering": "The priest shall take some of the blood of the purification offering with his finger and put it on the horns of the burnt offering altar. The remaining blood he shall pour out at the base of the burnt offering altar.",
+      "translator_notes": [
+        "The critical difference: the leader's blood goes only on the outer altar — the horns of the burnt offering altar, not the inner incense altar (contrast v7, v18). The leader's sin contaminates the outer sacred zone but does not reach the inner sanctuary. The spatial logic is consistent: the blood goes where the contamination has reached, and a leader's sin does not penetrate as deeply as a priest's or the congregation's."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְאֶת־כׇּל־חֶלְבּוֹ֙ יַקְטִ֣יר הַמִּזְבֵּ֔חָה כְּחֵ֖לֶב זֶ֣בַח הַשְּׁלָמִ֑ים וְכִפֶּ֨ר עָלָ֧יו הַכֹּהֵ֛ן מֵחַטָּאת֖וֹ וְנִסְלַ֥ח לֽוֹ׃ {ס}",
+      "text_kjv": "And he shall burn all his fat upon the altar, as the fat of the sacrifice of peace offerings: and the priest shall make an atonement for him as concerning his sin, and it shall be forgiven him.",
+      "rendering": "All its fat he shall turn into smoke on the altar, like the fat of the peace offering. The priest shall make atonement for him for his sin, and he shall be forgiven.",
+      "translator_notes": [
+        "The fat procedure again references the shelamim as its model ('like the fat of the peace offering'). The closing formula — kipper... veniselach lo — declares the result: atonement accomplished, forgiveness granted. The leader's sin required a less elaborate procedure than the priest's or congregation's, but the outcome is identical: full forgiveness. The graduated system ensures proportional procedure, not proportional forgiveness."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְאִם־נֶ֧פֶשׁ אַחַ֛ת תֶּחֱטָ֥א בִשְׁגָגָ֖ה מֵעַ֣ם הָאָ֑רֶץ בַּ֠עֲשֹׂתָ֠הּ אַחַ֨ת מִמִּצְוֺ֧ת יְהֹוָ֛ה אֲשֶׁ֥ר לֹא־תֵעָשֶׂ֖ינָה וְאָשֵֽׁם׃",
+      "text_kjv": "And if any one of the common people sin through ignorance, while he doeth somewhat against any of the commandments of the LORD concerning things which ought not to be done, and be guilty;",
+      "rendering": "If any individual among the common people sins unintentionally, doing what is forbidden by any of the LORD's commandments, and incurs guilt,",
+      "translator_notes": [
+        "The fourth and final category: the ordinary Israelite (nephesh achat me'am ha'arets — 'one person from the people of the land'). This is the most accessible tier — two animal options will be given (female goat v28, or female lamb v32), both less costly than the leader's male goat. The phrase am ha'arets ('people of the land') simply means the common population, without the later pejorative connotation it acquired in rabbinic usage."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "א֚וֹ הוֹדַ֣ע אֵלָ֔יו חַטָּאת֖וֹ אֲשֶׁ֣ר חָטָ֑א וְהֵבִ֨יא קׇרְבָּנ֜וֹ שְׂעִירַ֤ת עִזִּים֙ תְּמִימָ֣ה נְקֵבָ֔ה עַל־חַטָּאת֖וֹ אֲשֶׁ֥ר חָטָֽא׃",
+      "text_kjv": "Or if his sin, which he hath sinned, come to his knowledge: then he shall bring his offering, a kid of the goats, a female without blemish, for his sin which he hath sinned.",
+      "rendering": "or when the sin committed is made known, the person shall bring as an offering an unblemished female goat for the sin committed.",
+      "translator_notes": [
+        "The commoner's first option: a female goat (se'irat izzim neqevah). Female animals are less valuable than males in the ancient economy, making this offering more affordable. The acceptance of female animals for the commoner's chata't (but not for the leader's or priest's) reflects the economic gradient built into the system: the offering scales to what the person can reasonably afford while still requiring genuine sacrifice."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְסָמַךְ֙ אֶת־יָד֔וֹ עַ֖ל רֹ֣אשׁ הַֽחַטָּ֑את וְשָׁחַט֙ אֶת־הַ֣חַטָּ֔את בִּמְק֖וֹם הָעֹלָֽה׃",
+      "text_kjv": "And he shall lay his hand upon the head of the sin offering, and slay the sin offering in the place of the burnt offering.",
+      "rendering": "The offerer shall lay a hand on the head of the purification offering and slaughter it at the place of the burnt offering.",
+      "translator_notes": [
+        "Identical procedure to v24 — hand-laying and slaughter at the olah site. The commoner performs the same acts as the leader: semikhah (personal identification) and personal slaughter. Status does not change the worshipper's role in the sacrifice — every Israelite, from priest to commoner, must lay their own hand on the animal's head and take personal responsibility for the offering."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְלָקַ֨ח הַכֹּהֵ֤ן מִדָּמָהּ֙ בְּאֶצְבָּע֔וֹ וְנָתַ֕ן עַל־קַרְנֹ֖ת מִזְבַּ֣ח הָעֹלָ֑ה וְאֶת־כׇּל־דָּמָ֣הּ יִשְׁפֹּ֔ךְ אֶל־יְס֖וֹד הַמִּזְבֵּֽחַ׃",
+      "text_kjv": "And the priest shall take of the blood thereof with his finger, and put it upon the horns of the altar of burnt offering, and shall pour out all the blood thereof at the bottom of the altar.",
+      "rendering": "The priest shall take some of its blood with his finger and put it on the horns of the burnt offering altar. All the remaining blood he shall pour out at the base of the altar.",
+      "translator_notes": [
+        "The same outer-altar-only blood application as the leader's chata't (v25). The commoner's sin, like the leader's, affects the outer altar zone but not the inner sanctuary. The consistent blood-application pattern across the leader and commoner categories — outer altar horns plus base — contrasts with the priest's and congregation's inner-sanctuary application (v6-7, v17-18). The system has a clear spatial logic: greater authority means deeper contamination, which requires deeper purification."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְאֶת־כׇּל־חֶלְבָּ֣הּ יָסִ֗יר כַּאֲשֶׁ֨ר הוּסַ֥ר חֵ֘לֶב֮ מֵעַ֣ל זֶ֣בַח הַשְּׁלָמִים֒ וְהִקְטִ֤יר הַכֹּהֵן֙ הַמִּזְבֵּ֔חָה לְרֵ֥יחַ נִיחֹ֖חַ לַיהֹוָ֑ה וְכִפֶּ֥ר עָלָ֛יו הַכֹּהֵ֖ן וְנִסְלַ֥ח לֽוֹ׃ {ס}",
+      "text_kjv": "And he shall take away all the fat thereof, as the fat is taken away from off the sacrifice of peace offerings; and the priest shall burn it upon the altar for a sweet savour unto the LORD; and the priest shall make an atonement for him, and it shall be forgiven him.",
+      "rendering": "All its fat he shall remove, just as the fat is removed from the peace offering, and the priest shall turn it into smoke on the altar as a pleasing aroma to the LORD. The priest shall make atonement for him, and he shall be forgiven.",
+      "translator_notes": [
+        "The shelamim fat-removal comparison appears again — the fourth time in this chapter (v10, v19 implied, v26, v31). The closing formula kipper... veniselach lo is identical to v26: the commoner receives the same complete forgiveness as the leader. The graduated procedure (bull vs. goat, inner vs. outer altar) does not produce graduated forgiveness. Everyone who brings the chata't receives the same result: full forgiveness."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְאִם־כֶּ֛בֶשׂ יָבִ֥יא קׇרְבָּנ֖וֹ לְחַטָּ֑את נְקֵבָ֥ה תְמִימָ֖ה יְבִיאֶֽנָּה׃",
+      "text_kjv": "And if he bring a lamb for a sin offering, he shall bring it a female without blemish.",
+      "rendering": "If the person brings a lamb as a purification offering, it must be an unblemished female.",
+      "translator_notes": [
+        "The second option for the commoner: a female lamb (kevsah neqevah temimah). Two choices — goat (v28) or lamb (v32) — provide economic flexibility. The female lamb is likely the least expensive sacrificial animal available, making the chata't accessible to the poorest Israelite. The system's insistence on two options at this level reveals its pastoral concern: no one should be unable to address their sin because they cannot afford the offering."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְסָמַךְ֙ אֶת־יָד֔וֹ עַ֖ל רֹ֣אשׁ הַֽחַטָּ֑את וְשָׁחַ֤ט אֹתָהּ֙ לְחַטָּ֔את בִּמְק֕וֹם אֲשֶׁ֥ר יִשְׁחַ֖ט אֶת־הָעֹלָֽה׃",
+      "text_kjv": "And he shall lay his hand upon the head of the sin offering, and slay it for a sin offering in the place where they kill the burnt offering.",
+      "rendering": "The offerer shall lay a hand on the head of the purification offering and slaughter it as a purification offering at the place where the burnt offering is slaughtered.",
+      "translator_notes": [
+        "The same procedure for the lamb as for the goat (v29): semikhah at the head, slaughter at the olah site. The repetition across both commoner options (goat v28-31, lamb v32-35) ensures clarity: regardless of which animal the commoner chooses, the ritual is identical. The choice of animal does not change the procedure, the blood application, or the outcome."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְלָקַ֨ח הַכֹּהֵ֜ן מִדַּ֤ם הַֽחַטָּאת֙ בְּאֶצְבָּע֔וֹ וְנָתַ֕ן עַל־קַרְנֹ֖ת מִזְבַּ֣ח הָעֹלָ֑ה וְאֶת־כׇּל־דָּמָ֣הּ יִשְׁפֹּ֔ךְ אֶל־יְס֖וֹד הַמִּזְבֵּֽחַ׃",
+      "text_kjv": "And the priest shall take of the blood of the sin offering with his finger, and put it upon the horns of the altar of burnt offering, and shall pour out all the blood thereof at the bottom of the altar:",
+      "rendering": "The priest shall take some of the blood of the purification offering with his finger and put it on the horns of the burnt offering altar. All the remaining blood he shall pour out at the base of the altar.",
+      "translator_notes": [
+        "Identical to v30 — outer altar horns and base. The final iteration of the blood-application procedure in the chapter. Across all four categories, the blood goes to only two possible destinations: the inner sanctuary (priest and congregation) or the outer altar (leader and commoner). This binary distinction is the structural backbone of the chata't system."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וְאֶת־כׇּל־חֶלְבָּ֣הּ יָסִ֗יר כַּאֲשֶׁ֨ר יוּסַ֥ר חֵֽלֶב־הַכֶּ֘שֶׂב֮ מִזֶּ֣בַח הַשְּׁלָמִים֒ וְהִקְטִ֨יר הַכֹּהֵ֤ן אֹתָם֙ הַמִּזְבֵּ֔חָה עַ֖ל אִשֵּׁ֣י יְהֹוָ֑ה וְכִפֶּ֨ר עָלָ֧יו הַכֹּהֵ֛ן עַל־חַטָּאת֥וֹ אֲשֶׁר־חָטָ֖א וְנִסְלַ֥ח לֽוֹ׃",
+      "text_kjv": "And he shall take away all the fat thereof, as the fat of the lamb is taken away from the sacrifice of the peace offerings; and the priest shall burn them upon the altar, according to the offerings made by fire unto the LORD: and the priest shall make an atonement for his sin that he hath committed, and it shall be forgiven him.",
+      "rendering": "All its fat he shall remove, just as the fat of the lamb is removed from the peace offering, and the priest shall turn it into smoke on the altar among the fire offerings to the LORD. The priest shall make atonement for the sin committed, and the person shall be forgiven.",
+      "translator_notes": [
+        "The chapter's final verse delivers the same verdict as v20, v26, and v31: kipper... veniselach lo — atonement and forgiveness. Four categories, four procedures, one outcome. The repetition of this formula across all four sections is the chapter's theological thesis: regardless of status (priest, congregation, leader, commoner), regardless of animal (bull, male goat, female goat, female lamb), the chata't accomplishes the same thing — purification of the sanctuary and forgiveness for the offerer. Access to forgiveness is as universal as human sin."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

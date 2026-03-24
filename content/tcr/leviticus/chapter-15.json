@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Leviticus",
+    "chapter": 15,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְדַבֵּ֣ר יְהֹוָ֔ה אֶל־מֹשֶׁ֥ה וְאֶֽל־אַהֲרֹ֖ן לֵאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses and to Aaron, saying,",
+      "rendering": "The LORD spoke to Moses and to Aaron, saying:",
+      "translator_notes": [
+        "Both Moses and Aaron are addressed, as in chapters 13-14. Aaron's inclusion signals the priestly diagnostic and ritual role that follows. This chapter addresses bodily discharges — the most intimate and private category of impurity — and brings even these into the scope of priestly oversight and divine instruction."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "דַּבְּרוּ֙ אֶל־בְּנֵ֣י יִשְׂרָאֵ֔ל וַאֲמַרְתֶּ֖ם אֲלֵהֶ֑ם אִ֣ישׁ אִ֗ישׁ כִּ֤י יִהְיֶה֙ זָ֣ב מִבְּשָׂר֔וֹ זוֹב֖וֹ טָמֵ֥א הֽוּא׃",
+      "text_kjv": "Speak unto the children of Israel, and say unto them, When any man hath a running issue out of his flesh, because of his issue he is unclean.",
+      "rendering": "Speak to the children of Israel and say to them: When any man has a discharge from his body, his discharge makes him unclean.",
+      "translator_notes": [
+        "The term zav ('one who has a discharge') describes a man with an abnormal bodily discharge — likely a chronic or pathological genital discharge distinct from normal seminal emission (addressed separately in vv 16-18). The phrase ish ish ('man, man' — every single man) is emphatic: this applies universally. The impurity is caused by the discharge itself (zobo tamei hu — 'his discharge, he is unclean'), not by any moral failing."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "זָב",
+          "transliteration": "zav",
+          "rendered_as": "one who has a discharge",
+          "semantic_range": "one who flows, one who discharges, one with a bodily emission",
+          "note": "From the root z-u-v ('to flow, to gush'). The zav is a person with a chronic or abnormal bodily discharge. The condition produces impurity that is transferable by contact — touching the zav, his bedding, his seat, or his saliva transmits impurity. The system treats the discharge as a boundary event: bodily fluids crossing the body's boundary create a state incompatible with approaching the holy."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְזֹ֛את תִּהְיֶ֥ה טֻמְאָת֖וֹ בְּזוֹב֑וֹ רָ֣ר בְּשָׂר֞וֹ אֶת־זוֹב֗וֹ אֽוֹ־הֶחְתִּ֤ים בְּשָׂרוֹ֙ מִזּוֹב֔וֹ טֻמְאָת֖וֹ הִֽוא׃",
+      "text_hebrew_note": "",
+      "text_kjv": "And this shall be his uncleanness in his issue: whether his flesh run with his issue, or his flesh be stopped from his issue, it is his uncleanness.",
+      "rendering": "This shall be the nature of his impurity from his discharge: whether his body flows with his discharge or his body is blocked by his discharge, it is his impurity.",
+      "translator_notes": [
+        "Two states are covered: active flow (rar besaro — 'his flesh runs/flows') and blocked discharge (hechtim besaro — 'his flesh is sealed/stopped'). Both conditions produce impurity — the discharge need not be actively flowing to render the person tamei. The impurity persists as long as the underlying condition exists, whether currently producing discharge or temporarily halted."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "כׇּל־הַמִּשְׁכָּ֗ב אֲשֶׁ֨ר יִשְׁכַּ֥ב עָלָ֛יו הַזָּ֖ב יִטְמָ֑א וְכׇֽל־הַכְּלִ֛י אֲשֶׁר־יֵשֵׁ֥ב עָלָ֖יו יִטְמָֽא׃",
+      "text_kjv": "Every bed, whereon he lieth that hath the issue, is unclean: and every thing, whereon he sitteth, shall be unclean.",
+      "rendering": "Every bed on which the person with the discharge lies will become unclean, and every object on which he sits will become unclean.",
+      "translator_notes": [
+        "Impurity transfers from the person to objects through sustained contact: beds (mishkav — sleeping surfaces) and seats (keli — any object sat upon). The principle is that the zav's impurity radiates outward through physical contact, contaminating the objects of daily life. These contaminated objects then become secondary sources of impurity (vv 5-10)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְאִ֕ישׁ אֲשֶׁ֥ר יִגַּ֖ע בְּמִשְׁכָּב֑וֹ יְכַבֵּ֧ס בְּגָדָ֛יו וְרָחַ֥ץ בַּמַּ֖יִם וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And whosoever toucheth his bed shall wash his clothes, and bathe himself in water, and be unclean until the even.",
+      "rendering": "Anyone who touches his bed must wash his clothes and bathe in water, and will be unclean until evening.",
+      "translator_notes": [
+        "Secondary impurity — contracted by touching the zav's bed — is milder than the zav's own impurity: it lasts only until evening (ad ha'erev) and requires garment washing and bathing but no sacrifice. The evening boundary likely corresponds to sundown, when a new day begins in the Hebrew calendar. The impurity expires automatically with the turning of the day."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְהַיֹּשֵׁב֙ עַֽל־הַכְּלִ֔י אֲשֶׁר־יֵשֵׁ֥ב עָלָ֖יו הַזָּ֑ב יְכַבֵּ֧ס בְּגָדָ֛יו וְרָחַ֥ץ בַּמַּ֖יִם וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And he that sitteth on any thing whereon he sat that hath the issue shall wash his clothes, and bathe himself in water, and be unclean until the even.",
+      "rendering": "Anyone who sits on something the person with the discharge has sat on must wash his clothes and bathe in water, and will be unclean until evening.",
+      "translator_notes": [
+        "The same purification procedure and duration as verse 5: washing, bathing, unclean until evening. The impurity transfers through the seat — a third party contracts impurity from the object rather than from the person directly. This chain of transmission (person → object → third party) demonstrates how impurity spreads through a community if unchecked."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְהַנֹּגֵ֖עַ בִּבְשַׂ֣ר הַזָּ֑ב יְכַבֵּ֧ס בְּגָדָ֛יו וְרָחַ֥ץ בַּמַּ֖יִם וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And he that toucheth the flesh of him that hath the issue shall wash his clothes, and bathe himself in water, and be unclean until the even.",
+      "rendering": "Anyone who touches the body of the person with the discharge must wash his clothes and bathe in water, and will be unclean until evening.",
+      "translator_notes": [
+        "Direct physical contact (noge'a bivsar hazzav — 'touching the flesh/body of the one with the discharge') transmits impurity at the same level as contact with contaminated objects: evening-duration impurity with washing and bathing. The body of the zav is itself a source of contamination."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְכִֽי־יָרֹ֥ק הַזָּ֖ב בַּטָּה֑וֹר וְכִבֶּ֧ס בְּגָדָ֛יו וְרָחַ֥ץ בַּמַּ֖יִם וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And if he that hath the issue spit upon him that is clean; then he shall wash his clothes, and bathe himself in water, and be unclean until the even.",
+      "rendering": "If the person with the discharge spits on someone who is clean, that person must wash his clothes and bathe in water, and will be unclean until evening.",
+      "translator_notes": [
+        "Saliva (roq — 'spit') from the zav transmits impurity. Bodily fluids are the agents of contamination — the impurity follows the body's emissions. The verb yaroq ('spit') may describe intentional or accidental contact with saliva. The clean person (tahor) who receives the spit becomes tamei through no fault of their own — impurity transfer is a matter of contact, not intention."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְכׇל־הַמֶּרְכָּ֗ב אֲשֶׁ֨ר יִרְכַּ֥ב עָלָ֛יו הַזָּ֖ב יִטְמָֽא׃",
+      "text_kjv": "And what saddle soever he rideth upon that hath the issue shall be unclean.",
+      "rendering": "Any saddle on which the person with the discharge rides will become unclean.",
+      "translator_notes": [
+        "The merkav ('saddle, riding seat, anything ridden upon') extends the contamination principle to travel equipment. The zav's impurity affects beds (v 4), seats (v 4), and now riding gear — every surface that sustains bodily contact becomes contaminated."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְכׇל־הַנֹּגֵ֗עַ בְּכֹל֙ אֲשֶׁ֣ר יִהְיֶ֣ה תַחְתָּ֔יו יִטְמָ֖א עַד־הָעָ֑רֶב וְהַנּוֹשֵׂ֣א אוֹתָ֔ם יְכַבֵּ֧ס בְּגָדָ֛יו וְרָחַ֥ץ בַּמַּ֖יִם וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And whosoever toucheth any thing that was under him shall be unclean until the even: and he that beareth any of those things shall wash his clothes, and bathe himself in water, and be unclean until the even.",
+      "rendering": "Anyone who touches anything that was under him will be unclean until evening. Anyone who carries such things must wash his clothes and bathe in water, and will be unclean until evening.",
+      "translator_notes": [
+        "Two levels of secondary contact are distinguished: touching (noge'a — brief contact) produces evening-duration impurity without requiring laundering, while carrying (nosei — sustained contact of bearing the weight) requires garment washing and bathing in addition to the evening-duration impurity. The heavier the contact, the more extensive the purification required."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְכֹ֨ל אֲשֶׁ֤ר יִגַּע־בּוֹ֙ הַזָּ֔ב וְיָדָ֖יו לֹא־שָׁטַ֣ף בַּמָּ֑יִם וְכִבֶּ֧ס בְּגָדָ֛יו וְרָחַ֥ץ בַּמַּ֖יִם וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And whomsoever he toucheth that hath the issue, and hath not rinsed his hands in water, he shall wash his clothes, and bathe himself in water, and be unclean until the even.",
+      "rendering": "Anyone whom the person with the discharge touches without having rinsed his hands in water — that person must wash his clothes and bathe in water, and will be unclean until evening.",
+      "translator_notes": [
+        "A significant qualification: the zav transmits impurity through touch only if he has not rinsed his hands (veyadav lo shataf bammayim — 'his hands he has not rinsed in water'). Hand-washing mitigates the transfer of impurity. This is one of the earliest references to hand-washing as a ritual hygiene practice, predating later rabbinic hand-washing regulations by centuries."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וּכְלִי־חֶ֛רֶשׂ אֲשֶׁר־יִגַּע־בּ֥וֹ הַזָּ֖ב יִשָּׁבֵ֑ר וְכׇ֨ל־כְּלִי־עֵ֔ץ יִשָּׁטֵ֖ף בַּמָּֽיִם׃",
+      "text_kjv": "And the vessel of earth, that he toucheth which hath the issue, shall be broken: and every vessel of wood shall be rinsed in water.",
+      "rendering": "Any clay vessel that the person with the discharge touches must be broken, and any wooden vessel must be rinsed with water.",
+      "translator_notes": [
+        "The material determines the response: clay vessels (keli cheres — unglazed earthenware) must be destroyed (yisshaver — 'shall be broken') because porous clay absorbs impurity permanently. Wooden vessels (keli ets) can be rinsed (yishshatef — 'shall be rinsed') because wood's surface can be effectively cleaned. The distinction is practical and reflects understanding of material properties — porous versus non-porous surfaces."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְכִֽי־יִטְהַ֤ר הַזָּב֙ מִזּוֹב֔וֹ וְסָ֨פַר ל֜וֹ שִׁבְעַ֥ת יָמִ֛ים לְטׇהֳרָת֖וֹ וְכִבֶּ֣ס בְּגָדָ֑יו וְרָחַ֧ץ בְּשָׂר֛וֹ בְּמַ֥יִם חַיִּ֖ים וְטָהֵֽר׃",
+      "text_kjv": "And when he that hath an issue is cleansed of his issue; then he shall number to himself seven days for his cleansing, and wash his clothes, and bathe his flesh in running water, and shall be clean.",
+      "rendering": "When the person with the discharge is healed of his discharge, he shall count seven days for his purification, wash his clothes, and bathe his body in fresh flowing water. Then he will be clean.",
+      "translator_notes": [
+        "The purification process begins only after the discharge stops (ki yithar hazzav mizzovo — 'when the one with the discharge is cleansed from his discharge'). The seven-day waiting period (sapar lo shiv'at yamim — 'he shall count for himself seven days') ensures the condition has fully resolved. The bathing must be in mayim chayyim ('living water' — fresh, flowing water from a spring or stream, not stagnant or stored water). The higher-grade water requirement distinguishes this purification from the simpler evening-impurity cases."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וּבַיּ֣וֹם הַשְּׁמִינִ֗י יִֽקַּֽח־לוֹ֙ שְׁתֵּ֣י תֹרִ֔ים א֥וֹ שְׁנֵ֖י בְּנֵ֣י יוֹנָ֑ה וּבָ֣א׀ לִפְנֵ֣י יְהֹוָ֗ה אֶל־פֶּ֙תַח֙ אֹ֣הֶל מוֹעֵ֔ד וּנְתָנָ֖ם אֶל־הַכֹּהֵֽן׃",
+      "text_kjv": "And on the eighth day he shall take to him two turtledoves, or two young pigeons, and come before the LORD unto the door of the tabernacle of the congregation, and give them unto the priest:",
+      "rendering": "On the eighth day he shall take two turtledoves or two young pigeons and come before the LORD at the entrance of the tent of meeting, and give them to the priest.",
+      "translator_notes": [
+        "The eighth-day sacrifice follows the seven-day purification — the same pattern as the skin-disease purification (14:10, 23) and the priestly ordination (9:1). The offering of birds (torim o benei yonah — turtledoves or young pigeons) is the standard minimum-cost sacrifice, making purification economically accessible."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְעָשָׂ֤ה אֹתָם֙ הַכֹּהֵ֔ן אֶחָ֣ד חַטָּ֔את וְהָאֶחָ֖ד עֹלָ֑ה וְכִפֶּ֨ר עָלָ֧יו הַכֹּהֵ֛ן לִפְנֵ֥י יְהֹוָ֖ה מִזּוֹבֽוֹ׃",
+      "text_kjv": "And the priest shall offer them, the one for a sin offering, and the other for a burnt offering; and the priest shall make an atonement for him before the LORD for his issue.",
+      "rendering": "The priest shall present them — one as a sin offering and the other as a burnt offering. The priest shall make atonement for him before the LORD for his discharge.",
+      "translator_notes": [
+        "The two-offering sequence — sin offering (chata't — purification of the sanctuary) and burnt offering (olah — complete devotion) — restores the person's relationship to God's presence. The kippur formula (vekipper alav hakohen lifnei YHWH mizzovo — 'the priest shall make atonement for him before the LORD for his discharge') frames the sacrifice as addressing the discharge, not any moral guilt. The section marker (samekh) closes the male abnormal discharge section."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְאִ֕ישׁ כִּֽי־תֵצֵ֥א מִמֶּ֖נּוּ שִׁכְבַת־זָ֑רַע וְרָחַ֥ץ בַּמַּ֛יִם אֶת־כׇּל־בְּשָׂר֖וֹ וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And if any man's seed of copulation go out from him, then he shall wash all his flesh in water, and be unclean until the even.",
+      "rendering": "When a man has a seminal emission, he shall bathe his entire body in water and will be unclean until evening.",
+      "translator_notes": [
+        "The shift from abnormal discharge (zav, vv 2-15) to normal seminal emission (shikhvat zera — 'emission of seed') marks a different category of impurity: shorter duration (evening only, not seven days), simpler purification (bathing only, no sacrifice), and no contamination of objects beyond what the semen contacts directly (v 17). Normal sexual function produces a lower-grade impurity than pathological discharge."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְכׇל־בֶּ֣גֶד וְכׇל־ע֔וֹר אֲשֶׁר־יִהְיֶ֥ה עָלָ֖יו שִׁכְבַת־זָ֑רַע וְכֻבַּ֥ס בַּמַּ֖יִם וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And every garment, and every skin, whereon is the seed of copulation, shall be washed with water, and be unclean until the even.",
+      "rendering": "Any garment or leather on which there is semen shall be washed with water and will be unclean until evening.",
+      "translator_notes": [
+        "Only garments and leather (beged, or) that are directly contacted by the semen require washing — unlike the zav's impurity, which contaminates beds and seats through the person's presence alone. The narrower scope of contamination reflects the lower severity of this category of impurity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְאִשָּׁ֕ה אֲשֶׁ֨ר יִשְׁכַּ֥ב אִ֛ישׁ אֹתָ֖הּ שִׁכְבַת־זָ֑רַע וְרָחֲצ֣וּ בַמַּ֔יִם וְטָמְא֖וּ עַד־הָעָֽרֶב׃",
+      "text_kjv": "The woman also with whom man shall lie with seed of copulation, they shall both bathe themselves in water, and be unclean until the even.",
+      "rendering": "When a man lies with a woman and there is a seminal emission, both of them shall bathe in water and will be unclean until evening.",
+      "translator_notes": [
+        "Sexual intercourse produces mutual, equal-duration impurity for both partners (verachatsu bammayim vetam'u ad ha'arev — 'they shall both bathe in water and be unclean until evening'). The impurity is symmetrical — both parties are affected equally. This brief impurity from normal sexual relations is a reminder that even the most natural human acts involve proximity to the life-force (semen carries the potential for new life), which touches the boundary where the sacred and the biological intersect. The paragraph marker (pe) closes the seminal emission section."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְאִשָּׁה֙ כִּֽי־תִהְיֶ֣ה זָבָ֔ה דָּ֛ם יִהְיֶ֥ה זֹבָ֖הּ בִּבְשָׂרָ֑הּ שִׁבְעַ֤ת יָמִים֙ תִּהְיֶ֣ה בְנִדָּתָ֔הּ וְכׇל־הַנֹּגֵ֥עַ בָּ֖הּ יִטְמָ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And if a woman have an issue, and her issue in her flesh be blood, she shall be put apart seven days: and whosoever toucheth her shall be unclean until the even.",
+      "rendering": "When a woman has a discharge — her discharge being blood from her body — she shall be in her state of menstrual impurity for seven days. Anyone who touches her will be unclean until evening.",
+      "translator_notes": [
+        "The female menstrual section (vv 19-24) parallels the male abnormal discharge section (vv 2-15) in structure but with key differences. The niddah period lasts seven days (shiv'at yamim) — a fixed duration regardless of the actual length of menstruation. The word niddah (from the root n-d-d, 'to separate, to wander') describes the state of ritual separation, not the biological process. Contact-transmitted impurity (evening-duration) applies to anyone who touches her."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְכֹל֩ אֲשֶׁ֨ר תִּשְׁכַּ֥ב עָלָ֛יו בְּנִדָּתָ֖הּ יִטְמָ֑א וְכֹ֛ל אֲשֶׁר־תֵּשֵׁ֥ב עָלָ֖יו יִטְמָֽא׃",
+      "text_kjv": "And every thing that she lieth upon in her separation shall be unclean: every thing also that she sitteth upon shall be unclean.",
+      "rendering": "Anything she lies on during her menstrual impurity will become unclean, and anything she sits on will become unclean.",
+      "translator_notes": [
+        "The same object-contamination pattern as the male zav (v 4): beds and seats become carriers of secondary impurity. The parallel structure between the male and female sections reinforces that the purity system applies equally to both sexes — neither is singled out as uniquely impure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְכׇל־הַנֹּגֵ֖עַ בְּמִשְׁכָּבָ֑הּ יְכַבֵּ֧ס בְּגָדָ֛יו וְרָחַ֥ץ בַּמַּ֖יִם וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And whosoever toucheth her bed shall wash his clothes, and bathe himself in water, and be unclean until the even.",
+      "rendering": "Anyone who touches her bed must wash his clothes and bathe in water, and will be unclean until evening.",
+      "translator_notes": [
+        "The secondary impurity from touching the menstruant's bed mirrors verse 5 exactly — same procedure, same duration. The symmetry between male and female discharge regulations is deliberate and consistent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְכׇ֨ל־הַנֹּגֵ֔עַ בְּכׇל־כְּלִ֖י אֲשֶׁר־תֵּשֵׁ֣ב עָלָ֑יו יְכַבֵּ֧ס בְּגָדָ֛יו וְרָחַ֥ץ בַּמַּ֖יִם וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And whosoever toucheth any thing that she sat upon shall wash his clothes, and bathe himself in water, and be unclean until the even.",
+      "rendering": "Anyone who touches any object she has sat on must wash his clothes and bathe in water, and will be unclean until evening.",
+      "translator_notes": [
+        "The seat-contact rule mirrors verse 6. The repetitive structure of these regulations — each category of contact producing the same evening-duration impurity with washing and bathing — creates a comprehensive, predictable system."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְאִ֨ם עַֽל־הַמִּשְׁכָּ֜ב ה֗וּא א֧וֹ עַֽל־הַכְּלִ֛י אֲשֶׁר־הִ֥וא יֹשֶֽׁבֶת־עָלָ֖יו בְּנׇגְעוֹ־ב֑וֹ יִטְמָ֖א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And if it be on her bed, or on any thing whereon she sitteth, when he toucheth it, he shall be unclean until the even.",
+      "rendering": "Whether it is on the bed or on any object she is sitting on, when he touches it, he will be unclean until evening.",
+      "translator_notes": [
+        "This verse clarifies that secondary impurity from contaminated objects is contracted at the moment of contact (benag'o vo — 'when he touches it'), regardless of whether the menstruant is currently present. The object retains its impurity status even after she leaves it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְאִ֡ם שָׁכֹב֩ יִשְׁכַּ֨ב אִ֜ישׁ אֹתָ֗הּ וּתְהִ֤י נִדָּתָהּ֙ עָלָ֔יו וְטָמֵ֖א שִׁבְעַ֣ת יָמִ֑ים וְכׇל־הַמִּשְׁכָּ֛ב אֲשֶׁר־יִשְׁכַּ֥ב עָלָ֖יו יִטְמָֽא׃",
+      "text_kjv": "And if any man lie with her at all, and her flowers be upon him, he shall be unclean seven days; and all the bed whereon he lieth shall be unclean.",
+      "rendering": "If a man lies with her at all and her menstrual impurity comes upon him, he will be unclean for seven days, and any bed he lies on will become unclean.",
+      "translator_notes": [
+        "Sexual contact during menstruation produces the most severe impurity in this section: the man contracts the full seven-day niddah impurity (vetamei shiv'at yamim — not merely evening-duration). His impurity level matches hers — he takes on her full tamei status. The phrase utehi niddatah alav ('her niddah is upon him') describes the transfer of her impurity status to him. This is distinct from the moral prohibition of sexual relations during menstruation in 18:19 and 20:18 — here the focus is on the purity consequence, not the ethical judgment. The section marker (samekh) closes the menstruation section."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְאִשָּׁ֡ה כִּֽי־יָזוּב֩ ז֨וֹב דָּמָ֜הּ יָמִ֣ים רַבִּ֗ים בְּלֹא֙ עֶת־נִדָּתָ֔הּ א֥וֹ כִֽי־תָז֖וּב עַל־נִדָּתָ֑הּ כׇּל־יְמֵ֞י ז֣וֹב טֻמְאָתָ֗הּ כִּימֵ֧י נִדָּתָ֛הּ תִּהְיֶ֖ה טְמֵאָ֥ה הִֽוא׃",
+      "text_kjv": "And if a woman have an issue of her blood many days out of the time of her separation, or if it run beyond the time of her separation; all the days of the issue of her uncleanness shall be as the days of her separation: she shall be unclean.",
+      "rendering": "When a woman has a flow of blood for many days outside her regular menstrual period, or when it extends beyond her menstrual period, she will be unclean for all the days of her impure discharge, just as during the days of her menstrual period.",
+      "translator_notes": [
+        "The final category (vv 25-30) addresses female abnormal bleeding — a chronic or extended blood flow outside the normal menstrual cycle. This is the zavah — the female counterpart to the male zav (vv 2-15). The woman with the hemorrhage whom Jesus healed (Mark 5:25-34) had been in this condition for twelve years. Her impurity made her unable to touch anyone or enter the temple — Jesus's willingness to be touched by her violated every purity boundary described in this chapter."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "כׇּל־הַמִּשְׁכָּ֞ב אֲשֶׁר־תִּשְׁכַּ֤ב עָלָיו֙ כׇּל־יְמֵ֣י זוֹבָ֔הּ כְּמִשְׁכַּ֥ב נִדָּתָ֖הּ יִֽהְיֶה־לָּ֑הּ וְכׇֽל־הַכְּלִי֙ אֲשֶׁ֣ר תֵּשֵׁ֣ב עָלָ֔יו טָמֵ֣א יִהְיֶ֔ה כְּטֻמְאַ֖ת נִדָּתָֽהּ׃",
+      "text_kjv": "Every bed whereon she lieth all the days of her issue shall be unto her as the bed of her separation: and whatsoever she sitteth upon shall be unclean, as the uncleanness of her separation.",
+      "rendering": "Every bed she lies on during the entire period of her discharge will be treated like her bed during menstruation, and every object she sits on will be unclean, like the impurity of her menstrual period.",
+      "translator_notes": [
+        "The abnormal bleeding produces the same contamination effects as regular menstruation (kemishkav niddatah — 'like the bed of her niddah') but for an indefinite duration. While niddah lasts a fixed seven days, the zavah's impurity continues kol yemei zovah ('all the days of her discharge') — as long as the condition persists."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְכׇל־הַנּוֹגֵ֥עַ בָּ֖ם יִטְמָ֑א וְכִבֶּ֧ס בְּגָדָ֛יו וְרָחַ֥ץ בַּמַּ֖יִם וְטָמֵ֥א עַד־הָעָֽרֶב׃",
+      "text_kjv": "And whosoever toucheth those things shall be unclean, and shall wash his clothes, and bathe himself in water, and be unclean until the even.",
+      "rendering": "Anyone who touches these things will become unclean. He must wash his clothes and bathe in water, and will be unclean until evening.",
+      "translator_notes": [
+        "The same secondary impurity rules apply as in the menstrual section (vv 21-22) and the male discharge section (vv 5-7): evening-duration impurity with washing and bathing. The consistency of purification requirements across all categories of discharge reinforces the systematic nature of the purity legislation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְאִֽם־טָהֲרָ֖ה מִזּוֹבָ֑הּ וְסָ֥פְרָה לָּ֛הּ שִׁבְעַ֥ת יָמִ֖ים וְאַחַ֥ר תִּטְהָֽר׃",
+      "text_kjv": "But if she be cleansed of her issue, then she shall number to herself seven days, and after that she shall be clean.",
+      "rendering": "When she is healed of her discharge, she shall count seven days, and after that she will be clean.",
+      "translator_notes": [
+        "The purification follows the same pattern as the male zav (v 13): cessation of the discharge, a seven-day waiting period (safrah lah shiv'at yamim — 'she shall count for herself seven days'), and then cleanness. The parallel is exact — male and female abnormal discharges receive identical treatment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וּבַיּ֣וֹם הַשְּׁמִינִ֗י תִּֽקַּֽח־לָהּ֙ שְׁתֵּ֣י תֹרִ֔ים א֥וֹ שְׁנֵ֖י בְּנֵ֣י יוֹנָ֑ה וְהֵבִיאָ֤ה אוֹתָם֙ אֶל־הַכֹּהֵ֔ן אֶל־פֶּ֖תַח אֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "And on the eighth day she shall take unto her two turtles, or two young pigeons, and bring them unto the priest, to the door of the tabernacle of the congregation.",
+      "rendering": "On the eighth day she shall take two turtledoves or two young pigeons and bring them to the priest at the entrance of the tent of meeting.",
+      "translator_notes": [
+        "The same eighth-day sacrifice as the male zav (v 14): two birds (turtledoves or young pigeons), presented to the priest at the tent of meeting. The cost, timing, and procedure are identical for both sexes — the system does not impose a higher purification burden on women than on men for equivalent conditions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְעָשָׂ֤ה הַכֹּהֵן֙ אֶת־הָאֶחָ֣ד חַטָּ֔את וְאֶת־הָאֶחָ֖ד עֹלָ֑ה וְכִפֶּ֨ר עָלֶ֤יהָ הַכֹּהֵן֙ לִפְנֵ֣י יְהֹוָ֔ה מִזּ֖וֹב טֻמְאָתָֽהּ׃",
+      "text_kjv": "And the priest shall offer the one for a sin offering, and the other for a burnt offering; and the priest shall make an atonement for her before the LORD for the issue of her uncleanness.",
+      "rendering": "The priest shall present one as a sin offering and the other as a burnt offering. The priest shall make atonement for her before the LORD for the discharge of her impurity.",
+      "translator_notes": [
+        "The identical two-offering sequence as verse 15: sin offering (chata't) plus burnt offering (olah), with the kippur formula. The phrase mizzov tum'atah ('for the discharge of her impurity') parallels mizzovo ('for his discharge') in verse 15. The atonement addresses the impurity caused by the discharge, not any moral failing of the woman."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְהִזַּרְתֶּ֥ם אֶת־בְּנֵי־יִשְׂרָאֵ֖ל מִטֻּמְאָתָ֑ם וְלֹ֤א יָמֻ֙תוּ֙ בְּטֻמְאָתָ֔ם בְּטַמְּאָ֥ם אֶת־מִשְׁכָּנִ֖י אֲשֶׁ֥ר בְּתוֹכָֽם׃",
+      "text_kjv": "Thus shall ye separate the children of Israel from their uncleanness; that they die not in their uncleanness, when they defile my tabernacle that is among them.",
+      "rendering": "You shall keep the children of Israel separate from their impurity, so that they do not die in their impurity by contaminating My dwelling place that is among them.",
+      "translator_notes": [
+        "This is the theological rationale for the entire chapter — and arguably for the entire purity system. The purpose of the discharge regulations is velo yamutu betum'atam betamme'am et mishkani asher betokham ('so that they do not die in their impurity by contaminating My dwelling place that is among them'). God's dwelling (mishkan — tabernacle) exists among the people (betokham — 'in their midst'). Unaddressed impurity contaminates the sacred space. Accumulated contamination drives God's presence away. If God's presence departs, the people are exposed to the consequences of a world without divine protection. The purity laws exist to maintain the conditions under which a holy God can safely dwell among an impure people."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "זֹ֥את תּוֹרַ֖ת הַזָּ֑ב וַאֲשֶׁ֨ר תֵּצֵ֥א מִמֶּ֛נּוּ שִׁכְבַת־זֶ֖רַע לְטׇמְאָה־בָֽהּ׃",
+      "text_kjv": "This is the law of him that hath an issue, and of him whose seed goeth from him, and is defiled therewith;",
+      "rendering": "This is the instruction for the man with a discharge and for the man from whom a seminal emission goes out, making him unclean by it;",
+      "translator_notes": [
+        "The closing summary (vv 32-33) catalogs all four categories addressed in the chapter. Male: the zav (abnormal discharge, vv 2-15) and the one with seminal emission (shikhvat zera, vv 16-18)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְהַדָּוָה֙ בְּנִדָּתָ֔הּ וְהַזָּב֙ אֶת־זוֹב֔וֹ לַזָּכָ֖ר וְלַנְּקֵבָ֑ה וּלְאִ֕ישׁ אֲשֶׁ֥ר יִשְׁכַּ֖ב עִם־טְמֵאָֽה׃",
+      "text_kjv": "And of her that is sick of her flowers, and of him that hath an issue, of the man, and of the woman, and of him that lieth with her that is unclean.",
+      "rendering": "and for a woman in her menstrual impurity, and for anyone — male or female — who has a discharge, and for a man who lies with a woman who is unclean.",
+      "translator_notes": [
+        "Female: the menstruant (haddavah beniddatah — 'the one who is ill/menstruating in her niddah,' vv 19-24) and the zavah (female with abnormal discharge, vv 25-30). The final category — the man who lies with an unclean woman (ish asher yishkav im teme'ah, v 24) — completes the system. The chapter addresses every form of genital discharge for both sexes, creating a comprehensive framework that covers the full range of human reproductive biology within the purity system. The paragraph marker (pe) closes the chapter definitively."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

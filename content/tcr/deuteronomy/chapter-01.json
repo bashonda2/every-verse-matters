@@ -1,0 +1,612 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "chapter": 1,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "אֵ֣לֶּה הַדְּבָרִ֗ים אֲשֶׁ֨ר דִּבֶּ֤ר מֹשֶׁה֙ אֶל־כׇּל־יִשְׂרָאֵ֔ל בְּעֵ֖בֶר הַיַּרְדֵּ֑ן בַּמִּדְבָּ֡ר בָּֽעֲרָבָה֩ מ֨וֹל ס֜וּף בֵּֽין־פָּארָ֧ן וּבֵֽין־תֹּ֛פֶל וְלָבָ֥ן וַחֲצֵרֹ֖ת וְדִ֥י זָהָֽב׃",
+      "text_kjv": "These be the words which Moses spake unto all Israel on this side Jordan in the wilderness, in the plain over against the Red sea, between Paran, and Tophel, and Laban, and Hazeroth, and Dizahab.",
+      "rendering": "These are the words that Moses spoke to all of Israel on the east side of the Jordan — in the wilderness, in the Arabah opposite Suph, between Paran and Tophel, Laban, Hazeroth, and Di-zahab.",
+      "translator_notes": [
+        "The phrase elleh ha-devarim ('these are the words') opens Deuteronomy as a formal speech act — devarim encompasses words, matters, and events. Moses is positioned be'ever ha-yarden ('on the far side of the Jordan') looking toward the promised land he will never enter. The location mul Suph ('opposite Suph') is debated: it may refer to the Yam Suph (Sea of Reeds) region or a specific locale near Moab. The cluster of place names — Paran, Tophel, Laban, Hatserot, Di-zahav — likely marks stages of Israel's wilderness journey, reminding the audience of the long road that brought them here."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "דְּבָרִים",
+          "transliteration": "devarim",
+          "rendered_as": "words",
+          "semantic_range": "words, matters, things, events, commandments",
+          "note": "The title word of the book; encompasses speech, events, and legal matters — Moses's farewell is all three simultaneously."
+        },
+        {
+          "hebrew": "עֲרָבָה",
+          "transliteration": "aravah",
+          "rendered_as": "Arabah",
+          "semantic_range": "arid plain, desert steppe, rift valley",
+          "note": "The great rift valley running from the Sea of Galilee to the Gulf of Aqaba; here designating the plains of Moab where Israel is encamped."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "אַחַ֨ד עָשָׂ֥ר יוֹם֙ מֵֽחֹרֵ֔ב דֶּ֖רֶךְ הַר־שֵׂעִ֑יר עַ֖ד קָדֵ֥שׁ בַּרְנֵֽעַ׃",
+      "text_kjv": "(There are eleven days' journey from Horeb by the way of mount Seir unto Kadesh-barnea.)",
+      "rendering": "(It is an eleven-day journey from Horeb to Kadesh-barnea by way of Mount Seir.)",
+      "translator_notes": [
+        "This parenthetical note creates sharp dramatic irony: the achad asar yom ('eleven-day journey') from Horeb to Kadesh-barnea that should have been a brief march stretched into forty years because of Israel's rebellion. The contrast between the short distance and the long detour frames the entire book's message about the consequences of disobedience."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַֽיְהִי֙ בְּאַרְבָּעִ֣ים שָׁנָ֔ה בְּעַשְׁתֵּֽי־עָשָׂ֥ר חֹ֖דֶשׁ בְּאֶחָ֣ד לַחֹ֑דֶשׁ דִּבֶּ֤ר מֹשֶׁה֙ אֶל־בְּנֵ֣י יִשְׂרָאֵ֔ל כְּ֠כֹ֠ל אֲשֶׁ֨ר צִוָּ֧ה יְהֹוָ֛ה אֹת֖וֹ אֲלֵהֶֽם׃",
+      "text_kjv": "And it came to pass in the fortieth year, in the eleventh month, on the first day of the month, that Moses spake unto the children of Israel, according unto all that the LORD had given him in commandment unto them;",
+      "rendering": "In the fortieth year, on the first day of the eleventh month, Moses addressed the Israelites with everything the LORD had commanded him to tell them,",
+      "translator_notes": [
+        "The precise dating — arba'im shanah ('fortieth year'), ashte-asar chodesh ('eleventh month'), echad la-chodesh ('first of the month') — places this speech near the very end of the wilderness period and of Moses's life. The phrase k'khol asher tsivah YHWH oto ('according to everything the LORD had commanded him') establishes that Moses speaks not on his own authority but as the faithful mediator of divine instruction."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "אַחֲרֵ֣י הַכֹּת֗וֹ אֵ֚ת סִיחֹן֙ מֶ֣לֶךְ הָֽאֱמֹרִ֔י אֲשֶׁ֥ר יוֹשֵׁ֖ב בְּחֶשְׁבּ֑וֹן וְאֵ֗ת ע֚וֹג מֶ֣לֶךְ הַבָּשָׁ֔ן אֲשֶׁר־יוֹשֵׁ֥ב בְּעַשְׁתָּרֹ֖ת בְּאֶדְרֶֽעִי׃",
+      "text_kjv": "After he had slain Sihon the king of the Amorites, which dwelt in Heshbon, and Og the king of Bashan, which dwelt at Astaroth in Edrei:",
+      "rendering": "after he had defeated Sihon king of the Amorites, who ruled from Heshbon, and Og king of Bashan, who ruled from Ashtaroth at Edrei.",
+      "translator_notes": [
+        "The verb hakoto ('his striking/defeating') from the root nakah places these victories as the immediate backdrop to Moses's speech. Sihon in Heshbon and Og in Ashtaroth/Edrei represent the two Transjordanian powers whose defeat opened the east bank of the Jordan for Israelite settlement. Ashtaroth may derive from the name of the goddess Ashtoreth, suggesting a former cultic center."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "בְּעֵ֥בֶר הַיַּרְדֵּ֖ן בְּאֶ֣רֶץ מוֹאָ֑ב הוֹאִ֣יל מֹשֶׁ֔ה בֵּאֵ֛ר אֶת־הַתּוֹרָ֥ה הַזֹּ֖את לֵאמֹֽר׃",
+      "text_kjv": "On this side Jordan, in the land of Moab, began Moses to declare this law, saying,",
+      "rendering": "On the east side of the Jordan, in the land of Moab, Moses undertook to explain this Torah, saying:",
+      "translator_notes": [
+        "The verb ho'il ('undertook, resolved, began') signals Moses's deliberate decision to expound the instruction before his death. The verb be'er ('to make clear, to explain, to engrave') implies not mere repetition but clarification and commentary — Moses is interpreting and applying the Torah for a new generation. This frames Deuteronomy as authorized exposition of Sinai legislation, not simply a restatement."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹרָה",
+          "transliteration": "torah",
+          "rendered_as": "Torah",
+          "semantic_range": "instruction, teaching, law, guidance, direction",
+          "note": "From the root yarah ('to throw, to shoot, to direct'); here it refers to the entire body of divine instruction Moses is about to expound — encompassing narrative, law, and exhortation."
+        },
+        {
+          "hebrew": "בֵּאֵר",
+          "transliteration": "be'er",
+          "rendered_as": "explain",
+          "semantic_range": "to make plain, to explain, to engrave, to elucidate",
+          "note": "Implies interpretive clarity — Moses is not merely repeating but elucidating and applying the covenant requirements for the generation about to enter the land."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "יְהֹוָ֧ה אֱלֹהֵ֛ינוּ דִּבֶּ֥ר אֵלֵ֖ינוּ בְּחֹרֵ֣ב לֵאמֹ֑ר רַב־לָכֶ֥ם שֶׁ֖בֶת בָּהָ֥ר הַזֶּֽה׃",
+      "text_kjv": "The LORD our God spake unto us in Horeb, saying, Ye have dwelt long enough in this mount:",
+      "rendering": "The LORD our God spoke to us at Horeb: 'You have stayed at this mountain long enough.'",
+      "translator_notes": [
+        "The phrase rav lakhem shevet ('enough for you to dwell') uses rav ('much, enough, sufficient') as a divine directive to end the Horeb encampment. The command signals transition: the purpose of Sinai — receiving the covenant — is complete, and the people must now move toward the land where they will live it out. Moses uses 'our God' (Eloheinu) to include himself in the community being addressed."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "פְּנ֣וּ&thinsp;׀ וּסְע֣וּ לָכֶ֗ם וּבֹ֨אוּ הַ֥ר הָֽאֱמֹרִי֮ וְאֶל־כׇּל־שְׁכֵנָיו֒ בָּעֲרָבָ֥ה בָהָ֛ר וּבַשְּׁפֵלָ֥ה וּבַנֶּ֖גֶב וּבְח֣וֹף הַיָּ֑ם אֶ֤רֶץ הַֽכְּנַעֲנִי֙ וְהַלְּבָנ֔וֹן עַד־הַנָּהָ֥ר הַגָּדֹ֖ל נְהַר־פְּרָֽת׃",
+      "text_kjv": "Turn you, and take your journey, and go to the mount of the Amorites, and unto all the places nigh thereunto, in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates.",
+      "rendering": "Break camp, set out, and go to the hill country of the Amorites and to all the neighboring regions — the Arabah, the hill country, the western foothills, the Negev, and the coastal plain — the land of the Canaanites, and on to Lebanon, as far as the great river, the Euphrates.",
+      "translator_notes": [
+        "God's command uses three imperatives — penu ('turn'), us'u ('travel'), uvo'u ('go in') — conveying urgency. The geographical catalog describes the entire promised land through its ecological zones: aravah (rift valley), har (hill country), shfelah (western foothills/lowlands), negev (southern desert), and chof ha-yam (seacoast). This comprehensive survey — from the Amorite hills to the Euphrates — represents the maximum extent of the divine land grant."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שְׁפֵלָה",
+          "transliteration": "shefelah",
+          "rendered_as": "western foothills",
+          "semantic_range": "lowland, foothills, piedmont",
+          "note": "The low rolling hills between the coastal plain and the central hill country of Judah; a distinct geographical region in biblical geography often left untranslated."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "רְאֵ֛ה נָתַ֥תִּי לִפְנֵיכֶ֖ם אֶת־הָאָ֑רֶץ בֹּ֚אוּ וּרְשׁ֣וּ אֶת־הָאָ֔רֶץ אֲשֶׁ֣ר נִשְׁבַּ֣ע יְ֠הֹוָ֠ה לַאֲבֹ֨תֵיכֶ֜ם לְאַבְרָהָ֨ם לְיִצְחָ֤ק וּֽלְיַעֲקֹב֙ לָתֵ֣ת לָהֶ֔ם וּלְזַרְעָ֖ם אַחֲרֵיהֶֽם׃",
+      "text_kjv": "Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them.",
+      "rendering": "Look — I have placed the land before you. Go in and take possession of the land that the LORD swore to your ancestors — to Abraham, Isaac, and Jacob — to give to them and to their descendants after them.",
+      "translator_notes": [
+        "The imperative re'eh ('look, see') calls for attentive recognition of what God has done. The verb natati ('I have given') uses the perfect tense — the gift is already accomplished from God's perspective even though Israel has not yet entered. The command reshu ('take possession') from yarash implies displacing current inhabitants. The patriarchal oath — to Abraham, Isaac, and Jacob — anchors the land promise in covenant history, reinforcing that this is not mere conquest but covenant fulfillment."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רְשׁוּ",
+          "transliteration": "reshu",
+          "rendered_as": "take possession",
+          "semantic_range": "to possess, to dispossess, to inherit, to take over",
+          "note": "From yarash — a key Deuteronomic verb carrying the dual sense of inheriting a gift and actively taking control of territory; it implies both divine grant and human responsibility."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וָאֹמַ֣ר אֲלֵכֶ֔ם בָּעֵ֥ת הַהִ֖וא לֵאמֹ֑ר לֹא־אוּכַ֥ל לְבַדִּ֖י שְׂאֵ֥ת אֶתְכֶֽם׃",
+      "text_kjv": "And I spake unto you at that time, saying, I am not able to bear you myself alone:",
+      "rendering": "I said to you at that time: 'I cannot carry the burden of you by myself.'",
+      "translator_notes": [
+        "The verb se'et ('to carry, to bear') from nasa conveys the weight of leadership — the same verb used of carrying a physical load. Moses's admission lo ukhal levadi ('I am unable alone') echoes the crisis of Numbers 11:14 and anticipates the delegation structure that follows. The phrasing reflects both honest vulnerability and practical wisdom about governance."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "יְהֹוָ֥ה אֱלֹהֵיכֶ֖ם הִרְבָּ֣ה אֶתְכֶ֑ם וְהִנְּכֶ֣ם הַיּ֔וֹם כְּכוֹכְבֵ֥י הַשָּׁמַ֖יִם לָרֹֽב׃",
+      "text_kjv": "The LORD your God hath multiplied you, and, behold, ye are this day as the stars of heaven for multitude.",
+      "rendering": "The LORD your God has made you numerous, and today you are as many as the stars in the sky.",
+      "translator_notes": [
+        "The verb hirbah ('multiplied, made numerous') from ravah directly fulfills the patriarchal promise to Abraham (Genesis 15:5, 22:17). The simile k'kokhvei ha-shamayim la-rov ('like the stars of heaven in abundance') is a covenant marker — what was once a promise to a childless man is now a visible reality. Moses presents the very problem of governance (too many people) as evidence of divine faithfulness."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "יְהֹוָ֞ה אֱלֹהֵ֣י אֲבֽוֹתֵכֶ֗ם יֹסֵ֧ף עֲלֵיכֶ֛ם כָּכֶ֖ם אֶ֣לֶף פְּעָמִ֑ים וִיבָרֵ֣ךְ אֶתְכֶ֔ם כַּאֲשֶׁ֖ר דִּבֶּ֥ר לָכֶֽם׃",
+      "text_kjv": "(The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!)",
+      "rendering": "(May the LORD, the God of your ancestors, increase you a thousand times over and bless you just as He promised you!)",
+      "translator_notes": [
+        "This parenthetical blessing — yosef aleikhem kakhem elef pe'amim ('may He add upon you like you a thousand times') — interrupts Moses's complaint about the people's numbers with a spontaneous prayer for even more growth. The jussive vivarekh ('and may He bless') expresses Moses's genuine desire for Israel's flourishing even as he acknowledges the burden of their size. The interjection reveals Moses's pastoral heart."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "אֵיכָ֥ה אֶשָּׂ֖א לְבַדִּ֑י טׇרְחֲכֶ֥ם וּמַֽשַּׂאֲכֶ֖ם וְרִֽיבְכֶֽם׃",
+      "text_kjv": "How can I myself alone bear your cumbrance, and your burden, and your strife?",
+      "rendering": "How can I carry by myself your troubles, your burdens, and your disputes?",
+      "translator_notes": [
+        "The exclamatory eikhah ('how?!') expresses overwhelmed frustration — the same word that opens the book of Lamentations. Three nouns escalate the problem: torchakhem ('your troublesomeness/difficulty'), masa'akhem ('your load/burden'), and rivkhem ('your quarrels/legal disputes'). Together they describe the full weight of communal leadership: dealing with difficult people, bearing responsibility, and adjudicating conflicts."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֵיכָה",
+          "transliteration": "eikhah",
+          "rendered_as": "how",
+          "semantic_range": "how!, alas!, in what way?",
+          "note": "An exclamation of lament and overwhelm; the same word that titles the book of Lamentations (Eikhah), linking Moses's exhaustion here with the broader biblical theme of grief under unbearable weight."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "הָב֣וּ לָ֠כֶ֠ם אֲנָשִׁ֨ים חֲכָמִ֧ים וּנְבֹנִ֛ים וִידֻעִ֖ים לְשִׁבְטֵיכֶ֑ם וַאֲשִׂימֵ֖ם בְּרָאשֵׁיכֶֽם׃",
+      "text_kjv": "Take you wise men, and understanding, and known among your tribes, and I will make them rulers over you.",
+      "rendering": "Choose for yourselves wise, discerning, and experienced men from each of your tribes, and I will appoint them as your leaders.",
+      "translator_notes": [
+        "The imperative havu lakhem ('select for yourselves') places responsibility on the people to identify qualified candidates. Three qualifications are listed: chakhamim ('wise' — possessing practical wisdom), nevonim ('discerning' — having intellectual clarity and insight), and yidu'im ('known/recognized' — carrying public reputation and trust). Moses retains the authority to formally install them (va'asimem — 'I will set them') but shares the selection process."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֲכָמִים",
+          "transliteration": "chakhamim",
+          "rendered_as": "wise",
+          "semantic_range": "wise, skilled, experienced, shrewd, learned",
+          "note": "Biblical wisdom (chokhmah) is practical and relational — skill in living, not abstract knowledge. These leaders need competence in human affairs, not merely intellect."
+        },
+        {
+          "hebrew": "נְבֹנִים",
+          "transliteration": "nevonim",
+          "rendered_as": "discerning",
+          "semantic_range": "discerning, understanding, insightful, perceptive",
+          "note": "From bin ('to distinguish between'); implies the ability to perceive distinctions, weigh evidence, and understand situations with depth and clarity."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַֽתַּעֲנ֖וּ אֹתִ֑י וַתֹּ֣אמְר֔וּ טֽוֹב־הַדָּבָ֥ר אֲשֶׁר־דִּבַּ֖רְתָּ לַעֲשֽׂוֹת׃",
+      "text_kjv": "And ye answered me, and said, The thing which thou hast spoken is good for us to do.",
+      "rendering": "You answered me and said, 'What you have proposed is a good plan to carry out.'",
+      "translator_notes": [
+        "The people's unanimous response — tov ha-davar asher dibarta la'asot ('good is the thing you have spoken to do') — contrasts sharply with their later refusal at Kadesh-barnea. When leadership structure serves their interests, they agree readily; when faith is demanded, they rebel. Moses may be drawing this contrast deliberately for his audience."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וָאֶקַּ֞ח אֶת־רָאשֵׁ֣י שִׁבְטֵיכֶ֗ם אֲנָשִׁ֤ים חֲכָמִים֙ וִֽידֻעִ֔ים וָאֶתֵּ֥ן אוֹתָ֛ם רָאשִׁ֖ים עֲלֵיכֶ֑ם שָׂרֵ֨י אֲלָפִ֜ים וְשָׂרֵ֣י מֵא֗וֹת וְשָׂרֵ֤י חֲמִשִּׁים֙ וְשָׂרֵ֣י עֲשָׂרֹ֔ת וְשֹׁטְרִ֖ים לְשִׁבְטֵיכֶֽם׃",
+      "text_kjv": "So I took the chief of your tribes, wise men, and known, and made them heads over you, captains over thousands, and captains over hundreds, and captains over fifties, and captains over tens, and officers among your tribes.",
+      "rendering": "So I selected the leaders of your tribes — wise and experienced men — and appointed them as heads over you: commanders of thousands, commanders of hundreds, commanders of fifties, commanders of tens, and officials for your tribes.",
+      "translator_notes": [
+        "The tiered leadership structure — sarei alafim ('chiefs of thousands'), sarei me'ot ('chiefs of hundreds'), sarei chamishim ('chiefs of fifties'), sarei asarot ('chiefs of tens') — creates a decimal administrative system. The shotrim ('officials, officers') served as administrators and record-keepers. Notably, Moses mentions only chakhamim and yidu'im ('wise and known') here, omitting nevonim ('discerning') from verse 13 — perhaps indicating that perfect candidates were unavailable."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וָאֲצַוֶּה֙ אֶת־שֹׁ֣פְטֵיכֶ֔ם בָּעֵ֥ת הַהִ֖וא לֵאמֹ֑ר שָׁמֹ֤עַ בֵּין־אֲחֵיכֶם֙ וּשְׁפַטְתֶּ֣ם צֶ֔דֶק בֵּֽין־אִ֥ישׁ וּבֵין־אָחִ֖יו וּבֵ֥ין גֵּרֽוֹ׃",
+      "text_kjv": "And I charged your judges at that time, saying, Hear the causes between your brethren, and judge righteously between every man and his brother, and the stranger that is with him.",
+      "rendering": "I instructed your judges at that time: 'Hear the cases among your fellow Israelites and judge fairly between a person and his brother or the resident foreigner among him.'",
+      "translator_notes": [
+        "The infinitive absolute shamo'a ('hearing' — hear thoroughly) demands careful, complete attention to testimony. The command ushfattem tsedeq ('judge righteously/justly') makes justice an active obligation, not a passive ideal. The inclusion of the ger ('resident foreigner, immigrant') alongside 'his brother' is remarkable — equal justice extends beyond ethnic Israel to those dwelling among them. This establishes a foundational principle of Israelite jurisprudence."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "צֶדֶק",
+          "transliteration": "tsedeq",
+          "rendered_as": "fairly",
+          "semantic_range": "justice, righteousness, equity, what is right, vindication",
+          "note": "A relational term — tsedeq is not abstract justice but conformity to the standards of covenant relationship; it means rendering to each person what is genuinely due."
+        },
+        {
+          "hebrew": "גֵּר",
+          "transliteration": "ger",
+          "rendered_as": "resident foreigner",
+          "semantic_range": "sojourner, immigrant, resident alien, stranger, convert",
+          "note": "A non-Israelite living permanently within Israelite society; the ger has legal protections and is included in the judicial system alongside native-born Israelites."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "לֹֽא־תַכִּ֨ירוּ פָנִ֜ים בַּמִּשְׁפָּ֗ט כַּקָּטֹ֤ן כַּגָּדֹל֙ תִּשְׁמָע֔וּן לֹ֤א תָג֙וּרוּ֙ מִפְּנֵי־אִ֔ישׁ כִּ֥י הַמִּשְׁפָּ֖ט לֵאלֹהִ֣ים ה֑וּא וְהַדָּבָר֙ אֲשֶׁ֣ר יִקְשֶׁ֣ה מִכֶּ֔ם תַּקְרִב֥וּן אֵלַ֖י וּשְׁמַעְתִּֽיו׃",
+      "text_kjv": "Ye shall not respect persons in judgment; but ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment is God's: and the cause that is too hard for you, bring it unto me, and I will hear it.",
+      "rendering": "Show no partiality in judgment. Give the small and the great an equal hearing. Do not be intimidated by anyone, because judgment belongs to God. Any case too difficult for you, bring to me and I will hear it.",
+      "translator_notes": [
+        "The phrase lo takiru fanim ('do not recognize faces') is the Hebrew idiom for showing partiality — literally, not being swayed by recognizing who stands before you. The parallel ka-qaton ka-gadol tishma'un ('the small like the great you shall hear') demands equal access regardless of social status. The theological foundation ha-mishpat l'Elohim hu ('the judgment is God's') transforms every judicial act into a divine function — judges act as God's representatives, which is why they must be fearless (lo taguru — 'do not shrink back')."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מִשְׁפָּט",
+          "transliteration": "mishpat",
+          "rendered_as": "judgment",
+          "semantic_range": "judgment, justice, legal case, ordinance, custom, right",
+          "note": "Encompasses both the process of adjudication and its outcome; the claim that mishpat belongs to God means human courts exercise delegated divine authority."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וָאֲצַוֶּ֥ה אֶתְכֶ֖ם בָּעֵ֣ת הַהִ֑וא אֵ֥ת כׇּל־הַדְּבָרִ֖ים אֲשֶׁ֥ר תַּעֲשֽׂוּן׃",
+      "text_kjv": "And I commanded you at that time all the things which ye should do.",
+      "rendering": "At that time I gave you instructions regarding everything you were to do.",
+      "translator_notes": [
+        "The summary statement va'atsaveh etkhem ('I commanded you') with et kol ha-devarim ('all the things') emphasizes comprehensive instruction. Moses transitions from the appointment of judges to the narrative of the journey to Kadesh-barnea. The phrase asher ta'asun ('which you shall do') stresses that the commands require concrete action, not merely intellectual assent."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַנִּסַּ֣ע מֵחֹרֵ֗ב וַנֵּ֡לֶךְ אֵ֣ת כׇּל־הַמִּדְבָּ֣ר הַגָּדוֹל֩ וְהַנּוֹרָ֨א הַה֜וּא אֲשֶׁ֣ר רְאִיתֶ֗ם דֶּ֚רֶךְ הַ֣ר הָֽאֱמֹרִ֔י כַּאֲשֶׁ֥ר צִוָּ֛ה יְהֹוָ֥ה אֱלֹהֵ֖ינוּ אֹתָ֑נוּ וַנָּבֹ֕א עַ֖ד קָדֵ֥שׁ בַּרְנֵֽעַ׃",
+      "text_kjv": "And when we departed from Horeb, we went through all that great and terrible wilderness, which ye saw by the way of the mountain of the Amorites, as the LORD our God commanded us; and we came to Kadesh-barnea.",
+      "rendering": "We set out from Horeb and traveled through that entire vast and terrifying wilderness that you saw for yourselves, along the route to the Amorite hill country, just as the LORD our God had directed us, and we arrived at Kadesh-barnea.",
+      "translator_notes": [
+        "The wilderness is characterized as ha-gadol v'ha-nora ('the great and the terrifying') — nora from the root yare' ('to fear') emphasizes genuine danger. Moses reminds them asher re'item ('which you saw') — they are eyewitnesses to God's protection through this deadly landscape. The arrival at Kadesh-barnea sets the stage for the critical failure: the spy mission and subsequent refusal to enter the land."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וָאֹמַ֖ר אֲלֵכֶ֑ם בָּאתֶם֙ עַד־הַ֣ר הָאֱמֹרִ֔י אֲשֶׁר־יְהֹוָ֥ה אֱלֹהֵ֖ינוּ נֹתֵ֥ן לָֽנוּ׃",
+      "text_kjv": "And I said unto you, Ye are come unto the mountain of the Amorites, which the LORD our God doth give unto us.",
+      "rendering": "I said to you, 'You have reached the hill country of the Amorites, which the LORD our God is giving to us.'",
+      "translator_notes": [
+        "The participle noten ('is giving') presents the land grant as an ongoing, present-tense action — God is in the process of giving, and all Israel needs to do is receive. Moses's announcement ba'tem ('you have arrived') marks a moment of opportunity: the land is within reach, the divine gift is active, and the only question is whether Israel will respond in faith."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "רְ֠אֵ֠ה נָתַ֨ן יְהֹוָ֧ה אֱלֹהֶ֛יךָ לְפָנֶ֖יךָ אֶת־הָאָ֑רֶץ עֲלֵ֣ה רֵ֗שׁ כַּאֲשֶׁר֩ דִּבֶּ֨ר יְהֹוָ֜ה אֱלֹהֵ֤י אֲבֹתֶ֙יךָ֙ לָ֔ךְ אַל־תִּירָ֖א וְאַל־תֵּחָֽת׃",
+      "text_kjv": "Behold, the LORD thy God hath set the land before thee: go up and possess it, as the LORD God of thy fathers hath said unto thee; fear not, neither be discouraged.",
+      "rendering": "Look — the LORD your God has placed the land before you. Go up and take possession of it, just as the LORD, the God of your ancestors, told you. Do not be afraid, and do not lose heart.",
+      "translator_notes": [
+        "Two prohibitions close the verse: al tira ('do not fear') and al techat ('do not be shattered/dismayed'). The verb tachat from chatat means to be broken, shattered, or dismayed — stronger than ordinary fear, it describes a collapse of resolve. Together they address both emotional fear and psychological defeat. The shift from plural address (v. 20) to singular (re'eh, lefanekha) personalizes the command — each individual must choose courage."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַתִּקְרְב֣וּן אֵלַי֮ כֻּלְּכֶם֒ וַתֹּאמְר֗וּ נִשְׁלְחָ֤ה אֲנָשִׁים֙ לְפָנֵ֔ינוּ וְיַחְפְּרוּ־לָ֖נוּ אֶת־הָאָ֑רֶץ וְיָשִׁ֤בוּ אֹתָ֙נוּ֙ דָּבָ֔ר אֶת־הַדֶּ֙רֶךְ֙ אֲשֶׁ֣ר נַעֲלֶה־בָּ֔הּ וְאֵת֙ הֶֽעָרִ֔ים אֲשֶׁ֥ר נָבֹ֖א אֲלֵיהֶֽן׃",
+      "text_kjv": "And ye came near unto me every one of you, and said, We will send men before us, and they shall search us out the land, and bring us word again by what way we must go up, and into what cities we shall come.",
+      "rendering": "Then all of you approached me and said, 'Let us send men ahead of us to scout out the land for us and bring back a report about the route we should take and the cities we will encounter.'",
+      "translator_notes": [
+        "The verb va-tiqrevun ('you drew near') with kullekhem ('all of you') emphasizes unanimous initiative — this was the people's idea, not God's command (contrast Numbers 13:1-2 where the LORD initiates). The verb yachperu ('let them dig out, search, explore') from chaphar implies thorough investigation. Moses's retelling places responsibility squarely on the people for initiating the spy mission, shifting the emphasis from the Numbers account."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיִּיטַ֥ב בְּעֵינַ֖י הַדָּבָ֑ר וָאֶקַּ֤ח מִכֶּם֙ שְׁנֵ֣ים עָשָׂ֣ר אֲנָשִׁ֔ים אִ֥ישׁ אֶחָ֖ד לַשָּֽׁבֶט׃",
+      "text_kjv": "and the saying pleased me well: and I took twelve men of you, one of a tribe:",
+      "rendering": "The plan seemed good to me, so I selected twelve men from among you, one from each tribe.",
+      "translator_notes": [
+        "The idiom va-yitav be'einai ('it was good in my eyes') indicates Moses's approval of the plan. His willingness to send spies was not itself sinful — reconnaissance is sound military practice. The problem would emerge not from scouting but from the people's response to the report. The number shnem asar ('twelve') — one per tribe — ensures representative participation and collective accountability."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיִּפְנוּ֙ וַיַּעֲל֣וּ הָהָ֔רָה וַיָּבֹ֖אוּ עַד־נַ֣חַל אֶשְׁכֹּ֑ל וַֽיְרַגְּל֖וּ אֹתָֽהּ׃",
+      "text_kjv": "And they turned and went up into the mountain, and came unto the valley of Eshcol, and searched it out.",
+      "rendering": "They set out and went up into the hill country, reaching the Wadi of Eshcol, and explored it.",
+      "translator_notes": [
+        "The spies reached nachal Eshkol ('Wadi/Valley of Eshcol') — eshkol means 'cluster,' named for the famous grape cluster they found there (Numbers 13:23-24). The verb vayeraglu ('they spied it out') from ragal ('foot') literally means 'they footed through it' — walking the land to assess it firsthand. The report is initially positive, making the subsequent rebellion all the more tragic."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיִּקְח֤וּ בְיָדָם֙ מִפְּרִ֣י הָאָ֔רֶץ וַיּוֹרִ֖דוּ אֵלֵ֑ינוּ וַיָּשִׁ֨בוּ אֹתָ֤נוּ דָבָר֙ וַיֹּ֣אמְר֔וּ טוֹבָ֣ה הָאָ֔רֶץ אֲשֶׁר־יְהֹוָ֥ה אֱלֹהֵ֖ינוּ נֹתֵ֥ן לָֽנוּ׃",
+      "text_kjv": "And they took of the fruit of the land in their hands, and brought it down unto us, and brought us word again, and said, It is a good land which the LORD our God doth give us.",
+      "rendering": "They took some of the produce of the land in their hands and brought it down to us. They gave us their report and said, 'The land that the LORD our God is giving us is good.'",
+      "translator_notes": [
+        "The physical evidence — mi-pri ha-arets ('from the fruit of the land') — confirmed the land's agricultural abundance. The spies' verdict tovah ha-arets ('good is the land') echoes God's own assessment. Moses's abbreviated retelling omits the frightening details of the majority report (Numbers 13:28-33) and focuses on the bottom-line conclusion: the land is good, the gift is real, and the refusal was inexcusable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְלֹ֥א אֲבִיתֶ֖ם לַעֲלֹ֑ת וַתַּמְר֕וּ אֶת־פִּ֥י יְהֹוָ֖ה אֱלֹהֵיכֶֽם׃",
+      "text_kjv": "Notwithstanding ye would not go up, but rebelled against the commandment of the LORD your God:",
+      "rendering": "But you refused to go up. You rebelled against the command of the LORD your God.",
+      "translator_notes": [
+        "The verb avitem ('you were willing') negated — lo avitem ('you were not willing') — emphasizes willful refusal, not inability. The verb va-tamru ('you rebelled') from marah ('to be bitter, to rebel') describes not mere disobedience but defiant opposition to pi YHWH ('the mouth of the LORD') — His spoken command. The rebellion is framed as personal affront to God Himself."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָרָה",
+          "transliteration": "marah",
+          "rendered_as": "rebelled",
+          "semantic_range": "to rebel, to be bitter, to be obstinate, to resist, to defy",
+          "note": "Conveys both the act of defiance and the bitter attitude behind it; related to the place name Marah ('bitter waters') in Exodus 15:23."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַתֵּרָגְנ֤וּ בְאׇהֳלֵיכֶם֙ וַתֹּ֣אמְר֔וּ בְּשִׂנְאַ֤ת יְהֹוָה֙ אֹתָ֔נוּ הוֹצִיאָ֖נוּ מֵאֶ֣רֶץ מִצְרָ֑יִם לָתֵ֥ת אֹתָ֛נוּ בְּיַ֥ד הָאֱמֹרִ֖י לְהַשְׁמִידֵֽנוּ׃",
+      "text_kjv": "And ye murmured in your tents, and said, Because the LORD hated us, he hath brought us forth out of the land of Egypt, to deliver us into the hand of the Amorites, to destroy us.",
+      "rendering": "You grumbled in your tents and said, 'The LORD hates us! That is why He brought us out of Egypt — to hand us over to the Amorites so they could destroy us.'",
+      "translator_notes": [
+        "The verb va-teragnu ('you grumbled, complained') from ragan describes sullen, resentful muttering — the complaint happens be'ohaleikhem ('in your tents'), privately and bitterly. The accusation be-sin'at YHWH otanu ('because of the LORD's hatred of us') is a shocking inversion of reality — they reinterpret the greatest act of divine love (the Exodus) as evidence of divine malice. This is the deepest form of unbelief: not doubting God's power but questioning His goodness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "אָנָ֣ה&thinsp;׀ אֲנַ֣חְנוּ עֹלִ֗ים אַחֵ֩ינוּ֩ הֵמַ֨סּוּ אֶת־לְבָבֵ֜נוּ לֵאמֹ֗ר עַ֣ם גָּד֤וֹל וָרָם֙ מִמֶּ֔נּוּ עָרִ֛ים גְּדֹלֹ֥ת וּבְצוּרֹ֖ת בַּשָּׁמָ֑יִם וְגַם־בְּנֵ֥י עֲנָקִ֖ים רָאִ֥ינוּ שָֽׁם׃",
+      "text_kjv": "Whither shall we go up? our brethren have discouraged our heart, saying, The people is greater and taller than we; the cities are great and walled up to heaven; and moreover we have seen the sons of the Anakims there.",
+      "rendering": "'Where can we possibly go? Our own brothers have made our hearts melt, reporting: \"The people are bigger and taller than we are; the cities are large, with fortifications reaching to the sky. We even saw the descendants of the Anakim there.\"'",
+      "translator_notes": [
+        "The question anah anachnu olim ('where are we going up?') expresses hopelessness. The verb hemassu ('they melted') from masas describes the dissolving of courage — their brothers (acheinu) caused their hearts to liquify with fear. The hyperbolic uvetsurot ba-shamayim ('fortified to the heavens') conveys perceived impregnability. The benei Anaqim ('sons of Anak') were legendary giant warriors whose reputation was meant to terrify — and it worked."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עֲנָקִים",
+          "transliteration": "Anaqim",
+          "rendered_as": "Anakim",
+          "semantic_range": "Anakim, long-necked ones, giants",
+          "note": "A pre-Israelite people of great stature associated with Hebron; their name may derive from anaq ('necklace') or connote 'long-necked/tall.' Their formidable reputation made them a symbol of insurmountable obstacles."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וָאֹמַ֖ר אֲלֵכֶ֑ם לֹא־תַעַרְצ֥וּן וְלֹא־תִֽירְא֖וּן מֵהֶֽם׃",
+      "text_kjv": "Then I said unto you, Dread not, neither be afraid of them.",
+      "rendering": "I told you, 'Do not be terrified of them. Do not be afraid of them.'",
+      "translator_notes": [
+        "Two verbs of fear are negated: lo ta'artsun ('do not be terrified/shattered') from arats ('to tremble, be in dread') and lo tire'un ('do not fear') from yare'. The first describes existential dread — being psychologically overwhelmed; the second is ordinary fear. Moses counters both levels of their panic with direct prohibitions, addressing the root emotion driving the rebellion."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "יְהֹוָ֤ה אֱלֹֽהֵיכֶם֙ הַהֹלֵ֣ךְ לִפְנֵיכֶ֔ם ה֖וּא יִלָּחֵ֣ם לָכֶ֑ם כְּ֠כֹ֠ל אֲשֶׁ֨ר עָשָׂ֧ה אִתְּכֶ֛ם בְּמִצְרַ֖יִם לְעֵינֵיכֶֽם׃",
+      "text_kjv": "The LORD your God which goeth before you, he shall fight for you, according to all that he did for you in Egypt before your eyes;",
+      "rendering": "The LORD your God, who goes before you — He Himself will fight for you, exactly as He did for you in Egypt right before your eyes,",
+      "translator_notes": [
+        "The participle ha-holekh lifneikhem ('the one going before you') presents God as an advance guard. The emphatic pronoun hu ('He Himself') underscores that the battle is God's, not theirs. The appeal to historical experience — k'khol asher asah itkhem be-Mitsrayim ('according to all He did with you in Egypt') le'eineikhem ('before your eyes') — makes their fear irrational: they have personally witnessed God's military intervention."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וּבַמִּדְבָּר֙ אֲשֶׁ֣ר רָאִ֔יתָ אֲשֶׁ֤ר נְשָׂאֲךָ֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ כַּאֲשֶׁ֥ר יִשָּׂא־אִ֖ישׁ אֶת־בְּנ֑וֹ בְּכׇל־הַדֶּ֙רֶךְ֙ אֲשֶׁ֣ר הֲלַכְתֶּ֔ם עַד־בֹּאֲכֶ֖ם עַד־הַמָּק֥וֹם הַזֶּֽה׃",
+      "text_kjv": "And in the wilderness, where thou hast seen how that the LORD thy God bare thee, as a man doth bear his son, in all the way that ye went, until ye came into this place.",
+      "rendering": "and in the wilderness, where you saw how the LORD your God carried you as a father carries his child through the entire journey you traveled, until you reached this place.",
+      "translator_notes": [
+        "The simile ka'asher yisa ish et beno ('as a man carries his son') is one of the most tender images of God in the Hebrew Bible. The verb nasa ('carry, bear, lift') — the same word Moses used for his own burden in verse 9 — transfers the image to God. What Moses cannot bear alone, God has been doing all along. The father-son metaphor portrays God's protection as instinctive, constant, and deeply personal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וּבַדָּבָ֖ר הַזֶּ֑ה אֵֽינְכֶם֙ מַאֲמִינִ֔ם בַּיהֹוָ֖ה אֱלֹהֵיכֶֽם׃",
+      "text_kjv": "Yet in this thing ye did not believe the LORD your God,",
+      "rendering": "Yet despite all this, you did not trust the LORD your God —",
+      "translator_notes": [
+        "The participle ma'aminim ('believing, trusting') from the root aman ('to be firm, reliable, faithful') appears in the negative: einkhem ma'aminim ('you are not trusting'). This is the central indictment. After Egypt's plagues, the sea crossing, manna, and the wilderness journey — uva-davar ha-zeh ('even in this matter') — they still lacked the faith to enter. Trust (emunah) in Deuteronomy is not intellectual belief but confident reliance on God's proven character."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מַאֲמִינִם",
+          "transliteration": "ma'aminim",
+          "rendered_as": "trust",
+          "semantic_range": "believe, trust, be firm, rely upon, have confidence in",
+          "note": "From the root aman, source of 'amen' and emunah ('faithfulness'); biblical faith is firm reliance based on demonstrated trustworthiness, not blind acceptance."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "הַהֹלֵ֨ךְ לִפְנֵיכֶ֜ם בַּדֶּ֗רֶךְ לָת֥וּר לָכֶ֛ם מָק֖וֹם לַחֲנֹֽתְכֶ֑ם בָּאֵ֣שׁ&thinsp;׀ לַ֗יְלָה לַרְאֹֽתְכֶם֙ בַּדֶּ֙רֶךְ֙ אֲשֶׁ֣ר תֵּֽלְכוּ־בָ֔הּ וּבֶעָנָ֖ן יוֹמָֽם׃",
+      "text_kjv": "Who went in the way before you, to search you out a place to pitch your tents in, in fire by night, to shew you by what way ye should go, and in a cloud by day.",
+      "rendering": "who went ahead of you on the road, scouting out camping places for you — in fire by night to light your path, and in a cloud by day.",
+      "translator_notes": [
+        "God's guidance is described through three functions: He goes lifneikhem ('before you') as scout, He searches out (latur) camping sites (maqom la-chanotekhem — 'a place for your encamping'), and He provides navigation through the pillar of fire (ba-esh lailah — 'in fire by night') and cloud (uv-anan yomam — 'in a cloud by day'). The verb latur ('to scout, explore') is the same verb used for the spies' mission — ironically, God was already doing the reconnaissance they demanded."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיִּשְׁמַ֥ע יְהֹוָ֖ה אֶת־ק֣וֹל דִּבְרֵיכֶ֑ם וַיִּקְצֹ֖ף וַיִּשָּׁבַ֥ע לֵאמֹֽר׃",
+      "text_kjv": "And the LORD heard the voice of your words, and was wroth, and sware, saying,",
+      "rendering": "The LORD heard your words and was angry. He took an oath, saying:",
+      "translator_notes": [
+        "The sequence — va-yishma ('He heard'), va-yiqtsof ('He became angry'), va-yishava ('He swore') — progresses from perception to emotion to irrevocable decree. The verb qatsaf ('to be angry, furious') describes intense divine wrath provoked by the rebellion. That God seals His response with an oath (shava) means the judgment is permanent and cannot be appealed — the wilderness generation has forfeited the land."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "אִם־יִרְאֶ֥ה אִישׁ֙ בָּאֲנָשִׁ֣ים הָאֵ֔לֶּה הַדּ֥וֹר הָרָ֖ע הַזֶּ֑ה אֵ֚ת הָאָ֣רֶץ הַטּוֹבָ֔ה אֲשֶׁ֣ר נִשְׁבַּ֔עְתִּי לָתֵ֖ת לַאֲבֹתֵיכֶֽם׃",
+      "text_kjv": "Surely there shall not one of these men of this evil generation see that good land, which I sware to give unto your fathers,",
+      "rendering": "'Not a single person of this evil generation will see the good land that I swore to give to your ancestors —",
+      "translator_notes": [
+        "The oath formula im yir'eh ish ('if a man shall see' — meaning 'surely no man shall see') is a self-imprecation: God stakes His own name that the ha-dor ha-ra ha-zeh ('this evil generation') will be excluded. The contrast between ha-arets ha-tovah ('the good land') and ha-dor ha-ra ('the evil generation') is deliberate — the land is good but the generation is corrupt, and corruption cannot inherit the good gift."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "זֽוּלָתִ֞י כָּלֵ֤ב בֶּן־יְפֻנֶּה֙ ה֣וּא יִרְאֶ֔נָּה וְלֽוֹ־אֶתֵּ֧ן אֶת־הָאָ֛רֶץ אֲשֶׁ֥ר דָּֽרַךְ־בָּ֖הּ וּלְבָנָ֑יו יַ֕עַן אֲשֶׁ֥ר מִלֵּ֖א אַחֲרֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "Save Caleb the son of Jephunneh; he shall see it, and to him will I give the land that he hath trodden upon, and to his children, because he hath wholly followed the LORD.",
+      "rendering": "except Caleb son of Jephunneh. He will see it, and I will give the land he walked on to him and to his descendants, because he followed the LORD wholeheartedly.'",
+      "translator_notes": [
+        "Caleb is the sole exception (zulati — 'except') from the condemned generation. The phrase mile acharei YHWH ('filled up after the LORD' — followed fully, wholeheartedly) uses male' ('to fill') to describe complete, undivided commitment. The land asher darakh bah ('which he trod upon') refers specifically to the territory Caleb scouted, later identified as Hebron. His reward is the very land he had the faith to believe God could give."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מִלֵּא אַחֲרֵי",
+          "transliteration": "mile acharei",
+          "rendered_as": "followed wholeheartedly",
+          "semantic_range": "filled up after, followed fully, completed the pursuit of",
+          "note": "Literally 'filled after' — a metaphor of completeness. Caleb's loyalty to the LORD was not partial or wavering but full to overflowing; he followed through all the way."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "גַּם־בִּי֙ הִתְאַנַּ֣ף יְהֹוָ֔ה בִּגְלַלְכֶ֖ם לֵאמֹ֑ר גַּם־אַתָּ֖ה לֹא־תָבֹ֥א שָֽׁם׃",
+      "text_kjv": "Also the LORD was angry with me for your sakes, saying, Thou also shalt not go in thither.",
+      "rendering": "The LORD was also angry with me because of you, saying, 'You too will not enter there.'",
+      "translator_notes": [
+        "The verb hit'anaf ('was angry') from anaf is a strong term for divine wrath. Moses claims the anger was biglalkhem ('on your account, because of you') — connecting his own exclusion from the land to the people's rebellion. This anticipates the fuller explanation in Deuteronomy 3:26 and 4:21. The phrase gam attah ('you too, even you') is poignant: not even the mediator is exempt from the consequences of communal failure."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "יְהוֹשֻׁ֤עַ בִּן־נוּן֙ הָעֹמֵ֣ד לְפָנֶ֔יךָ ה֖וּא יָ֣בֹא שָׁ֑מָּה אֹת֣וֹ חַזֵּ֔ק כִּי־ה֖וּא יַנְחִלֶ֥נָּה אֶת־יִשְׂרָאֵֽל׃",
+      "text_kjv": "But Joshua the son of Nun, which standeth before thee, he shall go in thither: encourage him: for he shall cause Israel to inherit it.",
+      "rendering": "Joshua son of Nun, who serves before you — he will enter there. Strengthen him, because he is the one who will lead Israel to inherit it.",
+      "translator_notes": [
+        "Joshua is described as ha-omed lefanekha ('the one standing/serving before you') — indicating his role as Moses's attendant and apprentice. The imperative chazzeq ('strengthen, encourage') from chazaq anticipates the threefold commissioning of Joshua in chapter 31. The verb yanchilennah ('he will cause [Israel] to inherit it') from nachal ('to inherit, to receive as a possession') assigns Joshua the role of land-distributor, completing what Moses began."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְטַפְּכֶם֩ אֲשֶׁ֨ר אֲמַרְתֶּ֜ם לָבַ֣ז יִהְיֶ֗ה וּ֠בְנֵיכֶ֠ם אֲשֶׁ֨ר לֹא־יָדְע֤וּ הַיּוֹם֙ ט֣וֹב וָרָ֔ע הֵ֖מָּה יָבֹ֣אוּ שָׁ֑מָּה וְלָהֶ֣ם אֶתְּנֶ֔נָּה וְהֵ֖ם יִירָשֽׁוּהָ׃",
+      "text_kjv": "Moreover your little ones, which ye said should be a prey, and your children, which in that day had no knowledge between good and evil, they shall go in thither, and unto them will I give it, and they shall possess it.",
+      "rendering": "As for your little ones, whom you claimed would become plunder, and your children who today cannot yet tell good from evil — they are the ones who will enter there. I will give it to them, and they will take possession of it.",
+      "translator_notes": [
+        "The divine reversal is striking: the tapkhem ('your little ones') whom the parents said la-vaz yihyeh ('would become plunder') are precisely the ones who will inherit the land. Their children asher lo yade'u ha-yom tov va-ra ('who do not yet know good and evil') are innocent of the parents' guilt. The irony is deliberate — the generation that claimed to fear for their children's safety condemned only themselves; the children will thrive."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וְאַתֶּ֖ם פְּנ֣וּ לָכֶ֑ם וּסְע֥וּ הַמִּדְבָּ֖רָה דֶּ֥רֶךְ יַם־סֽוּף׃",
+      "text_kjv": "But as for you, turn you, and take your journey into the wilderness by the way of the Red sea.",
+      "rendering": "But as for you — turn around and head back into the wilderness, toward the Sea of Reeds.",
+      "translator_notes": [
+        "The command penu lakhem ('turn yourselves') reverses the original command of verse 7 (penu... us'u — 'turn and travel' toward the land). Instead of advancing into the promised land, they must retreat ha-midbarah ('toward the wilderness'). The direction — derekh Yam Suf ('by the way of the Sea of Reeds') — sends them back the way they came, undoing the Exodus journey. The reversal is both geographical and spiritual."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַֽתַּעֲנ֣וּ&thinsp;׀ וַתֹּאמְר֣וּ אֵלַ֗י חָטָ֘אנוּ֮ לַיהֹוָה֒ אֲנַ֤חְנוּ נַעֲלֶה֙ וְנִלְחַ֔מְנוּ כְּכֹ֥ל אֲשֶׁר־צִוָּ֖נוּ יְהֹוָ֣ה אֱלֹהֵ֑ינוּ וַֽתַּחְגְּר֗וּ אִ֚ישׁ אֶת־כְּלֵ֣י מִלְחַמְתּ֔וֹ וַתָּהִ֖ינוּ לַעֲלֹ֥ת הָהָֽרָה׃",
+      "text_kjv": "Then ye answered and said unto me, We have sinned against the LORD, we will go up and fight, according to all that the LORD our God commanded us. And when ye had girded on every man his weapons of war, ye were ready to go up into the hill.",
+      "rendering": "You responded and said to me, 'We have sinned against the LORD. We will go up and fight, just as the LORD our God commanded us.' So each of you strapped on your weapons of war and thought it easy to march up into the hill country.",
+      "translator_notes": [
+        "The confession chatanu ('we have sinned') appears genuine but proves superficial — they immediately revert to self-will. The verb va-tahinu ('you thought it easy, you were presumptuous') from hun means to treat lightly, to consider trivial. Having first feared the Amorites excessively, they now swing to reckless overconfidence. Both extremes share the same root: ignoring God's actual word. They strap on klei milchamto ('his weapons of war') without divine authorization."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וַיֹּ֨אמֶר יְהֹוָ֜ה אֵלַ֗י אֱמֹ֤ר לָהֶם֙ לֹ֤א תַֽעֲלוּ֙ וְלֹא־תִלָּ֣חֲמ֔וּ כִּ֥י אֵינֶ֖נִּי בְּקִרְבְּכֶ֑ם וְלֹא֙ תִּנָּ֣גְפ֔וּ לִפְנֵ֖י אֹיְבֵיכֶֽם׃",
+      "text_kjv": "And the LORD said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies.",
+      "rendering": "But the LORD said to me, 'Tell them: Do not go up. Do not fight — because I am not with you. Otherwise you will be defeated by your enemies.'",
+      "translator_notes": [
+        "The prohibition is double: lo ta'alu ('do not go up') and lo tilachamu ('do not fight'). The reason is devastating: ki einenni be-qirbekhem ('because I am not in your midst'). Without the divine presence, military action is suicidal. The passive tinnagefu ('you will be struck, defeated') before their enemies reverses the promise of verse 30 — without God fighting for them, they will be the ones struck down."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וָאֲדַבֵּ֥ר אֲלֵיכֶ֖ם וְלֹ֣א שְׁמַעְתֶּ֑ם וַתַּמְרוּ֙ אֶת־פִּ֣י יְהֹוָ֔ה וַתָּזִ֖דוּ וַתַּעֲל֥וּ הָהָֽרָה׃",
+      "text_kjv": "So I spake unto you; and ye would not hear, but rebelled against the commandment of the LORD, and went presumptuously up into the hill.",
+      "rendering": "I told you this, but you refused to listen. You rebelled against the LORD's command, and arrogantly you marched up into the hill country.",
+      "translator_notes": [
+        "The verb va-tazidu ('you acted presumptuously, arrogantly') from zud/zid means to boil over, to act with insolent boldness. This is not courage but reckless defiance — they disobeyed both the original command to enter (v. 26) and the subsequent command not to enter (v. 42). The pattern of double rebellion — refusing to go when told to go, then going when told not to go — exposes their fundamental problem: they obey their own will, not God's."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וַיֵּצֵ֨א הָאֱמֹרִ֜י הַיֹּשֵׁ֨ב בָּהָ֤ר הַהוּא֙ לִקְרַאתְכֶ֔ם וַיִּרְדְּפ֣וּ אֶתְכֶ֔ם כַּאֲשֶׁ֥ר תַּעֲשֶׂ֖ינָה הַדְּבֹרִ֑ים וַֽיַּכְּת֥וּ אֶתְכֶ֛ם בְּשֵׂעִ֖יר עַד־חׇרְמָֽה׃",
+      "text_kjv": "And the Amorites, which dwelt in that mountain, came out against you, and chased you, as bees do, and destroyed you in Seir, even unto Hormah.",
+      "rendering": "The Amorites who lived in that hill country came out against you and chased you as a swarm of bees does, crushing you in Seir all the way to Hormah.",
+      "translator_notes": [
+        "The simile ka'asher ta'asenah ha-devorim ('as bees do') portrays the Amorite attack as swarming, relentless, and painful — bees pursue aggressors far beyond their hive. The verb va-yaktu ('they struck/crushed') from katal describes severe military defeat. The rout extended be-Se'ir ad Chormah ('in Seir as far as Hormah') — ironically, Chormah derives from cherem ('devoted destruction'), previewing the conquest vocabulary. The place of their defeat would later become a place of their victory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וַתָּשֻׁ֥בוּ וַתִּבְכּ֖וּ לִפְנֵ֣י יְהֹוָ֑ה וְלֹֽא־שָׁמַ֤ע יְהֹוָה֙ בְּקֹ֣לְכֶ֔ם וְלֹ֥א הֶאֱזִ֖ין אֲלֵיכֶֽם׃",
+      "text_kjv": "And ye returned and wept before the LORD; but the LORD would not hearken to your voice, nor give ear unto you.",
+      "rendering": "You came back and wept before the LORD, but the LORD would not listen to your cries or pay attention to you.",
+      "translator_notes": [
+        "The sequence — va-tashuvu ('you returned'), va-tivku ('you wept') lifnei YHWH ('before the LORD') — describes repentant posture, but God's response is silence: lo shama ('He did not listen') and lo he'ezin ('He did not give ear'). Two synonyms for hearing are negated to emphasize complete divine refusal. Their tears came too late — after presumptuous action, not before. Consequences for disobedience cannot always be reversed by remorse."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וַתֵּשְׁב֥וּ בְקָדֵ֖שׁ יָמִ֣ים רַבִּ֑ים כַּיָּמִ֖ים אֲשֶׁ֥ר יְשַׁבְתֶּֽם׃",
+      "text_kjv": "So ye abode in Kadesh many days, according unto the days that ye abode there.",
+      "rendering": "So you remained at Kadesh for a long time — all those many days that you stayed there.",
+      "translator_notes": [
+        "The concluding phrase yamim rabbim ('many days') with ka-yamim asher yeshavtem ('according to the days you stayed') is deliberately vague about the exact duration — likely encompassing the bulk of the thirty-eight years of wilderness wandering. The repetitive phrasing conveys the monotony of waiting: Kadesh became the staging ground for decades of purposeless delay, the consequence of a single moment of faithless refusal."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

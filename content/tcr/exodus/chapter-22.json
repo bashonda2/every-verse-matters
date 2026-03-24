@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Exodus",
+    "chapter": 22,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-04T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "אִם־בַּמַּחְתֶּ֛רֶת יִמָּצֵ֥א הַגַּנָּ֖ב וְהֻכָּ֣ה וָמֵ֑ת אֵ֥ין ל֖וֹ דָּמִֽים׃",
+      "text_kjv": "If a thief be found breaking up, and be smitten that he die, there shall no blood be shed for him.",
+      "rendering": "If a thief is caught tunneling in and is struck and killed, there is no bloodguilt for his death.",
+      "translator_notes": [
+        "The makhteret ('tunnel, breach point') describes a thief breaking through mud-brick walls at night. The phrase ein lo damim ('there is no blood for him') means the homeowner bears no legal guilt for killing an intruder in darkness — the threat is presumed lethal when you cannot see whether the intruder is armed. This is one of the earliest codified self-defense statutes."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "אִם־זָרְחָ֥ה הַשֶּׁ֛מֶשׁ עָלָ֖יו דָּמִ֣ים ל֑וֹ שַׁלֵּ֣ם יְשַׁלֵּ֔ם אִם־אֵ֣ין ל֔וֹ וְנִמְכַּ֖ר בִּגְנֵבָתֽוֹ׃",
+      "text_kjv": "If the sun be risen upon him, there shall be blood shed for him; for he should make full restitution; if he have nothing, then he shall be sold for his theft.",
+      "rendering": "If the sun has risen on him, there is bloodguilt for killing him. The thief must make full restitution; if he has nothing, he is sold for his theft.",
+      "translator_notes": [
+        "Daylight changes the legal calculus: once you can see the intruder, you can assess whether lethal force is necessary. Killing a thief in broad daylight creates bloodguilt because non-lethal options exist. The thief's penalty is full restitution or, if insolvent, being sold into debt-servitude — the same bondage system regulated in 21:2–6."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אִֽם־הִמָּצֵא֩ תִמָּצֵ֨א בְיָד֜וֹ הַגְּנֵבָ֗ה מִשּׁ֧וֹר עַד־חֲמ֛וֹר עַד־שֶׂ֖ה חַיִּ֑ים שְׁנַ֖יִם יְשַׁלֵּֽם׃ {ס}",
+      "text_kjv": "If the theft be certainly found in his hand alive, whether it be ox, or ass, or sheep; he shall restore double.",
+      "rendering": "If the stolen animal is actually found alive in his possession — whether ox, donkey, or sheep — he pays double.",
+      "translator_notes": [
+        "The emphatic himmatse timmatse ('finding, it is found') stresses certainty of evidence. When the stolen animal is recovered alive and intact, the penalty drops to twofold — much less than the four- or fivefold penalty when the animal has been slaughtered or sold (21:37). Recovery of the property reduces the damages owed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "כִּ֤י יַבְעֶר־אִישׁ֙ שָׂדֶ֣ה אוֹ־כֶ֔רֶם וְשִׁלַּח֙ אֶת־בְּעִירֹ֔ה וּבִעֵ֖ר בִּשְׂדֵ֣ה אַחֵ֑ר מֵיטַ֥ב שָׂדֵ֛הוּ וּמֵיטַ֥ב כַּרְמ֖וֹ יְשַׁלֵּֽם׃ {ס}",
+      "text_kjv": "If a man shall cause a field or vineyard to be eaten, and shall put in his beast, and shall feed in another man's field; of the best of his own field, and of the best of his own vineyard, shall he make restitution.",
+      "rendering": "When a man lets his livestock graze in a field or vineyard, and sends his animal to feed in someone else's field, he must pay restitution from the best of his own field and the best of his own vineyard.",
+      "translator_notes": [
+        "The verb bi'er ('to graze, to consume') creates a wordplay: the man who let his animal bi'er (consume) another's field pays from his meitav (best). Restitution is calculated at top quality, not average — the negligent party cannot pay with inferior produce. This protects the victim from receiving substandard compensation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כִּֽי־תֵצֵ֨א אֵ֜שׁ וּמָצְאָ֤ה קֹצִים֙ וְנֶאֱכַ֣ל גָּדִ֔ישׁ א֥וֹ הַקָּמָ֖ה א֣וֹ הַשָּׂדֶ֑ה שַׁלֵּ֣ם יְשַׁלֵּ֔ם הַמַּבְעִ֖ר אֶת־הַבְּעֵרָֽה׃ {ס}",
+      "text_kjv": "If fire break out, and catch in thorns, so that the stacks of corn, or the standing corn, or the field, be consumed therewith; he that kindled the fire shall surely make restitution.",
+      "rendering": "When fire breaks out and catches in thornbushes, and stacked grain or standing grain or the entire field is consumed, the one who started the fire must make full restitution.",
+      "translator_notes": [
+        "Fire liability follows the chain of causation: even if the fire spread through thorns (an intermediate cause), the person who lit it bears full responsibility for everything destroyed. The list — stacked grain, standing grain, the field itself — covers all stages of agricultural production. Fire in an arid climate could devastate an entire community's food supply."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "כִּֽי־יִתֵּן֩ אִ֨ישׁ אֶל־רֵעֵ֜הוּ כֶּ֤סֶף אֽוֹ־כֵלִים֙ לִשְׁמֹ֔ר וְגֻנַּ֖ב מִבֵּ֣ית הָאִ֑ישׁ אִם־יִמָּצֵ֥א הַגַּנָּ֖ב יְשַׁלֵּ֥ם שְׁנָֽיִם׃",
+      "text_kjv": "If a man shall deliver unto his neighbour money or stuff to keep, and it be stolen out of the man's house; if the thief be found, let him pay double.",
+      "rendering": "When a man gives his neighbor money or goods for safekeeping, and they are stolen from the man's house — if the thief is caught, the thief pays double.",
+      "translator_notes": [
+        "The deposit (piqqadon) laws begin here and run through verse 14. These regulate bailment — entrusting property to another person's care. When the thief is identified, liability falls on the actual criminal, not the custodian. The double payment matches the standard restitution for recovered theft."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "אִם־לֹ֤א יִמָּצֵא֙ הַגַּנָּ֔ב וְנִקְרַ֥ב בַּֽעַל־הַבַּ֖יִת אֶל־הָֽאֱלֹהִ֑ים אִם־לֹ֥א שָׁלַ֛ח יָד֖וֹ בִּמְלֶ֥אכֶת רֵעֵֽהוּ׃",
+      "text_kjv": "If the thief be not found, then the master of the house shall be brought unto the judges, to see whether he have put his hand unto his neighbour's goods.",
+      "rendering": "If the thief is not caught, the owner of the house must come before God to determine whether he himself took his neighbor's property.",
+      "translator_notes": [
+        "When the thief is unknown, suspicion naturally falls on the custodian. The phrase el ha'Elohim ('before God') indicates either a divine oath at the sanctuary or a judicial proceeding — the custodian must swear his innocence under divine witness. The phrase shalakh yado ('extended his hand') is an idiom for misappropriation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "עַֽל־כׇּל־דְּבַר־פֶּ֡שַׁע עַל־שׁ֡וֹר עַל־חֲ֠מ֠וֹר עַל־שֶׂ֨ה עַל־שַׂלְמָ֜ה עַל־כׇּל־אֲבֵדָ֗ה אֲשֶׁ֤ר יֹאמַר֙ כִּי־ה֣וּא זֶ֔ה עַ֚ד הָֽאֱלֹהִ֔ים יָבֹ֖א דְּבַר־שְׁנֵיהֶ֑ם אֲשֶׁ֤ר יַרְשִׁיעֻן֙ אֱלֹהִ֔ים יְשַׁלֵּ֥ם שְׁנַ֖יִם לְרֵעֵֽהוּ׃ {ס}",
+      "text_kjv": "For all manner of trespass, whether it be for ox, for ass, for sheep, for raiment, or for any manner of lost thing, which another challengeth to be his, the cause of both parties shall come before the judges; and whom the judges shall condemn, he shall pay double unto his neighbour.",
+      "rendering": "In any case of disputed ownership — whether over an ox, a donkey, a sheep, a garment, or any lost item — where someone claims, 'This is mine,' the case of both parties comes before God. Whichever one God finds guilty must pay double to his neighbor.",
+      "translator_notes": [
+        "This verse generalizes the deposit principle into a universal dispute-resolution procedure. The word pesha ('violation, breach of trust') covers any contested property claim. The divine tribunal (Elohim) renders the verdict — human judges act as God's agents in civil disputes. Double payment serves both as penalty and deterrent."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "פֶּשַׁע",
+          "transliteration": "pesha",
+          "rendered_as": "disputed ownership",
+          "semantic_range": "breach of trust, trespass, transgression, violation, rebellion",
+          "note": "In legal contexts, pesha refers to a breach of trust or misappropriation. In prophetic and theological usage, it intensifies to mean willful rebellion against God. Here it covers any contested claim about property."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "כִּֽי־יִתֵּן֩ אִ֨ישׁ אֶל־רֵעֵ֜הוּ חֲמ֨וֹר אוֹ־שׁ֥וֹר אוֹ־שֶׂ֛ה וְכׇל־בְּהֵמָ֖ה לִשְׁמֹ֑ר וּמֵ֛ת אוֹ־נִשְׁבַּ֥ר אוֹ־נִשְׁבָּ֖ה אֵ֥ין רֹאֶֽה׃",
+      "text_kjv": "If a man deliver unto his neighbour an ass, or an ox, or a sheep, or any beast, to keep; and it die, or be hurt, or driven away, no man seeing it:",
+      "rendering": "When a man gives his neighbor a donkey, an ox, a sheep, or any animal to look after, and it dies, or is injured, or is carried off, with no witness present —",
+      "translator_notes": [
+        "This section addresses animal bailment — custody of living property. Three scenarios are listed: death, injury (nishbar, 'broken'), and seizure (nishbah, 'captured, driven off'). The critical factor is ein ro'eh ('no one seeing') — when there is no independent witness, the case requires a divine oath to resolve."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "שְׁבֻעַ֣ת יְהֹוָ֗ה תִּהְיֶה֙ בֵּ֣ין שְׁנֵיהֶ֔ם אִם־לֹ֥א שָׁלַ֛ח יָד֖וֹ בִּמְלֶ֣אכֶת רֵעֵ֑הוּ וְלָקַ֥ח בְּעָלָ֖יו וְלֹ֥א יְשַׁלֵּֽם׃",
+      "text_kjv": "Then shall an oath of the LORD be between them both, that he hath not put his hand unto his neighbour's goods; and the owner of it shall accept thereof, and he shall not make it good.",
+      "rendering": "an oath before the LORD must stand between them both — that the custodian did not misappropriate his neighbor's property. The owner must accept this, and no restitution is owed.",
+      "translator_notes": [
+        "The shevu'at YHVH ('oath of the LORD') is the most solemn form of sworn testimony in Israelite law. Swearing falsely by God's name invokes divine judgment on the perjurer. When no human evidence exists, the oath functions as the final legal instrument — the owner must accept it, and the case is closed."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שְׁבֻעַת יְהֹוָה",
+          "transliteration": "shevu'at YHVH",
+          "rendered_as": "oath before the LORD",
+          "semantic_range": "sworn oath invoking God's name, divine oath, covenant oath",
+          "note": "The most binding form of legal testimony in ancient Israel. An oath in God's name places the swearer under divine surveillance — perjury becomes an offense against God, not merely against the court."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְאִם־גָּנֹ֥ב יִגָּנֵ֖ב מֵעִמּ֑וֹ יְשַׁלֵּ֖ם לִבְעָלָֽיו׃",
+      "text_kjv": "And if it be stolen from him, he shall make restitution unto the owner thereof.",
+      "rendering": "But if it is in fact stolen from his custody, he must pay restitution to its owner.",
+      "translator_notes": [
+        "If it can be established that the animal was stolen while under the custodian's care, the custodian is liable — he should have secured the animal against theft. The oath defense of verse 10 only covers cases where the custodian acted in good faith. Proven theft from custody implies negligent safeguarding."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "אִם־טָרֹ֥ף יִטָּרֵ֖ף יְבִאֵ֣הוּ עֵ֑ד הַטְּרֵפָ֖ה לֹ֥א יְשַׁלֵּֽם׃ {פ}",
+      "text_kjv": "If it be torn in pieces, then let him bring it for witness, and he shall not make good that which was torn.",
+      "rendering": "If it was torn apart by a predator, let him bring the remains as evidence — he does not pay for the torn animal.",
+      "translator_notes": [
+        "A wild animal attack (taraf, 'torn apart') is an act beyond human control. The custodian demonstrates his innocence by producing physical evidence — the mangled remains. This early forensic principle requires tangible proof of the claim. The word terefa ('torn carcass') later becomes a key term in dietary law for meat rendered unfit by violent death."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְכִֽי־יִשְׁאַ֥ל אִ֛ישׁ מֵעִ֥ם רֵעֵ֖הוּ וְנִשְׁבַּ֣ר אוֹ־מֵ֑ת בְּעָלָ֥יו אֵין־עִמּ֖וֹ שַׁלֵּ֥ם יְשַׁלֵּֽם׃",
+      "text_kjv": "And if a man borrow ought of his neighbour, and it be hurt, or die, the owner thereof being not with it, he shall surely make it good.",
+      "rendering": "When a man borrows an animal from his neighbor, and it is injured or dies while its owner is not present, the borrower must pay in full.",
+      "translator_notes": [
+        "Borrowing (she'al) carries a higher standard of care than paid custody. The borrower benefits solely from the arrangement, so he bears full liability for any loss. The owner's absence (be'alav ein immo) removes any possibility that the owner's own negligence contributed to the damage."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "אִם־בְּעָלָ֥יו עִמּ֖וֹ לֹ֣א יְשַׁלֵּ֑ם אִם־שָׂכִ֣יר ה֔וּא בָּ֖א בִּשְׂכָרֽוֹ׃ {ס}",
+      "text_kjv": "But if the owner thereof be with it, he shall not make it good: if it be an hired thing, it came for his hire.",
+      "rendering": "If the owner was present with it, the borrower does not pay. If it was a hired animal, the loss is covered by the rental fee.",
+      "translator_notes": [
+        "When the owner is present, he shares responsibility for the animal's safety, so the borrower is not solely liable. For hired animals, the risk of loss is already factored into the rental price (ba biskharo, 'it came with its fee'). These distinctions show ancient Israel developing sophisticated categories of commercial liability."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְכִֽי־יְפַתֶּ֣ה אִ֗ישׁ בְּתוּלָ֛ה אֲשֶׁ֥ר לֹא־אֹרָ֖שָׂה וְשָׁכַ֣ב עִמָּ֑הּ מָהֹ֛ר יִמְהָרֶ֥נָּה לּ֖וֹ לְאִשָּֽׁה׃",
+      "text_kjv": "And if a man entice a maid that is not betrothed, and lie with her, he shall surely endow her to be his wife.",
+      "rendering": "When a man seduces a young woman who is not betrothed and sleeps with her, he must pay the bride-price and take her as his wife.",
+      "translator_notes": [
+        "The verb yefatteh ('entice, persuade') describes seduction, not coercion — rape is addressed separately in Deuteronomy 22:25–27. The mohar ('bride-price') is the payment to the father's household that formalizes marriage. The law holds the man accountable for the sexual relationship by requiring him to formalize the union and bear its economic obligations."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מֹהַר",
+          "transliteration": "mohar",
+          "rendered_as": "bride-price",
+          "semantic_range": "bride-price, marriage payment, dowry compensation",
+          "note": "Not a purchase price for the woman but a payment to the bride's family compensating for the loss of her economic contribution and establishing the marriage covenant. The mohar created legal obligations binding the husband to the marriage."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "אִם־מָאֵ֧ן יְמָאֵ֛ן אָבִ֖יהָ לְתִתָּ֣הּ ל֑וֹ כֶּ֣סֶף יִשְׁקֹ֔ל כְּמֹ֖הַר הַבְּתוּלֹֽת׃ {ס}",
+      "text_kjv": "If her father utterly refuse to give her unto him, he shall pay money according to the dowry of virgins.",
+      "rendering": "If her father firmly refuses to give her to him, the man must still pay the full amount of the bride-price for young women.",
+      "translator_notes": [
+        "The emphatic ma'en yema'en ('refusing, he refuses') gives the father unilateral veto power over the marriage. Even when the father blocks the union, the seducer still owes the full bride-price — he cannot escape financial responsibility by being rejected. The woman's family is compensated regardless of the marriage outcome."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "מְכַשֵּׁפָ֖ה לֹ֥א תְחַיֶּֽה׃",
+      "text_kjv": "Thou shalt not suffer a witch to live.",
+      "rendering": "You must not let a sorceress live.",
+      "translator_notes": [
+        "The feminine form mekhashshefah ('sorceress, practitioner of harmful magic') uses the root k-sh-f, which refers to manipulative sorcery intended to harm others — not herbal medicine or midwifery. The feminine form may reflect the social reality that women were the primary practitioners of this type of magic in the ancient Near East, though Deuteronomy 18:10 applies the prohibition to both genders."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "כׇּל־שֹׁכֵ֥ב עִם־בְּהֵמָ֖ה מ֥וֹת יוּמָֽת׃ {ס}",
+      "text_kjv": "Whosoever lieth with a beast shall surely be put to death.",
+      "rendering": "Anyone who lies with an animal must be put to death.",
+      "translator_notes": [
+        "Sexual contact with animals violates the created order of distinct kinds established in Genesis 1. The death penalty places this alongside murder and kidnapping in severity. The prohibition appears repeatedly in Leviticus 18:23 and 20:15–16, where it is called tevel ('perversion, confusion of categories')."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "זֹבֵ֥חַ לָאֱלֹהִ֖ים יׇֽחֳרָ֑ם בִּלְתִּ֥י לַיהֹוָ֖ה לְבַדּֽוֹ׃",
+      "text_kjv": "He that sacrificeth unto any god, save unto the LORD only, he shall be utterly destroyed.",
+      "rendering": "Whoever sacrifices to any god other than the LORD alone must be completely destroyed.",
+      "translator_notes": [
+        "The verb yokhoram ('put under the ban, devoted to destruction') is from the root kh-r-m, denoting total consecration to God through destruction. Idolatrous sacrifice receives the same penalty as the banned items of holy war. The phrase bilti laYHVH levaddo ('except to the LORD alone') reinforces the exclusive covenant claim of the first commandment."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יׇחֳרָם",
+          "transliteration": "yokhoram",
+          "rendered_as": "completely destroyed",
+          "semantic_range": "put under the ban, devoted to destruction, placed under herem, annihilated",
+          "note": "The herem ('ban of destruction') means total removal from ordinary use. When applied to persons, it indicates a death penalty for covenant treason. The root connects to the concept of holy war — items under herem belong to God and cannot be reclaimed."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְגֵ֥ר לֹא־תוֹנֶ֖ה וְלֹ֣א תִלְחָצֶ֑נּוּ כִּֽי־גֵרִ֥ים הֱיִיתֶ֖ם בְּאֶ֥רֶץ מִצְרָֽיִם׃",
+      "text_kjv": "Thou shalt neither vex a stranger, nor oppress him: for ye were strangers in the land of Egypt.",
+      "rendering": "You must not mistreat or oppress a resident foreigner, because you yourselves were foreigners in the land of Egypt.",
+      "translator_notes": [
+        "The two verbs toneh ('mistreat, exploit') and tilkhatsennu ('crush, oppress') cover both social abuse and economic exploitation. The ger ('resident foreigner') is someone living permanently among Israelites without clan protection. The motivation clause — 'you were foreigners in Egypt' — grounds ethical obligation in lived memory. Israel's own suffering under foreign rule becomes the moral foundation for how they treat outsiders."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גֵּר",
+          "transliteration": "ger",
+          "rendered_as": "resident foreigner",
+          "semantic_range": "sojourner, resident alien, immigrant, stranger, foreigner living among Israelites",
+          "note": "The ger is not a temporary visitor but a permanent resident without tribal land or clan protection. This vulnerable status makes the ger a recurrent concern in Torah legislation alongside widows and orphans."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "כׇּל־אַלְמָנָ֥ה וְיָת֖וֹם לֹ֥א תְעַנּֽוּן׃",
+      "text_kjv": "Ye shall not afflict any widow, or fatherless child.",
+      "rendering": "You must not afflict any widow or orphan.",
+      "translator_notes": [
+        "The almanah ('widow') and yatom ('orphan, fatherless') represent people who have lost their primary economic protector in a patriarchal society. The verb te'annun ('afflict, cause to suffer') covers any exploitation of their vulnerable status. The kol ('any') makes the prohibition absolute — there are no exceptions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "אִם־עַנֵּ֥ה תְעַנֶּ֖ה אֹת֑וֹ כִּ֣י אִם־צָעֹ֤ק יִצְעַק֙ אֵלַ֔י שָׁמֹ֥עַ אֶשְׁמַ֖ע צַעֲקָתֽוֹ׃",
+      "text_kjv": "If thou afflict them in any wise, and they cry at all unto me, I will surely hear their cry;",
+      "rendering": "If you do afflict them in any way, and they cry out to me at all, I will surely hear their cry.",
+      "translator_notes": [
+        "Three emphatic infinitive constructions pile up: anneh te'anneh ('afflicting, you afflict'), tsa'oq yits'aq ('crying out, they cry out'), shamoa eshma ('hearing, I will hear'). God personally guarantees that the cries of the vulnerable reach divine ears. This is the same verb (tsa'aq) used for Israel's cry under Pharaoh — God heard then, and God hears now."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְחָרָ֣ה אַפִּ֔י וְהָרַגְתִּ֥י אֶתְכֶ֖ם בֶּחָ֑רֶב וְהָי֤וּ נְשֵׁיכֶם֙ אַלְמָנ֔וֹת וּבְנֵיכֶ֖ם יְתֹמִֽים׃ {פ}",
+      "text_kjv": "And my wrath shall wax hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless.",
+      "rendering": "Then my anger will burn hot, and I will kill you by the sword — and your own wives will become widows and your own children orphans.",
+      "translator_notes": [
+        "The punishment mirrors the crime with devastating precision: those who afflict widows and orphans will themselves create widows and orphans from their own families. This measure-for-measure principle (middah keneged middah) appears throughout the Torah. God does not merely prohibit — God threatens to become the avenger of the powerless."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "אִם־כֶּ֣סֶף׀ תַּלְוֶ֣ה אֶת־עַמִּ֗י אֶת־הֶֽעָנִי֙ עִמָּ֔ךְ לֹא־תִהְיֶ֥ה ל֖וֹ כְּנֹשֶׁ֑ה לֹֽא־תְשִׂימ֥וּן עָלָ֖יו נֶֽשֶׁךְ׃",
+      "text_kjv": "If thou lend money to any of my people that is poor by thee, thou shalt not be to him as an usurer, neither shalt thou lay upon him usury.",
+      "rendering": "If you lend money to any of my people — the poor among you — you must not act as a creditor toward him. You must not charge him interest.",
+      "translator_notes": [
+        "The phrase et ammi et he'ani immakh ('my people, the poor one beside you') makes poverty personal: the borrower is 'my people' to God and 'beside you' to the lender. The word nosheh ('creditor, debt-collector') describes aggressive collection tactics. Neshekh ('interest,' literally 'a bite') reveals how the Torah views lending at interest to the vulnerable — as a predatory act that devours the borrower."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נֶשֶׁךְ",
+          "transliteration": "neshekh",
+          "rendered_as": "interest",
+          "semantic_range": "interest, usury, bite, deduction",
+          "note": "Literally 'a bite.' The metaphor suggests that interest eats away at the borrower's substance. The prohibition applies specifically to loans to fellow Israelites who are poor — commercial lending between equals is addressed differently in Deuteronomy 23:20."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "אִם־חָבֹ֥ל תַּחְבֹּ֖ל שַׂלְמַ֣ת רֵעֶ֑ךָ עַד־בֹּ֥א הַשֶּׁ֖מֶשׁ תְּשִׁיבֶ֥נּוּ לֽוֹ׃",
+      "text_kjv": "If thou at all take thy neighbour's raiment to pledge, thou shalt deliver it unto him by that the sun goeth down:",
+      "rendering": "If you take your neighbor's garment as collateral, you must return it to him before the sun sets.",
+      "translator_notes": [
+        "The outer garment (salmah) served as a blanket for sleeping in the cold Judean nights. Taking it as a pledge for a daytime loan was permissible, but keeping it overnight would leave the debtor exposed to the elements. The law prioritizes human survival over creditor rights — the debt is real, but so is the borrower's body."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "כִּ֣י הִ֤וא כְסוּתֹה֙ לְבַדָּ֔הּ הִ֥וא שִׂמְלָת֖וֹ לְעֹר֑וֹ בַּמֶּ֣ה יִשְׁכָּ֔ב וְהָיָה֙ כִּֽי־יִצְעַ֣ק אֵלַ֔י וְשָׁמַעְתִּ֖י כִּֽי־חַנּ֥וּן אָֽנִי׃ {ס}",
+      "text_kjv": "For that is his covering only, it is his raiment for his skin: wherein shall he sleep? and it shall come to pass, when he crieth unto me, that I will hear; for I am gracious.",
+      "rendering": "For it is his only covering — it is his garment for his skin. What else would he sleep in? And when he cries out to me, I will hear, because I am compassionate.",
+      "translator_notes": [
+        "God's self-identification as khannun ('compassionate, gracious') grounds the entire lending ethic in divine character. The rhetorical question 'What would he sleep in?' forces the creditor to see through the debtor's eyes. The same cry-and-hear pattern from the widow/orphan passage (v. 22) reappears — God positions himself as the guarantor of the poor person's rights."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חַנּוּן",
+          "transliteration": "khannun",
+          "rendered_as": "compassionate",
+          "semantic_range": "gracious, compassionate, showing favor, merciful",
+          "note": "One of the core divine attributes proclaimed in Exodus 34:6. God's compassion is not abstract sentiment — it shapes concrete legal protections for the vulnerable. The creditor must be compassionate because God is compassionate."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "אֱלֹהִ֖ים לֹ֣א תְקַלֵּ֑ל וְנָשִׂ֥יא בְעַמְּךָ֖ לֹ֥א תָאֹֽר׃",
+      "text_kjv": "Thou shalt not revile the gods, nor curse the ruler of thy people.",
+      "rendering": "You must not curse God, and you must not curse a leader among your people.",
+      "translator_notes": [
+        "The word Elohim here likely means 'God' rather than 'judges,' since the parallel with nasi ('leader, prince') creates a pair: divine authority and human authority. The verb teqallel ('make light of, curse') is the same root used in verse 17 (cursing parents). Respect for legitimate authority — divine and communal — is a covenant obligation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "מְלֵאָתְךָ֥ וְדִמְעֲךָ֖ לֹ֣א תְאַחֵ֑ר בְּכ֥וֹר בָּנֶ֖יךָ תִּתֶּן־לִֽי׃",
+      "text_kjv": "Thou shalt not delay to offer the first of thy ripe fruits, and of thy liquors: the firstborn of thy sons shalt thou give unto me.",
+      "rendering": "You must not hold back your harvest fullness or your flowing produce. The firstborn of your sons you must give to me.",
+      "translator_notes": [
+        "The unusual words mele'atekha ('your fullness') and dim'akha ('your flow, your tears') likely refer to grain at full ripeness and fresh-pressed juice or oil. Not delaying means giving the first portion promptly — before you consume or sell the rest. The firstborn-son obligation (redeemed by substitution per Exodus 13:13) declares that all fertility belongs to God first."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "כֵּֽן־תַּעֲשֶׂ֥ה לְשֹׁרְךָ֖ לְצֹאנֶ֑ךָ שִׁבְעַ֤ת יָמִים֙ יִהְיֶ֣ה עִם־אִמּ֔וֹ בַּיּ֥וֹם הַשְּׁמִינִ֖י תִּתְּנוֹ־לִֽי׃",
+      "text_kjv": "Likewise shalt thou do with thine oxen, and with thy sheep: seven days it shall be with his dam; on the eighth day thou shalt give it me.",
+      "rendering": "Do the same with your cattle and your flock: for seven days the young animal stays with its mother; on the eighth day you give it to me.",
+      "translator_notes": [
+        "The seven-day waiting period serves both practical and theological purposes — newborn animals need their mother's milk to survive the first week, and the eight-day timing echoes circumcision (Genesis 17:12). The Sabbath rhythm permeates even animal husbandry: seven days of nature, then consecration on the eighth."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְאַנְשֵׁי־קֹ֖דֶשׁ תִּהְי֣וּן לִ֑י וּבָשָׂ֨ר בַּשָּׂדֶ֤ה טְרֵפָה֙ לֹ֣א תֹאכֵ֔לוּ לַכֶּ֖לֶב תַּשְׁלִכ֥וּן אֹתֽוֹ׃ {ס}",
+      "text_kjv": "And ye shall be holy men unto me: neither shall ye eat any flesh that is torn of beasts in the field; ye shall cast it to the dogs.",
+      "rendering": "You are to be people set apart as holy to me. You must not eat the flesh of an animal torn by predators in the field — throw it to the dogs.",
+      "translator_notes": [
+        "The chapter's closing verse reframes all the preceding laws under one identity statement: anshei qodesh ('people of holiness'). Holiness is not an abstract status but a lived distinction visible even in diet. Torn flesh (terefa) carries the violence of its death — consuming it blurs the boundary between orderly covenant life and the chaos of predation. The dogs, as unclean scavengers, receive what holy people may not eat."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אַנְשֵׁי־קֹדֶשׁ",
+          "transliteration": "anshei qodesh",
+          "rendered_as": "people set apart as holy",
+          "semantic_range": "men of holiness, holy people, people consecrated to God",
+          "note": "The construct 'people of holiness' makes holiness the defining quality of Israel's identity. Every law in this chapter — from property restitution to lending ethics to dietary practice — is an expression of what it means to be a qodesh people."
+        }
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

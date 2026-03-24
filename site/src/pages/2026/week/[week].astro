@@ -22,7 +22,13 @@ const hasCommentary = existsSync(commPath);
 const verses: any[] = hasCommentary ? JSON.parse(readFileSync(commPath, 'utf-8')) : [];
 
 // Load TCR data for this week's chapters, keyed by "Book Chapter:Verse"
-const tcrSlugMap: Record<string, string> = { Genesis: 'genesis' };
+const tcrSlugMap: Record<string, string> = {
+  Genesis: 'genesis',
+  Exodus: 'exodus',
+  Leviticus: 'leviticus',
+  Numbers: 'numbers',
+  Deuteronomy: 'deuteronomy',
+};
 const tcrIndex: Record<string, any> = {};
 if (weekData?.chapters) {
   for (const ch of weekData.chapters) {

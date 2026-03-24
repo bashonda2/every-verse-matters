@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "chapter": 12,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "אֵ֠לֶּה הַֽחֻקִּ֣ים וְהַמִּשְׁפָּטִים֮ אֲשֶׁ֣ר תִּשְׁמְר֣וּן לַעֲשׂוֹת֒ בָּאָ֕רֶץ אֲשֶׁר֩ נָתַ֨ן יְהֹוָ֜ה אֱלֹהֵ֧י אֲבֹתֶ֛יךָ לְךָ֖ לְרִשְׁתָּ֑הּ כׇּ֨ל־הַיָּמִ֔ים אֲשֶׁר־אַתֶּ֥ם חַיִּ֖ים עַל־הָאֲדָמָֽה׃",
+      "text_kjv": "These are the statutes and judgments, which ye shall observe to do in the land, which the LORD God of thy fathers giveth thee to possess it, all the days that ye live upon the earth.",
+      "rendering": "These are the decrees and ordinances you must carefully follow in the land that the LORD, the God of your ancestors, has given you to possess — for as long as you live on the earth.",
+      "translator_notes": [
+        "The phrase hachuqqim vehamishpatim ('the statutes and the ordinances') opens a new legislative section that runs through chapter 26. Chuqqim are engraved decrees — permanent regulations inscribed in the covenant — while mishpatim are case-law rulings, judicial precedents that govern specific situations. Together they encompass the full scope of covenant law. The phrase kol hayyamim asher attem chayyim ('all the days that you are alive') emphasizes that these laws apply for the entire duration of the people's existence in the land."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֻקִּים",
+          "transliteration": "chuqqim",
+          "rendered_as": "decrees",
+          "semantic_range": "statutes, decrees, engraved regulations, fixed laws",
+          "note": "From the root chaqaq ('to engrave, to inscribe'). These are permanent, non-negotiable divine regulations — laws carved into the covenant structure itself."
+        },
+        {
+          "hebrew": "מִשְׁפָּטִים",
+          "transliteration": "mishpatim",
+          "rendered_as": "ordinances",
+          "semantic_range": "judgments, ordinances, rulings, case-law, legal decisions",
+          "note": "From the root shafat ('to judge'). These are judicial decisions and precedents that govern specific situations. Together with chuqqim, they cover both permanent principles and applied case law."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "אַבֵּ֣ד תְּ֠אַבְּד֠וּן אֶֽת־כׇּל־הַמְּקֹמ֞וֹת אֲשֶׁ֧ר עָֽבְדוּ־שָׁ֣ם הַגּוֹיִ֗ם אֲשֶׁ֥ר אַתֶּ֛ם יֹרְשִׁ֥ים אֹתָ֖ם אֶת־אֱלֹהֵיהֶ֑ם עַל־הֶהָרִ֤ים הָֽרָמִים֙ וְעַל־הַגְּבָע֔וֹת וְתַ֖חַת כׇּל־עֵ֥ץ רַעֲנָֽן׃",
+      "text_kjv": "Ye shall utterly destroy all the places, wherein the nations which ye shall possess served their gods, upon the high mountains, and upon the hills, and under every green tree:",
+      "rendering": "You must completely demolish every site where the nations you are dispossessing worshiped their gods — on the high mountains, on the hills, and beneath every leafy tree.",
+      "translator_notes": [
+        "The infinitive absolute abbed te'abedun ('destroying you shall destroy' — you must completely demolish) demands total eradication of Canaanite worship sites. The three locations listed — high mountains (heharim haramim), hills (hageva'ot), and beneath leafy trees (tachat kol ets ra'anan) — correspond to the typical settings of Canaanite open-air shrines (bamot). These elevated sites were considered closer to the divine realm, and the evergreen trees symbolized fertility worship. The command is comprehensive: no pagan worship site, regardless of location, may be repurposed."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְנִתַּצְתֶּ֣ם אֶת־מִזְבְּחֹתָ֗ם וְשִׁבַּרְתֶּם֙ אֶת־מַצֵּ֣בֹתָ֔ם וַאֲשֵֽׁרֵיהֶם֙ תִּשְׂרְפ֣וּן בָּאֵ֔שׁ וּפְסִילֵ֥י אֱלֹֽהֵיהֶ֖ם תְּגַדֵּע֑וּן וְאִבַּדְתֶּ֣ם אֶת־שְׁמָ֔ם מִן־הַמָּק֖וֹם הַהֽוּא׃",
+      "text_kjv": "And ye shall overthrow their altars, and break their pillars, and burn their groves with fire; and ye shall hew down the graven images of their gods, and destroy the names of them out of that place.",
+      "rendering": "Tear down their altars, smash their sacred pillars, burn their Asherah poles with fire, cut down the carved images of their gods, and wipe out their names from those places.",
+      "translator_notes": [
+        "Four distinct cult objects are targeted: mizbekhot ('altars' — stone or earth platforms for sacrifice), matstsevot ('standing stones' — sacred pillars representing the male deity), asherim ('Asherah poles' — wooden cult objects associated with the Canaanite goddess Asherah), and pesilei eloheihem ('carved images of their gods' — sculpted idols). The final command ve'ibadtem et shemam ('wipe out their names') goes beyond physical destruction: even the memory and invocation of these gods must be erased from the landscape. Replacing pagan place-names was part of claiming the land for YHWH."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מַצֵּבֹתָם",
+          "transliteration": "matstsevotam",
+          "rendered_as": "sacred pillars",
+          "semantic_range": "standing stones, sacred pillars, memorial stones, steles",
+          "note": "From the root natsav ('to stand, to set upright'). In Canaanite worship, these upright stones represented the male deity, often Baal. Ironically, Israel's patriarchs set up matstsevot as legitimate memorial stones (Gen 28:18), but in the context of Canaanite religion they became forbidden."
+        },
+        {
+          "hebrew": "אֲשֵׁרֵיהֶם",
+          "transliteration": "ashereihem",
+          "rendered_as": "Asherah poles",
+          "semantic_range": "Asherah poles, sacred trees/poles, goddess symbols",
+          "note": "Wooden cult objects associated with the Canaanite goddess Asherah, consort of El (and later associated with Baal worship). These could be carved poles or living trees dedicated to the goddess. The KJV's 'groves' obscures the specific religious reference."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "לֹֽא־תַעֲשׂ֣וּן כֵּ֔ן לַיהֹוָ֖ה אֱלֹהֵיכֶֽם׃",
+      "text_kjv": "Ye shall not do so unto the LORD your God.",
+      "rendering": "You must not worship the LORD your God in that way.",
+      "translator_notes": [
+        "This terse prohibition — lo ta'asun ken ('you shall not do so') — is the pivot of the entire chapter. It separates the command to destroy pagan worship sites (vv 2-3) from the command to worship at God's chosen site (vv 5-7). The point is not merely that Canaanite practices are wrong, but that Israel must not apply Canaanite worship patterns to YHWH. God determines where and how He is worshiped; Israel does not get to choose the format."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כִּ֠י אִֽם־אֶל־הַמָּק֞וֹם אֲשֶׁר־יִבְחַ֨ר יְהֹוָ֤ה אֱלֹֽהֵיכֶם֙ מִכׇּל־שִׁבְטֵיכֶ֔ם לָשׂ֥וּם אֶת־שְׁמ֖וֹ שָׁ֑ם לְשִׁכְנ֥וֹ תִדְרְשׁ֖וּ וּבָ֥אתָ שָּֽׁמָּה׃",
+      "text_kjv": "But unto the place which the LORD your God shall choose out of all your tribes to put his name there, even unto his habitation shall ye seek, and thither thou shalt come:",
+      "rendering": "Instead, seek out the place that the LORD your God will choose from among all your tribes to establish His name — to His dwelling you must go.",
+      "translator_notes": [
+        "The phrase hamaqom asher yivchar YHWH ('the place that the LORD will choose') is the theological center of Deuteronomy's worship legislation, appearing over twenty times in the book. It refers to a single, divinely selected worship site — ultimately identified with Jerusalem (2 Chr 7:12). The phrase lasum et shemo sham ('to place His name there') uses the 'name theology' distinctive to Deuteronomy: God's name represents His presence and authority. His dwelling (shikhno) is established through His name, meaning the sanctuary is where God makes Himself accessible, not where He is confined."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הַמָּקוֹם",
+          "transliteration": "hamaqom",
+          "rendered_as": "the place",
+          "semantic_range": "place, site, location, sanctuary",
+          "note": "Deuteronomy's signature term for the central sanctuary. By not naming the location, Moses leaves the choice entirely to God's future decision. This open-ended language establishes the principle of centralized worship while keeping the specific site under divine prerogative."
+        },
+        {
+          "hebrew": "שְׁמוֹ",
+          "transliteration": "shemo",
+          "rendered_as": "His name",
+          "semantic_range": "name, reputation, identity, presence, authority",
+          "note": "In Deuteronomy's 'name theology,' God places His name at the chosen site rather than physically dwelling there. The name represents divine authority, accessibility, and covenant commitment without implying spatial limitation."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַהֲבֵאתֶ֣ם שָׁ֗מָּה עֹלֹֽתֵיכֶם֙ וְזִבְחֵיכֶ֔ם וְאֵת֙ מַעְשְׂרֹ֣תֵיכֶ֔ם וְאֵ֖ת תְּרוּמַ֣ת יֶדְכֶ֑ם וְנִדְרֵיכֶם֙ וְנִדְבֹ֣תֵיכֶ֔ם וּבְכֹרֹ֥ת בְּקַרְכֶ֖ם וְצֹאנְכֶֽם׃",
+      "text_kjv": "And thither ye shall bring your burnt offerings, and your sacrifices, and your tithes, and heave offerings of your hand, and your vows, and your freewill offerings, and the firstlings of your herds and of your flocks:",
+      "rendering": "There you must bring your burnt offerings, your sacrifices, your tithes, the contributions from your hands, your vow offerings, your voluntary offerings, and the firstborn of your cattle and flocks.",
+      "translator_notes": [
+        "Seven categories of offerings are listed, creating a comprehensive inventory of Israel's worship: olot ('burnt offerings' — wholly consumed on the altar), zevachim ('sacrifices' — shared meals with God), ma'asrot ('tithes' — the tenth of produce), terumat yedkhem ('contributions of your hands' — the raised/elevated offering), nidreichem ('vow offerings' — pledged in times of need), nidvoteihem ('freewill offerings' — voluntary expressions of gratitude), and bekhorot ('firstborn' — consecrated firstborn animals). All seven categories must come to the one chosen place, eliminating any justification for multiple worship sites."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַאֲכַלְתֶּם־שָׁ֗ם לִפְנֵי֙ יְהֹוָ֣ה אֱלֹֽהֵיכֶ֔ם וּשְׂמַחְתֶּ֗ם בְּכֹל֙ מִשְׁלַ֣ח יֶדְכֶ֔ם אַתֶּ֖ם וּבָתֵּיכֶ֑ם אֲשֶׁ֥ר בֵּֽרַכְךָ֖ יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+      "text_kjv": "And there ye shall eat before the LORD your God, and ye shall rejoice in all that ye put your hand unto, ye and your households, wherein the LORD thy God hath blessed thee.",
+      "rendering": "There you will eat in the presence of the LORD your God, and you and your households will celebrate in everything you have undertaken, because the LORD your God has blessed you.",
+      "translator_notes": [
+        "The centralized worship experience is described not as solemn duty but as communal celebration. The verb usmachtem ('you shall rejoice') makes joy a commanded element of worship. The phrase lifnei YHWH ('before the LORD, in the presence of the LORD') indicates that the communal meal takes place in God's acknowledged presence. The inclusion of uvateikhem ('your households') extends worship beyond individual males to entire families — worship is a household experience."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "לֹ֣א תַעֲשׂ֔וּן כְּ֠כֹ֠ל אֲשֶׁ֨ר אֲנַ֧חְנוּ עֹשִׂ֛ים פֹּ֖ה הַיּ֑וֹם אִ֖ישׁ כׇּל־הַיָּשָׁ֥ר בְּעֵינָֽיו׃",
+      "text_kjv": "Ye shall not do after all the things that we do here this day, every man whatsoever is right in his own eyes.",
+      "rendering": "You must not continue doing what we are doing here today, where everyone acts according to whatever seems right to them.",
+      "translator_notes": [
+        "Moses acknowledges that during the wilderness period, Israel's worship has been decentralized and somewhat individualized — ish kol hayyashar be'einav ('each person doing whatever is right in his own eyes'). This same phrase appears as the concluding judgment of the book of Judges (Judg 21:25), where it describes moral and social chaos. The phrase 'here today' (po hayyom) contrasts the transitional wilderness situation with the settled future in the land, where centralized worship will impose order on religious practice."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "כִּ֥י לֹא־בָאתֶ֖ם עַד־עָ֑תָּה אֶל־הַמְּנוּחָה֙ וְאֶל־הַֽנַּחֲלָ֔ה אֲשֶׁר־יְהֹוָ֥ה אֱלֹהֶ֖יךָ נֹתֵ֥ן לָֽךְ׃",
+      "text_kjv": "For ye are not as yet come to the rest and to the inheritance, which the LORD your God giveth you.",
+      "rendering": "For you have not yet reached the place of rest and the inheritance that the LORD your God is giving you.",
+      "translator_notes": [
+        "Two terms define what the promised land represents: menuchah ('rest' — cessation from wandering, warfare, and instability) and nachalah ('inheritance' — permanent, divinely granted possession). Together they describe not merely territory but a settled condition of security and divine provision. The 'rest' concept becomes theologically significant throughout Scripture (cf. Ps 95:11; Heb 4:1-11), extending beyond physical land to encompass the fullness of God's promises."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מְנוּחָה",
+          "transliteration": "menuchah",
+          "rendered_as": "rest",
+          "semantic_range": "rest, resting place, settled security, tranquility, cessation from conflict",
+          "note": "More than physical relaxation — menuchah describes the condition of settled security that comes from God ending Israel's wandering and warfare. It is the theological opposite of the wilderness experience."
+        },
+        {
+          "hebrew": "נַחֲלָה",
+          "transliteration": "nachalah",
+          "rendered_as": "inheritance",
+          "semantic_range": "inheritance, possession, allotted portion, permanent grant",
+          "note": "A permanent, irrevocable grant from God — not earned but received. The land is Israel's nachalah because God assigned it to them, not because they conquered it by their own power."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַעֲבַרְתֶּם֮ אֶת־הַיַּרְדֵּן֒ וִֽישַׁבְתֶּ֣ם בָּאָ֔רֶץ אֲשֶׁר־יְהֹוָ֥ה אֱלֹהֵיכֶ֖ם מַנְחִ֣יל אֶתְכֶ֑ם וְהֵנִ֨יחַ לָכֶ֧ם מִכׇּל־אֹיְבֵיכֶ֛ם מִסָּבִ֖יב וִֽישַׁבְתֶּם־בֶּֽטַח׃",
+      "text_kjv": "But when ye go over Jordan, and dwell in the land which the LORD your God giveth you to inherit, and when he giveth you rest from all your enemies round about, so that ye dwell in safety;",
+      "rendering": "When you cross the Jordan and settle in the land that the LORD your God is granting you as an inheritance, and He gives you relief from all your surrounding enemies so that you live in security —",
+      "translator_notes": [
+        "Three stages mark the transition to settled life: crossing the Jordan (va'avartem et haYarden), settling in the land (vishavtem ba'arets), and receiving security from enemies (veheniach lakhem mikkol oyveikhem). The verb heniach ('give rest, give relief') is the causative form of nuach — God actively creates the condition of rest. The phrase vishavtem betach ('you will dwell in security') describes the end-state: a life free from military threat, where worship can be properly centralized."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְהָיָ֣ה הַמָּק֗וֹם אֲשֶׁר־יִבְחַר֩ יְהֹוָ֨ה אֱלֹהֵיכֶ֥ם בּוֹ֙ לְשַׁכֵּ֤ן שְׁמוֹ֙ שָׁ֔ם שָׁ֣מָּה תָבִ֔יאוּ אֵ֛ת כׇּל־אֲשֶׁ֥ר אָנֹכִ֖י מְצַוֶּ֣ה אֶתְכֶ֑ם עוֹלֹתֵיכֶ֣ם וְזִבְחֵיכֶ֗ם מַעְשְׂרֹֽתֵיכֶם֙ וּתְרֻמַ֣ת יֶדְכֶ֔ם וְכֹל֙ מִבְחַ֣ר נִדְרֵיכֶ֔ם אֲשֶׁ֥ר תִּדְּר֖וּ לַיהֹוָֽה׃",
+      "text_kjv": "Then there shall be a place which the LORD your God shall choose to cause his name to dwell there; thither shall ye bring all that I command you; your burnt offerings, and your sacrifices, your tithes, and the heave offering of your hand, and all your choice vows which ye vow unto the LORD:",
+      "rendering": "Then to the place that the LORD your God will choose as the dwelling for His name — there you must bring everything I am commanding you: your burnt offerings and sacrifices, your tithes and the contributions from your hands, and all the choicest of your vow offerings that you pledge to the LORD.",
+      "translator_notes": [
+        "The phrase leshakken shemo sham ('to cause His name to dwell there') uses the piel intensive of shakan ('to dwell'), emphasizing that God actively establishes His name-presence at the chosen site. The term mivchar nidreikhem ('the choicest of your vow offerings') specifies that vow offerings must be of the best quality — not merely any animal, but the select ones. This raises the standard: centralized worship demands not just obedience in location but excellence in offering."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וּשְׂמַחְתֶּ֗ם לִפְנֵי֮ יְהֹוָ֣ה אֱלֹֽהֵיכֶם֒ אַתֶּ֗ם וּבְנֵיכֶם֙ וּבְנֹ֣תֵיכֶ֔ם וְעַבְדֵיכֶ֖ם וְאַמְהֹתֵיכֶ֑ם וְהַלֵּוִי֙ אֲשֶׁ֣ר בְּשַֽׁעֲרֵיכֶ֔ם כִּ֣י אֵ֥ין ל֛וֹ חֵ֥לֶק וְנַחֲלָ֖ה אִתְּכֶֽם׃",
+      "text_kjv": "And ye shall rejoice before the LORD your God, ye, and your sons, and your daughters, and your menservants, and your maidservants, and the Levite that is within your gates; forasmuch as he hath no part nor inheritance with you.",
+      "rendering": "Celebrate in the presence of the LORD your God — you, your sons and daughters, your male and female servants, and the Levite who lives within your towns, since he has no allotted portion or inheritance alongside you.",
+      "translator_notes": [
+        "The worship community is defined inclusively: sons, daughters, male and female servants, and the Levite. This is not solitary devotion but communal celebration crossing age, gender, and social class. The Levite receives special mention because he has no tribal land allotment (ein lo cheleq venachalah ittekhem — 'he has no portion or inheritance with you') and therefore depends entirely on the community's generosity. The phrase bishaareikhem ('within your gates/towns') indicates that Levites are dispersed throughout Israel's cities rather than concentrated in one location."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "הִשָּׁ֣מֶר לְךָ֔ פֶּֽן־תַּעֲלֶ֖ה עֹלֹתֶ֑יךָ בְּכׇל־מָק֖וֹם אֲשֶׁ֥ר תִּרְאֶֽה׃",
+      "text_kjv": "Take heed to thyself that thou offer not thy burnt offerings in every place that thou seest:",
+      "rendering": "Be careful not to offer your burnt offerings at just any place you happen to see.",
+      "translator_notes": [
+        "The warning hishamer lekha ('guard yourself, be careful') introduces a prohibition against random site selection for sacrifice. The phrase bekhol maqom asher tireh ('at every place that you see') contrasts with the specific maqom ('place') that God chooses. The Canaanite practice of worshiping wherever a high place or impressive natural feature appeared attractive is explicitly rejected. Convenience or personal preference must not determine where burnt offerings are made."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "כִּ֣י אִם־בַּמָּק֞וֹם אֲשֶׁר־יִבְחַ֤ר יְהֹוָה֙ בְּאַחַ֣ד שְׁבָטֶ֔יךָ שָׁ֖ם תַּעֲלֶ֣ה עֹלֹתֶ֑יךָ וְשָׁ֣ם תַּעֲשֶׂ֔ה כֹּ֛ל אֲשֶׁ֥ר אָנֹכִ֖י מְצַוֶּֽךָּ׃",
+      "text_kjv": "But in the place which the LORD shall choose in one of thy tribes, there thou shalt offer thy burnt offerings, and there thou shalt do all that I command thee.",
+      "rendering": "Only at the place the LORD will choose within one of your tribal territories — there you must present your burnt offerings, and there you must carry out everything I am commanding you.",
+      "translator_notes": [
+        "The phrase be'achad shevatekha ('in one of your tribes') specifies that the chosen place will be located within one tribe's territory. This was fulfilled when Jerusalem — located on the border of Benjamin and Judah — became the central sanctuary. The emphatic repetition sham ('there') twice reinforces the exclusivity: there, and only there, is the authorized worship site."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "רַק֩ בְּכׇל־אַוַּ֨ת נַפְשְׁךָ֜ תִּזְבַּ֣ח&thinsp;׀ וְאָכַלְתָּ֣ בָשָׂ֗ר כְּבִרְכַּ֨ת יְהֹוָ֧ה אֱלֹהֶ֛יךָ אֲשֶׁ֥ר נָֽתַן־לְךָ֖ בְּכׇל־שְׁעָרֶ֑יךָ הַטָּמֵ֤א וְהַטָּהוֹר֙ יֹאכְלֶ֔נּוּ כַּצְּבִ֖י וְכָאַיָּֽל׃",
+      "text_kjv": "Notwithstanding thou mayest kill and eat flesh in all thy gates, whatsoever thy soul lusteth after, according to the blessing of the LORD thy God which he hath given thee: the unclean and the clean may eat thereof, as of the roebuck, and as of the hart.",
+      "rendering": "However, you may slaughter and eat meat in any of your towns whenever you desire, in proportion to the blessing the LORD your God gives you. Both the ritually impure and the ritually pure may eat it, just as they would eat gazelle or deer.",
+      "translator_notes": [
+        "This verse introduces a revolutionary concession: secular (non-sacrificial) slaughter of animals for food is now permitted in any town. Before centralization, all animal slaughter was sacrificial (Lev 17:3-4). But with the sanctuary potentially far away, requiring every meat meal to involve a pilgrimage would be impractical. The phrase bekhol avvat nafshekha ('according to all the desire of your soul' — whenever you want) grants broad permission. The comparison to gazelle and deer (tsevi and ayyal) — wild animals that were never sacrificed — establishes the principle: this meat is ordinary food, not sacred offering. Both ritually impure (tamei) and pure (tahor) persons may eat it, since no sacred context applies."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אַוַּת נַפְשְׁךָ",
+          "transliteration": "avvat nafshekha",
+          "rendered_as": "whenever you desire",
+          "semantic_range": "desire of your soul, appetite, craving, longing",
+          "note": "The phrase emphasizes personal desire and appetite. In the context of meat consumption, it grants broad permission based on individual want rather than ritual calendar."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "רַ֥ק הַדָּ֖ם לֹ֣א תֹאכֵ֑לוּ עַל־הָאָ֥רֶץ תִּשְׁפְּכֶ֖נּוּ כַּמָּֽיִם׃",
+      "text_kjv": "Only ye shall not eat the blood; ye shall pour it upon the earth as water.",
+      "rendering": "The one restriction is this: you must not consume the blood. Pour it out on the ground like water.",
+      "translator_notes": [
+        "Even in secular slaughter, one absolute prohibition remains: blood must not be consumed. The blood prohibition is one of the oldest and most universal commands in Scripture (Gen 9:4; Lev 17:10-14). The instruction to pour it on the ground 'like water' (kammayim) means it should be treated as waste liquid, not collected for any purpose. In sacrificial contexts, blood was dashed on the altar (representing life returned to God); in non-sacrificial slaughter, it is simply disposed of on the earth."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "לֹֽא־תוּכַ֞ל לֶאֱכֹ֣ל בִּשְׁעָרֶ֗יךָ מַעְשַׂ֤ר דְּגָֽנְךָ֙ וְתִירֹשְׁךָ֣ וְיִצְהָרֶ֔ךָ וּבְכֹרֹ֥ת בְּקָרְךָ֖ וְצֹאנֶ֑ךָ וְכׇל־נְדָרֶ֙יךָ֙ אֲשֶׁ֣ר תִּדֹּ֔ר וְנִדְבֹתֶ֖יךָ וּתְרוּמַ֥ת יָדֶֽךָ׃",
+      "text_kjv": "Thou mayest not eat within thy gates the tithe of thy corn, or of thy wine, or of thy oil, or the firstlings of thy herds or of thy flock, nor any of thy vows which thou vowest, nor thy freewill offerings, or heave offering of thine hand:",
+      "rendering": "You are not permitted to eat the following within your own towns: the tithe of your grain, new wine, or olive oil; the firstborn of your herds or flocks; any of your vow offerings or voluntary offerings; or the contributions from your hands.",
+      "translator_notes": [
+        "While secular meat eating is now permitted locally (v 15), sacred offerings are strictly excluded from local consumption. The triad degan, tirosh, yitshar ('grain, new wine, olive oil') represents the three staple agricultural products of the land. These tithes, along with firstborn animals and vow/freewill offerings, must be consumed at the central sanctuary. The distinction between ordinary food (freely eaten at home) and sacred food (restricted to God's chosen place) is a key organizational principle of Deuteronomy's worship system."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "כִּ֡י אִם־לִפְנֵי֩ יְהֹוָ֨ה אֱלֹהֶ֜יךָ תֹּאכְלֶ֗נּוּ בַּמָּקוֹם֙ אֲשֶׁ֨ר יִבְחַ֜ר יְהֹוָ֣ה אֱלֹהֶ֘יךָ֮ בּוֹ֒ אַתָּ֨ה וּבִנְךָ֤ וּבִתֶּ֙ךָ֙ וְעַבְדְּךָ֣ וַאֲמָתֶ֔ךָ וְהַלֵּוִ֖י אֲשֶׁ֣ר בִּשְׁעָרֶ֑יךָ וְשָׂמַחְתָּ֗ לִפְנֵי֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ בְּכֹ֖ל מִשְׁלַ֥ח יָדֶֽךָ׃",
+      "text_kjv": "But thou must eat them before the LORD thy God in the place which the LORD thy God shall choose, thou, and thy son, and thy daughter, and thy manservant, and thy maidservant, and the Levite that is within thy gates: and thou shalt rejoice before the LORD thy God in all that thou puttest thine hands unto.",
+      "rendering": "Rather, you must eat these in the presence of the LORD your God at the place the LORD your God will choose — you, your son, your daughter, your male servant, your female servant, and the Levite who lives in your town. You are to celebrate in the presence of the LORD your God over everything you have accomplished.",
+      "translator_notes": [
+        "The inclusive list of worshipers reappears (cf. v 12): son, daughter, servants, and Levite. The phrase vesamachta lifnei YHWH ('you shall rejoice before the LORD') again pairs worship with joy — the sacred meal is a celebration, not a somber ritual. The phrase bekhol mishlach yadekha ('in everything your hand is sent to' — everything you have accomplished) connects the feast to God's blessing on daily labor. Worship celebrates what God has enabled."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "הִשָּׁ֣מֶר לְךָ֔ פֶּֽן־תַּעֲזֹ֖ב אֶת־הַלֵּוִ֑י כׇּל־יָמֶ֖יךָ עַל־אַדְמָתֶֽךָ׃ {ס}",
+      "text_kjv": "Take heed to thyself that thou forsake not the Levite as long as thou livest upon the earth.",
+      "rendering": "Be careful never to neglect the Levite for as long as you live in your land.",
+      "translator_notes": [
+        "The warning hishamer lekha pen ta'azov et haLevi ('guard yourself lest you abandon the Levite') closes the first section with a social obligation. Since Levites have no land inheritance and depend on the community's tithes and offerings for sustenance, neglecting them would be both economic cruelty and a failure to support Israel's worship infrastructure. The phrase kol yamekha ('all your days') makes this a lifelong obligation, not a temporary measure. The setumah paragraph break marks the transition to the next topic."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "כִּֽי־יַרְחִיב֩ יְהֹוָ֨ה אֱלֹהֶ֥יךָ אֶֽת־גְּבֻלְךָ֮ כַּאֲשֶׁ֣ר דִּבֶּר־לָךְ֒ וְאָמַרְתָּ֙ אֹכְלָ֣ה בָשָׂ֔ר כִּֽי־תְאַוֶּ֥ה נַפְשְׁךָ֖ לֶאֱכֹ֣ל בָּשָׂ֑ר בְּכׇל־אַוַּ֥ת נַפְשְׁךָ֖ תֹּאכַ֥ל בָּשָֽׂר׃",
+      "text_kjv": "When the LORD thy God shall enlarge thy border, as he hath promised thee, and thou shalt say, I will eat flesh, because thy soul longeth to eat flesh; thou mayest eat flesh, whatsoever thy soul lusteth after.",
+      "rendering": "When the LORD your God expands your territory as He promised you, and you say, 'I want to eat meat' because you crave it, then you may eat meat whenever you desire.",
+      "translator_notes": [
+        "This verse anticipates future territorial expansion (ki yarchiv YHWH Elohekha et gevulkha — 'when the LORD your God enlarges your border') and the practical problem it creates: the central sanctuary will be even farther away. The repeated emphasis on desire — te'avveh nafshekha ('your soul craves') and bekhol avvat nafshekha ('in all the desire of your soul') — frames meat-eating as a matter of appetite, not ritual. God accommodates human desire within the framework of covenant law."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "כִּֽי־יִרְחַ֨ק מִמְּךָ֜ הַמָּק֗וֹם אֲשֶׁ֨ר יִבְחַ֜ר יְהֹוָ֣ה אֱלֹהֶ֘יךָ֮ לָשׂ֣וּם שְׁמ֣וֹ שָׁם֒ וְזָבַחְתָּ֞ מִבְּקָרְךָ֣ וּמִצֹּֽאנְךָ֗ אֲשֶׁ֨ר נָתַ֤ן יְהֹוָה֙ לְךָ֔ כַּאֲשֶׁ֖ר צִוִּיתִ֑ךָ וְאָֽכַלְתָּ֙ בִּשְׁעָרֶ֔יךָ בְּכֹ֖ל אַוַּ֥ת נַפְשֶֽׁךָ׃",
+      "text_kjv": "If the place which the LORD thy God hath chosen to put his name there be too far from thee, then thou shalt kill of thy herd and of thy flock, which the LORD hath given thee, as I have commanded thee, and thou shalt eat in thy gates whatsoever thy soul lusteth after.",
+      "rendering": "If the place the LORD your God has chosen to establish His name is too far from you, then you may slaughter from your cattle or flocks that the LORD has given you, as I have instructed you, and eat within your own towns whenever you wish.",
+      "translator_notes": [
+        "The phrase ki yirchaq mimmekha hamaqom ('if the place is too far from you') provides the explicit justification for secular slaughter: distance from the central sanctuary. The phrase ka'asher tsivitikha ('as I have commanded you') likely refers to oral instructions about proper slaughter technique — instructions not recorded in the written Torah. The rabbis understood this as evidence for the Oral Torah tradition, since no written command about slaughter method appears elsewhere in the Pentateuch."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "אַ֗ךְ כַּאֲשֶׁ֨ר יֵאָכֵ֤ל אֶֽת־הַצְּבִי֙ וְאֶת־הָ֣אַיָּ֔ל כֵּ֖ן תֹּאכְלֶ֑נּוּ הַטָּמֵא֙ וְהַטָּה֔וֹר יַחְדָּ֖ו יֹאכְלֶֽנּוּ׃",
+      "text_kjv": "Even as the roebuck and the hart is eaten, so thou shalt eat them: the unclean and the clean shall eat of them alike.",
+      "rendering": "Eat it the same way you would eat gazelle or deer: both the ritually impure and the ritually pure may eat it together.",
+      "translator_notes": [
+        "The gazelle (tsevi) and deer (ayyal) comparison is repeated from verse 15, reinforcing that locally slaughtered meat has the same status as wild game — it is ordinary food, not sacred. The phrase hattamei vehattahor yachdav ('the impure and the pure together') is significant: in sacrificial contexts, ritual purity was required, but for ordinary meals no such restriction applies. The word yachdav ('together') emphasizes that there is no separation at the table."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "רַ֣ק חֲזַ֗ק לְבִלְתִּי֙ אֲכֹ֣ל הַדָּ֔ם כִּ֥י הַדָּ֖ם ה֣וּא הַנָּ֑פֶשׁ וְלֹא־תֹאכַ֥ל הַנֶּ֖פֶשׁ עִם־הַבָּשָֽׂר׃",
+      "text_kjv": "Only be sure that thou eat not the blood: for the blood is the life; and thou mayest not eat the life with the flesh.",
+      "rendering": "Only be resolute in not eating the blood, because the blood is the life-force, and you must not consume the life-force along with the meat.",
+      "translator_notes": [
+        "The command raq chazaq ('only be strong/resolute') frames blood avoidance as requiring strength of will — it is a temptation that must be actively resisted. The theological reason follows: ki haddam hu hannefesh ('because the blood is the life/soul'). The Hebrew nefesh here means life-force or vital essence, not 'soul' in the later philosophical sense. Blood carries the animating principle that God gives; consuming it would be appropriating what belongs to God alone. The prohibition appears three times in this chapter (vv 16, 23, 25), underscoring its importance."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נֶפֶשׁ",
+          "transliteration": "nefesh",
+          "rendered_as": "life-force",
+          "semantic_range": "life, soul, living being, self, appetite, vital force, breath",
+          "note": "Here nefesh means the animating life-principle that resides in blood — the vital force that makes a creature alive. The equation dam = nefesh ('blood = life') is foundational to the biblical theology of sacrifice and atonement (cf. Lev 17:11)."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "לֹ֖א תֹּאכְלֶ֑נּוּ עַל־הָאָ֥רֶץ תִּשְׁפְּכֶ֖נּוּ כַּמָּֽיִם׃",
+      "text_kjv": "Thou shalt not eat it; thou shalt pour it upon the earth as water.",
+      "rendering": "Do not eat it. Pour it out on the ground like water.",
+      "translator_notes": [
+        "The repetition from verse 16 reinforces the blood prohibition with identical language. Pouring blood on the ground 'like water' (kammayim) emphasizes that it has no sacred function in secular slaughter — it is not dashed on an altar as in sacrificial contexts but simply returned to the earth. The simplicity of the disposal method contrasts with the elaborate blood rituals of Leviticus."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "לֹ֖א תֹּאכְלֶ֑נּוּ לְמַ֨עַן יִיטַ֤ב לְךָ֙ וּלְבָנֶ֣יךָ אַחֲרֶ֔יךָ כִּֽי־תַעֲשֶׂ֥ה הַיָּשָׁ֖ר בְּעֵינֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "Thou shalt not eat it; that it may go well with thee, and with thy children after thee, when thou shalt do that which is right in the sight of the LORD.",
+      "rendering": "Do not eat it, so that things will go well for you and your children after you, because you are doing what is right in the LORD's sight.",
+      "translator_notes": [
+        "The blood prohibition is now tied to a generational promise: lema'an yitav lekha ulevanekha acharekha ('so that it may be good for you and your children after you'). Obedience produces intergenerational blessing. The phrase ki ta'aseh hayyashar be'einei YHWH ('because you do what is right in the LORD's eyes') frames blood avoidance not as arbitrary restriction but as moral alignment with God's values — the opposite of 'doing what is right in one's own eyes' (v 8)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "רַ֧ק קׇֽדָשֶׁ֛יךָ אֲשֶׁר־יִהְי֥וּ לְךָ֖ וּנְדָרֶ֑יךָ תִּשָּׂ֣א וּבָ֔אתָ אֶל־הַמָּק֖וֹם אֲשֶׁר־יִבְחַ֥ר יְהֹוָֽה׃",
+      "text_kjv": "Only thy holy things which thou hast, and thy vows, thou shalt take, and go unto the place which the LORD shall choose:",
+      "rendering": "But your sacred offerings and your vow offerings — those you must carry to the place the LORD will choose.",
+      "translator_notes": [
+        "After extensively discussing local secular slaughter (vv 15-25), Moses returns to the nonnegotiable requirement: qodashekha ('your holy things, your sacred offerings') and nedarekha ('your vow offerings') must still travel to the central sanctuary. The verb tissa ('you shall carry, you shall lift up') implies physical transport — these offerings must be physically brought to the chosen place, not consumed at home regardless of distance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְעָשִׂ֤יתָ עֹלֹתֶ֙יךָ֙ הַבָּשָׂ֣ר וְהַדָּ֔ם עַל־מִזְבַּ֖ח יְהֹוָ֣ה אֱלֹהֶ֑יךָ וְדַם־זְבָחֶ֗יךָ יִשָּׁפֵךְ֙ עַל־מִזְבַּח֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ וְהַבָּשָׂ֖ר תֹּאכֵֽל׃",
+      "text_kjv": "And thou shalt offer thy burnt offerings, the flesh and the blood, upon the altar of the LORD thy God: and the blood of thy sacrifices shall be poured out upon the altar of the LORD thy God, and thou shalt eat the flesh.",
+      "rendering": "Present your burnt offerings — both the meat and the blood — on the altar of the LORD your God. The blood of your other sacrifices must be poured out on the altar of the LORD your God, but the meat you may eat.",
+      "translator_notes": [
+        "Two types of sacrifice are distinguished: olot ('burnt offerings'), where both meat and blood go entirely on the altar (nothing is eaten), and zevachim ('other sacrifices' — peace/fellowship offerings), where only the blood is poured on the altar and the worshiper eats the meat. This verse concisely summarizes the distinction between wholly-burned and shared offerings that Leviticus 1-7 details at length. The contrast with secular slaughter (vv 15-25) is clear: in sacrifice, blood goes on the altar; in ordinary slaughter, blood goes on the ground."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "שְׁמֹ֣ר וְשָׁמַעְתָּ֗ אֵ֚ת כׇּל־הַדְּבָרִ֣ים הָאֵ֔לֶּה אֲשֶׁ֥ר אָנֹכִ֖י מְצַוֶּ֑ךָּ לְמַ֩עַן֩ יִיטַ֨ב לְךָ֜ וּלְבָנֶ֤יךָ אַחֲרֶ֙יךָ֙ עַד־עוֹלָ֔ם כִּ֤י תַעֲשֶׂה֙ הַטּ֣וֹב וְהַיָּשָׁ֔ר בְּעֵינֵ֖י יְהֹוָ֥ה אֱלֹהֶֽיךָ׃ {ס}",
+      "text_kjv": "Observe and hear all these words which I command thee, that it may go well with thee, and with thy children after thee for ever, when thou doest that which is good and right in the sight of the LORD thy God.",
+      "rendering": "Guard and obey all these instructions that I am commanding you, so that things will go well for you and your descendants after you permanently, because you are doing what is good and right in the eyes of the LORD your God.",
+      "translator_notes": [
+        "The phrase shemor veshama'ta ('guard and hear/obey') pairs two verbs of obedience: careful attention and active compliance. The promise extends beyond the current generation — ulevanekha acharekha ad olam ('and for your children after you permanently'). The word olam ('forever, permanently') elevates the promise from temporal to enduring. The phrase hattov vehayyashar ('the good and the right') combines moral quality (tov — what is inherently good) with legal propriety (yashar — what is straight, correct, upright). The setumah break marks the end of this subsection."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "כִּֽי־יַכְרִית֩ יְהֹוָ֨ה אֱלֹהֶ֜יךָ אֶת־הַגּוֹיִ֗ם אֲשֶׁ֨ר אַתָּ֥ה בָא־שָׁ֛מָּה לָרֶ֥שֶׁת אוֹתָ֖ם מִפָּנֶ֑יךָ וְיָרַשְׁתָּ֣ אֹתָ֔ם וְיָשַׁבְתָּ֖ בְּאַרְצָֽם׃",
+      "text_kjv": "When the LORD thy God shall cut off the nations from before thee, whither thou goest to possess them, and thou succeedest them, and dwellest in their land;",
+      "rendering": "When the LORD your God cuts off the nations ahead of you — the ones you are going to dispossess — and you take their place and settle in their land,",
+      "translator_notes": [
+        "The verb yakhrit ('He will cut off') uses the hiphil of karat, the same root used for 'cutting' a covenant (karat berit). God 'cuts off' nations just as He 'cuts' covenants — both are sovereign acts that reshape the political and spiritual landscape. The sequence — cutting off, dispossessing (yarashta), settling (yashavta) — describes the three-phase transition: removal, replacement, and habitation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "הִשָּׁ֣מֶר לְךָ֗ פֶּן־תִּנָּקֵשׁ֙ אַחֲרֵיהֶ֔ם אַחֲרֵ֖י הִשָּׁמְדָ֣ם מִפָּנֶ֑יךָ וּפֶן־תִּדְרֹ֨שׁ לֵאלֹֽהֵיהֶ֜ם לֵאמֹ֗ר אֵיכָ֨ה יַעַבְד֜וּ הַגּוֹיִ֤ם הָאֵ֙לֶּה֙ אֶת־אֱלֹ֣הֵיהֶ֔ם וְאֶעֱשֶׂה־כֵּ֖ן גַּם־אָֽנִי׃",
+      "text_kjv": "Take heed to thyself that thou be not snared by following them, after that they be destroyed from before thee; and that thou enquire not after their gods, saying, How did these nations serve their gods? even so will I do likewise.",
+      "rendering": "guard yourself from being ensnared by their ways after they have been destroyed ahead of you. Do not inquire about their gods, asking, 'How did these nations worship their gods? I want to do the same thing.'",
+      "translator_notes": [
+        "The verb tinnaqesh ('be ensnared') uses the imagery of a bird trap — Israel could walk into Canaanite religion as unknowingly as a bird enters a snare. The warning is psychologically astute: even after the nations are destroyed (acharei hishamdam), their religious practices could survive as cultural curiosity. The quoted internal monologue — eikhah ya'avdu... ve'e'eseh ken gam ani ('How did they worship... I'll do the same') — reveals the danger of religious syncretism: Israel might adopt Canaanite worship forms while believing they are enhancing YHWH worship."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "לֹא־תַעֲשֶׂ֣ה כֵ֔ן לַיהֹוָ֖ה אֱלֹהֶ֑יךָ כִּי֩ כׇל־תּוֹעֲבַ֨ת יְהֹוָ֜ה אֲשֶׁ֣ר שָׂנֵ֗א עָשׂוּ֙ לֵאלֹ֣הֵיהֶ֔ם כִּ֣י גַ֤ם אֶת־בְּנֵיהֶם֙ וְאֶת־בְּנֹ֣תֵיהֶ֔ם יִשְׂרְפ֥וּ בָאֵ֖שׁ לֵאלֹֽהֵיהֶֽם׃",
+      "text_kjv": "Thou shalt not do so unto the LORD thy God: for every abomination to the LORD, which he hateth, have they done unto their gods; for even their sons and their daughters they have burnt in the fire to their gods.",
+      "rendering": "You must not worship the LORD your God the way they worship, because they practice every abomination that the LORD detests for their gods — they even burn their own sons and daughters in the fire as offerings to their gods.",
+      "translator_notes": [
+        "The chapter closes where it began (v 4): Israel must not worship YHWH using Canaanite methods. The reason is now made explicit: every to'avah ('abomination, detestable practice') that the LORD hates characterizes Canaanite religion. The ultimate example is child sacrifice — ki gam et beneihem ve'et benoteihem yisrefu va'esh leeloheihem ('they even burn their sons and daughters in fire to their gods'). Archaeological evidence confirms child sacrifice at Canaanite and Phoenician sites (the tophet at Carthage being the most extensively documented). This practice — the inversion of the firstborn consecration (dedicating a child to death rather than to life) — represents the absolute boundary between YHWH worship and Canaanite religion."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹעֲבָה",
+          "transliteration": "to'evah",
+          "rendered_as": "abomination",
+          "semantic_range": "abomination, detestable thing, loathsome practice, taboo",
+          "note": "A practice that provokes God's revulsion and active opposition. In Deuteronomy, to'evah primarily refers to Canaanite religious practices, especially idolatry and child sacrifice. It is not mere disapproval but covenantal revulsion — these practices are incompatible with the character of YHWH."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

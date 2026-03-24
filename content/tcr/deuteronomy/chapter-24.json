@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "chapter": 24,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "כִּֽי־יִקַּ֥ח אִ֛ישׁ אִשָּׁ֖ה וּבְעָלָ֑הּ וְהָיָ֞ה אִם־לֹ֧א תִמְצָא־חֵ֣ן בְּעֵינָ֗יו כִּי־מָ֤צָא בָהּ֙ עֶרְוַ֣ת דָּבָ֔ר וְכָ֨תַב לָ֜הּ סֵ֤פֶר כְּרִיתֻת֙ וְנָתַ֣ן בְּיָדָ֔הּ וְשִׁלְּחָ֖הּ מִבֵּיתֽוֹ׃",
+      "text_kjv": "When a man hath taken a wife, and married her, and it come to pass that she find no favour in his eyes, because he hath found some uncleanness in her: then let him write her a bill of divorcement, and give it in her hand, and send her out of his house.",
+      "rendering": "If a man takes a wife and marries her, and she does not find favor in his eyes because he has found something indecent about her, then he must write her a certificate of divorce, place it in her hand, and send her from his house.",
+      "translator_notes": [
+        "The phrase ervat davar ('indecency of a matter' — something objectionable) is deliberately vague and became the center of the famous Hillel-Shammai debate: Shammai restricted it to sexual immorality; Hillel extended it to any cause of displeasure. Jesus addressed this passage in Matthew 19:3-9. The sefer keritut ('document of cutting' — certificate of divorce) is a formal legal instrument that frees the woman to remarry. The law does not institute divorce but regulates an existing practice."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "סֵפֶר כְּרִיתֻת",
+          "transliteration": "sefer keritut",
+          "rendered_as": "certificate of divorce",
+          "semantic_range": "document of cutting off, bill of divorcement, divorce decree",
+          "note": "A formal legal document that officially severs the marital relationship. The verb karat ('cut') connects to covenant language — divorce is the cutting of a marital covenant."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְיָצְאָ֖ה מִבֵּית֑וֹ וְהָלְכָ֖ה וְהָיְתָ֥ה לְאִישׁ־אַחֵֽר׃",
+      "text_kjv": "And when she is departed out of his house, she may go and be another man's wife.",
+      "rendering": "After she leaves his house, she may go and become another man's wife.",
+      "translator_notes": [
+        "The divorced woman has full legal freedom to remarry: vehaytah le'ish acher ('she may become another man's wife'). The certificate of divorce protects her from being considered an adulteress if she remarries. Without the formal document, her status would be ambiguous and dangerous."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וּשְׂנֵאָהּ֮ הָאִ֣ישׁ הָאַחֲרוֹן֒ וְכָ֨תַב לָ֜הּ סֵ֤פֶר כְּרִיתֻת֙ וְנָתַ֣ן בְּיָדָ֔הּ וְשִׁלְּחָ֖הּ מִבֵּית֑וֹ א֣וֹ כִ֤י יָמוּת֙ הָאִ֣ישׁ הָאַחֲר֔וֹן אֲשֶׁר־לְקָחָ֥הּ ל֖וֹ לְאִשָּֽׁה׃",
+      "text_kjv": "And if the latter husband hate her, and write her a bill of divorcement, and giveth it in her hand, and sendeth her out of his house; or if the latter husband die, which took her to be his wife;",
+      "rendering": "If the second husband also rejects her and writes her a certificate of divorce, places it in her hand, and sends her from his house — or if the second husband dies —",
+      "translator_notes": [
+        "The scenario now involves a second marriage that also ends, whether by divorce (usene'ah ha'ish ha'acharon — 'the second husband hates her') or by death (ki yamut ha'ish ha'acharon — 'or the second husband dies'). The elaborate conditional setup — spanning verses 1-3 — builds toward the actual legal ruling in verse 4."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "לֹא־יוּכַ֣ל בַּעְלָ֣הּ הָרִאשׁ֣וֹן אֲשֶֽׁר־שִׁ֠לְּחָ֠הּ לָשׁ֨וּב לְקַחְתָּ֜הּ לִהְי֧וֹת ל֣וֹ לְאִשָּׁ֗ה אַחֲרֵי֙ אֲשֶׁ֣ר הֻטַּמָּ֔אָה כִּֽי־תוֹעֵבָ֥ה הִ֖וא לִפְנֵ֣י יְהֹוָ֑ה וְלֹ֤א תַחֲטִיא֙ אֶת־הָאָ֔רֶץ אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ נַחֲלָֽה׃ {ס}",
+      "text_kjv": "Her former husband, which sent her away, may not take her again to be his wife, after that she is defiled; for that is abomination before the LORD: and thou shalt not cause the land to sin, which the LORD thy God giveth thee for an inheritance.",
+      "rendering": "then her first husband, who divorced her, may not take her back as his wife after she has been with another man, for that is detestable before the LORD. You must not bring sin upon the land that the LORD your God is giving you as an inheritance.",
+      "translator_notes": [
+        "This is the actual legal ruling: the first husband may not remarry her (lo yukhal ba'alah harishon lashuv leqachtah — 'her first husband cannot return to take her'). The reason is stated as to'evah lifnei YHWH ('detestable before the LORD'). Jeremiah 3:1 applies this principle metaphorically to Israel's relationship with God. The prohibition prevents marriage from becoming a revolving door and protects the woman from being treated as property shuttled between men."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כִּֽי־יִקַּ֥ח אִישׁ֙ אִשָּׁ֣ה חֲדָשָׁ֔ה לֹ֤א יֵצֵא֙ בַּצָּבָ֔א וְלֹא־יַעֲבֹ֥ר עָלָ֖יו לְכׇל־דָּבָ֑ר נָקִ֞י יִהְיֶ֤ה לְבֵיתוֹ֙ שָׁנָ֣ה אֶחָ֔ת וְשִׂמַּ֖ח אֶת־אִשְׁתּ֥וֹ אֲשֶׁר־לָקָֽח׃",
+      "text_kjv": "When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: but he shall be free at home one year, and shall cheer up his wife which he hath taken.",
+      "rendering": "When a man has recently married a wife, he must not go out with the army, and no public duty may be imposed on him. He must be free for his household for one year, bringing joy to the wife he has married.",
+      "translator_notes": [
+        "The newlywed exemption covers both military service (lo yetse batsava — 'he shall not go out with the army') and all public obligations (velo ya'avor alav lekhol davar — 'no matter shall pass upon him'). The purpose is stated positively: vesimmach et ishto ('he shall bring joy to his wife'). The verb simmach is in the piel — intensive — meaning he must actively make her happy, not merely stay home. The year-long duration (shanah echat) exceeds the month-long exemption for the betrothed soldier in 20:7."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "לֹא־יַחֲבֹ֥ל רֵחַ֖יִם וָרָ֑כֶב כִּי־נֶ֖פֶשׁ ה֥וּא חֹבֵֽל׃ {ס}",
+      "text_kjv": "No man shall take the nether or the upper millstone to pledge: for he taketh a man's life to pledge.",
+      "rendering": "No one may take a pair of millstones — or even the upper millstone — as collateral for a loan, for that would be taking a person's livelihood as collateral.",
+      "translator_notes": [
+        "The rechayim varokhev ('millstones and rider' — the lower and upper grinding stones) were essential daily equipment for processing grain into flour. Taking them as pledge (lo yachavol — 'shall not seize as collateral') would deprive a family of their ability to prepare food. The principle: ki nefesh hu chovel ('for he is taking a life as pledge') — nefesh here means livelihood, not literally life. Essential survival tools may not be confiscated for debt."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "כִּי־יִמָּצֵ֣א אִ֗ישׁ גֹּנֵ֨ב נֶ֤פֶשׁ מֵאֶחָיו֙ מִבְּנֵ֣י יִשְׂרָאֵ֔ל וְהִתְעַמֶּר־בּ֖וֹ וּמְכָר֑וֹ וּמֵת֙ הַגַּנָּ֣ב הַה֔וּא וּבִֽעַרְתָּ֥ הָרָ֖ע מִקִּרְבֶּֽךָ׃ {ס}",
+      "text_kjv": "If a man be found stealing any of his brethren of the children of Israel, and maketh merchandise of him, or selleth him; then that thief shall die; and thou shalt put evil away from among you.",
+      "rendering": "If a man is found kidnapping one of his brothers from among the Israelites — exploiting him or selling him — that kidnapper must die. So you will purge evil from your midst.",
+      "translator_notes": [
+        "Kidnapping (gonev nefesh — 'stealing a person') is a capital offense. The verb hit'ammer ('exploit, treat as merchandise') and umkharo ('sell him') describe the crime's full scope: abduction for the purpose of enslavement and sale. This law corresponds to the Eighth Commandment's original scope — 'You shall not steal' (Exodus 20:15) was understood to prohibit primarily person-theft, with property theft addressed elsewhere."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "הִשָּׁ֧מֶר בְּנֶֽגַע־הַצָּרַ֛עַת לִשְׁמֹ֥ר מְאֹ֖ד וְלַעֲשׂ֑וֹת כְּכֹל֩ אֲשֶׁר־יוֹר֨וּ אֶתְכֶ֜ם הַכֹּהֲנִ֧ים הַלְוִיִּ֛ם כַּאֲשֶׁ֥ר צִוִּיתִ֖ם תִּשְׁמְר֥וּ לַעֲשֽׂוֹת׃",
+      "text_kjv": "Take heed in the plague of leprosy, that thou observe diligently, and do according to all that the priests the Levites shall teach you: as I commanded them, so ye shall observe to do.",
+      "rendering": "Be careful in cases of skin disease to follow very carefully all that the Levitical priests instruct you. Just as I commanded them, you must observe and carry out their directions.",
+      "translator_notes": [
+        "The nega hatsara'at ('affliction of tsara'at') refers to the skin conditions described in Leviticus 13-14 — a broader category than modern leprosy, encompassing various scaly or discolored skin conditions. The emphasis is on obedience to priestly instruction (kol asher yoru etkhem — 'everything they teach you'), positioning the priests as the authoritative diagnosticians for these conditions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "זָכ֕וֹר אֵ֧ת אֲשֶׁר־עָשָׂ֛ה יְהֹוָ֥ה אֱלֹהֶ֖יךָ לְמִרְיָ֑ם בַּדֶּ֖רֶךְ בְּצֵאתְכֶ֥ם מִמִּצְרָֽיִם׃ {ס}",
+      "text_kjv": "Remember what the LORD thy God did unto Miriam by the way, after that ye were come forth out of Egypt.",
+      "rendering": "Remember what the LORD your God did to Miriam on the journey after you came out of Egypt.",
+      "translator_notes": [
+        "The reference to Miriam's tsara'at (Numbers 12:1-15) serves as a powerful warning: even Moses's own sister was not exempt from divine discipline for sin. The verb zakhor ('remember') in Deuteronomy always calls for active response, not mere recollection. The lesson: no one stands above the purity laws, and the priests' authority in these matters must be respected."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כִּֽי־תַשֶּׁ֥ה בְרֵֽעֲךָ֖ מַשַּׁ֣את מְא֑וּמָה לֹא־תָבֹ֥א אֶל־בֵּית֖וֹ לַעֲבֹ֥ט עֲבֹטֽוֹ׃",
+      "text_kjv": "When thou dost lend thy brother any thing, thou shalt not go into his house to fetch his pledge.",
+      "rendering": "When you make any kind of loan to your neighbor, you must not enter his house to take his collateral.",
+      "translator_notes": [
+        "The creditor is prohibited from entering the debtor's house (lo tavo el beto — 'do not enter his house') to seize collateral. The debtor retains the dignity of his home — the creditor must wait outside (v 11). The loan (mash'at me'umah — 'a loan of anything') is stated broadly to cover all lending situations. This law protects the borrower's autonomy and prevents creditor intimidation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "בַּח֖וּץ תַּעֲמֹ֑ד וְהָאִ֗ישׁ אֲשֶׁ֤ר אַתָּה֙ נֹשֶׁ֣ה ב֔וֹ יוֹצִ֥יא אֵלֶ֛יךָ אֶֽת־הַעֲב֖וֹט הַחֽוּצָה׃",
+      "text_kjv": "Thou shalt stand abroad, and the man to whom thou dost lend shall bring out the pledge abroad unto thee.",
+      "rendering": "You must stand outside, and the person to whom you are lending must bring the collateral out to you.",
+      "translator_notes": [
+        "The creditor must wait baccchuts ('outside'), and the debtor himself brings the pledge out (yotsi elekha — 'he will bring it out to you'). The debtor chooses which item to pledge, preventing the creditor from selecting the most valuable or personally meaningful possessions. This small detail encodes a profound respect for the borrower's agency even in a position of financial weakness."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְאִם־אִ֥ישׁ עָנִ֖י ה֑וּא לֹ֥א תִשְׁכַּ֖ב בַּעֲבֹטֽוֹ׃",
+      "text_kjv": "And if the man be poor, thou shalt not sleep with his pledge:",
+      "rendering": "If the person is poor, you must not keep his collateral overnight.",
+      "translator_notes": [
+        "Special protection for the poor borrower: lo tishkav ba'avoto ('you shall not sleep with his pledge' — you must not keep it overnight). A poor man's pledge was likely his outer garment — the cloak used as a blanket. Keeping it overnight would leave him cold. The creditor's property rights do not override the debtor's basic need for warmth. Exodus 22:26-27 states the same principle and adds: 'When he cries out to me, I will hear, for I am compassionate.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "הָשֵׁב֩ תָּשִׁ֨יב ל֤וֹ אֶֽת־הַעֲבוֹט֙ כְּב֣וֹא הַשֶּׁ֔מֶשׁ וְשָׁכַ֥ב בְּשַׂלְמָת֖וֹ וּבֵֽרְכֶ֑ךָּ וּלְךָ֙ תִּהְיֶ֣ה צְדָקָ֔ה לִפְנֵ֖י יְהֹוָ֥ה אֱלֹהֶֽיךָ׃ {ס}",
+      "text_kjv": "In any case thou shalt deliver him the pledge again when the sun goeth down, that he may sleep in his own raiment, and bless thee: and it shall be righteousness unto thee before the LORD thy God.",
+      "rendering": "You must return the collateral to him at sunset so that he may sleep in his own garment and bless you. And it will be counted as righteousness for you before the LORD your God.",
+      "translator_notes": [
+        "The pledge must be returned kevo'a hashemesh ('at sunset') — before the cold night. The result: the borrower blesses the creditor (uverkhekka — 'and he will bless you'), and this act is counted as tsedaqah ('righteousness') before God. The term tsedaqah here means an act of justice that aligns with God's character — economic mercy is not charity but covenant righteousness."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "צְדָקָה",
+          "transliteration": "tsedaqah",
+          "rendered_as": "righteousness",
+          "semantic_range": "righteousness, justice, righteous act, charitable deed",
+          "note": "Here tsedaqah describes the moral quality of an economic act — returning a poor man's pledge is not generosity beyond duty but the fulfillment of covenant justice."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "לֹא־תַעֲשֹׁ֥ק שָׂכִ֖יר עָנִ֣י וְאֶבְי֑וֹן מֵאַחֶ֕יךָ א֧וֹ מִגֵּרְךָ֛ אֲשֶׁ֥ר בְּאַרְצְךָ֖ בִּשְׁעָרֶֽיךָ׃",
+      "text_kjv": "Thou shalt not oppress an hired servant that is poor and needy, whether he be of thy brethren, or of thy strangers that are in thy land within thy gates:",
+      "rendering": "You must not exploit a hired worker who is poor and needy, whether he is one of your own people or a foreigner residing in your land within your towns.",
+      "translator_notes": [
+        "The protection extends to both Israelites (me'achekha — 'from your brothers') and resident aliens (migerekha — 'from your strangers'). The terms ani ve'evyon ('poor and needy') describe economic vulnerability. The verb lo ta'ashoq ('do not oppress, exploit') covers wage theft, delayed payment, and taking advantage of the worker's desperate position. Economic exploitation of the vulnerable is a direct violation of covenant justice."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "בְּיוֹמוֹ֩ תִתֵּ֨ן שְׂכָר֜וֹ וְֽלֹא־תָב֧וֹא עָלָ֣יו הַשֶּׁ֗מֶשׁ כִּ֤י עָנִי֙ ה֔וּא וְאֵלָ֕יו ה֥וּא נֹשֵׂ֖א אֶת־נַפְשׁ֑וֹ וְלֹֽא־יִקְרָ֤א עָלֶ֙יךָ֙ אֶל־יְהֹוָ֔ה וְהָיָ֥ה בְךָ֖ חֵֽטְא׃ {ס}",
+      "text_kjv": "At his day thou shalt give him his hire, neither shall the sun go down upon it; for he is poor, and setteth his heart upon it: lest he cry against thee unto the LORD, and it be sin unto thee.",
+      "rendering": "You must pay him his wages each day before the sun sets, for he is poor and his life depends on it. Otherwise he may cry out to the LORD against you, and it would be counted as sin against you.",
+      "translator_notes": [
+        "Day-laborers must receive same-day payment: beyomo titten sekharo ('on his day you must give his wages'). The phrase ve'elav hu nose et nafsho ('he lifts up his soul toward it' — his life depends on it) reveals the desperation of the poor worker who needs the money for that evening's meal. The theological dimension: the exploited worker may cry to God (yiqra alekha el YHWH — 'he will cry out against you to the LORD'), and God will hold the employer accountable."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "לֹֽא־יוּמְת֤וּ אָבוֹת֙ עַל־בָּנִ֔ים וּבָנִ֖ים לֹא־יוּמְת֣וּ עַל־אָב֑וֹת אִ֥ישׁ בְּחֶטְא֖וֹ יוּמָֽתוּ׃ {ס}",
+      "text_kjv": "The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin.",
+      "rendering": "Fathers must not be put to death for the sins of their children, and children must not be put to death for the sins of their fathers. Each person must be put to death only for his own sin.",
+      "translator_notes": [
+        "The principle of individual criminal responsibility: ish bechet'o yumatu ('each person shall be put to death for his own sin'). This stands in tension with passages about God visiting iniquity on children (Exodus 20:5), but the distinction is between divine prerogative and human judicial practice. Human courts may not execute family members for another's crime. King Amaziah applied this law in 2 Kings 14:6, refusing to execute the children of his father's assassins."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "לֹ֣א תַטֶּ֔ה מִשְׁפַּ֖ט גֵּ֣ר יָת֑וֹם וְלֹ֣א תַחֲבֹ֔ל בֶּ֖גֶד אַלְמָנָֽה׃",
+      "text_kjv": "Thou shalt not pervert the judgment of the stranger, nor of the fatherless; nor take a widow's raiment to pledge:",
+      "rendering": "You must not deny justice to the foreigner or the fatherless, and you must not take a widow's garment as collateral.",
+      "translator_notes": [
+        "Three vulnerable groups receive specific legal protection: the ger ('foreigner, resident alien'), the yatom ('fatherless, orphan'), and the almanah ('widow'). This triad appears repeatedly in Deuteronomy (10:18, 14:29, 16:11, 24:19-21, 26:12-13). The prohibition against taking a widow's garment as pledge extends the principle of verses 10-13 to the most vulnerable — she may not be made to surrender even her clothing for a debt."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְזָכַרְתָּ֗ כִּ֣י עֶ֤בֶד הָיִ֙יתָ֙ בְּמִצְרַ֔יִם וַֽיִּפְדְּךָ֛ יְהֹוָ֥ה אֱלֹהֶ֖יךָ מִשָּׁ֑ם עַל־כֵּ֞ן אָנֹכִ֤י מְצַוְּךָ֙ לַעֲשׂ֔וֹת אֶת־הַדָּבָ֖ר הַזֶּֽה׃ {ס}",
+      "text_kjv": "But thou shalt remember that thou wast a bondman in Egypt, and the LORD thy God redeemed thee thence: therefore I command thee to do this thing.",
+      "rendering": "Remember that you were a slave in Egypt and the LORD your God redeemed you from there. That is why I am commanding you to do this.",
+      "translator_notes": [
+        "The motivational formula vezakharta ki eved hayita beMitsrayim ('remember that you were a slave in Egypt') grounds social justice in historical experience. Israel's obligation to the vulnerable is rooted in their own history of vulnerability. The verb vayifdekha ('He redeemed you') uses the commercial term for buying back from slavery — God paid the price for Israel's freedom, and this act creates an obligation to extend similar mercy."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "כִּ֣י תִקְצֹר֩ קְצִֽירְךָ֨ בְשָׂדֶ֜ךָ וְשָֽׁכַחְתָּ֧ עֹ֣מֶר בַּשָּׂדֶ֗ה לֹ֤א תָשׁוּב֙ לְקַחְתּ֔וֹ לַגֵּ֛ר לַיָּת֥וֹם וְלָאַלְמָנָ֖ה יִהְיֶ֑ה לְמַ֤עַן יְבָרֶכְךָ֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ בְּכֹ֖ל מַעֲשֵׂ֥ה יָדֶֽיךָ׃ {ס}",
+      "text_kjv": "When thou cuttest down thine harvest in thy field, and hast forgot a sheaf in the field, thou shalt not go again to fetch it: it shall be for the stranger, for the fatherless, and for the widow: that the LORD thy God may bless thee in all the work of thine hands.",
+      "rendering": "When you harvest your field and forget a sheaf in the field, you must not go back to get it. It must be left for the foreigner, the fatherless, and the widow, so that the LORD your God may bless you in all the work of your hands.",
+      "translator_notes": [
+        "The forgotten sheaf law (shikchah — 'forgetfulness') converts accidental oversight into deliberate provision. If you forget an omer ('sheaf') during harvest, it must remain for the vulnerable triad (ger, yatom, almanah). The law transforms human imperfection into divine provision — God uses what we forget to feed those we might overlook. The blessing formula (lema'an yevarkhekha YHWH — 'so that the LORD may bless you') makes generosity the pathway to prosperity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "כִּ֤י תַחְבֹּט֙ זֵֽיתְךָ֔ לֹ֥א תְפַאֵ֖ר אַחֲרֶ֑יךָ לַגֵּ֛ר לַיָּת֥וֹם וְלָאַלְמָנָ֖ה יִהְיֶֽה׃",
+      "text_kjv": "When thou beatest thine olive tree, thou shalt not go over the boughs again: it shall be for the stranger, for the fatherless, and for the widow.",
+      "rendering": "When you beat your olive trees, you must not go over the branches again. What remains must be left for the foreigner, the fatherless, and the widow.",
+      "translator_notes": [
+        "Olives were harvested by beating the branches with poles (tachbot — 'you beat'). The prohibition lo tefa'er acharekha ('do not go over after yourself') forbids a second pass — the remaining olives belong to the vulnerable. The verb fa'ar in this context means to strip clean or glean thoroughly. Like the forgotten sheaf, this law builds social welfare into the harvest process itself."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "כִּ֤י תִבְצֹר֙ כַּרְמְךָ֔ לֹ֥א תְעוֹלֵ֖ל אַחֲרֶ֑יךָ לַגֵּ֛ר לַיָּת֥וֹם וְלָאַלְמָנָ֖ה יִהְיֶֽה׃",
+      "text_kjv": "When thou gatherest the grapes of thy vineyard, thou shalt not glean it afterward: it shall be for the stranger, for the fatherless, and for the widow.",
+      "rendering": "When you harvest your vineyard, you must not go through it again to pick what you missed. It must be left for the foreigner, the fatherless, and the widow.",
+      "translator_notes": [
+        "The vineyard gleaning law completes the triad of agricultural provisions: grain (v 19), olives (v 20), and grapes (v 21). The verb te'olel ('glean, gather small clusters') specifically refers to collecting the small, imperfect grape clusters left after the main harvest. Ruth exercised this right in Boaz's field (Ruth 2). The three laws together create a comprehensive welfare system built into Israel's agricultural economy."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְזָ֣כַרְתָּ֔ כִּי־עֶ֥בֶד הָיִ֖יתָ בְּאֶ֣רֶץ מִצְרָ֑יִם עַל־כֵּ֞ן אָנֹכִ֤י מְצַוְּךָ֙ לַעֲשׂ֔וֹת אֶת־הַדָּבָ֖ר הַזֶּֽה׃ {ס}",
+      "text_kjv": "And thou shalt remember that thou wast a bondman in the land of Egypt: therefore I command thee to do this thing.",
+      "rendering": "Remember that you were a slave in the land of Egypt. That is why I am commanding you to do this.",
+      "translator_notes": [
+        "The chapter closes as verse 18 did: with the slavery-memory formula. The repetition frames the entire section (vv 17-22) as motivated by exodus memory. Israel's social ethic is not abstract morality but experienced theology — 'you were vulnerable once; now protect the vulnerable.' The corporate memory of slavery creates perpetual obligation toward the marginalized."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

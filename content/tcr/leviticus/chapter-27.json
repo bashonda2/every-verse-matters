@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Leviticus",
+    "chapter": 27,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses, saying,",
+      "rendering": "The LORD spoke to Moses:",
+      "translator_notes": [
+        "The standard divine speech formula vaydabber YHVH el-Moshe lemor ('and the LORD spoke to Moses, saying') introduces the final legislative section of Leviticus. This chapter on vows and valuations forms a legal appendix to the Holiness Code (chs. 17–26), addressing voluntary dedications rather than obligatory offerings."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "דַּבֵּ֞ר אֶל־בְּנֵ֤י יִשְׂרָאֵל֙ וְאָמַרְתָּ֣ אֲלֵהֶ֔ם אִ֕ישׁ כִּ֥י יַפְלִ֖א נֶ֑דֶר בְּעֶרְכְּךָ֥ נְפָשֹׁ֖ת לַֽיהֹוָֽה׃",
+      "text_kjv": "Speak unto the children of Israel, and say unto them, When a man shall make a singular vow, the persons shall be for the LORD by thy estimation.",
+      "rendering": "\"Tell the Israelites: When someone makes an extraordinary vow dedicating persons to the LORD by their assessed value,",
+      "translator_notes": [
+        "The verb yaphli (from pala, 'to be extraordinary, to set apart') signals that this is no ordinary promise — it is a remarkable, deliberately undertaken vow (neder). The phrase be'erke'kha nephashoth ('by your assessed value of persons') introduces the erekh system: a fixed monetary valuation assigned to a person who has been dedicated to the LORD, allowing the vow to be fulfilled through payment rather than literal service."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְהָיָ֤ה עֶרְכְּךָ֙ הַזָּכָ֔ר מִבֶּן֙ עֶשְׂרִ֣ים שָׁנָ֔ה וְעַ֖ד בֶּן־שִׁשִּׁ֣ים שָׁנָ֑ה וְהָיָ֣ה עֶרְכְּךָ֗ חֲמִשִּׁ֛ים שֶׁ֥קֶל כֶּ֖סֶף בְּשֶׁ֥קֶל הַקֹּֽדֶשׁ׃",
+      "text_kjv": "And thy estimation shall be of the male from twenty years old even unto sixty years old, even thy estimation shall be fifty shekels of silver, after the shekel of the sanctuary.",
+      "rendering": "the assessed value for a male between twenty and sixty years of age will be fifty shekels of silver, measured by the sanctuary standard.",
+      "translator_notes": [
+        "The erekh ('assessed value') for a prime-age male — fifty shekels of silver — represents a substantial sum, roughly equivalent to years of wages for an ordinary laborer. The phrase besheqel haqqodesh ('by the shekel of the sanctuary') specifies the weight standard used in sacred transactions, distinguishing it from commercial shekels that may have varied by region."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְאִם־נְקֵבָ֖ה הִ֑וא וְהָיָ֥ה עֶרְכְּךָ֖ שְׁלֹשִׁ֥ים שָֽׁקֶל׃",
+      "text_kjv": "And if it be a female, then thy estimation shall be thirty shekels.",
+      "rendering": "If the person is female, the assessed value will be thirty shekels.",
+      "translator_notes": [
+        "The female erekh of thirty shekels — sixty percent of the male valuation — likely reflects economic productivity in an ancient agrarian society rather than inherent worth. These are not price tags on human dignity but standardized monetary equivalents for fulfilling dedication vows. The same thirty-shekel figure appears in Exodus 21:32 as compensation for a slave killed by a goring ox."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְאִ֨ם מִבֶּן־חָמֵ֜שׁ שָׁנִ֗ים וְעַד֙ בֶּן־עֶשְׂרִ֣ים שָׁנָ֔ה וְהָיָ֧ה עֶרְכְּךָ֛ הַזָּכָ֖ר עֶשְׂרִ֣ים שְׁקָלִ֑ים וְלַנְּקֵבָ֖ה עֲשֶׂ֥רֶת שְׁקָלִֽים׃",
+      "text_kjv": "And if it be from five years old even unto twenty years old, then thy estimation shall be of the male twenty shekels, and for the female ten shekels.",
+      "rendering": "If the person is between five and twenty years of age, the assessed value will be twenty shekels for a male and ten shekels for a female.",
+      "translator_notes": [
+        "The age bracket from five to twenty (mibben-chamesh shanim ve'ad ben-esrim shanah) covers youth and adolescence. The reduced valuation of twenty shekels for a male and ten for a female reflects the person's lower economic capacity relative to a prime-age adult. The sliding scale across all age brackets demonstrates that the erekh is tied to productive capability, not moral or spiritual status."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְאִ֣ם מִבֶּן־חֹ֗דֶשׁ וְעַד֙ בֶּן־חָמֵ֣שׁ שָׁנִ֔ים וְהָיָ֤ה עֶרְכְּךָ֙ הַזָּכָ֔ר חֲמִשָּׁ֥ה שְׁקָלִ֖ים כָּ֑סֶף וְלַנְּקֵבָ֣ה עֶרְכְּךָ֔ שְׁלֹ֥שֶׁת שְׁקָלִ֖ים כָּֽסֶף׃",
+      "text_kjv": "And if it be from a month old even unto five years old, then thy estimation shall be of the male five shekels of silver, and for the female thy estimation shall be three shekels of silver.",
+      "rendering": "If the person is between one month and five years of age, the assessed value will be five shekels of silver for a male and three shekels of silver for a female.",
+      "translator_notes": [
+        "The lowest age bracket begins at one month (mibben-chodesh), not at birth — a newborn under thirty days was apparently not yet subject to the vow-valuation system, possibly reflecting the fragile survival prospects of infants. The five-shekel valuation for a male infant matches the redemption price for a firstborn son in Numbers 18:16, suggesting a standardized figure for young children in Israel's sacred economy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְ֠אִ֠ם מִבֶּן־שִׁשִּׁ֨ים שָׁנָ֤ה וָמַ֙עְלָה֙ אִם־זָכָ֔ר וְהָיָ֣ה עֶרְכְּךָ֔ חֲמִשָּׁ֥ה עָשָׂ֖ר שָׁ֑קֶל וְלַנְּקֵבָ֖ה עֲשָׂרָ֥ה שְׁקָלִֽים׃",
+      "text_kjv": "And if it be from sixty years old and above; if it be a male, then thy estimation shall be fifteen shekels, and for the female ten shekels.",
+      "rendering": "If the person is sixty years of age or older, the assessed value will be fifteen shekels for a male and ten shekels for a female.",
+      "translator_notes": [
+        "The phrase vama'lah ('and upward') sets no upper age limit — all elderly persons fall under a single bracket. The reduced valuation of fifteen shekels for an elderly male (compared to fifty for prime-age) corresponds to diminished economic productivity in old age. The elderly female valuation of ten shekels equals the young female valuation (v. 5), suggesting a standardized minimum for certain categories."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְאִם־מָ֥ךְ הוּא֙ מֵֽעֶרְכֶּ֔ךָ וְהֶֽעֱמִידוֹ֙ לִפְנֵ֣י הַכֹּהֵ֔ן וְהֶעֱרִ֥יךְ אֹת֖וֹ הַכֹּהֵ֑ן עַל־פִּ֗י אֲשֶׁ֤ר תַּשִּׂיג֙ יַ֣ד הַנֹּדֵ֔ר יַעֲרִיכֶ֖נּוּ הַכֹּהֵֽן׃",
+      "text_kjv": "But if he be poorer than thy estimation, then he shall present himself before the priest, and the priest shall value him; according to his ability that vowed shall the priest value him.",
+      "rendering": "But if the person is too poor to pay the assessed value, they must be presented before the priest, and the priest will set the value according to what the one making the vow can afford.",
+      "translator_notes": [
+        "The word makh ('poor, reduced in means') triggers a compassion clause: the fixed-rate system yields to priestly discretion. The phrase al-pi asher tassig yad hanoder ('according to what the hand of the one vowing can reach') uses the idiom of the hand 'reaching' or 'attaining' to express financial capacity. This provision ensures that poverty does not exclude anyone from making vows — the same principle appears in the bird-offering substitutions of Leviticus 5:7 and 12:8."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְאִ֨ם־בְּהֵמָ֔ה אֲשֶׁ֨ר יַקְרִ֧יבוּ מִמֶּ֛נָּה קׇרְבָּ֖ן לַֽיהֹוָ֑ה כֹּל֩ אֲשֶׁ֨ר יִתֵּ֥ן מִמֶּ֛נּוּ לַיהֹוָ֖ה יִֽהְיֶה־קֹּֽדֶשׁ׃",
+      "text_kjv": "And if it be a beast, whereof men bring an offering unto the LORD, all that any man giveth of such unto the LORD shall be holy.",
+      "rendering": "If the dedication involves a type of animal from which offerings are brought to the LORD, whatever is given to the LORD from it becomes holy.",
+      "translator_notes": [
+        "The shift from persons (vv. 2–8) to animals (behemah) introduces the second category of dedications. The term qorban ('offering, that which is brought near') specifies ritually acceptable animals — those eligible for sacrifice. The verb yihyeh-qodesh ('it shall be holy') marks an irrevocable transfer of status: once given to the LORD, the animal enters the sphere of the sacred and cannot be reclaimed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "לֹ֣א יַחֲלִיפֶ֗נּוּ וְלֹֽא־יָמִ֥יר אֹת֛וֹ ט֥וֹב בְּרָ֖ע אוֹ־רַ֣ע בְּט֑וֹב וְאִם־הָמֵ֨ר יָמִ֤יר בְּהֵמָה֙ בִּבְהֵמָ֔ה וְהָֽיָה־ה֥וּא וּתְמוּרָת֖וֹ יִֽהְיֶה־קֹּֽדֶשׁ׃",
+      "text_kjv": "He shall not alter it, nor change it, a good for a bad, or a bad for a good: and if he shall at all change beast for beast, then it and the exchange thereof shall be holy.",
+      "rendering": "The owner must not swap or substitute it — neither a good animal for a bad one, nor a bad one for a good one. If someone does substitute one animal for another, then both the original and the replacement will be holy.",
+      "translator_notes": [
+        "Two verbs reinforce the prohibition: yachalipennu ('exchange it') and yamir ('substitute it'), covering any attempt to switch the dedicated animal. The penalty for violation is striking — hamer yamir ('if he does indeed substitute'), using the infinitive absolute for emphasis, results in both animals becoming holy. This anti-substitution rule prevents donors from dedicating a fine animal, then swapping in an inferior one, a practice Malachi 1:14 later denounces."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְאִם֙ כׇּל־בְּהֵמָ֣ה טְמֵאָ֔ה אֲ֠שֶׁ֠ר לֹא־יַקְרִ֧יבוּ מִמֶּ֛נָּה קׇרְבָּ֖ן לַֽיהֹוָ֑ה וְהֶֽעֱמִ֥יד אֶת־הַבְּהֵמָ֖ה לִפְנֵ֥י הַכֹּהֵֽן׃",
+      "text_kjv": "And if it be any unclean beast, of which they do not offer a sacrifice unto the LORD, then he shall present the beast before the priest:",
+      "rendering": "If it is a ritually impure animal — a kind from which no offering is brought to the LORD — the owner must present the animal before the priest.",
+      "translator_notes": [
+        "The category behemah teme'ah ('impure/unclean animal') refers to animals ineligible for sacrifice — donkeys, camels, and the like. Though they cannot serve as offerings, they can still be dedicated by vow and assigned monetary value. The verb he'emid ('caused to stand, presented') implies a formal assessment process before the priest, paralleling the presentation of poor persons in verse 8."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְהֶעֱרִ֤יךְ הַכֹּהֵן֙ אֹתָ֔הּ בֵּ֥ין ט֖וֹב וּבֵ֣ין רָ֑ע כְּעֶרְכְּךָ֥ הַכֹּהֵ֖ן כֵּ֥ן יִהְיֶֽה׃",
+      "text_kjv": "And the priest shall value it, whether it be good or bad: as thou valuest it, who art the priest, so shall it be.",
+      "rendering": "The priest will appraise it, whether the animal is of good or poor quality. Whatever value the priest assigns — that is what it will be.",
+      "translator_notes": [
+        "Unlike the fixed erekh scale for persons (vv. 3–7), unclean animals receive individual appraisal (he'erikh) by the priest. The phrase bein tov uvein ra ('between good and between bad') grants the priest latitude to evaluate the animal's actual condition and worth. The finality clause ken yihyeh ('so it shall be') makes the priestly assessment binding and non-negotiable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְאִם־גָּאֹ֖ל יִגְאָלֶ֑נָּה וְיָסַ֥ף חֲמִישִׁת֖וֹ עַל־עֶרְכֶּֽךָ׃",
+      "text_kjv": "But if he will at all redeem it, then he shall add a fifth part thereof unto thy estimation.",
+      "rendering": "If the owner insists on buying it back, a fifth must be added on top of the assessed value.",
+      "translator_notes": [
+        "The infinitive absolute construction ga'ol yig'alenah ('redeeming he shall redeem it') conveys determined intent — the owner truly wants to reclaim the animal. The twenty-percent surcharge (chamishito, 'its fifth') is a recurring redemption penalty throughout this chapter (vv. 13, 15, 19, 27, 31). It functions as both a deterrent against impulsive vows and compensation for removing an item from sacred inventory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְאִ֗ישׁ כִּֽי־יַקְדִּ֨שׁ אֶת־בֵּית֥וֹ קֹ֙דֶשׁ֙ לַֽיהֹוָ֔ה וְהֶעֱרִיכוֹ֙ הַכֹּהֵ֔ן בֵּ֥ין ט֖וֹב וּבֵ֣ין רָ֑ע כַּאֲשֶׁ֨ר יַעֲרִ֥יךְ אֹת֛וֹ הַכֹּהֵ֖ן כֵּ֥ן יָקֽוּם׃",
+      "text_kjv": "And when a man shall sanctify his house to be holy unto the LORD, then the priest shall estimate it, whether it be good or bad: as the priest shall estimate it, so shall it stand.",
+      "rendering": "When someone consecrates a house as holy to the LORD, the priest will appraise it based on its quality — good or poor. Whatever the priest determines as its value, that amount stands.",
+      "translator_notes": [
+        "The verb yaqddish ('consecrates, makes holy') marks the voluntary transfer of a house (bayit) into sacred status. Like unclean animals (v. 12), houses receive individual appraisal rather than a fixed-rate valuation. The final verb yaqum ('it shall stand, be established') — distinct from yihyeh in v. 12 — emphasizes legal permanence: the priest's ruling is a standing decree."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְאִ֨ם־הַמַּקְדִּ֔ישׁ יִגְאַ֖ל אֶת־בֵּית֑וֹ וְ֠יָסַ֠ף חֲמִישִׁ֧ית כֶּֽסֶף־עֶרְכְּךָ֛ עָלָ֖יו וְהָ֥יָה לֽוֹ׃",
+      "text_kjv": "And if he that sanctified it will redeem his house, then he shall add the fifth part of the money of thy estimation unto it, and it shall be his.",
+      "rendering": "If the one who consecrated the house wants to buy it back, that person must add a fifth of the appraised monetary value on top. Then it will be returned.",
+      "translator_notes": [
+        "The participle hammaqdish ('the one consecrating') identifies the original dedicator as the only party with redemption rights. The phrase chamishith keseph-erke'kha ('a fifth of the silver of your assessed value') specifies that the surcharge is calculated on the monetary appraisal, not on some other basis. The clause vehayah lo ('and it shall be his') confirms full restoration of ownership upon payment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְאִ֣ם&thinsp;׀ מִשְּׂדֵ֣ה אֲחֻזָּת֗וֹ יַקְדִּ֥ישׁ אִישׁ֙ לַֽיהֹוָ֔ה וְהָיָ֥ה עֶרְכְּךָ֖ לְפִ֣י זַרְע֑וֹ זֶ֚רַע חֹ֣מֶר שְׂעֹרִ֔ים בַּחֲמִשִּׁ֖ים שֶׁ֥קֶל כָּֽסֶף׃",
+      "text_kjv": "And if a man shall sanctify unto the LORD some part of a field of his possession, then thy estimation shall be according to the seed thereof: an homer of barley seed shall be valued at fifty shekels of silver.",
+      "rendering": "If someone consecrates to the LORD a portion of their hereditary landholding, the assessed value will be calculated by its seed capacity: land requiring a homer of barley seed is valued at fifty shekels of silver.",
+      "translator_notes": [
+        "The phrase sedeh achuzzato ('field of his inherited possession') distinguishes ancestral land — received as part of the original tribal allotment — from purchased property (treated in vv. 22–24). Land valuation is based on zar'o ('its seed'), meaning the quantity of seed needed to sow it, a practical measure of productive area. A homer (chomer) of barley seed — roughly 220 liters or 6.5 bushels — defines the standard unit, with fifty shekels as the full Jubilee-cycle valuation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אִם־מִשְּׁנַ֥ת הַיֹּבֵ֖ל יַקְדִּ֣ישׁ שָׂדֵ֑הוּ כְּעֶרְכְּךָ֖ יָקֽוּם׃",
+      "text_kjv": "If he sanctify his field from the year of jubile, according to thy estimation it shall stand.",
+      "rendering": "If the field is consecrated starting from the Jubilee year, the full assessed value applies.",
+      "translator_notes": [
+        "The phrase mishnat hayyovel ('from the year of Jubilee') establishes the baseline: consecration at the start of a Jubilee cycle means the full fifty-shekel-per-homer rate applies because the maximum number of productive years remains. The yovel ('Jubilee,' from the ram's horn that announced it) was the fifty-year cycle of land restoration described in Leviticus 25."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְאִם־אַחַ֣ר הַיֹּבֵל֮ יַקְדִּ֣ישׁ שָׂדֵ֒הוּ֒ וְחִשַּׁב־ל֨וֹ הַכֹּהֵ֜ן אֶת־הַכֶּ֗סֶף עַל־פִּ֤י הַשָּׁנִים֙ הַנּ֣וֹתָרֹ֔ת עַ֖ד שְׁנַ֣ת הַיֹּבֵ֑ל וְנִגְרַ֖ע מֵֽעֶרְכֶּֽךָ׃",
+      "text_kjv": "But if he sanctify his field after the jubile, then the priest shall reckon unto him the money according to the years that remain, even unto the year of the jubile, and it shall be abated from thy estimation.",
+      "rendering": "But if the field is consecrated after the Jubilee year, the priest will calculate the monetary value based on the years remaining until the next Jubilee, and the assessed value will be reduced proportionally.",
+      "translator_notes": [
+        "The verb chishav ('calculate, reckon') indicates a prorated computation — not a subjective appraisal but arithmetic based on remaining years. The verb nigra ('it shall be subtracted, reduced') derives from gara ('to diminish'), showing that the fifty-shekel base rate depreciates annually as the next Jubilee approaches. This depreciation model recognizes that fewer remaining harvests means less productive value in the consecrated land."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְאִם־גָּאֹ֤ל יִגְאַל֙ אֶת־הַשָּׂדֶ֔ה הַמַּקְדִּ֖ישׁ אֹת֑וֹ וְ֠יָסַ֠ף חֲמִשִׁ֧ית כֶּֽסֶף־עֶרְכְּךָ֛ עָלָ֖יו וְקָ֥ם לֽוֹ׃",
+      "text_kjv": "And if he that sanctified the field will in any wise redeem it, then he shall add the fifth part of the money of thy estimation unto it, and it shall be assured to him.",
+      "rendering": "If the one who consecrated the field truly wants to buy it back, that person must add a fifth to the assessed monetary value, and the field will be confirmed as theirs again.",
+      "translator_notes": [
+        "The infinitive absolute ga'ol yig'al ('redeeming he redeems') again conveys emphatic intention, as in v. 13. The verb veqam ('and it shall be established, confirmed') uses qum in its legal sense of ratifying a transaction — once the full price plus surcharge is paid, the field's return to the original owner is legally binding. The twenty-percent premium parallels every other redemption scenario in this chapter."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאִם־לֹ֤א יִגְאַל֙ אֶת־הַשָּׂדֶ֔ה וְאִם־מָכַ֥ר אֶת־הַשָּׂדֶ֖ה לְאִ֣ישׁ אַחֵ֑ר לֹ֥א יִגָּאֵ֖ל עֽוֹד׃",
+      "text_kjv": "And if he will not redeem the field, or if he have sold the field to another man, it shall not be redeemed any more.",
+      "rendering": "If the owner does not buy back the field, or if the field has been sold to another party, it can never be redeemed.",
+      "translator_notes": [
+        "Two forfeiture conditions end the right of redemption (ge'ullah): failing to exercise the buyback option, or selling the field to someone else (le'ish acher, 'to another man'). The phrase lo yigga'el od ('it shall not be redeemed again') is absolute — the opportunity is permanently lost. The sale to a third party while the field is under consecration constitutes a breach that voids all future claims."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְהָיָ֨ה הַשָּׂדֶ֜ה בְּצֵאת֣וֹ בַיֹּבֵ֗ל קֹ֛דֶשׁ לַֽיהֹוָ֖ה כִּשְׂדֵ֣ה הַחֵ֑רֶם לַכֹּהֵ֖ן תִּהְיֶ֥ה אֲחֻזָּתֽוֹ׃",
+      "text_kjv": "But the field, when it goeth out in the jubile, shall be holy unto the LORD, as a field devoted; the possession thereof shall be the priest's.",
+      "rendering": "When the field is released at the Jubilee, it will become holy to the LORD — like a field under the ban of irrevocable dedication. It will become the permanent possession of the priests.",
+      "translator_notes": [
+        "The phrase betze'to vayyovel ('when it goes out in the Jubilee') uses the same 'going out' language applied to slaves released in the sabbatical year. The comparison kisedeh hacherem ('like a field of the cherem') equates the unredeemed field with property placed under the most extreme form of dedication — total, irreversible consecration. Rather than returning to the original family as normal Jubilee land would, the field passes permanently to the priestly holdings (achuzzato, 'its possession')."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְאִם֙ אֶת־שְׂדֵ֣ה מִקְנָת֔וֹ אֲשֶׁ֕ר לֹ֖א מִשְּׂדֵ֣ה אֲחֻזָּת֑וֹ יַקְדִּ֖ישׁ לַֽיהֹוָֽה׃",
+      "text_kjv": "And if a man sanctify unto the LORD a field which he hath bought, which is not of the fields of his possession;",
+      "rendering": "If someone consecrates to the LORD a field that was purchased — one that is not part of their hereditary landholding —",
+      "translator_notes": [
+        "The distinction between sedeh miqnato ('field of his purchase') and sedeh achuzzato ('field of his ancestral holding') is legally critical. Purchased land reverts to its original owner at the Jubilee regardless (Lev. 25:25–28), so the dedicator's claim on it is inherently temporary. This affects both the valuation calculation and the ultimate disposition of the field."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְחִשַּׁב־ל֣וֹ הַכֹּהֵ֗ן אֵ֚ת מִכְסַ֣ת הָֽעֶרְכְּךָ֔ עַ֖ד שְׁנַ֣ת הַיֹּבֵ֑ל וְנָתַ֤ן אֶת־הָעֶרְכְּךָ֙ בַּיּ֣וֹם הַה֔וּא קֹ֖דֶשׁ לַיהֹוָֽה׃",
+      "text_kjv": "Then the priest shall reckon unto him the worth of thy estimation, even unto the year of the jubile: and he shall give thine estimation in that day, as a holy thing unto the LORD.",
+      "rendering": "the priest will calculate the proportional assessed value through the Jubilee year, and the person must pay that amount on the same day as a holy contribution to the LORD.",
+      "translator_notes": [
+        "The word mikhsat ('proportional amount, quota') — from kasas ('to compute, calculate') — specifies that the valuation is prorated to the remaining years until the Jubilee. Unlike hereditary land, payment is required bayyom hahu ('on that day') with no option for delayed fulfillment. The immediate payment underscores that the dedicator's temporary ownership of purchased land demands prompt settlement."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "בִּשְׁנַ֤ת הַיּוֹבֵל֙ יָשׁ֣וּב הַשָּׂדֶ֔ה לַאֲשֶׁ֥ר קָנָ֖הוּ מֵאִתּ֑וֹ לַאֲשֶׁר־ל֖וֹ אֲחֻזַּ֥ת הָאָֽרֶץ׃",
+      "text_kjv": "In the year of the jubile the field shall return unto him of whom it was bought, even to him to whom the possession of the land did belong.",
+      "rendering": "In the Jubilee year, the field reverts to the person from whom it was purchased — the one whose hereditary landholding it originally was.",
+      "translator_notes": [
+        "The verb yashuv ('it shall return') governs the Jubilee land principle: purchased fields always go back to the ancestral owner (la'asher lo achuzzat ha'aretz, 'to the one to whom the land-holding belongs'). This verse clarifies that consecrating purchased land does not override the Jubilee return — the priests do not keep it permanently as they would unredeemed ancestral land (v. 21). The Jubilee system protects the original tribal allocation above all secondary transactions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְכׇ֨ל־עֶרְכְּךָ֔ יִהְיֶ֖ה בְּשֶׁ֣קֶל הַקֹּ֑דֶשׁ עֶשְׂרִ֥ים גֵּרָ֖ה יִהְיֶ֥ה הַשָּֽׁקֶל׃",
+      "text_kjv": "And all thy estimations shall be according to the shekel of the sanctuary: twenty gerahs shall be the shekel.",
+      "rendering": "Every assessed value must be calculated using the sanctuary shekel standard. The shekel equals twenty gerahs.",
+      "translator_notes": [
+        "This parenthetical standardization clause anchors all monetary transactions in the chapter to the sheqel haqqodesh ('sanctuary shekel'). The gerah was the smallest unit of weight in Israel's system — one-twentieth of a shekel, approximately 0.57 grams of silver. By defining the shekel as twenty gerahs, the text prevents fraud through use of lighter commercial weights, a concern reflected in prophetic denunciations (Amos 8:5; Micah 6:11)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "אַךְ־בְּכ֞וֹר אֲשֶׁר־יְבֻכַּ֤ר לַֽיהֹוָה֙ בִּבְהֵמָ֔ה לֹֽא־יַקְדִּ֥ישׁ אִ֖ישׁ אֹת֑וֹ אִם־שׁ֣וֹר אִם־שֶׂ֔ה לַֽיהֹוָ֖ה הֽוּא׃",
+      "text_kjv": "Only the firstling of the beasts, which should be the LORD'S firstling, no man shall sanctify it; whether it be ox, or sheep: it is the LORD'S.",
+      "rendering": "However, no one may consecrate a firstborn animal by vow, since the firstborn among livestock already belongs to the LORD — whether it is a bull or a sheep, it is the LORD's.",
+      "translator_notes": [
+        "The particle akh ('however, but') introduces an exception to the voluntary dedication system. The verb yevukkar ('is firstborn-ed,' a passive of bakhar in its specialized 'firstborn' sense) refers to the automatic consecration of firstborn animals established in Exodus 13:2, 12. Since the bekhor already belongs to the LORD by prior claim, dedicating it by neder would be giving what one does not own — a logical impossibility that the law explicitly prevents."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְאִ֨ם בַּבְּהֵמָ֤ה הַטְּמֵאָה֙ וּפָדָ֣ה בְעֶרְכֶּ֔ךָ וְיָסַ֥ף חֲמִשִׁת֖וֹ עָלָ֑יו וְאִם־לֹ֥א יִגָּאֵ֖ל וְנִמְכַּ֥ר בְּעֶרְכֶּֽךָ׃",
+      "text_kjv": "And if it be of an unclean beast, then he shall redeem it according to thine estimation, and shall add a fifth part of it thereto: or if it be not redeemed, then it shall be sold according to thy estimation.",
+      "rendering": "If it is a firstborn of a ritually impure animal, the owner may ransom it at the assessed value plus an additional fifth. If it is not ransomed, it will be sold at the assessed value.",
+      "translator_notes": [
+        "This verse addresses firstborn unclean animals (like donkeys) — already belonging to the LORD but unusable as sacrifices. The verb padah ('ransom, redeem by payment') differs from ga'al ('redeem by kinship right') used elsewhere in the chapter; padah emphasizes the transactional buyback of something under divine claim. The two outcomes — redemption with surcharge or sale at assessed value — parallel the treatment of dedicated unclean animals in vv. 11–13, but here the animal's firstborn status is what triggers the obligation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "אַךְ־כׇּל־חֵ֡רֶם אֲשֶׁ֣ר יַחֲרִם֩ אִ֨ישׁ לַֽיהֹוָ֜ה מִכׇּל־אֲשֶׁר־ל֗וֹ מֵאָדָ֤ם וּבְהֵמָה֙ וּמִשְּׂדֵ֣ה אֲחֻזָּת֔וֹ לֹ֥א יִמָּכֵ֖ר וְלֹ֣א יִגָּאֵ֑ל כׇּל־חֵ֕רֶם קֹֽדֶשׁ־קׇדָשִׁ֥ים ה֖וּא לַיהֹוָֽה׃",
+      "text_kjv": "Notwithstanding no devoted thing, that a man shall devote unto the LORD of all that he hath, both of man and beast, and of the field of his possession, shall be sold or redeemed: every devoted thing is most holy unto the LORD.",
+      "rendering": "Nevertheless, anything that a person places under the ban of irrevocable dedication to the LORD — whether from persons, livestock, or hereditary landholding — may not be sold and may not be bought back. Everything placed under the ban is most holy to the LORD.",
+      "translator_notes": [
+        "The cherem ('ban, irrevocable dedication') represents the most extreme category of consecration in Israelite law, surpassing ordinary dedication (heqdesh). The triple scope — me'adam uvehemah umisedeh achuzzato ('from persons and animals and from the field of his holding') — covers every category of property. The designation qodesh-qodashim ('most holy, holy of holies') places cherem items in the highest tier of sanctity, the same classification given to sin offerings and grain offerings (Lev. 6:17, 25). Unlike ordinary dedications, cherem permits no redemption and no sale."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "כׇּל־חֵ֗רֶם אֲשֶׁ֧ר יׇחֳרַ֛ם מִן־הָאָדָ֖ם לֹ֣א יִפָּדֶ֑ה מ֖וֹת יוּמָֽת׃",
+      "text_kjv": "None devoted, which shall be devoted of men, shall be redeemed; but shall surely be put to death.",
+      "rendering": "No person who has been placed under the ban may be ransomed — that person must be put to death.",
+      "translator_notes": [
+        "This verse addresses the most severe application of cherem: when applied to human beings. The phrase yocharam min-ha'adam ('devoted from among humans') with the emphatic moth yumath ('dying he shall die') indicates capital consequences. The context likely refers to judicial cherem — persons placed under the ban for grave offenses (as in Exodus 22:19; Deuteronomy 13:16) — rather than arbitrary human sacrifice, which is condemned throughout the Torah. The verb yippadeh (niphal of padah, 'be ransomed') means no monetary payment can substitute for the sentence."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְכׇל־מַעְשַׂ֨ר הָאָ֜רֶץ מִזֶּ֤רַע הָאָ֙רֶץ֙ מִפְּרִ֣י הָעֵ֔ץ לַיהֹוָ֖ה ה֑וּא קֹ֖דֶשׁ לַֽיהֹוָֽה׃",
+      "text_kjv": "And all the tithe of the land, whether of the seed of the land, or of the fruit of the tree, is the LORD'S: it is holy unto the LORD.",
+      "rendering": "Every tenth portion from the land — whether grain from the soil or fruit from the trees — belongs to the LORD. It is holy to the LORD.",
+      "translator_notes": [
+        "The ma'aser ('tithe, tenth part') shifts from voluntary vows to obligatory contributions. The scope covers mizera ha'aretz ('from the seed of the land,' meaning field crops) and miperi ha'etz ('from the fruit of the tree,' meaning orchards and vineyards). The declaration laYHVH hu ('it is the LORD's') establishes divine ownership as inherent — the tithe is not a gift to God but a recognition that the tenth already belongs to Him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְאִם־גָּאֹ֥ל יִגְאַ֛ל אִ֖ישׁ מִמַּֽעַשְׂר֑וֹ חֲמִשִׁית֖וֹ יֹסֵ֥ף עָלָֽיו׃",
+      "text_kjv": "And if a man will at all redeem ought of his tithes, he shall add thereto the fifth part thereof.",
+      "rendering": "If someone insists on buying back any portion of their tithe, they must add a fifth to its value.",
+      "translator_notes": [
+        "The infinitive absolute ga'ol yig'al ('redeeming he redeems') allows for tithed produce to be repurchased — perhaps when the farmer needed specific grain for planting or consumption. The same twenty-percent surcharge (chamishito, 'its fifth') applies here as in all redemption transactions in this chapter. The provision implies that the tithe of agricultural produce could be converted to monetary payment, a concept expanded in Deuteronomy 14:24–25 for those living far from the sanctuary."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְכׇל־מַעְשַׂ֤ר בָּקָר֙ וָצֹ֔אן כֹּ֥ל אֲשֶׁר־יַעֲבֹ֖ר תַּ֣חַת הַשָּׁ֑בֶט הָֽעֲשִׂירִ֕י יִֽהְיֶה־קֹּ֖דֶשׁ לַֽיהֹוָֽה׃",
+      "text_kjv": "And concerning the tithe of the herd, or of the flock, even of whatsoever passeth under the rod, the tenth shall be holy unto the LORD.",
+      "rendering": "As for the tithe of cattle and sheep — every animal that passes under the counting rod, the tenth one will be holy to the LORD.",
+      "translator_notes": [
+        "The phrase ya'avor tachat hashevet ('passes under the rod/staff') describes the tithing method: animals were driven single-file through a narrow passage while the herder counted them with a staff, marking every tenth animal. The shevet ('rod, staff') functioned as both a counting tool and a marker. This concrete procedure — rather than selection by quality — ensured randomness and prevented owners from keeping the best animals for themselves."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "לֹ֧א יְבַקֵּ֛ר בֵּֽין־ט֥וֹב לָרַ֖ע וְלֹ֣א יְמִירֶ֑נּוּ וְאִם־הָמֵ֣ר יְמִירֶ֔נּוּ וְהָֽיָה־ה֧וּא וּתְמוּרָת֛וֹ יִֽהְיֶה־קֹּ֖דֶשׁ לֹ֥א יִגָּאֵֽל׃",
+      "text_kjv": "He shall not search whether it be good or bad, neither shall he change it: and if he change it at all, then both it and the change thereof shall be holy; it shall not be redeemed.",
+      "rendering": "The owner must not sort between good and bad animals, and must not make a substitution. If a substitution is made, both the original and the replacement become holy — neither may be bought back.",
+      "translator_notes": [
+        "The verb yevaqer ('examine, investigate, sort') — from baqar ('to inspect') — prohibits the owner from cherry-picking which animal becomes the tenth. Combined with the anti-substitution rule (lo yemirennu, 'he shall not exchange it'), the law closes every loophole for keeping superior animals. The penalty clause mirrors v. 10: both animals become qodesh ('holy'). The final phrase lo yigga'el ('it shall not be redeemed') adds a prohibition absent from v. 10 — livestock tithes, unlike produce tithes (v. 31), cannot be bought back at all."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "אֵ֣לֶּה הַמִּצְוֺ֗ת אֲשֶׁ֨ר צִוָּ֧ה יְהֹוָ֛ה אֶת־מֹשֶׁ֖ה אֶל־בְּנֵ֣י יִשְׂרָאֵ֑ל בְּהַ֖ר סִינָֽי׃",
+      "text_kjv": "These are the commandments, which the LORD commanded Moses for the children of Israel in mount Sinai.",
+      "rendering": "These are the commandments that the LORD gave Moses for the Israelites at Mount Sinai.",
+      "translator_notes": [
+        "This colophon (closing subscription) seals the entire book of Leviticus, not merely chapter 27. The phrase behar Sinai ('at Mount Sinai') frames all of Leviticus as Sinaitic legislation, linking back to the opening of the book (Lev. 1:1). The word mitzvot ('commandments') encompasses the full range of Levitical law — sacrificial procedures, purity regulations, the Holiness Code, and the vow-valuation system just concluded. This verse parallels the subscriptions at Leviticus 7:38 and 26:46, creating a layered editorial structure."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

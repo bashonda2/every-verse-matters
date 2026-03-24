@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "chapter": 21,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "כִּי־יִמָּצֵ֣א חָלָ֗ל בָּאֲדָמָה֙ אֲשֶׁר֩ יְהֹוָ֨ה אֱלֹהֶ֜יךָ נֹתֵ֤ן לְךָ֙ לְרִשְׁתָּ֔הּ נֹפֵ֖ל בַּשָּׂדֶ֑ה לֹ֥א נוֹדַ֖ע מִ֥י הִכָּֽהוּ׃",
+      "text_kjv": "If one be found slain in the land which the LORD thy God giveth thee to possess it, lying in the field, and it be not known who hath slain him:",
+      "rendering": "If a slain person is found lying in the open field in the land that the LORD your God is giving you to possess, and it is not known who struck him down,",
+      "translator_notes": [
+        "The word chalal ('pierced one, slain person') refers to someone killed by violence, not natural death. Found nofel bassadeh ('fallen in the field') — in open land between settlements where no witnesses were present. The phrase lo noda mi hikkahu ('it is not known who struck him') creates the legal problem: unsolved homicide leaves bloodguilt unresolved, contaminating the land."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חָלָל",
+          "transliteration": "chalal",
+          "rendered_as": "slain person",
+          "semantic_range": "pierced one, slain, fatally wounded, corpse",
+          "note": "Specifically denotes a person killed by violence — distinguished from a natural death. The term implies a wound or act of aggression."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְיָצְא֥וּ זְקֵנֶ֖יךָ וְשֹׁפְטֶ֑יךָ וּמָדְדוּ֙ אֶל־הֶ֣עָרִ֔ים אֲשֶׁ֖ר סְבִיבֹ֥ת הֶחָלָֽל׃",
+      "text_kjv": "Then thy elders and thy judges shall come forth, and they shall measure unto the cities which are round about him that is slain:",
+      "rendering": "then your elders and your judges must go out and measure the distances to the cities surrounding the slain person.",
+      "translator_notes": [
+        "The measuring ceremony (umadedu — 'they shall measure') determines which city is nearest and therefore bears responsibility for the unsolved death. Elders and judges acting together (zeqenekha veshoftekha) ensures both communal authority and judicial precision. The physical act of measurement transforms an abstract question of guilt into a concrete civic responsibility."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְהָיָ֣ה הָעִ֔יר הַקְּרֹבָ֖ה אֶל־הֶחָלָ֑ל וְלָֽקְח֡וּ זִקְנֵי֩ הָעִ֨יר הַהִ֜וא עֶגְלַ֣ת בָּקָ֗ר אֲשֶׁ֤ר לֹֽא־עֻבַּד֙ בָּ֔הּ אֲשֶׁ֥ר לֹא־מָשְׁכָ֖ה בְּעֹֽל׃",
+      "text_kjv": "And it shall be, that the city which is next unto the slain man, even the elders of that city shall take an heifer, which hath not been wrought with, and which hath not drawn in the yoke;",
+      "rendering": "The elders of the city nearest to the body must take a young cow that has never been worked and has never worn a yoke.",
+      "translator_notes": [
+        "The eglat baqar ('heifer, young cow') must meet two conditions: lo ubbad bah ('not worked with') and lo mashkhah be'ol ('not pulled in a yoke'). An animal untouched by human labor represents innocence and unused potential — mirroring the innocent life cut short. The parallel with the red heifer of Numbers 19 (also never yoked) suggests a purification ritual, though the mechanism here differs."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְהוֹרִ֡דוּ זִקְנֵי֩ הָעִ֨יר הַהִ֤וא אֶת־הָֽעֶגְלָה֙ אֶל־נַ֣חַל אֵיתָ֔ן אֲשֶׁ֛ר לֹא־יֵעָבֵ֥ד בּ֖וֹ וְלֹ֣א יִזָּרֵ֑עַ וְעָֽרְפוּ־שָׁ֥ם אֶת־הָעֶגְלָ֖ה בַּנָּֽחַל׃",
+      "text_kjv": "And the elders of that city shall bring down the heifer unto a rough valley, which is neither eared nor sown, and shall strike off the heifer's neck there in the valley:",
+      "rendering": "The elders of that city must bring the cow down to a perennial wadi — a valley that is neither plowed nor sown — and they must break the cow's neck there in the wadi.",
+      "translator_notes": [
+        "The nachal eitan ('enduring wadi' — a valley with a permanent stream) must be uncultivated land, matching the animal's unworked status. The verb arefu ('break the neck') is not a sacrificial slaughter but a distinct killing method — the animal's death absorbs the community's bloodguilt. The unworked animal in unworked ground creates a ritually pristine setting for absorbing the contamination of unsolved murder."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נַחַל אֵיתָן",
+          "transliteration": "nachal eitan",
+          "rendered_as": "perennial wadi",
+          "semantic_range": "enduring stream, rough valley, ever-flowing wadi",
+          "note": "Eitan means 'enduring, permanent.' This is a valley with a constant water source — the flowing water symbolizes the ongoing removal of guilt."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְנִגְּשׁ֣וּ הַכֹּהֲנִים֮ בְּנֵ֣י לֵוִי֒ כִּ֣י בָ֗ם בָּחַ֞ר יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ לְשָׁ֣רְת֔וֹ וּלְבָרֵ֖ךְ בְּשֵׁ֣ם יְהֹוָ֑ה וְעַל־פִּיהֶ֥ם יִהְיֶ֖ה כׇּל־רִ֥יב וְכׇל־נָֽגַע׃",
+      "text_kjv": "And the priests the sons of Levi shall come near; for them the LORD thy God hath chosen to minister unto him, and to bless in the name of the LORD; and by their word shall every controversy and every stroke be tried:",
+      "rendering": "Then the Levitical priests must come forward, for the LORD your God has chosen them to minister to Him and to pronounce blessings in the name of the LORD, and every dispute and every case of physical assault is to be resolved by their verdict.",
+      "translator_notes": [
+        "The priests' triple function is stated: lesharto ('to minister to Him'), ulevarekh beshem YHWH ('to bless in the LORD's name'), and judicial authority over kol riv vekhol nega ('every dispute and every injury'). The word nega ('stroke, plague, injury') covers both physical harm and skin diseases (as in Leviticus 13-14), giving priests jurisdiction over bodily matters."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְכֹ֗ל זִקְנֵי֙ הָעִ֣יר הַהִ֔וא הַקְּרֹבִ֖ים אֶל־הֶחָלָ֑ל יִרְחֲצוּ֙ אֶת־יְדֵיהֶ֔ם עַל־הָעֶגְלָ֖ה הָעֲרוּפָ֥ה בַנָּֽחַל׃",
+      "text_kjv": "And all the elders of that city, that are next unto the slain man, shall wash their hands over the heifer that is beheaded in the valley:",
+      "rendering": "All the elders of the city nearest to the body must wash their hands over the young cow whose neck was broken in the wadi.",
+      "translator_notes": [
+        "Handwashing over the slain animal is a public declaration of innocence — the symbolic transfer of potential guilt. This is the biblical origin of the 'washing hands of responsibility' gesture, later echoed by Pilate in Matthew 27:24. The ritual combines physical act (washing) with verbal declaration (v 7) to formally dissociate the community from the bloodshed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְעָנ֖וּ וְאָמְר֑וּ יָדֵ֗ינוּ לֹ֤א (שפכה) [שָֽׁפְכוּ֙] אֶת־הַדָּ֣ם הַזֶּ֔ה וְעֵינֵ֖ינוּ לֹ֥א רָאֽוּ׃",
+      "text_kjv": "And they shall answer and say, Our hands have not shed this blood, neither have our eyes seen it.",
+      "rendering": "They must declare: 'Our hands did not shed this blood, and our eyes did not see it happen.",
+      "translator_notes": [
+        "The declaration is a formal oath of innocence with two components: hands (action — 'we did not kill') and eyes (knowledge — 'we did not witness it'). The Qere/Ketiv variant: the Ketiv (שפכה — shafkhah, singular feminine) may reflect an older grammatical form; the Qere (שָֽׁפְכוּ — shafkhu, plural) matches the plural subject 'our hands.' The community leaders speak on behalf of the entire city."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "כַּפֵּר֩ לְעַמְּךָ֨ יִשְׂרָאֵ֤ל אֲשֶׁר־פָּדִ֙יתָ֙ יְהֹוָ֔ה וְאַל־תִּתֵּן֙ דָּ֣ם נָקִ֔י בְּקֶ֖רֶב עַמְּךָ֣ יִשְׂרָאֵ֑ל וְנִכַּפֵּ֥ר לָהֶ֖ם הַדָּֽם׃",
+      "text_kjv": "Be merciful, O LORD, unto thy people Israel, whom thou hast redeemed, and lay not innocent blood unto thy people of Israel's charge. And the blood shall be forgiven them.",
+      "rendering": "Grant atonement for your people Israel, whom you redeemed, O LORD, and do not hold the guilt of innocent blood against your people Israel.' Then the bloodguilt will be atoned for.",
+      "translator_notes": [
+        "The prayer contains the verb kapper ('atone, cover, purge') twice: as imperative petition (kapper le'ammekha — 'grant atonement for your people') and as result (venikapper lahem haddam — 'the blood-guilt will be atoned for them'). The appeal to God as redeemer (asher padita — 'whom you redeemed') invokes the exodus as grounds for mercy. Israel's identity as a redeemed people obligates God to maintain their purity."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כַּפֵּר",
+          "transliteration": "kapper",
+          "rendered_as": "grant atonement",
+          "semantic_range": "atone, cover, purge, make propitiation, ransom",
+          "note": "The same root as Yom Kippur (Day of Atonement). Here applied to communal bloodguilt rather than individual sin — the heifer ritual purges what cannot be resolved through normal judicial process."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְאַתָּ֗ה תְּבַעֵ֛ר הַדָּ֥ם הַנָּקִ֖י מִקִּרְבֶּ֑ךָ כִּֽי־תַעֲשֶׂ֥ה הַיָּשָׁ֖ר בְּעֵינֵ֥י יְהֹוָֽה׃ {ס}",
+      "text_kjv": "So shalt thou put away the guilt of innocent blood from among you, when thou shalt do that which is right in the sight of the LORD.",
+      "rendering": "So you will purge the guilt of innocent blood from your midst by doing what is right in the eyes of the LORD.",
+      "translator_notes": [
+        "The concluding formula teva'er haddam hannaqi miqirbekha ('you will purge innocent blood from your midst') uses the familiar purging language of Deuteronomy. Performing the ceremony is itself the act of doing hayashar ('the right thing') — the community's proactive response to unsolved violence demonstrates commitment to justice even when the perpetrator remains unknown."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כִּֽי־תֵצֵ֥א לַמִּלְחָמָ֖ה עַל־אֹיְבֶ֑יךָ וּנְתָנ֞וֹ יְהֹוָ֧ה אֱלֹהֶ֛יךָ בְּיָדֶ֖ךָ וְשָׁבִ֥יתָ שִׁבְיֽוֹ׃",
+      "text_kjv": "When thou goest forth to war against thine enemies, and the LORD thy God hath delivered them into thine hands, and thou hast taken them captive,",
+      "rendering": "When you go out to war against your enemies and the LORD your God delivers them into your hands, and you take captives,",
+      "translator_notes": [
+        "A new law section begins with the warfare formula ki tetse lammilchamah ('when you go out to war'). God's role as the one who delivers victory (unetano YHWH beyyadekha — 'the LORD gives him into your hand') is stated before any human action. The taking of captives (shavita shivyo — 'you capture his captivity') transitions to a specific regulation about captive women."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְרָאִ֙יתָ֙ בַּשִּׁבְיָ֔ה אֵ֖שֶׁת יְפַת־תֹּ֑אַר וְחָשַׁקְתָּ֣ בָ֔הּ וְלָקַחְתָּ֥ לְךָ֖ לְאִשָּֽׁה׃",
+      "text_kjv": "And seest among the captives a beautiful woman, and hast a desire unto her, that thou wouldest have her to thy wife;",
+      "rendering": "and you see among the captives a beautiful woman and are attracted to her, desiring to take her as your wife,",
+      "translator_notes": [
+        "The eshet yefat to'ar ('woman beautiful of form') is a war captive whom an Israelite soldier desires. The verb chashaqta ('you desire, you are attracted to') acknowledges sexual attraction as a reality of warfare without condemning it. Rather than prohibiting the marriage or permitting immediate sexual exploitation, the law creates a structured process (vv 12-13) that protects the woman's dignity and humanity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַהֲבֵאתָ֖הּ אֶל־תּ֣וֹךְ בֵּיתֶ֑ךָ וְגִלְּחָה֙ אֶת־רֹאשָׁ֔הּ וְעָשְׂתָ֖ה אֶת־צִפׇּרְנֶֽיהָ׃",
+      "text_kjv": "Then thou shalt bring her home to thine house; and she shall shave her head, and pare her nails;",
+      "rendering": "then you must bring her into your house. She must shave her head and trim her nails.",
+      "translator_notes": [
+        "The three actions — entering the house, shaving the head, and trimming nails — mark a transition from captive to household member. Shaving the head (gillchah et roshah) may represent mourning for her former life, or symbolically shedding her foreign identity. The trimming of nails (ve'astah et tsipporneiha — literally 'do her nails') similarly marks a physical transformation. Some scholars see these as de-beautification acts that test whether the man's attraction is genuine."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְהֵסִ֩ירָה֩ אֶת־שִׂמְלַ֨ת שִׁבְיָ֜הּ מֵעָלֶ֗יהָ וְיָֽשְׁבָה֙ בְּבֵיתֶ֔ךָ וּבָ֥כְתָ֛ה אֶת־אָבִ֥יהָ וְאֶת־אִמָּ֖הּ יֶ֣רַח יָמִ֑ים וְאַ֨חַר כֵּ֜ן תָּב֤וֹא אֵלֶ֙יהָ֙ וּבְעַלְתָּ֔הּ וְהָיְתָ֥ה לְךָ֖ לְאִשָּֽׁה׃",
+      "text_kjv": "And she shall put the raiment of her captivity from off her, and shall remain in thine house, and bewail her father and her mother a full month: and after that thou shalt go in unto her, and be her husband, and she shall be thy wife.",
+      "rendering": "She must remove the clothing of her captivity, live in your house, and mourn her father and mother for a full month. After that, you may go to her and become her husband, and she will be your wife.",
+      "translator_notes": [
+        "Removing the simlet shivyah ('clothing of captivity') marks another identity transition. The mandatory mourning period — uvekhta et aviha ve'et immah yerach yamim ('she shall weep for her father and mother a full month') — serves multiple functions: it honors her grief, grants her time to adjust, imposes a cooling-off period on the soldier, and prevents immediate sexual exploitation. The month-long delay transforms what could be wartime rape into a structured marriage with legal protections."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְהָיָ֞ה אִם־לֹ֧א חָפַ֣צְתָּ בָּ֗הּ וְשִׁלַּחְתָּהּ֙ לְנַפְשָׁ֔הּ וּמָכֹ֥ר לֹא־תִמְכְּרֶ֖נָּה בַּכָּ֑סֶף לֹא־תִתְעַמֵּ֣ר בָּ֔הּ תַּ֖חַת אֲשֶׁ֥ר עִנִּיתָֽהּ׃ {ס}",
+      "text_kjv": "And it shall be, if thou have no delight in her, then thou shalt let her go whither she will; but thou shalt not sell her at all for money, thou shalt not make merchandise of her, because thou hast humbled her.",
+      "rendering": "If you later find that you are not pleased with her, you must let her go wherever she wishes. You must not sell her for money. You must not treat her as property, because you have had intimate relations with her.",
+      "translator_notes": [
+        "The woman's protections upon divorce: she goes lenafshah ('on her own terms' — wherever she wants), cannot be sold (makhor lo timkerenah — absolutely cannot be sold), and cannot be treated as merchandise (lo tit'ammer bah — 'you shall not exploit her commercially'). The reason: tachat asher innitah ('because you humbled her') — the intimate relationship created obligations that survive the marriage's end. Once married, she has the rights of a free woman."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "כִּֽי־תִהְיֶ֨יןָ לְאִ֜ישׁ שְׁתֵּ֣י נָשִׁ֗ים הָאַחַ֤ת אֲהוּבָה֙ וְהָאַחַ֣ת שְׂנוּאָ֔ה וְיָֽלְדוּ־ל֣וֹ בָנִ֔ים הָאֲהוּבָ֖ה וְהַשְּׂנוּאָ֑ה וְהָיָ֛ה הַבֵּ֥ן הַבְּכֹ֖ר לַשְּׂנִיאָֽה׃",
+      "text_kjv": "If a man have two wives, one beloved, and another hated, and they have born him children, both the beloved and the hated; and if the firstborn son be hers that was hated:",
+      "rendering": "If a man has two wives, one loved and the other unloved, and both the loved and the unloved have borne him sons, but the firstborn belongs to the unloved wife,",
+      "translator_notes": [
+        "The scenario assumes polygamy (shtei nashim — 'two wives') and introduces a preference dynamic: ahuvah ('loved') versus senu'ah ('hated, unloved' — probably meaning 'less loved' rather than literal hatred, as with Leah in Genesis 29:31). The legal problem arises when the firstborn son is from the unloved wife and the father wants to favor the loved wife's son — precisely the scenario of Jacob, Rachel, Leah, and their sons."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְהָיָ֗ה בְּיוֹם֙ הַנְחִיל֣וֹ אֶת־בָּנָ֔יו אֵ֥ת אֲשֶׁר־יִהְיֶ֖ה ל֑וֹ לֹ֣א יוּכַ֗ל לְבַכֵּר֙ אֶת־בֶּן־הָ֣אֲהוּבָ֔ה עַל־פְּנֵ֥י בֶן־הַשְּׂנוּאָ֖ה הַבְּכֹֽר׃",
+      "text_kjv": "Then it shall be, when he maketh his sons to inherit that which he hath, that he may not make the son of the beloved firstborn before the son of the hated, which is indeed the firstborn:",
+      "rendering": "then on the day he distributes his property to his sons as inheritance, he may not give the rights of the firstborn to the son of the loved wife in place of the son of the unloved wife, who is actually the firstborn.",
+      "translator_notes": [
+        "The prohibition lo yukhal levakker ('he cannot give firstborn status') prevents a father from reassigning birth order based on marital preference. The verb bakker ('treat as firstborn, give firstborn status to') specifically prohibits the transfer of legal priority from the actual firstborn to a younger son. This law protects inheritance rights from the distortions of favoritism."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "כִּי֩ אֶת־הַבְּכֹ֨ר בֶּן־הַשְּׂנוּאָ֜ה יַכִּ֗יר לָ֤תֶת לוֹ֙ פִּ֣י שְׁנַ֔יִם בְּכֹ֥ל אֲשֶׁר־יִמָּצֵ֖א ל֑וֹ כִּי־הוּא֙ רֵאשִׁ֣ית אֹנ֔וֹ ל֖וֹ מִשְׁפַּ֥ט הַבְּכֹרָֽה׃ {ס}",
+      "text_kjv": "But he shall acknowledge the son of the hated for the firstborn, by giving him a double portion of all that he hath: for he is the beginning of his strength; the right of the firstborn is his.",
+      "rendering": "He must acknowledge the firstborn — the son of the unloved wife — by giving him a double portion of everything he owns, for that son is the first evidence of his vitality. The right of the firstborn belongs to him.",
+      "translator_notes": [
+        "The double portion (pi shnayim — literally 'a mouth of two,' meaning two shares) is the firstborn's inheritance right: if there are three sons, the estate is divided into four parts, and the firstborn receives two. The father must yakkir ('acknowledge, recognize') the true firstborn. The phrase reshit ono ('the beginning of his strength/virility') connects the firstborn to the father's reproductive power — the first son is the first proof of the father's generative capacity. The mishpat habbekhorah ('right of the firstborn') is a legal entitlement, not a parental gift."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "פִּי שְׁנַיִם",
+          "transliteration": "pi shnayim",
+          "rendered_as": "double portion",
+          "semantic_range": "mouth of two, double share, two-thirds portion",
+          "note": "Not double the entire estate but a double share relative to other sons. With two sons, the firstborn receives two-thirds; with three sons, two-fourths."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "כִּֽי־יִהְיֶ֣ה לְאִ֗ישׁ בֵּ֚ן סוֹרֵ֣ר וּמוֹרֶ֔ה אֵינֶ֣נּוּ שֹׁמֵ֔עַ בְּק֥וֹל אָבִ֖יו וּבְק֣וֹל אִמּ֑וֹ וְיִסְּר֣וּ אֹת֔וֹ וְלֹ֥א יִשְׁמַ֖ע אֲלֵיהֶֽם׃",
+      "text_kjv": "If a man have a stubborn and rebellious son, which will not obey the voice of his father, or the voice of his mother, and that, when they have chastened him, will not hearken unto them:",
+      "rendering": "If a man has a stubborn and rebellious son who does not obey his father or his mother, and even after they discipline him he still will not listen to them,",
+      "translator_notes": [
+        "The ben sorer umoreh ('stubborn and rebellious son') is described with two adjectives: sorer ('turning aside, stubborn') and moreh ('defiant, rebellious'). Three conditions limit the law: (1) both parents must agree — einennu shome'a beqol aviv uveqol immo ('he does not listen to the voice of his father or the voice of his mother'); (2) prior discipline has been attempted — veyisseru oto ('they disciplined him'); (3) the defiance persists — velo yishma aleihem ('he still does not listen to them'). Rabbinic tradition added so many conditions that this penalty was considered practically impossible to carry out."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "סוֹרֵר וּמוֹרֶה",
+          "transliteration": "sorer umoreh",
+          "rendered_as": "stubborn and rebellious",
+          "semantic_range": "turning aside and defiant, obstinate and disobedient",
+          "note": "A fixed legal phrase denoting persistent, incorrigible defiance of parental authority — not a single act but a pattern of behavior."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְתָ֥פְשׂוּ ב֖וֹ אָבִ֣יו וְאִמּ֑וֹ וְהוֹצִ֧יאוּ אֹת֛וֹ אֶל־זִקְנֵ֥י עִיר֖וֹ וְאֶל־שַׁ֥עַר מְקֹמֽוֹ׃",
+      "text_kjv": "Then shall his father and his mother lay hold on him, and bring him out unto the elders of his city, and unto the gate of his place;",
+      "rendering": "then his father and his mother must seize him and bring him out to the elders of his city, to the gate of his town.",
+      "translator_notes": [
+        "Both parents (aviv ve'immo) must act together — neither parent alone can initiate the proceedings. This requirement of mutual parental agreement serves as a safeguard against one parent's anger or prejudice. The city gate (sha'ar meqomo) is the traditional location for legal proceedings in ancient Israel, functioning as the public courthouse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאָמְר֞וּ אֶל־זִקְנֵ֣י עִיר֗וֹ בְּנֵ֤נוּ זֶה֙ סוֹרֵ֣ר וּמֹרֶ֔ה אֵינֶ֥נּוּ שֹׁמֵ֖עַ בְּקֹלֵ֑נוּ זוֹלֵ֖ל וְסֹבֵֽא׃",
+      "text_kjv": "And they shall say unto the elders of his city, This our son is stubborn and rebellious, he will not obey our voice; he is a glutton, and a drunkard.",
+      "rendering": "They must say to the elders of his city: 'This son of ours is stubborn and rebellious. He will not obey us. He is a glutton and a drunkard.'",
+      "translator_notes": [
+        "The parents make a formal legal accusation before the elders, adding two specific charges: zolel vesove ('glutton and drunkard'). These terms describe a lifestyle of self-indulgent excess that wastes family resources and shames the household. Proverbs 23:20-21 connects the zolel vesove with poverty and disgrace. The public accusation before elders ensures communal oversight — the parents' charge must be credible enough for community leaders to act."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וּ֠רְגָמֻ֠הוּ כׇּל־אַנְשֵׁ֨י עִיר֤וֹ בָֽאֲבָנִים֙ וָמֵ֔ת וּבִֽעַרְתָּ֥ הָרָ֖ע מִקִּרְבֶּ֑ךָ וְכׇל־יִשְׂרָאֵ֖ל יִשְׁמְע֥וּ וְיִרָֽאוּ׃ {ס}",
+      "text_kjv": "And all the men of his city shall stone him with stones, that he die: so shalt thou put evil away from among you; and all Israel shall hear, and fear.",
+      "rendering": "Then all the men of his city must stone him to death. So you will purge evil from your midst, and all Israel will hear about it and be afraid.",
+      "translator_notes": [
+        "The execution by communal stoning (urgemahu kol anshei iro — 'all the men of his city shall stone him') makes the punishment a communal act — no single person bears the weight of the killing. The double formula returns: ubi'arta hara ('purge evil') and vekhol Yisra'el yishme'u veyira'u ('all Israel will hear and fear'). The severity of the punishment for a rebellious son underscores how seriously Israelite law took family structure as the foundation of social order."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְכִֽי־יִהְיֶ֣ה בְאִ֗ישׁ חֵ֛טְא מִשְׁפַּט־מָ֖וֶת וְהוּמָ֑ת וְתָלִ֥יתָ אֹת֖וֹ עַל־עֵֽץ׃",
+      "text_kjv": "And if a man have committed a sin worthy of death, and he be to be put to death, and thou hang him on a tree:",
+      "rendering": "If a man has committed a sin deserving the death penalty and is put to death, and you hang his body on a tree,",
+      "translator_notes": [
+        "The law addresses post-execution display, not the method of execution. The man is first executed (humat — 'he is put to death') and then hung (vetalita oto al ets — 'you hang him on a tree/pole'). Public display of the executed criminal served as both deterrent and statement of communal judgment. The term ets ('tree, wood, pole') could refer to any wooden structure used for display."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "לֹא־תָלִ֨ין נִבְלָת֜וֹ עַל־הָעֵ֗ץ כִּֽי־קָב֤וֹר תִּקְבְּרֶ֙נּוּ֙ בַּיּ֣וֹם הַה֔וּא כִּֽי־קִלְלַ֥ת אֱלֹהִ֖ים תָּל֑וּי וְלֹ֤א תְטַמֵּא֙ אֶת־אַדְמָ֣תְךָ֔ אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ נַחֲלָֽה׃ {ס}",
+      "text_kjv": "His body shall not remain all night upon the tree, but thou shalt in any wise bury him that day; (for he that is hanged is accursed of God;) that thy land be not defiled, which the LORD thy God giveth thee for an inheritance.",
+      "rendering": "his body must not remain on the tree overnight. You must bury him that same day, for a hanged person is under God's curse, and you must not defile your land that the LORD your God is giving you as an inheritance.",
+      "translator_notes": [
+        "The prohibition against overnight exposure (lo talin nivlato — 'his corpse shall not remain overnight') limits the duration of public display. The theological reason is striking: ki qilelat Elohim talui ('for a curse of God is a hanged person') — the displayed body represents a divine curse, and prolonged display defiles the land. Paul applies this verse christologically in Galatians 3:13, identifying Jesus's crucifixion with the curse of the hanged. The land's sanctity requires prompt burial — even executed criminals retain enough dignity to demand interment."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קִלְלַת אֱלֹהִים",
+          "transliteration": "qilelat Elohim",
+          "rendered_as": "God's curse",
+          "semantic_range": "curse of God, divine curse, accursed by God",
+          "note": "The genitive 'of God' is ambiguous: it could mean 'cursed by God' or 'an affront to God.' Either way, prolonged display of a corpse contaminates the holy land."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

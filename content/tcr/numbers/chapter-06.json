@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Numbers",
+    "chapter": 6,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses, saying,",
+      "rendering": "The LORD spoke to Moses:",
+      "translator_notes": [
+        "The standard divine speech formula (vaydabber YHWH el-Mosheh) introduces a new block of legislation. This section (v1-21) governs the Nazirite vow, followed immediately by the priestly blessing (v22-27) — voluntary human consecration paired with divine benediction."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "דַּבֵּר֙ אֶל־בְּנֵ֣י יִשְׂרָאֵ֔ל וְאָמַרְתָּ֖ אֲלֵהֶ֑ם אִ֣ישׁ אֽוֹ־אִשָּׁ֗ה כִּ֤י יַפְלִא֙ לִנְדֹּר֙ נֶ֣דֶר נָזִ֔יר לְהַזִּ֖יר לַֽיהֹוָֽה׃",
+      "text_kjv": "Speak unto the children of Israel, and say unto them, When either man or woman shall separate themselves to vow a vow of a Nazarite, to separate themselves unto the LORD:",
+      "rendering": "\"Speak to the Israelites and tell them: When a man or woman makes a special vow — the vow of a Nazirite — to set themselves apart for the LORD,",
+      "translator_notes": [
+        "The verb yafli (from pala, 'to be extraordinary, wonderful') frames the Nazirite vow as something remarkable — not routine piety but an extraordinary act of devotion. Both men and women may take this vow, a notable inclusion. The root n-z-r ('to separate, consecrate') appears three times in this verse, emphasizing the total-separation concept."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָזִיר",
+          "transliteration": "nazir",
+          "rendered_as": "Nazirite",
+          "semantic_range": "consecrated one, separated one, dedicated one",
+          "note": "From the root n-z-r meaning 'to separate, dedicate.' A nazir is a layperson who voluntarily takes on restrictions normally associated with priests — abstaining from wine, avoiding corpse contamination, and letting the hair grow as a visible sign of consecration. The vow creates a temporary priestly holiness in an ordinary Israelite."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "מִיַּ֤יִן וְשֵׁכָר֙ יַזִּ֔יר חֹ֥מֶץ יַ֛יִן וְחֹ֥מֶץ שֵׁכָ֖ר לֹ֣א יִשְׁתֶּ֑ה וְכׇל־מִשְׁרַ֤ת עֲנָבִים֙ לֹ֣א יִשְׁתֶּ֔ה וַעֲנָבִ֛ים לַחִ֥ים וִיבֵשִׁ֖ים לֹ֥א יֹאכֵֽל׃",
+      "text_kjv": "He shall separate himself from wine and strong drink, and shall drink no vinegar of wine, or vinegar of strong drink, neither shall he drink any liquor of grapes, nor eat moist grapes, or dried.",
+      "rendering": "they must abstain from wine and fermented drink. They must not drink wine vinegar or vinegar made from fermented drink, nor drink any grape juice, nor eat grapes fresh or dried.",
+      "translator_notes": [
+        "The prohibition extends far beyond wine itself to anything derived from the grapevine — vinegar, juice, fresh grapes, raisins. The comprehensiveness is deliberate: the vine represents celebration and ordinary pleasure, and the Nazirite renounces the entire category. The verb yazzir (from n-z-r) governs the sentence — 'they must separate themselves from wine.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "כֹּ֖ל יְמֵ֣י נִזְר֑וֹ מִכֹּל֩ אֲשֶׁ֨ר יֵעָשֶׂ֜ה מִגֶּ֣פֶן הַיַּ֗יִן מֵחַרְצַנִּ֛ים וְעַד־זָ֖ג לֹ֥א יֹאכֵֽל׃",
+      "text_kjv": "All the days of his separation shall he eat nothing that is made of the vine tree, from the kernels even to the husk.",
+      "rendering": "For the entire period of their consecration, they must not eat anything produced from the grapevine, from seeds to skin.",
+      "translator_notes": [
+        "The phrase 'from seeds to skin' (mechartsannim ve'ad-zag) is a Hebrew merism — naming both extremes to include everything in between. Nothing from the vine, in any form, may enter the Nazirite's body. The comprehensiveness underscores that this is not a dietary preference but a total separation from the domain the vine represents."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כׇּל־יְמֵי֙ נֶ֣דֶר נִזְר֔וֹ תַּ֖עַר לֹא־יַעֲבֹ֣ר עַל־רֹאשׁ֑וֹ עַד־מְלֹ֨את הַיָּמִ֜ם אֲשֶׁר־יַזִּ֤יר לַיהֹוָה֙ קָדֹ֣שׁ יִהְיֶ֔ה גַּדֵּ֥ל פֶּ֖רַע שְׂעַ֥ר רֹאשֽׁוֹ׃",
+      "text_kjv": "All the days of the vow of his separation there shall no razor come upon his head: until the days be fulfilled, in the which he separateth himself unto the LORD, he shall be holy, and shall let the locks of the hair of his head grow.",
+      "rendering": "For the entire period of their Nazirite vow, no razor may pass over their head. Until the days of their consecration to the LORD are complete, they are holy — they must let the hair of their head grow long.",
+      "translator_notes": [
+        "The uncut hair is the visible sign of the vow — the Nazirite carries their consecration publicly. The text declares qadosh yihyeh ('they shall be holy') — a status otherwise reserved for priests and sacred objects. The growing hair functions as a kind of crown (nezer can mean both 'consecration' and 'crown'), marking the Nazirite as set apart in a way others can see."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קָדֹשׁ",
+          "transliteration": "qadosh",
+          "rendered_as": "holy",
+          "semantic_range": "holy, set apart, consecrated, sacred",
+          "note": "The Nazirite is declared qadosh — the same word used for God's own holiness (Lev 19:2) and for sacred space. A layperson achieving priestly-level holiness through voluntary vow is remarkable. The hair, the abstinence, and the corpse avoidance together create a zone of holiness around an ordinary person."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "כׇּל־יְמֵ֥י הַזִּיר֖וֹ לַיהֹוָ֑ה עַל־נֶ֥פֶשׁ מֵ֖ת לֹ֥א יָבֹֽא׃",
+      "text_kjv": "All the days that he separateth himself unto the LORD he shall come at no dead body.",
+      "rendering": "For the entire period of their consecration to the LORD, they must not go near a dead body.",
+      "translator_notes": [
+        "The Hebrew uses nephesh met ('dead person,' literally 'dead soul') — contact with death is the most serious source of ritual impurity in the Israelite system. This restriction parallels the high priest's rules in Leviticus 21:11. The Nazirite, though a layperson, takes on the highest priestly purity standard voluntarily."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "לְאָבִ֣יו וּלְאִמּ֗וֹ לְאָחִיו֙ וּלְאַ֣חֹת֔וֹ לֹא־יִטַּמָּ֥א לָהֶ֖ם בְּמֹתָ֑ם כִּ֛י נֵ֥זֶר אֱלֹהָ֖יו עַל־רֹאשֽׁוֹ׃",
+      "text_kjv": "He shall not make himself unclean for his father, or for his mother, for his brother, or for his sister, when they die: because the consecration of his God is upon his head.",
+      "rendering": "Even for a father or mother, brother or sister — they must not make themselves ritually impure when these relatives die, because the consecration of their God is upon their head.",
+      "translator_notes": [
+        "This exceeds even ordinary priestly obligations — regular priests may attend family funerals (Lev 21:1-3). Only the high priest shares this restriction (Lev 21:11). The phrase nezer Elohav al-rosho ('the consecration of his God is upon his head') treats the uncut hair as a sacred diadem. The vow outranks even the deepest family bonds — a stunning claim about the priority of voluntary holiness."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "כֹּ֖ל יְמֵ֣י נִזְר֑וֹ קָדֹ֥שׁ ה֖וּא לַֽיהֹוָֽה׃",
+      "text_kjv": "All the days of his separation he is holy unto the LORD.",
+      "rendering": "For the entire period of their consecration, they are holy to the LORD.",
+      "translator_notes": [
+        "A summary declaration — qadosh hu laYHWH ('holy, they are, to the LORD'). The brevity is emphatic. The Nazirite's holiness is not aspirational but actual during the vow period. This verse functions as the conclusion of the three prohibitions (wine, razor, corpse) — together they constitute what makes the person qadosh."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְכִֽי־יָמ֨וּת מֵ֤ת עָלָיו֙ בְּפֶ֣תַע פִּתְאֹ֔ם וְטִמֵּ֖א רֹ֣אשׁ נִזְר֑וֹ וְגִלַּ֤ח רֹאשׁוֹ֙ בְּי֣וֹם טׇהֳרָת֔וֹ בַּיּ֥וֹם הַשְּׁבִיעִ֖י יְגַלְּחֶֽנּוּ׃",
+      "text_kjv": "And if any man die very suddenly by him, and he hath defiled the head of his consecration; then he shall shave his head in the day of his cleansing, on the seventh day shall he shave it.",
+      "rendering": "If someone dies suddenly in their presence, defiling the head of their consecration, they must shave their head on the day of their purification — on the seventh day they must shave it.",
+      "translator_notes": [
+        "The text imagines an accidental breach — someone dies 'suddenly, in an instant' (befeta pitom) beside the Nazirite through no fault of their own. Even unintentional contamination defiles 'the head of their consecration' — the hair that symbolizes the vow. The seven-day purification period follows the standard corpse-contamination protocol of Numbers 19. The contaminated hair must be removed before the vow can restart."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וּבַיּ֣וֹם הַשְּׁמִינִ֗י יָבִא֙ שְׁתֵּ֣י תֹרִ֔ים א֥וֹ שְׁנֵ֖י בְּנֵ֣י יוֹנָ֑ה אֶ֨ל־הַכֹּהֵ֔ן אֶל־פֶּ֖תַח אֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "And on the eighth day he shall bring two turtles, or two young pigeons, to the priest, to the door of the tabernacle of the congregation:",
+      "rendering": "On the eighth day they must bring two turtledoves or two young pigeons to the priest at the entrance of the tent of meeting.",
+      "translator_notes": [
+        "Turtledoves (torim) and young pigeons (benei yonah) are the offering accessible to the poor — the same pair prescribed for purification after childbirth (Lev 12:8) and skin disease (Lev 14:22). The eighth day marks the transition from impurity back toward holiness, paralleling circumcision on the eighth day and the consecration of the altar (Lev 9:1)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְעָשָׂ֣ה הַכֹּהֵ֗ן אֶחָ֤ד לְחַטָּאת֙ וְאֶחָ֣ד לְעֹלָ֔ה וְכִפֶּ֣ר עָלָ֔יו מֵאֲשֶׁ֥ר חָטָ֖א עַל־הַנָּ֑פֶשׁ וְקִדַּ֥שׁ אֶת־רֹאשׁ֖וֹ בַּיּ֥וֹם הַהֽוּא׃",
+      "text_kjv": "And the priest shall offer the one for a sin offering, and the other for a burnt offering, and make an atonement for him, for that he sinned by the dead, and shall hallow his head that same day.",
+      "rendering": "The priest shall offer one as a purification offering and the other as a burnt offering, making atonement for them because they incurred guilt through the dead body. The priest shall reconsecrate their head that same day.",
+      "translator_notes": [
+        "Two offerings work together: the chata't (purification offering) cleanses the contamination; the olah (burnt offering) represents renewed total devotion. The verb kipper ('make atonement') appears here alongside the unusual phrase chata al-hannephesh — the Nazirite 'sinned against the person' (i.e., incurred guilt through contact with the corpse). The priest then 'reconsecrates' (qiddash) the head — the vow restarts from zero."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כִּפֶּר",
+          "transliteration": "kipper",
+          "rendered_as": "making atonement",
+          "semantic_range": "to cover, to make atonement, to purge, to ransom",
+          "note": "The kippur verb appears here in the context of restoring broken consecration. Atonement is not only for moral sin but for ritual contamination — the Nazirite did nothing morally wrong, yet the breach of holiness requires kipper to repair."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְהִזִּ֤יר לַֽיהֹוָה֙ אֶת־יְמֵ֣י נִזְר֔וֹ וְהֵבִ֛יא כֶּ֥בֶשׂ בֶּן־שְׁנָת֖וֹ לְאָשָׁ֑ם וְהַיָּמִ֤ים הָרִאשֹׁנִים֙ יִפְּל֔וּ כִּ֥י טָמֵ֖א נִזְרֽוֹ׃",
+      "text_kjv": "And he shall consecrate unto the LORD the days of his separation, and shall bring a lamb of the first year for a trespass offering: but the days that were before shall be lost, because his separation was defiled.",
+      "rendering": "They must rededicate to the LORD the days of their consecration and bring a year-old male lamb as a guilt offering. The previous days are voided, because their consecration was defiled.",
+      "translator_notes": [
+        "The asham (guilt offering) here addresses the trespass against holy status — the Nazirite's consecrated state was a sacred possession, and its contamination requires reparation. The harshest clause: all previous days of the vow 'fall away' (yippelu) — they count for nothing. The vow must be fulfilled in full from the beginning, no credit for time already served. Holiness does not accumulate partially."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אָשָׁם",
+          "transliteration": "asham",
+          "rendered_as": "guilt offering",
+          "semantic_range": "guilt, guilt offering, reparation offering, trespass offering",
+          "note": "The asham addresses trespass against sacred things. Here the sacred thing is the Nazirite's own consecrated status — it has been violated by corpse contact, and the violation requires both reparation (asham) and a fresh start."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְזֹ֥את תּוֹרַ֖ת הַנָּזִ֑יר בְּי֗וֹם מְלֹאת֙ יְמֵ֣י נִזְר֔וֹ יָבִ֣יא אֹת֔וֹ אֶל־פֶּ֖תַח אֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "And this is the law of the Nazarite, when the days of his separation are fulfilled: he shall be brought unto the door of the tabernacle of the congregation:",
+      "rendering": "This is the instruction for the Nazirite when the period of their consecration is complete: they shall be brought to the entrance of the tent of meeting.",
+      "translator_notes": [
+        "Torah here means 'instruction, law, procedure' — the technical regulations for completing the vow. The passive 'shall be brought' (yavi oto) suggests the Nazirite is presented formally, almost like a sacrificial offering being brought before the LORD. The entrance of the tent of meeting is the threshold between ordinary and sacred space."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְהִקְרִ֣יב אֶת־קׇרְבָּנ֣וֹ לַיהֹוָ֡ה כֶּ֩בֶשׂ֩ בֶּן־שְׁנָת֨וֹ תָמִ֤ים אֶחָד֙ לְעֹלָ֔ה וְכַבְשָׂ֨ה אַחַ֧ת בַּת־שְׁנָתָ֛הּ תְּמִימָ֖ה לְחַטָּ֑את וְאַֽיִל־אֶחָ֥ד תָּמִ֖ים לִשְׁלָמִֽים׃",
+      "text_kjv": "And he shall offer his offering unto the LORD, one he lamb of the first year without blemish for a burnt offering, and one ewe lamb of the first year without blemish for a sin offering, and one ram without blemish for peace offerings,",
+      "rendering": "They shall present their offering to the LORD: one unblemished year-old male lamb as a burnt offering, one unblemished year-old ewe lamb as a purification offering, and one unblemished ram as a peace offering,",
+      "translator_notes": [
+        "Three of the five Levitical offering types appear together: olah (burnt offering — total devotion), chata't (purification offering — cleansing), and shelamim (peace offering — communion meal). The Nazirite's completion ceremony recapitulates the entire sacrificial system in miniature. All three animals must be tamim ('unblemished, whole, complete') — the physical wholeness of the animal mirrors the completeness of the vow."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְסַ֣ל מַצּ֗וֹת סֹ֤לֶת חַלֹּת֙ בְּלוּלֹ֣ת בַּשֶּׁ֔מֶן וּרְקִיקֵ֥י מַצּ֖וֹת מְשֻׁחִ֣ים בַּשָּׁ֑מֶן וּמִנְחָתָ֖ם וְנִסְכֵּיהֶֽם׃",
+      "text_kjv": "And a basket of unleavened bread, cakes of fine flour mingled with oil, and wafers of unleavened bread anointed with oil, and their meat offering, and their drink offerings.",
+      "rendering": "along with a basket of unleavened bread — loaves of fine flour mixed with oil and unleavened wafers spread with oil — together with their grain offerings and drink offerings.",
+      "translator_notes": [
+        "The unleavened bread (matzot) echoes the Passover and exodus. The grain offering (minchah) and drink offerings (nesakhim) accompany the animal sacrifices. The KJV's 'meat offering' for minchah is misleading — minchah is specifically the grain offering, never meat. The elaborate provision — three animals, bread, grain, wine — shows that completing a Nazirite vow was a significant and costly act of worship."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְהִקְרִ֥יב הַכֹּהֵ֖ן לִפְנֵ֣י יְהֹוָ֑ה וְעָשָׂ֥ה אֶת־חַטָּאת֖וֹ וְאֶת־עֹלָתֽוֹ׃",
+      "text_kjv": "And the priest shall bring them before the LORD, and shall offer his sin offering, and his burnt offering:",
+      "rendering": "The priest shall present them before the LORD and offer the purification offering and the burnt offering.",
+      "translator_notes": [
+        "The order matters: purification (chata't) before burnt offering (olah). Cleansing precedes devotion — the sanctuary must be purified before the worshipper can offer total surrender. This sequence appears throughout Leviticus and Numbers whenever both offerings are prescribed together."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְאֶת־הָאַ֜יִל יַעֲשֶׂ֨ה זֶ֤בַח שְׁלָמִים֙ לַֽיהֹוָ֔ה עַ֖ל סַ֣ל הַמַּצּ֑וֹת וְעָשָׂה֙ הַכֹּהֵ֔ן אֶת־מִנְחָת֖וֹ וְאֶת־נִסְכּֽוֹ׃",
+      "text_kjv": "And he shall offer the ram for a sacrifice of peace offerings unto the LORD, with the basket of unleavened bread: the priest shall offer also his meat offering, and his drink offering.",
+      "rendering": "The ram he shall offer as a sacrifice of peace offerings to the LORD, along with the basket of unleavened bread. The priest shall also present the grain offering and the drink offering.",
+      "translator_notes": [
+        "The shelamim (peace offering) is the culminating sacrifice — the one the worshipper shares in as a meal. From the root shalom, this offering celebrates restored relationship. The Nazirite, having completed the vow, sits down to eat with God. The unleavened bread basket accompanies the fellowship meal, making this a communal feast of completion."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שְׁלָמִים",
+          "transliteration": "shelamim",
+          "rendered_as": "peace offerings",
+          "semantic_range": "peace offering, fellowship offering, well-being offering, communion sacrifice",
+          "note": "From the root shalom. The shelamim is unique among the five offerings because the worshipper eats a portion — it is a shared meal between God, priest, and offerer. Here it marks the joyful conclusion of the Nazirite's period of consecration."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְגִלַּ֣ח הַנָּזִ֗יר פֶּ֛תַח אֹ֥הֶל מוֹעֵ֖ד אֶת־רֹ֣אשׁ נִזְר֑וֹ וְלָקַ֗ח אֶת־שְׂעַר֙ רֹ֣אשׁ נִזְר֔וֹ וְנָתַן֙ עַל־הָאֵ֔שׁ אֲשֶׁר־תַּ֖חַת זֶ֥בַח הַשְּׁלָמִֽים׃",
+      "text_kjv": "And the Nazarite shall shave the head of his separation at the door of the tabernacle of the congregation, and shall take the hair of the head of his separation, and put it in the fire which is under the sacrifice of the peace offerings.",
+      "rendering": "The Nazirite shall shave the consecrated head at the entrance of the tent of meeting, take the hair of their consecrated head, and place it on the fire beneath the peace offering sacrifice.",
+      "translator_notes": [
+        "The hair — which has been qadosh throughout the vow — is placed in the fire of the shelamim, effectively making it part of the offering to God. The hair is not merely cut and discarded but ritually consumed. It carried the holiness of the vow, and that holiness is returned to God through fire. The location at the tent entrance ensures this is a public, liturgical act, not a private grooming."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְלָקַ֨ח הַכֹּהֵ֜ן אֶת־הַזְּרֹ֣עַ בְּשֵׁלָה֮ מִן־הָאַ֒יִל֒ וְֽחַלַּ֨ת מַצָּ֤ה אַחַת֙ מִן־הַסַּ֔ל וּרְקִ֥יק מַצָּ֖ה אֶחָ֑ד וְנָתַן֙ עַל־כַּפֵּ֣י הַנָּזִ֔יר אַחַ֖ר הִֽתְגַּלְּח֥וֹ אֶת־נִזְרֽוֹ׃",
+      "text_kjv": "And the priest shall take the sodden shoulder of the ram, and one unleavened cake out of the basket, and one unleavened wafer, and shall put them upon the hands of the Nazarite, after the hair of his separation is shaven:",
+      "rendering": "The priest shall take the boiled shoulder from the ram, one unleavened loaf from the basket, and one unleavened wafer, and place them on the palms of the Nazirite after they have shaved the head of their consecration.",
+      "translator_notes": [
+        "The Hebrew beshelah means 'boiled, cooked' (not 'sodden' in the modern sense of 'soggy'). The shoulder (zeroa) placed in the Nazirite's hands is a ritually significant portion. The items placed on the palms — shoulder, loaf, wafer — are about to be waved before the LORD, making the Nazirite an active participant in the offering rather than a passive observer."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְהֵנִיף֩ אוֹתָ֨ם הַכֹּהֵ֥ן ׀ תְּנוּפָה֮ לִפְנֵ֣י יְהֹוָה֒ קֹ֤דֶשׁ הוּא֙ לַכֹּהֵ֔ן עַ֚ל חֲזֵ֣ה הַתְּנוּפָ֔ה וְעַ֖ל שׁ֣וֹק הַתְּרוּמָ֑ה וְאַחַ֛ר יִשְׁתֶּ֥ה הַנָּזִ֖יר יָֽיִן׃",
+      "text_kjv": "And the priest shall wave them for a wave offering before the LORD: this is holy for the priest, with the wave breast and heave shoulder: and after that the Nazarite may drink wine.",
+      "rendering": "The priest shall elevate them as a wave offering before the LORD. These are holy portions belonging to the priest, along with the breast of the wave offering and the thigh of the contribution. After this, the Nazirite may drink wine.",
+      "translator_notes": [
+        "The final clause — 'after this, the Nazirite may drink wine' — marks the formal end of the vow with striking simplicity. The very thing that was prohibited first (v3) is now permitted again. The wave offering (tenufah) involves a ritual lifting or swinging motion before the LORD, presenting the food to God before the priest receives it. The breast and thigh are the priest's standard portions from peace offerings (Lev 7:31-34)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "זֹ֣את תּוֹרַ֣ת הַנָּזִיר֮ אֲשֶׁ֣ר יִדֹּר֒ קׇרְבָּנ֤וֹ לַֽיהֹוָה֙ עַל־נִזְר֔וֹ מִלְּבַ֖ד אֲשֶׁר־תַּשִּׂ֣יג יָד֑וֹ כְּפִ֤י נִדְרוֹ֙ אֲשֶׁ֣ר יִדֹּ֔ר כֵּ֣ן יַעֲשֶׂ֔ה עַ֖ל תּוֹרַ֥ת נִזְרֽוֹ׃",
+      "text_kjv": "This is the law of the Nazarite who hath vowed, and of his offering unto the LORD for his separation, beside that that his hand shall get: according to the vow which he vowed, so he must do after the law of his separation.",
+      "rendering": "This is the instruction for the Nazirite who has vowed — their offering to the LORD for their consecration, apart from whatever else they can afford. According to the vow they have made, so they must do, following the instruction for their consecration.\"",
+      "translator_notes": [
+        "The phrase 'apart from whatever else their hand can reach' (millevad asher-tassig yado) acknowledges economic variability — the prescribed offerings are the minimum, and wealthier Nazirites may add more. The closing formula ('according to their vow, so they must do') treats the vow with absolute seriousness. What is promised to God must be fulfilled exactly. The Nazirite laws end here; verses 22-27 shift to an entirely different subject — the priestly blessing."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses, saying,",
+      "rendering": "The LORD spoke to Moses:",
+      "translator_notes": [
+        "A new divine speech formula introduces the priestly blessing (v23-27). The juxtaposition with the Nazirite vow is deliberate: after describing how an individual Israelite can voluntarily become holy, the text prescribes how God's blessing descends on the entire community through priestly mediation. Individual consecration and communal benediction side by side."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "דַּבֵּ֤ר אֶֽל־אַהֲרֹן֙ וְאֶל־בָּנָ֣יו לֵאמֹ֔ר כֹּ֥ה תְבָרְכ֖וּ אֶת־בְּנֵ֣י יִשְׂרָאֵ֑ל אָמ֖וֹר לָהֶֽם׃",
+      "text_kjv": "Speak unto Aaron and unto his sons, saying, On this wise ye shall bless the children of Israel, saying unto them,",
+      "rendering": "\"Speak to Aaron and his sons and tell them: This is how you shall bless the Israelites. Say to them:",
+      "translator_notes": [
+        "God prescribes the exact words — koh tevarekhu ('thus you shall bless'). The priests do not compose their own blessings; they speak God's words. The verb amar ('say') in the infinitive absolute (amor) indicates the precise, formal pronunciation required. The blessing is not a wish or a prayer but a divinely authorized declaration spoken by priestly authority."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "יְבָרֶכְךָ֥ יְהֹוָ֖ה וְיִשְׁמְרֶֽךָ׃",
+      "text_kjv": "The LORD bless thee, and keep thee:",
+      "rendering": "May the LORD bless you and guard you.",
+      "translator_notes": [
+        "The first line of the three-line priestly blessing. The Hebrew is three words: yevarekekha YHWH veyishmerekha. The verbs are jussive — expressing a wish or command that carries divine authority. 'Bless' (barakh) encompasses all forms of flourishing — life, provision, fertility, favor. 'Guard' (shamar) implies watchful protection, the same verb used for tending the garden in Genesis 2:15. The blessing begins with God's active care."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יְבָרֶכְךָ",
+          "transliteration": "yevarekekha",
+          "rendered_as": "bless you",
+          "semantic_range": "bless, bestow goodness upon, cause to flourish",
+          "note": "The root b-r-k carries the sense of bestowing life-giving power. In the priestly blessing, God is both the source and the agent of blessing — the priests speak it, but God performs it (v27: 'I will bless them')."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "יָאֵ֨ר יְהֹוָ֧ה ׀ פָּנָ֛יו אֵלֶ֖יךָ וִֽיחֻנֶּֽךָּ׃",
+      "text_kjv": "The LORD make his face shine upon thee, and be gracious unto thee:",
+      "rendering": "May the LORD make His face shine upon you and show you grace.",
+      "translator_notes": [
+        "The second line adds two words to the pattern (five Hebrew words vs. three in v24). 'Make His face shine' (ya'er panav) — a turned, radiant face means favorable attention, as opposed to a hidden or averted face which means rejection or absence. The metaphor is relational: God's 'face' directed toward you means God is personally engaged with you. Vichunneka ('show you grace/be gracious') — from chen, unmerited favor. Grace here is God's disposition to give beyond what is deserved."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "פָּנָיו",
+          "transliteration": "panav",
+          "rendered_as": "His face",
+          "semantic_range": "face, presence, countenance, front",
+          "note": "Panim (face/presence) is one of the most theologically loaded words in the Hebrew Bible. God's 'face' directed toward a person means God's personal, favorable attention. A shining face (or in v26, a 'lifted' face) is the opposite of a hidden face — which throughout the Psalms and Prophets represents divine absence and judgment."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "יִשָּׂ֨א יְהֹוָ֤ה ׀ פָּנָיו֙ אֵלֶ֔יךָ וְיָשֵׂ֥ם לְךָ֖ שָׁלֽוֹם׃",
+      "text_kjv": "The LORD lift up his countenance upon thee, and give thee peace.",
+      "rendering": "May the LORD lift up His face toward you and grant you peace.",
+      "expanded_rendering": "Shalom — the final and fullest word of the priestly blessing — means far more than the absence of conflict. It is wholeness, completeness, well-being in every dimension: physical health, relational harmony, material sufficiency, spiritual flourishing, and the deep security that comes from knowing God's face is turned toward you. The three lines of the blessing ascend: from protection (v24), to illuminating presence (v25), to the comprehensive well-being that only God's sustained attention can provide. Shalom is the culmination — what life looks like when God is near and attentive.",
+      "translator_notes": [
+        "The third line is the longest — seven Hebrew words, completing the ascending pattern: 3-5-7. 'Lift up His face toward you' (yissa YHWH panav elekha) — a judge who 'lifts the face' of a petitioner looks at them with favor rather than dismissing them. The blessing asks God to regard Israel with the attentive gaze of a favorable judge, a loving parent, a protector. The final word is shalom — the theological summit of the entire blessing. The three-line structure builds: blessing → favor → peace. Each line is longer, weightier, and more comprehensive than the last."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, completeness, well-being, prosperity, harmony, soundness",
+          "note": "From the root sh-l-m meaning 'to be whole, complete.' Shalom is not merely the absence of war — it is the presence of everything needed for human flourishing. As the final word of the priestly blessing, it represents the fullest possible expression of divine favor. The shelamim (peace offering) in v17 comes from the same root — the connection between sacrificial communion and comprehensive well-being is linguistic and theological."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְשָׂמ֥וּ אֶת־שְׁמִ֖י עַל־בְּנֵ֣י יִשְׂרָאֵ֑ל וַאֲנִ֖י אֲבָרְכֵֽם׃",
+      "text_kjv": "And they shall put my name upon the children of Israel; and I will bless them.",
+      "rendering": "So they shall place My name upon the Israelites, and I Myself will bless them.\"",
+      "translator_notes": [
+        "The chapter's final verse reveals the mechanics of the blessing: the priests 'place' (samu) God's name on Israel. The name functions as a seal of ownership and protection — to bear God's name is to belong to God. The emphatic final pronoun — va'ani avarekhem, 'and I, I will bless them' — makes clear that the priests are the instruments but God is the source. The priestly blessing is not priestly power; it is divinely authorized speech that God Himself ratifies and enacts."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

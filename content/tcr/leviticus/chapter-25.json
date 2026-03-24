@@ -1,0 +1,623 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Leviticus",
+    "chapter": 25,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְדַבֵּ֤ר יְהֹוָה֙ אֶל־מֹשֶׁ֔ה בְּהַ֥ר סִינַ֖י לֵאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses in mount Sinai, saying,",
+      "rendering": "The LORD spoke to Moses on Mount Sinai, saying:",
+      "translator_notes": [
+        "The specific location 'on Mount Sinai' (behar sinai) is significant — most Levitical laws are introduced without specifying the location. The explicit Sinai setting anchors the land-sabbath and Jubilee legislation in the same covenant-making context as the Ten Commandments and the Book of the Covenant. This is not secondary legislation but foundational covenantal instruction about the land itself."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "דַּבֵּ֞ר אֶל־בְּנֵ֤י יִשְׂרָאֵל֙ וְאָמַרְתָּ֣ אֲלֵהֶ֔ם כִּ֤י תָבֹ֙אוּ֙ אֶל־הָאָ֔רֶץ אֲשֶׁ֥ר אֲנִ֖י נֹתֵ֣ן לָכֶ֑ם וְשָׁבְתָ֣ה הָאָ֔רֶץ שַׁבָּ֖ת לַיהֹוָֽה׃",
+      "text_kjv": "Speak unto the children of Israel, and say unto them, When ye come into the land which I give you, then shall the land keep a sabbath unto the LORD.",
+      "rendering": "Speak to the children of Israel and say to them: When you enter the land that I am giving you, the land itself shall observe a sabbath rest to the LORD.",
+      "translator_notes": [
+        "The phrase veshavetah ha'arets shabbat laYHWH ('the land shall keep a sabbath to the LORD') applies sabbath language — previously reserved for human rest (Exodus 20:8-11) — directly to the land itself. The land is personified as a sabbath-keeper. The verb form is feminine singular (shavetah) matching the feminine noun erets (land), treating the land as the subject who rests. This is not merely a human decision to stop farming — the land is granted its own sabbath by God."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "שֵׁ֤שׁ שָׁנִים֙ תִּזְרַ֣ע שָׂדֶ֔ךָ וְשֵׁ֥שׁ שָׁנִ֖ים תִּזְמֹ֣ר כַּרְמֶ֑ךָ וְאָסַפְתָּ֖ אֶת־תְּבוּאָתָֽהּ׃",
+      "text_kjv": "Six years thou shalt sow thy field, and six years thou shalt prune thy vineyard, and gather in the fruit thereof;",
+      "rendering": "For six years you shall sow your field, and for six years you shall prune your vineyard and gather its produce.",
+      "translator_notes": [
+        "The six-year work cycle mirrors the six days of labor before the weekly sabbath (Exodus 20:9). Two types of agriculture are named: grain farming (tizra sadekha — 'sow your field') and viticulture (tizmor karmekha — 'prune your vineyard'). Together they represent the full scope of Israelite agriculture."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וּבַשָּׁנָ֣ה הַשְּׁבִיעִ֗ת שַׁבַּ֤ת שַׁבָּתוֹן֙ יִהְיֶ֣ה לָאָ֔רֶץ שַׁבָּ֖ת לַיהֹוָ֑ה שָֽׂדְךָ֙ לֹ֣א תִזְרָ֔ע וְכַרְמְךָ֖ לֹ֥א תִזְמֹֽר׃",
+      "text_kjv": "But in the seventh year shall be a sabbath of rest unto the land, a sabbath for the LORD: thou shalt neither sow thy field, nor prune thy vineyard.",
+      "rendering": "But in the seventh year there shall be a sabbath of complete rest for the land — a sabbath to the LORD. You shall not sow your field or prune your vineyard.",
+      "translator_notes": [
+        "The superlative phrase shabbat shabbaton ('sabbath of complete rest') uses the intensified form — the same phrase applied to Yom Kippur (23:32) and the weekly sabbath (Exodus 31:15). The land receives the same quality of rest that God commands for His people and His holiest day. The prohibitions are specific: no sowing (grain agriculture) and no pruning (vineyard management). The land rests from human cultivation."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שַׁבָּתוֹן",
+          "transliteration": "shabbaton",
+          "rendered_as": "complete rest",
+          "semantic_range": "sabbath rest, solemn rest, cessation, sabbatical",
+          "note": "Shabbaton is the intensified form of shabbat, indicating a particularly complete or sacred cessation of work. Applied to the land, it means the land itself enters a state of sacred rest — not merely that humans stop working it, but that the land's own cycle of production is paused in honor of God's ownership."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "אֵ֣ת סְפִ֤יחַ קְצִֽירְךָ֙ לֹ֣א תִקְצ֔וֹר וְאֶת־עִנְּבֵ֥י נְזִירֶ֖ךָ לֹ֣א תִבְצֹ֑ר שְׁנַ֥ת שַׁבָּת֖וֹן יִהְיֶ֥ה לָאָֽרֶץ׃",
+      "text_kjv": "That which groweth of its own accord of thy harvest thou shalt not reap, neither gather the grapes of thy vine undressed: for it is a year of rest unto the land.",
+      "rendering": "You shall not harvest what grows on its own from your previous crop, and you shall not gather the grapes of your untended vine. It shall be a year of complete rest for the land.",
+      "translator_notes": [
+        "The sefiach ('aftergrowth, volunteer crop') is grain that sprouts from fallen seeds of the previous harvest without intentional planting. The nezirekha ('your untended vine' — literally 'your nazir-vine,' a vine that has not been pruned) produces grapes without human intervention. Even these unplanned yields are not to be harvested commercially. The point is not that the produce goes to waste — verse 6 clarifies it may be eaten — but that organized agricultural commerce ceases entirely."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְ֠הָיְתָ֠ה שַׁבַּ֨ת הָאָ֤רֶץ לָכֶם֙ לְאׇכְלָ֔ה לְךָ֖ וּלְעַבְדְּךָ֣ וְלַאֲמָתֶ֑ךָ וְלִשְׂכִֽירְךָ֙ וּלְתוֹשָׁ֣בְךָ֔ הַגָּרִ֖ים עִמָּֽךְ׃",
+      "text_kjv": "And the sabbath of the land shall be meat for you; for thee, and for thy servant, and for thy maid, and for thy hired servant, and for thy stranger that sojourneth with thee,",
+      "rendering": "The sabbath produce of the land shall serve as food for you — for you, for your male and female servants, for your hired workers, and for the resident foreigners who live among you.",
+      "translator_notes": [
+        "The sabbatical year's produce is available to everyone equally: the landowner (lekha), servants (avdekha va'amatekha), hired laborers (sekhirekha), and resident foreigners (toshavekha haggarim immakh). During the sabbath year, the social distinctions between these groups dissolve regarding access to the land's produce. The food is not owned by the landowner but belongs to all. This is a radical leveling of economic hierarchy."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְלִ֨בְהֶמְתְּךָ֔ וְלַֽחַיָּ֖ה אֲשֶׁ֣ר בְּאַרְצֶ֑ךָ תִּהְיֶ֥ה כׇל־תְּבוּאָתָ֖הּ לֶאֱכֹֽל׃",
+      "text_kjv": "And for thy cattle, and for the beast that are in thy land, shall all the increase thereof be meat.",
+      "rendering": "And for your livestock and for the wild animals in your land — all its produce shall be available for food.",
+      "translator_notes": [
+        "The sabbatical provision extends beyond human society to livestock (behemah — domestic animals) and even wild animals (chayyah — wildlife). All creatures share equally in the land's rest. The section marker (samekh) closes the sabbatical year legislation. What follows (vv 8-55) is the Jubilee — a sabbath of sabbaths."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְסָפַרְתָּ֣ לְךָ֗ שֶׁ֚בַע שַׁבְּתֹ֣ת שָׁנִ֔ים שֶׁ֥בַע שָׁנִ֖ים שֶׁ֣בַע פְּעָמִ֑ים וְהָי֣וּ לְךָ֗ יְמֵי֙ שֶׁ֚בַע שַׁבְּתֹ֣ת הַשָּׁנִ֔ים תֵּ֥שַׁע וְאַרְבָּעִ֖ים שָׁנָֽה׃",
+      "text_kjv": "And thou shalt number seven sabbaths of years unto thee, seven times seven years; and the space of the seven sabbaths of years shall be unto thee forty and nine years.",
+      "rendering": "You shall count seven sabbaths of years — seven times seven years — so that the period of seven sabbaths of years comes to forty-nine years.",
+      "translator_notes": [
+        "The Jubilee cycle is built on the sabbatical structure: seven cycles of seven years, totaling forty-nine years. The repetition of 'seven' (sheva) three times — seven sabbaths of years, seven years, seven times — emphasizes the completeness and sacred geometry of the cycle. Just as the seventh day is holy within the week, and the seventh year is holy within the agricultural cycle, the fiftieth year (following the seventh-seventh) is supremely holy."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְהַֽעֲבַרְתָּ֞ שׁוֹפַ֤ר תְּרוּעָה֙ בַּחֹ֣דֶשׁ הַשְּׁבִעִ֔י בֶּעָשׂ֖וֹר לַחֹ֑דֶשׁ בְּיוֹם֙ הַכִּפֻּרִ֔ים תַּעֲבִ֥ירוּ שׁוֹפָ֖ר בְּכׇל־אַרְצְכֶֽם׃",
+      "text_kjv": "Then shalt thou cause the trumpet of the jubile to sound on the tenth day of the seventh month, in the day of atonement shall ye make the trumpet sound throughout all your land.",
+      "rendering": "Then you shall sound the ram's horn with a loud blast on the tenth day of the seventh month — on the Day of Atonement you shall sound the ram's horn throughout your entire land.",
+      "translator_notes": [
+        "The Jubilee begins not on New Year's Day but on Yom Kippur — the Day of Atonement (yom hakkippurim). The convergence of Jubilee and Atonement is theologically deliberate: the year of liberation and restoration begins on the day when the entire nation's sins are atoned for. Forgiveness of debt begins with forgiveness of sin. The shofar teru'ah ('ram's horn of loud blasting') is the same instrument used at Sinai (Exodus 19:16) and in warfare — it signals a decisive divine intervention."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כִּפֻּרִים",
+          "transliteration": "kippurim",
+          "rendered_as": "Atonement",
+          "semantic_range": "atonement, covering, expiation, reconciliation",
+          "note": "The Jubilee's link to Yom Kippur (the Day of Atonement) is not incidental. The kippur of chapter 16 addresses the ritual contamination that separates Israel from God. The Jubilee addresses the economic and social deformations that separate Israelites from one another. Both are acts of restoration — one restoring the community to God, the other restoring the community to itself."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְקִדַּשְׁתֶּ֗ם אֵ֣ת שְׁנַ֤ת הַחֲמִשִּׁים֙ שָׁנָ֔ה וּקְרָאתֶ֥ם דְּר֛וֹר בָּאָ֖רֶץ לְכׇל־יֹשְׁבֶ֑יהָ יוֹבֵ֥ל הִוא֙ תִּהְיֶ֣ה לָכֶ֔ם וְשַׁבְתֶּ֗ם אִ֚ישׁ אֶל־אֲחֻזָּת֔וֹ וְאִ֥ישׁ אֶל־מִשְׁפַּחְתּ֖וֹ תָּשֻֽׁבוּ׃",
+      "text_kjv": "And ye shall hallow the fiftieth year, and proclaim liberty throughout all the land unto all the inhabitants thereof: it shall be a jubile unto you; and ye shall return every man unto his possession, and ye shall return every man unto his family.",
+      "rendering": "You shall consecrate the fiftieth year and proclaim release throughout the land to all its inhabitants. It shall be a Jubilee for you: each of you shall return to his own property, and each of you shall return to his own family.",
+      "expanded_rendering": "The Hebrew deror ('release, liberty') is a term from ancient Near Eastern royal decrees in which a new king would cancel debts and free enslaved persons as an act of sovereign grace. When God commands Israel to proclaim deror, He positions Himself as the true King of the land, exercising royal prerogative to reset economic relationships and restore every family to its original inheritance. The Jubilee is not merely an economic policy — it is a declaration that God's sovereignty overrides all human claims of permanent ownership over land or persons.",
+      "translator_notes": [
+        "Three actions define the Jubilee: (1) consecration (vekiddashtem — the fiftieth year is set apart as holy), (2) proclamation of deror ('release' — a comprehensive cancellation of debts, land transfers, and servitude), and (3) return (veshavtem — everyone goes back to their ancestral property and family). The verb tashuvu ('you shall return') echoes the root sh-u-v, which also carries the theological weight of repentance and restoration.",
+        "This verse is inscribed on the American Liberty Bell: 'Proclaim liberty throughout all the land unto all the inhabitants thereof.' The English word 'jubilee' derives from the Hebrew yovel through the Latin jubilaeus."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יוֹבֵל",
+          "transliteration": "yovel",
+          "rendered_as": "Jubilee",
+          "semantic_range": "ram, ram's horn, jubilee year, release",
+          "note": "The yovel may originally mean 'ram' (hence 'ram's horn'), with the Jubilee year named for the horn blast that announces it (v 9). The Jubilee is the most radical economic institution in the Hebrew Bible: every fifty years, all land reverts to its original family allocation, all Israelite debt-servants are freed, and the economic playing field is reset. It prevents the permanent accumulation of land and wealth by any one family at the expense of others."
+        },
+        {
+          "hebrew": "דְּרוֹר",
+          "transliteration": "deror",
+          "rendered_as": "release",
+          "semantic_range": "liberty, release, freedom, manumission",
+          "note": "Deror is a royal proclamation term with parallels in Akkadian (andurarum — a royal edict of debt cancellation). When God commands Israel to proclaim deror, He exercises the prerogative of a sovereign king who has the authority to override economic arrangements. Isaiah 61:1 uses this same word: 'to proclaim deror to the captives' — the prophetic hope of a future, ultimate Jubilee."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "יוֹבֵ֣ל הִ֗וא שְׁנַ֛ת הַחֲמִשִּׁ֥ים שָׁנָ֖ה תִּהְיֶ֣ה לָכֶ֑ם לֹ֣א תִזְרָ֔עוּ וְלֹ֤א תִקְצְרוּ֙ אֶת־סְפִיחֶ֔יהָ וְלֹ֥א תִבְצְר֖וּ אֶת־נְזִרֶֽיהָ׃",
+      "text_kjv": "A jubile shall that fiftieth year be unto you: ye shall not sow, neither reap that which groweth of itself in it, nor gather the grapes in it of thy vine undressed.",
+      "rendering": "That fiftieth year shall be a Jubilee for you. You shall not sow, and you shall not harvest what grows on its own, and you shall not gather the grapes of the untended vines.",
+      "translator_notes": [
+        "The Jubilee year has the same agricultural restrictions as the sabbatical year (vv 4-5). If the Jubilee falls in the year after a sabbatical year, this would mean two consecutive years without sowing — a severe test of trust in God's provision (addressed in vv 20-22)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "כִּ֚י יוֹבֵ֣ל הִ֔וא קֹ֖דֶשׁ תִּהְיֶ֣ה לָכֶ֑ם מִ֨ן־הַשָּׂדֶ֔ה תֹּאכְל֖וּ אֶת־תְּבוּאָתָֽהּ׃",
+      "text_kjv": "For it is the jubile; it shall be holy unto you: ye shall eat the increase thereof out of the field.",
+      "rendering": "For it is the Jubilee — it shall be holy to you. You may eat its produce directly from the field.",
+      "translator_notes": [
+        "The Jubilee is declared qodesh ('holy' — set apart for God). The provision min hasadeh ('from the field') means the produce may be consumed directly where it grows, without commercial harvesting and storage. This equalizes access — during the Jubilee, no one can monopolize the land's output."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "בִּשְׁנַ֥ת הַיּוֹבֵ֖ל הַזֹּ֑את תָּשֻׁ֕בוּ אִ֖ישׁ אֶל־אֲחֻזָּתֽוֹ׃",
+      "text_kjv": "In the year of this jubile ye shall return every man unto his possession.",
+      "rendering": "In this Jubilee year, each person shall return to his own property.",
+      "translator_notes": [
+        "The verb tashuvu ('you shall return') is emphatic — this is a command, not a suggestion. The achuzzah ('property, possession, inheritance') refers to the tribal land allocation from Joshua's time. The Jubilee principle is that the original divine distribution of land to the tribes and families cannot be permanently overridden by economic transactions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְכִֽי־תִמְכְּר֤וּ מִמְכָּר֙ לַעֲמִיתֶ֔ךָ א֥וֹ קָנֹ֖ה מִיַּ֣ד עֲמִיתֶ֑ךָ אַל־תּוֹנ֖וּ אִ֥ישׁ אֶת־אָחִֽיו׃",
+      "text_kjv": "And if thou sell ought unto thy neighbour, or buyest ought of thy neighbour's hand, ye shall not oppress one another:",
+      "rendering": "When you sell anything to your neighbor or buy from your neighbor, you shall not wrong one another.",
+      "translator_notes": [
+        "The verb tonu ('wrong, exploit, take advantage of') from the root y-n-h prohibits economic exploitation in transactions. The relationship terms are significant: amitekha ('your fellow, your associate') and achiw ('his brother') frame commercial relationships within the language of kinship and community solidarity. Business ethics in Israel are covenantal obligations, not merely market norms."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "בְּמִסְפַּ֤ר שָׁנִים֙ אַחַ֣ר הַיּוֹבֵ֔ל תִּקְנֶ֖ה מֵאֵ֣ת עֲמִיתֶ֑ךָ בְּמִסְפַּ֥ר שְׁנֵֽי־תְבוּאֹ֖ת יִמְכׇּר־לָֽךְ׃",
+      "text_kjv": "According to the number of years after the jubile thou shalt buy of thy neighbour, and according unto the number of years of the fruits he shall sell unto thee:",
+      "rendering": "According to the number of years after the Jubilee you shall buy from your neighbor, and according to the number of years of harvests remaining he shall sell to you.",
+      "translator_notes": [
+        "This verse establishes the crucial economic principle of the Jubilee: land cannot be sold permanently. What is actually being sold is not the land itself but the number of harvests (shenei-tevu'ot — 'years of produce') until the next Jubilee. The price must reflect only the remaining crop years. This redefines land transactions as temporary leases, not permanent transfers of ownership."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "לְפִ֣י׀ רֹ֣ב הַשָּׁנִ֗ים תַּרְבֶּה֙ מִקְנָת֔וֹ וּלְפִי֙ מְעֹ֣ט הַשָּׁנִ֔ים תַּמְעִ֖יט מִקְנָת֑וֹ כִּ֚י מִסְפַּ֣ר תְּבוּאֹ֔ת ה֥וּא מֹכֵ֖ר לָֽךְ׃",
+      "text_kjv": "According to the multitude of years thou shalt increase the price thereof, and according to the fewness of years thou shalt diminish the price of it: for according to the number of the years of the fruits doth he sell unto thee.",
+      "rendering": "When there are more years remaining, you shall increase the price; when there are fewer years remaining, you shall reduce the price, because what he is selling you is a number of harvests.",
+      "translator_notes": [
+        "The economic logic is explicit: the price is a function of remaining harvests (mispar tevu'ot — 'the number of produce-years'). The closing clause ki mispar tevu'ot hu mokher lakh ('for he is selling you a number of harvests') is a legal clarification that redefines what appears to be a land sale as a produce lease. The land itself belongs to God (v 23) and cannot be sold."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְלֹ֤א תוֹנוּ֙ אִ֣ישׁ אֶת־עֲמִית֔וֹ וְיָרֵ֖אתָ מֵֽאֱלֹהֶ֑יךָ כִּ֛י אֲנִ֥י יְהֹוָ֖ה אֱלֹהֵיכֶֽם׃",
+      "text_kjv": "Ye shall not therefore oppress one another; but thou shalt fear thy God: for I am the LORD your God.",
+      "rendering": "You shall not exploit one another, but you shall fear your God, for I am the LORD your God.",
+      "translator_notes": [
+        "The phrase veyare'ta me'Elohekha ('you shall fear your God') is a conscience clause — it appears in Leviticus specifically where the exploitation would be difficult to detect or prosecute (see also 19:14, 19:32). When the law cannot catch the violator, the fear of God serves as the enforcement mechanism. The self-identification formula ani YHWH Eloheikhem ('I am the LORD your God') reinforces that God Himself is the guarantor of economic justice."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַעֲשִׂיתֶם֙ אֶת־חֻקֹּתַ֔י וְאֶת־מִשְׁפָּטַ֥י תִּשְׁמְר֖וּ וַעֲשִׂיתֶ֣ם אֹתָ֑ם וִֽישַׁבְתֶּ֥ם עַל־הָאָ֖רֶץ לָבֶֽטַח׃",
+      "text_kjv": "Wherefore ye shall do my statutes, and keep my judgments, and do them; and ye shall dwell in the land in safety.",
+      "rendering": "You shall carry out My statutes and observe My ordinances and do them, so that you may live on the land securely.",
+      "translator_notes": [
+        "The conditional promise: obedience to the sabbatical and Jubilee laws is the condition for secure dwelling (vishavtem al ha'arets lavetach — 'you shall dwell on the land securely'). The word betach ('security, safety, confidence') is economic and military — no invaders, no famine, no anxiety about provision. The land's rest and the people's security are causally linked."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְנָתְנָ֤ה הָאָ֙רֶץ֙ פִּרְיָ֔הּ וַאֲכַלְתֶּ֖ם לָשֹׂ֑בַע וִֽישַׁבְתֶּ֥ם לָבֶ֖טַח עָלֶֽיהָ׃",
+      "text_kjv": "And the land shall yield her fruit, and ye shall eat your fill, and dwell therein in safety.",
+      "rendering": "The land will yield its fruit, and you will eat until you are full, and you will live on it securely.",
+      "translator_notes": [
+        "The land is again personified — it 'gives' (natnah) its fruit as a subject performing an action. The promise of eating lasova ('to satisfaction, to fullness') directly addresses the fear that motivates disobedience to the sabbatical law: 'What will we eat?' (v 20). God promises not mere survival but abundance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְכִ֣י תֹאמְר֔וּ מַה־נֹּאכַ֖ל בַּשָּׁנָ֣ה הַשְּׁבִיעִ֑ת הֵ֚ן לֹ֣א נִזְרָ֔ע וְלֹ֥א נֶאֱסֹ֖ף אֶת־תְּבוּאָתֵֽנוּ׃",
+      "text_kjv": "And if ye shall say, What shall we eat the seventh year? behold, we shall not sow, nor gather in our increase:",
+      "rendering": "And if you ask, 'What will we eat in the seventh year, since we are not sowing and not gathering our produce?' —",
+      "translator_notes": [
+        "God anticipates the practical objection before it is raised. The question mah nokhal ('what will we eat?') is the voice of reasonable anxiety — it is not condemned but addressed directly. The sabbatical year requires trusting God for provision in a way that goes against agricultural prudence. The system demands faith that God can provide through means other than human labor."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְצִוִּ֤יתִי אֶת־בִּרְכָתִי֙ לָכֶ֔ם בַּשָּׁנָ֖ה הַשִּׁשִּׁ֑ית וְעָשָׂת֙ אֶת־הַתְּבוּאָ֔ה לִשְׁלֹ֖שׁ הַשָּׁנִֽים׃",
+      "text_kjv": "Then I will command my blessing upon you in the sixth year, and it shall bring forth fruit for three years.",
+      "rendering": "I will command My blessing for you in the sixth year, so that it produces a crop sufficient for three years.",
+      "translator_notes": [
+        "God's answer to the provision question is a promise of miraculous abundance: the sixth year's harvest will be large enough to sustain the people through the seventh year (sabbatical), the eighth year (when sowing resumes but the new crop has not yet come in), and into the ninth year (when the new crop is harvested). The verb tsivviti ('I will command') treats blessing as something God dispatches by sovereign order — He commands the earth to produce three years' worth of food in one year."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וּזְרַעְתֶּ֗ם אֵ֚ת הַשָּׁנָ֣ה הַשְּׁמִינִ֔ת וַאֲכַלְתֶּ֖ם מִן־הַתְּבוּאָ֣ה יָשָׁ֑ן עַ֣ד׀ הַשָּׁנָ֣ה הַתְּשִׁיעִ֗ת עַד־בּוֹא֙ תְּב֣וּאָתָ֔הּ תֹּאכְל֖וּ יָשָֽׁן׃",
+      "text_kjv": "And ye shall sow the eighth year, and eat yet of old fruit until the ninth year; until her fruits come in ye shall eat of the old store.",
+      "rendering": "When you sow in the eighth year, you will still be eating from the stored produce. Until the ninth year, when its new crop comes in, you will be eating from the stored harvest.",
+      "translator_notes": [
+        "The timeline is precise: sow in year eight, but eat from the sixth year's stored surplus (yashan — 'old, stored') until the new crop of year nine arrives. God's provision is not hand-to-mouth but abundant — the stored food bridges the gap between sabbath rest and new production."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְהָאָ֗רֶץ לֹ֤א תִמָּכֵר֙ לִצְמִתֻ֔ת כִּי־לִ֖י הָאָ֑רֶץ כִּֽי־גֵרִ֧ים וְתוֹשָׁבִ֛ים אַתֶּ֖ם עִמָּדִֽי׃",
+      "text_kjv": "The land shall not be sold for ever: for the land is mine; for ye are strangers and sojourners with me.",
+      "rendering": "The land must not be sold permanently, because the land is Mine. You are foreigners and tenants residing with Me.",
+      "expanded_rendering": "God declares Himself the ultimate landowner of Israel — ki li ha'arets ('because the land is Mine'). Israel does not own the land; they are gerim vetoshavim ('foreigners and resident aliens') living on God's property. This theological claim is the foundation of the entire Jubilee system: if God owns the land, no human being can claim permanent ownership over it. Every 'sale' is a temporary lease that reverts to the divine landlord's original allocation. The Jubilee is not redistribution — it is restoration of God's original design.",
+      "translator_notes": [
+        "This verse is the theological cornerstone of the Jubilee. The word litsmitut ('permanently, in perpetuity') is negated — no permanent land sale is possible. The reason is stated as a first-person divine claim: ki li ha'arets ('for the land is Mine'). The Israelites are gerim vetoshavim ('strangers and sojourners') — the same terms used for landless foreigners living in Israel. Before God, even the native-born Israelite in his ancestral territory is a tenant, not an owner."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וּבְכֹ֖ל אֶ֣רֶץ אֲחֻזַּתְכֶ֑ם גְּאֻלָּ֖ה תִּתְּנ֥וּ לָאָֽרֶץ׃",
+      "text_kjv": "And in all the land of your possession ye shall grant a redemption for the land.",
+      "rendering": "Throughout all the land of your possession, you shall provide for the redemption of the land.",
+      "translator_notes": [
+        "The Hebrew ge'ullah ('redemption') introduces the key legal concept that governs the rest of the chapter: the right of redemption. Every land sale must include the possibility of ge'ullah — the family's right to buy the land back. This right is not optional but mandatory: titnu ('you shall provide') is an imperative. The section marker (samekh) sets this verse apart as the heading principle for all the specific cases that follow."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גְּאֻלָּה",
+          "transliteration": "ge'ullah",
+          "rendered_as": "redemption",
+          "semantic_range": "redemption, right of repurchase, kinsman-redeemer's duty, reclaiming",
+          "note": "Ge'ullah is the noun form of the root g-'-l — the kinsman-redeemer concept. In the land context, ge'ullah is the right and obligation to buy back family property that has been sold due to poverty. It is not a market transaction but a family duty. The ge'ullah system prevents the permanent loss of a family's inheritance and maintains the divine land allocation across generations."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "כִּֽי־יָמ֣וּךְ אָחִ֔יךָ וּמָכַ֖ר מֵאֲחֻזָּת֑וֹ וּבָ֤א גֹֽאֲלוֹ֙ הַקָּרֹ֣ב אֵלָ֔יו וְגָאַ֕ל אֵ֖ת מִמְכַּ֥ר אָחִֽיו׃",
+      "text_kjv": "If thy brother be waxen poor, and hath sold away some of his possession, and if any of his kin come to redeem it, then shall he redeem that which his brother sold.",
+      "rendering": "If your brother becomes poor and sells some of his property, his nearest kinsman-redeemer shall come and redeem what his brother has sold.",
+      "expanded_rendering": "The Hebrew go'el describes a kinsman who is bound by family obligation to reclaim what a relative has lost — not a stranger offering charity but a blood relative fulfilling a sacred duty. When God later calls Himself Israel's Go'el (Isaiah 41:14, 43:14), He claims this same intimate, obligatory, familial relationship: He is not a distant benefactor but the closest of kin, bound to rescue His people as a matter of family honor.",
+      "translator_notes": [
+        "The go'alo haqqarov elav ('his nearest kinsman-redeemer') introduces the go'el — the relative closest in kinship who bears the duty of redemption. The verb ga'al ('to redeem') is used three times in verses 25-26 (go'alo, vega'al, ge'ullah), emphasizing that this is the central legal concept. The go'el does not choose to redeem out of generosity; he is obligated by kinship. Failure to act as go'el is a failure of family duty.",
+        "This is the same go'el institution that drives the plot of Ruth: Boaz acts as go'el for Naomi's family, redeeming their land and marrying Ruth to preserve the family name."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גֹּאֵל",
+          "transliteration": "go'el",
+          "rendered_as": "kinsman-redeemer",
+          "semantic_range": "redeemer, kinsman-redeemer, next of kin, avenger, rescuer",
+          "note": "The go'el is the closest relative who is obligated by blood ties to act on behalf of a family member in need: to buy back sold property (here in Lev 25), to redeem a relative from servitude (v 48-49), to avenge a murdered kinsman (Numbers 35), or to marry a deceased brother's widow to preserve his name (Ruth 4). When God is called Israel's Go'el, He claims the most intimate possible familial relationship with His people."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְאִ֕ישׁ כִּ֛י לֹ֥א יִֽהְיֶה־לּ֖וֹ גֹּאֵ֑ל וְהִשִּׂ֣יגָה יָד֔וֹ וּמָצָ֖א כְּדֵ֥י גְאֻלָּתֽוֹ׃",
+      "text_kjv": "And if the man have none to redeem it, and himself be able to redeem it;",
+      "rendering": "If a man has no kinsman-redeemer but his own means become sufficient for the redemption,",
+      "translator_notes": [
+        "The phrase lo yihyeh lo go'el ('he has no go'el') describes a person without close relatives — a devastating situation in a kinship-based society. However, self-redemption is possible if his economic situation improves (hissigah yado — 'his hand reaches,' the idiom for achieving financial capacity). Even without family support, the right of redemption remains."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְחִשַּׁב֙ אֶת־שְׁנֵ֣י מִמְכָּר֔וֹ וְהֵשִׁיב֙ אֶת־הָ֣עֹדֵ֔ף לָאִ֖ישׁ אֲשֶׁ֣ר מָֽכַר־ל֑וֹ וְשָׁ֖ב לַאֲחֻזָּתֽוֹ׃",
+      "text_kjv": "Then let him count the years of the sale thereof, and restore the overplus unto the man to whom he sold it; that he may return unto his possession.",
+      "rendering": "he shall calculate the years since the sale and refund the balance to the man who bought it, and he shall return to his property.",
+      "translator_notes": [
+        "The redemption price is not the full original sale price but the remaining value — the buyer keeps the value of the harvests he has already received, and the redeemer pays only for the years remaining until the Jubilee. The system is fair to both parties: the buyer receives the agreed-upon value of his purchase period, and the original family recovers their land."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְאִ֨ם לֹֽא־מָצְאָ֜ה יָד֗וֹ דֵּי֮ הָשִׁ֣יב לוֹ֒ וְהָיָ֣ה מִמְכָּר֗וֹ בְּיַד֙ הַקֹּנֶ֣ה אֹת֔וֹ עַ֖ד שְׁנַ֣ת הַיּוֹבֵ֑ל וְיָצָא֙ בַּיֹּבֵ֔ל וְשָׁ֖ב לַאֲחֻזָּתֽוֹ׃",
+      "text_kjv": "But if he be not able to restore it to him, then that which is sold shall remain in the hand of him that hath bought it until the year of jubile: and in the jubile it shall go out, and he shall return unto his possession.",
+      "rendering": "But if his means are not sufficient to recover it, what was sold shall remain with the buyer until the Jubilee year. In the Jubilee it shall be released, and he shall return to his property.",
+      "translator_notes": [
+        "The Jubilee is the ultimate safety net: even if neither a kinsman-redeemer nor the person himself can afford to redeem the land, the Jubilee automatically returns it. The verb yatsa ('go out, be released') is the same verb used for the exodus from Egypt — the land 'goes out' from the buyer's control just as Israel 'went out' from Pharaoh's control. The section marker (samekh) closes this land-redemption case."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְאִ֗ישׁ כִּֽי־יִמְכֹּ֤ר בֵּית־מוֹשַׁב֙ עִ֣יר חוֹמָ֔ה וְהָיְתָה֙ גְּאֻלָּת֔וֹ עַד־תֹּ֖ם שְׁנַ֣ת מִמְכָּר֑וֹ יָמִ֖ים תִּהְיֶ֥ה גְאֻלָּתֽוֹ׃",
+      "text_kjv": "And if a man sell a dwelling house in a walled city, then he may redeem it within a whole year after it is sold; within a full year may he redeem it.",
+      "rendering": "If a man sells a residence in a walled city, his right of redemption shall last until the end of the year of its sale. His right of redemption shall be for a full year.",
+      "translator_notes": [
+        "Houses in walled cities follow different rules than agricultural land. The redemption window is limited to one full year (yamim — literally 'days,' meaning a complete year). After that, the sale becomes permanent (v 30). The distinction reflects economic reality: city houses are not part of the tribal land allocation in the same way that agricultural land is. Urban property is more commercially oriented."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְאִ֣ם לֹֽא־יִגָּאֵ֗ל עַד־מְלֹ֣את לוֹ֮ שָׁנָ֣ה תְמִימָה֒ וְ֠קָ֠ם הַבַּ֨יִת אֲשֶׁר־בָּעִ֜יר אֲשֶׁר־[לוֹ] (לא) חֹמָ֗ה לַצְּמִיתֻ֛ת לַקֹּנֶ֥ה אֹת֖וֹ לְדֹרֹתָ֑יו לֹ֥א יֵצֵ֖א בַּיֹּבֵֽל׃",
+      "text_kjv": "And if it be not redeemed within the space of a full year, then the house that is in the walled city shall be established for ever to him that bought it throughout his generations: it shall not go out in the jubile.",
+      "rendering": "If it is not redeemed within the full year, then the house in the walled city shall belong permanently to the buyer and his descendants. It shall not be released in the Jubilee.",
+      "translator_notes": [
+        "The phrase latsmitut ('permanently, in perpetuity') — the same word denied to agricultural land in verse 23 — is permitted for urban houses. Walled-city houses are the only property in Israel that can be sold permanently and that are exempt from Jubilee release. This creates a two-tier system: agricultural land (God's domain, subject to Jubilee) and urban property (commercial, subject to market). The textual note [lo/lo] reflects a qere/ketiv variation in the Hebrew manuscript tradition regarding the spelling of 'which has' (lo) versus 'not' (lo) — a wall."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וּבָתֵּ֣י הַחֲצֵרִ֗ים אֲשֶׁ֨ר אֵין־לָהֶ֤ם חֹמָה֙ סָבִ֔יב עַל־שְׂדֵ֥ה הָאָ֖רֶץ יֵחָשֵׁ֑ב גְּאֻלָּה֙ תִּהְיֶה־לּ֔וֹ וּבַיֹּבֵ֖ל יֵצֵֽא׃",
+      "text_kjv": "But the houses of the villages which have no wall round about them shall be counted as the fields of the country: they may be redeemed, and they shall go out in the jubile.",
+      "rendering": "But houses in unwalled villages shall be classified as open farmland. They may be redeemed, and they shall be released in the Jubilee.",
+      "translator_notes": [
+        "The distinction turns on the wall (chomah): walled cities have permanent sales; unwalled villages have Jubilee-eligible sales. Village houses (batei hachatserim — 'houses of the settlements') are classified as agricultural land (al sedeh ha'arets — 'as the field of the land') because they are part of the agricultural landscape, not separate urban zones. This classification preserves the Jubilee principle for rural communities."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְעָרֵי֙ הַלְוִיִּ֔ם בָּתֵּ֖י עָרֵ֣י אֲחֻזָּתָ֑ם גְּאֻלַּ֥ת עוֹלָ֖ם תִּהְיֶ֥ה לַלְוִיִּֽם׃",
+      "text_kjv": "Notwithstanding the cities of the Levites, and the houses of the cities of their possession, may the Levites redeem at any time.",
+      "rendering": "As for the Levitical cities — the houses in the cities of their possession — the Levites shall have a permanent right of redemption.",
+      "translator_notes": [
+        "The Levites receive a special provision: ge'ullat olam ('permanent redemption right') — their redemption right never expires. Since the Levites received no tribal land allocation (Numbers 18:20-24), their city houses are their only real property. If even these were subject to the one-year walled-city limit, Levites could lose everything permanently. The olam ('permanent, perpetual') ge'ullah protects them."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַאֲשֶׁ֤ר יִגְאַל֙ מִן־הַלְוִיִּ֔ם וְיָצָ֧א מִמְכַּר־בַּ֛יִת וְעִ֥יר אֲחֻזָּת֖וֹ בַּיֹּבֵ֑ל כִּ֣י בָתֵּ֞י עָרֵ֣י הַלְוִיִּ֗ם הִ֚וא אֲחֻזָּתָ֔ם בְּת֖וֹךְ בְּנֵ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And if a man purchase of the Levites, then the house that was sold, and the city of his possession, shall go out in the year of jubile: for the houses of the cities of the Levites are their possession among the children of Israel.",
+      "rendering": "If a Levite does not redeem it, the sold house in the city of his possession shall still be released in the Jubilee, because the houses in the Levitical cities are their inheritance among the children of Israel.",
+      "translator_notes": [
+        "Even without active redemption, Levitical city houses revert at the Jubilee — the opposite of the walled-city rule in verse 30. The reasoning is explicit: ki batei arei halevi'im hi achuzzatam ('because the houses of the Levitical cities are their inheritance'). Since Levites have no agricultural land, their houses are equivalent to other tribes' farmland and must be protected by the Jubilee."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וּֽשְׂדֵ֛ה מִגְרַ֥שׁ עָרֵיהֶ֖ם לֹ֣א יִמָּכֵ֑ר כִּֽי־אֲחֻזַּ֥ת עוֹלָ֛ם ה֖וּא לָהֶֽם׃",
+      "text_kjv": "But the field of the suburbs of their cities may not be sold; for it is their perpetual possession.",
+      "rendering": "The pasturelands around their cities may not be sold at all, because it is their permanent possession.",
+      "translator_notes": [
+        "The Levitical pasturelands (sedeh migrash — 'open land of the pasture') cannot be sold under any circumstances — not even temporarily. The phrase achuzzat olam ('permanent possession') is the strongest property protection in the entire chapter. The Levitical system ensures that those who serve the sanctuary always have a place to live and pasture their animals. The section marker (samekh) closes the property-redemption section."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וְכִֽי־יָמ֣וּךְ אָחִ֔יךָ וּמָ֥טָה יָד֖וֹ עִמָּ֑ךְ וְהֶֽחֱזַ֣קְתָּ בּ֔וֹ גֵּ֧ר וְתוֹשָׁ֛ב וָחַ֖י עִמָּֽךְ׃",
+      "text_kjv": "And if thy brother be waxen poor, and fallen in decay with thee; then thou shalt relieve him: yea, though he be a stranger, or a sojourner; that he may live with thee.",
+      "rendering": "If your brother becomes poor and his hand falters beside you, you shall support him — whether he is a resident foreigner or a native — so that he may live alongside you.",
+      "translator_notes": [
+        "The phrase umatah yado ('his hand has fallen, his hand falters') is a vivid idiom for economic collapse — the hand that should work and produce has failed. The response commanded is vehechezaqta bo ('you shall strengthen him, you shall support him'). The protection extends beyond Israelites to gerim vetoshavim ('resident foreigners and sojourners') — the same terms applied to Israelites before God in verse 23. Economic support is universal within the community."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "אַל־תִּקַּ֤ח מֵֽאִתּוֹ֙ נֶ֣שֶׁךְ וְתַרְבִּ֔ית וְיָרֵ֖אתָ מֵֽאֱלֹהֶ֑יךָ וְחֵ֥י אָחִ֖יךָ עִמָּֽךְ׃",
+      "text_kjv": "Take thou no usury of him, or increase: but fear thy God; that thy brother may live with thee.",
+      "rendering": "Do not take interest or profit from him. Fear your God, so that your brother may live alongside you.",
+      "translator_notes": [
+        "Two types of financial extraction are prohibited: neshekh ('interest' — literally 'bite,' from the root n-sh-kh, 'to bite') and tarbit ('increase, profit'). Charging interest on loans to a poor Israelite is equated with biting into their sustenance. The fear-of-God clause (veyare'ta me'Elohekha) appears again, as in verse 17 — interest-charging in private is undetectable by human courts but visible to God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "אֶ֨ת־כַּסְפְּךָ֔ לֹֽא־תִתֵּ֥ן ל֖וֹ בְּנֶ֑שֶׁךְ וּבְמַרְבִּ֖ית לֹא־תִתֵּ֥ן אׇכְלֶֽךָ׃",
+      "text_kjv": "Thou shalt not give him thy money upon usury, nor lend him thy victuals for increase.",
+      "rendering": "You shall not lend him your money at interest, nor provide your food for profit.",
+      "translator_notes": [
+        "The prohibition covers both monetary loans (kaspo — 'your money') and food-based credit (okhlekha — 'your food, your provisions'). Both forms of lending to the poor — cash and kind — must be interest-free. In an agricultural economy, food loans at 'increase' (marbith — the food equivalent of interest) could be as devastating as monetary interest."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "אֲנִ֗י יְהֹוָה֙ אֱלֹ֣הֵיכֶ֔ם אֲשֶׁר־הוֹצֵ֥אתִי אֶתְכֶ֖ם מֵאֶ֣רֶץ מִצְרָ֑יִם לָתֵ֤ת לָכֶם֙ אֶת־אֶ֣רֶץ כְּנַ֔עַן לִהְי֥וֹת לָכֶ֖ם לֵאלֹהִֽים׃",
+      "text_kjv": "I am the LORD your God, which brought you forth out of the land of Egypt, to give you the land of Canaan, and to be your God.",
+      "rendering": "I am the LORD your God, who brought you out from the land of Egypt in order to give you the land of Canaan and to be God for you.",
+      "translator_notes": [
+        "The exodus formula anchors economic ethics in salvation history. God's purpose in the exodus was twofold: to give the land (latet lakhem et erets Kena'an) and to be their God (lihyot lakhem le'Elohim). The covenant formula binds land-gift and divine relationship together — how Israel treats the land and its poor is inseparable from their relationship with the God who freed them. The section marker (samekh) closes the interest-prohibition unit."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְכִֽי־יָמ֥וּךְ אָחִ֛יךָ עִמָּ֖ךְ וְנִמְכַּר־לָ֑ךְ לֹא־תַעֲבֹ֥ד בּ֖וֹ עֲבֹ֥דַת עָֽבֶד׃",
+      "text_kjv": "And if thy brother that dwelleth by thee be waxen poor, and be sold unto thee; thou shalt not compel him to serve as a bondservant:",
+      "rendering": "If your brother becomes poor beside you and sells himself to you, you shall not make him work as a slave.",
+      "translator_notes": [
+        "The descent into poverty escalates: from land sale (v 25), to financial dependency (v 35), to debt-servitude (v 39). Each stage has its protective legislation. The prohibition lo ta'avod bo avodat aved ('you shall not work him as a slave's work') distinguishes between indentured service and chattel slavery. An Israelite in debt-servitude retains his dignity — the work required of him must be different from what would be imposed on a permanent slave."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "כְּשָׂכִ֥יר כְּתוֹשָׁ֖ב יִהְיֶ֣ה עִמָּ֑ךְ עַד־שְׁנַ֥ת הַיֹּבֵ֖ל יַעֲבֹ֥ד עִמָּֽךְ׃",
+      "text_kjv": "But as an hired servant, and as a sojourner, he shall be with thee, and shall serve thee unto the year of jubile:",
+      "rendering": "He shall be treated as a hired worker, as a resident laborer with you. He shall serve with you until the Jubilee year.",
+      "translator_notes": [
+        "The Israelite debt-servant's legal status is explicitly defined: kesakir ketoshav ('like a hired worker, like a resident laborer') — not an owned slave but a worker with rights. His service is temporary — only until the Jubilee — and his treatment must match that of a free laborer. The phrasing ya'avod immakh ('he shall work with you') uses the preposition im ('with'), not the preposition le ('for'), suggesting a relationship of cooperation rather than domination."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וְיָצָא֙ מֵֽעִמָּ֔ךְ ה֖וּא וּבָנָ֣יו עִמּ֑וֹ וְשָׁב֙ אֶל־מִשְׁפַּחְתּ֔וֹ וְאֶל־אֲחֻזַּ֥ת אֲבֹתָ֖יו יָשֽׁוּב׃",
+      "text_kjv": "And then shall he depart from thee, both he and his children with him, and shall return unto his own family, and unto the possession of his fathers shall he return.",
+      "rendering": "Then he shall go free from you — he and his children with him — and return to his family, and he shall return to the property of his ancestors.",
+      "translator_notes": [
+        "The Jubilee releases the debt-servant and his entire family (hu uvanav immo — 'he and his children with him'). He returns to two things: his family (mishpachto) and his ancestral property (achuzzat avotav). The double return (veshav... yashuv) emphasizes completeness — the person is fully restored to both relational and economic standing."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "כִּֽי־עֲבָדַ֣י הֵ֔ם אֲשֶׁר־הוֹצֵ֥אתִי אֹתָ֖ם מֵאֶ֣רֶץ מִצְרָ֑יִם לֹ֥א יִמָּכְר֖וּ מִמְכֶּ֥רֶת עָֽבֶד׃",
+      "text_kjv": "For they are my servants, which I brought forth out of the land of Egypt: they shall not be sold as bondmen.",
+      "rendering": "For they are My servants — I brought them out of the land of Egypt. They shall not be sold as slaves are sold.",
+      "translator_notes": [
+        "The theological foundation for Israelite labor rights: ki avadai hem ('for they are My servants'). An Israelite already belongs to God — he cannot also belong to a human master. God's prior claim on Israel, established by the exodus, overrides any subsequent economic arrangement. The phrase mimkeret aved ('the sale of a slave') describes the commercial transaction of chattel slavery — Israelites may not be sold in this manner."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "לֹא־תִרְדֶּ֥ה ב֖וֹ בְּפָ֑רֶךְ וְיָרֵ֖אתָ מֵאֱלֹהֶֽיךָ׃",
+      "text_kjv": "Thou shalt not rule over him with rigour; but shalt fear thy God.",
+      "rendering": "You shall not rule over him with harshness. You shall fear your God.",
+      "translator_notes": [
+        "The word perekh ('harshness, severity, rigor') appears only six times in the Hebrew Bible: here, in verse 46, in verse 53, and three times in Exodus 1 describing Egyptian treatment of Israelite slaves (Exodus 1:13-14). The verbal echo is intentional: treating an Israelite debt-servant with perekh would replicate the very oppression from which God freed Israel. The fear-of-God clause appears for the third time in this chapter."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וְעַבְדְּךָ֥ וַאֲמָתְךָ֖ אֲשֶׁ֣ר יִהְיוּ־לָ֑ךְ מֵאֵ֣ת הַגּוֹיִ֗ם אֲשֶׁר֙ סְבִיבֹ֣תֵיכֶ֔ם מֵהֶ֥ם תִּקְנ֖וּ עֶ֥בֶד וְאָמָֽה׃",
+      "text_kjv": "Both thy bondmen, and thy bondmaids, which thou shalt have, shall be of the heathen that are round about you; of them shall ye buy bondmen and bondmaids.",
+      "rendering": "As for your male and female slaves whom you may have — from the nations around you, from them you may purchase male and female slaves.",
+      "translator_notes": [
+        "The text permits acquiring slaves from surrounding nations (haggoyim asher sevivoteikhem). The distinction between the treatment of Israelite debt-servants (vv 39-43) and foreign slaves (vv 44-46) is stark and morally difficult for modern readers. The text does not critique the institution of foreign slavery; it limits and regulates it. The Israelite is protected by covenant identity — 'My servants' (v 42) — but this protection does not extend to foreigners in the same way."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וְ֠גַ֠ם מִבְּנֵ֨י הַתּוֹשָׁבִ֜ים הַגָּרִ֤ים עִמָּכֶם֙ מֵהֶ֣ם תִּקְנ֔וּ וּמִמִּשְׁפַּחְתָּם֙ אֲשֶׁ֣ר עִמָּכֶ֔ם אֲשֶׁ֥ר הוֹלִ֖ידוּ בְּאַרְצְכֶ֑ם וְהָי֥וּ לָכֶ֖ם לַֽאֲחֻזָּֽה׃",
+      "text_kjv": "Moreover of the children of the strangers that do sojourn among you, of them shall ye buy, and of their families that are with you, which they begat in your land: and they shall be your possession.",
+      "rendering": "Also from the children of the resident foreigners living among you — from them you may purchase, and from their families who are with you, whom they have fathered in your land. They may become your property.",
+      "translator_notes": [
+        "The permission extends to children of resident foreigners (benei hatoshavim haggarim immakhem) — those born in the land to non-Israelite families. The term achuzzah ('property, possession') applied to human beings is deeply uncomfortable. The text reflects the widespread ancient Near Eastern institution of slavery while creating a distinct tier of protection for Israelite covenant members."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וְהִתְנַחַלְתֶּ֨ם אֹתָ֜ם לִבְנֵיכֶ֤ם אַחֲרֵיכֶם֙ לָרֶ֣שֶׁת אֲחֻזָּ֔ה לְעֹלָ֖ם בָּהֶ֣ם תַּעֲבֹ֑דוּ וּבְאַ֨חֵיכֶ֤ם בְּנֵֽי־יִשְׂרָאֵל֙ אִ֣ישׁ בְּאָחִ֔יו לֹא־תִרְדֶּ֥ה ב֖וֹ בְּפָֽרֶךְ׃",
+      "text_kjv": "And ye shall take them as an inheritance for your children after you, to inherit them for a possession; they shall be your bondmen for ever: but over your brethren the children of Israel, ye shall not rule one over another with rigour.",
+      "rendering": "You may bequeath them to your children after you as inherited property. You may use them as permanent workers. But over your brothers, the children of Israel — no one shall rule over his brother with harshness.",
+      "translator_notes": [
+        "The contrast between foreign slaves (le'olam bahem ta'avodu — 'permanently you may use them as workers') and Israelite brothers (uve'acheikhem benei Yisra'el... lo tirdeh bo beferekh — 'over your brothers the children of Israel... you shall not rule with harshness') is the chapter's most morally complex passage. The repeated word perekh ('harshness') ties back to Egyptian slavery. The section marker (samekh) closes this unit."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וְכִ֣י תַשִּׂ֗יג יַ֣ד גֵּ֤ר וְתוֹשָׁב֙ עִמָּ֔ךְ וּמָ֥ךְ אָחִ֖יךָ עִמּ֑וֹ וְנִמְכַּ֗ר לְגֵ֤ר תּוֹשָׁב֙ עִמָּ֔ךְ א֥וֹ לְעֵ֖קֶר מִשְׁפַּ֥חַת גֵּֽר׃",
+      "text_kjv": "And if a sojourner or stranger wax rich by thee, and thy brother that dwelleth by him wax poor, and sell himself unto the stranger or sojourner by thee, or to the stock of the stranger's family:",
+      "rendering": "If a resident foreigner among you becomes wealthy while your brother beside him becomes poor and sells himself to the resident foreigner among you, or to a member of the foreigner's family,",
+      "translator_notes": [
+        "The scenario reverses the expected power dynamic: a foreigner (ger vetoshav) becomes wealthy while an Israelite (achikha — 'your brother') becomes poor enough to sell himself to the foreigner. This case is the most vulnerable situation — an Israelite in servitude to a non-Israelite, potentially beyond the reach of Israelite community norms. The legislation that follows (vv 48-55) ensures that even in this extreme case, the kinsman-redeemer system and the Jubilee protect the Israelite."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "אַחֲרֵ֣י נִמְכַּ֔ר גְּאֻלָּ֖ה תִּהְיֶה־לּ֑וֹ אֶחָ֥ד מֵאֶחָ֖יו יִגְאָלֶֽנּוּ׃",
+      "text_kjv": "After that he is sold he may be redeemed again; one of his brethren may redeem him:",
+      "rendering": "After he is sold, a right of redemption remains for him. One of his brothers may redeem him.",
+      "translator_notes": [
+        "The ge'ullah right extends to persons, not just land. The phrase ge'ullah tihyeh lo ('a redemption right shall exist for him') establishes that even after sale to a foreigner, an Israelite retains the inalienable right to be redeemed. The kinsman system (echad me'echav — 'one of his brothers') is activated."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "אוֹ־דֹד֞וֹ א֤וֹ בֶן־דֹּדוֹ֙ יִגְאָלֶ֔נּוּ אֽוֹ־מִשְּׁאֵ֧ר בְּשָׂר֛וֹ מִמִּשְׁפַּחְתּ֖וֹ יִגְאָלֶ֑נּוּ אֽוֹ־הִשִּׂ֥יגָה יָד֖וֹ וְנִגְאָֽל׃",
+      "text_kjv": "Either his uncle, or his uncle's son, may redeem him, or any that is nigh of kin unto him of his family may redeem him; or if he be able, he may redeem himself.",
+      "rendering": "His uncle, or his uncle's son, may redeem him, or any close relative from his family may redeem him. Or if his own means become sufficient, he may redeem himself.",
+      "translator_notes": [
+        "The hierarchy of potential redeemers is specified: uncle (dodo), uncle's son (ben dodo), any close blood relative (mishe'er besaro mimishpachto — 'from the flesh of his flesh, from his family'). The list moves from closest to broader kinship circles. Self-redemption (venig'al — 'he shall be redeemed,' reflexive) is the final option if the person's own finances recover."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "וְחִשַּׁב֙ עִם־קֹנֵ֔הוּ מִשְּׁנַת֙ הִמָּ֣כְרוֹ ל֔וֹ עַ֖ד שְׁנַ֣ת הַיֹּבֵ֑ל וְהָיָ֞ה כֶּ֤סֶף מִמְכָּרוֹ֙ בְּמִסְפַּ֣ר שָׁנִ֔ים כִּימֵ֥י שָׂכִ֖יר יִהְיֶ֥ה עִמּֽוֹ׃",
+      "text_kjv": "And he shall reckon with him that bought him from the year that he was sold to him unto the year of jubile: and the price of his sale shall be according unto the number of years, according to the time of an hired servant shall it be with him.",
+      "rendering": "He shall calculate with the one who bought him from the year he was sold to him until the Jubilee year. The price of his sale shall be based on the number of years — he shall be valued as if he were a hired worker for that period.",
+      "translator_notes": [
+        "The redemption price is calculated as the equivalent of a hired worker's wages for the remaining years until the Jubilee. The phrase kimei sakhir yihyeh immo ('as the days of a hired worker he shall be with him') reframes the servitude as a labor contract, not as ownership of a person. Even in calculating the redemption price, the text insists on treating the Israelite as a worker, not property."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "אִם־ע֥וֹד רַבּ֖וֹת בַּשָּׁנִ֑ים לְפִיהֶן֙ יָשִׁ֣יב גְּאֻלָּת֔וֹ מִכֶּ֖סֶף מִקְנָתֽוֹ׃",
+      "text_kjv": "If there be yet many years behind, according unto them he shall give again the price of his redemption out of the money that he was bought for.",
+      "rendering": "If many years remain, he shall pay back his redemption price in proportion, based on the original purchase price.",
+      "translator_notes": [
+        "When many years remain until the Jubilee, the redemption price is higher — it reflects the greater value of the remaining service years. The principle of proportionality (lefihen — 'according to them,' i.e., according to the years) ensures fairness to the buyer while facilitating the redemption."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "וְאִם־מְעַ֞ט נִשְׁאַ֧ר בַּשָּׁנִ֛ים עַד־שְׁנַ֥ת הַיֹּבֵ֖ל וְחִשַּׁב־ל֑וֹ כְּפִ֣י שָׁנָ֔יו יָשִׁ֖יב אֶת־גְּאֻלָּתֽוֹ׃",
+      "text_kjv": "And if there remain but few years unto the year of jubile, then he shall count with him, and according unto his years shall he give him again the price of his redemption.",
+      "rendering": "If only a few years remain until the Jubilee year, he shall calculate accordingly and pay his redemption price based on those remaining years.",
+      "translator_notes": [
+        "Fewer remaining years means a lower redemption price — the closer to the Jubilee, the less expensive it is to redeem the person. The system creates an incentive structure that makes redemption progressively easier as the Jubilee approaches."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "כִּשְׂכִ֥יר שָׁנָ֛ה בְּשָׁנָ֖ה יִהְיֶ֣ה עִמּ֑וֹ לֹֽא־יִרְדֶּ֥נּֽוּ בְּפֶ֖רֶךְ לְעֵינֶֽיךָ׃",
+      "text_kjv": "And as a yearly hired servant shall he be with him: and the other shall not rule with rigour over him in thy sight.",
+      "rendering": "He shall be treated as a worker hired year by year. The foreigner shall not rule over him with harshness in your sight.",
+      "translator_notes": [
+        "Even when sold to a foreigner, the Israelite's treatment is regulated by Israelite law: the foreigner may not use perekh ('harshness'). The phrase le'einekha ('in your sight') places responsibility on the Israelite community — if they see a brother being mistreated in foreign service, they are responsible to intervene. The community cannot look away."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 54,
+      "text_hebrew": "וְאִם־לֹ֥א יִגָּאֵ֖ל בְּאֵ֑לֶּה וְיָצָא֙ בִּשְׁנַ֣ת הַיֹּבֵ֔ל ה֖וּא וּבָנָ֥יו עִמּֽוֹ׃",
+      "text_kjv": "And if he be not redeemed in these years, then he shall go out in the year of jubile, both he, and his children with him.",
+      "rendering": "If he is not redeemed by these means, he shall still go free in the Jubilee year — he and his children with him.",
+      "translator_notes": [
+        "The Jubilee is the final guarantee: regardless of whether redemption occurs through a kinsman-redeemer (v 48-49) or self-redemption (v 49), the person is automatically freed at the Jubilee. No Israelite can remain in permanent servitude. The verb yatsa ('go out, go free') is again the exodus verb — every Jubilee reenacts the liberation from Egypt in miniature."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_hebrew": "כִּֽי־לִ֤י בְנֵֽי־יִשְׂרָאֵל֙ עֲבָדִ֔ים עֲבָדַ֣י הֵ֔ם אֲשֶׁר־הוֹצֵ֥אתִי אוֹתָ֖ם מֵאֶ֣רֶץ מִצְרָ֑יִם אֲנִ֖י יְהֹוָ֥ה אֱלֹהֵיכֶֽם׃",
+      "text_kjv": "For unto me the children of Israel are servants; they are my servants whom I brought forth out of the land of Egypt: I am the LORD your God.",
+      "rendering": "For the children of Israel belong to Me as servants. They are My servants, whom I brought out of the land of Egypt. I am the LORD your God.",
+      "translator_notes": [
+        "The chapter ends where it began theologically: with God's sovereign claim. The emphatic repetition — avadai hem, 'they are My servants' — echoes verse 42. The entire Jubilee system rests on a single premise: Israel already belongs to God. Human economic arrangements are subordinate to this prior divine claim. The exodus is the event that established God's ownership, and the Jubilee is the institution that periodically reasserts it. The closing self-identification ani YHWH Eloheikhem ('I am the LORD your God') seals the chapter as divine legislation."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

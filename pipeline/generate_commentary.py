@@ -122,7 +122,13 @@ def get_week(week_num, year=2026):
 
 def load_tcr_chapter(book, chapter):
     """Load The Covenant Rendering (TCR) data for a chapter, if available."""
-    slug_map = {"Genesis": "genesis"}
+    slug_map = {
+        "Genesis": "genesis",
+        "Exodus": "exodus",
+        "Leviticus": "leviticus",
+        "Numbers": "numbers",
+        "Deuteronomy": "deuteronomy",
+    }
     slug = slug_map.get(book)
     if not slug:
         return None

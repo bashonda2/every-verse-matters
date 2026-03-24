@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "chapter": 7,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "כִּ֤י יְבִֽיאֲךָ֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ אֶל־הָאָ֕רֶץ אֲשֶׁר־אַתָּ֥ה בָא־שָׁ֖מָּה לְרִשְׁתָּ֑הּ וְנָשַׁ֣ל גּֽוֹיִם־רַבִּ֣ים&thinsp;׀&thinsp;מִפָּנֶ֡יךָ הַֽחִתִּי֩ וְהַגִּרְגָּשִׁ֨י וְהָאֱמֹרִ֜י וְהַכְּנַעֲנִ֣י וְהַפְּרִזִּ֗י וְהַֽחִוִּי֙ וְהַיְבוּסִ֔י שִׁבְעָ֣ה גוֹיִ֔ם רַבִּ֥ים וַעֲצוּמִ֖ים מִמֶּֽךָּ׃",
+      "text_kjv": "When the LORD thy God shall bring thee into the land whither thou goest to possess it, and hath cast out many nations before thee, the Hittites, and the Girgashites, and the Amorites, and the Canaanites, and the Perizzites, and the Hivites, and the Jebusites, seven nations greater and mightier than thou;",
+      "rendering": "When the LORD your God brings you into the land you are entering to take possession of, He will clear away many nations ahead of you — the Hittites, Girgashites, Amorites, Canaanites, Perizzites, Hivites, and Jebusites — seven nations larger and more powerful than you.",
+      "translator_notes": [
+        "The verb nashal ('to strip off, drive out') portrays God peeling away the nations like bark from a tree. The catalogue of seven peoples (shiv'ah goyim) is a formulaic list representing the totality of Canaan's inhabitants. The phrase rabbim va'atsumim mimmekka ('greater and more powerful than you') underscores that Israel's success will not rest on military superiority but on divine action."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָשַׁל",
+          "transliteration": "nashal",
+          "rendered_as": "clear away",
+          "semantic_range": "strip off, drive out, cast out, dispossess",
+          "note": "Nashal literally means to strip or peel away. Used here for God's action of removing nations from the land, it emphasizes a complete displacement rather than mere defeat."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וּנְתָנָ֞ם יְהֹוָ֧ה אֱלֹהֶ֛יךָ לְפָנֶ֖יךָ וְהִכִּיתָ֑ם הַחֲרֵ֤ם תַּחֲרִים֙ אֹתָ֔ם לֹא־תִכְרֹ֥ת לָהֶ֛ם בְּרִ֖ית וְלֹ֥א תְחׇנֵּֽם׃",
+      "text_kjv": "And when the LORD thy God shall deliver them before thee; thou shalt smite them, and utterly destroy them; thou shalt make no covenant with them, nor shew mercy unto them:",
+      "rendering": "When the LORD your God hands them over to you and you defeat them, you must devote them completely to destruction. You must not make a treaty with them or show them any favor.",
+      "translator_notes": [
+        "The infinitive absolute hacharem tacharim ('devoting you shall devote') intensifies the command for total destruction — the cherem, a holy war dedication to God. The prohibition lo tikhrot lahem berit ('you shall not cut a covenant with them') and lo techannem ('you shall not show them favor') create a threefold boundary: military, diplomatic, and emotional. The verb chanan may also carry the sense 'give them a foothold' (from chen, 'camp'), adding territorial exclusion to the prohibition."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֵרֶם",
+          "transliteration": "cherem",
+          "rendered_as": "devote to destruction",
+          "semantic_range": "ban, devoted thing, total destruction, consecrated to God for annihilation",
+          "note": "Cherem denotes irrevocable dedication to God — in warfare, this meant total destruction. Nothing under cherem could be kept for personal use; it was wholly given over to the divine realm."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְלֹ֥א תִתְחַתֵּ֖ן בָּ֑ם בִּתְּךָ֙ לֹא־תִתֵּ֣ן לִבְנ֔וֹ וּבִתּ֖וֹ לֹא־תִקַּ֥ח לִבְנֶֽךָ׃",
+      "text_kjv": "Neither shalt thou make marriages with them; thy daughter thou shalt not give unto his son, nor his daughter shalt thou take unto thy son.",
+      "rendering": "You must not intermarry with them — do not give your daughters to their sons, and do not take their daughters for your sons.",
+      "translator_notes": [
+        "The verb titchatten ('to become a son-in-law, form marriage alliance') is a hitpael reflexive, signaling a reciprocal binding relationship. Marriage alliances in the ancient Near East functioned as political treaties, binding families and their gods. The prohibition is structured chiastically — daughter to his son / his daughter to your son — covering both directions of intermarriage and closing every avenue of assimilation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "כִּֽי־יָסִ֤יר אֶת־בִּנְךָ֙ מֵֽאַחֲרַ֔י וְעָבְד֖וּ אֱלֹהִ֣ים אֲחֵרִ֑ים וְחָרָ֤ה אַף־יְהֹוָה֙ בָּכֶ֔ם וְהִשְׁמִידְךָ֖ מַהֵֽר׃",
+      "text_kjv": "For they will turn away thy son from following me, that they may serve other gods: so will the anger of the LORD be kindled against you, and destroy thee suddenly.",
+      "rendering": "Because they will turn your sons away from following Me, and they will worship other gods. Then the anger of the LORD will blaze against you, and He will swiftly destroy you.",
+      "translator_notes": [
+        "Moses abruptly speaks in God's first person — me'acharai ('from after Me') — a jarring shift that underscores the personal nature of the betrayal. The verb yasir ('turn aside') paired with ve'avdu ('and they will serve') reveals intermarriage as a gateway to idolatry. The phrase vecharah af-YHWH ('the anger of the LORD will burn') uses the fire metaphor for divine wrath, and maher ('quickly, suddenly') warns that judgment will be swift."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כִּֽי־אִם־כֹּ֤ה תַעֲשׂוּ֙ לָהֶ֔ם מִזְבְּחֹתֵיהֶ֣ם תִּתֹּ֔צוּ וּמַצֵּבֹתָ֖ם תְּשַׁבֵּ֑רוּ וַאֲשֵֽׁירֵהֶם֙ תְּגַדֵּע֔וּן וּפְסִילֵיהֶ֖ם תִּשְׂרְפ֥וּן בָּאֵֽשׁ׃",
+      "text_kjv": "But thus shall ye deal with them; ye shall destroy their altars, and break down their images, and cut down their groves, and burn their graven images with fire.",
+      "rendering": "Instead, this is how you must deal with them: tear down their altars, smash their sacred pillars, chop down their Asherah poles, and burn their carved idols in fire.",
+      "translator_notes": [
+        "Four distinct cult objects receive four distinct destructions: mizbechoteihem titotsu ('their altars you shall tear down'), matsevotam teshabberu ('their pillars you shall shatter'), asheireihem tegadde'un ('their Asherah-poles you shall cut down'), and pesileihem tisrefu ba'esh ('their carved images you shall burn in fire'). Each verb matches its object — stone altars are demolished, standing stones shattered, wooden poles hewn, and carved idols consumed. The comprehensiveness eliminates any possibility of repurposing Canaanite worship infrastructure."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֲשֵׁירָה",
+          "transliteration": "asherah",
+          "rendered_as": "Asherah poles",
+          "semantic_range": "sacred pole, cult object, wooden symbol of the goddess Asherah",
+          "note": "The asherah was a wooden pole or stylized tree representing the Canaanite fertility goddess. Its presence at worship sites posed the most persistent temptation to syncretism throughout Israel's history."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "כִּ֣י עַ֤ם קָדוֹשׁ֙ אַתָּ֔ה לַיהֹוָ֖ה אֱלֹהֶ֑יךָ בְּךָ֞ בָּחַ֣ר&thinsp;׀ יְהֹוָ֣ה אֱלֹהֶ֗יךָ לִהְי֥וֹת לוֹ֙ לְעַ֣ם סְגֻלָּ֔ה מִכֹּל֙ הָֽעַמִּ֔ים אֲשֶׁ֖ר עַל־פְּנֵ֥י הָאֲדָמָֽה׃",
+      "text_kjv": "For thou art an holy people unto the LORD thy God: the LORD thy God hath chosen thee to be a special people unto himself, above all people that are upon the face of the earth.",
+      "rendering": "For you are a people set apart for the LORD your God. The LORD your God has chosen you out of all the peoples on the face of the earth to be His treasured possession.",
+      "translator_notes": [
+        "Two foundational terms define Israel's identity: am qadosh ('holy people' — set apart, consecrated, belonging exclusively to God) and am segullah ('treasured people'). Segullah is a royal term — in Akkadian, sikiltum refers to a king's private treasure, personal property held apart from the general treasury. Israel is not merely God's subjects but His personal, prized possession. The verb bachar ('chose') emphasizes divine initiative — election originates in God's will, not Israel's merit."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "סְגֻלָּה",
+          "transliteration": "segullah",
+          "rendered_as": "treasured possession",
+          "semantic_range": "valued property, private treasure, special possession, personal wealth",
+          "note": "Segullah denotes a king's personal treasure — distinct from national assets. Applied to Israel, it means God holds this people as His own private possession, valued above all others."
+        },
+        {
+          "hebrew": "קָדוֹשׁ",
+          "transliteration": "qadosh",
+          "rendered_as": "set apart",
+          "semantic_range": "holy, sacred, consecrated, separated, devoted",
+          "note": "Qadosh means separated from the common for exclusive divine use. Israel's holiness is not moral achievement but positional status — they belong to God alone."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "לֹ֣א מֵֽרֻבְּכֶ֞ם מִכׇּל־הָֽעַמִּ֗ים חָשַׁ֧ק יְהֹוָ֛ה בָּכֶ֖ם וַיִּבְחַ֣ר בָּכֶ֑ם כִּֽי־אַתֶּ֥ם הַמְעַ֖ט מִכׇּל־הָעַמִּֽים׃",
+      "text_kjv": "The LORD did not set his love upon you, nor choose you, because ye were more in number than any people; for ye were the fewest of all people:",
+      "rendering": "It was not because you were more numerous than other peoples that the LORD set His affection on you and chose you — for you were the smallest of all peoples.",
+      "translator_notes": [
+        "The verb chashaq ('to be attached to, desire, set one's affection on') conveys intense emotional attachment, even romantic longing (cf. Genesis 34:8). God's election of Israel is not administrative but passionate. The reason given is counter-intuitive: ki-attem hame'at mikkol-ha'ammim ('because you were the fewest of all the peoples'). Israel's smallness, far from disqualifying them, highlights that divine choice rests on grace alone, not on demographic or strategic advantage."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חָשַׁק",
+          "transliteration": "chashaq",
+          "rendered_as": "set His affection",
+          "semantic_range": "to desire, be attached to, long for, love deeply, delight in",
+          "note": "Chashaq is a verb of intense emotional bonding, used for personal desire and attachment. God's choosing of Israel is depicted not as calculated selection but as passionate love."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "כִּי֩ מֵאַהֲבַ֨ת יְהֹוָ֜ה אֶתְכֶ֗ם וּמִשׇּׁמְר֤וֹ אֶת־הַשְּׁבֻעָה֙ אֲשֶׁ֤ר נִשְׁבַּע֙ לַאֲבֹ֣תֵיכֶ֔ם הוֹצִ֧יא יְהֹוָ֛ה אֶתְכֶ֖ם בְּיָ֣ד חֲזָקָ֑ה וַֽיִּפְדְּךָ֙ מִבֵּ֣ית עֲבָדִ֔ים מִיַּ֖ד פַּרְעֹ֥ה מֶֽלֶךְ־מִצְרָֽיִם׃",
+      "text_kjv": "But because the LORD loved you, and because he would keep the oath which he had sworn unto your fathers, hath the LORD brought you out with a mighty hand, and redeemed you out of the house of bondmen, from the hand of Pharaoh king of Egypt.",
+      "rendering": "Rather, it was because the LORD loves you and is keeping the oath He swore to your ancestors that He brought you out with a powerful hand and ransomed you from the slave house, from the grip of Pharaoh king of Egypt.",
+      "translator_notes": [
+        "Two motivations drive the exodus: me'ahavat YHWH ('from the LORD's love') and umishamro et-hashvu'ah ('from His keeping the oath'). Love and covenant faithfulness are the twin engines of redemption. The verb padah ('ransom, redeem') specifically denotes liberation by payment of a price — Israel was purchased out of slavery. The phrase mibbeit avadim ('from the house of slaves') recurs as a liturgical anchor throughout Deuteronomy, keeping the memory of bondage alive."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "פָּדָה",
+          "transliteration": "padah",
+          "rendered_as": "ransomed",
+          "semantic_range": "to ransom, redeem, rescue, deliver by paying a price",
+          "note": "Padah implies liberation through the payment of a cost. God's redemption of Israel from Egypt was not free — it required the plagues, the firstborn, and divine intervention that cost Egypt dearly."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְיָ֣דַעְתָּ֔ כִּֽי־יְהֹוָ֥ה אֱלֹהֶ֖יךָ ה֣וּא הָֽאֱלֹהִ֑ים הָאֵל֙ הַֽנֶּאֱמָ֔ן שֹׁמֵ֧ר הַבְּרִ֣ית וְהַחֶ֗סֶד לְאֹהֲבָ֛יו וּלְשֹׁמְרֵ֥י מִצְוֺתָ֖ו לְאֶ֥לֶף דּֽוֹר׃",
+      "text_kjv": "Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations;",
+      "rendering": "Recognize, then, that the LORD your God — He is God, the trustworthy God who maintains covenant loyalty with those who love Him and keep His commands, to a thousand generations.",
+      "translator_notes": [
+        "The title ha'El hanne'eman ('the trustworthy God') uses ne'eman from the root aman ('to be firm, reliable') — the same root as 'amen.' God's faithfulness is structural, not sentimental. The phrase shomer habberit vehachesed ('keeper of covenant and loyal love') pairs berit (covenant obligation) with chesed (loyal, steadfast love that exceeds mere obligation). The scope — le'elef dor ('to a thousand generations') — is not literal arithmetic but a declaration of permanence: God's covenant loyalty far outlasts human rebellion."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "covenant loyalty",
+          "semantic_range": "loyal love, steadfast kindness, covenant faithfulness, mercy, lovingkindness",
+          "note": "Chesed is the relational glue of covenant — not mere emotion but committed, loyal action toward a covenant partner. It exceeds legal obligation, driven by devotion rather than duty."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וּמְשַׁלֵּ֧ם לְשֹׂנְאָ֛יו אֶל־פָּנָ֖יו לְהַאֲבִיד֑וֹ לֹ֤א יְאַחֵר֙ לְשֹׂ֣נְא֔וֹ אֶל־פָּנָ֖יו יְשַׁלֶּם־לֽוֹ׃",
+      "text_kjv": "And repayeth them that hate him to their face, to destroy them: he will not be slack to him that hateth him, he will repay him to his face.",
+      "rendering": "But He repays those who hate Him directly, to their face, by destroying them. He does not delay with anyone who hates Him — He repays each one personally.",
+      "translator_notes": [
+        "The phrase el-panav ('to his face') appears twice, stressing that divine retribution is direct and personal — not delegated or delayed. The verb meshallem ('repays') frames judgment as reciprocal justice: hatred toward God earns a proportional response. The emphatic lo ye'acher ('He will not delay') counters any presumption that silence equals tolerance. The contrast with verse 9 (a thousand generations of loyalty) against immediate repayment for hatred shows the asymmetry of God's justice: mercy is vast, judgment is swift."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְשָׁמַרְתָּ֨ אֶת־הַמִּצְוָ֜ה וְאֶת־הַֽחֻקִּ֣ים וְאֶת־הַמִּשְׁפָּטִ֗ים אֲשֶׁ֨ר אָנֹכִ֧י מְצַוְּךָ֛ הַיּ֖וֹם לַעֲשׂוֹתָֽם׃ {פ}",
+      "text_kjv": "Thou shalt therefore keep the commandments, and the statutes, and the judgments, which I command thee this day, to do them.",
+      "rendering": "So guard the commandment — the statutes and the regulations — that I am commanding you today, by carrying them out.",
+      "translator_notes": [
+        "The singular hammitsvah ('the commandment') followed by plural chuqqim ('statutes') and mishpatim ('regulations') suggests that the many laws form one unified directive. The verb shamarta ('you shall guard') implies watchful protection, not mere obedience — treat the law as something precious to be preserved. The phrase la'asotam ('to do them') grounds the guarding in action: obedience is not contemplative but practical."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְהָיָ֣ה&thinsp;׀ עֵ֣קֶב תִּשְׁמְע֗וּן אֵ֤ת הַמִּשְׁפָּטִים֙ הָאֵ֔לֶּה וּשְׁמַרְתֶּ֥ם וַעֲשִׂיתֶ֖ם אֹתָ֑ם וְשָׁמַר֩ יְהֹוָ֨ה אֱלֹהֶ֜יךָ לְךָ֗ אֶֽת־הַבְּרִית֙ וְאֶת־הַחֶ֔סֶד אֲשֶׁ֥ר נִשְׁבַּ֖ע לַאֲבֹתֶֽיךָ׃",
+      "text_kjv": "Wherefore it shall come to pass, if ye hearken to these judgments, and keep, and do them, that the LORD thy God shall keep unto thee the covenant and the mercy which he sware unto thy fathers:",
+      "rendering": "As a consequence of your listening to these regulations and carefully carrying them out, the LORD your God will maintain for you the covenant and the loyal love that He swore to your ancestors.",
+      "translator_notes": [
+        "The word eqev ('consequence, because, heel') opens a conditional promise. Some scholars link it to the 'heel' (aqev), suggesting something trodden underfoot — even the smallest, most overlooked regulations matter. The threefold response — tishme'un ('you will listen'), ushmartem ('and guard'), va'asitem ('and do') — mirrors the threefold law categories of verse 11. God's reciprocity is remarkable: veshamar YHWH ('the LORD will guard') uses the same verb for God's faithfulness that was demanded of Israel. As you guard, so He guards."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַאֲהֵ֣בְךָ֔ וּבֵרַכְךָ֖ וְהִרְבֶּ֑ךָ וּבֵרַ֣ךְ פְּרִֽי־בִטְנְךָ֣ וּפְרִֽי־אַ֠דְמָתֶ֠ךָ דְּגָ֨נְךָ֜ וְתִירֹשְׁךָ֣ וְיִצְהָרֶ֗ךָ שְׁגַר־אֲלָפֶ֙יךָ֙ וְעַשְׁתְּרֹ֣ת צֹאנֶ֔ךָ עַ֚ל הָֽאֲדָמָ֔ה אֲשֶׁר־נִשְׁבַּ֥ע לַאֲבֹתֶ֖יךָ לָ֥תֶת לָֽךְ׃",
+      "text_kjv": "And he will love thee, and bless thee, and multiply thee: he will also bless the fruit of thy womb, and the fruit of thy land, thy corn, and thy wine, and thine oil, the increase of thy kine, and the flocks of thy sheep, in the land which he sware unto thy fathers to give thee.",
+      "rendering": "He will love you, bless you, and multiply you. He will bless the fruit of your womb and the produce of your soil — your grain, new wine, and olive oil — the calves of your herds and the lambs of your flocks, in the land that He swore to your ancestors to give you.",
+      "translator_notes": [
+        "The rapid-fire verbs — va'ahevkha ('He will love you'), uverakhekha ('bless you'), vehirbekha ('multiply you') — cascade as covenant rewards. The blessings span human fertility (peri vitnekha, 'fruit of your womb'), agriculture (peri admatekha, 'produce of your soil'), and animal husbandry. The rare terms shegar alafekha ('increase of your cattle') and ashtarot tsonekha ('offspring of your flocks') may carry overtones reclaimed from Canaanite fertility religion — true abundance comes from YHWH, not from Baal or Ashtoreth."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "בָּר֥וּךְ תִּֽהְיֶ֖ה מִכׇּל־הָעַמִּ֑ים לֹא־יִהְיֶ֥ה בְךָ֛ עָקָ֥ר וַֽעֲקָרָ֖ה וּבִבְהֶמְתֶּֽךָ׃",
+      "text_kjv": "Thou shalt be blessed above all people: there shall not be male or female barren among you, or among your cattle.",
+      "rendering": "You will be more blessed than any other people. There will be no infertile man or woman among you, nor barrenness among your livestock.",
+      "translator_notes": [
+        "The blessing barukh tihyeh mikkol-ha'ammim ('blessed you will be above all peoples') positions Israel at the apex of human flourishing. The specific elimination of infertility — aqar va'aqarah ('barren male and barren female') — addresses one of the ancient world's deepest anxieties. Extending this promise to livestock (ubivhemtekha) links human and agricultural prosperity as a unified covenant blessing."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְהֵסִ֧יר יְהֹוָ֛ה מִמְּךָ֖ כׇּל־חֹ֑לִי וְכׇל־מַדְוֵי֩ מִצְרַ֨יִם הָרָעִ֜ים אֲשֶׁ֣ר יָדַ֗עְתָּ לֹ֤א יְשִׂימָם֙ בָּ֔ךְ וּנְתָנָ֖ם בְּכׇל־שֹׂנְאֶֽיךָ׃",
+      "text_kjv": "And the LORD will take away from thee all sickness, and will put none of the evil diseases of Egypt, which thou knowest, upon thee; but will lay them upon all them that hate thee.",
+      "rendering": "The LORD will remove every illness from you. He will not inflict on you any of the terrible diseases of Egypt that you experienced, but will impose them on all who hate you.",
+      "translator_notes": [
+        "The verb hesir ('remove, turn aside') presents God as physician who strips away disease. The phrase madwei mitsrayim hara'im ('the terrible diseases of Egypt') likely refers both to epidemics witnessed during the plagues and to endemic illnesses known in the Nile region. The word yadata ('you knew/experienced') is experiential — these were diseases they personally witnessed. The redirection of plague onto enemies (unatanam bekhol-son'ekha) reverses the exodus pattern: Israel's former afflictions become weapons against their adversaries."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְאָכַלְתָּ֣ אֶת־כׇּל־הָֽעַמִּ֗ים אֲשֶׁ֨ר יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ נֹתֵ֣ן לָ֔ךְ לֹא־תָח֥וֹס עֵֽינְךָ֖ עֲלֵיהֶ֑ם וְלֹ֤א תַעֲבֹד֙ אֶת־אֱלֹ֣הֵיהֶ֔ם כִּֽי־מוֹקֵ֥שׁ ה֖וּא לָֽךְ׃ {ס}",
+      "text_kjv": "And thou shalt consume all the people which the LORD thy God shall deliver thee; thine eye shall have no pity upon them: neither shalt thou serve their gods; for that will be a snare unto thee.",
+      "rendering": "You must consume all the peoples that the LORD your God is handing over to you. Your eye must not show pity on them. And do not worship their gods, for that would be a trap for you.",
+      "translator_notes": [
+        "The verb akhal ('devour, consume') is a metaphor for military conquest — Israel swallows up the nations as fire consumes fuel. The command lo-tachos einekha ('your eye must not show pity') addresses the natural human instinct toward compassion, which in this context would lead to compromise and idolatry. The final clause — ki moqesh hu lakh ('for it is a snare to you') — uses moqesh, a hunter's trap, to describe idol worship: what appears harmless ensnares fatally."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מוֹקֵשׁ",
+          "transliteration": "moqesh",
+          "rendered_as": "trap",
+          "semantic_range": "snare, trap, bait, lure, entanglement",
+          "note": "Moqesh is a fowler's snare — a hidden device that captures by deception. Canaanite religion is portrayed as looking attractive but leading to fatal entrapment."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "כִּ֤י תֹאמַר֙ בִּלְבָ֣בְךָ֔ רַבִּ֛ים הַגּוֹיִ֥ם הָאֵ֖לֶּה מִמֶּ֑נִּי אֵיכָ֥ה אוּכַ֖ל לְהוֹרִישָֽׁם׃",
+      "text_kjv": "If thou shalt say in thine heart, These nations are more than I; how can I dispossess them?",
+      "rendering": "If you say to yourself, 'These nations are more numerous than I am — how can I possibly dispossess them?' —",
+      "translator_notes": [
+        "Moses anticipates the internal dialogue of fear: tomar bilvavekha ('you will say in your heart') identifies the battlefield as psychological, not just military. The question eikhah ukhal lehorisham ('how can I dispossess them?') echoes the panic of the spies at Kadesh-barnea (Numbers 13:31). The verb horish ('dispossess, drive out') frames conquest as displacement, not annihilation — taking their place in the land."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "לֹ֥א תִירָ֖א מֵהֶ֑ם זָכֹ֣ר תִּזְכֹּ֗ר אֵ֤ת אֲשֶׁר־עָשָׂה֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ לְפַרְעֹ֖ה וּלְכׇל־מִצְרָֽיִם׃",
+      "text_kjv": "Thou shalt not be afraid of them: but shalt well remember what the LORD thy God did unto Pharaoh, and unto all Egypt;",
+      "rendering": "Do not be afraid of them. Keep firmly in mind what the LORD your God did to Pharaoh and to all of Egypt —",
+      "translator_notes": [
+        "The infinitive absolute zakhor tizkor ('remembering you shall remember') intensifies the command to remember. Memory is the antidote to fear: what God accomplished against the world's superpower (Pharaoh and all of Egypt) proves He can handle the Canaanite nations. The exodus functions as Israel's standing proof of divine capability — every future challenge is measured against that definitive act of liberation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "הַמַּסֹּ֨ת הַגְּדֹלֹ֜ת אֲשֶׁר־רָא֣וּ עֵינֶ֗יךָ וְהָאֹתֹ֤ת וְהַמֹּֽפְתִים֙ וְהַיָּ֤ד הַחֲזָקָה֙ וְהַזְּרֹ֣עַ הַנְּטוּיָ֔ה אֲשֶׁ֥ר הוֹצִֽאֲךָ֖ יְהֹוָ֣ה אֱלֹהֶ֑יךָ כֵּֽן־יַעֲשֶׂ֞ה יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ לְכׇל־הָ֣עַמִּ֔ים אֲשֶׁר־אַתָּ֥ה יָרֵ֖א מִפְּנֵיהֶֽם׃",
+      "text_kjv": "The great temptations which thine eyes saw, and the signs, and the wonders, and the mighty hand, and the stretched out arm, whereby the LORD thy God brought thee out: so shall the LORD thy God do unto all the people of whom thou art afraid.",
+      "rendering": "The great trials your own eyes witnessed, the signs and wonders, the powerful hand and outstretched arm by which the LORD your God brought you out — the LORD your God will do the same to all the peoples you now fear.",
+      "translator_notes": [
+        "The hammassot haggdolot ('the great trials/tests') may refer to the plagues as tests of both Egypt and Israel's faith. The fourfold description — otot ('signs'), mofetim ('wonders'), yad chazaqah ('strong hand'), zero'a netuyah ('outstretched arm') — is a standard Deuteronomic formula for the exodus. The climactic promise ken-ya'aseh ('so He will do') transforms history into prophecy: the same divine power that broke Egypt will break Canaan."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְגַם֙ אֶת־הַצִּרְעָ֔ה יְשַׁלַּ֛ח יְהֹוָ֥ה אֱלֹהֶ֖יךָ בָּ֑ם עַד־אֲבֹ֗ד הַנִּשְׁאָרִ֛ים וְהַנִּסְתָּרִ֖ים מִפָּנֶֽיךָ׃",
+      "text_kjv": "Moreover the LORD thy God will send the hornet among them, until they that are left, and hide themselves from thee, be destroyed.",
+      "rendering": "Beyond that, the LORD your God will send the hornet against them, until even the survivors who hide from you are wiped out.",
+      "translator_notes": [
+        "The tsirah ('hornet') may be literal (swarms driving out inhabitants), metaphorical (divine terror), or a reference to Egypt whose hieroglyphic symbol was a bee/hornet. The phrase hannish'arim vehannistarim ('those remaining and those hiding') covers both open resisters and guerrilla holdouts — no one escapes divine pursuit. God's campaign is comprehensive: military defeat, psychological terror, and ecological warfare all serve the conquest."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "צִרְעָה",
+          "transliteration": "tsirah",
+          "rendered_as": "hornet",
+          "semantic_range": "hornet, wasp, stinging insect, possibly metaphor for divine terror or Egypt",
+          "note": "Whether literal stinging insects or a metaphor for panic and demoralization, the tsirah represents God deploying nature itself as a weapon to clear the land of resisters."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "לֹ֥א תַעֲרֹ֖ץ מִפְּנֵיהֶ֑ם כִּֽי־יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ בְּקִרְבֶּ֔ךָ אֵ֥ל גָּד֖וֹל וְנוֹרָֽא׃",
+      "text_kjv": "Thou shalt not be affrighted at them: for the LORD thy God is among you, a mighty God and terrible.",
+      "rendering": "Do not be terrified by them, because the LORD your God is in your midst — a great and awesome God.",
+      "translator_notes": [
+        "The verb ta'arots ('be terrified, shudder') describes visceral, paralyzing fear. The antidote is not courage but presence: YHWH Elohekha beqirbekha ('the LORD your God is in your midst'). The divine titles El gadol venora ('a great and awesome God') redirect the terror — the One who inspires true awe is not the enemy but Israel's own God dwelling among them."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְנָשַׁל֩ יְהֹוָ֨ה אֱלֹהֶ֜יךָ אֶת־הַגּוֹיִ֥ם הָאֵ֛ל מִפָּנֶ֖יךָ מְעַ֣ט מְעָ֑ט לֹ֤א תוּכַל֙ כַּלֹּתָ֣ם מַהֵ֔ר פֶּן־תִּרְבֶּ֥ה עָלֶ֖יךָ חַיַּ֥ת הַשָּׂדֶֽה׃",
+      "text_kjv": "And the LORD thy God will put out those nations before thee by little and little: thou mayest not consume them at once, lest the beasts of the field increase upon thee.",
+      "rendering": "The LORD your God will drive out these nations ahead of you gradually, little by little. You will not be able to eliminate them all at once, or the wild animals would multiply against you.",
+      "translator_notes": [
+        "The phrase me'at me'at ('little by little') reveals a surprising strategy: conquest will be incremental, not instantaneous. The practical reason — pen-tirbeh alekha chayyat hasadeh ('lest the wild animals multiply against you') — shows that depopulated land quickly becomes wilderness. God's pace is ecological wisdom: Israel must grow into the land as it empties, maintaining the infrastructure of civilization. The gradual process also extends the period of faith-dependence."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וּנְתָנָ֛ם יְהֹוָ֥ה אֱלֹהֶ֖יךָ לְפָנֶ֑יךָ וְהָמָם֙ מְהוּמָ֣ה גְדֹלָ֔ה עַ֖ד הִשָּׁמְדָֽם׃",
+      "text_kjv": "But the LORD thy God shall deliver them unto thee, and shall destroy them with a mighty destruction, until they be destroyed.",
+      "rendering": "The LORD your God will hand them over to you and throw them into great confusion until they are annihilated.",
+      "translator_notes": [
+        "The verb hamam ('throw into confusion, panic, rout') is the same word used for God's disruption of the Egyptian army at the Red Sea (Exodus 14:24). The cognate accusative mehumah gedolah ('a great confusion') intensifies the panic to total disorientation — enemies who cannot think clearly cannot fight effectively. The pattern repeats: what God did to Egypt, He will do to Canaan."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְנָתַ֤ן מַלְכֵיהֶם֙ בְּיָדֶ֔ךָ וְהַאֲבַדְתָּ֣ אֶת־שְׁמָ֔ם מִתַּ֖חַת הַשָּׁמָ֑יִם לֹֽא־יִתְיַצֵּ֥ב אִישׁ֙ בְּפָנֶ֔יךָ עַ֥ד הִשְׁמִֽדְךָ֖ אֹתָֽם׃",
+      "text_kjv": "And he shall deliver their kings into thine hand, and thou shalt destroy their name from under heaven: there shall no man be able to stand before thee, until thou have destroyed them.",
+      "rendering": "He will deliver their kings into your hand, and you will erase their very names from under heaven. No one will be able to stand against you until you have destroyed them.",
+      "translator_notes": [
+        "Delivering kings into Israel's hand (natan malkeihem beyadekha) represents complete political collapse — when a king falls, his kingdom falls with him. The phrase veha'avadta et-shemam mittachat hashamayim ('you will destroy their name from under heaven') goes beyond military defeat to cultural erasure — their memory will be obliterated. The absolute claim lo-yityatsev ish befanekha ('no one will stand before you') is a divine guarantee of invincibility conditioned on obedience."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "פְּסִילֵ֥י אֱלֹהֵיהֶ֖ם תִּשְׂרְפ֣וּן בָּאֵ֑שׁ לֹֽא־תַחְמֹד֩ כֶּ֨סֶף וְזָהָ֤ב עֲלֵיהֶם֙ וְלָקַחְתָּ֣ לָ֔ךְ פֶּ֚ן תִּוָּקֵ֣שׁ בּ֔וֹ כִּ֧י תוֹעֲבַ֛ת יְהֹוָ֥ה אֱלֹהֶ֖יךָ הֽוּא׃",
+      "text_kjv": "The graven images of their gods shall ye burn with fire: thou shalt not desire the silver or gold that is on them, nor take it unto thee, lest thou be snared therein: for it is an abomination to the LORD thy God.",
+      "rendering": "You must burn the carved images of their gods in fire. Do not covet the silver and gold plating on them or take it for yourself, or you will be ensnared by it — for it is detestable to the LORD your God.",
+      "translator_notes": [
+        "The prohibition shifts from military to economic: lo-tachamod kesef vezahav aleihem ('do not covet the silver and gold on them') uses the same verb as the tenth commandment (tachamod, 'covet'). Greed provides a backdoor for idolatry — keeping the precious metals from idols brings the idol's contamination into Israel's economy. The word to'avat YHWH ('an abomination to the LORD') marks this as categorically repulsive to God, not merely prohibited. The warning pen tivvaqesh bo ('lest you be ensnared by it') echoes the moqesh ('trap') of verse 16."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְלֹא־תָבִ֤יא תֽוֹעֵבָה֙ אֶל־בֵּיתֶ֔ךָ וְהָיִ֥יתָ חֵ֖רֶם כָּמֹ֑הוּ שַׁקֵּ֧ץ&thinsp;׀&thinsp;תְּשַׁקְּצֶ֛נּוּ וְתַעֵ֥ב&thinsp;׀&thinsp;תְּֽתַעֲבֶ֖נּוּ כִּי־חֵ֥רֶם הֽוּא׃ {פ}",
+      "text_kjv": "Neither shalt thou bring an abomination into thine house, lest thou be a cursed thing like it: but thou shalt utterly detest it, and thou shalt utterly abhor it; for it is a cursed thing.",
+      "rendering": "Do not bring any detestable thing into your house, or you yourself will become devoted to destruction just like it. You must utterly despise it and completely abhor it, because it is under the ban.",
+      "translator_notes": [
+        "The contagion principle is stark: bringing a to'evah ('detestable thing') into your home makes vehayita cherem kamohu ('you will become cherem like it') — the ban is infectious. Contact with devoted objects places the person under the same sentence of destruction. The twin infinitive absolutes shaqets teshaqtsennu ('despising you shall despise it') and ta'ev teta'avennu ('abhorring you shall abhor it') demand visceral revulsion, not mere avoidance. The chapter ends where it began — with cherem — framing all of chapter 7 as a meditation on radical separation."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹעֵבָה",
+          "transliteration": "to'evah",
+          "rendered_as": "detestable thing",
+          "semantic_range": "abomination, abhorrent practice, ritually repulsive object, something morally disgusting",
+          "note": "To'evah denotes what is fundamentally offensive to God's nature and order. Used here for idolatrous objects, it marks them as incompatible with God's presence — they cannot coexist in the same space."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

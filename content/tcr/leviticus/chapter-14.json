@@ -1,0 +1,636 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Leviticus",
+    "chapter": 14,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses, saying,",
+      "rendering": "The LORD spoke to Moses, saying:",
+      "translator_notes": [
+        "Unlike Leviticus 13:1, Aaron is not addressed here — only Moses. The purification ritual that follows involves sacrificial elements that require Moses's legislative authority, while the diagnostic instructions of chapter 13 required Aaron's priestly diagnostic role."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "זֹ֤את תִּֽהְיֶה֙ תּוֹרַ֣ת הַמְּצֹרָ֔ע בְּי֖וֹם טׇהֳרָת֑וֹ וְהוּבָ֖א אֶל־הַכֹּהֵֽן׃",
+      "text_kjv": "This shall be the law of the leper in the day of his cleansing: He shall be brought unto the priest:",
+      "rendering": "This shall be the instruction for the person with skin disease on the day of his purification. He shall be brought to the priest.",
+      "translator_notes": [
+        "The phrase torat hametsora ('instruction for the person with tsara'at') uses torah in its technical sense — a specific procedural ruling. The word metsora is the participial form of tsara'at, describing someone in a state of skin disease. The phrase beyom tohorato ('on the day of his purification') signals that healing has already occurred; what follows is the ritual restoration of the person's status from tamei to tahor — from exclusion to reintegration."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מְצֹרָע",
+          "transliteration": "metsora",
+          "rendered_as": "person with skin disease",
+          "semantic_range": "leprous person, one afflicted with tsara'at, person with skin disease",
+          "note": "The metsora is not a medical patient receiving treatment but a person whose ritual status is being restored. The priest does not heal — God heals. The priest confirms the healing and administers the ritual that transitions the person from impurity back to the community and to God's presence."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְיָצָא֙ הַכֹּהֵ֔ן אֶל־מִח֖וּץ לַֽמַּחֲנֶ֑ה וְרָאָה֙ הַכֹּהֵ֔ן וְהִנֵּ֛ה נִרְפָּ֥א נֶֽגַע־הַצָּרַ֖עַת מִן־הַצָּרֽוּעַ׃",
+      "text_kjv": "And the priest shall go forth out of the camp; and the priest shall look, and, behold, if the plague of leprosy be healed in the leper;",
+      "rendering": "The priest shall go out to a place outside the camp and examine the person. If the skin disease infection has healed in the person with the disease,",
+      "translator_notes": [
+        "The priest goes out to the person — the person cannot come in, since they are still tamei and excluded from the camp (13:46). The verb nirpa ('has healed') is passive — the healing has happened, and the priest confirms it. The priest does not perform the healing; he verifies it and initiates the ritual of restoration. This going-out of the priest to meet the excluded person is a striking image of the purity system's restorative purpose."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְצִוָּה֙ הַכֹּהֵ֔ן וְלָקַ֧ח לַמִּטַּהֵ֛ר שְׁתֵּֽי־צִפֳּרִ֥ים חַיּ֖וֹת טְהֹר֑וֹת וְעֵ֣ץ אֶ֔רֶז וּשְׁנִ֥י תוֹלַ֖עַת וְאֵזֹֽב׃",
+      "text_kjv": "Then shall the priest command to take for him that is to be cleansed two birds alive and clean, and cedar wood, and scarlet, and hyssop:",
+      "rendering": "the priest shall order that two live, clean birds be taken for the one being purified, along with cedar wood, scarlet yarn, and hyssop.",
+      "translator_notes": [
+        "The purification materials are rich in symbolism: two living birds (tsipporim chayyot tehorot — living and ritually clean), cedar wood (ets erez — aromatic, decay-resistant), scarlet yarn (sheni tola'at — literally 'scarlet of the worm,' a deep red dye), and hyssop (ezov — a small aromatic plant used for sprinkling). The same combination appears in the red heifer ritual (Numbers 19:6). The use of two birds — one killed, one released alive — creates a ritual pairing unique to purification ceremonies."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְצִוָּה֙ הַכֹּהֵ֔ן וְשָׁחַ֖ט אֶת־הַצִּפּ֣וֹר הָאֶחָ֑ת אֶל־כְּלִי־חֶ֖רֶשׂ עַל־מַ֥יִם חַיִּֽים׃",
+      "text_kjv": "And the priest shall command that one of the birds be killed in an earthen vessel over running water:",
+      "rendering": "The priest shall command that one of the birds be slaughtered over an earthenware vessel containing fresh water.",
+      "translator_notes": [
+        "The first bird is slaughtered (shachat — the technical term for ritual killing) over a clay vessel filled with mayim chayyim ('living water' — fresh, flowing water as opposed to stagnant water). The combination of blood and living water in the vessel creates the purification medium. The earthenware vessel (keli cheres) is unglazed clay, which absorbs the blood-water mixture and cannot be reused for ordinary purposes."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "אֶת־הַצִּפֹּ֤ר הַֽחַיָּה֙ יִקַּ֣ח אֹתָ֔הּ וְאֶת־עֵ֥ץ הָאֶ֛רֶז וְאֶת־שְׁנִ֥י הַתּוֹלַ֖עַת וְאֶת־הָאֵזֹ֑ב וְטָבַ֨ל אוֹתָ֜ם וְאֵ֣ת׀ הַצִּפֹּ֣ר הַֽחַיָּ֗ה בְּדַם֙ הַצִּפֹּ֣ר הַשְּׁחֻטָ֔ה עַ֖ל הַמַּ֥יִם הַֽחַיִּֽים׃",
+      "text_kjv": "As for the living bird, he shall take it, and the cedar wood, and the scarlet, and the hyssop, and shall dip them and the living bird in the blood of the bird that was killed over the running water:",
+      "rendering": "He shall take the living bird along with the cedar wood, the scarlet yarn, and the hyssop, and dip them — including the living bird — in the blood of the slaughtered bird mixed with the fresh water.",
+      "translator_notes": [
+        "The living bird, cedar wood, scarlet yarn, and hyssop are all dipped together in the blood-water mixture. The living bird absorbs the symbolic contamination through this dipping — it will carry the impurity away when released (v 7), similar in concept to the scapegoat of Yom Kippur (16:21-22) that carries Israel's sins into the wilderness."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְהִזָּ֗ה עַ֧ל הַמִּטַּהֵ֛ר מִן־הַצָּרַ֖עַת שֶׁ֣בַע פְּעָמִ֑ים וְטִ֣הֲר֔וֹ וְשִׁלַּ֛ח אֶת־הַצִּפֹּ֥ר הַֽחַיָּ֖ה עַל־פְּנֵ֥י הַשָּׂדֶֽה׃",
+      "text_kjv": "And he shall sprinkle upon him that is to be cleansed from the leprosy seven times, and shall pronounce him clean, and shall let the living bird loose into the open field.",
+      "rendering": "He shall sprinkle it seven times on the one being purified from the skin disease, and shall declare him clean. Then he shall release the living bird over the open field.",
+      "translator_notes": [
+        "The sevenfold sprinkling (hizzah sheva pe'amim) is a purification act — seven being the number of completeness. The priest then declares the person tahor ('clean') — the first verbal restoration of status. The release of the living bird (shillach) into the open field (al penei hasadeh) carries the impurity away from the person and from the camp. This entire ritual takes place outside the camp; the person is not yet fully restored."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְכִבֶּס֩ הַמִּטַּהֵ֨ר אֶת־בְּגָדָ֜יו וְגִלַּ֣ח אֶת־כׇּל־שְׂעָר֗וֹ וְרָחַ֤ץ בַּמַּ֙יִם֙ וְטָהֵ֔ר וְאַחַ֖ר יָב֣וֹא אֶל־הַֽמַּחֲנֶ֑ה וְיָשַׁ֛ב מִח֥וּץ לְאׇהֳל֖וֹ שִׁבְעַ֥ת יָמִֽים׃",
+      "text_kjv": "And he that is to be cleansed shall wash his clothes, and shave off all his hair, and wash himself in water, that he may be clean: and after that he shall come into the camp, and shall tarry abroad out of his tent seven days.",
+      "rendering": "The one being purified shall wash his clothes, shave off all his hair, and bathe in water, and he will be clean. After that he may enter the camp, but he shall stay outside his tent for seven days.",
+      "translator_notes": [
+        "Three purification acts are required of the person: washing garments, complete shaving (gillach et kol se'aro — all hair, not just head hair), and immersion in water. The total shaving symbolizes a fresh start — the person emerges from the water as if newly born, without the hair that grew during the period of impurity. He may re-enter the camp but not yet his own tent, creating a transitional period between exclusion and full restoration."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְהָיָה֩ בַיּ֨וֹם הַשְּׁבִיעִ֜י יְגַלַּ֣ח אֶת־כׇּל־שְׂעָר֗וֹ אֶת־רֹאשׁ֤וֹ וְאֶת־זְקָנוֹ֙ וְאֵת֙ גַּבֹּ֣ת עֵינָ֔יו וְאֶת־כׇּל־שְׂעָר֖וֹ יְגַלֵּ֑חַ וְכִבֶּ֣ס אֶת־בְּגָדָ֗יו וְרָחַ֧ץ אֶת־בְּשָׂר֛וֹ בַּמַּ֖יִם וְטָהֵֽר׃",
+      "text_kjv": "But it shall be on the seventh day, that he shall shave all his hair off his head and his beard and his eyebrows, even all his hair he shall shave off: and he shall wash his clothes, also he shall wash his flesh in water, and he shall be clean.",
+      "rendering": "On the seventh day he shall shave off all his hair — his head, his beard, his eyebrows — all his hair he shall shave off. He shall wash his clothes and bathe his body in water, and he will be clean.",
+      "translator_notes": [
+        "A second complete shaving occurs on the seventh day, explicitly listing the areas: head (ro'sho), beard (zeqano), eyebrows (gabbat einav), and all remaining hair. The comprehensive list — 'all his hair he shall shave' repeated for emphasis — ensures nothing from the period of impurity remains. This second shaving, combined with garment washing and immersion, prepares the person for the sacrificial ritual on day eight."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וּבַיּ֣וֹם הַשְּׁמִינִ֗י יִקַּ֤ח שְׁנֵֽי־כְבָשִׂים֙ תְּמִימִ֔ם וְכַבְשָׂ֥ה אַחַ֛ת בַּת־שְׁנָתָ֖הּ תְּמִימָ֑ה וּשְׁלֹשָׁ֣ה עֶשְׂרֹנִ֗ים סֹ֤לֶת מִנְחָה֙ בְּלוּלָ֣ה בַשֶּׁ֔מֶן וְלֹ֥ג אֶחָ֖ד שָֽׁמֶן׃",
+      "text_kjv": "And on the eighth day he shall take two he lambs without blemish, and one ewe lamb of the first year without blemish, and three tenth deals of fine flour for a meat offering, mingled with oil, and one log of oil.",
+      "rendering": "On the eighth day he shall take two male lambs without defect, one yearling female lamb without defect, three-tenths of an ephah of fine flour mixed with oil as a grain offering, and one log of oil.",
+      "translator_notes": [
+        "The eighth-day offerings are substantial: two male lambs (for the guilt offering and the burnt offering), one female lamb (for the sin offering), fine flour with oil (for the grain offering), and a separate log of oil (for the anointing ritual). The Hebrew temimim ('without defect') is the standard sacrificial requirement — only unblemished animals are fit for offering. Three of the five offering types from Leviticus 1-7 appear here: asham (guilt offering), chata't (sin offering), and olah (burnt offering), along with the minchah (grain offering).",
+        "A log (approximately 0.3 liters or about two-thirds of a pint) is the smallest liquid measure in the Hebrew system. This oil will be used in the distinctive anointing ritual of verses 14-18."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְהֶעֱמִ֞יד הַכֹּהֵ֣ן הַֽמְטַהֵ֗ר אֵ֛ת הָאִ֥ישׁ הַמִּטַּהֵ֖ר וְאֹתָ֑ם לִפְנֵ֣י יְהֹוָ֔ה פֶּ֖תַח אֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "And the priest that maketh him clean shall present the man that is to be made clean, and those things, before the LORD, at the door of the tabernacle of the congregation:",
+      "rendering": "The priest who performs the purification shall present the person being purified, together with the offerings, before the LORD at the entrance of the tent of meeting.",
+      "translator_notes": [
+        "The person now stands at the entrance of the tent of meeting (petach ohel mo'ed) — the threshold between the common space of the camp and the sacred space of the tabernacle. This is as close to God's presence as the person can come at this stage. The priest 'stands him' (he'emid) there — the language is formal and ceremonial. The phrase lifnei YHWH ('before the LORD') marks this as a formal appearance in God's presence."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְלָקַ֨ח הַכֹּהֵ֜ן אֶת־הַכֶּ֣בֶשׂ הָאֶחָ֗ד וְהִקְרִ֥יב אֹת֛וֹ לְאָשָׁ֖ם וְאֶת־לֹ֣ג הַשָּׁ֑מֶן וְהֵנִ֥יף אֹתָ֛ם תְּנוּפָ֖ה לִפְנֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "And the priest shall take one he lamb, and offer him for a trespass offering, and the log of oil, and wave them for a wave offering before the LORD:",
+      "rendering": "The priest shall take one of the male lambs and present it as a guilt offering, along with the log of oil, and elevate them as a wave offering before the LORD.",
+      "translator_notes": [
+        "The guilt offering (asham) is offered first — before the sin offering and burnt offering. The asham addresses specific trespass or violation; in this context, the person's impurity has kept them from fulfilling their obligations to God, and the asham compensates for that loss. The wave offering (tenufah — a ritual elevation or movement before the LORD) presents the offering to God before the actual sacrifice. The combination of asham and oil is unique to this purification rite."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אָשָׁם",
+          "transliteration": "asham",
+          "rendered_as": "guilt offering",
+          "semantic_range": "guilt offering, reparation offering, trespass offering, compensation",
+          "note": "The asham is the offering that addresses specific wrongs requiring compensation. In the purification of a person with skin disease, the asham may address the 'debt' incurred during the period of exclusion — sacred obligations unfulfilled, tithes unpaid, worship missed. The offering restores what impurity has taken away."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְשָׁחַ֣ט אֶת־הַכֶּ֗בֶשׂ בִּ֠מְק֠וֹם אֲשֶׁ֨ר יִשְׁחַ֧ט אֶת־הַֽחַטָּ֛את וְאֶת־הָעֹלָ֖ה בִּמְק֣וֹם הַקֹּ֑דֶשׁ כִּ֡י כַּ֠חַטָּ֠את הָאָשָׁ֥ם הוּא֙ לַכֹּהֵ֔ן קֹ֥דֶשׁ קׇֽדָשִׁ֖ים הֽוּא׃",
+      "text_kjv": "And he shall slay the lamb in the place where he shall kill the sin offering and the burnt offering, in the holy place: for as the sin offering is the priest's, so is the trespass offering: it is most holy:",
+      "rendering": "He shall slaughter the lamb in the place where the sin offering and the burnt offering are slaughtered, in the holy area. For like the sin offering, the guilt offering belongs to the priest — it is most holy.",
+      "translator_notes": [
+        "The guilt offering lamb is slaughtered in the same sacred area (maqom haqqodesh) as the sin offering and burnt offering — the north side of the altar (cf. 1:11, 4:24, 7:2). The classification qodesh qodashim ('most holy') means this offering has the highest sanctity level — only the priests may eat of it, and only within the sacred precincts. The parallel to the sin offering (kachata't ha'asham) establishes that both offerings serve a similar function in restoring the person's relationship to the sacred."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְלָקַ֣ח הַכֹּהֵן֮ מִדַּ֣ם הָאָשָׁם֒ וְנָתַן֙ הַכֹּהֵ֔ן עַל־תְּנ֛וּךְ אֹ֥זֶן הַמִּטַּהֵ֖ר הַיְמָנִ֑ית וְעַל־בֹּ֤הֶן יָדוֹ֙ הַיְמָנִ֔ית וְעַל־בֹּ֥הֶן רַגְל֖וֹ הַיְמָנִֽית׃",
+      "text_kjv": "And the priest shall take some of the blood of the trespass offering, and the priest shall put it upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot:",
+      "rendering": "The priest shall take some of the blood of the guilt offering and put it on the lobe of the right ear of the one being purified, on the thumb of his right hand, and on the big toe of his right foot.",
+      "translator_notes": [
+        "The blood-application ritual — right ear lobe (tenukh ozen), right thumb (bohen yad), right big toe (bohen regel) — is identical to the priestly ordination ceremony in Exodus 29:20 and Leviticus 8:23-24. The healed person undergoes a ceremony structurally parallel to a priest being consecrated: both are being set apart for restored access to God's presence. The three extremities symbolize the whole person: hearing (ear), doing (hand), and walking (foot) — the person's entire life is reconsecrated."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְלָקַ֥ח הַכֹּהֵ֖ן מִלֹּ֣ג הַשָּׁ֑מֶן וְיָצַ֛ק עַל־כַּ֥ף הַכֹּהֵ֖ן הַשְּׂמָאלִֽית׃",
+      "text_kjv": "And the priest shall take some of the log of oil, and pour it into the palm of his own left hand:",
+      "rendering": "The priest shall take some of the log of oil and pour it into his own left palm.",
+      "translator_notes": [
+        "The priest's left hand becomes a vessel for the oil, freeing the right hand (the dominant hand) for the application ritual that follows. The careful choreography of the priest's hands throughout this passage reflects the precision required in sacred ritual — each movement has a designated purpose."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְטָבַ֤ל הַכֹּהֵן֙ אֶת־אֶצְבָּע֣וֹ הַיְמָנִ֔ית מִן־הַשֶּׁ֕מֶן אֲשֶׁ֥ר עַל־כַּפּ֖וֹ הַשְּׂמָאלִ֑ית וְהִזָּ֨ה מִן־הַשֶּׁ֧מֶן בְּאֶצְבָּע֛וֹ שֶׁ֥בַע פְּעָמִ֖ים לִפְנֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "And the priest shall dip his right finger in the oil that is in his left hand, and shall sprinkle of the oil with his finger seven times before the LORD:",
+      "rendering": "The priest shall dip his right finger in the oil that is in his left palm and sprinkle some of the oil with his finger seven times before the LORD.",
+      "translator_notes": [
+        "The sevenfold sprinkling of oil before the LORD parallels the sevenfold sprinkling of the blood-water mixture in verse 7. Oil in the Levitical system represents consecration and the Spirit's anointing — it is applied to priests at ordination (8:12), to the tabernacle furniture, and here to the person being restored. The oil sprinkling is directed lifnei YHWH ('before the LORD'), toward the sacred space."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וּמִיֶּ֨תֶר הַשֶּׁ֜מֶן אֲשֶׁ֣ר עַל־כַּפּ֗וֹ יִתֵּ֤ן הַכֹּהֵן֙ עַל־תְּנ֞וּךְ אֹ֤זֶן הַמִּטַּהֵר֙ הַיְמָנִ֔ית וְעַל־בֹּ֤הֶן יָדוֹ֙ הַיְמָנִ֔ית וְעַל־בֹּ֥הֶן רַגְל֖וֹ הַיְמָנִ֑ית עַ֖ל דַּ֥ם הָאָשָֽׁם׃",
+      "text_kjv": "And of the rest of the oil that is in his hand shall the priest put upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot, upon the blood of the trespass offering:",
+      "rendering": "From the remaining oil in his palm, the priest shall put some on the lobe of the right ear of the one being purified, on the thumb of his right hand, and on the big toe of his right foot — on top of the blood of the guilt offering.",
+      "translator_notes": [
+        "The oil is placed on the same three points as the blood (v 14) — right ear, right thumb, right big toe — but explicitly on top of the blood (al dam ha'asham). The layering is significant: blood first, then oil. Blood addresses the ritual contamination; oil consecrates and restores. The sequence moves from purification to sanctification — from removing impurity to adding holiness."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְהַנּוֹתָ֗ר בַּשֶּׁ֙מֶן֙ אֲשֶׁר֙ עַל־כַּ֣ף הַכֹּהֵ֔ן יִתֵּ֖ן עַל־רֹ֣אשׁ הַמִּטַּהֵ֑ר וְכִפֶּ֥ר עָלָ֛יו הַכֹּהֵ֖ן לִפְנֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "And the remnant of the oil that is in the priest's hand he shall pour upon the head of him that is to be cleansed: and the priest shall make an atonement for him before the LORD.",
+      "rendering": "The rest of the oil that is in the priest's palm he shall put on the head of the one being purified. And the priest shall make atonement for him before the LORD.",
+      "expanded_rendering": "The Hebrew kipper ('make atonement') here describes not the forgiveness of a sin but the covering and restoration of a person whose impurity has separated them from God's presence. The atonement ritual does not treat the person as a sinner — the disease was not their fault — but addresses the ritual gap that impurity has opened between the person and the holy God who dwells among Israel. Atonement here is the bridge that closes that gap.",
+      "translator_notes": [
+        "The remaining oil is poured on the person's head (al rosh hamittaher), completing the anointing — an act associated with kings, priests, and the consecration of sacred objects. The kippur formula appears here for the first time in this chapter: vekipper alav hakohen lifnei YHWH ('the priest shall make atonement for him before the LORD'). In this context, atonement restores ritual status rather than addressing moral sin.",
+        "The parallel to priestly ordination (Exodus 29, Leviticus 8) is now complete: the healed person has undergone blood application to ear, thumb, and toe (like a new priest) and oil anointing on the head (like a new king). The person with skin disease is restored not merely to ordinary status but through a ceremony that echoes the most sacred consecration rituals in Israel."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כִּפֶּר",
+          "transliteration": "kipper",
+          "rendered_as": "make atonement",
+          "semantic_range": "to cover, to atone, to make reconciliation, to ransom, to purge",
+          "note": "In the purification of skin disease, kippur covers the ritual breach caused by impurity, not moral guilt. The person's impurity has created a separation from God's presence — atonement closes that separation. The root k-p-r ('to cover') carries the sense of covering over the contamination so it is no longer a barrier between the person and God."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְעָשָׂ֤ה הַכֹּהֵן֙ אֶת־הַ֣חַטָּ֔את וְכִפֶּ֕ר עַל־הַמִּטַּהֵ֖ר מִטֻּמְאָת֑וֹ וְאַחַ֖ר יִשְׁחַ֥ט אֶת־הָעֹלָֽה׃",
+      "text_kjv": "And the priest shall offer the sin offering, and make an atonement for him that is to be cleansed from his uncleanness; and afterward he shall kill the burnt offering:",
+      "rendering": "The priest shall offer the sin offering and make atonement for the one being purified from his impurity. After that, he shall slaughter the burnt offering.",
+      "translator_notes": [
+        "The sin offering (chata't) follows the guilt offering — it addresses the contamination of sacred space that the person's impurity may have caused. The phrase mittum'ato ('from his impurity') makes explicit that this atonement is for ritual impurity, not moral transgression. The burnt offering (olah) comes last in sequence — after purification (chata't) and reparation (asham), the person offers total devotion (olah, which is entirely consumed on the altar). The three offerings move from compensation to purification to consecration."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חַטָּאת",
+          "transliteration": "chata't",
+          "rendered_as": "sin offering",
+          "semantic_range": "sin offering, purification offering, sin, offense",
+          "note": "The chata't in this context functions as a purification offering — it cleanses the sacred space from contamination caused by the person's impurity. The blood of the chata't is applied to sacred objects (the altar), not to the person. The offering purifies the sanctuary so that God's presence can remain among the people."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְהֶעֱלָ֧ה הַכֹּהֵ֛ן אֶת־הָעֹלָ֥ה וְאֶת־הַמִּנְחָ֖ה הַמִּזְבֵּ֑חָה וְכִפֶּ֥ר עָלָ֛יו הַכֹּהֵ֖ן וְטָהֵֽר׃",
+      "text_kjv": "And the priest shall offer the burnt offering and the meat offering upon the altar: and the priest shall make an atonement for him, and he shall be clean.",
+      "rendering": "The priest shall offer the burnt offering and the grain offering on the altar. The priest shall make atonement for him, and he will be clean.",
+      "translator_notes": [
+        "The burnt offering (olah — entirely consumed, representing complete devotion) and the grain offering (minchah — the fruit of human labor offered to God) complete the sacrificial sequence. The second kippur formula appears, and the final word of the section is vetaher ('and he will be clean'). The entire journey — from exclusion outside the camp, through the bird ritual, shaving, washing, the eight-day waiting period, and the four-offering sacrificial sequence — culminates in this single word: clean. The person is fully restored to the community and to God's presence.",
+        "The section marker (samekh) indicates the end of the standard purification procedure. What follows (vv 21-32) addresses the same ritual for those who cannot afford the full offering."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְאִם־דַּ֣ל ה֗וּא וְאֵ֣ין יָדוֹ֮ מַשֶּׂ֒גֶת֒ וְ֠לָקַ֠ח כֶּ֣בֶשׂ אֶחָ֥ד אָשָׁ֛ם לִתְנוּפָ֖ה לְכַפֵּ֣ר עָלָ֑יו וְעִשָּׂר֨וֹן סֹ֜לֶת אֶחָ֨ד בָּל֥וּל בַּשֶּׁ֛מֶן לְמִנְחָ֖ה וְלֹ֥ג שָֽׁמֶן׃",
+      "text_kjv": "And if he be poor, and cannot get so much; then he shall take one lamb for a trespass offering to be waved, to make an atonement for him, and one tenth deal of fine flour mingled with oil for a meat offering, and a log of oil;",
+      "rendering": "But if he is poor and cannot afford that much, he shall take one male lamb as a guilt offering to be elevated as a wave offering, to make atonement for him, and one-tenth of an ephah of fine flour mixed with oil as a grain offering, and a log of oil,",
+      "translator_notes": [
+        "The phrase im dal hu ve'ein yado masseget ('if he is poor and his hand cannot reach') introduces a sliding-scale provision that ensures no one is excluded from purification by poverty. The guilt offering (asham) remains the same — one lamb — because the asham addresses a specific obligation that does not change with economic status. But the sin offering and burnt offering are reduced (v 22). The system preserves theological necessity while accommodating economic reality."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וּשְׁתֵּ֣י תֹרִ֗ים א֤וֹ שְׁנֵי֙ בְּנֵ֣י יוֹנָ֔ה אֲשֶׁ֥ר תַּשִּׂ֖יג יָד֑וֹ וְהָיָ֤ה אֶחָד֙ חַטָּ֔את וְהָאֶחָ֖ד עֹלָֽה׃",
+      "text_kjv": "And two turtledoves, or two young pigeons, such as he is able to get; and the one shall be a sin offering, and the other a burnt offering.",
+      "rendering": "along with two turtledoves or two young pigeons — whichever he can afford. One shall be a sin offering and the other a burnt offering.",
+      "translator_notes": [
+        "Birds (torim or benei yonah — turtledoves or young pigeons) substitute for the two additional lambs required in the standard procedure (v 10). This is the same substitution permitted for postpartum purification (12:8) and throughout the offering system. The provision ensures that the poorest Israelite can complete the purification ritual. Poverty does not prevent restoration to God's presence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְהֵבִ֨יא אֹתָ֜ם בַּיּ֧וֹם הַשְּׁמִינִ֛י לְטׇהֳרָת֖וֹ אֶל־הַכֹּהֵ֑ן אֶל־פֶּ֥תַח אֹֽהֶל־מוֹעֵ֖ד לִפְנֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "And he shall bring them on the eighth day for his cleansing unto the priest, unto the door of the tabernacle of the congregation, before the LORD.",
+      "rendering": "He shall bring them on the eighth day for his purification to the priest, at the entrance of the tent of meeting, before the LORD.",
+      "translator_notes": [
+        "The timing (eighth day), location (entrance of the tent of meeting), and presentation (before the LORD) are identical to the standard procedure in verse 11. The poor person stands in the same place, at the same time, before the same God. The reduced offering does not reduce the dignity or completeness of the ritual."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְלָקַ֧ח הַכֹּהֵ֛ן אֶת־כֶּ֥בֶשׂ הָאָשָׁ֖ם וְאֶת־לֹ֣ג הַשָּׁ֑מֶן וְהֵנִ֨יף אֹתָ֧ם הַכֹּהֵ֛ן תְּנוּפָ֖ה לִפְנֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "And the priest shall take the lamb of the trespass offering, and the log of oil, and the priest shall wave them for a wave offering before the LORD:",
+      "rendering": "The priest shall take the lamb of the guilt offering and the log of oil, and the priest shall elevate them as a wave offering before the LORD.",
+      "translator_notes": [
+        "The guilt offering and oil ritual (vv 24-29) repeats the standard procedure (vv 12-18) without modification. The blood-and-oil application to ear, thumb, and toe is the same for the poor person as for the wealthy. The anointing ritual does not have a reduced version — the person's body receives the same consecrating touch regardless of economic status."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְשָׁחַט֮ אֶת־כֶּ֣בֶשׂ הָֽאָשָׁם֒ וְלָקַ֤ח הַכֹּהֵן֙ מִדַּ֣ם הָֽאָשָׁ֔ם וְנָתַ֛ן עַל־תְּנ֥וּךְ אֹֽזֶן־הַמִּטַּהֵ֖ר הַיְמָנִ֑ית וְעַל־בֹּ֤הֶן יָדוֹ֙ הַיְמָנִ֔ית וְעַל־בֹּ֥הֶן רַגְל֖וֹ הַיְמָנִֽית׃",
+      "text_kjv": "And he shall kill the lamb of the trespass offering, and the priest shall take some of the blood of the trespass offering, and put it upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot:",
+      "rendering": "He shall slaughter the lamb of the guilt offering, and the priest shall take some of the blood of the guilt offering and put it on the lobe of the right ear of the one being purified, on the thumb of his right hand, and on the big toe of his right foot.",
+      "translator_notes": [
+        "Identical to verse 14. The blood application to the three extremities — ear, hand, foot — reconsecrates the whole person: what they hear, what they do, where they go. This ritual element is non-negotiable regardless of the person's economic status."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וּמִן־הַשֶּׁ֖מֶן יִצֹ֣ק הַכֹּהֵ֑ן עַל־כַּ֥ף הַכֹּהֵ֖ן הַשְּׂמָאלִֽית׃",
+      "text_kjv": "And the priest shall pour of the oil into the palm of his own left hand:",
+      "rendering": "The priest shall pour some of the oil into his own left palm.",
+      "translator_notes": [
+        "Identical to verse 15. The oil choreography is the same for both versions of the ritual."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְהִזָּ֤ה הַכֹּהֵן֙ בְּאֶצְבָּע֣וֹ הַיְמָנִ֔ית מִן־הַשֶּׁ֕מֶן אֲשֶׁ֥ר עַל־כַּפּ֖וֹ הַשְּׂמָאלִ֑ית שֶׁ֥בַע פְּעָמִ֖ים לִפְנֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "And the priest shall sprinkle with his right finger some of the oil that is in his left hand seven times before the LORD:",
+      "rendering": "The priest shall sprinkle some of the oil in his left palm with his right finger seven times before the LORD.",
+      "translator_notes": [
+        "Identical to verse 16. The sevenfold sprinkling before the LORD is preserved in the reduced-cost version — the number seven signifies completeness and cannot be reduced."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְנָתַ֨ן הַכֹּהֵ֜ן מִן־הַשֶּׁ֣מֶן׀ אֲשֶׁ֣ר עַל־כַּפּ֗וֹ עַל־תְּנ֞וּךְ אֹ֤זֶן הַמִּטַּהֵר֙ הַיְמָנִ֔ית וְעַל־בֹּ֤הֶן יָדוֹ֙ הַיְמָנִ֔ית וְעַל־בֹּ֥הֶן רַגְל֖וֹ הַיְמָנִ֑ית עַל־מְק֖וֹם דַּ֥ם הָאָשָֽׁם׃",
+      "text_kjv": "And the priest shall put of the oil that is in his hand upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot, upon the place of the blood of the trespass offering:",
+      "rendering": "The priest shall put some of the oil in his palm on the lobe of the right ear of the one being purified, on the thumb of his right hand, and on the big toe of his right foot — on the place where the blood of the guilt offering was applied.",
+      "translator_notes": [
+        "Identical to verse 17. The layering of oil over blood on the three extremities is the same. The phrase al meqom dam ha'asham ('on the place of the blood of the guilt offering') is more explicit than verse 17, specifying that the oil goes on the exact spot where the blood was placed."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְהַנּוֹתָ֗ר מִן־הַשֶּׁ֙מֶן֙ אֲשֶׁר֙ עַל־כַּ֣ף הַכֹּהֵ֔ן יִתֵּ֖ן עַל־רֹ֣אשׁ הַמִּטַּהֵ֑ר לְכַפֵּ֥ר עָלָ֖יו לִפְנֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "And the rest of the oil that is in the priest's hand he shall put upon the head of him that is to be cleansed, to make an atonement for him before the LORD.",
+      "rendering": "The rest of the oil in the priest's palm he shall put on the head of the one being purified, to make atonement for him before the LORD.",
+      "translator_notes": [
+        "Identical to verse 18. The kippur formula — lekhapper alav lifnei YHWH ('to make atonement for him before the LORD') — is the same for the poor person's offering. Atonement does not depend on the size of the offering but on the faithfulness of the ritual and the mercy of God."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְעָשָׂ֤ה אֶת־הָֽאֶחָד֙ מִן־הַתֹּרִ֔ים א֖וֹ מִן־בְּנֵ֣י הַיּוֹנָ֑ה מֵאֲשֶׁ֥ר תַּשִּׂ֖יג יָדֽוֹ׃",
+      "text_kjv": "And he shall offer the one of the turtledoves, or of the young pigeons, such as he can get;",
+      "rendering": "He shall then offer one of the turtledoves or young pigeons — whichever he can afford —",
+      "translator_notes": [
+        "The phrase me'asher tassig yado ('from what his hand can reach') is the economic-capacity clause, used three times in this section (vv 21, 22, 30). The system acknowledges material reality without compromising ritual necessity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "אֵ֣ת אֲשֶׁר־תַּשִּׂ֞יג יָד֗וֹ אֶת־הָאֶחָ֥ד חַטָּ֛את וְאֶת־הָאֶחָ֥ד עֹלָ֖ה עַל־הַמִּנְחָ֑ה וְכִפֶּ֧ר הַכֹּהֵ֛ן עַ֥ל הַמִּטַּהֵ֖ר לִפְנֵ֥י יְהֹוָֽה׃",
+      "text_kjv": "Even such as he is able to get, the one for a sin offering, and the other for a burnt offering, with the meat offering: and the priest shall make an atonement for him that is to be cleansed before the LORD.",
+      "rendering": "whichever he can afford — one as a sin offering and one as a burnt offering, along with the grain offering. The priest shall make atonement for the one being purified before the LORD.",
+      "translator_notes": [
+        "The concluding kippur formula is identical to the standard version. The result — full atonement and purification before the LORD — is the same regardless of the offering's economic value. This is a profound theological statement: the efficacy of atonement resides in God's acceptance, not in the cost of the offering."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "זֹ֣את תּוֹרַ֔ת אֲשֶׁר־בּ֖וֹ נֶ֣גַע צָרָ֑עַת אֲשֶׁ֛ר לֹֽא־תַשִּׂ֥יג יָד֖וֹ בְּטׇהֳרָתֽוֹ׃",
+      "text_kjv": "This is the law of him in whom is the plague of leprosy, whose hand is not able to get that which pertaineth to his cleansing.",
+      "rendering": "This is the instruction for the person who has a skin disease infection and whose means are insufficient for his purification.",
+      "translator_notes": [
+        "The closing formula zot torat ('this is the instruction for') marks the end of the reduced-offering section. The phrase asher lo tassig yado betohorato ('whose hand does not reach for his purification') is a compassionate legal category — not a stigma but a recognized status that triggers accommodation. The paragraph marker (pe) separates the human purification ritual from the house contamination laws that follow."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַיְדַבֵּ֣ר יְהֹוָ֔ה אֶל־מֹשֶׁ֥ה וְאֶֽל־אַהֲרֹ֖ן לֵאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses and unto Aaron, saying,",
+      "rendering": "The LORD spoke to Moses and to Aaron, saying:",
+      "translator_notes": [
+        "A new legislative unit begins, addressing both Moses and Aaron (as in 13:1). The inclusion of Aaron signals the diagnostic role of the priest in what follows — house contamination requires the same priestly examination as human skin disease."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "כִּ֤י תָבֹ֙אוּ֙ אֶל־אֶ֣רֶץ כְּנַ֔עַן אֲשֶׁ֥ר אֲנִ֛י נֹתֵ֥ן לָכֶ֖ם לַאֲחֻזָּ֑ה וְנָתַתִּי֙ נֶ֣גַע צָרַ֔עַת בְּבֵ֖ית אֶ֥רֶץ אֲחֻזַּתְכֶֽם׃",
+      "text_kjv": "When ye be come into the land of Canaan, which I give to you for a possession, and I put the plague of leprosy in a house of the land of your possession;",
+      "rendering": "When you enter the land of Canaan, which I am giving you as a possession, and I place a contamination mark in a house in the land you possess,",
+      "translator_notes": [
+        "This section anticipates settled life in Canaan — the regulations apply to permanent houses, not wilderness tents. The striking phrase venatatti nega tsara'at ('I will place a contamination mark') attributes the house contamination directly to God — not as punishment but as a matter that falls within God's sovereign ordering of the world. The contamination in houses is likely describing mold, mildew, or mineral discoloration in walls, extended to the same tsara'at diagnostic framework used for human skin and fabrics."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וּבָא֙ אֲשֶׁר־ל֣וֹ הַבַּ֔יִת וְהִגִּ֥יד לַכֹּהֵ֖ן לֵאמֹ֑ר כְּנֶ֕גַע נִרְאָ֥ה לִ֖י בַּבָּֽיִת׃",
+      "text_kjv": "And he that owneth the house shall come and tell the priest, saying, It seemeth to me there is as it were a plague in the house:",
+      "rendering": "the owner of the house shall come and report to the priest, saying, 'Something like a mark has appeared in my house.'",
+      "translator_notes": [
+        "The homeowner's report uses the cautious phrase kenega ('something like a mark') rather than declaring it definitively. The Talmud (Negaim 12:5) notes that even a Torah scholar who knows it is tsara'at should use this tentative language — only the priest has the authority to make the official determination. This preserves the priestly diagnostic role and prevents premature self-diagnosis."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וְצִוָּ֨ה הַכֹּהֵ֜ן וּפִנּ֣וּ אֶת־הַבַּ֗יִת בְּטֶ֨רֶם יָבֹ֤א הַכֹּהֵן֙ לִרְא֣וֹת אֶת־הַנֶּ֔גַע וְלֹ֥א יִטְמָ֖א כׇּל־אֲשֶׁ֣ר בַּבָּ֑יִת וְאַ֥חַר כֵּ֛ן יָבֹ֥א הַכֹּהֵ֖ן לִרְא֥וֹת אֶת־הַבָּֽיִת׃",
+      "text_kjv": "Then the priest shall command that they empty the house, before the priest go into it to see the plague, that all that is in the house be not made unclean: and afterward the priest shall go in to see the house:",
+      "rendering": "The priest shall order the house to be emptied before he enters to examine the mark, so that everything in the house will not become unclean. After that, the priest shall enter to examine the house.",
+      "translator_notes": [
+        "The order to empty the house (upinnu et habayit) before the priestly inspection reveals the practical compassion within the system. Once the priest pronounces the house tamei, everything inside it becomes unclean. By clearing the house first, the household's possessions are spared — they retain their clean status. The system protects what can be protected before imposing the consequences of an unclean verdict."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְרָאָ֣ה אֶת־הַנֶּ֗גַע וְהִנֵּ֤ה הַנֶּ֙גַע֙ בְּקִירֹ֣ת הַבַּ֔יִת שְׁקַֽעֲרוּרֹת֙ יְרַקְרַקֹּ֔ת א֖וֹ אֲדַמְדַּמֹּ֑ת וּמַרְאֵיהֶ֥ן שָׁפָ֖ל מִן־הַקִּֽיר׃",
+      "text_kjv": "And he shall look on the plague, and, behold, if the plague be in the walls of the house with hollow strakes, greenish or reddish, which in sight are lower than the wall;",
+      "rendering": "He shall examine the mark, and if the mark is in the walls of the house — pitted depressions that are greenish or reddish, and they appear to be recessed below the wall surface —",
+      "translator_notes": [
+        "The diagnostic criteria for house contamination parallel fabric contamination (13:49): greenish or reddish discoloration. The additional marker sheqa'arurot ('hollowed-out, pitted') describes depressions in the wall — the contamination has eaten into the stone or plaster. The depth criterion (shaphal min haqqir, 'lower than the wall') echoes the human skin criterion of depth below the skin surface (13:3). The consistency of diagnostic markers across human, fabric, and building contexts demonstrates the systematic nature of the tsara'at framework."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וְיָצָ֧א הַכֹּהֵ֛ן מִן־הַבַּ֖יִת אֶל־פֶּ֣תַח הַבָּ֑יִת וְהִסְגִּ֥יר אֶת־הַבַּ֖יִת שִׁבְעַ֥ת יָמִֽים׃",
+      "text_kjv": "Then the priest shall go out of the house to the door of the house, and shut up the house seven days:",
+      "rendering": "the priest shall go out of the house to its entrance and quarantine the house for seven days.",
+      "translator_notes": [
+        "The priest exits before pronouncing his verdict — he does not remain inside a potentially contaminated space. The seven-day quarantine (hisgir) is the same observation protocol used for ambiguous human cases (13:4). The house itself is placed under isolation, applying the same procedural framework to a building as to a person."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְשָׁ֥ב הַכֹּהֵ֖ן בַּיּ֣וֹם הַשְּׁבִיעִ֑י וְרָאָ֕ה וְהִנֵּ֛ה פָּשָׂ֥ה הַנֶּ֖גַע בְּקִירֹ֥ת הַבָּֽיִת׃",
+      "text_kjv": "And the priest shall come again the seventh day, and shall look: and, behold, if the plague be spread in the walls of the house;",
+      "rendering": "The priest shall return on the seventh day and examine it. If the mark has spread in the walls of the house,",
+      "translator_notes": [
+        "The spreading criterion (pashah) — the primary diagnostic indicator throughout chapters 13-14 — applies to house contamination as it does to human skin and fabric. Active, spreading contamination signals an unclean verdict."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וְצִוָּה֙ הַכֹּהֵ֔ן וְחִלְּצוּ֙ אֶת־הָ֣אֲבָנִ֔ים אֲשֶׁ֥ר בָּהֵ֖ן הַנָּ֑גַע וְהִשְׁלִ֤יכוּ אֶתְהֶן֙ אֶל־מִח֣וּץ לָעִ֔יר אֶל־מָק֖וֹם טָמֵֽא׃",
+      "text_kjv": "Then the priest shall command that they take away the stones in which the plague is, and they shall cast them into an unclean place without the city:",
+      "rendering": "the priest shall order them to remove the stones that have the mark and throw them outside the city in an unclean place.",
+      "translator_notes": [
+        "Contaminated stones are removed (chilletsu — 'extracted, pulled out') and deposited outside the city at a designated unclean area (maqom tamei). The city, like the camp, has a clean interior and unclean exterior. Contaminated material flows outward — away from inhabited space and away from sacred space."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וְאֶת־הַבַּ֛יִת יַקְצִ֥עַ מִבַּ֖יִת סָבִ֑יב וְשָׁפְכ֗וּ אֶת־הֶֽעָפָר֙ אֲשֶׁ֣ר הִקְצ֔וּ אֶל־מִח֣וּץ לָעִ֔יר אֶל־מָק֖וֹם טָמֵֽא׃",
+      "text_kjv": "And he shall cause the house to be scraped within round about, and they shall pour out the dust that they scrape off without the city into an unclean place:",
+      "rendering": "He shall have the house scraped all around on the inside, and the plaster that is scraped off shall be dumped outside the city in an unclean place.",
+      "translator_notes": [
+        "After removing the contaminated stones, the remaining interior walls are scraped (yaqtsi'a — 'to scrape, to shave off'). All scraped-off material (aphar — 'dust, plaster') is also deposited in the unclean area. The procedure is methodical: remove the worst affected material, then scrape surrounding areas to eliminate any contamination that may have migrated."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וְלָקְחוּ֙ אֲבָנִ֣ים אֲחֵר֔וֹת וְהֵבִ֖יאוּ אֶל־תַּ֣חַת הָאֲבָנִ֑ים וְעָפָ֥ר אַחֵ֛ר יִקַּ֖ח וְטָ֥ח אֶת־הַבָּֽיִת׃",
+      "text_kjv": "And they shall take other stones, and put them in the place of those stones; and he shall take other morter, and shall plaister the house.",
+      "rendering": "They shall take new stones and set them in place of the old stones, and he shall take fresh plaster and replaster the house.",
+      "translator_notes": [
+        "New construction materials replace the contaminated ones — clean stones (avanim acherot) and fresh plaster (aphar acher). The house is rebuilt, not merely patched. The verb tach ('to plaster, to coat') describes applying a new surface layer over the replacement stones."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וְאִם־יָשׁ֤וּב הַנֶּ֙גַע֙ וּפָרַ֣ח בַּבַּ֔יִת אַחַ֖ר חִלֵּ֣ץ אֶת־הָאֲבָנִ֑ים וְאַחֲרֵ֛י הִקְצ֥וֹת אֶת־הַבַּ֖יִת וְאַחֲרֵ֥י הִטּֽוֹחַ׃",
+      "text_kjv": "And if the plague come again, and break out in the house, after that he hath taken away the stones, and after he hath scraped the house, and after it is plaistered;",
+      "rendering": "If the mark returns and breaks out in the house after the stones have been removed, and after the house has been scraped and replastered,",
+      "translator_notes": [
+        "Recurrence after remediation (yashuv hanega ufarach — 'the mark returns and breaks out') is the decisive failure. The threefold 'after' (achar... ve'acharei... ve'acharei) emphasizes that every available intervention has been attempted: stone removal, scraping, and replastering. Only after all three measures have failed does the most severe verdict follow."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וּבָא֙ הַכֹּהֵ֔ן וְרָאָ֕ה וְהִנֵּ֛ה פָּשָׂ֥ה הַנֶּ֖גַע בַּבָּ֑יִת צָרַ֨עַת מַמְאֶ֥רֶת הִ֛וא בַּבַּ֖יִת טָמֵ֥א הֽוּא׃",
+      "text_kjv": "Then the priest shall come and look, and, behold, if the plague be spread in the house, it is a fretting leprosy in the house: it is unclean.",
+      "rendering": "the priest shall come and examine it. If the mark has spread in the house, it is a persistent contamination in the house — it is unclean.",
+      "translator_notes": [
+        "The verdict uses the same term as fabric contamination in 13:51: tsara'at mam'eret ('persistent/malignant contamination'). The parallel to the fabric ruling is exact — persistent contamination that resists intervention requires total destruction."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וְנָתַ֣ץ אֶת־הַבַּ֗יִת אֶת־אֲבָנָיו֙ וְאֶת־עֵצָ֔יו וְאֵ֖ת כׇּל־עֲפַ֣ר הַבָּ֑יִת וְהוֹצִיא֙ אֶל־מִח֣וּץ לָעִ֔יר אֶל־מָק֖וֹם טָמֵֽא׃",
+      "text_kjv": "And he shall break down the house, the stones of it, and the timber thereof, and all the morter of the house; and he shall carry them forth out of the city into an unclean place.",
+      "rendering": "He shall demolish the house — its stones, its timber, and all its plaster — and carry the materials outside the city to an unclean place.",
+      "translator_notes": [
+        "Total demolition (natats — 'to tear down, to demolish') is the final measure. Stones (avanim), wood (etsav), and plaster (aphar) — every component is removed. The parallel to the fabric ruling is complete: just as a garment with persistent contamination is burned (13:52), a house with persistent contamination is demolished. Nothing contaminated remains within the city."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וְהַבָּא֙ אֶל־הַבַּ֔יִת כׇּל־יְמֵ֖י הִסְגִּ֣יר אֹת֑וֹ יִטְמָ֖א עַד־הָעָֽרֶב׃",
+      "text_kjv": "Moreover he that goeth into the house all the while that it is shut up shall be unclean until the even.",
+      "rendering": "Anyone who enters the house during all the time it is quarantined shall be unclean until evening.",
+      "translator_notes": [
+        "Entry into a quarantined house transmits impurity, but at the lowest level — unclean only until evening (ad ha'erev). This is the mildest form of impurity in the Levitical system, requiring no offering and resolving at sundown. The contamination is real but limited in duration and severity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וְהַשֹּׁכֵ֣ב בַּבַּ֔יִת יְכַבֵּ֖ס אֶת־בְּגָדָ֑יו וְהָאֹכֵ֣ל בַּבַּ֔יִת יְכַבֵּ֖ס אֶת־בְּגָדָֽיו׃",
+      "text_kjv": "And he that lieth in the house shall wash his clothes; and he that eateth in the house shall wash his clothes.",
+      "rendering": "Anyone who lies down in the house shall wash his clothes, and anyone who eats in the house shall wash his clothes.",
+      "translator_notes": [
+        "Extended contact — sleeping (shakhav) or eating (akhal) in the quarantined house — requires garment washing, a higher level of purification than the evening-only impurity of verse 46. The activities of sleeping and eating represent sustained, intimate contact with the space, as opposed to merely passing through."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "וְאִם־בֹּ֨א יָבֹ֜א הַכֹּהֵ֗ן וְרָאָה֙ וְ֠הִנֵּ֠ה לֹא־פָשָׂ֤ה הַנֶּ֙גַע֙ בַּבַּ֔יִת אַחֲרֵ֖י הִטֹּ֣חַ אֶת־הַבָּ֑יִת וְטִהַ֤ר הַכֹּהֵן֙ אֶת־הַבַּ֔יִת כִּ֥י נִרְפָּ֖א הַנָּֽגַע׃",
+      "text_kjv": "And if the priest shall come in, and look upon it, and, behold, the plague hath not spread in the house, after the house was plaistered: then the priest shall pronounce the house clean, because the plague is healed.",
+      "rendering": "But if the priest comes and examines it and the mark has not spread in the house after it was replastered, then the priest shall declare the house clean, because the mark has healed.",
+      "translator_notes": [
+        "The positive outcome: after replastering, the mark has not returned or spread. The priest declares the house tahor ('clean'), and the healing language (nirpa hanega — 'the mark has healed') is the same as for human skin disease (v 3). The house, like a person, can be healed and restored to clean status."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "וְלָקַ֛ח לְחַטֵּ֥א אֶת־הַבַּ֖יִת שְׁתֵּ֣י צִפֳּרִ֑ים וְעֵ֣ץ אֶ֔רֶז וּשְׁנִ֥י תוֹלַ֖עַת וְאֵזֹֽב׃",
+      "text_kjv": "And he shall take to cleanse the house two birds, and cedar wood, and scarlet, and hyssop:",
+      "rendering": "He shall take two birds, cedar wood, scarlet yarn, and hyssop to purify the house.",
+      "translator_notes": [
+        "The house purification uses the identical materials as the human purification ritual in verses 4-7: two birds, cedar wood, scarlet yarn, and hyssop. The verb lechatte ('to purify') shares its root with chata't (sin offering) — it means to remove contamination, to de-sin or de-pollute. The parallel structure reinforces that persons, fabrics, and buildings all fall within the same purity framework."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "וְשָׁחַ֖ט אֶת־הַצִּפֹּ֣ר הָאֶחָ֑ת אֶל־כְּלִי־חֶ֖רֶשׂ עַל־מַ֥יִם חַיִּֽים׃",
+      "text_kjv": "And he shall kill the one of the birds in an earthen vessel over running water:",
+      "rendering": "He shall slaughter one of the birds over an earthenware vessel containing fresh water.",
+      "translator_notes": [
+        "Identical to verse 5. The slaughter of one bird over an earthenware vessel with fresh water creates the purification medium. The consistency between the human purification and house purification rituals underscores the unified logic of the purity system."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "וְלָקַ֣ח אֶת־עֵֽץ־הָ֠אֶ֠רֶז וְאֶת־הָ֨אֵזֹ֜ב וְאֵ֣ת׀ שְׁנִ֣י הַתּוֹלַ֗עַת וְאֵת֮ הַצִּפֹּ֣ר הַֽחַיָּה֒ וְטָבַ֣ל אֹתָ֗ם בְּדַם֙ הַצִּפֹּ֣ר הַשְּׁחוּטָ֔ה וּבַמַּ֖יִם הַֽחַיִּ֑ים וְהִזָּ֥ה אֶל־הַבַּ֖יִת שֶׁ֥בַע פְּעָמִֽים׃",
+      "text_kjv": "And he shall take the cedar wood, and the hyssop, and the scarlet, and the living bird, and dip them in the blood of the slain bird, and in the running water, and sprinkle the house seven times:",
+      "rendering": "He shall take the cedar wood, the hyssop, the scarlet yarn, and the living bird, and dip them in the blood of the slaughtered bird and in the fresh water, and sprinkle the house seven times.",
+      "translator_notes": [
+        "The sevenfold sprinkling of the house parallels the sevenfold sprinkling of the person in verse 7. The house is treated as a subject of purification in the same way a human being is — it can become contaminated, it can be diagnosed, and it can be ritually restored."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "וְחִטֵּ֣א אֶת־הַבַּ֔יִת בְּדַם֙ הַצִּפּ֔וֹר וּבַמַּ֖יִם הַֽחַיִּ֑ים וּבַצִּפֹּ֣ר הַחַיָּ֗ה וּבְעֵ֥ץ הָאֶ֛רֶז וּבָאֵזֹ֖ב וּבִשְׁנִ֥י הַתּוֹלָֽעַת׃",
+      "text_kjv": "And he shall cleanse the house with the blood of the bird, and with the running water, and with the living bird, and with the cedar wood, and with the hyssop, and with the scarlet:",
+      "rendering": "He shall purify the house with the blood of the bird, with the fresh water, with the living bird, with the cedar wood, with the hyssop, and with the scarlet yarn.",
+      "translator_notes": [
+        "The verb chittei ('he shall purify') recapitulates the complete list of purification materials used in the ritual. The sixfold list — blood, water, living bird, cedar, hyssop, scarlet — names every element, ensuring the completeness of the purification is documented."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "וְשִׁלַּ֞ח אֶת־הַצִּפֹּ֧ר הַֽחַיָּ֛ה אֶל־מִח֥וּץ לָעִ֖יר אֶל־פְּנֵ֣י הַשָּׂדֶ֑ה וְכִפֶּ֥ר עַל־הַבַּ֖יִת וְטָהֵֽר׃",
+      "text_kjv": "But he shall let go the living bird out of the city into the open fields, and make an atonement for the house: and it shall be clean.",
+      "rendering": "He shall release the living bird outside the city over the open field, and make atonement for the house. And it will be clean.",
+      "translator_notes": [
+        "The release of the living bird carries the contamination away from the house and the city, just as in verse 7 it carries contamination away from the person and the camp. The kippur formula — vekipper al habbayit — applies atonement language to a building. A house, like a person, can be atoned for and restored to clean status within the community. The final word vetaher ('and it will be clean') resolves the house's status."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 54,
+      "text_hebrew": "זֹ֖את הַתּוֹרָ֑ה לְכׇל־נֶ֥גַע הַצָּרַ֖עַת וְלַנָּֽתֶק׃",
+      "text_kjv": "This is the law for all manner of plague of leprosy, and scall,",
+      "rendering": "This is the instruction for every kind of skin disease infection and for scaly infections,",
+      "translator_notes": [
+        "The closing summary (vv 54-57) recapitulates the scope of chapters 13-14 together. The phrase zot hattorah ('this is the instruction') frames the entire two-chapter unit as a single body of priestly instruction. The list that follows catalogs every category of tsara'at addressed: skin disease (nega hatsara'at) and scaly infection (neteq)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_hebrew": "וּלְצָרַ֥עַת הַבֶּ֖גֶד וְלַבָּֽיִת׃",
+      "text_kjv": "And for the leprosy of a garment, and of a house,",
+      "rendering": "for contamination in garments and in houses,",
+      "translator_notes": [
+        "The two non-human categories of tsara'at — fabric contamination (13:47-59) and house contamination (14:33-53) — are listed alongside the human categories. The same term (tsara'at) applies to all three domains, creating a unified diagnostic and ritual system."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 56,
+      "text_hebrew": "וְלַשְׂאֵ֥ת וְלַסַּפַּ֖חַת וְלַבֶּהָֽרֶת׃",
+      "text_kjv": "And for a rising, and for a scab, and for a bright spot:",
+      "rendering": "for swellings, for rashes, and for shiny spots —",
+      "translator_notes": [
+        "The three original diagnostic symptoms from 13:2 are named again: se'et (swelling), sapachat (rash), and baheret (shiny spot). These form the entry criteria for the entire diagnostic process. The summary thus runs from the broadest categories (all skin disease, scaly infections, fabric contamination, house contamination) down to the specific symptoms."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 57,
+      "text_hebrew": "לְהוֹרֹ֕ת בְּי֥וֹם הַטָּמֵ֖א וּבְי֣וֹם הַטָּהֹ֑ר זֹ֥את תּוֹרַ֖ת הַצָּרָֽעַת׃",
+      "text_kjv": "To teach when it is unclean, and when it is clean: this is the law of leprosy.",
+      "rendering": "to give instruction for the day of uncleanness and for the day of cleanness. This is the instruction concerning skin disease.",
+      "translator_notes": [
+        "The verb lehorot ('to instruct, to teach') reveals the purpose of the entire legal corpus: education. The priest is not merely a judge but a teacher — his diagnostic work instructs the community about the boundaries between tamei and tahor, between impure and pure. The closing phrase zot torat hatsara'at ('this is the instruction concerning tsara'at') bookends the unit that began at 13:2. The paragraph marker (pe) closes the two-chapter unit definitively.",
+        "Chapters 13-14 together form a complete system: diagnosis (ch 13) and restoration (ch 14). The system begins with symptoms and ends with instruction — teaching Israel how to manage the boundaries between unclean and clean so that God's holy presence can safely dwell among them."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹרָה",
+          "transliteration": "torah",
+          "rendered_as": "instruction",
+          "semantic_range": "instruction, law, teaching, direction, ruling",
+          "note": "As in 13:59, torah here means specific priestly instruction about a ritual category. The verb lehorot (same root) in this verse makes the educational function explicit: the priestly system of purity diagnosis exists to teach Israel how to maintain the conditions for God's presence."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

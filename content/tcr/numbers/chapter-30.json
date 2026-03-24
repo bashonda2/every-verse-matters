@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Numbers",
+    "chapter": 30,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיֹּ֥אמֶר מֹשֶׁ֖ה אֶל־בְּנֵ֣י יִשְׂרָאֵ֑ל כְּכֹ֛ל אֲשֶׁר־צִוָּ֥ה יְהֹוָ֖ה אֶת־מֹשֶֽׁה׃ {פ}",
+      "text_kjv": "And Moses spake unto the heads of the tribes concerning the children of Israel, saying, This is the thing which the LORD hath commanded.",
+      "rendering": "Moses communicated to the Israelites everything exactly as the LORD had commanded Moses.",
+      "translator_notes": [
+        "This verse closes the preceding section on festival offerings (Numbers 29) and serves as a bridge to the vow legislation that follows. In Hebrew versification this is 30:1, corresponding to 29:40 in English Bibles. The phrase kekhol asher tsivvah ('according to all that He commanded') emphasizes Moses's role as faithful mediator — he transmitted God's instructions without alteration or omission. The paragraph marker (pe) signals a major section break before the vow laws begin."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיְדַבֵּ֤ר מֹשֶׁה֙ אֶל־רָאשֵׁ֣י הַמַּטּ֔וֹת לִבְנֵ֥י יִשְׂרָאֵ֖ל לֵאמֹ֑ר זֶ֣ה הַדָּבָ֔ר אֲשֶׁ֖ר צִוָּ֥ה יְהֹוָֽה׃",
+      "text_kjv": "If a man vow a vow unto the LORD, or swear an oath to bind his soul with a bond; he shall not break his word, he shall do according to all that proceedeth out of his mouth.",
+      "rendering": "Moses addressed the leaders of the tribes on behalf of the Israelites: 'This is what the LORD has commanded:'",
+      "translator_notes": [
+        "Moses delivers the vow legislation specifically to rashei hamattot ('the heads of the tribes' — tribal chieftains), not to the entire assembly. This is the only law in the Torah introduced this way, suggesting that vow adjudication was a responsibility delegated to tribal leadership. The term mattot ('tribes,' literally 'staffs/rods') emphasizes the authority structure — each tribe had its own judicial apparatus for resolving vow disputes between family members."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אִישׁ֩ כִּֽי־יִדֹּ֨ר נֶ֜דֶר לַֽיהֹוָ֗ה אֽוֹ־הִשָּׁ֤בַע שְׁבֻעָה֙ לֶאְסֹ֤ר אִסָּר֙ עַל־נַפְשׁ֔וֹ לֹ֥א יַחֵ֖ל דְּבָר֑וֹ כְּכׇל־הַיֹּצֵ֥א מִפִּ֖יו יַעֲשֶֽׂה׃",
+      "text_kjv": "If a woman also vow a vow unto the LORD, and bind herself by a bond, being in her father's house in her youth;",
+      "rendering": "When a man makes a vow to the LORD or takes an oath imposing an obligation on himself, he must not break his word. He must fulfill everything that comes out of his mouth.",
+      "expanded_rendering": "When a man makes a binding vow dedicated to the LORD, or swears a sworn oath placing a restrictive obligation upon himself, he must not treat his word as empty. Whatever he has spoken, he is bound to carry out.",
+      "translator_notes": [
+        "The verse establishes three distinct categories of verbal commitment: neder ('vow' — a positive pledge to do something or dedicate something to God), shevuah ('oath' — a sworn declaration invoking God's name), and issar ('obligation, binding restriction' — a self-imposed limitation, often involving abstinence). The phrase lo yachel devaro ('he must not profane/break his word') uses the root ch-l-l ('profane, make common'), implying that a spoken vow has sacred status — breaking it is a form of desecration. The opening ish ki yiddor ('when a man vows') establishes the baseline: a man's vow is unconditionally binding. The rest of the chapter then addresses the exceptions for women under male authority."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נֶדֶר",
+          "transliteration": "neder",
+          "rendered_as": "vow",
+          "semantic_range": "vow, pledge, solemn promise, dedication",
+          "note": "A neder is a voluntary commitment to God — typically a positive obligation to give, do, or dedicate something. Unlike a shevuah (oath), which confirms or denies a fact, a neder creates a new obligation. The noun appears over 60 times in the Torah, reflecting the seriousness of verbal commitments in ancient Israelite religion."
+        },
+        {
+          "hebrew": "אִסָּר",
+          "transliteration": "issar",
+          "rendered_as": "obligation",
+          "semantic_range": "bond, binding restriction, obligation, prohibition",
+          "note": "From the root a-s-r ('to bind, to tie'), an issar is a self-imposed restriction — often an abstinence from something permitted. The term appears almost exclusively in Numbers 30, where it is the key legal concept: the binding force that a vow or oath places upon a person."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְאִשָּׁ֕ה כִּֽי־תִדֹּ֥ר נֶ֖דֶר לַיהֹוָ֑ה וְאָסְרָ֥ה אִסָּ֛ר בְּבֵ֥ית אָבִ֖יהָ בִּנְעֻרֶֽיהָ׃",
+      "text_kjv": "And her father hear her vow, and her bond wherewith she hath bound her soul, and her father shall hold his peace at her: then all her vows shall stand, and every bond wherewith she hath bound her soul shall stand.",
+      "rendering": "When a woman makes a vow to the LORD and takes on a binding obligation while living in her father's house during her youth,",
+      "translator_notes": [
+        "The shift from ish ('man') to ishah ('woman') introduces the chapter's central concern: under what conditions can a woman's vow be overridden? The qualifying phrase bevet aviha bine'ureha ('in her father's house in her youth') establishes the first legal category — an unmarried young woman still under paternal authority. The term ne'urim ('youth') denotes the period before marriage when a daughter remained part of her father's household and under his legal jurisdiction. Her vow is real but conditional on paternal ratification."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְשָׁמַ֨ע אָבִ֜יהָ אֶת־נִדְרָ֗הּ וֶֽאֱסָרָהּ֙ אֲשֶׁ֣ר אָֽסְרָ֣ה עַל־נַפְשָׁ֔הּ וְהֶחֱרִ֥ישׁ לָ֖הּ אָבִ֑יהָ וְקָ֙מוּ֙ כׇּל־נְדָרֶ֔יהָ וְכׇל־אִסָּ֛ר אֲשֶׁר־אָסְרָ֥ה עַל־נַפְשָׁ֖הּ יָקֽוּם׃",
+      "text_kjv": "But if her father disallow her in the day that he heareth; not any of her vows, or of her bonds wherewith she hath bound her soul, shall stand: and the LORD shall forgive her, because her father disallowed her.",
+      "rendering": "and her father hears about her vow and the obligation she has placed on herself, and her father says nothing to her — then all her vows will remain in force, and every obligation she placed on herself will remain in force.",
+      "translator_notes": [
+        "The verb hecharish ('he remained silent, he said nothing') is the legal mechanism of ratification. Silence equals consent — by not objecting, the father validates the vow. The verb qum ('to stand, to arise') is used in its legal sense of 'remaining valid/binding.' The phrase asrah al nafshah ('she bound upon herself') uses nefesh not as 'soul' in the Greek philosophical sense but as the whole person — the obligation falls on her entire life, not just her inner state. Paternal silence transforms a conditional vow into an unconditional one."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְאִם־הֵנִ֨יא אָבִ֣יהָ אֹתָהּ֮ בְּי֣וֹם שׇׁמְעוֹ֒ כׇּל־נְדָרֶ֗יהָ וֶֽאֱסָרֶ֛יהָ אֲשֶׁר־אָסְרָ֥ה עַל־נַפְשָׁ֖הּ לֹ֣א יָק֑וּם וַֽיהֹוָה֙ יִֽסְלַח־לָ֔הּ כִּי־הֵנִ֥יא אָבִ֖יהָ אֹתָֽהּ׃",
+      "text_kjv": "And if she had at all an husband, when she vowed, or uttered ought out of her lips, wherewith she bound her soul;",
+      "rendering": "But if her father overrules her on the day he learns of it, none of her vows or obligations that she placed on herself will remain in force. The LORD will release her from liability, because her father overruled her.",
+      "translator_notes": [
+        "The verb heni ('he overruled, he restrained, he disallowed') from the root n-w-' conveys active opposition — the father must expressly object, not merely disapprove silently. The time limit beyom shom'o ('on the day he hears') is critical: the father's window for annulment is the same day he learns of the vow. Delay implies consent. The phrase YHWH yislach lah ('the LORD will release/forgive her') uses s-l-ch in its legal-release sense rather than its moral-forgiveness sense — she is discharged from the vow's obligation, not pardoned for wrongdoing. The vow was legitimate; it was simply overridden by legitimate authority."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְאִם־הָי֤וֹ תִֽהְיֶה֙ לְאִ֔ישׁ וּנְדָרֶ֖יהָ עָלֶ֑יהָ א֚וֹ מִבְטָ֣א שְׂפָתֶ֔יהָ אֲשֶׁ֥ר אָסְרָ֖ה עַל־נַפְשָֽׁהּ׃",
+      "text_kjv": "And her husband heard it, and held his peace at her in the day that he heard it: then her vows shall stand, and her bonds wherewith she bound her soul shall stand.",
+      "rendering": "If she marries while her vows are still binding on her, or while a rash statement from her lips by which she obligated herself is still in effect,",
+      "translator_notes": [
+        "The infinitive absolute construction hayo tihyeh le'ish ('if she indeed becomes [wife] to a man') introduces the second legal scenario: a woman who marries with pre-existing vows. The term mivta sefateha ('the utterance of her lips') introduces a new category — a rash or impulsive verbal commitment, distinct from a formal neder. The root b-t-' suggests hasty speech, an unpremeditated promise. This category is significant because it acknowledges that not all binding statements are carefully considered vows — even impulsive words carry legal weight."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְשָׁמַ֥ע אִישָׁ֛הּ בְּי֥וֹם שׇׁמְע֖וֹ וְהֶחֱרִ֣ישׁ לָ֑הּ וְקָ֣מוּ נְדָרֶ֗יהָ וֶֽאֱסָרֶ֛הָ אֲשֶׁר־אָסְרָ֥ה עַל־נַפְשָׁ֖הּ יָקֻֽמוּ׃",
+      "text_kjv": "But if her husband disallowed her on the day that he heard it; then he shall make her vow which she vowed, and that which she uttered with her lips, wherewith she bound her soul, of none effect: and the LORD shall forgive her.",
+      "rendering": "and her husband hears about it and says nothing to her on the day he learns of it, then her vows will remain in force, and the obligations she placed on herself will remain in force.",
+      "translator_notes": [
+        "The same legal mechanism that applied to the father (v 5) now applies to the husband: hecharish lah ('he was silent toward her') constitutes ratification. Upon marriage, authority over a woman's vows transfers from father to husband. The verb qum ('stand') appears twice — once for vows (nedarim) and once for obligations (esareha) — emphasizing that both categories of verbal commitment are validated by the husband's silence. The husband inherits whatever vow-related authority the father previously held."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְ֠אִ֠ם בְּי֨וֹם שְׁמֹ֣עַ אִישָׁהּ֮ יָנִ֣יא אוֹתָהּ֒ וְהֵפֵ֗ר אֶת־נִדְרָהּ֙ אֲשֶׁ֣ר עָלֶ֔יהָ וְאֵת֙ מִבְטָ֣א שְׂפָתֶ֔יהָ אֲשֶׁ֥ר אָסְרָ֖ה עַל־נַפְשָׁ֑הּ וַיהֹוָ֖ה יִֽסְלַֽח־לָֽהּ׃",
+      "text_kjv": "But every vow of a widow, and of her that is divorced, wherewith they have bound their souls, shall stand against her.",
+      "rendering": "But if on the day her husband hears about it he overrules her and annuls the vow that was binding on her, along with the rash statement from her lips by which she obligated herself, then the LORD will release her from liability.",
+      "expanded_rendering": "But if on the very day her husband learns of the vow, he expressly objects and cancels the vow that was in effect over her — including any impulsive verbal commitment from her lips by which she bound herself — then the LORD will discharge her from the obligation. She is not held accountable for what her husband has voided.",
+      "translator_notes": [
+        "Two verbs describe the husband's action: yani ('he overrules/restrains' — the same root as the father's action in v 6) and hefer ('he annuls, he breaks, he renders void' — from the root p-r-r, 'to break, to frustrate'). The verb hefer is stronger than heni — it describes the complete dissolution of the vow's binding force. The repeated formula YHWH yislach lah ('the LORD will release her') establishes a theological principle: when legitimate authority annuls a vow, God Himself recognizes the annulment. The woman is not guilty of breaking a vow — the vow has been legally dissolved."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְנֵ֥דֶר אַלְמָנָ֖ה וּגְרוּשָׁ֑ה כֹּ֛ל אֲשֶׁר־אָסְרָ֥ה עַל־נַפְשָׁ֖הּ יָק֥וּם עָלֶֽיהָ׃",
+      "text_kjv": "And if she vowed in her husband's house, or bound her soul by a bond with an oath;",
+      "rendering": "Any vow made by a widow or a divorced woman — every obligation she has placed on herself — will be binding on her.",
+      "translator_notes": [
+        "This verse identifies the third legal category: the almanah ('widow') and gerushah ('divorced woman'). These women have no male authority figure to annul their vows, so their verbal commitments are unconditionally binding — identical to the rule for men in verse 3. The placement of this verse is structurally important: it interrupts the married-woman regulations (vv 7-9, 11-16) to establish that the annulment provisions apply only when a woman is under active male authority. A woman who has been widowed or divorced has full legal autonomy over her own vows."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְאִם־בֵּ֥ית אִישָׁ֖הּ נָדָ֑רָה אֽוֹ־אָסְרָ֥ה אִסָּ֛ר עַל־נַפְשָׁ֖הּ בִּשְׁבֻעָֽה׃",
+      "text_kjv": "And her husband heard it, and held his peace at her, and disallowed her not: then all her vows shall stand, and every bond wherewith she bound her soul shall stand.",
+      "rendering": "If she made a vow while living in her husband's household, or bound herself with an obligation under oath,",
+      "translator_notes": [
+        "The fourth legal scenario: a woman who makes a vow during marriage (beit ishah — 'in her husband's house'), as opposed to bringing pre-existing vows into the marriage (v 7). The addition of bishvu'ah ('with an oath') specifies that the obligation was formalized by swearing — a more solemn category of commitment. The phrase beit ishah ('her husband's house') denotes both physical residence and legal domain — the household in which the husband exercises authority."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְשָׁמַ֤ע אִישָׁהּ֙ וְהֶחֱרִ֣שׁ לָ֔הּ לֹ֥א הֵנִ֖יא אֹתָ֑הּ וְקָ֙מוּ֙ כׇּל־נְדָרֶ֔יהָ וְכׇל־אִסָּ֛ר אֲשֶׁר־אָסְרָ֥ה עַל־נַפְשָׁ֖הּ יָקֽוּם׃",
+      "text_kjv": "But if her husband hath utterly made them void on the day he heard them; then whatsoever proceeded out of her lips concerning her vows, or concerning the bond of her soul, shall not stand: her husband hath made them void; and the LORD shall forgive her.",
+      "rendering": "and her husband hears about it but says nothing to her — he does not overrule her — then all her vows will remain in force, and every obligation she placed on herself will remain in force.",
+      "translator_notes": [
+        "This verse adds an explicit double condition for ratification: hecharish lah ('he said nothing to her') and lo heni otah ('he did not overrule her'). The redundancy serves a legal purpose — it establishes that mere awareness combined with silence constitutes binding consent. A husband cannot later claim he passively disapproved; silence is active ratification in this legal framework. The verb qum ('stand, remain valid') appears for both nedarim ('vows') and issar ('obligation'), confirming that all categories of verbal commitment are validated."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְאִם־הָפֵר֩ יָפֵ֨ר אֹתָ֥ם&thinsp;׀&thinsp;אִישָׁהּ֮ בְּי֣וֹם שׇׁמְעוֹ֒ כׇּל־מוֹצָ֨א שְׂפָתֶ֧יהָ לִנְדָרֶ֛יהָ וּלְאִסַּ֥ר נַפְשָׁ֖הּ לֹ֣א יָק֑וּם אִישָׁ֣הּ הֲפֵרָ֔ם וַיהֹוָ֖ה יִֽסְלַֽח־לָֽהּ׃",
+      "text_kjv": "Every vow, and every binding oath to afflict the soul, her husband may establish it, or her husband may make it void.",
+      "rendering": "But if her husband completely annuls them on the day he hears about them, then nothing that came from her lips — whether vows or obligations upon herself — will remain in force. Her husband has annulled them, and the LORD will release her from liability.",
+      "translator_notes": [
+        "The infinitive absolute hafer yafer ('he will certainly annul, he will completely break') intensifies the husband's action — this is total and decisive nullification, not partial modification. The phrase kol motsa sefateha ('everything that went out from her lips') encompasses all verbal commitments regardless of category. The verse then restates the principle: ishah heferem ('her husband has annulled them') — the past tense indicates a completed legal act. And again, YHWH yislach lah ('the LORD will release her') — divine recognition of human legal authority when exercised within its proper scope."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "כׇּל־נֵ֛דֶר וְכׇל־שְׁבֻעַ֥ת אִסָּ֖ר לְעַנֹּ֣ת נָ֑פֶשׁ אִישָׁ֥הּ יְקִימֶ֖נּוּ וְאִישָׁ֥הּ יְפֵרֶֽנּוּ׃",
+      "text_kjv": "But if her husband altogether hold his peace at her from day to day; then he establisheth all her vows, or all her bonds, which are upon her: he confirmeth them, because he held his peace at her in the day that he heard them.",
+      "rendering": "Every vow and every sworn obligation involving self-denial — her husband may uphold it, or her husband may annul it.",
+      "expanded_rendering": "Any vow a wife makes, and any sworn obligation that involves practicing self-denial or abstinence — her husband has the authority either to let it stand or to cancel it entirely.",
+      "translator_notes": [
+        "The phrase le'annot nafesh ('to afflict/deny the self') specifies a particular category of vow — self-denial, which could include fasting, abstaining from certain foods, sexual abstinence, or other forms of personal deprivation. The same phrase appears in Leviticus 16:29 and 23:27 for Yom Kippur observance. The husband's authority (yeqimennu... yeferennu — 'he may uphold it... he may annul it') is presented as a binary — there is no middle ground. This verse may be singled out because self-denial vows directly affect the household: a wife's fasting or abstinence impacts the husband and family."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְאִם־הַחֲרֵשׁ֩ יַחֲרִ֨ישׁ לָ֥הּ אִישָׁהּ֮ מִיּ֣וֹם אֶל־יוֹם֒ וְהֵקִים֙ אֶת־כׇּל־נְדָרֶ֔יהָ א֥וֹ אֶת־כׇּל־אֱסָרֶ֖יהָ אֲשֶׁ֣ר עָלֶ֑יהָ הֵקִ֣ים אֹתָ֔ם כִּי־הֶחֱרִ֥שׁ לָ֖הּ בְּי֥וֹם שׇׁמְעֽוֹ׃",
+      "text_kjv": "But if he shall any ways make them void after that he hath heard them; then he shall bear her iniquity.",
+      "rendering": "If her husband keeps entirely silent toward her from one day to the next, then he has upheld all her vows and all her obligations that are binding on her. He has upheld them by his silence on the day he heard about them.",
+      "translator_notes": [
+        "The infinitive absolute hacharesh yacharish ('being silent he is silent' — completely silent) intensifies the husband's inaction. The time phrase miyom el yom ('from day to day') indicates that the window for annulment closes at the end of the day he first heard the vow. Once a new day begins, his silence has become permanent ratification. The verb heqim ('he has upheld, he has established') from q-w-m is the legal opposite of hefer ('he annulled'). The verse explicitly identifies the mechanism: ki hecherish lah beyom shom'o ('because he was silent toward her on the day he heard') — silence on the critical day is the decisive act."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְאִם־הָפֵ֥ר יָפֵ֛ר אֹתָ֖ם אַחֲרֵ֣י שׇׁמְע֑וֹ וְנָשָׂ֖א אֶת־עֲוֺנָֽהּ׃",
+      "text_kjv": "These are the statutes, which the LORD commanded Moses, between a man and his wife, between the father and his daughter, being yet in her youth in her father's house.",
+      "rendering": "But if he annuls them some time after the day he heard about them, then he will bear her guilt.",
+      "expanded_rendering": "But if the husband nullifies his wife's vows after the deadline — after the day he first learned of them has passed — then he himself will bear the guilt that would have attached to her for breaking the vow. The consequences for the unfulfilled obligation fall on him, not on her.",
+      "translator_notes": [
+        "The phrase acharei shom'o ('after his hearing' — after the day he heard) establishes a critical legal boundary: annulment after the permitted window is invalid. The husband who attempts a late annulment creates a situation where his wife cannot fulfill a vow she legitimately made, and he bears the liability. The phrase venasa et avonah ('he will bear her guilt/iniquity') transfers culpability — the root n-s-' ('to carry, to bear') combined with avon ('guilt, punishment, iniquity') is a standard formula for assuming responsibility for consequences (cf. Leviticus 5:1, 17). This is the chapter's only punitive provision directed at the male authority figure."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אֵ֣לֶּה הַֽחֻקִּ֗ים אֲשֶׁ֨ר צִוָּ֤ה יְהֹוָה֙ אֶת־מֹשֶׁ֔ה בֵּ֥ין אִ֖ישׁ לְאִשְׁתּ֑וֹ בֵּֽין־אָ֣ב לְבִתּ֔וֹ בִּנְעֻרֶ֖יהָ בֵּ֥ית אָבִֽיהָ׃ {פ}",
+      "text_kjv": "[KJV verse offset - mapped separately]",
+      "rendering": "These are the statutes that the LORD commanded Moses governing the relationship between a husband and his wife, and between a father and his daughter during her youth while she lives in her father's household.",
+      "translator_notes": [
+        "The closing formula elleh hachuqqim ('these are the statutes') frames the entire chapter as established law (choq — 'statute, decree, fixed rule'), not merely guidance or advice. The chapter addresses exactly two relational categories: ish le'ishto ('a man and his wife') and av levitto ('a father and his daughter'). The qualifying phrase bine'ureha beit aviha ('in her youth, in her father's house') limits the father's annulment authority to the period before marriage. The paragraph marker (pe) closes the section. Notably, the chapter establishes no authority for brothers, uncles, or other male relatives — only fathers and husbands may annul a woman's vows."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֻקִּים",
+          "transliteration": "chuqqim",
+          "rendered_as": "statutes",
+          "semantic_range": "statutes, decrees, fixed rules, inscribed laws",
+          "note": "From the root ch-q-q ('to inscribe, to engrave, to decree'), chuqqim denotes laws that are permanently established — carved, as it were, into the legal order. The term is used for laws whose rationale may not be immediately transparent but whose authority is absolute. The vow laws of Numbers 30 are classified as chuqqim rather than mishpatim ('judgments, case law'), indicating they function as foundational rules rather than situational adjudications."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

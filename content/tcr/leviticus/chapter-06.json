@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Leviticus",
+    "chapter": 6,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0",
+    "note": "Hebrew versification (23 verses). Hebrew 6:1-23 = KJV 6:8-30. KJV 6:1-7 is covered in Hebrew ch5 (v20-26)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses, saying,",
+      "rendering": "The LORD spoke to Moses:",
+      "translator_notes": [
+        "This speech formula opens the second half of the offering legislation: chapters 1-5 described the procedures from the worshipper's perspective; chapters 6-7 address the priests directly. The shift in audience (from Israel to Aaron and his sons, v2) changes the focus from 'how to bring an offering' to 'how to handle an offering.' The priestly instructions add details about what happens to the offerings after the worshipper's part is complete."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "צַ֤ו אֶֽת־אַהֲרֹן֙ וְאֶת־בָּנָ֣יו לֵאמֹ֔ר זֹ֥את תּוֹרַ֖ת הָעֹלָ֑ה הִ֣וא הָעֹלָ֡ה עַל֩ מוֹקְדָ֨ה עַל־הַמִּזְבֵּ֤חַ כׇּל־הַלַּ֙יְלָה֙ עַד־הַבֹּ֔קֶר וְאֵ֥שׁ הַמִּזְבֵּ֖חַ תּ֥וּקַד בּֽוֹ׃",
+      "text_kjv": "Command Aaron and his sons, saying, This is the law of the burnt offering: It is the burnt offering, because of the burning upon the altar all night unto the morning, and the fire of the altar shall be burning in it.",
+      "rendering": "\"Command Aaron and his sons: This is the instruction for the burnt offering — the burnt offering that stays on the altar hearth all night until morning, with the altar fire kept burning on it.",
+      "translator_notes": [
+        "The torat ha'olah ('instruction for the burnt offering') opens the priestly manual. The key detail: the olah remains on the altar hearth (moqdah) through the entire night until morning. The fire never goes out — ve'esh hamizbeach tuqad bo ('the fire of the altar shall be kept burning in it'). This perpetual fire becomes the defining feature of the altar and will be emphasized again in v5-6. The overnight burning ensures complete consumption: nothing remains of the olah by dawn."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְלָבַ֨שׁ הַכֹּהֵ֜ן מִדּ֣וֹ בַ֗ד וּמִכְנְסֵי־בַד֮ יִלְבַּ֣שׁ עַל־בְּשָׂרוֹ֒ וְהֵרִ֣ים אֶת־הַדֶּ֗שֶׁן אֲשֶׁ֨ר תֹּאכַ֥ל הָאֵ֛שׁ אֶת־הָעֹלָ֖ה עַל־הַמִּזְבֵּ֑חַ וְשָׂמ֕וֹ אֵ֖צֶל הַמִּזְבֵּֽחַ׃",
+      "text_kjv": "And the priest shall put on his linen garment, and his linen breeches shall he put upon his flesh, and take up the ashes which the fire hath consumed with the burnt offering on the altar, and he shall put them beside the altar.",
+      "rendering": "The priest shall dress in his linen tunic, with linen undergarments against his body, and remove the ashes left when the fire has consumed the burnt offering on the altar. He shall place them beside the altar.",
+      "translator_notes": [
+        "The priest's morning duty begins with changing into specific garments — middo bad ('his linen tunic') and mikhnesei-bad ('linen undergarments'). Linen (bad) is the priestly fabric, distinguished from wool. The ash removal (herim et-haddeshen) is the first priestly act of the day: clearing yesterday's residue to prepare for today's offerings. Even this mundane task requires sacred vestments — there is no 'secular' work in the tabernacle."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וּפָשַׁט֙ אֶת־בְּגָדָ֔יו וְלָבַ֖שׁ בְּגָדִ֣ים אֲחֵרִ֑ים וְהוֹצִ֤יא אֶת־הַדֶּ֙שֶׁן֙ אֶל־מִח֣וּץ לַֽמַּחֲנֶ֔ה אֶל־מָק֖וֹם טָהֽוֹר׃",
+      "text_kjv": "And he shall put off his garments, and put on other garments, and carry forth the ashes without the camp unto a clean place.",
+      "rendering": "Then he shall change out of those garments, put on other clothes, and carry the ashes outside the camp to a ritually clean place.",
+      "translator_notes": [
+        "A garment change is required between the altar-side ash placement (v3) and the removal of ashes outside the camp. The sacred linen worn for altar service must not be worn for the journey outside — the priestly garments belong to the sanctuary, not to the road. The ashes go to a maqom tahor ('clean place'), the same designated site used for burning the priestly chata't carcass (4:12). The careful handling of ashes — sacred residue from sacred offerings — demonstrates that holiness persists even in waste."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְהָאֵ֨שׁ עַל־הַמִּזְבֵּ֤חַ תּוּקַד־בּוֹ֙ לֹ֣א תִכְבֶּ֔ה וּבִעֵ֨ר עָלֶ֧יהָ הַכֹּהֵ֛ן עֵצִ֖ים בַּבֹּ֣קֶר בַּבֹּ֑קֶר וְעָרַ֤ךְ עָלֶ֙יהָ֙ הָעֹלָ֔ה וְהִקְטִ֥יר עָלֶ֖יהָ חֶלְבֵ֥י הַשְּׁלָמִֽים׃",
+      "text_kjv": "And the fire upon the altar shall be burning in it; it shall not be put out: and the priest shall burn wood on it every morning, and lay the burnt offering in order upon it; and he shall burn thereon the fat of the peace offerings.",
+      "rendering": "The fire on the altar must be kept burning — it must not go out. The priest shall feed it with wood every morning, arrange the burnt offering on it, and turn the fat of the peace offerings into smoke on it.",
+      "translator_notes": [
+        "The emphatic prohibition: lo tikhbeh ('it must not go out'). The perpetual fire is one of the most powerful symbols in the Levitical system — as long as the flame burns, God is ready to receive offerings. An extinguished altar fire would signal a broken relationship. The daily rhythm is specified: wood every morning (babboqer babboqer — the doubling emphasizes regularity), then the olah, then the shelamim fat. The altar is never idle; it is always active, always receiving."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "אֵ֗שׁ תָּמִ֛יד תּוּקַ֥ד עַל־הַמִּזְבֵּ֖חַ לֹ֥א תִכְבֶּֽה׃ {ס}",
+      "text_kjv": "The fire shall ever be burning upon the altar; it shall never go out.",
+      "rendering": "A perpetual fire shall be kept burning on the altar — it must never go out.",
+      "translator_notes": [
+        "The summary statement — esh tamid ('perpetual fire') — elevates the practical instruction of v5 to a permanent principle. Tamid ('continual, perpetual') is the word used for the daily offerings (tamid), the perpetual bread (lechem hattamid), and the eternal lamp (ner tamid). The perpetual fire is the altar's heartbeat: it signifies God's uninterrupted readiness to receive Israel's worship. This verse is the origin of the ner tamid ('eternal light') tradition in synagogues."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֵשׁ תָּמִיד",
+          "transliteration": "esh tamid",
+          "rendered_as": "perpetual fire",
+          "semantic_range": "continual fire, eternal fire, unceasing flame",
+          "note": "Tamid ('perpetual, continual') marks the fire as an unbroken sign of the covenant relationship. The fire that consumed the first offerings (9:24) must never be extinguished. It represents God's permanent presence and permanent readiness. An altar without fire is a table without a host."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְזֹ֥את תּוֹרַ֖ת הַמִּנְחָ֑ה הַקְרֵ֨ב אֹתָ֤הּ בְּנֵֽי־אַהֲרֹן֙ לִפְנֵ֣י יְהֹוָ֔ה אֶל־פְּנֵ֖י הַמִּזְבֵּֽחַ׃",
+      "text_kjv": "And this is the law of the meat offering: the sons of Aaron shall offer it before the LORD, before the altar.",
+      "rendering": "This is the instruction for the grain offering: Aaron's sons shall present it before the LORD, in front of the altar.",
+      "translator_notes": [
+        "The torat hamminchah ('instruction for the grain offering') begins the priestly perspective on the second offering. The shift from worshipper instructions (ch 2) to priestly instructions matters: chapter 2 told the worshipper how to prepare the minchah; this section tells the priest how to handle it. 'Before the LORD, in front of the altar' (lifnei YHWH, el-penei hamizbeach) places the presentation at the boundary between human and divine space."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְהֵרִ֨ים מִמֶּ֜נּוּ בְּקֻמְצ֗וֹ מִסֹּ֤לֶת הַמִּנְחָה֙ וּמִשַּׁמְנָ֔הּ וְאֵת֙ כׇּל־הַלְּבֹנָ֔ה אֲשֶׁ֖ר עַל־הַמִּנְחָ֑ה וְהִקְטִ֣יר הַמִּזְבֵּ֔חַ רֵ֥יחַ נִיחֹ֖חַ אַזְכָּרָתָ֥הּ לַיהֹוָֽה׃",
+      "text_kjv": "And he shall take of it his handful, of the flour of the meat offering, and of the oil thereof, and all the frankincense which is upon the meat offering, and shall burn it upon the altar for a sweet savour, even the memorial of it, unto the LORD.",
+      "rendering": "The priest shall scoop out a handful of the fine flour of the grain offering with its oil, along with all the frankincense on the grain offering, and turn the memorial portion into smoke on the altar — a pleasing aroma to the LORD.",
+      "translator_notes": [
+        "The azkarah ('memorial portion') procedure from 2:2 restated from the priest's perspective. The priest takes bequmtso ('with his handful') — the measured scoop that represents the whole offering before God. All the frankincense goes up (not just a portion), but only a handful of the flour and oil. The remainder (v9-10) belongs to the priests. The azkarah is God's portion; the notereth is the priesthood's sustenance."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְהַנּוֹתֶ֣רֶת מִמֶּ֔נָּה יֹאכְל֖וּ אַהֲרֹ֣ן וּבָנָ֑יו מַצּ֤וֹת תֵּֽאָכֵל֙ בְּמָק֣וֹם קָדֹ֔שׁ בַּחֲצַ֥ר אֹֽהֶל־מוֹעֵ֖ד יֹאכְל֥וּהָ׃",
+      "text_kjv": "And the remainder thereof shall Aaron and his sons eat: with unleavened bread shall it be eaten in the holy place; in the court of the tabernacle of the congregation they shall eat it.",
+      "rendering": "The remainder Aaron and his sons shall eat. It must be eaten unleavened in a holy place — in the courtyard of the tent of meeting they shall eat it.",
+      "translator_notes": [
+        "Two restrictions govern the priestly consumption: it must be eaten matzot ('unleavened' — no fermentation may touch what has been part of a holy offering) and it must be eaten bemaqom qadosh ('in a holy place' — specifically the courtyard of the tent of meeting). The priestly meal from the minchah is itself a sacred act: what the priests eat from God's altar is holy food consumed in holy space. Eating is not merely practical sustenance but liturgical participation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "לֹ֤א תֵאָפֶה֙ חָמֵ֔ץ חֶלְקָ֛ם נָתַ֥תִּי אֹתָ֖הּ מֵאִשָּׁ֑י קֹ֤דֶשׁ קׇֽדָשִׁים֙ הִ֔וא כַּחַטָּ֖את וְכָאָשָֽׁם׃",
+      "text_kjv": "It shall not be baken with leaven. I have given it unto them for their portion of my offerings made by fire; it is most holy, as is the sin offering, and as the trespass offering.",
+      "rendering": "It must not be baked with leaven. I have given it as their portion from My fire offerings. It is most holy, like the purification offering and the guilt offering.",
+      "translator_notes": [
+        "God speaks in the first person — 'I have given it as their portion' (chelqam natatti otah) — making the priestly food allocation a direct divine grant, not a human arrangement. The classification qodesh qodashim ('most holy') places the minchah remainder in the same category as the chata't and asham. Three offerings share the 'most holy' designation: minchah, chata't, and asham. The shelamim is 'holy' (qodesh) but not 'most holy' — the distinction determines where the food may be eaten and by whom."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "כׇּל־זָכָ֞ר בִּבְנֵ֤י אַהֲרֹן֙ יֹאכְלֶ֔נָּה חׇק־עוֹלָ֥ם לְדֹרֹתֵיכֶ֖ם מֵאִשֵּׁ֣י יְהֹוָ֑ה כֹּ֛ל אֲשֶׁ֥ר יִגַּ֖ע בָּהֶ֥ם יִקְדָּֽשׁ׃ {פ}",
+      "text_kjv": "All the males among the children of Aaron shall eat of it. It shall be a statute for ever in your generations concerning the offerings of the LORD made by fire: every one that toucheth them shall be holy.",
+      "rendering": "Every male among Aaron's descendants may eat of it — a permanent statute for all your generations from the fire offerings of the LORD. Whatever touches them becomes holy.",
+      "translator_notes": [
+        "The priestly minchah portion is restricted to males (kol-zakhar bivenei Aharon). The closing statement is remarkable: kol asher yigga bahem yiqdash ('whatever touches them becomes holy'). Holiness is contagious — the sacred food transmits its holiness to anything it contacts. This is why the eating must occur in the courtyard: holiness spreading uncontrolled through the camp would be dangerous. The sacred precinct contains and manages holiness."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses, saying,",
+      "rendering": "The LORD spoke to Moses:",
+      "translator_notes": [
+        "A new speech formula introduces the high priest's personal grain offering (v12-16) — a daily minchah distinct from the regular grain offerings brought by worshippers. This offering is mandatory, not voluntary, and it is entirely burned — the high priest receives no portion back. Even the mediator between God and Israel must offer his own sacrifice daily."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "זֶ֡ה קׇרְבַּ֣ן אַהֲרֹן֩ וּבָנָ֨יו אֲשֶׁר־יַקְרִ֜יבוּ לַיהֹוָ֗ה בְּיוֹם֙ הִמָּשַׁ֣ח אֹת֔וֹ עֲשִׂירִ֧ת הָאֵפָ֛ה סֹ֖לֶת מִנְחָ֣ה תָמִ֑יד מַחֲצִיתָ֣הּ בַּבֹּ֔קֶר וּמַחֲצִיתָ֖הּ בָּעָֽרֶב׃",
+      "text_kjv": "This is the offering of Aaron and of his sons, which they shall offer unto the LORD in the day when he is anointed; the tenth part of an ephah of fine flour for a meat offering perpetual, half of it in the morning, and half thereof at night.",
+      "rendering": "\"This is the offering that Aaron and his sons shall present to the LORD on the day of his anointing: a tenth of an ephah of fine flour as a regular grain offering — half in the morning and half in the evening.",
+      "translator_notes": [
+        "The high priest's daily minchah is split between morning and evening (machatstiah babboqer umachatstiah ba'arev), bracketing the day with personal offering. A tenth of an ephah (the same amount as the poorest person's chata't in 5:11) — the high priest's daily offering is no more elaborate than the poorest Israelite's sin offering. The quantity is identical; the frequency is different. The high priest offers daily what the commoner offers occasionally."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "עַֽל־מַחֲבַ֗ת בַּשֶּׁ֛מֶן תֵּעָשֶׂ֖ה מֻרְבֶּ֣כֶת תְּבִיאֶ֑נָּה תֻּפִינֵי֙ מִנְחָ֣ה פִתִּ֔ים תַּקְרִ֥יב רֵֽיחַ־נִיחֹ֖חַ לַיהֹוָֽה׃",
+      "text_kjv": "In a pan it shall be made with oil; and when it is baken, thou shalt bring it in: and the baken pieces of the meat offering shalt thou offer for a sweet savour unto the LORD.",
+      "rendering": "It shall be prepared on a griddle with oil — well-mixed. Bring it in broken pieces as a grain offering, a pleasing aroma to the LORD.",
+      "translator_notes": [
+        "The preparation method: griddle-cooked (machavat) with oil, then murbeket ('well-soaked, well-mixed' — a thorough saturation with oil). The offering is broken into pieces (pittim) before presentation, matching the procedure of the regular griddle minchah (2:6). The daily priestly offering follows the same form as the worshipper's offering — the priest is not exempt from the common worship pattern."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְהַכֹּהֵ֨ן הַמָּשִׁ֧יחַ תַּחְתָּ֛יו מִבָּנָ֖יו יַעֲשֶׂ֣ה אֹתָ֑הּ חׇק־עוֹלָ֕ם לַיהֹוָ֖ה כָּלִ֥יל תׇּקְטָֽר׃",
+      "text_kjv": "And the priest of his sons that is anointed in his stead shall offer it: it is a statute for ever unto the LORD; it shall be wholly burnt.",
+      "rendering": "The priest who is anointed from among his sons to succeed him shall prepare it — a permanent statute to the LORD. It shall be entirely turned to smoke.",
+      "translator_notes": [
+        "Two critical details: the obligation passes from one high priest to the next (haccohen hammashiach tachtav — 'the anointed priest in his place, from among his sons'), making it perpetual. And the offering is kalil toqtar ('entirely burned') — unlike the regular minchah where the priest eats the remainder, the priestly minchah is entirely consumed. The priest cannot benefit from his own offering. What he gives to God goes entirely to God. This prevents the priestly offering from becoming a circular transaction."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְכׇל־מִנְחַ֥ת כֹּהֵ֛ן כָּלִ֥יל תִּהְיֶ֖ה לֹ֥א תֵאָכֵֽל׃ {פ}",
+      "text_kjv": "For every meat offering for the priest shall be wholly burnt: it shall not be eaten.",
+      "rendering": "Every grain offering of a priest shall be entirely burned — it must not be eaten.",
+      "translator_notes": [
+        "The principle generalized: kol-minchat kohen kalil tihyeh ('every priestly grain offering shall be entirely burned'). No priest may eat from his own grain offering. The rule ensures that the priestly offering is genuine sacrifice, not a loop back to the one who gave it. The priest gives to God completely — the offering ascends as smoke without returning as food. This establishes a principle of disinterested giving that underlies the entire priestly role."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+      "text_kjv": "And the LORD spake unto Moses, saying,",
+      "rendering": "The LORD spoke to Moses:",
+      "translator_notes": [
+        "A third speech formula in this chapter introduces the priestly instructions for the chata't (purification offering, v17-23). This section adds critical information not found in chapter 4: where the chata't must be eaten, and what happens to the blood and the vessel in which it is cooked. The chata't's holiness is so intense that it affects whatever it contacts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "דַּבֵּ֤ר אֶֽל־אַהֲרֹן֙ וְאֶל־בָּנָ֣יו לֵאמֹ֔ר זֹ֥את תּוֹרַ֖ת הַֽחַטָּ֑את בִּמְק֡וֹם אֲשֶׁר֩ תִּשָּׁחֵ֨ט הָעֹלָ֜ה תִּשָּׁחֵ֤ט הַֽחַטָּאת֙ לִפְנֵ֣י יְהֹוָ֔ה קֹ֥דֶשׁ קׇֽדָשִׁ֖ים הִֽוא׃",
+      "text_kjv": "Speak unto Aaron and to his sons, saying, This is the law of the sin offering: In the place where the burnt offering is killed shall the sin offering be killed before the LORD: it is most holy.",
+      "rendering": "\"Speak to Aaron and his sons: This is the instruction for the purification offering. The purification offering must be slaughtered at the same place where the burnt offering is slaughtered, before the LORD. It is most holy.",
+      "translator_notes": [
+        "The chata't shares its slaughter location with the olah — the north side of the altar (1:11). This spatial equivalence links purification to devotion: they occur in the same sacred space. The classification qodesh qodashim ('most holy') means the chata't meat must be eaten by priests in the sacred precinct — not taken home, not shared with family members outside the priesthood."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "הַכֹּהֵ֛ן הַֽמְחַטֵּ֥א אֹתָ֖הּ יֹאכְלֶ֑נָּה בְּמָק֤וֹם קָדֹשׁ֙ תֵּֽאָכֵ֔ל בַּחֲצַ֖ר אֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "The priest that offereth it for sin shall eat it: in the holy place shall it be eaten, in the court of the tabernacle of the congregation.",
+      "rendering": "The priest who performs the purification offering shall eat it. It must be eaten in a holy place — in the courtyard of the tent of meeting.",
+      "translator_notes": [
+        "The officiating priest — the one who performs the blood ritual (hamchattei otah) — is the one who eats the meat. This is not a general priestly entitlement but a specific allocation to the mediating priest. The courtyard of the tent of meeting is the only permissible location, reinforcing that consuming the chata't is a sacred act, not a casual meal."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "כֹּ֛ל אֲשֶׁ֥ר יִגַּ֖ע בִּבְשָׂרָ֣הּ יִקְדָּ֑שׁ וַאֲשֶׁ֨ר יִזֶּ֤ה מִדָּמָהּ֙ עַל־הַבֶּ֔גֶד אֲשֶׁר֙ יִזֶּ֣ה עָלֶ֔יהָ תְּכַבֵּ֖ס בְּמָק֥וֹם קָדֹֽשׁ׃",
+      "text_kjv": "Whatsoever shall touch the flesh thereof shall be holy: and when there is sprinkled of the blood thereof upon any garment, thou shalt wash that whereon it was sprinkled in the holy place.",
+      "rendering": "Whatever touches its flesh becomes holy. If any of its blood is spattered on a garment, the stained portion must be washed in a holy place.",
+      "translator_notes": [
+        "The chata't meat transmits holiness to whatever it contacts — kol asher yigga bivsarah yiqdash ('whatever touches its flesh becomes holy'). This is not beneficial consecration but dangerous holiness: an ordinary object that becomes holy must be handled within the sacred system or destroyed. Blood stains on garments must be washed in the sacred precinct — the holiness cannot leave the courtyard, even on clothing."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וּכְלִי־חֶ֛רֶשׂ אֲשֶׁ֥ר תְּבֻשַּׁל־בּ֖וֹ יִשָּׁבֵ֑ר וְאִם־בִּכְלִ֤י נְחֹ֙שֶׁת֙ בֻּשָּׁ֔לָה וּמֹרַ֥ק וְשֻׁטַּ֖ף בַּמָּֽיִם׃",
+      "text_kjv": "But the earthen vessel wherein it is sodden shall be broken: and if it be sodden in a brasen pot, it shall be both scoured, and rinsed in water.",
+      "rendering": "A clay vessel in which it is boiled must be broken. If it is boiled in a bronze vessel, the vessel must be scoured and rinsed with water.",
+      "translator_notes": [
+        "Two vessel types, two treatments: clay absorbs the holiness permanently and must be destroyed (yishaver — 'shall be broken'); bronze can be scoured clean (muraq veshuttaf — 'scoured and rinsed') because metal is non-porous. The distinction reflects practical ancient knowledge about the properties of materials, but the theological logic is primary: holiness that has soaked into a vessel must be either removed (bronze) or the vessel must be eliminated (clay). Nothing that has absorbed the chata't's holiness may return to common use unsanctified."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "כׇּל־זָכָ֥ר בַּכֹּהֲנִ֖ים יֹאכַ֣ל אֹתָ֑הּ קֹ֥דֶשׁ קׇֽדָשִׁ֖ים הִֽוא׃",
+      "text_kjv": "All the males among the priests shall eat thereof: it is most holy.",
+      "rendering": "Every male among the priests may eat of it. It is most holy.",
+      "translator_notes": [
+        "The chata't meat is restricted to male priests, the same restriction as the minchah remainder (v11). The reiteration of qodesh qodashim confirms the chata't's most-holy status. The priestly consumption of the chata't is not merely sustenance — the priest absorbs the holiness of the offering, serving as a human vessel for sacred substance. Eating the chata't is itself a priestly act of mediation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְכׇל־חַטָּ֗את אֲשֶׁ֨ר יוּבָ֤א מִדָּמָהּ֙ אֶל־אֹ֣הֶל מוֹעֵ֔ד לְכַפֵּ֖ר בַּקֹּ֑דֶשׁ לֹ֣א תֵאָכֵ֔ל בָּאֵ֖שׁ תִּשָּׂרֵֽף׃ {פ}",
+      "text_kjv": "And no sin offering, whereof any of the blood is brought into the tabernacle of the congregation to reconcile withal in the holy place, shall be eaten: it shall be burnt in the fire.",
+      "rendering": "But any purification offering whose blood is brought into the tent of meeting to make atonement in the holy place must not be eaten — it must be burned in fire.\"",
+      "translator_notes": [
+        "The critical exception: when the chata't blood goes inside the tent (the priestly and communal chata't of 4:3-21), the meat is not eaten but burned outside the camp. The blood cannot go both inward (into the sanctuary) and downward (into the priest's stomach) — the two destinations are mutually exclusive. This rule explains why the priestly and communal chata't carcasses are burned outside (4:12, 21): the blood's entry into the inner sanctuary makes the meat too holy for consumption. The chapter closes with the foundational principle of the chata't system: the deeper the blood penetrates the sanctuary, the more completely the offering must be destroyed."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

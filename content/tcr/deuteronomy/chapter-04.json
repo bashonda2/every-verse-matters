@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Deuteronomy",
+    "chapter": 4,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "model": "claude-opus-4-6",
+    "generated_at": "2026-03-15T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וְעַתָּ֣ה יִשְׂרָאֵ֗ל שְׁמַ֤ע אֶל־הַֽחֻקִּים֙ וְאֶל־הַמִּשְׁפָּטִ֔ים אֲשֶׁ֧ר אָֽנֹכִ֛י מְלַמֵּ֥ד אֶתְכֶ֖ם לַעֲשׂ֑וֹת לְמַ֣עַן תִּֽחְי֗וּ וּבָאתֶם֙ וִֽירִשְׁתֶּ֣ם אֶת־הָאָ֔רֶץ אֲשֶׁ֧ר יְהֹוָ֛ה אֱלֹהֵ֥י אֲבֹתֵיכֶ֖ם נֹתֵ֥ן לָכֶֽם׃",
+      "text_kjv": "Now therefore hearken, O Israel, unto the statutes and unto the judgments, which I teach you, for to do them, that ye may live, and go in and possess the land which the LORD God of your fathers giveth you.",
+      "rendering": "Now then, Israel, listen to the decrees and the laws that I am teaching you to follow, so that you may live and go in and take possession of the land that the LORD, the God of your ancestors, is giving you.",
+      "translator_notes": [
+        "The transitional v'attah Yisra'el ('and now, Israel') shifts from historical review (chapters 1-3) to direct exhortation. The command shema ('listen/hear') introduces the central Deuteronomic demand: attentive obedience. Two categories of instruction are named: chuqqim ('decrees, statutes' — fixed prescriptions) and mishpatim ('laws, judgments' — case-based rulings). The purpose clause lema'an tichyu ('so that you may live') connects obedience directly to survival — Torah observance is not abstract duty but the pathway to life itself."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֻקִּים",
+          "transliteration": "chuqqim",
+          "rendered_as": "decrees",
+          "semantic_range": "statutes, decrees, fixed laws, prescribed limits, engraved regulations",
+          "note": "From chaqaq ('to engrave, to inscribe'); refers to permanently established divine regulations, often those whose rationale is not immediately obvious — laws 'carved in stone' by divine authority."
+        },
+        {
+          "hebrew": "מִשְׁפָּטִים",
+          "transliteration": "mishpatim",
+          "rendered_as": "laws",
+          "semantic_range": "judgments, laws, ordinances, case rulings, legal precedents",
+          "note": "From shaphat ('to judge'); these are laws derived from judicial decisions — practical rulings that govern specific situations and relationships within the community."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "לֹ֣א תֹסִ֗פוּ עַל־הַדָּבָר֙ אֲשֶׁ֤ר אָנֹכִי֙ מְצַוֶּ֣ה אֶתְכֶ֔ם וְלֹ֥א תִגְרְע֖וּ מִמֶּ֑נּוּ לִשְׁמֹ֗ר אֶת־מִצְוֺת֙ יְהֹוָ֣ה אֱלֹֽהֵיכֶ֔ם אֲשֶׁ֥ר אָנֹכִ֖י מְצַוֶּ֥ה אֶתְכֶֽם׃",
+      "text_kjv": "Ye shall not add unto the word which I command you, neither shall ye diminish ought from it, that ye may keep the commandments of the LORD your God which I command you.",
+      "rendering": "Do not add anything to what I am commanding you, and do not take anything away from it. Keep the commandments of the LORD your God exactly as I am giving them to you.",
+      "translator_notes": [
+        "The double prohibition — lo tosifu ('do not add') and lo tigre'u ('do not subtract/diminish') — establishes the principle of textual integrity for divine instruction. The ha-davar ('the word/matter') is treated as a fixed, complete revelation that must be preserved without human modification. This principle protects the Torah from both expansionist innovation and reductive neglect. The purpose is lishemor et mitsvot YHWH ('to keep the commandments of the LORD') — faithful preservation enables faithful practice."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "עֵֽינֵיכֶם֙ הָֽרֹא֔וֹת אֵ֛ת אֲשֶׁר־עָשָׂ֥ה יְהֹוָ֖ה בְּבַ֣עַל פְּע֑וֹר כִּ֣י כׇל־הָאִ֗ישׁ אֲשֶׁ֤ר הָלַךְ֙ אַחֲרֵ֣י בַֽעַל־פְּע֔וֹר הִשְׁמִיד֛וֹ יְהֹוָ֥ה אֱלֹהֶ֖יךָ מִקִּרְבֶּֽךָ׃",
+      "text_kjv": "Your eyes have seen what the LORD did because of Baal-peor: for all the men that followed Baal-peor, the LORD thy God hath destroyed them from among you.",
+      "rendering": "Your own eyes saw what the LORD did at Baal-peor — the LORD your God destroyed from among you every person who followed Baal-peor.",
+      "translator_notes": [
+        "Moses appeals again to eyewitness experience: eineikhem ha-ro'ot ('your eyes — the seeing ones'). The Ba'al Pe'or incident (Numbers 25) involved Israelite men engaging in sexual immorality and idol worship with Moabite women — a recent catastrophe that killed 24,000. The verb hishmido ('He destroyed him') from shamad is used for total annihilation. The selective destruction — kol ha-ish asher halakh acharei Ba'al Pe'or ('every man who followed Baal-peor') — reinforces the thesis: disobedience brings death."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְאַתֶּם֙ הַדְּבֵקִ֔ים בַּיהֹוָ֖ה אֱלֹהֵיכֶ֑ם חַיִּ֥ים כֻּלְּכֶ֖ם הַיּֽוֹם׃",
+      "text_kjv": "But ye that did cleave unto the LORD your God are alive every one of you this day.",
+      "rendering": "But you who held fast to the LORD your God — all of you are alive today.",
+      "translator_notes": [
+        "The verb ha-deveqim ('the ones clinging/holding fast') from davaq describes intimate, tenacious attachment — the same verb used for a husband's bond to his wife in Genesis 2:24. The contrast is stark: those who followed Baal-peor are dead; those who clung to God (ba-YHWH Eloheikhem — 'to the LORD your God') are chayyim kullekhem ha-yom ('alive, all of you, today'). Loyalty to God is literally the difference between life and death."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "דְּבֵקִים",
+          "transliteration": "deveqim",
+          "rendered_as": "held fast",
+          "semantic_range": "clinging, adhering, holding fast, being joined to, bonded",
+          "note": "From davaq — the same verb used for marriage union (Genesis 2:24); implies not casual allegiance but fierce, intimate attachment to God that cannot be easily torn away."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "רְאֵ֣ה&thinsp;׀ לִמַּ֣דְתִּי אֶתְכֶ֗ם חֻקִּים֙ וּמִשְׁפָּטִ֔ים כַּאֲשֶׁ֥ר צִוַּ֖נִי יְהֹוָ֣ה אֱלֹהָ֑י לַעֲשׂ֣וֹת כֵּ֔ן בְּקֶ֣רֶב הָאָ֔רֶץ אֲשֶׁ֥ר אַתֶּ֛ם בָּאִ֥ים שָׁ֖מָּה לְרִשְׁתָּֽהּ׃",
+      "text_kjv": "Behold, I have taught you statutes and judgments, even as the LORD my God commanded me, that ye should do so in the land whither ye go to possess it.",
+      "rendering": "See — I have taught you decrees and laws just as the LORD my God commanded me, so you can follow them in the land you are entering to take possession of.",
+      "translator_notes": [
+        "Moses presents himself as an authorized teacher: limmadeti etkhem ('I have taught you') — the root lamad ('to teach/learn') establishes Moses's pedagogical role. His authority derives from divine commission: ka'asher tsivvani YHWH Elohai ('as the LORD my God commanded me'). The purpose is la'asot ken be-qerev ha-arets ('to do so in the midst of the land') — the Torah is designed for life in the land, not for wilderness existence. The laws will govern a settled agricultural society."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וּשְׁמַרְתֶּם֮ וַעֲשִׂיתֶם֒ כִּ֣י הִ֤וא חׇכְמַתְכֶם֙ וּבִ֣ינַתְכֶ֔ם לְעֵינֵ֖י הָעַמִּ֑ים אֲשֶׁ֣ר יִשְׁמְע֗וּן אֵ֚ת כׇּל־הַחֻקִּ֣ים הָאֵ֔לֶּה וְאָמְר֗וּ רַ֚ק עַם־חָכָ֣ם וְנָב֔וֹן הַגּ֥וֹי הַגָּד֖וֹל הַזֶּֽה׃",
+      "text_kjv": "Keep therefore and do them; for this is your wisdom and your understanding in the sight of the nations, which shall hear all these statutes, and say, Surely this great nation is a wise and understanding people.",
+      "rendering": "Guard them and put them into practice, because this is your wisdom and discernment in the eyes of the nations. When they hear about all these decrees, they will say, 'Truly, this great nation is a wise and discerning people.'",
+      "translator_notes": [
+        "Torah observance becomes Israel's international reputation: hi chokhmatkhem u-vinatkhem le'einei ha-ammim ('it is your wisdom and your discernment in the eyes of the peoples'). The nations' expected response — raq am chakham v'navon ha-goi ha-gadol ha-zeh ('surely a wise and discerning people, this great nation') — presents Torah observance not as a burden but as an advertisement for divine wisdom. Other nations will recognize the superiority of Israel's legal and moral code by observing its effects."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חׇכְמָה",
+          "transliteration": "chokhmah",
+          "rendered_as": "wisdom",
+          "semantic_range": "wisdom, skill, expertise, shrewdness, practical intelligence",
+          "note": "Israel's wisdom is not philosophical speculation but practical Torah observance — the nations will recognize divine wisdom by its fruits in Israelite society."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "כִּ֚י מִי־ג֣וֹי גָּד֔וֹל אֲשֶׁר־ל֥וֹ אֱלֹהִ֖ים קְרֹבִ֣ים אֵלָ֑יו כַּיהֹוָ֣ה אֱלֹהֵ֔ינוּ בְּכׇל־קׇרְאֵ֖נוּ אֵלָֽיו׃",
+      "text_kjv": "For what nation is there so great, who hath God so nigh unto them, as the LORD our God is in all things that we call upon him for?",
+      "rendering": "For what great nation has a god so near to it as the LORD our God is to us whenever we call on Him?",
+      "translator_notes": [
+        "The rhetorical question mi goi gadol ('what great nation?') expects the answer 'none.' Israel's uniqueness is not military power or cultural sophistication but divine proximity: asher lo Elohim qerovim elav ('that has a god near to it'). The participle qerovim ('near, close') describes God's accessibility — be-khol qor'enu elav ('in all our calling upon Him'). Other nations had distant, manipulable deities; Israel's God is relationally present and responsive to prayer."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וּמִי֙ גּ֣וֹי גָּד֔וֹל אֲשֶׁר־ל֛וֹ חֻקִּ֥ים וּמִשְׁפָּטִ֖ים צַדִּיקִ֑ם כְּכֹל֙ הַתּוֹרָ֣ה הַזֹּ֔את אֲשֶׁ֧ר אָנֹכִ֛י נֹתֵ֥ן לִפְנֵיכֶ֖ם הַיּֽוֹם׃",
+      "text_kjv": "And what nation is there so great, that hath statutes and judgments so righteous as all this law, which I set before you this day?",
+      "rendering": "And what great nation has decrees and laws as just as this entire Torah that I am setting before you today?",
+      "translator_notes": [
+        "A second rhetorical question parallels verse 7: if the first boasts divine proximity, this one boasts legal excellence. The adjective tsaddiqim ('righteous, just') applied to the chuqqim and mishpatim declares Israel's laws morally superior to all other legal codes. The phrase k'khol ha-Torah ha-zot ('like this entire Torah') treats the Torah as a unified, comprehensive body of instruction. The claim is bold: no nation's laws match the justice of God's revealed instructions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "רַ֡ק הִשָּׁ֣מֶר לְךָ֩ וּשְׁמֹ֨ר נַפְשְׁךָ֜ מְאֹ֗ד פֶּן־תִּשְׁכַּ֨ח אֶת־הַדְּבָרִ֜ים אֲשֶׁר־רָא֣וּ עֵינֶ֗יךָ וּפֶן־יָס֙וּרוּ֙ מִלְּבָ֣בְךָ֔ כֹּ֖ל יְמֵ֣י חַיֶּ֑יךָ וְהוֹדַעְתָּ֥ם לְבָנֶ֖יךָ וְלִבְנֵ֥י בָנֶֽיךָ׃",
+      "text_kjv": "Only take heed to thyself, and keep thy soul diligently, lest thou forget the things which thine eyes have seen, and lest they depart from thy heart all the days of thy life: but teach them thy sons, and thy sons' sons;",
+      "rendering": "Only be on guard, and watch yourself carefully, so that you do not forget the things your eyes have seen and so that they do not slip from your heart as long as you live. Teach them to your children and to your grandchildren —",
+      "translator_notes": [
+        "The double imperative — hishamer lekha u-shemor nafshekha me'od ('guard yourself and keep your soul very carefully') — conveys extreme vigilance. The danger is forgetting: pen tishkach ('lest you forget') the events your eyes witnessed, and pen yasuru mi-levavekha ('lest they depart from your heart'). Memory is not passive recall but active heart-engagement. The antidote to forgetting is intergenerational teaching: v'hoda'tam le-vanekha v'livnei vanekha ('make them known to your children and grandchildren'). Faith survives through transmission."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "י֗וֹם אֲשֶׁ֨ר עָמַ֜דְתָּ לִפְנֵ֨י יְהֹוָ֣ה אֱלֹהֶ֘יךָ֮ בְּחֹרֵב֒ בֶּאֱמֹ֨ר יְהֹוָ֜ה אֵלַ֗י הַקְהֶל־לִי֙ אֶת־הָעָ֔ם וְאַשְׁמִעֵ֖ם אֶת־דְּבָרָ֑י אֲשֶׁ֨ר יִלְמְד֜וּן לְיִרְאָ֣ה אֹתִ֗י כׇּל־הַיָּמִים֙ אֲשֶׁ֨ר הֵ֤ם חַיִּים֙ עַל־הָ֣אֲדָמָ֔ה וְאֶת־בְּנֵיהֶ֖ם יְלַמֵּדֽוּן׃",
+      "text_kjv": "Specially the day that thou stoodest before the LORD thy God in Horeb, when the LORD said unto me, Gather me the people together, and I will make them hear my words, that they may learn to fear me all the days that they shall live upon the earth, and that they may teach their children.",
+      "rendering": "Remember the day you stood before the LORD your God at Horeb, when the LORD said to me, 'Assemble the people before me so I can let them hear my words. They will learn to revere me all the days they live on the earth, and they will teach their children as well.'",
+      "translator_notes": [
+        "The Horeb theophany is the foundational memory: yom asher amadta lifnei YHWH ('the day you stood before the LORD'). God's purpose in the assembly (haqhel li et ha-am — 'gather for me the people') was auditory revelation: v'ashmi'em et devarai ('I will make them hear my words'). The goal is le-yir'ah oti ('to fear/revere me') — yir'ah encompasses awe, reverence, and obedient respect. The chain continues: v'et beneihem yelammedun ('and their children they will teach'). Revelation, reverence, and repetition form a cycle of faithfulness."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יִרְאָה",
+          "transliteration": "yir'ah",
+          "rendered_as": "revere",
+          "semantic_range": "to fear, to revere, to stand in awe, to respect deeply, to be afraid of",
+          "note": "The 'fear of the LORD' in Deuteronomy is not terror but profound reverence — an awed recognition of God's holiness that produces obedient living. It is the beginning of wisdom (Proverbs 1:7)."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַתִּקְרְב֥וּן וַתַּֽעַמְד֖וּן תַּ֣חַת הָהָ֑ר וְהָהָ֞ר בֹּעֵ֤ר בָּאֵשׁ֙ עַד־לֵ֣ב הַשָּׁמַ֔יִם חֹ֖שֶׁךְ עָנָ֥ן וַעֲרָפֶֽל׃",
+      "text_kjv": "And ye came near and stood under the mountain; and the mountain burned with fire unto the midst of heaven, with darkness, clouds, and thick darkness.",
+      "rendering": "You approached and stood at the base of the mountain while the mountain blazed with fire reaching to the heart of the sky — darkness, cloud, and dense gloom.",
+      "translator_notes": [
+        "The scene combines opposing elements: fire (bo'er ba-esh — 'burning with fire') reaching ad lev ha-shamayim ('to the heart/middle of the heavens'), surrounded by choshekh anan va-arafel ('darkness, cloud, and thick gloom'). The arafel ('dense darkness, thick gloom') is God's shroud — He reveals Himself in speech but conceals Himself visually. The people stood tachat ha-har ('under/at the base of the mountain'), looking up at the terrifying display of divine presence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיְדַבֵּ֧ר יְהֹוָ֛ה אֲלֵיכֶ֖ם מִתּ֣וֹךְ הָאֵ֑שׁ ק֤וֹל דְּבָרִים֙ אַתֶּ֣ם שֹׁמְעִ֔ים וּתְמוּנָ֛ה אֵינְכֶ֥ם רֹאִ֖ים זוּלָתִ֥י קֽוֹל׃",
+      "text_kjv": "And the LORD spake unto you out of the midst of the fire: ye heard the voice of the words, but saw no similitude; only ye heard a voice.",
+      "rendering": "The LORD spoke to you from the midst of the fire. You heard the sound of words but saw no form — only a voice.",
+      "translator_notes": [
+        "This verse is theologically pivotal: mi-tokh ha-esh ('from the midst of the fire') God spoke, and Israel heard qol devarim ('a sound/voice of words'). The crucial observation: u-temunah einkhem ro'im ('but a form/image you were not seeing') zulati qol ('except a voice'). God is heard but not seen — He communicates through language, not through visual representation. This auditory-only revelation becomes the theological foundation for the prohibition against images (vv. 15-19): since God showed no form, no form can represent Him."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תְּמוּנָה",
+          "transliteration": "temunah",
+          "rendered_as": "form",
+          "semantic_range": "form, likeness, image, visible shape, representation",
+          "note": "From a root meaning 'to portray' — the absence of a temunah at Sinai means God deliberately chose not to present a visible form, making any human-crafted image a distortion of divine self-revelation."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיַּגֵּ֨ד לָכֶ֜ם אֶת־בְּרִית֗וֹ אֲשֶׁ֨ר צִוָּ֤ה אֶתְכֶם֙ לַעֲשׂ֔וֹת עֲשֶׂ֖רֶת הַדְּבָרִ֑ים וַֽיִּכְתְּבֵ֔ם עַל־שְׁנֵ֖י לֻח֥וֹת אֲבָנִֽים׃",
+      "text_kjv": "And he declared unto you his covenant, which he commanded you to perform, even ten commandments; and he wrote them upon two tables of stone.",
+      "rendering": "He declared His covenant to you, which He commanded you to carry out — the Ten Words — and He wrote them on two stone tablets.",
+      "translator_notes": [
+        "The covenant (berito — 'His covenant') is identified with aseret ha-devarim ('the Ten Words' — traditionally 'the Ten Commandments'). The term devarim ('words') rather than mitsvot ('commandments') is significant — these are covenant stipulations expressed as direct divine speech, not merely legal rules. God both spoke and wrote: va-yikhtevem al shnei luchot avanim ('He wrote them on two tablets of stone'). The dual tablets likely represent two copies of the covenant document — one for each covenant partner — following ancient Near Eastern treaty conventions."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עֲשֶׂרֶת הַדְּבָרִים",
+          "transliteration": "aseret ha-devarim",
+          "rendered_as": "the Ten Words",
+          "semantic_range": "the Ten Words, the Ten Commandments, the Decalogue",
+          "note": "The Hebrew name for the Decalogue is literally 'the ten words/utterances,' not 'the ten commandments' — they are divine speech acts that establish the covenant relationship and define its obligations."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְאֹתִ֞י צִוָּ֤ה יְהֹוָה֙ בָּעֵ֣ת הַהִ֔וא לְלַמֵּ֣ד אֶתְכֶ֔ם חֻקִּ֖ים וּמִשְׁפָּטִ֑ים לַעֲשֹׂתְכֶ֣ם אֹתָ֔ם בָּאָ֕רֶץ אֲשֶׁ֥ר אַתֶּ֛ם עֹבְרִ֥ים שָׁ֖מָּה לְרִשְׁתָּֽהּ׃",
+      "text_kjv": "And the LORD commanded me at that time to teach you statutes and judgments, that ye might do them in the land whither ye go over to possess it.",
+      "rendering": "At that same time the LORD commissioned me to teach you the decrees and laws for you to practice in the land you are about to cross into and possess.",
+      "translator_notes": [
+        "Moses distinguishes between God's direct revelation (the Ten Words on stone) and his own teaching role: v'oti tsivah ('and me He commanded') le-lammed etkhem ('to teach you'). The chuqqim u-mishpatim ('decrees and laws') expand and apply the covenant principles of the Decalogue. The teaching is land-oriented: la'asotkhem otam ba-arets ('for you to do them in the land') asher attem overim shammah le-rishtah ('that you are crossing over there to possess'). Torah is the instruction manual for life in the promised land."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְנִשְׁמַרְתֶּ֥ם מְאֹ֖ד לְנַפְשֹׁתֵיכֶ֑ם כִּ֣י לֹ֤א רְאִיתֶם֙ כׇּל־תְּמוּנָ֔ה בְּי֗וֹם דִּבֶּ֨ר יְהֹוָ֧ה אֲלֵיכֶ֛ם בְּחֹרֵ֖ב מִתּ֥וֹךְ הָאֵֽשׁ׃",
+      "text_kjv": "Take ye therefore good heed unto yourselves; for ye saw no manner of similitude on the day that the LORD spake unto you in Horeb out of the midst of the fire:",
+      "rendering": "Guard yourselves very carefully — since you saw no form of any kind on the day the LORD spoke to you at Horeb from the midst of the fire —",
+      "translator_notes": [
+        "The warning v'nishmartem me'od le-nafshotekhem ('guard yourselves very carefully for your souls/lives') introduces the anti-idolatry section with life-or-death urgency. The theological argument is precise: ki lo re'item kol temunah ('because you did not see any form') on b'yom dibber YHWH ('the day the LORD spoke'). Since God's self-revelation at Sinai was exclusively auditory, any visual representation is not merely inadequate but fundamentally contrary to how God chose to reveal Himself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "פֶּ֨ן־תַּשְׁחִת֔וּן וַעֲשִׂיתֶ֥ם לָכֶ֛ם פֶּ֖סֶל תְּמוּנַ֣ת כׇּל־סָ֑מֶל תַּבְנִ֥ית זָכָ֖ר א֥וֹ נְקֵבָֽה׃",
+      "text_kjv": "Lest ye corrupt yourselves, and make you a graven image, the similitude of any figure, the likeness of male or female,",
+      "rendering": "so that you do not corrupt yourselves by making an idol in the shape of any figure — a representation of male or female,",
+      "translator_notes": [
+        "The verb tashchitun ('you corrupt/destroy yourselves') from shachat frames idolatry as self-destruction, not merely disobedience. The object is pesel temunat kol samel ('a carved image, the form of any figure/symbol'). The samel may refer to a cultic image or symbol. The first category prohibited is tavnit zakhar o neqevah ('the pattern/form of male or female') — human-shaped idols, whether male gods or female goddesses. This begins a comprehensive catalog of prohibited image-making."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "פֶּסֶל",
+          "transliteration": "pesel",
+          "rendered_as": "idol",
+          "semantic_range": "carved image, idol, graven image, hewn figure, sculpture",
+          "note": "From pasal ('to carve, to hew'); refers to any carved or sculpted representation intended to embody or channel divine presence — the most common form of ancient Near Eastern worship objects."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "תַּבְנִ֕ית כׇּל־בְּהֵמָ֖ה אֲשֶׁ֣ר בָּאָ֑רֶץ תַּבְנִית֙ כׇּל־צִפּ֣וֹר כָּנָ֔ף אֲשֶׁ֥ר תָּע֖וּף בַּשָּׁמָֽיִם׃",
+      "text_kjv": "The likeness of any beast that is on the earth, the likeness of any winged fowl that flieth in the air,",
+      "rendering": "or of any animal on the earth, or of any winged bird that flies through the sky,",
+      "translator_notes": [
+        "The catalog expands from human forms to tavnit kol behemah ('the form of any animal') and tavnit kol tsippor kanaf ('the form of any winged bird'). Animal worship was widespread in the ancient Near East — Egyptian religion prominently featured animal deities (Apis bull, Horus falcon, Bastet cat). The comprehensiveness (kol — 'any/every') leaves no loophole: no creature from any realm can serve as a representation of the invisible God."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "תַּבְנִ֕ית כׇּל־רֹמֵ֖שׂ בָּאֲדָמָ֑ה תַּבְנִ֛ית כׇּל־דָּגָ֥ה אֲשֶׁר־בַּמַּ֖יִם מִתַּ֥חַת לָאָֽרֶץ׃",
+      "text_kjv": "The likeness of any thing that creepeth on the ground, the likeness of any fish that is in the waters beneath the earth:",
+      "rendering": "or of anything that crawls on the ground, or of any fish in the waters below the surface of the earth.",
+      "translator_notes": [
+        "The final two categories complete the four-domain sweep of creation (echoing Genesis 1): kol romes ba-adamah ('anything crawling on the ground' — reptiles, insects) and kol dagah asher ba-mayim mitachat la-arets ('any fish in the waters beneath the earth'). The ancient cosmology envisioned waters below the earth's surface. The four categories — human, animal, bird, ground-crawler/fish — mirror the creation order and declare that nothing in the created realm can image the Creator."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וּפֶן־תִּשָּׂ֨א עֵינֶ֜יךָ הַשָּׁמַ֗יְמָה וְֽ֠רָאִ֠יתָ אֶת־הַשֶּׁ֨מֶשׁ וְאֶת־הַיָּרֵ֜חַ וְאֶת־הַכּֽוֹכָבִ֗ים כֹּ֚ל צְבָ֣א הַשָּׁמַ֔יִם וְנִדַּחְתָּ֛ וְהִשְׁתַּחֲוִ֥יתָ לָהֶ֖ם וַעֲבַדְתָּ֑ם אֲשֶׁ֨ר חָלַ֜ק יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ אֹתָ֔ם לְכֹל֙ הָֽעַמִּ֔ים תַּ֖חַת כׇּל־הַשָּׁמָֽיִם׃",
+      "text_kjv": "And lest thou lift up thine eyes unto heaven, and when thou seest the sun, and the moon, and the stars, even all the host of heaven, shouldest be driven to worship them, and serve them, which the LORD thy God hath divided unto all nations under the whole heaven.",
+      "rendering": "And when you look up to the sky and see the sun, the moon, and the stars — the entire heavenly host — do not let yourself be lured into bowing down to them and serving them. The LORD your God has assigned these to all the peoples under the entire sky,",
+      "translator_notes": [
+        "Astral worship is addressed separately from animal/human idolatry. The danger is seduction by beauty: u-fen tissa einekha ('lest you lift your eyes') to the sky and v'niddachta ('be driven/lured away'). The verbs hishtachavita ('bow down') and avadtam ('serve them') describe the full posture and practice of worship. The remarkable phrase asher chalaq YHWH Elohekha otam le-khol ha-ammim ('which the LORD your God has allotted to all peoples') suggests God permitted celestial worship for other nations but reserved exclusive worship of Himself for Israel."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאֶתְכֶם֙ לָקַ֣ח יְהֹוָ֔ה וַיּוֹצִ֥א אֶתְכֶ֛ם מִכּ֥וּר הַבַּרְזֶ֖ל מִמִּצְרָ֑יִם לִהְי֥וֹת ל֛וֹ לְעַ֥ם נַחֲלָ֖ה כַּיּ֥וֹם הַזֶּֽה׃",
+      "text_kjv": "But the LORD hath taken you, and brought you forth out of the iron furnace, even out of Egypt, to be unto him a people of inheritance, as ye are this day.",
+      "rendering": "but you the LORD took and brought out of the iron-smelting furnace — out of Egypt — to be His own people, His treasured inheritance, as you are today.",
+      "translator_notes": [
+        "The metaphor kur ha-barzel ('iron furnace/smelting furnace') depicts Egypt as an industrial forge — the heat and suffering of slavery refined Israel as metal is refined in fire. The Exodus was God's act of extraction: laqach ('He took') and va-yotsi ('He brought out'). The purpose: lihyot lo le-am nachalah ('to become for Him a people of inheritance'). The term nachalah ('inheritance, patrimony') applied to Israel means God claims them as His own personal possession — not merely subjects but treasured heritage."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כּוּר הַבַּרְזֶל",
+          "transliteration": "kur ha-barzel",
+          "rendered_as": "iron-smelting furnace",
+          "semantic_range": "iron furnace, smelting furnace, crucible, refining pot",
+          "note": "A metallurgical metaphor for Egypt's brutal slavery — the extreme heat of iron-smelting represents the intensity of Israel's suffering, which paradoxically refined and formed them as a people."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַֽיהֹוָ֥ה הִתְאַנַּף־בִּ֖י עַל־דִּבְרֵיכֶ֑ם וַיִּשָּׁבַ֗ע לְבִלְתִּ֤י עׇבְרִי֙ אֶת־הַיַּרְדֵּ֔ן וּלְבִלְתִּי־בֹא֙ אֶל־הָאָ֣רֶץ הַטּוֹבָ֔ה אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ נַחֲלָֽה׃",
+      "text_kjv": "Furthermore the LORD was angry with me for your sakes, and sware that I should not go over Jordan, and that I should not go in unto that good land, which the LORD thy God giveth thee for an inheritance:",
+      "rendering": "Now the LORD was angry with me because of you, and He swore that I would not cross the Jordan or enter the good land that the LORD your God is giving you as your inheritance.",
+      "translator_notes": [
+        "Moses returns to his personal exclusion: YHWH hit'anaf bi ('the LORD was enraged at me') al divreikhem ('because of your words/deeds'). The sworn prohibition is double: le-vilti ovri et ha-Yarden ('that I would not cross the Jordan') and le-vilti vo el ha-arets ha-tovah ('that I would not enter the good land'). Moses's emphasis on nachalah ('inheritance') highlights the poignancy — the land he is giving as inheritance to Israel was denied to him as a personal reality. His loss is their gain."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "כִּ֣י אָנֹכִ֥י מֵת֙ בָּאָ֣רֶץ הַזֹּ֔את אֵינֶ֥נִּי עֹבֵ֖ר אֶת־הַיַּרְדֵּ֑ן וְאַתֶּם֙ עֹֽבְרִ֔ים וִֽירִשְׁתֶּ֕ם אֶת־הָאָ֥רֶץ הַטּוֹבָ֖ה הַזֹּֽאת׃",
+      "text_kjv": "But I must die in this land, I must not go over Jordan: but ye shall go over, and possess that good land.",
+      "rendering": "I am going to die in this land. I will not cross the Jordan. But you will cross over, and you will possess that good land.",
+      "translator_notes": [
+        "Moses's declaration anokhi met ba-arets ha-zot ('I am dying in this land') states his fate with stark simplicity. The contrast is painful: einenni over ('I am not crossing') but v'attem overim ('but you are crossing') vi-rishtem ('and you will possess'). The pronouns carry all the emotion — I/you, not crossing/crossing, dying here/inheriting there. Moses accepts his fate and redirects the people's attention from his loss to their promise."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "הִשָּׁמְר֣וּ לָכֶ֗ם פֶּֽן־תִּשְׁכְּחוּ֙ אֶת־בְּרִ֤ית יְהֹוָה֙ אֱלֹ֣הֵיכֶ֔ם אֲשֶׁ֥ר כָּרַ֖ת עִמָּכֶ֑ם וַעֲשִׂיתֶ֨ם לָכֶ֥ם פֶּ֙סֶל֙ תְּמ֣וּנַת כֹּ֔ל אֲשֶׁ֥ר צִוְּךָ֖ יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+      "text_kjv": "Take heed unto yourselves, lest ye forget the covenant of the LORD your God, which he made with you, and make you a graven image, or the likeness of any thing, which the LORD thy God hath forbidden thee.",
+      "rendering": "Be careful not to forget the covenant of the LORD your God that He made with you, and not to make for yourselves an idol in the form of anything that the LORD your God has prohibited.",
+      "translator_notes": [
+        "The warning hishameru lakhem ('guard yourselves') returns with intensified urgency. Forgetting the covenant (pen tishkechu et berit YHWH — 'lest you forget the covenant of the LORD') leads directly to idolatry. The phrase asher karat immakhem ('which He cut with you') uses the standard covenant-making verb (karat — 'to cut'), evoking the solemnity of the Sinai ceremony. The sequence — forgetting the covenant, then making a pesel ('idol') — reveals Moses's understanding: idolatry is not the cause but the symptom of covenant amnesia."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "כִּ֚י יְהֹוָ֣ה אֱלֹהֶ֔יךָ אֵ֥שׁ אֹכְלָ֖ה ה֑וּא אֵ֖ל קַנָּֽא׃ {פ}",
+      "text_kjv": "For the LORD thy God is a consuming fire, even a jealous God.",
+      "rendering": "For the LORD your God is a consuming fire — a jealous God.",
+      "translator_notes": [
+        "Two divine metaphors close this warning section. First: esh okhlah ('a consuming fire') — fire that devours everything in its path, recalling the burning mountain of verse 11. Second: El qanna ('a jealous/zealous God') — qanna describes the fierce possessiveness of exclusive covenant love. God's jealousy is not petty insecurity but the righteous intolerance of a faithful spouse toward infidelity. Together, these images warn: the God who revealed Himself in fire will respond to idolatry with consuming judgment."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֵל קַנָּא",
+          "transliteration": "El qanna",
+          "rendered_as": "a jealous God",
+          "semantic_range": "jealous God, zealous God, possessively devoted God",
+          "note": "Divine qin'ah ('jealousy/zeal') is covenant language — God's refusal to share His people's devotion with rival gods, analogous to a spouse's righteous intolerance of adultery."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "כִּֽי־תוֹלִ֤יד בָּנִים֙ וּבְנֵ֣י בָנִ֔ים וְנוֹשַׁנְתֶּ֖ם בָּאָ֑רֶץ וְהִשְׁחַתֶּ֗ם וַעֲשִׂ֤יתֶם פֶּ֙סֶל֙ תְּמ֣וּנַת כֹּ֔ל וַעֲשִׂיתֶ֥ם הָרַ֛ע בְּעֵינֵ֥י יְהֹוָה־אֱלֹהֶ֖יךָ לְהַכְעִיסֽוֹ׃",
+      "text_kjv": "When thou shalt beget children, and children's children, and ye shall have remained long in the land, and shall corrupt yourselves, and make a graven image, or the likeness of any thing, and shall do evil in the sight of the LORD thy God, to provoke him to anger:",
+      "rendering": "When you have children and grandchildren and have grown old in the land, if you become corrupt and make an idol in the form of anything, doing what is evil in the eyes of the LORD your God and provoking Him —",
+      "translator_notes": [
+        "Moses projects into the future: ki tolid banim u-vnei vanim ('when you bear children and grandchildren') v'noshantem ba-arets ('and you have grown old/long-settled in the land'). The verb noshantem from yashan ('to be old, to sleep') suggests complacency through prolonged comfort. The warning sequence — v'hishchatem ('you will become corrupt'), va'asitem pesel ('you will make an idol'), va'asitem ha-ra ('you will do evil') le-hakh'iso ('to provoke Him') — reads as prophecy, not merely possibility. Moses foresees that prosperity will breed forgetfulness."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "הַעִידֹ֩תִי֩ בָכֶ֨ם הַיּ֜וֹם אֶת־הַשָּׁמַ֣יִם וְאֶת־הָאָ֗רֶץ כִּֽי־אָבֹ֣ד תֹּאבֵדוּן֮ מַהֵר֒ מֵעַ֣ל הָאָ֔רֶץ אֲשֶׁ֨ר אַתֶּ֜ם עֹבְרִ֧ים אֶת־הַיַּרְדֵּ֛ן שָׁ֖מָּה לְרִשְׁתָּ֑הּ לֹֽא־תַאֲרִיכֻ֤ן יָמִים֙ עָלֶ֔יהָ כִּ֥י הִשָּׁמֵ֖ד תִּשָּׁמֵדֽוּן׃",
+      "text_kjv": "I call heaven and earth to witness against you this day, that ye shall soon utterly perish from off the land whereunto ye go over Jordan to possess it; ye shall not prolong your days upon it, but shall utterly be destroyed.",
+      "rendering": "I call heaven and earth as witnesses against you today: you will quickly and completely perish from the land that you are crossing the Jordan to possess. You will not live long there — you will be utterly annihilated.",
+      "translator_notes": [
+        "The solemn invocation ha'idoti vakhem ha-yom et ha-shamayim v'et ha-arets ('I call as witness against you today the heavens and the earth') follows ancient Near Eastern treaty conventions where cosmic forces witnessed covenant agreements. The infinitive absolute avod to'vedun ('perishing you will perish') and hishamed tishamedun ('being destroyed you will be destroyed') double the verbs for emphasis. The consequence of idolatry is exile — removal me'al ha-arets ('from the land'). The warning is conditional but presented with prophetic certainty."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְהֵפִ֧יץ יְהֹוָ֛ה אֶתְכֶ֖ם בָּעַמִּ֑ים וְנִשְׁאַרְתֶּם֙ מְתֵ֣י מִסְפָּ֔ר בַּגּוֹיִ֕ם אֲשֶׁ֨ר יְנַהֵ֧ג יְהֹוָ֛ה אֶתְכֶ֖ם שָֽׁמָּה׃",
+      "text_kjv": "And the LORD shall scatter you among the nations, and ye shall be left few in number among the heathen, whither the LORD shall lead you.",
+      "rendering": "The LORD will scatter you among the peoples, and only a small number of you will survive among the nations where the LORD drives you.",
+      "translator_notes": [
+        "The verb hefits ('He will scatter') from puts describes forced dispersion — exile among the nations. The phrase nish'artem metei mispar ('you will remain few in number') — literally 'men of number/able to be counted' — depicts a remnant so small it can be tallied, contrasting sharply with the 'stars of heaven' metaphor of 1:10. The verb yenaheg ('He will lead/drive') from nahag suggests God actively herding them into exile, as a shepherd drives livestock."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַעֲבַדְתֶּם־שָׁ֣ם אֱלֹהִ֔ים מַעֲשֵׂ֖ה יְדֵ֣י אָדָ֑ם עֵ֣ץ וָאֶ֔בֶן אֲשֶׁ֤ר לֹֽא־יִרְאוּן֙ וְלֹ֣א יִשְׁמְע֔וּן וְלֹ֥א יֹֽאכְל֖וּן וְלֹ֥א יְרִיחֻֽן׃",
+      "text_kjv": "And there ye shall serve gods, the work of men's hands, wood and stone, which neither see, nor hear, nor eat, nor smell.",
+      "rendering": "There you will serve gods made by human hands — wood and stone — that cannot see, cannot hear, cannot eat, and cannot smell.",
+      "translator_notes": [
+        "The punishment fits the crime with bitter irony: Israel wanted idols, so in exile va'avadtem sham elohim ('you will serve gods there') — ma'aseh yedei adam ('the work of human hands'). The fourfold negation — lo yir'un ('they cannot see'), lo yishme'un ('they cannot hear'), lo yokhlun ('they cannot eat'), lo yerichun ('they cannot smell') — exposes the absurdity of idol worship: the gods of exile are senseless objects of ets va-even ('wood and stone'). The living God who speaks, sees, and acts is replaced by mute material."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וּבִקַּשְׁתֶּ֥ם מִשָּׁ֛ם אֶת־יְהֹוָ֥ה אֱלֹהֶ֖יךָ וּמָצָ֑אתָ כִּ֣י תִדְרְשֶׁ֔נּוּ בְּכׇל־לְבָבְךָ֖ וּבְכׇל־נַפְשֶֽׁךָ׃",
+      "text_kjv": "But if from thence thou shalt seek the LORD thy God, thou shalt find him, if thou seek him with all thy heart and with all thy soul.",
+      "rendering": "But from there you will seek the LORD your God, and you will find Him when you search for Him with all your heart and all your soul.",
+      "translator_notes": [
+        "The tone shifts dramatically from judgment to hope: u-viqqashtem mi-sham ('you will seek from there') — even from the depths of exile, seeking is possible. The promise u-matsata ('you will find') is unconditional in its assurance — God remains findable. The condition is wholeness: ki tidreshenu be-khol levavekha u-ve-khol nafshekha ('when you seek Him with all your heart and all your soul'). The word pair lev ('heart' — the seat of will and intellect) and nefesh ('soul/life' — the totality of one's being) demands complete, undivided commitment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "בַּצַּ֣ר לְךָ֔ וּמְצָא֕וּךָ כֹּ֖ל הַדְּבָרִ֣ים הָאֵ֑לֶּה בְּאַחֲרִית֙ הַיָּמִ֔ים וְשַׁבְתָּ֙ עַד־יְהֹוָ֣ה אֱלֹהֶ֔יךָ וְשָׁמַעְתָּ֖ בְּקֹלֽוֹ׃",
+      "text_kjv": "When thou art in tribulation, and all these things are come upon thee, even in the latter days, if thou turn to the LORD thy God, and shalt be obedient unto his voice;",
+      "rendering": "When you are in distress and all these things have happened to you, then in the latter days you will return to the LORD your God and listen to His voice.",
+      "translator_notes": [
+        "The temporal phrase be-acharit ha-yamim ('in the latter days/end of days') looks far into the future, beyond exile to ultimate restoration. The word tsar ('distress, trouble') describes the crushing pressure of exile. Moses presents the return not as a possibility but a certainty: v'shavta ad YHWH ('you will return to the LORD') v'shamata be-qolo ('you will listen to His voice'). The suffering of exile will accomplish what prosperity could not — genuine repentance. The verb shuv ('return') is the central term for repentance in the Hebrew Bible."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אַחֲרִית הַיָּמִים",
+          "transliteration": "acharit ha-yamim",
+          "rendered_as": "the latter days",
+          "semantic_range": "end of days, latter days, future time, final era",
+          "note": "A forward-looking phrase that points beyond the immediate to an eschatological horizon — the ultimate resolution of Israel's covenant story, when exile gives way to restoration."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "כִּ֣י אֵ֤ל רַחוּם֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ לֹ֥א יַרְפְּךָ֖ וְלֹ֣א יַשְׁחִיתֶ֑ךָ וְלֹ֤א יִשְׁכַּח֙ אֶת־בְּרִ֣ית אֲבֹתֶ֔יךָ אֲשֶׁ֥ר נִשְׁבַּ֖ע לָהֶֽם׃",
+      "text_kjv": "(For the LORD thy God is a merciful God;) he will not forsake thee, neither destroy thee, nor forget the covenant of thy fathers which he sware unto them.",
+      "rendering": "(For the LORD your God is a compassionate God.) He will not abandon you or destroy you, and He will not forget the covenant with your ancestors that He swore to them.",
+      "translator_notes": [
+        "After the severe warnings, Moses grounds hope in God's character: El rachum ('a compassionate/merciful God'). The root racham relates to rechem ('womb') — divine compassion is maternal, instinctive, and tender. Three negatives guarantee restoration: lo yarfekha ('He will not let you go/abandon you'), lo yashchitekha ('He will not destroy you'), v'lo yishkach et berit avotekha ('He will not forget the covenant of your ancestors'). God's covenant memory outlasts human faithlessness. What Israel forgets (v. 23), God remembers."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רַחוּם",
+          "transliteration": "rachum",
+          "rendered_as": "compassionate",
+          "semantic_range": "compassionate, merciful, tender, womb-love",
+          "note": "From rechem ('womb'); divine compassion is compared to a mother's instinctive love for the child of her womb — deep, visceral, and impossible to extinguish."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "כִּ֣י שְׁאַל־נָא֩ לְיָמִ֨ים רִֽאשֹׁנִ֜ים אֲשֶׁר־הָי֣וּ לְפָנֶ֗יךָ לְמִן־הַיּוֹם֙ אֲשֶׁר֩ בָּרָ֨א אֱלֹהִ֤ים&thinsp;׀&thinsp;אָדָם֙ עַל־הָאָ֔רֶץ וּלְמִקְצֵ֥ה הַשָּׁמַ֖יִם וְעַד־קְצֵ֣ה הַשָּׁמָ֑יִם הֲנִֽהְיָ֗ה כַּדָּבָ֤ר הַגָּדוֹל֙ הַזֶּ֔ה א֖וֹ הֲנִשְׁמַ֥ע כָּמֹֽהוּ׃",
+      "text_kjv": "For ask now of the days that are past, which were before thee, since the day that God created man upon the earth, and ask from the one side of heaven unto the other, whether there hath been any such thing as this great thing is, or hath been heard like it?",
+      "rendering": "Search through all of history, from the first days before your time — from the very day God created humanity on the earth — and search from one end of the sky to the other. Has anything this great ever happened, or has anything like it ever been heard of?",
+      "translator_notes": [
+        "Moses issues a research challenge: she'al na le-yamim rishonim ('ask now about the former days') — investigate all of human history le-min ha-yom asher bara Elohim adam ('from the day God created man'). The spatial scope matches the temporal: u-le-miqtseh ha-shamayim v'ad qetseh ha-shamayim ('from one end of the heavens to the other'). The rhetorical question ha-nihyah ka-davar ha-gadol ha-zeh ('has anything like this great thing happened?') leads to the unprecedented claim of the next verse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "הֲשָׁ֣מַֽע עָם֩ ק֨וֹל אֱלֹהִ֜ים מְדַבֵּ֧ר מִתּוֹךְ־הָאֵ֛שׁ כַּאֲשֶׁר־שָׁמַ֥עְתָּ אַתָּ֖ה וַיֶּֽחִי׃",
+      "text_kjv": "Did ever people hear the voice of God speaking out of the midst of the fire, as thou hast heard, and live?",
+      "rendering": "Has any people ever heard the voice of God speaking from the middle of fire, as you have heard, and survived?",
+      "translator_notes": [
+        "The question ha-shama am qol Elohim medabber mi-tokh ha-esh ('has a people heard the voice of God speaking from fire') highlights the unique terror and privilege of Sinai. The verb va-yechi ('and lived/survived') underscores that direct encounter with the divine voice should have been lethal — the people's survival is itself miraculous. The phrase ka'asher shamata attah ('as you yourself heard') makes each listener personally accountable: you heard it; you survived it; now respond to it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "א֣וֹ&thinsp;׀ הֲנִסָּ֣ה אֱלֹהִ֗ים לָ֠ב֠וֹא לָקַ֨חַת ל֣וֹ גוֹי֮ מִקֶּ֣רֶב גּוֹי֒ בְּמַסֹּת֩ בְּאֹתֹ֨ת וּבְמוֹפְתִ֜ים וּבְמִלְחָמָ֗ה וּבְיָ֤ד חֲזָקָה֙ וּבִזְר֣וֹעַ נְטוּיָ֔ה וּבְמוֹרָאִ֖ים גְּדֹלִ֑ים כְּ֠כֹ֠ל אֲשֶׁר־עָשָׂ֨ה לָכֶ֜ם יְהֹוָ֧ה אֱלֹהֵיכֶ֛ם בְּמִצְרַ֖יִם לְעֵינֶֽיךָ׃",
+      "text_kjv": "Or hath God assayed to go and take him a nation from the midst of another nation, by temptations, by signs, and by wonders, and by war, and by a mighty hand, and by a stretched out arm, and by great terrors, according to all that the LORD your God did for you in Egypt before your eyes?",
+      "rendering": "Has any god ever attempted to go and take one nation for himself out of another nation — by trials, by signs, by wonders, by war, by a powerful hand, by an outstretched arm, and by acts of great terror — the way the LORD your God did for you in Egypt before your very eyes?",
+      "translator_notes": [
+        "The Exodus is presented as historically unprecedented: ha-nissah Elohim lavo laqachat lo goi mi-qerev goi ('has God attempted to come to take for Himself a nation from the midst of a nation'). Seven instruments of deliverance are listed: massot ('trials'), otot ('signs'), moftim ('wonders'), milchamah ('war'), yad chazaqah ('mighty hand'), zero'a netuyah ('outstretched arm'), and mora'im gedolim ('great terrors'). The climactic seven-fold list recalls the plagues and exodus events. No other deity in human history performed such a national-scale rescue — this is Moses's central apologetic argument."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "אַתָּה֙ הׇרְאֵ֣תָ לָדַ֔עַת כִּ֥י יְהֹוָ֖ה ה֣וּא הָאֱלֹהִ֑ים אֵ֥ין ע֖וֹד מִלְּבַדּֽוֹ׃",
+      "text_kjv": "Unto thee it was shewed, that thou mightest know that the LORD he is God; there is none else beside him.",
+      "rendering": "You were shown these things so that you would know: the LORD — He is God. There is no other besides Him.",
+      "translator_notes": [
+        "The purpose of Israel's unique historical experience is knowledge: attah hor'eta lada'at ('you were shown in order to know'). The declaration YHWH hu ha-Elohim ('the LORD — He is the God') is an exclusivist monotheistic claim. The phrase ein od milvado ('there is none else besides Him') goes beyond henotheism (worshiping one god while acknowledging others' existence) to absolute monotheism — no other deity exists. This is one of the strongest monotheistic statements in the Hebrew Bible."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "מִן־הַשָּׁמַ֛יִם הִשְׁמִֽיעֲךָ֥ אֶת־קֹל֖וֹ לְיַסְּרֶ֑ךָּ וְעַל־הָאָ֗רֶץ הֶרְאֲךָ֙ אֶת־אִשּׁ֣וֹ הַגְּדוֹלָ֔ה וּדְבָרָ֥יו שָׁמַ֖עְתָּ מִתּ֥וֹךְ הָאֵֽשׁ׃",
+      "text_kjv": "Out of heaven he made thee to hear his voice, that he might instruct thee: and upon earth he shewed thee his great fire; and thou heardest his words out of the midst of the fire.",
+      "rendering": "From heaven He let you hear His voice to discipline you. On earth He showed you His great fire, and you heard His words from the midst of that fire.",
+      "translator_notes": [
+        "Revelation came from two directions simultaneously: min ha-shamayim ('from heaven') God's voice descended, and al ha-arets ('on earth') His fire appeared. The purpose is le-yassrekha ('to discipline/instruct you') — yasar means both to correct and to train, combining correction with education. The auditory emphasis continues: et qolo ('His voice'), u-devarav shamata ('His words you heard') mi-tokh ha-esh ('from the midst of the fire'). Heaven and earth converge in the Sinai event."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְתַ֗חַת כִּ֤י אָהַב֙ אֶת־אֲבֹתֶ֔יךָ וַיִּבְחַ֥ר בְּזַרְע֖וֹ אַחֲרָ֑יו וַיּוֹצִֽאֲךָ֧ בְּפָנָ֛יו בְּכֹח֥וֹ הַגָּדֹ֖ל מִמִּצְרָֽיִם׃",
+      "text_kjv": "And because he loved thy fathers, therefore he chose their seed after them, and brought thee out in his sight with his mighty power out of Egypt;",
+      "rendering": "Because He loved your ancestors, He chose their descendants after them and brought you out of Egypt by His presence, with His great power,",
+      "translator_notes": [
+        "The motivation for election is love: ki ahav et avotekha ('because He loved your ancestors'). This is unmerited affection — God chose Abraham's line not for their merit but because of His love. The verb va-yivchar ('He chose') from bachar is the central election verb — divine selection for covenant relationship. God's involvement is personal: be-fanav ('by His presence/face') with be-kocho ha-gadol ('by His great power'). Love and power combine in the Exodus — it is both intimate and mighty."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "לְהוֹרִ֗ישׁ גּוֹיִ֛ם גְּדֹלִ֧ים וַעֲצֻמִ֛ים מִמְּךָ֖ מִפָּנֶ֑יךָ לַהֲבִֽיאֲךָ֗ לָֽתֶת־לְךָ֧ אֶת־אַרְצָ֛ם נַחֲלָ֖ה כַּיּ֥וֹם הַזֶּֽה׃",
+      "text_kjv": "To drive out nations from before thee greater and mightier than thou art, to bring thee in, to give thee their land for an inheritance, as it is this day.",
+      "rendering": "in order to drive out nations greater and more powerful than you from before you, to bring you in, and to give you their land as an inheritance — as it is today.",
+      "translator_notes": [
+        "The purpose chain continues: le-horish goyim gedolim va-atsumim mimmekha ('to dispossess nations greater and mightier than you'). The phrase mimmekha ('than you') honestly acknowledges Israel's relative weakness — the nations being displaced are gedolim va-atsumim ('greater and mightier'). Israel's conquest depends entirely on divine power, not military superiority. The gift is nachalah ('inheritance') — permanent, generational, and irrevocable — ka-yom ha-zeh ('as this day') confirming present fulfillment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְיָדַעְתָּ֣ הַיּ֗וֹם וַהֲשֵׁבֹתָ֮ אֶל־לְבָבֶ֒ךָ֒ כִּ֤י יְהֹוָה֙ ה֣וּא הָֽאֱלֹהִ֔ים בַּשָּׁמַ֣יִם מִמַּ֔עַל וְעַל־הָאָ֖רֶץ מִתָּ֑חַת אֵ֖ין עֽוֹד׃",
+      "text_kjv": "Know therefore this day, and consider it in thine heart, that the LORD he is God in heaven above, and upon the earth beneath: there is none else.",
+      "rendering": "Know today and take it to heart: the LORD — He is God in the heavens above and on the earth below. There is no other.",
+      "translator_notes": [
+        "The verse demands both intellectual and emotional engagement: v'yadata ha-yom ('know today') and va-hashevota el levavekha ('bring it back to your heart'). The knowledge is cosmically comprehensive: YHWH hu ha-Elohim ba-shamayim mi-ma'al v'al ha-arets mi-tachat ('the LORD is God in heaven above and on earth below'). The concluding ein od ('there is no other') — even shorter than 4:35's ein od milvado — is the most compressed monotheistic declaration possible. Two words in Hebrew encompass all of theology."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וְשָׁמַרְתָּ֞ אֶת־חֻקָּ֣יו וְאֶת־מִצְוֺתָ֗יו אֲשֶׁ֨ר אָנֹכִ֤י מְצַוְּךָ֙ הַיּ֔וֹם אֲשֶׁר֙ יִיטַ֣ב לְךָ֔ וּלְבָנֶ֖יךָ אַחֲרֶ֑יךָ וּלְמַ֨עַן תַּאֲרִ֤יךְ יָמִים֙ עַל־הָ֣אֲדָמָ֔ה אֲשֶׁ֨ר יְהֹוָ֧ה אֱלֹהֶ֛יךָ נֹתֵ֥ן לְךָ֖ כׇּל־הַיָּמִֽים׃ {פ}",
+      "text_kjv": "Thou shalt keep therefore his statutes, and his commandments, which I command thee this day, that it may go well with thee, and with thy children after thee, and that thou mayest prolong thy days upon the earth, which the LORD thy God giveth thee, for ever.",
+      "rendering": "Keep His decrees and His commandments that I am giving you today, so that it will go well for you and for your children after you, and so that you will live long on the land that the LORD your God is giving you for all time.",
+      "translator_notes": [
+        "Moses's first address concludes with the promise of dual blessing: asher yitav lekha u-levanekha acharekha ('that it may go well for you and for your children after you') and u-lema'an ta'arikh yamim ('that you may prolong your days'). Obedience yields both quality of life (yitav — 'it will be good') and quantity (ta'arikh yamim — 'you will lengthen days'). The final phrase kol ha-yamim ('all the days' — forever) extends the promise indefinitely. The pe paragraph marker signals the end of Moses's first major speech (chapters 1-4:40)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "אָ֣ז יַבְדִּ֤יל מֹשֶׁה֙ שָׁלֹ֣שׁ עָרִ֔ים בְּעֵ֖בֶר הַיַּרְדֵּ֑ן מִזְרְחָ֖ה שָֽׁמֶשׁ׃",
+      "text_kjv": "Then Moses severed three cities on this side Jordan toward the sunrising;",
+      "rendering": "Then Moses set apart three cities east of the Jordan, toward the sunrise,",
+      "translator_notes": [
+        "The narrative shifts from speech to action: az yavdil Mosheh ('then Moses set apart/separated') shalosh arim ('three cities'). The verb hivdil from badal ('to separate, to distinguish') is the same verb used for God's separating acts in creation (Genesis 1:4-7). The phrase mizrechah shamesh ('toward the sunrise' — eastward) locates these cities in Transjordan. This section (vv. 41-43) forms a brief narrative interlude between Moses's first and second addresses."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "לָנֻ֨ס שָׁ֜מָּה רוֹצֵ֗חַ אֲשֶׁ֨ר יִרְצַ֤ח אֶת־רֵעֵ֙הוּ֙ בִּבְלִי־דַ֔עַת וְה֛וּא לֹא־שֹׂנֵ֥א ל֖וֹ מִתְּמֹ֣ל שִׁלְשֹׁ֑ם וְנָ֗ס אֶל־אַחַ֛ת מִן־הֶעָרִ֥ים הָאֵ֖ל וָחָֽי׃",
+      "text_kjv": "That the slayer might flee thither, which should kill his neighbour unawares, and hated him not in times past; and that fleeing unto one of these cities he might live:",
+      "rendering": "so that anyone who killed another person unintentionally, without prior hostility, could flee to one of these cities and save his life.",
+      "translator_notes": [
+        "The cities of refuge serve a specific legal function: protecting the rotse'ach ('manslayer, one who kills') who kills bi-vli da'at ('without knowledge/unintentionally'). The qualifier v'hu lo sone lo mi-tmol shilshom ('and he was not hating him from yesterday-three days ago' — without prior hostility) distinguishes accidental killing from premeditated murder. The purpose is va-chai ('and he shall live') — the manslayer's life is preserved from the blood-avenger by finding sanctuary in these cities. This represents a sophisticated distinction between intentional and unintentional homicide."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רוֹצֵחַ",
+          "transliteration": "rotse'ach",
+          "rendered_as": "anyone who killed",
+          "semantic_range": "manslayer, killer, murderer, one who causes death",
+          "note": "From ratsach — the verb used in the sixth commandment ('you shall not murder'). Here it covers unintentional killing; the cities of refuge protect those whose killing was accidental, not premeditated."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "אֶת־בֶּ֧צֶר בַּמִּדְבָּ֛ר בְּאֶ֥רֶץ הַמִּישֹׁ֖ר לָרֽאוּבֵנִ֑י וְאֶת־רָאמֹ֤ת בַּגִּלְעָד֙ לַגָּדִ֔י וְאֶת־גּוֹלָ֥ן בַּבָּשָׁ֖ן לַֽמְנַשִּֽׁי׃",
+      "text_kjv": "Namely, Bezer in the wilderness, in the plain country, of the Reubenites; and Ramoth in Gilead, of the Gadites; and Golan in Bashan, of the Manassites.",
+      "rendering": "These were: Bezer in the wilderness on the plateau for the Reubenites; Ramoth in Gilead for the Gadites; and Golan in Bashan for the Manassites.",
+      "translator_notes": [
+        "Three cities are named, one per Transjordanian tribe: Betser ba-midbar ('Bezer in the wilderness') on the mishor ('plateau') for Reuben; Ra'mot ba-Gil'ad ('Ramoth in Gilead') for Gad; and Golan ba-Bashan ('Golan in Bashan') for Manasseh. The distribution ensures geographical accessibility — each tribe has a refuge city within reasonable distance. Golan gives its name to the modern Golan Heights. The three cities correspond to the three tribal territories described in 3:12-17."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וְזֹ֖את הַתּוֹרָ֑ה אֲשֶׁר־שָׂ֣ם מֹשֶׁ֔ה לִפְנֵ֖י בְּנֵ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And this is the law which Moses set before the children of Israel:",
+      "rendering": "This is the Torah that Moses placed before the Israelites.",
+      "translator_notes": [
+        "The transitional heading v'zot ha-Torah ('and this is the Torah/instruction') introduces Moses's second address (chapters 5-26 or 5-28). The verb sam ('placed, set') lifnei benei Yisra'el ('before the children of Israel') implies both presentation and availability — the Torah is not hidden or esoteric but publicly accessible. This verse may serve as a superscription for everything that follows, or as a bridge connecting the historical prologue to the legal core of Deuteronomy."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "אֵ֚לֶּה הָֽעֵדֹ֔ת וְהַֽחֻקִּ֖ים וְהַמִּשְׁפָּטִ֑ים אֲשֶׁ֨ר דִּבֶּ֤ר מֹשֶׁה֙ אֶל־בְּנֵ֣י יִשְׂרָאֵ֔ל בְּצֵאתָ֖ם מִמִּצְרָֽיִם׃",
+      "text_kjv": "These are the testimonies, and the statutes, and the judgments, which Moses spake unto the children of Israel, after they came forth out of Egypt,",
+      "rendering": "These are the decrees, the statutes, and the laws that Moses proclaimed to the Israelites after they came out of Egypt,",
+      "translator_notes": [
+        "Three categories of instruction are named: ha-edot ('the testimonies/decrees' — instructions that testify to God's will), ha-chuqqim ('the statutes' — prescribed regulations), and ha-mishpatim ('the laws/judgments' — case-law rulings). The timing reference be-tsetam mi-Mitsrayim ('when they came out of Egypt') connects all subsequent legislation to the Exodus event — the laws flow from and depend upon the liberation. The three-term formula is a comprehensive designation for the entirety of God's revealed instruction."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עֵדֹת",
+          "transliteration": "edot",
+          "rendered_as": "decrees",
+          "semantic_range": "testimonies, decrees, stipulations, covenant terms, divine witness-statements",
+          "note": "From ud ('to witness, to testify'); these are laws that function as God's own testimony about His character and will — they witness to who He is and what He requires."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "בְּעֵ֨בֶר הַיַּרְדֵּ֜ן בַּגַּ֗יְא מ֚וּל בֵּ֣ית פְּע֔וֹר בְּאֶ֗רֶץ סִיחֹן֙ מֶ֣לֶךְ הָֽאֱמֹרִ֔י אֲשֶׁ֥ר יוֹשֵׁ֖ב בְּחֶשְׁבּ֑וֹן אֲשֶׁ֨ר הִכָּ֤ה מֹשֶׁה֙ וּבְנֵ֣י יִשְׂרָאֵ֔ל בְּצֵאתָ֖ם מִמִּצְרָֽיִם׃",
+      "text_kjv": "On this side Jordan, in the valley over against Beth-peor, in the land of Sihon king of the Amorites, who dwelt at Heshbon, whom Moses and the children of Israel smote, after they were come forth out of Egypt:",
+      "rendering": "on the east side of the Jordan, in the valley opposite Beth-peor, in the land of Sihon king of the Amorites, who ruled from Heshbon — the one Moses and the Israelites defeated after coming out of Egypt.",
+      "translator_notes": [
+        "The geographical setting is restated: be'ever ha-Yarden ('east of the Jordan'), ba-gai mul Beit Pe'or ('in the valley opposite Beth-peor'), be-erets Sichon melekh ha-Emori ('in the land of Sihon king of the Amorites'). The note that Moses and the Israelites defeated (hikkah — 'struck') Sihon after coming out of Egypt connects the setting to the conquest narrative of chapter 2. The mention of Beth-peor again (see 3:29) keeps the warning about apostasy within sight of the audience."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וַיִּֽירְשׁ֨וּ אֶת־אַרְצ֜וֹ וְאֶת־אֶ֣רֶץ&thinsp;׀ ע֣וֹג מֶֽלֶךְ־הַבָּשָׁ֗ן שְׁנֵי֙ מַלְכֵ֣י הָֽאֱמֹרִ֔י אֲשֶׁ֖ר בְּעֵ֣בֶר הַיַּרְדֵּ֑ן מִזְרַ֖ח שָֽׁמֶשׁ׃",
+      "text_kjv": "And they possessed his land, and the land of Og king of Bashan, two kings of the Amorites, which were on this side Jordan toward the sunrising;",
+      "rendering": "They took possession of his land and the land of Og king of Bashan — the two Amorite kings east of the Jordan, toward the sunrise —",
+      "translator_notes": [
+        "The summary references the dual conquest: et artso ('his land' — Sihon's) v'et erets Og melekh ha-Bashan ('and the land of Og king of Bashan'). The phrase shnei malkhei ha-Emori ('the two kings of the Amorites') treats them as a pair — the complete Transjordanian Amorite power structure. The direction marker mizrach shamesh ('east of the sun/sunrise') locates both territories east of the Jordan, forming the context for Moses's second address."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "מֵעֲרֹעֵ֞ר אֲשֶׁ֨ר עַל־שְׂפַת־נַ֧חַל אַרְנֹ֛ן וְעַד־הַ֥ר שִׂיאֹ֖ן ה֥וּא חֶרְמֽוֹן׃",
+      "text_kjv": "From Aroer, which is by the bank of the river Arnon, even unto mount Sion, which is Hermon,",
+      "rendering": "from Aroer on the edge of the Arnon Gorge all the way to Mount Sion (that is, Hermon),",
+      "translator_notes": [
+        "The territory is defined by its full north-south extent: me-Aro'er al sfat nachal Arnon ('from Aroer on the lip of the Arnon Gorge') in the south to har Si'on hu Chermon ('Mount Sion, which is Hermon') in the far north. The name Si'on here (distinct from Zion in Jerusalem) is yet another name for Mount Hermon, adding to the three names listed in 3:9 (Hermon, Sirion, Senir). The mountain's multiple names reflect its prominence as a regional landmark visible to many peoples."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "וְכׇל־הָ֨עֲרָבָ֜ה עֵ֤בֶר הַיַּרְדֵּן֙ מִזְרָ֔חָה וְעַ֖ד יָ֣ם הָעֲרָבָ֑ה תַּ֖חַת אַשְׁדֹּ֥ת הַפִּסְגָּֽה׃ {פ}",
+      "text_kjv": "And all the plain on this side Jordan eastward, even unto the sea of the plain, under the springs of Pisgah.",
+      "rendering": "including the entire Arabah east of the Jordan, down to the Sea of the Arabah, below the slopes of Pisgah.",
+      "translator_notes": [
+        "The final geographical note includes kol ha-Aravah ever ha-Yarden mizrachah ('the entire Arabah east of the Jordan') extending to Yam ha-Aravah ('the Sea of the Arabah' — the Dead Sea) below ashdot ha-Pisgah ('the slopes/watersheds of Pisgah'). The pe paragraph marker ends this section definitively. Mount Pisgah appears for the final time as the place where Moses will view the land he cannot enter (3:27) — a bittersweet closing note that looks back to Moses's plea and forward to his death."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}
