@@ -283,32 +283,5 @@ const nextWeek = weekNum < 52 ? weekNum + 1 : null;
       btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
     }
 
-    // Translation toggle (KJV ↔ TCR)
-    document.querySelectorAll<HTMLButtonElement>('.tx-tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        const group = tab.dataset.group!;
-        const targetId = tab.dataset.target!;
-
-        // Update panels
-        document.querySelectorAll<HTMLElement>(`.tx-panel`).forEach(panel => {
-          if (panel.id && panel.id.startsWith(group + '-')) {
-            panel.classList.toggle('hidden', panel.id !== targetId);
-          }
-        });
-
-        // Update tab styles
-        document.querySelectorAll<HTMLButtonElement>(`.tx-tab[data-group="${group}"]`).forEach(t => {
-          const isActive = t === tab;
-          t.setAttribute('aria-selected', String(isActive));
-          if (isActive) {
-            t.style.background = 'var(--color-gold)';
-            t.style.color = '#fff';
-          } else {
-            t.style.background = 'transparent';
-            t.style.color = 'var(--color-text-muted)';
-          }
-        });
-      });
-    });
   </script>
 </Layout>
