@@ -1,10 +1,10 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** March 15, 2026
+**Last Updated:** March 24, 2026
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline automated via GitHub Actions (migrated from VPS cron). Batch size 6 verses. Weeks 3-12 live. Automated Saturday runs confirmed working (Mar 7, Mar 14). Contact emails live on both EVM and TCR.
+**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline automated via GitHub Actions (migrated from VPS cron). Batch size 6 verses. Weeks 3-12 live. Automated Saturday runs confirmed working. Contact emails live on both EVM and TCR. Multi-translation deep dive: KJV + JST + TCR tabs per verse.
 
 ---
 
@@ -556,10 +556,23 @@ Pipeline runs on Saturday morning so content is live before Sunday study.
 **Process:**
 1. Read `data/cfm_schedule.json` to determine the NEXT week's scripture block
 2. For each chapter in the block, split into batches of 6 verses
-3. For each batch, call Claude API (streaming) with the Commentary Prompt Template (Section 6.6)
-4. Response parsed via `json_parser.py` (strips markdown fences, fixes misplaced fields, handles trailing commas)
-5. All chapters assembled into `commentary.json` for the week
-6. Metadata logged to `logs/pipeline_runs.json`
+3. If TCR data exists for the chapter (Genesis), load `content/tcr/{book}/chapter-{nn}.json` and inject TCR context (Hebrew, KJV, TCR rendering, translator notes, key terms) into the prompt
+4. For each batch, call Claude API (streaming) with the Commentary Prompt Template (Section 6.6)
+5. Response parsed via `json_parser.py` (strips markdown fences, fixes misplaced fields, handles trailing commas)
+6. All chapters assembled into `commentary.json` for the week
+7. Metadata logged to `logs/pipeline_runs.json`
+
+**Multi-Translation Output:**
+- **`text_kjv`** (required): King James Version text for every verse
+- **`text_jst`** (optional, null when no JST revision exists): Full Joseph Smith Translation verse text, included only when the JST makes a change to that specific verse. Most verses will be null. The `jst_changes` field in `restoration_lens` still describes what changed and why.
+- **TCR** (loaded at build time, not stored in commentary.json): The Covenant Rendering data is loaded from `content/tcr/` at Astro build time and merged into the deep dive UI. TCR is passed as context to Claude during generation so the AI can reference it in commentary, but the raw TCR rendering is displayed from the source TCR files, not from Claude's output.
+
+**Deep Dive UI — Translation Tabs:**
+- When a verse has only KJV: single blockquote, no tabs
+- When a verse has KJV + JST: two tabs (KJV | JST)
+- When a verse has KJV + TCR: two tabs (KJV | TCR)
+- When a verse has KJV + JST + TCR: three tabs (KJV | JST | TCR)
+- TCR tab includes expanded rendering, key terms, translator notes, and attribution link to thecovenantrendering.com
 
 **API Call Structure:**
 ```python
@@ -841,6 +854,7 @@ Return valid JSON with this structure for each verse:
   "chapter": 18,
   "verse": 1,
   "text_kjv": "And the LORD appeared unto him in the plains of Mamre...",
+  "text_jst": null,
   "commentary": {
     "narrative": "...",
     "word_study": [
@@ -1529,7 +1543,7 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 - [x] `mcp-server/src/db.ts` — `getTcrChapter()`, `getTcrVerse()`, `getTcrContextForChapters()`
 - [x] `pipeline/generate_commentary.py` — TCR context injected into AI prompt for Genesis weeks
 - [x] `mcp-server/src/tools/user_ai.ts` — `ask` and `deep_dive` tools load TCR context
-- [x] Deep Dive UI — verse cards for Genesis weeks show **KJV | TCR** toggle tabs
+- [x] Deep Dive UI — verse cards show **KJV | JST | TCR** toggle tabs (JST when JST revision exists, TCR for Genesis)
 - [x] GitHub repos created:
   - EVM: https://github.com/bashonda2/every-verse-matters
   - TCR: https://github.com/bashonda2/the-covenant-rendering
@@ -1623,7 +1637,10 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 2. **Third-Party Content Permissions:** Linking and summarizing is standard fair use. No embedded content. Include "not affiliated" disclaimer on every page.
 3. **Church Trademark Compliance:** Cannot use official Church logos. Must include "not affiliated with The Church of Jesus Christ of Latter-day Saints" disclaimer.
 4. **Commentary Versioning:** When prompts improve, re-run pipeline for historical weeks. Track `generated_by` model version in each commentary entry.
-5. **Multiple Translations:** KJV is standard for LDS use. **The Covenant Rendering (TCR)** has been integrated as the second translation. Other translations (NIV, ESV, etc.) are encumbered by licensing restrictions — TCR was authored specifically to provide a license-free modern English rendering from the Hebrew source text (WLC). TCR is open-source (CC-BY-4.0), published at https://github.com/bashonda2/the-covenant-rendering.
+5. **Multiple Translations:** KJV is the standard for LDS use. Three translations are now displayed per verse:
+   - **KJV** — always present, the primary text
+   - **JST (Joseph Smith Translation)** — shown when a JST revision exists for a specific verse. The full JST text is included alongside KJV so readers can compare side-by-side. Most verses have no JST revision (field is null). The `text_jst` field is generated by Claude based on its knowledge of JST revisions, with strict instructions to omit rather than fabricate.
+   - **TCR (The Covenant Rendering)** — a modern English rendering from the Hebrew (Westminster Leningrad Codex), authored by Aaron Blonquist. CC-BY-4.0, published at https://github.com/bashonda2/the-covenant-rendering. Currently covers all 50 Genesis chapters. Loaded from `content/tcr/` at build time; includes expanded rendering, key terms, and translator notes. Other OT translations (NIV, ESV, etc.) are encumbered by licensing restrictions — TCR was authored specifically to provide a license-free modern English rendering.
 6. **Backfill Strategy:** Weeks 1-8 have rich summaries. Full verse-by-verse backfill via Batch API (50% discount) planned for Phase 2.
 7. **Rate Limits:** Monitor Anthropic API rate limits. If weekly pipeline exceeds limits, stagger chapter generation across multiple hours.
 8. **Chat Widget Technology:** Embedded React component calling MCP server via API? Or a third-party chat widget? Recommendation: custom React component for full control over UX and guardrails.

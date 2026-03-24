@@ -26,10 +26,12 @@ CROSS-REFERENCES:
 - The connection note must accurately describe what that verse says. Do not claim a verse says something it does not.
 - If uncertain whether a verse exists or contains what you claim, OMIT that cross-reference.
 
-JST CHANGES:
+JST (JOSEPH SMITH TRANSLATION):
 - Only include JST revisions you are certain exist for this specific verse.
-- The Joseph Smith Translation made targeted changes. Most verses have NO JST revision. If none exists, write "None" or leave the field blank — do not invent one.
+- The Joseph Smith Translation made targeted changes. Most verses have NO JST revision. If none exists, leave text_jst as null and write "None" for jst_changes — do not invent one.
 - Do not describe a JST change unless you are confident it applies to the specific verse being discussed.
+- When a JST revision DOES exist: include the FULL JST verse text in the "text_jst" field at the top level (alongside text_kjv). This is the complete revised verse as it appears in the JST, not just a description of changes. The jst_changes field in restoration_lens should still describe WHAT changed and WHY it matters.
+- JST verse text is important — our readers want to see the exact JST wording side-by-side with the KJV. If you are certain a JST revision exists but cannot recall the exact wording, omit it rather than guess.
 
 HEBREW/GREEK WORD STUDIES:
 - Only provide word studies for terms you are confident about.
@@ -112,6 +114,7 @@ Return valid JSON. The response must be a JSON array of verse objects. Each vers
   "chapter": 18,
   "verse": 1,
   "text_kjv": "And the LORD appeared unto him in the plains of Mamre: and he sat in the tent door in the heat of the day;",
+  "text_jst": null,
   "commentary": {
     "narrative": "...",
     "word_study": [
@@ -141,5 +144,12 @@ Return valid JSON. The response must be a JSON array of verse objects. Each vers
     "application": "..."
   }
 }
+
+IMPORTANT — text_jst field:
+- Set text_jst to the full JST verse text when you are CERTAIN a JST revision exists for that verse.
+- Set text_jst to null when no JST revision exists (this is the majority of verses).
+- Example: Genesis 14:25-40 are entirely JST additions — include the full JST text for those verses.
+- Example: Genesis 50:24-38 are JST expansions — include the expanded JST text.
+- Do NOT set text_jst for verses where the JST makes no change.
 
 Return ONLY the JSON array. No markdown fences. No extra text before or after.
