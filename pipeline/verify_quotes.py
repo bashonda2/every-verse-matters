@@ -97,7 +97,10 @@ def verify_quotes(week_num: int, strip_unverified: bool = True) -> dict:
 
     if not comm_path.exists():
         print(f"  No commentary.json for week {week_num} — nothing to verify")
-        return {"week": week_num, "status": "no_commentary", "quotes_checked": 0}
+        return {
+            "week": week_num, "status": "no_commentary", "quotes_checked": 0,
+            "verified": [], "unverified_stripped": [], "unverified_kept": [],
+        }
 
     verses = json.loads(comm_path.read_text())
     registry = load_registry()

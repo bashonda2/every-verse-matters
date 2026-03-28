@@ -119,7 +119,10 @@ def verify_references(week_num: int) -> dict:
     comm_path = week_dir / "commentary.json"
 
     if not comm_path.exists():
-        return {"week": week_num, "status": "no_commentary", "issues": []}
+        return {
+            "week": week_num, "status": "no_commentary", "issues": [],
+            "total_refs": 0, "invalid_refs": 0, "pass": True,
+        }
 
     verses = json.loads(comm_path.read_text())
 

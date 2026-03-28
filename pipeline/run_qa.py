@@ -169,7 +169,7 @@ def run_qa(week_num: int, audit_all: bool = False) -> dict:
 
     if not comm_path.exists():
         print(f"  No commentary.json for week {week_num}")
-        return {"week": week_num, "status": "no_commentary", "pass": True}
+        return {"week": week_num, "status": "no_commentary", "overall_pass": True}
 
     verses = json.loads(comm_path.read_text())
     client = get_client()

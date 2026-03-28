@@ -1,10 +1,10 @@
 # EVM_Source_of_Truth.md
 ## EveryVerseMatters.com — Source of Truth
 
-**Last Updated:** March 24, 2026
+**Last Updated:** March 28, 2026
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline automated via GitHub Actions (migrated from VPS cron). Batch size 6 verses. Weeks 3-12 live. Automated Saturday runs confirmed working. Contact emails live on both EVM and TCR. Multi-translation deep dive: KJV + JST + TCR tabs per verse.
+**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline automated via GitHub Actions (migrated from VPS cron). Batch size 6 verses. Weeks 3-13 live. Automated Saturday runs confirmed working. Contact emails live on both EVM and TCR. Multi-translation deep dive: KJV + JST + TCR tabs per verse. Special Week handling defined for Easter/Christmas/Introduction (thematic commentary path with curated passages).
 
 ---
 
@@ -169,6 +169,23 @@ The platform carries the spiritual legacy of the School of the Prophets (D&C 88)
 | 51 | Dec 14–20 | Malachi | Malachi |
 | 52 | Dec 21–27 | Christmas | Christmas |
 
+### Special Weeks
+
+Three weeks in the 2026 schedule have no sequential chapter assignments — they are **thematic/topical lessons** rather than chapter-block readings. These are classified as **Special Weeks** in the pipeline:
+
+| Week | Title | Type | Key Scriptures |
+|------|-------|------|----------------|
+| 1 | Introduction to the Old Testament | Introduction | Overview — no specific verses |
+| 14 | Easter | Holiday | OT prophecies of Christ: Isaiah 25:8, 53:3-9; Psalms 22:16-18, 69:21, 118:22; Zechariah 9:9, 11:12-13; Daniel 12:2. NT fulfillments paired with each. Restoration: Mosiah 3:7, Alma 7:10-13, D&C 19:15-19, Moses 5:9-12 |
+| 52 | Christmas | Holiday | TBD — will follow same pattern as Easter |
+
+**Easter (Week 14)** — "He Will Swallow Up Death in Victory"
+The CFM Easter lesson is a standalone thematic lesson that pauses the regular OT reading schedule. It draws on scriptures from across the entire canon — Old Testament prophecies paired with New Testament fulfillments, centered on the Atonement and Resurrection. The lesson also coincides with General Conference weekend (Easter 2026). Primary OT passages: Isaiah 25, Isaiah 53, Psalms 22, 69, 118, Zechariah 9 and 11, Daniel 12. Official lesson: https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14
+
+**Pipeline Handling:** Special Weeks have `"chapters": []` in `cfm_schedule.json`. Instead of iterating chapters verse-by-verse, the pipeline uses a **thematic commentary path** with a curated list of key passages and a special system prompt. The output still conforms to the standard `commentary.json` schema (same per-verse structure) so all downstream stages (hooks, snippets, verification, QA) work without modification. See Section 6.2 for implementation details.
+
+**Content Sources for Special Weeks:** [Church News](https://www.thechurchnews.com/) is a primary source for Special Week content — they publish Easter/Christmas-specific articles, prophetic quote compilations, General Conference coverage, and seasonal devotional content. Creator discovery for Special Weeks should prioritize Church News alongside the standard Tier 1 creators.
+
 ---
 
 ## 3. CONTENT ARCHITECTURE
@@ -228,7 +245,7 @@ HOMEPAGE (single scrolling page, one section per week)
 ### 3.2b Content Hierarchy — Deep Dive View (Tier 2)
 
 ```
-DEEP DIVE PAGE (one per week, linked from homepage)
+DEEP DIVE PAGE — STANDARD WEEK (one per week, linked from homepage)
 ├── Week Title & Date Range
 ├── Scripture Block (e.g., "Genesis 18-23")
 ├── Chapter Navigation (jump links)
@@ -252,6 +269,28 @@ DEEP DIVE PAGE (one per week, linked from homepage)
 │   └── [all other creators]
 └── Sources (link to About > Sources page)
 ```
+
+```
+DEEP DIVE PAGE — SPECIAL WEEK (Easter, Christmas, Introduction)
+├── Week Title & Date Range (e.g., "Easter — March 30 – April 5")
+├── Theme Banner (e.g., "He Will Swallow Up Death in Victory")
+├── Thematic Introduction (2-3 paragraphs setting up the week's theme)
+├── PASSAGE-BY-PASSAGE SECTION (organized by theme, not chapter order)
+│   ├── Theme Group (e.g., "Old Testament Prophecies of Christ")
+│   │   ├── Isaiah 25:8-9 — Full EVM Commentary (same schema as standard weeks)
+│   │   ├── Isaiah 53:3-5 — Full EVM Commentary
+│   │   ├── Psalms 22:16-18 — Full EVM Commentary
+│   │   └── ...
+│   ├── Theme Group (e.g., "The Fulfillment and the Restoration")
+│   │   ├── Mosiah 3:7 — Full EVM Commentary
+│   │   ├── D&C 19:15-19 — Full EVM Commentary
+│   │   └── ...
+│   └── ...
+├── WEEKLY CREATOR ROUNDUP (same as standard weeks)
+└── Sources
+```
+
+**Key principle:** Special Weeks use the same `commentary.json` per-verse schema as standard weeks. The Deep Dive page presentation may group passages thematically, but the underlying data is identical — same narrative, word study, cross-references, restoration lens, prophetic quotes, typology, and application fields. This means all downstream pipeline stages (hooks, snippets, audio, verification, QA) work without any modification.
 
 ### 3.3 Data Model
 
@@ -330,7 +369,7 @@ PIPELINE_RUNS
 | **Teaching with Power** | Podcast/Blog | Benjamin Wilcox | Seminary/Sunday School teacher focus, downloadable lesson materials | teachingwithpower.com | Web search: "Teaching with Power [scripture block]" |
 | **The Scriptures Are Real** | Podcast/Video | Kerry Muhlestein & Lamar Newmeyer | BYU Egyptology/ancient scripture, expert interviews, top 0.5% global podcasts | podcasts.apple.com/us/podcast/the-scriptures-are-real/id1600496638 | Web search: "Scriptures Are Real Muhlestein [scripture block]" |
 | **Unshaken Saints** | Podcast/Video | Jared Halverson | Verse-by-verse deep dives (2-4 hrs), faith-crisis support, closest format to EVM | unshaken.org | Web search: "Unshaken Saints [scripture block]" |
-| **Church News** | Articles | Church News staff | Weekly verified prophetic quote compilations — key Source Registry feeder | thechurchnews.com | Web search: "Church News Come Follow Me [scripture block] leaders said" |
+| **Church News** | Articles | Church News staff | Weekly verified prophetic quote compilations — key Source Registry feeder. **Primary source for Special Weeks** (Easter, Christmas): publishes seasonal articles, General Conference coverage, First Presidency messages, and prophetic quote compilations. URL: https://www.thechurchnews.com/ | thechurchnews.com | Web search: "Church News Come Follow Me [scripture block] leaders said" (standard weeks) / "Church News Easter 2026" or "Church News Christmas 2026" (Special Weeks) |
 | **Come Follow Me Daily** | Website | Various | Weekly aggregation of all CFM content | comefollowhimdaily.com | Direct fetch: check weekly page |
 | **LDS Daily** | Website/Blog | LDS Daily | Weekly study guides, historical context, aggregated podcast links | ldsdaily.com | Web search: "LDS Daily Come Follow Me [scripture block]" |
 
@@ -515,6 +554,8 @@ WEEKLY AUTOMATED PIPELINE (GitHub Actions — runs every Saturday 4:00 AM MT)
 
 Pipeline runs on Saturday morning so content is live before Sunday study.
 
+**Special Week handling:** When `chapters` is empty (Easter, Christmas, Introduction), Stage 1 uses the thematic commentary path with curated passages instead of chapter iteration. All subsequent stages run identically — the `commentary.json` schema is the same regardless of week type.
+
 **GitHub Actions implementation:** `.github/workflows/weekly-pipeline.yml` — cron `0 11 * * 6`. Also supports `workflow_dispatch` with optional `week` input for manual runs. Requires 4 secrets: `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, `VPS_SSH_KEY`, `VPS_HOST`. Auto-commits content with `git pull --rebase` to handle concurrent changes. Posts a summary to the workflow run page with verse count, cost, and error count.
 
 **`run_pipeline.py` flags:**
@@ -553,7 +594,7 @@ Pipeline runs on Saturday morning so content is live before Sunday study.
 **Input:** Week number → looked up in `data/cfm_schedule.json` → returns scripture block
 **Output:** `content/weeks/{year}/week-{nn}/commentary.json`
 
-**Process:**
+**Process (Standard Weeks):**
 1. Read `data/cfm_schedule.json` to determine the NEXT week's scripture block
 2. For each chapter in the block, split into batches of 6 verses
 3. If TCR data exists for the chapter (Genesis), load `content/tcr/{book}/chapter-{nn}.json` and inject TCR context (Hebrew, KJV, TCR rendering, translator notes, key terms) into the prompt
@@ -561,6 +602,17 @@ Pipeline runs on Saturday morning so content is live before Sunday study.
 5. Response parsed via `json_parser.py` (strips markdown fences, fixes misplaced fields, handles trailing commas)
 6. All chapters assembled into `commentary.json` for the week
 7. Metadata logged to `logs/pipeline_runs.json`
+
+**Process (Special Weeks — Easter, Christmas, Introduction):**
+Special Weeks have `"chapters": []` in the schedule. Instead of the standard chapter-iteration path, the pipeline:
+1. Detects `chapters` is empty → enters **Special Week mode**
+2. Loads a curated list of **key passages** defined in `cfm_schedule.json` under a `"passages"` field (e.g., `[{"book": "Isaiah", "chapter": 25, "verses": [8,9]}, {"book": "Psalms", "chapter": 22, "verses": [16,17,18]}, ...]`)
+3. Uses a **thematic system prompt** (`pipeline/prompts/commentary_special.txt`) that instructs Claude to write commentary around the week's theme (e.g., Atonement & Resurrection for Easter) rather than sequential chapter coverage
+4. Generates commentary for each passage batch, producing the same per-verse JSON schema (`book`, `chapter`, `verse`, `text_kjv`, `commentary: {...}`)
+5. Output written to `commentary.json` in the standard location — all downstream stages (hooks, snippets, verification, QA, audio) work unchanged because the schema is identical
+6. `metadata.json` includes `"special_week": true` and `"theme"` fields
+
+This ensures Special Weeks produce the same quality of content (hooks, snippets, audio, verified quotes) as standard weeks — just organized thematically instead of sequentially.
 
 **Multi-Translation Output:**
 - **`text_kjv`** (required): King James Version text for every verse

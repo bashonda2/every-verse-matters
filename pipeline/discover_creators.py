@@ -66,6 +66,13 @@ def discover_creators(week_num: int) -> list:
     scripture = week_data["scripture_block"]
     title = week_data["title"]
 
+    if week_data.get("passages"):
+        passage_refs = [
+            f"{p['book']} {p['chapter']}:{p['verse_start']}-{p['verse_end']}"
+            for p in week_data["passages"][:5]
+        ]
+        scripture = f"{scripture} ({', '.join(passage_refs)})"
+
     week_dir = CONTENT_DIR / f"week-{str(week_num).zfill(2)}"
     week_dir.mkdir(parents=True, exist_ok=True)
     creators_path = week_dir / "creators.json"

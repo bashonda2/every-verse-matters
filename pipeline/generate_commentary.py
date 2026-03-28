@@ -112,6 +112,11 @@ def load_system_prompt():
         return f.read()
 
 
+def load_special_prompt():
+    with open(ROOT / "pipeline" / "prompts" / "commentary_special.txt") as f:
+        return f.read()
+
+
 def get_week(week_num, year=2026):
     schedule = load_schedule()
     for week in schedule:
@@ -286,18 +291,160 @@ def generate_chapter(book, chapter, week_title, week_num, scripture_block, syste
     return all_verses, all_usage, batch_errors
 
 
+def run_special_week(week, week_num, year, config, model):
+    """Generate commentary for a Special Week (Easter, Christmas, etc.) using curated passages."""
+    system_prompt = load_special_prompt()
+    passages = week["passages"]
+    theme = week.get("theme", week["title"])
+
+    # Merge adjacent passages in the same chapter into single batches
+    grouped = {}
+    for p in passages:
+        key = (p["book"], p["chapter"])
+        if key not in grouped:
+            grouped[key] = []
+        grouped[key].append((p["verse_start"], p["verse_end"]))
+
+    total_verses = sum(ve - vs + 1 for p in passages for vs, ve in [(p["verse_start"], p["verse_end"])])
+
+    print(f"\n{'='*60}")
+    print(f"EVM Special Week Commentary — Week {week_num}: {week['title']}")
+    print(f"Theme: {theme}")
+    print(f"Passages: {len(passages)} | Verses: ~{total_verses}")
+    print(f"Model: {model}")
+    print(f"{'='*60}\n")
+
+    all_verses = []
+    all_usage = []
+    errors = []
+
+    for (book, chapter), verse_ranges in grouped.items():
+        for verse_start, verse_end in verse_ranges:
+            try:
+                user_message = (
+                    f"Generate verse-by-verse commentary for {book} chapter {chapter}, "
+                    f"verses {verse_start} through {verse_end}. "
+                    f"This is a SPECIAL WEEK — Week {week_num} of Come, Follow Me 2026: '{week['title']}'. "
+                    f"Theme: \"{theme}\". "
+                    f"These are key passages selected for their connection to this theme. "
+                    f"Cover every verse from {verse_start} to {verse_end}. "
+                    f"Follow the commentary structure exactly."
+                )
+
+                print(f"  Batch: {book} {chapter}:{verse_start}-{verse_end}...")
+                result = call_claude(
+                    system_prompt=system_prompt,
+                    user_message=user_message,
+                    model=model,
+                    max_tokens=32000,
+                )
+
+                usage = result["usage"]
+                cost = estimate_cost(usage)
+                print(
+                    f"    Done: {usage['input_tokens']} in / {usage['output_tokens']} out "
+                    f"(${cost:.4f}) in {usage['elapsed_seconds']}s "
+                    f"[stop: {usage['stop_reason']}]"
+                )
+
+                try:
+                    verses = extract_json(result["text"])
+                except ValueError:
+                    debug_dir = ROOT / "logs" / "errors"
+                    debug_dir.mkdir(parents=True, exist_ok=True)
+                    debug_file = debug_dir / f"special_{book}_{chapter}_{verse_start}-{verse_end}_raw.txt"
+                    with open(debug_file, "w") as f:
+                        f.write(result["text"])
+                    print(f"    Raw response saved to {debug_file}")
+                    raise
+
+                if isinstance(verses, dict):
+                    verses = [verses]
+
+                for v in verses:
+                    problems = validate_verse_commentary(v)
+                    if problems:
+                        key = f"{v.get('book', '?')} {v.get('chapter', '?')}:{v.get('verse', '?')}"
+                        for prob in problems:
+                            print(f"    WARNING: {key}: {prob}")
+
+                all_verses.extend(verses)
+                all_usage.append(usage)
+
+            except Exception as e:
+                err = f"{book} {chapter}:{verse_start}-{verse_end}: {e}"
+                print(f"    BATCH ERROR: {err}")
+                errors.append(err)
+
+    # Write output
+    week_dir = ROOT / "content" / "weeks" / str(year) / f"week-{week_num:02d}"
+    week_dir.mkdir(parents=True, exist_ok=True)
+
+    commentary_path = week_dir / "commentary.json"
+    with open(commentary_path, "w") as f:
+        json.dump(all_verses, f, indent=2, ensure_ascii=False)
+
+    total_cost = sum(estimate_cost(u) for u in all_usage)
+    metadata = {
+        "week": week_num,
+        "year": year,
+        "title": week["title"],
+        "scripture_block": week["scripture_block"],
+        "theme": theme,
+        "special_week": True,
+        "generated_at": datetime.now().isoformat(),
+        "model": model,
+        "passages_requested": len(passages),
+        "total_verses": len(all_verses),
+        "total_batches": len(all_usage),
+        "total_input_tokens": sum(u["input_tokens"] for u in all_usage),
+        "total_output_tokens": sum(u["output_tokens"] for u in all_usage),
+        "estimated_cost_usd": round(total_cost, 4),
+        "errors": errors,
+    }
+    with open(week_dir / "metadata.json", "w") as f:
+        json.dump(metadata, f, indent=2)
+
+    status = "success" if not errors else "partial"
+    log_pipeline_run(
+        week=week_num,
+        year=year,
+        stage="commentary",
+        usage_list=all_usage,
+        status=status,
+        errors=errors,
+        output_path=str(commentary_path),
+    )
+
+    print(f"\n{'='*60}")
+    print(f"SPECIAL WEEK COMPLETE")
+    print(f"Verses generated: {len(all_verses)}")
+    print(f"API calls: {len(all_usage)}")
+    print(f"Estimated cost: ${total_cost:.4f}")
+    print(f"Output: {commentary_path}")
+    if errors:
+        print(f"Errors ({len(errors)}):")
+        for e in errors:
+            print(f"  - {e}")
+    print(f"{'='*60}\n")
+
+
 def run(week_num, year=2026, chapters=None):
     """Generate commentary for an entire week."""
     week = get_week(week_num, year)
     config = load_config()
-    system_prompt = load_system_prompt()
     model = config["commentary_model"]
 
     target_chapters = chapters or week["chapters"]
 
+    if not target_chapters and week.get("passages"):
+        return run_special_week(week, week_num, year, config, model)
+
     if not target_chapters:
-        print(f"No chapters defined for Week {week_num}. Skipping.")
+        print(f"No chapters or passages defined for Week {week_num}. Skipping.")
         return
+
+    system_prompt = load_system_prompt()
 
     total_verses = sum(get_verse_count(c["book"], c["chapter"]) for c in target_chapters)
     total_batches = sum(
