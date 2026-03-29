@@ -4,7 +4,7 @@
 **Last Updated:** March 28, 2026
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Builder:** Aaron Blonquist (Cursor + Sonnet)
-**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline automated via GitHub Actions (migrated from VPS cron). Batch size 6 verses. Weeks 3-13 live. Automated Saturday runs confirmed working. Contact emails live on both EVM and TCR. Multi-translation deep dive: KJV + JST + TCR tabs per verse. Special Week handling defined for Easter/Christmas/Introduction (thematic commentary path with curated passages).
+**Status:** Anti-hallucination hardened (prompt + QA audit + reference verification). 10-stage pipeline automated via GitHub Actions (migrated from VPS cron). Batch size 6 verses. Weeks 3-14 live (including Easter Special Week). Automated Saturday runs confirmed working. Contact emails live on both EVM and TCR. Multi-translation deep dive: KJV + JST + TCR tabs per verse. Special Week pipeline implemented and deployed for Easter/Christmas/Introduction (thematic commentary path with curated passages).
 
 ---
 
@@ -182,7 +182,7 @@ Three weeks in the 2026 schedule have no sequential chapter assignments — they
 **Easter (Week 14)** — "He Will Swallow Up Death in Victory"
 The CFM Easter lesson is a standalone thematic lesson that pauses the regular OT reading schedule. It draws on scriptures from across the entire canon — Old Testament prophecies paired with New Testament fulfillments, centered on the Atonement and Resurrection. The lesson also coincides with General Conference weekend (Easter 2026). Primary OT passages: Isaiah 25, Isaiah 53, Psalms 22, 69, 118, Zechariah 9 and 11, Daniel 12. Official lesson: https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/14
 
-**Pipeline Handling:** Special Weeks have `"chapters": []` in `cfm_schedule.json`. Instead of iterating chapters verse-by-verse, the pipeline uses a **thematic commentary path** with a curated list of key passages and a special system prompt. The output still conforms to the standard `commentary.json` schema (same per-verse structure) so all downstream stages (hooks, snippets, verification, QA) work without modification. See Section 6.2 for implementation details.
+**Pipeline Handling (Implemented March 28, 2026):** Special Weeks have `"chapters": []` and `"passages": [...]` in `cfm_schedule.json`. When the pipeline detects empty chapters but populated passages, it enters the **Special Week path** (`run_special_week()` in `generate_commentary.py`), which loads `pipeline/prompts/commentary_special.txt` and generates commentary for each curated passage. The output conforms to the standard `commentary.json` schema (same per-verse structure) so all downstream stages (hooks, snippets, audio, verification, QA) work without modification. Easter Week 14 was the first successful Special Week run: 20 verses across 12 passages, $0.30 cost, all 12 pipeline steps passed including build and deploy. See Section 6.2 for implementation details.
 
 **Content Sources for Special Weeks:** [Church News](https://www.thechurchnews.com/) is a primary source for Special Week content — they publish Easter/Christmas-specific articles, prophetic quote compilations, General Conference coverage, and seasonal devotional content. Creator discovery for Special Weeks should prioritize Church News alongside the standard Tier 1 creators.
 
@@ -554,7 +554,7 @@ WEEKLY AUTOMATED PIPELINE (GitHub Actions — runs every Saturday 4:00 AM MT)
 
 Pipeline runs on Saturday morning so content is live before Sunday study.
 
-**Special Week handling:** When `chapters` is empty (Easter, Christmas, Introduction), Stage 1 uses the thematic commentary path with curated passages instead of chapter iteration. All subsequent stages run identically — the `commentary.json` schema is the same regardless of week type.
+**Special Week handling [Implemented]:** When `chapters` is empty but `passages` is populated (Easter, Christmas, Introduction), Stage 1 calls `run_special_week()` which loads `commentary_special.txt` and generates thematic commentary for curated passages instead of chapter iteration. All subsequent stages run identically — the `commentary.json` schema is the same regardless of week type. First validated: Easter Week 14 (March 28, 2026).
 
 **GitHub Actions implementation:** `.github/workflows/weekly-pipeline.yml` — cron `0 11 * * 6`. Also supports `workflow_dispatch` with optional `week` input for manual runs. Requires 4 secrets: `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, `VPS_SSH_KEY`, `VPS_HOST`. Auto-commits content with `git pull --rebase` to handle concurrent changes. Posts a summary to the workflow run page with verse count, cost, and error count.
 
@@ -603,16 +603,16 @@ Pipeline runs on Saturday morning so content is live before Sunday study.
 6. All chapters assembled into `commentary.json` for the week
 7. Metadata logged to `logs/pipeline_runs.json`
 
-**Process (Special Weeks — Easter, Christmas, Introduction):**
-Special Weeks have `"chapters": []` in the schedule. Instead of the standard chapter-iteration path, the pipeline:
-1. Detects `chapters` is empty → enters **Special Week mode**
-2. Loads a curated list of **key passages** defined in `cfm_schedule.json` under a `"passages"` field (e.g., `[{"book": "Isaiah", "chapter": 25, "verses": [8,9]}, {"book": "Psalms", "chapter": 22, "verses": [16,17,18]}, ...]`)
+**Process (Special Weeks — Easter, Christmas, Introduction) [Implemented]:**
+Special Weeks have `"chapters": []` and `"passages": [...]` in the schedule. Instead of the standard chapter-iteration path, the pipeline:
+1. `run()` detects `chapters` is empty but `passages` is populated → calls `run_special_week()`
+2. Loads curated **key passages** from `cfm_schedule.json` `"passages"` field (e.g., `[{"book": "Isaiah", "chapter": 25, "verse_start": 8, "verse_end": 9}, ...]`)
 3. Uses a **thematic system prompt** (`pipeline/prompts/commentary_special.txt`) that instructs Claude to write commentary around the week's theme (e.g., Atonement & Resurrection for Easter) rather than sequential chapter coverage
 4. Generates commentary for each passage batch, producing the same per-verse JSON schema (`book`, `chapter`, `verse`, `text_kjv`, `commentary: {...}`)
 5. Output written to `commentary.json` in the standard location — all downstream stages (hooks, snippets, verification, QA, audio) work unchanged because the schema is identical
 6. `metadata.json` includes `"special_week": true` and `"theme"` fields
 
-This ensures Special Weeks produce the same quality of content (hooks, snippets, audio, verified quotes) as standard weeks — just organized thematically instead of sequentially.
+First successful run: Easter Week 14 (March 28, 2026) — 12 passages, 20 verses, all 12 pipeline stages passed. Creator discovery enriched with passage references for better search relevance. Downstream hardening fixes applied to `verify_quotes.py`, `verify_references.py`, and `run_qa.py` to ensure consistent return shapes when `commentary.json` is absent.
 
 **Multi-Translation Output:**
 - **`text_kjv`** (required): King James Version text for every verse
@@ -1225,7 +1225,7 @@ Potential premium features:
 
 ### MVP Scope (Updated)
 - **Homepage** with weekly sections fully built: hook paragraph, two-column layout (official curriculum left, companion snippets right), link to Deep Dive
-- **Deep Dive pages** for Weeks 3-12 live with full verse-by-verse commentary
+- **Deep Dive pages** for Weeks 3-14 live with full verse-by-verse commentary (Week 14 is Easter Special Week with thematic passage-based commentary)
 - **About page** with Sources section: dynamic, generated from `data/sources_registry.json`, grouped by category. Contact email for feedback.
 - All prophetic quotes verified against Source Registry or stripped
 - Clean, mobile-responsive design (two columns stack on mobile)
@@ -1234,7 +1234,7 @@ Potential premium features:
 
 ### MVP Pages (Updated)
 1. **Homepage** — Weekly Feed with sections for all weeks, Deep Dive links for weeks with content
-2. **Deep Dive: Weeks 3-12** — Full verse-by-verse commentary (Genesis 1-41, Moses 2-8, Abraham 1-5)
+2. **Deep Dive: Weeks 3-14** — Full verse-by-verse commentary (Genesis 1-50, Moses 2-8, Abraham 1-5, Exodus 1-6) including Easter Special Week (thematic passage-based)
 3. **About** — Mission, historical inspiration, Sources section, contact email
 4. **All Weeks** — Schedule/index with content status per week
 
@@ -1608,11 +1608,13 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 
 **Remaining:**
 - [x] Share with family/ward for feedback — shared Feb 23, 2026
-- [ ] Monitor first fully automated run — Week 10, Saturday March 7
+- [x] Monitor first fully automated run — Week 10, Saturday March 7
 
 ### Phase 2: Weekly Production (March–April 2026)
-- [ ] First fully automated pipeline run — Week 10, Saturday March 7, 2026
-- [ ] Verify Week 10 output and adjust if needed
+- [x] First fully automated pipeline run — Week 10, Saturday March 7, 2026
+- [x] Verify Week 10 output and adjust if needed
+- [x] Special Week pipeline implemented and deployed — Easter Week 14 first successful run (March 28, 2026). Thematic commentary path with curated passages, hardened downstream scripts, enriched creator discovery.
+- [x] Weeks 3-14 content live (including first Special Week)
 - [ ] Implement Church News scraping to auto-populate `sources_registry.json` weekly
 - [ ] Source Registry populated with 50+ verified prophetic commentary sources
 - [ ] Refine hook and snippet prompts based on reader feedback
@@ -1738,4 +1740,4 @@ No prophetic quote, no scholarly claim, no historical fact appears on EVM withou
 
 *The MCP-first architecture described in Sections 5-6 is the core differentiator — it enables a single person (Aaron) to operate a content platform that would normally require a full editorial team, publishing fresh, deep, verified content every single week without manual intervention. The same tools power the automated pipeline, interactive development, and the user-facing AI experience. The Source Registry (Section 12) is the editorial backbone that makes the platform trustworthy: every quote is traceable, every source is vetted, nothing ships unverified.*
 
-*Hack Week complete. Site live at everyversematters.com with 9 weeks of content: Week 9 (167-verse Deep Dive + creator roundup) at top, Weeks 8–1 in descending order (rich summaries with audio for every week). Pipeline is fully automated in 8 stages — runs every Saturday without any human intervention. Next milestone: Week 10 automated run on Saturday March 7, 2026.*
+*Hack Week complete. Site live at everyversematters.com with Weeks 3-14 of content including Easter Special Week. Pipeline is fully automated via GitHub Actions — runs every Saturday without any human intervention. Special Week pipeline (thematic commentary for Easter/Christmas/Introduction) implemented March 28, 2026: curated passages, thematic prompt, same downstream schema. All 12 pipeline stages pass for both standard and special weeks. Next milestone: Week 15 automated run (Exodus 7-13).*
