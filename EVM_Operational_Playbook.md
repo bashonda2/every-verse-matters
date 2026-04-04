@@ -3,8 +3,8 @@
 
 **Owner:** Aaron Blonquist
 **Created:** March 28, 2026
-**Last Updated:** March 28, 2026
-**Version:** 1.0
+**Last Updated:** April 4, 2026
+**Version:** 1.1
 
 ---
 
@@ -324,17 +324,18 @@ response = client.messages.create(
 | Feb 23-24 | MCP HTTP transport deployed (port 3002, PM2, auth + rate limiting). |
 | Feb 23 | Shared with family/ward for feedback. |
 
-### Weekly Production — March 2026
+### Weekly Production — March–April 2026
 
 | Date | Milestone |
 |------|-----------|
 | Mar 7 | First fully automated GitHub Actions pipeline run (Week 10). Pipeline migrated from VPS cron. |
 | Mar 28 | Special Week pipeline implemented: `run_special_week()` in `generate_commentary.py`, `commentary_special.txt` prompt, enriched creator discovery for Special Weeks, downstream hardening fixes (`verify_quotes.py`, `verify_references.py`, `run_qa.py`). Easter Week 14 deployed via GitHub Actions — 12 passages, 20 verses, all stages passed. |
 | Mar 28 | SOT restructured into 4-document architecture (Source of Truth, Data Reference, Quality Contract, Operational Playbook). |
+| Apr 4 | Anthropic API key rotated — updated `ANTHROPIC_API_KEY` secret in GitHub Actions. Week 15 (Exodus 7-13) deployed: 155 verses, 7 chapters, 8 stages passed, QA 0/155 flagged (0.0%), runtime 82 min. |
 
 ---
 
 *This document describes how to operate EveryVerseMatters.com — pipeline, deploy, infrastructure. For product vision, see `EVM_Source_of_Truth.md`. For data schemas and resources, see `EVM_Data_Reference.md`. For quality rules, see `EVM_Quality_Contract.md`.*
 
 ---
-**Version 1.0 — March 28, 2026**
+**Version 1.1 — April 4, 2026**

@@ -4,8 +4,8 @@
 **Owner:** Aaron Blonquist
 **PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
 **Created:** February 22, 2026
-**Last Updated:** March 28, 2026
-**Version:** 2.0
+**Last Updated:** April 4, 2026
+**Version:** 2.1
 
 ---
 
@@ -22,12 +22,12 @@
 
 ## Current State
 
-- **Deployed:** everyversematters.com live with Weeks 3-14 content (including Easter Special Week).
+- **Deployed:** everyversematters.com live with Weeks 3-15 content (including Easter Special Week).
 - **Pipeline:** 10-stage automated pipeline via GitHub Actions. Runs every Saturday 4:00 AM MT. Zero human intervention.
 - **Special Weeks:** Thematic commentary path implemented and deployed for Easter (Week 14). Christmas (Week 52) will follow same pattern.
 - **Quality:** Anti-hallucination hardened — 3-layer system (prompt + reference verification + Haiku audit). All prophetic quotes verified or stripped.
-- **Translations:** Multi-translation deep dive: KJV + JST + TCR tabs per verse. TCR covers Genesis (all 50 chapters).
-- **Next milestone:** Week 15 automated run — Exodus 7-13 (The Plagues and Passover).
+- **Translations:** Multi-translation deep dive: KJV + JST + TCR tabs per verse. TCR covers all Pentateuch (Genesis–Deuteronomy).
+- **Next milestone:** Week 16 automated run — Exodus 14-18 (Crossing the Red Sea).
 - **Repos:** EVM: `github.com/bashonda2/every-verse-matters` | TCR: `github.com/bashonda2/the-covenant-rendering`
 
 ---
@@ -335,7 +335,7 @@ DEEP DIVE PAGE — SPECIAL WEEK (Easter, Christmas, Introduction)
 
 ### MVP Scope
 - **Homepage** with weekly sections fully built: hook paragraph, two-column layout (official curriculum left, companion snippets right), link to Deep Dive
-- **Deep Dive pages** for Weeks 3-14 live with full verse-by-verse commentary (Week 14 is Easter Special Week with thematic passage-based commentary)
+- **Deep Dive pages** for Weeks 3-15 live with full verse-by-verse commentary (Week 14 is Easter Special Week with thematic passage-based commentary)
 - **About page** with Sources section: dynamic, generated from `data/sources_registry.json`, grouped by category. Contact email for feedback.
 - All prophetic quotes verified against Source Registry or stripped
 - Clean, mobile-responsive design (two columns stack on mobile)
@@ -344,7 +344,7 @@ DEEP DIVE PAGE — SPECIAL WEEK (Easter, Christmas, Introduction)
 
 ### MVP Pages
 1. **Homepage** — Weekly Feed with sections for all weeks, Deep Dive links for weeks with content
-2. **Deep Dive: Weeks 3-14** — Full verse-by-verse commentary (Genesis 1-50, Moses 2-8, Abraham 1-5, Exodus 1-6) including Easter Special Week (thematic passage-based)
+2. **Deep Dive: Weeks 3-15** — Full verse-by-verse commentary (Genesis 1-50, Moses 2-8, Abraham 1-5, Exodus 1-13) including Easter Special Week (thematic passage-based)
 3. **About** — Mission, historical inspiration, Sources section, contact email
 4. **All Weeks** — Schedule/index with content status per week
 
@@ -399,7 +399,7 @@ Potential premium features:
 - [x] First fully automated pipeline run — Week 10, Saturday March 7, 2026
 - [x] Verify Week 10 output and adjust if needed
 - [x] Special Week pipeline implemented and deployed — Easter Week 14 first successful run (March 28, 2026)
-- [x] Weeks 3-14 content live (including first Special Week)
+- [x] Weeks 3-15 content live (including first Special Week)
 - [x] MCP server HTTP transport — live on port 3002, PM2-managed, auth + rate limiting
 - [ ] Implement Church News scraping to auto-populate `sources_registry.json` weekly
 - [ ] Source Registry populated with 50+ verified prophetic commentary sources
@@ -466,6 +466,7 @@ Potential premium features:
 
 | Date | Summary |
 |------|---------|
+| 2026-04-04 | Week 15 deployed (Exodus 7-13, 155 verses, QA 0% flagged). Anthropic API key rotated in GitHub Actions secrets. |
 | 2026-03-28 | SOT restructured into 4-document architecture (SOT, Data Reference, Quality Contract, Operational Playbook). Special Week pipeline implemented and deployed for Easter Week 14. |
 | 2026-03-07 | First fully automated GitHub Actions pipeline run (Week 10). Pipeline migrated from VPS cron. |
 | 2026-02-23 | TCR integration complete (Genesis, 50 chapters). Multi-translation deep dive UI live. MCP HTTP transport deployed. Anti-hallucination hardening shipped. |
@@ -476,4 +477,4 @@ Potential premium features:
 *This document is the constitution for EveryVerseMatters.com. It answers "what are we building and why?" For data schemas and resources, see `EVM_Data_Reference.md`. For quality rules, see `EVM_Quality_Contract.md`. For operational procedures, see `EVM_Operational_Playbook.md`.*
 
 ---
-**Version 2.0 — March 28, 2026**
+**Version 2.1 — April 4, 2026**
