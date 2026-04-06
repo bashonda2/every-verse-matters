@@ -26,7 +26,7 @@
 - **Pipeline:** 10-stage automated pipeline via GitHub Actions. Runs every Saturday 4:00 AM MT. Zero human intervention.
 - **Special Weeks:** Thematic commentary path implemented and deployed for Easter (Week 14). Christmas (Week 52) will follow same pattern.
 - **Quality:** Anti-hallucination hardened — 3-layer system (prompt + reference verification + Haiku audit). All prophetic quotes verified or stripped.
-- **Translations:** Multi-translation deep dive: KJV + JST + TCR tabs per verse. TCR covers all Pentateuch (Genesis–Deuteronomy).
+- **Translations:** Multi-translation deep dive: KJV + JST + TCR tabs per verse. TCR covers the full Old Testament (39 books, all chapters).
 - **Next milestone:** Week 16 automated run — Exodus 14-18 (Crossing the Red Sea).
 - **Repos:** EVM: `github.com/bashonda2/every-verse-matters` | TCR: `github.com/bashonda2/the-covenant-rendering`
 
@@ -466,7 +466,7 @@ Potential premium features:
 
 | Date | Summary |
 |------|---------|
-| 2026-04-04 | Week 15 deployed (Exodus 7-13, 155 verses, QA 0% flagged). Anthropic API key rotated in GitHub Actions secrets. |
+| 2026-04-04 | Week 15 deployed (Exodus 7-13, 155 verses, QA 0% flagged). Anthropic API key rotated. Full OT TCR data (34 new books) added to pipeline — TCR context now available for all 52 weeks. |
 | 2026-03-28 | SOT restructured into 4-document architecture (SOT, Data Reference, Quality Contract, Operational Playbook). Special Week pipeline implemented and deployed for Easter Week 14. |
 | 2026-03-07 | First fully automated GitHub Actions pipeline run (Week 10). Pipeline migrated from VPS cron. |
 | 2026-02-23 | TCR integration complete (Genesis, 50 chapters). Multi-translation deep dive UI live. MCP HTTP transport deployed. Anti-hallucination hardening shipped. |

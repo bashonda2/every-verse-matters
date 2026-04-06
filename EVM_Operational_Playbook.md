@@ -331,7 +331,7 @@ response = client.messages.create(
 | Mar 7 | First fully automated GitHub Actions pipeline run (Week 10). Pipeline migrated from VPS cron. |
 | Mar 28 | Special Week pipeline implemented: `run_special_week()` in `generate_commentary.py`, `commentary_special.txt` prompt, enriched creator discovery for Special Weeks, downstream hardening fixes (`verify_quotes.py`, `verify_references.py`, `run_qa.py`). Easter Week 14 deployed via GitHub Actions — 12 passages, 20 verses, all stages passed. |
 | Mar 28 | SOT restructured into 4-document architecture (Source of Truth, Data Reference, Quality Contract, Operational Playbook). |
-| Apr 4 | Anthropic API key rotated — updated `ANTHROPIC_API_KEY` secret in GitHub Actions. Week 15 (Exodus 7-13) deployed: 155 verses, 7 chapters, 8 stages passed, QA 0/155 flagged (0.0%), runtime 82 min. |
+| Apr 4 | Anthropic API key rotated — updated `ANTHROPIC_API_KEY` secret in GitHub Actions. Week 15 (Exodus 7-13) deployed: 155 verses, 7 chapters, 8 stages passed, QA 0/155 flagged (0.0%), runtime 82 min. Full OT TCR data added (34 new books beyond Pentateuch) — `slug_map` in `generate_commentary.py` expanded to all 39 OT books. TCR context now enriches commentary for every remaining week through Week 52. |
 
 ---
 
