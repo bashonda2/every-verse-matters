@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Joshua",
+    "chapter": 10,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-28T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Five Amorite kings attack Gibeon for allying with Israel. Joshua marches all night to defend them. God hurls hailstones from heaven, and Joshua commands the sun and moon to stand still. The five kings are executed, and southern Canaan is conquered.",
+    "remarkable": "The sun standing still (vv. 12-13) is the most extraordinary event in Joshua. The poem — 'Sun, stand still at Gibeon; Moon, at the Valley of Aijalon' — is quoted from the Book of Jashar, a lost collection of ancient Hebrew poetry. The narrator adds: 'there has been no day like it before or since, when the LORD listened to the voice of a man' (v. 14). The reversal is striking: throughout the Torah, humans listen to God's voice; here God listens to a human's.",
+    "friction": "The verb dom (v. 12, 'be still/silent') applied to the sun could mean it stopped moving, stopped shining, or was silenced — the Hebrew is ambiguous between cessation of motion and cessation of light. We rendered it 'stand still' following the traditional understanding and noted the alternatives. The phrase hacharim (v. 40, 'devoted to destruction') applies the cherem to the entire southern campaign.",
+    "connections": "The Book of Jashar is also cited in 2 Samuel 1:18 (David's lament). The hailstone victory echoes the plague tradition (Exodus 9:18-26) and anticipates Ezekiel 38:22 and Revelation 16:21. The five-king execution in the cave (vv. 22-27) establishes a pattern repeated in Judges. The command 'do not be afraid' (v. 8) echoes 1:9 and Deuteronomy 31:6."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֣י כִשְׁמֹ֣עַ אֲדֹנִי־צֶ֣דֶק מֶֽלֶךְ־יְרוּשָׁלִַ֡ם כִּי־לָכַ֨ד יְהוֹשֻׁ֜עַ אֶת־הָעַ֗י וַיַּחֲרִימָהּ֮ כַּאֲשֶׁ֣ר עָשָׂ֣ה לִירִיח֣וֹ וּלְמַלְכָּ֗הּ כֵּ֤ן עָשָׂה֙ לָעַ֣י וּלְמַלְכָּ֔הּ וְכִ֨י הִשְׁלִ֜ימוּ יֹשְׁבֵ֤י גִבְע֙וֹן֙ אֶת־יִשְׂרָאֵ֔ל וַיִּהְי֖וּ בְּקִרְבָּֽם׃",
+      "text_kjv": "Now it came to pass, when Adonizedek king of Jerusalem had heard how Joshua had taken Ai, and had utterly destroyed it; as he had done to Jericho and her king, so he had done to Ai and her king; and how the inhabitants of Gibeon had made peace with Israel, and were among them;",
+      "rendering": "When Adoni-zedek king of Jerusalem learned that Joshua had captured Ai and devoted it to destruction — doing to Ai and its king exactly as he had done to Jericho and its king — and that the inhabitants of Gibeon had made peace with Israel and were now living among them,",
+      "translator_notes": [
+        "Adoni-Tsedeq ('my lord is righteousness') — an ironic royal name. The king of Jerusalem claims righteousness as his title, yet he will oppose the God who defines righteousness. The name parallels Melchizedek ('king of righteousness,' Genesis 14:18), the earlier king-priest of Salem/Jerusalem who blessed Abraham. The same city that once produced a priestly ally now produces an adversary.",
+        "V'khi hishleimu yosh'vei Giv'on et Yisrael ('the inhabitants of Gibeon had made peace with Israel') — the verb hishlim (hiphil of shalam, 'to make peace, to submit') describes the Gibeonite treaty. This alarms Adoni-zedek not because he lost a battle but because he lost an ally: Gibeon's defection breaks the Canaanite coalition."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיִּירְא֣וּ מְאֹ֔ד כִּ֣י עִ֤יר גְּדוֹלָה֙ גִּבְע֔וֹן כְּאַחַ֖ת עָרֵ֣י הַמַּמְלָכָ֑ה וְכִ֨י הִ֤יא גְדוֹלָה֙ מִן־הָעַ֔י וְכׇל־אֲנָשֶׁ֖יהָ גִּבֹּרִֽים׃",
+      "text_kjv": "That they feared greatly, because Gibeon was a great city, as one of the royal cities, and because it was greater than Ai, and all the men thereof were mighty.",
+      "rendering": "he was terrified, because Gibeon was a major city — like one of the royal capitals — and larger than Ai, with all its men being seasoned warriors.",
+      "translator_notes": [
+        "Vayyir'u me'od ('they feared greatly') — the subject shifts between singular and plural in the Hebrew. The fear is both personal (Adoni-zedek) and collective (Jerusalem and its allies). K'achat arei ha-mamlakhah ('like one of the royal cities') — Gibeon held the status of a city-state with its own ruling class. Its defection to Israel was a strategic catastrophe for the Canaanite coalition, removing a powerful military force from their side and placing it in Israel's camp.",
+        "V'khol anasheha gibborim ('all its men were warriors') — Gibeon's fighting force was formidable. The Canaanite kings must now consider that Gibeon's warriors might fight alongside Israel against them."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיִּשְׁלַ֗ח אֲדֹנִי־צֶ֙דֶק֙ מֶ֣לֶךְ יְרוּשָׁלַ֔͏ִם אֶל־הוֹהָ֥ם מֶלֶךְ־חֶבְר֖וֹן וְאֶל־פִּרְאָ֣ם מֶלֶךְ־יַרְמ֑וּת וְאֶל־יָפִ֨יעַ֙ מֶֽלֶךְ־לָכִ֔ישׁ וְאֶל־דְּבִ֖יר מֶ֥לֶךְ עֶגְלֽוֹן׃",
+      "text_kjv": "Wherefore Adonizedek king of Jerusalem sent unto Hoham king of Hebron, and unto Piram king of Jarmuth, and unto Japhia king of Lachish, and unto Debir king of Eglon, saying,",
+      "rendering": "So Adoni-zedek king of Jerusalem sent word to Hoham king of Hebron, Piram king of Jarmuth, Japhia king of Lachish, and Debir king of Eglon:",
+      "translator_notes": [
+        "Five Amorite city-state kings form a southern coalition. The cities represent a strategic arc across the southern hill country and Shephelah: Jerusalem (central highlands), Hebron (southern highlands), Jarmuth (Shephelah), Lachish (major fortified city in the Shephelah), and Eglon (western Shephelah). Together they control the main routes through southern Canaan. Hebron is particularly significant: it is where Abraham, Isaac, and Jacob are buried at Machpelah (Genesis 23; 49:29-32), and it will become Caleb's inheritance (14:13-14)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "עֲלוּ־אֵלַ֣י וְעִזְרֻ֔נִי וְנַכֶּ֖ה אֶת־גִּבְע֑וֹן כִּי־הִשְׁלִ֙ימָה֙ אֶת־יְהוֹשֻׁ֔עַ וְאֶת־בְּנֵ֖י יִשְׂרָאֵֽל׃",
+      "text_kjv": "Come up unto me, and help me, that we may smite Gibeon: for it hath made peace with Joshua and with the children of Israel.",
+      "rendering": "\"Come up and help me. Let us attack Gibeon, because it has made peace with Joshua and the Israelites.\"",
+      "translator_notes": [
+        "The coalition's first target is not Israel but Gibeon — the traitor to the Canaanite cause. Ki hishlimah et Yehoshua ('because it made peace with Joshua') — Gibeon's treaty with Israel is treated as betrayal by the other Canaanite kings. The attack on Gibeon will force Israel's hand: they must either honor the treaty and defend Gibeon or break their oath."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיֵּאָסְפ֨וּ וַיַּעֲל֜וּ חֲמֵ֣שֶׁת ׀ מַלְכֵ֣י הָאֱמֹרִ֗י מֶ֣לֶךְ יְרוּשָׁלַ֡͏ִם מֶ֠לֶךְ חֶבְר֨וֹן מֶלֶךְ־יַרְמ֜וּת מֶ֣לֶךְ לָכִ֗ישׁ מֶ֤לֶךְ עֶגְלוֹן֙ הֵ֣ם וְכׇל־מַחֲנֵיהֶ֔ם וַיַּחֲנ֥וּ עַל־גִּבְע֖וֹן וַיִּלָּחֲמ֥וּ עָלֶֽיהָ׃",
+      "text_kjv": "Therefore the five kings of the Amorites, the king of Jerusalem, the king of Hebron, the king of Jarmuth, the king of Lachish, the king of Eglon, gathered themselves together, and went up, they and all their hosts, and encamped before Gibeon, and made war against it.",
+      "rendering": "The five Amorite kings — the king of Jerusalem, the king of Hebron, the king of Jarmuth, the king of Lachish, and the king of Eglon — gathered their forces, marched up, and besieged Gibeon, attacking it.",
+      "translator_notes": [
+        "Chameshet malkei ha-Emori ('the five Amorite kings') — the coalition is identified specifically as Amorite. The Amorites were the dominant power in the southern highlands. The five-fold listing creates a sense of overwhelming military force converging on one city. Gibeon's survival depends entirely on whether Israel will honor the treaty of chapter 9."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיִּשְׁלְח֣וּ אַנְשֵׁ֣י גִבְעוֹן֩ אֶל־יְהוֹשֻׁ֨עַ אֶל־הַֽמַּחֲנֶ֜ה הַגִּלְגָּ֗לָה לֵאמֹר֙ אַל־תֶּ֤רֶף יָדֶ֙יךָ֙ מֵֽעֲבָדֶ֔יךָ עֲלֵ֧ה אֵלֵ֣ינוּ מְהֵרָ֗ה וְהוֹשִׁ֤יעָה לָּ֙נוּ֙ וְעׇזְרֵ֔נוּ כִּ֤י נִקְבְּצ֣וּ אֵלֵ֔ינוּ כׇּל־מַלְכֵ֥י הָאֱמֹרִ֖י יֹשְׁבֵ֥י הָהָֽר׃",
+      "text_kjv": "And the men of Gibeon sent unto Joshua to the camp to Gilgal, saying, Slack not thy hand from thy servants; come up to us quickly, and save us, and help us: for all the kings of the Amorites that dwell in the mountains are gathered together against us.",
+      "rendering": "The men of Gibeon sent an urgent message to Joshua at the camp at Gilgal: \"Do not abandon your servants! Come up to us quickly — rescue us and help us! All the Amorite kings of the hill country have joined forces against us.\"",
+      "translator_notes": [
+        "Al teref yadekha me-avadekha ('do not let your hands go slack from your servants') — the idiom 'slack hands' means to withhold help, to abandon. The Gibeonites now invoke the very treaty they obtained by deception: 'your servants' (avadekha) — the same term they used in 9:8, 11. The test is clear: will Israel honor an oath made under false pretenses? Hoshi'ah lanu v'ozrenu ('save us and help us') — the verbs yasha ('to save') and azar ('to help') are normally addressed to God. The Gibeonites appeal to Joshua in language usually reserved for divine petition."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיַּ֨עַל יְהוֹשֻׁ֜עַ מִן־הַגִּלְגָּ֗ל ה֚וּא וְכׇל־עַ֣ם הַמִּלְחָמָ֔ה עִמּ֕וֹ וְכֹ֖ל גִּבּוֹרֵ֥י הֶחָֽיִל׃",
+      "text_kjv": "So Joshua ascended from Gilgal, he, and all the people of war with him, and all the mighty men of valour.",
+      "rendering": "Joshua marched up from Gilgal with his entire fighting force and all his best warriors.",
+      "translator_notes": [
+        "Joshua responds immediately. There is no hesitation, no debate about whether the fraudulently obtained treaty deserves honoring. The oath was sworn in YHWH's name, and that settles it. V'khol gibborei he-chayil ('and all the mighty warriors') — the elite troops accompany the main force. Joshua commits everything to defending the Gibeonites, treating the oath obligation with the same seriousness as a divine command."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֹּ֤אמֶר יְהוָה֙ אֶל־יְהוֹשֻׁ֔עַ אַל־תִּירָ֖א מֵהֶ֑ם כִּ֤י בְיָדְךָ֙ נְתַתִּ֔ים לֹא־יַעֲמֹ֥ד אִ֛ישׁ מֵהֶ֖ם בְּפָנֶֽיךָ׃",
+      "text_kjv": "And the LORD said unto Joshua, Fear them not: for I have delivered them into thine hand; there shall not a man of them stand before thee.",
+      "rendering": "The LORD said to Joshua, \"Do not be afraid of them, for I have handed them over to you. Not one of them will stand against you.\"",
+      "translator_notes": [
+        "Al tira mehem ki v'yadkha n'tattim ('do not fear them, for I have given them into your hand') — God confirms that Joshua's decision to honor the Gibeonite treaty is correct by promising military victory. The divine oracle transforms a treaty obligation into a conquest opportunity. Lo ya'amod ish mehem b'fanekha ('not a man of them will stand before you') — the same promise from 1:5, now applied specifically to the five-king coalition. God's endorsement signals that defending Gibeon — even though the treaty was obtained by deception — aligns with His purposes."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיָּבֹ֧א אֲלֵיהֶ֛ם יְהוֹשֻׁ֖עַ פִּתְאֹ֑ם כׇּל־הַלַּ֕יְלָה עָלָ֖ה מִן־הַגִּלְגָּֽל׃",
+      "text_kjv": "Joshua therefore came unto them suddenly, and went up from Gilgal all night.",
+      "rendering": "Joshua fell upon them suddenly, having marched up all night from Gilgal.",
+      "translator_notes": [
+        "Pit'om ('suddenly') — Joshua's overnight forced march from Gilgal, roughly twenty miles uphill through the wilderness, achieves complete tactical surprise. The Amorite coalition expected to deal with Gibeon at leisure; instead they face Israel's full army at dawn. Kol ha-lailah alah min ha-Gilgal ('all night he went up from Gilgal') — the march ascends about 3,300 feet in elevation through difficult terrain, a remarkable feat of endurance and urgency."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיְהֻמֵּ֤ם יְהוָה֙ לִפְנֵ֣י יִשְׂרָאֵ֔ל וַיַּכֵּ֥ם מַכָּ֛ה גְדוֹלָ֖ה בְּגִבְע֑וֹן וַיִּרְדְּפֵ֗ם דֶּ֚רֶךְ מַעֲלֵ֣ה בֵית־חוֹרֹ֔ן וַיַּכֵּ֥ם עַד־עֲזֵקָ֖ה וְעַד־מַקֵּדָֽה׃",
+      "text_kjv": "And the LORD discomfited them before Israel, and slew them with a great slaughter at Gibeon, and chased them along the way that goeth up to Bethhoron, and smote them to Azekah, and unto Makkedah.",
+      "rendering": "The LORD threw them into panic before Israel. He struck them with a devastating blow at Gibeon, then pursued them along the ascent of Beth-horon and struck them all the way to Azekah and Makkedah.",
+      "translator_notes": [
+        "Vayyehumem YHWH lifnei Yisrael ('the LORD threw them into panic before Israel') — the verb hamam ('to confuse, to throw into panic, to rout') is the same word used for God's action at the Red Sea (Exodus 14:24) and in other divine-warrior contexts (Judges 4:15; 1 Samuel 7:10). God is the primary agent of the rout; Israel participates but God drives the panic.",
+        "Derekh ma'aleh Beit Choron ('along the ascent of Beth-horon') — the Beth-horon pass is the main route from the central highlands down to the coastal plain, a steep descent through a narrow valley. The fleeing coalition is funneled into this natural chokepoint. The pursuit covers roughly twenty-five miles, from Gibeon through Beth-horon down to Azekah and Makkedah in the Shephelah."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיְהִ֣י ׀ בְּנֻסָ֣ם מִפְּנֵ֣י יִשְׂרָאֵ֗ל הֵ֞ם בְּמוֹרַ֤ד בֵּית־חוֹרֹן֙ וַֽיהוָ֡ה הִשְׁלִ֣יךְ עֲלֵיהֶם֩ אֲבָנִ֨ים גְּדֹל֜וֹת מִן־הַשָּׁמַ֗יִם עַד־עֲזֵקָה֙ וַיָּמֻ֔תוּ רַבִּ֗ים אֲשֶׁר־מֵ֙תוּ֙ בְּאַבְנֵ֣י הַבָּרָ֔ד מֵאֲשֶׁ֥ר הָרְג֛וּ בְּנֵ֥י יִשְׂרָאֵ֖ל בֶּחָֽרֶב׃",
+      "text_kjv": "And it came to pass, as they fled from before Israel, and were in the going down to Bethhoron, that the LORD cast down great stones from heaven upon them unto Azekah, and they died: they were more which died with hailstones than they whom the children of Israel slew with the sword.",
+      "rendering": "As they fled down from Beth-horon before Israel, the LORD hurled massive stones from the sky upon them all the way to Azekah, and they died. More were killed by the hailstones than the Israelites killed with the sword.",
+      "translator_notes": [
+        "YHWH hishlikh aleihem avanim g'dolot min ha-shamayim ('the LORD threw great stones from the sky upon them') — divine intervention through the heavens. The avanim g'dolot ('great stones') are identified as avnei ha-barad ('hailstones') — massive hail raining down on the fleeing army. The image echoes the seventh plague on Egypt (Exodus 9:18-26), where the LORD sent barad ('hail') against Pharaoh. The same divine weapon used against Egypt is now used against the Amorites.",
+        "Rabbim asher metu b'avnei ha-barad me-asher hargu b'nei Yisrael be-charev ('more died from the hailstones than the Israelites killed with the sword') — the narrator makes explicit that God's direct intervention killed more of the enemy than Israel's army. The divine warrior does more than Israel's best soldiers. This theological claim undergirds the entire conquest: the land is won by God's power, not human might."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "אָ֣ז יְדַבֵּ֤ר יְהוֹשֻׁ֙עַ֙ לַיהוָ֔ה בְּי֗וֹם תֵּ֤ת יְהוָה֙ אֶת־הָ֣אֱמֹרִ֔י לִפְנֵ֖י בְּנֵ֣י יִשְׂרָאֵ֑ל וַיֹּ֣אמֶר ׀ לְעֵינֵ֣י יִשְׂרָאֵ֗ל שֶׁ֚מֶשׁ בְּגִבְע֣וֹן דּ֔וֹם וְיָרֵ֖חַ בְּעֵ֥מֶק אַיָּלֽוֹן׃",
+      "text_kjv": "Then spake Joshua to the LORD in the day when the LORD delivered up the Amorites before the children of Israel, and he said in the sight of Israel, Sun, stand thou still upon Gibeon; and thou, Moon, in the valley of Ajalon.",
+      "rendering": "Then Joshua spoke to the LORD on the day the LORD gave the Amorites over to Israel, and he declared in the presence of all Israel: \"Sun — stand still over Gibeon! Moon — hold your place over the Valley of Aijalon!\"",
+      "translator_notes": [
+        "Shemesh b'Giv'on dom v'yareach b'Emeq Ayyalon ('sun, be still over Gibeon; moon, over the Valley of Aijalon') — Joshua's command to the celestial bodies is presented as poetry (possibly an excerpt from the Book of Jashar, v. 13). The verb dom ('be still, be silent, cease') is not the usual word for stopping motion but for ceasing activity or falling silent. Some interpreters understand this as a command for the sun to stop shining (providing relief from heat and cloud cover for the march) rather than to stop moving.",
+        "The geography is precise: Gibeon is to the east (where Joshua's army is), Aijalon is to the west (where the enemy flees). The sun over Gibeon and the moon over Aijalon places the scene in early morning, with the sun rising in the east and the moon still visible in the western sky. Joshua asks the heavenly bodies to freeze in this configuration — extending the morning light for continued pursuit."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיִּדֹּ֨ם הַשֶּׁ֜מֶשׁ וְיָרֵ֣חַ עָמָ֗ד עַד־יִקֹּ֥ם גּוֹי֙ אֹֽיְבָ֔יו הֲלֹא־הִ֥יא כְתוּבָ֖ה עַל־סֵ֣פֶר הַיָּשָׁ֑ר וַיַּעֲמֹ֤ד הַשֶּׁ֙מֶשׁ֙ בַּחֲצִ֣י הַשָּׁמַ֔יִם וְלֹא־אָ֥ץ לָב֖וֹא כְּי֥וֹם תָּמִֽים׃",
+      "text_kjv": "And the sun stood still, and the moon stayed, until the people had avenged themselves upon their enemies. Is not this written in the book of Jasher? So the sun stood still in the midst of heaven, and hasted not to go down about a whole day.",
+      "rendering": "The sun stood still and the moon held its place until the nation had taken vengeance on its enemies. Is this not recorded in the Book of Jashar? The sun stopped in the middle of the sky and did not hurry to set for an entire day.",
+      "translator_notes": [
+        "Vayyiddom ha-shemesh v'yareach amad ('the sun was still and the moon stood') — two different verbs are used: dom ('to be still/silent') for the sun and amad ('to stand, to stop') for the moon. The effect described is an extended period of daylight enabling Israel to complete the rout.",
+        "Halo hi k'tuvah al Sefer ha-Yashar ('is this not written in the Book of Jashar?') — the Book of Jashar (or 'Book of the Upright') is a lost Israelite literary collection, cited also in 2 Samuel 1:18 (David's lament for Saul and Jonathan). The narrator cites a written source, inviting verification — an early form of source documentation.",
+        "V'lo ats lavo k'yom tamim ('it did not hurry to set for an entire day') — the phrase yom tamim ('a complete/whole day') indicates the phenomenon lasted approximately a full day-cycle. Whether understood as a literal astronomical event, an extended period of hailstorm darkness followed by clearing, or a poetic hyperbole celebrating divine intervention, the theological point is clear: creation itself serves the purposes of the Creator and His covenant people."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְלֹ֨א הָיָ֜ה כַּיּ֤וֹם הַהוּא֙ לְפָנָ֣יו וְאַחֲרָ֔יו לִשְׁמֹ֥עַ יְהוָ֖ה בְּק֣וֹל אִ֑ישׁ כִּ֣י יְהוָ֔ה נִלְחָ֖ם לְיִשְׂרָאֵֽל׃",
+      "text_kjv": "And there was no day like that before it or after it, that the LORD hearkened unto the voice of a man: for the LORD fought for Israel.",
+      "rendering": "There has never been a day like it, before or since — a day when the LORD responded to the voice of a human being. For the LORD was fighting for Israel.",
+      "translator_notes": [
+        "V'lo hayah ka-yom ha-hu l'fanav v'acharav lishmo'a YHWH b'qol ish ('there was no day like it before or after, for the LORD to listen to the voice of a man') — the narrator's commentary identifies the uniqueness not in the astronomical phenomenon but in the relational dynamic: God listened to a human command as though Joshua's word directed the cosmos. The Creator subordinated the sun and moon to the prayer of His servant.",
+        "Ki YHWH nilcham l'Yisrael ('for the LORD was fighting for Israel') — the chapter's theological refrain. The divine warrior fights through hailstones (v. 11), through cosmic obedience (vv. 12-13), and through human armies (v. 10). The methods vary; the agent is constant."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיָּ֤שׇׁב יְהוֹשֻׁ֙עַ֙ וְכׇל־יִשְׂרָאֵ֣ל עִמּ֔וֹ אֶל־הַֽמַּחֲנֶ֖ה הַגִּלְגָּֽלָה׃",
+      "text_kjv": "And Joshua returned, and all Israel with him, unto the camp to Gilgal.",
+      "rendering": "Then Joshua returned with all Israel to the camp at Gilgal.",
+      "translator_notes": [
+        "This verse appears to interrupt the narrative, as the pursuit continues in verse 16. Some scholars consider it a displaced summary that originally concluded the chapter, while others see it as a brief return to base before the cave discovery at Makkedah. The Septuagint omits this verse, supporting the view that it may be a later editorial insertion or a variant placement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיָּנֻ֕סוּ חֲמֵ֖שֶׁת הַמְּלָכִ֣ים הָאֵ֑לֶּה וַיֵּחָבְא֥וּ בַמְּעָרָ֖ה בְּמַקֵּדָֽה׃",
+      "text_kjv": "But these five kings fled, and hid themselves in a cave at Makkedah.",
+      "rendering": "The five kings fled and hid in a cave at Makkedah.",
+      "translator_notes": [
+        "Vayyechav'u bam'arah b'Maqqedah ('they hid in the cave at Makkedah') — the kings who led the coalition are now fugitives hiding in a limestone cave. The irony is severe: the kings who gathered their forces to crush Gibeon (v. 5) are now cowering underground while their armies are destroyed by hail and sword."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיֻּגַּ֥ד לִיהוֹשֻׁ֖עַ לֵאמֹ֑ר נִמְצְאוּ֙ חֲמֵ֣שֶׁת הַמְּלָכִ֔ים נֶחְבְּאִ֥ים בַּמְּעָרָ֖ה בְּמַקֵּדָֽה׃",
+      "text_kjv": "And it was told Joshua, saying, The five kings are found hid in a cave at Makkedah.",
+      "rendering": "Joshua was told, \"The five kings have been found hiding in a cave at Makkedah.\"",
+      "translator_notes": [
+        "Nimts'u chameshet ha-m'lakhim nechba'im bam'arah ('the five kings were found hiding in the cave') — the discovery sets up the dramatic execution scene of verses 22-27. Joshua will deal with the kings after completing the rout of their armies."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיֹּ֣אמֶר יְהוֹשֻׁ֔עַ גֹּ֛לּוּ אֲבָנִ֥ים גְּדוֹל֖וֹת אֶל־פִּ֣י הַמְּעָרָ֑ה וְהַפְקִ֧ידוּ עָלֶ֛יהָ אֲנָשִׁ֖ים לְשׇׁמְרָֽם׃",
+      "text_kjv": "And Joshua said, Roll great stones upon the mouth of the cave, and set men by it for to keep them:",
+      "rendering": "Joshua said, \"Roll large stones against the mouth of the cave and post guards over it.",
+      "translator_notes": [
+        "Gollu avanim g'dolot el pi ha-m'arah ('roll large stones to the mouth of the cave') — the kings are sealed in, trapped but alive, while Joshua finishes the pursuit. The cave becomes a temporary prison. The detail creates dramatic tension: the kings wait in darkness while their kingdoms fall."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְאַתֶּ֣ם אַֽל־תַּעֲמֹ֗דוּ רִדְפ֞וּ אַחֲרֵ֤י אֹיְבֵיכֶם֙ וְזִנַּבְתֶּ֣ם אוֹתָ֔ם אַֽל־תִּתְּנ֣וּם לָב֔וֹא אֶל־עָרֵיהֶ֑ם כִּ֧י נְתָנָ֛ם יְהוָ֥ה אֱלֹהֵיכֶ֖ם בְּיֶדְכֶֽם׃",
+      "text_kjv": "And stay ye not, but pursue after your enemies, and smite the hindmost of them; suffer them not to enter into their cities: for the LORD your God hath delivered them into your hand.",
+      "rendering": "But you — do not stop! Pursue your enemies and cut off their rear guard. Do not let them reach their cities, for the LORD your God has given them into your hands.\"",
+      "translator_notes": [
+        "V'zinnavtem otam ('cut off their tail/rear guard') — the verb zanav ('to strike the tail, to attack the rear') appears also in Deuteronomy 25:18, where Amalek attacked Israel's rear. Now Israel strikes the enemy's rear. Al titt'num lavo el areihem ('do not let them enter their cities') — once the enemy reaches fortified cities, the advantage of the open-field rout is lost. Joshua's tactical priority is to prevent regrouping behind city walls."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיְהִ֗י כְּכַלּ֨וֹת יְהוֹשֻׁ֧עַ וּבְנֵֽי־יִשְׂרָאֵ֛ל לְהַכּוֹתָ֥ם מַכָּ֛ה גְּדוֹלָ֥ה מְאֹ֖ד עַד־תֻּמָּ֑ם וְהַשְּׂרִידִ֥ים שָׂרְד֣וּ מֵהֶ֔ם וַיָּבֹ֖אוּ אֶל־עָרֵ֥י הַמִּבְצָֽר׃",
+      "text_kjv": "And it came to pass, when Joshua and the children of Israel had made an end of slaying them with a very great slaughter, till they were consumed, that the rest which remained of them entered into fenced cities.",
+      "rendering": "When Joshua and the Israelites had finished inflicting a massive defeat on them — nearly wiping them out — the survivors managed to reach the fortified cities.",
+      "translator_notes": [
+        "Ad tummam ('until they were consumed/finished') — the same root tamam from 8:24, indicating near-total destruction. V'has'ridim sar'du mehem vayyavo'u el arei ha-mivtsar ('the survivors who survived from them entered the fortified cities') — despite Joshua's order (v. 19), some fugitives reached walled cities. The fortified cities will be taken individually in verses 28-39."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיָּשֻׁ֨בוּ כׇל־הָעָ֧ם אֶל־הַמַּחֲנֶ֛ה אֶל־יְהוֹשֻׁ֖עַ מַקֵּדָ֣ה בְשָׁל֑וֹם לֹא־חָרַ֨ץ לִבְנֵ֧י יִשְׂרָאֵ֛ל לְאִ֖ישׁ אֶת־לְשׁוֹנֽוֹ׃",
+      "text_kjv": "And all the people returned to the camp to Joshua at Makkedah in peace: none moved his tongue against any of the children of Israel.",
+      "rendering": "The entire army returned safely to Joshua at the camp at Makkedah. No one dared to speak a word against the Israelites.",
+      "translator_notes": [
+        "Lo charats livnei Yisrael l'ish et l'shono ('no man sharpened his tongue against the Israelites') — the idiom 'sharpening the tongue' means to speak hostility or challenge. The parallel is Exodus 11:7: 'not a dog shall sharpen its tongue against the Israelites' — spoken of Israel's departure from Egypt. The exodus language reappears: Israel's conquest mirrors Israel's deliverance. The Canaanite world is too terrified to even speak against them."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיֹּ֣אמֶר יְהוֹשֻׁ֔עַ פִּתְח֖וּ אֶת־פִּ֣י הַמְּעָרָ֑ה וְהוֹצִ֣יאוּ אֵלַ֗י אֶת־חֲמֵ֛שֶׁת הַמְּלָכִ֥ים הָאֵ֖לֶּה מִן־הַמְּעָרָֽה׃",
+      "text_kjv": "Then said Joshua, Open the mouth of the cave, and bring out those five kings unto me out of the cave.",
+      "rendering": "Then Joshua said, \"Open the mouth of the cave and bring those five kings out to me.\"",
+      "translator_notes": [
+        "The scene now shifts to the execution of the captured kings. The narrative has built suspense: the kings were sealed in the cave (v. 18) while the battle raged, and now Joshua returns to deal with them. Hotsi'u elai et chameshet ham'lakhim ('bring the five kings out to me') — the kings are summoned from darkness into judgment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיַּ֣עֲשׂוּ כֵ֔ן וַיֹּצִ֣יאוּ אֵלָ֗יו אֶת־חֲמֵ֛שֶׁת הַמְּלָכִ֥ים הָאֵ֖לֶּה מִן־הַמְּעָרָ֑ה אֵ֣ת ׀ מֶ֣לֶךְ יְרוּשָׁלַ֗͏ִם אֶת־מֶ֤לֶךְ חֶבְרוֹן֙ אֶת־מֶ֣לֶךְ יַרְמ֔וּת אֶת־מֶ֥לֶךְ לָכִ֖ישׁ אֶת־מֶ֥לֶךְ עֶגְלֽוֹן׃",
+      "text_kjv": "And they did so, and brought out those five kings unto him out of the cave, the king of Jerusalem, the king of Hebron, the king of Jarmuth, the king of Lachish, and the king of Eglon.",
+      "rendering": "They did so, bringing the five kings out of the cave to him: the king of Jerusalem, the king of Hebron, the king of Jarmuth, the king of Lachish, and the king of Eglon.",
+      "translator_notes": [
+        "The fivefold repetition of 'the king of...' creates a ceremonial rhythm. Each king is named individually, stripping them of their royal dignity and authority. They entered the cave as rulers; they emerge as prisoners."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַ֠יְהִ֠י כְּֽהוֹצִיאָ֞ם אֶת־הַמְּלָכִ֣ים הָאֵלֶּה֮ אֶל־יְהוֹשֻׁ֒עַ֒ וַיִּקְרָ֨א יְהוֹשֻׁ֜עַ אֶל־כׇּל־אִ֣ישׁ יִשְׂרָאֵ֗ל וַ֠יֹּ֠אמֶר אֶל־קְצִינֵ֞י אַנְשֵׁ֤י הַמִּלְחָמָה֙ הַהָלְכ֣וּא אִתּ֔וֹ קִרְב֗וּ שִׂ֚ימוּ אֶת־רַגְלֵיכֶ֔ם עַל־צַוְּארֵ֖י הַמְּלָכִ֣ים הָאֵ֑לֶּה וַיִּקְרְב֔וּ וַיָּשִׂ֥ימוּ אֶת־רַגְלֵיהֶ֖ם עַל־צַוְּארֵיהֶֽם׃",
+      "text_kjv": "And it came to pass, when they brought out those kings unto Joshua, that Joshua called for all the men of Israel, and said unto the captains of the men of war which went with him, Come near, put your feet upon the necks of these kings. And they came near, and put their feet upon their necks.",
+      "rendering": "When they had brought the kings out to Joshua, he summoned all the men of Israel and said to the commanders of the warriors who had marched with him, \"Come forward and put your feet on the necks of these kings.\" They came forward and placed their feet on their necks.",
+      "translator_notes": [
+        "Simu et ragleikhem al tsavv'rei ham'lakhim ha-elleh ('put your feet on the necks of these kings') — the act of placing one's foot on a conquered enemy's neck is well-attested in ancient Near Eastern iconography (cf. Egyptian and Assyrian reliefs). It symbolizes total subjugation. Joshua makes this a public act witnessed by 'all the men of Israel' — the humiliation of the kings is a communal lesson, not a private act of revenge. Psalm 110:1 uses the same imagery: 'Sit at my right hand until I make your enemies a footstool for your feet.'"
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיֹּ֤אמֶר אֲלֵיהֶם֙ יְהוֹשֻׁ֔עַ אַל־תִּֽירְא֖וּ וְאַל־תֵּחָ֑תּוּ חִזְק֣וּ וְאִמְצ֔וּ כִּ֣י כָ֗כָה יַעֲשֶׂ֤ה יְהוָה֙ לְכׇל־אֹ֣יְבֵיכֶ֔ם אֲשֶׁ֥ר אַתֶּ֖ם נִלְחָמִ֥ים אוֹתָֽם׃",
+      "text_kjv": "And Joshua said unto them, Fear not, nor be dismayed, be strong and of good courage: for thus shall the LORD do to all your enemies against whom ye fight.",
+      "rendering": "Joshua said to them, \"Do not be afraid or lose heart. Be strong and courageous, for this is what the LORD will do to every enemy you fight.\"",
+      "translator_notes": [
+        "Al tir'u v'al techatu chizqu v'imtsu ('do not be afraid, do not lose heart, be strong and courageous') — Joshua now passes on the fourfold encouragement he received from God in 1:6-9 and again in 10:8. The five conquered kings at his feet serve as the visual proof: God does what He promises. Ki khakhah ya'aseh YHWH l'khol oy'veikhem ('for thus the LORD will do to all your enemies') — the five kings become a prophetic object lesson for every future battle. What God did here, He will do again."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיַּכֵּ֨ם יְהוֹשֻׁ֤עַ אַחֲרֵי־כֵן֙ וַיְמִיתֵ֔ם וַיִּתְלֵ֕ם עַ֖ל חֲמִשָּׁ֣ה עֵצִ֑ים וַיִּהְי֛וּ תְלוּיִ֥ם עַל־הָעֵצִ֖ים עַד־הָעָֽרֶב׃",
+      "text_kjv": "And afterward Joshua smote them, and slew them, and hanged them on five trees: and they were hanging upon the trees until the evening.",
+      "rendering": "After this, Joshua struck them down and put them to death, then hung them on five trees. They remained hanging on the trees until evening.",
+      "translator_notes": [
+        "Vayyitlem al chamishah etsim ('he hung them on five trees') — public display of executed enemies, as with the king of Ai (8:29). The five trees echo the five kings — each receives his own tree of display. Ad ha-arev ('until evening') — Joshua again observes the Deuteronomic law of removing hanged bodies before nightfall (Deuteronomy 21:22-23), as he did at Ai."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיְהִ֞י לְעֵ֣ת ׀ בּ֣וֹא הַשֶּׁ֗מֶשׁ צִוָּ֤ה יְהוֹשֻׁ֙עַ֙ וַיֹּרִיד֣וּם מֵעַ֣ל הָעֵצִ֔ים וַיַּשְׁלִכ֕ם אֶל־הַמְּעָרָ֖ה אֲשֶׁ֣ר נֶחְבְּאוּ־שָׁ֑ם וַיָּשִׂ֜מוּ אֲבָנִ֤ים גְּדֹלוֹת֙ עַל־פִּ֣י הַמְּעָרָ֔ה עַד־עֶ֖צֶם הַיּ֥וֹם הַזֶּֽה׃",
+      "text_kjv": "And it came to pass at the time of the going down of the sun, that Joshua commanded, and they took them down off the trees, and cast them into the cave wherein they had been hid, and laid great stones in the cave's mouth, which remain until this very day.",
+      "rendering": "At sunset, Joshua ordered them taken down from the trees and thrown into the cave where they had hidden. Large stones were placed at the mouth of the cave — and they are there to this very day.",
+      "translator_notes": [
+        "Vayyashlikhum el ha-m'arah asher nechb'u sham ('they threw them into the cave where they had hidden') — the cave that served as the kings' hiding place becomes their tomb. The stones that sealed them in as prisoners (v. 18) now seal them in permanently as corpses. Ad etsem ha-yom ha-zeh ('to this very day') — the narrator's attestation formula. Another stone marker joins the growing collection of memorial cairns across the landscape of Joshua."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְאֶת־מַקֵּדָ֡ה לָכַ֣ד יְהוֹשֻׁעַ֩ בַּיּ֨וֹם הַה֜וּא וַיַּכֶּ֣הָ לְפִי־חֶ֗רֶב וְאֶת־מַלְכָּהּ֙ הֶחֱרִ֣ים אוֹתָ֔ם וְאֶת־כׇּל־הַנֶּ֖פֶשׁ אֲשֶׁר־בָּ֑הּ לֹ֤א הִשְׁאִיר֙ שָׂרִ֔יד וַיַּ֙עַשׂ֙ לְמֶ֣לֶךְ מַקֵּדָ֔ה כַּאֲשֶׁ֥ר עָשָׂ֖ה לְמֶ֥לֶךְ יְרִיחֽוֹ׃",
+      "text_kjv": "And that day Joshua took Makkedah, and smote it with the edge of the sword, and the king thereof he utterly destroyed, them, and all the souls that were therein; he let none remain: and he did to the king of Makkedah as he did unto the king of Jericho.",
+      "rendering": "Joshua captured Makkedah that same day and put it to the sword. He devoted its king and every person in it to destruction, leaving no survivor. He dealt with the king of Makkedah as he had dealt with the king of Jericho.",
+      "translator_notes": [
+        "Hecherim otam v'et kol ha-nefesh asher bah lo hish'ir sarid ('he devoted them to destruction, every living person in it, leaving no survivor') — the cherem formula begins the southern campaign summary (vv. 28-39). Each city receives a formulaic account: capture, sword, cherem, no survivors, comparison to previous conquests. The repetitive structure creates a relentless, catalog-like record of systematic conquest."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיַּעֲבֹ֣ר יְהוֹשֻׁ֗עַ וְכׇל־יִשְׂרָאֵ֛ל עִמּ֖וֹ מִמַּקֵּדָ֣ה לִבְנָ֑ה וַיִּלָּ֖חֶם עִם־לִבְנָֽה׃",
+      "text_kjv": "Then Joshua passed from Makkedah, and all Israel with him, unto Libnah, and fought against Libnah:",
+      "rendering": "From Makkedah, Joshua and all Israel advanced to Libnah and attacked it.",
+      "translator_notes": [
+        "The southern campaign proceeds geographically: Makkedah to Libnah (south-southwest in the Shephelah). Each conquest builds momentum. Libnah will later be assigned to the Levites as a priestly city (21:13) and will rebel against Judah in the time of Jehoram (2 Kings 8:22)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיִּתֵּ֨ן יְהוָ֜ה גַּם־אוֹתָ֣הּ בְּיַד־יִשְׂרָאֵ֮ל וְאֶת־מַלְכָּהּ֒ וַיַּכֶּ֣הָ לְפִי־חֶ֗רֶב וְאֶת־כׇּל־הַנֶּ֙פֶשׁ֙ אֲשֶׁר־בָּ֔הּ לֹא־הִשְׁאִ֥יר בָּ֖הּ שָׂרִ֑יד וַיַּ֣עַשׂ לְמַלְכָּ֔הּ כַּאֲשֶׁ֥ר עָשָׂ֖ה לְמֶ֥לֶךְ יְרִיחֽוֹ׃",
+      "text_kjv": "And the LORD delivered it also, and the king thereof, into the hand of Israel; and he smote it with the edge of the sword, and all the souls that were therein; he let none remain in it; but did unto the king thereof as he did unto the king of Jericho.",
+      "rendering": "The LORD gave it too, along with its king, into Israel's hand. He put it and every person in it to the sword, leaving no survivor. He dealt with its king as he had dealt with the king of Jericho.",
+      "translator_notes": [
+        "Vayyitten YHWH gam otah b'yad Yisrael ('the LORD gave it also into the hand of Israel') — the divine-agent formula continues. Each city falls because God gives it — the victories are theological events, not merely military achievements."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיַּעֲבֹ֣ר יְהוֹשֻׁ֗עַ וְכׇל־יִשְׂרָאֵ֛ל עִמּ֖וֹ מִלִּבְנָ֣ה לָכִ֑ישָׁה וַיִּ֣חַן עָלֶ֔יהָ וַיִּלָּ֖חֶם בָּֽהּ׃",
+      "text_kjv": "And Joshua passed from Libnah, and all Israel with him, unto Lachish, and encamped against it, and fought against it:",
+      "rendering": "From Libnah, Joshua and all Israel advanced to Lachish. He besieged it and attacked it.",
+      "translator_notes": [
+        "Lachish was one of the most heavily fortified cities in the southern Shephelah, known from archaeological excavation (Tell ed-Duweir) as a major Bronze Age center with massive walls and gate complex. Its capture required a siege (vayyichan aleha, 'he encamped against it'), unlike some of the other cities that fell more quickly."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיִּתֵּ֨ן יְהוָ֤ה אֶת־לָכִישׁ֙ בְּיַ֣ד יִשְׂרָאֵ֔ל וַיִּלְכְּדָ֖הּ בַּיּ֣וֹם הַשֵּׁנִ֑י וַיַּכֶּ֣הָ לְפִי־חֶ֗רֶב וְאֶת־כׇּל־הַנֶּ֙פֶשׁ֙ אֲשֶׁר־בָּ֔הּ כְּכֹ֥ל אֲשֶׁר־עָשָׂ֖ה לְלִבְנָֽה׃",
+      "text_kjv": "And the LORD delivered Lachish into the hand of Israel, which took it on the second day, and smote it with the edge of the sword, and all the souls that were therein, according to all that he had done to Libnah.",
+      "rendering": "The LORD gave Lachish into Israel's hand, and Joshua captured it on the second day. He put it and every person in it to the sword, just as he had done to Libnah.",
+      "translator_notes": [
+        "Ba-yom ha-sheni ('on the second day') — Lachish required two days to take, reflecting its superior fortifications. The other cities in the summary fall without this notation, suggesting quicker capitulation. Despite the delay, the outcome is the same: God gives, Israel takes."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "אָ֣ז עָלָ֗ה הֹרָם֙ מֶ֣לֶךְ גֶּ֔זֶר לַעְזֹ֖ר אֶת־לָכִ֑ישׁ וַיַּכֵּ֤הוּ יְהוֹשֻׁ֙עַ֙ וְאֶת־עַמּ֔וֹ עַד־בִּלְתִּ֥י הִשְׁאִיר ל֖וֹ שָׂרִֽיד׃",
+      "text_kjv": "Then Horam king of Gezer came up to help Lachish; and Joshua smote him and his people, until he had left him none remaining.",
+      "rendering": "At that time, Horam king of Gezer came up to help Lachish, but Joshua struck him and his forces down until no survivor remained.",
+      "translator_notes": [
+        "Horam melekh Gezer ('Horam king of Gezer') — Gezer was a major fortified city guarding the Aijalon Valley (the same valley where the moon stood still, v. 12). Gezer's king intervenes to aid Lachish but is destroyed in the field. Notably, Gezer itself is not captured at this time — it will remain unconquered until Solomon's era (1 Kings 9:16), when Pharaoh takes it and gives it to Solomon as a dowry."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיַּעֲבֹ֣ר יְהוֹשֻׁ֗עַ וְכׇל־יִשְׂרָאֵ֛ל עִמּ֖וֹ מִלָּכִ֣ישׁ עֶגְלֹ֑נָה וַיַּחֲנ֣וּ עָלֶ֔יהָ וַיִּלָּחֲמ֖וּ עָלֶֽיהָ׃",
+      "text_kjv": "And from Lachish Joshua passed unto Eglon, and all Israel with him; and they encamped against it, and fought against it:",
+      "rendering": "From Lachish, Joshua and all Israel advanced to Eglon. They besieged it and attacked it.",
+      "translator_notes": [
+        "The campaign continues southward through the Shephelah. Eglon's king was one of the original five coalition leaders (v. 3). Joshua is now dismantling the coalition city by city."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַֽיִּלְכְּד֜וּהָ בַּיּ֤וֹם הַהוּא֙ וַיַּכּ֣וּהָ לְפִי־חֶ֔רֶב וְאֵ֨ת כׇּל־הַנֶּ֥פֶשׁ אֲשֶׁר־בָּ֛הּ בַּיּ֥וֹם הַה֖וּא הֶחֱרִ֑ים כְּכֹ֥ל אֲשֶׁר־עָשָׂ֖ה לְלָכִֽישׁ׃",
+      "text_kjv": "And they took it on that day, and smote it with the edge of the sword, and all the souls that were therein he utterly destroyed that day, according to all that he had done to Lachish.",
+      "rendering": "They captured it that same day and put it to the sword. He devoted every person in it to destruction that day, just as he had done to Lachish.",
+      "translator_notes": [
+        "Ba-yom ha-hu ('that day') — unlike Lachish, Eglon fell in a single day. The formula continues: capture, sword, cherem, comparison. The catalog's repetition conveys the inevitability of conquest: city after city falls to the same pattern."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיַּ֧עַל יְהוֹשֻׁ֛עַ וְכׇל־יִשְׂרָאֵ֥ל עִמּ֖וֹ מֵעֶגְל֣וֹנָה חֶבְר֑וֹנָה וַיִּלָּחֲמ֖וּ עָלֶֽיהָ׃",
+      "text_kjv": "And Joshua went up from Eglon, and all Israel with him, unto Hebron; and they fought against it:",
+      "rendering": "From Eglon, Joshua and all Israel went up to Hebron and attacked it.",
+      "translator_notes": [
+        "Chevronah ('to Hebron') — the campaign moves from the lowland Shephelah up into the southern highlands. Hebron is the most theologically significant city in the southern conquest: it is the burial place of Abraham, Sarah, Isaac, Rebekah, Jacob, and Leah at the cave of Machpelah (Genesis 23:19; 25:9; 49:29-31; 50:13). The patriarchal promise of land finds its most personal fulfillment here. Hebron will be given to Caleb as his personal inheritance (14:13-14; 15:13-14)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וַיִּלְכְּד֣וּהָ וַיַּכּ֣וּהָ לְפִי־חֶ֡רֶב וְֽאֶת־מַלְכָּ֡הּ וְאֶת־כׇּל־עָרֶ֣יהָ וְאֶת־כׇּל־הַנֶּ֣פֶשׁ אֲשֶׁר־בָּ֠הּ֠ לֹא־הִשְׁאִ֨יר שָׂרִ֜יד כְּכֹ֤ל אֲשֶׁר־עָשָׂה֙ לְעֶגְל֔וֹן וַיַּחֲרֵ֣ם אוֹתָ֔הּ וְאֶת־כׇּל־הַנֶּ֖פֶשׁ אֲשֶׁר־בָּֽהּ׃",
+      "text_kjv": "And they took it, and smote it with the edge of the sword, and the king thereof, and all the cities thereof, and all the souls that were therein; he left none remaining, according to all that he had done to Eglon; but destroyed it utterly, and all the souls that were therein.",
+      "rendering": "They captured it and put it to the sword — its king, all its surrounding towns, and every person in it. He left no survivor, just as he had done to Eglon. He devoted it and every person in it to destruction.",
+      "translator_notes": [
+        "V'et kol areha ('and all its towns/cities') — Hebron's surrounding satellite settlements are included in the conquest. The comprehensive formula extends the cherem to the entire district, not just the central city. Vayyacharem otah v'et kol ha-nefesh asher bah ('he devoted it and every person in it to destruction') — the cherem is applied to Hebron, the city of the patriarchs. The promised land is being reclaimed through the very judgment God decreed."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיָּ֧שׇׁב יְהוֹשֻׁ֛עַ וְכׇל־יִשְׂרָאֵ֥ל עִמּ֖וֹ דְּבִ֑רָה וַיִּלָּ֖חֶם עָלֶֽיהָ׃",
+      "text_kjv": "And Joshua returned, and all Israel with him, to Debir; and fought against it:",
+      "rendering": "Then Joshua and all Israel turned toward Debir and attacked it.",
+      "translator_notes": [
+        "D'virah ('to Debir') — also known as Kiriath-sepher ('city of the book/scribe'), located south of Hebron in the hill country. Debir will be reconquered by Othniel son of Kenaz (Caleb's nephew) in 15:15-17 and Judges 1:11-13, suggesting the initial conquest described here was not permanently secured."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיִּלְכְּדָ֞הּ וְאֶת־מַלְכָּ֤הּ וְאֶת־כׇּל־עָרֶ֙יהָ֙ וַיַּכּ֣וּם לְפִי־חֶ֔רֶב וַיַּחֲרִ֙ימוּ֙ אֶת־כׇּל־נֶ֣פֶשׁ אֲשֶׁר־בָּ֔הּ לֹ֥א הִשְׁאִ֖יר שָׂרִ֑יד כַּאֲשֶׁ֨ר עָשָׂ֤ה לְחֶבְרוֹן֙ כֵּן־עָשָׂ֣ה לִדְבִ֔רָה וּלְמַלְכָּ֔הּ וְכַאֲשֶׁ֥ר עָשָׂ֛ה לְלִבְנָ֖ה וּלְמַלְכָּֽהּ׃",
+      "text_kjv": "And he took it, and the king thereof, and all the cities thereof; and they smote them with the edge of the sword, and utterly destroyed all the souls that were therein; he left none remaining: as he had done to Hebron, so he did to Debir, and to the king thereof; as he had done also to Libnah, and to her king.",
+      "rendering": "He captured it along with its king and all its surrounding towns. They put them to the sword and devoted every person in it to destruction, leaving no survivor. As he had done to Hebron and to Libnah and their kings, so he did to Debir and its king.",
+      "translator_notes": [
+        "Ka'asher asah l'Chevron ... v'kha'asher asah l'Livnah ('as he had done to Hebron ... as he had done to Libnah') — the cross-references chain the conquests together: Debir falls like Hebron, Hebron like Eglon, Eglon like Lachish, Lachish like Libnah, Libnah like Makkedah, Makkedah like Jericho. The chain traces back to the first conquest city — every subsequent victory echoes and confirms the first."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַיַּכֶּ֣ה יְהוֹשֻׁ֣עַ אֶת־כׇּל־הָאָ֡רֶץ הָהָ֡ר וְהַנֶּ֡גֶב וְהַשְּׁפֵלָ֣ה וְהָאֲשֵׁדוֹת֩ וְאֵ֨ת כׇּל־מַלְכֵיהֶ֜ם לֹ֤א הִשְׁאִיר֙ שָׂרִ֔יד וְאֵ֥ת כׇּל־הַנְּשָׁמָ֖ה הֶחֱרִ֑ים כַּאֲשֶׁ֣ר צִוָּ֔ה יְהוָ֖ה אֱלֹהֵ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "So Joshua smote all the country of the hills, and of the south, and of the vale, and of the springs, and all their kings: he left none remaining, but utterly destroyed all that breathed, as the LORD God of Israel commanded.",
+      "rendering": "Joshua conquered the entire region — the hill country, the Negev, the Shephelah, and the mountain slopes — along with all their kings. He left no survivor. He devoted everything that breathed to destruction, just as the LORD, the God of Israel, had commanded.",
+      "expanded_rendering": "Joshua conquered every part of the land — highlands, desert, foothills, and slopes — with all their kings. He left no one alive. Every breathing creature was placed under the sacred ban of total destruction, carrying out the command that the LORD, the God of Israel, had given.",
+      "translator_notes": [
+        "Ha-har v'ha-Negev v'ha-Sh'felah v'ha-ashedot ('the hill country, the Negev, the lowlands, the slopes') — four geographic zones summarize the entire southern theater: the central highlands, the arid south, the western foothills, and the transitional slopes between them. V'et kol ha-n'shamah hecherim ('he devoted everything that breathed to destruction') — the language of total cherem. Ka'asher tsivvah YHWH Elohei Yisrael ('as the LORD, the God of Israel, commanded') — the narrator roots the conquest in divine command, not human initiative. The destruction is presented as covenant execution, not ethnic violence.",
+        "Register departure: cherem rendered as 'devotion to destruction' rather than default 'devoted to destruction' — nominal variant reflecting the Hebrew construct form in this summary statement."
+      ],
+      "reading_level": "9th grade",
+      "key_terms": [
+        {
+          "hebrew": "חֵרֶם",
+          "transliteration": "cherem",
+          "rendered_as": "devotion to destruction",
+          "semantic_range": "ban, devoted thing, something irrevocably given to God through destruction, sacred ban, total annihilation under divine decree",
+          "note": "The sacred ban applied to Canaanite populations as commanded in Deuteronomy 7:1-2 and 20:16-17. In the conquest summary, cherem functions as the theological frame for the entire southern campaign: every city falls under the same divine decree, executed in obedience to divine command."
+        }
+      ]
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַיַּכֵּ֧ם יְהוֹשֻׁ֛עַ מִקָּדֵ֥שׁ בַּרְנֵ֖עַ וְעַד־עַזָּ֑ה וְאֵ֨ת כׇּל־אֶ֤רֶץ גֹּ֙שֶׁן֙ וְעַד־גִּבְע֔וֹן׃",
+      "text_kjv": "And Joshua smote them from Kadeshbarnea even unto Gaza, and all the country of Goshen, even unto Gibeon.",
+      "rendering": "Joshua conquered them from Kadesh-barnea to Gaza, and the entire region of Goshen as far as Gibeon.",
+      "translator_notes": [
+        "Mi-Qadesh Barnea v'ad Azzah ('from Kadesh-barnea to Gaza') — the geographic sweep defines the southern conquest's boundaries: Kadesh-barnea (in the southern Negev, where Israel spent most of its wilderness years) to Gaza (on the Mediterranean coast, the southwestern corner of Canaan). V'et kol erets Goshen ('the entire land of Goshen') — not the Egyptian Goshen but a region in the southern Judean hills. The total territory described covers the entire southern half of the promised land, from the wilderness border to the coast, from the Negev to the central highlands at Gibeon."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וְאֵ֨ת כׇּל־הַמְּלָכִ֤ים הָאֵ֙לֶּה֙ וְאֶת־אַרְצָ֔ם לָכַ֥ד יְהוֹשֻׁ֖עַ פַּ֣עַם אֶחָ֑ת כִּ֗י יְהוָה֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל נִלְחָ֖ם לְיִשְׂרָאֵֽל׃",
+      "text_kjv": "And all these kings and their land did Joshua take at one time, because the LORD God of Israel fought for Israel.",
+      "rendering": "Joshua captured all these kings and their territory in a single campaign, because the LORD, the God of Israel, was fighting for Israel.",
+      "translator_notes": [
+        "Pa'am echat ('at one time / in a single campaign') — the entire southern conquest is presented as one continuous military operation, driven by momentum from the initial Gibeonite crisis through the final city. Ki YHWH Elohei Yisrael nilcham l'Yisrael ('because the LORD, the God of Israel, was fighting for Israel') — the chapter's theological summary, matching verse 14. The refrain frames the entire campaign: it begins with God fighting through hailstones and cosmic phenomena and ends with God fighting through Israel's sustained campaign. Divine warfare encompasses both the miraculous and the military."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וַיָּ֤שׇׁב יְהוֹשֻׁ֙עַ֙ וְכׇל־יִשְׂרָאֵ֣ל עִמּ֔וֹ אֶל־הַֽמַּחֲנֶ֖ה הַגִּלְגָּֽלָה׃",
+      "text_kjv": "And Joshua returned, and all Israel with him, unto the camp to Gilgal.",
+      "rendering": "Then Joshua returned with all Israel to the camp at Gilgal.",
+      "translator_notes": [
+        "The campaign ends where it began — at the base camp of Gilgal, near Jericho. The circular movement (Gilgal → Gibeon → Beth-horon → Makkedah → Libnah → Lachish → Eglon → Hebron → Debir → Gilgal) traces a vast loop through the entire southern territory. Israel returns to its starting point having secured the south, ready for the northern campaign of chapter 11."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

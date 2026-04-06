@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Kings",
+    "chapter": 12,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Rehoboam travels to Shechem for his coronation, and all Israel gathers to negotiate terms. Jeroboam, returned from Egypt, leads the northern delegation in requesting relief from Solomon's heavy labor and taxation. Rehoboam consults two groups of advisors: the elders who served Solomon counsel gentleness, while the young men who grew up with Rehoboam counsel harshness. Rehoboam follows the young men's advice and threatens to increase the burden beyond what his father imposed. The northern tribes immediately revolt, stoning Rehoboam's labor chief Adoram to death and declaring independence with the ancient cry 'What share do we have in David?' Rehoboam flees to Jerusalem and musters an army to suppress the rebellion, but the prophet Shemaiah intervenes with a divine message: 'This thing is from me.' The chapter ends with Jeroboam establishing his kingdom in the north and building two golden calves — one at Bethel and one at Dan — telling the people, 'Here are your gods, Israel, who brought you up out of Egypt.'",
+    "remarkable": "This chapter narrates the single most consequential political event in Israel's history after the exodus: the permanent division of the united monarchy. The narrator presents it as simultaneously a human political failure (Rehoboam's foolish counsel) and a divine act (verse 15: 'the turn of events was from the LORD'). The Shechem setting is loaded — this is where Joshua renewed the covenant (Joshua 24), where Abimelech tried to establish kingship (Judges 9), and where the northern tribes have always held their assemblies. Rehoboam's decision to hold his coronation at Shechem rather than Jerusalem already signals the fragility of northern loyalty. The chapter's structure mirrors the wisdom literature Solomon was famous for: two paths of counsel are presented, and the king chooses the foolish one. The golden calves at the end (verses 28-30) are an explicit echo of Exodus 32 — the same words Aaron spoke ('These are your gods, Israel, who brought you up from Egypt') are placed in Jeroboam's mouth. The narrator makes the parallel unmistakable: the northern kingdom begins exactly where Israel's first great apostasy occurred.",
+    "friction": "The narrator's statement in verse 15 that 'the turn of events was from the LORD' creates a theological tension: is Rehoboam morally responsible for a decision God orchestrated? The text holds both realities without resolving them — Rehoboam chose badly, and God was behind the outcome. We render sibbah me-im YHWH ('a turning from the LORD') to preserve the divine causation without eliminating human agency. The old men's counsel (verse 7) to 'be a servant to this people' raises the question of whether their advice was genuinely wise or merely expedient — we treat it as genuinely wise because it aligns with the Deuteronomic vision of kingship as service (Deuteronomy 17:14-20). Jeroboam's golden calves (verse 28) present a translation challenge: the word elohim can mean 'God' or 'gods,' and Jeroboam may have intended the calves as pedestals for the LORD rather than as rival deities. However, the narrator's use of the Exodus 32 formula condemns the act regardless of Jeroboam's intention.",
+    "connections": "The cry 'What share do we have in David?' (verse 16) echoes Sheba son of Bichri's rebellion in 2 Samuel 20:1 — the same secessionist slogan, proving that northern resentment of Davidic rule predated Solomon's excesses. The stoning of Adoram connects to the forced labor (mas) system described in 9:15-22 — the labor chief becomes the lightning rod for accumulated grievances. Shemaiah's oracle ('this thing is from me') aligns with Ahijah's oracle in chapter 11 — two prophets confirm the same divine plan from different angles. The golden calves at Dan and Bethel deliberately evoke Exodus 32 and will become the defining sin of the northern kingdom throughout Kings, cited in the condemnation of every northern monarch ('he did not depart from the sins of Jeroboam son of Nebat'). Jesus' teaching that 'whoever would be great among you must be your servant' (Mark 10:43) echoes the elders' counsel that the king should be a servant to the people."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיֵּ֥לֶךְ רְחַבְעָ֖ם שְׁכֶ֑מָה כִּ֚י שְׁכֶ֔ם בָּ֥א כׇל־יִשְׂרָאֵ֖ל לְהַמְלִ֥יךְ אֹתֽוֹ׃",
+      "text_kjv": "And Rehoboam went to Shechem: for all Israel were come to Shechem to make him king.",
+      "rendering": "Rehoboam went to Shechem, because all Israel had come to Shechem to make him king.",
+      "translator_notes": [
+        "The choice of Shechem rather than Jerusalem is immediately significant. Shechem was the traditional northern assembly point — located in Ephraim's territory, it was where Joshua ratified the covenant (Joshua 24) and where Abimelech's failed kingship was based (Judges 9). By going to Shechem, Rehoboam acknowledges that northern allegiance must be earned, not assumed. The verb lehamlikh ('to make him king') is the Hiphil of malakh — the people's active role in 'causing him to reign' indicates that Israelite kingship required popular consent, not merely dynastic succession."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיְהִ֞י כִּשְׁמֹ֣עַ ׀ יָרָבְעָ֣ם בֶּן־נְבָ֗ט וְהוּא֙ עוֹדֶ֣נּוּ בְמִצְרַ֔יִם אֲשֶׁ֣ר בָּרַ֔ח מִפְּנֵ֖י הַמֶּ֣לֶךְ שְׁלֹמֹ֑ה וַיֵּ֥שֶׁב יָרָבְעָ֖ם בְּמִצְרָֽיִם׃",
+      "text_kjv": "And it came to pass, when Jeroboam the son of Nebat, who was yet in Egypt, heard of it, (for he was fled from the presence of king Solomon, and Jeroboam dwelt in Egypt;)",
+      "rendering": "When Jeroboam son of Nebat heard about it — he was still in Egypt, where he had fled from King Solomon —",
+      "translator_notes": [
+        "The parenthetical reminder of Jeroboam's Egyptian exile connects this chapter directly to 11:40. Jeroboam's return from Egypt to lead a liberation movement against an oppressive king creates an exodus typology — though the narrator will show that Jeroboam is no Moses."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיִּשְׁלְח֖וּ וַיִּקְרְאוּ־ל֑וֹ וַיָּבֹ֣א יָרָבְעָ֗ם וְכׇל־קְהַ֤ל יִשְׂרָאֵל֙ וַיְדַבְּר֣וּ אֶל־רְחַבְעָ֔ם לֵאמֹֽר׃",
+      "text_kjv": "That they sent and called him. And Jeroboam and all the congregation of Israel came, and spake unto Rehoboam, saying,",
+      "rendering": "they sent for him and summoned him. Jeroboam and the whole assembly of Israel came and said to Rehoboam:",
+      "translator_notes": [
+        "The phrase kol qehal Yisra'el ('the whole assembly of Israel') is a formal, cultic term — this is not a mob but a constituted national assembly with the authority to negotiate terms of kingship. Jeroboam's leadership of the delegation shows he has already emerged as the northern spokesman, fulfilling Ahijah's prophecy even before the formal break."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "אָבִ֖יךָ הִקְשָׁ֣ה אֶת־עֻלֵּ֑נוּ וְאַתָּ֗ה עַתָּ֨ה הָקֵ֜ל מֵעֲבֹדַ֤ת אָבִ֙יךָ֙ הַקָּשָׁ֔ה וּמֵעֻלּ֥וֹ הַכָּבֵ֖ד אֲשֶׁר־נָתַ֣ן עָלֵ֑ינוּ וְנַעַבְדֶֽךָּ׃",
+      "text_kjv": "Thy father made our yoke grievous: now therefore make thou the grievous service of thy father, and his heavy yoke which he put upon us, lighter, and we will serve thee.",
+      "rendering": "\"Your father made our yoke harsh. Lighten the harsh labor your father imposed and the heavy yoke he placed on us, and we will serve you.\"",
+      "translator_notes": [
+        "The word ol ('yoke') is agricultural imagery — an ox under a yoke serves its master. The people describe themselves as draft animals under Solomon's regime. The adjectives hiqshah ('made harsh') and ha-kaved ('the heavy') use the root k-v-d — the same root as kavod ('glory'). Solomon's glory was built on their heavy burden. The conditional offer ve-na'avdekka ('and we will serve you') is a negotiating position: loyalty in exchange for relief. This is the language of covenant negotiation between king and people."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיֹּ֣אמֶר אֲלֵיהֶ֗ם לְכ֥וּ עֹ֛ד שְׁלֹשָׁ֥ה יָמִ֖ים וְשׁ֣וּבוּ אֵלָ֑י וַיֵּלְכ֖וּ הָעָֽם׃",
+      "text_kjv": "And he said unto them, Depart yet for three days, then come again to me. And the people departed.",
+      "rendering": "He told them, \"Go away for three days, then come back to me.\" So the people left.",
+      "translator_notes": [
+        "The three-day delay is standard diplomatic protocol — time for consultation and deliberation. Rehoboam does not reject the petition outright, which initially suggests he is taking it seriously. The brevity of the verse creates narrative tension: the people depart and wait, and the reader waits with them to see which counsel the king will follow."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיִּוָּעַ֞ץ הַמֶּ֣לֶךְ רְחַבְעָ֗ם אֶת־הַזְּקֵנִים֙ אֲשֶׁר־הָי֣וּ עֹמְדִ֗ים אֶת־פְּנֵ֤י שְׁלֹמֹה֙ אָבִ֔יו בִּהְיֹת֥וֹ חַ֖י לֵאמֹ֑ר אֵ֚יךְ אַתֶּ֣ם נוֹעָצִ֔ים לְהָשִׁ֥יב אֶת־הָעָ֖ם הַזֶּ֥ה דָּבָֽר׃",
+      "text_kjv": "And king Rehoboam consulted with the old men, that stood before Solomon his father while he yet lived, and said, How do ye advise that I may answer this people?",
+      "rendering": "King Rehoboam consulted the elders who had served in the presence of his father Solomon while he was still alive. He asked, \"How do you advise me to answer this people?\"",
+      "expanded_rendering": "The verb vayyivva'ats ('he consulted, sought counsel') uses the root ya'ats, from which comes etsah ('counsel, advice'). This chapter is structured around two competing counsels — the etsah of the elders versus the etsah of the young men. The word zeqenim ('elders') refers not merely to old men but to experienced advisors who held formal positions in Solomon's court. They had 'stood before' (omedim et penei) Solomon — the phrase for court service — and had witnessed firsthand how an empire is governed and how subjects respond to pressure.",
+      "translator_notes": [
+        "The phrase bihyoto chai ('while he was still alive') underscores that these elders had direct experience with Solomon's governance. They knew what worked and what generated resentment. Rehoboam's willingness to consult them first suggests he was not inherently foolish — he asked the right people first. The tragedy is that he asked but did not listen."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עֵצָה",
+          "transliteration": "etsah",
+          "rendered_as": "counsel",
+          "semantic_range": "counsel, advice, plan, purpose, wisdom, strategy",
+          "note": "From ya'ats ('to advise, to counsel'). In wisdom literature, etsah is the practical outworking of hokhmah (wisdom) — good counsel produces good outcomes, foolish counsel produces ruin. This chapter dramatizes the proverb that 'in an abundance of counselors there is safety' (Proverbs 11:14) — but only if the right counsel is heeded. Rehoboam had access to sound etsah and chose the destructive alternative."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיְדַבְּר֤וּ אֵלָיו֙ לֵאמֹ֔ר אִם־הַיּ֤וֹם תִּֽהְיֶה־עֶ֙בֶד֙ לָעָ֣ם הַזֶּ֔ה וַעֲבַדְתָּ֖ם וַעֲנִיתָ֑ם וְדִבַּרְתָּ֤ אֲלֵיהֶם֙ דְּבָרִ֣ים טוֹבִ֔ים וְהָי֥וּ לְךָ֛ עֲבָדִ֖ים כׇּל־הַיָּמִֽים׃",
+      "text_kjv": "And they spake unto him, saying, If thou wilt be a servant unto this people this day, and wilt serve them, and answer them, and speak good words to them, then they will be thy servants for ever.",
+      "rendering": "They said to him, \"If you will be a servant to this people today — if you serve them and respond to them and speak good words to them — they will be your servants for all time.\"",
+      "translator_notes": [
+        "The elders' counsel contains a revolutionary theology of kingship: im ha-yom tihyeh eved la-am ha-zeh ('if today you become a servant to this people'). The king must serve before being served. The word eved ('servant') applied to the king inverts the expected hierarchy — the ruler serves the ruled. The promise is reciprocal: ve-hayu lekha avadim kol ha-yamim ('they will be your servants for all time'). Service begets loyalty. The elders understand that authority maintained by generosity outlasts authority imposed by force."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיַּעֲזֹ֗ב אֶת־עֲצַ֤ת הַזְּקֵנִים֙ אֲשֶׁ֣ר יְעָצֻ֔הוּ וַיִּוָּעַ֕ץ אֶת־הַיְלָדִ֖ים אֲשֶׁ֣ר גָּדְל֣וּ אִתּ֑וֹ אֲשֶׁ֥ר הָעֹמְדִ֖ים לְפָנָֽיו׃",
+      "text_kjv": "But he forsook the counsel of the old men, which they had given him, and consulted with the young men that were grown up with him, and which stood before him:",
+      "rendering": "But he abandoned the counsel of the elders that they had given him and instead consulted the young men who had grown up with him, who now attended him.",
+      "translator_notes": [
+        "The verb vaya'azov ('he abandoned') is the same word used for Israel 'abandoning' God in 11:33. Rehoboam abandons wisdom as his father abandoned faithfulness. The yeladim ('young men, boys') are Rehoboam's age-peers who grew up in the palace — they have privilege without experience, confidence without wisdom. The contrast between zeqenim ('elders') and yeladim ('youth') structures the entire chapter as a wisdom test that Rehoboam fails."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עֵצָה",
+          "transliteration": "etsah",
+          "rendered_as": "counsel",
+          "semantic_range": "counsel, advice, plan, purpose, wisdom, strategy",
+          "note": "The same word etsah now appears in the phrase atsat ha-zeqenim ('the counsel of the elders') — counsel that is rejected. The narrator uses etsah as a structural keyword: the elders' etsah (verse 6-7), the young men's etsah (verse 8-11), and the etsah Rehoboam chose (verse 13-14). The kingdom divides over which etsah a king heeds."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֹּ֣אמֶר אֲלֵיהֶ֗ם מָ֚ה אַתֶּ֣ם נוֹעָצִ֔ים וְנָשִׁ֣יב דָּבָ֔ר אֶת־הָעָ֖ם הַזֶּ֑ה אֲשֶׁ֨ר דִּבְּר֤וּ אֵלַי֙ לֵאמֹ֔ר הָקֵ֕ל מִן־הָעֹ֕ל אֲשֶׁר־נָתַ֥ן אָבִ֖יךָ עָלֵֽינוּ׃",
+      "text_kjv": "And he said unto them, What counsel give ye that we may answer this people, who have spoken to me, saying, Make the yoke which thy father did put upon us lighter?",
+      "rendering": "He said to them, \"What do you advise? How should we answer this people who have said to me, 'Lighten the yoke your father placed on us'?\"",
+      "translator_notes": [
+        "Rehoboam's question to the young men frames the people's request as a problem to be managed rather than a legitimate grievance to be addressed. The pronoun shift is telling — he says 'we' (nashiv, 'we should answer'), identifying himself with his peers rather than with his kingdom. The question itself reveals that Rehoboam has already decided against the elders' counsel; he is shopping for the answer he wants to hear."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיְדַבְּר֣וּ אֵלָ֗יו הַיְלָדִים֙ אֲשֶׁ֨ר גָּדְל֣וּ אִתּוֹ֮ לֵאמֹר֒ כֹּ֣ה תֹאמַ֗ר לָעָ֤ם הַזֶּה֙ אֲשֶׁ֨ר דִּבְּר֤וּ אֵלֶ֙יךָ֙ לֵאמֹ֔ר אָבִ֕יךָ הִכְבִּ֖יד אֶת־עֻלֵּ֑נוּ וְאַתָּ֖ה הָקֵ֣ל מֵעָלֵ֑ינוּ כֹּ֤ה תְדַבֵּר֙ אֲלֵיהֶ֔ם קָטָנִּ֕י עָבָ֖ה מִמׇּתְנֵ֥י אָבִֽי׃",
+      "text_kjv": "And the young men that were grown up with him spake unto him, saying, Thus shalt thou speak unto this people that spake unto thee, saying, Thy father made our yoke heavy, but make thou it lighter unto us; thus shalt thou say unto them, My little finger shall be thicker than my father's loins.",
+      "rendering": "The young men who had grown up with him said, \"This is what you should tell these people who said to you, 'Your father made our yoke heavy; lighten it for us.' Say to them: 'My little finger is thicker than my father's waist.",
+      "translator_notes": [
+        "The boast qotanni avah mi-motnei avi ('my little finger is thicker than my father's waist') is crude masculine bravado. The word qotanni likely means 'my little finger' (though some read it as a more vulgar anatomical reference, which would intensify the insult). The word motnayim ('loins, waist') is the center of a man's strength. The young men advise Rehoboam to assert his masculinity by claiming to be more powerful than Solomon — a ludicrous claim from someone who has yet to accomplish anything."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְעַתָּ֗ה אָבִי֙ הֶעְמִ֤יס עֲלֵיכֶם֙ עֹ֣ל כָּבֵ֔ד וַאֲנִ֖י אוֹסִ֣יף עַל־עֻלְּכֶ֑ם אָבִ֗י יִסַּ֤ר אֶתְכֶם֙ בַּשּׁוֹטִ֔ים וַאֲנִ֕י אֲיַסֵּ֥ר אֶתְכֶ֖ם בָּעַקְרַבִּֽים׃",
+      "text_kjv": "And now whereas my father did lade you with a heavy yoke, I will add to your yoke: my father hath chastised you with whips, but I will chastise you with scorpions.",
+      "rendering": "My father loaded a heavy yoke on you, but I will add to your yoke. My father disciplined you with whips — I will discipline you with scorpions.'\"",
+      "translator_notes": [
+        "The escalation from shotim ('whips') to aqrabim ('scorpions') is from painful to agonizing. 'Scorpions' likely refers to barbed whips or multi-tailed lashes with metal tips — instruments of torture, not discipline. The verb yissar ('to discipline, chastise') is from the same root as musar ('instruction, correction') — the language of education perverted into the language of domination. The young men's counsel is a masterclass in how to lose a kingdom: maximize threat, minimize empathy, substitute intimidation for wisdom."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיָּבֹ֨א יָרָבְעָ֜ם וְכׇל־הָעָ֗ם אֶל־רְחַבְעָם֙ בַּיּ֣וֹם הַשְּׁלִישִׁ֔י כַּאֲשֶׁ֛ר דִּבֶּ֥ר הַמֶּ֖לֶךְ לֵאמֹ֑ר שׁ֥וּבוּ אֵלַ֖י בַּיּ֥וֹם הַשְּׁלִישִֽׁי׃",
+      "text_kjv": "So Jeroboam and all the people came to Rehoboam the third day, as the king had appointed, saying, Come to me again the third day.",
+      "rendering": "Jeroboam and all the people came back to Rehoboam on the third day, as the king had said: \"Return to me on the third day.\"",
+      "translator_notes": [
+        "The third day arrives — the day of decision. The people honored the king's request for time, demonstrating their good faith. They came as instructed (ka-asher dibber ha-melekh, 'as the king had spoken'), willing to receive whatever answer the king gave. The repetition of 'the third day' (ba-yom ha-shelishi) twice in one verse builds suspense."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיַּ֧עַן הַמֶּ֛לֶךְ אֶת־הָעָ֖ם קָשָׁ֑ה וַיַּעֲזֹ֗ב אֶת־עֲצַ֧ת הַזְּקֵנִ֛ים אֲשֶׁ֥ר יְעָצֻֽהוּ׃",
+      "text_kjv": "And the king answered the people roughly, and forsook the old men's counsel that they gave him;",
+      "rendering": "The king answered the people harshly. He abandoned the counsel of the elders who had advised him",
+      "translator_notes": [
+        "The adverb qashah ('harshly, roughly') sets the tone before the content is even delivered. The narrator repeats vaya'azov ('he abandoned') — the same verb from verse 8. The abandonment is now enacted, not merely decided. The double notation (harsh answer + abandoned counsel) ensures the reader understands this was a choice, not an accident. Rehoboam had wisdom available and actively rejected it."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עֵצָה",
+          "transliteration": "etsah",
+          "rendered_as": "counsel",
+          "semantic_range": "counsel, advice, plan, purpose, wisdom, strategy",
+          "note": "Third occurrence of etsah in the chapter. The pattern is now complete: the counsel of the elders is presented (verse 6), abandoned (verse 8), and its abandonment confirmed (verse 13). The narrator builds the case that Rehoboam's failure was not a lack of available wisdom but a deliberate rejection of it."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיְדַבֵּ֤ר אֲלֵיהֶם֙ כַּעֲצַ֣ת הַיְלָדִ֔ים לֵאמֹ֕ר אָבִ֕י הִכְבִּ֖יד אֶת־עֻלְּכֶ֑ם וַאֲנִי֙ אוֹסִ֣יף עַל־עֻלְּכֶ֔ם אָבִ֗י יִסַּ֤ר אֶתְכֶם֙ בַּשּׁוֹטִ֔ים וַאֲנִ֕י אֲיַסֵּ֥ר אֶתְכֶ֖ם בָּעַקְרַבִּֽים׃",
+      "text_kjv": "And spake to them after the counsel of the young men, saying, My father made your yoke heavy, and I will add to your yoke: my father also chastised you with whips, but I will chastise you with scorpions.",
+      "rendering": "and spoke to them according to the counsel of the young men. He said, \"My father made your yoke heavy, but I will add to your yoke. My father disciplined you with whips — I will discipline you with scorpions.\"",
+      "translator_notes": [
+        "The phrase ka-atsat ha-yeladim ('according to the counsel of the young men') uses etsah for the fourth time. Rehoboam repeats the young men's script almost verbatim — he has become a mouthpiece for foolish counsel rather than a king exercising independent judgment. The repetition of the whips-and-scorpions threat from verse 11 is the narrator's way of letting the full weight of the words sink in. The reader hears them twice, just as the northern delegation heard them once."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עֵצָה",
+          "transliteration": "etsah",
+          "rendered_as": "counsel",
+          "semantic_range": "counsel, advice, plan, purpose, wisdom, strategy",
+          "note": "Fourth occurrence. The etsah of the young men is now enacted as royal policy. The narrator has constructed a wisdom parable in narrative form: two counsels presented, the foolish one chosen, and catastrophe follows. This is Proverbs dramatized — the way of wisdom rejected, the way of folly embraced, and the consequences immediate."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְלֹא־שָׁמַ֥ע הַמֶּ֖לֶךְ אֶל־הָעָ֑ם כִּֽי־הָיְתָ֤ה סִבָּה֙ מֵעִ֣ם יְהוָ֔ה לְמַ֜עַן הָקִ֣ים אֶת־דְּבָר֗וֹ אֲשֶׁ֤ר דִּבֶּר֙ יְהוָ֔ה בְּיַד֙ אֲחִיָּ֣ה הַשִּׁילֹנִ֔י אֶל־יָרָבְעָ֖ם בֶּן־נְבָֽט׃",
+      "text_kjv": "Wherefore the king hearkened not unto the people; for the cause was from the LORD, that he might perform his saying, which the LORD spake by Ahijah the Shilonite unto Jeroboam the son of Nebat.",
+      "rendering": "The king did not listen to the people, because this turn of events was from the LORD, to fulfill the word the LORD had spoken through Ahijah of Shiloh to Jeroboam son of Nebat.",
+      "expanded_rendering": "The word sibbah ('turning, cause, turn of events') comes from the root savav ('to turn, to go around'). The narrator reveals that behind Rehoboam's foolish decision stands God's sovereign orchestration: hayetah sibbah me-im YHWH ('the turning was from the LORD'). This does not excuse Rehoboam — his choice was genuinely his — but it locates the ultimate cause in God's covenant enforcement. The phrase le-ma'an haqim et devaro ('in order to establish his word') connects Rehoboam's political failure to Ahijah's prophetic oracle in chapter 11. The prophet's word and the king's folly converge: divine purpose accomplishes itself through human agency, and the human agent remains responsible for his choice.",
+      "translator_notes": [
+        "This is one of the most theologically dense verses in Kings. The narrator simultaneously affirms divine sovereignty (the cause was from God) and human responsibility (the king did not listen). We render sibbah as 'turn of events' rather than 'cause' to preserve the Hebrew sense of events turning in a particular direction under divine guidance, without implying that God mechanically controlled Rehoboam's mind."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיַּ֣רְא כׇּל־יִשְׂרָאֵ֗ל כִּ֠י לֹֽא־שָׁמַ֣ע הַמֶּלֶךְ֮ אֲלֵיהֶם֒ וַיָּשִׁ֣בוּ הָעָ֣ם אֶת־הַמֶּ֣לֶךְ דָּבָ֣ר ׀ לֵאמֹ֡ר מַה־לָּ֣נוּ חֵלֶק֩ בְּדָוִ֨ד וְלֹֽא־נַחֲלָ֜ה בְּבֶן־יִשַׁ֗י לְאֹהָלֶ֙יךָ֙ יִשְׂרָאֵ֔ל עַתָּ֗ה רְאֵ֥ה בֵיתְךָ֖ דָּוִ֑ד וַיֵּ֥לֶךְ יִשְׂרָאֵ֖ל לְאֹהָלָֽיו׃",
+      "text_kjv": "So when all Israel saw that the king hearkened not unto them, the people answered the king, saying, What portion have we in David? neither have we inheritance in the son of Jesse: to your tents, O Israel: now see to thine own house, David. So Israel departed unto their tents.",
+      "rendering": "When all Israel saw that the king refused to listen to them, the people answered the king: \"What share do we have in David? We have no inheritance in the son of Jesse! To your tents, Israel! Now look after your own house, David!\" And Israel went home.",
+      "translator_notes": [
+        "The secessionist cry mah lanu cheleq be-David ('what share do we have in David?') and ve-lo nachalah be-ven Yishai ('no inheritance in the son of Jesse') formally renounce the Davidic covenant as far as the northern tribes are concerned. The word cheleq ('share, portion') and nachalah ('inheritance') are land-distribution terms — the north is saying they received nothing from the Davidic arrangement and owe nothing in return. The call le-ohalekha Yisra'el ('to your tents, Israel!') is a military demobilization command — return to your camps, the alliance is over. This exact phrase was used by Sheba son of Bichri in 2 Samuel 20:1 — the same secessionist tradition, revived and now successful."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נַחֲלָה",
+          "transliteration": "nachalah",
+          "rendered_as": "inheritance",
+          "semantic_range": "inheritance, heritage, portion, allotted property, ancestral possession",
+          "note": "From nachal ('to inherit, to possess as a heritage'). In Israelite theology, nachalah is not merely property but divinely allocated identity — each tribe's inheritance was assigned by God through Joshua. The northern tribes' declaration that they have 'no nachalah in the son of Jesse' is a theological divorce: they refuse to share in the Davidic heritage. The word choice elevates a political secession to a covenant rupture."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וּבְנֵ֣י יִשְׂרָאֵ֔ל הַיֹּשְׁבִ֖ים בְּעָרֵ֣י יְהוּדָ֑ה וַיִּמְלֹ֥ךְ עֲלֵיהֶ֖ם רְחַבְעָֽם׃",
+      "text_kjv": "But as for the children of Israel which dwelt in the cities of Judah, Rehoboam reigned over them.",
+      "rendering": "But as for the Israelites living in the towns of Judah, Rehoboam continued to reign over them.",
+      "translator_notes": [
+        "This brief verse marks the formal division: Rehoboam retains only Judah (and the Israelites living within Judah's borders). The phrase vayyimlokh aleihem Rekhav'am ('Rehoboam reigned over them') uses the same verb as verse 1 (lehamlikh, 'to make king'), but the scope has collapsed from 'all Israel' to a single tribal territory. The kingdom promised to David has been reduced by ninety percent in a single day."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיִּשְׁלַ֞ח הַמֶּ֣לֶךְ רְחַבְעָ֗ם אֶת־אֲדֹרָם֙ אֲשֶׁ֣ר עַל־הַמַּ֔ס וַיִּרְגְּמ֨וּ כׇל־יִשְׂרָאֵ֥ל בּ֛וֹ אֶ֖בֶן וַיָּמֹ֑ת וְהַמֶּ֣לֶךְ רְחַבְעָ֗ם הִתְאַמֵּ֛ץ לַעֲל֥וֹת בַּמֶּרְכָּבָ֖ה לָנ֥וּס יְרוּשָׁלִָֽם׃",
+      "text_kjv": "Then king Rehoboam sent Adoram, who was over the tribute; and all Israel stoned him with stones, that he died. Therefore king Rehoboam made speed to get him up to his chariot, to flee to Jerusalem.",
+      "rendering": "King Rehoboam sent Adoram, who was in charge of the forced labor, but all Israel stoned him to death. King Rehoboam himself barely managed to mount his chariot and flee to Jerusalem.",
+      "translator_notes": [
+        "Sending Adoram — the forced labor administrator — into a crowd that has just revolted over forced labor is either a deliberate provocation or staggering incompetence. The people's response is immediate and lethal: vayyirgemu kol Yisra'el bo even vayyamot ('all Israel stoned him with stone and he died'). Stoning is the covenant penalty for capital offenses (Deuteronomy 17:5) — the people treat the labor chief as a criminal. The verb hit'ammets ('he exerted himself, struggled') suggests Rehoboam's escape was frantic and undignified — the new king flees his own coronation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיִּפְשְׁע֤וּ יִשְׂרָאֵל֙ בְּבֵ֣ית דָּוִ֔ד עַ֖ד הַיּ֥וֹם הַזֶּֽה׃",
+      "text_kjv": "So Israel rebelled against the house of David unto this day.",
+      "rendering": "So Israel has been in rebellion against the house of David to this day.",
+      "translator_notes": [
+        "The verb vayyifsh'u ('they rebelled, they transgressed') uses pasha, the word for covenant rebellion — the most serious category of sin in Hebrew, denoting willful, deliberate breach of an agreement. The phrase ad ha-yom ha-zeh ('to this day') indicates the narrator is writing at a time when the division still exists — the break was permanent. The narrator uses beit David ('the house of David') rather than 'the house of Solomon,' placing the rupture in dynastic rather than personal terms."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיְהִ֞י כִּשְׁמֹ֤עַ כׇּל־יִשְׂרָאֵל֙ כִּֽי־שָׁ֣ב יָרָבְעָ֔ם וַיִּשְׁלְח֗וּ וַיִּקְרְא֤וּ אֹתוֹ֙ אֶל־הָ֣עֵדָ֔ה וַיַּמְלִ֤יכוּ אֹתוֹ֙ עַל־כׇּל־יִשְׂרָאֵ֔ל לֹ֤א הָיָה֙ אַחֲרֵ֣י בֵית־דָּוִ֔ד זוּלָתִ֥י שֵׁ֥בֶט יְהוּדָ֖ה לְבַדּֽוֹ׃",
+      "text_kjv": "And it came to pass, when all Israel heard that Jeroboam was come again, that they sent and called him unto the congregation, and made him king over all Israel: there was none that followed the house of David, but the tribe of Judah only.",
+      "rendering": "When all Israel heard that Jeroboam had returned, they summoned him to the assembly and made him king over all Israel. No one followed the house of David except the tribe of Judah alone.",
+      "translator_notes": [
+        "The people vayamlikhu oto ('they caused him to reign') — the same verb used in verse 1 for Rehoboam's intended coronation. There are now two kings and two coronations. The phrase lo hayah acharei veit David zulati shevet Yehudah levaddo ('no one followed the house of David except the tribe of Judah alone') starkly quantifies the loss. The Septuagint and some manuscripts add Benjamin (cf. verse 21), but the Hebrew text here says 'Judah alone' — emphasizing the isolation of the Davidic house."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיָּבֹ֣א רְחַבְעָ֣ם יְרוּשָׁלִַ֗ם וַיַּקְהֵ֣ל אֶת־כׇּל־בֵּ֣ית יְהוּדָ֡ה וְאֶת־שֵׁ֣בֶט בִּנְיָמִן֩ מֵאָ֨ה וּשְׁמֹנִ֜ים אֶ֣לֶף בָּח֥וּר עֹשֵׂ֛ה מִלְחָמָ֖ה לְהִלָּחֵ֣ם עִם־בֵּֽית יִשְׂרָאֵ֑ל לְהָשִׁ֣יב אֶת־הַמְּלוּכָ֔ה לִרְחַבְעָ֖ם בֶּן־שְׁלֹמֹֽה׃",
+      "text_kjv": "And when Rehoboam was come to Jerusalem, he assembled all the house of Judah, with the tribe of Benjamin, an hundred and fourscore thousand chosen men, which were warriors, to fight against the house of Israel, to bring the kingdom again to Rehoboam the son of Solomon.",
+      "rendering": "When Rehoboam arrived in Jerusalem, he assembled the entire house of Judah and the tribe of Benjamin — one hundred and eighty thousand chosen warriors — to fight against the house of Israel and restore the kingdom to Rehoboam son of Solomon.",
+      "translator_notes": [
+        "Rehoboam's response to political failure is military force — 180,000 soldiers mustered for civil war. The phrase le-hashiv et ha-melukhah ('to restore the kingdom') shows Rehoboam understood what he had lost and intended to take it back by force. Benjamin's inclusion with Judah (despite verse 20 saying 'Judah alone') reflects Benjamin's geographic and political absorption into the southern kingdom — the small tribe wedged between Judah and Ephraim chose the Davidic side."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיְהִ֣י דְבַר־הָאֱלֹהִ֔ים אֶל־שְׁמַעְיָ֥ה אִישׁ־הָאֱלֹהִ֖ים לֵאמֹֽר׃",
+      "text_kjv": "But the word of God came unto Shemaiah the man of God, saying,",
+      "rendering": "But the word of God came to Shemaiah the man of God:",
+      "translator_notes": [
+        "Shemaiah (shema-yah, 'the LORD has heard') is introduced at the critical moment — as armies are about to march. His title ish ha-Elohim ('man of God') marks him as a prophet with divine authority. The conjunction 'but' (vav at the start) signals the interruption: Rehoboam planned war, but God had other plans."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "אֱמֹ֗ר אֶל־רְחַבְעָ֤ם בֶּן־שְׁלֹמֹה֙ מֶ֣לֶךְ יְהוּדָ֔ה וְאֶל־כׇּל־בֵּ֥ית יְהוּדָ֖ה וּבִנְיָמִ֑ין וְיֶ֥תֶר הָעָ֖ם לֵאמֹֽר׃",
+      "text_kjv": "Speak unto Rehoboam, the son of Solomon, king of Judah, and unto all the house of Judah and Benjamin, and to the remnant of the people, saying,",
+      "rendering": "\"Say to Rehoboam son of Solomon, king of Judah, and to the entire house of Judah and Benjamin, and to the rest of the people:",
+      "translator_notes": [
+        "Rehoboam is now titled melekh Yehudah ('king of Judah') rather than 'king of Israel' — God's own speech recognizes the division as accomplished fact. The phrase yeter ha-am ('the rest of the people') likely refers to northern Israelites who had remained in Judah's territory (cf. verse 17). The divine message is addressed to everyone who might fight."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "כֹּ֣ה אָמַ֣ר יְהוָ֗ה לֹֽא־תַעֲל֤וּ וְלֹֽא־תִלָּחֲמ֣וּן עִם־אֲחֵיכֶם֙ בְּנֵ֣י יִשְׂרָאֵ֔ל שׁ֣וּבוּ אִ֣ישׁ לְבֵית֔וֹ כִּ֧י מֵאִתִּ֛י נִהְיָ֖ה הַדָּבָ֣ר הַזֶּ֑ה וַיִּשְׁמְעוּ֙ אֶת־דְּבַ֣ר יְהוָ֔ה וַיָּשֻׁ֥בוּ לָלֶ֖כֶת כִּדְבַ֥ר יְהוָֽה׃",
+      "text_kjv": "Thus saith the LORD, Ye shall not go up, nor fight against your brethren the children of Israel: return every man to his house; for this thing is from me. They hearkened therefore to the word of the LORD, and returned to depart, according to the word of the LORD.",
+      "rendering": "'This is what the LORD says: You must not march up and fight against your brothers, the Israelites. Every man go home, because this thing has come from me.'\" They listened to the word of the LORD and turned back, as the LORD had directed.",
+      "translator_notes": [
+        "The phrase ki me-itti nihyah ha-davar ha-zeh ('because from me this thing has happened') is the divine claim of ownership over the division. God himself takes responsibility: the split is not merely the result of Rehoboam's folly but of God's covenant enforcement. The word acheihem ('your brothers') is pointed — the northerners are still brothers, not enemies. God prevents fratricide. The remarkable ending — vayyishme'u ('they listened') — contrasts with Rehoboam's refusal to listen in verse 15. The army obeys the prophet even though the king would not obey the people."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיִּ֤בֶן יָרָבְעָם֙ אֶת־שְׁכֶ֔ם בְּהַ֥ר אֶפְרַ֖יִם וַיֵּ֣שֶׁב בָּ֑הּ וַיֵּצֵ֣א מִשָּׁ֔ם וַיִּ֖בֶן אֶת־פְּנוּאֵֽל׃",
+      "text_kjv": "Then Jeroboam built Shechem in mount Ephraim, and dwelt therein; and went out from thence, and built Penuel.",
+      "rendering": "Jeroboam fortified Shechem in the hill country of Ephraim and made it his residence. He then went out from there and fortified Penuel.",
+      "translator_notes": [
+        "The verb banah ('built') here means 'fortified, rebuilt' — Shechem already existed. Jeroboam's choice of Shechem as capital carries the weight of northern Israelite identity: it was Abraham's first stop in Canaan (Genesis 12:6), the burial site of Joseph's bones (Joshua 24:32), and the covenant-renewal site under Joshua. Penuel, east of the Jordan, secured Jeroboam's flank against potential threats from Transjordan and provided a fallback position."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיֹּ֥אמֶר יָרָבְעָ֖ם בְּלִבּ֑וֹ עַתָּ֛ה תָּשׁ֥וּב הַמַּמְלָכָ֖ה לְבֵ֥ית דָּוִֽד׃",
+      "text_kjv": "And Jeroboam said in his heart, Now shall the kingdom return to the house of David:",
+      "rendering": "Jeroboam thought to himself, \"The kingdom will now return to the house of David.",
+      "translator_notes": [
+        "The phrase vayomer be-libbo ('he said in his heart') reveals Jeroboam's private reasoning — fear, not faith. Despite Ahijah's prophetic guarantee (11:37-38), Jeroboam does not trust God to sustain the kingdom. His inner monologue (verses 26-27) is a case study in how political fear produces theological compromise. The very king who was given the kingdom by divine promise now acts as though he must secure it by human strategy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "אִם־יַעֲלֶ֣ה ׀ הָעָ֣ם הַזֶּ֗ה לַעֲשׂ֤וֹת זְבָחִים֙ בְּבֵ֣ית יְהוָ֔ה בִּ֣ירוּשָׁלִַ֔ם וְשָׁ֣ב לֵ֤ב הָעָם֙ הַזֶּ֔ה אֶל־אֲדֹנֵיהֶ֔ם אֶל־רְחַבְעָ֖ם מֶ֣לֶךְ יְהוּדָ֑ה וַהֲרָגֻ֕נִי וְשָׁ֖בוּ אֶל־רְחַבְעָ֥ם מֶֽלֶךְ־יְהוּדָֽה׃",
+      "text_kjv": "If this people go up to do sacrifice in the house of the LORD at Jerusalem, then shall the heart of this people turn again unto their lord, even unto Rehoboam king of Judah, and they shall kill me, and go again to Rehoboam king of Judah.",
+      "rendering": "If this people continues going up to offer sacrifices at the house of the LORD in Jerusalem, their hearts will turn back to their master, to Rehoboam king of Judah. They will kill me and return to Rehoboam king of Judah.\"",
+      "translator_notes": [
+        "Jeroboam's calculation is politically rational: pilgrimage to Jerusalem for the three annual festivals would maintain emotional and religious ties to the south. The verb ve-shav lev ha-am ('the heart of the people will turn back') uses the same turning language that dominated chapter 11 — but now the turning Jeroboam fears is a return to covenant loyalty. He sees the temple as a political threat, which reveals that he understands religion primarily as a tool of state power. The repetition of 'Rehoboam king of Judah' twice in one verse conveys Jeroboam's obsessive fear."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיִּוָּעַ֣ץ הַמֶּ֔לֶךְ וַיַּ֕עַשׂ שְׁנֵ֖י עֶגְלֵ֣י זָהָ֑ב וַיֹּ֣אמֶר אֲלֵיהֶ֗ם רַב־לָכֶ֞ם מֵעֲל֣וֹת יְרוּשָׁלִַ֗ם הִנֵּ֤ה אֱלֹהֶ֙יךָ֙ יִשְׂרָאֵ֔ל אֲשֶׁ֥ר הֶעֱל֖וּךָ מֵאֶ֥רֶץ מִצְרָֽיִם׃",
+      "text_kjv": "Whereupon the king took counsel, and made two calves of gold, and said unto them, It is too much for you to go up to Jerusalem: behold thy gods, O Israel, which brought thee up out of the land of Egypt.",
+      "rendering": "So the king took counsel and made two golden calves. He said to the people, \"You have gone up to Jerusalem long enough! Here are your gods, Israel, who brought you up from the land of Egypt!\"",
+      "expanded_rendering": "The phrase vayyivva'ats ha-melekh ('the king took counsel') uses the same root ya'ats that structured Rehoboam's disastrous decision — but this time the narrator does not say with whom Jeroboam consulted. The counsel may have been entirely internal, making it even more dangerous. The phrase hinneh elohekha Yisra'el asher he'elukha me-erets Mitsrayim ('Here are your gods, Israel, who brought you up from the land of Egypt') is an exact quotation of Aaron's words at the golden calf in Exodus 32:4. The narrator makes the parallel explicit and unmistakable: Jeroboam is committing the original sin of Israel all over again. Whether the calves were intended as pedestals for the LORD (as bull pedestals were used in ancient Near Eastern religion) or as rival deities, the narrator condemns the act by framing it in Exodus 32 language.",
+      "translator_notes": [
+        "The word rav lakhem ('it is too much for you, you have had enough') frames the Jerusalem pilgrimage as an unreasonable burden — the same language of complaint that marked Israel's wilderness rebellions (Numbers 16:3, Deuteronomy 1:6). Jeroboam repackages covenant faithfulness as inconvenience. The golden calves (eglei zahav) may have been bull-shaped pedestals on which the invisible God was thought to stand (as the cherubim served in the Jerusalem temple), but the narrator does not care about Jeroboam's theological intention — the Exodus 32 echo condemns the act."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיָּ֥שֶׂם אֶת־הָאֶחָ֖ד בְּבֵֽית־אֵ֑ל וְאֶת־הָאֶחָ֖ד נָתַ֥ן בְּדָֽן׃",
+      "text_kjv": "And he set the one in Bethel, and the other put he in Dan.",
+      "rendering": "He placed one in Bethel and the other in Dan.",
+      "translator_notes": [
+        "Bethel ('house of God') at the southern border of the northern kingdom and Dan at the northern border created bracketing sanctuaries that encompassed the entire territory. Bethel was already a sacred site — Jacob encountered God there (Genesis 28:10-22). Dan had housed a private shrine since the period of the Judges (Judges 18). Jeroboam did not create worship from nothing; he co-opted existing sacred traditions and redirected them away from Jerusalem. The placement was strategically perfect: northerners going to Jerusalem would pass through Bethel and could stop there instead."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיְהִ֛י הַדָּבָ֥ר הַזֶּ֖ה לְחַטָּ֑את וַיֵּלְכ֥וּ הָעָ֛ם לִפְנֵ֥י הָאֶחָ֖ד עַד־דָּֽן׃",
+      "text_kjv": "And this thing became a sin: for the people went to worship before the one, even unto Dan.",
+      "rendering": "And this became a sin. The people went to worship before the one as far as Dan.",
+      "translator_notes": [
+        "The narrator's verdict is terse and final: vayehi ha-davar ha-zeh le-chattat ('this thing became a sin'). The word chattat is not merely 'mistake' but 'sin' — a term with sacrificial overtones (chattat is also the word for 'sin offering'). The phrase ad Dan ('as far as Dan') emphasizes that people traveled the entire length of the kingdom to worship at the northern calf — the new shrines drew real devotion. This single verse establishes the theological framework for the rest of Kings: every northern king will be evaluated against 'the sin of Jeroboam.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיַּ֖עַשׂ אֶת־בֵּ֣ית בָּמ֑וֹת וַיַּ֤עַשׂ כֹּהֲנִים֙ מִקְצ֣וֹת הָעָ֔ם אֲשֶׁ֥ר לֹא־הָי֖וּ מִבְּנֵ֥י לֵוִֽי׃",
+      "text_kjv": "And he made an house of high places, and made priests of the lowest of the people, which were not of the sons of Levi.",
+      "rendering": "He also built shrines on the high places and appointed priests from among the general population who were not Levites.",
+      "translator_notes": [
+        "Jeroboam's reforms go beyond the calves: he builds beit bamot ('a house of high places' — rival sanctuaries) and appoints miqtsot ha-am ('from the edges/extremities of the people') as priests — ordinary Israelites, not Levites. The phrase asher lo hayu mi-benei Levi ('who were not from the sons of Levi') is the narrator's pointed observation: the entire Levitical priesthood, Israel's ordained worship leadership, was bypassed. Jeroboam created a parallel religious system — new gods, new shrines, new priests."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיַּ֣עַשׂ יָרָבְעָ֣ם ׀ חָ֡ג בַּחֹ֣דֶשׁ הַשְּׁמִינִי֩ בַּחֲמִשָּׁה־עָשָׂ֨ר י֜וֹם לַחֹ֗דֶשׁ כֶּחָג֙ אֲשֶׁ֣ר בִּיהוּדָ֔ה וַיַּ֖עַל עַל־הַמִּזְבֵּ֑חַ כֵּ֤ן עָשָׂה֙ בְּבֵֽית־אֵ֔ל לְזַבֵּ֖חַ לָעֲגָלִ֣ים אֲשֶׁר־עָשָׂ֑ה וְהֶעֱמִ֣יד בְּבֵֽית־אֵ֗ל אֶת־כֹּהֲנֵ֥י הַבָּמ֖וֹת אֲשֶׁ֥ר עָשָֽׂה׃",
+      "text_kjv": "And Jeroboam ordained a feast in the eighth month, on the fifteenth day of the month, like unto the feast that is in Judah, and he offered upon the altar. So did he in Bethel, sacrificing unto the calves that he had made: and he placed in Bethel the priests of the high places which he had made.",
+      "rendering": "Jeroboam established a festival in the eighth month, on the fifteenth day of the month, like the festival in Judah, and he went up to the altar. He did this at Bethel, sacrificing to the calves he had made, and he stationed at Bethel the priests of the high places he had appointed.",
+      "translator_notes": [
+        "The festival in the eighth month parallels the Feast of Booths (Sukkot) in the seventh month (Leviticus 23:34) — Jeroboam shifted it by exactly one month, close enough to feel familiar but distinct enough to mark independence from the Jerusalem calendar. The phrase ke-chag asher bi-Yehudah ('like the festival in Judah') explicitly acknowledges that this is a copy. The narrator stacks the violations: wrong calves, wrong priests, wrong calendar — a comprehensive alternative religion designed to look enough like the real thing to satisfy the people while cutting every tie to Jerusalem."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַיַּ֣עַל עַל־הַמִּזְבֵּ֗חַ אֲשֶׁ֤ר עָשָׂה֙ בְּבֵֽית־אֵ֔ל בַּחֲמִשָּׁ֨ה עָשָׂ֥ר יוֹם֙ בַּחֹ֣דֶשׁ הַשְּׁמִינִ֔י בַּחֹ֖דֶשׁ אֲשֶׁר־בָּדָ֣א מִלִּבּ֑וֹ וַיַּ֤עַשׂ חָג֙ לִבְנֵ֣י יִשְׂרָאֵ֔ל וַיַּ֥עַל עַל־הַמִּזְבֵּ֖חַ לְהַקְטִֽיר׃",
+      "text_kjv": "So he offered upon the altar which he had made in Bethel the fifteenth day of the eighth month, even in the month which he had devised of his own heart; and ordained a feast unto the children of Israel: and he offered upon the altar, and burnt incense.",
+      "rendering": "He went up to the altar he had made at Bethel on the fifteenth day of the eighth month — the month he had invented from his own heart. He established a festival for the Israelites and went up to the altar to burn incense.",
+      "translator_notes": [
+        "The devastating phrase ba-chodesh asher bada' milibbo ('in the month he fabricated from his own heart') is the narrator's final verdict on Jeroboam's religious system. The verb bada ('to fabricate, to invent, to devise') means to create something from nothing — not revelation but imagination. The phrase milibbo ('from his own heart') contrasts with prophetic speech that comes 'from the LORD.' Jeroboam's religion is self-generated, not God-given. The chapter ends with the king standing at a self-built altar, burning incense in a fabricated month, to calves of his own making, attended by priests of his own appointment. Every element is counterfeit. The king who was given the kingdom by God's own word has built a kingdom on his own inventions."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Isaiah",
+    "chapter": 5,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-31T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Isaiah sings a love song on behalf of his Beloved about a vineyard that, despite every advantage, produced only worthless fruit. God identifies the vineyard as Israel and Judah, then pronounces six woe oracles against the social sins corroding the nation — land-grabbing, drunkenness, moral inversion, self-conceit, perversion of justice, and heroism in vice. The chapter climaxes with a terrifying vision of a distant nation summoned by God's whistle to execute judgment.",
+    "remarkable": "The vineyard song (vv. 1-7) is a masterpiece of prophetic rhetoric: Isaiah draws the audience in as sympathetic judges before springing the trap — they are the failed vineyard. Verse 7 contains one of the most celebrated wordplays in the Hebrew Bible: God looked for mishpat (justice) but found mispach (bloodshed), for tsedaqah (righteousness) but heard tse'aqah (a cry of anguish). The six woe oracles (hoy) form a devastating catalog of covenant violation. The outstretched hand refrain (v. 25, repeated from 9:12, 17, 21; 10:4) links this chapter to a larger literary unit. The final imagery of the approaching army (vv. 26-30) is among the most cinematic in prophetic literature.",
+    "friction": "The central wordplay of verse 7 is untranslatable: the near-homophone pairs mishpat/mispach and tsedaqah/tse'aqah produce a devastating phonetic shock in Hebrew that no English equivalent can reproduce. We preserved the wordplay in transliteration within the notes and rendered the semantic contrast as clearly as possible. The term sorek (v. 2), a choice variety of vine, carries agricultural specificity that modern readers may miss. The woe oracles use hoy, which is simultaneously a funeral cry and a curse — 'woe' captures the judgment dimension but loses the funeral connotation.",
+    "connections": "The vineyard metaphor recurs in Isaiah 27:2-6 (the restored vineyard) and is taken up by Jesus in the Parable of the Wicked Tenants (Matt 21:33-46, Mark 12:1-12), which directly echoes Isaiah 5. The woe oracles anticipate the more extensive woe series in Isaiah 28-33. The outstretched hand refrain connects to Isaiah 9:8-10:4. Psalm 80:8-16 uses the same vine/vineyard imagery for Israel. The 'whistle for nations' motif (v. 26) reappears in Isaiah 7:18."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "אָשִׁ֤ירָה נָּא֙ לִֽידִידִ֔י שִׁירַ֥ת דּוֹדִ֖י לְכַרְמ֑וֹ כֶּ֥רֶם הָיָ֛ה לִֽידִידִ֖י בְּקֶ֥רֶן בֶּן־שָֽׁמֶן׃",
+      "text_kjv": "Now will I sing to my wellbeloved a song of my beloved touching his vineyard. My wellbeloved hath a vineyard in a very fruitful hill:",
+      "rendering": "Let me sing for my beloved —\na song of my loved one about his vineyard.\nMy beloved had a vineyard\non a fertile hillside.",
+      "translator_notes": [
+        "The opening uses terms of intimate love: yedidi and dodi. These are the same terms found in the Song of Songs, creating a deliberate echo of love poetry before the devastating turn.",
+        "'A fertile hillside' renders qeren ben-shamen, literally 'a horn, a son of fatness/oil.' The 'horn' refers to a projecting hillside, and 'son of oil' is an idiom for rich, fertile soil. The vineyard had every natural advantage."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יְדִידִי",
+          "transliteration": "yedidi",
+          "rendered_as": "my beloved",
+          "semantic_range": "beloved, dear one, friend, darling",
+          "note": "A term of deep affection used to describe God's relationship to Israel. The root yadad conveys the idea of being loved or lovely."
+        },
+        {
+          "hebrew": "כֶּרֶם",
+          "transliteration": "kerem",
+          "rendered_as": "vineyard",
+          "semantic_range": "vineyard, vine-plantation",
+          "note": "The vineyard becomes the controlling metaphor for Israel throughout prophetic literature. Viticulture required enormous investment of labor and time, making the vineyard an image of costly love."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַֽיְעַזְּקֵ֣הוּ וַֽיְסַקְּלֵ֗הוּ וַיִּטָּעֵ֙הוּ֙ שֹׂרֵ֔ק וַיִּ֤בֶן מִגְדָּל֙ בְּתוֹכ֔וֹ וְגַם־יֶ֖קֶב חָצֵ֣ב בּ֑וֹ וַיְקַ֛ו לַעֲשׂ֥וֹת עֲנָבִ֖ים וַיַּ֥עַשׂ בְּאֻשִֽׁים׃",
+      "text_kjv": "And he fenced it, and gathered out the stones thereof, and planted it with the choicest vine, and built a tower in the midst of it, and also made a winepress therein: and he looked that it should bring forth grapes, and it brought forth wild grapes.",
+      "rendering": "He dug it up and cleared its stones,\nand planted it with the choicest vines.\nHe built a watchtower in its center\nand even cut out a winepress.\nHe waited for it to yield good grapes —\nbut it yielded worthless ones.",
+      "expanded_rendering": "He dug it up and cleared its stones, and planted it with sorek — the choicest cultivated vine. He built a watchtower in its center and even cut out a winepress in the rock. He waited for it to yield good grapes — but it yielded be'ushim, stinking, worthless fruit.",
+      "translator_notes": [
+        "The verse piles up five verbs of painstaking labor: dug, cleared stones, planted, built, cut out. This accumulation emphasizes the extravagance of care lavished on the vineyard before the devastating 'but.'",
+        "Sorek is a specific premium variety of vine, possibly red-skinned, known from the Sorek Valley. It represents the best available planting stock.",
+        "Be'ushim means 'stinking things' or 'rotten grapes' — not merely small or sour fruit, but actively putrid. The contrast between sorek and be'ushim is maximal: the best input produced the worst output."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שֹׂרֵק",
+          "transliteration": "sorek",
+          "rendered_as": "the choicest vines",
+          "semantic_range": "choice vine, premium grapevine variety",
+          "note": "A specific cultivated variety known for superior fruit. The Sorek Valley near Jerusalem took its name from this vine. Planting sorek meant sparing no expense."
+        },
+        {
+          "hebrew": "בְּאֻשִׁים",
+          "transliteration": "be'ushim",
+          "rendered_as": "worthless ones",
+          "semantic_range": "stinking things, rotten grapes, wild/bad grapes",
+          "note": "From the root ba'ash, 'to stink.' These are not merely wild or uncultivated grapes but fruit that is actively rotten and repulsive — a shocking result from premium vines."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְעַתָּ֛ה יוֹשֵׁ֥ב יְרוּשָׁלִַ֖ם וְאִ֣ישׁ יְהוּדָ֑ה שִׁפְטוּ־נָ֕א בֵּינִ֖י וּבֵ֥ין כַּרְמִֽי׃",
+      "text_kjv": "And now, O inhabitants of Jerusalem, and men of Judah, judge, I pray you, betwixt me and my vineyard.",
+      "rendering": "And now, inhabitants of Jerusalem\nand people of Judah,\njudge between me and my vineyard.",
+      "translator_notes": [
+        "The shift is stunning: the singer suddenly addresses the audience directly and asks them to render a verdict. This is the same rhetorical trap Nathan used with David (2 Sam 12:1-7) — the audience will condemn themselves.",
+        "The imperative shiftu ('judge') invites the hearers into a legal proceeding, a covenant lawsuit (rib pattern). They are being asked to serve as judges in a case where they are the defendants."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "מַה־לַּעֲשׂ֥וֹת עוֹד֙ לְכַרְמִ֔י וְלֹ֥א עָשִׂ֖יתִי בּ֑וֹ מַדּ֗וּעַ קִוֵּ֛יתִי לַעֲשׂ֥וֹת עֲנָבִ֖ים וַיַּ֥עַשׂ בְּאֻשִֽׁים׃",
+      "text_kjv": "What could have been done more to my vineyard, that I have not done in it? wherefore, when I looked that it should bring forth grapes, brought it forth wild grapes?",
+      "rendering": "What more could have been done for my vineyard\nthat I have not already done?\nWhy, when I waited for good grapes,\ndid it yield worthless ones?",
+      "translator_notes": [
+        "The rhetorical question is devastating: God has exhausted every possible provision. The vineyard's failure cannot be attributed to any deficiency in the owner's care. The audience, still positioned as judges, must acknowledge this.",
+        "The repetition of the contrast from v. 2 — anavim (good grapes) vs. be'ushim (worthless grapes) — drives the point home with painful clarity."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְעַתָּה֙ אוֹדִֽיעָה־נָּ֣א אֶתְכֶ֔ם אֵ֛ת אֲשֶׁר־אֲנִ֥י עֹשֶׂ֖ה לְכַרְמִ֑י הָסֵ֤ר מְשׂוּכָּתוֹ֙ וְהָיָ֣ה לְבָעֵ֔ר פָּרֹ֥ץ גְּדֵר֖וֹ וְהָיָ֥ה לְמִרְמָֽס׃",
+      "text_kjv": "And now go to; I will tell you what I will do to my vineyard: I will take away the hedge thereof, and it shall be eaten up; and break down the wall thereof, and it shall be trodden down:",
+      "rendering": "And now, let me tell you\nwhat I am about to do to my vineyard:\nI will remove its hedge,\nand it will be devoured.\nI will break down its wall,\nand it will be trampled.",
+      "translator_notes": [
+        "The verdict falls. The vineyard had two layers of protection: a mesukah (hedge, thorn barrier) and a geder (stone wall). Removing both exposes it completely — to animals, to invaders, to destruction.",
+        "The language of removal and exposure anticipates the exile: God will withdraw his protective presence from Israel, leaving it vulnerable to foreign powers."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מְשׂוּכָּה",
+          "transliteration": "mesukah",
+          "rendered_as": "hedge",
+          "semantic_range": "hedge, thorn-fence, protective barrier",
+          "note": "The outer protective barrier around a vineyard, typically made of thorny branches. Its removal signifies the withdrawal of divine protection."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַאֲשִׁיתֵ֣הוּ בָתָ֗ה לֹ֤א יִזָּמֵר֙ וְלֹ֣א יֵעָדֵ֔ר וְעָלָ֥ה שָׁמִ֖יר וָשָׁ֑יִת וְעַ֣ל הֶעָבִ֣ים אֲצַוֶּ֔ה מֵהַמְטִ֥יר עָלָ֖יו מָטָֽר׃",
+      "text_kjv": "And I will lay it waste: it shall not be pruned, nor digged; but there shall come up briers and thorns: I will also command the clouds that they rain no rain upon it.",
+      "rendering": "I will make it a wasteland —\nit will not be pruned or hoed,\nand thorns and briers will overrun it.\nI will command the clouds\nto withhold their rain from it.",
+      "translator_notes": [
+        "The climax of the verdict comes at the end: 'I will command the clouds.' No human vineyard owner can command weather. The singer's identity as God is suddenly, shockingly revealed. The love song was always a divine oracle.",
+        "Shamir vashayit ('thorns and briers') is a recurring pair in Isaiah (7:23-25; 9:17; 10:17; 27:4), functioning almost as a signature phrase for desolation and divine judgment."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁמִיר וָשָׁיִת",
+          "transliteration": "shamir vashayit",
+          "rendered_as": "thorns and briers",
+          "semantic_range": "thorns and briers, thornbushes and weeds",
+          "note": "A word-pair almost exclusive to Isaiah, appearing as a signature image of desolation. The terms may refer to specific thorny plants native to the Judean landscape."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "כִּ֣י כֶ֜רֶם יְהוָ֤ה צְבָאוֹת֙ בֵּ֣ית יִשְׂרָאֵ֔ל וְאִ֥ישׁ יְהוּדָ֖ה נְטַ֣ע שַׁעֲשׁוּעָ֑יו וַיְקַ֤ו לְמִשְׁפָּט֙ וְהִנֵּ֣ה מִשְׂפָּ֔ח לִצְדָקָ֖ה וְהִנֵּ֥ה צְעָקָֽה׃",
+      "text_kjv": "For the vineyard of the LORD of hosts is the house of Israel, and the men of Judah his pleasant plant: and he looked for judgment, but behold oppression; for righteousness, but behold a cry.",
+      "rendering": "For the vineyard of the LORD of Hosts is the house of Israel,\nand the people of Judah are the planting of his delight.\nHe waited for justice — but look: bloodshed!\nFor righteousness — but listen: a cry of anguish!",
+      "expanded_rendering": "For the vineyard of the LORD of Hosts is the house of Israel, and the people of Judah are the planting of his delight. He waited for mishpat (justice) — but look: mispach (bloodshed)! For tsedaqah (righteousness) — but listen: tse'aqah (a cry of anguish)! The Hebrew wordplay is devastating: the words God hoped for and the words he found differ by a single consonant, turning covenant faithfulness into covenant horror.",
+      "translator_notes": [
+        "This verse contains the most famous wordplay in the Hebrew Bible. The pairs are: mishpat/mispach — 'justice' vs. 'bloodshed,' differing by one consonant and one vowel; tsedaqah/tse'aqah — 'righteousness' vs. 'a cry of anguish,' again differing by a single consonant. The phonetic near-identity makes the moral distance unbearable.",
+        "Mispach is a rare word, occurring only here. It likely means 'bloodshed' or 'scab/wound,' though some connect it to a root meaning 'to pour out.' The KJV's 'oppression' is possible but 'bloodshed' better captures the violence implicit in the sound-contrast with mishpat.",
+        "Tse'aqah is the cry of the oppressed — the same word used for Israel's cry under Egyptian slavery (Exod 3:7). God hears the same cry rising from within his own people, this time caused by Israel itself.",
+        "The identification is now complete: the vineyard = Israel, the owner = God, the worthless grapes = injustice and oppression. The audience who judged the vineyard has judged itself."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מִשְׁפָּט",
+          "transliteration": "mishpat",
+          "rendered_as": "justice",
+          "semantic_range": "justice, judgment, legal decision, right, ordinance",
+          "note": "One of the central terms of the Hebrew Bible's ethical vocabulary. Mishpat encompasses both the legal process and its righteous outcome — fair judgment that protects the vulnerable."
+        },
+        {
+          "hebrew": "מִשְׂפָּח",
+          "transliteration": "mispach",
+          "rendered_as": "bloodshed",
+          "semantic_range": "bloodshed, wound, scab, outpouring",
+          "note": "A rare word chosen for its phonetic near-identity with mishpat. The single consonant difference between justice and bloodshed becomes the entire theological point."
+        },
+        {
+          "hebrew": "צְדָקָה",
+          "transliteration": "tsedaqah",
+          "rendered_as": "righteousness",
+          "semantic_range": "righteousness, justice, right conduct, vindication, deliverance",
+          "note": "Broader than mere legal correctness — tsedaqah implies right relationship, covenant faithfulness, and active care for the community's well-being."
+        },
+        {
+          "hebrew": "צְעָקָה",
+          "transliteration": "tse'aqah",
+          "rendered_as": "a cry of anguish",
+          "semantic_range": "cry of distress, outcry, shriek of the oppressed",
+          "note": "The same word used for Israel's cry in Egypt (Exod 3:7, 9). The bitter irony: the people God delivered from oppression have become the oppressors."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "ה֗וֹי מַגִּיעֵ֥י בַ֙יִת֙ בְּבַ֔יִת שָׂדֶ֥ה בְשָׂדֶ֖ה יַקְרִ֑יבוּ עַ֚ד אֶ֣פֶס מָק֔וֹם וְהוּשַׁבְתֶּ֥ם לְבַדְּכֶ֖ם בְּקֶ֥רֶב הָאָֽרֶץ׃",
+      "text_kjv": "Woe unto them that join house to house, that lay field to field, till there be no place, that they may be placed alone in the midst of the earth!",
+      "rendering": "Woe to those who join house to house,\nwho add field to field,\nuntil there is no space left\nand you dwell alone in the land.",
+      "expanded_rendering": "Hoy! Woe to those who join house to house, who add field to field, until there is no space left and you dwell alone in the land. The funeral-curse hoy opens the first of six woe oracles against the ruling class who devour the inheritance of the poor.",
+      "translator_notes": [
+        "The first woe oracle targets land-grabbing — the consolidation of ancestral land holdings by the wealthy. Under the Torah's land laws (Lev 25), land belonged ultimately to God and was to remain within families. The accumulation denounced here violates the fundamental economic structure of the covenant.",
+        "Hoy is simultaneously a funeral cry ('Alas!') and a prophetic curse ('Woe!'). Its dual register means Isaiah is both mourning and condemning — the woe is already a funeral for the living.",
+        "The shift from third person ('those who') to second person ('you dwell') is present in the Hebrew and creates a sudden, accusatory directness."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הוֹי",
+          "transliteration": "hoy",
+          "rendered_as": "Woe",
+          "semantic_range": "woe, alas, ah, funeral cry, prophetic curse",
+          "note": "A cry that functions in two registers: as a lament for the dead (cf. 1 Kgs 13:30; Jer 22:18) and as a prophetic denunciation. By using a funeral cry for the living, the prophet implies their doom is already sealed."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "בְּאָזְנָ֖י יְהוָ֣ה צְבָא֑וֹת אִם־לֹ֞א בָּתִּ֤ים רַבִּים֙ לְשַׁמָּ֣ה יִהְי֔וּ גְּדֹלִ֥ים וְטוֹבִ֖ים מֵאֵ֥ין יוֹשֵֽׁב׃",
+      "text_kjv": "In mine ears said the LORD of hosts, Of a truth many houses shall be desolate, even great and fair, without inhabitant.",
+      "rendering": "In my hearing, the LORD of Hosts has declared:\n\"Surely many houses will become desolate,\ngreat and fine houses left without anyone living in them.\"",
+      "translator_notes": [
+        "'In my hearing' — Isaiah claims direct audition of the divine decree. The judgment fits the crime precisely: those who accumulated houses will see those very houses stand empty.",
+        "The irony is pointed: the land-grabbers sought to dwell 'alone in the land' (v. 8); they will get their wish, but as desolation rather than luxury."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כִּ֗י עֲשֶׂ֙רֶת֙ צִמְדֵּי־כֶ֔רֶם יַעֲשׂ֖וּ בַּ֣ת אֶחָ֑ת וְזֶ֥רַע חֹ֙מֶר֙ יַעֲשֶׂ֣ה אֵיפָ֔ה׃",
+      "text_kjv": "Yea, ten acres of vineyard shall yield one bath, and the seed of an homer shall yield an ephah.",
+      "rendering": "For ten acres of vineyard will produce only one bath of wine,\nand a homer of seed will yield but an ephah of grain.",
+      "translator_notes": [
+        "The measurements make the curse concrete: a bath is about six gallons — a pitiful yield from ten acres. A homer of seed (roughly six bushels) will yield only an ephah (about half a bushel) — a tenfold loss. The land itself will refuse to cooperate with those who abused it.",
+        "The agricultural curse echoes Deuteronomy 28:38-40 and Leviticus 26:20, connecting this judgment to the covenant curse tradition."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בַּת",
+          "transliteration": "bat",
+          "rendered_as": "bath",
+          "semantic_range": "bath (liquid measure, approximately 22 liters/6 gallons)",
+          "note": "A standard liquid measure. One bath from ten acres represents catastrophic agricultural failure — the land will barely produce anything."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "ה֛וֹי מַשְׁכִּימֵ֥י בַבֹּ֖קֶר שֵׁכָ֣ר יִרְדֹּ֑פוּ מְאַחֲרֵ֣י בַנֶּ֔שֶׁף יַ֖יִן יַדְלִיקֵֽם׃",
+      "text_kjv": "Woe unto them that rise up early in the morning, that they may follow strong drink; that continue until night, till wine inflame them!",
+      "rendering": "Woe to those who rise early in the morning\nchasing strong drink,\nwho linger late into the evening\nwhile wine inflames them!",
+      "translator_notes": [
+        "The second woe targets those who organize their entire day around alcohol — from dawn to dusk. The verb radaf ('to chase, pursue') normally describes hunting prey or pursuing enemies; applied to drink, it conveys obsessive, relentless craving.",
+        "Shekar ('strong drink') refers to fermented beverages other than grape wine — possibly beer, date wine, or other intoxicants."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שֵׁכָר",
+          "transliteration": "shekar",
+          "rendered_as": "strong drink",
+          "semantic_range": "strong drink, beer, intoxicating beverage",
+          "note": "Distinguished from yayin (wine); shekar refers to other fermented drinks. The Nazirite vow (Num 6:3) prohibits both yayin and shekar, indicating they were distinct categories."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְהָיָ֨ה כִנּ֜וֹר וָנֶ֗בֶל תֹּ֧ף וְחָלִ֛יל וָיַ֖יִן מִשְׁתֵּיהֶ֑ם וְאֵת֙ פֹּ֣עַל יְהוָ֔ה לֹ֣א יַבִּ֔יטוּ וּמַעֲשֵׂ֥ה יָדָ֖יו לֹ֥א רָאֽוּ׃",
+      "text_kjv": "And the harp, and the viol, the tabret, and pipe, and wine, are in their feasts; but they regard not the work of the LORD, neither consider the operation of his hands.",
+      "rendering": "Lyre and harp, tambourine and flute\nand wine fill their feasts —\nbut the work of the LORD they do not regard,\nand the deeds of his hands they do not see.",
+      "translator_notes": [
+        "The catalog of instruments (five items) creates a sense of lavish sensory indulgence. The problem is not music or celebration per se but the willful blindness to God's activity in history. They are anesthetized by pleasure.",
+        "The phrase po'al YHWH ('the work of the LORD') refers to God's acts in history — both past deliverances and present judgments. The revelers are oblivious to both."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "לָכֵ֛ן גָּלָ֥ה עַמִּ֖י מִבְּלִי־דָ֑עַת וּכְבוֹד֗וֹ מְתֵ֣י רָעָ֔ב וַהֲמוֹנ֖וֹ צִחֵ֥ה צָמָֽא׃",
+      "text_kjv": "Therefore my people are gone into captivity, because they have no knowledge: and their honourable men are famished, and their multitude dried up with thirst.",
+      "rendering": "Therefore my people go into exile\nfor lack of understanding.\nTheir nobles are starving,\nand their masses are parched with thirst.",
+      "translator_notes": [
+        "The prophetic perfect — galah ('has gone into exile') uses a past tense to describe a future event, so certain is it in God's decree. Exile is the ultimate covenant curse (Lev 26:33; Deut 28:36).",
+        "'For lack of understanding' (mibli-da'at) — the word da'at (knowledge) here means covenantal knowledge, awareness of God and his requirements. The ignorance is willful, the result of the pleasure-seeking in v. 12."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גָּלָה",
+          "transliteration": "galah",
+          "rendered_as": "go into exile",
+          "semantic_range": "to go into exile, to be deported, to uncover, to reveal",
+          "note": "The root has a dual meaning: to be 'uncovered' (stripped, exposed) and to go into exile. Both senses may be active: Israel will be stripped bare and carried away."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "לָכֵ֗ן הִרְחִ֤יבָה שְּׁאוֹל֙ נַפְשָׁ֔הּ וּפָעֲרָ֥ה פִ֖יהָ לִבְלִי־חֹ֑ק וְיָרַ֨ד הֲדָרָ֧הּ וַהֲמוֹנָ֛הּ וּשְׁאוֹנָ֖הּ וְעָלֵ֥ז בָּֽהּ׃",
+      "text_kjv": "Therefore hell hath enlarged herself, and opened her mouth without measure: and their glory, and their multitude, and their pomp, and he that rejoiceth, shall descend into it.",
+      "rendering": "Therefore Sheol has enlarged its appetite\nand opened its mouth beyond all limit.\nDown go her splendor and her crowds,\nher tumult and her revelers.",
+      "translator_notes": [
+        "Sheol is personified as a ravenous beast with an insatiable mouth — a striking image of death's hunger. The KJV's 'hell' is misleading; Sheol in the Hebrew Bible is the realm of the dead, not a place of punishment in the later Christian sense.",
+        "The four items that descend — splendor, crowds, tumult, revelers — correspond to the excesses cataloged in the preceding verses. Everything the elite celebrated will be swallowed."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שְׁאוֹל",
+          "transliteration": "She'ol",
+          "rendered_as": "Sheol",
+          "semantic_range": "the grave, the underworld, the realm of the dead",
+          "note": "The Hebrew abode of the dead, conceived as a shadowy underground realm where all go after death. Not equivalent to the later concept of hell; it is more a state of diminished existence than a place of active punishment."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיִּשַּׁ֥ח אָדָ֖ם וַיִּשְׁפַּ֣ל אִ֑ישׁ וְעֵינֵ֥י גְבֹהִ֖ים תִּשְׁפַּֽלְנָה׃",
+      "text_kjv": "And the mean man shall be brought down, and the mighty man shall be humbled, and the eyes of the lofty shall be humbled:",
+      "rendering": "Humanity is brought low,\neach person humbled,\nand the eyes of the arrogant are cast down.",
+      "translator_notes": [
+        "The leveling is total: adam (humanity in general), ish (each individual), and the 'eyes of the lofty' (the proud elite specifically). No one escapes the humiliation.",
+        "This verse anticipates the great theme of Isaiah 2:11-17, where everything exalted among humans is brought low and the LORD alone is exalted."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיִּגְבַּ֛ה יְהוָ֥ה צְבָא֖וֹת בַּמִּשְׁפָּ֑ט וְהָאֵל֙ הַקָּד֔וֹשׁ נִקְדָּ֖שׁ בִּצְדָקָֽה׃",
+      "text_kjv": "But the LORD of hosts shall be exalted in judgment, and God that is holy shall be sanctified in righteousness.",
+      "rendering": "But the LORD of Hosts is exalted through justice,\nand the Holy God shows himself holy through righteousness.",
+      "translator_notes": [
+        "A magnificent theological statement: God's exaltation comes not through raw power but through mishpat (justice) and tsedaqah (righteousness) — the very qualities Israel lacked (v. 7). When God judges, his holiness is displayed.",
+        "The verb niqdash ('shows himself holy') is the nifal of qadash — God is sanctified, set apart, revealed as holy precisely through his righteous acts. Holiness and justice are inseparable in Isaiah's theology."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הָאֵל הַקָּדוֹשׁ",
+          "transliteration": "ha'El haqqadosh",
+          "rendered_as": "the Holy God",
+          "semantic_range": "the Holy God, the sacred God",
+          "note": "A variation of Isaiah's characteristic title 'the Holy One of Israel.' Here the adjective qadosh is applied directly to El (God), emphasizing that holiness is God's essential nature, not merely an attribute."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְרָע֥וּ כְבָשִׂ֖ים כְּדָבְרָ֑ם וְחָרְב֥וֹת מֵחִ֖ים גָּרִ֥ים יֹאכֵֽלוּ׃",
+      "text_kjv": "Then shall the lambs feed after their manner, and the waste places of the fat ones shall strangers eat.",
+      "rendering": "Then lambs will graze as in their own pasture,\nand strangers will feed among the ruins of the wealthy.",
+      "translator_notes": [
+        "The image is pastoral desolation: where mansions once stood, lambs now graze and wanderers pick through the rubble. The estates of the land-grabbers (v. 8) are reduced to sheep-pasture.",
+        "The Hebrew of this verse is difficult; mechim ('fat ones') may refer to the fattened livestock of the rich or to the rich themselves. 'The wealthy' captures the social dimension."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "ה֛וֹי מֹשְׁכֵ֥י הֶעָוֺ֖ן בְּחַבְלֵ֣י הַשָּׁ֑וְא וְכַעֲב֥וֹת הָעֲגָלָ֖ה חַטָּאָֽה׃",
+      "text_kjv": "Woe unto them that draw iniquity with cords of vanity, and sin as it were with a cart rope:",
+      "rendering": "Woe to those who drag iniquity with cords of deceit,\nand sin as with cart ropes!",
+      "translator_notes": [
+        "The third woe oracle. The image is of people yoked to their sin like draft animals — but willingly. They actively haul their transgression behind them, bound to it by their own deceptions.",
+        "The progression from 'cords' to 'cart ropes' suggests escalation: what began as thin deceptions has become thick, heavy bondage."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "הָאֹ֣מְרִ֔ים יְמַהֵ֗ר יָחִ֙ישָׁה֙ מַעֲשֵׂ֔הוּ לְמַ֖עַן נִרְאֶ֑ה וְתִקְרַ֧ב וְתָב֛וֹאָה עֲצַ֥ת קְד֖וֹשׁ יִשְׂרָאֵ֥ל וְנֵדָֽעָה׃",
+      "text_kjv": "That say, Let him make speed, and hasten his work, that we may see it: and let the counsel of the Holy One of Israel draw nigh and come, that we may know it!",
+      "rendering": "-- who say, \"Let him hurry!\nLet him speed up his work so we can see it!\nLet the plan of the Holy One of Israel\ndraw near and come, so we may know it!\"",
+      "translator_notes": [
+        "The taunt reveals brazen contempt: the sinners mock God's ability to act, daring him to fulfill his threats. This is not atheism but defiance — they acknowledge God exists but deny he will intervene.",
+        "'The Holy One of Israel' (Qedosh Yisra'el) is Isaiah's signature title for God, appearing over 25 times in the book. Using the full title in the mouths of the mockers deepens the irony: they invoke the very holiness that will destroy them."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קְדוֹשׁ יִשְׂרָאֵל",
+          "transliteration": "Qedosh Yisra'el",
+          "rendered_as": "the Holy One of Israel",
+          "semantic_range": "the Holy One of Israel, Israel's Holy God",
+          "note": "Isaiah's characteristic title for God, emphasizing both transcendent holiness and covenant relationship with Israel. It appears more than 25 times in Isaiah and rarely elsewhere."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "ה֣וֹי הָאֹמְרִ֥ים לָרַ֛ע ט֖וֹב וְלַטּ֣וֹב רָ֑ע שָׂמִ֨ים חֹ֤שֶׁךְ לְאוֹר֙ וְא֣וֹר לְחֹ֔שֶׁךְ שָׂמִ֥ים מַ֛ר לְמָת֖וֹק וּמָת֥וֹק לְמָֽר׃",
+      "text_kjv": "Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness; that put bitter for sweet, and sweet for bitter!",
+      "rendering": "Woe to those who call evil good\nand good evil,\nwho put darkness for light\nand light for darkness,\nwho put bitter for sweet\nand sweet for bitter!",
+      "expanded_rendering": "Woe to those who call evil good and good evil, who put darkness for light and light for darkness, who put bitter for sweet and sweet for bitter! This is the complete inversion of moral reality — the corruption not merely of behavior but of the categories by which behavior is judged.",
+      "translator_notes": [
+        "The fourth woe oracle is perhaps the most fundamental: the complete inversion of moral categories. Three pairs — evil/good, darkness/light, bitter/sweet — cover the moral, intellectual, and sensory dimensions of human experience. When every standard is reversed, judgment becomes impossible and society collapses.",
+        "The triplet structure (moral, visual, gustatory) suggests total perversion — every faculty of discernment has been corrupted."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רַע",
+          "transliteration": "ra",
+          "rendered_as": "evil",
+          "semantic_range": "evil, bad, harmful, displeasing, wicked",
+          "note": "The fundamental Hebrew term for moral and experiential badness. In this context, calling ra 'good' represents the ultimate corruption of moral reasoning."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "ה֖וֹי חֲכָמִ֣ים בְּעֵינֵיהֶ֑ם וְנֶ֥גֶד פְּנֵיהֶ֖ם נְבֹנִֽים׃",
+      "text_kjv": "Woe unto them that are wise in their own eyes, and prudent in their own sight!",
+      "rendering": "Woe to those who are wise in their own eyes\nand clever in their own estimation!",
+      "translator_notes": [
+        "The fifth woe — the briefest and sharpest. Self-referential wisdom is no wisdom at all; it has cut itself off from its source (cf. Prov 3:7, 'Do not be wise in your own eyes'). The compact form emphasizes the sufficiency of the indictment: nothing more needs to be said."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "ה֖וֹי גִּבּוֹרִ֣ים לִשְׁתּ֣וֹת יָ֑יִן וְאַנְשֵׁי־חַ֖יִל לִמְסֹ֥ךְ שֵׁכָֽר׃",
+      "text_kjv": "Woe unto them that are mighty to drink wine, and men of strength to mingle strong drink:",
+      "rendering": "Woe to those who are heroes at drinking wine,\nchampions at mixing strong drink!",
+      "translator_notes": [
+        "The sixth woe oracle drips with sarcasm. The terms gibborim ('heroes, mighty warriors') and anshei-chayil ('men of valor') are military vocabulary applied to drinking prowess. Israel's 'warriors' have redirected their strength from battle to banquets.",
+        "The irony deepens in context: a real army is approaching (vv. 26-30) while Israel's 'heroes' are drunk."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גִּבּוֹרִים",
+          "transliteration": "gibborim",
+          "rendered_as": "heroes",
+          "semantic_range": "mighty men, warriors, heroes, champions",
+          "note": "The plural of gibbor, normally reserved for warriors of exceptional strength (cf. David's gibborim in 2 Sam 23). Its application to drinking is bitterly ironic."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "מַצְדִּיקֵ֥י רָשָׁ֖ע עֵ֣קֶב שֹׁ֑חַד וְצִדְקַ֥ת צַדִּיקִ֖ים יָסִ֥ירוּ מִמֶּֽנּוּ׃",
+      "text_kjv": "Which justify the wicked for reward, and take away the righteousness of the righteous from him!",
+      "rendering": "-- who acquit the guilty for a bribe\nand strip the innocent of their rights!",
+      "translator_notes": [
+        "This verse completes the sixth woe by revealing its full scope: these 'heroes' are also corrupt judges who sell verdicts. The connection between drunkenness and injustice may be causal (impaired judgment) or merely characteristic (the same moral collapse produces both).",
+        "The wordplay continues from v. 7: tsidqat tsaddiqim ('the righteousness of the righteous') — the very thing God sought from his vineyard is now being actively stripped away by its leaders."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שֹׁחַד",
+          "transliteration": "shochad",
+          "rendered_as": "a bribe",
+          "semantic_range": "bribe, gift, inducement",
+          "note": "Explicitly forbidden in the Torah (Exod 23:8; Deut 16:19). Bribery perverts mishpat (justice) — the central failure identified in v. 7."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "לָכֵ֗ן כֶּאֱכֹ֤ל קַשׁ֙ לְשׁ֣וֹן אֵ֔שׁ וַחֲשַׁ֥שׁ לֶהָבָ֖ה יִרְפֶּ֑ה שָׁרְשָׁם֙ כַּמָּ֣ק יִהְיֶ֔ה וּפִרְחָתָ֖ם כָּאָבָ֣ק יַעֲלֶ֑ה כִּ֣י מָאֲס֗וּ אֵ֚ת תּוֹרַת֙ יְהוָ֣ה צְבָא֔וֹת וְאֵ֛ת אִמְרַ֥ת קְד֖וֹשׁ יִשְׂרָאֵ֥ל נִאֵֽצוּ׃",
+      "text_kjv": "Therefore as the fire devoureth the stubble, and the flame consumeth the chaff, so their root shall be as rottenness, and their blossom shall go up as dust: because they have cast away the law of the LORD of hosts, and despised the word of the Holy One of Israel.",
+      "rendering": "Therefore, as a tongue of fire devours stubble\nand dry grass collapses in the flame,\nso their root will rot\nand their blossom blow away like dust --\nfor they have rejected the Torah of the LORD of Hosts\nand despised the word of the Holy One of Israel.",
+      "translator_notes": [
+        "The sentence of judgment uses two images of total destruction: fire consuming chaff (instantaneous) and a plant rotting from root to blossom (progressive). Both above-ground and below-ground destruction are named — nothing survives.",
+        "The cause is stated with devastating clarity: they rejected the Torah (instruction, law) of the LORD and despised the word (imrat) of the Holy One of Israel. The two verbs — ma'asu ('rejected, refused') and ni'etsu ('despised, scorned') — are acts of deliberate contempt, not ignorance."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹרָה",
+          "transliteration": "torah",
+          "rendered_as": "Torah",
+          "semantic_range": "instruction, law, teaching, direction",
+          "note": "Retained as 'Torah' here rather than 'law' because the term encompasses God's full instruction, not merely legal statutes. It includes narrative, wisdom, and covenantal teaching."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "עַל־כֵּ֡ן חָרָה֩ אַף־יְהוָ֨ה בְּעַמּ֜וֹ וַיֵּ֣ט יָד֧וֹ עָלָ֛יו וַיַּכֵּ֖הוּ וַיִּרְגְּז֣וּ הֶהָרִ֑ים וַתְּהִ֤י נִבְלָתָם֙ כַּסּוּחָ֔ה בְּקֶ֖רֶב חוּצֽוֹת׃ בְּכָל־זֹ֛את לֹא־שָׁ֥ב אַפּ֖וֹ וְע֥וֹד יָד֖וֹ נְטוּיָֽה׃",
+      "text_kjv": "Therefore is the anger of the LORD kindled against his people, and he hath stretched forth his hand against them, and hath smitten them: and the hills did tremble, and their carcases were torn in the midst of the streets. For all this his anger is not turned away, but his hand is stretched out still.",
+      "rendering": "Therefore the anger of the LORD blazes against his people.\nHe has stretched out his hand against them and struck them;\nthe mountains trembled,\nand their corpses lay like refuse in the streets.\nFor all this, his anger has not turned back,\nand his hand is still stretched out.",
+      "expanded_rendering": "Therefore the anger of the LORD blazes against his people. He has stretched out his hand against them and struck them; the mountains trembled, and their corpses lay like refuse in the streets. For all this, his anger has not turned back, and his hand is still stretched out. This refrain — 'his hand is still stretched out' — recurs in 9:12, 17, 21 and 10:4, binding these chapters into a single arc of escalating judgment.",
+      "translator_notes": [
+        "The refrain 'his hand is still stretched out' (od yado netuyah) appears here and in 9:12, 17, 21 and 10:4. It functions as a structural marker linking Isaiah 5 to 9:8-10:4, suggesting these passages form a single literary unit. The hand that was stretched out to deliver in the Exodus is now stretched out to strike.",
+        "The image of corpses as 'refuse in the streets' (kasuchah beqerev chutsot) is deliberately dehumanizing — the dead are treated as garbage. This was one of the most horrifying fates in the ancient Near East, where proper burial was essential."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יָדוֹ נְטוּיָה",
+          "transliteration": "yado netuyah",
+          "rendered_as": "his hand is still stretched out",
+          "semantic_range": "his hand is extended, outstretched, reaching",
+          "note": "The outstretched hand of God is a dual-use image in the Hebrew Bible: in Exodus it delivers (Deut 4:34); here it strikes. The refrain's repetition signals that judgment is ongoing and incomplete — more is coming."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְנָשָׂ֣א נֵ֠ס לַגּוֹיִ֨ם מֵרָח֜וֹק וְשָׁ֥רַק לוֹ֙ מִקְצֵ֣ה הָאָ֔רֶץ וְהִנֵּ֥ה מְהֵרָ֖ה קַ֥ל יָבֽוֹא׃",
+      "text_kjv": "And he will lift up an ensign to the nations from far, and will hiss unto them from the end of the earth: and, behold, they shall come with speed swiftly:",
+      "rendering": "He raises a signal flag for a distant nation\nand whistles for it from the ends of the earth --\nand look, it comes swiftly, in haste!",
+      "translator_notes": [
+        "The imagery shifts to military mobilization. God 'whistles' (sharaq) for a foreign army the way a beekeeper whistles for bees (cf. 7:18). The distant nation is not named — it could be Assyria, Babylon, or any instrument of divine judgment. The ambiguity makes the threat timeless.",
+        "The signal flag (nes) was raised on a hilltop to muster troops. God himself serves as the supreme commander, summoning nations as his army."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נֵס",
+          "transliteration": "nes",
+          "rendered_as": "signal flag",
+          "semantic_range": "banner, standard, signal, ensign, rallying point",
+          "note": "A flag or pole raised on a height as a military signal. In Isaiah, nes can function as a rallying point for judgment (here) or for salvation (11:10, 12)."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "אֵין־עָיֵ֤ף וְאֵין־כּוֹשֵׁל֙ בּ֔וֹ לֹ֥א יָנ֖וּם וְלֹ֣א יִישָׁ֑ן וְלֹ֤א נִפְתַּח֙ אֵז֣וֹר חֲלָצָ֔יו וְלֹ֥א נִתַּ֖ק שְׂר֥וֹךְ נְעָלָֽיו׃",
+      "text_kjv": "None shall be weary nor stumble among them; none shall slumber nor sleep; neither shall the girdle of their loins be loosed, nor the latchet of their shoes be broken:",
+      "rendering": "Not one of them is weary, not one stumbles;\nnone slumber, none sleep.\nNo belt is loosened at the waist,\nno sandal-strap is broken.",
+      "translator_notes": [
+        "The description of the approaching army emphasizes superhuman endurance and readiness. The fourfold negation ('not weary, not stumbling, not slumbering, not sleeping') creates a relentless cadence. Even their equipment is in perfect order — belts tight, sandals intact. This is an army that never stops.",
+        "The contrast with Israel's 'heroes' (v. 22), drunk and staggering, is devastating."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "אֲשֶׁ֤ר חִצָּיו֙ שְׁנוּנִ֔ים וְכָל־קַשְּׁתֹתָ֖יו דְּרוּכ֑וֹת פַּרְסֹ֤ת סוּסָיו֙ כַּצַּ֣ר נֶחְשָׁ֔בוּ וְגַלְגִּלָּ֖יו כַּסּוּפָֽה׃",
+      "text_kjv": "Whose arrows are sharp, and all their bows bent, their horses' hoofs shall be counted like flint, and their wheels like a whirlwind:",
+      "rendering": "Their arrows are sharpened,\nall their bows are strung.\nTheir horses' hooves are like flint,\ntheir chariot wheels like a whirlwind.",
+      "translator_notes": [
+        "The catalog of military preparedness continues: arrows already sharpened, bows already strung (bent and ready to fire), horses with hooves hard as flint (capable of sustained advance over rocky terrain), chariot wheels spinning like a storm.",
+        "The imagery is cinematic, almost journalistic — Isaiah describes what an observer would see as this unstoppable force approaches."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "שְׁאָגָ֤ה לוֹ֙ כַּלָּבִ֔יא וְשָׁאַג֙ כַּכְּפִירִ֔ים וְיִנְהֹ֥ם וְיֹאחֵ֖ז טֶ֑רֶף וְיַפְלִ֖יט וְאֵ֥ין מַצִּֽיל׃",
+      "text_kjv": "Their roaring shall be like a lion, they shall roar like young lions: yea, they shall roar, and lay hold of the prey, and shall carry it away safe, and none shall deliver it.",
+      "rendering": "Their roar is like a lioness;\nthey growl like young lions.\nThey snarl and seize the prey\nand carry it off -- and no one can rescue.",
+      "translator_notes": [
+        "The lion imagery completes the portrait of the approaching army. The progression from roar to growl to snarl to seizure mimics the hunting sequence of a predator. The final phrase — 'and no one can rescue' (ein matsil) — is the theological point: when God sends judgment, no human power can prevent it.",
+        "The Hebrew uses two different words for lion: lavi (mature lioness) and kephirim (young lions in their prime). Together they represent the full lethal capacity of the pride."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְיִנְהֹ֥ם עָלָ֛יו בַּיּ֥וֹם הַה֖וּא כְּנַהֲמַת־יָ֑ם וְנִבַּ֤ט לָאָ֙רֶץ֙ וְהִנֵּה־חֹ֣שֶׁךְ צָ֔ר וָא֕וֹר חָשַׁ֖ךְ בַּעֲרִיפֶֽיהָ׃",
+      "text_kjv": "And in that day they shall roar against them like the roaring of the sea: and if one look unto the land, behold darkness and sorrow, and the light is darkened in the heavens thereof.",
+      "rendering": "On that day they will roar over it\nlike the roaring of the sea.\nAnd if one looks to the land -- only darkness and distress;\neven the light is swallowed by its clouds.",
+      "translator_notes": [
+        "The chapter ends in total darkness — a deliberate inversion of creation. Where Genesis 1 moved from darkness to light, Isaiah 5 moves from light to darkness. The word choshek ('darkness') echoes the moral darkness of v. 20 (calling darkness 'light').",
+        "'The roaring of the sea' evokes primordial chaos (cf. Gen 1:2) — the ordered world is being un-created by judgment.",
+        "The final image — light darkened by clouds — is both literal (the dust and smoke of an approaching army) and metaphorical (the extinguishing of hope)."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezekiel",
+    "chapter": 20,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ezekiel 20 is a devastating retrospective of Israel's history told as a cycle of rebellion and divine restraint. Elders of Israel come to Ezekiel to inquire of the LORD, and God refuses to be consulted by them. Instead, God rehearses Israel's entire history — from Egypt to the wilderness to the promised land — and at every stage the same pattern repeats: God acts graciously, Israel rebels, God considers destroying them but relents 'for my name's sake' so that the nations do not conclude he is powerless. The Sabbath is highlighted as the covenant sign that Israel persistently violated. The chapter divides into five historical movements: election in Egypt (vv. 5-9), the first wilderness generation (vv. 10-17), the second wilderness generation (vv. 18-26), settlement in the land (vv. 27-29), and the present generation of exiles (vv. 30-31). The chapter then pivots to restoration: God will bring Israel out again in a second exodus, purge the rebels, and establish his people on his holy mountain (vv. 33-44). The final oracle (vv. 45-49) turns south against the forests of the Negev — a judgment by fire.",
+    "remarkable": "This chapter is Ezekiel's version of the historical psalms (Psalms 78, 105, 106) and Stephen's speech in Acts 7, but far more severe. Where the psalms balance rebellion with mercy, Ezekiel presents an unbroken record of failure from the very beginning — Israel was already idolatrous in Egypt (v. 8), before the exodus even occurred. The phrase 'for my name's sake' (lema'an shemi) appears five times in the chapter, revealing that God's faithfulness to Israel is grounded not in Israel's merit but in God's concern for his own reputation among the nations. The Sabbath receives extraordinary emphasis as the sign (ot) of the covenant — its violation is treated as the definitive evidence of rebellion. The enigmatic verse 25 ('I also gave them statutes that were not good and judgments by which they could not live') has generated centuries of interpretive debate. The future exodus (vv. 33-38) reframes Israel's hope: restoration will come, but it will come through judgment — God will purge the rebels in the wilderness before allowing entry to the land. The chapter presents the most unflinching assessment of Israel's covenant history in the entire Hebrew Bible.",
+    "friction": "Verse 25 is the most controversial verse in the chapter: 'I also gave them statutes that were not good and judgments by which they could not live.' Does God claim to have given bad laws? Most interpreters understand this as either (1) God permitted them to follow destructive practices as judicial punishment, or (2) God gave laws (such as the demand for firstborn, v. 26) that, taken in isolation and misunderstood, led to horrific practices like child sacrifice. We documented both readings without harmonizing. The refusal to be consulted (vv. 1-3, 31) creates a dramatic frame — the elders came seeking a word from God and received a devastating indictment instead. The phrase 'passing through the fire' (v. 26, 31) refers to child sacrifice, which must be rendered without euphemism. The forest fire oracle (vv. 45-49) is attributed to chapter 21 in the Hebrew versification (21:1-5 in the MT) — we follow the English chapter division but note the discrepancy.",
+    "connections": "The 'for my name's sake' motif connects forward to 36:22-32, where God explicitly states that the restoration is for his name's sake, not Israel's. The Sabbath emphasis connects to 22:8, 22:26, 23:38, and the new Temple ordinances of 44:24, 46:1-3. The 'second exodus' theme parallels Isaiah 43:16-21 and Jeremiah 23:7-8. The rebellious history parallels Psalm 78 and Psalm 106, though Ezekiel is harsher — even Egypt was not innocent. The child sacrifice references connect to 16:20-21 and 23:37-39. The 'holy mountain' (har qodshi) of verse 40 anticipates the Temple mountain of chapters 40-48. The complaint 'he is just speaking in parables' (v. 49) echoes 17:2 and anticipates 24:3."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֗י בַּשָּׁנָ֤ה הַשְּׁבִיעִית֙ בַּחֲמִשִּׁ֔י בֶּעָשׂ֖וֹר לַחֹ֑דֶשׁ בָּ֧אוּ אֲנָשִׁ֛ים מִזִּקְנֵ֥י יִשְׂרָאֵ֖ל לִדְרֹ֣שׁ אֶת־יְהוָ֑ה וַיֵּשְׁב֖וּ לְפָנָֽי׃",
+      "text_kjv": "And it came to pass in the seventh year, in the fifth month, the tenth day of the month, that certain of the elders of Israel came to enquire of the LORD, and sat before me.",
+      "rendering": "In the seventh year, in the fifth month, on the tenth of the month, some of the elders of Israel came to inquire of the LORD and sat before me.",
+      "translator_notes": [
+        "The date is August 591 BCE, approximately three years into Ezekiel's prophetic ministry. The seventh year is counted from Jehoiachin's exile (597 BCE). The elders come lidrosh et YHWH ('to seek/inquire of the LORD'), a technical term for consulting a prophet for a divine oracle. They expect an answer — they will not receive one.",
+        "The phrase vayyeshvu lefanai ('and they sat before me') establishes the physical scene: the elders are seated in Ezekiel's presence, waiting for an oracle. The verb yashav ('to sit') suggests formal, expectant posture — they have come deliberately."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "Then came the word of the LORD unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": [
+        "The standard prophetic reception formula. What follows is not the oracle the elders sought but an indictment of their right to seek one."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "בֶּן־אָדָ֕ם דַּבֵּ֥ר אֶת־זִקְנֵ֖י יִשְׂרָאֵ֑ל וְאָמַרְתָּ֣ אֲלֵהֶ֗ם כֹּֽה־אָמַר֮ אֲדֹנָ֣י יְהוִה֒ הֲלִדְרֹ֥שׁ אֹתִ֛י אַתֶּ֥ם בָּאִ֖ים חַי־אָ֕נִי אִם־אִדָּרֵ֣שׁ לָכֶ֑ם נְאֻ֖ם אֲדֹנָ֥י יְהוִֽה׃",
+      "text_kjv": "Son of man, speak unto the elders of Israel, and say unto them, Thus saith the Lord GOD; Are ye come to enquire of me? As I live, saith the Lord GOD, I will not be enquired of by you.",
+      "rendering": "\"Son of man, speak to the elders of Israel and say to them: This is what the Lord GOD says — Have you come to inquire of me? As I live, declares the Lord GOD, I will not let you inquire of me.",
+      "translator_notes": [
+        "The rhetorical question halidrosh oti attem ba'im ('have you come to inquire of me?') is loaded with indignation. God sees through the pious act — these elders come to consult him while their hearts are still committed to the idolatry the chapter will detail.",
+        "The oath formula chai ani ('as I live') combined with the oath negation im iddaresh lakhem ('I will certainly not be consulted by you') is absolute refusal. God swears by his own life that he will not respond to their inquiry. The Niphal iddaresh ('be consulted, be sought') emphasizes that God will not make himself available to them.",
+        "This same refusal pattern appeared in 14:1-3 — the elders come, and God refuses to be consulted because of their idolatry. The repetition suggests a persistent pattern of superficial piety."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "הֲתִשְׁפֹּ֤ט אֹתָם֙ הֲתִשְׁפּ֔וֹט בֶּן־אָדָ֕ם אֶת־תּוֹעֲבֹ֥ת אֲבוֹתָ֖ם הוֹדִיעֵֽם׃",
+      "text_kjv": "Wilt thou judge them, wilt thou judge them, son of man? cause them to know the abominations of their fathers:",
+      "rendering": "Will you judge them? Will you judge them, son of man? Make known to them the abominations of their fathers!",
+      "translator_notes": [
+        "The doubled question hatishpot otam hatishpot ('will you judge them, will you judge them?') expresses urgency and possibly exasperation — God is pressing Ezekiel to confront the elders. The doubling may also carry a nuance of 'dare you judge?' or 'are you willing to pronounce judgment?'",
+        "The command hodiem ('make known to them') initiates the long historical retrospective that follows. The 'abominations of their fathers' (to'avot avotam) sets the frame: what follows is not ancient history but a living indictment, because the present generation is repeating those same abominations."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְאָמַרְתָּ֣ אֲלֵיהֶ֗ם כֹּֽה־אָמַר֮ אֲדֹנָ֣י יְהוִה֒ בְּי֗וֹם בָּחֳרִי֙ בְּיִשְׂרָאֵ֔ל וָאֶשָּׂ֣א יָדִ֔י לְזֶ֖רַע בֵּ֣ית יַעֲקֹ֑ב וָאִוָּדַ֤ע לָהֶם֙ בְּאֶ֣רֶץ מִצְרַ֔יִם וָאֶשָּׂ֨א יָדִ֤י לָהֶם֙ לֵאמֹ֔ר אֲנִ֖י יְהוָ֥ה אֱלֹהֵיכֶֽם׃",
+      "text_kjv": "And say unto them, Thus saith the Lord GOD; In the day when I chose Israel, and lifted up mine hand unto the seed of the house of Jacob, and made myself known unto them in the land of Egypt, when I lifted up mine hand unto them, saying, I am the LORD your God;",
+      "rendering": "Say to them: This is what the Lord GOD says — On the day I chose Israel, I raised my hand in oath to the descendants of the house of Jacob and made myself known to them in the land of Egypt. I raised my hand to them and said, 'I am the LORD your God.'",
+      "translator_notes": [
+        "The phrase va'essa yadi ('I raised my hand') is the gesture of oath-swearing — God is describing a covenantal commitment made with a physical sign. The expression appears six times in this chapter (vv. 5, 6, 15, 23, 28, 42), structuring the entire historical narrative as a series of divine oath-moments.",
+        "The verb bachori ('I chose') is the language of divine election — God selected Israel as his covenant partner. The choice was made 'in the land of Egypt,' which places God's commitment before the exodus itself. Israel's story begins not with their action (leaving Egypt) but with God's action (choosing them).",
+        "The self-revelation formula ani YHWH eloheikhem ('I am the LORD your God') echoes the preamble to the Decalogue (Exodus 20:2). God's identity is established as the foundation of the covenant relationship."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "בַּיּ֣וֹם הַה֗וּא נָשָׂ֤אתִי יָדִי֙ לָהֶ֔ם לְהוֹצִיאָ֖ם מֵאֶ֣רֶץ מִצְרָ֑יִם אֶל־אֶ֙רֶץ֙ אֲשֶׁר־תַּ֣רְתִּי לָהֶ֔ם זָבַ֥ת חָלָ֖ב וּדְבָ֑שׁ צְבִ֥י הִ֖יא לְכָל־הָאֲרָצֽוֹת׃",
+      "text_kjv": "In the day that I lifted up mine hand unto them, to bring them forth of the land of Egypt into a land that I had espied for them, flowing with milk and honey, which is the glory of all lands:",
+      "rendering": "On that day I raised my hand to them, swearing to bring them out of the land of Egypt into a land I had searched out for them — a land flowing with milk and honey, the most splendid of all lands.",
+      "translator_notes": [
+        "The verb tarti ('I searched out, I spied') implies that God personally scouted the land — he surveyed all possibilities and selected the best for Israel. The image is of a deliberate, caring provider choosing the finest inheritance for his people.",
+        "The phrase zavat chalav udevash ('flowing with milk and honey') is the traditional description of the promised land's fertility. 'Milk and honey' represent pastoral and agricultural abundance — the land produces both livestock wealth and wild sweetness.",
+        "The phrase tzevi hi lekhol ha'aratzot ('the most splendid of all lands') uses tzevi, meaning 'beauty, splendor, glory.' The promised land is described as the jewel among all territories — God gave Israel the finest land on earth, making their subsequent rebellion all the more egregious."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וָאֹמַ֣ר אֲלֵהֶ֗ם אִ֣ישׁ שִׁקּוּצֵ֤י עֵינָיו֙ הַשְׁלִ֔יכוּ וּבְגִלּוּלֵ֥י מִצְרַ֖יִם אַל־תִּטַּמָּ֑אוּ אֲנִ֖י יְהוָ֥ה אֱלֹהֵיכֶֽם׃",
+      "text_kjv": "Then said I unto them, Cast ye away every man the abominations of his eyes, and defile not yourselves with the idols of Egypt: I am the LORD your God.",
+      "rendering": "I said to them, 'Each of you — throw away the detestable things your eyes cling to, and do not defile yourselves with the idols of Egypt. I am the LORD your God.'",
+      "translator_notes": [
+        "The phrase shiqqutzei einav ('the detestable things of his eyes') describes objects of fascinated devotion — things the eyes are drawn to and cannot look away from. The idols are visually captivating, and God demands that Israel break the visual fixation.",
+        "The fact that Israel needed to be told to abandon Egyptian idols while still in Egypt reveals that they had adopted Egyptian religious practices during their sojourn. This is a harsher starting point than the traditional exodus narrative — Israel was already compromised before the exodus began.",
+        "The verb al tittammu ('do not defile yourselves') is priestly vocabulary — the concern is not merely behavioral but purity-based. Contact with idols contaminates the covenant community."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיַּמְר֣וּ בִ֔י וְלֹ֥א אָב֖וּ לִשְׁמֹ֣עַ אֵלָ֑י אִ֣ישׁ אֶת־שִׁקּוּצֵ֤י עֵֽינֵיהֶם֙ לֹ֣א הִשְׁלִ֔יכוּ וְאֶת־גִּלּוּלֵ֥י מִצְרַ֖יִם לֹ֣א עָזָ֑בוּ וָאֹמַ֗ר לִשְׁפֹּ֤ךְ חֲמָתִי֙ עֲלֵיהֶ֔ם לְכַלּ֥וֹת אַפִּ֛י בָּ֖ם בְּת֥וֹךְ אֶֽרֶץ מִצְרָֽיִם׃",
+      "text_kjv": "But they rebelled against me, and would not hearken unto me: they did not every man cast away the abominations of their eyes, neither did they forsake the idols of Egypt: then I said, I will pour out my fury upon them, to accomplish my anger against them in the midst of the land of Egypt.",
+      "rendering": "But they rebelled against me and refused to listen to me. Not one of them threw away the detestable things their eyes clung to, and they did not abandon the idols of Egypt. So I resolved to pour out my wrath on them, to spend my anger against them in the land of Egypt.",
+      "translator_notes": [
+        "The verb vayyamru ('they rebelled') sets the tone for the entire chapter — Israel's relationship with God begins in rebellion, not in faithful response. This is more severe than the accounts in Exodus, which place the first major rebellion at the golden calf (Exodus 32). Ezekiel pushes the rebellion back to the Egyptian period itself.",
+        "The phrase va'omar ('and I said/resolved') introduces God's intention to destroy Israel — an intention that is then restrained. This pattern of intended destruction followed by restraint for the sake of God's name will repeat throughout the chapter (vv. 8-9, 13-14, 21-22).",
+        "The phrase lekhallot appi bahem ('to spend/complete my anger against them') describes anger that would run its full course — total, exhaustive judgment."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וָאַ֖עַשׂ לְמַ֣עַן שְׁמִ֑י לְבִלְתִּ֤י הֵחֵל֙ לְעֵינֵ֣י הַגּוֹיִ֔ם אֲשֶׁ֥ר הֵ֖מָּה בְתוֹכָ֑ם אֲשֶׁ֨ר נוֹדַ֤עְתִּי אֲלֵיהֶם֙ לְעֵ֣ינֵיהֶ֔ם לְהוֹצִיאָ֖ם מֵאֶ֥רֶץ מִצְרָֽיִם׃",
+      "text_kjv": "But I wrought for my name's sake, that it should not be polluted before the heathen, among whom they were, in whose sight I made myself known unto them, in bringing them forth out of the land of Egypt.",
+      "rendering": "But I acted for the sake of my name, so that it would not be profaned in the sight of the nations among whom they lived, in whose sight I had made myself known to them by bringing them out of the land of Egypt.",
+      "translator_notes": [
+        "The phrase lema'an shemi ('for the sake of my name') appears here for the first time in the chapter and will recur in verses 14, 22, and 44. God's motivation for sparing Israel is not Israel's worthiness but God's own reputation among the nations. If God destroyed Israel after publicly committing to them, the nations would conclude that he was unable to fulfill his promises.",
+        "The verb hechel ('to profane, to desecrate') describes the opposite of sanctification. God's name — his reputation, his revealed character — would be 'profaned' (treated as common, powerless, meaningless) if he abandoned the people he had publicly claimed.",
+        "This theological logic — God acts for his own name's sake — is not selfish in the human sense but expresses God's commitment to his own integrity and to the truthfulness of his word. His name is his character, and his character demands that his promises hold."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "לְמַעַן שְׁמִי",
+          "transliteration": "lema'an shemi",
+          "rendered_as": "for the sake of my name",
+          "semantic_range": "for my name's sake, for the purpose of my name/reputation, on account of my name",
+          "note": "God's 'name' (shem) in the Hebrew Bible is his revealed character, his reputation among the nations, and his self-disclosed identity. Acting 'for the sake of my name' means acting to preserve the integrity of who he has revealed himself to be. This motif is the theological engine of Ezekiel 20 — God restrains his anger not because Israel deserves mercy but because his own character demands faithfulness."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וָאוֹצִיאֵ֖ם מֵאֶ֣רֶץ מִצְרָ֑יִם וָאֲבִיאֵ֖ם אֶל־הַמִּדְבָּֽר׃",
+      "text_kjv": "Wherefore I caused them to go forth out of the land of Egypt, and brought them into the wilderness.",
+      "rendering": "So I brought them out of the land of Egypt and led them into the wilderness.",
+      "translator_notes": [
+        "The transition is abrupt — God moves directly from Egypt to the wilderness with no mention of the Red Sea crossing, the Song of Moses, or the theophany at Sinai. Ezekiel's retelling strips away all the positive moments and focuses exclusively on rebellion and divine restraint. This is not a balanced history but a prosecutorial brief."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וָאֶתֵּ֤ן לָהֶם֙ אֶת־חֻקּוֹתַ֔י וְאֶת־מִשְׁפָּטַ֖י הוֹדַ֣עְתִּי אוֹתָ֑ם אֲשֶׁ֨ר יַעֲשֶׂ֥ה אוֹתָ֛ם הָאָדָ֖ם וָחַ֥י בָּהֶֽם׃",
+      "text_kjv": "And I gave them my statutes, and shewed them my judgments, which if a man do, he shall even live in them.",
+      "rendering": "I gave them my statutes and made known to them my judgments — which, if a person carries them out, he will live by them.",
+      "translator_notes": [
+        "The phrase asher ya'aseh otam ha'adam vachai bahem ('which, if a person does them, he will live by them') is quoted by Paul in Romans 10:5 and Galatians 3:12 as representative of the 'law principle.' In its original context, it states that God's statutes are life-giving — obedience leads to flourishing, not merely survival.",
+        "The word ha'adam ('the person, the human being') is generic — the principle applies to any human being, not exclusively to Israel. God's statutes are presented as the path to life for humanity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְגַ֥ם אֶת־שַׁבְּתוֹתַ֖י נָתַ֣תִּי לָהֶ֑ם לִהְי֤וֹת לְאוֹת֙ בֵּינִ֣י וּבֵֽינֵיהֶ֔ם לָדַ֕עַת כִּ֛י אֲנִ֥י יְהוָ֖ה מְקַדְּשָֽׁם׃",
+      "text_kjv": "Moreover also I gave them my sabbaths, to be a sign between me and them, that they might know that I am the LORD that sanctify them.",
+      "rendering": "I also gave them my Sabbaths as a sign between me and them, so they would know that I am the LORD who sets them apart as holy.",
+      "expanded_rendering": "The Sabbath is presented here not merely as a day of rest but as an ot ('sign') — a visible marker of the covenant relationship, parallel to circumcision as the sign of the Abrahamic covenant (Genesis 17:11) and the rainbow as the sign of the Noahic covenant (Genesis 9:12-13). The Sabbath functions as public testimony: by observing it, Israel declares before the nations that they belong to the LORD and that the LORD meqaddesh ('sanctifies, sets them apart') them. To violate the Sabbath is therefore not merely to break a rule but to renounce the covenant sign — to erase the mark of belonging. Ezekiel the priest sees the Sabbath as the primary evidence of Israel's covenant status, which makes its violation the primary evidence of covenant betrayal.",
+      "translator_notes": [
+        "The phrase le'ot beini uveineihem ('as a sign between me and them') uses the covenant sign language from Exodus 31:13-17, where the Sabbath is called an ot olam ('eternal sign'). Ezekiel emphasizes the Sabbath above all other commandments because it is the visible, weekly enactment of covenant loyalty.",
+        "The Piel participle meqaddesh ('who sanctifies, who sets apart') describes ongoing divine action — God continually sets Israel apart through the Sabbath observance. The sanctification is not a one-time event but a repeated, weekly renewal of identity."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שַׁבְּתוֹתַי",
+          "transliteration": "shabbetotai",
+          "rendered_as": "my Sabbaths",
+          "semantic_range": "sabbaths, rest days, cessation days",
+          "note": "The possessive 'my Sabbaths' (not 'the Sabbath' or 'your Sabbath') emphasizes that the day belongs to God — Israel observes it on God's terms, as stewards of his time. The plural indicates the recurring institution, not a single day."
+        },
+        {
+          "hebrew": "אוֹת",
+          "transliteration": "ot",
+          "rendered_as": "sign",
+          "semantic_range": "sign, signal, mark, token, evidence, proof",
+          "note": "An ot in the Hebrew Bible is a physical marker with theological meaning — it communicates something about the relationship between the sign-giver and the sign-bearer. The Sabbath sign communicates covenant belonging."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיַּמְר֨וּ בִ֤י בֵֽית־יִשְׂרָאֵל֙ בַּמִּדְבָּ֔ר בְּחֻקּוֹתַ֣י לֹא־הָלָ֗כוּ וְאֶת־מִשְׁפָּטַ֤י מָאָ֙סוּ֙ אֲשֶׁ֨ר יַעֲשֶׂ֤ה אֹתָם֙ הָֽאָדָ֔ם וָחַ֖י בָּהֶ֑ם וְאֶת־שַׁבְּתוֹתַ֞י חִלְּל֣וּ מְאֹ֗ד וָאֹמַ֞ר לִשְׁפֹּ֧ךְ חֲמָתִ֛י עֲלֵיהֶ֖ם בַּמִּדְבָּ֥ר לְכַלּוֹתָֽם׃",
+      "text_kjv": "But the house of Israel rebelled against me in the wilderness: they walked not in my statutes, and they despised my judgments, which if a man do, he shall even live in them; and my sabbaths they greatly polluted: then I said, I would pour out my fury upon them in the wilderness, to consume them.",
+      "rendering": "But the house of Israel rebelled against me in the wilderness. They did not walk in my statutes, and they rejected my judgments — which, if a person carries them out, he will live by them — and they profaned my Sabbaths severely. So I resolved to pour out my wrath on them in the wilderness, to destroy them completely.",
+      "translator_notes": [
+        "The verb ma'asu ('they rejected, they despised') is stronger than mere disobedience — it implies contemptuous dismissal. Israel did not merely fail to keep the judgments; they treated them as worthless.",
+        "The phrase shabbetotai chillelu me'od ('they profaned my Sabbaths severely') singles out Sabbath violation as the climactic offense. The adverb me'od ('very, severely, exceedingly') intensifies the profanation — this was not occasional negligence but systematic desecration.",
+        "The pattern repeats from verse 8: rebellion followed by God's intention to destroy, which will be followed (in v. 14) by restraint for his name's sake. The repetition is deliberate — it presents Israel's history as a monotonous cycle of failure and grace."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וָאֶֽעֱשֶׂ֖ה לְמַ֣עַן שְׁמִ֑י לְבִלְתִּ֤י הֵחֵל֙ לְעֵינֵ֣י הַגּוֹיִ֔ם אֲשֶׁ֥ר הוֹצֵאתִ֖ים לְעֵינֵיהֶֽם׃",
+      "text_kjv": "But I wrought for my name's sake, that it should not be polluted before the heathen, in whose sight I brought them out.",
+      "rendering": "But I acted for the sake of my name, so that it would not be profaned in the sight of the nations before whom I had brought them out.",
+      "translator_notes": [
+        "The second occurrence of the 'for my name's sake' refrain (cf. v. 9). The logic is identical: God restrains his wrath because the nations watched the exodus, and destroying Israel afterward would discredit his power and faithfulness. The nations are witnesses — and God will not allow his reputation to be destroyed before those witnesses."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְגַם־אֲנִ֗י נָשָׂ֤אתִי יָדִי֙ לָהֶ֔ם בַּמִּדְבָּ֑ר לְבִלְתִּ֤י הָבִיא֙ אוֹתָ֔ם אֶל־הָאָ֙רֶץ֙ אֲשֶׁר־נָתַ֔תִּי זָבַ֥ת חָלָ֖ב וּדְבָ֑שׁ צְבִ֥י הִ֖יא לְכָל־הָאֲרָצֽוֹת׃",
+      "text_kjv": "Yet also I lifted up my hand unto them in the wilderness, that I would not bring them into the land which I had given them, flowing with milk and honey, which is the glory of all lands;",
+      "rendering": "Yet I also raised my hand against them in the wilderness, swearing that I would not bring them into the land I had given — a land flowing with milk and honey, the most splendid of all lands —",
+      "translator_notes": [
+        "The phrase nasa'ti yadi ('I raised my hand') now signals an oath of judgment rather than an oath of promise (contrast v. 5-6). The same gesture that promised the land now threatens its denial. God swears to exclude the rebellious generation from the promised land — fulfilling Numbers 14:21-23, where the spies generation was condemned to die in the wilderness.",
+        "The repetition of the land description (zavat chalav udevash, tzevi hi lekhol ha'aratzot) from verse 6 heightens the tragedy — the land they were denied was the finest on earth."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "יַ֗עַן בְּמִשְׁפָּטַ֤י מָאָ֙סוּ֙ וְאֶת־חֻקּוֹתַ֣י לֹא־הָלְכ֣וּ בָהֶ֔ם וְאֶת־שַׁבְּתוֹתַ֖י חִלֵּ֑לוּ כִּ֥י אַחֲרֵ֛י גִלּוּלֵיהֶ֖ם לִבָּ֥ם הֹלֵֽךְ׃",
+      "text_kjv": "Because they despised my judgments, and walked not in my statutes, but polluted my sabbaths: for their heart went after their idols.",
+      "rendering": "because they rejected my judgments, did not walk in my statutes, and profaned my Sabbaths — for their heart pursued their idols.",
+      "translator_notes": [
+        "The diagnostic statement ki acharei gilluleihem libbam holekh ('for their heart pursued their idols') identifies the root cause beneath all the behavioral failures. The problem is not merely external disobedience but internal allegiance — the heart (lev), the seat of will and desire, is oriented toward the gillulim ('dung-idols'). This echoes the 'heart of stone' diagnosis in 11:19.",
+        "The verb holekh ('goes, walks') creates a wordplay: they did not 'walk' (halakhu) in God's statutes, because their heart 'walked' (holekh) after idols. The heart was already in motion — toward the wrong destination."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַתָּ֤חָס עֵינִי֙ עֲלֵיהֶ֔ם מִֽשַּׁחֲתָ֑ם וְלֹא־עָשִׂ֥יתִי אוֹתָ֛ם כָּלָ֖ה בַּמִּדְבָּֽר׃",
+      "text_kjv": "Nevertheless mine eye spared them from destroying them, neither did I make an end of them in the wilderness.",
+      "rendering": "But my eye looked on them with compassion, and I did not destroy them. I did not make a complete end of them in the wilderness.",
+      "translator_notes": [
+        "The phrase vatachas eini ('my eye spared, my eye had compassion') personalizes God's mercy — it is not merely a policy decision but an act of looking at the people with pity. The verb chus ('to spare, to have compassion') implies emotional investment: God felt for them even as he judged them.",
+        "The phrase lo asiti otam kalah ('I did not make a complete end of them') sets a limit on judgment. God punished but did not annihilate — the generation died in the wilderness (Numbers 14), but the children survived."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וָאֹמַ֤ר אֶל־בְּנֵיהֶם֙ בַּמִּדְבָּ֔ר בְּחוּקֵּ֥י אֲבֽוֹתֵיכֶ֖ם אַל־תֵּלֵ֑כוּ וְאֶת־מִשְׁפְּטֵיהֶ֣ם אַל־תִּשְׁמֹ֔רוּ וּבְגִלּוּלֵיהֶ֖ם אַל־תִּטַּמָּֽאוּ׃",
+      "text_kjv": "But I said unto their children in the wilderness, Walk ye not in the statutes of your fathers, neither observe their judgments, nor defile yourselves with their idols:",
+      "rendering": "I said to their children in the wilderness: Do not walk in the statutes of your fathers, do not keep their judgments, and do not defile yourselves with their idols.",
+      "translator_notes": [
+        "God addresses the second wilderness generation directly. The phrase bechuqqei avoteikhem ('in the statutes of your fathers') distinguishes the fathers' corrupted practices from God's own statutes. The fathers had developed their own 'statutes' — customs and traditions of idolatry — that the children are commanded to reject.",
+        "The triple prohibition (do not walk, do not keep, do not defile) mirrors the triple failure of the first generation. God gives the second generation an explicit chance to break the cycle."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "אֲנִ֥י יְהוָ֖ה אֱלֹהֵיכֶ֑ם בְּחֻקּוֹתַ֣י לֵ֔כוּ וְאֶת־מִשְׁפָּטַ֖י שִׁמְר֥וּ וַעֲשׂ֖וּ אוֹתָֽם׃",
+      "text_kjv": "I am the LORD your God; walk in my statutes, and keep my judgments, and do them;",
+      "rendering": "I am the LORD your God. Walk in my statutes, keep my judgments, and carry them out.",
+      "translator_notes": [
+        "The self-identification formula ani YHWH eloheikhem ('I am the LORD your God') reasserts God's authority and covenant claim before issuing the commands. The logic is: because I am who I am, obey. Identity grounds obligation.",
+        "The three imperatives (walk, keep, carry out) present a comprehensive demand: internalize (walk), maintain (keep), and perform (carry out). Obedience is not passive but active at every level."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאֶת־שַׁבְּתוֹתַ֖י קַדֵּ֑שׁוּ וְהָי֤וּ לְאוֹת֙ בֵּינִ֣י וּבֵֽינֵיכֶ֔ם לָדַ֕עַת כִּ֛י אֲנִ֥י יְהוָ֖ה אֱלֹהֵיכֶֽם׃",
+      "text_kjv": "And hallow my sabbaths; and they shall be a sign between me and you, that ye may know that I am the LORD your God.",
+      "rendering": "Keep my Sabbaths holy, and they will be a sign between me and you, so that you may know that I am the LORD your God.",
+      "translator_notes": [
+        "The command qaddeshu ('sanctify, keep holy') is a Piel imperative — actively consecrate the Sabbaths, set them apart from ordinary time. The repetition of the Sabbath-as-sign language from verse 12 emphasizes that the second generation received the identical covenant marker and the identical opportunity.",
+        "The recognition formula lada'at ki ani YHWH eloheikhem ('so that you may know that I am the LORD your God') makes the Sabbath epistemological — it is a means of knowing God, not merely obeying a rule."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיַּמְרוּ־בִ֣י הַבָּנִ֗ים בְּחֻקּוֹתַ֣י לֹא־הָלָ֡כוּ וְאֶת־מִשְׁפָּטַי֩ לֹ֨א שָׁמְר֤וּ לַעֲשׂוֹת֙ אוֹתָ֔ם אֲשֶׁ֨ר יַעֲשֶׂ֤ה אוֹתָם֙ הָאָדָ֔ם וָחַ֖י בָּהֶ֑ם אֶת־שַׁבְּתוֹתַ֖י חִלֵּ֑לוּ וָאֹמַ֗ר לִשְׁפֹּ֤ךְ חֲמָתִי֙ עֲלֵיהֶ֔ם לְכַלּ֥וֹת אַפִּ֖י בָּ֥ם בַּמִּדְבָּֽר׃",
+      "text_kjv": "Notwithstanding the children rebelled against me: they walked not in my statutes, neither kept my judgments to do them, which if a man do, he shall even live in them; they polluted my sabbaths: then I said, I would pour out my fury upon them, to accomplish my anger against them in the wilderness.",
+      "rendering": "But the children also rebelled against me. They did not walk in my statutes or keep my judgments so as to carry them out — which, if a person does them, he will live by them — and they profaned my Sabbaths. So I resolved to pour out my wrath on them, to spend my anger against them in the wilderness.",
+      "translator_notes": [
+        "The third cycle of the rebellion pattern: God commands, the people rebel, God resolves to destroy, and then restrains himself. The second generation repeats the first generation's failure exactly — the same verbs, the same offenses, the same divine response. The monotony is theological: Israel's sin is not a single catastrophic event but a relentless pattern.",
+        "The phrase vayyamru vi habanim ('the children also rebelled against me') is devastating in context — these are the children who were supposed to be different, the generation that received explicit warning against repeating their parents' mistakes (v. 18)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַהֲשִׁבֹ֣תִי אֶת־יָדִ֗י וָאַ֙עַשׂ֙ לְמַ֣עַן שְׁמִ֔י לְבִלְתִּ֥י הֵחֵ֖ל לְעֵינֵ֣י הַגּוֹיִ֑ם אֲשֶׁ֧ר הוֹצֵ֣אתִי אוֹתָ֛ם לְעֵינֵיהֶֽם׃",
+      "text_kjv": "Nevertheless I withdrew mine hand, and wrought for my name's sake, that it should not be polluted in the sight of the heathen, in whose sight I brought them forth.",
+      "rendering": "But I withdrew my hand and acted for the sake of my name, so that it would not be profaned in the sight of the nations before whom I had brought them out.",
+      "translator_notes": [
+        "The phrase vahashivoti et yadi ('I turned back my hand, I withdrew my hand') is a powerful image — God's hand was raised to strike, and he pulled it back. The gesture combines the oath-swearing posture (raised hand) with the image of a blow about to fall.",
+        "Third occurrence of the 'for my name's sake' refrain. The repetition builds a theological argument: at every stage of Israel's history, what saved them was not their own merit but God's commitment to his own reputation and integrity."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "גַּ֣ם אֲנִ֗י נָשָׂ֤אתִי אֶת־יָדִי֙ לָהֶ֔ם בַּמִּדְבָּ֑ר לְהָפִ֤יץ אֹתָם֙ בַּגּוֹיִ֔ם וּלְזָר֥וֹת אוֹתָ֖ם בָּאֲרָצֽוֹת׃",
+      "text_kjv": "I lifted up mine hand unto them also in the wilderness, that I would scatter them among the heathen, and disperse them through the countries;",
+      "rendering": "I also raised my hand against them in the wilderness, swearing to scatter them among the nations and disperse them through the lands,",
+      "translator_notes": [
+        "The oath of exile — God swore in the wilderness to scatter the future generations among the nations. This retrojects the exile to the wilderness period, presenting it not as a late historical accident but as a consequence that was already determined by the rebellion pattern. The verbs lehafitz ('to scatter') and lizrot ('to disperse') describe total dissolution of national unity — Israel would be broken apart and spread among foreign peoples.",
+        "This verse places the theological origin of the exile not at 586 BCE but in the wilderness generation's rebellion. The Babylonian exile is the long-delayed execution of a sentence pronounced centuries earlier."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "יַ֗עַן מִשְׁפָּטַ֤י לֹא־עָשׂוּ֙ וְחֻקּוֹתַ֣י מָאָ֔סוּ וְאֶת־שַׁבְּתוֹתַ֖י חִלֵּ֑לוּ וְאַחֲרֵ֛י גִּלּוּלֵ֥י אֲבוֹתָ֖ם הָי֥וּ עֵינֵיהֶֽם׃",
+      "text_kjv": "Because they had not executed my judgments, but had despised my statutes, and had polluted my sabbaths, and their eyes were after their fathers' idols.",
+      "rendering": "because they did not carry out my judgments, rejected my statutes, profaned my Sabbaths, and their eyes followed their fathers' idols.",
+      "translator_notes": [
+        "The indictment of the second generation mirrors the first generation's (v. 16) almost verbatim, reinforcing the pattern of intergenerational failure. The phrase ve'acharei gillulei avotam hayu eineihem ('their eyes followed their fathers' idols') echoes verse 16's 'their heart pursued their idols' — the organs change (eyes instead of heart) but the direction remains the same: toward the gillulim.",
+        "The irony is sharp: these children were told not to follow their fathers' statutes (v. 18), but they follow their fathers' idols. They obeyed neither God's command nor their own better judgment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְגַ֣ם אֲנִ֗י נָתַ֤תִּי לָהֶם֙ חֻקִּ֣ים לֹ֣א טוֹבִ֔ים וּמִשְׁפָּטִ֖ים לֹ֣א יִֽחְי֥וּ בָהֶֽם׃",
+      "text_kjv": "Wherefore I gave them also statutes that were not good, and judgments whereby they should not live;",
+      "rendering": "I also gave them statutes that were not good and judgments by which they could not live,",
+      "translator_notes": [
+        "This is the most theologically difficult verse in the chapter and one of the most debated in the entire book. Does God claim to have given Israel bad laws? Several interpretations exist: (1) God permitted Israel to follow pagan customs as judicial abandonment — 'gave' in the sense of 'handed them over to.' This parallels Romans 1:24-26, where God 'gave them over' to their desires. (2) God gave laws that, when misunderstood or taken in isolation, could lead to destructive practices — specifically the laws about the firstborn (v. 26), which some Israelites perverted into child sacrifice. (3) The 'statutes not good' are the harsh consequences (exile, scattering) that function as negative statutes imposed on a rebellious people. We render the Hebrew directly and document the interpretive options without resolving the tension.",
+        "The phrase chuqqim lo tovim ('statutes not good') is deliberately shocking after verses 11 and 13, where God's statutes are described as life-giving. The contrast is intentional — it forces the reader to grapple with the text."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וָאֲטַמֵּ֤א אוֹתָם֙ בְּמַתְּנוֹתָ֔ם בְּהַעֲבִ֖יר כָּל־פֶּ֣טֶר רָ֑חַם לְמַ֣עַן אֲשִׁמֵּ֔ם לְמַ֣עַן אֲשֶׁ֤ר יֵדְעוּ֙ אֲשֶׁ֣ר אֲנִ֥י יְהוָֽה׃",
+      "text_kjv": "And I polluted them in their own gifts, in that they caused to pass through the fire all that openeth the womb, that I might make them desolate, to the end that they might know that I am the LORD.",
+      "rendering": "and I let them defile themselves through their offerings when they passed every firstborn through the fire — so that I might devastate them, so that they would know that I am the LORD.",
+      "translator_notes": [
+        "The phrase beha'avir kol peter racham ('when they passed every firstborn through [the fire]') refers to child sacrifice. The verb he'evir ('to cause to pass through') is the technical term for the ritual of passing children through fire (cf. 2 Kings 16:3, 23:10; Jeremiah 32:35). Ezekiel presents this as a perversion of the law of the firstborn (Exodus 13:2, 13:12) — God demanded the consecration of the firstborn, and Israel twisted this into literal immolation.",
+        "The verb va'atamme ('I defiled/let them defile') can be read as permissive ('I permitted their defilement') rather than causative ('I caused their defilement'). The Piel form allows both readings. The context supports the permissive reading: God withdrew his protective restraint, allowing Israel's perverse interpretation of the firstborn law to run its horrific course.",
+        "The purpose clause lema'an ashimmem ('so that I might devastate them') is devastating — the horror of child sacrifice would serve as its own punishment, destroying the community that practiced it. Yet even this leads to the recognition formula: 'so that they would know that I am the LORD.'"
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "לָכֵ֗ן דַּבֵּ֧ר אֶל־בֵּֽית־יִשְׂרָאֵ֛ל בֶּן־אָדָ֖ם וְאָמַרְתָּ֣ אֲלֵיהֶ֑ם כֹּֽה־אָמַר֮ אֲדֹנָ֣י יְהוִה֒ עוֹד֙ זֹ֣את גִּדְּפ֣וּ אוֹתִ֔י אֲבֽוֹתֵיכֶ֖ם בְּמַעֲלָ֥ם בִּ֖י מָֽעַל׃",
+      "text_kjv": "Therefore, son of man, speak unto the house of Israel, and say unto them, Thus saith the Lord GOD; Yet in this your fathers have blasphemed me, in that they have committed a trespass against me.",
+      "rendering": "Therefore, son of man, speak to the house of Israel and say to them: This is what the Lord GOD says — In this also your fathers blasphemed me by acting treacherously against me.",
+      "translator_notes": [
+        "The verb giddefu ('they blasphemed') is among the strongest language in the Hebrew Bible — it implies deliberate, conscious insult to God. Combined with ma'al ('treachery, unfaithfulness'), the accusation is of willful, knowing covenant betrayal.",
+        "The historical narrative now moves to the settlement period — the fathers entered the land and continued the pattern of rebellion there."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וָאֲבִיאֵ֣ם אֶל־הָאָ֗רֶץ אֲשֶׁ֤ר נָשָׂ֙אתִי֙ אֶת־יָדִ֔י לָתֵ֥ת אוֹתָ֖הּ לָהֶ֑ם וַיִּרְא֣וּ כָל־גִּבְעָ֣ה רָ֠מָה וְכָל־עֵ֨ץ עָבֹ֜ת וַיִּזְבְּחוּ־שָׁ֣ם אֶת־זִבְחֵיהֶ֗ם וַיִּתְּנוּ־שָׁם֙ כַּ֣עַס קָרְבָּנָ֔ם וַיָּשִׂ֣ימוּ שָׁ֗ם רֵ֚יחַ נִיחֹ֣חֵיהֶ֔ם וַיַּסִּ֥יכוּ שָׁ֖ם אֶת־נִסְכֵּיהֶֽם׃",
+      "text_kjv": "For when I had brought them into the land, for the which I lifted up mine hand to give it to them, then they saw every high hill, and all the thick trees, and they offered there their sacrifices, and there they presented the provocation of their offering: there also they made their sweet savour, and poured out there their drink offerings.",
+      "rendering": "When I brought them into the land that I had raised my hand to give them, they looked at every high hill and every leafy tree and slaughtered their sacrifices there, presented their offensive offerings there, set out their pleasing aromas there, and poured out their drink offerings there.",
+      "translator_notes": [
+        "The phrase kol giv'ah ramah vekhol etz avot ('every high hill and every leafy tree') is the standard description of Canaanite worship sites — hilltop shrines under sacred trees. The word kol ('every') emphasizes the totality of the corruption: not one high place but all of them.",
+        "The term ka'as qorbanam ('the provocation of their offerings') uses ka'as ('provocation, anger, vexation') — their offerings did not please God but provoked him. The language of reiacḥ nicḥocḥeihem ('their pleasing aromas') is bitterly ironic: what should have been a soothing aroma directed to God was instead offered to idols.",
+        "The fourfold repetition of sham ('there') hammers the location: there, at every high place, they defiled the covenant. The repetition has an accusatory rhythm."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וָאֹמַ֣ר אֲלֵהֶ֔ם מָ֣ה הַבָּמָ֔ה אֲשֶׁר־אַתֶּ֥ם הַבָּאִ֖ים שָׁ֑ם וַיִּקָּרֵ֤א שְׁמָהּ֙ בָּמָ֔ה עַ֖ד הַיּ֥וֹם הַזֶּֽה׃",
+      "text_kjv": "Then I said unto them, What is the high place whereunto ye go? And the name thereof is called Bamah unto this day.",
+      "rendering": "I said to them, 'What is this high place you keep going to?' (And it is called 'Bamah' to this day.)",
+      "translator_notes": [
+        "God's question mah habamah ('what is this bamah/high place?') contains a wordplay that is difficult to capture in English. The word bamah means 'high place' (a cultic installation), but the question mah habamah ('what is the high place?') may also be heard as a contemptuous pun — 'what is this coming-there?' (breaking the word into ba + mah, 'coming' + 'what'). The name 'Bamah' stuck, preserving the contemptuous question as the site's permanent name.",
+        "The phrase ad hayyom hazzeh ('to this day') is an etiological formula — it explains why the name persists. The site's name enshrines God's contempt for the idolatrous practice."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "לָכֵ֞ן אֱמֹ֣ר ׀ אֶל־בֵּ֣ית יִשְׂרָאֵ֗ל כֹּֽה־אָמַר֮ אֲדֹנָ֣י יְהוִה֒ הַבְּדֶ֤רֶךְ אֲבֽוֹתֵיכֶם֙ אַתֶּ֣ם נִטְמְאִ֔ים וְאַחֲרֵ֥י שִׁקּוּצֵיהֶ֖ם אַתֶּ֥ם זֹנִֽים׃",
+      "text_kjv": "Wherefore say unto the house of Israel, Thus saith the Lord GOD; Are ye polluted after the manner of your fathers? and commit ye whoredom after their abominations?",
+      "rendering": "Therefore, say to the house of Israel: This is what the Lord GOD says — Are you defiling yourselves in the way of your fathers? Are you prostituting yourselves after their detestable idols?",
+      "translator_notes": [
+        "The historical retrospective now arrives at the present generation — the elders sitting before Ezekiel. The question is rhetorical and accusatory: 'you are doing the same thing.' The transition from past to present is the point of the entire history lesson.",
+        "The verb zonim ('prostituting yourselves') applies the sexual-infidelity metaphor that dominates Ezekiel 16 and 23. Idolatry is covenant adultery — spiritual prostitution."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וּבִשְׂאֵ֣ת מַתְּנֹתֵיכֶ֗ם בְּהַעֲבִ֤יר בְּנֵיכֶם֙ בָּאֵ֔שׁ אַתֶּ֧ם נִטְמְאִ֛ים לְכָל־גִּלּוּלֵיכֶ֖ם עַד־הַיּ֑וֹם וַאֲנִ֛י אִדָּרֵ֥שׁ לָכֶ֖ם בֵּ֣ית יִשְׂרָאֵ֑ל חַי־אָ֕נִי נְאֻ֖ם אֲדֹנָ֥י יְהוִ֛ה אִם־אִדָּרֵ֥שׁ לָכֶֽם׃",
+      "text_kjv": "For when ye offer your gifts, when ye make your sons to pass through the fire, ye pollute yourselves with all your idols, even unto this day: and shall I be enquired of by you, O house of Israel? As I live, saith the Lord GOD, I will not be enquired of by you.",
+      "rendering": "When you present your gifts and pass your children through the fire, you defile yourselves with all your idols to this very day. And should I let you inquire of me, house of Israel? As I live, declares the Lord GOD, I will not be inquired of by you!",
+      "translator_notes": [
+        "The phrase beha'avir beneikhem ba'esh ('when you pass your children through the fire') accuses the present generation of ongoing child sacrifice. This is not merely a historical review — the exiles in Babylon are charged with continuing (or having recently continued) this practice.",
+        "The refusal formula from verse 3 returns with full force: chai ani... im iddaresh lakhem ('as I live... I will certainly not be consulted by you'). The entire historical review (vv. 5-30) now serves as the justification for this refusal — God will not respond to inquirers who are themselves practitioners of abomination.",
+        "The phrase ad hayyom ('to this very day') is the devastating temporal marker — the corruption is not past but present."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְהָעֹלָ֣ה עַל־ר֣וּחֲכֶ֗ם הָי֤וֹ לֹֽא־תִהְיֶה֙ אֲשֶׁ֣ר אַתֶּ֣ם אֹמְרִ֔ים נִֽהְיֶ֣ה כַגּוֹיִ֗ם כְּמִשְׁפְּחוֹת֙ הָאֲרָצ֔וֹת לְשָׁרֵ֖ת עֵ֥ץ וָאָֽבֶן׃",
+      "text_kjv": "And that which cometh into your mind shall not be at all, that ye say, We will be as the heathen, as the families of the countries, to serve wood and stone.",
+      "rendering": "What comes to your mind will never happen — what you say: 'Let us be like the nations, like the peoples of other lands, worshiping wood and stone.'",
+      "translator_notes": [
+        "God exposes the secret aspiration of the exiles: they want to assimilate — to abandon their distinctive identity and become like the surrounding nations, worshiping their material gods of 'wood and stone.' The phrase etz va'aven ('wood and stone') reduces pagan worship to its material absurdity: you want to worship carved objects.",
+        "The declaration hayo lo tihyeh ('it will absolutely not happen') uses the infinitive absolute for emphatic denial. God vetoes their plan of assimilation with maximum force. Israel will not be allowed to disappear into the nations — they are bound to their covenant identity whether they want it or not."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "חַי־אָ֗נִי נְאֻם֙ אֲדֹנָ֣י יְהוִ֔ה אִם־לֹ֗א בְּיָ֤ד חֲזָקָה֙ וּבִזְר֣וֹעַ נְטוּיָ֔ה וּבְחֵמָ֖ה שְׁפוּכָ֑ה אֶמְל֖וֹךְ עֲלֵיכֶֽם׃",
+      "text_kjv": "As I live, saith the Lord GOD, surely with a mighty hand, and with a stretched out arm, and with fury poured out, will I rule over you:",
+      "rendering": "As I live, declares the Lord GOD, with a mighty hand, with an outstretched arm, and with poured-out wrath, I will reign over you!",
+      "translator_notes": [
+        "The oath formula chai ani introduces the second exodus passage (vv. 33-38). The language beyad chazaqah uvizro'a netuyah ('with a mighty hand and with an outstretched arm') deliberately echoes the exodus from Egypt (Deuteronomy 4:34, 5:15, 26:8), but with a terrifying addition: uvechamah shefukhah ('and with poured-out wrath'). The first exodus was liberation; this second exodus will include judgment.",
+        "The verb emlokh ('I will reign, I will rule as king') asserts God's kingship over Israel. They wanted to be like the nations (v. 32), but God declares that he will be their king regardless of their desires. Israel's covenant obligation is not optional."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְהוֹצֵאתִ֣י אֶתְכֶ֗ם מִן־הָֽעַמִּים֙ וְקִבַּצְתִּ֣י אֶתְכֶ֔ם מִן־הָ֣אֲרָצ֔וֹת אֲשֶׁ֥ר נְפוֹצֹתֶ֖ם בָּ֑ם בְּיָ֤ד חֲזָקָה֙ וּבִזְר֣וֹעַ נְטוּיָ֔ה וּבְחֵמָ֖ה שְׁפוּכָֽה׃",
+      "text_kjv": "And I will bring you out from the people, and will gather you out of the countries wherein ye are scattered, with a mighty hand, and with a stretched out arm, and with fury poured out.",
+      "rendering": "I will bring you out from the peoples and gather you from the lands where you have been scattered, with a mighty hand, with an outstretched arm, and with poured-out wrath.",
+      "translator_notes": [
+        "The gathering language (vehotze'ti, veqibbatzti) echoes 11:17 and anticipates 36:24 — the promise of return from exile. But unlike those passages, this gathering is accompanied by wrath. The second exodus is not a comfortable rescue but a forceful act of divine sovereignty that includes purging (v. 38)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וְהֵבֵאתִ֣י אֶתְכֶ֔ם אֶל־מִדְבַּ֖ר הָעַמִּ֑ים וְנִשְׁפַּטְתִּ֥י אִתְּכֶ֛ם שָׁ֖ם פָּנִ֥ים אֶל־פָּנִֽים׃",
+      "text_kjv": "And I will bring you into the wilderness of the people, and there will I plead with you face to face.",
+      "rendering": "I will bring you into the wilderness of the peoples, and there I will enter into judgment with you face to face.",
+      "translator_notes": [
+        "The phrase midbar ha'ammim ('the wilderness of the peoples') is unique — it parallels the original wilderness between Egypt and Canaan but now it is the wilderness 'of the peoples,' a new wilderness experience among the nations. The second exodus mirrors the first, complete with a wilderness stage.",
+        "The phrase panim el panim ('face to face') echoes Moses's relationship with God (Exodus 33:11, Deuteronomy 34:10), but here it describes confrontational judgment, not intimate communion. God will confront Israel directly, without intermediary, in the wilderness of exile."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "כַּאֲשֶׁ֤ר נִשְׁפַּ֙טְתִּי֙ אֶת־אֲב֣וֹתֵיכֶ֔ם בְּמִדְבַּ֖ר אֶ֣רֶץ מִצְרָ֑יִם כֵּ֛ן אִשָּׁפֵ֥ט אִתְּכֶ֖ם נְאֻ֥ם אֲדֹנָ֥י יְהוִֽה׃",
+      "text_kjv": "Like as I pleaded with your fathers in the wilderness of the land of Egypt, so will I plead with you, saith the Lord GOD.",
+      "rendering": "Just as I entered into judgment with your fathers in the wilderness of the land of Egypt, so I will enter into judgment with you, declares the Lord GOD.",
+      "translator_notes": [
+        "The parallel is explicit: the wilderness judgment of the first generation (Numbers 14) becomes the pattern for the second exodus. God judged the fathers in the original wilderness, and he will judge this generation in a new wilderness. The verb nishpateti ('I entered into judgment') carries a legal sense — this is a judicial process, not arbitrary destruction."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְהַעֲבַרְתִּ֥י אֶתְכֶ֖ם תַּ֣חַת הַשָּׁ֑בֶט וְהֵבֵאתִ֣י אֶתְכֶ֔ם בְּמָסֹ֖רֶת הַבְּרִֽית׃",
+      "text_kjv": "And I will cause you to pass under the rod, and I will bring you into the bond of the covenant.",
+      "rendering": "I will make you pass under the rod and bring you into the bond of the covenant.",
+      "expanded_rendering": "The image of passing 'under the rod' (tachat hashavet) draws from the pastoral practice of counting sheep: a shepherd holds his staff over the entrance to the fold, and each animal passes beneath it to be counted and inspected (Leviticus 27:32). God will inspect each Israelite individually — no one slips through the count unchecked. The phrase masoret habberit ('the bond of the covenant') uses masoret, which means 'binding obligation, bond, discipline.' The covenant is not merely an agreement but a binding constraint. God will force Israel back into covenant relationship — not as an option they can accept or reject but as an inescapable obligation. The second exodus, unlike the first, will result not in optional obedience but in enforced covenant fidelity.",
+      "translator_notes": [
+        "The phrase veha'avarti etkhem tachat hashavet ('I will make you pass under the rod') alludes to the tithing practice of Leviticus 27:32, where every tenth animal passing under the rod was consecrated to the LORD. The image combines inspection, selection, and consecration — God will examine each person and set apart those who belong to him.",
+        "The word masoret ('bond, obligation') from the root y-s-r ('to bind, to discipline') presents the covenant as both privilege and constraint. The 'bond of the covenant' (masoret habberit) is not a chain of oppression but a binding commitment — Israel will be bound to their covenant identity because God will bind them."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָסֹרֶת הַבְּרִית",
+          "transliteration": "masoret habberit",
+          "rendered_as": "the bond of the covenant",
+          "semantic_range": "bond, obligation, discipline, binding of the covenant",
+          "note": "This phrase appears only here in the Hebrew Bible. Masoret carries the sense of binding obligation — the covenant is not a loose arrangement but a firm, constraining bond. God will bring Israel back into this bond, and the bond will hold."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וּבָרוֹתִ֣י מִכֶּ֗ם הַמֹּרְדִ֤ים וְהַפּוֹשְׁעִים֙ בִּ֔י מֵאֶ֤רֶץ מְגוּרֵיהֶם֙ אוֹצִ֣יא אוֹתָ֔ם וְאֶל־אַדְמַ֥ת יִשְׂרָאֵ֖ל לֹ֣א יָב֑וֹא וִידַעְתֶּ֖ם כִּי־אֲנִ֥י יְהוָֽה׃",
+      "text_kjv": "And I will purge out from among you the rebels, and them that transgress against me: I will bring them forth out of the country where they sojourn, and they shall not enter into the land of Israel: and ye shall know that I am the LORD.",
+      "rendering": "I will purge the rebels and those who transgress against me from among you. I will bring them out of the land where they reside, but they will not enter the soil of Israel. Then you will know that I am the LORD.",
+      "translator_notes": [
+        "The verb uvaroti ('I will purge') is from the root b-r-r ('to purify, to sift, to select'). The second exodus will include a sifting process — the rebels will be removed, and only the faithful will enter the land. This mirrors Numbers 14, where the rebellious generation died in the wilderness and only Joshua and Caleb entered.",
+        "The distinction between 'bringing them out' and 'they will not enter' is crucial: God will extract the rebels from exile (they will not remain comfortably among the nations), but they will not be allowed to reach the promised land. They will be purged in the wilderness between exile and restoration."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְאַתֶּ֣ם בֵּֽית־יִשְׂרָאֵ֗ל כֹּה־אָמַר֮ אֲדֹנָ֣י יְהוִה֒ אִ֣ישׁ גִּלּוּלָ֤יו לְכוּ֙ עִבְד֔וּ וְאַחַ֕ר אִם־אֵינְכֶ֥ם שֹׁמְעִ֖ים אֵלָ֑י וְאֶת־שֵׁ֤ם קָדְשִׁי֙ לֹ֣א תְחַלְּל֣וּ ע֔וֹד בְּמַתְּנוֹתֵיכֶ֖ם וּבְגִלּוּלֵיכֶֽם׃",
+      "text_kjv": "As for you, O house of Israel, thus saith the Lord GOD; Go ye, serve ye every one his idols, and hereafter also, if ye will not hearken unto me: but pollute ye my holy name no more with your gifts, and with your idols.",
+      "rendering": "As for you, house of Israel — this is what the Lord GOD says — Go, each of you serve your idols! But afterward, you will surely listen to me, and you will no longer profane my holy name with your gifts and your idols.",
+      "translator_notes": [
+        "The command lekhu ivdu ('go, serve!') is heavily debated. It may be (1) bitter sarcasm — 'Fine, go serve your idols if that is what you want!' — or (2) a conditional statement — 'Go serve your idols [now], but afterward [in the restoration] you will listen to me.' The Hebrew syntax supports the second reading: the ve'achar ('and afterward') clause introduces the future turning point.",
+        "The phrase et shem qodshi lo techalelu od ('you will no longer profane my holy name') is a promise about the post-purging future, not a present command. After the wilderness judgment and the purging of rebels, the restored community will not continue the profanation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "כִּ֣י בְהַר־קָדְשִׁ֗י בְּהַ֨ר מְר֤וֹם יִשְׂרָאֵל֙ נְאֻ֣ם אֲדֹנָ֣י יְהוִ֔ה שָׁ֗ם יַעַבְדֻ֛נִי כָּל־בֵּ֥ית יִשְׂרָאֵ֖ל כֻּלֹּ֣ה בָאָ֑רֶץ שָׁם֙ אֶרְצֵ֔ם וְשָׁ֣ם אֶדְרוֹשׁ֩ אֶת־תְּרוּמֹ֨תֵיכֶ֜ם וְאֶת־רֵאשִׁ֤ית מַשְׂאוֹתֵיכֶם֙ בְּכָל־קָדְשֵׁיכֶֽם׃",
+      "text_kjv": "For in mine holy mountain, in the mountain of the height of Israel, saith the Lord GOD, there shall all the house of Israel, all of them in the land, serve me: there will I accept them, and there will I require your offerings, and the firstfruits of your oblations, with all your holy things.",
+      "rendering": "For on my holy mountain, on the high mountain of Israel, declares the Lord GOD, there the whole house of Israel — all of them — will serve me in the land. There I will accept them, and there I will require your contributions and the choicest of your offerings, along with all your holy gifts.",
+      "translator_notes": [
+        "The phrase behar qodshi ('on my holy mountain') points forward to the Temple mount of chapters 40-48. The 'high mountain of Israel' (har merom Yisra'el) is the Temple mount, the center of restored worship.",
+        "The verb ertzem ('I will accept them') uses the root r-tz-h, meaning 'to be pleased with, to accept favorably.' The same root that describes divine rejection in sacrificial contexts now describes divine acceptance — the restored community's worship will please God.",
+        "The phrase kol beit Yisra'el kulloh ('the whole house of Israel, all of them') emphasizes totality — the restored community will be complete, not partial. This anticipates the reunification of Judah and Israel (37:15-28)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "בְּרֵ֤יחַ נִיחֹ֙חַ֙ אֶרְצֶ֣ה אֶתְכֶ֔ם בְּהוֹצִיאִ֥י אֶתְכֶ֖ם מִן־הָעַמִּ֑ים וְקִבַּצְתִּ֣י אֶתְכֶ֔ם מִן־הָ֣אֲרָצ֔וֹת אֲשֶׁ֥ר נְפֹצֹתֶ֖ם בָּ֑ם וְנִקְדַּשְׁתִּ֥י בָכֶ֖ם לְעֵינֵ֥י הַגּוֹיִֽם׃",
+      "text_kjv": "I will accept you with your sweet savour, when I bring you out from the people, and gather you out of the countries wherein ye have been scattered; and I will be sanctified in you before the heathen.",
+      "rendering": "As a pleasing aroma I will accept you, when I bring you out from the peoples and gather you from the lands where you have been scattered. And I will show myself holy through you in the sight of the nations.",
+      "translator_notes": [
+        "The phrase bereiach nichoach ertzeh etkhem ('as a pleasing aroma I will accept you') uses sacrificial language — the restored people themselves become the acceptable offering, a 'pleasing aroma' to God. This is priestly theology applied to the entire community: Israel itself is the offering.",
+        "The phrase veniqdashti bakhem le'einei haggoyim ('I will be sanctified/shown holy through you in the sight of the nations') reverses the profanation motif of the chapter. Where Israel had profaned God's name among the nations, God will now sanctify his name through restored Israel. The nations who witnessed the profanation will witness the restoration."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וִידַעְתֶּם֙ כִּי־אֲנִ֣י יְהוָ֔ה בַּהֲבִיאִ֥י אֶתְכֶ֖ם אֶל־אַדְמַ֣ת יִשְׂרָאֵ֑ל אֶל־הָאָ֕רֶץ אֲשֶׁ֤ר נָשָׂ֙אתִי֙ אֶת־יָדִ֔י לָתֵ֥ת אוֹתָ֖הּ לַאֲבוֹתֵיכֶֽם׃",
+      "text_kjv": "And ye shall know that I am the LORD, when I shall bring you into the land of Israel, into the country for the which I lifted up mine hand to give it to your fathers.",
+      "rendering": "Then you will know that I am the LORD, when I bring you to the soil of Israel — to the land for which I raised my hand, swearing to give it to your fathers.",
+      "translator_notes": [
+        "The recognition formula vida'tem ki ani YHWH returns, now linked to restoration rather than judgment. Throughout the chapter, 'you will know that I am the LORD' has accompanied acts of judgment; here for the first time it accompanies an act of grace. Knowledge of God comes through both judgment and mercy.",
+        "The oath language nassa'ti et yadi ('I raised my hand') echoes verses 5-6, completing the circle: what God swore in Egypt, he will fulfill despite everything that has intervened. The oath stands."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וּזְכַרְתֶּם־שָׁם֙ אֶת־דַּרְכֵיכֶ֔ם וְאֵת֙ כָּל־עֲלִילֽוֹתֵיכֶ֔ם אֲשֶׁ֥ר נִטְמֵאתֶ֖ם בָּ֑ם וּנְקֹטֹתֶ֣ם בִּפְנֵיכֶ֔ם בְּכָל־רָעוֹתֵיכֶ֖ם אֲשֶׁ֥ר עֲשִׂיתֶֽם׃",
+      "text_kjv": "And there shall ye remember your ways, and all your doings, wherein ye have been defiled; and ye shall lothe yourselves in your own sight for all your evils that ye have committed.",
+      "rendering": "There you will remember your ways and all your deeds by which you defiled yourselves, and you will loathe yourselves for all the evil things you have done.",
+      "translator_notes": [
+        "The verb uzekhartem ('you will remember') introduces the post-restoration experience of self-awareness. In the land, the restored community will look back on their history with horror and self-loathing. Memory becomes a means of ongoing repentance.",
+        "The reflexive verb uneqototem bifneikhem ('you will loathe yourselves, be disgusted with yourselves') describes a visceral, physical revulsion at one's own past behavior. This is not merely cognitive regret but embodied shame. The same verb (qut) appears in 6:9 and 36:31."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וִידַעְתֶּ֣ם כִּֽי־אֲנִ֣י יְהוָ֗ה בַּעֲשׂוֹתִ֤י אִתְּכֶם֙ לְמַ֣עַן שְׁמִ֔י לֹ֥א כִדְרָכֵיכֶ֖ם הָרָעִ֑ים וְכַעֲלִילוֹתֵיכֶ֤ם הַנִּשְׁחָתוֹת֙ בֵּ֣ית יִשְׂרָאֵ֔ל נְאֻ֖ם אֲדֹנָ֥י יְהוִֽה׃",
+      "text_kjv": "And ye shall know that I am the LORD, when I have wrought with you for my name's sake, not according to your wicked ways, nor according to your corrupt doings, O ye house of Israel, saith the Lord GOD.",
+      "rendering": "Then you will know that I am the LORD, when I deal with you for the sake of my name — not according to your wicked ways or your corrupt deeds, house of Israel, declares the Lord GOD.\"",
+      "expanded_rendering": "The final occurrence of lema'an shemi ('for the sake of my name') in this chapter (cf. vv. 9, 14, 22) now applies to restoration rather than judgment. The same principle that restrained God's wrath now motivates God's mercy. God's concern for his own reputation — his name, his character — drives both judgment and salvation. The stunning admission is that Israel's restoration is explicitly not based on their merit: lo khidarkeikhem hara'im ('not according to your wicked ways'). God acts for his own integrity, not for Israel's worthiness. This becomes the theological foundation for the great restoration oracle of 36:22-32, where God says, 'It is not for your sake that I am about to act, house of Israel, but for the sake of my holy name.'",
+      "translator_notes": [
+        "The phrase ba'asoti itkhem lema'an shemi ('when I deal with you for the sake of my name') is the theological conclusion of the entire chapter. God's faithfulness to Israel is grounded in God's faithfulness to himself. Israel cannot claim credit for their restoration any more than they could claim credit for their survival.",
+        "The negation lo khidarkeikhem hara'im vekhaaliloteikhem hanishchatot ('not according to your wicked ways or your corrupt deeds') strips away any possibility of self-congratulation. God's mercy is unmerited — Israel is saved despite themselves."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "Moreover the word of the LORD came unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": [
+        "A new oracle begins. In the Hebrew versification (MT), this verse begins chapter 21 (21:1). The English chapter division places it at the end of chapter 20. The oracle against the 'forest of the south' forms a transition to the sword oracle of chapter 21."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "בֶּן־אָדָ֕ם שִׂ֥ים פָּנֶ֖יךָ דֶּ֣רֶךְ תֵּימָ֑נָה וְהַטֵּ֥ף אֶל־דָּר֖וֹם וְהִנָּבֵ֥א אֶל־יַ֖עַר הַשָּׂדֶ֥ה נֶֽגֶב׃",
+      "text_kjv": "Son of man, set thy face toward the south, and drop thy word toward the south, and prophesy against the forest of the south field;",
+      "rendering": "\"Son of man, set your face toward the south and preach toward the south. Prophesy against the forest of the southland.",
+      "translator_notes": [
+        "Three different Hebrew words for 'south' appear in this verse: teimanah (the Teman direction, toward Yemen), darom (the south as a compass point), and negev (the Negev, the dry southern region of Judah). The triple designation emphasizes the direction emphatically — the oracle is aimed unmistakably southward, toward Judah and Jerusalem (Babylon lies north of Judah).",
+        "The verb hatef ('drop, preach, drip') literally means 'to drip' — the prophetic word drops like rain or like liquid. It is used for prophetic speech in Amos 7:16 and Micah 2:6."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וְאָמַרְתָּ֣ לְיַ֣עַר הַנֶּ֗גֶב שְׁמַע֙ דְּבַר־יְהוָ֔ה כֹּה־אָמַ֖ר אֲדֹנָ֣י יְהוִ֑ה הִנְנִ֣י מַצִּית־בְּךָ֣ אֵ֡שׁ וְאָכְלָ֣ה בְךָ֣ כָל־עֵ֣ץ לַח֩ וְכָל־עֵ֨ץ יָבֵ֜שׁ לֹא־תִכְבֶּ֣ה ׀ לַהֶ֣בֶת שַׁלְהֶ֗בֶת וְנִצְרְב֤וּ בָהּ֙ כָּל־פָּנִ֔ים מִנֶּ֖גֶב צָפֽוֹנָה׃",
+      "text_kjv": "And say to the forest of the south, Hear the word of the LORD; Thus saith the Lord GOD; Behold, I will kindle a fire in thee, and it shall devour every green tree in thee, and every dry tree: the flaming flame shall not be quenched, and all faces from the south to the north shall be burned therein.",
+      "rendering": "Say to the forest of the Negev: Hear the word of the LORD! This is what the Lord GOD says — I am about to kindle a fire in you, and it will consume every green tree and every dry tree in you. The blazing flame will not be quenched, and every face from south to north will be scorched by it.",
+      "translator_notes": [
+        "The fire metaphor describes military destruction — the forest is the population of Judah, and the fire is the Babylonian invasion. The phrase kol etz lach vekhol etz yavesh ('every green tree and every dry tree') means the destruction will be indiscriminate — both the righteous (green) and the wicked (dry) will be consumed.",
+        "The phrase lahevet shalhevet ('blazing flame') piles fire-words upon fire-words for intensification. The shalhevet is the most intense form of flame in Hebrew — Song of Solomon 8:6 uses the same word for love's fire.",
+        "The phrase kol panim minnegev tzafonah ('every face from south to north') indicates the fire's extent — it will burn through the entire territory, leaving no one unscorched."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "וְרָאוּ֙ כָּל־בָּשָׂ֔ר כִּ֛י אֲנִ֥י יְהוָ֖ה בִּעַרְתִּ֑יהָ לֹ֖א תִכְבֶּֽה׃",
+      "text_kjv": "And all flesh shall see that I the LORD have kindled it: it shall not be quenched.",
+      "rendering": "All flesh will see that I, the LORD, have ignited it. It will not be quenched.\"",
+      "translator_notes": [
+        "The phrase kol basar ('all flesh') extends the audience beyond Israel — all humanity will witness this fire and recognize its divine origin. The verb bi'artihah ('I have ignited it') claims direct divine agency: this is not natural disaster but divine judgment.",
+        "The finality of lo tikhbeh ('it will not be quenched') describes unstoppable judgment — no human effort can extinguish what God has set ablaze."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "וָאֹמַ֕ר אֲהָ֖הּ אֲדֹנָ֣י יְהוִ֑ה הֵ֗מָּה אֹמְרִ֤ים לִי֙ הֲלֹ֣א מְמַשֵּׁ֥ל מְשָׁלִ֖ים הֽוּא׃",
+      "text_kjv": "Then said I, Ah Lord GOD! they say of me, Doth he not speak parables?",
+      "rendering": "Then I said, \"Alas, Lord GOD! They are saying about me, 'He is just speaking in parables!'\"",
+      "translator_notes": [
+        "Ezekiel's frustrated complaint reveals that his audience did not take the forest fire oracle literally. The phrase hammashal meshalim hu ('he is just speaking in parables/riddles') shows the audience dismissing the prophet as a spinner of obscure metaphors rather than a deliverer of direct divine warnings.",
+        "The exclamation ahah ('alas!') expresses the prophet's anguish — he is caught between God's command to prophesy and the people's refusal to hear. This complaint functions as a transition to chapter 21, where God will abandon metaphor and speak plainly about the sword.",
+        "The word mashal means 'proverb, parable, riddle, allegorical discourse.' The audience uses it dismissively — 'he is just riddling.' This same frustration echoes 12:22-27, where the people dismissed the prophetic word as irrelevant."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

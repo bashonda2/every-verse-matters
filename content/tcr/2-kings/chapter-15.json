@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Kings",
+    "chapter": 15,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "This chapter accelerates through multiple reigns in both kingdoms, covering a period of rapid succession and political violence. In Judah, Azariah (Uzziah) reigns fifty-two years and does right in the eyes of the LORD, though the high places remain. The LORD strikes him with a skin disease, and he lives in a separate house while his son Jotham governs. Jotham then reigns sixteen years and also does right, though again the high places persist. In Israel, the chapter narrates a dizzying sequence of kings. Zechariah son of Jeroboam reigns only six months before Shallum son of Jabesh conspires against him and kills him publicly, ending the Jehu dynasty after five generations — fulfilling the LORD's word that Jehu's sons would sit on the throne to the fourth generation. Shallum himself reigns only one month before Menahem son of Gadi strikes him down and seizes the throne. Menahem's reign of ten years is marked by brutal violence — he sacks Tiphsah and rips open its pregnant women — and by submission to Assyria: when Pul (Tiglath-pileser III) invades, Menahem pays a thousand talents of silver to secure Assyrian backing for his throne. Menahem's son Pekahiah reigns two years before his officer Pekah son of Remaliah conspires against him and assassinates him in the citadel of Samaria. Pekah reigns twenty years and does evil. During his reign, Tiglath-pileser III of Assyria conquers large portions of northern Israel — Ijon, Abel-beth-maacah, Janoah, Kedesh, Hazor, Gilead, Galilee, and all the land of Naphtali — and deports the population to Assyria. This is the beginning of the Assyrian exile. Finally, Hoshea son of Elah conspires against Pekah, kills him, and takes the throne. The chapter ends with synchronistic notes tying Hoshea's accession to Jotham's reign in Judah.",
+    "remarkable": "The chapter's most striking feature is the sheer velocity of political collapse in the northern kingdom. In the space of roughly twenty years, Israel cycles through five kings, three of whom seize power by assassination. The contrast with Judah is stark: the south has two stable, long-reigning kings (Azariah's fifty-two years and Jotham's sixteen) while the north disintegrates into violence and instability. The mention of Tiglath-pileser III (Pul) introduces the Assyrian superpower that will eventually destroy the northern kingdom entirely. Menahem's payment of tribute (verse 19-20) and Pekah's territorial losses (verse 29) mark the stages of Israel's absorption into the Assyrian sphere — from vassalage to amputation to, eventually, extinction. Azariah's skin disease (verse 5) is reported without moral explanation in Kings, though 2 Chronicles 26:16-21 attributes it to his presumptuous entry into the Temple to burn incense.",
+    "friction": "The chronology of this chapter is among the most difficult in Kings. Pekah's twenty-year reign (verse 27) is particularly problematic: if taken at face value alongside the synchronisms, it creates overlaps that are hard to resolve without positing co-regencies or rival kingdoms within Israel. Some scholars suggest Pekah ruled a competing government in Gilead before seizing Samaria. Azariah's fifty-two-year reign creates similar difficulties when correlated with the northern chronology. The identification of Pul with Tiglath-pileser III (verse 19) is confirmed by Assyrian records but represents a conflation of throne name and personal name. The phrase 'the LORD struck the king' with skin disease (verse 5) raises the question of divine causation — Kings offers no reason for the affliction, while Chronicles provides a specific act of sacrilege. The deportation in verse 29 represents the first wave of what will become a total exile, but the text does not editorialize on its significance.",
+    "connections": "Azariah/Uzziah's long reign provides the historical backdrop for the early ministries of Isaiah (Isaiah 6:1, 'In the year that King Uzziah died') and Amos (Amos 1:1). His skin disease connects to the Levitical legislation on skin afflictions (Leviticus 13-14) and to other instances of divinely inflicted disease in Kings (Naaman in 2 Kings 5, Gehazi in 2 Kings 5:27). The fulfillment of the Jehu dynasty's four-generation limit (verse 12, citing 10:30) demonstrates the Deuteronomistic theme that prophetic words determine historical outcomes. Menahem's tribute to Assyria anticipates Hezekiah's later tribute (18:14-16) and the broader pattern of Israelite kings emptying treasuries to buy off imperial powers. The Assyrian deportations (verse 29) begin the process that culminates in the fall of Samaria in chapter 17 — the theological climax of the northern kingdom narrative. Pekah's alliance with Rezin of Aram against Judah (referenced in Isaiah 7:1-9) sets up the Syro-Ephraimite crisis that dominates Isaiah's early prophecy."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "בִּשְׁנַ֨ת עֶשְׂרִ֤ים וָשֶׁ֙בַע֙ שָׁנָ֔ה לְיָרׇבְעָ֖ם מֶ֣לֶךְ יִשְׂרָאֵ֑ל מָ֠לַ֠ךְ עֲזַרְיָ֧ה בֶן־אֲמַצְיָ֛ה מֶ֥לֶךְ יְהוּדָֽה׃",
+      "text_kjv": "In the twenty and seventh year of Jeroboam king of Israel began Azariah son of Amaziah king of Judah to reign.",
+      "rendering": "In the twenty-seventh year of Jeroboam king of Israel, Azariah son of Amaziah became king of Judah.",
+      "translator_notes": [
+        "The synchronism links Azariah's accession to Jeroboam II's twenty-seventh year. Azariah is also known as Uzziah — both names are used in the Hebrew Bible, with Uzziah predominating in Isaiah and Chronicles. The dual naming may reflect a throne name versus a personal name."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "בֶּן־שֵׁ֨שׁ עֶשְׂרֵ֤ה שָׁנָה֙ הָיָ֣ה בְמׇלְכ֔וֹ וַחֲמִשִּׁ֤ים וּשְׁתַּ֙יִם֙ שָׁנָ֔ה מָלַ֖ךְ בִּירוּשָׁלָ֑͏ִם וְשֵׁ֣ם אִמּ֔וֹ יְכׇלְיָ֖הוּ מִירוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "Sixteen years old was he when he began to reign, and he reigned two and fifty years in Jerusalem. And his mother's name was Jecholiah of Jerusalem.",
+      "rendering": "He was sixteen years old when he became king, and he reigned fifty-two years in Jerusalem. His mother's name was Jecoliah, from Jerusalem.",
+      "translator_notes": [
+        "Fifty-two years is the longest reign recorded for any king of Judah. The queen mother Jecoliah (Yekholyahu, 'the LORD is able') is again a Jerusalemite, continuing the pattern of native Judean maternal lineage for the more successful kings."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיַּ֤עַשׂ הַיָּשָׁר֙ בְּעֵינֵ֣י יְהוָ֔ה כְּכֹ֥ל אֲשֶׁר־עָשָׂ֖ה אֲמַצְיָ֥הוּ אָבִֽיו׃",
+      "text_kjv": "And he did that which was right in the sight of the LORD, according to all that his father Amaziah had done;",
+      "rendering": "He did what was right in the eyes of the LORD, just as his father Amaziah had done.",
+      "translator_notes": [
+        "The positive evaluation is measured against his father Amaziah — qualified righteousness rather than Davidic perfection. The comparison formula creates a chain of partially faithful kings, each doing right but not completely."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "רַ֥ק הַבָּמ֖וֹת לֹא־סָ֑רוּ ע֥וֹד הָעָ֛ם מְזַבְּחִ֥ים וּמְקַטְּרִ֖ים בַּבָּמֽוֹת׃",
+      "text_kjv": "Save that the high places were not removed: the people sacrificed and burnt incense still on the high places.",
+      "rendering": "However, the high places were not removed. The people continued sacrificing and burning incense at the high places.",
+      "translator_notes": [
+        "The recurrence of this identical formula — now for the fourth consecutive Judean king — has the effect of a drumbeat. Each repetition reinforces the systemic nature of the failure and builds anticipation for the king who will finally act (Hezekiah, chapter 18)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיְנַגַּ֨ע יְהוָ֜ה אֶת־הַמֶּ֗לֶךְ וַיְהִ֤י מְצֹרָע֙ עַד־י֣וֹם מֹת֔וֹ וַיֵּ֖שֶׁב בְּבֵ֣ית הַחׇפְשִׁ֑ית וְיוֹתָ֤ם בֶּן־הַמֶּ֙לֶךְ֙ עַל־הַבַּ֔יִת שֹׁפֵ֖ט אֶת־עַ֥ם הָאָֽרֶץ׃",
+      "text_kjv": "And the LORD smote the king, so that he was a leper unto the day of his death, and dwelt in a several house. And Jotham the king's son was over the house, judging the people of the land.",
+      "rendering": "The LORD struck the king so that he had a skin disease until the day of his death. He lived in a separate house, while Jotham the king's son administered the palace and governed the people of the land.",
+      "translator_notes": [
+        "The term metzora ('one with a skin disease') triggers the Levitical quarantine laws: the afflicted person must live apart. The 'separate house' (beit ha-chofshit, literally 'house of freedom' or 'house of separation') may be a quarantine residence or a designation for the king's withdrawal from public duties. Jotham functions as regent — al ha-bayit ('over the house') is the title of the palace administrator, and shofet et am ha-aretz ('judging the people of the land') indicates full governing authority."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְיֶ֛תֶר דִּבְרֵ֥י עֲזַרְיָ֖ה וְכׇל־אֲשֶׁ֣ר עָשָׂ֑ה הֲלֹא־הֵ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ דִּבְרֵ֣י הַיָּמִ֔ים לְמַלְכֵ֖י יְהוּדָֽה׃",
+      "text_kjv": "And the rest of the acts of Azariah, and all that he did, are they not written in the book of the chronicles of the kings of Judah?",
+      "rendering": "As for the remaining deeds of Azariah and all that he did — are they not recorded in the Book of the Annals of the Kings of Judah?",
+      "translator_notes": [
+        "The closing formula for Azariah is remarkably brief for a king who reigned fifty-two years. Kings compresses his entire reign into five verses, suggesting the Deuteronomistic Historian had limited interest in this period — or that the Chronicler's much fuller account (2 Chronicles 26) draws on sources Kings did not use."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיִּשְׁכַּ֤ב עֲזַרְיָה֙ עִם־אֲבֹתָ֔יו וַיִּקְבְּר֥וּ אֹת֛וֹ עִם־אֲבֹתָ֖יו בְּעִ֣יר דָּוִ֑ד וַיִּמְלֹ֛ךְ יוֹתָ֥ם בְּנ֖וֹ תַּחְתָּֽיו׃",
+      "text_kjv": "So Azariah slept with his fathers; and they buried him with his fathers in the city of David: and Jotham his son reigned in his stead.",
+      "rendering": "Azariah slept with his fathers, and they buried him with his ancestors in the City of David. His son Jotham reigned in his place.",
+      "translator_notes": [
+        "Despite his skin disease, Azariah receives the standard honorable burial formula in the City of David. 2 Chronicles 26:23 adds that he was buried 'in the field of the burial that belonged to the kings' rather than in the royal tombs themselves, suggesting his condition affected even his burial location."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "בִּשְׁנַ֨ת שְׁלֹשִׁ֤ים וּשְׁמֹנֶה֙ שָׁנָ֔ה לַעֲזַרְיָ֖הוּ מֶ֣לֶךְ יְהוּדָ֑ה מָ֠לַ֠ךְ זְכַרְיָ֨ה בֶן־יָרׇבְעָ֧ם עַל־יִשְׂרָאֵ֛ל בְּשֹׁמְר֖וֹן שִׁשָּׁ֥ה חֳדָשִֽׁים׃",
+      "text_kjv": "In the thirty and eighth year of Azariah king of Judah did Zachariah the son of Jeroboam reign over Israel in Samaria six months.",
+      "rendering": "In the thirty-eighth year of Azariah king of Judah, Zechariah son of Jeroboam became king over Israel in Samaria. He reigned six months.",
+      "translator_notes": [
+        "Six months — the Jehu dynasty's final generation barely holds power. After four generations of kings ruling for decades, the fifth collapses almost immediately. The brevity of the reign signals the dynasty's exhaustion."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיַּ֥עַשׂ הָרַ֖ע בְּעֵינֵ֣י יְהוָ֑ה כַּאֲשֶׁ֤ר עָשׂוּ֙ אֲבֹתָ֔יו לֹ֣א סָ֗ר מֵחַטֹּ֤אות יָרׇבְעָם֙ בֶּן־נְבָ֔ט אֲשֶׁ֥ר הֶחֱטִ֖יא אֶת־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And he did that which was evil in the sight of the LORD, as his fathers had done: he departed not from the sins of Jeroboam the son of Nebat, who made Israel to sin.",
+      "rendering": "He did evil in the eyes of the LORD, as his ancestors had done. He did not turn away from the sins of Jeroboam son of Nebat, who had caused Israel to sin.",
+      "translator_notes": [
+        "The formula applies now to the last of the Jehu line. Five generations of identical spiritual failure: the sins of Jeroboam son of Nebat persist unbroken from the kingdom's founding to its approaching collapse."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיִּקְשֹׁ֧ר עָלָ֛יו שַׁלֻּ֥ם בֶּן־יָבֵ֖שׁ וַיַּכֵּ֥הוּ קׇבְל־עָ֖ם וַיְמִיתֵ֑הוּ וַיִּמְלֹ֖ךְ תַּחְתָּֽיו׃",
+      "text_kjv": "And Shallum the son of Jabesh conspired against him, and smote him before the people, and slew him, and reigned in his stead.",
+      "rendering": "Shallum son of Jabesh conspired against him and struck him down publicly, killing him. He reigned in his place.",
+      "translator_notes": [
+        "The assassination is public — qovel am ('before the people') indicates a brazen, open killing rather than a palace conspiracy. Shallum does not hide his violence; it is a public execution disguised as regime change. The Jehu dynasty, which began with Jehu's violent purge, ends with the same kind of violence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְיֶ֖תֶר דִּבְרֵ֣י זְכַרְיָ֑ה הִנָּ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ דִּבְרֵ֣י הַיָּמִ֔ים לְמַלְכֵ֖י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And the rest of the acts of Zachariah, behold, they are written in the book of the chronicles of the kings of Israel.",
+      "rendering": "The rest of the acts of Zechariah — they are written in the Book of the Annals of the Kings of Israel.",
+      "translator_notes": [
+        "The closing formula for a six-month reign — there can have been little to record beyond the brief, violent end."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "ה֣וּא דְבַר־יְהוָ֗ה אֲשֶׁ֨ר דִּבֶּ֤ר אֶל־יֵהוּא֙ לֵאמֹ֔ר בְּנֵ֣י רְבִעִ֔ים יֵשְׁב֥וּ לְךָ֖ עַל־כִּסֵּ֣א יִשְׂרָאֵ֑ל וַיְהִי־כֵֽן׃",
+      "text_kjv": "This was the word of the LORD which he spake unto Jehu, saying, Thy sons shall sit on the throne of Israel unto the fourth generation. And so it came to pass.",
+      "rendering": "This fulfilled the word of the LORD that He had spoken to Jehu: \"Your descendants shall sit on the throne of Israel to the fourth generation.\" And so it was.",
+      "translator_notes": [
+        "The narrator pauses to connect Zechariah's fall to prophecy. The promise to Jehu (10:30) was both a blessing (four generations) and an implicit limit (only four). The phrase va-yehi khen ('and so it was') is the Deuteronomistic Historian's signature verification: prophetic word and historical outcome align perfectly."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "שַׁלֻּ֤ם בֶּן־יָבֵשׁ֙ מָלַ֔ךְ בִּשְׁנַ֨ת שְׁלֹשִׁ֧ים וָתֵ֛שַׁע שָׁנָ֖ה לְעֻזִּיָּ֣ה מֶלֶךְ יְהוּדָ֑ה וַיִּמְלֹ֥ךְ יֶרַח־יָמִ֖ים בְּשֹׁמְרֽוֹן׃",
+      "text_kjv": "Shallum the son of Jabesh began to reign in the nine and thirtieth year of Uzziah king of Judah; and he reigned a full month in Samaria.",
+      "rendering": "Shallum son of Jabesh became king in the thirty-ninth year of Uzziah king of Judah, and he reigned one month in Samaria.",
+      "translator_notes": [
+        "One month — the shortest reign in Israelite history. The synchronism uses 'Uzziah' rather than 'Azariah,' illustrating the interchangeable use of both names for the same Judean king. Shallum's month-long rule shows that assassinating a king does not guarantee the ability to hold a kingdom."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיַּ֨עַל מְנַחֵ֤ם בֶּן־גָּדִי֙ מִתִּרְצָ֔ה וַיָּבֹ֥א שֹׁמְר֖וֹן וַיַּ֞ךְ אֶת־שַׁלֻּ֥ם בֶּן־יָבֵ֛שׁ בְּשֹׁמְר֖וֹן וַיְמִיתֵ֑הוּ וַיִּמְלֹ֖ךְ תַּחְתָּֽיו׃",
+      "text_kjv": "For Menahem the son of Gadi went up from Tirzah, and came to Samaria, and smote Shallum the son of Jabesh in Samaria, and slew him, and reigned in his stead.",
+      "rendering": "Menahem son of Gadi marched up from Tirzah, came to Samaria, struck down Shallum son of Jabesh in Samaria, killed him, and reigned in his place.",
+      "translator_notes": [
+        "Menahem comes from Tirzah — the old northern capital before Omri built Samaria. His march from Tirzah to Samaria may indicate a rival power base. The cycle of assassination continues: the assassin is himself assassinated, and the new assassin takes the throne."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְיֶ֨תֶר דִּבְרֵ֤י שַׁלּוּם֙ וְקִשְׁר֣וֹ אֲשֶׁ֣ר קָשָׁ֔ר הִנָּ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ דִּבְרֵ֣י הַיָּמִ֔ים לְמַלְכֵ֖י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And the rest of the acts of Shallum, and his conspiracy which he made, behold, they are written in the book of the chronicles of the kings of Israel.",
+      "rendering": "The rest of the acts of Shallum and the conspiracy he organized — they are written in the Book of the Annals of the Kings of Israel.",
+      "translator_notes": [
+        "Even a one-month king merits the closing formula and a source citation. The annals presumably recorded the circumstances of both his conspiracy and his defeat."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "אָ֣ז יַכֶּ֧ה מְנַחֵ֛ם אֶת־תִּפְסַ֖ח וְאֶת־כׇּל־אֲשֶׁר־בָּ֣הּ וְאֶת־גְּבוּלֶ֗יהָ מִתִּרְצָ֔ה כִּ֚י לֹ֣א פָתַ֔ח וַיַּ֕ךְ אֶ֛ת כׇּל־הֶהָרוֹתֶ֖יהָ בִּקֵּֽעַ׃",
+      "text_kjv": "Then Menahem smote Tiphsah, and all that were therein, and the coasts thereof from Tirzah: because they opened not to him, therefore he smote it; and all the women therein that were with child he ripped up.",
+      "rendering": "At that time Menahem attacked Tiphsah and everyone in it and its territory, starting from Tirzah, because they did not open their gates to him. He attacked it and ripped open all its pregnant women.",
+      "translator_notes": [
+        "The atrocity — ripping open pregnant women (biqea, 'he split open') — is reported without commentary but with full horror. Tiphsah's refusal to submit provoked a savagery that the narrator records as bare fact. This act places Menahem alongside the worst of Israel's enemies; the same atrocity is attributed to Aram's Hazael in 8:12 and condemned as a war crime by Amos (Amos 1:13)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "בִּשְׁנַ֨ת שְׁלֹשִׁ֤ים וָתֵ֙שַׁע֙ שָׁנָ֔ה לַעֲזַרְיָ֖ה מֶ֣לֶךְ יְהוּדָ֑ה מָ֠לַ֠ךְ מְנַחֵ֨ם בֶּן־גָּדִ֧י עַל־יִשְׂרָאֵ֛ל עֶ֥שֶׂר שָׁנִ֖ים בְּשֹׁמְרֽוֹן׃",
+      "text_kjv": "In the nine and thirtieth year of Azariah king of Judah began Menahem the son of Gadi to reign over Israel, and reigned ten years in Samaria.",
+      "rendering": "In the thirty-ninth year of Azariah king of Judah, Menahem son of Gadi became king over Israel. He reigned ten years in Samaria.",
+      "translator_notes": [
+        "Ten years is a relatively stable reign given the chaos surrounding it. Menahem achieves this stability partly through terror (verse 16) and partly through Assyrian backing (verse 19). His power rests on violence and foreign support, not legitimacy."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיַּ֥עַשׂ הָרַ֖ע בְּעֵינֵ֣י יְהוָ֑ה לֹ֣א סָ֗ר מֵעַל֙ חַטֹּ֤אות יָרׇבְעָם֙ בֶּן־נְבָ֔ט אֲשֶׁר־הֶחֱטִ֖יא אֶת־יִשְׂרָאֵ֥ל כׇּל־יָמָֽיו׃",
+      "text_kjv": "And he did that which was evil in the sight of the LORD: he departed not all his days from the sins of Jeroboam the son of Nebat, who made Israel to sin.",
+      "rendering": "He did evil in the eyes of the LORD. Throughout his reign he did not turn away from the sins of Jeroboam son of Nebat, who had caused Israel to sin.",
+      "translator_notes": [
+        "The phrase kol yamav ('all his days') adds emphasis to the standard formula — not merely habitual sin but lifelong, uninterrupted commitment to the apostate worship system. Every northern king since Jeroboam I receives this identical verdict."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "בָּ֣א פ֤וּל מֶלֶךְ־אַשּׁוּר֙ עַל־הָאָ֔רֶץ וַיִּתֵּ֨ן מְנַחֵ֧ם לְפ֛וּל אֶ֥לֶף כִּכַּר־כֶּ֖סֶף לִהְי֣וֹת יָדָ֗יו אִתּ֔וֹ לְהַחֲזִ֥יק הַמַּמְלָכָ֖ה בְּיָדֽוֹ׃",
+      "text_kjv": "And Pul the king of Assyria came against the land: and Menahem gave Pul a thousand talents of silver, that his hand might be with him, to confirm the kingdom in his hand.",
+      "rendering": "Pul king of Assyria invaded the land. Menahem gave Pul a thousand talents of silver so that Pul would support him and secure the kingdom in his hand.",
+      "expanded_rendering": "The entry of Assyria into Israelite politics marks a turning point in the narrative of Kings. Pul — the throne name of Tiglath-pileser III — represents a superpower that dwarfs both Israel and Aram. Menahem does not resist; he buys Assyrian patronage. The phrase lihyot yadav itto ('that his hands would be with him') means Menahem is purchasing Assyrian military backing to maintain his illegitimate throne. A thousand talents of silver (approximately thirty-seven tons) is an enormous sum that reveals both the remaining wealth of Israel and the depth of Menahem's dependence on foreign power. The kingdom that once stood independent under the covenant now survives only by subsidizing an empire.",
+      "translator_notes": [
+        "Pul is identified in Assyrian records as the throne name of Tiglath-pileser III (745-727 BCE), one of the most powerful Assyrian rulers. A thousand talents of silver is staggering — for comparison, Solomon's annual gold income was 666 talents (1 Kings 10:14). Menahem's payment makes Israel a vassal state: independence is traded for personal political survival."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיֹּצֵ֤א מְנַחֵם֙ אֶת־הַכֶּ֔סֶף עַל־יִשְׂרָאֵ֗ל עַ֚ל כׇּל־גִּבּוֹרֵ֣י הַחַ֔יִל לָתֵ֖ת לְמֶ֣לֶךְ אַשּׁ֑וּר חֲמִשִּׁ֤ים שְׁקָלִים֙ כֶּ֔סֶף לְאִ֣ישׁ אֶחָ֔ד וַיָּ֙שׇׁב֙ מֶ֣לֶךְ אַשּׁ֔וּר וְלֹ֥א עָמַ֛ד שָׁ֖ם בָּאָֽרֶץ׃",
+      "text_kjv": "And Menahem exacted the money of Israel, even of all the mighty men of wealth, of each man fifty shekels of silver, to give to the king of Assyria. So the king of Assyria turned back, and stayed not there in the land.",
+      "rendering": "Menahem raised the silver from Israel, levying fifty shekels of silver on every man of wealth, to pay the king of Assyria. The king of Assyria then withdrew and did not remain in the land.",
+      "translator_notes": [
+        "The tax falls on gibborei ha-chayil ('the mighty men of substance, the wealthy landowners') — fifty shekels each. If a thousand talents equals three million shekels, the levy on sixty thousand wealthy households reveals Israel's remaining economic base. The Assyrian withdrawal confirms the transaction: tribute paid, protection granted."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְיֶ֛תֶר דִּבְרֵ֥י מְנַחֵ֖ם וְכׇל־אֲשֶׁ֣ר עָשָׂ֑ה הֲלוֹא־הֵ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ דִּבְרֵ֣י הַיָּמִ֔ים לְמַלְכֵ֖י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And the rest of the acts of Menahem, and all that he did, are they not written in the book of the chronicles of the kings of Israel?",
+      "rendering": "As for the remaining deeds of Menahem and all that he did — are they not recorded in the Book of the Annals of the Kings of Israel?",
+      "translator_notes": [
+        "The standard closing formula. The annals presumably recorded more detail about Menahem's decade of rule, including whatever additional military campaigns and administrative actions are summarized by 'all that he did.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיִּשְׁכַּ֤ב מְנַחֵם֙ עִם־אֲבֹתָ֔יו וַיִּמְלֹ֛ךְ פְּקַחְיָ֥ה בְנ֖וֹ תַּחְתָּֽיו׃",
+      "text_kjv": "And Menahem slept with his fathers; and Pekahiah his son reigned in his stead.",
+      "rendering": "Menahem slept with his fathers, and his son Pekahiah reigned in his place.",
+      "translator_notes": [
+        "Menahem is one of the few usurper-kings to die naturally and pass the throne to his son. His brutal methods and Assyrian sponsorship gave him stability that his predecessors lacked, but his son will not enjoy the same protection."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "בִּשְׁנַ֨ת חֲמִשִּׁ֤ים שָׁנָה֙ לַעֲזַרְיָ֣ה מֶלֶךְ יְהוּדָ֔ה מָ֠לַ֠ךְ פְּקַחְיָ֨ה בֶן־מְנַחֵ֧ם עַל־יִשְׂרָאֵ֛ל בְּשֹׁמְר֖וֹן שְׁנָתָֽיִם׃",
+      "text_kjv": "In the fiftieth year of Azariah king of Judah Pekahiah the son of Menahem began to reign over Israel in Samaria, and reigned two years.",
+      "rendering": "In the fiftieth year of Azariah king of Judah, Pekahiah son of Menahem became king over Israel in Samaria. He reigned two years.",
+      "translator_notes": [
+        "Two years — the throne purchased by Menahem's violence and Assyrian silver lasts barely into the next generation. The rapid succession resumes."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיַּ֥עַשׂ הָרַ֖ע בְּעֵינֵ֣י יְהוָ֑ה לֹ֣א סָ֗ר מֵחַטֹּ֤אות יָרׇבְעָם֙ בֶּן־נְבָ֔ט אֲשֶׁ֥ר הֶחֱטִ֖יא אֶת־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And he did that which was evil in the sight of the LORD: he departed not from the sins of Jeroboam the son of Nebat, who made Israel to sin.",
+      "rendering": "He did evil in the eyes of the LORD. He did not turn away from the sins of Jeroboam son of Nebat, who had caused Israel to sin.",
+      "translator_notes": [
+        "The formula repeats yet again — unchanged, unchangeable. The narrator's relentless repetition drives home the point: every northern king, regardless of how he came to power, maintains the same apostate worship system. The problem is structural, not personal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיִּקְשֹׁ֣ר עָלָ֡יו פֶּ֣קַח בֶּן־רְמַלְיָ֣הוּ שָׁלִישׁ֡וֹ וַיַּכֵּ֣הוּ בְשֹׁמְרוֹן֩ בְּאַרְמ֨וֹן בֵּית־הַמֶּ֜לֶךְ אֶת־אַרְגֹּ֤ב וְאֶת־הָאַרְיֵה֙ וְעִמּ֞וֹ חֲמִשִּׁ֣ים אִ֗ישׁ מִבְּנֵי֙ הַגִּלְעָדִ֔ים וַיְמִיתֵ֖הוּ וַיִּמְלֹ֥ךְ תַּחְתָּֽיו׃",
+      "text_kjv": "But Pekah the son of Remaliah, a captain of his, conspired against him, and smote him in Samaria, in the palace of the king's house, with Argob and Arieh, and with him fifty men of the Gileadites: and he killed him, and reigned in his room.",
+      "rendering": "Pekah son of Remaliah, his officer, conspired against him and struck him down in Samaria, in the citadel of the royal palace — along with Argob and Arieh — with fifty men from Gilead. He killed him and reigned in his place.",
+      "translator_notes": [
+        "Pekah is a shalish ('officer, third man') — a military aide. The assassination takes place in the armon ('citadel, inner fortress') of the palace, the most secure location in Samaria. Argob and Arieh may be co-conspirators or additional victims; the text is ambiguous. The fifty Gileadites indicate Pekah's power base is in the Transjordan, east of the Jordan River."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְיֶ֛תֶר דִּבְרֵ֥י פְקַחְיָ֖ה וְכׇל־אֲשֶׁ֣ר עָשָׂ֑ה הִנָּ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ דִּבְרֵ֣י הַיָּמִ֔ים לְמַלְכֵ֖י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And the rest of the acts of Pekahiah, and all that he did, behold, they are written in the book of the chronicles of the kings of Israel.",
+      "rendering": "The rest of the acts of Pekahiah and all that he did — they are written in the Book of the Annals of the Kings of Israel.",
+      "translator_notes": [
+        "The closing formula for a two-year reign. The brevity of Pekahiah's rule means the annals likely contained little beyond the circumstances of his accession and death."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "בִּשְׁנַ֨ת חֲמִשִּׁ֤ים וּשְׁתַּ֙יִם֙ שָׁנָ֔ה לַעֲזַרְיָ֖ה מֶ֣לֶךְ יְהוּדָ֑ה מָ֠לַ֠ךְ פֶּ֨קַח בֶּן־רְמַלְיָ֧הוּ עַל־יִשְׂרָאֵ֛ל בְּשֹׁמְר֖וֹן עֶשְׂרִ֥ים שָׁנָֽה׃",
+      "text_kjv": "In the two and fiftieth year of Azariah king of Judah Pekah the son of Remaliah began to reign over Israel in Samaria, and reigned twenty years.",
+      "rendering": "In the fifty-second year of Azariah king of Judah, Pekah son of Remaliah became king over Israel in Samaria. He reigned twenty years.",
+      "translator_notes": [
+        "The twenty-year reign is chronologically difficult — it creates overlaps with other synchronisms that suggest Pekah may have exercised rival authority in Gilead before capturing Samaria. The figure may include a pre-Samaria period of regional control in the Transjordan."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיַּ֥עַשׂ הָרַ֖ע בְּעֵינֵ֣י יְהוָ֑ה לֹ֣א סָ֗ר מֵחַטֹּ֤אות יָרׇבְעָם֙ בֶּן־נְבָ֔ט אֲשֶׁ֥ר הֶחֱטִ֖יא אֶת־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And he did that which was evil in the sight of the LORD: he departed not from the sins of Jeroboam the son of Nebat, who made Israel to sin.",
+      "rendering": "He did evil in the eyes of the LORD. He did not turn away from the sins of Jeroboam son of Nebat, who had caused Israel to sin.",
+      "translator_notes": [
+        "The formula is unchanged. The reader has now encountered this exact evaluation for every northern king in the chapter — Zechariah, Shallum (implied), Menahem, Pekahiah, and now Pekah. The repetition is not careless; it is relentless theological argument."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "בִּימֵ֣י ׀ פֶּ֣קַח מֶלֶךְ־יִשְׂרָאֵ֗ל בָּ֠א תִּגְלַ֨ת פִּלְאֶ֜סֶר מֶ֣לֶךְ אַשּׁ֗וּר וַ֠יִּקַּ֠ח אֶת־עִיּ֨וֹן וְאֶת־אָבֵ֤ל בֵּית מַעֲכָה֙ וְאֶת־יָנ֤וֹחַ וְאֶת־קֶ֙דֶשׁ֙ וְאֶת־חָצ֔וֹר וְאֶת־הַגִּלְעָ֖ד וְאֶת־הַגָּלִ֑ילָה כֹּ֖ל אֶ֣רֶץ נַפְתָּלִ֑י וַיַּגְלֵ֖ם אַשּׁ֥וּרָה׃",
+      "text_kjv": "In the days of Pekah king of Israel came Tiglathpileser king of Assyria, and took Ijon, and Abelbethmaachah, and Janoah, and Kedesh, and Hazor, and Gilead, and Galilee, all the land of Naphtali, and carried them captive to Assyria.",
+      "rendering": "In the days of Pekah king of Israel, Tiglath-pileser king of Assyria came and captured Ijon, Abel-beth-maacah, Janoah, Kedesh, Hazor, Gilead, and Galilee — all the land of Naphtali — and deported the people to Assyria.",
+      "expanded_rendering": "This verse records the first Assyrian deportation of Israelite territory — the beginning of the end. The list of conquered cities and regions reads like a geography of northern Israel being systematically dismembered. Ijon, Abel-beth-maacah, and Kedesh are cities in the far north. Hazor, once the greatest Canaanite fortress in the region, falls to Assyria. Gilead — the entire Transjordan — is seized. Galilee, the heartland of the northern tribes, is taken. The summary kol eretz Naftali ('all the land of Naphtali') indicates that an entire tribal territory has been absorbed into the Assyrian empire. The verb va-yaglom ('he deported them') introduces the Assyrian policy of forced population transfer that will eventually empty the northern kingdom entirely.",
+      "translator_notes": [
+        "This campaign corresponds to Tiglath-pileser III's 733-732 BCE invasion, well attested in Assyrian records. The deportation (va-yaglom Ashurah) marks the first wave of exile — entire populations relocated to Mesopotamia. Israel is being reduced to a rump state around Samaria. The cities listed trace a path from the Lebanese border southward through Galilee and eastward into the Transjordan — Assyria is consuming Israel from the edges inward."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיִּקְשֹׁר־קֶ֗שֶׁר הוֹשֵׁ֤עַ בֶּן־אֵלָה֙ עַל־פֶּ֣קַח בֶּן־רְמַלְיָ֔הוּ וַיַּכֵּ֙הוּ֙ וַיְמִיתֵ֔הוּ וַיִּמְלֹ֖ךְ תַּחְתָּ֑יו בִּשְׁנַ֣ת עֶשְׂרִ֔ים לְיוֹתָ֖ם בֶּן־עֻזִּיָּֽה׃",
+      "text_kjv": "And Hoshea the son of Elah made a conspiracy against Pekah the son of Remaliah, and smote him, and slew him, and reigned in his stead, in the twentieth year of Jotham the son of Uzziah.",
+      "rendering": "Hoshea son of Elah formed a conspiracy against Pekah son of Remaliah. He struck him down and killed him, and reigned in his place in the twentieth year of Jotham son of Uzziah.",
+      "translator_notes": [
+        "The fourth assassination in this chapter. Hoshea becomes Israel's last king — though the reader does not yet know this. Assyrian records suggest Tiglath-pileser III installed Hoshea as a puppet ruler after Pekah's anti-Assyrian policies. The synchronism with Jotham's twentieth year creates chronological difficulties since Jotham's reign is recorded as only sixteen years."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְיֶ֨תֶר דִּבְרֵ֤י פֶ֙קַח֙ וְכׇל־אֲשֶׁ֣ר עָשָׂ֔ה הִנָּ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ דִּבְרֵ֣י הַיָּמִ֔ים לְמַלְכֵ֖י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And the rest of the acts of Pekah, and all that he did, behold, they are written in the book of the chronicles of the kings of Israel.",
+      "rendering": "The rest of the acts of Pekah and all that he did — they are written in the Book of the Annals of the Kings of Israel.",
+      "translator_notes": [
+        "The closing formula for Pekah. His twenty-year reign saw the most significant territorial losses in Israel's history — the Assyrian annexation that reduced the kingdom to a fraction of its former size."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "בִּשְׁנַ֣ת שְׁתַּ֔יִם לְפֶ֥קַח בֶּן־רְמַלְיָ֖הוּ מֶ֣לֶךְ יִשְׂרָאֵ֑ל מָ֠לַ֠ךְ יוֹתָ֧ם בֶּן־עֻזִּיָּ֛הוּ מֶ֥לֶךְ יְהוּדָֽה׃",
+      "text_kjv": "In the second year of Pekah the son of Remaliah king of Israel began Jotham the son of Uzziah king of Judah to reign.",
+      "rendering": "In the second year of Pekah son of Remaliah, king of Israel, Jotham son of Uzziah became king of Judah.",
+      "translator_notes": [
+        "The narrative pivots back to Judah for Jotham's regnal account. Jotham has already been functioning as regent during his father's illness (verse 5), so his formal accession marks a transition from de facto to de jure rule."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "בֶּן־עֶשְׂרִ֥ים וְחָמֵ֛שׁ שָׁנָ֖ה הָיָ֣ה בְמׇלְכ֑וֹ וְשֵׁ֤שׁ עֶשְׂרֵה֙ שָׁנָ֔ה מָלַ֖ךְ בִּירוּשָׁלָ֑͏ִם וְשֵׁ֣ם אִמּ֔וֹ יְרוּשָׁ֖א בַּת־צָדֽוֹק׃",
+      "text_kjv": "Five and twenty years old was he when he began to reign, and he reigned sixteen years in Jerusalem. And his mother's name was Jerusha, the daughter of Zadok.",
+      "rendering": "He was twenty-five years old when he became king, and he reigned sixteen years in Jerusalem. His mother's name was Jerusha, daughter of Zadok.",
+      "translator_notes": [
+        "Jerusha bat Tzadoq — if this Zadok is a priestly figure, the queen mother has priestly lineage, which would strengthen Jotham's connections to the Temple establishment. The name Jerusha ('possessed, inherited') may signal legitimacy and continuity."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיַּ֤עַשׂ הַיָּשָׁר֙ בְּעֵינֵ֣י יְהוָ֔ה כְּכֹ֥ל אֲשֶׁר־עָשָׂ֖ה עֻזִּיָּ֥הוּ אָבִֽיו׃",
+      "text_kjv": "And he did that which was right in the sight of the LORD: he did according to all that his father Uzziah had done.",
+      "rendering": "He did what was right in the eyes of the LORD, just as his father Uzziah had done.",
+      "translator_notes": [
+        "The positive evaluation continues the pattern of qualified righteousness in Judah. Jotham is measured against his father Uzziah — himself a qualified success. The chain of 'good but not David' kings stretches across multiple generations."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "רַ֥ק הַבָּמ֖וֹת לֹ֣א סָ֑רוּ ע֥וֹד הָעָ֛ם מְזַבְּחִ֥ים וּמְקַטְּרִ֖ים בַּבָּמ֑וֹת ה֗וּא בָּנָ֛ה אֶת־שַׁ֥עַר בֵּית־יְהוָ֖ה הָעֶלְיֽוֹן׃",
+      "text_kjv": "Howbeit the high places were not removed: the people sacrificed and burnt incense still in the high places. He built the higher gate of the house of the LORD.",
+      "rendering": "However, the high places were not removed. The people continued sacrificing and burning incense at the high places. He built the Upper Gate of the house of the LORD.",
+      "translator_notes": [
+        "The high-places caveat is followed by a positive note: Jotham builds the Upper Gate of the Temple. This architectural achievement signals investment in centralized worship even while decentralized worship persists — a paradox that characterizes multiple Judean reigns."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וְיֶ֛תֶר דִּבְרֵ֥י יוֹתָ֖ם אֲשֶׁ֣ר עָשָׂ֑ה הֲלֹא־הֵ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ דִּבְרֵ֣י הַיָּמִ֔ים לְמַלְכֵ֖י יְהוּדָֽה׃",
+      "text_kjv": "Now the rest of the acts of Jotham, and all that he did, are they not written in the book of the chronicles of the kings of Judah?",
+      "rendering": "As for the remaining deeds of Jotham and all that he did — are they not recorded in the Book of the Annals of the Kings of Judah?",
+      "translator_notes": [
+        "The standard source citation. 2 Chronicles 27 provides a fuller account of Jotham's reign, including his victory over the Ammonites and his building projects."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "בַּיָּמִ֣ים הָהֵ֔ם הֵחֵ֣ל יְהוָ֗ה לְהַשְׁלִ֙יחַ֙ בִּ֣יהוּדָ֔ה רְצִ֖ין מֶ֣לֶךְ אֲרָ֑ם וְאֵ֖ת פֶּ֥קַח בֶּן־רְמַלְיָֽהוּ׃",
+      "text_kjv": "In those days the LORD began to send against Judah Rezin the king of Syria, and Pekah the son of Remaliah.",
+      "rendering": "In those days the LORD began to send Rezin king of Aram and Pekah son of Remaliah against Judah.",
+      "translator_notes": [
+        "This verse introduces the Syro-Ephraimite crisis — the alliance of Aram (under Rezin) and Israel (under Pekah) against Judah. The narrator frames this as divine action: the LORD 'began to send' (hechel le-hashliach) these enemies against Judah. This crisis dominates Isaiah 7-8 and leads to Ahaz's fateful appeal to Assyria for help (chapter 16)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיִּשְׁכַּ֤ב יוֹתָם֙ עִם־אֲבֹתָ֔יו וַיִּקָּבֵר֙ עִם־אֲבֹתָ֔יו בְּעִ֥יר דָּוִ֖ד אָבִ֑יו וַיִּמְלֹ֛ךְ אָחָ֥ז בְּנ֖וֹ תַּחְתָּֽיו׃",
+      "text_kjv": "And Jotham slept with his fathers, and was buried with his fathers in the city of David his father: and Ahaz his son reigned in his stead.",
+      "rendering": "Jotham slept with his fathers and was buried with his ancestors in the City of David, his ancestor. His son Ahaz reigned in his place.",
+      "translator_notes": [
+        "Jotham receives the full honorable death-and-burial formula. His son Ahaz will prove one of Judah's worst kings — a dramatic reversal from the qualified faithfulness of the preceding generations. The City of David burial confirms Jotham's place in the legitimate Davidic succession."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

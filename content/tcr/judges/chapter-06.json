@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Judges",
+    "chapter": 6,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Midian oppresses Israel for seven years, devastating their crops. God calls Gideon — who is threshing wheat in a winepress to hide it — as deliverer. Gideon tears down his father's Baal altar at night and receives the fleece sign.",
+    "remarkable": "The angel greets Gideon as gibbor hechayil ('mighty warrior,' v. 12) while he hides in a winepress. The irony is intentional: the deliverer is introduced as a coward. Gideon's objection — 'my clan is the weakest in Manasseh, and I am the least in my father's house' (v. 15) — echoes Moses's and Saul's reluctance. God consistently chooses the insufficient. Gideon's night raid on the Baal altar (vv. 25-32) earns him the name Jerubbaal ('let Baal contend') — if Baal is real, let him fight his own battles.",
+    "friction": "The phrase hineni magia (v. 37, 'I am laying') uses a rare verb for placing the fleece — the precise action matters because Gideon is testing God, a posture the text neither condemns nor endorses. The phrase shalom lekha (v. 23, 'peace to you') is God's reassurance after Gideon realizes he has seen the angel — we preserved shalom as 'peace' in this greeting context.",
+    "connections": "Gideon's calling echoes Moses at the burning bush (Exodus 3-4) — both encounter God unexpectedly, both object, both receive signs. The Baal-altar destruction anticipates Elijah's contest on Carmel (1 Kings 18). The winepress hiding mirrors the larger theme of Israel cowering before oppressors until God intervenes. Gideon's family dynamics preview Abimelech's murderous ambition (ch. 9)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיַּעֲשׂ֧וּ בְנֵי־יִשְׂרָאֵ֛ל הָרַ֖ע בְּעֵינֵ֣י יְהוָ֑ה וַיִּתְּנֵ֧ם יְהוָ֛ה בְּיַד־מִדְיָ֖ן שֶׁ֥בַע שָׁנִֽים׃",
+      "text_kjv": "And the children of Israel did evil in the sight of the LORD: and the LORD delivered them into the hand of Midian seven years.",
+      "rendering": "The Israelites did what was evil in the sight of the LORD, and the LORD gave them into the hand of Midian for seven years.",
+      "translator_notes": [
+        "The fifth cycle opens with the standard formula. Midian — a semi-nomadic people associated with the desert east of the Jordan (Moses's father-in-law Jethro was a Midianite priest, Exodus 2:16-3:1). Seven years of oppression is relatively short but, as the following verses reveal, intensely devastating."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַתָּ֤עׇז יַד־מִדְיָן֙ עַל־יִשְׂרָאֵ֔ל מִפְּנֵ֣י מִדְיָ֔ן עָשׂ֤וּ לָהֶם֙ בְּנֵ֣י יִשְׂרָאֵ֔ל אֶת־הַמִּנְהָר֖וֹת אֲשֶׁ֣ר בֶּהָרִ֑ים וְאֶת־הַמְּעָר֖וֹת וְאֶת־הַמְּצָדֽוֹת׃",
+      "text_kjv": "And the hand of Midian prevailed against Israel: and because of the Midianites the children of Israel made them the dens which are in the mountains, and caves, and strong holds.",
+      "rendering": "The hand of Midian was heavy on Israel. Because of Midian, the Israelites made for themselves the tunnels in the mountains, the caves, and the strongholds.",
+      "translator_notes": [
+        "Va-ta'oz yad Midyan ('the hand of Midian was strong/heavy') — the verb azaz means 'to be strong, to prevail.' The oppression is so severe that Israel retreats to minharot ('tunnels, dens'), me'arot ('caves'), and metsadot ('strongholds, fortified positions'). The people of the promised land are hiding like fugitives in their own territory. This is the most extreme description of oppression in Judges — Israel is reduced to cave-dwelling."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְהָיָ֗ה אִם־זָרַ֤ע יִשְׂרָאֵל֙ וְעָלָ֤ה מִדְיָן֙ וַעֲמָלֵ֔ק וּבְנֵי־קֶ֖דֶם וְעָל֥וּ עָלָֽיו׃",
+      "text_kjv": "And so it was, when Israel had sown, that the Midianites came up, and the Amalekites, and the children of the east, and came upon them;",
+      "rendering": "Whenever Israel sowed, Midian would come up, along with Amalek and the people of the east, and attack them.",
+      "translator_notes": [
+        "The Midianite strategy is economic terrorism: they wait until Israel has sowed (zara, 'planted seed') and then invade to destroy or seize the harvest. The coalition includes Amalek (Israel's perennial enemy) and benei qedem ('sons of the east,' desert nomads from the Transjordan). The timing is precise — attacking after sowing but before harvest ensures maximum agricultural devastation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיַּחֲנ֣וּ עֲלֵיהֶ֗ם וַיַּשְׁחִ֙יתוּ֙ אֶת־יְב֣וּל הָאָ֔רֶץ עַד־בּוֹאֲךָ֖ עַזָּ֑ה וְלֹֽא־יַשְׁאִ֤ירוּ מִחְיָה֙ בְּיִשְׂרָאֵ֔ל וְשֶׂ֥ה וָשׁ֖וֹר וַחֲמֽוֹר׃",
+      "text_kjv": "And they encamped against them, and destroyed the increase of the earth, till thou come to Gaza, and left no sustenance for Israel, neither sheep, nor ox, nor ass.",
+      "rendering": "They would camp against them and destroy the produce of the land as far as Gaza, leaving no food in Israel — no sheep, no ox, no donkey.",
+      "translator_notes": [
+        "The destruction extends ad bo'akha Azzah ('until you reach Gaza') — the entire width of the country from the eastern desert to the western coast. The comprehensiveness is deliberate: lo yash'iru michyah be-Yisra'el ('they left no sustenance in Israel'). Even livestock — sheep, oxen, donkeys — are taken or destroyed. This is systematic starvation, not mere raiding."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כִּ֡י הֵם֩ וּמִקְנֵיהֶ֨ם יַעֲל֜וּ וְאׇהֳלֵיהֶ֗ם יָבֹ֙אוּ֙ כְדֵֽי־אַרְבֶּ֣ה לָרֹ֔ב וְלָהֶ֥ם וְלִגְמַלֵּיהֶ֖ם אֵ֣ין מִסְפָּ֑ר וַיָּבֹ֥אוּ בָאָ֖רֶץ לְשַׁחֲתָֽהּ׃",
+      "text_kjv": "For they came up with their cattle and their tents, and they came as grasshoppers for multitude; for both they and their camels were without number: and they entered into the land to destroy it.",
+      "rendering": "For they would come up with their livestock and their tents, arriving like locusts in number — they and their camels were beyond counting — and they invaded the land to devastate it.",
+      "translator_notes": [
+        "Ke-dei arbeh la-rov ('like locusts in multitude') — the locust simile is one of the most powerful in the Hebrew Bible for describing overwhelming numbers. Locusts consume everything in their path, leaving nothing — exactly what the Midianite raiders do to Israel's agriculture. The camels (gemalim) are significant: camel-borne nomads had superior mobility over settled agricultural populations, enabling rapid strikes across vast distances. The Midianite raids represent an early form of nomadic warfare against sedentary communities."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיִּדַּ֧ל יִשְׂרָאֵ֛ל מְאֹ֖ד מִפְּנֵ֣י מִדְיָ֑ן וַיִּזְעֲק֥וּ בְנֵי־יִשְׂרָאֵ֖ל אֶל־יְהוָֽה׃",
+      "text_kjv": "And Israel was greatly impoverished because of the Midianites; and the children of Israel cried unto the LORD.",
+      "rendering": "Israel was brought very low because of Midian, and the Israelites cried out to the LORD.",
+      "translator_notes": [
+        "Va-yiddal Yisra'el me'od ('Israel was greatly impoverished/diminished') — the verb dalal means 'to become thin, poor, reduced.' Israel is wasting away. The cry (va-yiz'aqu) comes from desperation, not repentance — the same pattern as previous cycles. But this time, uniquely, God responds first not with a deliverer but with a prophet (verses 7-10)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיְהִ֕י כִּֽי־זָעֲק֥וּ בְנֵי־יִשְׂרָאֵ֖ל אֶל־יְהוָ֑ה עַ֖ל אֹד֥וֹת מִדְיָֽן׃",
+      "text_kjv": "And it came to pass, when the children of Israel cried unto the LORD because of the Midianites,",
+      "rendering": "When the Israelites cried out to the LORD because of Midian,",
+      "translator_notes": [
+        "The causal chain is established: Midianite oppression → Israel's cry → God's response. But the response is unusual — God sends a prophet before sending a deliverer. This is the only cycle in Judges where prophetic rebuke precedes military deliverance. The sequence suggests Israel needs to understand why they are suffering before they can be rescued."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיִּשְׁלַ֤ח יְהוָה֙ אִ֣ישׁ נָבִ֔יא אֶל־בְּנֵ֖י יִשְׂרָאֵ֑ל וַיֹּ֨אמֶר לָהֶ֜ם כֹּה־אָמַ֣ר יְהוָ֗ה אֱלֹהֵ֤י יִשְׂרָאֵל֙ אָנֹכִ֞י הֶעֱלֵ֤יתִי אֶתְכֶם֙ מִמִּצְרַ֔יִם וָאֹצִ֥יא אֶתְכֶ֖ם מִבֵּ֥ית עֲבָדִֽים׃",
+      "text_kjv": "That the LORD sent a prophet unto the children of Israel, which said unto them, Thus saith the LORD God of Israel, I brought you up from Egypt, and brought you forth out of the house of bondage;",
+      "rendering": "the LORD sent a prophet to the Israelites. He said to them, \"This is what the LORD, the God of Israel, says: 'I brought you up from Egypt and led you out of the house of slavery.",
+      "translator_notes": [
+        "Ish navi ('a man, a prophet') — the prophet is unnamed, which is unusual. His anonymity underscores that the message matters, not the messenger. His speech follows the classic prophetic formula koh amar YHWH ('thus says the LORD') — the covenant lawsuit pattern. The content echoes the angel's speech at Bochim (2:1): God recites His saving acts as the basis for the indictment that follows.",
+        "Beit avadim ('house of slavery/bondage') is the standard Deuteronomic designation for Egypt (Deuteronomy 5:6, 6:12, 8:14). Its use here reminds Israel that their current oppression is not their first — God delivered them from worse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וָאַצִּ֤ל אֶתְכֶם֙ מִיַּ֣ד מִצְרַ֔יִם וּמִיַּ֖ד כׇּל־לֹחֲצֵיכֶ֑ם וָאֲגָרֵ֣שׁ אוֹתָ֗ם מִפְּנֵיכֶ֔ם וָאֶתְּנָ֥ה לָכֶ֖ם אֶת־אַרְצָֽם׃",
+      "text_kjv": "And I delivered you out of the hand of the Egyptians, and out of the hand of all that oppressed you, and drave them out from before you, and gave you their land;",
+      "rendering": "I rescued you from the hand of Egypt and from the hand of all who oppressed you. I drove them out before you and gave you their land.",
+      "translator_notes": [
+        "The recital of God's acts mirrors the covenant prologue form known from ancient Near Eastern treaties — the sovereign recounts what he has done for the vassal before stating his demands. God's credentials are His acts: rescue (hitsil), expulsion of enemies (gerashti), and land gift (natatti). Each verb is in the first person — God takes personal ownership of every stage of the deliverance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וָאֹמְרָ֣ה לָכֶ֗ם אֲנִי֙ יְהוָ֣ה אֱלֹהֵיכֶ֔ם לֹ֤א תִירְאוּ֙ אֶת־אֱלֹהֵ֣י הָאֱמֹרִ֔י אֲשֶׁ֥ר אַתֶּ֖ם יוֹשְׁבִ֣ים בְּאַרְצָ֑ם וְלֹ֥א שְׁמַעְתֶּ֖ם בְּקוֹלִֽי׃",
+      "text_kjv": "And I said unto you, I am the LORD your God; fear not the gods of the Amorites, in whose land ye dwell: but ye have not obeyed my voice.",
+      "rendering": "I said to you: I am the LORD your God. You must not fear the gods of the Amorites in whose land you live.' But you have not obeyed my voice.\"",
+      "translator_notes": [
+        "The indictment climaxes: lo shema'tem be-qoli ('you have not obeyed my voice'). The command lo tir'u et elohei ha-Emori ('do not fear the gods of the Amorites') uses the verb yare ('to fear, to revere, to worship'). 'Fearing' another god is functionally worshipping it — acknowledging its power and submitting to its demands. The Amorites are used here as a generic term for the Canaanite population.",
+        "Notably, no deliverance is promised in this prophetic speech. The prophet delivers the diagnosis but not the prescription. God's answer to the Midianite crisis — Gideon — does not come through this prophet but through a separate theophany (verses 11ff). The prophet explains the cause; the angel provides the cure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיָּבֹ֞א מַלְאַ֤ךְ יְהוָה֙ וַיֵּ֣שֶׁב תַּ֗חַת הָאֵלָה֙ אֲשֶׁ֣ר בְּעׇפְרָ֔ה אֲשֶׁ֥ר לְיוֹאָ֖שׁ אֲבִ֣י הָעֶזְרִ֑י וְגִדְע֣וֹן בְּנ֗וֹ חֹבֵ֤ט חִטִּים֙ בַּגַּ֔ת לְהָנִ֖יס מִפְּנֵ֥י מִדְיָֽן׃",
+      "text_kjv": "And there came an angel of the LORD, and sat under an oak which was in Ophrah, that pertained unto Joash the Abiezrite: and his son Gideon threshed wheat by the winepress, to hide it from the Midianites.",
+      "rendering": "The angel of the LORD came and sat under the oak at Ophrah, which belonged to Joash the Abiezrite. His son Gideon was threshing wheat in the winepress to hide it from Midian.",
+      "translator_notes": [
+        "Malakh YHWH ('the angel of the LORD') — the same figure from 2:1-5. The scene echoes the patriarchal theophanies: the divine visitor sits under a tree (cf. Abraham at Mamre, Genesis 18:1). Gideon's introduction is deliberately unheroic: he is threshing wheat (chovet chittim) in a winepress (ba-gat) — a hidden, cramped space used to avoid Midianite raiders. Normal threshing occurs on an open hilltop where wind separates chaff; using a winepress means working in concealment, in fear. The deliverer God will raise is introduced as a man hiding his grain.",
+        "The Abiezrite clan belongs to Manasseh (Joshua 17:2). Ophrah's location is uncertain but somewhere in the Manasseh territory in the central highlands."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיֵּרָ֤א אֵלָיו֙ מַלְאַ֣ךְ יְהוָ֔ה וַיֹּ֣אמֶר אֵלָ֔יו יְהוָ֥ה עִמְּךָ֖ גִּבּ֥וֹר הֶחָֽיִל׃",
+      "text_kjv": "And the angel of the LORD appeared unto him, and said unto him, The LORD is with thee, thou mighty man of valour.",
+      "rendering": "The angel of the LORD appeared to him and said, \"The LORD is with you, mighty warrior.\"",
+      "translator_notes": [
+        "YHWH immekha gibbor he-chayil ('the LORD is with you, mighty warrior') — the greeting is deeply ironic given the context. Gideon is a man hiding grain in a winepress, and the angel addresses him as gibbor he-chayil ('mighty warrior, valiant hero'). The title is either prophetic (God sees what Gideon will become) or challenging (calling forth a courage Gideon does not yet possess). The phrase YHWH immekha ('the LORD is with you') is a standard divine assurance of presence (cf. Joshua 1:5, Ruth 2:4), but Gideon will immediately question it."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גִּבּוֹר הֶחָיִל",
+          "transliteration": "gibbor he-chayil",
+          "rendered_as": "mighty warrior",
+          "semantic_range": "warrior of valor, mighty man, champion, capable soldier",
+          "note": "A title of military distinction applied to a man cowering in a winepress. The disconnect between the title and the reality is the narrative engine of Gideon's transformation from fearful farmer to Spirit-empowered deliverer."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיֹּ֤אמֶר אֵלָיו֙ גִּדְע֔וֹן בִּ֣י אֲדֹנִ֔י וְיֵ֥שׁ יְהוָ֖ה עִמָּ֑נוּ וְלָ֤מָּה מְצָאַ֙תְנוּ֙ כׇּל־זֹ֔את וְאַיֵּ֣ה כׇל־נִפְלְאֹתָ֗יו אֲשֶׁ֨ר סִפְּרוּ־לָ֤נוּ אֲבוֹתֵ֙ינוּ֙ לֵאמֹ֔ר הֲלֹ֧א מִמִּצְרַ֛יִם הֶעֱלָ֥נוּ יְהוָ֖ה וְעַתָּ֣ה נְטָשָׁ֥נוּ יְהוָ֖ה וַיִּתְּנֵ֥נוּ בְכַף־מִדְיָֽן׃",
+      "text_kjv": "And Gideon said unto him, Oh my Lord, if the LORD be with us, why then is all this befallen us? and where be all his miracles which our fathers told us of, saying, Did not the LORD bring us up from Egypt? but now the LORD hath forsaken us, and delivered us into the hands of the Midianites.",
+      "rendering": "Gideon said to him, \"Please, my lord, if the LORD is with us, why has all this happened to us? Where are all His wondrous acts that our fathers recounted to us, saying, 'Did not the LORD bring us up from Egypt?' But now the LORD has abandoned us and given us into the hand of Midian.\"",
+      "translator_notes": [
+        "Gideon's response is the most theologically articulate complaint by any judge. He raises three challenges: (1) If YHWH is with us (ve-yesh YHWH immanu), why has this happened? — questioning the divine presence claim; (2) Where are the miracles (nifle'otav) our fathers told us about? — the generational knowledge gap of 2:10 is now voiced by a character within the story; (3) The LORD has abandoned us (netashanu) — a direct accusation of divine desertion.",
+        "Gideon's theology is actually correct about the situation but wrong about the cause. God has not abandoned Israel — God has handed them over because of their idolatry (verse 1). Gideon sees the effect but not the reason. The unnamed prophet's speech (vv. 8-10) provided the explanation Gideon seems not to have heard."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיִּ֤פֶן אֵלָיו֙ יְהוָ֔ה וַיֹּ֗אמֶר לֵ֚ךְ בְּכֹחֲךָ֣ זֶ֔ה וְהוֹשַׁעְתָּ֥ אֶת־יִשְׂרָאֵ֖ל מִכַּ֣ף מִדְיָ֑ן הֲלֹ֖א שְׁלַחְתִּֽיךָ׃",
+      "text_kjv": "And the LORD looked upon him, and said, Go in this thy might, and thou shalt save Israel from the hand of the Midianites: have not I sent thee?",
+      "rendering": "The LORD turned to him and said, \"Go in this strength of yours and save Israel from the hand of Midian. Have I not sent you?\"",
+      "translator_notes": [
+        "Va-yifen elav YHWH ('the LORD turned to him') — the text now identifies the speaker as YHWH directly, not merely malakh YHWH. The blurring between angel and God continues (as in 2:1). The commission is direct: lekh be-khochakha zeh ('go in this strength of yours'). What strength? Gideon has displayed none. The 'strength' may refer to his honest confrontation with God — his willingness to ask hard questions is itself a form of spiritual strength that God can use.",
+        "Ve-hosha'ta et Yisra'el ('and you will save Israel') — the root y-sh-a (salvation) applied directly to Gideon. Ha-lo shelachticha ('Have I not sent you?') — the rhetorical question establishes divine commissioning. Gideon's authority comes not from personal ability but from divine sending."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיֹּ֤אמֶר אֵלָיו֙ בִּ֣י אֲדֹנָ֔י בַּמָּ֥ה אוֹשִׁ֖יעַ אֶת־יִשְׂרָאֵ֑ל הִנֵּ֤ה אַלְפִּי֙ הַדַּ֣ל בִּמְנַשֶּׁ֔ה וְאָנֹכִ֥י הַצָּעִ֖יר בְּבֵ֥ית אָבִֽי׃",
+      "text_kjv": "And he said unto him, Oh my Lord, wherewith shall I save Israel? behold, my family is poor in Manasseh, and I am the least in my father's house.",
+      "rendering": "He said to him, \"Please, my lord, how can I save Israel? My clan is the weakest in Manasseh, and I am the youngest in my father's household.\"",
+      "translator_notes": [
+        "Gideon's protest follows the classic call-narrative pattern: Moses ('Who am I?' Exodus 3:11), Jeremiah ('I am only a youth,' Jeremiah 1:6), and now Gideon ('My clan is the weakest, I am the youngest'). The double diminishment — alphi ha-dal ('my thousand/clan is the poor one') and anokhi ha-tsa'ir ('I am the youngest') — places Gideon at the bottom of both social and familial hierarchies. The theology is consistent: God chooses the weak to shame the strong (a principle Paul will articulate in 1 Corinthians 1:27)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיֹּ֤אמֶר אֵלָיו֙ יְהוָ֔ה כִּ֥י אֶהְיֶ֖ה עִמָּ֑ךְ וְהִכִּיתָ֥ אֶת־מִדְיָ֖ן כְּאִ֥ישׁ אֶחָֽד׃",
+      "text_kjv": "And the LORD said unto him, Surely I will be with thee, and thou shalt smite the Midianites as one man.",
+      "rendering": "The LORD said to him, \"I will be with you, and you will strike down Midian as though they were a single man.\"",
+      "translator_notes": [
+        "Ki ehyeh immakh ('for I will be with you') — the divine assurance echoes God's promise to Moses at the burning bush (Exodus 3:12, using the same ehyeh). The verb ehyeh ('I will be') is the first-person form of the divine name YHWH — God pledges His own being as guarantee. The promise transforms Gideon's weakness into irrelevance: Gideon's clan doesn't matter because God will be the one fighting.",
+        "Ke-ish echad ('as a single man') — the entire Midianite host will fall as easily as if they were one individual. The image collapses the impossible odds into a single opponent, which is theologically accurate: the battle is God's, not Gideon's."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיֹּ֣אמֶר אֵלָ֔יו אִם־נָ֛א מָצָ֥אתִי חֵ֖ן בְּעֵינֶ֑יךָ וְעָשִׂ֤יתָ לִּי֙ א֔וֹת שָׁאַתָּ֖ה מְדַבֵּ֥ר עִמִּֽי׃",
+      "text_kjv": "And he said unto him, If now I have found grace in thy sight, then shew me a sign that thou talkest with me.",
+      "rendering": "He said to him, \"If I have found favor in your eyes, show me a sign that it is you who are speaking with me.",
+      "translator_notes": [
+        "Im na matsati chen be-einekha ('if I have found favor in your eyes') — the standard petition formula for requesting something from a superior. Gideon asks for an ot ('sign') — visible confirmation that this visitor is genuinely divine. The request for signs will become Gideon's pattern (the fleece test in vv. 36-40). The text does not criticize the initial request — confirmation of divine commission is reasonable. But the pattern of repeated sign-seeking will raise questions about Gideon's faith."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "אַל־נָ֣א תָמֻ֣שׁ מִזֶּ֗ה עַד־בֹּאִ֣י אֵלֶיךָ֮ וְהֹצֵאתִ֣י אֶת־מִנְחָתִי֒ וְהִנַּחְתִּ֖י לְפָנֶ֑יךָ וַיֹּאמַ֕ר אָנֹכִ֥י אֵשֵׁ֖ב עַ֥ד שׁוּבֶֽךָ׃",
+      "text_kjv": "Depart not hence, I pray thee, until I come unto thee, and bring forth my present, and set it before thee. And he said, I will tarry until thou come again.",
+      "rendering": "Please do not leave here until I come back to you and bring out my offering and set it before you.\" He said, \"I will stay until you return.\"",
+      "translator_notes": [
+        "Minchati ('my offering/gift') — the same term used for the grain offering in Leviticus 2 and for tribute to a king. Gideon's offering could be a meal for a distinguished guest or a sacrificial offering to a deity — the ambiguity reflects Gideon's own uncertainty about who he is dealing with. The divine visitor's willingness to wait (anokhi eshev, 'I will sit/stay') echoes God's patience throughout the patriarchal narratives — the divine is never in a hurry."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְגִדְע֣וֹן בָּ֗א וַיַּ֤עַשׂ גְּדִי־עִזִּים֙ וְאֵיפַ֤ת קְמָחִים֙ מַצּ֔וֹת הַבָּשָׂ֣ר שָׂ֣ם בַּסַּ֔ל וְהַמָּרַ֖ק שָׂ֣ם בַּפָּר֑וּר וַיּוֹצֵ֥א אֵלָ֛יו אֶל־תַּ֥חַת הָאֵלָ֖ה וַיַּגַּֽשׁ׃",
+      "text_kjv": "And Gideon went in, and made ready a kid, and unleavened cakes of an ephah of flour: the flesh he put in a basket, and he put the broth in a pot, and brought it out unto him under the oak, and presented it.",
+      "rendering": "Gideon went in and prepared a young goat and unleavened bread from an ephah of flour. He put the meat in a basket, poured the broth in a pot, and brought it out to him under the oak and presented it.",
+      "translator_notes": [
+        "The offering is lavish: a gedi izzim ('kid of the goats'), an eifah ('ephah,' approximately 22 liters / 6 gallons) of flour for matzot ('unleavened bread'), plus broth. In a time of famine, this represents enormous generosity — Gideon gives what his family can barely afford. The unleavened bread (matzot) is associatively linked to the exodus Passover (Exodus 12:8), though the connection may be incidental. The presentation under the oak (ha-elah) transforms the domestic meal into something approaching sacrifice."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיֹּ֤אמֶר אֵלָיו֙ מַלְאַ֣ךְ הָאֱלֹהִ֔ים קַ֤ח אֶת־הַבָּשָׂר֙ וְאֶת־הַמַּצּ֔וֹת וְהַנַּ֖ח אֶל־הַסֶּ֣לַע הַלָּ֑ז וְאֶת־הַמָּרַ֖ק שְׁפ֥וֹךְ וַיַּ֖עַשׂ כֵּֽן׃",
+      "text_kjv": "And the angel of God said unto him, Take the flesh and the unleavened cakes, and lay them upon this rock, and pour out the broth. And he did so.",
+      "rendering": "The angel of God said to him, \"Take the meat and the unleavened bread and place them on this rock, and pour out the broth.\" He did so.",
+      "translator_notes": [
+        "The angel's instruction transforms a meal into an offering: the rock (ha-sela) becomes an altar. Placing meat and bread on a rock and pouring out the broth mirrors sacrificial procedure — the solid elements are placed for burning and the liquid is poured out as a libation. Gideon's domestic gift is being redirected from hospitality to worship."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיִּשְׁלַ֞ח מַלְאַ֤ךְ יְהוָה֙ אֶת־קְצֵ֣ה הַמִּשְׁעֶ֔נֶת אֲשֶׁ֖ר בְּיָד֑וֹ וַיִּגַּ֤ע בַּבָּשָׂר֙ וּבַמַּצּ֔וֹת וַתַּ֨עַל הָאֵ֜שׁ מִן־הַצּ֗וּר וַתֹּ֤אכַל אֶת־הַבָּשָׂר֙ וְאֶת־הַמַּצּ֔וֹת וּמַלְאַ֣ךְ יְהוָ֔ה הָלַ֖ךְ מֵעֵינָֽיו׃",
+      "text_kjv": "Then the angel of the LORD put forth the end of the staff that was in his hand, and touched the flesh and the unleavened cakes; and there rose up fire out of the rock, and consumed the flesh and the unleavened cakes. Then the angel of the LORD departed out of his sight.",
+      "rendering": "The angel of the LORD extended the tip of the staff in his hand and touched the meat and the unleavened bread. Fire rose from the rock and consumed the meat and the unleavened bread. Then the angel of the LORD vanished from his sight.",
+      "translator_notes": [
+        "The staff-touch ignites the offering — fire from the rock (va-ta'al ha-esh min ha-tsur) consumes the sacrifice. This is the sign Gideon requested (v. 17): divine fire accepting the offering, just as fire consumed Elijah's sacrifice on Carmel (1 Kings 18:38) and the tabernacle inauguration offerings (Leviticus 9:24). Fire from the rock is theophanic — God reveals Himself through consuming fire.",
+        "U-malakh YHWH halakh me-einav ('the angel of the LORD vanished from his sight') — the departure confirms the divine identity. The angel does not walk away but disappears. Gideon's visitor was not human."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיַּ֤רְא גִּדְעוֹן֙ כִּֽי־מַלְאַ֣ךְ יְהוָ֣ה ה֔וּא וַיֹּ֣אמֶר גִּדְע֔וֹן אֲהָ֖הּ אֲדֹנָ֣י יְהוִ֑ה כִּֽי־עַל־כֵּ֤ן רָאִ֙יתִי֙ מַלְאַ֣ךְ יְהוָ֔ה פָּנִ֖ים אֶל־פָּנִֽים׃",
+      "text_kjv": "And when Gideon perceived that he was an angel of the LORD, Gideon said, Alas, O Lord GOD! for because I have seen an angel of the LORD face to face.",
+      "rendering": "When Gideon realized that he was the angel of the LORD, Gideon said, \"Alas, Lord GOD! For I have seen the angel of the LORD face to face!\"",
+      "translator_notes": [
+        "Gideon's terror (ahahh, an exclamation of distress) reflects the ancient Israelite belief that seeing God or His angel directly was fatal (cf. Exodus 33:20, 'no one can see my face and live'). The phrase panim el panim ('face to face') is the most intense form of divine encounter — unmediated, direct. Gideon fears he will die because he has seen the divine face. This is the same fear Jacob expressed at Peniel (Genesis 32:30).",
+        "The address Adonai YHWH ('Lord GOD') uses both divine titles — Adonai as the spoken form and YHWH as the covenant name. The doubling signals extreme urgency."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיֹּ֨אמֶר ל֤וֹ יְהוָה֙ שָׁל֣וֹם לְךָ֔ אַל־תִּירָ֖א לֹ֥א תָמֽוּת׃",
+      "text_kjv": "And the LORD said unto him, Peace be unto thee; fear not: thou shalt not die.",
+      "rendering": "The LORD said to him, \"Peace to you. Do not be afraid — you will not die.\"",
+      "expanded_rendering": "God's response to Gideon's terror — 'shalom to you' — is far more than a greeting. Shalom is the Hebrew word for the state where everything is whole, complete, and functioning as God intended. When God speaks shalom over a person who has just seen the divine face, He is declaring: 'My presence does not destroy you — it restores you. You are not consumed but commissioned.' The shalom that quells Gideon's fear becomes the name of his altar (verse 24) and the theological foundation of his calling.",
+      "translator_notes": [
+        "Shalom lekha ('peace to you') — God's response to Gideon's terror is the gift of shalom. The word carries its full weight here: not merely 'hello' but a declaration of well-being, wholeness, safety. Al tira ('do not be afraid') is the standard divine reassurance formula. Lo tamut ('you will not die') directly addresses Gideon's specific fear. The encounter that threatened death produces instead a declaration of peace."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, well-being, completeness, safety, harmony",
+          "note": "God's shalom to Gideon is a gift that transforms the encounter from terror to assurance. Shalom here means 'you are whole, you are safe, no harm will come from having seen me.' It is the opposite of the death Gideon feared."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיִּ֧בֶן שָׁ֣ם גִּדְע֗וֹן מִזְבֵּ֙חַ֙ לַיהוָ֔ה וַיִּקְרָ֥א ל֖וֹ יְהוָ֣ה ׀ שָׁל֑וֹם עַ֣ד הַיּ֤וֹם הַזֶּה֙ עוֹדֶ֣נּוּ בְּעׇפְרַ֔ת אֲבִ֖י הָעֶזְרִֽי׃",
+      "text_kjv": "Then Gideon built an altar there unto the LORD, and called it Jehovahshalom: unto this day it is yet in Ophrah of the Abiezrites.",
+      "rendering": "Gideon built an altar there to the LORD and named it \"The LORD Is Peace.\" To this day it still stands in Ophrah of the Abiezrites.",
+      "translator_notes": [
+        "YHWH Shalom ('The LORD Is Peace') — Gideon's altar name commemorates God's gift of shalom in the theophany. The altar name is a theological statement: the God who commissioned Gideon for war is the God whose fundamental character is peace. The construction of an altar is Gideon's first act as a covenant leader — before any military action, he establishes worship. The narrator's tag 'to this day' (ad ha-yom ha-zeh) attests to the altar's survival into the writer's era."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיְהִ֣י ׀ בַּלַּ֣יְלָה הַה֗וּא וַיֹּ֤אמֶר לוֹ֙ יְהוָ֔ה קַ֚ח אֶת־פַּ֣ר הַשּׁ֔וֹר אֲשֶׁ֥ר לְאָבִ֖יךָ וּפַ֣ר הַשֵּׁנִ֗י שֶׁ֚בַע שָׁנִ֔ים וְהָרַסְתָּ֗ אֶת־מִזְבַּ֤ח הַבַּ֙עַל֙ אֲשֶׁ֣ר לְאָבִ֔יךָ וְאֶת־הָאֲשֵׁרָ֥ה אֲשֶׁר־עָלָ֖יו תִּכְרֹֽת׃",
+      "text_kjv": "And it came to pass the same night, that the LORD said unto him, Take thy father's young bullock, even the second bullock of seven years old, and throw down the altar of Baal that thy father hath, and cut down the grove that is by it:",
+      "rendering": "That same night the LORD said to him, \"Take your father's bull — the second bull, seven years old — and tear down the altar of Baal that belongs to your father, and cut down the Asherah pole beside it.",
+      "translator_notes": [
+        "God's first command to Gideon is not military but cultic: destroy your own father's Baal altar and Asherah pole. The theology is clear — before Israel can be delivered from external enemies (Midian), it must be delivered from internal idolatry (Baal worship). The seven-year-old bull may correspond to the seven years of Midianite oppression (verse 1), symbolically connecting the idol's age to the duration of God's judgment.",
+        "Asher le-avikha ('that belongs to your father') — the idolatry is domestic, familial. Gideon must confront his own household's sin before he can address Israel's. The personal cost of the commission is immediate."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וּבָנִ֨יתָ מִזְבֵּ֜חַ לַיהוָ֣ה אֱלֹהֶ֗יךָ עַ֣ל רֹ֧אשׁ הַמָּע֛וֹז הַזֶּ֖ה בַּמַּעֲרָכָ֑ה וְלָ֨קַחְתָּ֜ אֶת־הַפָּ֣ר הַשֵּׁנִ֗י וְהַעֲלִ֤יתָ עוֹלָה֙ בַּעֲצֵ֣י הָאֲשֵׁרָ֔ה אֲשֶׁ֖ר תִּכְרֹֽת׃",
+      "text_kjv": "And build an altar unto the LORD thy God upon the top of this rock, in the ordered place, and take the second bullock, and offer a burnt sacrifice with the wood of the grove which thou shalt cut down.",
+      "rendering": "Then build an altar to the LORD your God on top of this stronghold, in proper arrangement. Take the second bull and offer it as a burnt offering using the wood of the Asherah pole that you cut down.\"",
+      "translator_notes": [
+        "The instruction is theologically charged: burn the Asherah pole and use its wood as fuel for a burnt offering (olah) to YHWH. The idol becomes firewood for the true God's altar. The desecration of the Canaanite cult object is total — it is not merely destroyed but repurposed for YHWH worship. The olah (burnt offering — the total surrender offering from Leviticus 1) replaces the Baal cult with YHWH worship on the same site.",
+        "Ba-ma'arakhah ('in proper arrangement') — the offering must be done correctly, according to prescribed procedure. Even in the emergency of spiritual revolution, liturgical order matters."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיִּקַּ֨ח גִּדְע֜וֹן עֲשָׂרָ֤ה אֲנָשִׁים֙ מֵעֲבָדָ֔יו וַיַּ֕עַשׂ כַּאֲשֶׁ֥ר דִּבֶּר־אֵלָ֖יו יְהוָ֑ה וַיְהִ֗י כַּאֲשֶׁ֤ר יָרֵא֙ אֶת־בֵּ֣ית אָבִ֔יו וְאֶת־אַנְשֵׁ֥י הָעִ֖יר מֵעֲשׂ֥וֹת יוֹמָ֖ם וַיַּ֥עַשׂ לָֽיְלָה׃",
+      "text_kjv": "Then Gideon took ten men of his servants, and did as the LORD had said unto him: and so it was, because he feared his father's household, and the men of the city, that he could not do it by day, that he did it by night.",
+      "rendering": "Gideon took ten of his servants and did as the LORD had told him. But because he was too afraid of his father's household and the men of the city to do it by day, he did it at night.",
+      "translator_notes": [
+        "Gideon obeys — but at night, in fear. Ka'asher yare et beit aviv ('because he feared his father's house') — the deliverer who will defeat Midian is afraid of his own neighbors. The narrator does not condemn the fear but records it honestly: Gideon's courage is imperfect, his faith is growing but not complete. The ten servants provide both labor and witnesses — even fearful obedience requires community."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיַּשְׁכִּ֜מוּ אַנְשֵׁ֤י הָעִיר֙ בַּבֹּ֔קֶר וְהִנֵּ֤ה נֻתַּץ֙ מִזְבַּ֣ח הַבַּ֔עַל וְהָאֲשֵׁרָ֥ה אֲשֶׁר־עָלָ֖יו כֹּרָ֑תָה וְאֵ֗ת הַפָּ֤ר הַשֵּׁנִי֙ הֹעֲלָ֔ה עַ֥ל הַמִּזְבֵּ֖חַ הַבָּנֽוּי׃",
+      "text_kjv": "And when the men of the city arose early in the morning, behold, the altar of Baal was cast down, and the grove was cut down that was by it, and the second bullock was offered upon the altar that was built.",
+      "rendering": "When the men of the city rose early in the morning, the altar of Baal had been torn down, the Asherah pole beside it had been cut down, and the second bull had been offered on the altar that was built.",
+      "translator_notes": [
+        "The morning-after discovery reveals the three-part act: altar destroyed, Asherah cut, YHWH-offering presented. The built altar (ha-mizbeach ha-banui) stands where the Baal altar stood — replacement, not merely destruction. The community confronts a fait accompli: their cultic center has been transformed overnight from Baal worship to YHWH worship."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיֹּאמְר֞וּ אִ֤ישׁ אֶל־רֵעֵ֙הוּ֙ מִ֣י עָשָׂ֣ה הַדָּבָ֣ר הַזֶּ֔ה וַֽיִּדְרְשׁ֖וּ וַיְבַקֵּ֑שׁוּ וַיֹּ֣אמְר֔וּ גִּדְע֧וֹן בֶּן־יוֹאָ֖שׁ עָשָׂ֥ה הַדָּבָ֖ר הַזֶּֽה׃",
+      "text_kjv": "And they said one to another, Who hath done this thing? And when they enquired and asked, they said, Gideon the son of Joash hath done this thing.",
+      "rendering": "They said to one another, \"Who did this?\" When they investigated and inquired, they said, \"Gideon son of Joash did this.\"",
+      "translator_notes": [
+        "The investigation (darash, 'to seek, to inquire' and biqqesh, 'to search') reveals Gideon — perhaps through the testimony of the ten servants, or through the process of elimination in a small community. The discovery puts Gideon in immediate danger: destroying a community's cultic center is a capital offense by local custom."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיֹּ֨אמְר֜וּ אַנְשֵׁ֤י הָעִיר֙ אֶל־יוֹאָ֔שׁ הוֹצֵ֥א אֶת־בִּנְךָ֖ וְיָמֹ֑ת כִּ֤י נָתַץ֙ אֶת־מִזְבַּ֣ח הַבַּ֔עַל וְכִ֥י כָרַ֖ת הָאֲשֵׁרָ֥ה אֲשֶׁר־עָלָֽיו׃",
+      "text_kjv": "Then the men of the city said unto Joash, Bring out thy son, that he may die: because he hath cast down the altar of Baal, and because he hath cut down the grove that was by it.",
+      "rendering": "The men of the city said to Joash, \"Bring out your son so he can die, because he tore down the altar of Baal and because he cut down the Asherah pole beside it.\"",
+      "translator_notes": [
+        "The demand hotse et binkha ve-yamot ('bring out your son that he may die') uses the same formulation as the demand for Lot's guests in Sodom (Genesis 19:5, though with different intent). The townspeople want Gideon executed for sacrilege against Baal. The irony is that an Israelite community demands death for destroying an idol that Israelites were commanded to destroy (Deuteronomy 7:5). The depth of Canaanization is exposed: Israel defends Baal's honor."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיֹּ֣אמֶר יוֹאָ֗שׁ לְכֹל֙ אֲשֶׁ֣ר עָמְד֣וּ עָלָ֔יו הַאַתֶּ֞ם תְּרִיב֣וּן לַבַּ֗עַל אִם־אַתֶּם֙ תּוֹשִׁיע֣וּן אוֹת֔וֹ אֲשֶׁ֨ר יָרִ֥יב ל֛וֹ יוּמַ֖ת עַד־הַבֹּ֑קֶר אִם־אֱלֹהִ֥ים הוּא֙ יָ֣רֶב ל֔וֹ כִּ֥י נָתַ֖ץ אֶת־מִזְבְּחֽוֹ׃",
+      "text_kjv": "And Joash said unto all that stood against him, Will ye plead for Baal? will ye save him? he that will plead for him, let him be put to death whilst it is yet morning: if he be a god, let him plead for himself, because one hath cast down his altar.",
+      "rendering": "Joash said to all who stood against him, \"Will you contend for Baal? Will you save him? Whoever contends for him will be put to death by morning! If he is a god, let him contend for himself, since someone tore down his altar.\"",
+      "translator_notes": [
+        "Joash's defense of his son is brilliant and devastating: ha-attem terivun la-Ba'al ('will YOU contend for Baal?'). The verb riv ('to contend, to argue, to litigate') is a legal term — Joash puts Baal on trial rather than Gideon. His argument is simple and irrefutable: if Baal is a real god, he can defend his own altar; if he cannot, he's not worth defending. Im elohim hu yarev lo ('if he is a god, let him contend for himself') — this is the theological acid test. The logic anticipates Elijah's mockery on Carmel (1 Kings 18:27)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיִּקְרָא־ל֥וֹ בַיּוֹם־הַה֖וּא יְרֻבַּ֣עַל לֵאמֹ֑ר יָ֤רֶב בּוֹ֙ הַבַּ֔עַל כִּ֥י נָתַ֖ץ אֶת־מִזְבְּחֽוֹ׃",
+      "text_kjv": "Therefore on that day he called him Jerubbaal, saying, Let Baal plead against him, because he hath thrown down his altar.",
+      "rendering": "So on that day he named him Jerubbaal, saying, \"Let Baal contend with him,\" because he tore down his altar.",
+      "translator_notes": [
+        "Yerubba'al ('Let Baal contend') — the name is a permanent theological taunt. Every time Gideon is called by this name (which the text uses throughout the rest of the narrative and in later references, 1 Samuel 12:11), the hearer is reminded that Baal could not defend his own altar. The name functions as a walking declaration of Baal's impotence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְכׇל־מִדְיָ֧ן וַעֲמָלֵ֛ק וּבְנֵי־קֶ֖דֶם נֶאֶסְפ֣וּ יַחְדָּ֑ו וַיַּעַבְר֖וּ וַיַּחֲנ֥וּ בְעֵ֖מֶק יִזְרְעֶֽאל׃",
+      "text_kjv": "Then all the Midianites and the Amalekites and the children of the east were gathered together, and went over, and pitched in the valley of Jezreel.",
+      "rendering": "All the Midianites and the Amalekites and the people of the east gathered together, crossed over, and camped in the Valley of Jezreel.",
+      "translator_notes": [
+        "The Midianite coalition masses in the Emek Yizre'el ('Valley of Jezreel') — the same strategic plain where Deborah and Barak fought Sisera. This is Israel's most vulnerable geographic zone: a broad, flat valley ideal for the nomadic raiders' mobility advantage. The gathering of 'all' the coalition forces signals the scale of the threat that Gideon must face."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְר֣וּחַ יְהוָ֔ה לָבְשָׁ֖ה אֶת־גִּדְע֑וֹן וַיִּתְקַע֙ בַּשּׁוֹפָ֔ר וַיִּזָּעֵ֥ק אֲבִיעֶ֖זֶר אַחֲרָֽיו׃",
+      "text_kjv": "But the Spirit of the LORD came upon Gideon, and he blew a trumpet; and Abiezer was gathered after him.",
+      "rendering": "The Spirit of the LORD clothed Gideon, and he blew the shofar. The Abiezrites rallied behind him.",
+      "translator_notes": [
+        "Ruach YHWH lavshah et Gid'on ('the Spirit of the LORD clothed Gideon') — a unique verb for Spirit empowerment. Where the Spirit 'came upon' (hayetah al) Othniel (3:10) and will 'rush upon' (tsalach al) Samson (14:6), here the Spirit 'clothed' (lavash) Gideon — wrapping him like a garment. The metaphor suggests total covering: Gideon is enveloped by divine power, worn by the Spirit as much as wearing it. This is the most intimate of the Spirit-empowerment verbs in Judges.",
+        "The shofar blast and the rallying of the Abiezrite clan (Gideon's own family) is the beginning of the military campaign. The man who destroyed Baal's altar at night in fear now summons troops publicly in daylight — the Spirit's clothing has transformed him."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רוּחַ יְהוָה לָבְשָׁה",
+          "transliteration": "ruach YHWH lavshah",
+          "rendered_as": "the Spirit of the LORD clothed",
+          "semantic_range": "clothed, enveloped, put on, dressed in",
+          "note": "The Spirit does not merely touch or come upon Gideon — it 'clothes' him, wraps around him like a garment. Gideon is worn by the Spirit. The metaphor suggests that in the moments of divine empowerment, the human personality is not erased but fully covered, fully empowered, fully inhabited by divine presence."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וּמַלְאָכִ֣ים שָׁלַ֗ח בְּכׇל־מְנַשֶּׁה֙ וַיִּזָּעֵ֣ק גַּם־ה֔וּא אַחֲרָ֑יו וּמַלְאָכִ֣ים שָׁלַ֗ח בְּאָשֵׁ֤ר וּבִזְבוּלֻן֙ וּבְנַפְתָּלִ֔י וַיַּעֲל֖וּ לִקְרָאתָֽם׃",
+      "text_kjv": "And he sent messengers throughout all Manasseh; who also was gathered after him: and he sent messengers unto Asher, and unto Zebulun, and unto Naphtali; and they came up to meet them.",
+      "rendering": "He sent messengers throughout all Manasseh, and they too rallied behind him. He also sent messengers to Asher, Zebulun, and Naphtali, and they came up to meet them.",
+      "translator_notes": [
+        "Four tribes respond: Manasseh (Gideon's own), Asher, Zebulun, and Naphtali. The Song of Deborah rebuked Asher for not joining (5:17); here Asher responds. The gathering of multiple tribes shows a broader coalition than most judge narratives — Gideon's summons reaches beyond his immediate clan to the northern tribal alliance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיֹּ֤אמֶר גִּדְעוֹן֙ אֶל־הָ֣אֱלֹהִ֔ים אִם־יֶשְׁךָ֥ מוֹשִׁ֛יעַ בְּיָדִ֖י אֶת־יִשְׂרָאֵ֑ל כַּאֲשֶׁ֖ר דִּבַּֽרְתָּ׃",
+      "text_kjv": "And Gideon said unto God, If thou wilt save Israel by mine hand, as thou hast said,",
+      "rendering": "Gideon said to God, \"If you are going to save Israel through me, as you have promised —",
+      "translator_notes": [
+        "The fleece test begins. Gideon has already received a theophany (vv. 11-24), divine fire consuming his offering (v. 21), the Spirit's clothing (v. 34), and four tribes responding to his summons. Despite all this, he seeks additional confirmation: im yeshkha moshia be-yadi ('if you are saving through my hand'). The im ('if') after so many confirmations reveals Gideon's persistent uncertainty. The fleece test is not a model of faith but a concession to weakness."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "הִנֵּ֣ה אָנֹכִ֗י מַצִּיג֙ אֶת־גִּזַּ֣ת הַצֶּ֔מֶר בַּגֹּ֑רֶן אִ֡ם טַל֩ יִהְיֶ֨ה עַל־הַגִּזָּ֜ה לְבַדָּ֗הּ וְעַל־כׇּל־הָאָ֙רֶץ֙ חֹ֔רֶב וְיָדַעְתִּ֗י כִּֽי־תוֹשִׁ֧יעַ בְּיָדִ֛י אֶת־יִשְׂרָאֵ֖ל כַּאֲשֶׁ֥ר דִּבַּֽרְתָּ׃",
+      "text_kjv": "Behold, I will put a fleece of wool in the floor; and if the dew be on the fleece only, and it be dry upon all the earth beside, then shall I know that thou wilt save Israel by mine hand, as thou hast said.",
+      "rendering": "I am placing a fleece of wool on the threshing floor. If there is dew on the fleece only, and all the ground around it is dry, then I will know that you will save Israel through me, as you have promised.\"",
+      "translator_notes": [
+        "Gizzat ha-tsemer ('fleece of wool') — a sheared sheep's fleece. The test is straightforward: an outcome that defies natural probability will confirm divine intent. Dew falling only on the fleece while the surrounding ground remains dry would be a localized miracle. The threshing floor (goren) is an open hilltop area — the same kind of exposed location Gideon avoided when threshing in the winepress (v. 11). His willingness to use the threshing floor now, rather than the winepress, shows some progress in confidence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיְהִי־כֵ֗ן וַיַּשְׁכֵּ֤ם מִֽמׇּחֳרָת֙ וַיָּ֣זַר אֶת־הַגִּזָּ֔ה וַיִּ֥מֶץ טַ֖ל מִן־הַגִּזָּ֑ה מְלוֹא֙ הַסֵּ֔פֶל מָֽיִם׃",
+      "text_kjv": "And it was so: for he rose up early on the morrow, and thrust the fleece together, and wringed the dew out of the fleece, a bowl full of water.",
+      "rendering": "And so it happened. He rose early the next morning, wrung out the fleece, and squeezed enough dew from it to fill a bowl with water.",
+      "translator_notes": [
+        "God grants the sign generously — melo ha-sefel mayim ('a full bowl of water'). The fleece is saturated while the ground is dry. The miracle is conceded without divine commentary or rebuke. God meets Gideon's weakness with patience, not punishment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיֹּ֤אמֶר גִּדְעוֹן֙ אֶל־הָ֣אֱלֹהִ֔ים אַל־יִ֤חַר אַפְּךָ֙ בִּ֔י וַאֲדַבְּרָ֖ה אַ֣ךְ הַפָּ֑עַם אֲנַסֶּ֤ה נָּא֙ רַק־הַפַּ֔עַם בַּגִּזָּ֗ה יְהִי־נָ֤א חֹ֙רֶב֙ אֶל־הַגִּזָּ֣ה לְבַדָּ֔הּ וְעַל־כׇּל־הָאָ֖רֶץ יִֽהְיֶה־טָּֽל׃",
+      "text_kjv": "And Gideon said unto God, Let not thine anger be hot against me, and I will speak but this once: let me prove, I pray thee, but this once with the fleece; let it now be dry only upon the fleece, and upon all the ground let there be dew.",
+      "rendering": "Gideon said to God, \"Do not let your anger burn against me — let me speak just one more time. Let me test just once more with the fleece: let only the fleece be dry, and let there be dew on all the ground.\"",
+      "translator_notes": [
+        "Al yichar appekha bi ('do not let your anger burn against me') — Gideon knows he is pushing the boundary. His own words reveal consciousness of presumption: akh ha-pa'am ('just this time'), raq ha-pa'am ('only this once'). He reverses the test: now the fleece should be dry while the ground is wet. The reversal is actually a harder test — wool naturally absorbs moisture, so a dry fleece on wet ground defies the material's properties more dramatically.",
+        "The repetition of sign-requests is Gideon's character trait: he needs constant reassurance. God accommodates this weakness, but the narrative trajectory suggests it is weakness, not exemplary faith."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַיַּ֧עַשׂ אֱלֹהִ֛ים כֵּ֖ן בַּלַּ֣יְלָה הַה֑וּא וַיְהִי־חֹ֤רֶב אֶל־הַגִּזָּה֙ לְבַדָּ֔הּ וְעַל־כׇּל־הָאָ֖רֶץ הָ֥יָה טָֽל׃",
+      "text_kjv": "And God did so that night: for it was dry upon the fleece only, and there was dew on all the ground.",
+      "rendering": "God did so that night: the fleece alone was dry, and there was dew on all the ground.",
+      "translator_notes": [
+        "Va-ya'as Elohim ken ('God did so') — divine compliance with Gideon's second request, without rebuke or commentary. God's patience with Gideon's sign-seeking is remarkable and reveals the divine commitment to working through imperfect faith. The chapter ends with Gideon's confirmation complete — he now has no further excuse for hesitation. Chapter 7 will immediately strip away his military assets, making the point that God's sign, not Gideon's army, is the basis for victory."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

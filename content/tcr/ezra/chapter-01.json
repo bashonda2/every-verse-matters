@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezra",
+    "chapter": 1,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "In the first year of Cyrus king of Persia, God stirs the king to issue a decree permitting the Jewish exiles to return to Jerusalem and rebuild the Temple. The surrounding population contributes silver, gold, goods, and livestock. Cyrus himself restores the sacred vessels that Nebuchadnezzar had plundered from Solomon's Temple. Sheshbazzar, prince of Judah, receives the inventory and leads the first wave of returnees back to Jerusalem.",
+    "remarkable": "The book of Ezra opens by repeating the final two verses of 2 Chronicles almost word for word — a literary stitch connecting the two works. The phrase 'the LORD stirred up the spirit of Cyrus' (he'ir YHWH et ruach Koresh) uses the same verb (he'ir, 'to awaken, arouse') that Isaiah uses when describing God raising up a conqueror from the east (Isaiah 41:2, 25; 45:13). The narrator sees no tension between Cyrus acting as a pagan emperor and God using him as an instrument. Isaiah 45:1 calls Cyrus God's 'anointed' (mashiach) — the only non-Israelite to receive that title. The decree itself is remarkable for its theology: Cyrus attributes his success to 'the LORD, God of heaven' (YHWH Elohei ha-shamayim), a title that appears repeatedly in the Persian-period books. Whether Cyrus actually used YHWH's name or the author shaped the decree in Israelite theological language remains debated, but the Cyrus Cylinder confirms that the historical Cyrus did allow displaced peoples to return and rebuild their temples.",
+    "friction": "The relationship between Sheshbazzar and Zerubbabel is one of the book's enduring puzzles. Sheshbazzar is called 'the prince of Judah' (ha-nasi li-Yehudah) here and is credited with laying the Temple foundation in 5:16, yet Zerubbabel appears as the primary leader in chapters 3-5 and is credited with the same foundation-laying in 3:8-10. Some scholars identify them as the same person; others see Sheshbazzar as an older figure (perhaps Shenazzar of 1 Chronicles 3:18) who led the initial return but was soon succeeded by Zerubbabel. We render both figures as presented without harmonizing. The vessel inventory in verses 9-11 does not add up — the individual items total 2,499 but verse 11 gives the sum as 5,400. This discrepancy exists in the Hebrew text itself and likely reflects either a damaged source list or additional uncategorized items.",
+    "connections": "The return from Babylon fulfills Jeremiah's prophecy of seventy years of exile (Jeremiah 25:11-12; 29:10), which is explicitly cited in verse 1. The stirring of Cyrus echoes Isaiah's designation of him as God's shepherd and anointed (Isaiah 44:28-45:1). The restoration of Temple vessels reverses the desecration described in 2 Kings 25:13-17 and Daniel 5:2-3, where Belshazzar drinks from them at his final feast. The pattern of a foreign king sponsoring Israelite worship will recur with Darius (chapter 6) and Artaxerxes (chapter 7), establishing that God works through imperial power to restore his people."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וּבִשְׁנַ֣ת אַחַ֗ת לְכ֙וֹרֶשׁ֙ מֶ֣לֶךְ פָּרַ֔ס לִכְל֥וֹת דְּבַר־יְהוָ֖ה מִפִּ֣י יִרְמְיָ֑ה הֵעִ֣יר יְהוָ֗ה אֶת־ר֙וּחַ֙ כֹּ֣רֶשׁ מֶֽלֶךְ־פָּרַ֔ס וַיַּֽעֲבֶר־ק֞וֹל בְּכׇל־מַלְכוּת֗וֹ וְגַם־בְּמִכְתָּ֛ב לֵאמֹֽר׃",
+      "text_kjv": "Now in the first year of Cyrus king of Persia, that the word of the LORD by the mouth of Jeremiah might be fulfilled, the LORD stirred up the spirit of Cyrus king of Persia, that he made a proclamation throughout all his kingdom, and put it also in writing, saying,",
+      "rendering": "In the first year of Cyrus king of Persia — so that the word of the LORD spoken through Jeremiah would be fulfilled — the LORD stirred the spirit of Cyrus king of Persia. He sent a proclamation throughout his entire kingdom, and also put it in writing:",
+      "expanded_rendering": "Devar-YHWH ('the word of the LORD') here denotes the prophetic utterance given through Jeremiah — a living, active decree from Israel's covenant God that bends imperial history toward its own fulfillment.",
+      "translator_notes": [
+        "The verb he'ir ('stirred, awakened') is theologically loaded — it credits God as the unseen agent behind the most powerful ruler on earth. The same verb describes God rousing warriors (Joel 4:7) and raising up deliverers. Cyrus acts freely, yet the narrator insists God is the prime mover.",
+        "The phrase li-khelot devar YHWH ('to complete/fulfill the word of the LORD') refers to Jeremiah's prophecy of a seventy-year exile (Jeremiah 25:11-12; 29:10). The verb kalah means 'to finish, bring to completion' — the exile is not merely ending but being brought to its appointed conclusion."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הֵעִיר",
+          "transliteration": "he'ir",
+          "rendered_as": "stirred",
+          "semantic_range": "awaken, arouse, stir up, incite, rouse from sleep",
+          "note": "God's sovereign initiative behind the imperial decree. The same root appears in Isaiah 41:2 and 45:13 regarding Cyrus — the prophetic word and the historical narrative use identical vocabulary."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "כֹּ֣ה אָמַ֗ר כֹּ֚רֶשׁ מֶ֣לֶךְ פָּרַ֔ס כֹּ֚ל מַמְלְכ֣וֹת הָאָ֔רֶץ נָ֣תַן לִ֔י יְהוָ֖ה אֱלֹהֵ֣י הַשָּׁמָ֑יִם וְהוּא־פָקַ֤ד עָלַי֙ לִבְנֽוֹת־ל֣וֹ בַ֔יִת בִּירוּשָׁלַ֖͏ִם אֲשֶׁ֥ר בִּיהוּדָֽה׃",
+      "text_kjv": "Thus saith Cyrus king of Persia, The LORD God of heaven hath given me all the kingdoms of the earth; and he hath charged me to build him an house at Jerusalem, which is in Judah.",
+      "rendering": "This is what Cyrus king of Persia says: The LORD, the God of heaven, has given me all the kingdoms of the earth, and he has appointed me to build a house for him in Jerusalem, which is in Judah.",
+      "translator_notes": [
+        "Cyrus uses the divine title YHWH Elohei ha-shamayim ('the LORD, God of heaven'), which became the standard designation for Israel's God in Persian-period documents. The verb paqad ('appointed, charged') carries the weight of a divine commission — the same verb used when God 'visits' his people for judgment or deliverance.",
+        "The phrase 'which is in Judah' may seem redundant, but it reflects the administrative language of the Persian Empire, specifying the province. Judah (Yehud) was a sub-province of the satrapy Beyond the River."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "מִֽי־בָכֶ֣ם מִכׇּל־עַמּ֗וֹ יְהִ֤י אֱלֹהָיו֙ עִמּ֔וֹ וְיַ֕עַל לִירוּשָׁלַ֖͏ִם אֲשֶׁ֣ר בִּיהוּדָ֑ה וְיִ֗בֶן אֶת־בֵּ֤ית יְהוָה֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל ה֥וּא הָאֱלֹהִ֖ים אֲשֶׁ֥ר בִּירוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "Who is there among you of all his people? his God be with him, and let him go up to Jerusalem, which is in Judah, and build the house of the LORD God of Israel, (he is the God,) which is in Jerusalem.",
+      "rendering": "Whoever among you belongs to his people — may his God be with him — let him go up to Jerusalem in Judah and build the house of the LORD, the God of Israel. He is the God who is in Jerusalem.",
+      "translator_notes": [
+        "The parenthetical 'he is the God who is in Jerusalem' (hu ha-Elohim asher bi-Yerushalaim) could be read two ways: as Cyrus identifying Israel's God with a specific locale (a Persian understanding of territorial deities), or as an Israelite theological assertion that the true God dwells in Jerusalem. The ambiguity may be deliberate — the decree works for both audiences."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְכׇל־הַנִּשְׁאָ֗ר מִכׇּל־הַמְּקֹמוֹת֙ אֲשֶׁ֣ר ה֤וּא גָר־שָׁם֙ יְנַשְּׂאוּ֙הוּ֙ אַנְשֵׁ֣י מְקֹמ֔וֹ בְּכֶ֥סֶף וּבְזָהָ֖ב וּבִרְכ֣וּשׁ וּבִבְהֵמָ֑ה עִם־הַנְּדָבָ֕ה לְבֵ֥ית הָאֱלֹהִ֖ים אֲשֶׁ֥ר בִּירוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "And whosoever remaineth in any place where he sojourneth, let the men of his place help him with silver, and with gold, and with goods, and with beasts, beside the freewill offering for the house of God that is in Jerusalem.",
+      "rendering": "And everyone who remains in any place where he is living — let the people of that place support him with silver, gold, goods, and livestock, along with a freewill offering for the house of God in Jerusalem.",
+      "translator_notes": [
+        "The verb nasa ('lift up, support') means the surrounding population should actively assist the returning exiles — not merely allow them to leave but fund their journey. The word nedavah ('freewill offering') is distinct from obligatory offerings; it denotes voluntary generosity. This pattern echoes the Exodus: just as the Egyptians gave silver and gold to the departing Israelites (Exodus 12:35-36), the peoples of Babylon now provision the returning exiles."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיָּק֜וּמוּ רָאשֵׁ֣י הָאָב֗וֹת לִֽיהוּדָה֙ וּבִנְיָמִ֔ן וְהַכֹּהֲנִ֖ים וְהַלְוִיִּ֑ם לְכֹ֕ל הֵעִ֤יר הָאֱלֹהִים֙ אֶת־רוּח֔וֹ לַעֲל֣וֹת לִבְנ֔וֹת אֶת־בֵּ֥ית יְהוָ֖ה אֲשֶׁ֥ר בִּירוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "Then rose up the chief of the fathers of Judah and Benjamin, and the priests, and the Levites, with all them whose spirit God had raised, to go up to build the house of the LORD which is in Jerusalem.",
+      "rendering": "Then the heads of the ancestral houses of Judah and Benjamin rose up, along with the priests and the Levites — everyone whose spirit God had stirred — to go up and build the house of the LORD in Jerusalem.",
+      "translator_notes": [
+        "The verb he'ir ('stirred') reappears — the same word used of God stirring Cyrus in verse 1 now describes God stirring the people. The parallel is deliberate: emperor and exiles respond to the same divine impulse. The phrase rashei ha-avot ('heads of the fathers/ancestral houses') designates the patriarchal clan leaders who organized the return.",
+        "Only Judah and Benjamin are named among the returnees, reflecting the composition of the southern kingdom after the northern tribes were deported by Assyria in 722 BCE. Priests and Levites are listed separately, indicating their distinct role in the restoration."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְכׇל־סְבִיבֹֽתֵיהֶ֗ם חִזְּק֤וּ בִֽידֵיהֶם֙ בִּכְלֵי־כֶ֣סֶף בְּזָהָ֔ב בָּרְכ֥וּשׁ וּבַבְּהֵמָ֖ה וּבַמִּגְדָּנ֑וֹת לְבַ֖ד עַל־כׇּל־הִתְנַדֵּֽב׃",
+      "text_kjv": "And all they that were about them strengthened their hands with vessels of silver, with gold, with goods, and with beasts, and with precious things, beside all that was willingly offered.",
+      "rendering": "All their neighbors strengthened their hands with articles of silver, gold, goods, livestock, and valuables — in addition to everything given as a freewill offering.",
+      "translator_notes": [
+        "The phrase chizzqu vi-deihem ('strengthened their hands') is an idiom for material and moral support. The word migdanot ('valuables, precious things') appears only here and in Genesis 24:53 and 2 Chronicles 21:3, referring to costly gifts. The Exodus parallel continues: as Egypt's wealth equipped Israel's departure, Babylon's wealth now equips the return."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְהַמֶּ֣לֶךְ כּ֗וֹרֶשׁ הוֹצִ֗יא אֶת־כְּלֵי֙ בֵּית־יְהוָ֔ה אֲשֶׁ֥ר הוֹצִ֛יא נְבוּכַדְנֶצַּ֖ר מִירוּשָׁלָ֑͏ִם וַֽיִּתְּנֵ֖ם בְּבֵ֥ית אֱלֹהָֽיו׃",
+      "text_kjv": "Also Cyrus the king brought forth the vessels of the house of the LORD, which Nebuchadnezzar had brought forth out of Jerusalem, and had put them in the house of his gods;",
+      "rendering": "King Cyrus also brought out the vessels of the house of the LORD that Nebuchadnezzar had carried away from Jerusalem and placed in the temple of his gods.",
+      "translator_notes": [
+        "The verb hotsi ('brought out') is used twice — once for Cyrus releasing the vessels and once for Nebuchadnezzar taking them. The reversal is precise: what was carried out in plunder is now carried out in restoration. The phrase beit elohav ('the house/temple of his gods') likely refers to the temple of Marduk in Babylon. These vessels had been desecrated by Belshazzar at his feast (Daniel 5:2-4); now they return to their proper place."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיּֽוֹצִיאֵ֗ם כּ֚וֹרֶשׁ מֶ֣לֶךְ פָּרַ֔ס עַל־יַ֖ד מִתְרְדָ֣ת הַגִּזְבָּ֑ר וַֽיִּסְפְּרֵ֔ם לְשֵׁשְׁבַּצַּ֖ר הַנָּשִׂ֥יא לִיהוּדָֽה׃",
+      "text_kjv": "Even those did Cyrus king of Persia bring forth by the hand of Mithredath the treasurer, and numbered them unto Sheshbazzar, the prince of Judah.",
+      "rendering": "Cyrus king of Persia had them brought out through Mithredath the treasurer, who counted them out to Sheshbazzar the prince of Judah.",
+      "translator_notes": [
+        "Mithredath (Mitredat) is a Persian name meaning 'gift of Mithra,' reflecting the Zoroastrian deity. The title gizbar ('treasurer') is a Persian loanword that entered Hebrew during the exile. Sheshbazzar is called ha-nasi li-Yehudah ('the prince/leader of Judah') — nasi is a title with deep Israelite resonance, used of tribal chiefs and later of the Davidic heir in Ezekiel's vision (Ezekiel 44-48).",
+        "Sheshbazzar's identity remains debated. He may be the Shenazzar of 1 Chronicles 3:18, a son of Jehoiachin and therefore of Davidic lineage. His Babylonian name (possibly Shamash-ab-usur, 'Shamash protect the father') reflects the naming practices of exilic Jews."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְאֵ֖לֶּה מִסְפָּרָ֑ם אֲגַרְטְלֵ֤י זָהָב֙ שְׁלֹשִׁ֔ים אֲגַרְטְלֵי־כֶ֖סֶף אָ֥לֶף׃",
+      "text_kjv": "And this is the number of them: thirty chargers of gold, a thousand chargers of silver, nine and twenty knives,",
+      "rendering": "This is their inventory: thirty gold basins, one thousand silver basins,",
+      "translator_notes": [
+        "The word agartelei (singular agartal) is a rare term for large basins or bowls used in Temple service. The KJV 'chargers' is archaic English for large flat dishes. Note that the KJV includes 'nine and twenty knives' in this verse, but the Hebrew text places the knives (machalaflim) in verse 9 as well. We follow the verse division of the WLC."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כְּפוֹרֵ֣י זָהָ֗ב שְׁלֹשִׁים֙ כְּפוֹרֵ֤י כֶ֙סֶף֙ מִשְׁנִ֔ים אַרְבַּ֥ע מֵא֖וֹת וַעֲשָׂרָ֑ה כֵּלִ֥ים אֲחֵרִ֖ים אָֽלֶף׃",
+      "text_kjv": "Thirty basons of gold, silver basons of a second sort four hundred and ten, and other vessels a thousand.",
+      "rendering": "thirty gold bowls, four hundred and ten silver bowls of a second kind, and one thousand other vessels.",
+      "translator_notes": [
+        "The word keforei ('bowls') differs from the agartelei of verse 9, suggesting a different type or size of vessel. The term mishniyim ('of a second sort/secondary') likely indicates a lesser quality or grade of silver. The category kelim acherim ('other vessels') is a catch-all for items not individually categorized in the inventory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "כׇּל־כֵּלִ֥ים לַזָּהָ֖ב וְלַכָּ֑סֶף חֲמֵ֤שֶׁת אֲלָפִים֙ וְאַרְבַּ֣ע מֵא֔וֹת הַכֹּ֛ל הֶעֱלָ֥ה שֵׁשְׁבַּצַּ֖ר עִ֥ם הֵעָל֛וֹת הַגּוֹלָ֖ה מִבָּבֶ֥ל לִירוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "All the vessels of gold and of silver were five thousand and four hundred. All these did Sheshbazzar bring up with them of the captivity that were brought up from Babylon unto Jerusalem.",
+      "rendering": "The total of the gold and silver vessels was five thousand four hundred. Sheshbazzar brought all of these up when the exiles went up from Babylon to Jerusalem.",
+      "translator_notes": [
+        "The itemized count in verses 9-10 totals 2,499, but the stated sum here is 5,400. This numerical discrepancy exists in the Masoretic Text itself and likely reflects either a damaged source document, additional categories not individually listed, or a scribal transmission issue. We render the text as it stands without emendation.",
+        "The verb he'elah ('brought up') uses the same root as aliyah — going up to Jerusalem. This 'going up' from Babylon deliberately echoes the original 'going up' from Egypt. The exiles are cast as participants in a second exodus."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

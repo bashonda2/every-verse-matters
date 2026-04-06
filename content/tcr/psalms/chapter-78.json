@@ -1,0 +1,784 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 78,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "A vast historical psalm recounting Israel's story from Egypt through the wilderness to the election of David and Zion. Asaph narrates the Exodus plagues, the splitting of the sea, manna and quail in the desert, the people's rebellion, God's anger and compassion, and the final choice of Judah over Ephraim as the seat of God's presence. The psalm's purpose is pedagogical: it is a teaching poem (maskil) designed to transmit the nation's sacred history to the next generation so they will not repeat their ancestors' failures.",
+    "remarkable": "Psalm 78 is the second-longest psalm in the Psalter (after Psalm 119) and functions as a condensed, interpreted history of Israel. Its most striking feature is its relentless honesty about Israel's failure. The nation is described as a treacherous bow that misses its target (verse 57), a generation whose heart was not steadfast (verse 37), people who tested God again and again (verse 41). Yet God's response is not abandonment but restrained compassion: 'He, being compassionate, atoned for their iniquity and did not destroy them; many times He turned back His anger' (verse 38). The psalm's structure builds toward the rejection of Ephraim/Shiloh and the election of Judah/Zion/David — a theological interpretation of history that explains why the northern shrine fell and the southern dynasty endured.",
+    "friction": "The psalm's clear anti-Ephraimite stance (verse 9-11, 67) reflects a Judahite perspective that reads the fall of the northern shrine at Shiloh as divine judgment. This is theological interpretation of history, not neutral reporting. The plague narrative (verses 44-51) follows a different order than Exodus, omitting some plagues and rearranging others — suggesting the psalmist is drawing on an independent tradition or reshaping the material for poetic purposes. The description of God as a warrior who 'awoke as from sleep' (verse 65) is anthropomorphic language that some find theologically uncomfortable.",
+    "connections": "The psalm parallels the historical retrospectives in Deuteronomy 32 (the Song of Moses), Nehemiah 9, and Psalm 106. The manna narrative connects to Exodus 16 and Numbers 11. The plague sequence corresponds loosely to Exodus 7-12. The election of David and Zion connects to 2 Samuel 5-7. The phrase 'a deceitful bow' (verse 57) reappears in Hosea 7:16. The pedagogical framework echoes Deuteronomy 6:6-9 and its command to teach the next generation."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "מַשְׂכִּ֗יל לְאָ֫סָ֥ף הַאֲזִ֣ינָה עַ֭מִּי תּוֹרָתִ֑י הַטּ֥וּ אׇ֝זְנְכֶ֗ם לְאִמְרֵי־פִֽי׃",
+      "text_kjv": "Give ear, O my people, to my law: incline your ears to the words of my mouth.",
+      "rendering": "A maskil of Asaph.\n\nListen, my people, to my teaching;\nturn your ears to the words of my mouth.",
+      "expanded_rendering": "The psalm opens as wisdom instruction: ha'azinah ammi torati ('give ear, my people, to my torah'). The word torah here does not mean 'the Law' as a document but 'instruction, teaching' — the psalmist positions himself as a teacher and the congregation as students. The phrase imrei fi ('the words of my mouth') personalizes the instruction: this is not abstract history but narrated testimony. The opening echoes the Song of Moses in Deuteronomy 32:1 ('Give ear, O heavens').",
+      "translator_notes": [
+        "The word torah in its original sense means 'instruction, direction, guidance' — from yarah ('to throw, to shoot, to direct'). The broader meaning of 'the Law of Moses' developed later. Here it refers to the pedagogical content of the psalm."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "אֶפְתְּחָ֣ה בְמָשָׁ֣ל פִּ֑י אַבִּ֥יעָה חִ֝יד֗וֹת מִנִּי־קֶֽדֶם׃",
+      "text_kjv": "I will open my mouth in a parable: I will utter dark sayings of old:",
+      "rendering": "I will open my mouth in a parable;\nI will pour out riddles from of old.",
+      "expanded_rendering": "The word mashal ('parable, proverb, comparison') signals that what follows is not mere chronicle but interpreted history — events shaped into a narrative with a moral. The chidot ('riddles, enigmas, dark sayings') are not puzzles to be solved but mysteries to be pondered: why did Israel rebel? Why did God persist? The phrase minni qedem ('from of old') reaches back to the nation's origins.",
+      "translator_notes": [
+        "Matthew 13:35 quotes this verse as fulfilled in Jesus' use of parables, connecting the psalm's teaching method to the gospel tradition. In its original context, the 'parable' is the entire national history read as a lesson."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָשָׁל",
+          "transliteration": "mashal",
+          "rendered_as": "parable",
+          "semantic_range": "parable, proverb, comparison, riddle, allegory, saying, byword",
+          "note": "A mashal is not a simple story but a narrative that means more than it says. History told as mashal is history with a point — events arranged to reveal a pattern, to teach a lesson, to provoke reflection."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אֲשֶׁ֣ר שָׁ֭מַעְנוּ וַנֵּדָעֵ֑ם וַ֝אֲבוֹתֵ֗ינוּ סִפְּרוּ־לָֽנוּ׃",
+      "text_kjv": "Which we have heard and known, and our fathers have told us.",
+      "rendering": "What we have heard and known,\nwhat our ancestors told us —",
+      "translator_notes": [
+        "The chain of transmission is explicit: ancestors (avoteinu) told the current generation (shamanu, 'we heard'), and the current generation will tell the next (verse 4). This is oral tradition's self-conscious claim to legitimacy — the story has been faithfully transmitted."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "לֹ֤א נְכַחֵ֨ד ׀ מִבְּנֵיהֶ֗ם לְד֥וֹר אַחֲר֗וֹן מְֽ֭סַפְּרִים תְּהִלּ֣וֹת יְהוָ֑ה וֶ֝עֱזוּז֗וֹ וְנִפְלְאוֹתָ֥יו אֲשֶׁר־עָשָֽׂה׃",
+      "text_kjv": "We will not hide them from their children, shewing to the generation to come the praises of the LORD, and his strength, and his wonderful works that he hath done.",
+      "rendering": "we will not hide them from their children.\nTo the coming generation we will recount\nthe praiseworthy deeds of the LORD,\nHis strength and the wonders He has done.",
+      "expanded_rendering": "The verb nekached ('we will hide, conceal') is negated: lo nekached ('we will not hide'). The obligation is transparency — the next generation (dor acharon, 'the coming generation') has a right to know this history, including its painful parts. The content to be transmitted includes tehillot YHWH ('the praiseworthy deeds of the LORD'), ezuzo ('His strength, His fierce power'), and nifl'otav ('His wonders'). The pedagogical mandate is comprehensive: tell everything.",
+      "translator_notes": [
+        "This verse establishes the psalm's primary purpose: intergenerational transmission of sacred history. The concern is not antiquarian but existential — if the next generation does not know this story, they will repeat the failures described in what follows."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיָּ֤קֶם עֵד֨וּת ׀ בְּיַעֲקֹ֗ב וְתוֹרָה֮ שָׂ֢ם בְּיִשְׂרָ֫אֵ֥ל אֲשֶׁ֣ר צִ֭וָּה אֶת־אֲבוֹתֵ֑ינוּ לְ֝הוֹדִיעָ֗ם לִבְנֵיהֶֽם׃",
+      "text_kjv": "For he established a testimony in Jacob, and appointed a law in Israel, which he commanded our fathers, that they should make them known to their children:",
+      "rendering": "He established a testimony in Jacob\nand set a law in Israel,\nwhich He commanded our ancestors\nto make known to their children,",
+      "translator_notes": [
+        "The parallel edut ('testimony, witness') and torah ('law, instruction') refers to God's covenant requirements — the commands and teachings that define Israel's relationship with God. The transmission is not optional but commanded (tsivvah): teaching the next generation is itself a divine mandate."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "לְמַ֤עַן יֵדְע֨וּ ׀ דּ֣וֹר אַ֭חֲרוֹן בָּנִ֣ים יִוָּלֵ֑דוּ יָ֝קֻ֗מוּ וִֽיסַפְּר֥וּ לִבְנֵיהֶֽם׃",
+      "text_kjv": "That the generation to come might know them, even the children which should be born; who should arise and declare them to their children:",
+      "rendering": "so that the next generation would know —\nchildren yet to be born —\nand they would rise and tell their own children,",
+      "translator_notes": [
+        "The chain extends three generations: the current generation tells the next, who tells the one after that. The phrase banim yivvaledu ('children yet to be born') acknowledges that the audience includes people who do not yet exist. History is told for the sake of the unborn."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְיָשִׂ֣ימוּ בֵאלֹהִ֣ים כִּסְלָ֑ם וְלֹ֤א יִשְׁכְּח֨וּ מַֽעַלְלֵי־אֵ֗ל וּמִצְוֺתָ֥יו יִנְצֹֽרוּ׃",
+      "text_kjv": "That they might set their hope in God, and not forget the works of God, but keep his commandments:",
+      "rendering": "so that they would put their confidence in God\nand not forget the works of God,\nbut keep His commandments —",
+      "translator_notes": [
+        "The three-part purpose: kislam ('their confidence') in God, not forgetting God's deeds, and keeping God's commands. Memory and obedience are linked: to forget what God has done leads directly to disobeying what God has commanded."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְלֹ֤א יִהְי֨וּ ׀ כַּאֲבוֹתָ֗ם דּ֭וֹר סוֹרֵ֣ר וּמֹרֶ֑ה דּ֗וֹר לֹא־הֵכִ֥ין לִ֝בּ֗וֹ וְלֹא־נֶאֶמְנָ֥ה אֶת־אֵ֥ל רוּחֽוֹ׃",
+      "text_kjv": "And might not be as their fathers, a stubborn and rebellious generation; a generation that set not their heart aright, and whose spirit was not stedfast with God.",
+      "rendering": "and not be like their ancestors —\na stubborn and rebellious generation,\na generation that did not prepare its heart\nand whose spirit was not faithful to God.",
+      "expanded_rendering": "The negative example is now named: the ancestors were dor sorer u-moreh ('a stubborn and rebellious generation'). These are the same two adjectives used in Deuteronomy 21:18-20 for the 'stubborn and rebellious son' who must be brought before the elders — the language of family discipline applied to an entire generation. Their heart was lo hekhin libbo ('not prepared, not established, not made firm') and their spirit was lo ne'emnah et El rucho ('not faithful with God'). The inner life was defective: heart unstable, spirit disloyal.",
+      "translator_notes": [
+        "The phrase dor sorer u-moreh echoes Deuteronomy 21:18, where the stubborn and rebellious son is the extreme case of covenant disloyalty within a family. Applied to a generation, it means the entire people behaved like a delinquent child toward their divine parent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "בְּנֵי־אֶפְרַ֗יִם נוֹשְׁקֵ֥י רוֹמֵי־קָ֑שֶׁת הָ֝פְכ֗וּ בְּי֣וֹם קְרָֽב׃",
+      "text_kjv": "The children of Ephraim, being armed, and carrying bows, turned back in the day of battle.",
+      "rendering": "The sons of Ephraim, armed with bows,\nturned back on the day of battle.",
+      "translator_notes": [
+        "The historical reference is obscure — no specific battle of Ephraimite retreat is recorded. The charge may be metaphorical: Ephraim was equipped for covenant faithfulness but turned away when tested. The military language describes spiritual failure."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "לֹ֣א שָׁ֭מְרוּ בְּרִ֣ית אֱלֹהִ֑ים וּ֝בְתוֹרָת֗וֹ מֵאֲנ֥וּ לָלֶֽכֶת׃",
+      "text_kjv": "They kept not the covenant of God, and refused to walk in his law.",
+      "rendering": "They did not keep the covenant of God\nand refused to walk in His law.",
+      "translator_notes": [
+        "The accusation is twofold: covenant violation (lo shamru berit Elohim) and Torah rejection (uvtorato me'anu lalekhet, 'in His instruction they refused to walk'). Walking (halakh) is the standard metaphor for living according to God's commands — they refused to move in the direction God indicated."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיִּשְׁכְּח֥וּ עֲלִילוֹתָ֑יו וְ֝נִפְלְאוֹתָ֗יו אֲשֶׁ֣ר הֶרְאָֽם׃",
+      "text_kjv": "And forgat his works, and his wonders that he had shewed them.",
+      "rendering": "They forgot His deeds\nand the wonders He had shown them.",
+      "translator_notes": [
+        "Forgetfulness is the root sin in Deuteronomic theology. The verb vayishkechu ('they forgot') is the opposite of the remembering commanded in verses 3-7. The cycle is clear: ancestors witnessed wonders, forgot them, and fell into rebellion. The psalm exists to break this cycle."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "נֶ֣גֶד אֲ֭בוֹתָם עָ֣שָׂה פֶ֑לֶא בְּאֶ֖רֶץ מִצְרַ֣יִם שְׂדֵה־צֹֽעַן׃",
+      "text_kjv": "Marvellous things did he in the sight of their fathers, in the land of Egypt, in the field of Zoan.",
+      "rendering": "Before their ancestors He did wonders\nin the land of Egypt, in the fields of Zoan.",
+      "translator_notes": [
+        "Zoan (Tsoan) is the Hebrew name for the Egyptian city of Tanis in the eastern Nile Delta, near the traditional location of the Israelite settlement in Goshen. By naming the specific location, the psalmist anchors the miraculous events in a real, identifiable place."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "בָּ֣קַע יָ֭ם וַיַּעֲבִירֵ֑ם וַיַּצֶּב־מַ֥יִם כְּמוֹ־נֵֽד׃",
+      "text_kjv": "He divided the sea, and caused them to pass through; and he made the waters to stand as an heap.",
+      "rendering": "He split the sea and brought them through;\nHe made the waters stand like a wall.",
+      "translator_notes": [
+        "The verb baqa ('He split') is the same used in Psalm 74:15 for splitting springs open. The word ned ('heap, wall, dam') describes water standing upright in defiance of gravity — the same image as Exodus 15:8. The sea becomes architecture, solid walls flanking the path of escape."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיַּנְחֵ֣ם בֶּעָנָ֣ן יוֹמָ֑ם וְכׇל־הַ֝לַּ֗יְלָה בְּא֣וֹר אֵֽשׁ׃",
+      "text_kjv": "In the daytime also he led them with a cloud, and all the night with a light of fire.",
+      "rendering": "He led them with a cloud by day\nand all night with a light of fire.",
+      "translator_notes": [
+        "The pillar of cloud (Exodus 13:21-22) guided by day, the pillar of fire by night. God provided continuous navigation — no hour was uncovered. The phrase kol hallaylah ('all the night') emphasizes that darkness offered no gap in divine guidance."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "יְבַקַּ֣ע צֻ֭רִים בַּמִּדְבָּ֑ר וַ֝יַּ֗שְׁקְ כִּתְהֹמ֥וֹת רַבָּֽה׃",
+      "text_kjv": "He clave the rocks in the wilderness, and gave them drink as out of the great depths.",
+      "rendering": "He split rocks in the wilderness\nand gave them drink as from the great deep.",
+      "translator_notes": [
+        "The verb yevaqqea ('He split') describes God cracking open tsurim ('rocks, cliffs') to produce water. The comparison ki-tehomot rabbah ('as from the great deep') is hyperbolic: the water from the rock was as abundant as the primordial ocean. This refers to the Meribah/Massah incidents (Exodus 17:1-7, Numbers 20:1-13)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיּוֹצִ֣א נוֹזְלִ֣ים מִסָּ֑לַע וַיּ֖וֹרֶד כַּנְּהָר֣וֹת מָֽיִם׃",
+      "text_kjv": "He brought streams also out of the rock, and caused waters to run down like rivers.",
+      "rendering": "He brought streams from the crag\nand made water flow down like rivers.",
+      "translator_notes": [
+        "The nozelim ('streams, flowing waters') from the sela ('crag, cliff') were not a trickle but kanneharot ('like rivers'). The miracle's scale matches the need — water for an entire nation in the desert required rivers, not drops."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיּוֹסִ֣יפוּ ע֭וֹד לַחֲטֹ֣א ל֑וֹ לַמְר֥וֹת עֶ֝לְי֗וֹן בַּצִּיָּֽה׃",
+      "text_kjv": "And they sinned yet more against him by provoking the most High in the wilderness.",
+      "rendering": "Yet they kept on sinning against Him,\nrebelling against the Most High in the dry land.",
+      "translator_notes": [
+        "The phrase vayyosifu od lachato ('they continued still to sin') uses the construction of ongoing, compounding rebellion — sin upon sin. The word tsiyyah ('dry land, parched ground') is ironic: God just provided rivers from rock, and they respond by rebelling in the very place of His provision."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיְנַסּוּ־אֵ֥ל בִּלְבָבָ֑ם לִשְׁאׇל־אֹ֥כֶל לְנַפְשָֽׁם׃",
+      "text_kjv": "And they tempted God in their heart by asking meat for their lust.",
+      "rendering": "They tested God in their hearts\nby demanding food for their appetite.",
+      "translator_notes": [
+        "The verb vaynassu ('they tested') is from nasah — the same verb used for God's testing of Abraham (Genesis 22:1). Here the roles are reversed: the people test God. The demand for okhel lenafesham ('food for their appetite/soul') is not about survival but about desire — they want more than manna."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיְדַבְּר֥וּ בֵאלֹהִ֑ים אָ֥מְר֗וּ הֲי֘וּכַ֤ל אֵ֗ל לַעֲרֹ֥ךְ שֻׁלְחָ֗ן בַּמִּדְבָּֽר׃",
+      "text_kjv": "Yea, they spake against God; they said, Can God furnish a table in the wilderness?",
+      "rendering": "They spoke against God, saying,\n'Can God set a table in the wilderness?'",
+      "expanded_rendering": "The challenge is direct: hayukhal El ('is God able?'). They question God's capacity to provide in the midbar ('wilderness, desert'). The image of la'arokh shulchan ('to set/arrange a table') is deliberately domestic — it pictures a prepared meal, a table laid with food. The wilderness is the last place one expects a table. The challenge is not theological in the abstract; it is practical: can God feed us here?",
+      "translator_notes": [
+        "The phrase 'Can God set a table in the wilderness?' becomes an ironic echo throughout the psalm. God can set a table anywhere — and He does, with manna and quail — but the provision does not cure the people's distrust."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "הֵ֤ן הִכָּ֪ה צ֡וּר וַיָּז֣וּבוּ מַ֭יִם וּנְחָלִ֣ים יִשְׁטֹ֑פוּ הֲגַם־לֶ֥חֶם י֘וּכַ֤ל תֵּ֗ת אִם־יָכִ֨ין שְׁאֵ֬ר לְעַמּֽוֹ׃",
+      "text_kjv": "Behold, he smote the rock, that the waters gushed out, and the streams overflowed; can he give bread also? can he provide flesh for his people?",
+      "rendering": "Yes, He struck the rock and water gushed out,\ntorrents overflowed.\nBut can He also give bread?\nCan He provide meat for His people?",
+      "translator_notes": [
+        "The people concede the water miracle (verse 15-16) but doubt the next provision. Each miracle is acknowledged but deemed insufficient for the next challenge. Their faith is always one step behind God's action."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "לָ֘כֵ֤ן שָׁמַ֣ע יְ֭הוָה וַיִּתְעַבָּ֑ר וְ֝אֵ֗שׁ נִשְּׂקָ֥ה בְיַעֲקֹ֑ב וְגַם־אַ֝֗ף עָלָ֥ה בְיִשְׂרָאֵֽל׃",
+      "text_kjv": "Therefore the LORD heard this, and was wroth: so a fire was kindled against Jacob, and anger also came up against Israel;",
+      "rendering": "Therefore the LORD heard and was furious;\nfire blazed against Jacob,\nand anger rose against Israel,",
+      "translator_notes": [
+        "God's response is immediate: shama vayyit'abbar ('He heard and was furious'). The verb it'abbar ('to become angry, to overflow with wrath') suggests anger that erupts uncontrollably. The 'fire' (esh) may be literal (Numbers 11:1-3 records fire consuming the camp's edges) or metaphorical for divine wrath."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "כִּ֤י לֹ֣א הֶ֭אֱמִינוּ בֵּאלֹהִ֑ים וְלֹ֥א בָ֝טְח֗וּ בִּישׁוּעָתֽוֹ׃",
+      "text_kjv": "Because they believed not in God, and trusted not in his salvation:",
+      "rendering": "because they did not believe in God\nand did not trust in His salvation.",
+      "translator_notes": [
+        "The double negative — lo he'eminu ('they did not believe') and lo batchu ('they did not trust') — diagnoses the core problem: unbelief. The specific object of unbelief is bishu'ato ('in His salvation') — they doubted God's ability and willingness to rescue."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיְצַ֣ו שְׁחָקִ֣ים מִמָּ֑עַל וְדַלְתֵ֖י שָׁמַ֣יִם פָּתָֽח׃",
+      "text_kjv": "Though he had commanded the clouds from above, and opened the doors of heaven,",
+      "rendering": "Yet He commanded the clouds above\nand opened the doors of heaven.",
+      "translator_notes": [
+        "The 'doors of heaven' imagery appears in Genesis 7:11 (the flood) and Malachi 3:10 (blessing). God's provision comes from the same heavenly reservoir as His judgment — the door swings both ways."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיַּמְטֵ֣ר עֲלֵיהֶ֣ם מָ֣ן לֶאֱכֹ֑ל וּדְגַן־שָׁמַ֖יִם נָ֣תַן לָֽמוֹ׃",
+      "text_kjv": "And had rained down manna upon them to eat, and had given them of the corn of heaven.",
+      "rendering": "He rained down manna upon them to eat\nand gave them the grain of heaven.",
+      "translator_notes": [
+        "The word man ('manna') is explained in Exodus 16:15 through the question man hu ('What is it?'). The parallel term degan shamayim ('grain of heaven') elevates manna to the status of celestial food — bread from God's own table. It is not emergency rations but heaven's own produce."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "דְגַן שָׁמַיִם",
+          "transliteration": "degan shamayim",
+          "rendered_as": "the grain of heaven",
+          "semantic_range": "grain, cereal, wheat; when 'of heaven,' celestial food, divine provision",
+          "note": "Calling manna 'grain of heaven' transforms it from wilderness survival food into a theological statement: God has a pantry, and He opened it. The next verse will call it 'bread of the mighty' (lechem abbirim) — food fit for angels."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "לֶ֣חֶם אַ֭בִּירִים אָ֣כַל אִ֑ישׁ צֵידָ֬ה שָׁלַ֖ח לָהֶ֣ם לָשֹֽׂבַע׃",
+      "text_kjv": "Man did eat angels' food: he sent them meat to the full.",
+      "rendering": "Mortals ate the bread of the mighty;\nHe sent them food in abundance.",
+      "translator_notes": [
+        "The phrase lechem abbirim ('bread of the mighty ones') has been interpreted as 'bread of angels' (so the LXX and KJV), 'bread of the mighty,' or 'bread of the strong.' The word abbirim can refer to angels, warriors, or bulls. The point is that this food belongs to a higher order of being — humans ate what was not originally meant for them. The word lasova ('to satisfaction, to fullness') emphasizes abundance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "יַסַּ֣ע קָ֭דִים בַּשָּׁמָ֑יִם וַיְנַהֵ֖ג בְּעֻזּ֣וֹ תֵימָֽן׃",
+      "text_kjv": "He caused an east wind to blow in the heaven: and by his power he brought in the south wind.",
+      "rendering": "He set loose the east wind in the heavens\nand drove the south wind by His power.",
+      "translator_notes": [
+        "God controls the winds as instruments: the qadim ('east wind') and teman ('south wind') are dispatched to carry the quail. The verb yassa ('He set in motion, He caused to journey') presents the wind as a traveling agent sent on a mission."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיַּמְטֵ֣ר עֲלֵיהֶ֣ם כֶּעָפָ֣ר שְׁאֵ֑ר וּכְח֥וֹל יַ֝מִּ֗ים ע֣וֹף כָּנָֽף׃",
+      "text_kjv": "He rained flesh also upon them as dust, and feathered fowls like as the sand of the sea:",
+      "rendering": "He rained meat on them like dust,\nwinged birds like the sand of the seas.",
+      "translator_notes": [
+        "The comparisons — ke-afar ('like dust') and ke-chol yammim ('like the sand of the seas') — are the standard Hebrew idioms for uncountable abundance (Genesis 13:16, 22:17). The quail were not a few birds but a blizzard of meat covering the camp."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַ֭יַּפֵּל בְּקֶ֣רֶב מַחֲנֵ֑הוּ סָ֝בִ֗יב לְמִשְׁכְּנֹתָֽיו׃",
+      "text_kjv": "And he let it fall in the midst of their camp, round about their habitations.",
+      "rendering": "He made them fall in the midst of their camp,\nall around their dwellings.",
+      "translator_notes": [
+        "The quail landed beqerev machanahu ('in the middle of their camp') and saviv lemishkenotav ('around their tents'). The provision was delivered directly to their doors — they did not have to go far to gather it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיֹּאכְל֥וּ וַיִּשְׂבְּע֣וּ מְאֹ֑ד וְ֝תַאֲוָתָ֗ם יָבִ֥א לָהֶֽם׃",
+      "text_kjv": "So they did eat, and were well filled: for he gave them their own desire.",
+      "rendering": "They ate and were fully satisfied;\nHe brought them what they craved.",
+      "translator_notes": [
+        "The word ta'avatam ('their craving, their desire') is from avah ('to desire, to crave') — the same root used for the place name Qivrot hat-Ta'avah ('Graves of Craving') in Numbers 11:34. God gave them exactly what they wanted, and the getting proved deadly."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "לֹא־זָר֥וּ מִתַּאֲוָתָ֑ם ע֗וֹד אׇ֭כְלָם בְּפִיהֶֽם׃",
+      "text_kjv": "They were not estranged from their lust. But while their meat was yet in their mouths,",
+      "rendering": "They had not yet turned from their craving —\nthe food was still in their mouths —",
+      "translator_notes": [
+        "The phrase lo zaru mitta'avatam ('they had not turned away from their craving') means the desire was still active, undiminished even by receiving what was desired. This is the nature of craving: fulfillment does not satisfy it. And then judgment arrives while the food is literally still in their mouths."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְאַ֤ף אֱלֹהִ֨ים ׀ עָלָ֣ה בָהֶ֗ם וַ֭יַּהֲרֹג בְּמִשְׁמַנֵּיהֶ֑ם וּבַחוּרֵ֖י יִשְׂרָאֵ֣ל הִכְרִֽיעַ׃",
+      "text_kjv": "The wrath of God came upon them, and slew the fattest of them, and smote down the chosen men of Israel.",
+      "rendering": "when the anger of God rose against them.\nHe killed the sturdiest among them\nand struck down the young men of Israel.",
+      "translator_notes": [
+        "The word mishmanneihem ('their sturdiest, their fattest, their most robust') describes the healthiest members of the community — those who should have been least vulnerable. The bachurei Yisrael ('young men of Israel') were the prime of the nation. God's judgment targeted strength itself, proving that no human vitality can resist divine anger."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "בְּכׇל־זֹ֭את חָטְא֣וּ ע֑וֹד וְלֹֽא־הֶ֝אֱמִ֗ינוּ בְּנִפְלְאוֹתָֽיו׃",
+      "text_kjv": "For all this they sinned still, and believed not for his wondrous works.",
+      "rendering": "Despite all this, they kept sinning\nand did not believe in His wonders.",
+      "translator_notes": [
+        "The phrase bekhol zot ('despite all this, in spite of all this') is the psalm's refrain of astonishment: despite provision, despite judgment, despite everything, the pattern continued. Rebellion was not a one-time failure but a chronic condition."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַיְכַ֣ל בַּהֶ֣בֶל יְמֵיהֶ֑ם וּ֝שְׁנוֹתָ֗ם בַּבֶּהָלָֽה׃",
+      "text_kjv": "Therefore their days did he consume in vanity, and their years in trouble.",
+      "rendering": "So He consumed their days in futility\nand their years in sudden terror.",
+      "translator_notes": [
+        "The word hevel ('vanity, breath, futility') is Ecclesiastes' signature word — here it describes days that amount to nothing. Their years ended in behalah ('terror, sudden destruction'). The wilderness generation's forty years of wandering are summarized in a single devastating couplet."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "אִם־הֲ֭רָגָם וּדְרָשׁ֑וּהוּ וְ֝שָׁ֗בוּ וְשִֽׁחֲרוּ־אֵֽל׃",
+      "text_kjv": "When he slew them, then they sought him: and they returned and enquired early after God.",
+      "rendering": "When He killed them, they sought Him;\nthey turned back and searched earnestly for God.",
+      "translator_notes": [
+        "The bitter irony: only death prompted repentance. The verb darash ('to seek, to inquire') and shichar ('to search earnestly, to seek early') describe intense pursuit of God — but only after judgment had fallen. Their piety was reactive, not proactive."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַ֭יִּזְכְּרוּ כִּי־אֱלֹהִ֣ים צוּרָ֑ם וְאֵ֥ל עֶ֝לְי֗וֹן גֹּאֲלָֽם׃",
+      "text_kjv": "And they remembered that God was their rock, and the high God their redeemer.",
+      "rendering": "They remembered that God was their rock,\nthat the Most High God was their redeemer.",
+      "translator_notes": [
+        "Under duress, memory returned: Elohim tsuram ('God was their rock') and El Elyon go'alam ('the Most High God was their redeemer'). But the next verse reveals that this memory was superficial — it produced flattery rather than genuine repentance."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיְפַתּ֥וּהוּ בְּפִיהֶ֑ם וּ֝בִלְשׁוֹנָ֗ם יְכַזְּבוּ־לֽוֹ׃",
+      "text_kjv": "Nevertheless they did flatter him with their mouth, and they lied unto him with their tongues.",
+      "rendering": "But they flattered Him with their mouths\nand lied to Him with their tongues.",
+      "expanded_rendering": "The verb vayfattuhu ('they flattered Him, they deceived Him with smooth words') comes from patah ('to entice, to seduce, to deceive'). The people used religious language as a tool of manipulation — their prayers and vows were insincere, designed to avert punishment rather than to express genuine devotion. The parallel yekhazevu lo ('they lied to Him') is even more direct: they lied to God. The psalmist does not soften this — Israel's relationship with God included deliberate deception.",
+      "translator_notes": [
+        "The accusation that Israel lied to God is one of the psalm's most shocking moments. It implies that religious speech can be false even when directed at the omniscient deity — that humans are capable of praying without meaning what they say."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְ֭לִבָּם לֹא־נָכ֣וֹן עִמּ֑וֹ וְלֹ֥א נֶ֝אֶמְנ֗וּ בִּבְרִיתֽוֹ׃",
+      "text_kjv": "For their heart was not right with him, neither were they stedfast in his covenant.",
+      "rendering": "Their heart was not steadfast with Him,\nand they were not faithful to His covenant.",
+      "translator_notes": [
+        "The phrase libbam lo nakhon immo ('their heart was not established with Him') echoes verse 8 — the same diagnosis applied to the same chronic condition. Faithlessness to the berit ('covenant') is the root: the external performance of religion without internal commitment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וְה֤וּא רַח֨וּם ׀ יְכַפֵּ֣ר עָ֭וֺן וְלֹֽא־יַשְׁחִ֑ית וְהִרְבָּ֥ה לְ֝הָשִׁ֗יב אַפּ֥וֹ וְלֹא־יָ֝עִ֗יר כׇּל־חֲמָתֽוֹ׃",
+      "text_kjv": "But he, being full of compassion, forgave their iniquity, and destroyed them not: yea, many a time turned he his anger away, and did not stir up all his wrath.",
+      "rendering": "But He, being compassionate, atoned for their iniquity\nand did not destroy them.\nMany times He turned back His anger\nand did not rouse all His wrath.",
+      "translator_notes": [
+        "The theology of divine restraint in this verse anticipates Paul's argument in Romans 9:22 about God's patience with 'vessels of wrath.' The psalmist's point is not that God lacks anger but that His compassion repeatedly overrides it."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רַחוּם",
+          "transliteration": "rachum",
+          "rendered_as": "compassionate",
+          "semantic_range": "compassionate, merciful, tender, moved in the womb",
+          "note": "Rachum derives from rechem ('womb') — God's compassion is visceral, maternal, instinctive. It is the first adjective in God's self-description in Exodus 34:6 ('The LORD, the LORD, a God compassionate and gracious'). Here it explains why Israel still exists despite their rebellion: God's womb-love restrains His justice."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַ֭יִּזְכֹּר כִּי־בָשָׂ֣ר הֵ֑מָּה ר֥וּחַ ה֝וֹלֵ֗ךְ וְלֹ֣א יָשֽׁוּב׃",
+      "text_kjv": "For he remembered that they were but flesh; a wind that passeth away, and cometh not again.",
+      "rendering": "He remembered that they were flesh,\na breath that passes and does not return.",
+      "expanded_rendering": "God remembered what the people forgot: ki vasar hemmah ('that they were flesh'). The word basar ('flesh') in the Hebrew Bible means frailty, mortality, weakness — everything that distinguishes humans from God. The parallel ru'ach holekh velo yashuv ('a breath/wind that goes and does not return') compares human life to an exhalation — visible briefly, then gone. God's compassion is grounded in anthropology: He is merciful because He knows what humans are made of.",
+      "translator_notes": [
+        "This verse echoes Psalm 103:14-16 ('He knows our frame; He remembers that we are dust'). God's memory of human frailty becomes the ground of mercy — He does not expect more than flesh can deliver."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "כַּ֭מָּה יַמְר֣וּהוּ בַמִּדְבָּ֑ר יַ֝עֲצִיב֗וּהוּ בִּֽישִׁימֽוֹן׃",
+      "text_kjv": "How oft did they provoke him in the wilderness, and grieve him in the desert!",
+      "rendering": "How often they rebelled against Him in the wilderness\nand grieved Him in the wasteland!",
+      "translator_notes": [
+        "The verb ya'atsi'vuhu ('they grieved Him, they caused Him pain') attributes emotional response to God. Israel's rebellion does not merely violate a contract; it wounds a person. The yeshimon ('wasteland, desolation') is the harshest desert terrain — rebellion in the place of maximum dependence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַיָּשׁ֣וּבוּ וַיְנַסּ֣וּ אֵ֑ל וּקְד֖וֹשׁ יִשְׂרָאֵ֣ל הִתְווּ׃",
+      "text_kjv": "Yea, they turned back and tempted God, and limited the Holy One of Israel.",
+      "rendering": "Again and again they tested God\nand provoked the Holy One of Israel.",
+      "translator_notes": [
+        "The phrase vayyashuvu vaynassu ('they turned back and tested') indicates repetitive behavior — it happened over and over. The verb hitvu (from tavah, 'to mark, to set a limit, to provoke') means they 'set limits' on the Qedosh Yisrael ('Holy One of Israel') — they defined what God could and could not do based on their own expectations. Limiting God is the theological sin at the heart of their rebellion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "לֹא־זָכְר֥וּ אֶת־יָד֑וֹ י֝֗וֹם אֲשֶׁר־פָּ֘דָ֥ם מִנִּי־צָֽר׃",
+      "text_kjv": "They remembered not his hand, nor the day when he delivered them from the enemy.",
+      "rendering": "They did not remember His hand,\nthe day He redeemed them from the foe —",
+      "translator_notes": [
+        "Forgetfulness again: lo zakhru et yado ('they did not remember His hand'). The 'hand' of God (yad) is His power in action — specifically, the power displayed at the Exodus. The yom ('day') when He padam ('redeemed them') from the tsar ('adversary, foe') is the foundational event. What follows (verses 43-51) is the psalmist's retelling of the plagues to remind them of what they forgot."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "אֲשֶׁר־שָׂ֣ם בְּ֭מִצְרַיִם אֹתוֹתָ֑יו וּ֝מוֹפְתָ֗יו בִּשְׂדֵה־צֹֽעַן׃",
+      "text_kjv": "How he had wrought his signs in Egypt, and his wonders in the field of Zoan:",
+      "rendering": "when He set His signs in Egypt,\nHis wonders in the fields of Zoan.",
+      "translator_notes": [
+        "The retelling returns to Zoan (verse 12) — the Egyptian city in the delta region. The otot ('signs') and moftim ('wonders') are the plagues, now recounted in a sequence that differs from Exodus."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וַיַּהֲפֹ֣ךְ לְדָ֣ם יְאֹרֵיהֶ֑ם וְ֝נֹזְלֵיהֶ֗ם בַּל־יִשְׁתָּיֽוּן׃",
+      "text_kjv": "And had turned their rivers into blood; and their floods, that they could not drink.",
+      "rendering": "He turned their rivers to blood\nand their streams so they could not drink.",
+      "translator_notes": [
+        "The first plague: water to blood (Exodus 7:14-25). The ye'oreihem ('their rivers/canals') is the Nile and its channels — the lifeblood of Egyptian civilization. Turning it to dam ('blood') struck at Egypt's most essential resource."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "יְשַׁלַּ֣ח בָּ֭הֶם עָרֹ֣ב וַיֹּאכְלֵ֑ם וּ֝צְפַרְדֵּ֗עַ וַתַּשְׁחִיתֵֽם׃",
+      "text_kjv": "He sent divers sorts of flies among them, which devoured them; and frogs, which destroyed them.",
+      "rendering": "He sent swarms among them that devoured them,\nand frogs that destroyed them.",
+      "translator_notes": [
+        "The arov ('swarm') — the fourth plague (Exodus 8:20-32) — may refer to flies, mosquitoes, or mixed swarms of insects. The tsefardea ('frogs') — the second plague — destroyed their land. The order differs from Exodus, suggesting the psalmist is grouping by poetic effect rather than chronological sequence."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וַיִּתֵּ֣ן לֶחָסִ֣יל יְבוּלָ֑ם וִֽ֝יגִיעָ֗ם לָאַרְבֶּֽה׃",
+      "text_kjv": "He gave also their increase unto the caterpiller, and their labour unto the locust.",
+      "rendering": "He gave their crops to the grasshopper\nand their labor to the locust.",
+      "translator_notes": [
+        "The chasil ('grasshopper, locust') and arbeh ('locust') consumed yevulam ('their produce') and yegi'am ('their toil, the fruit of their labor'). The eighth plague (Exodus 10:1-20) destroyed agriculture — the stored product of human effort devoured by insects."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "יַהֲרֹ֣ג בַּבָּרָ֣ד גַּפְנָ֑ם וְ֝שִׁקְמוֹתָ֗ם בַּחֲנָמַֽל׃",
+      "text_kjv": "He destroyed their vines with hail, and their sycomore trees with frost.",
+      "rendering": "He killed their vines with hail\nand their sycamores with frost.",
+      "translator_notes": [
+        "The seventh plague: hail (Exodus 9:13-35). The gafen ('grapevine') and shiqmah ('sycamore fig') were valuable agricultural crops. The chanamal ('frost, sleet') is a rare word, possibly referring to ice storms or severe hail."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "וַיַּסְגֵּ֣ר לַבָּרָ֣ד בְּעִירָ֑ם וּ֝מִקְנֵיהֶ֗ם לָרְשָׁפִֽים׃",
+      "text_kjv": "He gave up their cattle also to the hail, and their flocks to hot thunderbolts.",
+      "rendering": "He gave over their cattle to the hail\nand their livestock to bolts of lightning.",
+      "translator_notes": [
+        "The verb vayyasger ('He delivered over, He handed over') is the language of judicial sentencing — God formally transferred the Egyptians' livestock to destruction. The reshafim ('lightning bolts, flames') extend the hailstorm to include electrical strikes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "יְשַׁלַּח־בָּ֨ם ׀ חֲר֬וֹן אַפּ֗וֹ עֶבְרָ֣ה וָזַ֣עַם וְצָרָ֑ה מִ֝שְׁלַ֗חַת מַלְאֲכֵ֥י רָעִֽים׃",
+      "text_kjv": "He cast upon them the fierceness of his anger, wrath, and indignation, and trouble, by sending evil angels among them.",
+      "rendering": "He sent against them His burning anger —\nfury, rage, and distress —\na company of destroying angels.",
+      "expanded_rendering": "The vocabulary of anger cascades: charon appo ('His burning anger'), evrah ('fury, overflowing wrath'), za'am ('indignation'), and tsarah ('distress, trouble'). The final phrase mishlachat mal'akhei ra'im ('a dispatch of angels of calamity') pictures God sending angelic agents of destruction. The mal'akhei ra'im ('angels of evil/calamity') are not fallen angels but divine agents commissioned to execute judgment — the same as the 'destroyer' (mashchit) of Exodus 12:23.",
+      "translator_notes": [
+        "The phrase mal'akhei ra'im is unique to this verse and has generated significant discussion. The 'evil' is not moral wickedness in the angels but calamity inflicted by them — they are agents of divine judgment, not demonic beings."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "יְפַלֵּ֣ס נָתִ֣יב לְאַפּ֑וֹ לֹֽא־חָשַׂ֥ךְ מִ֝מָּ֗וֶת נַפְשָׁ֑ם וְ֝חַיָּתָ֗ם לַדֶּ֥בֶר הִסְגִּֽיר׃",
+      "text_kjv": "He made a way to his anger; he spared not their soul from death, but gave their life over to the pestilence;",
+      "rendering": "He cleared a path for His anger.\nHe did not spare their lives from death\nbut gave them over to the plague.",
+      "translator_notes": [
+        "The verb yefalles ('He leveled, He made straight, He cleared a path') pictures God removing every obstacle between His anger and its target. The dever ('plague, pestilence') — the fifth plague (Exodus 9:1-7) — was the instrument of execution."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "וַ֭יַּךְ כׇּל־בְּכ֣וֹר בְּמִצְרָ֑יִם רֵאשִׁ֥ית א֝וֹנִ֗ים בְּאׇהֳלֵי־חָֽם׃",
+      "text_kjv": "And smote all the firstborn in Egypt; the chief of their strength in the tabernacles of Ham.",
+      "rendering": "He struck every firstborn in Egypt,\nthe firstfruits of their vigor in the tents of Ham.",
+      "translator_notes": [
+        "The designation of Egypt as 'tents of Ham' connects to the Table of Nations in Genesis 10, where Mitsrayim (Egypt) is listed as a son of Ham. The archaic, genealogical language adds weight to the historical sweep of the narrative."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "וַ֭יַּסַּע כַּצֹּ֣אן עַמּ֑וֹ וַֽיְנַהֲגֵ֥ם כַּ֝עֵ֗דֶר בַּמִּדְבָּֽר׃",
+      "text_kjv": "But made his own people to go forth like sheep, and guided them in the wilderness like a flock.",
+      "rendering": "He led His people out like sheep\nand guided them like a flock through the wilderness.",
+      "translator_notes": [
+        "The shepherd metaphor returns (cf. Psalm 77:21). The contrast is stark: Egypt's firstborn are dead; Israel's flock is alive and moving. God destroys one nation's future to preserve another's."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "וַיַּנְחֵ֣ם לָ֭בֶטַח וְלֹ֣א פָחָ֑דוּ וְאֶת־א֝וֹיְבֵיהֶ֗ם כִּסָּ֥ה הַיָּֽם׃",
+      "text_kjv": "And he led them on safely, so that they feared not: but the sea overwhelmed their enemies.",
+      "rendering": "He led them in safety and they were not afraid,\nbut the sea covered their enemies.",
+      "translator_notes": [
+        "The juxtaposition is absolute: Israel walks safely (lavetach, 'in security'); the sea covers (kissah, 'engulfed, overwhelmed') their enemies. Safety for one and destruction for the other happen simultaneously in the same body of water."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 54,
+      "text_hebrew": "וַ֭יְבִיאֵם אֶל־גְּב֣וּל קׇדְשׁ֑וֹ הַר־זֶ֝֗ה קָנְתָ֥ה יְמִינֽוֹ׃",
+      "text_kjv": "And he brought them to the border of his sanctuary, even to this mountain, which his right hand had purchased.",
+      "rendering": "He brought them to His holy territory,\nto the mountain His right hand had acquired.",
+      "translator_notes": [
+        "The gevul qodsho ('the border/territory of His holiness') is the promised land, and specifically har zeh ('this mountain') — either Zion or the entire hill country of Canaan. God's right hand (yemin) qantah ('acquired, purchased') this mountain — it belongs to God by right of acquisition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 55,
+      "text_hebrew": "וַיְגָ֤רֶשׁ ׀ מִפְּנֵיהֶ֗ם גּ֫וֹיִ֥ם וַ֭יַּפִּילֵם בְּחֶ֣בֶל נַחֲלָ֑ה וַיַּשְׁכֵּ֥ן בְּ֝אׇהֳלֵיהֶ֗ם שִׁבְטֵ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "He cast out the heathen also before them, and divided them an inheritance by line, and made the tribes of Israel to dwell in their tents.",
+      "rendering": "He drove out nations before them\nand apportioned them an inheritance by measured line;\nHe settled the tribes of Israel in their tents.",
+      "translator_notes": [
+        "The verb vayyegaresh ('He drove out') describes the conquest. The chevel nachalah ('measuring line of inheritance') refers to the land allotment — each tribe received its territory measured by cord. The tribes now dwell be-aholeihem ('in their tents') — in the former dwellings of the displaced nations."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 56,
+      "text_hebrew": "וַיְנַסּ֣וּ וַ֭יַּמְרוּ אֶת־אֱלֹהִ֣ים עֶלְי֑וֹן וְ֝עֵדוֹתָ֗יו לֹ֣א שָׁמָֽרוּ׃",
+      "text_kjv": "Yet they tempted and provoked the most high God, and kept not his testimonies:",
+      "rendering": "Yet they tested and rebelled against the Most High God\nand did not keep His decrees.",
+      "translator_notes": [
+        "The cycle repeats: even after settlement in the promised land, the pattern of testing (vaynassu) and rebelling (vayyamru) continues. The edot ('testimonies, decrees') are God's covenant stipulations — the conditions of the relationship. They ignored them."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 57,
+      "text_hebrew": "וַ֭יִּסֹּגוּ וַיִּבְגְּד֣וּ כַּאֲבוֹתָ֑ם נֶ֝הְפְּכ֗וּ כְּקֶ֣שֶׁת רְמִיָּֽה׃",
+      "text_kjv": "But turned back, and dealt unfaithfully like their fathers: they were turned aside like a deceitful bow.",
+      "rendering": "They turned back and were faithless like their ancestors;\nthey twisted like a treacherous bow.",
+      "expanded_rendering": "The simile ke-qeshet remiyyah ('like a deceitful/treacherous bow') is one of the psalm's most vivid images. A treacherous bow is one that looks reliable but sends the arrow off course when drawn — the shooter aims at the target but the bow betrays him. Israel aimed at faithfulness but the shot went wild. The word remiyyah ('deceit, slackness, treachery') describes a fundamental structural defect.",
+      "translator_notes": [
+        "Hosea 7:16 uses nearly identical language: 'They turn, but not upward; they are like a treacherous bow.' The image may have been a common prophetic metaphor for Israel's unreliability — a nation that appeared functional but consistently missed its mark."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 58,
+      "text_hebrew": "וַיַּכְעִיס֥וּהוּ בְּבָמוֹתָ֑ם וּ֝בִפְסִילֵיהֶ֗ם יַקְנִיאֽוּהוּ׃",
+      "text_kjv": "For they provoked him to anger with their high places, and moved him to jealousy with their graven images.",
+      "rendering": "They provoked Him with their high places\nand made Him jealous with their carved images.",
+      "translator_notes": [
+        "The bamot ('high places') were the local sanctuaries where Canaanite-influenced worship occurred. The pesilim ('carved images, idols') were the physical representations of other gods. The verb yaqni'uhu ('they made Him jealous') uses the language of marriage: Israel's idolatry is adultery, and God responds with the jealousy of a betrayed spouse (cf. Exodus 20:5, 'I the LORD your God am a jealous God')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 59,
+      "text_hebrew": "שָׁמַ֣ע אֱ֭לֹהִים וַיִּתְעַבָּ֑ר וַ֝יִּמְאַ֗ס מְאֹ֣ד בְּיִשְׂרָאֵֽל׃",
+      "text_kjv": "When God heard this, he was wroth, and greatly abhorred Israel.",
+      "rendering": "God heard and was furious;\nHe utterly rejected Israel.",
+      "translator_notes": [
+        "The verb vayyit'abbar ('He was furious, He overflowed with anger') is the same as verse 21. But this time the consequence is more severe: vayyim'as me'od be-Yisrael ('He utterly rejected Israel'). The verb ma'as ('to reject, to refuse, to despise') is the language of covenant termination — not discipline but rejection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 60,
+      "text_hebrew": "וַ֭יִּטֹּשׁ מִשְׁכַּ֣ן שִׁל֑וֹ אֹ֗הֶל שִׁ֭כֵּן בָּאָדָֽם׃",
+      "text_kjv": "So that he forsook the tabernacle of Shiloh, the tent which he placed among men;",
+      "rendering": "He abandoned the tabernacle at Shiloh,\nthe tent He had pitched among mortals.",
+      "expanded_rendering": "The rejection takes concrete form: God abandons Shiloh. The mishkan Shilo ('tabernacle of Shiloh') was the location of the ark and the central sanctuary before Jerusalem (Joshua 18:1, 1 Samuel 1-4). The phrase ohel shikken ba-adam ('the tent He had caused to dwell among humans') uses the verb shakhan ('to dwell, to tabernacle') — the same root as Shekhinah. God had chosen to dwell there; now He leaves. The archaeological evidence suggests Shiloh was destroyed around 1050 BCE, likely by the Philistines (cf. Jeremiah 7:12-14, 26:6).",
+      "translator_notes": [
+        "Jeremiah explicitly references Shiloh's destruction as a warning to Jerusalem: 'Go now to my place that was in Shiloh, where I made my name dwell at first, and see what I did to it' (Jeremiah 7:12). The psalm uses the same event to explain why God chose Judah over Ephraim."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 61,
+      "text_hebrew": "וַיִּתֵּ֣ן לַשְּׁבִ֣י עֻזּ֑וֹ וְ֝תִפְאַרְתּ֗וֹ בְיַד־צָֽר׃",
+      "text_kjv": "And delivered his strength into captivity, and his glory into the enemy's hand.",
+      "rendering": "He gave His strength into captivity\nand His splendor into the enemy's hand.",
+      "translator_notes": [
+        "The 'strength' (uzzo) and 'splendor' (tif'arto) refer to the ark of the covenant, captured by the Philistines in 1 Samuel 4:11. The ark was the physical symbol of God's presence and power. God allowed His own symbol to be taken — the ultimate expression of judgment on His people."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 62,
+      "text_hebrew": "וַיַּסְגֵּ֣ר לַחֶ֣רֶב עַמּ֑וֹ וּ֝בְנַחֲלָת֗וֹ הִתְעַבָּֽר׃",
+      "text_kjv": "He gave his people over also unto the sword; and was wroth with his inheritance.",
+      "rendering": "He gave His people over to the sword\nand was furious with His inheritance.",
+      "translator_notes": [
+        "The parallel between 'His people' (ammo) and 'His inheritance' (nachalato) emphasizes that these are not strangers but God's own possession. The verse describes the battle of Aphek (1 Samuel 4:1-11) where thirty thousand Israelite soldiers fell."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 63,
+      "text_hebrew": "בַּחוּרָ֥יו אָכְלָה־אֵ֑שׁ וּ֝בְתוּלֹתָ֗יו לֹ֣א הוּלָּֽלוּ׃",
+      "text_kjv": "The fire consumed their young men; and their maidens were not given to marriage.",
+      "rendering": "Fire consumed their young men,\nand their young women had no wedding songs.",
+      "translator_notes": [
+        "The 'fire' consuming bachurav ('His young men') is war. The betulotav ('His young women') lo hullalu ('were not praised/celebrated in wedding songs'). The verb hillel in this context refers to the wedding celebration — with so many young men dead, marriages did not happen. The social fabric collapsed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 64,
+      "text_hebrew": "כֹּהֲנָ֥יו בַּחֶ֣רֶב נָפָ֑לוּ וְ֝אַלְמְנוֹתָ֗יו לֹ֣א תִבְכֶּֽינָה׃",
+      "text_kjv": "Their priests fell by the sword; and their widows made no lamentation.",
+      "rendering": "His priests fell by the sword,\nand their widows could not weep.",
+      "translator_notes": [
+        "Hophni and Phinehas, the priests who accompanied the ark, died at Aphek (1 Samuel 4:11). The phrase almanotav lo tivkeinah ('their widows did not weep') likely means the death was so sudden and the disaster so overwhelming that there was no time for proper mourning — or that the widows themselves were killed or captured."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 65,
+      "text_hebrew": "וַיִּקַ֥ץ כְּיָשֵׁ֗ן אֲ֫דֹנָ֥י כְּ֭גִבּוֹר מִתְרוֹנֵ֥ן מִיָּֽיִן׃",
+      "text_kjv": "Then the Lord awaked as one out of sleep, and like a mighty man that shouteth by reason of wine.",
+      "rendering": "Then the Lord awoke as from sleep,\nlike a warrior shouting from wine.",
+      "expanded_rendering": "The anthropomorphism is breathtaking: God is compared to a gibbor ('warrior, mighty man') who has been sleeping and now wakes with a shout — mitronnen ('shouting, singing') as if invigorated by wine. The image is deliberately shocking: God seemed to be asleep during the disaster at Shiloh, but now He rouses with the vigor and battle-cry of a warrior refreshed. The comparison to wine-drinking is not meant to suggest drunkenness but explosive energy — the warrior who leaps into battle with a shout.",
+      "translator_notes": [
+        "This is one of the most daring anthropomorphisms in the Hebrew Bible. Psalm 44:24 pleads 'Awake! Why do You sleep, O Lord?' — here the psalmist reports that God actually did wake up. The metaphor serves the narrative: the period of judgment felt like divine slumber, and God's re-engagement felt like a warrior's battle cry."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 66,
+      "text_hebrew": "וַיַּךְ־צָרָ֥יו אָח֑וֹר חֶרְפַּ֥ת ע֝וֹלָ֗ם נָ֣תַן לָֽמוֹ׃",
+      "text_kjv": "And he smote his enemies in the hinder parts: he put them to a perpetual reproach.",
+      "rendering": "He struck His enemies from behind;\nHe put them to lasting shame.",
+      "translator_notes": [
+        "The phrase vayyakh tsarav achor ('He struck His enemies in the rear') refers to the Philistine plague described in 1 Samuel 5:6-12, where God struck the Philistines with tumors (ofalim) in their hindquarters. The cherpat olam ('perpetual reproach') means the shame was not temporary but defining."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 67,
+      "text_hebrew": "וַ֭יִּמְאַס בְּאֹ֣הֶל יוֹסֵ֑ף וּבְשֵׁ֥בֶט אֶ֝פְרַ֗יִם לֹ֣א בָחָֽר׃",
+      "text_kjv": "Moreover he refused the tabernacle of Joseph, and chose not the tribe of Ephraim:",
+      "rendering": "He rejected the tent of Joseph\nand did not choose the tribe of Ephraim.",
+      "expanded_rendering": "The psalm's argument reaches its destination. God vayyim'as be-ohel Yosef ('rejected the tent of Joseph') — the northern sanctuary tradition associated with the Joseph tribes (Ephraim and Manasseh). The verb bachar ('to choose') is applied negatively: uvshevet Efrayim lo vachar ('and the tribe of Ephraim He did not choose'). The election has shifted. Shiloh is rejected; Ephraim is passed over. What follows is the positive counterpart: Judah is chosen.",
+      "translator_notes": [
+        "This verse is the psalm's political-theological thesis: the fall of Shiloh and the northern shrine was not random but an act of divine election. God actively chose to reject Ephraim and actively chose Judah — this is the explanation for the Davidic dynasty and the Jerusalem temple."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 68,
+      "text_hebrew": "וַ֭יִּבְחַר אֶת־שֵׁ֣בֶט יְהוּדָ֑ה אֶֽת־הַ֥ר צִ֝יּ֗וֹן אֲשֶׁ֣ר אָהֵֽב׃",
+      "text_kjv": "But chose the tribe of Judah, the mount Zion which he loved.",
+      "rendering": "He chose the tribe of Judah,\nMount Zion, which He loved.",
+      "expanded_rendering": "The verb vayyivchar ('He chose') is the same verb used for God's election of Israel from among the nations (Deuteronomy 7:6) — now applied within Israel to distinguish Judah from the other tribes. And specifically: et har Tsiyyon asher ahev ('Mount Zion, which He loved'). The word ahev ('loved') is the language of election love — the unexplained, sovereign affection that determines destiny. God chose Zion not because it was the highest mountain or the most strategic location but because He loved it.",
+      "translator_notes": [
+        "The transition from 'rejected Ephraim' to 'chose Judah' mirrors the biblical pattern of divine election: God passes over the expected choice (the firstborn, the older, the stronger) in favor of the unexpected. This pattern runs from Jacob/Esau through David (the youngest son) to Zion (a relatively insignificant hill)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 69,
+      "text_hebrew": "וַיִּ֣בֶן כְּמוֹ־רָ֭מִים מִקְדָּשׁ֑וֹ כְּ֝אֶ֗רֶץ יְסָדָ֥הּ לְעוֹלָֽם׃",
+      "text_kjv": "And he built his sanctuary like high palaces, like the earth which he hath established for ever.",
+      "rendering": "He built His sanctuary like the heights,\nlike the earth He established forever.",
+      "translator_notes": [
+        "The sanctuary (miqdash) is compared to kemo ramim ('like the heights, like high places') — either heavenly heights or mountain peaks. The second comparison ke-erets yesadah le-olam ('like the earth He founded forever') equates the temple's permanence with the earth's — God's dwelling is as enduring as creation itself. This confidence will be tested by the destruction of 586 BCE."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 70,
+      "text_hebrew": "וַ֭יִּבְחַר בְּדָוִ֣ד עַבְדּ֑וֹ וַ֝יִּקָּחֵ֗הוּ מִמִּכְלְאֹ֥ת צֹֽאן׃",
+      "text_kjv": "He chose David also his servant, and took him from the sheepfolds:",
+      "rendering": "and took him from the sheepfolds.\nHe chose David His servant",
+      "expanded_rendering": "The psalm's climax: vayyivchar be-David avdo ('He chose David His servant'). The verb is the same bachar ('to choose') used for Judah and Zion — David is the personal embodiment of God's election. The phrase vayyiqqachehu mimmikle'ot tson ('He took him from the sheep pens') grounds the election in radical humility. David was not in the palace or the temple; he was with the sheep. The king of Israel was a shepherd — and this is not incidental but essential. The skills of shepherding become the qualifications for kingship.",
+      "translator_notes": [
+        "The connection between David the shepherd and God the shepherd (Psalm 23, Psalm 77:21, Psalm 78:52) is deliberate: God chose a shepherd to be king because kingship is shepherding. The ideal ruler tends, feeds, and protects a flock."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 71,
+      "text_hebrew": "מֵאַחַ֥ר עָל֗וֹת הֱ֫בִיא֥וֹ לִ֭רְעוֹת בְּיַעֲקֹ֣ב עַמּ֑וֹ וּ֝בְיִשְׂרָאֵ֗ל נַחֲלָתֽוֹ׃",
+      "text_kjv": "From following the ewes great with young he brought him to feed Jacob his people, and Israel his inheritance.",
+      "rendering": "From following the nursing ewes He brought him\nto shepherd Jacob His people\nand Israel His inheritance.",
+      "expanded_rendering": "The phrase me-achar alot ('from behind the nursing ewes') is a detail of extraordinary tenderness. David was following the most vulnerable animals in the flock — the ewes with young, the mothers who need the most careful tending. God took the man who tended the weakest sheep and gave him the weakest people. The verb lir'ot ('to shepherd') is the same word for 'to pasture, to tend, to feed' — David's job description as king is identical to his job description as shepherd.",
+      "translator_notes": [
+        "The image of David following nursing ewes echoes 2 Samuel 7:8, where God reminds David: 'I took you from the pasture, from following the flock.' The psalm's conclusion deliberately parallels God's own words to David."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 72,
+      "text_hebrew": "וַ֭יִּרְעֵם כְּתֹ֣ם לְבָב֑וֹ וּבִתְבוּנ֥וֹת כַּ֝פָּ֗יו יַנְחֵֽם׃",
+      "text_kjv": "So he fed them according to the integrity of his heart; and guided them by the skilfulness of his hands.",
+      "rendering": "He shepherded them with a blameless heart\nand guided them with the skill of his hands.",
+      "expanded_rendering": "The psalm's final verse describes David's reign with two qualities: tom levavo ('blamelessness of his heart') — internal integrity — and tevunot kappav ('skill/understanding of his hands') — practical competence. Tom ('blamelessness, completeness') is the same word used for Job in Job 1:1. David is not described as sinless (the psalm's audience knows better) but as a man whose heart was whole, whose fundamental orientation was toward God. The tevunot ('skill, discernment, understanding') of his hands means his governance was not merely well-intentioned but effective. The psalm ends not with a prayer or a doxology but with a portrait of faithful leadership — the kind of shepherd-king that God chose, that Israel needed, and that the coming generation is called to recognize.",
+      "translator_notes": [
+        "The psalm that began with a call to teach the next generation ends with the model of what faithful leadership looks like. The entire historical sweep — Egypt, Exodus, wilderness, conquest, Shiloh, rejection, election — converges on this single image: a shepherd with a blameless heart and skilled hands. This is what the next generation needs to know."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

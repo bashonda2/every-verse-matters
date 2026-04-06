@@ -1,0 +1,592 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 18,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "A royal thanksgiving psalm of David celebrating deliverance from all enemies and from Saul. At 51 verses (WLC versification), it is one of the longest psalms in the Psalter and also appears with minor variations as 2 Samuel 22. The psalm moves through four major sections: a cascade of divine titles (vv. 2-4), a cosmic theophany in which God rends heaven to rescue the psalmist (vv. 5-20), a declaration of the psalmist's righteousness and God's corresponding faithfulness (vv. 21-31), and a celebration of military victory that leads to dominion over nations (vv. 32-51). The language is extravagant, mythic, and deeply personal — the God who splits the heavens is the same God who trains the psalmist's hands for war.",
+    "remarkable": "The theophany section (vv. 8-16) is among the most powerful descriptions of divine intervention in all of Scripture. The earth shakes, the mountains tremble, smoke rises from God's nostrils, fire devours from his mouth, he bows the heavens and descends, riding on a cherub, flying on the wings of the wind. This is not metaphor in the decorative sense — it is the language of Sinai (Exodus 19:16-18) transferred from national revelation to personal rescue. The same God who appeared in fire and earthquake to give the Torah appears now to save one man from his enemies. The psalm collapses the distance between cosmic event and individual experience, insisting that the God of Sinai is the God of David's bedroom and battlefield.",
+    "friction": "The psalm's claims of righteousness (vv. 21-25) are even more extensive than Psalm 17's — 'The LORD rewarded me according to my righteousness... I was blameless before him and kept myself from guilt.' Given what the Books of Samuel report about David's life (Bathsheba, Uriah, the census), these claims require contextual reading. The superscription dates the psalm to deliverance from 'all his enemies and from Saul' — likely the early years of David's reign before the events of 2 Samuel 11. The righteousness claimed is relative to the specific conflict with Saul: David did not kill the LORD's anointed when he had the chance. The claims are covenantal and situational, not autobiographical in the absolute sense.",
+    "connections": "The near-duplicate in 2 Samuel 22 places this psalm within the historical narrative, making it one of the few psalms with a secure narrative context. The theophany echoes Exodus 19, Judges 5:4-5 (the Song of Deborah), and Habakkuk 3:3-15. The divine warrior imagery connects to the Song of the Sea (Exodus 15). The concluding messianic note — 'He shows faithful love to his anointed, to David and his offspring forever' (v. 51) — links this psalm to the Davidic covenant of 2 Samuel 7 and to the messianic hope that runs through the Psalter."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "לַמְנַצֵּ֤חַ ׀ לְעֶ֥בֶד יְהוָ֗ה לְדָ֫וִ֥ד אֲשֶׁ֤ר דִּבֶּ֨ר ׀ לַיהוָ֗ה אֶת־דִּבְרֵ֥י הַשִּׁירָ֥ה הַזֹּ֑את בְּי֤וֹם הִצִּ֘יל־יְהוָ֤ה אוֹת֗וֹ מִכַּ֥ף כׇּל־אֹ֝יְבָ֗יו וּמִיַּ֥ד שָׁאֽוּל׃",
+      "text_kjv": "To the chief Musician, A Psalm of David, the servant of the LORD, who spake unto the LORD the words of this song in the day that the LORD delivered him from the hand of all his enemies, and from the hand of Saul: And he said,",
+      "rendering": "For the choirmaster. Of David, the servant of the LORD, who spoke to the LORD the words of this song on the day the LORD delivered him from the hand of all his enemies and from the hand of Saul. He said:",
+      "translator_notes": [
+        "This is the longest superscription in the Psalter. The title 'servant of the LORD' (eved YHVH) is a title of highest honor — applied to Moses (Deuteronomy 34:5), Joshua (Joshua 24:29), and the messianic figure of Isaiah's Servant Songs. David receives this designation only here and in the parallel 2 Samuel 22:1."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיֹּאמַ֗ר אֶרְחָמְךָ֖ יְהוָ֥ה חִזְקִֽי׃",
+      "text_kjv": "I will love thee, O LORD, my strength.",
+      "rendering": "I love you, LORD, my strength.",
+      "expanded_rendering": "The psalm opens with an expression found nowhere else in the Hebrew Bible: erchamkha YHVH ('I love you deeply, LORD'). The verb racham in the Qal means 'to love deeply, to have compassion' — it is the verb from which rechem ('womb') derives, suggesting a love as visceral and instinctive as a mother's bond with her child. This is the only time in the Psalter that a human speaker says 'I love you' to God using this verb. The address to God as chizqi ('my strength') establishes the theme that will dominate the psalm: God is the source of all the psalmist's power.",
+      "translator_notes": [
+        "The verb racham used by a human toward God is unique here. Normally it describes God's compassion toward humans or a parent's love for a child. David reverses the direction: he loves God with the same visceral, gut-level affection that God shows to Israel. This opening word sets the emotional register for the entire psalm."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֶרְחָמְךָ",
+          "transliteration": "erchamkha",
+          "rendered_as": "I love you",
+          "semantic_range": "to love deeply, have tender compassion, feel visceral affection",
+          "note": "racham is womb-love — deep, instinctive, body-level affection. Its use here by David toward God is unique in Scripture. The word declares that David's relationship with God is not duty or strategy but visceral attachment."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "יְהוָ֤ה סַלְעִ֥י וּמְצוּדָתִ֗י וּמְפַ֫לְטִ֥י אֵלִ֣י צ֭וּרִי אֶֽחֱסֶה־בּ֑וֹ מָ֝גִנִּ֗י וְקֶ֣רֶן יִ֭שְׁעִי מִשְׂגַּבִּֽי׃",
+      "text_kjv": "The LORD is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower.",
+      "rendering": "The LORD is my rock, my fortress, my deliverer,\nmy God, my cliff in whom I take refuge,\nmy shield, the horn of my salvation, my stronghold.",
+      "expanded_rendering": "Seven titles for God cascade in rapid succession, each drawn from a different domain of protection. sal'i ('my rock') — the immovable, unshakeable foundation. metsudati ('my fortress') — the military stronghold built on high ground. mefalti ('my deliverer') — the one who extracts me from danger. Eli ('my God') — the personal possessive claim on the divine. tsuri ('my cliff, my rock-face') — the sheer rock wall that provides shelter. echesseh bo ('in whom I take refuge') — the verb of sheltering trust. maginni ('my shield') — the instrument of close combat protection. qeren yish'i ('the horn of my salvation') — the horn is a symbol of strength, like the horn of a wild ox that gores its enemies. misgabbi ('my high retreat, my stronghold') — the elevated, inaccessible place beyond the enemy's reach. The accumulation is not decorative but desperately earnest: the psalmist needs God to be all of these things simultaneously.",
+      "translator_notes": [
+        "The seven titles form one of the densest concentrations of divine metaphor in the Hebrew Bible. Each draws from a different aspect of protection: geological (rock, cliff), military (fortress, shield, stronghold), personal (deliverer, God), and animal (horn). Together they compose a complete portrait of divine sufficiency."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קֶרֶן יִשְׁעִי",
+          "transliteration": "qeren yish'i",
+          "rendered_as": "the horn of my salvation",
+          "semantic_range": "horn: strength, power, might, a symbol of aggressive defense; salvation: deliverance, victory, rescue",
+          "note": "The horn (qeren) of a powerful animal — usually a wild ox — was the primary biblical symbol of offensive strength. A 'horn of salvation' is a saving power that actively fights on behalf of the one being saved. The image conveys not passive protection but aggressive, combative rescue."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "מְ֭הֻלָּל אֶקְרָ֣א יְהוָ֑ה וּמִן־אֹ֝יְבַ֗י אִוָּשֵֽׁעַ׃",
+      "text_kjv": "I will call upon the LORD, who is worthy to be praised: so shall I be saved from mine enemies.",
+      "rendering": "I call on the LORD, who is worthy of praise,\nand I am saved from my enemies.",
+      "translator_notes": [
+        "mehullal ('the praised one, the one worthy of praise') is a Pual participle — God is inherently, passively worthy of praise; praise is his due nature. The verse establishes the psalm's fundamental logic: calling on the LORD results in salvation. The two clauses are cause and effect."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "אֲפָפ֥וּנִי חֶבְלֵי־מָ֑וֶת וְנַחֲלֵ֖י בְלִיַּ֣עַל יְבַעֲתֽוּנִי׃",
+      "text_kjv": "The sorrows of death compassed me, and the floods of ungodly men made me afraid.",
+      "rendering": "The cords of death encompassed me;\nthe torrents of destruction terrified me.",
+      "translator_notes": [
+        "chevlei mavet ('cords/pangs of death') — chevel can mean both 'rope/cord' (binding, trapping) and 'birth pang' (pain, writhing). Death either binds or tortures. nachalei veliyya'al ('torrents of Belial/destruction') — the word beliyya'al means 'worthlessness, destruction, the abyss.' The torrents are not ordinary floods but surges from the underworld itself."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "חֶבְלֵ֣י שְׁא֣וֹל סְבָב֑וּנִי קִ֝דְּמ֗וּנִי מוֹקְשֵׁ֥י מָֽוֶת׃",
+      "text_kjv": "The sorrows of hell compassed me about: the snares of death prevented me.",
+      "rendering": "The cords of Sheol surrounded me;\nthe snares of death confronted me.",
+      "translator_notes": [
+        "The parallelism between mavet ('death') in verse 5 and She'ol in verse 6 identifies them as overlapping realities. The psalmist is trapped in a zone where death and Sheol converge — caught in cords and snares, hemmed in on every side. The imagery establishes the extremity from which God will rescue."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "בַּצַּר־לִ֤י ׀ אֶֽקְרָ֣א יְהוָה֮ וְאֶל־אֱלֹהַ֢י אֲשַׁ֫וֵּ֥עַ יִשְׁמַ֣ע מֵהֵיכָל֣וֹ קוֹלִ֑י וְ֝שַׁוְעָתִ֗י לְפָנָ֤יו ׀ תָּב֬וֹא בְאׇזְנָֽיו׃",
+      "text_kjv": "In my distress I called upon the LORD, and cried unto my God: he heard my voice out of his temple, and my cry came before him, even into his ears.",
+      "rendering": "In my distress I called on the LORD;\nto my God I cried for help.\nFrom his temple he heard my voice;\nmy cry reached his ears.",
+      "translator_notes": [
+        "The verse traces the trajectory of prayer: from the psalmist's mouth to God's temple to God's ears. The cry travels upward through space and arrives. The verb shava ('to cry for help') is an urgent, anguished call — not polite petition but desperate screaming. God hears from his heikhal — both earthly temple and heavenly palace."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַתִּגְעַ֬שׁ וַתִּרְעַ֨שׁ ׀ הָאָ֗רֶץ וּמוֹסְדֵ֣י הָרִ֣ים יִרְגָּ֑זוּ וַ֝יִּתְגָּעֲשׁ֗וּ כִּי־חָ֥רָה לֽוֹ׃",
+      "text_kjv": "Then the earth shook and trembled; the foundations also of the hills moved and were shaken, because he was wroth.",
+      "rendering": "Then the earth reeled and shook;\nthe foundations of the mountains trembled\nand quaked because he was angry.",
+      "translator_notes": [
+        "The theophany that begins here and runs through verse 16 is the most elaborate divine-warrior intervention scene in the Psalter. Every element — earthquake, fire, darkness, wind, water — echoes the exodus traditions and transfers them to David's personal experience."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "עָ֘לָ֤ה עָשָׁ֨ן ׀ בְּאַפּ֗וֹ וְאֵשׁ־מִפִּ֥יו תֹּאכֵ֑ל גֶּ֝חָלִ֗ים בָּעֲר֥וּ מִמֶּֽנּוּ׃",
+      "text_kjv": "There went up a smoke out of his nostrils, and fire out of his mouth devoured: coals were kindled by it.",
+      "rendering": "Smoke rose from his nostrils;\nconsuming fire came from his mouth;\nburning coals blazed from him.",
+      "translator_notes": [
+        "The anthropomorphism is deliberate and extreme: smoke from God's nose (the Hebrew af means both 'nose' and 'anger'), fire from God's mouth, burning coals igniting. This is dragon-language applied to the Creator — God as a figure of terrifying, volcanic fury. The image draws from volcanic phenomena (smoke, fire, glowing stones) and applies them to divine wrath."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיֵּ֣ט שָׁ֭מַיִם וַיֵּרַ֑ד וַ֝עֲרָפֶ֗ל תַּ֣חַת רַגְלָֽיו׃",
+      "text_kjv": "He bowed the heavens also, and came down: and darkness was under his feet.",
+      "rendering": "He bent the heavens and came down,\nthick darkness beneath his feet.",
+      "expanded_rendering": "The most audacious line in the theophany: vayyet shamayim vayyerad ('he bent the heavens and descended'). The verb natah ('to bend, stretch, incline') pictures God physically bowing the sky downward like a tent curtain, pressing through the barrier between heaven and earth to reach the psalmist. The heavens are not rigid — they flex under the weight of God's descent. Beneath his feet: arafel ('thick darkness, deep cloud') — the same word used for the darkness where God dwelt at Sinai (Exodus 20:21, Deuteronomy 4:11). God comes wrapped in impenetrable cloud, visible only in his effects.",
+      "translator_notes": [
+        "The verb natah applied to the heavens appears also in Isaiah 40:22 ('he stretches out the heavens like a curtain'). Here the stretching is downward — God pushes through the sky to reach the one who called."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיִּרְכַּ֣ב עַל־כְּ֭רוּב וַיָּעֹ֑ף וַ֝יֵּ֗דֶא עַל־כַּנְפֵי־רֽוּחַ׃",
+      "text_kjv": "And he rode upon a cherub, and did fly: yea, he did fly upon the wings of the wind.",
+      "rendering": "He rode on a cherub and flew;\nhe soared on the wings of the wind.",
+      "translator_notes": [
+        "The keruv (cherub) is not the chubby infant of later art but a powerful composite creature — part human, part animal, part bird — that serves as God's throne-bearer (Ezekiel 1, 10) and mount. God rides the cherub as a warrior rides a chariot. The 'wings of the wind' (kanfei ruach) make the storm itself God's vehicle."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "יָ֤שֶׁת חֹ֨שֶׁךְ ׀ סִתְר֗וֹ סְ֭בִיבוֹתָיו סֻכָּת֑וֹ חֶשְׁכַת־מַ֝֗יִם עָבֵ֥י שְׁחָקִֽים׃",
+      "text_kjv": "He made darkness his secret place; his pavilion round about him were dark waters and thick clouds of the skies.",
+      "rendering": "He made darkness his hiding place,\nhis canopy around him —\ndark waters, thick clouds of the sky.",
+      "translator_notes": [
+        "God's concealment in darkness is both terrifying and protective. The sukkah ('canopy, booth, shelter') of verse 12 is made of choshekh ('darkness') and cheshkat mayim ('dark waters'). God is hidden — his arrival is known by its effects (earthquake, fire, wind) but his person remains veiled. The psalmist is saved by a God he cannot see."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "מִנֹּ֗גַהּ נֶ֫גְדּ֥וֹ עָבָ֥יו עָבְר֑וּ בָּ֝רָ֗ד וְגַֽחֲלֵי־אֵֽשׁ׃",
+      "text_kjv": "At the brightness that was before him his thick clouds passed, hail stones and coals of fire.",
+      "rendering": "From the brightness before him\nhis clouds broke through —\nhail and coals of fire.",
+      "translator_notes": [
+        "The nogah ('brightness, radiance') is God's own luminosity breaking through the surrounding darkness. The storm clouds are not merely weather but the garments of God's approach, and they break apart to release hail (barad) and fire — the weapons of divine intervention, echoing the seventh plague in Exodus 9:23-24."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיַּרְעֵ֬ם בַּשָּׁמַ֨יִם ׀ יְֽהוָ֗ה וְ֭עֶלְיוֹן יִתֵּ֣ן קֹל֑וֹ בָּ֝רָ֗ד וְגַֽחֲלֵי־אֵֽשׁ׃",
+      "text_kjv": "The LORD also thundered in the heavens, and the Highest gave his voice; hail stones and coals of fire.",
+      "rendering": "The LORD thundered from heaven;\nthe Most High gave forth his voice —\nhail and coals of fire.",
+      "translator_notes": [
+        "Thunder is God's voice (qol) — the same identification made in Psalm 29. The title Elyon ('Most High') emphasizes God's supremacy over all other powers. The thunder is not mere meteorology but divine speech — God's answer to the psalmist's cry in verse 7."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיִּשְׁלַ֣ח חִ֭צָּיו וַיְפִיצֵ֑ם וּבְרָקִ֥ים רָ֝ב וַיְהֻמֵּֽם׃",
+      "text_kjv": "Yea, he sent out his arrows, and scattered them; and he shot out lightnings, and discomfited them.",
+      "rendering": "He sent out his arrows and scattered them;\nhe flashed lightning and threw them into confusion.",
+      "translator_notes": [
+        "God's arrows (chitsim) are the lightning bolts — the divine warrior's ranged weapons. The verb puts ('to scatter') describes the dispersal of the enemy army. The verb hamam ('to confuse, throw into panic') is the same word used for God's action against the Egyptians at the Red Sea (Exodus 14:24) and against the Canaanites in Joshua 10:10."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיֵּרָאוּ֮ אֲפִ֢יקֵ֫י מַ֥יִם וַיִּגָּלוּ֮ מוֹסְד֢וֹת תֵּ֫בֵ֥ל מִגַּעֲרָ֣תְךָ֣ יְהוָ֑ה מִ֝נִּשְׁמַ֗ת ר֣וּחַ אַפֶּֽךָ׃",
+      "text_kjv": "Then the channels of waters were seen, and the foundations of the world were discovered at thy rebuke, O LORD, at the blast of the breath of thy nostrils.",
+      "rendering": "Then the channels of the sea were exposed,\nthe foundations of the world laid bare\nat your rebuke, LORD,\nat the blast of the breath of your nostrils.",
+      "expanded_rendering": "The theophany reaches its culmination in a scene of cosmic exposure. The afiqei mayim ('channels of water') — the sea beds, the hidden depths — are uncovered. The mosedot tevel ('foundations of the world') — the bedrock beneath everything — are laid bare. God's rebuke (ge'arah) and the blast of his nostril-breath (nishmat ruach appekha) peel back the surface of creation and expose its hidden structures. This is language borrowed from the exodus — the parting of the Red Sea exposed the sea floor (Exodus 15:8 uses nearly identical language: 'by the blast of your nostrils the waters piled up'). The psalmist's personal rescue is described in the same terms as Israel's national liberation. What God did for the nation at the sea, God does for David against his enemies.",
+      "translator_notes": [
+        "This verse marks the climax of the theophany. The entire created order — from sky to sea bed to the foundations beneath the earth — has been affected by God's intervention. The scale is deliberately disproportionate to one man's rescue: God deploys universe-altering power to save a single servant."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "יִשְׁלַ֣ח מִ֭מָּרוֹם יִקָּחֵ֑נִי יַ֝מְשֵׁ֗נִי מִמַּ֥יִם רַבִּֽים׃",
+      "text_kjv": "He sent from above, he took me, he drew me out of many waters.",
+      "rendering": "He reached down from on high and took hold of me;\nhe drew me out of many waters.",
+      "expanded_rendering": "After the cosmic upheaval, the rescue itself is described with intimate tenderness. yishlach mi-marom yiqqacheni ('he sent from the height, he took me') — the same God who bent the heavens now extends his hand and grasps the psalmist. yamsheni mi-mayim rabbim ('he drew me out of many waters') — the verb mashah ('to draw out') is the etymological root of the name Moses (Moshe), who was 'drawn from the water' (Exodus 2:10). The 'many waters' (mayim rabbim) represent the chaotic forces of death and destruction — the same floods that overwhelmed the psalmist in verse 5. God reaches through the flood and pulls the psalmist to safety, just as Pharaoh's daughter reached into the Nile for the infant Moses.",
+      "translator_notes": [
+        "The verb mashah ('to draw out') creating a verbal link to Moses is likely intentional. The psalmist is a new Moses — drawn from drowning waters by divine intervention. The 'many waters' function as a symbol of chaos throughout the Hebrew Bible (Psalm 29:3, 93:4, Isaiah 17:12-13)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "יַצִּילֵ֗נִי מֵאֹיְבִ֥י עָ֑ז וּ֝מִשֹּׂנְאַ֗י כִּ֣י אָמְצ֣וּ מִמֶּֽנִּי׃",
+      "text_kjv": "He delivered me from my strong enemy, and from them which hated me: for they were too strong for me.",
+      "rendering": "He delivered me from my powerful enemy,\nfrom those who hated me,\nfor they were too strong for me.",
+      "translator_notes": [
+        "The honest admission ki ametsu mimmenni ('for they were stronger than me') is significant. The psalmist does not pretend he could have saved himself. The enemy was genuinely overpowering. The rescue was necessary precisely because the psalmist was overmatched — divine intervention was not a supplement to human effort but a replacement for it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "יְקַדְּמ֥וּנִי בְיוֹם־אֵידִ֑י וַיְהִ֥י יְ֝הוָ֗ה לְמִשְׁעָ֥ן לִֽי׃",
+      "text_kjv": "They prevented me in the day of my calamity: but the LORD was my stay.",
+      "rendering": "They confronted me on the day of my disaster,\nbut the LORD became my support.",
+      "translator_notes": [
+        "be-yom eidi ('on the day of my calamity') — eid refers to a catastrophic event, a disaster, a time when everything collapses. The contrast is sharp: the enemy struck at the worst possible moment, and at that same moment the LORD became mish'an ('support, staff to lean on')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיּוֹצִיאֵ֥נִי לַמֶּרְחָ֑ב יְ֝חַלְּצֵ֗נִי כִּ֣י חָ֣פֵֽץ בִּֽי׃",
+      "text_kjv": "He brought me forth also into a large place; he delivered me, because he delighted in me.",
+      "rendering": "He brought me out into a wide-open space;\nhe rescued me because he delighted in me.",
+      "expanded_rendering": "The rescue movement is complete: from the constriction of death's cords (v. 5) to the merchav ('wide, open space'). The spatial metaphor is powerful — distress in Hebrew is tsarah ('narrowness, tightness'), and salvation is expansion into openness. The reason for rescue is stated with startling simplicity: ki chafets bi ('because he delighted in me'). Not because the psalmist earned it, not because of military strategy, not because of covenant obligation in the abstract — but because God found pleasure, delight, desire in the psalmist. The verb chafets describes active enjoyment, the kind of pleasure a person takes in something they genuinely want. God wanted the psalmist alive and free.",
+      "translator_notes": [
+        "The phrase ki chafets bi ('because he delighted in me') is the emotional heart of the psalm. It grounds the entire cosmic rescue — earthquake, fire, cherub-riding, heaven-bending — in a single motive: delight. God did all this because he wanted to."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מֶרְחָב",
+          "transliteration": "merchav",
+          "rendered_as": "wide-open space",
+          "semantic_range": "broad place, wide expanse, freedom, room to breathe",
+          "note": "merchav is the spatial opposite of tsarah ('distress, narrowness'). Salvation is experienced as expansion — from the tight confines of danger into the open space of freedom. The word communicates liberation not abstractly but physically: there is room now."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "יִגְמְלֵ֣נִי יְהוָ֣ה כְּצִדְקִ֑י כְּבֹ֥ר יָ֝דַ֗י יָשִׁ֥יב לִֽי׃",
+      "text_kjv": "The LORD rewarded me according to my righteousness; according to the cleanness of my hands hath he recompensed me.",
+      "rendering": "The LORD has dealt with me according to my righteousness;\naccording to the cleanness of my hands he has repaid me.",
+      "translator_notes": [
+        "This verse begins the 'righteousness declaration' section (vv. 21-25) that mirrors 2 Samuel 22:21-25. The claims are situational — David acted with integrity toward Saul specifically, refusing to kill the LORD's anointed when given the opportunity (1 Samuel 24, 26). The language is covenantal: God rewards covenant faithfulness with covenant protection."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "כִּֽי־שָׁ֭מַרְתִּי דַּרְכֵ֣י יְהוָ֑ה וְלֹא־רָ֝שַׁ֗עְתִּי מֵאֱלֹהָֽי׃",
+      "text_kjv": "For I have kept the ways of the LORD, and have not wickedly departed from my God.",
+      "rendering": "For I have kept the ways of the LORD\nand have not acted wickedly against my God.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 22 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "כִּ֣י כׇל־מִשְׁפָּטָ֣יו לְנֶגְדִּ֑י וְ֝חֻקֹּתָ֗יו לֹא־אָסִ֥יר מֶֽנִּי׃",
+      "text_kjv": "For all his judgments were before me, and I did not put away his statutes from me.",
+      "rendering": "For all his judgments are before me;\nhis statutes I have not turned away from me.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 23 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וָאֱהִ֣י תָמִ֣ים עִמּ֑וֹ וָ֝אֶשְׁתַּמֵּ֗ר מֵעֲוֺנִֽי׃",
+      "text_kjv": "I was also upright before him, and I kept myself from mine iniquity.",
+      "rendering": "I was blameless before him\nand kept myself from my guilt.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 24 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיָּ֣שֶׁב יְהוָ֣ה לִ֣י כְצִדְקִ֑י כְּבֹ֥ר יָ֝דַ֗י לְנֶ֣גֶד עֵינָֽיו׃",
+      "text_kjv": "Therefore hath the LORD recompensed me according to my righteousness, according to the cleanness of my hands in his eyesight.",
+      "rendering": "The LORD has repaid me according to my righteousness,\naccording to the cleanness of my hands in his sight.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 25 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "עִם־חָסִ֥יד תִּתְחַסָּ֑ד עִם־גְּבַ֥ר תָּ֝מִ֗ים תִּתַּמָּֽם׃",
+      "text_kjv": "With the merciful thou wilt shew thyself merciful; with an upright man thou wilt shew thyself upright;",
+      "rendering": "With the faithful you show yourself faithful;\nwith the blameless you show yourself blameless.",
+      "expanded_rendering": "This verse introduces a principle of divine reciprocity that runs through verses 26-28. im chasid titchassad ('with the loyal one you show yourself loyal') — God mirrors the character of those who approach him. The verb titchassad is reflexive: God makes himself chasid toward the chasid. The same pattern follows: im gevar tamim tittammam ('with the blameless person you show yourself blameless'). God does not operate with a single mode — he responds to the posture of the one who comes. This is not theological relativism but relational theology: God's character is constant, but his self-revelation corresponds to the moral condition of the recipient.",
+      "translator_notes": [
+        "The fourfold pattern (faithful/faithful, blameless/blameless, pure/pure, twisted/twisted in vv. 26-27) is one of the most important theological statements in the Psalter about the nature of God's responsiveness. God meets people where they are — but this means the twisted encounter a God who appears twisted to them."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חָסִיד",
+          "transliteration": "chasid",
+          "rendered_as": "faithful",
+          "semantic_range": "loyal, devoted, practicing faithful love, characterized by chesed",
+          "note": "Here chasid describes the human partner in the covenant relationship. God's response (titchassad) mirrors the human quality. The principle is that covenant faithfulness from the human side unlocks the experience of covenant faithfulness from God's side."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "עִם־נָבָ֥ר תִּתְבָּרָ֑ר וְעִם־עִ֝קֵּ֗שׁ תִּתְפַּתָּֽל׃",
+      "text_kjv": "With the pure thou wilt shew thyself pure; and with the froward thou wilt shew thyself froward.",
+      "rendering": "With the pure you show yourself pure;\nwith the crooked you show yourself shrewd.",
+      "translator_notes": [
+        "The word iqqesh ('crooked, twisted, perverse') describes someone whose path is deliberately convoluted — who practices deceit and manipulation. God's response to the crooked — titpatal ('you show yourself twisted/shrewd') — is startling. It means God outmaneuvers the manipulator at their own game. God does not become morally crooked, but he proves more cunning than the cunning."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "כִּֽי־אַ֭תָּה עַם־עָנִ֣י תוֹשִׁ֑יעַ וְ֝עֵינַ֗יִם רָמ֥וֹת תַּשְׁפִּֽיל׃",
+      "text_kjv": "For thou wilt save the afflicted people; but wilt bring down high looks.",
+      "rendering": "For you save a humble people,\nbut haughty eyes you bring low.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 28 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "כִּֽי־אַ֭תָּה תָּאִ֣יר נֵרִ֑י יְהוָ֥ה אֱ֝לֹהַ֗י יַגִּ֥יהַּ חׇשְׁכִּֽי׃",
+      "text_kjv": "For thou wilt light my candle: the LORD my God will enlighten my darkness.",
+      "rendering": "For you light my lamp, LORD;\nmy God illuminates my darkness.",
+      "translator_notes": [
+        "The lamp (ner) is a symbol of life, prosperity, and dynastic continuity (1 Kings 11:36, 15:4 — 'a lamp in Jerusalem'). God lighting the psalmist's lamp means sustaining his life and his lineage. The darkness (choshki) is both literal (the darkness of danger) and metaphorical (the darkness of despair)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "כִּֽי־בְ֭ךָ אָרֻ֣ץ גְּד֑וּד וּ֝בֵאלֹהַ֗י אֲדַלֶּג־שֽׁוּר׃",
+      "text_kjv": "For by thee I have run through a troop; and by my God have I leaped over a wall.",
+      "rendering": "For by you I can charge a battle line;\nby my God I can leap over a wall.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 30 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "הָאֵל֮ תָּמִ֢ים דַּ֫רְכּ֥וֹ אִמְרַ֣ת יְ֭הוָה צְרוּפָ֑ה מָגֵ֥ן ה֝֗וּא לְכֹ֤ל ׀ הַחֹסִ֬ים בּֽוֹ׃",
+      "text_kjv": "As for God, his way is perfect: the word of the LORD is tried: he is a buckler to all those that trust in him.",
+      "rendering": "As for God — his way is complete.\nThe word of the LORD is refined;\nhe is a shield to all who take refuge in him.",
+      "translator_notes": [
+        "This verse appears verbatim in 2 Samuel 22:31 and echoes Deuteronomy 32:4 ('The Rock — his work is perfect'). It functions as the psalm's creedal statement, distilling the entire testimony into three affirmations."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "כִּ֤י מִ֣י אֱ֭לוֹהַּ מִבַּלְעֲדֵ֣י יְהוָ֑ה וּמִ֥י צ֝֗וּר זוּלָתִ֥י אֱלֹהֵֽינוּ׃",
+      "text_kjv": "For who is God save the LORD? or who is a rock save our God?",
+      "rendering": "For who is God besides the LORD?\nAnd who is a rock except our God?",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 32 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "הָ֭אֵל הַמְאַזְּרֵ֣נִי חָ֑יִל וַיִּתֵּ֖ן תָּמִ֣ים דַּרְכִּֽי׃",
+      "text_kjv": "It is God that girdeth me with strength, and maketh my way perfect.",
+      "rendering": "God — the one who arms me with strength\nand makes my way blameless.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 33 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "מְשַׁוֶּ֣ה רַ֭גְלַי כָּאַיָּל֑וֹת וְעַ֥ל בָּ֝מוֹתַ֗י יַעֲמִידֵֽנִי׃",
+      "text_kjv": "He maketh my feet like hinds' feet, and setteth me upon my high places.",
+      "rendering": "He makes my feet like the feet of a deer\nand sets me on the heights.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 34 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "מְלַמֵּ֣ד יָ֭דַי לַמִּלְחָמָ֑ה וְנִחֲתָ֥ה קֶֽשֶׁת־נְ֝חוּשָׁ֗ה זְרוֹעֹתָֽי׃",
+      "text_kjv": "He teacheth my hands to war, so that a bow of steel is broken by mine arms.",
+      "rendering": "He trains my hands for war\nso that my arms can bend a bow of bronze.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 35 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַתִּתֶּן־לִ֗י מָגֵ֣ן יִ֭שְׁעֶךָ וִֽימִינְךָ֣ תִסְעָדֵ֑נִי וְֽעַנְוַתְךָ֥ תַרְבֵּֽנִי׃",
+      "text_kjv": "Thou hast also given me the shield of thy salvation: and thy right hand hath holden me up, and thy gentleness hath made me great.",
+      "rendering": "You have given me the shield of your salvation;\nyour right hand upholds me,\nand your humility has made me great.",
+      "expanded_rendering": "The final clause is one of the most theologically provocative in the psalm: ve-anvatekha tarbbeni ('and your humility/gentleness has made me great'). The word anvah applied to God is extraordinary — it means 'humility, meekness, condescension.' The psalm claims that God's willingness to stoop down, to bend the heavens, to attend to one person's cry — this divine humility is what has made the psalmist great. Greatness comes not from the psalmist's strength but from God's willingness to be gentle with the weak.",
+      "translator_notes": [
+        "anvah ('humility, gentleness') applied to God is remarkable. The 2 Samuel 22:36 parallel reads anothekha ('your answering, your response'). Both readings attribute the psalmist's greatness to God's gracious condescension — the willingness of the Most High to stoop."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "תַּרְחִ֣יב צַעֲדִ֣י תַחְתָּ֑י וְלֹ֥א מָ֝עֲד֗וּ קַרְסֻלָּֽי׃",
+      "text_kjv": "Thou hast enlarged my steps under me, that my feet did not slip.",
+      "rendering": "You broaden the path beneath me,\nand my ankles do not give way.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 37 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "אֶרְדּ֣וֹף א֭וֹיְבַי וְאַשִּׂיגֵ֑ם וְלֹא־אָ֝שׁ֗וּב עַד־כַּלּוֹתָֽם׃",
+      "text_kjv": "I have pursued mine enemies, and overtaken them: neither did I turn again till they were consumed.",
+      "rendering": "I pursued my enemies and overtook them;\nI did not turn back until they were destroyed.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 38 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "אֶ֭מְחָצֵם וְלֹא־יֻכְל֣וּ ק֑וּם יִ֝פְּל֗וּ תַּ֣חַת רַגְלָֽי׃",
+      "text_kjv": "I have wounded them that they were not able to rise: they are fallen under my feet.",
+      "rendering": "I struck them so they could not rise;\nthey fell beneath my feet.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 39 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַתְּאַזְּרֵ֣נִי חַ֭יִל לַמִּלְחָמָ֑ה תַּכְרִ֖יעַ קָמַ֣י תַּחְתָּֽי׃",
+      "text_kjv": "For thou hast girded me with strength unto the battle: thou hast subdued under me those that rose up against me.",
+      "rendering": "You armed me with strength for battle;\nyou brought my assailants to their knees beneath me.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 40 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וְֽאֹיְבַ֗י נָתַ֣תָּה לִּ֣י עֹ֑רֶף וּ֝מְשַׂנְאַ֗י אַצְמִיתֵֽם׃",
+      "text_kjv": "Thou hast also given me the necks of mine enemies; that I might destroy them that hate me.",
+      "rendering": "You made my enemies turn their backs to me,\nand those who hated me — I silenced them.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 41 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "יְשַׁוְּע֥וּ וְאֵין־מוֹשִׁ֑יעַ עַל־יְ֝הוָ֗ה וְלֹ֣א עָנָֽם׃",
+      "text_kjv": "They cried, but there was none to save them: even unto the LORD, but he answered them not.",
+      "rendering": "They cried for help, but there was no one to save;\neven to the LORD, but he did not answer them.",
+      "translator_notes": [
+        "The enemies' unanswered cry to the LORD is devastating. They called on the same God the psalmist called on — but received no answer. The principle of verse 26 applies: God responds differently to the faithful and the crooked. The same God who heard the psalmist's cry (v. 7) does not hear theirs."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וְאֶשְׁחָקֵ֗ם כְּעָפָ֥ר עַל־פְּנֵי־ר֑וּחַ כְּטִ֖יט חוּצ֣וֹת אֲרִיקֵֽם׃",
+      "text_kjv": "Then did I beat them small as the dust before the wind: I did cast them out as the dirt in the streets.",
+      "rendering": "I ground them fine as dust before the wind;\nI poured them out like mud in the streets.",
+      "reading_level": "8th grade",
+      "translator_notes": [
+        "Verse 43 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "תְּ֭פַלְּטֵנִי מֵרִ֣יבֵי עָ֑ם תְּ֝שִׂימֵ֗נִי לְרֹ֣אשׁ גּוֹיִֽם עַ֥ם לֹא־יָ֝דַ֗עְתִּי יַעַבְדֽוּנִי׃",
+      "text_kjv": "Thou hast delivered me from the strivings of the people; and thou hast made me the head of the heathen: a people whom I have not known shall serve me.",
+      "rendering": "You delivered me from the strife of peoples;\nyou set me as head of nations.\nA people I had not known now serve me.",
+      "reading_level": "8th grade",
+      "translator_notes": [
+        "Verse 44 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "לְשֵׁ֣מַע אֹ֭זֶן יִשָּׁ֣מְעוּ לִ֑י בְּנֵֽי־נֵ֝כָ֗ר יְכַחֲשׁ֥וּ לִֽי׃",
+      "text_kjv": "As soon as they hear of me, they shall obey me: the strangers shall submit themselves unto me.",
+      "rendering": "At the mere hearing of me they obey;\nforeigners come cringing before me.",
+      "reading_level": "8th grade",
+      "translator_notes": [
+        "Verse 45 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "בְּנֵי־נֵכָ֥ר יִבֹּ֑לוּ וְ֝יַחְרְג֗וּ מִמִּסְגְּרוֹתֵיהֶֽם׃",
+      "text_kjv": "The strangers shall fade away, and be afraid out of their close places.",
+      "rendering": "Foreigners lose heart\nand come trembling from their strongholds.",
+      "reading_level": "8th grade",
+      "translator_notes": [
+        "Verse 46 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "חַי־יְ֭הוָה וּבָר֣וּךְ צוּרִ֑י וְ֝יָר֗וּם אֱלוֹהֵ֥י יִשְׁעִֽי׃",
+      "text_kjv": "The LORD liveth; and blessed be my rock; and let the God of my salvation be exalted.",
+      "rendering": "The LORD lives! Blessed be my rock!\nExalted be the God of my salvation!",
+      "translator_notes": [
+        "chay YHVH ('the LORD lives!') is an oath formula and a doxological cry. After describing all that God has done, the psalmist returns to the foundational confession: the LORD is alive. This is not philosophical assertion but experiential testimony — the God who acted is the God who lives."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "הָאֵ֗ל הַנּוֹתֵ֣ן נְקָמ֣וֹת לִ֑י וַיַּדְבֵּ֖ר עַמִּ֣ים תַּחְתָּֽי׃",
+      "text_kjv": "It is God that avengeth me, and subdueth the people under me.",
+      "rendering": "The God who gives me vindication\nand subdues peoples under me.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 48 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "מְפַלְּטִ֗י מֵֽ֫אֹיְבָ֥י אַ֣ף מִן־קָ֭מַי תְּרוֹמְמֵ֑נִי מֵאִ֥ישׁ חָ֝מָ֗ס תַּצִּילֵֽנִי׃",
+      "text_kjv": "He delivereth me from mine enemies: yea, thou liftest me up above those that rise up against me: thou hast delivered me from the violent man.",
+      "rendering": "He rescues me from my enemies.\nYou lift me above my adversaries;\nfrom the violent man you deliver me.",
+      "reading_level": "7th grade",
+      "translator_notes": [
+        "Verse 49 continues the psalm's thematic and structural development."
+      ]
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "עַל־כֵּ֤ן ׀ אוֹדְךָ֖ בַגּוֹיִ֥ם ׀ יְהוָ֑ה וּלְשִׁמְךָ֥ אֲזַמֵּֽרָה׃",
+      "text_kjv": "Therefore will I give thanks unto thee, O LORD, among the heathen, and sing praises unto thy name.",
+      "rendering": "Therefore I will praise you among the nations, LORD,\nand sing to your name.",
+      "translator_notes": [
+        "Paul quotes this verse in Romans 15:9 as evidence that God's saving purpose always intended to reach beyond Israel to the nations. The psalmist's praise among the goyim ('nations') becomes, in Paul's reading, a prophecy of Gentile inclusion in worship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "מַגְדִּ֗ל יְשׁוּע֥וֹת מַלְכּ֑וֹ וְעֹ֤שֶׂה חֶ֨סֶד ׀ לִמְשִׁיח֗וֹ לְדָוִ֥ד וּלְזַרְע֗וֹ עַד־עוֹלָֽם׃",
+      "text_kjv": "Great deliverance giveth he to his king; and sheweth mercy to his anointed, to David, and to his seed for evermore.",
+      "rendering": "He gives great victories to his king\nand shows faithful love to his anointed —\nto David and his offspring forever.",
+      "expanded_rendering": "The psalm's final verse expands from personal testimony to dynastic promise. magdil yeshu'ot malko ('he makes great the victories of his king') — God does not merely save but magnifies the salvation. ve-oseh chesed limshicho ('and shows chesed to his anointed') — the mashiach ('anointed one') is the king whom God has set apart by anointing. The chesed shown to the mashiach is covenant loyalty — the faithfulness God pledged to the Davidic line in 2 Samuel 7. The final phrase — le-David ul-zar'o ad olam ('to David and his seed forever') — extends the promise beyond David's lifetime to his entire dynasty, into an open-ended future. The word olam ('forever, into the age, perpetuity') leaves the promise unbounded. For early Christians, this verse pointed directly to Jesus as the ultimate seed of David who inherits the everlasting chesed of the covenant.",
+      "translator_notes": [
+        "The word mashiach ('anointed one') is the source of 'Messiah.' In its original context it refers to the reigning king of David's line. The phrase ad olam ('forever') connects this psalm to the eternal covenant of 2 Samuel 7:12-16 and to the messianic hope that animates the Psalter."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָשִׁיחַ",
+          "transliteration": "mashiach",
+          "rendered_as": "anointed",
+          "semantic_range": "anointed one, the one set apart by oil for a sacred role — king, priest, or chosen agent",
+          "note": "mashiach in the Psalms refers primarily to the Davidic king, who was anointed with oil at his coronation (1 Samuel 16:13, 2 Samuel 2:4). The term acquired increasing eschatological weight as the Davidic dynasty fell, eventually becoming the title 'Messiah' — the future anointed king whom God would raise up."
+        },
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "loyal love, covenant faithfulness, steadfast love, kindness, devotion",
+          "note": "chesed here is the covenant love God promised to David's line in perpetuity. It is the binding commitment that holds the Davidic covenant together — not based on the king's performance but on God's promise."
+        }
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Chronicles",
+    "chapter": 11,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "All the tribes of Israel gather to David at Hebron and declare their allegiance, citing their shared kinship and David's proven military leadership under Saul. They anoint David king over Israel in fulfillment of the LORD's word through Samuel. David and all Israel march on Jerusalem — then called Jebus — and capture it, despite the Jebusites' defiance. Joab son of Zeruiah leads the assault and is rewarded with the position of army commander. David establishes himself in the fortress, which becomes the City of David, and the LORD of Armies is with him. The chapter then catalogs David's mighty warriors: Jashobeam the Hachmonite, chief of the Three, who killed three hundred men in a single engagement; Eleazar son of Dodo the Ahohite, who stood his ground against the Philistines when the rest of Israel retreated; and the unnamed exploit at the barley field. Three warriors break through the Philistine garrison at Bethlehem to bring David water from the well by the gate, but David refuses to drink it and pours it out as an offering to the LORD. Abishai and Benaiah are honored for their exploits, and the chapter closes with an extended roster of David's elite warriors — the Thirty and beyond.",
+    "remarkable": "The Chronicler's version of David's rise omits everything between Saul's death and David's anointing at Hebron. There is no Ish-bosheth, no civil war, no Abner negotiations, no seven-year reign in Hebron over Judah alone. David moves directly from Saul's death to national kingship — a theological compression that presents David's reign as immediately and universally recognized. The capture of Jerusalem is likewise compressed: in 2 Samuel 5, the city's capture comes after David has already reigned in Hebron for years, but the Chronicler places it immediately after the anointing, making Jerusalem David's first act as king of all Israel. The water-from-Bethlehem episode (vv 15-19) is one of the most remarkable passages in the Hebrew Bible for what it reveals about David's character and his theology of sacrifice — he refuses to profit from men's willingness to risk their lives for him, treating their courage as something too sacred to consume.",
+    "friction": "Verse 11 presents the roster heading differently from 2 Samuel 23:8. The Chronicler calls David's chief warrior 'Jashobeam son of a Hachmonite' (Yashovam ben Chachmoni), while 2 Samuel 23:8 reads 'Josheb-basshebeth a Tachkemonite' (Yoshev Bashevet Tachkemoni) — the names appear corrupted in transmission, and reconstructing the original is difficult. The number of men killed also differs: 300 here versus 800 in 2 Samuel 23:8. The third member of the Three is problematic: in 2 Samuel 23:11-12, Shammah son of Agee the Hararite defends a lentil field alone, but 1 Chronicles 11 omits this individual exploit and merges it into a collective action at a barley field (v13-14). The relationship between 'the Three' and 'the Thirty' is complicated by variant numbers and overlapping names across the Samuel and Chronicles lists.",
+    "connections": "The anointing at Hebron parallels 2 Samuel 5:1-3 and fulfills the prophecy of 1 Samuel 16:1-13 (David's anointing by Samuel). The capture of Jerusalem parallels 2 Samuel 5:6-10. The mighty warriors catalog parallels 2 Samuel 23:8-39 but appears here in a different narrative context — in Samuel it comes near the end of David's life as a retrospective, while in Chronicles it appears at the beginning as a credential list. The water-pouring episode connects to the theology of sacrifice that will pervade the Temple preparations: David treats human devotion as belonging to God, not to the king. Joab's capture of Jerusalem parallels his later role throughout Chronicles as David's sometimes-problematic military chief."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיִּקָּבְצ֧וּ כׇל־יִשְׂרָאֵ֛ל אֶל־דָּוִ֖יד חֶבְר֣וֹנָה לֵאמֹ֑ר הִנֵּ֛ה עַצְמְךָ֥ וּבְשָׂרְךָ֖ אֲנָֽחְנוּ׃",
+      "text_kjv": "Then all Israel gathered themselves to David unto Hebron, saying, Behold, we are thy bone and thy flesh.",
+      "rendering": "All Israel assembled before David at Hebron and said, \"We are your own bone and flesh.\"",
+      "translator_notes": [
+        "The phrase kol Yisra'el ('all Israel') is the Chronicler's signature expression — it appears more frequently in Chronicles than in any other biblical book, reflecting the Chronicler's vision of a united people under a single king. The kinship formula atsmekha uvsarekha ('your bone and your flesh') is a covenant declaration of solidarity, the same language used in Genesis 29:14 and Judges 9:2. Hebron was David's capital during his seven-year reign over Judah (2 Samuel 2:11), but the Chronicler compresses this — for him, Hebron is simply the gathering point where all Israel comes to David."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "גַּם־תְּמ֣וֹל גַּם־שִׁלְשׁ֗וֹם גַּ֚ם בִּהְי֣וֹת שָׁא֣וּל מֶ֔לֶךְ אַתָּ֗ה הַמּוֹצִ֤יא וְהַמֵּבִיא֙ אֶת־יִשְׂרָאֵ֔ל וַיֹּ֨אמֶר יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ לְ֔ךָ אַתָּ֥ה תִרְעֶ֖ה אֶת־עַמִּ֣י אֶת־יִשְׂרָאֵ֑ל וְאַתָּ֣ה תִהְיֶ֔ה נָגִ֖יד עַ֥ל עַמִּ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And moreover in time past, even when Saul was king, thou wast he that leddest out and broughtest in Israel: and the LORD thy God said unto thee, Thou shalt feed my people Israel, and thou shalt be ruler over my people Israel.",
+      "rendering": "Even before — even when Saul was king — you were the one leading Israel out and bringing them back. And the LORD your God said to you, 'You will shepherd my people Israel, and you will be leader over my people Israel.'",
+      "translator_notes": [
+        "The idiom gam temol gam shilshom ('both yesterday and the day before') means 'in times past, previously.' The military formula ha-motsi veha-mevi ('the one leading out and bringing in') describes the commander who leads troops into battle and brings them home. The verb tir'eh ('you will shepherd') from ra'ah ('to shepherd, to tend') reframes kingship as pastoral care — the king is not a tyrant but a shepherd. The title nagid ('ruler, designated leader, prince') is the term Samuel used when anointing both Saul (1 Samuel 9:16) and David (1 Samuel 13:14) — it carries the sense of a leader appointed by God rather than elected by the people."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָגִיד",
+          "transliteration": "nagid",
+          "rendered_as": "leader",
+          "semantic_range": "designated leader, prince, ruler, commander, one who is placed at the front",
+          "note": "Nagid from the root n-g-d ('to be in front, to declare, to lead') describes a leader who stands at the head by divine appointment. Unlike melek ('king'), which emphasizes sovereignty, nagid emphasizes commission — the nagid rules because God placed him there. The Chronicler uses this term to underscore that David's authority derives from divine designation, not tribal politics."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַ֠יָּבֹ֠אוּ כׇּל־זִקְנֵ֨י יִשְׂרָאֵ֤ל אֶל־הַמֶּ֙לֶךְ֙ חֶבְר֔וֹנָה וַיִּכְרֹ֨ת לָהֶ֧ם דָּוִ֛יד בְּרִ֖ית בְּחֶבְר֣וֹן לִפְנֵ֣י יְהֹוָ֑ה וַיִּמְשְׁח֤וּ אֶת־דָּוִיד֙ לְמֶ֣לֶךְ עַל־יִשְׂרָאֵ֔ל כִּדְבַ֥ר יְהֹוָ֖ה בְּיַד־שְׁמוּאֵֽל׃",
+      "text_kjv": "Therefore came all the elders of Israel to the king to Hebron; and David made a covenant with them in Hebron before the LORD; and they anointed David king over Israel, according to the word of the LORD by Samuel.",
+      "rendering": "All the elders of Israel came to the king at Hebron, and David cut a covenant with them at Hebron before the LORD. They anointed David king over Israel, in keeping with the word of the LORD spoken through Samuel.",
+      "expanded_rendering": "The verb vayyikhrot ('he cut') preserves the ancient ritual behind covenant-making: animals were cut in half, and the parties walked between the pieces (Genesis 15:9-18), binding themselves under a self-curse — 'may I be torn apart like this animal if I break this agreement.' David does not simply accept the crown; he enters into mutual obligation with the elders, and they do it lifnei YHWH ('before the LORD') — with God as witness and guarantor. The phrase kidvar YHWH beyad Shemu'el ('according to the word of the LORD by the hand of Samuel') grounds the entire event in prophetic authority. For the Chronicler, David's kingship is not a human arrangement but the fulfillment of a divine word delivered through a prophet. Samuel's hand — literally, beyad, 'by the hand of' — reaches beyond the grave to place the crown on David's head.",
+      "translator_notes": [
+        "The phrase berit bifnei YHWH ('covenant before the LORD') makes this a tripartite agreement: David, the elders, and God. The covenant establishes mutual obligations — the king will shepherd, the people will follow, and God will hold both accountable. The anointing (mashach) is David's third: Samuel anointed him privately (1 Samuel 16:13), Judah anointed him at Hebron (2 Samuel 2:4), and now all Israel anoints him. The Chronicler counts only this third, national anointing."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, pact, binding agreement, solemn obligation",
+          "note": "Berit is the foundational relational term of the Hebrew Bible — a binding agreement between parties that creates mutual obligations enforced by divine witness. The 'cutting' of a berit (karat berit) preserves the memory of the animal-splitting ritual. David's berit with the elders establishes constitutional kingship: the king rules under covenant, not by fiat."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיֵּ֨לֶךְ דָּוִ֧יד וְכׇל־יִשְׂרָאֵ֛ל יְרוּשָׁלַ֖͏ִם הִ֣יא יְב֑וּס וְשָׁם֙ הַיְבוּסִ֔י יֹשְׁבֵ֖י הָאָֽרֶץ׃",
+      "text_kjv": "And David and all Israel went to Jerusalem, which is Jebus; where the Jebusites were, the inhabitants of the land.",
+      "rendering": "David and all Israel marched on Jerusalem — that is, Jebus — where the Jebusites, the inhabitants of the land, were living.",
+      "translator_notes": [
+        "The identification Yerushalayim hi Yevus ('Jerusalem, that is Jebus') supplies the older name for readers who might not know the city's pre-Israelite identity. The Jebusites (Yevusi) were a Canaanite people listed among the nations to be dispossessed (Exodus 3:8, Deuteronomy 7:1). The phrase yoshvei ha-arets ('inhabitants of the land') marks them as the current occupants, about to be displaced. The Chronicler's 'David and all Israel' makes the capture a national project, not David's private military operation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיֹּ֨אמְר֜וּ יֹשְׁבֵ֤י יְבוּס֙ לְדָוִ֔יד לֹ֥א תָב֖וֹא הֵ֑נָּה וַיִּלְכֹּ֣ד דָּוִ֔יד אֶת־מְצֻדַ֣ת צִיּ֔וֹן הִ֖יא עִ֥יר דָּוִֽד׃",
+      "text_kjv": "And the inhabitants of Jebus said to David, Thou shalt not come hither. Nevertheless David took the strong hold of Zion, which is the city of David.",
+      "rendering": "The inhabitants of Jebus said to David, \"You will never enter here.\" But David captured the fortress of Zion — that is, the City of David.",
+      "translator_notes": [
+        "The Jebusite taunt lo tavo hennah ('you will not come in here') expresses confidence in their fortifications. The Chronicler omits the 2 Samuel 5:6 reference to 'the blind and the lame,' which may have been a proverbial boast about the city's impregnability. The phrase metsudat Tsiyyon ('the fortress of Zion') is the first occurrence of the name Zion in Chronicles. The identification hi Ir David ('that is, the City of David') establishes the name that will define Jerusalem's political and theological identity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיֹּ֣אמֶר דָּוִ֔יד כׇּל־מַכֵּ֤ה יְבוּסִי֙ בָּרִ֣אשׁוֹנָ֔ה יִהְיֶ֥ה לְרֹ֖אשׁ וּלְשָׂ֑ר וַיַּ֤עַל בָּרִאשׁוֹנָה֙ יוֹאָ֣ב בֶּן־צְרוּיָ֔ה וַיְהִ֖י לְרֹֽאשׁ׃",
+      "text_kjv": "And David said, Whosoever smiteth the Jebusites first shall be chief and captain. So Joab the son of Zeruiah went first up, and was chief.",
+      "rendering": "David said, \"Whoever strikes the Jebusites first will become chief and commander.\" Joab son of Zeruiah went up first and became chief.",
+      "translator_notes": [
+        "This verse has no parallel in 2 Samuel 5 and is the Chronicler's unique contribution, explaining how Joab obtained his position. The phrase le-rosh ule-sar ('as chief and commander') establishes dual military authority. The Chronicler needs to explain Joab's prominence because he will play a major role throughout the narrative. The verb ya'al ('he went up') may refer to scaling the walls or entering through the water shaft mentioned in 2 Samuel 5:8 (tsinnor), though the Chronicler omits that detail."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיֵּ֥שֶׁב דָּוִ֖יד בַּמְּצָ֑ד עַל־כֵּ֥ן קָֽרְאוּ־ל֖וֹ עִ֥יר דָּוִֽד׃",
+      "text_kjv": "And David dwelt in the castle; therefore they called it the city of David.",
+      "rendering": "David took up residence in the fortress — that is why they called it the City of David.",
+      "translator_notes": [
+        "The metsad ('fortress, stronghold') is the captured Jebusite citadel, now David's residence. The naming etiology — 'that is why they called it the City of David' — anchors the name to the act of royal occupation. For the Chronicler, Jerusalem's identity is inseparable from David's presence. The city has a new name because it has a new master."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיִּ֤בֶן הָעִיר֙ מִסָּבִ֔יב מִן־הַמִּלּ֖וֹא וְעַד־הַסָּבִ֑יב וְיוֹאָ֕ב יְחַיֶּ֖ה אֶת־שְׁאָ֥ר הָעִֽיר׃",
+      "text_kjv": "And he built the city round about, even from Millo round about: and Joab repaired the rest of the city.",
+      "rendering": "He built up the city on all sides, from the Millo all the way around, and Joab restored the rest of the city.",
+      "translator_notes": [
+        "The Millo (from male, 'to fill') was likely a filled-in terrace system supporting buildings on the steep slopes of the City of David. The phrase missaviv ('all around, on all sides') indicates comprehensive construction. The verb yechayeh ('he restored to life, he revived') from chayah ('to live') is a striking choice for construction work — Joab 'brought the city back to life,' suggesting the Jebusite infrastructure had fallen into disrepair or was damaged in the assault."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֵּ֥לֶךְ דָּוִ֖יד הָל֣וֹךְ וְגָד֑וֹל וַיהֹוָ֥ה צְבָא֖וֹת עִמּֽוֹ׃",
+      "text_kjv": "So David waxed greater and greater: for the LORD of hosts was with him.",
+      "rendering": "David grew greater and greater, for the LORD of Armies was with him.",
+      "translator_notes": [
+        "The infinitive absolute construction halokh vegadol ('going and becoming great') describes continuous, escalating growth — David's power did not plateau but kept expanding. The causal clause va-YHWH Tseva'ot immo ('and the LORD of Armies was with him') provides the theological explanation: David's greatness was not self-generated but divinely sustained. The title YHWH Tseva'ot ('LORD of Armies') frames David's military success as an extension of God's own warfare."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְאֵ֗לֶּה רָאשֵׁי֙ הַגִּבּוֹרִ֣ים אֲשֶׁ֣ר לְדָוִ֔יד הַמִּתְחַזְּקִ֤ים עִמּוֹ֙ בְּמַלְכוּת֔וֹ עִם־כׇּל־יִשְׂרָאֵ֖ל לְהַמְלִיכ֑וֹ כִּדְבַ֥ר יְהֹוָ֖ה עַל־יִשְׂרָאֵֽל׃",
+      "text_kjv": "These also are the chief of the mighty men whom David had, who strengthened themselves with him in his kingdom, and with all Israel, to make him king, according to the word of the LORD concerning Israel.",
+      "rendering": "These are the chiefs of David's mighty warriors, who supported him powerfully in his kingship — together with all Israel — to make him king, in keeping with the word of the LORD concerning Israel.",
+      "translator_notes": [
+        "The Chronicler frames the warrior roster differently from 2 Samuel 23:8. There, it appears as a retrospective near the end of David's life. Here, it is placed at the beginning — these warriors are presented as the human instruments of a divine word. The phrase hamitchazzeqim immo ('who strengthened themselves with him') uses the Hithpael of chazaq ('to be strong'), suggesting mutual reinforcement — they made themselves strong alongside David. The closing phrase kidvar YHWH al Yisra'el ('according to the word of the LORD concerning Israel') frames the entire warrior list as the fulfillment of divine purpose."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְאֵ֗לֶּה מִסְפַּר֙ הַגִּבֹּרִ֣ים אֲשֶׁ֣ר לְדָוִ֔יד יָשׁ֨בְעָ֜ם בֶּן־חַכְמוֹנִ֗י רֹ֚אשׁ הַשְּׁלוֹשִׁ֣ים הוּא֩ עוֹרֵ֨ר אֶת־חֲנִית֜וֹ עַל־שְׁלֹשׁ־מֵא֥וֹת חָלָ֛ל בְּפַ֖עַם אֶחָֽת׃",
+      "text_kjv": "And this is the number of the mighty men whom David had; Jashobeam, an Hachmonite, the chief of the captains: he lifted up his spear against three hundred slain by him at one time.",
+      "rendering": "This is the roster of David's mighty warriors: Jashobeam son of a Hachmonite, chief of the Three. He raised his spear against three hundred men and killed them in a single engagement.",
+      "translator_notes": [
+        "Jashobeam (Yashovam, 'the people will return') is identified as ben Chachmoni ('son of a Hachmonite'), a clan name. The parallel in 2 Samuel 23:8 reads 'Josheb-basshebeth a Tachkemonite' — the discrepancy likely reflects textual corruption. The number 300 also differs from the 800 in the Samuel parallel. The phrase be-pa'am echat ('in a single time/engagement') emphasizes the concentrated nature of the feat. The word rosh hasheloshim can mean 'chief of the Thirty' or, with a slight emendation, 'chief of the Three' (ha-sheloshah) — the context supports 'the Three,' an inner circle of elite warriors."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְאַ֨חֲרָ֜יו אֶלְעָזָ֣ר בֶּן־דֹּד֗וֹ הָאֲחוֹחִ֔י ה֖וּא בִּשְׁלוֹשָׁ֥ה הַגִּבֹּרִֽים׃",
+      "text_kjv": "And after him was Eleazar the son of Dodo, the Ahohite, who was one of the three mighties.",
+      "rendering": "After him came Eleazar son of Dodo the Ahohite, one of the Three mighty warriors.",
+      "translator_notes": [
+        "Eleazar (El'azar, 'God has helped') son of Dodo (or Dodai) the Ahohite (ha-Achochi) belongs to the innermost circle of warriors. The Ahohite designation connects him to the clan of Ahoah, a descendant of Benjamin (1 Chronicles 8:4). The phrase bisheloshah ha-gibborim ('among the three mighty warriors') confirms the existence of an elite tier above the Thirty."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "הוּא־הָיָ֨ה עִם־דָּוִ֜יד בַּפַּ֣ס דַּמִּ֗ים וּפְלִשְׁתִּים֙ נֶאֶסְפוּ־שָׁ֣ם לַמִּלְחָמָ֔ה וַתְּהִ֛י חֶלְקַ֥ת הַשָּׂדֶ֖ה מְלֵאָ֣ה שְׂעוֹרִ֑ים וְהָעָ֥ם נָ֖סוּ מִפְּנֵ֥י פְלִשְׁתִּֽים׃",
+      "text_kjv": "He was with David at Pasdammim, and there the Philistines were gathered together to battle, where was a parcel of ground full of barley; and the people fled from before the Philistines.",
+      "rendering": "He was with David at Pas-dammim when the Philistines assembled there for battle. There was a plot of ground full of barley, and the troops had fled before the Philistines.",
+      "translator_notes": [
+        "Pas-dammim (Pas Dammim, 'boundary of blood') is identified with Ephes-dammim (1 Samuel 17:1), near the Valley of Elah where David fought Goliath. The detail about the barley field (se'orim) differs from the lentil field (adashim) in 2 Samuel 23:11. The flight of the troops (ha-am nasu) sets up the heroic stand: when everyone else ran, these warriors held their ground."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיִּֽתְיַצְּב֞וּ בְּת֤וֹךְ הַחֶלְקָה֙ וַיַּצִּיל֔וּהָ וַיַּכּ֖וּ אֶת־פְּלִשְׁתִּ֑ים וַיּ֥וֹשַׁע יְהֹוָ֖ה תְּשׁוּעָ֥ה גְדוֹלָֽה׃",
+      "text_kjv": "And they set themselves in the midst of that parcel, and delivered it, and slew the Philistines; and the LORD saved them by a great deliverance.",
+      "rendering": "They took their stand in the middle of the plot, defended it, and struck down the Philistines. The LORD delivered a great victory.",
+      "translator_notes": [
+        "The verb vayyityatsevu ('they stationed themselves') from yatsav ('to take a stand, to position oneself') describes a deliberate, defiant refusal to retreat. The verb vayyatssiluha ('they rescued it') from natsal ('to deliver, to snatch away') applies rescue language to a barley field — the warriors treated a piece of farmland as worth defending with their lives. The theological summary vayyosha YHWH teshu'ah gedolah ('the LORD saved with a great salvation') attributes the victory to God, not to the warriors' prowess."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיֵּרְד֡וּ שְׁלוֹשָׁ֣ה מִן־הַשְּׁלוֹשִׁ֣ים רֹאשׁ֩ עַל־הַצּ֨וּר אֶל־דָּוִ֜יד אֶל־מְעָרַ֣ת עֲדֻלָּ֗ם וּמַחֲנֵ֧ה פְלִשְׁתִּ֛ים חֹנָ֖ה בְּעֵ֥מֶק רְפָאִֽים׃",
+      "text_kjv": "Now three of the thirty captains went down to the rock to David, into the cave of Adullam; and the host of the Philistines encamped in the valley of Rephaim.",
+      "rendering": "Three of the Thirty chiefs went down to the rock, to David, at the cave of Adullam, while the Philistine army was encamped in the Valley of Rephaim.",
+      "translator_notes": [
+        "The cave of Adullam (me'arat Adullam) was David's hiding place during his fugitive years (1 Samuel 22:1). The Valley of Rephaim (Emeq Repha'im), southwest of Jerusalem, was a frequent Philistine staging ground (2 Samuel 5:18, 22). The phrase sheloshah min ha-sheloshim rosh ('three of the thirty chiefs') identifies these as senior officers within the elite corps, not necessarily the same as 'the Three' described in verses 11-14."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְדָוִ֖יד אָ֣ז בַּמְּצוּדָ֑ה וּנְצִ֣יב פְּלִשְׁתִּ֔ים אָ֖ז בְּבֵ֥ית לָֽחֶם׃",
+      "text_kjv": "And David was then in the hold, and the Philistines' garrison was then at Bethlehem.",
+      "rendering": "David was in the stronghold at that time, and a Philistine garrison was stationed at Bethlehem.",
+      "translator_notes": [
+        "The metsudah ('stronghold') is the fortified position at Adullam. The netsiv ('garrison, outpost') indicates Philistine military occupation of Bethlehem — David's hometown (1 Samuel 16:1) is in enemy hands. The juxtaposition of David in a cave and the Philistines in his hometown creates the emotional backdrop for his longing in the next verse."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיִּתְאַוֶּ֥ה דָוִ֖יד וַיֹּאמַ֑ר מִ֚י יַשְׁקֵ֣נִי מַ֔יִם מִבּ֥וֹר בֵּֽית־לֶ֖חֶם אֲשֶׁ֥ר בַּשָּֽׁעַר׃",
+      "text_kjv": "And David longed, and said, Oh that one would give me drink of the water of the well of Bethlehem, that is at the gate!",
+      "rendering": "David was overcome with longing and said, \"If only someone could bring me water from the well of Bethlehem — the one by the gate!\"",
+      "translator_notes": [
+        "The verb vayyit'avveh ('he craved, he longed') from avah ('to desire, to wish') expresses deep, visceral longing — not thirst for water but homesickness crystallized into a single sensory memory. The well by the gate (bor Beit Lechem asher ba-sha'ar) was the public well at the city entrance, a place David would have known from childhood. The request is not a command but a sigh — spoken aloud without expectation that anyone would act on it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיִּבְקְעוּ֩ הַשְּׁלֹשָׁ֨ה בְּמַחֲנֵ֣ה פְלִשְׁתִּ֗ים וַיִּשְׁאֲבוּ־מַ֙יִם֙ מִבּ֤וֹר בֵּֽית־לֶ֙חֶם֙ אֲשֶׁ֣ר בַּשַּׁ֔עַר וַיִּשְׂא֖וּ וַיָּבִ֣אוּ אֶל־דָּוִ֑יד וְלֹ֤א אָבָה֙ דָּוִ֣יד לִשְׁתּוֹתָ֔ם וַיְנַסֵּ֥ךְ אֹתָ֖ם לַיהֹוָֽה׃",
+      "text_kjv": "And the three brake through the host of the Philistines, and drew water out of the well of Bethlehem, that was by the gate, and took it, and brought it to David: but David would not drink of it, but poured it out to the LORD,",
+      "rendering": "The three broke through the Philistine camp, drew water from the well of Bethlehem by the gate, carried it back, and brought it to David. But David refused to drink it. He poured it out as a libation to the LORD",
+      "expanded_rendering": "The verb vayyivqe'u ('they broke through') from baqa ('to split, to cleave, to breach') is the language of military assault — these three men did not sneak past the Philistines but smashed through their lines. They crossed enemy-held territory, drew water from a well surrounded by Philistine soldiers, and fought their way back — all because David said he wished for a drink. But David's response is the theological climax: he refuses to drink. The water has been transformed by the warriors' willingness to die for it. It is no longer water; it is blood-price devotion, and David recognizes that such devotion belongs to God alone. The verb vayyannasekh ('he poured out as a libation') from nasakh is the technical term for a drink offering — David performs a priestly act, treating the water as a sacrifice too sacred for human consumption.",
+      "translator_notes": [
+        "The verb baqa ('to split open, to breach') is used for splitting the Red Sea (Exodus 14:16) and splitting rocks for water (Psalm 78:15) — the warriors' breakthrough through the Philistine camp echoes divine acts of deliverance. David's refusal (lo avah, 'he was not willing') is the same phrase used for the armor-bearer's refusal to kill Saul (10:4) — in both cases, the person recognizes that something is too sacred to act upon. The libation (nesekh) was normally wine poured on the altar (Exodus 29:40, Numbers 28:7); David substitutes water sanctified by human courage."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיֹּ֜אמֶר חָלִ֧ילָה לִּ֣י מֵאֱלֹהַ֗י מֵעֲשׂ֣וֹת זֹאת֮ הֲדַ֣ם הָאֲנָשִׁ֤ים הָאֵ֙לֶּה֙ אֶשְׁתֶּ֣ה בְנַפְשׁוֹתָ֔ם כִּ֤י בְנַפְשׁוֹתָם֙ הֱבִיא֔וּם וְלֹ֥א אָבָ֖ה לִשְׁתּוֹתָ֑ם אֵ֣לֶּה עָשׂ֔וּ שְׁלֹ֖שֶׁת הַגִּבּוֹרִֽים׃",
+      "text_kjv": "And said, My God forbid it me, that I should do this thing: shall I drink the blood of these men that have put their lives in jeopardy? for with the jeopardy of their lives they brought it. Therefore he would not drink it. These things did these three mighty men.",
+      "rendering": "and said, \"God forbid that I should do this! Should I drink the blood of these men who went at the risk of their lives? For they brought it at the cost of their own lives.\" He refused to drink it. Such were the deeds of the three mighty warriors.",
+      "translator_notes": [
+        "The exclamation chalilah li me-Elohai ('far be it from me, from my God') invokes God as the reason for refusal — this is not personal scruple but theological conviction. David's equation of the water with blood (ha-dam ha-anashim ha-elleh) echoes the Levitical prohibition against consuming blood (Leviticus 17:10-14), which represents life (nefesh). The phrase be-nafshosam hevi'um ('at the cost of their lives they brought it') uses nefesh ('life, soul, self') — the water is saturated with the men's willingness to die. David's logic is precise: to drink this water would be to consume what rightfully belongs to God — human devotion unto death."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאַבְשַׁ֣י אֲחִי־יוֹאָ֗ב ה֤וּא הָיָה֙ רֹ֣אשׁ הַשְּׁלוֹשָׁ֔ה וְהוּא֙ עוֹרֵ֣ר אֶת־חֲנִית֔וֹ עַל־שְׁלֹ֥שׁ מֵא֖וֹת חָלָ֑ל וְלוֹ־שֵׁ֖ם בַּשְּׁלוֹשָֽׁה׃",
+      "text_kjv": "And Abishai the brother of Joab, he was chief of the three: for lifting up his spear against three hundred, he slew them, and had a name among the three.",
+      "rendering": "Abishai, the brother of Joab, was chief of another three. He raised his spear against three hundred men and killed them, earning a reputation among the Three.",
+      "translator_notes": [
+        "Abishai (Avshai, 'my father is a gift') was Joab's brother, both sons of Zeruiah, David's sister. The phrase rosh ha-sheloshah ('chief of the three') may refer to a second tier of three warriors below the premier Three, or it may be a textual variant. His exploit mirrors Jashobeam's in verse 11 — three hundred killed — suggesting a standard measure of heroic achievement. The phrase velo shem ba-sheloshah ('and he had a name among the three') means he achieved renown comparable to the elite group."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "מִן־הַשְּׁלוֹשָׁ֗ה בַּשְׁנַ֙יִם֙ נִכְבָּ֔ד וַיְהִ֥י לָהֶ֖ם לְשָׂ֑ר וְעַד־הַשְּׁלוֹשָׁ֖ה לֹא־בָֽא׃",
+      "text_kjv": "Of the three, he was more honourable than the two; for he was their captain: howbeit he attained not to the first three.",
+      "rendering": "Of the second three, he was the most honored — he became their commander — but he did not reach the rank of the original Three.",
+      "translator_notes": [
+        "The phrase ba-shnayim nikhbad ('more honored than the two') places Abishai above the other members of his trio. The qualifier ve-ad ha-sheloshah lo va ('but he did not attain to the Three') establishes a clear hierarchy: Abishai was elite among the elite, but the premier Three held a rank he could not reach. The verb nikhbad ('was honored') from kavad ('to be heavy, to be honored') connects reputation to substance — honor in the ancient world was weighty, not superficial."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "בְּנָיָ֨הוּ בֶן־יְהוֹיָדָ֧ע בֶּן־אִישׁ־חַ֛יִל רַב־פְּעָלִ֖ים מִ֣ן קַבְצְאֵ֑ל ה֗וּא הִכָּ֛ה אֵ֥ת שְׁנֵ֖י אֲרִיאֵ֥ל מוֹאָֽב׃",
+      "text_kjv": "Benaiah the son of Jehoiada, the son of a valiant man of Kabzeel, who had done many acts; he slew two lionlike men of Moab:",
+      "rendering": "Benaiah son of Jehoiada, a valiant man from Kabzeel who had done great deeds — he struck down two champions of Moab.",
+      "translator_notes": [
+        "Benaiah (Benayahu, 'the LORD has built') son of Jehoiada (Yehoyada, 'the LORD knows') came from Kabzeel (Qavtse'el), a town in the Negev of Judah (Joshua 15:21). The phrase rav pe'alim ('of many deeds, great in exploits') summarizes his reputation. The term ari'el is debated: it could mean 'lion of God' (ari + El), referring to champion warriors, or it could be a proper name or title. The Moabite context suggests these were renowned Moabite fighters, not literal lions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְהוּא־הִכָּ֣ה אֶת־הָאִשׁ֩ הַמִּצְרִ֨י אִ֜ישׁ מִדָּ֗ה חָמֵ֣שׁ בָּאַמָּ֔ה וּבְיַ֤ד הַמִּצְרִי֙ חֲנִ֔ית כִּמְנ֖וֹר אֹרְגִ֑ים וַיֵּ֨רֶד אֵלָ֜יו בַּשֵּׁ֗בֶט וַיִּגְזֹ֤ל אֶֽת־הַחֲנִית֙ מִיַּ֣ד הַמִּצְרִ֔י וַיַּהַרְגֵ֖הוּ בַּחֲנִיתֽוֹ׃",
+      "text_kjv": "And he slew an Egyptian, a man of great stature, five cubits high; and in the Egyptian's hand was a spear like a weaver's beam; and he went down to him with a staff, and plucked the spear out of the Egyptian's hand, and slew him with his own spear.",
+      "rendering": "He also struck down an Egyptian, a man of enormous stature — five cubits tall — who held a spear like a weaver's beam. Benaiah went down against him with a staff, tore the spear from the Egyptian's hand, and killed him with his own spear.",
+      "translator_notes": [
+        "The Egyptian stands five cubits tall — approximately seven and a half feet (2.3 meters), a giant by ancient standards. His spear kimnor orgim ('like a weaver's beam') uses the same comparison applied to Goliath's spear in 1 Samuel 17:7, connecting Benaiah's exploit to David's. The detail that Benaiah went down with a shevet ('staff, rod') — an ordinary stick — against a giant with a massive spear emphasizes the asymmetry. The verb gazal ('he tore away, he seized by force') describes a violent disarming, and the final irony — killing the man with his own weapon — mirrors David's killing of Goliath with the giant's own sword."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "אֵ֣לֶּה עָשָׂ֗ה בְּנָיָ֙הוּ֙ בֶּן־יְה֣וֹיָדָ֔ע וְלוֹ־שֵׁ֖ם בִּשְׁלוֹשָׁ֥ה הַגִּבּוֹרִֽים׃",
+      "text_kjv": "These things did Benaiah the son of Jehoiada, and had the name among the three mighties.",
+      "rendering": "Such were the deeds of Benaiah son of Jehoiada, and he had a reputation among the three mighty warriors.",
+      "translator_notes": [
+        "The formula elleh asah ('these things he did') parallels the conclusion to the water episode in verse 19 (elleh asu), creating structural symmetry. The phrase velo shem bisheloshah ha-gibborim ('he had a name among the three mighty warriors') positions Benaiah alongside Abishai — honored, renowned, but belonging to the second tier of elite warriors."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "מִן־הַשְּׁלוֹשִׁ֗ים הִנֵּה֙ נִכְבָּ֔ד ה֖וּא וְאֶל־הַשְּׁלוֹשָׁ֣ה לֹא־בָ֑א וַיְשִׂימֵ֥הוּ דָוִ֖יד עַל־מִשְׁמַעְתּֽוֹ׃",
+      "text_kjv": "Behold, he was honourable among the thirty, but attained not to the first three: and David set him over his guard.",
+      "rendering": "He was more honored than the Thirty, but he did not attain the rank of the Three. David placed him over his personal guard.",
+      "translator_notes": [
+        "The same hierarchical formula from verse 21 recurs: honored above the Thirty, below the Three. David's appointment of Benaiah al mishma'to ('over his bodyguard/personal guard') from shama ('to hear, to obey') indicates a role of close personal protection — the mishma'at was the royal bodyguard unit. This appointment will continue into Solomon's reign, where Benaiah replaces Joab as army commander (1 Kings 2:35)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְגִבּוֹרֵ֖י הַחֲיָלִ֑ים עֲשָׂהאֵ֣ל אֲחִי־יוֹאָ֔ב אֶלְחָנָ֥ן בֶּן־דֹּד֖וֹ מִבֵּ֥ית לָֽחֶם׃",
+      "text_kjv": "Also the valiant men of the armies were, Asahel the brother of Joab, Elhanan the son of Dodo of Bethlehem,",
+      "rendering": "The mighty warriors of the ranks: Asahel the brother of Joab; Elhanan son of Dodo, from Bethlehem;",
+      "translator_notes": [
+        "The list now transitions from the elite inner circle to the broader roster of gibborei ha-chayalim ('mighty warriors of the forces'). Asahel (Asa'el, 'God has made') was Joab's brother, famous for his speed (2 Samuel 2:18), killed by Abner. Elhanan (Elchanan, 'God has been gracious') from Bethlehem appears in a separate tradition regarding the killing of Goliath's brother (2 Samuel 21:19, 1 Chronicles 20:5)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "שַׁמּוֹת֙ הַהֲרֹרִ֔י חֶ֖לֶץ הַפְּלוֹנִֽי׃",
+      "text_kjv": "Shammoth the Harorite, Helez the Pelonite,",
+      "rendering": "Shammoth the Harorite; Helez the Pelonite; — as recorded in the genealogies.",
+      "translator_notes": [
+        "Shammoth (Shammot) the Harorite corresponds to Shammah the Harodite in 2 Samuel 23:25 — the name variants reflect textual transmission differences. Helez the Pelonite is called Helez the Paltite in 2 Samuel 23:26, connecting him to the town of Beth-pelet in the Negev."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "עִירָא֙ בֶּן־עִקֵּ֣שׁ הַתְּקוֹעִ֔י אֲבִיעֶ֖זֶר הָעַנְּתֹתִֽי׃",
+      "text_kjv": "Ira the son of Ikkesh the Tekoite, Abiezer the Antothite,",
+      "rendering": "Ira son of Ikkesh, from Tekoa; Abiezer from Anathoth;",
+      "translator_notes": [
+        "Ira from Tekoa (Teqoa), a town south of Bethlehem, later home of the prophet Amos. Abiezer from Anathoth (Anatot), a Levitical city in Benjamin, later the hometown of Jeremiah (Jeremiah 1:1). Both towns supplied warriors to David's elite force, indicating broad geographical support across Judah and Benjamin."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "סִבְּכַ֣י הַחֻשָׁתִ֔י עִילַ֖י הָאֲחוֹחִֽי׃",
+      "text_kjv": "Sibbecai the Hushathite, Ilai the Ahohite,",
+      "rendering": "Sibbecai the Hushathite; Ilai the Ahohite; — as recorded in the genealogies.",
+      "translator_notes": [
+        "Sibbecai (Sibbekhai) the Hushathite later killed the Philistine giant Sippai (1 Chronicles 20:4). Ilai the Ahohite is called Zalmon the Ahohite in 2 Samuel 23:28 — another transmission variant."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "מַהְרַ֣י הַנְּטֹפָתִ֔י חֵ֥לֶד בֶּן־בַּעֲנָ֖ה הַנְּטֹפָתִֽי׃",
+      "text_kjv": "Maharai the Netophathite, Heled the son of Baanah the Netophathite,",
+      "rendering": "Maharai from Netophah; Heled son of Baanah, from Netophah;",
+      "translator_notes": [
+        "Both men come from Netophah (Netofah), a village near Bethlehem. The concentration of warriors from the Bethlehem region reflects David's deep local roots and the loyalty of his home territory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "אִיתַ֧י בֶּן־רִיבַ֛י מִגִּבְעַ֥ת בְּנֵי־בִנְיָמִ֖ן בְּנָיָ֥הוּ הַפִּרְעָתוֹנִֽי׃",
+      "text_kjv": "Ithai the son of Ribai of Gibeah, that pertained to the children of Benjamin, Benaiah the Pirathonite,",
+      "rendering": "Ithai son of Ribai, from Gibeah of Benjamin; Benaiah from Pirathon;",
+      "translator_notes": [
+        "Ithai from Gibeah of Benjamin is significant — Gibeah was Saul's hometown (1 Samuel 10:26). That a Benjaminite from Saul's own town served among David's elite demonstrates that David's support crossed tribal lines. This Benaiah from Pirathon is not the same as Benaiah son of Jehoiada in verses 22-25."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "חוּרַ֣י מִנַּחֲלֵי־גָ֔עַשׁ אֲבִיאֵ֖ל הָעַרְבָתִֽי׃",
+      "text_kjv": "Hurai of the brooks of Gaash, Abiel the Arbathite,",
+      "rendering": "Hurai from the wadis of Gaash; Abiel the Arbathite;",
+      "translator_notes": [
+        "The 'wadis of Gaash' (nachalei Ga'ash) were near Mount Gaash in the hill country of Ephraim, where Joshua was buried (Joshua 24:30). Abiel the Arbathite may come from Beth-arabah in the Jordan Valley."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "עַזְמָ֥וֶת הַבַּחֲרוּמִ֖י אֶלְיַחְבָּ֥א הַשַּׁעַלְבֹנִֽי׃",
+      "text_kjv": "Azmaveth the Baharumite, Eliahba the Shaalbonite,",
+      "rendering": "Azmaveth from Bahurim; Eliahba from Shaalbon;",
+      "translator_notes": [
+        "Azmaveth (Azmavet, 'death is strong') from Bahurim, a Benjaminite town east of Jerusalem on the road to the Jordan, associated with Shimei who cursed David (2 Samuel 16:5). Eliahba from Shaalbon (Sha'alvon), a town in Dan."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "בְּנֵ֥י הָשֵׁ֖ם הַגִּזוֹנִ֑י יוֹנָתָ֥ן בֶּן־שָׁגֵ֖ה הַהֲרָרִֽי׃",
+      "text_kjv": "The sons of Hashem the Gizonite, Jonathan the son of Shage the Hararite,",
+      "rendering": "These were the sons of Hashem the Gizonite; Jonathan son of Shageh the Hararite;",
+      "translator_notes": [
+        "Hashem the Gizonite has no clear parallel in 2 Samuel 23 — the name may be corrupted. Jonathan son of Shageh (Shage) the Hararite corresponds to Jonathan son of Shammah the Hararite in 2 Samuel 23:32-33."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "אֲחִיאָ֥ם בֶּן־שָׂכָ֖ר הַהֲרָרִ֑י אֱלִיפַ֖ל בֶּן־אֽוּר׃",
+      "text_kjv": "Ahiam the son of Sacar the Hararite, Eliphal the son of Ur,",
+      "rendering": "Ahiam son of Sacar the Hararite; Eliphal son of Ur;",
+      "translator_notes": [
+        "Ahiam (Achi'am, 'my brother's people') son of Sacar (Sakhar) — the Samuel parallel has 'Sharar.' Eliphal (Elifal, 'my God has judged') son of Ur has no clear parallel in the Samuel list, suggesting the Chronicles list preserves some independent traditions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "חֵ֖פֶר הַמְּכֵרָתִ֑י אֲחִיָּ֖ה הַפְּלֹנִֽי׃",
+      "text_kjv": "Hepher the Mecherathite, Ahijah the Pelonite,",
+      "rendering": "Hepher the Mecherathite; Ahijah the Pelonite; — as recorded in the genealogies.",
+      "translator_notes": [
+        "Hepher the Mecherathite has no clear parallel in 2 Samuel 23. Ahijah (Achiyyah, 'brother of the LORD') the Pelonite — the gentilic 'Pelonite' may derive from a place name no longer identifiable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "חֶצְר֖וֹ הַכַּרְמְלִ֑י נַעֲרַ֖י בֶּן־אֶזְבָּֽי׃",
+      "text_kjv": "Hezro the Carmelite, Naarai the son of Ezbai,",
+      "rendering": "Hezro the Carmelite; Naarai son of Ezbai;",
+      "translator_notes": [
+        "Hezro (Chetsro) from Carmel, a town in the southern hill country of Judah — the same Carmel associated with Nabal and Abigail (1 Samuel 25:2). Naarai son of Ezbai corresponds to Paarai the Arbite in 2 Samuel 23:35."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "יוֹאֵ֥ל אֲחִ֖י נָתָ֑ן מִבְחָ֖ר בֶּן־הַגְרִֽי׃",
+      "text_kjv": "Joel the brother of Nathan, Mibhar the son of Haggeri,",
+      "rendering": "Joel the brother of Nathan; Mibhar son of Hagri;",
+      "translator_notes": [
+        "Joel (Yo'el, 'the LORD is God') brother of Nathan — possibly the prophet Nathan or another figure. Mibhar (Mivchar, 'chosen') son of Hagri — the Hagrite connection suggests ties to the Transjordanian pastoralist people who appear in 1 Chronicles 5:10."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "צֶ֖לֶק הָעַמּוֹנִ֑י נַחְרַ֣י הַבֵּרֹתִ֔י נֹשֵׂ֕א כֵּלֵ֖י יוֹאָ֥ב בֶּן־צְרוּיָֽה׃",
+      "text_kjv": "Zelek the Ammonite, Naharai the Berothite, the armourbearer of Joab the son of Zeruiah,",
+      "rendering": "Zelek the Ammonite; Naharai the Berothite, armor-bearer of Joab son of Zeruiah;",
+      "translator_notes": [
+        "Zelek the Ammonite is significant — an Ammonite serving in David's elite forces demonstrates the international character of David's military. Naharai from Beeroth (Be'erot), a Gibeonite city in Benjamin (Joshua 9:17), served as Joab's personal armor-bearer — a position of great trust and proximity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "עִירָא֙ הַיִּתְרִ֔י גָּרֵ֖ב הַיִּתְרִֽי׃",
+      "text_kjv": "Ira the Ithrite, Gareb the Ithrite,",
+      "rendering": "Ira the Ithrite; Gareb the Ithrite; — as recorded in the genealogies.",
+      "translator_notes": [
+        "Both men are Ithrites (Yitri), a clan associated with Kiriath-jearim (1 Chronicles 2:53). The pairing of two warriors from the same clan suggests they may have served together as a unit."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "אוּרִיָּ֖ה הַחִתִּ֑י זָבָ֖ד בֶּן־אַחְלָֽי׃",
+      "text_kjv": "Uriah the Hittite, Zabad the son of Ahlai,",
+      "rendering": "Uriah the Hittite; Zabad son of Ahlai;",
+      "translator_notes": [
+        "Uriah the Hittite (Uriyyah ha-Chitti) appears in the list without any hint of the tragedy that will unfold in 2 Samuel 11 — David's adultery with Bathsheba and the arranged murder of Uriah. The Chronicler famously omits the Bathsheba affair entirely, but Uriah's inclusion here is a silent marker. The original audience would have recognized the name. Zabad son of Ahlai has no parallel in the Samuel list."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "עֲדִינָ֨א בֶּן־שִׁיזָ֜א הָרֽאוּבֵנִ֗י רֹ֛אשׁ לָרֽאוּבֵנִ֖י וְעָלָ֥יו שְׁלוֹשִֽׁים׃",
+      "text_kjv": "Adina the son of Shiza the Reubenite, a captain of the Reubenites, and thirty with him,",
+      "rendering": "Adina son of Shiza the Reubenite, a chief of the Reubenites, with thirty men under him;",
+      "translator_notes": [
+        "From this point the Chronicles list extends beyond the 2 Samuel 23 roster. Adina from the tribe of Reuben had thirty men under his command, indicating he was not just a warrior but a unit commander. The inclusion of Transjordanian tribes (Reuben, Gad) in this list reinforces the Chronicler's 'all Israel' theme."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "חָנָ֥ן בֶּן־מַעֲכָ֖ה וְיוֹשָׁפָ֥ט הַמִּתְנִֽי׃",
+      "text_kjv": "Hanan the son of Maachah, and Joshaphat the Mithnite,",
+      "rendering": "Hanan son of Maacah; Joshaphat the Mithnite;",
+      "translator_notes": [
+        "Hanan son of Maacah (Ma'akhah) may be connected to the Aramean territory of Maacah east of the Sea of Galilee. Joshaphat the Mithnite comes from an unidentified location."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "עֻזִיָּ֖א הָעַשְׁתְּרָתִ֑י שָׁמָ֧ע וִיעִיאֵ֛ל בְּנֵ֥י חוֹתָ֖ם הָעֲרֹעֵרִֽי׃",
+      "text_kjv": "Uzzia the Ashterathite, Shama and Jehiel the sons of Hothan the Aroerite,",
+      "rendering": "Uzzia the Ashterathite; Shama, and Jehiel, sons of Hotham the Aroerite;",
+      "translator_notes": [
+        "Uzzia from Ashteroth (Ashterot), a city in Bashan associated with the worship of Ashtaroth but here simply a geographical marker. Shama and Jehiel are brothers from Aroer, either the Reubenite city on the Arnon (Deuteronomy 2:36) or a Gadite settlement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "יְדִיעֲאֵ֧ל בֶּן־שִׁמְרִ֛י וְיֹחָ֥א אָחִ֖יו הַתִּיצִֽי׃",
+      "text_kjv": "Jediael the son of Shimri, and Joha his brother, the Tizite,",
+      "rendering": "Jediael son of Shimri, and his brother Joha the Tizite;",
+      "translator_notes": [
+        "Jediael (Yedi'a'el, 'known by God') and Joha are brothers from an unidentified location called Tiz. Their paired inclusion, like other brother pairs in the list, may reflect a practice of enlisting kinsmen together."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "אֱלִיאֵ֣ל הַמַּחֲוִ֔ים וִירִיבַ֥י וְיוֹשַׁוְיָ֖ה בְּנֵ֣י אֶלְנָ֑עַם וְיִתְמָ֖ה הַמּוֹאָבִֽי׃",
+      "text_kjv": "Eliel the Mahavite, and Jeribai, and Joshaviah, the sons of Elnaam, and Ithmah the Moabite,",
+      "rendering": "Eliel the Mahavite; Jeribai and Joshaviah, sons of Elnaam; Ithmah the Moabite;",
+      "translator_notes": [
+        "Eliel the Mahavite is from an unidentified clan or location. Jeribai and Joshaviah are another brother pair. Ithmah the Moabite (ha-Mo'avi) joins Zelek the Ammonite (v39) as another foreign warrior in David's service — David's grandmother Ruth was also a Moabite (Ruth 4:13-17), making this connection resonant."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "אֱלִיאֵ֣ל וְעוֹבֵ֔ד וְיַעֲשִׂיאֵ֖ל הַמְּצֹבָיָֽה׃",
+      "text_kjv": "Eliel, and Obed, and Jaasiel the Mesobaite.",
+      "rendering": "Eliel, Obed,, and Jaasiel the Mezobaite.",
+      "translator_notes": [
+        "The list ends without ceremony — three more names, the last identified as 'the Mezobaite' (ha-Metsovayah), from an unknown location. The abrupt ending is typical of ancient roster lists. The Chronicler's warrior catalog, extending beyond the Samuel source, demonstrates his concern to show that David's support was broader, more diverse, and more thoroughly pan-Israelite than any single tribal allegiance."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

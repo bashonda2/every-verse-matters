@@ -1,0 +1,543 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezekiel",
+    "chapter": 40,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ezekiel 40 opens the massive Temple vision (chapters 40-48) that forms the climax of the book. In the twenty-fifth year of the exile — fourteen years after Jerusalem's fall — Ezekiel is transported in vision to a very high mountain in the land of Israel, where he sees a city-like structure to the south. A man whose appearance is like bronze, holding a linen cord and a measuring rod, guides him through a detailed tour of the new Temple complex. The chapter records precise measurements of the outer east gate, the outer court, the north and south outer gates, the inner south gate, the inner east gate, the inner north gate, and associated chambers. Every measurement is given in cubits using the long cubit (a standard cubit plus a handbreadth).",
+    "remarkable": "This chapter marks the beginning of the most detailed architectural description in the Hebrew Bible — a vision so precise that architects and scholars have attempted to reconstruct the Temple from these measurements for centuries. The measuring man with his bronze appearance recalls the angelic figures of earlier theophanies, and the long cubit (ammah ve-tophach, 'a cubit and a handbreadth') establishes the measurement standard for the entire vision. The date formula in verse 1 is carefully calculated: the twenty-fifth year of exile, the beginning of the year, the tenth of the month — likely the Day of Atonement (Yom Kippur) or the beginning of the Jubilee year (Leviticus 25:9), linking the vision of the restored Temple to themes of purification and restoration. The priestly training of Ezekiel emerges fully here — he thinks in architectural blueprints and liturgical specifications. We rendered all measurements in the original cubits with translator notes providing modern equivalents, preserving the precision of the Hebrew text without cluttering the reading layer with conversion math.",
+    "friction": "The architectural vocabulary presents significant translation challenges. Hebrew terms like ta ('chamber/cell'), elam ('vestibule/porch'), and ail ('pillar/jamb') have disputed meanings, and the spatial relationships described are sometimes ambiguous. We followed the most widely accepted architectural interpretations while noting uncertainties. The phrase 'the measurement of the long cubit' in verse 5 is critical — Ezekiel specifies that all measurements use a cubit of approximately 52 cm rather than the standard 45 cm cubit, and we flag this once in a translator note rather than repeating it for every measurement. Directional language (north, south, east) required careful consistency. The Hebrew sometimes uses 'the way of' (derek) for cardinal directions, and we rendered these as straightforward compass directions.",
+    "connections": "The vision connects backward to the glory departure in chapters 10-11 — the glory left from the east gate and will return by the east gate in chapter 43. The Temple measurements connect to Solomon's Temple (1 Kings 6-7), the tabernacle specifications (Exodus 25-27), and forward to the heavenly temple in Revelation 11:1-2 and 21:15-17, where an angel also measures with a rod. The date formula echoes the vision dates throughout the book (1:1-2, 8:1, 20:1, 24:1, 26:1, 29:1, 30:20, 31:1, 32:1, 33:21). The very high mountain echoes Isaiah 2:2 and Micah 4:1, where the mountain of the LORD's house is established as the highest of mountains."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "בְּעֶשְׂרִ֣ים וְחָמֵ֣שׁ שָׁנָ֣ה לְ֠גָלוּתֵנוּ בְּרֹ֨אשׁ הַשָּׁנָ֜ה בֶּעָשׂ֣וֹר לַחֹ֗דֶשׁ בְּאַרְבַּ֤ע עֶשְׂרֵה֙ שָׁנָ֔ה אַחַ֕ר אֲשֶׁ֥ר הֻכְּתָ֖ה הָעִ֑יר בְּעֶ֣צֶם ׀ הַיּ֣וֹם הַזֶּ֗ה הָיְתָ֤ה עָלַי֙ יַד־יְהוָ֔ה וַיָּבֵ֥א אֹתִ֖י שָֽׁמָּה׃",
+      "text_kjv": "In the five and twentieth year of our captivity, in the beginning of the year, in the tenth day of the month, in the fourteenth year after that the city was smitten, in the selfsame day the hand of the LORD was upon me, and brought me thither.",
+      "rendering": "In the twenty-fifth year of our exile, at the beginning of the year, on the tenth day of the month — in the fourteenth year after the city was struck down — on that very day the hand of the LORD was upon me, and he brought me there.",
+      "translator_notes": [
+        "The date formula is precise: the twenty-fifth year of exile (573 BCE), the tenth of the month, at the beginning of the year. If 'beginning of the year' (rosh ha-shanah) refers to Tishri, the tenth day would be Yom Kippur (the Day of Atonement, Leviticus 23:27) — an extraordinarily fitting day for a vision of Temple restoration. If it refers to Nisan, the tenth day is when the Passover lamb is selected (Exodus 12:3). Either way, the date carries liturgical weight.",
+        "The phrase 'the city was struck down' (hukketah ha-ir) refers to the destruction of Jerusalem in 586 BCE. The passive verb avoids naming the agent (Babylon) — the focus is on the catastrophe itself, not its human instrument."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "בְּמַרְא֣וֹת אֱלֹהִ֔ים הֱבִיאַ֖נִי אֶל־אֶ֣רֶץ יִשְׂרָאֵ֑ל וַיְנִיחֵ֗נִי אֶל־הַ֤ר גָּבֹ֙הַּ֙ מְאֹ֔ד וְעָלָ֛יו כְּמִבְנֵה־עִ֖יר מִנֶּֽגֶב׃",
+      "text_kjv": "In the visions of God brought he me into the land of Israel, and set me upon a very high mountain, by which was as the frame of a city on the south.",
+      "rendering": "In visions of God he brought me to the land of Israel and set me down on a very high mountain, on which there was something like the structure of a city to the south.",
+      "translator_notes": [
+        "The phrase 'visions of God' (mar'ot Elohim) echoes Ezekiel 1:1 and 8:3, linking this vision to the opening theophany and the Temple abomination vision. The expression ke-mivneh ir ('like the structure of a city') uses the comparative particle ke- — Ezekiel does not say it is a city but something resembling one, maintaining the visionary quality of the description.",
+        "The 'very high mountain' (har gavoha me'od) evokes Isaiah 2:2 and Micah 4:1 where the mountain of the LORD's house is raised above all hills. The actual Temple Mount in Jerusalem is not particularly high — this is visionary geography, not topography."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיָּבִ֨יא אוֹתִ֜י שָׁ֗מָּה וְהִנֵּה־אִישׁ֙ מַרְאֵ֙הוּ֙ כְּמַרְאֵ֣ה נְחֹ֔שֶׁת וּפְתִ֧יל פִּשְׁתִּ֛ים בְּיָד֖וֹ וּקְנֵ֣ה הַמִּדָּ֑ה וְה֥וּא עֹמֵ֖ד בַּשָּֽׁעַר׃",
+      "text_kjv": "And he brought me thither, and, behold, there was a man, whose appearance was like the appearance of brass, with a line of flax in his hand, and a measuring reed; and he stood in the gate.",
+      "rendering": "He brought me there, and there was a man whose appearance was like the appearance of bronze, with a linen cord in his hand and a measuring rod, and he was standing in the gateway.",
+      "translator_notes": [
+        "The measuring man's bronze appearance (ke-mar'eh nechoshet) suggests a supernatural being — the same material imagery used for the angelic figure in Daniel 10:6. He carries two measuring instruments: a linen cord (petil pishtim) for long distances and a measuring rod (qeneh ha-middah) for precise architectural measurements. The rod becomes the primary instrument in the following measurements."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קְנֵה הַמִּדָּה",
+          "transliteration": "qeneh ha-middah",
+          "rendered_as": "measuring rod",
+          "semantic_range": "measuring reed, rod, cane",
+          "note": "A reed-like rod used as a standard unit of measurement. In verse 5 it is defined as six long cubits in length — approximately 10.2 feet (3.1 meters)."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיְדַבֵּ֨ר אֵלַ֜י הָאִ֗ישׁ בֶּן־אָדָ֡ם רְאֵ֣ה בְעֵינֶיךָ֩ וּבְאָזְנֶ֨יךָ שְׁמָ֜ע וְשִׂ֣ים לִבְּךָ֗ לְכֹ֨ל אֲשֶׁר־אֲנִ֤י מַרְאֶה֙ אוֹתָ֔ךְ כִּ֛י לְמַ֥עַן הַרְאוֹתְכָ֖ה הֻבָ֣אתָה הֵ֑נָּה הַגֵּ֛ד אֶת־כָּל־אֲשֶׁר־אַתָּ֥ה רֹאֶ֖ה לְבֵ֥ית יִשְׂרָאֵֽל׃",
+      "text_kjv": "And the man said unto me, Son of man, behold with thine eyes, and hear with thine ears, and set thine heart upon all that I shall shew thee; for to the intent that I might shew them unto thee art thou brought hither: declare all that thou seest to the house of Israel.",
+      "rendering": "The man said to me, \"Son of man, look with your eyes and listen with your ears. Fix your attention on everything I am about to show you, because you were brought here so that I might show it to you. Report everything you see to the house of Israel.\"",
+      "translator_notes": [
+        "The triple command — see, hear, set your heart — emphasizes the importance of careful observation. The phrase sim libbeka ('set your heart') means to pay close attention, to focus one's mind. Ezekiel's role here is that of a witness who must faithfully report what he observes — he is functioning as a scribe of the vision.",
+        "The address 'son of man' (ben adam) continues God's characteristic form of address to Ezekiel, though here it is the angelic measuring figure speaking rather than God directly."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְהִנֵּ֥ה חוֹמָ֛ה מִח֥וּץ לַבַּ֖יִת סָבִ֣יב ׀ סָבִ֑יב וּבְיַ֨ד הָאִ֜ישׁ קְנֵ֣ה הַמִּדָּ֗ה שֵׁשׁ־אַמּ֤וֹת בָּֽאַמָּה֙ וָטֹ֔פַח וַיָּ֜מָד אֶת־רֹ֤חַב הַבִּנְיָן֙ קָנֶ֣ה אֶחָ֔ד וְקוֹמָ֖ה קָנֶ֥ה אֶחָֽד׃",
+      "text_kjv": "And behold a wall on the outside of the house round about, and in the man's hand a measuring reed of six cubits long by the cubit and an hand breadth: so he measured the breadth of the building, one reed; and the height, one reed.",
+      "rendering": "There was a wall all around the outside of the Temple complex. The measuring rod in the man's hand was six cubits long, each cubit being a cubit and a handbreadth. He measured the width of the wall structure — one rod; and the height — one rod.",
+      "translator_notes": [
+        "This verse establishes the critical measurement standard for the entire Temple vision. The 'long cubit' (ammah va-tophach, literally 'a cubit and a handbreadth') is approximately 20.4 inches (52 cm), compared to the standard cubit of approximately 18 inches (45 cm). The measuring rod of six long cubits therefore equals approximately 10.2 feet (3.1 meters). All subsequent measurements in chapters 40-48 use this long cubit.",
+        "The outer wall is one rod (about 10.2 feet / 3.1 meters) thick and one rod high — a substantial enclosure wall marking the boundary between sacred and common space."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אַמָּה וָטֹפַח",
+          "transliteration": "ammah va-tophach",
+          "rendered_as": "a cubit and a handbreadth",
+          "semantic_range": "long cubit, royal cubit",
+          "note": "The long cubit used throughout Ezekiel's Temple vision. A standard cubit (approximately 18 inches / 45 cm) plus a handbreadth (approximately 3 inches / 7.5 cm) equals approximately 20.4 inches (52 cm). This is likely the same as the 'royal cubit' used in ancient Near Eastern temple construction."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיָּב֗וֹא אֶל־שַׁ֙עַר֙ אֲשֶׁ֣ר פָּנָ֣יו דֶּֽרֶךְ הַקָּדִ֔ימָה וַיַּ֖עַל בְּמַעֲלוֹתָ֑ו וַיָּ֗מָד אֶת־מִפְתַּ֤ן הַשַּׁ֙עַר֙ קָנֶ֣ה אֶחָ֣ד רֹ֔חַב וְאֵ֛ת מִפְתַּ֥ן אֶחָ֖ד קָנֶ֥ה אֶחָ֖ד רֹֽחַב׃",
+      "text_kjv": "Then came he unto the gate which looketh toward the east, and went up the stairs thereof, and measured the threshold of the gate, which was one reed broad; and the other threshold of the gate, which was one reed broad.",
+      "rendering": "Then he came to the gate that faced east and went up its steps. He measured the threshold of the gate — one rod wide; and the other threshold — one rod wide.",
+      "translator_notes": [
+        "The east gate is measured first because it is the gate of primary liturgical significance — the gate through which the glory of the LORD departed (10:19, 11:1) and through which it will return (43:1-4). The Hebrew miphtan ('threshold') refers to the stone sill at the base of the gateway. Two thresholds suggest an outer and inner entry point to the gate structure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְהַתָּ֗א קָנֶ֨ה אֶחָ֤ד אֹ֙רֶךְ֙ וְקָנֶ֣ה אֶחָ֣ד רֹ֔חַב וּבֵ֥ין הַתָּאִ֖ים חָמֵ֣שׁ אַמּ֑וֹת וּמִפְתַּ֣ן הַשַּׁ֗עַר מֵאֵ֛צֶל אוּלָ֥ם הַשַּׁ֛עַר מֵהַבַּ֖יִת קָנֶ֥ה אֶחָֽד׃",
+      "text_kjv": "And every little chamber was one reed long, and one reed broad; and between the little chambers were five cubits; and the threshold of the gate by the porch of the gate within was one reed.",
+      "rendering": "Each guard chamber was one rod long and one rod wide, with five cubits between the chambers. The threshold of the gate beside the vestibule of the gate on the inner side was one rod.",
+      "translator_notes": [
+        "The ta (plural ta'im) are small rooms flanking the gate passage — rendered 'guard chamber' because their function was likely to house guards who controlled access. Each is approximately 10.2 feet (3.1 m) square. The five cubits (approximately 8.5 feet / 2.6 m) between chambers may represent the wall thickness between them.",
+        "The ulam ('vestibule' or 'porch') of the gate is the covered area at the inner end of the gate passage. This same architectural term is used for the vestibule of Solomon's Temple (1 Kings 6:3)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיָּ֛מָד אֶת־אוּלָ֥ם הַשַּׁ֖עַר מֵהַבָּ֑יִת קָנֶ֖ה אֶחָֽד׃",
+      "text_kjv": "He measured also the porch of the gate within, one reed.",
+      "rendering": "He measured the vestibule of the gate on the inner side — one rod.",
+      "translator_notes": [
+        "The vestibule (ulam) at the inner end of the east gate measured one rod (approximately 10.2 feet / 3.1 m). This vestibule opened into the outer court of the Temple complex."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיָּ֜מָד אֶת־אוּלָ֤ם הַשַּׁ֙עַר֙ שְׁמֹנֶ֣ה אַמּ֔וֹת וְאֵילָ֖יו שְׁתַּ֣יִם אַמּ֑וֹת וְאוּלָ֥ם הַשַּׁ֖עַר מֵהַבָּֽיִת׃",
+      "text_kjv": "Then measured he the porch of the gate, eight cubits; and the posts thereof, two cubits; and the porch of the gate was inward.",
+      "rendering": "He measured the vestibule of the gate — eight cubits, and its pilasters — two cubits. The vestibule of the gate was on the inner side.",
+      "translator_notes": [
+        "The elav (singular ail) are the projecting pilasters or jambs that frame the gate entrance. At two cubits (approximately 3.4 feet / 1 m) wide, they are structural columns flanking the vestibule opening."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְתָאֵ֨י הַשַּׁ֜עַר דֶּ֣רֶךְ הַקָּדִ֗ים שְׁלֹשָׁה֙ מִפֹּ֔ה וּשְׁלֹשָׁ֖ה מִפֹּ֑ה מִדָּ֨ה אַחַ֤ת לִשְׁלָשְׁתָּם֙ וּמִדָּ֥ה אַחַ֛ת לָאֵילִ֖ם מִפֹּ֥ה וּמִפֹּֽה׃",
+      "text_kjv": "And the little chambers of the gate eastward were three on this side, and three on that side; they three were of one measure: and the posts had one measure on this side and on that side.",
+      "rendering": "The guard chambers of the east gate were three on each side — all three of the same size on each side, and the pilasters were of the same size on each side.",
+      "translator_notes": [
+        "The gate structure is symmetrical: three guard chambers on each side of the passageway, creating a total of six chambers. This is identical to the gate structures found archaeologically at Megiddo, Hazor, and Gezer from the Solomonic period — Ezekiel's vision draws on known Israelite gate architecture."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיָּ֛מָד אֶת־רֹ֥חַב פֶּ֖תַח הַשָּׁ֑עַר עֶ֣שֶׂר אַמּ֔וֹת אֹ֣רֶךְ הַשַּׁ֔עַר שְׁלֹ֥שׁ עֶשְׂרֵ֖ה אַמּֽוֹת׃",
+      "text_kjv": "And he measured the breadth of the entry of the gate, ten cubits; and the length of the gate, thirteen cubits.",
+      "rendering": "He measured the width of the gate opening — ten cubits; and the length of the gate passage — thirteen cubits.",
+      "translator_notes": [
+        "The gate opening was ten cubits wide (approximately 17 feet / 5.2 m) — wide enough for processional entry. The length of thirteen cubits (approximately 22 feet / 6.8 m) is the depth of the gate passage from front to back."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וּגְב֞וּל לִפְנֵ֤י הַתָּאוֹת֙ אַמָּ֣ה אֶחָ֔ת וְאַמָּ֥ה אַחַ֖ת גְּב֣וּל מִפֹּ֑ה וְהַתָּ֕א שֵׁשׁ־אַמּ֣וֹת מִפֹּ֔ה וְשֵׁ֥שׁ אַמּ֖וֹת מִפֹּֽה׃",
+      "text_kjv": "The space also before the little chambers was one cubit on this side, and the space was one cubit on that side: and the little chambers were six cubits on this side, and six cubits on that side.",
+      "rendering": "There was a barrier one cubit wide in front of the chambers on each side. Each chamber was six cubits on one side and six cubits on the other.",
+      "translator_notes": [
+        "The gevul ('barrier' or 'border') was a low wall or curb — one cubit (approximately 20.4 inches / 52 cm) — in front of each guard chamber, perhaps marking the threshold of the chamber space. The six-cubit dimension (approximately 10.2 feet / 3.1 m) matches the one-rod measurement given in verse 7."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיָּ֣מָד אֶת־הַשַּׁ֗עַר מִגַּ֤ג הַתָּא֙ לְגַגּ֔וֹ רֹ֕חַב עֶשְׂרִ֛ים וְחָמֵ֥שׁ אַמּ֖וֹת פֶּ֣תַח נֶ֣גֶד פָּ֑תַח׃",
+      "text_kjv": "He measured then the gate from the roof of one little chamber to the roof of another: the breadth was five and twenty cubits, door against door.",
+      "rendering": "He measured the gate from the back wall of one chamber to the back wall of the opposite chamber — a width of twenty-five cubits, opening facing opening.",
+      "translator_notes": [
+        "The twenty-five cubits (approximately 42.5 feet / 13 m) is the total width of the gate structure measured from the outer wall of one row of chambers to the outer wall of the opposite row. The phrase 'opening facing opening' (petach neged patach) indicates that the chambers on opposite sides of the passage had their doorways facing each other."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיַּ֥עַשׂ אֶת־אֵילִ֖ים שִׁשִּׁ֣ים אַמָּ֑ה וְאֶל־אֵ֤יל הֶחָצֵר֙ הַשַּׁ֔עַר סָבִ֖יב סָבִֽיב׃",
+      "text_kjv": "He made also posts of threescore cubits, even unto the post of the court round about the gate.",
+      "rendering": "He measured the pilasters — sixty cubits — and the court extended to the pilasters around the gate on every side.",
+      "translator_notes": [
+        "This verse is textually difficult. The Hebrew ya'as ('he made') is unexpected in a measuring context; some scholars emend to vayyamad ('he measured'). The sixty cubits (approximately 102 feet / 31.2 m) likely refers to the total height or extent of the pilaster structures, though the precise meaning is debated."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְעַ֗ל פְּנֵ֛י הַשַּׁ֥עַר הָאִיתֹ֖ון עַל־לִפְנֵ֗י אוּלָ֛ם הַשַּׁ֥עַר הַפְּנִימִ֖י חֲמִשִּׁ֥ים אַמָּֽה׃",
+      "text_kjv": "And from the face of the gate of the entrance unto the face of the porch of the inner gate were fifty cubits.",
+      "rendering": "From the front of the entrance gate to the front of the vestibule of the inner gate was fifty cubits.",
+      "translator_notes": [
+        "The total depth of the gate complex from the outer entrance to the inner vestibule was fifty cubits (approximately 85 feet / 26 m). The term ha-iton ('the entrance') appears only in Ezekiel and refers to the outer approach of the gate."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְחַלֹּנ֨וֹת אֲטוּמ֜וֹת אֶל־הַתָּאִ֗ים וְאֶל֙ אֵלֵ֣יהֶ֔ם לִפְנִ֥ימָה לַשַּׁ֖עַר סָבִ֣יב ׀ סָבִ֑יב וְכֵ֖ן לָאֵלַמּ֑וֹת וְחַלּוֹנ֞וֹת סָבִ֤יב סָבִיב֙ לִפְנִ֔ימָה וְאֶל־אַ֖יִל תִּמֹרִֽים׃",
+      "text_kjv": "And there were narrow windows to the little chambers, and to their posts within the gate round about, and likewise to the arches: and windows were round about inward: and upon each post were palm trees.",
+      "rendering": "There were recessed windows in the guard chambers and in their pilasters on the inside of the gate all around, and likewise in the vestibules. There were windows all around on the inside, and palm tree designs were on each pilaster.",
+      "translator_notes": [
+        "The chalonot atumot ('recessed windows' or 'narrowing windows') were likely splayed windows — narrow on the outside and widening inward, a common feature of ancient Near Eastern military and temple architecture. The palm tree motifs (timorim) on the pilasters echo the decorative scheme of Solomon's Temple (1 Kings 6:29, 32, 35), establishing visual continuity between the old and new sanctuaries."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיְבִיאֵ֗נִי אֶל־הֶחָצֵר֙ הַחִ֣יצוֹנָ֔ה וְהִנֵּ֣ה לְשָׁכ֗וֹת וְרִצְפָ֛ה עָשׂ֥וּי לֶחָצֵ֖ר סָבִ֣יב ׀ סָבִ֑יב שְׁלֹשִׁ֥ים לְשָׁכ֖וֹת אֶל־הָרִצְפָֽה׃",
+      "text_kjv": "Then brought he me into the outward court, and, lo, there were chambers, and a pavement made for the court round about: thirty chambers were upon the pavement.",
+      "rendering": "Then he brought me into the outer court, and there were rooms and a stone pavement laid around the court on every side — thirty rooms along the pavement.",
+      "translator_notes": [
+        "The outer court had thirty rooms (leshakhot) arranged along a stone pavement (ritspah) that surrounded the court. These rooms likely served administrative, storage, or dining purposes related to Temple worship. The number thirty may correspond to the tribal and Levitical divisions responsible for Temple service."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְהָרִצְפָ֗ה אֶל־כֶּ֙תֶף֙ הַשְּׁעָרִ֔ים לְעֻמַּ֖ת אֹ֣רֶךְ הַשְּׁעָרִ֑ים הָרִצְפָ֖ה הַתַּחְתּוֹנָֽה׃",
+      "text_kjv": "And the pavement by the side of the gates over against the length of the gates was the lower pavement.",
+      "rendering": "The pavement ran alongside the gates, corresponding to the length of the gates — this was the lower pavement.",
+      "translator_notes": [
+        "The 'lower pavement' (ha-ritspah ha-tachtonah) indicates a difference in elevation — the outer court pavement was at a lower level than the inner court, reinforcing the ascending holiness of the Temple complex as one moves inward and upward."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיָּ֣מָד רֹ֗חַב מִלִּפְנֵ֨י הַשַּׁ֤עַר הַתַּחְתּוֹנָה֙ לִפְנֵ֨י הֶחָצֵ֧ר הַפְּנִימִ֛י מִח֖וּץ מֵאָ֣ה אַמָּ֑ה הַקָּדִ֖ים וְהַצָּפֽוֹן׃",
+      "text_kjv": "Then he measured the breadth from the forefront of the lower gate unto the forefront of the inner court without, an hundred cubits eastward and northward.",
+      "rendering": "He measured the distance from the front of the lower gate to the outer front of the inner court — one hundred cubits on the east side and on the north side.",
+      "translator_notes": [
+        "One hundred cubits (approximately 170 feet / 52 m) was the distance across the outer court from the outer gate to the inner gate — measured on both the east and north sides, confirming the symmetrical layout of the complex."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְהַשַּׁ֗עַר אֲשֶׁ֤ר פָּנָיו֙ דֶּ֣רֶךְ הַצָּפ֔וֹן לֶחָצֵ֖ר הַחִיצוֹנָ֑ה מָדַ֥ד אָרְכּ֖וֹ וְרָחְבּֽוֹ׃",
+      "text_kjv": "And the gate of the outward court that looked toward the north, he measured the length thereof, and the breadth thereof.",
+      "rendering": "As for the gate of the outer court that faced north, he measured its length and its width.",
+      "translator_notes": [
+        "The narrative now moves to the north gate of the outer court. The identical measurement pattern indicates that all three outer gates (east, north, south) share the same architectural design — a deliberate symmetry expressing the ordered holiness of the sacred precinct."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְתָאָ֗יו שְׁלוֹשָׁ֤ה מִפּוֹ֙ וּשְׁלוֹשָׁ֣ה מִפּ֔וֹ וְאֵילָ֤יו וְאֵלַמָּיו֙ הָיָ֔ה כְּמִדַּ֖ת הַשַּׁ֣עַר הָרִאשׁ֑וֹן חֲמִשִּׁ֤ים אַמָּה֙ אָרְכּ֔וֹ וְרֹ֕חַב חָמֵ֥שׁ וְעֶשְׂרִ֖ים בָּאַמָּֽה׃",
+      "text_kjv": "And the little chambers thereof were three on this side and three on that side; and the posts thereof and the arches thereof were after the measure of the first gate: the length thereof was fifty cubits, and the breadth five and twenty cubits.",
+      "rendering": "Its guard chambers — three on each side — and its pilasters and vestibules were the same dimensions as the first gate: fifty cubits long and twenty-five cubits wide.",
+      "translator_notes": [
+        "The north gate exactly replicates the east gate: three chambers per side, the same pilasters and vestibules, fifty cubits deep and twenty-five cubits wide. The repetition is not literary laziness but architectural precision — the Temple complex is built on strict symmetry."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְחַלּוֹנָ֤יו וְאֵֽלַמָּיו֙ וְתִ֣מֹרָ֔יו כְּמִדַּ֣ת הַשַּׁ֔עַר אֲשֶׁ֥ר פָּנָ֖יו דֶּ֣רֶךְ הַקָּדִ֑ים וּבְמַעֲל֤וֹת שֶׁ֙בַע֙ יַעֲלוּ־ב֔וֹ וְאֵלַמָּ֖יו לִפְנֵיהֶֽם׃",
+      "text_kjv": "And their windows, and their arches, and their palm trees, were after the measure of the gate that looketh toward the east; and they went up unto it by seven steps; and the arches thereof were before them.",
+      "rendering": "Its windows, vestibules, and palm tree designs matched the dimensions of the east gate. Seven steps led up to it, with its vestibule on the inner side.",
+      "translator_notes": [
+        "Seven steps led up to the north gate, indicating an elevation change from the surrounding terrain to the outer court level. The number seven may carry symbolic significance as a number of completeness in Israelite thought, though it also reflects practical topographic requirements."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְשַׁ֙עַר֙ לֶחָצֵ֣ר הַפְּנִימִ֔י נֶ֚גֶד הַשַּׁ֔עַר לַצָּפ֖וֹן וְלַקָּדִ֑ים וַיָּ֧מָד מִשַּׁ֛עַר אֶל־שַׁ֖עַר מֵאָ֥ה אַמָּֽה׃",
+      "text_kjv": "And the gate of the inner court was over against the gate toward the north, and toward the east; and he measured from gate to gate an hundred cubits.",
+      "rendering": "There was a gate to the inner court opposite the north gate, just as on the east side. He measured from gate to gate — one hundred cubits.",
+      "translator_notes": [
+        "The inner court gates are positioned directly across from their outer court counterparts, creating straight processional axes through the complex. The hundred-cubit distance (approximately 170 feet / 52 m) between outer and inner gates matches the east side measurement in verse 19."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיּוֹלִכֵ֙נִי֙ דֶּ֣רֶךְ הַדָּר֔וֹם וְהִנֵּה־שַׁ֖עַר דֶּ֣רֶךְ הַדָּר֑וֹם וּמָדַ֤ד אֵילָיו֙ וְאֵ֣לַמָּ֔יו כַּמִּדּ֖וֹת הָאֵֽלֶּה׃",
+      "text_kjv": "After that he brought me toward the south, and behold a gate toward the south: and he measured the posts thereof and the arches thereof according to these measures.",
+      "rendering": "Then he led me toward the south, and there was a gate facing south. He measured its pilasters and vestibules — the same dimensions as the others.",
+      "translator_notes": [
+        "The south gate completes the three outer gates. The consistent use of 'the same dimensions' (ka-middot ha-elleh) throughout this section is the Hebrew text's way of establishing architectural uniformity without restating every measurement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְחַלּוֹנ֨וֹת ל֤וֹ וּלְאֵֽלַמָּיו֙ סָבִ֣יב סָבִ֔יב כְּהַחַלֹּנ֖וֹת הָאֵ֑לֶּה חֲמִשִּׁ֤ים אַמָּה֙ אֹ֔רֶךְ וְרֹ֕חַב חָמֵ֥שׁ וְעֶשְׂרִ֖ים אַמָּֽה׃",
+      "text_kjv": "And there were windows in it and in the arches thereof round about, like those windows: the length was fifty cubits, and the breadth five and twenty cubits.",
+      "rendering": "It had windows all around it and in its vestibules, like the other windows. It was fifty cubits long and twenty-five cubits wide.",
+      "translator_notes": [
+        "All three outer gates — east, north, and south — share identical dimensions: fifty cubits by twenty-five cubits, with recessed windows and palm tree decorations. The consistent measurements confirm the architectural unity of the Temple complex."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וּמַעֲל֤וֹת שִׁבְעָה֙ עֹלוֹתָ֔ו וְאֵלַמָּ֖יו לִפְנֵיהֶ֑ם וְתִמֹרִ֤ים לוֹ֙ אֶחָ֣ד מִפּ֔וֹ וְאֶחָ֖ד מִפּ֥וֹ אֶל־אֵילָֽיו׃",
+      "text_kjv": "And there were seven steps to go up to it, and the arches thereof were before them: and it had palm trees, one on this side, and another on that side, upon the posts thereof.",
+      "rendering": "Seven steps led up to it, with its vestibule on the inner side. It had palm tree designs — one on each side of its pilasters.",
+      "translator_notes": [
+        "Like the north gate (v. 22), the south gate is approached by seven steps. The palm tree motifs on the pilasters are mentioned again, reinforcing the decorative consistency. Palm trees (timorim) symbolize vitality and flourishing in Israelite iconography."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְשַׁ֛עַר לֶחָצֵ֥ר הַפְּנִימִ֖י דֶּ֣רֶךְ הַדָּר֑וֹם וַיָּ֨מָד מִשַּׁ֧עַר אֶל־הַשַּׁ֛עַר דֶּ֥רֶךְ הַדָּר֖וֹם מֵאָ֥ה אַמּֽוֹת׃",
+      "text_kjv": "And there was a gate to the inner court toward the south: and he measured from gate to gate toward the south an hundred cubits.",
+      "rendering": "There was a gate to the inner court on the south side. He measured from gate to gate on the south — one hundred cubits.",
+      "translator_notes": [
+        "The hundred-cubit (approximately 170 feet / 52 m) distance between outer and inner south gates matches the measurements for the east (v. 19) and north (v. 23) sides, confirming the square symmetry of the outer court."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיְבִיאֵ֛נִי אֶל־חָצֵ֥ר הַפְּנִימִ֖י בְּשַׁ֣עַר הַדָּר֑וֹם וַיָּ֙מָד֙ אֶת־הַשַּׁ֣עַר הַדָּר֔וֹם כַּמִּדּ֖וֹת הָאֵֽלֶּה׃",
+      "text_kjv": "And he brought me to the inner court by the south gate: and he measured the south gate according to these measures;",
+      "rendering": "Then he brought me into the inner court through the south gate. He measured the south inner gate — the same dimensions as the others.",
+      "translator_notes": [
+        "The narrative now transitions from the outer court to the inner court. The inner gates mirror the outer gates in their measurements, but the inner court sits at a higher elevation — each step inward and upward brings one closer to the Holy of Holies."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְתָאָ֤יו וְאֵילָיו֙ וְאֵ֣לַמָּ֔יו כַּמִּדּ֖וֹת הָאֵ֑לֶּה וְחַלּוֹנ֨וֹת ל֤וֹ וּלְאֵלַמָּיו֙ סָבִ֣יב סָבִ֔יב חֲמִשִּׁ֤ים אַמָּה֙ אֹ֔רֶךְ וְרֹ֕חַב עֶשְׂרִ֥ים וְחָמֵ֖שׁ אַמּֽוֹת׃",
+      "text_kjv": "And the little chambers thereof, and the posts thereof, and the arches thereof, according to these measures: and there were windows in it and in the arches thereof round about: it was fifty cubits long, and five and twenty cubits broad.",
+      "rendering": "Its guard chambers, pilasters, and vestibules were of the same dimensions. It had windows all around it and its vestibules — fifty cubits long and twenty-five cubits wide.",
+      "translator_notes": [
+        "The inner south gate replicates the dimensions of the outer gates: fifty by twenty-five cubits, with guard chambers, pilasters, vestibules, and windows. The architectural uniformity expresses the theological principle of divine order."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְאֵלַמּ֖וֹת סָבִ֣יב סָבִ֑יב אֹ֗רֶךְ חָמֵ֤שׁ וְעֶשְׂרִים֙ אַמָּ֔ה וְרֹ֖חַב חָמֵ֥שׁ אַמּֽוֹת׃",
+      "text_kjv": "And the arches round about were five and twenty cubits long, and five cubits broad.",
+      "rendering": "The vestibules all around were twenty-five cubits long and five cubits wide.",
+      "translator_notes": [
+        "This verse is textually uncertain. The LXX omits it entirely, and the dimensions given (twenty-five by five cubits) do not obviously correspond to the gate vestibules described elsewhere. Some scholars regard it as a marginal gloss that entered the text. We render the Hebrew as it stands while noting the difficulty."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְאֵלַמָּ֗יו אֶל־חָצֵר֙ הַחִ֣צוֹנָ֔ה וְתִמֹרִ֖ים אֶל־אֵילָ֑יו וּמַעֲל֥וֹת שְׁמוֹנֶ֖ה מַעֲלָֽיו׃",
+      "text_kjv": "And the arches thereof were toward the utter court; and palm trees were upon the posts thereof: and the going up to it had eight steps.",
+      "rendering": "Its vestibule faced the outer court, and palm tree designs were on its pilasters. Eight steps led up to it.",
+      "translator_notes": [
+        "The inner gate vestibules face outward toward the outer court, indicating that the inner gates open from the outer court side. The critical detail is eight steps — one more than the seven steps of the outer gates. The ascending step count (seven outer, eight inner) physically embodies the increasing holiness as one moves toward the Temple building itself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיְבִיאֵ֛נִי אֶל־הֶחָצֵ֥ר הַפְּנִימִ֖י דֶּ֣רֶךְ הַקָּדִ֑ים וַיָּ֥מָד אֶת־הַשַּׁ֖עַר כַּמִּדּ֥וֹת הָאֵֽלֶּה׃",
+      "text_kjv": "And he brought me into the inner court toward the east: and he measured the gate according to these measures.",
+      "rendering": "He brought me into the inner court on the east side and measured the gate — the same dimensions as the others.",
+      "translator_notes": [
+        "The measuring tour now covers the inner east gate. As with all gates, the dimensions are identical, reinforcing the symmetrical design of the complex."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְתָאָ֤יו וְאֵילָיו֙ וְאֵ֣לַמָּ֔יו כַּמִּדּ֖וֹת הָאֵ֑לֶּה וְחַלּוֹנ֨וֹת ל֤וֹ וּלְאֵֽלַמָּיו֙ סָבִ֣יב סָבִ֔יב אֹ֕רֶךְ חֲמִשִּׁ֥ים אַמָּ֖ה וְרֹ֕חַב חָמֵ֥שׁ וְעֶשְׂרִ֖ים אַמָּֽה׃",
+      "text_kjv": "And the little chambers thereof, and the posts thereof, and the arches thereof, were according to these measures: and there were windows therein and in the arches thereof round about: it was fifty cubits long, and five and twenty cubits broad.",
+      "rendering": "Its guard chambers, pilasters, and vestibules were of the same dimensions. It had windows all around it and its vestibules — fifty cubits long and twenty-five cubits wide.",
+      "translator_notes": [
+        "The inner east gate is architecturally identical to the inner south gate (v. 29) and the outer gates. The consistent repetition in the Hebrew text is not redundancy but the language of architectural specification — each gate is confirmed to meet the same standard."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְאֵלַמָּ֗יו לֶחָצֵר֙ הַחִ֣יצוֹנָ֔ה וְתִמֹרִ֥ים אֶל־אֵילָ֖יו מִפּ֣וֹ וּמִפּ֑וֹ וּשְׁמוֹנֶ֥ה מַעֲל֖וֹת מַעֲלָֽיו׃",
+      "text_kjv": "And the arches thereof were toward the outward court; and palm trees were upon the posts thereof, on this side, and on that side: and the going up to it had eight steps.",
+      "rendering": "Its vestibule faced the outer court, and palm tree designs were on its pilasters on each side. Eight steps led up to it.",
+      "translator_notes": [
+        "Eight steps again — matching the inner south gate (v. 31). The consistent eight-step ascent to all inner gates confirms the uniform elevation of the inner court above the outer court."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיְבִיאֵ֖נִי אֶל־שַׁ֣עַר הַצָּפ֑וֹן וּמָדַ֖ד כַּמִּדּ֥וֹת הָאֵֽלָּה׃",
+      "text_kjv": "And he brought me to the north gate, and measured it according to these measures;",
+      "rendering": "He brought me to the north gate and measured it — the same dimensions.",
+      "translator_notes": [
+        "The inner north gate completes the set of three inner gates. The brevity of this verse reflects the Hebrew text's own recognition that the pattern is now established — 'the same dimensions' suffices."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "תָּאָ֤יו אֵילָיו֙ וְאֵ֣לַמָּ֔יו וְחַלּוֹנ֥וֹת ל֖וֹ סָבִ֣יב סָבִ֑יב אֹ֚רֶךְ חֲמִשִּׁ֣ים אַמָּ֔ה וְרֹ֕חַב חָמֵ֥שׁ וְעֶשְׂרִ֖ים אַמָּֽה׃",
+      "text_kjv": "The little chambers thereof, the posts thereof, and the arches thereof, and the windows to it round about: the length was fifty cubits, and the breadth five and twenty cubits.",
+      "rendering": "Its guard chambers, pilasters, and vestibules — it had windows all around — were fifty cubits long and twenty-five cubits wide.",
+      "translator_notes": [
+        "The final confirmation of the inner north gate dimensions. All six gates — three outer and three inner — conform to the fifty-by-twenty-five cubit standard, a remarkable architectural uniformity."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְאֵילָ֗יו לֶחָצֵר֙ הַחִ֣יצוֹנָ֔ה וְתִמֹרִ֥ים אֶל־אֵילָ֖יו מִפּ֣וֹ וּמִפּ֑וֹ וּשְׁמוֹנֶ֥ה מַעֲל֖וֹת מַעֲלָֽיו׃",
+      "text_kjv": "And the posts thereof were toward the utter court; and palm trees were upon the posts thereof, on this side, and on that side: and the going up to it had eight steps.",
+      "rendering": "Its pilasters faced the outer court, and palm tree designs were on its pilasters on each side. Eight steps led up to it.",
+      "translator_notes": [
+        "The inner north gate, like the other inner gates, has eight steps and palm tree decorations. The repetition closes the survey of the six gates with complete architectural consistency."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וְלִשְׁכָּ֣ה וּפִתְחָ֔הּ בְּאֵילִ֖ים הַשְּׁעָרִ֑ים שָׁ֖ם יָדִ֥יחוּ אֶת־הָעֹלָֽה׃",
+      "text_kjv": "And the chambers and the entries thereof were by the posts of the gates, where they washed the burnt offering.",
+      "rendering": "There was a room with its entrance by the pilasters of the gates, where they would wash the burnt offering.",
+      "translator_notes": [
+        "The narrative shifts from measurement to function. This room was for washing the sacrificial animals before offering — a practical necessity for the priestly procedures. The verb yadichu ('they wash, they rinse') is a technical term for the ritual cleansing of sacrificial flesh (cf. Leviticus 1:9, 13)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וּבְאוּלָ֣ם הַשַּׁ֗עַר שְׁנַ֤יִם שֻׁלְחָנוֹת֙ מִפּ֔וֹ וּשְׁנַ֥יִם שֻׁלְחָנ֖וֹת מִפֹּ֑ה לִשְׁח֤וֹט אֲלֵיהֶם֙ הָעוֹלָ֔ה וְהַחַטָּ֖את וְהָאָשָֽׁם׃",
+      "text_kjv": "And in the porch of the gate were two tables on this side, and two tables on that side, to slay thereon the burnt offering and the sin offering and the trespass offering.",
+      "rendering": "In the vestibule of the gate there were two tables on each side, on which the burnt offering, the sin offering, and the guilt offering were slaughtered.",
+      "translator_notes": [
+        "Four tables total — two on each side of the vestibule — were designated for slaughtering the three categories of sacrifice: olah (burnt offering, entirely consumed), chattat (sin offering, for purification from sin), and asham (guilt offering, for reparation). The distinction between these three offering types is central to the Levitical sacrificial system (Leviticus 1, 4, 5)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וְאֶל־הַכָּתֵ֣ף מִח֗וּצָה לָעוֹלֶה֙ פֶּ֣תַח הַשַּׁ֔עַר הַצָּפ֔וֹנָה שְׁנַ֖יִם שֻׁלְחָנ֑וֹת וְאֶל־הַכָּתֵ֣ף הָאַחֶ֗רֶת אֲשֶׁר֙ לְאוּלָ֣ם הַשַּׁ֔עַר שְׁנַ֖יִם שֻׁלְחָנֽוֹת׃",
+      "text_kjv": "And at the side without, as one goeth up to the entry of the north gate, were two tables; and on the other side, which was at the porch of the gate, were two tables.",
+      "rendering": "On the outer side, going up to the entrance of the north gate, there were two tables; and on the other side of the gate vestibule, two tables.",
+      "translator_notes": [
+        "Four additional tables were positioned outside the gate vestibule — two on each side of the entrance. Combined with the four inside (v. 39), this creates a total of eight tables for the preparation of sacrificial animals at this gate."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "אַרְבָּעָ֨ה שֻׁלְחָנ֜וֹת מִפֹּ֗ה וְאַרְבָּעָ֧ה שֻׁלְחָנ֛וֹת מִפֹּ֖ה לְכֶ֣תֶף הַשָּׁ֑עַר שְׁמוֹנָ֣ה שֻׁלְחָנ֔וֹת אֲלֵיהֶ֖ם יִשְׁחָֽטוּ׃",
+      "text_kjv": "Four tables were on this side, and four tables on that side, by the side of the gate; eight tables, whereupon they slew their sacrifices.",
+      "rendering": "Four tables on each side of the gate — eight tables in all — on which they slaughtered the sacrifices.",
+      "translator_notes": [
+        "The total count is confirmed: eight tables for the slaughter of sacrificial animals. The number eight — associated with new beginnings in Israelite symbolism (circumcision on the eighth day, the eighth-day dedication of the tabernacle in Leviticus 9) — may not be accidental in this vision of renewed worship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וְאַרְבָּעָ֣ה שֻׁלְחָנ֗וֹת לָעוֹלָה֙ אַבְנֵ֣י גָזִ֔ית אֹ֗רֶךְ אַמָּ֤ה אַחַת֙ וָחֵ֔צִי וְרֹ֛חַב אַמָּ֥ה אַחַ֖ת וָחֵ֑צִי וְגֹ֙בַהּ֙ אַמָּ֣ה אֶחָ֔ת אֲלֵיהֶ֗ם וְיַנִּ֙יחוּ֙ אֶת־הַכֵּלִ֔ים אֲשֶׁ֧ר יִשְׁחֲט֛וּ אֶת־הָעוֹלָ֥ה וְהַזֶּ֖בַח בָּהֶֽם׃",
+      "text_kjv": "And the four tables were of hewn stone for the burnt offering, of a cubit and an half long, and a cubit and an half broad, and one cubit high: whereupon also they laid the instruments wherewith they slew the burnt offering and the sacrifice.",
+      "rendering": "The four tables for the burnt offering were of cut stone, each a cubit and a half long, a cubit and a half wide, and a cubit high. On them they placed the implements used for slaughtering the burnt offering and other sacrifices.",
+      "translator_notes": [
+        "These four stone tables (avnei gazit, 'hewn stone') were specifically for the burnt offering preparation. Their dimensions — approximately 2.5 by 2.5 by 1.7 feet (76 x 76 x 52 cm) — made them sturdy, low work surfaces. The use of hewn stone rather than rough stone is notable; in contrast, the altar law in Exodus 20:25 prohibits hewn stone for altars. These are preparation tables, not altars, so the prohibition does not apply."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וְהַשְׁפַתַּ֗יִם טֹ֧פַח אֶחָ֛ד מוּכָנִ֥ים בַּבַּ֖יִת סָבִ֣יב ׀ סָבִ֑יב וְאֶל־הַשֻּׁלְחָנ֖וֹת בְּשַׂ֥ר הַקָּרְבָּֽן׃",
+      "text_kjv": "And within were hooks, an hand broad, fastened round about: and upon the tables was the flesh of the offering.",
+      "rendering": "Double-pronged hooks, a handbreadth long, were fixed all around the inside walls. The flesh of the offering was placed on the tables.",
+      "translator_notes": [
+        "The shephattayim are hooks or ledges — a handbreadth (approximately 3 inches / 7.5 cm) in size — fastened to the walls for hanging or handling sacrificial meat. The exact form is debated; 'double-pronged hooks' follows the most common interpretation. The practicality of the description reflects Ezekiel's priestly expertise — he knows how a working sacrificial facility must be equipped."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וּמִחוּצָה֩ לַשַּׁ֨עַר הַפְּנִימִ֜י לִשְׁכ֣וֹת שָׁרִ֗ים בֶּחָצֵ֤ר הַפְּנִימִי֙ אֲשֶׁ֗ר אֶל־כֶּ֙תֶף֙ שַׁ֣עַר הַצָּפ֔וֹן וּפְנֵיהֶ֖ם דֶּ֣רֶךְ הַדָּר֑וֹם אֶחָ֗ד אֶל־כֶּ֙תֶף֙ שַׁ֣עַר הַקָּדִ֔ים פְּנֵ֖י דֶּ֥רֶךְ הַצָּפֽוֹן׃",
+      "text_kjv": "And without the inner gate were the chambers of the singers in the inner court, which was at the side of the north gate; and their prospect was toward the south: one at the side of the east gate having the prospect toward the north.",
+      "rendering": "Outside the inner gate, in the inner court, were rooms for the singers — one beside the north gate, facing south, and one beside the east gate, facing north.",
+      "translator_notes": [
+        "The Hebrew sharim can mean 'singers' or 'officials/ministers.' We follow the reading 'singers' based on the Levitical role of musical worship in the Temple. The LXX reads 'two rooms,' which many scholars prefer. The positioning — one room facing south and another facing north — suggests these were stationed to serve different areas of the inner court."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וַיְדַבֵּ֖ר אֵלָ֑י זֹ֣ה הַלִּשְׁכָּ֗ה אֲשֶׁ֤ר פָּנֶ֙יהָ֙ דֶּ֣רֶךְ הַדָּר֔וֹם לַכֹּ֣הֲנִ֔ים שֹׁמְרֵ֖י מִשְׁמֶ֥רֶת הַבָּֽיִת׃",
+      "text_kjv": "And he said unto me, This chamber, whose prospect is toward the south, is for the priests, the keepers of the charge of the house.",
+      "rendering": "He said to me, \"This room facing south is for the priests who have charge of the Temple.\"",
+      "translator_notes": [
+        "The phrase shomerei mishmeret ha-bayit ('keepers of the charge of the house') is a technical priestly term for those responsible for maintaining the Temple's operations — guarding the sanctuary, managing the daily services, and ensuring ritual purity. This is distinct from those who serve at the altar (v. 46)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וְהַלִּשְׁכָּ֗ה אֲשֶׁ֤ר פָּנֶ֙יהָ֙ דֶּ֣רֶךְ הַצָּפ֔וֹן לַכֹּ֣הֲנִ֔ים שֹׁמְרֵ֖י מִשְׁמֶ֣רֶת הַמִּזְבֵּ֑חַ הֵ֣מָּה בְנֵי־צָד֔וֹק הַקְּרֵבִ֧ים מִבְּנֵֽי־לֵוִ֛י אֶל־יְהוָ֖ה לְשָׁרְתֽוֹ׃",
+      "text_kjv": "And the chamber whose prospect is toward the north is for the priests, the keepers of the charge of the altar: these are the sons of Zadok among the sons of Levi, which come near to the LORD to minister unto him.",
+      "rendering": "The room facing north is for the priests who have charge of the altar. These are the sons of Zadok — from among the sons of Levi — who draw near to the LORD to minister to him.",
+      "translator_notes": [
+        "This verse introduces a distinction critical to the entire Temple vision: the sons of Zadok (benei Tsadoq) are singled out as the priestly line with the exclusive right to approach the altar and minister directly to the LORD. Zadok was David's priest (2 Samuel 8:17) who remained loyal during Absalom's revolt and anointed Solomon (1 Kings 1:39). Ezekiel, himself of the Zadokite line, restricts altar service to this lineage — other Levites will serve in subordinate roles (44:10-14). This Zadokite exclusivity distinguishes Ezekiel's Temple order from earlier Pentateuchal legislation."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְנֵי־צָדוֹק",
+          "transliteration": "benei Tsadoq",
+          "rendered_as": "sons of Zadok",
+          "semantic_range": "descendants of Zadok, Zadokite priests",
+          "note": "The Zadokite priestly line that Ezekiel designates as the sole legitimate altar-serving priests in the restored Temple. This reflects a narrowing of priestly authority compared to the broader Aaronic priesthood of the Pentateuch."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וַיָּ֣מָד אֶת־הֶחָצֵ֗ר אֹ֣רֶךְ מֵאָ֤ה אַמָּה֙ וְרֹ֙חַב֙ מֵאָ֣ה אַמָּ֔ה מְרֻבָּ֑עַת וְהַמִּזְבֵּ֖חַ לִפְנֵ֥י הַבָּֽיִת׃",
+      "text_kjv": "So he measured the court, an hundred cubits long, and an hundred cubits broad, foursquare; and the altar that was before the house.",
+      "rendering": "He measured the inner court — one hundred cubits long and one hundred cubits wide, a perfect square. And the altar stood in front of the Temple.",
+      "translator_notes": [
+        "The inner court is a perfect square of one hundred cubits per side (approximately 170 x 170 feet / 52 x 52 m). The term merubba'at ('squared, foursquare') emphasizes geometric perfection. The altar (mizbeach) is mentioned here for the first time in the vision — positioned before the Temple building (ha-bayit), it occupies the central liturgical space of the inner court. Its detailed measurements will come in 43:13-17."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "וַיְבִאֵ֘נִי֮ אֶל־אוּלָ֣ם הַבַּיִת֒ וַיָּ֙מָד֙ אֵ֣ל אוּלָ֔ם חָמֵ֤שׁ אַמּוֹת֙ מִפֹּ֔ה וְחָמֵ֥שׁ אַמּ֖וֹת מִפֹּ֑ה וְרֹ֣חַב הַשַּׁ֗עַר שָׁלֹ֤שׁ אַמּוֹת֙ מִפּ֔וֹ וְשָׁלֹ֥שׁ אַמּ֖וֹת מִפּֽוֹ׃",
+      "text_kjv": "And he brought me to the porch of the house, and measured each post of the porch, five cubits on this side, and five cubits on that side: and the breadth of the gate was three cubits on this side, and three cubits on that side.",
+      "rendering": "He brought me to the vestibule of the Temple and measured the pilasters of the vestibule — five cubits on each side. The width of the gateway was three cubits on each side.",
+      "translator_notes": [
+        "The tour now reaches the Temple building itself (ha-bayit, 'the house'). The vestibule (ulam) is the entrance porch of the Temple proper, corresponding to the ulam of Solomon's Temple (1 Kings 6:3). The pilasters flanking the entrance were five cubits (approximately 8.5 feet / 2.6 m) on each side, with the gateway opening flanked by three-cubit (approximately 5.1 feet / 1.6 m) walls on each side."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "אֹ֣רֶךְ הָאוּלָ֞ם עֶשְׂרִ֣ים אַמָּ֗ה וְרֹ֙חַב֙ עַשְׁתֵּ֤י עֶשְׂרֵה֙ אַמָּ֔ה וּבַֽמַּעֲל֔וֹת אֲשֶׁ֥ר יַעֲל֖וּ אֵלָ֑יו וְעַמֻּדִ֤ים אֶל־הָאֵילִים֙ אֶחָ֣ד מִפֹּ֔ה וְאֶחָ֖ד מִפֹּֽה׃",
+      "text_kjv": "The length of the porch was twenty cubits, and the breadth eleven cubits; and he brought me by the steps whereby they went up to it: and there were pillars by the posts, one on this side, and another on that side.",
+      "rendering": "The vestibule was twenty cubits long and eleven cubits wide, reached by the steps that led up to it. There were columns beside the pilasters — one on each side.",
+      "translator_notes": [
+        "The vestibule dimensions — twenty cubits by eleven cubits (approximately 34 by 18.7 feet / 10.4 by 5.7 m) — differ slightly from Solomon's Temple vestibule, which was twenty cubits wide and ten cubits deep (1 Kings 6:3). The LXX reads 'twelve' instead of 'eleven,' which would create a more standard dimension. The two freestanding columns (ammudim) beside the pilasters recall Jachin and Boaz, the two bronze pillars at Solomon's Temple entrance (1 Kings 7:15-22), though Ezekiel does not name them."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

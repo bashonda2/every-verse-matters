@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jeremiah",
+    "chapter": 17,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jeremiah 17 moves through four distinct sections that together form a meditation on the human heart and its relationship to God. It opens with the stunning image of Judah's sin engraved with an iron stylus on the tablet of their heart (17:1) — the opposite of the torah-on-the-heart promise of 31:33. The chapter then contrasts the cursed person who trusts in human strength (17:5-6) with the blessed person who trusts in the LORD, planted like a tree by water (17:7-8, echoing Psalm 1). At the center stands one of the most famous verses in the Hebrew Bible: 'The heart is deceitful above all things and desperately sick — who can understand it?' (17:9). Jeremiah's personal confession-prayer appears in 17:14-18, and the chapter closes with a Sabbath observance oracle (17:19-27).",
+    "remarkable": "This chapter contains some of the most psychologically penetrating language in the entire Hebrew Bible. The iron-stylus metaphor of verse 1 inverts the later promise of 31:33 — where God will write his instruction on hearts of flesh, here sin has already been engraved on hearts of stone. The tree-by-water image (vv. 7-8) is so close to Psalm 1:3 that the relationship between the texts has been debated for centuries — whether Jeremiah drew on the psalm, the psalm drew on Jeremiah, or both drew on a common wisdom tradition. Verse 9's diagnosis of the human heart — aqov ('deceitful, twisted') and anush ('desperately sick, incurable') — is among the most unsparing anthropological statements in Scripture. Jeremiah's confession in verse 14, 'Heal me, LORD, and I will be healed; save me and I will be saved,' has entered Jewish liturgy (the eighth blessing of the Amidah).",
+    "friction": "The word aqov in verse 9 is the same root as the name Ya'aqov (Jacob, 'the heel-grasper, the supplanter') — whether this is deliberate wordplay connecting Judah's heart to their ancestor's character is debated, and we noted it without forcing the interpretation. The relationship between the tree imagery (vv. 5-8) and Psalm 1 required careful rendering: the passages are related but not identical, and the differences matter. The Sabbath oracle (vv. 19-27) is sometimes regarded as a later addition by scholars because of its prose style and Deuteronomic language — we translate what the text says without editorial judgment on dating. The word et in verse 1 ('stylus' or 'pen') is rare and its exact referent debated.",
+    "connections": "The iron-stylus image (v. 1) anticipates by contrast the new covenant inscription of 31:33 — sin engraved on stone versus torah written on flesh. The tree-by-water passage (vv. 7-8) connects to Psalm 1:3, Ezekiel 47:12, and Revelation 22:2. Verse 9's heart-diagnosis connects to 11:20 and 20:12 where God 'tests the heart.' Jeremiah's confession (vv. 14-18) belongs to the series of prophetic confessions running through chapters 11-20. The Sabbath oracle connects to the broader Deuteronomic tradition (Deuteronomy 5:12-15) and to Nehemiah 13:15-22. The cursing-and-blessing contrast (vv. 5-8) echoes Deuteronomy 28 and Psalm 1."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "חַטַּ֣את יְהוּדָ֗ה כְּתוּבָ֛ה בְּעֵ֥ט בַּרְזֶ֖ל בְּצִפֹּ֣רֶן שָׁמִ֑יר חֲרוּשָׁה֙ עַל־ל֣וּחַ לִבָּ֔ם וּלְקַרְנ֖וֹת מִזְבְּחוֹתֵיכֶֽם׃",
+      "text_kjv": "The sin of Judah is written with a pen of iron, and with the point of a diamond: it is graven upon the table of their heart, and upon the horns of your altars;",
+      "rendering": "The sin of Judah is inscribed with an iron stylus, with a diamond-tipped point. It is engraved on the tablet of their heart and on the horns of their altars —",
+      "expanded_rendering": "The image is devastating in its precision: sin is not a surface stain that can be washed off but an inscription cut into stone with the hardest tools available. The 'tablet of their heart' (luach libbam) deliberately evokes the stone tablets of Sinai — where God inscribed his commandments, Judah has inscribed her sin. The horns of the altars, which were meant to receive sacrificial blood for atonement, are instead marked with the record of guilt. The very instruments of forgiveness have become monuments to transgression.",
+      "translator_notes": ["The word et ('stylus, pen') in its iron form suggests a chisel for cutting into stone or metal — this is permanent inscription, not ink on parchment. Tsipporen shamir ('diamond-tipped point' or 'point of flint/emery') refers to an extremely hard material used for engraving — shamir may be corundum, emery, or diamond. The phrase luach libbam ('tablet of their heart') creates a devastating contrast with the stone tablets (luchot) of the law given at Sinai. The same surface that should bear God's commandments instead bears an engraved record of sin. This image is the negative counterpart to 31:33, where God promises to write his torah on the heart."],
+      "key_terms": [
+        {
+          "hebrew": "חַטַּאת",
+          "transliteration": "chattat",
+          "rendered_as": "sin",
+          "semantic_range": "sin, offense, missing the mark, sin offering",
+          "note": "Here used in its basic sense of moral offense. The same word also means 'sin offering' — the sacrifice meant to address sin is rendered futile when sin is permanently engraved on the very altars where offerings are made."
+        },
+        {
+          "hebrew": "לוּחַ",
+          "transliteration": "luach",
+          "rendered_as": "tablet",
+          "semantic_range": "tablet, board, plank, flat surface for writing",
+          "note": "The same word used for the stone tablets of the Ten Commandments (Exodus 31:18). The echo is deliberate: where Sinai's tablets bore God's instruction, Judah's heart bears the inscription of sin."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "כִּזְכֹּ֤ר בְּנֵיהֶם֙ מִזְבְּח֣וֹתָ֔ם וַאֲשֵׁרֵיהֶ֖ם עַל־עֵ֣ץ רַעֲנָ֑ן עַ֖ל גְּבָע֥וֹת הַגְּבֹהֽוֹת׃",
+      "text_kjv": "Whilst their children remember their altars and their groves by the green trees upon the high hills.",
+      "rendering": "even as their children remember their altars and their Asherah poles beside every green tree on the high hills.",
+      "translator_notes": ["The 'remembering' (kizkhor) here is not nostalgic recall but active perpetuation — the children continue the idolatrous practices. The asherim ('Asherah poles') were cultic objects associated with the Canaanite goddess Asherah, set up as sacred pillars near altars. 'Green tree' and 'high hills' are stock phrases for the locations of illicit worship (cf. Deuteronomy 12:2, 1 Kings 14:23). The verse continues the thought from verse 1 — sin is inscribed not only on hearts but transmitted to the next generation."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "הֲרָרִ֖י בַּשָּׂדֶ֑ה חֵילְךָ֤ כָל־אוֹצְרוֹתֶ֙יךָ֙ לָבַ֣ז אֶתֵּ֔ן בָּמוֹתֶ֖יךָ בְּחַטָּ֥את בְּכָל־גְּבוּלֶֽיךָ׃",
+      "text_kjv": "O my mountain in the field, I will give thy substance and all thy treasures to the spoil, and thy high places for sin, throughout all thy borders.",
+      "rendering": "My mountain in the open country — your wealth and all your treasures I will give as plunder, your high places as the price of sin throughout all your territory.",
+      "translator_notes": ["The phrase harari basadeh ('my mountain in the field/open country') is addressed to Jerusalem/Zion, which sits exposed on its hills. God calls it 'my mountain' even as he sentences it to plunder. The chelkha ('your wealth') and otsrotekha ('your treasures') will become spoil for invaders. The bamot ('high places') — the illicit worship sites — are specifically named as the cause: it is because of sin at these sites that everything will be lost."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְשָׁמַטְתָּ֗ה וּבְךָ֙ מִנַּחֲלָ֣תְךָ֔ אֲשֶׁ֥ר נָתַ֖תִּי לָ֑ךְ וְהַעֲבַדְתִּ֣יךָ אֶת־אֹיְבֶ֗יךָ בָּאָ֙רֶץ֙ אֲשֶׁ֣ר לֹֽא־יָדַ֔עְתָּ כִּי־אֵ֛שׁ קְדַחְתֶּ֥ם בְּאַפִּ֖י עַד־עוֹלָ֥ם תּוּקָֽד׃",
+      "text_kjv": "And thou, even thyself, shalt discontinue from thine heritage that I gave thee; and I will cause thee to serve thine enemies in the land which thou knowest not: for ye have kindled a fire in mine anger, which shall burn for ever.",
+      "rendering": "You will lose your grip on the inheritance I gave you, and I will make you serve your enemies in a land you do not know, for you have kindled a fire in my anger that will burn without end.",
+      "translator_notes": ["The verb shamattah ('you will let drop, release') uses the same root as the sabbatical year release (shemittah) — the land will be 'released' from its inhabitants as if in a forced sabbatical. The phrase 'inheritance' (nachalatekha) refers to the promised land itself, which was God's gift. The image of fire kindled in divine anger (esh qedachtem be'appi) that burns ad olam ('to perpetuity/without end') expresses the terrible permanence of the consequences."],
+      "key_terms": [
+        {
+          "hebrew": "עוֹלָם",
+          "transliteration": "olam",
+          "rendered_as": "without end",
+          "semantic_range": "forever, perpetuity, long duration, hidden time, age",
+          "note": "Olam does not necessarily mean 'infinite' in the philosophical sense but rather 'stretching beyond the visible horizon.' The fire of God's anger will burn for a duration whose end cannot be seen."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כֹּ֣ה ׀ אָמַ֣ר יְהוָ֗ה אָר֤וּר הַגֶּ֙בֶר֙ אֲשֶׁ֣ר יִבְטַ֣ח בָּאָדָ֔ם וְשָׂ֥ם בָּשָׂ֖ר זְרֹע֑וֹ וּמִן־יְהוָ֖ה יָס֥וּר לִבּֽוֹ׃",
+      "text_kjv": "Thus saith the LORD; Cursed be the man that trusteth in man, and maketh flesh his arm, and whose heart departeth from the LORD.",
+      "rendering": "This is what the LORD says: Cursed is the person who trusts in human strength, who makes flesh his arm, and whose heart turns away from the LORD.",
+      "expanded_rendering": "The word arur ('cursed') is formal covenant-curse language — the same word used in Deuteronomy 27:15-26, where Israel swore to accept these curses upon themselves. To trust in basar ('flesh') as one's zero'a ('arm' — the symbol of strength and military power) is to substitute creaturely weakness for divine might. The heart that yasur ('turns away') from the LORD uses Jeremiah's key verb shuv in its negative sense — turning away rather than turning toward God.",
+      "translator_notes": ["The gever ('mighty man, strong person') is specifically the person who should be strong — the word implies military capability or social power. The irony is that the person who relies on human strength is precisely the one who will be weakest. 'Flesh' (basar) as 'arm' (zero'a) is a metaphor for relying on human military or political alliances — particularly relevant to Judah's shifting alliances with Egypt and Babylon. The verb yasur ('turns away') from the root shuv frames this as apostasy, not mere preference."],
+      "key_terms": [
+        {
+          "hebrew": "אָרוּר",
+          "transliteration": "arur",
+          "rendered_as": "Cursed",
+          "semantic_range": "cursed, banned, excluded from blessing",
+          "note": "The formal opposite of barukh ('blessed'), which follows in verse 7. This curse-blessing contrast structures the entire passage (vv. 5-8) and echoes the Deuteronomic covenant ceremony."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְהָיָה֙ כְּעַרְעָ֣ר בָּעֲרָבָ֔ה וְלֹ֥א יִרְאֶ֖ה כִּי־יָב֣וֹא ט֑וֹב וְשָׁכַ֤ן חֲרֵרִים֙ בַּמִּדְבָּ֔ר אֶ֥רֶץ מְלֵחָ֖ה וְלֹ֥א תֵשֵֽׁב׃",
+      "text_kjv": "For he shall be like the heath in the desert, and shall not see when good cometh; but shall inhabit the parched places in the wilderness, in a salt land and not inhabited.",
+      "rendering": "He will be like a shrub in the desert wasteland — he will not see when good arrives. He will dwell among the scorched places of the wilderness, in a salt land where no one lives.",
+      "translator_notes": ["The word ar'ar ('shrub, juniper, stunted bush') describes a stripped, bare plant barely surviving in arid conditions — the opposite of the flourishing tree in verse 8. The phrase lo yir'eh ki yavo tov ('he will not see when good comes') is especially poignant: blessing may arrive, but the one who trusts in flesh is incapable of perceiving or receiving it. The 'salt land' (erets melechah) is land so mineral-saturated that nothing grows — a landscape of permanent barrenness (cf. the salting of Sodom's soil, Genesis 19)."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "בָּר֣וּךְ הַגֶּ֔בֶר אֲשֶׁ֥ר יִבְטַ֖ח בַּיהוָ֑ה וְהָיָ֥ה יְהוָ֖ה מִבְטַחֽוֹ׃",
+      "text_kjv": "Blessed is the man that trusteth in the LORD, and whose hope the LORD is.",
+      "rendering": "Blessed is the person who trusts in the LORD, whose confidence is the LORD himself.",
+      "expanded_rendering": "Barukh ('blessed') is the formal covenant-blessing counterpart to arur ('cursed') in verse 5. The structure mirrors the Deuteronomic covenant pattern: curse for disobedience, blessing for faithfulness. The person who trusts (yivtach) in the LORD has the LORD himself as his mivtacho ('source of confidence, security') — the trust and its object are one and the same. This is not generic optimism but covenantal reliance on the God who has bound himself to his people.",
+      "translator_notes": ["The parallel structure with verse 5 is precise and deliberate: arur haggever asher yivtach ba'adam (v. 5) mirrors barukh haggever asher yivtach ba-YHWH (v. 7). The choice is binary: trust in flesh or trust in the LORD. The word mivtacho ('his confidence, his trust') uses the same root as yivtach ('trusts') — creating a wordplay: the one who trusts has trust itself, because the LORD is both the object and the ground of confidence."],
+      "key_terms": [
+        {
+          "hebrew": "בָּרוּךְ",
+          "transliteration": "barukh",
+          "rendered_as": "Blessed",
+          "semantic_range": "blessed, praised, endowed with divine favor",
+          "note": "The formal opposite of arur ('cursed'). In covenant contexts, barukh means to be included in the sphere of divine favor, protection, and flourishing."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְהָיָ֞ה כְּעֵ֣ץ ׀ שָׁת֣וּל עַל־מַ֗יִם וְעַל־יוּבַל֙ יְשַׁלַּ֣ח שָׁרָשָׁ֔יו וְלֹ֤א יִרְאֶה֙ כִּֽי־יָבֹ֣א חֹ֔ם וְהָיָ֥ה עָלֵ֖הוּ רַעֲנָ֑ן וּבִשְׁנַ֤ת בַּצֹּ֙רֶת֙ לֹ֣א יִדְאָ֔ג וְלֹ֥א יָמִ֖ישׁ מֵעֲשׂ֥וֹת פֶּֽרִי׃",
+      "text_kjv": "For he shall be as a tree planted by the waters, and that spreadeth out her roots by the river, and shall not see when heat cometh, but her leaf shall be green; and shall not be careful in the year of drought, neither shall cease from yielding fruit.",
+      "rendering": "He will be like a tree planted beside water that sends its roots out toward the stream. It does not fear when heat comes, and its leaves remain green. In a year of drought it has no anxiety, and it never stops producing fruit.",
+      "translator_notes": ["The tree image closely parallels Psalm 1:3, though with distinctive differences: Psalm 1 uses 'streams of water' (palgei mayim) while Jeremiah uses yuval ('watercourse, stream') and mayim ('water'). Psalm 1 emphasizes the tree's leaf not withering; Jeremiah adds the explicit mention of drought resistance and continuous fruit-bearing. The verb yid'ag ('worry, be anxious') is unique to this passage — the tree's freedom from anxiety is a metaphor for the believer's unshakable security. Whether Jeremiah drew on Psalm 1 or both drew on common wisdom tradition is debated; the differences suggest independent development from shared imagery rather than direct quotation."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "עָקֹ֥ב הַלֵּ֛ב מִכֹּ֖ל וְאָנֻ֣שׁ ה֑וּא מִ֖י יֵדָעֶֽנּוּ׃",
+      "text_kjv": "The heart is deceitful above all things, and desperately wicked: who can know it?",
+      "rendering": "The heart is more twisted than anything else and incurably sick — who can fathom it?",
+      "expanded_rendering": "The word aqov ('twisted, crooked, deceitful') shares its root with the name Ya'aqov (Jacob), the patriarch who grasped his brother's heel and supplanted him through deception. Whether the wordplay is deliberate is debated, but the echo is unmistakable: the human heart carries the same twisting, grasping quality as the ancestor whose name embodied it. The word anush ('incurably sick, desperately ill') is even more severe — it describes a condition beyond human remedy. Together, aqov and anush form one of the most unsparing diagnoses of human nature in all of Scripture: the heart is not merely weak or misguided but actively deceptive and terminally ill.",
+      "translator_notes": ["We rendered aqov as 'twisted' rather than 'deceitful' (KJV) because the Hebrew root a-q-v means 'to follow at the heel, to supplant, to twist' — the deception is not mere lying but a fundamental twisting of reality. The word anush ('incurably sick') is rendered 'incurably sick' rather than 'desperately wicked' (KJV) because anush in its other occurrences (2 Samuel 12:15, Isaiah 17:11, Micah 1:9) consistently refers to sickness, not wickedness. The question mi yeda'ennu ('who can know/fathom it?') is rhetorical — the answer is implied in verse 10: only God can."],
+      "key_terms": [
+        {
+          "hebrew": "עָקֹב",
+          "transliteration": "aqov",
+          "rendered_as": "twisted",
+          "semantic_range": "deceitful, crooked, insidious, heel-grasping, supplanting",
+          "note": "From the same root as Ya'aqov (Jacob). The heart is not passively weak but actively twisting — it distorts reality to serve its own desires. This is the root meaning of deception: making the crooked appear straight."
+        },
+        {
+          "hebrew": "אָנֻשׁ",
+          "transliteration": "anush",
+          "rendered_as": "incurably sick",
+          "semantic_range": "incurable, desperately ill, beyond remedy, mortal",
+          "note": "The KJV's 'desperately wicked' misses the medical metaphor. Anush describes a wound or disease that cannot be healed by human means — the heart's condition requires divine intervention."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "אֲנִ֧י יְהוָ֛ה חֹקֵ֥ר לֵ֖ב בֹּחֵ֣ן כְּלָי֑וֹת וְלָתֵ֤ת לְאִישׁ֙ כִּדְרָכָ֔יו כִּפְרִ֖י מַעֲלָלָֽיו׃",
+      "text_kjv": "I the LORD search the heart, I try the reins, even to give every man according to his ways, and according to the fruit of his doings.",
+      "rendering": "I, the LORD, search the heart and test the mind, to give to each person according to his ways, according to the fruit of his deeds.",
+      "translator_notes": ["This verse answers the rhetorical question of verse 9: who can fathom the heart? The LORD can. The verb choqer ('search, examine, probe') implies thorough investigation, not casual observation. The word kelayot ('kidneys') is rendered 'mind' following TCR convention (cf. 11:20) — the Hebrews understood the kidneys as the seat of the deepest, most hidden thoughts and motives. The phrase 'fruit of his deeds' (peri ma'alalav) connects human actions to agricultural imagery — deeds produce consequences as naturally as trees produce fruit."],
+      "key_terms": [
+        {
+          "hebrew": "כְּלָיוֹת",
+          "transliteration": "kelayot",
+          "rendered_as": "mind",
+          "semantic_range": "kidneys, inner thoughts, deepest emotions, conscience",
+          "note": "Literally 'kidneys.' In Hebrew anthropology, the kidneys were considered the seat of the deepest, most secret inner life — what we would call the subconscious. God examines even what is hidden from the person's own awareness."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "קֹרֵ֤א דָגַר֙ וְלֹ֣א יָלָ֔ד עֹ֥שֶׂה עֹ֖שֶׁר וְלֹ֣א בְמִשְׁפָּ֑ט בַּחֲצִ֤י יָמָיו֙ יַעַזְבֶ֔נּוּ וּבְאַחֲרִית֖וֹ יִהְיֶ֥ה נָבָֽל׃",
+      "text_kjv": "As the partridge sitteth on eggs, and hatcheth them not; so he that getteth riches, and not by right, shall leave them in the midst of his days, and at his end shall be a fool.",
+      "rendering": "Like a partridge that broods over eggs it did not lay, so is the one who gains wealth unjustly. In the middle of his days it will abandon him, and in the end he will be a fool.",
+      "translator_notes": ["The qore ('partridge') was believed in the ancient Near East to sit on eggs stolen from other birds' nests — wealth gained unjustly is like hatching eggs that do not belong to you. The verb dagar ('brood, sit on, hatch') applies to the bird but metaphorically to the unjust wealthy person who 'sits on' stolen gains. The word naval ('fool') at the end carries moral weight in Hebrew — it does not mean merely unintelligent but morally bankrupt, senseless in the deepest way (cf. Nabal in 1 Samuel 25)."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "כִּסֵּ֣א כָב֔וֹד מָר֖וֹם מֵרִאשׁ֑וֹן מְק֖וֹם מִקְדָּשֵֽׁנוּ׃",
+      "text_kjv": "A glorious high throne from the beginning is the place of our sanctuary.",
+      "rendering": "A throne of glory, exalted from the beginning — that is the place of our sanctuary.",
+      "expanded_rendering": "Kavod ('glory') here carries its full weight: the throne of God is not merely bright or impressive but substantial, heavy with divine presence. The word marom ('exalted, on high') places this throne above all earthly authority. Me-rishon ('from the beginning, from the first') establishes the temple's heavenly archetype as preceding creation itself. The sanctuary (miqdash) on earth is a reflection of the eternal throne above.",
+      "translator_notes": ["This verse functions as a doxological exclamation — Jeremiah turns from the futility of unjust wealth (v. 11) to the permanence of God's throne. The phrase kisse kavod ('throne of glory') combines royal and divine imagery. Marom me-rishon ('exalted from the beginning') may refer to the heavenly temple's pre-existence or to the Jerusalem temple's ancient sanctity. The word miqdashenu ('our sanctuary') uses the first-person plural possessive — Jeremiah identifies himself with the people even as he condemns them."],
+      "key_terms": [
+        {
+          "hebrew": "כָּבוֹד",
+          "transliteration": "kavod",
+          "rendered_as": "glory",
+          "semantic_range": "glory, weight, heaviness, honor, substance, significance",
+          "note": "From the root k-v-d ('to be heavy'). The throne of God carries weight — not mere visual splendor but substantial, overwhelming reality."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "מִקְוֵ֤ה יִשְׂרָאֵל֙ יְהוָ֔ה כָּל־עֹזְבֶ֖יךָ יֵבֹ֑שׁוּ יְסוּרַ֤י בָּאָ֙רֶץ֙ יִכָּתֵ֔בוּ כִּ֥י עָזְב֛וּ מְק֥וֹר מַֽיִם־חַיִּ֖ים אֶת־יְהוָֽה׃",
+      "text_kjv": "O LORD, the hope of Israel, all that forsake thee shall be ashamed, and they that depart from me shall be written in the earth, because they have forsaken the LORD, the fountain of living waters.",
+      "rendering": "O LORD, the hope of Israel — all who abandon you will be put to shame. Those who turn away will be written in the dust, for they have abandoned the LORD, the fountain of living water.",
+      "translator_notes": ["The word miqveh ('hope') is a wordplay — it also means 'gathering of water, reservoir' (cf. Genesis 1:10), connecting to the 'fountain of living water' (meqor mayim chayyim) at the verse's end. Those who leave the source of living water will be 'written in the dust' (ba'arets yikkatavu) — their names inscribed in dry earth rather than in the book of life, an inscription as impermanent as writing in sand. The 'fountain of living water' metaphor for God also appears in 2:13, where God contrasts himself with the broken cisterns of idolatry."],
+      "key_terms": [
+        {
+          "hebrew": "מְקוֹר מַיִם חַיִּים",
+          "transliteration": "meqor mayim chayyim",
+          "rendered_as": "fountain of living water",
+          "semantic_range": "spring, source, fountain of flowing/living water",
+          "note": "Living water (mayim chayyim) means flowing, fresh, spring-fed water as opposed to stagnant cistern water. God as the source of living water is one of Jeremiah's most powerful metaphors (cf. 2:13), connecting forward to Jesus's 'living water' language in John 4:10 and 7:38."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "רְפָאֵ֤נִי יְהוָה֙ וְאֵ֣רָפֵ֔א הוֹשִׁיעֵ֖נִי וְאִוָּשֵׁ֑עָה כִּ֥י תְהִלָּתִ֖י אָֽתָּה׃",
+      "text_kjv": "Heal me, O LORD, and I shall be healed; save me, and I shall be saved: for thou art my praise.",
+      "rendering": "Heal me, LORD, and I will be healed. Save me, and I will be saved — for you are my praise.",
+      "expanded_rendering": "This verse has entered Jewish liturgical tradition as the opening of the eighth benediction of the Amidah (the Standing Prayer). The grammar expresses absolute dependence: the passive 'I will be healed' follows only if the LORD is the agent — 'if you heal me, then and only then will I actually be healed.' Coming after verse 9's diagnosis of the incurably sick heart, Jeremiah's prayer acknowledges that only God can cure what is beyond human remedy. The word tehillati ('my praise') means that the LORD himself is both the content and the object of Jeremiah's praise — not what God gives, but who God is.",
+      "translator_notes": ["The verbal structure refa'eni...ve'erafei ('heal me...and I will be healed') uses the imperative followed by the cohortative to express consequence: divine healing produces real healing. The same structure with hoshi'eni...ve'ivvashe'ah ('save me...and I will be saved') creates a perfect parallelism. This verse marks the beginning of Jeremiah's fourth 'confession' (17:14-18). After the unflinching diagnosis of the heart in verse 9, Jeremiah turns to the only physician capable of treating the condition."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "הִנֵּה־הֵ֕מָּה אֹמְרִ֖ים אֵלָ֑י אַיֵּ֥ה דְבַר־יְהוָ֖ה יָ֥בוֹא נָֽא׃",
+      "text_kjv": "Behold, they say unto me, Where is the word of the LORD? let it come now.",
+      "rendering": "Look — they keep saying to me, 'Where is the word of the LORD? Let it come!'",
+      "translator_notes": ["The taunt from Jeremiah's opponents mocks the delay of judgment: if the LORD truly spoke through Jeremiah, where is the fulfillment? The demand yavo na ('let it come, then!') is sarcastic — they dare the prophecy to come true. This challenge to prophetic credibility was a constant burden for Jeremiah, whose predictions of destruction took decades to materialize. The participle omrim ('they keep saying') indicates ongoing, repeated mockery."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַאֲנִ֗י לֹא־אַ֙צְתִּי֙ מֵרֹעֶ֣ה אַחֲרֶ֔יךָ וְי֥וֹם אָנ֖וּשׁ לֹ֣א הִתְאַוֵּ֑יתִי אַתָּ֣ה יָדַ֔עְתָּ מוֹצָ֣א שְׂפָתַ֔י נֹ֥כַח פָּנֶ֖יךָ הָיָֽה׃",
+      "text_kjv": "As for me, I have not hastened from being a pastor to follow thee: neither have I desired the woeful day; thou knowest: that which came out of my lips was right before thee.",
+      "rendering": "As for me, I have not rushed away from shepherding after you, and I have not longed for the day of calamity. You know this — whatever came from my lips was spoken before your face.",
+      "translator_notes": ["Jeremiah defends himself before God: he did not abandon his prophetic calling (lo atsti mero'eh acharekha — 'I did not rush away from shepherding after you'), and he did not desire the disaster he predicted (yom anush — 'the day of incurable [sickness/calamity]'). The word anush echoes verse 9's diagnosis — the day of calamity is characterized by the same incurable condition as the human heart. The phrase motsa sefatai ('what came from my lips') appeals to God as witness that Jeremiah's words were genuine prophecy, spoken nokhach panekha ('before your face, in your presence')."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אַל־תִּהְיֵה־לִ֖י לִמְחִתָּ֑ה מַחֲסִי־אַ֖תָּה בְּי֥וֹם רָעָֽה׃",
+      "text_kjv": "Be not a terror unto me: thou art my hope in the day of evil.",
+      "rendering": "Do not become a source of terror to me — you are my refuge in the day of disaster.",
+      "translator_notes": ["The plea 'do not become a source of terror to me' (al tihyeh li lemechittah) is startlingly honest — Jeremiah acknowledges the possibility that God himself could become terrifying to him. The word mechittah ('terror, ruin, dismay') suggests not just fear but shattering — the prophet fears being broken by the God he serves. Yet he simultaneously calls God machasi ('my refuge') — the tension between terror and refuge defines Jeremiah's experience of prophetic ministry."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "יֵבֹ֤שׁוּ רֹדְפַי֙ וְאַל־אֵבֹ֣שָׁה אָ֔נִי יֵחַ֣תּוּ הֵ֔מָּה וְאַל־אֵחַ֖תָּה אָ֑נִי הָבִ֤יא עֲלֵיהֶם֙ י֣וֹם רָעָ֔ה וּמִשְׁנֶ֥ה שִׁבְר֖וֹן שָׁבְרֵֽם׃",
+      "text_kjv": "Let them be confounded that persecute me, but let not me be confounded: let them be dismayed, but let not me be dismayed: bring upon them the day of evil, and destroy them with double destruction.",
+      "rendering": "Let my persecutors be put to shame, but do not let me be put to shame. Let them be shattered, but do not let me be shattered. Bring upon them the day of disaster, and break them with a double breaking.",
+      "translator_notes": ["The imprecatory prayer follows the pattern of the psalms of individual lament. The chiastic structure — 'let them be shamed / not me be shamed / let them be shattered / not me be shattered' — creates a formal petition for God to distinguish between the prophet and his enemies. The phrase mishneh shivron ('double breaking') intensifies the request beyond mere justice — Jeremiah asks for emphatic, doubled judgment on those who persecute him. The verb shavar ('break, shatter') is repeated for emphasis (shivron shavrem — 'a breaking, break them')."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "כֹּֽה־אָמַ֤ר יְהוָה֙ אֵלַ֔י הָלֹ֗ךְ וְעָֽמַדְתָּ֙ בְּשַׁ֣עַר בְּנֵֽי־הָעָ֔ם אֲשֶׁ֨ר יָבֹ֤אוּ בוֹ֙ מַלְכֵ֣י יְהוּדָ֔ה וַאֲשֶׁ֖ר יֵ֣צְאוּ ב֑וֹ וּבְכֹ֖ל שַׁעֲרֵ֥י יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "Thus said the LORD unto me; Go and stand in the gate of the children of the people, whereby the kings of Judah come in, and by the which they go out, and in all the gates of Jerusalem;",
+      "rendering": "This is what the LORD said to me: Go and stand in the gate of the people, through which the kings of Judah enter and leave, and in all the gates of Jerusalem.",
+      "translator_notes": ["The 'gate of the people' (sha'ar benei ha'am) was likely a specific gate in the Jerusalem wall — its exact identification is debated (some identify it with the Benjamin Gate). The instruction to stand 'in' the gate places Jeremiah at the most public location possible — gates were the centers of commerce, law, and civic life. The mention of 'kings of Judah' entering and leaving indicates this was a royal thoroughfare, ensuring maximum visibility for the prophetic message."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאָמַרְתָּ֣ אֲלֵיהֶ֗ם שִׁמְע֤וּ דְבַר־יְהוָה֙ מַלְכֵ֣י יְהוּדָ֔ה וְכָל־יְהוּדָ֔ה וְכֹ֖ל יֹשְׁבֵ֣י יְרוּשָׁלָ֑͏ִם הַבָּאִ֖ים בַּשְּׁעָרִ֥ים הָאֵֽלֶּה׃",
+      "text_kjv": "And say unto them, Hear ye the word of the LORD, ye kings of Judah, and all Judah, and all the inhabitants of Jerusalem, that enter in by these gates:",
+      "rendering": "Say to them: Hear the word of the LORD, you kings of Judah, and all of Judah, and all inhabitants of Jerusalem who enter through these gates.",
+      "translator_notes": ["The address encompasses all levels of society: kings (political leadership), all Judah (the nation), and all inhabitants of Jerusalem (the capital's residents). The phrase 'who enter through these gates' grounds the universal address in the specific, physical location — these are not abstract recipients but real people passing through a real gate on a given day."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "כֹּ֚ה אָמַ֣ר יְהוָ֔ה הִשָּׁמְר֖וּ בְּנַפְשׁ֣וֹתֵיכֶ֑ם וְאַל־תִּשְׂא֥וּ מַשָּׂ֛א בְּי֥וֹם הַשַּׁבָּ֖ת וַהֲבֵאתֶ֥ם בְּשַׁעֲרֵ֥י יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "Thus saith the LORD; Take heed to yourselves, and bear no burden on the sabbath day, nor bring it in by the gates of Jerusalem;",
+      "rendering": "This is what the LORD says: Guard your lives — do not carry any load on the Sabbath day or bring it through the gates of Jerusalem.",
+      "translator_notes": ["The phrase hishameru benafshoteikhem ('guard your lives/souls') is emphatic — Sabbath observance is presented not as a minor ritual but as a matter of life and death. The word massa ('load, burden, cargo') refers to commercial goods being transported for trade. The gates of Jerusalem are the entry points for commerce — the prohibition targets the reduction of Sabbath to an ordinary business day. This Sabbath oracle (vv. 19-27) is one of the few extended Sabbath passages in the prophetic literature."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְלֹא־תוֹצִ֨יאוּ מַשָּׂ֤א מִבָּתֵּיכֶם֙ בְּי֣וֹם הַשַּׁבָּ֔ת וְכָל־מְלָאכָ֖ה לֹ֣א תַעֲשׂ֑וּ וְקִדַּשְׁתֶּם֙ אֶת־י֣וֹם הַשַּׁבָּ֔ת כַּאֲשֶׁ֥ר צִוִּ֖יתִי אֶת־אֲבוֹתֵיכֶֽם׃",
+      "text_kjv": "Neither carry forth a burden out of your houses on the sabbath day, neither do ye any work, but hallow the sabbath day, as I commanded your fathers.",
+      "rendering": "Do not carry any load out of your houses on the Sabbath day, and do not do any work. Consecrate the Sabbath day, just as I commanded your ancestors.",
+      "translator_notes": ["The verb qiddashtem ('consecrate, set apart as holy') uses the same root as qadosh ('holy'). To consecrate the Sabbath is to set it apart from ordinary time — to treat it as belonging to God rather than to commerce. The phrase 'as I commanded your ancestors' explicitly connects this instruction to the Sinai covenant (Exodus 20:8-11, Deuteronomy 5:12-15). The pairing of 'houses' with 'gates' (v. 21) covers both domestic and commercial activity."],
+      "key_terms": [
+        {
+          "hebrew": "קִדַּשׁ",
+          "transliteration": "qiddesh",
+          "rendered_as": "consecrate",
+          "semantic_range": "sanctify, set apart, make holy, dedicate",
+          "note": "From the root q-d-sh ('holy'). To consecrate the Sabbath is to recognize it as qualitatively different from other days — set apart for God and removed from the sphere of ordinary labor and commerce."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְלֹ֣א שָׁמְע֔וּ וְלֹ֥א הִטּ֖וּ אֶת־אָזְנָ֑ם וַיַּקְשׁוּ֙ אֶת־עָרְפָּ֔ם לְבִלְתִּ֣י שְׁמ֔וֹעַ וּלְבִלְתִּ֖י קַ֥חַת מוּסָֽר׃",
+      "text_kjv": "But they obeyed not, neither inclined their ear, but made their neck stiff, that they might not hear, nor receive instruction.",
+      "rendering": "But they did not listen. They did not incline their ear. They stiffened their neck, refusing to hear and refusing to accept correction.",
+      "translator_notes": ["The triple refusal — lo shame'u ('did not listen'), lo hittu et oznam ('did not incline their ear'), vayyaqshu et orpam ('stiffened their neck') — escalates from passive non-hearing to active resistance. The 'stiff neck' (oref qasheh) is a characteristic biblical metaphor for stubbornness, drawn from the image of an ox that refuses to turn when the yoke is pulled (cf. Exodus 32:9, 33:3). The word musar ('correction, discipline, instruction') encompasses both education and discipline — they rejected God's teaching and his corrective action alike."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְ֠הָיָה אִם־שָׁמֹ֨עַ תִּשְׁמְע֤וּ אֵלַי֙ נְאֻם־יְהוָ֔ה לְבִלְתִּ֣י הָבִ֣יא מַשָּׂ֗א בְּשַׁעֲרֵ֛י הָעִ֥יר הַזֹּ֖את בְּי֣וֹם הַשַּׁבָּ֑ת וּלְקַדֵּשׁ֙ אֶת־י֣וֹם הַשַּׁבָּ֔ת לְבִלְתִּ֥י עֲשׂוֹת־בָּ֖הּ כָּל־מְלָאכָֽה׃",
+      "text_kjv": "And it shall come to pass, if ye diligently hearken unto me, saith the LORD, to bring in no burden through the gates of this city on the sabbath day, but hallow the sabbath day, to do no work therein;",
+      "rendering": "If you truly listen to me, declares the LORD, and bring no load through the gates of this city on the Sabbath day, and if you consecrate the Sabbath day by doing no work on it,",
+      "translator_notes": ["The emphatic infinitive absolute construction shamoa tishme'u ('truly listen, really listen') stresses that genuine obedience is required, not token compliance. This begins a conditional promise (vv. 24-26): if the people observe the Sabbath, then Jerusalem will endure. The conditional structure offers a genuine choice — the future is still open if the people respond."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וּבָ֣אוּ בְשַׁעֲרֵ֣י הָעִ֣יר הַזֹּ֡את מְלָכִ֣ים ׀ וְשָׂרִ֡ים יֹשְׁבִים֩ עַל־כִּסֵּ֨א דָוִ֜ד רֹכְבִ֣ים ׀ בָּרֶ֣כֶב וּבַסּוּסִ֗ים הֵ֚מָּה וְשָׂ֣רֵיהֶ֔ם אִ֥ישׁ יְהוּדָ֖ה וְיֹשְׁבֵ֣י יְרוּשָׁלָ֑͏ִם וְיָשְׁבָ֥ה הָעִיר־הַזֹּ֖את לְעוֹלָֽם׃",
+      "text_kjv": "Then shall there enter into the gates of this city kings and princes sitting upon the throne of David, riding in chariots and on horses, they, and their princes, the men of Judah, and the inhabitants of Jerusalem: and this city shall remain for ever.",
+      "rendering": "then kings and officials who sit on the throne of David will enter through the gates of this city, riding in chariots and on horses — they and their officials, along with the people of Judah and the inhabitants of Jerusalem — and this city will be inhabited forever.",
+      "translator_notes": ["The vision of Davidic royalty entering through Jerusalem's gates represents the continuation of the covenant dynasty. The word sarim ('officials, princes, commanders') appears twice, emphasizing the full apparatus of legitimate governance. The phrase yoshvei al kisse David ('sitting on the throne of David') invokes the Davidic covenant (2 Samuel 7:12-16). The promise that the city will be inhabited le'olam ('forever') is conditional — it depends on the 'if' of verse 24."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וּבָ֣אוּ מֵעָרֵֽי־יְהוּדָ֣ה וּמִסְּבִיב֣וֹת יְרוּשָׁלַ֡͏ִם וּמֵאֶ֣רֶץ בִּנְיָמִ֡ן וּמִן־הַשְּׁפֵלָ֞ה וּמִן־הָהָ֤ר וּמִן־הַנֶּ֙גֶב֙ מְבִאִ֣ים עוֹלָ֣ה וְזֶ֡בַח וּמִנְחָ֣ה וּלְבוֹנָ֗ה וּמְבִאֵ֥י תוֹדָ֛ה בֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "And they shall come from the cities of Judah, and from the places about Jerusalem, and from the land of Benjamin, and from the plain, and from the mountains, and from the south, bringing burnt offerings, and sacrifices, and meat offerings, and incense, and bringing sacrifices of praise, unto the house of the LORD.",
+      "rendering": "People will come from the cities of Judah and the surroundings of Jerusalem, from the land of Benjamin, from the lowlands, from the hill country, and from the Negev, bringing burnt offerings and sacrifices, grain offerings and frankincense, and bringing thank offerings to the house of the LORD.",
+      "translator_notes": ["The geographic sweep — cities of Judah, surroundings of Jerusalem, Benjamin, the Shephelah (lowlands), the hill country, and the Negev (southern desert) — covers the entire territory of the kingdom. The list of offerings — olah (burnt offering), zevach (sacrifice), minchah (grain offering), levonah (frankincense), and todah (thank offering) — represents the full range of legitimate worship. This idealized vision depends on Sabbath observance: if the people honor God's holy time, the holy place will flourish."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְאִם־לֹ֨א תִשְׁמְע֜וּ אֵלַ֗י לְקַדֵּשׁ֙ אֶת־י֣וֹם הַשַּׁבָּ֔ת וּלְבִלְתִּ֣י ׀ שְׂאֵ֣ת מַשָּׂ֗א וּבֹ֛א בְּשַׁעֲרֵ֥י יְרוּשָׁלַ֖͏ִם בְּי֣וֹם הַשַּׁבָּ֑ת וְהִצַּ֤תִּי אֵשׁ֙ בִּשְׁעָרֶ֔יהָ וְאָכְלָ֥ה אַרְמְנ֥וֹת יְרוּשָׁלַ֖͏ִם וְלֹ֥א תִכְבֶּֽה׃",
+      "text_kjv": "But if ye will not hearken unto me to hallow the sabbath day, and not to bear a burden, even entering in at the gates of Jerusalem on the sabbath day; then will I kindle a fire in the gates thereof, and it shall devour the palaces of Jerusalem, and it shall not be quenched.",
+      "rendering": "But if you do not listen to me — to consecrate the Sabbath day, to carry no load and enter the gates of Jerusalem on the Sabbath day — then I will kindle a fire in her gates, and it will consume the fortified buildings of Jerusalem and will not be extinguished.",
+      "translator_notes": ["The conditional threat mirrors the conditional promise of verses 24-26 with devastating precision: the same gates that could witness royal processions (v. 25) will instead be consumed by fire. The word armenot ('fortified buildings, palaces, citadels') refers to the great structures of Jerusalem — royal residences, administrative buildings, defensive fortifications. The phrase lo tikhbeh ('will not be extinguished') echoes the unquenchable fire of divine judgment throughout the prophets (cf. Isaiah 66:24, Amos 5:6). The fire entered Jerusalem's gates in 586 BCE when Nebuchadnezzar's army burned the city, fulfilling this conditional warning."],
+      "reading_level": "8th grade"
+    }
+  ]
+}

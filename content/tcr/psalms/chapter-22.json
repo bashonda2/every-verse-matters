@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 22,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The most anguished lament in the Psalter, moving from absolute abandonment to universal praise. The sufferer opens with the shattering cry 'My God, my God, why have you forsaken me?' and descends through mockery, physical torment, encirclement by enemies compared to bulls and lions and dogs, and the piercing of hands and feet. At verse 22 (Hebrew v. 23), the psalm pivots without explanation to triumphant praise — the sufferer vows to declare God's name in the assembly, and the vision expands until all nations, all the dead, and all future generations worship the LORD.",
+    "remarkable": "This psalm contains more specific correspondences to the crucifixion of Jesus than any other Old Testament text. The opening cry is quoted in Aramaic by Jesus on the cross (Matthew 27:46). The mockery ('He trusted in the LORD; let him deliver him,' v. 9), the thirst ('my tongue clings to my jaws,' v. 16), the pierced hands and feet (v. 17), and the division of garments by casting lots (v. 19) are all cited or echoed in the Gospel passion narratives. Yet the psalm makes no claim to be predictive prophecy — it is the raw, present-tense suffering of a real person in genuine agony. The Christian reading sees in it a pattern of innocent suffering that reaches its ultimate fulfillment in Christ, while the Jewish reading sees a paradigm of Israel's suffering and vindication. Both readings honor the text; neither exhausts it. The unexplained pivot from despair to praise remains one of the great mysteries of the Psalter — what happened between verses 22 and 23 that turned agony into worship?",
+    "friction": "The Hebrew of verse 17 (WLC v. 17) is one of the most disputed readings in the entire Hebrew Bible. The Masoretic text reads kaari ('like a lion') — 'like a lion, my hands and my feet.' This is grammatically incomplete and difficult. Many manuscripts and ancient versions (including the Septuagint, composed centuries before Christ) read kaaru ('they pierced') — 'they pierced my hands and my feet.' A Dead Sea Scrolls fragment (5/6HevPs) also supports the reading 'they pierced.' The difference is a single Hebrew letter: yod versus vav. We render the line to reflect the textual difficulty honestly. The superscription 'upon Ayyelet ha-Shachar' ('the doe of the dawn') likely indicates a melody name, though some interpreters see symbolic significance — the hunted doe at dawn, vulnerable and exposed.",
+    "connections": "Jesus quotes the opening line from the cross in Aramaic: Eli, Eli, lema sabachthani (Matthew 27:46, Mark 15:34). The mockery of verse 9 is echoed in Matthew 27:43. The thirst of verse 16 connects to John 19:28. The pierced hands and feet of verse 17 are central to the crucifixion narratives. The divided garments and lots of verse 19 are fulfilled in John 19:23-24. The vow to praise in the assembly (v. 23) is quoted in Hebrews 2:12. The universal scope of the ending (vv. 28-32) anticipates the Great Commission and the ingathering of the nations. Within the Psalter, this psalm stands as the darkest point before the shepherd psalm that follows — Psalm 22 is the valley of the shadow, Psalm 23 is the green pasture on the other side."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "לַמְנַצֵּ֥חַ עַל־אַיֶּ֖לֶת הַשַּׁ֣חַר מִזְמ֥וֹר לְדָוִֽד׃",
+      "text_kjv": "To the chief Musician upon Aijeleth Shahar, A Psalm of David.",
+      "rendering": "For the musical director, on 'The Doe of the Dawn' — a psalm of David.",
+      "translator_notes": [
+        "Ayyelet ha-Shachar ('the doe of the dawn') is most likely a melody name, though the image — a vulnerable animal at first light — resonates powerfully with the psalm's content. The doe hunted at dawn mirrors the sufferer surrounded by predators. In WLC versification, this superscription is verse 1."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "אֵלִ֤י אֵלִ֗י לָמָ֣ה עֲזַבְתָּ֑נִי רָח֥וֹק מִֽ֝ישׁוּעָתִ֗י דִּבְרֵ֥י שַׁאֲגָתִֽי׃",
+      "text_kjv": "My God, my God, why hast thou forsaken me? why art thou so far from helping me, and from the words of my roaring?",
+      "rendering": "My God, my God, why have you forsaken me?\nWhy are you so far from saving me,\nfrom the words of my groaning?",
+      "translator_notes": [
+        "Jesus quotes this verse from the cross in Aramaic: Eli, Eli, lema sabachthani (Matthew 27:46). The fact that Jesus chose this psalm — not a psalm of confession, but a psalm of innocent suffering — is theologically significant. He identifies with the righteous sufferer, not the guilty penitent.",
+        "Shaagah ('roaring, groaning') is used elsewhere of lions (Psalm 104:21, Amos 3:4). The sufferer's cry has the raw intensity of an animal's roar — this is not polite prayer but primal anguish."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עָזַב",
+          "transliteration": "azav",
+          "rendered_as": "forsaken",
+          "semantic_range": "to forsake, abandon, leave, leave behind, release, neglect",
+          "note": "Azav describes deliberate abandonment — a conscious leaving. It is used of a wife left by her husband (Isaiah 54:6), of commandments left unobeyed (1 Kings 18:18), and here of God leaving the sufferer. The word implies that God was once present but has now departed, and the sufferer cannot find him."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אֱ֭לֹהַי אֶקְרָ֣א י֑וֹמָם וְלֹ֥א תַ֝עֲנֶ֗ה וְ֝לַ֗יְלָה וְלֹא־דֻמִיָּ֥ה לִֽי׃",
+      "text_kjv": "O my God, I cry in the daytime, but thou hearest not; and in the night season, and am not silent.",
+      "rendering": "My God, I cry out by day, but you do not answer;\nby night, but I find no rest.",
+      "translator_notes": [
+        "The merism 'by day ... by night' means the crying is continuous — there is no relief at any hour. The phrase lo dumiyyah li ('no silence/rest for me') could mean either 'I have no silence' (I never stop crying) or 'there is no stillness for me' (I find no peace). Both readings reinforce the relentless, unanswered agony."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְאַתָּ֣ה קָד֑וֹשׁ י֝וֹשֵׁ֗ב תְּהִלּ֥וֹת יִשְׂרָאֵֽל׃",
+      "text_kjv": "But thou art holy, O thou that inhabitest the praises of Israel.",
+      "rendering": "Yet you are holy,\nenthroned on the praises of Israel.",
+      "expanded_rendering": "The sufferer pivots from his own agony to God's character. Ve-attah qadosh ('yet you are holy') is not accusation but confession — even in abandonment, the sufferer affirms God's holiness. The phrase yoshev tehillot Yisrael ('enthroned on the praises of Israel') creates an extraordinary image: God's throne is constructed from the worship of his people. Israel's praises are the seat of God's sovereignty. This means that even as the sufferer cries out unheard, God remains holy and enthroned — and that the praises of the community are the very space where God dwells.",
+      "translator_notes": [
+        "Yoshev ('sitting, dwelling, enthroned') is the same verb used for kings sitting on thrones. God is not merely present in Israel's worship — he reigns from it. The praises of the people are the location of God's kingship."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קָדוֹשׁ",
+          "transliteration": "qadosh",
+          "rendered_as": "holy",
+          "semantic_range": "holy, set apart, sacred, other, separate, consecrated",
+          "note": "Qadosh means fundamentally 'separate, other, set apart.' God's holiness is his utter distinctness from creation. The sufferer affirms this even while experiencing God's apparent absence — holiness does not depend on the sufferer's experience of it."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "בְּ֭ךָ בָּטְח֣וּ אֲבֹתֵ֑ינוּ בָּ֝טְח֗וּ וַֽתְּפַלְּטֵֽמוֹ׃",
+      "text_kjv": "Our fathers trusted in thee: they trusted, and thou didst deliver them.",
+      "rendering": "In you our ancestors trusted;\nthey trusted, and you rescued them.",
+      "translator_notes": [
+        "The threefold repetition of trust (batchu ... batchu ... tefalletemo) builds a case from history: the ancestors trusted, they kept trusting, and God delivered. The verb palat ('to escape, be delivered, be rescued') describes swift, complete rescue. The sufferer is constructing an argument — past faithfulness should guarantee present deliverance. But the argument will fail in his own case, which deepens the agony."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "אֵלֶ֣יךָ זָעֲק֣וּ וְנִמְלָ֑טוּ בְּךָ֖ בָטְח֣וּ וְלֹא־בֽוֹשׁוּ׃",
+      "text_kjv": "They cried unto thee, and were delivered: they trusted in thee, and were not confounded.",
+      "rendering": "To you they cried out and were delivered;\nin you they trusted and were not put to shame.",
+      "translator_notes": [
+        "Lo-voshu ('they were not put to shame') is the theological payoff: trusting God did not humiliate them. Shame (bosh) in Hebrew is public exposure as a fool — trusting in something that fails you. The ancestors trusted and were vindicated. The sufferer, by contrast, is being publicly shamed (vv. 7-9), which makes his situation an apparent contradiction of the historical pattern."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְאָנֹכִ֣י תוֹלַ֣עַת וְלֹא־אִ֑ישׁ חֶרְפַּ֥ת אָ֝דָ֗ם וּבְז֥וּי עָֽם׃",
+      "text_kjv": "But I am a worm, and no man; a reproach of men, and despised of the people.",
+      "rendering": "But I am a worm, not a man —\nscorned by humanity, despised by the people.",
+      "translator_notes": [
+        "Tolaath specifically refers to the crimson worm (tola'at shani), the insect crushed to produce scarlet dye. The image carries overtones of being crushed, of yielding color through destruction. Later Christian readers saw in this an image of Christ's blood-stained suffering, though the psalm's original context is simply one of utter degradation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "כׇּל־רֹ֭אַי יַלְעִ֣גוּ לִ֑י יַפְטִ֥ירוּ בְ֝שָׂפָ֗ה יָנִ֥יעוּ רֹֽאשׁ׃",
+      "text_kjv": "All they that see me laugh me to scorn: they shoot out the lip, they shake the head, saying,",
+      "rendering": "All who see me mock me;\nthey curl their lips, they shake their heads:",
+      "translator_notes": [
+        "Yaftiru ve-safah ('they open wide with the lip') describes a sneering, contemptuous gesture — pushing out the lower lip in mockery. Yaniu rosh ('they shake the head') is a gesture of scorn and dismissal. The sufferer's pain is a public spectacle, and the audience participates with derisive body language. Matthew 27:39 records the same gestures at the crucifixion: 'And those who passed by derided him, wagging their heads.'"
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "גֹּ֣ל אֶל־יְהוָ֣ה יְפַלְּטֵ֑הוּ יַ֝צִּילֵ֗הוּ כִּ֘י חָ֥פֵֽץ בּֽוֹ׃",
+      "text_kjv": "He trusted on the LORD that he would deliver him: let him deliver him, seeing he delighted in him.",
+      "rendering": "\"He rolled himself onto the LORD — let the LORD rescue him!\nLet him deliver him, since he delights in him!\"",
+      "translator_notes": [
+        "The verb gol ('roll') is imperative in form but is quoted as past action by the mockers — 'he rolled (his burden) to the LORD.' This verb choice suggests total, weight-bearing trust, like rolling a heavy stone onto someone else. The mockery targets the completeness of the sufferer's dependence on God."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כִּֽי־אַתָּ֣ה גֹחִ֣י מִבָּ֑טֶן מַ֝בְטִיחִ֗י עַל־שְׁדֵ֥י אִמִּֽי׃",
+      "text_kjv": "But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother's breasts.",
+      "rendering": "Yet it was you who drew me from the womb,\nwho made me secure at my mother's breasts.",
+      "translator_notes": [
+        "The sufferer responds to the mockers not by arguing theology but by going back to his earliest experience of God. Gochi mi-baten ('the one who drew me from the belly') makes God the midwife. Mavtiachi al-shedei immi ('the one who made me trust at my mother's breasts') means that the sufferer's trust in God predates his conscious memory — God taught him trust before he could speak. This is the deepest possible foundation for faith: God was there at the beginning."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "עָ֭לֶיךָ הׇשְׁלַ֣כְתִּי מֵרָ֑חֶם מִבֶּ֥טֶן אִ֝מִּ֗י אֵ֣לִי אָֽתָּה׃",
+      "text_kjv": "I was cast upon thee from the womb: thou art my God from my mother's belly.",
+      "rendering": "Upon you I was cast from birth;\nfrom my mother's womb, you have been my God.",
+      "translator_notes": [
+        "Hoshlakhti ('I was cast, thrown') is passive — the sufferer did not choose God; he was thrown onto God at birth. The relationship is not voluntary but foundational, woven into his existence from the moment of emergence from the womb. The final phrase — Eli attah ('you are my God') — is a personal confession that echoes the opening cry of verse 2. Despite everything, the sufferer still claims God as his own."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "אַל־תִּרְחַ֣ק מִ֭מֶּנִּי כִּי־צָרָ֣ה קְרוֹבָ֑ה כִּי־אֵ֥ין עוֹזֵֽר׃",
+      "text_kjv": "Be not far from me; for trouble is near; for there is none to help.",
+      "rendering": "Do not be far from me,\nfor trouble is near\nand there is no one to help.",
+      "translator_notes": [
+        "The spatial language is precise and devastating: God is far (rachaq), trouble is near (qerovah), and help is absent (ein ozer). The sufferer is caught between a distant God and a close enemy with no mediator, no ally, no helper. This is the setup for the violent imagery that follows."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "סְ֭בָבוּנִי פָּרִ֣ים רַבִּ֑ים אַבִּירֵ֖י בָשָׁ֣ן כִּתְּרֽוּנִי׃",
+      "text_kjv": "Many bulls have compassed me: strong bulls of Bashan have beset me round.",
+      "rendering": "Many bulls surround me;\nstrong bulls of Bashan encircle me.",
+      "translator_notes": [
+        "Bashan (the Golan Heights region) was famous for its rich pastureland and powerful cattle (Amos 4:1, Ezekiel 39:18). The 'bulls of Bashan' (abbirei Vashan) are the largest, most dangerous cattle in the known world — they represent enemies of overwhelming physical power. The verbs sevavuni ('they surround me') and kitteruni ('they encircle me') describe a tightening ring with no escape route."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "פָּצ֣וּ עָלַ֣י פִּיהֶ֑ם אַ֝רְיֵ֗ה טֹרֵ֥ף וְשֹׁאֵֽג׃",
+      "text_kjv": "They gaped upon me with their mouths, as a ravening and a roaring lion.",
+      "rendering": "They open their mouths wide against me —\na lion tearing and roaring.",
+      "translator_notes": [
+        "The animal imagery shifts from bulls to a lion (aryeh) — from encirclement to attack. Toref ve-shoeg ('tearing and roaring') describes a lion in the act of killing: tearing flesh while roaring. The open mouth (patsu pihem) conveys both the literal gaping jaws of a predator and the mouths of mockers hurling insults. The enemies are simultaneously verbal and physical threats."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "כַּמַּ֗יִם נִשְׁפַּ֗כְתִּי וְהִתְפָּֽרְדוּ֮ כׇּל־עַצְמוֹתָ֢י הָיָ֣ה לִ֭בִּי כַּדּוֹנָ֑ג נָ֝מֵ֗ס בְּת֣וֹךְ מֵעָֽי׃",
+      "text_kjv": "I am poured out like water, and all my bones are out of joint: my heart is like wax; it is melted in the midst of my bowels.",
+      "rendering": "I am poured out like water,\nand all my bones are pulled apart.\nMy heart is like wax —\nit melts within me.",
+      "expanded_rendering": "The sufferer now describes what is happening to his body. Three images of dissolution: water poured out (shapakh — the irreversible spilling of liquid onto the ground), bones dislocated (hitpardu — 'separated, scattered,' every joint pulled apart), and a heart melted like wax (donag — beeswax softened by heat until it loses all shape). The body is coming apart at every level — liquid, solid, and organ. This is not merely pain but disintegration. The sufferer is losing physical coherence. The description is so visceral and specific that it reads less like metaphor and more like medical observation of someone dying.",
+      "translator_notes": [
+        "The sequence moves inward: water (external), bones (structural), heart (innermost). Each image represents a deeper level of collapse. Namas ('it melts') is the same verb used for the melting of the Canaanites' hearts in Joshua 2:11 — it describes the loss of all capacity to resist or endure."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "יָ֘בֵ֤שׁ כַּחֶ֨רֶשׂ ׀ כֹּחִ֗י וּ֭לְשׁוֹנִי מֻדְבָּ֣ק מַלְקוֹחָ֑י וְלַעֲפַר־מָ֖וֶת תִּשְׁפְּתֵֽנִי׃",
+      "text_kjv": "My strength is dried up like a potsherd; and my tongue cleaveth to my jaws; and thou hast brought me into the dust of death.",
+      "rendering": "My strength is dried up like a potsherd,\nand my tongue clings to my jaws.\nYou lay me in the dust of death.",
+      "translator_notes": [
+        "Cheres ('potsherd') is a broken piece of pottery — not just dry but shattered and useless. The tongue clinging to the jaws (leshoni mudbaq malqochay) describes extreme dehydration. John 19:28 records Jesus saying 'I thirst' from the cross. The final line — la-afar mavet tishpeteni ('to the dust of death you lay me') — is addressed to God. The sufferer does not blame his enemies for his death; he holds God responsible. The 'dust of death' is the grave itself, the return to the earth of Genesis 3:19."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "כִּ֥י סְבָב֗וּנִי כְּלָ֫בִ֥ים עֲדַ֣ת מְ֭רֵעִים הִקִּ֣יפוּנִי כָּ֝אֲרִ֗י יָדַ֥י וְרַגְלָֽי׃",
+      "text_kjv": "For dogs have compassed me: the assembly of the wicked have inclosed me: they pierced my hands and my feet.",
+      "rendering": "For dogs surround me;\na pack of evildoers closes in on me.\nThey pierce my hands and my feet.",
+      "expanded_rendering": "The third animal image — dogs (kelavim) — is the most contemptible. In the ancient Near East, dogs were not pets but scavenging, feral pack animals that fed on garbage and corpses. An adat mere'im ('assembly/pack of evildoers') encircles the sufferer, and then comes the most disputed line in the psalm: kaari / kaaru yadai ve-raglai. The Masoretic text reads kaari ('like a lion') — but 'like a lion, my hands and my feet' is grammatically incomplete. The Septuagint, composed centuries before Christ, reads oryxan ('they dug/pierced'), and a Dead Sea Scrolls fragment supports kaaru ('they pierced'). If the reading is 'they pierced,' the line describes the fixing of the sufferer's hands and feet — an image that corresponds precisely to crucifixion, a Roman execution method unknown in David's era but standard practice by the first century. We render 'they pierce' following the ancient versional evidence and the Dead Sea Scrolls reading, while noting the textual difficulty.",
+      "translator_notes": [
+        "The textual variant between kaari (כָּאֲרִי, 'like a lion') and kaaru (כָּאֲרוּ, 'they pierced/dug') hinges on a single letter: yod vs. vav. The Masoretic kaari reading would require supplying a verb — 'like a lion [they maul?] my hands and my feet' — but no verb is present. The kaaru reading provides a complete clause: 'they pierced my hands and my feet.' The Nahal Hever scroll (5/6HevPs) reads ka'aru, supporting 'they pierced.'",
+        "Dogs in the biblical world were unclean scavengers (1 Kings 14:11, 21:23-24). To be surrounded by dogs is to be treated as carrion — already dead, already refuse."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כָּאֲרִי / כָּאֲרוּ",
+          "transliteration": "kaari / kaaru",
+          "rendered_as": "they pierce",
+          "semantic_range": "like a lion (MT); they pierced, they dug (LXX, DSS)",
+          "note": "This is the most textually contested word in the psalm. The rendering follows the Septuagint and Dead Sea Scrolls evidence (kaaru, 'they pierced') rather than the Masoretic kaari ('like a lion'), because kaaru yields a grammatically complete and contextually coherent clause. The correspondence to crucifixion is unmistakable in the Christian reading, though the psalm's original context predates that practice."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "אֲסַפֵּ֥ר כׇּל־עַצְמוֹתָ֑י הֵ֥מָּה יַ֝בִּ֗יטוּ יִרְאוּ־בִֽי׃",
+      "text_kjv": "I may tell all my bones: they look and stare upon me.",
+      "rendering": "I can count all my bones;\nthey stare and gaze at me.",
+      "translator_notes": [
+        "The sufferer is so emaciated that every bone is visible and countable (asapper kol atsmotai). This is the body of someone who has been wasting — from illness, torture, starvation, or all three. The pronoun 'they' (hemmah) shifts to the onlookers who watch the spectacle with fascinated contempt. The sufferer is both dying and being watched dying."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "יְחַלְּק֣וּ בְגָדַ֣י לָהֶ֑ם וְעַל־לְ֝בוּשִׁ֗י יַפִּ֥ילוּ גוֹרָֽל׃",
+      "text_kjv": "They part my garments among them, and cast lots upon my vesture.",
+      "rendering": "They divide my garments among themselves,\nand for my clothing they cast lots.",
+      "translator_notes": [
+        "The distinction between begadai ('my garments') and levushi ('my clothing/vesture') may indicate outer garments (divided into portions) and an inner garment (awarded by lot as a single piece). John 19:23-24 makes exactly this distinction: the soldiers divided the outer garments but cast lots for the seamless tunic."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאַתָּ֣ה יְ֭הוָה אַל־תִּרְחָ֑ק אֱ֝יָלוּתִ֗י לְעֶזְרָ֥תִי חֽוּשָׁה׃",
+      "text_kjv": "But be not thou far from me, O LORD: O my strength, haste thee to help me.",
+      "rendering": "But you, O LORD — do not be far away!\nO my strength, come quickly to help me!",
+      "translator_notes": [
+        "The sufferer turns from describing his enemies back to God. The plea al-tirchaq ('do not be far') echoes verse 12 and answers the opening complaint that God is rachoq ('far'). Eyaluti ('my strength') is a rare word — possibly from ayyal ('ram, deer'), suggesting swiftness and power. The imperative chushah ('hurry!') conveys desperation — time is running out."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "הַצִּ֣ילָה מֵחֶ֣רֶב נַפְשִׁ֑י מִיַּד־כֶּ֝֗לֶב יְחִידָתִֽי׃",
+      "text_kjv": "Deliver my soul from the sword; my darling from the power of the dog.",
+      "rendering": "Deliver my life from the sword,\nmy only life from the power of the dog.",
+      "translator_notes": [
+        "Nafshi ('my soul/life') is paralleled by yechidati ('my only one, my unique one, my darling'). Yechidah means 'only, solitary, unique' — the sufferer has only one life, and it is about to be taken. The 'sword' (cherev) represents violent death, and 'the dog' (kelev, singular) represents the most contemptible of the enemies from verse 17. The plea is not for comfort but for survival."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "ה֭וֹשִׁיעֵנִי מִפִּ֣י אַרְיֵ֑ה וּמִקַּרְנֵ֖י רֵמִ֣ים עֲנִיתָֽנִי׃",
+      "text_kjv": "Save me from the lion's mouth: for thou hast heard me from the horns of the unicorns.",
+      "rendering": "Save me from the mouth of the lion!\nFrom the horns of the wild oxen — you have answered me!",
+      "expanded_rendering": "This is the pivot point of the entire psalm — arguably the most dramatic turn in all of Hebrew poetry. The first half is a plea: 'Save me from the lion's mouth!' The second half is a sudden, astonished declaration: 'From the horns of the wild oxen — you have answered me!' (anitani). Something has happened between the two halves of this verse that the psalm does not describe. The sufferer was crying out for rescue, and suddenly, without transition or explanation, he declares that God has answered. The verb anah ('to answer, respond') is in the perfect tense — completed action. God answered. How? When? The psalm does not say. The shift from lament to praise begins here and will not look back. Everything from this point forward is thanksgiving, vow, and expanding vision.",
+      "translator_notes": [
+        "Remim ('wild oxen') were massive, now-extinct aurochs — the largest and most dangerous bovines in the ancient world. The KJV translated this as 'unicorns' following the Septuagint's monokeros, but the reference is to the wild ox (Bos primigenius). Their horns were weapons of impalement.",
+        "The shift from petition to praise at anitani ('you have answered me') is unexplained. Some scholars propose that a priestly oracle of salvation was spoken between verses 22a and 22b during liturgical performance. Others see a pure act of faith. The text itself offers no mechanism — only the result."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "אֲסַפְּרָ֣ה שִׁמְךָ֣ לְאֶחָ֑י בְּת֖וֹךְ קָהָ֣ל אֲהַלְלֶֽךָּ׃",
+      "text_kjv": "I will declare thy name unto my brethren: in the midst of the congregation will I praise thee.",
+      "rendering": "I will declare your name to my brothers;\nin the midst of the assembly I will praise you.",
+      "translator_notes": [
+        "The vow to declare God's name (shimkha) to his brothers (echai) is quoted in Hebrews 2:12, where the writer applies it to Jesus declaring God's name to the church. In its psalmic context, the sufferer who was alone and surrounded by enemies now stands in the qahal ('assembly, congregation') among brothers — restored to community. The shift from isolation to assembly is itself a form of salvation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "יִרְאֵ֤י יְהוָ֨ה ׀ הַלְל֗וּהוּ כׇּל־זֶ֣רַע יַעֲקֹ֣ב כַּבְּד֑וּהוּ וְג֥וּרוּ מִ֝מֶּ֗נּוּ כׇּל־זֶ֥רַע יִשְׂרָאֵֽל׃",
+      "text_kjv": "Ye that fear the LORD, praise him; all ye the seed of Jacob, glorify him; and fear him, all ye the seed of Israel.",
+      "rendering": "You who fear the LORD, praise him!\nAll you offspring of Jacob, glorify him!\nStand in awe of him, all you offspring of Israel!",
+      "translator_notes": [
+        "The scope begins expanding. The sufferer's individual praise broadens to include all who fear the LORD, all the seed of Jacob, all the seed of Israel. Three groups named, three commands given: halleluhu ('praise him'), kabbeduhu ('glorify/honor him'), guru mimmennu ('stand in awe of him'). The verb kavad ('glorify, honor') shares the root of kavod ('glory') — the worshippers are to add weight to God's reputation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "כִּ֤י לֹֽא־בָזָ֨ה וְלֹ֪א שִׁקַּ֡ץ עֱנ֬וּת עָנִ֗י וְלֹא־הִסְתִּ֣יר פָּנָ֣יו מִמֶּ֑נּוּ וּֽבְשַׁוְּע֖וֹ אֵלָ֣יו שָׁמֵֽעַ׃",
+      "text_kjv": "For he hath not despised nor abhorred the affliction of the afflicted; neither hath he hid his face from him; but when he cried unto him, he heard.",
+      "rendering": "For he has not despised or detested\nthe suffering of the afflicted one.\nHe has not hidden his face from him,\nbut when he cried out, he heard.",
+      "translator_notes": [
+        "Shiqqets ('to detest, abhor') is the verb form of sheqets ('abomination, detestable thing') — used for unclean animals and idolatrous practices. For God not to find the sufferer's affliction sheqets means that suffering does not make a person unclean or repulsive to God. This is a radical claim in a world where affliction was commonly interpreted as divine punishment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "מֵ֥אִתְּךָ֗ תְּ֭הִלָּתִי בְּקָהָ֣ל רָ֑ב נְדָרַ֥י אֲ֝שַׁלֵּ֗ם נֶ֣גֶד יְרֵאָֽיו׃",
+      "text_kjv": "My praise shall be of thee in the great congregation: I will pay my vows before them that fear him.",
+      "rendering": "From you comes my praise in the great assembly;\nI will fulfill my vows before those who fear him.",
+      "translator_notes": [
+        "Me-ittekha tehillati ('from you is my praise') means the praise itself originates in God — the sufferer does not generate worship from his own resources; God supplies both the deliverance and the praise that responds to it. The vow fulfillment (nedarai ashallam) refers to the ancient practice of making a vow during crisis and paying it publicly after deliverance, typically with a todah ('thanksgiving') sacrifice and a communal meal (see next verse)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "יֹאכְל֬וּ עֲנָוִ֨ים ׀ וְיִשְׂבָּ֗עוּ יְהַלְל֣וּ יְ֭הוָה דֹּ֣רְשָׁ֑יו יְחִ֖י לְבַבְכֶ֣ם לָעַֽד׃",
+      "text_kjv": "The meek shall eat and be satisfied: they shall praise the LORD that seek him: your heart shall live for ever.",
+      "rendering": "The humble will eat and be satisfied;\nthose who seek the LORD will praise him.\nMay your hearts live forever!",
+      "translator_notes": [
+        "The todah meal — the thanksgiving feast following vow fulfillment — is now described. The anavim ('humble, afflicted, poor') eat and are satisfied (yisba'u). This is not merely physical food but the communal celebration of God's deliverance. The blessing yechi levavkhem la-ad ('may your hearts live forever') extends the 'life' that was the sufferer's most desperate request (v. 21) to the entire worshipping community."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "faithful love, loyal kindness, covenant devotion, mercy, steadfast love",
+          "note": "Though chesed does not appear lexically in this verse, the entire scene — the communal meal, the satisfied humble, the living hearts — is the embodiment of God's chesed in action. The sufferer's deliverance becomes the community's feast, which is how chesed works: it overflows from the individual to the collective."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "יִזְכְּר֤וּ ׀ וְיָשֻׁ֣בוּ אֶל־יְ֭הוָה כׇּל־אַפְסֵי־אָ֑רֶץ וְיִֽשְׁתַּחֲו֥וּ לְ֝פָנֶ֗יךָ כׇּל־מִשְׁפְּח֥וֹת גּוֹיִֽם׃",
+      "text_kjv": "All the ends of the world shall remember and turn unto the LORD: and all the kindreds of the nations shall worship before thee.",
+      "rendering": "All the ends of the earth will remember and turn to the LORD,\nand all the families of the nations will bow down before you.",
+      "expanded_rendering": "The scope explodes beyond Israel. From one sufferer, to the assembly, to Israel, and now to kol afsei-arets ('all the ends of the earth') and kol mishpechot goyim ('all the families of the nations'). The vision is universal — every people group, every corner of the earth, will remember (yizkeru) and return (yashuvu) to the LORD. The verb 'remember' implies prior knowledge that was forgotten — the nations once knew God and will know him again. The word yashuvu ('they will turn, return') is the verb of repentance (teshuvah). The sufferer's individual rescue catalyzes a global turning to God. One person's deliverance becomes the occasion for all nations to worship.",
+      "translator_notes": [
+        "The phrase kol mishpechot goyim ('all families of the nations') echoes the Abrahamic promise of Genesis 12:3 — 'in you all the families of the earth will be blessed.' The sufferer's story becomes the vehicle through which the nations encounter the God of Israel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "כִּ֣י לַ֭יהוָה הַמְּלוּכָ֑ה וּ֝מֹשֵׁ֗ל בַּגּוֹיִֽם׃",
+      "text_kjv": "For the kingdom is the LORD'S: and he is the governor among the nations.",
+      "rendering": "For kingship belongs to the LORD,\nand he rules over the nations.",
+      "translator_notes": [
+        "Ha-melukhah ('the kingship, the royal sovereignty') belongs to the LORD — not to earthly kings, not to the enemies who seemed to triumph. This brief, powerful declaration provides the theological basis for the universal worship described in the surrounding verses. If YHWH is king over all nations, then all nations owe him allegiance."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "אָכְל֬וּ וַיִּשְׁתַּחֲוּ֨וּ ׀ כׇּֽל־דִּשְׁנֵי־אֶ֗רֶץ לְפָנָ֣יו יִ֭כְרְעוּ כׇּל־יוֹרְדֵ֣י עָפָ֑ר וְ֝נַפְשׁ֗וֹ לֹ֣א חִיָּֽה׃",
+      "text_kjv": "All they that be fat upon earth shall eat and worship: all they that go down to the dust shall bow before him: and none can keep alive his own soul.",
+      "rendering": "All the prosperous of the earth will eat and bow down;\nbefore him will kneel all who descend to the dust —\neven those who cannot keep themselves alive.",
+      "expanded_rendering": "The scope expands further still, now encompassing even the dead. The 'prosperous of the earth' (dishnei-erets, 'the fat ones') and those who 'descend to the dust' (yordei afar, those who die) will both worship. The final clause — ve-nafsho lo chiyyyyah ('and his soul he cannot keep alive') — means that even those powerless to preserve their own lives will kneel before God. The vision has moved from one sufferer, to Israel, to the nations, and now to the dead themselves. No category of being is excluded from this universal worship.",
+      "translator_notes": [
+        "The inclusion of yordei afar ('those who go down to the dust') in the worshipping community is extraordinary — it suggests worship beyond death, a communion of the living and the dead before God. This pushes against the typical Old Testament view that the dead in Sheol cannot praise God (Psalm 6:5, 88:10-12). Either this psalm envisions a resurrection hope or it uses hyperbolic language to express the totality of God's sovereignty."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "זֶ֭רַע יַעַבְדֶ֑נּוּ יְסֻפַּ֖ר לַאדֹנָ֣י לַדּֽוֹר׃",
+      "text_kjv": "A seed shall serve him; it shall be accounted to the Lord for a generation.",
+      "rendering": "A generation to come will serve him;\nit will be told of the Lord to the next generation.",
+      "translator_notes": [
+        "Zera ('seed, offspring, generation') introduces the temporal dimension — not only all places and all peoples, but all future times will be included. The story of God's deliverance will be transmitted (yesuppar, 'it will be told, recounted') from generation to generation. The sufferer's experience becomes a permanent testimony."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "יָ֭בֹאוּ וְיַגִּ֣ידוּ צִדְקָת֑וֹ לְעַ֥ם נוֹלָ֗ד כִּ֣י עָשָֽׂה׃",
+      "text_kjv": "They shall come, and shall declare his righteousness unto a people that shall be born, that he hath done this.",
+      "rendering": "They will come and declare his righteousness\nto a people yet unborn —\nthat he has done it.",
+      "translator_notes": [
+        "The phrase ki asah ('for he has done it') echoes the declaration on the cross in John 19:30: tetelestai ('it is finished'). Whether or not the Gospel writer intended the echo, the structural parallel is striking — both are final declarations that a work of suffering and salvation is complete.",
+        "Tsidqato ('his righteousness') in this context is God's covenant faithfulness demonstrated through saving action. It is not abstract moral quality but concrete rescue — God's righteousness is what God does for the afflicted one."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "צִדְקָה",
+          "transliteration": "tsedaqah",
+          "rendered_as": "righteousness",
+          "semantic_range": "righteousness, justice, rightness, vindication, saving action, covenant faithfulness",
+          "note": "Tsedaqah here is not moral quality in the abstract but God's demonstrated faithfulness — his righteousness is visible in the act of deliverance. To declare God's righteousness to a people yet unborn is to tell the story of what God did for the sufferer, so that future generations will know that God acts."
+        }
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

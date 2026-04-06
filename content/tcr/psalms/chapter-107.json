@@ -1,0 +1,462 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 107,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The opening psalm of Book V, Psalm 107 is a hymn of thanksgiving built around four scenes of distress and deliverance: wanderers lost in the desert (vv. 4-9), prisoners in darkness (vv. 10-16), the sick near death (vv. 17-22), and sailors in a storm (vv. 23-32). Each scene follows the same four-part pattern: distress, crying out to God, deliverance, and a call to give thanks. A wisdom epilogue (vv. 33-43) reflects on God's sovereign reversal of human fortunes. The refrain 'Let them give thanks to the LORD for His faithful love' appears four times, once for each scene.",
+    "remarkable": "Psalm 107 is one of the most structurally elegant poems in the Psalter. The fourfold repetition of distress-cry-rescue-thanksgiving creates a liturgical rhythm that is almost musical. Each section has two refrains: 'They cried out to the LORD in their trouble, and He delivered them from their distress' and 'Let them give thanks to the LORD for His faithful love and His wonders for the children of humanity.' The repetition is not monotonous but cumulative — each scene adds to the evidence that God's chesed operates everywhere: in deserts, in prisons, in sickbeds, on the open sea. The psalm argues inductively: here is one case, here is another, here is another, here is another — therefore God's faithful love endures forever. The wisdom epilogue then generalizes: God turns rivers into deserts and deserts into springs, brings down the proud and lifts up the needy. The psalm's audience is universal — these are not uniquely Israelite experiences but human ones.",
+    "friction": "The placement as the opening psalm of Book V is significant. Book IV ended with a prayer for gathering from the nations (106:47); Book V opens with a description of the gathered ones giving thanks (107:1-3). Whether this represents actual post-exilic composition or careful editorial arrangement is debated. The four scenes may represent literal experiences (travelers, prisoners, sick people, sailors) or may function metaphorically for Israel's exile and return. The sick who are afflicted 'because of their transgression' (v. 17) explicitly links suffering to sin, while the other three scenes do not — a tension the psalm leaves unresolved.",
+    "connections": "The opening formula hodu la-YHVH ki tov ki le-olam chasdo ('give thanks to the LORD for He is good, for His faithful love endures forever') connects to Psalms 106:1, 118:1, and 136:1. The gathering from east, west, north, and south (v. 3) echoes Isaiah 43:5-6. The storm scene (vv. 23-30) has parallels to Jonah 1. The wisdom epilogue (vv. 33-43) echoes Hannah's Song (1 Samuel 2:1-10) and the Magnificat (Luke 1:46-55) in its theme of divine reversal. Jesus' stilling of the storm (Mark 4:35-41) echoes verse 29: 'He stilled the storm to a whisper.'"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "הֹד֣וּ לַיהוָ֣ה כִּי־ט֑וֹב כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ׃",
+      "text_kjv": "O give thanks unto the LORD, for he is good: for his mercy endureth for ever.",
+      "rendering": "Give thanks to the LORD, for He is good,\nfor His faithful love endures forever.",
+      "translator_notes": [
+        "The identical opening to Psalm 106:1. The phrase ki le-olam chasdo ('for His faithful love is forever') is the thesis the psalm will prove four times over. Each of the four scenes will demonstrate that chesed is not a theological abstraction but an operational reality in specific human crises."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "loyal love, steadfast love, covenant faithfulness, kindness, mercy, devotion",
+          "note": "The psalm's controlling word. chesed will appear in the refrain four times (vv. 8, 15, 21, 31), once for each scene of deliverance. The psalm is a fourfold demonstration of what chesed looks like in practice."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "יֹ֭אמְרוּ גְּאוּלֵ֣י יְהוָ֑ה אֲשֶׁ֥ר גְּ֝אָלָ֗ם מִיַּד־צָֽר׃",
+      "text_kjv": "Let the redeemed of the LORD say so, whom he hath redeemed from the hand of the enemy;",
+      "rendering": "Let the redeemed of the LORD say so,\nthose He redeemed from the hand of the foe,",
+      "translator_notes": [
+        "The ge'ulei YHVH ('the redeemed of the LORD') are those who have experienced God's go'el action — His kinsman-redeemer rescue. The verb ge'alam ('He redeemed them') and the noun ge'ulei share the same root. The redeemed are the ones qualified to give thanks: they have firsthand testimony."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וּמֵאֲרָצ֥וֹת קִבְּצָ֑ם מִמִּזְרָ֥ח וּ֝מִמַּעֲרָ֗ב מִצָּפ֥וֹן וּמִיָּֽם׃",
+      "text_kjv": "And gathered them out of the lands, from the east, and from the west, from the north, and from the south.",
+      "rendering": "and gathered from the lands,\nfrom east and from west,\nfrom north and from the sea.",
+      "translator_notes": [
+        "The ingathering from four directions: mi-mizrach ('from the east'), u-mi-ma'arav ('from the west'), mi-tsafon ('from the north'), u-mi-yam ('from the sea'). The last term is literally 'from the sea' (yam), which in Hebrew directional language means 'south' (the direction of the Red Sea from Israel). The four compass points indicate universal regathering — wherever God's people were scattered, He brought them back."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "תָּע֣וּ בַ֭מִּדְבָּר בִּישִׁימ֣וֹן דָּ֑רֶךְ עִ֥יר מ֝וֹשָׁ֗ב לֹ֣א מָצָֽאוּ׃",
+      "text_kjv": "They wandered in the wilderness in a solitary way; they found no city to dwell in.",
+      "rendering": "They wandered in the wilderness, on a desert road;\nthey found no city to settle in.",
+      "translator_notes": [
+        "Scene one begins: lost travelers. The verb ta'u ('they wandered, they strayed') indicates purposeless, directionless movement. The bamidbar bishimon derekh ('in the wilderness, on a wasteland path') places them in terrain without landmarks. The phrase ir moshav lo matsa'u ('a city of habitation they did not find') means they had no destination, no shelter, no community. They were utterly lost."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "רְעֵבִ֥ים גַּם־צְמֵאִ֑ים נַ֝פְשָׁ֗ם בָּהֶ֥ם תִּתְעַטָּֽף׃",
+      "text_kjv": "Hungry and thirsty, their soul fainted in them.",
+      "rendering": "Hungry and thirsty,\ntheir life was ebbing away.",
+      "translator_notes": [
+        "The re'evim gam tseme'im ('hungry and also thirsty') describes total deprivation. The phrase nafsham bahem tit'attaf ('their soul within them was fainting') uses the verb ataf ('to be feeble, to faint, to be covered over'). The nephesh — the life-force — was failing. They were dying."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיִּצְעֲק֣וּ אֶל־יְ֭הוָה בַּצַּ֣ר לָהֶ֑ם מִ֝מְּצֽוּקוֹתֵיהֶ֗ם יַצִּילֵֽם׃",
+      "text_kjv": "Then they cried unto the LORD in their trouble, and he delivered them out of their distresses.",
+      "rendering": "Then they cried out to the LORD in their trouble,\nand He delivered them from their distress.",
+      "translator_notes": [
+        "The first occurrence of the cry-and-rescue refrain: vayyits'aqu el YHVH batsar lahem ('they cried to the LORD in their distress'). The verb tsa'aq ('to cry out') is the exodus verb — the same cry Israel raised in Egypt (Exodus 2:23). The response: mi-metsuqoteihem yatsilem ('from their straits He rescued them'). The metsuqah ('strait, distress, tight place') is a narrow passage from which only God can extract them."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַ֭יַּדְרִיכֵם בְּדֶ֣רֶךְ יְשָׁרָ֑ה לָ֝לֶ֗כֶת אֶל־עִ֥יר מוֹשָֽׁב׃",
+      "text_kjv": "And he led them forth by the right way, that they might go to a city of habitation.",
+      "rendering": "He led them by a straight road\nto reach a city where they could settle.",
+      "translator_notes": [
+        "God's response to the lost: vayyaddrikhem be-derekh yesharah ('He led them by a straight path'). The verb darak in the Hiphil means to guide someone's feet onto a path. The derekh yesharah ('straight road') contrasts with the aimless wandering of verse 4. The destination: ir moshav ('a city of habitation') — the very thing they could not find, God provided."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "יוֹד֣וּ לַיהוָ֣ה חַסְדּ֑וֹ וְ֝נִפְלְאוֹתָ֗יו לִבְנֵ֥י אָדָֽם׃",
+      "text_kjv": "Oh that men would praise the LORD for his goodness, and for his wonderful works to the children of men!",
+      "rendering": "Let them give thanks to the LORD for His faithful love\nand His wonders for the children of humanity.",
+      "translator_notes": [
+        "The first occurrence of the thanksgiving refrain: yodu la-YHVH chasdo ve-nifle'otav livnei adam. The beneficiaries are not 'the children of Israel' but livnei adam ('the children of humanity, human beings'). The psalm's scope is universal — God's chesed operates for all people, not only the covenant nation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "כִּי־הִ֭שְׂבִּיעַ נֶ֣פֶשׁ שֹׁקֵקָ֑ה וְנֶ֥פֶשׁ רְ֝עֵבָ֗ה מִלֵּא־טֽוֹב׃",
+      "text_kjv": "For he satisfieth the longing soul, and filleth the hungry soul with goodness.",
+      "rendering": "For He satisfies the longing soul\nand fills the hungry soul with good things.",
+      "translator_notes": [
+        "God satisfies (hisbia) the nephesh shoqeqah ('the parched soul, the longing soul') and fills (mille) the nephesh re'evah ('the hungry soul') with tov ('good, goodness'). The scene closes with the hunger and thirst of verse 5 fully resolved. The satisfied soul is the evidence of chesed."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "יֹ֭שְׁבֵי חֹ֣שֶׁךְ וְצַלְמָ֑וֶת אֲסִירֵ֖י עֳנִ֣י וּבַרְזֶֽל׃",
+      "text_kjv": "Such as sit in darkness and in the shadow of death, being bound in affliction and iron;",
+      "rendering": "Those who sat in darkness and deep shadow,\nprisoners in affliction and chains,",
+      "translator_notes": [
+        "Scene two: prisoners. The yoshevei choshekh ve-tsalmavet ('those sitting in darkness and death-shadow') describes people confined in dungeons where no light reaches. The word tsalmavet is a compound of tsel ('shadow') and mavet ('death') — the shadow cast by death itself. They are asirei oni u-varzel ('prisoners of affliction and iron'). The iron is literal; the affliction is both physical and spiritual."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "כִּי־הִמְר֥וּ אִמְרֵי־אֵ֑ל וַעֲצַ֖ת עֶלְי֣וֹן נָאָֽצוּ׃",
+      "text_kjv": "Because they rebelled against the words of God, and contemned the counsel of the most High:",
+      "rendering": "because they rebelled against the words of God\nand despised the counsel of the Most High.",
+      "translator_notes": [
+        "The cause of imprisonment: ki himru imrei El ('they rebelled against the words of God'). The verb marah ('to rebel, to be bitter') indicates defiance. The atsut Elyon ('counsel of the Most High') was scorned (na'atsu, from na'ats, 'to despise, to scorn'). This is the one scene where sin is explicitly named as the cause of distress."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיַּכְנַ֣ע בֶּעָמָ֣ל לִבָּ֑ם כָּ֝שְׁל֗וּ וְאֵ֣ין עֹזֵֽר׃",
+      "text_kjv": "Therefore he brought down their heart with labour; they fell down, and there was none to help.",
+      "rendering": "He humbled their hearts through hard labor;\nthey stumbled, with no one to help.",
+      "translator_notes": [
+        "The verb vayyakhna ('He humbled') uses kana ('to bow down, to subdue') — God brought their hearts low through suffering. The amal ('labor, toil, hardship') broke them. The phrase kashelu ve-ein ozer ('they stumbled and there was no helper') describes the moment of total helplessness that precedes the cry for help."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיִּזְעֲק֣וּ אֶל־יְ֭הוָה בַּצַּ֣ר לָהֶ֑ם מִ֝מְּצֻֽקוֹתֵיהֶ֗ם יוֹשִׁיעֵֽם׃",
+      "text_kjv": "Then they cried unto the LORD in their trouble, and he saved them out of their distresses.",
+      "rendering": "Then they cried out to the LORD in their trouble,\nand He saved them from their distress.",
+      "translator_notes": [
+        "The second occurrence of the cry-refrain. The verb changes slightly from yatsilem ('He delivered,' v. 6) to yoshi'em ('He saved') — the language intensifies with each scene."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "יוֹצִיאֵ֣ם מֵ֭חֹשֶׁךְ וְצַלְמָ֑וֶת וּמוֹסְר֖וֹתֵיהֶ֣ם יְנַתֵּֽק׃",
+      "text_kjv": "He brought them out of darkness and the shadow of death, and brake their bands in sunder.",
+      "rendering": "He brought them out of darkness and deep shadow\nand tore apart their chains.",
+      "translator_notes": [
+        "God's action reverses the imprisonment of verse 10: yotsi'em me-choshekh ve-tsalmavet ('He brought them out of darkness and death-shadow') and u-moseroteihem yenattteq ('their bonds He tore apart'). The verb nataq ('to tear, to pull apart, to break') means the chains were not unlocked but ripped — divine force overcomes iron."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "יוֹד֣וּ לַיהוָ֣ה חַסְדּ֑וֹ וְ֝נִפְלְאוֹתָ֗יו לִבְנֵ֥י אָדָֽם׃",
+      "text_kjv": "Oh that men would praise the LORD for his goodness, and for his wonderful works to the children of men!",
+      "rendering": "Let them give thanks to the LORD for His faithful love\nand His wonders for the children of humanity.",
+      "translator_notes": [
+        "The thanksgiving refrain, second occurrence. Identical wording to verse 8. The repetition builds the psalm's case: chesed is not episodic but patterned."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "כִּֽי־שִׁ֭בַּר דַּלְת֣וֹת נְחֹ֑שֶׁת וּבְרִיחֵ֖י בַרְזֶ֣ל גִּדֵּֽעַ׃",
+      "text_kjv": "For he hath broken the gates of brass, and cut the bars of iron in sunder.",
+      "rendering": "For He shattered gates of bronze\nand cut through bars of iron.",
+      "translator_notes": [
+        "The specifics of the rescue: shibbar daltot nechoshet ('He shattered doors of bronze') and u-verichei varzel gidde'a ('bars of iron He cut through'). The verbs shibbar ('to shatter') and gidde'a ('to cut, to hew') describe violent destruction of the strongest materials available for imprisonment. No dungeon can hold those God decides to free."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אֱ֭וִלִים מִדֶּ֣רֶךְ פִּשְׁעָ֑ם וּ֝מֵעֲוֺנֹתֵיהֶ֗ם יִתְעַנּֽוּ׃",
+      "text_kjv": "Fools because of their transgression, and because of their iniquities, are afflicted.",
+      "rendering": "Fools — because of their rebellious ways\nand because of their iniquities — suffered affliction.",
+      "translator_notes": [
+        "Scene three: the sick. The evilim ('fools') are not intellectually deficient but morally perverse — in wisdom literature, the fool rejects God's instruction. The cause is explicit: mi-derekh pish'am ('because of their rebellious way') and me-avonoteihem ('because of their iniquities'). The suffering (yit'annu, 'they were afflicted') is presented as a consequence of moral folly."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "כׇּל־אֹ֭כֶל תְּתַעֵ֣ב נַפְשָׁ֑ם וַ֝יַּגִּ֗יעוּ עַד־שַׁעֲרֵ֥י מָֽוֶת׃",
+      "text_kjv": "Their soul abhorreth all manner of meat; and they draw near unto the gates of death.",
+      "rendering": "They loathed all food\nand drew near to the gates of death.",
+      "translator_notes": [
+        "The physical symptom: kol okhel teta'ev nafsham ('every food their soul abhorred') — total loss of appetite, the body refusing sustenance. The phrase vayyaggi'u ad sha'arei mavet ('they reached the gates of death') means they arrived at death's threshold. The sha'arei mavet ('gates of death') is a spatial metaphor — death is a walled city, and the sick person stands at its entrance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיִּזְעֲק֣וּ אֶל־יְ֭הוָה בַּצַּ֣ר לָהֶ֑ם מִ֝מְּצֻֽקוֹתֵיהֶ֗ם יוֹשִׁיעֵֽם׃",
+      "text_kjv": "Then they cried unto the LORD in their trouble, and he saved them out of their distresses.",
+      "rendering": "Then they cried out to the LORD in their trouble,\nand He saved them from their distress.",
+      "translator_notes": [
+        "Third occurrence of the cry-refrain. The same words, the same pattern — the repetition is the point. The pattern does not change because God does not change."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "יִשְׁלַ֣ח דְּ֭בָרוֹ וְיִרְפָּאֵ֑ם וִ֝ימַלֵּ֗ט מִשְּׁחִיתוֹתָֽם׃",
+      "text_kjv": "He sent his word, and healed them, and delivered them from their destructions.",
+      "rendering": "He sent His word and healed them\nand rescued them from the pit.",
+      "translator_notes": [
+        "God heals by sending His word: yishlach devaro ve-yirpa'em ('He sent His word and healed them'). The word (davar) is the agent of healing — God does not need to be physically present; His word carries His power. The verb vimallete ('He rescued') uses malat ('to escape, to deliver') from shechitotam ('their destructions, their pits'). The word is both physician and rescuer."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "יוֹד֣וּ לַיהוָ֣ה חַסְדּ֑וֹ וְ֝נִפְלְאוֹתָ֗יו לִבְנֵ֥י אָדָֽם׃",
+      "text_kjv": "Oh that men would praise the LORD for his goodness, and for his wonderful works to the children of men!",
+      "rendering": "Let them give thanks to the LORD for His faithful love\nand His wonders for the children of humanity.",
+      "translator_notes": [
+        "Third occurrence of the thanksgiving refrain. The evidence accumulates: lost travelers, prisoners, the dying — all rescued by the same chesed."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְ֭יִזְבְּחוּ זִבְחֵ֣י תוֹדָ֑ה וִ֝יסַפְּר֗וּ מַעֲשָׂ֥יו בְּרִנָּֽה׃",
+      "text_kjv": "And let them sacrifice the sacrifices of thanksgiving, and declare his works with rejoicing.",
+      "rendering": "Let them offer sacrifices of thanksgiving\nand recount His deeds with shouts of joy.",
+      "translator_notes": [
+        "The healed are called to bring zivchei todah ('sacrifices of thanksgiving') — the todah offering of Leviticus 7:12-15, which accompanies a testimony of deliverance. The verb yesapperu ('let them recount') means the sacrifice is paired with public testimony. Worship is both ritual and narrative: you bring an offering and tell the story."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "יוֹרְדֵ֣י הַ֭יָּם בָּאֳנִיּ֑וֹת עֹשֵׂ֥י מְ֝לָאכָ֗ה בְּמַ֣יִם רַבִּֽים׃",
+      "text_kjv": "They that go down to the sea in ships, that do business in great waters;",
+      "rendering": "Those who went down to the sea in ships,\ndoing business on the great waters,",
+      "translator_notes": [
+        "Scene four: sailors. The yordei hayyam ba-oniyyot ('those who go down to the sea in ships') are merchants and traders. The phrase osei melakhah be-mayim rabbim ('doing work on great waters') describes commercial seafaring. The sea in Hebrew thought is the domain of chaos — to travel on it is to enter the realm of the tehom."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "הֵ֣מָּה רָ֭אוּ מַעֲשֵׂ֣י יְהוָ֑ה וְ֝נִפְלְאוֹתָ֗יו בִּמְצוּלָֽה׃",
+      "text_kjv": "These see the works of the LORD, and his wonders in the deep.",
+      "rendering": "They saw the works of the LORD,\nHis wonders in the deep.",
+      "translator_notes": [
+        "Sailors witness God's power firsthand: hemmah ra'u ma'asei YHVH ('they saw the works of the LORD'). The bimtsulah ('in the deep, in the abyss') locates the wonders in the most dangerous environment — the deep sea where human power means nothing."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַ֭יֹּאמֶר וַֽיַּעֲמֵ֣ד ר֣וּחַ סְעָרָ֑ה וַתְּרוֹמֵ֥ם גַּלָּֽיו׃",
+      "text_kjv": "For he commandeth, and raiseth the stormy wind, which lifteth up the waves thereof.",
+      "rendering": "He spoke and raised a stormy wind\nthat lifted the waves high.",
+      "translator_notes": [
+        "God commands the storm: vayyomer vayya'amed ruach se'arah ('He spoke and He made a storm wind stand'). The verb amad ('to stand') in the Hiphil means God stationed the wind like a soldier at a post. The waves (gallav) rose at God's command. The storm is not random weather but divine action."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "יַעֲל֣וּ שָׁ֭מַיִם יֵרְד֣וּ תְהוֹמ֑וֹת נַ֝פְשָׁ֗ם בְּרָעָ֥ה תִתְמוֹגָֽג׃",
+      "text_kjv": "They mount up to the heaven, they go down again to the depths: their soul is melted because of trouble.",
+      "rendering": "They rose to the heavens, they plunged to the depths;\ntheir courage melted in their peril.",
+      "translator_notes": [
+        "The violent motion of the ship: ya'alu shamayim ('they go up to the heavens') and yerdu tehomot ('they go down to the depths'). The extremes — sky and abyss — describe the terrifying pitch of a ship in heavy seas. The phrase nafsham bera'ah titmogag ('their soul in calamity melts') uses mogag ('to melt, to dissolve') — their courage liquefied."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "יָח֣וֹגּוּ וְ֭יָנוּעוּ כַּשִּׁכּ֑וֹר וְכׇל־חׇ֝כְמָתָ֗ם תִּתְבַּלָּֽע׃",
+      "text_kjv": "They reel to and fro, and stagger like a drunken man, and are at their wits' end.",
+      "rendering": "They staggered and swayed like drunkards,\nand all their skill was swallowed up.",
+      "translator_notes": [
+        "The sailors yachogu ve-yanuu kashshikkkor ('they stagger and sway like a drunkard') — seasoned seamen reduced to helplessness. The phrase ve-khol chokmatam titballa ('and all their wisdom is swallowed up') means their professional expertise is consumed by the chaos. The sea has devoured their competence. This is the moment of complete human inadequacy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיִּצְעֲק֣וּ אֶל־יְ֭הוָה בַּצַּ֣ר לָהֶ֑ם וּ֝מִמְּצֽוּקוֹתֵיהֶ֗ם יוֹצִיאֵֽם׃",
+      "text_kjv": "Then they cry unto the LORD in their trouble, and he bringeth them out of their distresses.",
+      "rendering": "Then they cried out to the LORD in their trouble,\nand He brought them out of their distress.",
+      "translator_notes": [
+        "Fourth and final occurrence of the cry-refrain. The verb shifts again: yotsi'em ('He brought them out') — the exodus verb. Every rescue in the psalm recapitulates the original exodus."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "יָקֵ֣ם סְ֭עָרָה לִדְמָמָ֑ה וַ֝יֶּחֱשׁ֗וּ גַּלֵּיהֶֽם׃",
+      "text_kjv": "He maketh the storm a calm, so that the waves thereof are still.",
+      "rendering": "He stilled the storm to a whisper,\nand the waves were hushed.",
+      "expanded_rendering": "The verb yaqem se'arah lidmamah ('He raised the storm to a stillness') is paradoxical — the verb qum ('to raise, to cause to stand') is applied to creating stillness. God raised up the silence the way He had raised up the storm. The word demamah ('stillness, silence, whisper') is the same word used in 1 Kings 19:12 for the 'still small voice' (qol demamah daqqah) that spoke to Elijah after wind, earthquake, and fire. The waves (galleihem) are hushed (vayyechashu, from chashah, 'to be silent'). The sea obeys. Jesus' stilling of the storm in Mark 4:39 ('Peace! Be still!') directly enacts this verse — and the disciples' astonishment ('Who then is this, that even wind and sea obey Him?') is the question this psalm answers: the LORD.",
+      "translator_notes": [
+        "The word demamah is one of the great theological words of the Hebrew Bible. It is the sound of God's presence when all competing noise ceases. The storm-to-stillness movement is not merely meteorological but spiritual: chaos yields to divine peace."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיִּשְׂמְח֥וּ כִי־יִשְׁתֹּ֑קוּ וַ֝יַּנְחֵ֗ם אֶל־מְח֥וֹז חֶפְצָֽם׃",
+      "text_kjv": "Then are they glad because they be quiet; so he bringeth them unto their desired haven.",
+      "rendering": "They were glad when the waters grew calm,\nand He guided them to their desired harbor.",
+      "translator_notes": [
+        "Joy returns: vayyismechu ki yishttoqu ('they rejoiced because they were quiet'). The verb shaqat means the waters settled. God then guided them (vayyanchem) to mechoz cheftsam ('the harbor of their desire') — the destination they were trying to reach. The rescue is not merely survival but arrival. God does not just save from death; He brings to destination."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "יוֹד֣וּ לַיהוָ֣ה חַסְדּ֑וֹ וְ֝נִפְלְאוֹתָ֗יו לִבְנֵ֥י אָדָֽם׃",
+      "text_kjv": "Oh that men would praise the LORD for his goodness, and for his wonderful works to the children of men!",
+      "rendering": "Let them give thanks to the LORD for His faithful love\nand His wonders for the children of humanity.",
+      "translator_notes": [
+        "Fourth and final occurrence of the thanksgiving refrain. The case is complete: four scenes, four cries, four rescues, four calls to thank. The evidence for chesed is overwhelming."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וִ֭ירֹמְמוּהוּ בִּקְהַל־עָ֑ם וּבְמוֹשַׁ֖ב זְקֵנִ֣ים יְהַלְלֽוּהוּ׃",
+      "text_kjv": "Let them exalt him also in the congregation of the people, and praise him in the assembly of the elders.",
+      "rendering": "Let them exalt Him in the assembly of the people\nand praise Him in the council of the elders.",
+      "translator_notes": [
+        "The sailors' thanksgiving is to be public: bi-qehal am ('in the assembly of the people') and be-moshav zeqenim ('in the seat of the elders'). The testimony is not private but communal — it is given in the formal gathering where decisions are made and justice is administered. The elders hear the sailor's story and recognize God's hand."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "יָשֵׂ֣ם נְהָר֣וֹת לְמִדְבָּ֑ר וּמֹצָ֥אֵי מַ֝֗יִם לְצִמָּאֽוֹן׃",
+      "text_kjv": "He turneth rivers into a wilderness, and the watersprings into dry ground;",
+      "rendering": "He turns rivers into desert\nand springs of water into thirsty ground,",
+      "translator_notes": [
+        "The wisdom epilogue begins. God reverses landscapes: neharot le-midbar ('rivers to wilderness') and motsa'ei mayim le-tsimma'on ('springs of water to drought'). The God who provided water from rocks (Psalm 105:41) can also remove water from rivers. Divine sovereignty operates in both directions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "אֶ֣רֶץ פְּ֭רִי לִמְלֵחָ֑ה מֵ֝רָעַ֗ת יוֹשְׁבֵ֥י בָֽהּ׃",
+      "text_kjv": "A fruitful land into barrenness, for the wickedness of them that dwell therein.",
+      "rendering": "a fruitful land into a salt waste,\nbecause of the wickedness of its inhabitants.",
+      "translator_notes": [
+        "Fertile land becomes melechah ('salt flats, barren salt ground') — the landscape of Sodom after its destruction. The cause: me-ra'at yoshvei vah ('because of the wickedness of those dwelling in it'). The land's condition reflects its inhabitants' character. Ecological devastation is presented as moral consequence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "יָשֵׂ֣ם מִ֭דְבָּר לַאֲגַם־מַ֑יִם וְאֶ֥רֶץ צִ֝יָּ֗ה לְמֹצָ֥אֵי מָֽיִם׃",
+      "text_kjv": "He turneth the wilderness into a standing water, and dry ground into watersprings.",
+      "rendering": "He turns desert into pools of water\nand parched land into springs.",
+      "translator_notes": [
+        "The reversal in the other direction: midbar la-agam mayim ('desert to a pool of water') and erets tsiyyah le-motsa'ei mayim ('dry land to springs of water'). God transforms in both directions — from fertility to wasteland (vv. 33-34) and from wasteland to fertility (v. 35). The power is the same; the direction depends on God's purpose."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַ֭יּוֹשֶׁב שָׁ֣ם רְעֵבִ֑ים וַ֝יְכוֹנְנ֗וּ עִ֣יר מוֹשָֽׁב׃",
+      "text_kjv": "And there he maketh the hungry to dwell, that they may prepare a city for habitation;",
+      "rendering": "He settles the hungry there,\nand they establish a city to dwell in.",
+      "translator_notes": [
+        "God settles (vayyoshev) the hungry (re'evim) in the transformed land. They build an ir moshav ('a city of habitation') — the same phrase from verse 4 and verse 7. What the lost wanderers could not find, God creates anew. The hungry of this verse mirror the hungry of verse 5, but now they have a home."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וַיִּזְרְע֣וּ שָׂ֭דוֹת וַיִּטְּע֥וּ כְרָמִ֗ים וַיַּעֲשׂ֥וּ פְּרִ֥י תְבוּאָֽה׃",
+      "text_kjv": "And sow the fields, and plant vineyards, which may yield fruits of increase.",
+      "rendering": "They sow fields and plant vineyards\nthat yield a fruitful harvest.",
+      "translator_notes": [
+        "Agriculture returns: fields (sadot) are sown, vineyards (keramim) are planted, and the yield is peri tevu'ah ('fruit of produce, a productive harvest'). The cycle of fertility is restored by divine initiative."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיְבָ֣רְכֵ֣ם וַיִּרְבּ֣וּ מְאֹ֑ד וּ֝בְהֶמְתָּ֗ם לֹ֣א יַמְעִֽיט׃",
+      "text_kjv": "He blesseth them also, so that they are multiplied greatly; and suffereth not their cattle to decrease.",
+      "rendering": "He blesses them and they multiply greatly,\nand He does not let their livestock diminish.",
+      "translator_notes": [
+        "The blessing echoes Genesis 1:28: vayvarekem vayyirbu me'od ('He blessed them and they multiplied greatly'). Livestock (behemtam) are also protected: lo yam'it ('He does not diminish them'). Fertility extends to both human and animal populations."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיִּמְעֲט֥וּ וַיָּשֹׁ֑חוּ מֵעֹ֖צֶר רָעָ֣ה וְיָגֽוֹן׃",
+      "text_kjv": "Again, they are minished and brought low through oppression, affliction, and sorrow.",
+      "rendering": "When they are diminished and brought low\nthrough oppression, trouble, and sorrow,",
+      "translator_notes": [
+        "The cycle turns again: vayyim'atu vayyashochu ('they are diminished and brought low'). The causes are otser ('oppression, restraint'), ra'ah ('calamity, evil'), and yagon ('sorrow, grief'). The prosperity of verses 36-38 does not last — the human condition includes reversal and loss."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "שֹׁפֵ֣ךְ בּ֭וּז עַל־נְדִיבִ֑ים וַ֝יַּתְעֵ֗ם בְּתֹ֣הוּ לֹא־דָֽרֶךְ׃",
+      "text_kjv": "He poureth contempt upon princes, and causeth them to wander in the wilderness, where there is no way.",
+      "rendering": "He pours contempt on nobles\nand makes them wander in trackless waste.",
+      "translator_notes": [
+        "God's sovereignty extends to the powerful: shofekh buz al nedivim ('He pours contempt on nobles'). The nedivim ('nobles, princes, generous ones') are humiliated. The phrase vayyat'em be-tohu lo darekh ('He makes them wander in chaos without a path') uses tohu — the primordial chaos of Genesis 1:2. The powerful are cast into the formless void. This echoes Job 12:21-24."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַיְשַׂגֵּ֣ב אֶ֭בְיוֹן מֵע֑וֹנִי וַיָּ֥שֶׂם כַּ֝צֹּ֗אן מִשְׁפָּחֽוֹת׃",
+      "text_kjv": "Yet setteth he the poor on high from affliction, and maketh him families like a flock.",
+      "rendering": "But He lifts the needy out of affliction\nand makes their families like flocks.",
+      "translator_notes": [
+        "The reversal: vaysaggev evyon me-oni ('He sets the needy on high from affliction'). The verb sagav means to place in an inaccessibly high position — the needy are elevated beyond the reach of their oppressors. The families multiply katstsosn ('like flocks') — the imagery of pastoral abundance. The God who humbles nobles elevates the destitute."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "יִרְא֣וּ יְשָׁרִ֣ים וְיִשְׂמָ֑חוּ וְכׇל־עַ֝וְלָ֗ה קָ֣פְצָה פִּֽיהָ׃",
+      "text_kjv": "The righteous shall see it, and rejoice: and all iniquity shall stop her mouth.",
+      "rendering": "The upright see it and rejoice,\nand all wickedness shuts its mouth.",
+      "translator_notes": [
+        "The moral response: the yesharim ('upright ones') see God's reversals and rejoice. The avlah ('wickedness, injustice') personified as shutting its mouth (qafetsah piha, 'it closes its mouth') means wickedness is silenced — it has no argument, no defense, no rebuttal. When God acts, evil has nothing to say."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "מִי־חָכָ֥ם וְיִשְׁמׇר־אֵ֑לֶּה וְ֝יִתְבּוֹנְנ֗וּ חַסְדֵ֥י יְהוָֽה׃",
+      "text_kjv": "Whoso is wise, and will observe these things, even they shall understand the lovingkindness of the LORD.",
+      "rendering": "Whoever is wise, let him observe these things\nand consider the faithful love of the LORD.",
+      "expanded_rendering": "The psalm closes with a wisdom challenge: mi chakham ve-yishmar elleh ('whoever is wise, let him guard these things'). The verb shamar ('to guard, to observe, to keep') means the wise person holds on to the patterns this psalm has demonstrated. The final word is chasedei YHVH ('the faithful loves of the LORD') — the plural chesed again, as in verse 1. The psalm began with 'His faithful love endures forever' and ends with 'consider the faithful loves of the LORD.' Everything between — the four scenes, the cry-rescue pattern, the wisdom epilogue — is evidence. The wise person sees it. The fool does not.",
+      "translator_notes": [
+        "The closing verse is identical in tone to Hosea 14:10 ('Who is wise? Let him understand these things'). Both passages end a complex theological text with a wisdom invitation: the material has been presented; now the reader must discern its meaning. The psalm does not force its conclusion — it invites comprehension."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

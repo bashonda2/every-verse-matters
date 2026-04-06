@@ -1,0 +1,379 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jeremiah",
+    "chapter": 4,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jeremiah 4 moves from the possibility of return to the certainty of judgment. It opens with a conditional promise — if Israel returns genuinely, blessing will follow — but quickly pivots to an urgent warning: blow the trumpet, flee to the fortified cities, for disaster is coming from the north. The chapter reaches its astonishing climax in verses 23-26, where Jeremiah describes a vision of total cosmic undoing — the earth formless and void, the heavens without light, the mountains quaking, every person gone, every bird fled. This is creation running backward, Genesis 1 in reverse, and it stands as one of the most extraordinary poetic passages in all prophetic literature.",
+    "remarkable": "The creation-reversal vision of verses 23-26 is unique in the Hebrew Bible. Jeremiah uses the exact phrase tohu vavohu ('formless and void') from Genesis 1:2 — a phrase that appears only in these two places in all of Scripture (and in a variant form in Isaiah 34:11). The prophet sees not merely destruction but de-creation: the undoing of light, land, life, and order in precisely the reverse sequence of Genesis 1. This is not hyperbole but theological statement — sin has so corrupted the created order that God's judgment constitutes a return to primordial chaos. The command to 'circumcise your hearts' (v. 4) introduces an interior demand that anticipates Deuteronomy 30:6 and the new covenant of 31:31-34. We rendered the vision sequence with deliberate echoes of Genesis 1 to help readers hear what Hebrew readers would hear immediately.",
+    "friction": "The phrase tohu vavohu required careful handling — we preserved the traditional 'formless and void' because no modern paraphrase captures the primordial resonance as effectively, and the Genesis 1:2 echo must be recognizable. The verb mul ('circumcise') in verse 4 is literal surgical language applied metaphorically to the heart, and we retained 'circumcise' rather than softening to 'open' or 'cleanse' because the physicality of the metaphor is theologically significant. The rapid shifts between divine speech, prophetic speech, and the prophet's personal anguish (especially vv. 19-22) required careful attribution. The chapter oscillates between conditional hope (vv. 1-2) and unconditional doom (vv. 5-31) in a way that resists smooth harmonization.",
+    "connections": "Tohu vavohu (v. 23) connects directly to Genesis 1:2, making this the only passage outside Genesis to use the exact phrase. 'Circumcise your hearts' (v. 4) connects to Deuteronomy 10:16, 30:6, and Romans 2:29. The 'lion from the thicket' (v. 7) connects to Jeremiah 5:6 and 49:19. The approaching army from the north connects to 1:13-15 and 6:1, 22. Jeremiah's anguish in verses 19-21 anticipates the confessions of 11:18-12:6, 15:10-21, and 20:7-18. The 'daughter of my people' (bat ammi, v. 11) is a recurring Jeremiah phrase (6:26, 8:11, 8:19, 8:21-22, 9:1). The cosmic judgment language resonates with Isaiah 24 (the 'Isaiah Apocalypse') and anticipates the new heavens and new earth of Isaiah 65:17."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "אִם־תָּשׁ֨וּב יִשְׂרָאֵ֧ל נְאֻם־יְהוָ֛ה אֵלַ֖י תָּשׁ֑וּב וְאִם־תָּסִ֧יר שִׁקּוּצֶ֛יךָ מִפָּנַ֖י וְלֹ֥א תָנֽוּד׃",
+      "text_kjv": "If thou wilt return, O Israel, saith the LORD, return unto me: and if thou wilt put away thine abominations out of my sight, then shalt thou not remove.",
+      "rendering": "If you return, O Israel — declares the LORD —\nreturn to me.\nIf you remove your detestable things from my presence\nand do not waver,",
+      "translator_notes": [
+        "The conditional 'if' (im) governs the entire opening — the promise of verses 1-2 depends on genuine return. The verb shuv appears twice: 'if you return... return to me,' emphasizing that the turning must be directed specifically toward God, not merely away from sin. The word shiqquts ('detestable things, abominations') refers to idols — objects of worship that God finds repulsive. The verb tanud ('waver, stray, wander') indicates that the return must be stable, not another temporary swing between loyalty and apostasy."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שִׁקּוּצֶיךָ",
+          "transliteration": "shiqqutseykha",
+          "rendered_as": "detestable things",
+          "semantic_range": "detestable things, abominations, abhorrent idols",
+          "note": "A term of extreme revulsion used for idols and idolatrous practices. Stronger than to'evah ('abomination') in some contexts — shiqquts conveys physical disgust."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְנִשְׁבַּ֙עְתָּ֙ חַי־יְהוָ֔ה בֶּאֱמֶ֖ת בְּמִשְׁפָּ֣ט וּבִצְדָקָ֑ה וְהִתְבָּ֥רְכוּ ב֛וֹ גּוֹיִ֖ם וּב֥וֹ יִתְהַלָּֽלוּ׃",
+      "text_kjv": "And thou shalt swear, The LORD liveth, in truth, in judgment, and in righteousness; and the nations shall bless themselves in him, and in him shall they glory.",
+      "rendering": "and if you swear, 'As the LORD lives,'\nin truth, in justice, and in righteousness —\nthen the nations will bless themselves through him,\nand in him they will boast.",
+      "expanded_rendering": "The triad emet, mishpat, tsedaqah ('truth, justice, righteousness') defines the character of genuine covenant loyalty. To swear 'As the LORD lives' with these qualities is not mere oath-taking but a total alignment of life with God's character. The result — nations blessing themselves through Israel — echoes the Abrahamic promise of Genesis 12:3 and 22:18, suggesting that Israel's faithfulness has universal consequences.",
+      "translator_notes": [
+        "The oath formula chai-YHWH ('as the LORD lives') was commonly invoked but here God demands it be spoken be'emet ('in truth') — not as an empty formula but as a genuine commitment. The three qualities — emet ('truth, faithfulness'), mishpat ('justice, right judgment'), tsedaqah ('righteousness') — describe the character of a properly ordered covenant community. The phrase vehitbarekhu vo goyim ('the nations will bless themselves in him') echoes the Abrahamic covenant (Genesis 12:3, 22:18), tying Israel's return to God's universal purpose."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "צְדָקָה",
+          "transliteration": "tsedaqah",
+          "rendered_as": "righteousness",
+          "semantic_range": "righteousness, justice, right relationship, covenantal faithfulness",
+          "note": "Not abstract moral perfection but relational faithfulness — fulfilling the obligations of relationship with God and others. Paired with mishpat and emet, it describes the total ethical character God requires."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "כִּי־כֹ֣ה אָמַ֣ר יְהוָ֗ה לְאִ֤ישׁ יְהוּדָה֙ וְלִיר֣וּשָׁלַ֔͏ִם נִ֥ירוּ לָכֶ֖ם נִ֑יר וְאַל־תִּזְרְע֖וּ אֶל־קוֹצִֽים׃",
+      "text_kjv": "For thus saith the LORD to the men of Judah and Jerusalem, Break up your fallow ground, and sow not among thorns.",
+      "rendering": "For this is what the LORD says to the people of Judah and to Jerusalem:\nBreak up your unplowed ground;\ndo not sow among thorns.",
+      "translator_notes": [
+        "The agricultural metaphor niru lakhem nir ('plow for yourselves plowing,' i.e., break up your fallow ground) demands genuine preparation before planting. Fallow ground — hardened by neglect — cannot receive seed. The command not to sow among thorns warns against superficial reform that leaves the roots of idolatry in place. Hosea 10:12 uses identical language: 'Break up your fallow ground, for it is time to seek the LORD.' The metaphor anticipates the parable of the sower (Matthew 13:3-9, 18-23)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "הִמֹּ֣לוּ לַיהוָ֗ה וְהָסִ֙רוּ֙ עָרְל֣וֹת לְבַבְכֶ֔ם אִ֥ישׁ יְהוּדָ֖ה וְיֹשְׁבֵ֣י יְרוּשָׁלָ֑͏ִם פֶּן־תֵּצֵ֨א כָאֵ֜שׁ חֲמָתִ֗י וּבָעֲרָ֛ה וְאֵ֥ין מְכַבֶּ֖ה מִפְּנֵ֥י רֹ֥עַ מַעַלְלֵיכֶֽם׃",
+      "text_kjv": "Circumcise yourselves to the LORD, and take away the foreskins of your heart, ye men of Judah and inhabitants of Jerusalem: lest my fury come forth like fire, and burn that none can quench it, because of the evil of your doings.",
+      "rendering": "Circumcise yourselves to the LORD\nand remove the foreskin of your hearts,\nO people of Judah and inhabitants of Jerusalem —\nor my wrath will break out like fire\nand burn with no one to quench it,\nbecause of the evil of your deeds.",
+      "expanded_rendering": "The command himolu laYHWH ('circumcise yourselves to the LORD') takes the physical sign of the Abrahamic covenant — brit milah, the cutting of the flesh — and demands its interior equivalent. Physical circumcision marks the body as belonging to the covenant; circumcision of the heart means removing the hardened, resistant layer that prevents God's word from penetrating the inner life. Moses made the same demand in Deuteronomy 10:16, and in Deuteronomy 30:6, God promises to perform this heart-circumcision himself — a promise Jeremiah will develop into the new covenant of 31:31-34.",
+      "translator_notes": [
+        "The phrase arlot levavkhem ('foreskins of your hearts') is strikingly physical — the metaphor transfers surgical removal of flesh to the spiritual removal of resistance and hardness from the inner life. The warning pen tetse' ka'esh chamati ('lest my wrath go forth like fire') uses pen ('lest') to indicate that judgment is still avoidable at this point — but barely. The phrase me'in mekhabeh ('with no one to quench') indicates that once God's wrath ignites, no power can extinguish it."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עָרְלוֹת לְבַבְכֶם",
+          "transliteration": "arlot levavkhem",
+          "rendered_as": "foreskin of your hearts",
+          "semantic_range": "foreskins of your hearts; metaphor for spiritual insensitivity, resistance, hardness",
+          "note": "The foreskin in covenantal theology is what is removed to mark belonging. Applied to the heart, it represents the barrier between the person and God — the hardened layer of resistance that prevents covenant faithfulness."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "הַגִּ֣ידוּ בִיהוּדָ֗ה וּבִירוּשָׁלַ֙͏ִם֙ הַשְׁמִ֔יעוּ וְאִמְר֕וּ תִּקְע֥וּ שׁוֹפָ֖ר בָּאָ֑רֶץ קִרְא֤וּ מַלְאוּ֙ וְאִמְר֔וּ הֵאָסְפ֥וּ וְנָב֖וֹאָה אֶל־עָרֵ֥י הַמִּבְצָֽר׃",
+      "text_kjv": "Declare ye in Judah, and publish in Jerusalem; and say, Blow ye the trumpet in the land: cry, gather together, and say, Assemble yourselves, and let us go into the defenced cities.",
+      "rendering": "Announce it in Judah! Proclaim it in Jerusalem!\nSound the trumpet throughout the land!\nCry out and say:\n'Gather together! Let us go into the fortified cities!'",
+      "translator_notes": [
+        "The tone shifts abruptly from conditional hope (vv. 1-4) to urgent alarm. The shofar ('trumpet, ram's horn') was the emergency signal for invasion — its blast meant war. The cascade of imperatives — haggidu, hashmi'u, imru, tiq'u, qir'u, mal'u — creates a sense of panicked urgency. The flight to arei hamivtsar ('fortified cities') indicates that the open countryside is no longer safe."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "שְׂאוּ־נֵ֣ס צִיּ֔וֹנָה הָעִ֖יזוּ אַֽל־תַּעֲמֹ֑דוּ כִּ֣י רָעָ֗ה אָנֹכִ֛י מֵבִ֥יא מִצָּפ֖וֹן וְשֶׁ֥בֶר גָּדֽוֹל׃",
+      "text_kjv": "Set up the standard toward Zion: retire, stay not: for I will bring evil from the north, and a great destruction.",
+      "rendering": "Raise the signal flag toward Zion!\nFlee for safety — do not stand still!\nFor I am bringing disaster from the north,\nand great destruction.",
+      "translator_notes": [
+        "The nes ('signal flag, standard, banner') was raised to direct fleeing civilians toward a rally point. The direction mitstsafon ('from the north') echoes 1:13-15, where God first revealed to Jeremiah that judgment would come from the north — the approach route of Mesopotamian armies into Israel. The word shever ('destruction, breaking, shattering') implies total structural collapse."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "עָלָ֤ה אַרְיֵה֙ מִסֻּבְּכ֔וֹ וּמַשְׁחִ֣ית גּוֹיִ֔ם נָסַ֖ע יָצָ֣א מִמְּקֹמ֑וֹ לָשׂ֤וּם אַרְצֵךְ֙ לְשַׁמָּ֔ה עָרַ֥יִךְ תִּצֶּ֖ינָה מֵאֵ֥ין יוֹשֵֽׁב׃",
+      "text_kjv": "The lion is come up from his thicket, and the destroyer of the Gentiles is on his way; he is gone forth from his place to make thy land desolate; and thy cities shall be laid waste, without an inhabitant.",
+      "rendering": "A lion has come up from his thicket;\na destroyer of nations has set out.\nHe has left his place\nto make your land a desolation.\nYour cities will be laid waste,\nleft without an inhabitant.",
+      "translator_notes": [
+        "The aryeh ('lion') is a metaphor for the invading king — likely Nebuchadnezzar, though the image is deliberately unspecific at this point. The phrase mashchit goyim ('destroyer of nations') indicates this is not a local threat but an empire-destroying force. The lion emerging from the subbeko ('thicket, lair') combines animal ferocity with military planning. The result — shammah ('desolation') and cities me'ein yoshev ('without inhabitant') — is total depopulation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "עַל־זֹ֛את חִגְר֥וּ שַׂקִּ֖ים סִפְד֣וּ וְהֵילִ֑ילוּ כִּ֛י לֹא־שָׁ֥ב חֲרוֹן־אַף־יְהוָ֖ה מִמֶּֽנּוּ׃",
+      "text_kjv": "For this gird you with sackcloth, lament and howl: for the fierce anger of the LORD is not turned back from us.",
+      "rendering": "For this, put on sackcloth;\nmourn and wail,\nfor the burning anger of the LORD\nhas not turned back from us.",
+      "translator_notes": [
+        "Sackcloth (saqqim) was the garment of mourning and lamentation — coarse goat hair worn against the skin as a sign of grief. The verb shuv appears again (lo shav, 'has not turned back') — the irony is that Israel has not 'turned back' to God (v. 1), and now God's anger has not 'turned back' from them. The same verb that could have described repentance now describes unrelenting divine wrath."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְהָיָ֤ה בַיּוֹם־הַהוּא֙ נְאֻם־יְהוָ֔ה יֹאבַ֥ד לֵב־הַמֶּ֖לֶךְ וְלֵ֣ב הַשָּׂרִ֑ים וְנָשַׁ֙מּוּ֙ הַכֹּ֣הֲנִ֔ים וְהַנְּבִיאִ֖ים יִתְמָֽהוּ׃",
+      "text_kjv": "And it shall come to pass at that day, saith the LORD, that the heart of the king shall perish, and the heart of the princes; and the priests shall be astonished, and the prophets shall wonder.",
+      "rendering": "On that day — declares the LORD — the courage of the king will fail, and the courage of the officials. The priests will be horrified, and the prophets will be stunned.",
+      "translator_notes": [
+        "The word lev ('heart') here means courage and resolve, not emotion — when the heart 'perishes' (yo'vad), it means the will to lead collapses. The four leadership groups — king, officials (sarim), priests, and prophets — represent every pillar of Judean society. All four will be paralyzed. The verb nashammu ('will be horrified, desolate') for the priests and yitmahu ('will be astounded, stunned') for the prophets describe leaders too shocked to function."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וָאֹמַ֗ר אֲהָהּ֙ אֲדֹנָ֣י יְהוִ֔ה אָכֵ֗ן הַשֵּׁ֨א הִשֵּׁ֜אתָ לָעָ֤ם הַזֶּה֙ וְלִיר֣וּשָׁלַ֔͏ִם לֵאמֹ֕ר שָׁל֥וֹם יִהְיֶ֖ה לָכֶ֑ם וְנָגְעָ֥ה חֶ֖רֶב עַד־הַנָּֽפֶשׁ׃",
+      "text_kjv": "Then said I, Ah, Lord GOD! surely thou hast greatly deceived this people and Jerusalem, saying, Ye shall have peace; whereas the sword reacheth unto the soul.",
+      "rendering": "Then I said, \"O Lord GOD! You have surely deceived this people and Jerusalem by saying, 'You will have peace,' when the sword reaches the throat!\"",
+      "translator_notes": [
+        "Jeremiah's outcry ahah Adonai YHWH ('O Lord GOD!') is an expression of anguish and near-accusation. The verb hishe'ta ('you have deceived') is extraordinarily bold — Jeremiah accuses God of deception, foreshadowing the even more intense accusation in 20:7 (pittitani, 'you seduced/deceived me'). The 'peace' (shalom) that was promised may refer to the false prophets' message that Jeremiah attributes (here, in his shock) to God himself. The phrase ad hannafesh ('to the throat/life') means the sword has reached the point of death."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, well-being, completeness, flourishing",
+          "note": "The promise of shalom here proved false — or at least was spoken by false prophets whom the people believed. Jeremiah's anguish is that the word shalom was used to create false security while the sword was already falling."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "בָּעֵ֣ת הַהִ֗יא יֵאָמֵ֤ר לָֽעָם־הַזֶּה֙ וְלִיר֣וּשָׁלַ֔͏ִם ר֣וּחַ צַ֠ח שְׁפָיִ֨ם בַּמִּדְבָּ֜ר דֶּ֧רֶךְ בַּת־עַמִּ֛י ל֥וֹא לִזְר֖וֹת וְל֥וֹא לְהָבָֽר׃",
+      "text_kjv": "At that time shall it be said to this people and to Jerusalem, A dry wind of the high places in the wilderness toward the daughter of my people, not to fan, nor to cleanse,",
+      "rendering": "At that time it will be said to this people and to Jerusalem: A scorching wind from the barren heights in the wilderness blows toward the daughter of my people — not to winnow and not to cleanse,",
+      "translator_notes": [
+        "The ruach tsach ('scorching wind, dry wind') from the desert is the sirocco — the hot east wind that desiccates everything it touches. This wind comes not for the normal agricultural purpose of winnowing (lizrot) or cleaning grain (lehavar) but for destruction. The phrase bat ammi ('daughter of my people') is an intimate, grieving designation — God speaks of Judah as his own daughter even while announcing her destruction."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "ר֧וּחַ מָלֵ֛א מֵאֵ֖לֶּה יָ֣בוֹא לִ֑י עַתָּ֕ה גַּם־אֲנִ֛י אֲדַבֵּ֥ר מִשְׁפָּטִ֖ים אוֹתָֽם׃",
+      "text_kjv": "Even a full wind from those places shall come unto me: now also will I give sentence against them.",
+      "rendering": "a wind too strong for that comes at my command. Now I myself will pronounce judgments against them.",
+      "translator_notes": [
+        "The phrase ruach male' me'elleh ('a wind fuller/stronger than those') means this wind exceeds any natural storm — it is God's instrument of judgment, not merely weather. The verb adabber mishpatim ('I will speak judgments') shifts from meteorological metaphor to legal declaration — God is both storm-sender and judge. The word mishpatim ('judgments, legal sentences') is the language of the courtroom."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "הִנֵּ֣ה כַעֲנָנִ֣ים יַעֲלֶ֗ה וְכַסּוּפָה֙ מַרְכְּבוֹתָ֔יו קַלּ֥וּ מִנְּשָׁרִ֖ים סוּסָ֑יו א֥וֹי לָ֖נוּ כִּ֥י שֻׁדָּֽדְנוּ׃",
+      "text_kjv": "Behold, he shall come up as clouds, and his chariots shall be as a whirlwind: his horses are swifter than eagles. Woe unto us! for we are spoiled.",
+      "rendering": "Look — he advances like storm clouds;\nhis chariots come like the whirlwind.\nHis horses are swifter than eagles.\nWoe to us, for we are ruined!",
+      "translator_notes": [
+        "The invader is compared to unstoppable natural forces — clouds (covering the sky), a whirlwind (destroying everything in its path), and eagles (the fastest creatures known). The three comparisons escalate from visual threat (clouds) to kinetic force (whirlwind) to terrifying speed (eagles). The cry oy lanu ki shuddadnu ('woe to us, for we are ruined!') is the people's own voice breaking into the oracle — the transition from warning to lament."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "כַּבְּסִ֨י מֵרָעָ֤ה לִבֵּךְ֙ יְר֣וּשָׁלַ֔͏ִם לְמַ֖עַן תִּוָּשֵׁ֑עִי עַד־מָתַ֛י תָּלִ֥ין בְּקִרְבֵּ֖ךְ מַחְשְׁב֥וֹת אוֹנֵֽךְ׃",
+      "text_kjv": "O Jerusalem, wash thine heart from wickedness, that thou mayest be saved. How long shall thy vain thoughts lodge within thee?",
+      "rendering": "Wash the evil from your heart, O Jerusalem,\nso that you may be saved.\nHow long will you harbor\nwicked schemes within you?",
+      "translator_notes": [
+        "The verb kabbesi ('wash') is the technical term for laundering cloth — scrubbing stains out of fabric. Applied to the heart, it demands thorough cleansing, not a surface rinse. The word machshevot ('schemes, thoughts, plans') combined with onekh ('your wickedness, iniquity') indicates that the problem is not merely sinful actions but sinful planning — the heart itself generates evil. The question 'how long?' (ad matai) implies that delay is no longer possible."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "כִּ֛י ק֥וֹל מַגִּ֖יד מִדָּ֑ן וּמַשְׁמִ֥יעַ אָ֖וֶן מֵהַ֥ר אֶפְרָֽיִם׃",
+      "text_kjv": "For a voice declareth from Dan, and publisheth affliction from mount Ephraim.",
+      "rendering": "For a voice announces from Dan\nand proclaims disaster from the hill country of Ephraim.",
+      "translator_notes": [
+        "Dan was the northernmost city of Israel — the first point of contact for an invading army from the north. Mount Ephraim (har Efrayim) lies between Dan and Jerusalem. The progression Dan → Ephraim → Jerusalem traces the invader's route southward. The voice (qol) announcing disaster is that of the advance warning runners who would relay news of the army's approach from station to station."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "הַזְכִּ֣ירוּ לַגּוֹיִ֗ם הִנֵּה֙ הַשְׁמִ֣יעוּ עַל־יְרוּשָׁלַ֔͏ִם נֹצְרִ֥ים בָּאִ֖ים מֵאֶ֣רֶץ הַמֶּרְחָ֑ק וַיִּתְּנ֥וּ עַל־עָרֵ֥י יְהוּדָ֖ה קוֹלָֽם׃",
+      "text_kjv": "Make ye mention to the nations; behold, publish against Jerusalem, that watchers come from a far country, and give out their voice against the cities of Judah.",
+      "rendering": "Warn the nations — look!\nProclaim it against Jerusalem:\nBesiegers are coming from a distant land;\nthey raise their war cry against the cities of Judah.",
+      "translator_notes": [
+        "The word notserim ('watchers, besiegers, guards') can mean those who watch over a city in siege — surrounding it to prevent escape. The phrase erets hammerchaq ('a distant land') keeps the invader's identity ambiguous while emphasizing the vast distance they have traveled to bring judgment. The verb yittenu qolam ('they give their voice') refers to the war cry — the terrifying shout of an attacking army."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "כְּשֹׁמְרֵ֣י שָׂדַ֗י הָי֤וּ עָלֶ֙יהָ֙ מִסָּבִ֔יב כִּי־אֹתִ֖י מָרָ֑תָה נְאֻם־יְהוָֽה׃",
+      "text_kjv": "As keepers of a field, are they against her round about; because she hath been rebellious against me, saith the LORD.",
+      "rendering": "They surround her like guards around a field,\nbecause she has rebelled against me, declares the LORD.",
+      "translator_notes": [
+        "The simile compares the besieging army to shomerei sadai ('field guards') — workers who surround a cultivated field to keep animals out. The image is one of total encirclement. The reason for the siege is stated directly: ki oti maratah ('because she has rebelled against me'). The verb marah ('to rebel, to be contentious') makes the invasion not a geopolitical event but a covenant consequence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "דַּרְכֵּ֣ךְ וּמַעֲלָלַ֗יִךְ עָשׂ֤וּ אֵ֙לֶּה֙ לָ֔ךְ זֹ֥את רָעָתֵ֖ךְ כִּ֣י מָ֑ר כִּ֥י נָגַ֖ע עַד־לִבֵּֽךְ׃",
+      "text_kjv": "Thy way and thy doings have procured these things unto thee; this is thy wickedness, because it is bitter, because it reacheth unto thine heart.",
+      "rendering": "Your ways and your deeds have brought this upon you.\nThis is your punishment — how bitter it is!\nIt has reached your very heart.",
+      "translator_notes": [
+        "The verse places responsibility squarely on the people: darkekh uma'alalayikh ('your ways and your deeds') have caused the invasion. The word mar ('bitter') describes the taste of judgment — not merely painful but nauseating. The phrase naga' ad libbek ('it has reached your heart') echoes the earlier command to circumcise the heart (v. 4) — the heart they refused to open to God is now pierced by judgment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "מֵעַ֣י ׀ מֵעַ֜י אוֹחִ֗ילָה קִיר֤וֹת לִבִּי֙ הֹ֣מֶה לִּ֣י לִבִּ֔י לֹ֥א אַחֲרִ֖ישׁ כִּ֣י ק֤וֹל שׁוֹפָר֙ שָׁמַ֣עַתְּ נַפְשִׁ֔י תְּרוּעַ֖ת מִלְחָמָֽה׃",
+      "text_kjv": "My bowels, my bowels! I am pained at my very heart; my heart maketh a noise in me; I cannot hold my peace, because thou hast heard, O my soul, the sound of the trumpet, the alarm of war.",
+      "rendering": "My anguish, my anguish! I writhe in pain!\nThe walls of my heart!\nMy heart pounds within me — I cannot keep silent,\nfor I hear the sound of the trumpet,\nthe alarm of war!",
+      "translator_notes": [
+        "This is Jeremiah's personal eruption into the oracle — the prophet's own body responds to the vision of destruction. The word me'ai ('my bowels, my inward parts') refers to the visceral, gut-level pain — the deepest physical reaction to emotional trauma. The phrase qirot libbi ('walls of my heart') is unique — as if the heart itself has walls that are shaking. The verb ochilah ('I writhe, I am in pain') describes the convulsions of anguish. This is the beginning of the personal prophetic lament that marks Jeremiah's unique contribution to prophetic literature."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "שֶׁ֤בֶר עַל־שֶׁ֙בֶר֙ נִקְרָ֔א כִּ֥י שֻׁדְּדָ֖ה כָּל־הָאָ֑רֶץ פִּתְאֹ֛ם שֻׁדְּד֥וּ אֹהָלַ֖י רֶ֥גַע יְרִיעֹתָֽי׃",
+      "text_kjv": "Destruction upon destruction is cried; for the whole land is spoiled: suddenly are my tents spoiled, and my curtains in a moment.",
+      "rendering": "Disaster upon disaster is announced,\nfor the whole land is devastated.\nSuddenly my tents are destroyed,\nmy tent curtains in an instant.",
+      "translator_notes": [
+        "The phrase shever al shever ('disaster upon disaster, breaking upon breaking') conveys cascading catastrophe — each wave of destruction followed immediately by another. The 'tents' (ohalai) and 'tent curtains' (yeri'otai) represent homes and personal shelter. The words pit'om ('suddenly') and rega' ('in an instant') emphasize the speed of the collapse — there is no gradual decline, only instant obliteration."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "עַד־מָתַ֖י אֶרְאֶה־נֵּ֑ס אֶשְׁמְעָ֖ה ק֥וֹל שׁוֹפָֽר׃",
+      "text_kjv": "How long shall I see the standard, and hear the sound of the trumpet?",
+      "rendering": "How long must I see the battle flag\nand hear the sound of the trumpet?",
+      "translator_notes": [
+        "The nes ('banner, signal flag') and shofar ('trumpet') are the instruments of war — the visual and auditory signals of battle. Jeremiah's question 'how long?' (ad matai) is both a lament and an accusation — he is forced to witness destruction he cannot prevent. This echoes the psalms of lament (Psalm 13:1-2, 'How long, O LORD?')."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "כִּ֣י אֱוִ֣יל עַמִּ֗י אוֹתִי֙ לֹ֣א יָדָ֔עוּ בָּנִ֤ים סְכָלִים֙ הֵ֔מָּה וְלֹ֥א נְבוֹנִ֖ים הֵ֑מָּה חֲכָמִ֥ים הֵ֙מָּה֙ לְהָרַ֔ע וּלְהֵיטִ֖יב לֹ֥א יָדָֽעוּ׃",
+      "text_kjv": "For my people is foolish, they have not known me; they are sottish children, and they have none understanding: they are wise to do evil, but to do good they have no knowledge.",
+      "rendering": "\"For my people are foolish —\nthey do not know me.\nThey are senseless children\nwithout understanding.\nThey are skilled at doing evil,\nbut they do not know how to do good.\"",
+      "translator_notes": [
+        "God answers Jeremiah's lament with a devastating character assessment. The word evil ('foolish') describes not intellectual deficiency but moral stupidity — willful ignorance of God. The contrast chakhamim hemah lehara' ('they are wise at evil') with uleheitiv lo yada'u ('but doing good they do not know') is bitterly ironic — their expertise is in wrongdoing, their incompetence is in righteousness. The word sekhalim ('senseless, stupid') is harsher than evil — it implies thick-headed obtuseness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "רָאִ֙יתִי֙ אֶת־הָאָ֔רֶץ וְהִנֵּה־תֹ֖הוּ וָבֹ֑הוּ וְאֶל־הַשָּׁמַ֖יִם וְאֵ֥ין אוֹרָֽם׃",
+      "text_kjv": "I beheld the earth, and, lo, it was without form, and void; and the heavens, and they had no light.",
+      "rendering": "I looked at the earth,\nand it was formless and void.\nI looked at the heavens,\nand their light was gone.",
+      "expanded_rendering": "Tohu vavohu ('formless and void') appears in only two places in the entire Hebrew Bible — here and in Genesis 1:2, where it describes the state of the earth before God spoke creation into being. Jeremiah is not merely describing destruction — he is describing de-creation, the reversal of Genesis 1. Where God said 'Let there be light' (Genesis 1:3), now the heavens have no light. The prophet sees judgment so total that it returns the cosmos to its pre-creation state. This is the most radical judgment vision in prophetic literature.",
+      "translator_notes": [
+        "We preserved 'formless and void' — the traditional rendering of tohu vavohu — specifically because the Genesis 1:2 echo must be immediately recognizable to English readers familiar with creation language. Any paraphrase ('chaotic wasteland,' 'empty desolation') would lose the intertextual connection. The fourfold 'I looked' sequence (ra'iti... v. 23, 24, 25, 26) structures the vision as a systematic survey of de-creation: earth, heavens, mountains, living creatures — each domain of Genesis 1 undone in order."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תֹהוּ וָבֹהוּ",
+          "transliteration": "tohu vavohu",
+          "rendered_as": "formless and void",
+          "semantic_range": "formless and void, chaos and emptiness, desolation and waste",
+          "note": "This phrase occurs only in Genesis 1:2 and here. Its reuse is deliberate and devastating — Jeremiah sees the undoing of creation itself. The judgment is not merely historical but cosmic."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "רָאִ֙יתִי֙ הֶֽהָרִ֔ים וְהִנֵּ֖ה רֹעֲשִׁ֑ים וְכָל־הַגְּבָע֖וֹת הִתְקַלְקָֽלוּ׃",
+      "text_kjv": "I beheld the mountains, and, lo, they trembled, and all the hills moved lightly.",
+      "rendering": "I looked at the mountains,\nand they were quaking.\nAll the hills swayed back and forth.",
+      "translator_notes": [
+        "The mountains — symbols of permanence and stability in Hebrew thought (Psalm 125:1-2) — are ro'ashim ('quaking, trembling'). The verb hitqalqelu ('they swayed, moved to and fro') for the hills suggests violent oscillation. In Genesis 1, God separated the waters and let dry land appear (Genesis 1:9-10); here the solid ground itself becomes unstable. The creation-reversal sequence continues: after earth and light (v. 23), the stability of the terrain (v. 24)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "רָאִ֕יתִי וְהִנֵּ֖ה אֵ֣ין הָאָדָ֑ם וְכָל־ע֥וֹף הַשָּׁמַ֖יִם נָדָֽדוּ׃",
+      "text_kjv": "I beheld, and, lo, there was no man, and all the birds of the heavens were fled.",
+      "rendering": "I looked, and there was no human being.\nAll the birds of the sky had fled.",
+      "translator_notes": [
+        "The word ha'adam ('the human, humanity') echoes Genesis 1:26-27, where God created ha'adam. Now ha'adam is gone — de-creation has reversed the sixth day. The birds of the sky (of hashamayim) were created on the fifth day (Genesis 1:20-21); they too have fled. The sequence precisely reverses Genesis: light gone (v. 23 = Day 1 reversed), land unstable (v. 24 = Day 3 reversed), humans gone (v. 25a = Day 6 reversed), birds gone (v. 25b = Day 5 reversed). The Hebrew ein ('there was not') has the absolute finality of absence."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "רָאִ֕יתִי וְהִנֵּ֥ה הַכַּרְמֶ֖ל הַמִּדְבָּ֑ר וְכָל־עָרָ֗יו נִתְּצ֛וּ מִפְּנֵ֥י יְהוָ֖ה מִפְּנֵ֥י חֲר֥וֹן אַפּֽוֹ׃",
+      "text_kjv": "I beheld, and, lo, the fruitful place was a wilderness, and all the cities thereof were broken down at the presence of the LORD, and by his fierce anger.",
+      "rendering": "I looked, and the fertile land was a wilderness.\nAll its cities were torn down\nbefore the LORD,\nbefore his burning anger.",
+      "translator_notes": [
+        "The karmel ('fertile land, orchard, garden land') has become midbar ('wilderness, desert') — the cultivated abundance of Genesis 1:11-12 (vegetation) and 1:29 (seed-bearing plants) is reversed. The cities — the pinnacle of human civilization — are nittsetsu ('torn down, demolished'). The cause is stated twice for emphasis: mippenei YHWH, mippenei charon appo ('before the LORD, before his burning anger'). The vision has now completed its survey: cosmos (v. 23), terrain (v. 24), life (v. 25), civilization (v. 26) — all undone."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "כִּי־כֹ֣ה אָמַ֣ר יְהוָ֗ה שְׁמָמָ֛ה תִּהְיֶ֥ה כָל־הָאָ֖רֶץ וְכָלָ֖ה לֹ֥א אֶעֱשֶֽׂה׃",
+      "text_kjv": "For thus hath the LORD said, The whole land shall be desolate; yet will I not make a full end.",
+      "rendering": "For this is what the LORD says:\nThe whole land will be desolate,\nbut I will not make a complete end of it.",
+      "translator_notes": [
+        "After the total de-creation vision of verses 23-26, this verse introduces a stunning qualification: vekhalah lo e'eseh ('but a complete end I will not make'). The judgment, however cosmic in its imagery, will not be final — a thread of hope persists even in the most absolute destruction oracle. The word shemamah ('desolation, horror') describes a landscape so devastated that it causes shuddering in anyone who sees it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "עַל־זֹ֛את תֶּאֱבַ֥ל הָאָ֖רֶץ וְקָדְר֣וּ הַשָּׁמַ֣יִם מִמָּ֑עַל עַ֣ל כִּֽי־דִבַּ֗רְתִּי זַמֹּ֙תִי֙ וְלֹ֣א נִחַ֔מְתִּי וְלֹא־אָשׁ֖וּב מִמֶּֽנָּה׃",
+      "text_kjv": "For this shall the earth mourn, and the heavens above be black; because I have spoken it, I have purposed it, and will not repent, neither will I turn back from it.",
+      "rendering": "For this the earth will mourn\nand the heavens above grow dark,\nbecause I have spoken and I have purposed it.\nI will not relent,\nand I will not turn back from it.",
+      "translator_notes": [
+        "The earth mourns (te'eval) and the heavens darken (qaderu) — creation itself responds to God's judgment with grief. The verb zammoti ('I have purposed, I have planned') indicates deliberate intent, not impulsive rage. The double negation lo nichamti ('I will not relent') and lo ashuv ('I will not turn back') uses shuv once more — God will not 'turn back' from judgment, just as the people would not 'turn back' to him. The irony of shuv continues to the end."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "מִקּ֨וֹל פָּרָ֜שׁ וְרֹ֣מֵה קֶ֗שֶׁת בֹּרַ֙חַת֙ כָּל־הָעִ֔יר בָּ֚אוּ בֶּעָבִ֔ים וּבַכֵּפִ֖ים עָל֑וּ כָּל־הָעִ֤יר עֲזוּבָה֙ וְאֵ֣ין יוֹשֵׁ֔ב בָּהֵ֖ן אִֽישׁ׃",
+      "text_kjv": "The whole city shall flee for the noise of the horsemen and bowmen; they shall go into thickets, and climb up upon the rocks: every city shall be forsaken, and not a man dwell therein.",
+      "rendering": "At the sound of horsemen and archers\nevery city takes flight.\nThey go into the thickets;\nthey climb up among the rocks.\nEvery city is abandoned —\nnot a single person remains in them.",
+      "translator_notes": [
+        "The panic is universal — kol ha'ir ('every city') flees. The flight into thickets (ba'avim) and up onto rocks (bakkefim) depicts civilians scrambling for any hiding place. The word azuvah ('abandoned, deserted, forsaken') carries emotional weight — the cities are not just empty but forsaken, like a wife abandoned by her husband (cf. Isaiah 54:6), connecting back to the marital metaphor of chapter 3."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְאַתְּ֣ שָׁד֗וּד מַה־תַּעֲשִׂי֙ כִּי־תִלְבְּשִׁ֣י שָׁנִ֔י כִּֽי־תַעְדִּ֖י עֲדִי־זָהָ֑ב כִּֽי־תִקְרְעִ֤י בַפּוּךְ֙ עֵינַ֔יִךְ לַשָּׁ֖וְא תִּתְיַפִּ֑י מָאֲס֤וּ בָךְ֙ עֹגְבִ֔ים נַפְשֵׁ֖ךְ יְבַקֵּֽשׁוּ׃",
+      "text_kjv": "And when thou art spoiled, what wilt thou do? Though thou clothest thyself with crimson, though thou deckest thee with ornaments of gold, though thou rentest thy face with painting, in vain shalt thou make thyself fair; thy lovers shall despise thee, they will seek thy life.",
+      "rendering": "And you, O devastated one —\nwhat will you do?\nThough you dress in scarlet,\nthough you adorn yourself with gold jewelry,\nthough you enlarge your eyes with paint —\nyou beautify yourself for nothing.\nYour lovers despise you;\nthey seek your life.",
+      "translator_notes": [
+        "Jerusalem is personified as a woman trying to make herself attractive to her former lovers (the foreign allies she courted through political treaties and religious syncretism). The scarlet clothing (shani), gold jewelry (adi zahav), and eye paint (pukh) are the trappings of seduction. The bitter irony: the lovers she adorns herself for now want to kill her (nafshekh yevaqeshu, 'they seek your life'). The word ma'asu ('they despise, reject') means her allies have turned into her destroyers."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "כִּי֩ ק֨וֹל כְּחוֹלָ֜ה שָׁמַ֗עְתִּי צָרָ֛ה כְּמַבְכִּירָ֖ה ק֣וֹל בַּת־צִיּ֑וֹן תִּתְיַפֵּ֗חַ תְּפָרֵ֤שׂ כַּפֶּ֙יהָ֙ א֣וֹי־נָ֣א לִ֔י כִּֽי־עָיְפָ֥ה נַפְשִׁ֖י לְהֹרְגִֽים׃",
+      "text_kjv": "For I have heard a voice as of a woman in travail, and the anguish as of her that bringeth forth her first child, the voice of the daughter of Zion, that bewaileth herself, that spreadeth her hands, saying, Woe is me now! for my soul is wearied because of murderers.",
+      "rendering": "For I hear a cry like a woman in labor,\nanguish like one bearing her first child —\nthe voice of the daughter of Zion, gasping for breath,\nstretching out her hands:\n\"Woe is me!\nI am fainting before the killers!\"",
+      "translator_notes": [
+        "The chapter closes with a devastating image: bat Tsiyon ('the daughter of Zion') is compared to a woman in her first labor (kemavkirah) — the most painful and terrifying birth experience, compounded by inexperience. The verb tityappeach ('she gasps, she pants') describes the ragged breathing of extreme pain or terror. The stretching out of hands (tefaresh kappeha) is the gesture of desperate supplication — reaching for help that will not come. Her final cry — ki ayfah nafshi lehoregim ('my soul faints before the killers') — ends the chapter with the voice of a dying city."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Samuel",
+    "chapter": 1,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "A barren woman named Hannah, tormented by her husband's other wife, pours out her anguish before God at the sanctuary in Shiloh. She vows that if God gives her a son, she will dedicate him to the LORD for life. God remembers her, she conceives and bears Samuel, and she fulfills her vow by bringing the child to Shiloh.",
+    "remarkable": "This chapter is built on a single Hebrew wordplay that most English readers never see. The verb sha'al ('to ask') threads through the entire narrative — Hannah asks God for a son, Eli asks what is wrong with her, and when the boy is born she names him Samuel because 'I asked him from the LORD.' The name Shemu'el is popularly linked to 'heard by God' (shama + El), but the text itself connects it to sha'al — the very root that gives us the name Sha'ul (Saul). Hannah's prayer for a son produces the prophet who will anoint Israel's first king, and the wordplay binds both figures to the same act of asking. The chapter also introduces a pattern that will dominate 1 Samuel: the reversal of human expectations. The favored wife has children but no narrative importance; the barren wife reshapes Israel's history. God's power works through emptiness, not fullness.",
+    "friction": "The name etymology in verse 20 is the chapter's hardest translation problem. Hannah says ki me-YHWH she'iltiv ('because from the LORD I asked him') — but the verb sha'al ('to ask') fits the name Sha'ul (Saul), not Shemu'el (Samuel). Some scholars argue this passage originally told Saul's birth story and was later reassigned to Samuel. Others see a deliberate double meaning: the name evokes both shama ('heard') and sha'al ('asked'), fusing the two ideas. We render the name connection transparently and note the tension rather than resolving it. In verse 13, Hannah prays 'in her heart' with her lips moving but no voice — the Hebrew al libbah ('upon her heart') describes internal speech that is visible but inaudible. Eli's mistaking this for drunkenness reflects the fact that silent prayer was apparently unusual enough at Shiloh to be unrecognizable. We chose 'speaking within herself' to capture the visible-but-silent quality.",
+    "connections": "Hannah's barrenness places her in a line of matriarchs whose closed wombs become turning points: Sarah (Genesis 11:30), Rebekah (Genesis 25:21), Rachel (Genesis 29:31), and the wife of Manoah (Judges 13:2). In each case, God opens the womb at the moment that shapes covenant history. Hannah's vow that no razor will touch her son's head (verse 11) uses language identical to the Nazirite vow in Numbers 6:5, connecting Samuel to Samson — but where Samson's Nazirite status ended in ruin, Samuel's will produce faithful service. Hannah's prayer of thanksgiving in chapter 2 will become the structural model for Mary's Magnificat (Luke 1:46-55), and the phrase 'the LORD remembered her' (verse 19) uses the same verb (zakar) applied to God's remembering Noah (Genesis 8:1), Rachel (Genesis 30:22), and the covenant itself (Exodus 2:24)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֣י אִ֣ישׁ אֶחָ֣ד מִן־הָרָמָתַ֜יִם צוֹפִ֗ים מֵהַ֛ר אֶפְרָ֖יִם וּשְׁמ֣וֹ אֶלְקָנָ֑ה בֶּן־יְרֹחָ֧ם בֶּן־אֱלִיה֛וּא בֶּן־תֹּ֥חוּ בֶן־צ֖וּף אֶפְרָתִֽי׃",
+      "text_kjv": "Now there was a certain man of Ramathaimzophim, of mount Ephraim, and his name was Elkanah, the son of Jeroham, the son of Elihu, the son of Tohu, the son of Zuph, an Ephrathite:",
+      "rendering": "There was a man from Ramathaim-zophim, in the hill country of Ephraim. His name was Elkanah son of Jeroham, son of Elihu, son of Tohu, son of Zuph — an Ephraimite.",
+      "translator_notes": [
+        "The place name Ramathaim-zophim means 'the double height of the watchers' — ramathaim is a dual form of ramah ('height') and tsofim ('watchers, lookouts'). The genealogy traces four generations, rooting Elkanah in the tribe of Ephraim. The term Efrati here means 'Ephraimite' (a tribal designation), not 'Ephrathite' as in Ruth 1:2, where it refers to a clan in Judah. The distinction matters: this family belongs to the northern hill country, not to Bethlehem.",
+        "The fourfold genealogy (ben Yerocham ben Elihu ben Tochu ben Tsuf) is unusually detailed for a narrative opening, signaling that this family's lineage matters. Chronicles will later identify this line as Levitical (1 Chronicles 6:19-23), which would explain why Samuel can serve in the sanctuary despite being an Ephraimite by residence."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְל֛וֹ שְׁתֵּ֥י נָשִׁ֖ים שֵׁ֣ם אַחַ֤ת חַנָּה֙ וְשֵׁ֣ם הַשֵּׁנִ֣ית פְּנִנָּ֔ה וַיְהִ֤י לִפְנִנָּה֙ יְלָדִ֔ים וּלְחַנָּ֖ה אֵ֥ין יְלָדִֽים׃",
+      "text_kjv": "And he had two wives; the name of the one was Hannah, and the name of the other Peninnah: and Peninnah had children, but Hannah had no children.",
+      "rendering": "He had two wives; the name of one was Hannah and the name of the other was Peninnah. Peninnah had children, but Hannah had none.",
+      "translator_notes": [
+        "The name Channah derives from chanan ('to be gracious, to show favor') — she is 'Grace' or 'Favored One,' though her situation at the story's opening is anything but gracious. Peninnah may derive from peninim ('corals, pearls') or from panah ('to turn'). The Hebrew states the contrast with stark simplicity: vayyehi li-Feninnah yeladim u-le-Channah ein yeladim ('and Peninnah had children and Hannah — no children'). The word ein ('there is not') is absolute negation.",
+        "The two-wife household echoes the pattern of Leah and Rachel (Genesis 29-30): one wife is fertile but less loved, the other is loved but barren. The narrative formula signals that the barren wife's story will be the one that matters."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְעָלָה֩ הָאִ֨ישׁ הַה֤וּא מֵֽעִירוֹ֙ מִיָּמִ֣ים ׀ יָמִ֔ימָה לְהִֽשְׁתַּחֲוֹ֧ת וְלִזְבֹּ֛חַ לַיהוָ֥ה צְבָא֖וֹת בְּשִׁלֹ֑ה וְשָׁ֞ם שְׁנֵ֣י בְנֵֽי־עֵלִ֗י חׇפְנִ֛י וּפִֽינְחָ֥ס כֹּהֲנִ֖ים לַיהוָֽה׃",
+      "text_kjv": "And this man went up out of his city yearly to worship and to sacrifice unto the LORD of hosts in Shiloh. And the two sons of Eli, Hophni and Phinehas, the priests of the LORD, were there.",
+      "rendering": "This man would go up from his town year by year to worship and sacrifice to the LORD of Armies at Shiloh. The two sons of Eli — Hophni and Phinehas — were serving there as priests of the LORD.",
+      "translator_notes": [
+        "The phrase mi-yamim yamimah ('from days to days') is an idiom for 'year by year' or 'annually,' referring to the pilgrimage festivals. The title YHWH Tseva'ot ('LORD of Armies') appears here for the first time in the Hebrew Bible — this is its inaugural occurrence. The title designates God as commander of heavenly and earthly forces. Its first appearance in a story about a barren woman's prayer, rather than in a battle narrative, is striking: the God of cosmic armies attends to domestic grief.",
+        "The mention of Hophni and Phinehas is ominous foreshadowing. The narrator names them as 'priests of the LORD' but will shortly reveal them as corrupt (2:12-17). Their presence at Shiloh sets the stage for the crisis of the priesthood that Samuel will eventually address."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "צְבָאוֹת",
+          "transliteration": "tseva'ot",
+          "rendered_as": "Armies",
+          "semantic_range": "armies, hosts, heavenly forces, organized multitudes, warfare",
+          "note": "This is the first occurrence of the title YHWH Tseva'ot in the Hebrew Bible. The term encompasses both earthly military forces and heavenly armies (angelic beings, stars). Its debut in a story about a barren woman's prayer suggests that the God who commands cosmic armies also commands the opening of wombs."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיְהִ֣י הַיּ֔וֹם וַיִּזְבַּ֖ח אֶלְקָנָ֑ה וְנָתַ֞ן לִפְנִנָּ֣ה אִשְׁתּ֗וֹ וּלְכׇל־בָּנֶ֛יהָ וּבְנוֹתֶ֖יהָ מָנֽוֹת׃",
+      "text_kjv": "And when the time was that Elkanah offered, he gave to Peninnah his wife, and to all her sons and her daughters, portions:",
+      "rendering": "On the day when Elkanah sacrificed, he would give portions to his wife Peninnah and to all her sons and daughters.",
+      "translator_notes": [
+        "The sacrificial meal was a communal feast following the offering — the family consumed their share of the peace offering (shelamim) together. The word manot ('portions') refers to the allocated shares of the sacrificial meat. Each family member received a designated portion. The detail that Peninnah's sons and daughters each received their own portion emphasizes the size of her family, making the contrast with Hannah more painful."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וּלְחַנָּ֕ה יִתֵּ֛ן מָנָ֥ה אַחַ֖ת אַפָּ֑יִם כִּ֤י אֶת־חַנָּה֙ אָהֵ֔ב וַֽיהוָ֖ה סָגַ֥ר רַחְמָֽהּ׃",
+      "text_kjv": "But unto Hannah he gave a worthy portion; for he loved Hannah: but the LORD had shut up her womb.",
+      "rendering": "But to Hannah he would give a double portion, because he loved Hannah — though the LORD had closed her womb.",
+      "translator_notes": [
+        "The phrase manah achat appayim is notoriously difficult. It could mean 'one portion of the face/presence' (a choice portion), 'one portion double' (a double share), or even 'one portion — though with a sad face.' Most interpreters read it as a special or double portion expressing Elkanah's favor. We chose 'double portion' as the most natural reading — Elkanah compensates with generosity for what he cannot give her.",
+        "The clause va-YHWH sagar rachmah ('and the LORD had closed her womb') uses the divine name as the subject of the closing. This is not presented as punishment but as divine sovereignty — the narrator makes God the direct agent of Hannah's barrenness without explaining why. The word rechem ('womb') shares its root with rachamim ('compassion, mercy'), creating an irony: the organ associated with divine compassion has been shut by God."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "סָגַר",
+          "transliteration": "sagar",
+          "rendered_as": "closed",
+          "semantic_range": "to close, to shut, to lock, to deliver up",
+          "note": "When applied to the womb with God as subject, sagar attributes barrenness directly to divine action. The same verb is used for God closing the wombs in Abimelech's household (Genesis 20:18). It implies deliberate, purposeful restriction — not accident or natural cause."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְכִֽעֲסַ֤תָּה צָרָתָהּ֙ גַּם־כַּ֔עַס בַּעֲב֖וּר הַרְּעִמָ֑הּ כִּֽי־סָגַ֥ר יְהוָ֖ה בְּעַ֥ד רַחְמָֽהּ׃",
+      "text_kjv": "And her adversary also provoked her sore, for to make her fret, because the LORD had shut up her womb.",
+      "rendering": "Her rival would provoke her bitterly to torment her, because the LORD had closed her womb.",
+      "translator_notes": [
+        "Peninnah is called tsaratah ('her rival wife') — the term tsarah specifically denotes a co-wife in a polygamous household and literally means 'her distress' or 'her adversary.' The very word for 'co-wife' in Hebrew contains the word for suffering. The verb ki'asattah ('she provoked her') paired with the intensifier gam ka'as ('also with provocation') and the purpose clause ba'avur har'imah ('in order to make her thunder/agitate') reveals Peninnah's cruelty as deliberate and sustained, not casual friction.",
+        "The narrator repeats ki sagar YHWH be'ad rachmah ('because the LORD had closed her womb') — the same theological claim from verse 5. The repetition frames Hannah's suffering between two causes: divine agency (God closed) and human cruelty (Peninnah provoked). The text refuses to choose between them."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְכֵ֨ן יַעֲשֶׂ֜ה שָׁנָ֣ה בְשָׁנָ֗ה מִדֵּ֤י עֲלֹתָהּ֙ בְּבֵ֣ית יְהוָ֔ה כֵּ֖ן תַּכְעִסֶ֑נָּה וַתִּבְכֶּ֖ה וְלֹ֥א תֹאכַֽל׃",
+      "text_kjv": "And as he did so year by year, when she went up to the house of the LORD, so she provoked her; therefore she wept, and did not eat.",
+      "rendering": "This happened year after year. Whenever she went up to the house of the LORD, Peninnah would provoke her until she wept and would not eat.",
+      "translator_notes": [
+        "The phrase shanah be-shanah ('year by year') emphasizes that this was not a single incident but an annual humiliation timed to the pilgrimage festival — the very occasion meant for worship and communal joy becomes Hannah's recurring season of grief. The verb tivkeh ('she wept') and the clause lo tokhal ('she would not eat') describe Hannah's response in terms of mourning: weeping and refusing food are the classic signs of deep grief in Hebrew narrative (2 Samuel 12:16-17). Hannah mourns at the feast."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֹּ֣אמֶר לָהּ֩ אֶלְקָנָ֨ה אִישָׁ֜הּ חַנָּ֗ה לָ֤מֶה תִבְכִּי֙ וְלָ֣מֶה לֹ֣א תֹאכְלִ֔י וְלָ֖מֶה יֵרַ֣ע לְבָבֵ֑ךְ הֲל֤וֹא אָנֹכִי֙ ט֣וֹב לָ֔ךְ מֵעֲשָׂרָ֖ה בָּנִֽים׃",
+      "text_kjv": "Then said Elkanah her husband to her, Hannah, why weepest thou? and why eatest thou not? and why is thy heart grieved? am not I better to thee than ten sons?",
+      "rendering": "Elkanah her husband said to her, \"Hannah, why are you weeping? Why won't you eat? Why is your heart so troubled? Am I not better to you than ten sons?\"",
+      "translator_notes": [
+        "Elkanah's three questions (why do you weep, why don't you eat, why is your heart bad) show genuine concern, but his final rhetorical question — halo anokhi tov lakh me-asarah vanim ('am I not better to you than ten sons?') — reveals that he does not fully understand her grief. He measures his love against the lack she feels, assuming that spousal devotion can substitute for the child she desperately wants. The number 'ten' (asarah) represents completeness and abundance. Elkanah is offering everything he has, but it is not the thing she needs.",
+        "The phrase yera levavekh ('your heart is bad/evil') uses the verb ra'a ('to be bad, evil, displeased') applied to the heart (levav). This is not moral judgment but emotional diagnosis — her inner self is in distress. The same phrase describes deep emotional pain elsewhere (Nehemiah 2:10, Jonah 4:1)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַתָּ֣קׇם חַנָּ֔ה אַחֲרֵ֛י אׇכְלָ֥ה בְשִׁלֹ֖ה וְאַחֲרֵ֣י שָׁתֹ֑ה וְעֵלִ֣י הַכֹּהֵ֗ן יֹשֵׁב֙ עַל־הַכִּסֵּ֔א עַל־מְזוּזַ֖ת הֵיכַ֥ל יְהוָֽה׃",
+      "text_kjv": "So Hannah rose up after they had eaten in Shiloh, and after they had drunk. Now Eli the priest sat upon a seat by a post of the temple of the LORD.",
+      "rendering": "Hannah rose after eating and drinking at Shiloh. Now Eli the priest was sitting on his chair beside the doorpost of the LORD's temple.",
+      "translator_notes": [
+        "The phrase acharei akhlah be-Shiloh ve-acharei shatoh ('after eating in Shiloh and after drinking') is ambiguous — the suffixes could refer to Hannah eating and drinking, or to the family eating and drinking. If Hannah, then she has recovered enough to eat before approaching God; if the family, then she goes to pray while others feast. Given verse 7's report that she would not eat, some interpreters read this as the broader family's meal.",
+        "Eli sits al ha-kisse al mezuzat hekhal YHWH ('on the seat beside the doorpost of the temple of the LORD'). The word hekhal ('temple, palace') applied to the Shiloh sanctuary is significant — this is the central worship site before Jerusalem. The mezuzah ('doorpost') places Eli at the threshold, the liminal space between the sacred interior and the public courtyard. He occupies the position of gatekeeper."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְהִ֖יא מָ֣רַת נָ֑פֶשׁ וַתִּתְפַּלֵּ֥ל עַל־יְהוָ֖ה וּבָכֹ֥ה תִבְכֶּֽה׃",
+      "text_kjv": "And she was in bitterness of soul, and prayed unto the LORD, and wept sore.",
+      "rendering": "She was deeply bitter in spirit, and she prayed to the LORD, weeping uncontrollably.",
+      "expanded_rendering": "The Hebrew marat nefesh ('bitter of soul') describes not a passing sadness but a soul-level anguish — the nefesh is the entire living self, the seat of desire, will, and identity. Hannah's bitterness has penetrated to her core. Her prayer (tefilah) is directed al YHWH ('upon the LORD'), and the weeping is expressed with the infinitive absolute construction uvakho tivkeh ('weeping, she wept') — a Hebrew intensifier that conveys unrestrained, convulsive grief.",
+      "translator_notes": [
+        "The phrase marat nefesh ('bitter of soul') uses the same root (marar) that Naomi invokes in Ruth 1:20 when she renames herself Mara. The nefesh is not merely 'soul' in the Greek philosophical sense but the entire living self — appetite, desire, identity. Hannah's bitterness has consumed her whole being.",
+        "The construction uvakho tivkeh ('weeping, she wept') is the infinitive absolute paired with the finite verb — Hebrew's strongest intensifier. It conveys not quiet tears but convulsive, uncontrollable weeping. The same construction appears in Genesis 2:17 (mot tamut, 'dying you will die') and here carries the same force of totality."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תְּפִלָּה",
+          "transliteration": "tefilah",
+          "rendered_as": "prayed",
+          "semantic_range": "prayer, petition, intercession, supplication",
+          "note": "From the root palal ('to intercede, to judge, to pray'). The hitpael form (hitpallel) used here suggests reflexive action — literally 'she caused herself to pray' or 'she threw herself into prayer.' Hannah's prayer is not casual devotion but desperate self-investment before God."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַתִּדֹּ֨ר נֶ֜דֶר וַתֹּאמַ֗ר יְהוָ֨ה צְבָא֜וֹת אִם־רָאֹ֥ה תִרְאֶ֣ה ׀ בָּעֳנִ֣י אֲמָתֶ֗ךָ וּזְכַרְתַּ֙נִי֙ וְלֹֽא־תִשְׁכַּ֣ח אֶת־אֲמָתֶ֔ךָ וְנָתַתָּ֥ה לַאֲמָתְךָ֖ זֶ֣רַע אֲנָשִׁ֑ים וּנְתַתִּ֤יו לַֽיהוָה֙ כׇּל־יְמֵ֣י חַיָּ֔יו וּמוֹרָ֖ה לֹא־יַעֲלֶ֥ה עַל־רֹאשֽׁוֹ׃",
+      "text_kjv": "And she vowed a vow, and said, O LORD of hosts, if thou wilt indeed look on the affliction of thine handmaid, and remember me, and not forget thine handmaid, but wilt give thine handmaid a man child, then I will give him unto the LORD all the days of his life, and there shall no razor come upon his head.",
+      "rendering": "She made a vow and said, \"LORD of Armies, if you will truly look on the suffering of your servant, and remember me, and not forget your servant, but give your servant a son — then I will give him to the LORD for all the days of his life, and no razor will touch his head.\"",
+      "expanded_rendering": "Hannah's vow (neder) is a conditional covenant with God: if He acts, she will respond. She calls herself amatekha ('your female servant') three times — a term of both humility and legal standing, since a servant has a claim on the master's protection. The vow that no razor (morah) will touch his head echoes the Nazirite dedication of Numbers 6:5, setting the child apart as consecrated to God from birth. Unlike Samson, whose Nazirite status was imposed by angelic command, Hannah voluntarily dedicates her not-yet-conceived son. She is giving away the very thing she most desperately wants, before she has it.",
+      "translator_notes": [
+        "Hannah calls herself amatekha ('your female servant') three times in a single sentence — the repetition is emphatic and deliberate. The word amah denotes a female servant who has legal standing in the household, not a hired laborer. By calling herself God's amah, Hannah claims a position that entitles her to God's attention and care.",
+        "The phrase im ra'oh tir'eh ('if you will indeed look') uses the infinitive absolute construction — the same intensifying form as Hannah's weeping in verse 10. She asks God to look with the same totality with which she wept. The verb ra'ah ('to see') when applied to God carries the sense of attentive, compassionate recognition — not passive observation but active engagement with suffering.",
+        "The clause morah lo ya'aleh al rosho ('a razor will not go up upon his head') is nearly identical to the Nazirite language of Numbers 6:5 and to the angel's instructions regarding Samson (Judges 13:5). Hannah is dedicating her son as a lifelong Nazirite — consecrated to God from birth to death, not for a limited period. This is the most radical form of the vow."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נֶדֶר",
+          "transliteration": "neder",
+          "rendered_as": "vow",
+          "semantic_range": "vow, pledge, solemn promise, conditional commitment to God",
+          "note": "A neder is a binding verbal commitment to God, typically conditional ('if you do X, I will do Y'). Once spoken, it becomes obligatory — Numbers 30:2 states that a person must not break their word but must do everything they vowed. Hannah's neder is among the most consequential in Scripture: she vows to return to God the very gift she is begging for."
+        },
+        {
+          "hebrew": "מוֹרָה",
+          "transliteration": "morah",
+          "rendered_as": "razor",
+          "semantic_range": "razor, cutting instrument",
+          "note": "The term connects directly to the Nazirite legislation in Numbers 6:5. Unshorn hair was the visible mark of Nazirite consecration — a public sign that this person belonged wholly to God. Hannah dedicates her son's entire physical appearance to divine service."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְהָיָה֙ כִּ֣י הִרְבְּתָ֔ה לְהִתְפַּלֵּ֖ל לִפְנֵ֣י יְהוָ֑ה וְעֵלִ֖י שֹׁמֵ֥ר אֶת־פִּֽיהָ׃",
+      "text_kjv": "And it came to pass, as she continued praying before the LORD, that Eli marked her mouth.",
+      "rendering": "As she continued praying at length before the LORD, Eli was watching her mouth.",
+      "translator_notes": [
+        "The phrase hirbetah lehitpallel ('she multiplied in praying') indicates prolonged, extended prayer — not a brief petition but sustained, persistent communion. The verb shomer ('watching, guarding, observing') applied to Eli watching her mouth (piha) creates a surveillance image: the priest is scrutinizing her lips. The irony will emerge in the next verse — Eli watches intently but completely misreads what he sees."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְחַנָּ֗ה הִ֚יא מְדַבֶּ֣רֶת עַל־לִבָּ֔הּ רַ֚ק שְׂפָתֶ֣יהָ נָּע֔וֹת וְקוֹלָ֖הּ לֹ֣א יִשָּׁמֵ֑עַ וַיַּחְשְׁבֶ֥הָ עֵלִ֖י לְשִׁכֹּרָֽה׃",
+      "text_kjv": "Now Hannah, she spake in her heart; only her lips moved, but her voice was not heard: therefore Eli thought she had been drunken.",
+      "rendering": "Hannah was speaking within herself — only her lips were moving, but her voice could not be heard — so Eli assumed she was drunk.",
+      "translator_notes": [
+        "The phrase medabberet al libbah ('speaking upon her heart') describes a mode of prayer that is internal but physically visible — her lips move (sefateiha na'ot) but her voice does not carry (qolah lo yishame'a). This is the Hebrew Bible's most detailed description of silent prayer, and rabbinic tradition (Talmud Berakhot 31a) derives the laws of the Amidah (standing prayer) from Hannah's posture here: prayer should be spoken with the lips but not shouted.",
+        "Eli's judgment — vayyachsheveha le-shikorah ('he considered her a drunkard') — is the priest's first act in the narrative, and it is a failure of discernment. The man whose job is to mediate between God and Israel cannot distinguish between drunkenness and devotion. This small detail previews the larger failure of the Eli priesthood that will drive much of 1 Samuel's plot."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֹּ֤אמֶר אֵלֶ֙יהָ֙ עֵלִ֔י עַד־מָתַ֖י תִּשְׁתַּכָּרִ֑ין הָסִ֥ירִי אֶת־יֵינֵ֖ךְ מֵעָלָֽיִךְ׃",
+      "text_kjv": "And Eli said unto her, How long wilt thou be drunken? put away thy wine from thee.",
+      "rendering": "Eli said to her, \"How long will you go on being drunk? Put your wine away from you!\"",
+      "translator_notes": [
+        "Eli's rebuke — ad matai tishtakkarin ('how long will you be drunk?') — uses the hitpael of shakar ('to be drunk'), implying ongoing or habitual drunkenness. He does not ask if she is drunk; he assumes it and demands she stop. The imperative hasiri et yeinekh me-alayikh ('remove your wine from upon you') treats her as if wine were a garment she is wearing. The priest's harsh judgment of a grieving woman at prayer is the narrative's first indication that the Shiloh priesthood has lost its spiritual sensitivity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַתַּ֨עַן חַנָּ֤ה וַתֹּ֙אמֶר֙ לֹ֣א אֲדֹנִ֔י אִשָּׁ֥ה קְשַׁת־ר֖וּחַ אָנֹ֑כִי וְיַ֣יִן וְשֵׁכָ֣ר לֹ֣א שָׁתִ֔יתִי וָאֶשְׁפֹּ֥ךְ אֶת־נַפְשִׁ֖י לִפְנֵ֥י יְהוָֽה׃",
+      "text_kjv": "And Hannah answered and said, No, my lord, I am a woman of a sorrowful spirit: I have drunk neither wine nor strong drink, but have poured out my soul before the LORD.",
+      "rendering": "Hannah answered, \"No, my lord. I am a woman crushed in spirit. I have not drunk wine or strong drink — I have been pouring out my soul before the LORD.",
+      "translator_notes": [
+        "Hannah's self-description — ishah qeshat ruach ('a woman hard/harsh of spirit') — uses qasheh ('hard, difficult, harsh') to describe her inner state. This is not gentle sadness but a spirit that has been compressed, hardened, and crushed under weight. The phrase va-eshpokh et nafshi ('I poured out my soul') uses the verb shafakh, which elsewhere describes pouring out blood (Genesis 9:6), pouring out water as a libation (2 Samuel 23:16), and pouring out divine wrath (Hosea 5:10). Hannah's prayer is a liquid metaphor — she has emptied her entire self before God.",
+        "The distinction between yayin ('wine') and shekhar ('strong drink') covers all intoxicants: yayin is fermented grape juice, shekhar is any other intoxicating beverage (possibly from dates, barley, or pomegranates). Hannah's denial is comprehensive — she has consumed nothing that could cause what Eli observed."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "אַל־תִּתֵּן֙ אֶת־אֲמָ֣תְךָ֔ לִפְנֵ֖י בַּת־בְּלִיָּ֑עַל כִּ֣י מֵרֹ֥ב שִׂיחִ֛י וְכַעְסִ֖י דִּבַּ֥רְתִּי עַד־הֵֽנָּה׃",
+      "text_kjv": "Count not thine handmaid for a daughter of Belial: for out of the abundance of my complaint and grief have I spoken hitherto.",
+      "rendering": "Do not take your servant for a worthless woman, for it is out of the depth of my anguish and frustration that I have been speaking all this time.\"",
+      "translator_notes": [
+        "The phrase bat beliyya'al ('daughter of Belial/worthlessness') is significant because the same term — benei beliyya'al ('sons of worthlessness') — will be applied to Eli's own sons in 2:12. Hannah begs not to be classed as what Eli's sons actually are. The word beliyya'al may derive from beli ('without') + ya'al ('worth, profit') — 'without worth' — or may be an older term for the underworld or chaos. It denotes someone beyond moral recovery.",
+        "Hannah's explanation — me-rov sichi ve-kha'si ('from the abundance of my complaint and my provocation/grief') — uses siach ('complaint, meditation, talk') and ka'as ('vexation, grief, provocation'). The word ka'as is the same root used for Peninnah's provocation in verses 6-7: Hannah's grief-prayer is fueled by the very torment her rival inflicts."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיַּ֧עַן עֵלִ֛י וַיֹּ֖אמֶר לְכִ֣י לְשָׁל֑וֹם וֵאלֹהֵ֣י יִשְׂרָאֵ֗ל יִתֵּן֙ אֶת־שֵׁ֣לָתֵ֔ךְ אֲשֶׁ֥ר שָׁאַ֖לְתְּ מֵעִמּֽוֹ׃",
+      "text_kjv": "Then Eli answered and said, Go in peace: and the God of Israel grant thee thy petition that thou hast asked of him.",
+      "rendering": "Eli answered, \"Go in peace. May the God of Israel grant your request — what you have asked from him.\"",
+      "translator_notes": [
+        "Eli's response — lekhi le-shalom ('go to peace') — is both a blessing and a dismissal. The preposition le ('to, toward') rather than be ('in') suggests movement toward peace rather than a static condition: 'go toward wholeness.' The word she'latekh ('your request') derives from sha'al ('to ask'), and Eli unknowingly activates the chapter's central wordplay: asher sha'alt me-immo ('what you asked from him'). The verb sha'al will echo through the naming of Samuel and connect forward to the naming of Saul. Eli, who could not discern her prayer, nevertheless speaks a prophetic blessing over it."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁאַל",
+          "transliteration": "sha'al",
+          "rendered_as": "asked",
+          "semantic_range": "to ask, to request, to inquire, to beg, to borrow, to demand",
+          "note": "The verb that drives the entire chapter's wordplay. Hannah 'asks' (sha'al) for a son; she will name him Shemu'el with an explanation rooted in sha'al; and the name Sha'ul (Saul) derives from the same root. The act of asking God — and God's response to that asking — is the theological engine of 1 Samuel's opening."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַתֹּ֗אמֶר תִּמְצָ֧א שִׁפְחָתְךָ֛ חֵ֖ן בְּעֵינֶ֑יךָ וַתֵּ֨לֶךְ הָאִשָּׁ֤ה לְדַרְכָּהּ֙ וַתֹּאכַ֔ל וּפָנֶ֥יהָ לֹא־הָיוּ־לָ֖הּ עֽוֹד׃",
+      "text_kjv": "And she said, Let thine handmaid find grace in thy sight. So the woman went her way, and did eat, and her countenance was no more sad.",
+      "rendering": "She said, \"May your servant find favor in your eyes.\" Then the woman went on her way. She ate, and her face was no longer downcast.",
+      "translator_notes": [
+        "Hannah now calls herself shifchatekha ('your maidservant') — a term of even deeper humility than amah used in verse 11. A shifchah is the lowest rank of female servant. The transformation is immediate: vattelekh ha-ishah le-darkkah vattokhal ('the woman went her way and ate'). After refusing food in verse 7, she now eats. The phrase u-faneiha lo hayu lah od ('and her face was not to her anymore') is literally 'her faces were no longer hers' — meaning her expression of grief had departed. Something shifted in the act of praying and receiving Eli's blessing. The text does not say she received an answer — only that she prayed, was blessed, and her countenance changed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיַּשְׁכִּ֣מוּ בַבֹּ֗קֶר וַיִּֽשְׁתַּחֲו֛וּ לִפְנֵ֥י יְהוָ֖ה וַיָּשֻׁ֑בוּ וַיָּבֹ֥אוּ אֶל־בֵּיתָ֖ם הָרָמָ֑תָה וַיֵּ֤דַע אֶלְקָנָה֙ אֶת־חַנָּ֣ה אִשְׁתּ֔וֹ וַיִּזְכְּרֶ֖הָ יְהוָֽה׃",
+      "text_kjv": "And they rose up in the morning early, and worshipped before the LORD, and returned, and came to their house to Ramah: and Elkanah knew Hannah his wife; and the LORD remembered her.",
+      "rendering": "They rose early in the morning, worshiped before the LORD, and returned home to Ramah. Elkanah was intimate with Hannah his wife, and the LORD remembered her.",
+      "expanded_rendering": "The phrase 'the LORD remembered her' (vayyizkerehah YHWH) uses the verb zakar — not a recovery from forgetfulness but a divine turning of attention toward someone with the intention to act. When God 'remembers' in Scripture, it means He is about to intervene. The same verb describes God remembering Noah in the flood (Genesis 8:1), Rachel in her barrenness (Genesis 30:22), and the covenant with Israel in Egyptian slavery (Exodus 2:24). Divine remembering is the hinge between human suffering and divine deliverance.",
+      "translator_notes": [
+        "The verb vayyeda ('he knew') is the standard Hebrew euphemism for sexual intimacy — the same verb used in Genesis 4:1 ('Adam knew Eve'). The sequence is deliberate: worship, return, intimacy, divine remembering. The sacred and the domestic are woven together without embarrassment.",
+        "The clause vayyizkerehah YHWH ('and the LORD remembered her') is the theological climax of the chapter's first movement. The verb zakar ('to remember') when God is the subject does not imply prior forgetfulness — it signals that God is now acting on what He has always known. The same divine remembering opens wombs (Rachel, Genesis 30:22), ends floods (Noah, Genesis 8:1), and initiates deliverance (Israel in Egypt, Exodus 2:24)."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "זָכַר",
+          "transliteration": "zakar",
+          "rendered_as": "remembered",
+          "semantic_range": "to remember, to recall, to be mindful of, to act on behalf of",
+          "note": "Divine remembering is not the opposite of forgetting — it is the onset of action. When God zakar someone, it means their situation is about to change. The verb marks the turning point between Hannah's barrenness and Samuel's conception."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיְהִ֣י ׀ לִתְקֻפ֣וֹת הַיָּמִ֗ים וַתַּ֨הַר חַנָּ֜ה וַתֵּ֣לֶד בֵּ֗ן וַתִּקְרָ֤א אֶת־שְׁמוֹ֙ שְׁמוּאֵ֔ל כִּ֥י מֵיְהוָ֖ה שְׁאִלְתִּֽיו׃",
+      "text_kjv": "Wherefore it came to pass, when the time was come about after Hannah had conceived, that she bare a son, and called his name Samuel, saying, Because I have asked him of the LORD.",
+      "rendering": "In the turning of the year, Hannah conceived and bore a son. She named him Samuel, saying, \"Because I asked him from the LORD.\"",
+      "expanded_rendering": "The name Shemu'el is explained by Hannah with the words ki me-YHWH she'iltiv ('because from the LORD I asked him'). Yet the verb sha'al ('to ask') more naturally produces the name Sha'ul (Saul), not Shemu'el (Samuel). The name Shemu'el can be parsed as shemu-El ('name of God') or shama-El ('God heard'). The text creates a deliberate tension: Hannah's explanation uses the vocabulary of asking (sha'al), but the name she gives means 'heard by God' (shama + El). The wordplay fuses the act of asking with the experience of being heard, and the verb sha'al binds Samuel's birth to Saul's future name and destiny.",
+      "translator_notes": [
+        "The phrase li-tequfot ha-yamim ('at the turning of the days') refers to the completion of a pregnancy cycle — approximately nine months from conception. The word tequfah ('turning, circuit, revolution') emphasizes the cyclical nature of time and the fulfillment of a natural period.",
+        "The name etymology is the chapter's most discussed translation problem. Hannah says ki me-YHWH she'iltiv ('because from the LORD I asked him') — but the verb sha'al ('to ask') produces the name Sha'ul, not Shemu'el. The name Shemu'el most naturally means 'his name is God' (shemu + El) or 'heard by God' (shama + El). Some scholars see this as evidence that the birth narrative originally belonged to Saul and was later transferred to Samuel. Others argue that Hebrew name etymologies are often folk explanations based on sound association rather than strict derivation — Hannah hears sha'al in Shemu'el. We render the text as given and note the tension."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שְׁמוּאֵל",
+          "transliteration": "Shemu'el",
+          "rendered_as": "Samuel",
+          "semantic_range": "name of God, heard by God, asked of God",
+          "note": "The name's meaning is multiply layered: shemu-El ('his name is God'), shama-El ('God heard'), or by folk etymology sha'al-El ('asked of God'). Hannah's explanation activates the sha'al connection, binding the boy's identity to the act of desperate petition that produced him."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיַּ֛עַל הָאִ֥ישׁ אֶלְקָנָ֖ה וְכׇל־בֵּית֑וֹ לִזְבֹּ֧חַ לַֽיהוָ֛ה אֶת־זֶ֥בַח הַיָּמִ֖ים וְאֶת־נִדְרֽוֹ׃",
+      "text_kjv": "And the man Elkanah, and all his house, went up to offer unto the LORD the yearly sacrifice, and his vow.",
+      "rendering": "The man Elkanah went up with his whole household to offer to the LORD the annual sacrifice and to fulfill his vow.",
+      "translator_notes": [
+        "The phrase zevach ha-yamim ('the sacrifice of the days') refers to the annual pilgrimage sacrifice — the same journey described in verse 3. The addition of ve-et nidro ('and his vow') reveals that Elkanah had also made a vow, though the text never records it. This is one of several narrative gaps in the chapter: we learn of Elkanah's vow only at its fulfillment. Some commentators suggest his vow was connected to Hannah's — perhaps confirming or endorsing her dedication of their son."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְחַנָּ֖ה לֹ֣א עָלָ֑תָה כִּֽי־אָמְרָ֣ה לְאִישָׁ֗הּ עַ֣ד יִגָּמֵ֤ל הַנַּ֙עַר֙ וַהֲבִאֹתִ֗יו וְנִרְאָה֙ אֶת־פְּנֵ֣י יְהוָ֔ה וְיָשַׁ֥ב שָׁ֖ם עַד־עוֹלָֽם׃",
+      "text_kjv": "But Hannah went not up; for she said unto her husband, I will not go up until the child be weaned, and then I will bring him, that he may appear before the LORD, and there abide for ever.",
+      "rendering": "But Hannah did not go up, for she said to her husband, \"Not until the boy is weaned. Then I will bring him to appear before the face of the LORD, and he will remain there permanently.\"",
+      "translator_notes": [
+        "The verb yiggamel ('is weaned') indicates that Hannah keeps the child until weaning, which in the ancient Near East typically occurred around age three (cf. 2 Maccabees 7:27). These are the only years Hannah will have with her son. The phrase ve-yashav sham ad olam ('and he will dwell there forever') transforms a mother's personal sacrifice into a permanent consecration. The word olam ('forever, perpetuity') makes the dedication irrevocable — this is not a loan but a permanent transfer.",
+        "The phrase ve-nir'ah et penei YHWH ('and he will appear before the face of the LORD') uses the niphal of ra'ah — literally 'he will be seen before the LORD's face.' Appearing before God's face is pilgrimage language, but for Samuel it will become a permanent state: he will live in God's presence at Shiloh."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיֹּ֣אמֶר לָהּ֩ אֶלְקָנָ֨ה אִישָׁ֜הּ עֲשִׂ֧י הַטּ֣וֹב בְּעֵינַ֗יִךְ שְׁבִי֙ עַד־גׇּמְלֵ֣ךְ אֹת֔וֹ אַ֛ךְ יָקֵ֥ם יְהוָ֖ה אֶת־דְּבָר֑וֹ וַתֵּ֙שֶׁב֙ הָֽאִשָּׁ֔ה וַתֵּינֶ֥ק אֶת־בְּנָ֖הּ עַד־גׇמְלָ֥הּ אֹתֽוֹ׃",
+      "text_kjv": "And Elkanah her husband said unto her, Do what seemeth thee good; tarry until thou have weaned him; only the LORD establish his word. So the woman abode, and gave her son suck until she weaned him.",
+      "rendering": "Elkanah her husband said to her, \"Do what seems best to you. Stay until you have weaned him. May the LORD fulfill his word.\" So the woman stayed and nursed her son until she weaned him.",
+      "translator_notes": [
+        "Elkanah's response — asi ha-tov be-einayikh ('do what is good in your eyes') — grants Hannah full authority over the timing. His blessing akh yaqem YHWH et devaro ('only may the LORD establish his word') raises a textual question: whose word? The Masoretic text reads devaro ('his word'), suggesting God's word — perhaps Eli's prophetic blessing in verse 17. The Septuagint and a Qumran manuscript (4QSam-a) read 'that which comes from your mouth,' suggesting Hannah's vow. We follow the MT but note the variant.",
+        "The verb vatteineq ('she nursed') followed by ad gomlah oto ('until she weaned him') compresses months or years of intimacy into a single clause. Every day of nursing is a day closer to giving the boy away. The narrative's restraint is quietly devastating — it does not describe Hannah's emotions during this period, leaving the reader to feel what the text will not say."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַתַּעֲלֵ֨הוּ עִמָּ֜הּ כַּאֲשֶׁ֣ר גְּמָלַ֗תּוּ בְּפָרִ֤ים שְׁלֹשָׁה֙ וְאֵיפָ֨ה אַחַ֥ת קֶ֙מַח֙ וְנֵ֣בֶל יַ֔יִן וַתְּבִאֵ֥הוּ בֵית־יְהוָ֖ה שִׁלֹ֑ה וְהַנַּ֖עַר נָֽעַר׃",
+      "text_kjv": "And when she had weaned him, she took him up with her, with three bullocks, and one ephah of flour, and a bottle of wine, and brought him unto the house of the LORD in Shiloh: and the child was young.",
+      "rendering": "When she had weaned him, she brought him up with her, along with three bulls, one ephah of flour, and a skin of wine. She brought him to the house of the LORD at Shiloh, while the boy was still young.",
+      "translator_notes": [
+        "The offerings are substantial: three bulls (parim sheloshah), one ephah of flour (approximately 22 liters or half a bushel), and a skin of wine (nevel yayin). The Septuagint and 4QSam-a read 'a three-year-old bull' (par meshuллash) rather than 'three bulls' — which would match the boy's approximate age and provide a single animal for the dedication. The MT's 'three bulls' is the more difficult reading and thus often preferred by text critics.",
+        "The final phrase ve-ha-na'ar na'ar ('and the boy was a boy') seems redundant but serves a narrative purpose — it emphasizes just how young Samuel was. Some render this as 'the boy was still a child' or 'the boy was very young.' The repetition underscores the cost of Hannah's vow: she is handing over a toddler to serve in the sanctuary."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיִּשְׁחֲט֖וּ אֶת־הַפָּ֑ר וַיָּבִ֥יאוּ אֶת־הַנַּ֖עַר אֶל־עֵלִֽי׃",
+      "text_kjv": "And they slew a bullock, and brought the child to Eli.",
+      "rendering": "They slaughtered the bull and brought the boy to Eli.",
+      "translator_notes": [
+        "The singular ha-par ('the bull') here supports the Septuagint reading of 'a three-year-old bull' in verse 24, since only one animal is slaughtered. If the MT's 'three bulls' is correct, two may have been offered as additional sacrifices while one was the primary offering. The juxtaposition is stark: vayyishchatu et ha-par vayyavi'u et ha-na'ar ('they slaughtered the bull and brought the boy') — the sacrifice and the dedication are described in the same breath, with the same narrative pace. Hannah offers both an animal and a child, though only the animal dies."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַתֹּ֙אמֶר֙ בִּ֣י אֲדֹנִ֔י חֵ֥י נַפְשְׁךָ֖ אֲדֹנִ֑י אֲנִ֣י הָאִשָּׁ֗ה הַנִּצֶּ֤בֶת עִמְּכָה֙ בָּזֶ֔ה לְהִתְפַּלֵּ֖ל אֶל־יְהוָֽה׃",
+      "text_kjv": "And she said, Oh my lord, as thy soul liveth, my lord, I am the woman that stood by thee here, praying unto the LORD.",
+      "rendering": "She said, \"Please, my lord — as surely as you live, my lord — I am the woman who stood here beside you, praying to the LORD.",
+      "translator_notes": [
+        "Hannah's oath formula — chei nafshekha adoni ('as your soul lives, my lord') — is a solemn assertion of truth, invoking Eli's own life as guarantee. She identifies herself as ha-ishah ha-nitsevet immekha ba-zeh ('the woman who was standing with you in this place'). The participle nitsevet ('standing') recalls her posture of prayer — she stood to pray, a detail the rabbinic tradition notes as establishing the norm for the Amidah. The word ba-zeh ('in this [place]') anchors the identification to this specific location in the sanctuary."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "אֶל־הַנַּ֥עַר הַזֶּ֖ה הִתְפַּלָּ֑לְתִּי וַיִּתֵּ֤ן יְהוָה֙ לִ֔י אֶת־שְׁאֵ֣לָתִ֔י אֲשֶׁ֥ר שָׁאַ֖לְתִּי מֵעִמּֽוֹ׃",
+      "text_kjv": "For this child I prayed; and the LORD hath given me my petition which I asked of him:",
+      "rendering": "It was for this boy that I prayed, and the LORD has granted me what I asked of him.",
+      "translator_notes": [
+        "The sha'al wordplay reaches its climax: vayyitten YHWH li et she'elati asher sha'alti me-immo ('the LORD gave me my request which I asked from him'). The noun she'elah ('request, petition') and the verb sha'al ('to ask') appear together, driving home the point: this child is the physical answer to an act of asking. The boy standing before Eli is living proof that God responds to desperate prayer. Hannah's statement also functions as a legal transfer — by identifying the boy as the answer to her vow, she establishes the basis for his dedication."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שְׁאֵלָה",
+          "transliteration": "she'elah",
+          "rendered_as": "what I asked",
+          "semantic_range": "request, petition, thing asked for, demand",
+          "note": "The noun form of sha'al, completing the ask-cycle: Hannah asked (sha'al), received her asking (she'elah), and will now return the asked-one (hash'iltihu) to God. The entire theology of petition and response is compressed into this single word family."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְגַ֣ם אָנֹכִ֗י הִשְׁאִלְתִּ֙הוּ֙ לַֽיהוָ֔ה כׇּל־הַיָּמִים֙ אֲשֶׁ֣ר הָיָ֔ה ה֖וּא שָׁא֣וּל לַיהוָ֑ה וַיִּשְׁתַּ֥חוּ שָׁ֖ם לַיהוָֽה׃",
+      "text_kjv": "Therefore also I have lent him to the LORD; as long as he liveth he shall be lent to the LORD. And he worshipped the LORD there.",
+      "rendering": "So I, in turn, have dedicated him to the LORD. For all the days that he lives, he is given over to the LORD.\" And he worshiped the LORD there.",
+      "translator_notes": [
+        "The verb hish'iltihu is the hiphil (causative) of sha'al — literally 'I have caused him to be asked' or 'I have lent/dedicated him.' The play is untranslatable: sha'al means both 'to ask for' and 'to lend,' so Hannah has 'asked' her son from God and now 'lends' him back using the same verb. The word sha'ul ('asked, lent, dedicated') in the clause hu sha'ul la-YHWH is identical to the name Sha'ul (Saul). This final verse welds Samuel's identity to Saul's name through a shared verbal root.",
+        "The final clause vayyishtachu sham la-YHWH ('and he worshiped the LORD there') is ambiguous in subject — the Hebrew could refer to Elkanah, to Samuel, or even to Eli. The Septuagint reads the plural ('they worshiped'). If Samuel is the subject, the boy's first recorded act in the sanctuary is worship — fitting for one who will spend his life in God's service."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁאוּל",
+          "transliteration": "sha'ul",
+          "rendered_as": "given over",
+          "semantic_range": "asked, requested, lent, dedicated, borrowed",
+          "note": "The passive participle of sha'al — 'the one who has been asked for / the one who has been lent.' This word is identical to the name Saul (Sha'ul). Hannah's declaration that her son is sha'ul la-YHWH ('dedicated to the LORD') creates a verbal bond between Samuel and the future king, both 'asked for' by Israel in different ways."
+        }
+      ],
+      "reading_level": "10th grade"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 51,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "David's penitential psalm, composed after the prophet Nathan confronted him over his adultery with Bathsheba and the murder of Uriah. The poem moves from desperate plea for mercy through unflinching confession of sin to a vision of restored worship and a rebuilt Zion. It is the most personal and theologically dense confession in the Hebrew Bible.",
+    "remarkable": "This psalm contains the most radical theology of sin and restoration in the Psalter. David does not merely confess a deed — he confesses a condition. 'In sin my mother conceived me' (v. 7) is not a statement about his mother's morality but about the depth of his entanglement with human brokenness. The psalm's central pivot comes at verse 12, where David asks for a 'clean heart' (lev tahor) and a 'steadfast spirit' (ruach nakhon) — language that echoes the creation account. David is not asking for forgiveness alone; he is asking to be re-created. The plea 'do not take your Holy Spirit from me' (v. 13) carries devastating weight: David has watched Saul lose the Spirit (1 Samuel 16:14) and knows what that looks like. He is begging not to become Saul. The psalm's climax inverts the entire sacrificial system — God does not want burnt offerings but a broken spirit (v. 19). This is not anti-cultic theology; it is the recognition that no external ritual can address what has gone wrong inside David.",
+    "friction": "Hebrew versification counts the superscription as verses 1-2, so what English Bibles call verse 1 ('Have mercy upon me') is verse 3 in the Hebrew. We follow WLC numbering throughout. The phrase 'against you, you alone, have I sinned' (v. 6) has troubled readers because David clearly sinned against Bathsheba, Uriah, and the nation. The Hebrew is not denying horizontal harm but asserting that all sin is ultimately a violation of God's sovereignty — David broke God's moral order, and only God can restore it. The word chatah (v. 4, 'sin') means literally 'to miss the mark,' but in this context it carries the full weight of covenant-breaking rebellion.",
+    "connections": "The superscription ties this psalm directly to 2 Samuel 12:1-15, where Nathan confronts David with the parable of the poor man's lamb. The plea for hyssop (v. 9) recalls the purification rituals of Leviticus 14 (cleansing from skin disease) and Exodus 12:22 (the Passover blood). David's request for a 'new heart' anticipates Ezekiel 36:26 ('I will give you a new heart and put a new spirit within you'). The broken-spirit theology of verse 19 is echoed in Isaiah 57:15 and 66:2. The final two verses about rebuilding Zion's walls may reflect exilic editing, extending David's personal prayer into a national one."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "לַמְנַצֵּ֗חַ מִזְמ֥וֹר לְדָוִֽד׃",
+      "text_kjv": "To the chief Musician, A Psalm of David,",
+      "rendering": "For the director of music.\nA psalm of David.",
+      "translator_notes": [
+        "The lamnatseyach superscription appears in 55 psalms and indicates the psalm was intended for liturgical performance under professional musical direction. Despite its intensely personal content, this psalm was not private — it was handed to the worship leader for public use."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "בְּבוֹא־אֵ֭לָיו נָתָ֣ן הַנָּבִ֑יא כַּֽאֲשֶׁר־בָּ֝֗א אֶל־בַּת־שָֽׁבַע׃",
+      "text_kjv": "when Nathan the prophet came unto him, after he had gone in to Bathsheba.",
+      "rendering": "after he had gone in to Bathsheba.\nWhen Nathan the prophet came to him,",
+      "translator_notes": [
+        "The superscription's second half provides the historical occasion: Nathan's confrontation after David's adultery with Bathsheba (2 Samuel 12). The phrase ba el ('went in to') is the standard Hebrew euphemism for sexual intercourse. The superscription does not soften or euphemize the event — it names both the prophet and the woman."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "חׇנֵּ֣נִי אֱלֹהִ֣ים כְּחַסְדֶּ֑ךָ כְּרֹ֥ב רַ֝חֲמֶ֗יךָ מְחֵ֣ה פְשָׁעָֽי׃",
+      "text_kjv": "Have mercy upon me, O God, according to thy lovingkindness: according unto the multitude of thy tender mercies blot out my transgressions.",
+      "rendering": "Be gracious to me, God, according to your faithful love;\naccording to the abundance of your compassion,\nwipe out my rebellions.",
+      "translator_notes": [
+        "chesed is often rendered 'lovingkindness' (KJV) or 'steadfast love' (ESV). We render it 'faithful love' to capture both the loyalty dimension (it is covenant-bound) and the affective dimension (it is genuine love, not mere obligation). David's appeal to chesed is an appeal to covenant relationship — he has broken the covenant, but he is asking God's covenant character to outlast his covenant-breaking.",
+        "pesha'im ('rebellions') is the strongest of the three Hebrew sin-words used in this psalm. It denotes willful, deliberate transgression — not ignorance or weakness but conscious defiance. David chooses the most damning word available for his own behavior."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "loyal love, covenant faithfulness, kindness, mercy, devotion",
+          "note": "chesed is the foundational covenant virtue — God's loyal commitment that persists even when the other party has defaulted. David appeals to it precisely because he has no merit of his own to invoke. The word appears first in the psalm because everything depends on it."
+        },
+        {
+          "hebrew": "רַחֲמִים",
+          "transliteration": "rachamim",
+          "rendered_as": "compassion",
+          "semantic_range": "compassion, tender mercy, womb-love, deep feeling",
+          "note": "From the root rechem ('womb'). rachamim is not abstract pity but the gut-level tenderness a mother feels for the child she carried. David is appealing to the most visceral and unconditional form of divine love."
+        },
+        {
+          "hebrew": "פֶּשַׁע",
+          "transliteration": "pesha",
+          "rendered_as": "rebellions",
+          "semantic_range": "transgression, rebellion, revolt, willful breach",
+          "note": "The heaviest of the three sin-words in Hebrew. pesha denotes deliberate rebellion against authority — a vassal revolting against a king. David uses this word for what he did because it was not an accident."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "הֶ֭רֶב כַּבְּסֵ֣נִי מֵעֲוֺנִ֑י וּֽמֵחַטָּאתִ֥י טַהֲרֵֽנִי׃",
+      "text_kjv": "Wash me throughly from mine iniquity, and cleanse me from my sin.",
+      "rendering": "Wash me thoroughly from my guilt,\nand from my sin cleanse me.",
+      "expanded_rendering": "David now uses the remaining two sin-words. avon ('guilt, iniquity') denotes the twisting or distortion of what should be straight — moral crookedness and the guilt it produces. chattath ('sin') is the most common term, meaning 'to miss the mark,' to fall short of what God intended. Together with pesha from verse 3, David has used every category of wrongdoing the Hebrew language offers: rebellion, distortion, and failure. The verb kabas ('wash') is the word for laundering clothes — scrubbing fabric against stone to remove deep stains. taher ('cleanse') is a priestly term from the purity laws, used for the ritual declaration that someone is clean after contamination. David sees himself as both stained laundry and a contaminated person — he needs both scrubbing and ritual restoration.",
+      "translator_notes": [
+        "The three sin-words — pesha (v. 3), avon (v. 4a), and chattath (v. 4b) — form a comprehensive taxonomy of human wrongdoing. This same triad appears in Exodus 34:7, where God declares that he forgives 'rebellion, guilt, and sin.' David is implicitly invoking God's own self-description from Sinai.",
+        "kabas ('wash') refers specifically to the physical act of laundering, not bathing. It implies vigorous scrubbing. The stain metaphor suggests David understands his sin as something that has penetrated his being, not merely marked its surface."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חַטָּאת",
+          "transliteration": "chattath",
+          "rendered_as": "sin",
+          "semantic_range": "sin, failure, missing the mark, offense, sin-offering",
+          "note": "From chatah, 'to miss,' as an archer misses a target. The same word also means 'sin-offering' (Leviticus 4), creating a profound double meaning: the very word for the problem is also the word for the solution. David's sin (chattath) requires a sin-offering (chattath)."
+        },
+        {
+          "hebrew": "טָהֵר",
+          "transliteration": "taher",
+          "rendered_as": "cleanse",
+          "semantic_range": "to be clean, to purify, to declare ritually pure",
+          "note": "A priestly term from the Levitical purity system. When a priest declared someone tahor ('clean'), they were restored to full participation in communal worship. David needs more than forgiveness — he needs to be declared fit to stand before God again."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כִּֽי־פְ֭שָׁעַי אֲנִ֣י אֵדָ֑ע וְחַטָּאתִ֖י נֶגְדִּ֣י תָמִֽיד׃",
+      "text_kjv": "For I acknowledge my transgressions: and my sin is ever before me.",
+      "rendering": "For my rebellions — I know them,\nand my sin is before me continually.",
+      "expanded_rendering": "The ki ('for, because') introduces the reason David can ask for cleansing: he is not hiding or minimizing. He knows his transgressions. The emphatic pronoun ani ('I') is unnecessary grammatically and serves to underscore personal ownership — 'I myself know them.' The second line intensifies: his sin is not merely known but neged ('before, in front of, facing') him tamid ('continually, always'). The sin has become a permanent presence in his field of vision. He cannot look away from it. This is not guilt as occasional pang but as constant companion.",
+      "translator_notes": [
+        "The word tamid ('continually') is used in the Torah for the perpetual lamp in the tabernacle (Exodus 27:20) and the daily burnt offering (Numbers 28:6). David's sin has become as constant a presence as the offerings that were supposed to address it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "לְךָ֤ לְבַדְּךָ֨ ׀ חָטָ֗אתִי וְהָרַ֣ע בְּעֵינֶ֣יךָ עָשִׂ֑יתִ לְמַ֤עַן ׀ תִּצְדַּ֥ק בְּדׇבְרֶ֗ךָ תִּזְכֶּ֥ה בְשׇׁפְטֶֽךָ׃",
+      "text_kjv": "Against thee, thee only, have I sinned, and done this evil in thy sight: that thou mightest be justified when thou speakest, and be clear when thou judgest.",
+      "rendering": "Against you — you alone — have I sinned,\nand done what is evil in your sight,\nso that you are justified when you speak\nand blameless when you judge.",
+      "translator_notes": [
+        "lekha levaddekha ('against you, you alone') uses the emphatic construction with the limiting particle levad ('only, alone'). This is not carelessness about horizontal sin but the radical theological claim that sin's ultimate target is always God — because God is the author of the moral order that sin violates.",
+        "The lema'an ('so that, in order that') clause does not mean David sinned on purpose to give God something to judge. It means that David's full confession is intended to remove any question about whether God's judgment is fair. David preemptively vindicates the judge."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "הֵן־בְּעָו֥וֹן חוֹלָ֑לְתִּי וּ֝בְחֵ֗טְא יֶֽחֱמַ֥תְנִי אִמִּֽי׃",
+      "text_kjv": "Behold, I was shapen in iniquity; and in sin did my mother conceive me.",
+      "rendering": "Look — in guilt I was brought forth,\nand in sin my mother conceived me.",
+      "translator_notes": [
+        "hen ('look, behold') signals a shift from confession of specific acts to reflection on the human condition. David moves from 'I did this' to 'I am this.'",
+        "This verse does not teach that sexuality or conception is sinful. The Hebrew is a statement about human solidarity in brokenness — every person enters a world already compromised by sin. David's point is that he needs something more radical than behavioral correction."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "הֵן־אֱ֭מֶת חָפַ֣צְתָּ בַטֻּח֑וֹת וּ֝בְסָתֻ֗ם חׇכְמָ֥ה תוֹדִיעֵֽנִי׃",
+      "text_kjv": "Behold, thou desirest truth in the inward parts: and in the hidden part thou shalt make me to know wisdom.",
+      "rendering": "Look — you desire truth in the innermost being;\nso in the hidden depths, teach me wisdom.",
+      "expanded_rendering": "The contrast with verse 7 is sharp. Verse 7: sin permeates from conception. Verse 8: but God desires emet ('truth, reliability, faithfulness') in the tuchot ('inner parts, kidneys' — the seat of the deepest self in Hebrew thought). The gap between what David is and what God wants is the crisis of the psalm. The second line turns plea: in the satum ('hidden, sealed, secret') places of David's interior life — the places no one else can see — God must teach wisdom (chokmah). David cannot reform his own hidden depths. Only God can reach that far in.",
+      "translator_notes": [
+        "tuchot is rare and debated. It may derive from a root meaning 'to cover, to seal' — the covered or sealed-off interior of a person. Some connect it to tachot ('kidneys'), which in Hebrew thought are the seat of deep emotion and conscience. Either way, the meaning is the same: the most interior, hidden dimension of a person.",
+        "emet ('truth') here means not just factual accuracy but integrity, reliability, coherence between inner reality and outward behavior. God wants David's interior to match his exterior — no more hidden sin."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "תְּחַטְּאֵ֣נִי בְאֵז֣וֹב וְאֶטְהָ֑ר תְּ֝כַבְּסֵ֗נִי וּמִשֶּׁ֥לֶג אַלְבִּֽין׃",
+      "text_kjv": "Purge me with hyssop, and I shall be clean: wash me, and I shall be whiter than snow.",
+      "rendering": "Purify me with hyssop and I will be clean;\nwash me and I will be whiter than snow.",
+      "expanded_rendering": "David reaches for the most potent purification imagery available. Hyssop (ezov) is the small bushy plant used in Israel's most serious cleansing rituals: the original Passover (Exodus 12:22), where hyssop applied lamb's blood to the doorposts; the cleansing of a person recovered from skin disease (Leviticus 14:4-7); and the red heifer ceremony for corpse contamination (Numbers 19:6, 18). In every case, hyssop is the instrument that transfers purifying blood or water to the contaminated person. David is saying: treat me like someone contaminated by death itself. The verb techatte'eni is a Piel form of chatah — literally 'un-sin me,' a causative form that means 'remove sin from me by ritual purification.' The result he envisions is radical: whiter than snow — not merely restored to baseline but made purer than he has ever been.",
+      "translator_notes": [
+        "The hyssop reference is not metaphorical decoration. It invokes the entire Levitical purification system and specifically the rituals for the most serious forms of contamination. David sees his sin as equivalent to corpse-contamination — contact with death itself.",
+        "The snow comparison (mi-sheleg albin, 'whiter than snow') anticipates Isaiah 1:18 ('though your sins are like scarlet, they shall be white as snow'). White is not merely the absence of stain but a positive quality — radiant purity."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֵזוֹב",
+          "transliteration": "ezov",
+          "rendered_as": "hyssop",
+          "semantic_range": "hyssop (a small aromatic plant used in purification rituals)",
+          "note": "Hyssop was the delivery mechanism for purifying blood and water in Israel's most serious contamination rituals. Its presence here signals that David regards his sin as requiring the most extreme purification available under the Levitical system."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "תַּ֭שְׁמִיעֵנִי שָׂשׂ֣וֹן וְשִׂמְחָ֑ה תָּ֝גֵ֗לְנָה עֲצָמ֥וֹת דִּכִּֽיתָ׃",
+      "text_kjv": "Make me to hear joy and gladness; that the bones which thou hast broken may rejoice.",
+      "rendering": "Let me hear joy and gladness;\nlet the bones you have crushed rejoice.",
+      "expanded_rendering": "The imagery is visceral. David's sin has not merely troubled his conscience — it has crushed his bones. The verb dikita ('you have crushed') is violent: God is the one who has done this crushing, not as arbitrary punishment but as the consequence of violated relationship. The bones (atsamot) represent the structural core of the body, the framework that holds everything together. When God crushes a person's bones, their entire being collapses. But the request is not for the pain to stop — it is for the crushed bones themselves to rejoice (tagelna). David envisions a joy that does not replace suffering but emerges from within it. The God who crushed is the same God who can make crushed things dance.",
+      "translator_notes": [
+        "The pairing of sason ve-simchah ('joy and gladness') is a stock phrase in Hebrew for celebratory occasions — weddings, festivals, restoration. David wants to hear the sound of celebration again, implying he has been in a silence where joy's voice was absent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "הַסְתֵּ֣ר פָּ֭נֶיךָ מֵחֲטָאָ֑י וְכׇל־עֲוֺ֖נֹתַ֣י מְחֵֽה׃",
+      "text_kjv": "Hide thy face from my sins, and blot out all mine iniquities.",
+      "rendering": "Hide your face from my sins,\nand wipe out all my guilt.",
+      "translator_notes": [
+        "Normally in the Psalter, the cry is 'do not hide your face from me' (Psalms 13:1, 27:9, 69:17). Here David inverts the formula: hide your face from my sins. He wants God to look away — not from him, but from his transgressions. The verb machah ('wipe out') repeats from verse 3, framing this section with the same plea."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "לֵ֣ב טָ֭הוֹר בְּרָא־לִ֣י אֱלֹהִ֑ים וְר֥וּחַ נָ֝כ֗וֹן חַדֵּ֥שׁ בְּקִרְבִּֽי׃",
+      "text_kjv": "Create in me a clean heart, O God; and renew a right spirit within me.",
+      "rendering": "Create in me a clean heart, God,\nand renew a steadfast spirit within me.",
+      "expanded_rendering": "This is the theological center of the psalm. The verb bara ('create') appears in the Hebrew Bible almost exclusively with God as its subject — it is the word for divine creation ex nihilo (Genesis 1:1). David is not asking for self-improvement. He is asking for the same creative power that made the cosmos to make something new inside him. A lev tahor ('clean heart') — the heart in Hebrew being the seat of will, thought, and decision — that is ritually and morally pure. And a ruach nakhon ('steadfast spirit') — a spirit that is firm, established, reliable, not prone to the moral collapse that led him to Bathsheba's roof. David has recognized that his old heart produced adultery and murder. He does not want it repaired. He wants it replaced.",
+      "translator_notes": [
+        "bara ('create') is never used in the Hebrew Bible for human manufacturing or crafting. It is reserved for divine acts of bringing into being what did not exist before. David is asking for something only God can do — not reformation but re-creation.",
+        "nakhon ('steadfast, established, firm') comes from kun, 'to be established, fixed, prepared.' It describes something stable and reliable — the opposite of the wavering spirit that allowed David to see, desire, take, and cover up."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בָּרָא",
+          "transliteration": "bara",
+          "rendered_as": "create",
+          "semantic_range": "to create (divine action), to bring into being, to make new",
+          "note": "Almost exclusively a divine verb in Hebrew. By using bara, David acknowledges that what he needs is beyond human capacity — only the God who created the world can create a clean heart."
+        },
+        {
+          "hebrew": "לֵב טָהוֹר",
+          "transliteration": "lev tahor",
+          "rendered_as": "clean heart",
+          "semantic_range": "heart: mind, will, inner self, seat of decision; clean: pure, ritually and morally uncontaminated",
+          "note": "lev is the center of volition and thought in Hebrew anthropology. tahor is the priestly term for ritual purity. David wants a decision-making center that is uncontaminated — a new inner self."
+        },
+        {
+          "hebrew": "רוּחַ נָכוֹן",
+          "transliteration": "ruach nakhon",
+          "rendered_as": "steadfast spirit",
+          "semantic_range": "spirit: breath, wind, disposition, animating force; steadfast: firm, established, reliable, prepared",
+          "note": "ruach here is the inner disposition or animating force of the person. nakhon means 'established, fixed' — a spirit that will not waver or collapse under temptation. David wants internal stability."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "אַל־תַּשְׁלִיכֵ֥נִי מִלְּפָנֶ֑יךָ וְר֥וּחַ קׇ֝דְשְׁךָ֗ אַל־תִּקַּ֥ח מִמֶּֽנִּי׃",
+      "text_kjv": "Cast me not away from thy presence; and take not thy holy spirit from me.",
+      "rendering": "Do not cast me away from your presence,\nand do not take your Holy Spirit from me.",
+      "expanded_rendering": "This is the most terrified line in the psalm. Two negated imperatives — al tashlkheni ('do not throw me away') and al tiqqach ('do not take') — reveal what David fears most: not punishment, not death, but separation from God. Being cast from God's presence (mi-lefanekha, literally 'from before your face') is exile from the only relationship that gives David his identity. And the plea about the ruach qodshekha ('your Holy Spirit') is not abstract theology — David has personally witnessed what happens when God's Spirit departs. He watched Saul, the first king, lose the Spirit (1 Samuel 16:14), and he watched Saul descend into madness, paranoia, and destruction. David is begging: do not let happen to me what happened to Saul. The fear is specific, personal, and grounded in lived experience.",
+      "translator_notes": [
+        "ruach qodshekha ('your Holy Spirit') — this is one of only three places in the Hebrew Bible where the phrase 'Holy Spirit' appears (here, Isaiah 63:10-11). In this context it refers to God's empowering, sustaining presence that rests on those whom God has chosen for specific purposes. For David, it is the Spirit that came upon him at his anointing (1 Samuel 16:13).",
+        "The phrase mi-lefanekha ('from your presence/face') echoes the Cain narrative — after murdering Abel, Cain goes out 'from the presence of the LORD' (Genesis 4:16). David, who has also committed murder, fears the same exile."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רוּחַ קׇדְשְׁךָ",
+          "transliteration": "ruach qodshekha",
+          "rendered_as": "your Holy Spirit",
+          "semantic_range": "spirit of holiness, holy breath, sacred animating presence",
+          "note": "One of only three occurrences of this phrase in the Hebrew Bible. It refers to God's own Spirit given to empower and sustain those called to serve. David received this Spirit at his anointing (1 Samuel 16:13) and has seen firsthand what its withdrawal looks like in Saul."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "הָשִׁ֣יבָה לִּ֭י שְׂשׂ֣וֹן יִשְׁעֶ֑ךָ וְר֖וּחַ נְדִיבָ֣ה תִסְמְכֵֽנִי׃",
+      "text_kjv": "Restore unto me the joy of thy salvation; and uphold me with thy free spirit.",
+      "rendering": "Restore to me the joy of your salvation,\nand sustain me with a willing spirit.",
+      "expanded_rendering": "Three spirits appear in three consecutive verses: ruach nakhon ('steadfast spirit,' v. 12), ruach qodshekha ('your Holy Spirit,' v. 13), and now ruach nedivah ('a willing/generous spirit,' v. 14). The progression moves from stability to divine presence to internal motivation. nedivah means 'willing, generous, noble' — it describes the spirit of someone who serves God not from obligation or fear but from an inner readiness that overflows. David wants to return to joyful obedience, not grudging compliance. The verb tismekeni ('sustain me, uphold me') means to prop up, to support — David knows he cannot stand on his own.",
+      "translator_notes": [
+        "The three-spirit sequence (vv. 12-14) — steadfast, holy, willing — forms a complete theology of spiritual restoration: internal stability, divine presence, and joyful motivation. All three must be given by God; David cannot manufacture any of them."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רוּחַ נְדִיבָה",
+          "transliteration": "ruach nedivah",
+          "rendered_as": "willing spirit",
+          "semantic_range": "willing, generous, noble, free-hearted, volunteer spirit",
+          "note": "nedivah describes the disposition of someone who gives or serves freely, without compulsion. The same root gives us nadiv ('nobleman, prince') — one who acts from inner generosity. David wants a spirit that obeys God with eager willingness, not teeth-gritting determination."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "אֲלַמְּדָ֣ה פֹשְׁעִ֣ים דְּרָכֶ֑יךָ וְ֝חַטָּאִ֗ים אֵלֶ֥יךָ יָשֽׁוּבוּ׃",
+      "text_kjv": "Then will I teach transgressors thy ways; and sinners shall be converted unto thee.",
+      "rendering": "Then I will teach rebels your ways,\nand sinners will return to you.",
+      "expanded_rendering": "David promises that his restoration will not be private. He will become a teacher of other sinners — posh'im ('rebels,' those who commit pesha, the same word David used for himself in v. 3) and chatta'im ('sinners,' from the same root as his own chattath). The one who missed the mark will teach other mark-missers. The one who rebelled will show other rebels the way back. This is the logic of redeemed failure: David's qualification to teach is not that he never sinned but that he sinned, was broken, and was restored. The verb yashuvu ('they will return') is the standard word for repentance in Hebrew — teshuvah, turning back.",
+      "translator_notes": [
+        "David deliberately uses the same sin-vocabulary for others that he used for himself (posh'im parallels pesha'ai in v. 3; chatta'im parallels chattathi in v. 4). He does not position himself above other sinners — he joins their company and offers to show them the path he walked back."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "הַצִּ֘ילֵ֤נִי מִדָּמִ֨ים ׀ אֱ‍ֽלֹהִ֗ים אֱלֹהֵ֥י תְשׁוּעָתִ֑י תְּ֝רַנֵּ֗ן לְשׁוֹנִ֥י צִדְקָתֶֽךָ׃",
+      "text_kjv": "Deliver me from bloodguiltiness, O God, thou God of my salvation: and my tongue shall sing aloud of thy righteousness.",
+      "rendering": "Deliver me from bloodguilt, God —\nGod of my salvation!\nMy tongue will sing aloud of your righteousness.",
+      "expanded_rendering": "The word damim ('bloods,' plural) means bloodguilt — the guilt that attaches to someone who has shed innocent blood. This is David's most direct reference to the murder of Uriah the Hittite (2 Samuel 11:14-17). He arranged for Uriah to be placed at the front of the fiercest fighting and then withdrew support, ensuring his death. The plural 'bloods' may indicate the compound nature of the guilt — Uriah and the soldiers who died with him. David appeals to God as Elohei teshu'ati ('God of my salvation') — his salvation is entirely in God's hands. And if delivered, his tongue — the organ that issued the death order against Uriah — will sing of God's tsedaqah ('righteousness'), the very quality David violated.",
+      "translator_notes": [
+        "damim (literally 'bloods') is the technical term for blood-guilt in Hebrew law. Genesis 4:10 uses the same plural when Abel's 'bloods' cry from the ground. The plural may intensify the concept or reflect the multiple deaths David's order caused.",
+        "The irony of David's tongue singing tsedaqah ('righteousness') is sharp — the tongue that dictated the letter ordering Uriah's death (2 Samuel 11:15) will be repurposed as an instrument of praise."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "דָּמִים",
+          "transliteration": "damim",
+          "rendered_as": "bloodguilt",
+          "semantic_range": "bloods, bloodshed, blood-guilt, murder",
+          "note": "The plural 'bloods' is the standard Hebrew expression for the guilt incurred by shedding innocent blood. It is the most direct acknowledgment in the psalm that David is guilty of murder."
+        },
+        {
+          "hebrew": "צְדָקָה",
+          "transliteration": "tsedaqah",
+          "rendered_as": "righteousness",
+          "semantic_range": "righteousness, justice, right-standing, vindication, covenant faithfulness",
+          "note": "Here tsedaqah refers to God's righteousness — his commitment to set things right. David will praise the very quality he violated, which is also the quality that enables his restoration."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אֲ֭דֹנָי שְׂפָתַ֣י תִּפְתָּ֑ח וּ֝פִ֗י יַגִּ֥יד תְּהִלָּתֶֽךָ׃",
+      "text_kjv": "O Lord, open thou my lips; and my mouth shall shew forth thy praise.",
+      "rendering": "Lord, open my lips,\nand my mouth will declare your praise.",
+      "translator_notes": [
+        "The address shifts from Elohim ('God') to Adonai ('Lord, Master') — the personal, relational name that emphasizes God's authority and David's submission. David positions himself as a servant before his master, asking the master to give him the ability to speak."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "כִּ֤י ׀ לֹא־תַחְפֹּ֣ץ זֶ֣בַח וְאֶתֵּ֑נָה ע֝וֹלָ֗ה לֹ֣א תִרְצֶֽה׃",
+      "text_kjv": "For thou desirest not sacrifice; else would I give it: thou delightest not in burnt offering.",
+      "rendering": "For you do not desire sacrifice — I would give it;\nyou take no pleasure in burnt offering.",
+      "translator_notes": [
+        "This verse is not anti-sacrificial. David is not saying sacrifices are worthless in general but that his specific sin exceeds what the sacrificial system was designed to handle. The high-handed sin of Numbers 15:30 — deliberate rebellion — has no prescribed offering. David needs something beyond the system."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "זִֽבְחֵ֣י אֱלֹהִים֮ ר֤וּחַ נִשְׁבָּ֫רָ֥ה לֵב־נִשְׁבָּ֥ר וְנִדְכֶּ֑ה אֱ֝לֹהִ֗ים לֹ֣א תִבְזֶֽה׃",
+      "text_kjv": "The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise.",
+      "rendering": "The sacrifices God accepts are a broken spirit;\na broken and crushed heart —\nGod, you will not despise.",
+      "expanded_rendering": "Having acknowledged that no animal sacrifice covers his sin, David discovers what God does accept: ruach nishbarah ('a broken spirit') and lev nishbar ve-nidkeh ('a broken and crushed heart'). The verb shavar ('to break') describes the snapping of a bone, the shattering of a vessel — complete structural failure. nidkeh ('crushed') intensifies it: ground to powder, beaten down until no resistance remains. This is the psalm's great inversion: the sacrifice God accepts is not something David offers to God but something God has done to David. God broke him. And the broken thing itself — the shattered spirit, the crushed heart — is the offering. David brings his wreckage to the altar. And God, who cannot be bribed with bulls and goats, will not despise (lo tivzeh) this. The verb bazah ('to despise, scorn') means to treat as worthless. God treats everything else David might bring as insufficient, but the one thing David might think is worthless — his own brokenness — God receives.",
+      "translator_notes": [
+        "The plural zivchei Elohim ('the sacrifices of God') uses the construct form: these are not sacrifices offered to God but sacrifices that belong to God — sacrifices that are truly his. The broken spirit is God's sacrifice because God produced it.",
+        "nidkeh ('crushed') is related to dakka in Isaiah 57:15, where God 'dwells with the crushed and lowly of spirit.' The theology is consistent: God's presence is drawn to human brokenness, not human achievement."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רוּחַ נִשְׁבָּרָה",
+          "transliteration": "ruach nishbarah",
+          "rendered_as": "broken spirit",
+          "semantic_range": "shattered spirit, broken wind/breath, fractured disposition",
+          "note": "nishbarah is the Niphal participle of shavar ('to break, shatter'). It describes a spirit that has been broken by external force — not self-induced humility but the shattering that results from encountering one's own sin and God's response to it."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "הֵיטִ֥יבָה בִרְצוֹנְךָ֗ אֶת־צִ֫יּ֥וֹן תִּבְנֶ֗ה חוֹמ֥וֹת יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "Do good in thy good pleasure unto Zion: build thou the walls of Jerusalem.",
+      "rendering": "Do good to Zion in your favor;\nbuild up the walls of Jerusalem.",
+      "translator_notes": [
+        "Many scholars believe verses 20-21 are an exilic addition, extending David's personal prayer into a communal one relevant to the Babylonian exile. Whether original or added, the verses make a theological point: individual sin and communal devastation are connected, and restoration must encompass both."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "אָ֤ז תַּחְפֹּ֣ץ זִבְחֵי־צֶ֭דֶק עוֹלָ֣ה וְכָלִ֑יל אָ֤ז יַעֲל֖וּ עַל־מִזְבַּחֲךָ֣ פָרִֽים׃",
+      "text_kjv": "Then shalt thou be pleased with the sacrifices of righteousness, with burnt offering and whole burnt offering: then shall they offer bullocks upon thine altar.",
+      "rendering": "Then you will delight in righteous sacrifices —\nburnt offering and whole offering;\nthen bulls will be offered on your altar.",
+      "translator_notes": [
+        "zivchei tsedeq ('sacrifices of righteousness') — sacrifices that are right and proper because they emerge from a right relationship with God. The contrast with zivchei Elohim ('sacrifices of God' = a broken spirit) in verse 19 is deliberate: both are valid, but one must precede the other.",
+        "kalil ('whole offering') refers to a sacrifice entirely consumed on the altar — nothing held back. The theological echo is that David, having held nothing back in confession, can now offer a sacrifice that holds nothing back either."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

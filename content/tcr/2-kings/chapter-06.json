@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Kings",
+    "chapter": 6,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The chapter divides into three distinct episodes, each displaying the prophetic power of Elisha in escalating stakes. First, the sons of the prophets need a larger dwelling and go to the Jordan to cut timber. One of them loses a borrowed iron axe head in the water. Elisha cuts a stick, throws it in, and the iron floats — a small miracle, yet significant because iron does not float and the axe was borrowed (the loss would have been a real economic hardship). Second, Israel is at war with Aram, and the king of Aram is frustrated because his secret military plans keep being exposed. His officers tell him Elisha the prophet reports his private words to the king of Israel. The Aramean king sends horses, chariots, and a great army to Dothan to capture Elisha. Elisha's servant wakes to find the city surrounded and panics. Elisha prays that the servant's eyes be opened, and the servant sees the hills filled with horses and chariots of fire — the invisible army of God surrounding the visible army of Aram. Elisha then prays for the Arameans to be struck with blindness (sanverim), leads the blinded army to Samaria, and prays for their eyes to be opened. They find themselves inside the Israelite capital. The king of Israel asks whether to kill them, and Elisha commands a feast instead — send them home fed, not slaughtered. The Aramean raids stop. Third, Ben-hadad king of Aram besieges Samaria, producing catastrophic famine. A donkey's head sells for eighty pieces of silver; a quarter-kab of dove's dung sells for five pieces of silver. The king of Israel is walking the wall when a woman cries out for help and reveals a horrifying agreement: two women agreed to eat their children on successive days. The first child has been eaten, but the second woman has hidden her son. The king tears his robes, and those nearby see sackcloth underneath — he has already been mourning in secret. The king swears to kill Elisha, blaming the prophet for the siege. He sends a messenger, but Elisha knows the messenger is coming before he arrives and instructs the elders to hold the door shut. The chapter ends with the king's despairing cry: the disaster is from the LORD — why should he wait for the LORD any longer?",
+    "remarkable": "The three episodes form a deliberate theological sequence moving from small to cosmic: a floating axe head, an invisible army revealed, and a famine that drives people to cannibalism. The opened eyes of Elisha's servant (verse 17) are the theological center — reality is not what is visible. The hills are full of divine chariots, but only prayer can open eyes to see them. Elisha's response to the captured Aramean army is extraordinary: rather than slaughter, he commands hospitality. This is one of the clearest 'love your enemies' moments in the Hebrew Bible, anticipating Jesus' teaching by centuries. The famine narrative is among the darkest passages in Scripture — a mother eating her own child — and the text does not flinch from the horror. The king's final question ('why should I wait for the LORD any longer?') is the theological crisis that chapter 7 will answer.",
+    "friction": "The floating axe head raises obvious questions about miraculous suspension of natural law over a seemingly trivial matter. However, iron was expensive and the axe was borrowed — the loss carried real economic and social weight. The blindness (sanverim) that strikes the Aramean army echoes the blindness at Sodom (Genesis 19:11), using the same rare word, suggesting a confusion of perception rather than total loss of sight. Elisha's statement 'this is not the road and this is not the city' (verse 19) while standing in Dothan and leading them to Samaria raises questions about prophetic deception — though some argue the soldiers sought Elisha in his role as military intelligence, and he was no longer functioning in that role. The cannibalism scene fulfills the covenant curses of Deuteronomy 28:53-57 and Leviticus 26:29, placing the famine firmly in the framework of covenantal judgment rather than random catastrophe.",
+    "connections": "The floating iron connects to Exodus 15:25 where Moses throws wood into bitter water to make it sweet — in both cases, wood cast into water produces a miraculous reversal. The chariots of fire echo Elijah's departure in 2 Kings 2:11-12 and anticipate the apocalyptic imagery of Zechariah 6:1-8 and Revelation 19. Elisha's command to feed enemies rather than kill them resonates with Proverbs 25:21-22 ('if your enemy is hungry, give him bread to eat') and Romans 12:20. The cannibalism during siege fulfills Deuteronomy 28:53-57 precisely. The king's sackcloth beneath his robes echoes the hidden piety/despair motif found in other royal narratives. The king's despairing question — 'why should I wait for the LORD any longer?' — sets up the dramatic reversal in chapter 7, where the LORD acts within twenty-four hours."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיֹּאמְר֥וּ בְנֵי־הַנְּבִיאִ֖ים אֶל־אֱלִישָׁ֑ע הִנֵּה־נָ֣א הַמָּק֗וֹם אֲשֶׁ֨ר אֲנַ֤חְנוּ יֹשְׁבִים֙ שָׁ֔ם לְפָנֶ֖יךָ צַ֥ר מִמֶּֽנּוּ׃",
+      "text_kjv": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us.",
+      "rendering": "The sons of the prophets said to Elisha, \"The place where we live under your guidance has become too small for us.\"",
+      "translator_notes": [
+        "The benei ha-nevi'im ('sons of the prophets') are the prophetic guild or community under Elisha's authority. The phrase lefanekha ('before you, in your presence') indicates they live under his oversight. The word tsar ('narrow, constricted') shows the community is growing — a sign of Elisha's flourishing ministry."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָבִיא",
+          "transliteration": "navi",
+          "rendered_as": "prophet",
+          "semantic_range": "prophet, spokesperson, one called to speak, proclaimer",
+          "note": "Benei ha-nevi'im ('sons of the prophets') designates a prophetic community or guild, not biological children. These are men under prophetic training and authority, continuing the institutional role seen since Samuel's time."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "נֵֽלְכָה־נָּ֣א עַד־הַיַּרְדֵּ֗ן וְנִקְחָ֤ה מִשָּׁם֙ אִ֚ישׁ קוֹרָ֣ה אֶחָ֔ת וְנַעֲשֶׂה־לָּ֥נוּ שָׁ֖ם מָק֣וֹם לָשֶׁ֣בֶת שָׁ֑ם וַיֹּ֖אמֶר לֵֽכוּ׃",
+      "text_kjv": "Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye.",
+      "rendering": "\"Let us go to the Jordan, and each of us will take a log from there, and we will build ourselves a place to live.\" He said, \"Go.\"",
+      "translator_notes": [
+        "The Jordan river area had abundant trees suitable for building. Each man would take ish qorah achat ('each man one beam') — showing communal labor. Elisha's response is a single word: lekhu ('go') — terse permission."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיֹּ֙אמֶר֙ הָאֶחָ֔ד הוֹאֶל־נָ֖א וְלֵ֣ךְ אֶת־עֲבָדֶ֑יךָ וַיֹּ֖אמֶר אֲנִ֥י אֵלֵֽךְ׃",
+      "text_kjv": "And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go.",
+      "rendering": "One of them said, \"Please, be willing to come with your servants.\" He answered, \"I will come.\"",
+      "translator_notes": [
+        "The request ho'el na ('please be willing, please consent') is deferential — they want the master present for the work. Elisha agrees personally: ani elekh ('I myself will go'). The prophetic leader participates in manual labor alongside his community."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיֵּ֖לֶךְ אִתָּ֑ם וַיָּבֹ֙אוּ֙ הַיַּרְדֵּ֔נָה וַֽיִּגְזְר֖וּ הָעֵצִֽים׃",
+      "text_kjv": "So he went with them. And when they came to Jordan, they cut down wood.",
+      "rendering": "So he went with them. They came to the Jordan and began cutting down trees.",
+      "translator_notes": [
+        "The verb va-yigzeru ('they cut') from gazar indicates felling trees. The scene is ordinary labor — prophetic communities are not above physical work."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיְהִ֤י הָאֶחָד֙ מַפִּ֣יל הַקּוֹרָ֔ה וְאֶת־הַבַּרְזֶ֖ל נָפַ֣ל אֶל־הַמָּ֑יִם וַיִּצְעַ֣ק וַיֹּ֔אמֶר אֲהָ֥הּ אֲדֹנִ֖י וְה֥וּא שָׁאֽוּל׃",
+      "text_kjv": "But as one was felling a beam, the axe head fell into the water: and he cried, and said, Alas, master! for it was borrowed.",
+      "rendering": "As one of them was felling a beam, the iron axe head fell into the water. He cried out, \"Oh no, my master! It was borrowed!\"",
+      "translator_notes": [
+        "The ha-barzel ('the iron') refers to the axe head. The man's distress — ahah adoni ('alas, my lord!') — is intensified by the explanation ve-hu sha'ul ('and it was borrowed'). Losing borrowed property created a debt obligation. Iron was valuable; replacing it would be a serious burden for a member of an ascetic prophetic community."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיֹּ֤אמֶר אִישׁ־הָאֱלֹהִים֙ אָ֣נָה נָפָ֔ל וַיַּרְאֵ֖הוּ אֶת־הַמָּק֑וֹם וַיִּקְצׇב־עֵ֗ץ וַיַּשְׁלֵ֥ךְ שָׁ֛מָּה וַיָּ֖צֶף הַבַּרְזֶֽל׃",
+      "text_kjv": "And the man of God said, Where fell it? And he shewed him the place. And he cut down a stick, and cast it in thither; and the iron did swim.",
+      "rendering": "The man of God asked, \"Where did it fall?\" The man showed him the spot. Elisha cut a stick, threw it into the water, and the iron floated to the surface.",
+      "translator_notes": [
+        "Elisha is called ish ha-Elohim ('man of God') — the title used for prophets performing signs. The verb va-yatsef ('it floated') describes iron doing what iron cannot do. The stick (ets, 'wood, tree') thrown into the water recalls Moses throwing wood into the bitter waters of Marah (Exodus 15:25). Wood cast into water produces reversal — a pattern of prophetic sign-acts."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיֹּ֖אמֶר הָרֵ֣ם לָ֑ךְ וַיִּשְׁלַ֥ח יָד֖וֹ וַיִּקָּחֵֽהוּ׃",
+      "text_kjv": "Therefore said he, Take it up to thee. And he put out his hand, and took it.",
+      "rendering": "He said, \"Pick it up.\" The man reached out his hand and took it.",
+      "translator_notes": [
+        "Elisha's command harem lakh ('lift it for yourself') requires the man to act on the miracle — reach out and take what God has restored. The miracle creates the opportunity; the man must respond."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וּמֶ֣לֶךְ אֲרָ֔ם הָיָ֥ה נִלְחָ֖ם בְּיִשְׂרָאֵ֑ל וַיִּוָּעַ֤ץ אֶל־עֲבָדָיו֙ לֵאמֹ֔ר אֶל־מְק֥וֹם פְּלֹנִ֛י אַלְמוֹנִ֖י תַּחֲנֹתִֽי׃",
+      "text_kjv": "Then the king of Syria warred against Israel, and took counsel with his servants, saying, In such and such a place shall be my camp.",
+      "rendering": "The king of Aram was at war with Israel. He conferred with his officers, saying, \"My camp will be at such-and-such a place.\"",
+      "translator_notes": [
+        "The phrase peloni almoni ('such-and-such, a certain place') is a Hebrew idiom for an unnamed location — the narrator withholds the specific site. The king's strategy sessions are private military councils, yet their content keeps reaching Israel."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיִּשְׁלַ֞ח אִ֣ישׁ הָאֱלֹהִ֗ים אֶל־מֶ֤לֶךְ יִשְׂרָאֵל֙ לֵאמֹ֔ר הִשָּׁ֕מֶר מֵעֲבֹ֖ר הַמָּק֣וֹם הַזֶּ֑ה כִּי־שָׁ֖ם אֲרָ֥ם נְחִתִּֽים׃",
+      "text_kjv": "And the man of God sent unto the king of Israel, saying, Beware that thou pass not such a place; for thither the Syrians are come down.",
+      "rendering": "The man of God sent word to the king of Israel: \"Be careful not to pass through that place, because the Arameans are positioned there.\"",
+      "translator_notes": [
+        "Elisha functions as divine intelligence — he knows the enemy's deployments before they happen. The verb nechittim ('positioned, descended') suggests the Arameans have taken up ambush positions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיִּשְׁלַ֗ח מֶ֣לֶךְ יִשְׂרָאֵ֔ל אֶל־הַמָּק֕וֹם אֲשֶׁ֨ר אָמַר־ל֧וֹ אִישׁ־הָאֱלֹהִ֛ים וְהִזְהִיר֖וֹ וְנִשְׁמַ֣ר שָׁ֑ם לֹ֥א אַחַ֖ת וְלֹ֥א שְׁתָּֽיִם׃",
+      "text_kjv": "And the king of Israel sent to the place which the man of God told him and warned him of, and saved himself there, not once nor twice.",
+      "rendering": "The king of Israel sent scouts to the place the man of God had indicated and warned him about, and was on guard there — not once or twice, but repeatedly.",
+      "translator_notes": [
+        "The phrase lo achat ve-lo shtayim ('not once and not twice') is an idiom meaning 'many times, repeatedly.' This was not a single incident but an ongoing pattern of Elisha providing intelligence that thwarted Aramean strategy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיִּסָּעֵ֥ר לֵ֖ב מֶ֣לֶךְ אֲרָ֑ם עַל־הַדָּבָ֣ר הַזֶּ֗ה וַיִּקְרָא֙ אֶל־עֲבָדָ֔יו וַיֹּ֣אמֶר אֲלֵיהֶ֗ם הֲלוֹא֙ תַּגִּ֣ידוּ לִ֔י מִ֥י מִשֶּׁלָּ֖נוּ אֶל־מֶ֥לֶךְ יִשְׂרָאֵֽל׃",
+      "text_kjv": "Therefore the heart of the king of Syria was sore troubled for this thing; and he called his servants, and said unto them, Will ye not shew me which of us is for the king of Israel?",
+      "rendering": "The king of Aram was enraged over this. He summoned his officers and demanded, \"Tell me — which one of us is leaking information to the king of Israel?\"",
+      "translator_notes": [
+        "The verb va-yissa'er ('was stormy, was agitated') describes the king's heart in turmoil — a storm inside him. He suspects a spy within his own command. The question mi mi-shellanu ('who from among us?') assumes betrayal from within the inner circle."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיֹּ֙אמֶר֙ אַחַ֣ד מֵעֲבָדָ֔יו ל֖וֹא אֲדֹנִ֣י הַמֶּ֑לֶךְ כִּֽי־אֱלִישָׁ֤ע הַנָּבִיא֙ אֲשֶׁ֣ר בְּיִשְׂרָאֵ֔ל יַגִּיד֙ לְמֶ֣לֶךְ יִשְׂרָאֵ֔ל אֶת־הַ֨דְּבָרִ֔ים אֲשֶׁ֥ר תְּדַבֵּ֖ר בַּחֲדַ֥ר מִשְׁכָּבֶֽךָ׃",
+      "text_kjv": "And one of his servants said, None, my lord, O king: but Elisha, the prophet that is in Israel, telleth the king of Israel the words that thou speakest in thy bedchamber.",
+      "rendering": "One of his officers said, \"No one, my lord the king. It is Elisha, the prophet in Israel, who tells the king of Israel the very words you speak in your bedroom.\"",
+      "translator_notes": [
+        "The officer's answer eliminates espionage and points to prophecy. The phrase ba-chadar mishkavekha ('in the room of your lying down, in your bedroom') emphasizes the intimacy of the intelligence — even private conversations behind closed doors reach Elisha. Elisha's reputation has crossed international borders."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָבִיא",
+          "transliteration": "navi",
+          "rendered_as": "prophet",
+          "semantic_range": "prophet, spokesperson, one called to speak, proclaimer",
+          "note": "Elisha ha-navi is known even to enemy officers. His prophetic capacity extends beyond preaching to supernatural knowledge of foreign state secrets — the navi as divine intelligence agent."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיֹּ֗אמֶר לְכ֤וּ וּרְאוּ֙ אֵיכֹ֣ה ה֔וּא וְאֶשְׁלַ֖ח וְאֶקָּחֵ֑הוּ וַיֻּגַּד־ל֣וֹ לֵאמֹ֔ר הִנֵּ֖ה בְּדֹתָֽן׃",
+      "text_kjv": "And he said, Go and spy where he is, that I may send and fetch him. And it was told him, saying, Behold, he is in Dothan.",
+      "rendering": "He said, \"Go and find out where he is, so I can send men to capture him.\" The report came back: \"He is in Dothan.\"",
+      "translator_notes": [
+        "Dothan (Dotan) is about twelve miles north of Samaria, on a main route. The king's plan to 'fetch' (eqqachehu) Elisha — a single prophet — requires the massive force described in the next verse, revealing both the king's fear and his military mindset."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיִּשְׁלַח־שָׁ֛מָּה סוּסִ֥ים וְרֶ֖כֶב וְחַ֣יִל כָּבֵ֑ד וַיָּבֹ֣אוּ לַ֔יְלָה וַיַּקִּ֖פוּ עַל־הָעִֽיר׃",
+      "text_kjv": "Therefore sent he thither horses, and chariots, and a great host: and they came by night, and compassed the city about.",
+      "rendering": "He sent horses, chariots, and a large army there. They came by night and surrounded the city.",
+      "translator_notes": [
+        "The Aramean king deploys a full military force — susim ve-rekhev ve-chayil kaved ('horses and chariotry and a heavy army') — to capture one man. The nighttime approach (laylah) is tactical; they surround the city (va-yaqqifu) to prevent escape. The disproportion between the force and the target is the narrator's ironic point."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיַּשְׁכֵּ֨ם מְשָׁרֵ֜ת אִ֤ישׁ הָאֱלֹהִים֙ לָק֔וּם וַיֵּצֵ֕א וְהִנֵּה־חַ֛יִל סוֹבֵ֥ב אֶת־הָעִ֖יר וְס֣וּס וָרָ֑כֶב וַיֹּ֤אמֶר נַעֲרוֹ֙ אֵלָ֔יו אֲהָ֥הּ אֲדֹנִ֖י אֵיכָ֥ה נַעֲשֶֽׂה׃",
+      "text_kjv": "And when the servant of the man of God was risen early, and gone forth, behold, an host compassed the city both with horses and chariots. And his servant said unto him, Alas, my master! how shall we do?",
+      "rendering": "When the servant of the man of God got up early and went outside, he saw an army with horses and chariots surrounding the city. The servant said to him, \"Oh no, my master! What are we going to do?\"",
+      "translator_notes": [
+        "The meshareit ('attendant, servant') — likely Gehazi's successor — wakes to a terrifying sight. His cry ahah adoni eikhah na'aseh ('alas my lord, what shall we do?') echoes the axe-head man's cry in verse 5 (ahah adoni). Both crises begin with the same words; both will be resolved by the prophet."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיֹּ֖אמֶר אַל־תִּירָ֑א כִּ֤י רַבִּים֙ אֲשֶׁ֣ר אִתָּ֔נוּ מֵאֲשֶׁ֖ר אוֹתָֽם׃",
+      "text_kjv": "And he answered, Fear not: for they that be with us are more than they that be with them.",
+      "rendering": "Elisha said, \"Do not be afraid. Those who are with us outnumber those who are with them.\"",
+      "translator_notes": [
+        "Elisha's calm response — al tira ('do not fear') — is the standard divine encouragement formula used throughout Scripture (Genesis 15:1, Isaiah 41:10). His claim — rabbim asher ittanu me-asher otam ('more are those with us than those with them') — makes no sense to natural sight. The servant sees an army; Elisha sees a greater one."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיִּתְפַּלֵּ֤ל אֱלִישָׁע֙ וַיֹּאמַ֔ר יְהוָ֕ה פְּקַח־נָ֥א אֶת־עֵינָ֖יו וְיִרְאֶ֑ה וַיִּפְקַ֨ח יְהוָ֜ה אֶת־עֵינֵ֣י הַנַּ֗עַר וַיַּרְא֙ וְהִנֵּ֤ה הָהָר֙ מָלֵ֞א סוּסִ֧ים וְרֶ֛כֶב אֵ֖שׁ סְבִיבֹ֥ת אֱלִישָֽׁע׃",
+      "text_kjv": "And Elisha prayed, and said, LORD, I pray thee, open his eyes, that he may see. And the LORD opened the eyes of the young man; and he saw: and, behold, the mountain was full of horses and chariots of fire round about Elisha.",
+      "rendering": "Elisha prayed, \"LORD, open his eyes so he can see.\" The LORD opened the servant's eyes, and he looked — and the mountain was filled with horses and chariots of fire all around Elisha.",
+      "expanded_rendering": "This is one of the defining visionary moments in the Hebrew Bible. Elisha prays peqach na et einav ve-yireh ('open, please, his eyes so that he may see'). The verb paqach ('to open') is used specifically for the opening of eyes — the same verb used of the blind receiving sight. But the servant is not physically blind; his eyes need to be opened to a dimension of reality that is already present but invisible. When YHWH opens the na'ar's eyes, what he sees is not a vision appearing from nowhere but something already there: ha-har male susim ve-rekhev esh ('the mountain was full of horses and chariotry of fire'). The fiery army of God has been surrounding Elisha the entire time. The Aramean army surrounded the city (verse 14), but God's army surrounds the prophet. The chariots of fire (rekhev esh) connect directly to Elijah's departure (2:11-12), where Elisha himself cried 'the chariot of Israel and its horsemen!' Now the same reality is revealed to another — the prophetic succession carries the same divine protection. The theological point is not that God sent reinforcements in response to the crisis, but that the unseen reality was always more powerful than the visible threat.",
+      "translator_notes": [
+        "The susim ve-rekhev esh ('horses and chariotry of fire') represent the divine army — the same celestial military force that escorted Elijah in 2:11. The word sevivot ('all around') Elisha means the prophet is at the center of a protective ring of divine power. The mountain is unnamed but presumably the hill on which Dothan sits."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיֵּרְד֣וּ אֵלָ֗יו וַיִּתְפַּלֵּ֨ל אֱלִישָׁ֤ע אֶל־יְהוָה֙ וַיֹּאמַ֔ר הַךְ־נָ֛א אֶת־הַגּ֥וֹי הַזֶּ֖ה בַּסַּנְוֵרִ֑ים וַיַּכֵּ֥ם בַּסַּנְוֵרִ֖ים כִּדְבַ֥ר אֱלִישָֽׁע׃",
+      "text_kjv": "And when they came down to him, Elisha prayed unto the LORD, and said, Smite this people, I pray thee, with blindness. And he smote them with blindness according to the word of Elisha.",
+      "rendering": "When the Arameans came down toward him, Elisha prayed to the LORD, \"Strike these people with blindness.\" And he struck them with blindness, just as Elisha had asked.",
+      "translator_notes": [
+        "The word sanverim ('blindness, dazzling, confusion of sight') is extremely rare — it appears only here and in Genesis 19:11 (the men of Sodom struck blind at Lot's door). The word likely describes a perceptual disorientation rather than total loss of vision, since the soldiers can still walk and follow Elisha. The same word linking this to Sodom places the Aramean aggression in the category of hostile forces that assault God's protected ones."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיֹּ֤אמֶר אֲלֵהֶם֙ אֱלִישָׁ֔ע לֹ֣א זֶ֣ה הַדֶּ֗רֶךְ וְלֹ֥א זֹ֛ה הָעִ֖יר לְכ֣וּ אַחֲרָ֑י וְאוֹלִ֣יכָה אֶתְכֶ֔ם אֶל־הָאִ֖ישׁ אֲשֶׁ֥ר תְּבַקֵּשׁ֑וּן וַיֹּ֥לֶךְ אוֹתָ֖ם שֹׁמְרֽוֹנָה׃",
+      "text_kjv": "And Elisha said unto them, This is not the way, neither is this the city: follow me, and I will bring you to the man whom ye seek. But he led them to Samaria.",
+      "rendering": "Elisha told them, \"This is not the right road, and this is not the right city. Follow me, and I will lead you to the man you are looking for.\" And he led them to Samaria.",
+      "translator_notes": [
+        "Elisha's statement raises questions about prophetic truthfulness. One interpretation: since they sought him as a military intelligence target and he was now acting as something else entirely, the statement is functionally true in its redirecting sense. Another: the disorientation means they cannot recognize either the road or the city, so his claim operates within their distorted perception. He leads them directly into Israel's capital — the most vulnerable position possible for an invading army."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיְהִ֕י כְּבֹאָ֖ם שֹׁמְר֑וֹן וַיֹּ֣אמֶר אֱלִישָׁ֗ע יְהוָ֗ה פְּקַ֤ח אֶת־עֵינֵי֙ אֵ֔לֶּה וְיִרְא֕וּ וַיִּפְקַ֤ח יְהוָה֙ אֶת־עֵֽינֵיהֶ֔ם וַיִּרְא֕וּ וְהִנֵּ֖ה בְּת֥וֹךְ שֹׁמְרֽוֹן׃",
+      "text_kjv": "And it came to pass, when they were come into Samaria, that Elisha said, LORD, open the eyes of these men, that they may see. And the LORD opened their eyes, and they saw; and, behold, they were in the midst of Samaria.",
+      "rendering": "When they arrived in Samaria, Elisha said, \"LORD, open the eyes of these men so they can see.\" The LORD opened their eyes, and they looked — and found themselves inside Samaria.",
+      "translator_notes": [
+        "The second prayer mirrors verse 17 exactly: peqach et einei elleh ve-yir'u ('open the eyes of these and let them see'). In verse 17 opening eyes revealed the invisible army; here it reveals the visible trap. Both moments are about seeing reality. The Aramean soldiers, who came to capture one prophet, find themselves captive inside the enemy capital."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיֹּ֤אמֶר מֶלֶךְ־יִשְׂרָאֵל֙ אֶל־אֱלִישָׁ֔ע כִּרְאוֹתָ֖ם הַאַכֶּ֣ה אַכֶּ֑ה אָבִֽי׃",
+      "text_kjv": "And the king of Israel said unto Elisha, when he saw them, My father, my father, shall I smite them? shall I smite them?",
+      "rendering": "When the king of Israel saw them, he said to Elisha, \"Shall I strike them down? Shall I strike them down, my father?\"",
+      "translator_notes": [
+        "The king's excited repetition — ha-akkeh akkeh ('shall I strike, shall I strike?') — reveals eagerness to slaughter the helpless enemy. His address avi ('my father') is the respectful title for a prophetic master (compare 2:12). The question assumes the answer will be yes."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיֹּ֙אמֶר֙ לֹ֣א תַכֶּ֔ה הַאֲשֶׁ֥ר שָׁבִ֛יתָ בְּחַרְבְּךָ֥ וּבְקַשְׁתְּךָ֖ אַתָּ֣ה מַכֶּ֑ה שִׂ֣ים לֶ֤חֶם וָמַ֙יִם֙ לִפְנֵיהֶ֔ם וְיֹאכְל֣וּ וְיִשְׁתּ֔וּ וְיֵלְכ֖וּ אֶל־אֲדֹנֵיהֶֽם׃",
+      "text_kjv": "And he answered, Thou shalt not smite them: wouldest thou smite those whom thou hast taken captive with thy sword and with thy bow? set bread and water before them, that they may eat and drink, and go to their master.",
+      "rendering": "He answered, \"You must not strike them down. Would you kill people you captured with your own sword and bow? Set food and water before them. Let them eat and drink, and then send them back to their master.\"",
+      "expanded_rendering": "Elisha's answer overturns the expected logic of war. The rhetorical question ha-asher shavita be-charbkha u-ve-qashtekha attah makkeh ('those whom you captured with your sword and your bow — would you strike them?') has been interpreted two ways: (1) You would not even kill prisoners you captured in battle, so how much less should you kill these whom God captured by miracle; or (2) You did not capture these men by your military power — God delivered them — so you have no right to kill them. Either reading arrives at the same conclusion: sim lechem va-mayim lifneihem ('set bread and water before them'). Instead of slaughter, Elisha commands hospitality. The enemy army that came to capture a prophet is sent home fed. This is not weakness but supreme confidence in divine protection — Elisha does not need to kill enemies because God can handle any threat. The practical result (verse 23) vindicates this policy: the raids stop.",
+      "translator_notes": [
+        "The command to feed rather than kill prisoners goes beyond normal ancient Near Eastern warfare conventions. Elisha redirects the king from military logic to covenantal generosity. The phrase ve-yelkhu el adoneihem ('and let them go to their master') sends the army home as witnesses to Israel's God-given power and mercy."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, completeness, well-being, welfare, absence of conflict",
+          "note": "Elisha's command produces true shalom — not the mere absence of war but a positive act of feeding enemies that results in the cessation of raids (verse 23). Peace is achieved through radical hospitality rather than military victory."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיִּכְרֶ֤ה לָהֶם֙ כֵּרָ֣ה גְדוֹלָ֔ה וַיֹּאכְל֖וּ וַיִּשְׁתּ֑וּ וַיְשַׁלְּחֵ֗ם וַיֵּלְכוּ֙ אֶל־אֲדֹ֣נֵיהֶ֔ם וְלֹֽא־יָסְפ֤וּ עוֹד֙ גְּדוּדֵ֣י אֲרָ֔ם לָב֖וֹא בְּאֶ֥רֶץ יִשְׂרָאֵֽל׃",
+      "text_kjv": "And he prepared great provision for them: and when they had eaten and drunk, he sent them away, and they went to their master. So the bands of Syria came no more into the land of Israel.",
+      "rendering": "He prepared a great feast for them. After they ate and drank, he sent them away, and they returned to their master. And the Aramean raiding parties stopped coming into the land of Israel.",
+      "translator_notes": [
+        "The kerah gedolah ('great feast, great preparation') transforms a military encounter into a banquet. The result — ve-lo yasfu od gedudei Aram lavo be-erets Yisrael ('the raiding bands of Aram did not again come into the land of Israel') — proves that mercy accomplished what military force could not. The narrative makes its point without moralizing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיְהִ֣י אַחֲרֵי־כֵ֔ן וַיִּקְבֹּ֛ץ בֶּן־הֲדַ֥ד מֶלֶךְ־אֲרָ֖ם אֶת־כׇּל־מַחֲנֵ֑הוּ וַיַּ֕עַל וַיָּ֖צַר עַל־שֹׁמְרֽוֹן׃",
+      "text_kjv": "And it came to pass after this, that Benhadad king of Syria gathered all his host, and went up, and besieged Samaria.",
+      "rendering": "Some time later, Ben-hadad king of Aram assembled his entire army, marched up, and besieged Samaria.",
+      "translator_notes": [
+        "The phrase acharei khen ('after this') marks a time gap. The raiding bands have stopped, but now Ben-hadad escalates to full siege warfare. The verb va-yatsar ('he besieged, he pressed') indicates a tight encirclement designed to starve the city into surrender."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיְהִ֨י רָעָ֤ב גָּדוֹל֙ בְּשֹׁ֣מְר֔וֹן וְהִנֵּ֖ה צָרִ֣ים עָלֶ֑יהָ עַ֣ד הֱי֣וֹת רֹאשׁ־חֲ֠מ֠וֹר בִּשְׁמֹנִ֨ים כֶּ֜סֶף וְרֹ֨בַע הַקַּ֧ב חֲרֵי֛וֹנִ֖ים בַּחֲמִשָּׁ֥ה כָֽסֶף׃",
+      "text_kjv": "And there was a great famine in Samaria: and, behold, they besieged it, until an ass's head was sold for fourscore pieces of silver, and the fourth part of a cab of dove's dung for five pieces of silver.",
+      "rendering": "There was a severe famine in Samaria as the siege continued, until a donkey's head was selling for eighty pieces of silver, and a quarter-kab of dove's dung for five pieces of silver.",
+      "translator_notes": [
+        "The prices indicate catastrophic inflation from starvation. A donkey's head — normally inedible and from an unclean animal — sells for eighty silver pieces (shemonim kesef). The chareyonim ('dove's dung') may be literal or may refer to a type of wild plant (star of Bethlehem bulbs) used as food in desperate times. Either way, the prices demonstrate total economic collapse under siege."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיְהִ֥י מֶלֶךְ־יִשְׂרָאֵ֖ל עֹבֵ֣ר עַל־הַחוֹמָ֑ה וְאִשָּׁ֗ה צָעֲקָ֤ה אֵלָיו֙ לֵאמֹ֔ר הוֹשִׁ֖יעָה אֲדֹנִ֥י הַמֶּֽלֶךְ׃",
+      "text_kjv": "And as the king of Israel was passing by upon the wall, there cried a woman unto him, saying, Help, my lord, O king.",
+      "rendering": "As the king of Israel was walking along the city wall, a woman cried out to him, \"Save me, my lord the king!\"",
+      "translator_notes": [
+        "The king walks the wall inspecting defenses. The woman's cry hoshi'ah adoni ha-melekh ('save, my lord the king!') uses the verb for salvation/deliverance (yasha) — she is appealing to royal authority for justice."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיֹּ֙אמֶר֙ אַל־יוֹשִׁעֵ֣ךְ יְהוָ֔ה מֵאַ֖יִן אוֹשִׁיעֵ֑ךְ הֲמִ֨ן־הַגֹּ֔רֶן א֖וֹ מִן־הַיָּֽקֶב׃",
+      "text_kjv": "And he said, If the LORD do not help thee, whence shall I help thee? out of the barnfloor, or out of the winepress?",
+      "rendering": "He said, \"If the LORD does not save you, how can I? From the threshing floor? From the winepress?\"",
+      "translator_notes": [
+        "The king's bitter response — al yoshiakh YHWH me-ayin oshi'ekh ('if the LORD does not save you, from where shall I save you?') — could be read as despair or as blasphemous deflection. The rhetorical questions about the threshing floor (goren) and winepress (yeqev) point to the absence of grain and wine — the siege has emptied both."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיֹּֽאמֶר־לָ֥הּ הַמֶּ֖לֶךְ מַה־לָּ֑ךְ וַתֹּ֗אמֶר הָאִשָּׁ֨ה הַזֹּ֜את אָמְרָ֣ה אֵלַ֗י תְּנִ֤י אֶת־בְּנֵךְ֙ וְנֹאכְלֶ֣נּוּ הַיּ֔וֹם וְאֶת־בְּנִ֖י נֹאכַ֥ל מָחָֽר׃",
+      "text_kjv": "And the king said unto her, What aileth thee? And she answered, This woman said unto me, Give thy son, that we may eat him to day, and we will eat my son to morrow.",
+      "rendering": "The king asked her, \"What is wrong?\" She said, \"This woman said to me, 'Give up your son so we can eat him today, and tomorrow we will eat my son.'\"",
+      "translator_notes": [
+        "The horror is reported in plain language without any narrative commentary or emotional framing. The woman recounts the agreement as a business arrangement — teni et benekh ve-nokhlennu ha-yom ('give your son and we will eat him today'). The matter-of-fact tone is itself the horror. This fulfills the covenant curse of Deuteronomy 28:53-57 with nauseating precision."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַנְּבַשֵּׁ֥ל אֶת־בְּנִ֖י וַנֹּאכְלֵ֑הוּ וָאֹמַ֨ר אֵלֶ֜יהָ בַּיּ֣וֹם הָאַחֵ֗ר תְּנִ֤י אֶת־בְּנֵךְ֙ וְנֹאכְלֶ֔נּוּ וַתַּחְבִּ֖א אֶת־בְּנָֽהּ׃",
+      "text_kjv": "So we boiled my son, and did eat him: and I said unto her on the next day, Give thy son, that we may eat him: and she hath hid her son.",
+      "rendering": "So we boiled my son and ate him. The next day I said to her, 'Now give your son so we can eat him.' But she has hidden her son.\"",
+      "translator_notes": [
+        "The woman's complaint is not about the cannibalism itself but about the other woman's breach of agreement — va-tachbi et benah ('she hid her son'). She has been cheated. The moral universe has collapsed so completely that a mother reports eating her child as a contractual matter. The narrative lets this speak for itself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיְהִ֞י כִּשְׁמֹ֤עַ הַמֶּ֙לֶךְ֙ אֶת־דִּבְרֵ֣י הָאִשָּׁ֔ה וַיִּקְרַ֖ע אֶת־בְּגָדָ֑יו וְה֣וּא עֹבֵ֣ר עַל־הַחוֹמָ֗ה וַיַּ֤רְא הָעָם֙ וְהִנֵּ֥ה הַשַּׂ֛ק עַל־בְּשָׂר֖וֹ מִבָּֽיִת׃",
+      "text_kjv": "And it came to pass, when the king heard the words of the woman, that he rent his clothes; and he passed by upon the wall, and the people looked, and, behold, he had sackcloth within upon his flesh.",
+      "rendering": "When the king heard the woman's words, he tore his robes. As he continued walking along the wall, the people could see that he was wearing sackcloth underneath, next to his skin.",
+      "translator_notes": [
+        "The tearing of robes reveals what was hidden beneath: saq al besaro mibayit ('sackcloth on his flesh underneath'). The king has been wearing sackcloth — a sign of mourning and possibly penitence — under his royal garments, in secret. This detail complicates any simple reading of the king as faithless; he has been grieving privately. Yet his response in the next verse turns grief into violence against the prophet."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיֹּ֕אמֶר כֹּֽה־יַעֲשֶׂה־לִּ֥י אֱלֹהִ֖ים וְכֹ֣ה יוֹסִ֑ף אִֽם־יַעֲמֹ֞ד רֹ֣אשׁ אֱלִישָׁ֧ע בֶּן־שָׁפָ֛ט עָלָ֖יו הַיּֽוֹם׃",
+      "text_kjv": "Then he said, God do so and more also to me, if the head of Elisha the son of Shaphat shall stand on him this day.",
+      "rendering": "He said, \"May God punish me and do worse if the head of Elisha son of Shaphat stays on his shoulders by the end of this day!\"",
+      "translator_notes": [
+        "The oath formula koh ya'aseh li Elohim ve-koh yosif ('thus may God do to me and more') is the standard self-cursing oath. The king swears to behead Elisha — blaming the prophet for the siege, either because Elisha counseled against surrender or because the king holds Elisha responsible as God's representative. The irony is that the king wears sackcloth (mourning before God) while swearing to kill God's prophet."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וֶאֱלִישָׁע֙ יֹשֵׁ֣ב בְּבֵית֔וֹ וְהַזְּקֵנִ֖ים יֹשְׁבִ֣ים אִתּ֑וֹ וַיִּשְׁלַ֨ח אִ֜ישׁ מִלְּפָנָ֗יו בְּטֶרֶם֩ יָבֹ֨א הַמַּלְאָ֜ךְ אֵלָ֗יו וְהוּא֩ אָמַ֨ר אֶל־הַזְּקֵנִ֜ים הַרְּאִיתֶ֗ם כִּֽי־שָׁלַ֞ח בֶּן־הַמְרַצֵּ֤חַ הַזֶּה֙ לְהָסִ֣יר אֶת־רֹאשִׁ֔י רְא֗וּ כְּבֹ֤א הַמַּלְאָךְ֙ סִגְר֣וּ הַדֶּ֔לֶת וּלְחַצְתֶּ֥ם אֹת֖וֹ בַּדָּ֑לֶת הֲל֗וֹא ק֛וֹל רַגְלֵ֥י אֲדֹנָ֖יו אַחֲרָֽיו׃",
+      "text_kjv": "But Elisha sat in his house, and the elders sat with him; and the king sent a man from before him: but ere the messenger came to him, he said to the elders, See ye how this son of a murderer hath sent to take away mine head? look, when the messenger cometh, shut the door, and hold him fast at the door: is not the sound of his master's feet behind him?",
+      "rendering": "Elisha was sitting in his house with the elders when the king sent a messenger ahead. But before the messenger arrived, Elisha said to the elders, \"Do you see how this son of a murderer has sent someone to cut off my head? When the messenger comes, shut the door and hold it shut against him. The sound of his master's footsteps is right behind him.\"",
+      "translator_notes": [
+        "Elisha's prophetic knowledge is again on display — he knows the messenger is coming before he arrives. He calls the king ben ha-meratstsech ('son of a murderer'), likely referring to Ahab's murder of Naboth or to the royal house's general violence. The instruction to the elders — sigru ha-delet u-lachatstem oto ba-dalet ('shut the door and press him at the door') — is practical: delay the executioner until the king himself arrives, since the king may relent. Elisha also detects the king following: qol raglei adonav acharav ('the sound of his master's feet behind him')."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "עוֹדֶ֣נּוּ מְדַבֵּ֣ר עִמָּ֗ם וְהִנֵּ֤ה הַמַּלְאָךְ֙ יֹרֵ֣ד אֵלָ֔יו וַיֹּ֕אמֶר הִנֵּה־זֹ֥את הָרָעָ֖ה מֵאֵ֣ת יְהוָ֑ה מָ֛ה אוֹחִ֥יל לַיהוָ֖ה עֽוֹד׃",
+      "text_kjv": "And while he yet talked with them, behold, the messenger came down to him: and he said, Behold, this evil is of the LORD; what should I wait for the LORD any more?",
+      "rendering": "While he was still speaking to them, the messenger arrived. And the king said, \"This disaster is from the LORD. Why should I wait for the LORD any longer?\"",
+      "translator_notes": [
+        "The final verse is textually complex — the speaker appears to shift from the messenger to the king himself (who has arrived close behind). The king's statement — hinneh zot ha-ra'ah me-et YHWH ('this evil/disaster is from the LORD') — correctly identifies the source but draws the wrong conclusion. His question mah ochil la-YHWH od ('why should I wait/hope in the LORD any longer?') expresses the collapse of faith: if God sent this suffering, what is the point of continuing to trust? Chapter 7 will answer this question within twenty-four hours."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Samuel",
+    "chapter": 20,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "David flees from Samuel's compound at Naioth and confronts Jonathan with a desperate question: why is your father trying to kill me? Jonathan cannot believe it. The two men devise a test — David will be absent from the New Moon feast, and Jonathan will gauge Saul's reaction. They renew their covenant, binding not only themselves but their descendants. At the feast, Saul's rage explodes against Jonathan for protecting David. Jonathan goes to the field, shoots the arrow signal, and the two friends embrace in grief before parting. David goes into permanent exile; Jonathan returns to the city.",
+    "remarkable": "This chapter is the emotional center of the David-Jonathan narrative, and it is structured around three covenants that escalate in scope. In verse 8, Jonathan invokes the existing covenant (berit) between them. In verse 16, Jonathan cuts a new covenant with the house of David — extending the bond beyond two individuals to two dynasties. In verse 42, both men swear by the LORD that the covenant holds 'between my descendants and your descendants forever.' The chapter transforms personal friendship into a political-theological commitment that will outlast both men. The arrow signal (verses 20-22, 35-40) is an elaborate espionage device, but its narrative function is to create a moment where the two friends must communicate without words — the opposite of the direct, intimate speech that fills the rest of the chapter. The New Moon feast provides the setting, and Saul's escalating fury across three days reveals how deeply David's absence threatens the king's sense of control. Jonathan's loyalty is tested from both sides: his father demands filial obedience, his covenant partner demands faithfulness. He chooses covenant over bloodline.",
+    "friction": "Verse 30 contains one of the most offensive insults in the Hebrew Bible: Saul calls Jonathan ben-na'avat ha-mardut, which KJV renders 'thou son of the perverse rebellious woman.' The phrase is difficult because na'avat is a rare form — possibly from 'avah ('to twist, pervert') with a feminine ending, meaning something like 'son of a twisted rebellious woman.' It attacks Jonathan's mother to shame Jonathan, a tactic with deep cultural force in the ancient Near East. We render it to preserve the maternal insult and the shame-rage dynamic without sanitizing or amplifying. In verse 3, David swears ki-khe-fesa' beyni uveyn ha-mavet ('there is barely a step between me and death') — the word pesa' ('step') is concrete and physical, measuring the gap between life and death as a single stride. In verse 30, Saul also accuses Jonathan of choosing David le-boshtekha u-le-boshet ervat immekha ('to your own shame and to the shame of your mother's nakedness'). The word ervah ('nakedness, exposure') suggests sexual dishonor; Saul is accusing Jonathan of a loyalty so perverse it shames his own mother's body. We translate with maximum clarity about what Saul is actually saying.",
+    "connections": "The Jonathan-David covenant echoes the covenant-cutting pattern established in Genesis 15 (God's covenant with Abraham) and Genesis 31:44-54 (Jacob and Laban). The phrase 'the LORD be between me and you' (verse 42) mirrors Genesis 31:49, the Mizpah benediction. Jonathan's request that David show chesed ('faithful love') to his house (verses 14-15) will be fulfilled in 2 Samuel 9, when David seeks out Jonathan's son Mephibosheth and restores his grandfather's land. The New Moon feast (chodesh) connects to Numbers 28:11-15, where the first day of each month required special sacrifices — Saul's feast is a royal observance of this calendar marker. David's hiding at the stone Ezel (verse 19) will be echoed by his later fugitive movements in the Judean wilderness. Jonathan's arrow signal anticipates the coded communications that will characterize David's years on the run."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיִּבְרַ֣ח דָּוִ֔ד מִנָּי֖וֹת בְּרָמָ֑ה וַיָּבֹ֞א וַיֹּ֣אמֶר ׀ לִפְנֵ֣י יְהוֹנָתָ֗ן מֶ֤ה עָשִׂ֙יתִי֙ מֶֽה־עֲוֹנִ֞י וּמֶה־חַטָּאתִ֛י לִפְנֵ֥י אָבִ֖יךָ כִּ֥י מְבַקֵּ֖שׁ אֶת־נַפְשִֽׁי׃",
+      "text_kjv": "And David fled from Naioth in Ramah, and came and said before Jonathan, What have I done? what is mine iniquity? and what is my sin before thy father, that he seeketh my life?",
+      "rendering": "David fled from Naioth in Ramah and came to Jonathan. He said, \"What have I done? What is my guilt? What is my offense against your father, that he is hunting my life?\"",
+      "translator_notes": [
+        "David's three questions — meh asiti, meh avoni, u-meh chattati — escalate from general action ('what have I done?') to moral failing ('what is my guilt?') to covenant violation ('what is my offense?'). The word avon denotes guilt or iniquity in its moral weight, while chattat specifically means 'sin' in the sense of missing a mark or violating a standard. David is not merely asking what happened; he is insisting that he has violated no law, no moral code, and no covenant obligation.",
+        "The verb mevaqesh ('he is seeking') paired with nafshi ('my life/soul') is a fixed Hebrew expression for intent to kill — Saul is not searching for David's presence but for his death. David has just fled from the prophetic protection at Naioth (19:18-24), where even Saul fell into prophetic ecstasy. That supernatural intervention has not changed Saul's underlying intent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיֹּ֨אמֶר ל֣וֹ חָלִ֗ילָה לֹ֣א תָמ֔וּת הִנֵּ֡ה לֹֽא־יַעֲשֶׂ֣ה אָבִ֣י דָּבָ֣ר גָּד֡וֹל א֣וֹ דָּבָ֣ר קָטָ֡ן וְלֹ֣א יִגְלֶ֣ה אֶת־אׇזְנִ֗י וּמַדּ֨וּעַ יַסְתִּ֤יר אָבִי֙ מִמֶּ֔נִּי אֶת־הַדָּבָ֖ר הַזֶּ֑ה אֵ֥ין זֹֽאת׃",
+      "text_kjv": "And he said unto him, God forbid; thou shalt not die: behold, my father will do nothing either great or small, but that he will shew it me: and why should my father hide this thing from me? it is not so.",
+      "rendering": "Jonathan said to him, \"Never! You will not die. My father does nothing — whether large or small — without uncovering it to my ear. Why would my father hide this from me? It is not true.\"",
+      "translator_notes": [
+        "Jonathan's opening word chalilah is an oath-like expression of strong denial — literally 'far be it' or 'profane the thought.' It carries the force of 'God forbid' without explicitly invoking the divine name. His certainty rests on his assumption that Saul shares everything with him: lo ya'aseh avi davar gadol o davar qatan ('my father does not do a thing great or small'). The idiom 'uncover the ear' (yigleh et ozni) means to reveal something privately — literally peeling back the covering over the ear to whisper a secret.",
+        "Jonathan's confidence is genuine but mistaken. Saul has already attempted to kill David multiple times (18:10-11, 19:1, 19:10) and explicitly ordered Jonathan himself to kill David (19:1). Jonathan successfully intervened once (19:4-6), but Saul's subsequent attempts show that the king's intent has not changed. Jonathan's denial reflects the impossible position of a son who loves both his father and his friend."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיִּשָּׁבַ֨ע ע֜וֹד דָּוִ֗ד וַיֹּ֙אמֶר֙ יָדֹ֨עַ יָדַ֤ע אָבִ֙יךָ֙ כִּי־מָצָ֤אתִי חֵן֙ בְּעֵינֶ֔יךָ וַיֹּ֕אמֶר אַל־יֵדַ֥ע זֹ֛את יְהוֹנָתָ֖ן פֶּן־יֵֽעָצֵ֑ב וְאוּלָ֗ם חַי־יְהוָ֤ה וְחֵ֣י נַפְשְׁךָ֔ כִּ֣י כְפֶ֔שַׂע בֵּינִ֖י וּבֵ֥ין הַמָּֽוֶת׃",
+      "text_kjv": "And David sware moreover, and said, Thy father certainly knoweth that I have found grace in thine eyes; and he saith, Let not Jonathan know this, lest he be grieved: but truly as the LORD liveth, and as thy soul liveth, there is but a step between me and death.",
+      "rendering": "David swore again and said, \"Your father knows very well that I have found favor in your eyes, so he has said to himself, 'Jonathan must not know about this, or he will be devastated.' But as the LORD lives, and as your own life endures — there is barely a step between me and death.\"",
+      "expanded_rendering": "The phrase yado'a yada' avikha ('your father certainly knows') uses the infinitive absolute construction — doubling the verb yada' for emphasis, meaning 'he absolutely, unmistakably knows.' David perceives what Jonathan cannot: Saul has deliberately excluded Jonathan from his plans because he knows Jonathan would intervene. The word ye'atsev ('he will be grieved/devastated') comes from the root atsav, the same verb used for God's grief over humanity before the flood (Genesis 6:6). David's climactic oath — chai YHWH ve-chey nafshekha — invokes both the living God and Jonathan's own life as witnesses. The measurement ki khe-fesa' beyni uveyn ha-mavet ('there is barely a step between me and death') uses pesa', a concrete noun for a single stride or footstep. David is saying the distance between his life and his death can be measured in one pace.",
+      "translator_notes": [
+        "The double oath formula chai YHWH ve-chey nafshekha ('as the LORD lives and as your soul/life lives') is the strongest available assurance — David swears by God and by Jonathan himself. This formula appears repeatedly in the David narratives and always marks a moment of utmost seriousness.",
+        "The word pesa' ('step') appears only here and in a handful of other passages. Its concreteness is the point: David is not speaking metaphorically about danger. He is saying that death is literally one step away. The vivid physicality of the image — a single human stride — makes the abstract threat immediate and bodily."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיֹּ֤אמֶר יְהוֹנָתָן֙ אֶל־דָּוִ֔ד מַה־תֹּאמַ֥ר נַפְשְׁךָ֖ וְאֶֽעֱשֶׂה־לָּֽךְ׃",
+      "text_kjv": "Then said Jonathan unto David, Whatsoever thy soul desireth, I will even do it for thee.",
+      "rendering": "Jonathan said to David, \"Whatever you want — I will do it for you.\"",
+      "translator_notes": [
+        "Jonathan's response is total commitment compressed into a single sentence. The phrase mah tomar nafshekha ('what does your soul say?') asks not merely for David's wish but for the deepest expression of his inner being — nafesh here means the whole person, not just desire. Jonathan's ve-e'eseh-llakh ('and I will do it for you') is an unconditional pledge with no qualifications. This is the turning point where Jonathan stops defending his father and begins acting as David's ally."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיֹּ֨אמֶר דָּוִ֜ד אֶל־יְהוֹנָתָ֗ן הִנֵּה־חֹ֣דֶשׁ מָחָ֔ר וְאָנֹכִ֛י יָשֹׁב־אֵשֵׁ֥ב עִם־הַמֶּ֖לֶךְ לֶאֱכ֑וֹל וְשִׁלַּחְתַּ֙נִי֙ וְנִסְתַּרְתִּ֣י בַשָּׂדֶ֔ה עַ֖ד הָעֶ֥רֶב הַשְּׁלִשִֽׁית׃",
+      "text_kjv": "And David said unto Jonathan, Behold, to morrow is the new moon, and I should not fail to sit with the king at meat: but let me go, that I may hide myself in the field unto the third day at even.",
+      "rendering": "David said to Jonathan, \"Tomorrow is the New Moon, and I am expected to sit with the king to eat. But let me go, and I will hide in the open country until the evening of the third day.",
+      "translator_notes": [
+        "The phrase hinneh chodesh machar ('tomorrow is the New Moon') establishes the calendar setting. The chodesh was the first day of the lunar month, marked by special sacrifices (Numbers 28:11-15) and communal feasting. The royal household observed it as a formal banquet where assigned seats mattered — absence would be noticed and interpreted.",
+        "David's plan involves three days of absence. The phrase ad ha-erev ha-shelishit ('until the evening of the third day') gives the test a defined timeframe. David will hide ba-sadeh ('in the field/open country') — the same word used for the place where Cain killed Abel (Genesis 4:8) and where Esau hunted (Genesis 25:27). The sadeh is the space outside the city, beyond the reach of walls and social order."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֹדֶשׁ",
+          "transliteration": "chodesh",
+          "rendered_as": "New Moon",
+          "semantic_range": "new moon, first day of the month, month, monthly renewal",
+          "note": "The chodesh was both an astronomical event and a religious observance. The appearance of the new crescent moon marked the beginning of each month in the Israelite calendar. Numbers 28:11-15 prescribes burnt offerings, grain offerings, and a sin offering for this day. In the royal court, it became a formal feast with assigned seating — making it the ideal setting for David's test."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "אִם־פָּקֹ֥ד יִפְקְדֵ֖נִי אָבִ֑יךָ וְאָמַרְתָּ֗ נִשְׁאֹ֨ל נִשְׁאַ֤ל מִמֶּ֙נִּי֙ דָּוִ֔ד לָרוּץ֙ בֵּֽית־לֶ֣חֶם עִיר֔וֹ כִּ֣י זֶ֧בַח הַיָּמִ֛ים שָׁ֖ם לְכׇל־הַמִּשְׁפָּחָֽה׃",
+      "text_kjv": "If thy father at all miss me, then say, David earnestly asked leave of me that he might run to Bethlehem his city: for there is a yearly sacrifice there for all the family.",
+      "rendering": "If your father misses me at all, say: 'David urgently asked my permission to run to Bethlehem, his hometown, because the whole clan has a yearly sacrifice there.'",
+      "translator_notes": [
+        "The phrase paqod yifqedeni ('he will surely miss/notice me') uses the infinitive absolute of paqad — a verb meaning 'to attend to, visit, notice, muster.' Saul will not merely notice David's absence; he will actively register it as significant. David's cover story involves a zebach ha-yamim ('sacrifice of the days,' meaning annual sacrifice) for his entire mishpachah ('clan, extended family') at Bethlehem. This is plausible — clan sacrifices were real events — but it is a deliberate deception. The text does not moralize about the lie; it presents it as survival strategy.",
+        "The verb laruts ('to run') rather than lalekhet ('to walk/go') conveys urgency — David's story is that the summons from Bethlehem was pressing enough to override his royal obligation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "אִם־כֹּ֥ה יֹאמַ֖ר ט֑וֹב שָׁל֣וֹם לְעַבְדֶּ֔ךָ וְאִם־חָרֹ֤ה יֶחֱרֶה֙ ל֔וֹ דַּ֕ע כִּֽי־כָלְתָ֥ה הָרָעָ֖ה מֵעִמּֽוֹ׃",
+      "text_kjv": "If he say thus, It is well; thy servant shall have peace: but if he be very wroth, then be sure that evil is determined by him.",
+      "rendering": "If he says, 'Good' — then your servant is safe. But if he flares with anger, know that he has fully decided on harm.\"",
+      "translator_notes": [
+        "The test is binary. If Saul says tov ('good'), then shalom le-avdekha ('peace to your servant') — David is safe. But if charoh yechareh lo ('he burns with burning,' another infinitive absolute construction for emphasis), then kaletah ha-ra'ah me'immo ('the evil is completed/determined from him'). The verb kaletah comes from kalah, meaning 'to be complete, to be finished, to be determined' — the evil is not a passing mood but a settled resolution. David is asking Jonathan to read Saul's reaction as a diagnostic of fixed intent versus temporary suspicion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְעָשִׂ֤יתָ חֶ֙סֶד֙ עַל־עַבְדֶּ֔ךָ כִּ֚י בִּבְרִ֣ית יְהוָ֔ה הֵבֵ֥אתָ אֶֽת־עַבְדְּךָ֖ עִמָּ֑ךְ וְאִם־יֶשׁ־בִּ֤י עָוֹן֙ הֲמִיתֵ֣נִי אַ֔תָּה וְעַד־אָבִ֖יךָ לָ֥מָּה זֶּ֛ה תְבִיאֵֽנִי׃",
+      "text_kjv": "Therefore thou shalt deal kindly with thy servant; for thou hast brought thy servant into a covenant of the LORD with thee: notwithstanding, if there be in me iniquity, slay me thyself; for why shouldest thou bring me to thy father?",
+      "rendering": "Show faithful love to your servant, because you brought your servant into a covenant of the LORD with you. But if there is guilt in me, kill me yourself — why would you hand me over to your father?\"",
+      "expanded_rendering": "The phrase ve-asita chesed al avdekha ('and you shall do chesed upon your servant') invokes the covenant obligation that binds Jonathan to David. Chesed is not mere kindness — it is the loyal love that a covenant partner owes when the other partner is vulnerable. David grounds his appeal in the berit YHWH ('covenant of the LORD') that Jonathan initiated: ki bivrit YHWH heveta et avdekha immakh ('because into a covenant of the LORD you brought your servant with you'). This is not a private friendship pact; it is a covenant witnessed by and made in the presence of YHWH. David then offers an extraordinary alternative: if he is actually guilty (im yesh bi avon), Jonathan should execute him personally (hamiteni attah) rather than deliver him to Saul. This is not bravado — it is a covenantal argument. If David has violated the covenant, Jonathan has the right and duty to act; but if David is innocent, Jonathan has the duty to protect him.",
+      "translator_notes": [
+        "The word chesed is the chapter's theological anchor. It denotes the faithful, loyal love that covenant partners owe each other — not as sentiment but as binding obligation. When David says 'show chesed,' he is calling in a covenantal debt, not asking for a favor. The prepositional phrase al avdekha ('upon your servant') positions David as the vulnerable party who is owed protection.",
+        "The phrase berit YHWH ('covenant of the LORD') elevates the Jonathan-David covenant above a personal agreement. God is the witness and guarantor. David's willingness to die at Jonathan's hand rather than Saul's is both a test of loyalty and a theological statement: covenant justice is preferable to royal caprice."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "loyal love, covenant faithfulness, steadfast kindness, mercy, devotion, lovingkindness",
+          "note": "Chesed is the defining virtue of covenant relationships in the Hebrew Bible. It describes the committed, loyal action that a covenant partner takes on behalf of the other — especially when the other is vulnerable, powerless, or in need. It is not sentiment; it is obligation fulfilled with genuine care. David appeals to chesed here because he is the weaker party: a fugitive asking a prince to choose loyalty to a friend over obedience to a father."
+        },
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, pact, treaty, binding agreement, solemn bond, alliance",
+          "note": "The berit between Jonathan and David was first established in 18:3, where Jonathan 'cut a covenant' (yikhrot berit) with David. Here David calls it berit YHWH — a covenant of the LORD — indicating that God stands as witness and enforcer. This is the same language used for God's covenants with Abraham (Genesis 15:18) and Israel at Sinai (Exodus 24:8). By invoking it, David places their bond within the framework of divine law, not personal sentiment."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֹּ֥אמֶר יְהוֹנָתָ֖ן חָלִ֣ילָה לָּ֑ךְ כִּ֣י ׀ אִם־יָדֹ֣עַ אֵדַ֗ע כִּֽי־כָלְתָ֨ה הָרָעָ֜ה מֵעִ֤ם אָבִי֙ לָב֣וֹא עָלֶ֔יךָ וְלֹ֥א אֹתָ֖הּ אַגִּ֥יד לָֽךְ׃",
+      "text_kjv": "And Jonathan said, Far be it from thee: for if I knew certainly that evil were determined by my father to come upon thee, then would not I tell it thee?",
+      "rendering": "Jonathan said, \"Never! If I learn for certain that my father has decided to bring harm against you, would I not tell you?\"",
+      "translator_notes": [
+        "Jonathan's chalilah lakh ('far be it from you') mirrors his earlier chalilah in verse 2, but this time it carries a different force. In verse 2 he denied that Saul intended evil; here he promises that if evil is confirmed, he will not withhold the information. Jonathan is shifting from denial to readiness — he is beginning to accept the possibility that David may be right.",
+        "The rhetorical question ve-lo otah aggid lakh ('would I not tell it to you?') expects a strong affirmative. Jonathan is binding himself to transparency. The verb nagad ('to declare, tell, report') is the standard term for official communication in covenant contexts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיֹּ֤אמֶר דָּוִד֙ אֶל־יְה֣וֹנָתָ֔ן מִ֖י יַגִּ֣יד לִ֑י א֛וֹ מַה־יַּעַנְךָ֥ אָבִ֖יךָ קָשָֽׁה׃",
+      "text_kjv": "Then said David to Jonathan, Who shall tell me? or what if thy father answer thee roughly?",
+      "rendering": "David said to Jonathan, \"Who will tell me if your father answers you harshly?\"",
+      "translator_notes": [
+        "David's question is practical and urgent: mi yaggid li ('who will report to me?'). Even if Jonathan learns the truth, the intelligence must reach David in the field. The word qashah ('harshly, roughly') describes a severe or hard response — David anticipates that Saul's reaction might be violent enough that Jonathan himself could be in danger and unable to deliver the message. This prompts the arrow-signal plan in the verses that follow."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיֹּ֤אמֶר יְהוֹנָתָן֙ אֶל־דָּוִ֔ד לְכָ֖ה וְנֵצֵ֣א הַשָּׂדֶ֑ה וַיֵּצְא֥וּ שְׁנֵיהֶ֖ם הַשָּׂדֶֽה׃",
+      "text_kjv": "And Jonathan said unto David, Come, and let us go out into the field. And they went out both of them into the field.",
+      "rendering": "Jonathan said to David, \"Come, let us go out to the open country.\" And the two of them went out to the open country.",
+      "translator_notes": [
+        "The move to the sadeh ('field, open country') takes the conversation out of earshot — away from the royal compound where walls have ears. The narrator's repetition of ha-sadeh twice in one verse emphasizes the shift of setting. The phrase shenehem ('the two of them') highlights their solidarity; they move as a pair into the exposed landscape where their private covenant talk can happen without surveillance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיֹּ֨אמֶר יְהוֹנָתָ֜ן אֶל־דָּוִ֗ד יְהוָ֞ה אֱלֹהֵ֤י יִשְׂרָאֵל֙ כִּֽי־אֶחְקֹ֣ר אֶת־אָבִ֗י כָּעֵ֤ת ׀ מָחָר֙ הַשְּׁלִשִׁ֔ית וְהִנֵּה־ט֖וֹב אֶל־דָּוִ֑ד וְלֹֽא־אָז֙ אֶשְׁלַ֣ח אֵלֶ֔יךָ וְגָלִ֖יתִי אֶת־אׇזְנֶֽךָ׃",
+      "text_kjv": "And Jonathan said unto David, O LORD God of Israel, when I have sounded my father about to morrow any time, or the third day, and, behold, if there be good toward David, and I then send not unto thee, and shew it thee;",
+      "rendering": "Jonathan said to David, \"By the LORD, the God of Israel — when I have sounded out my father by this time tomorrow or the day after, if things look favorable for David and I do not send word to you and uncover it to your ear —",
+      "translator_notes": [
+        "Jonathan begins a formal oath invoking YHWH Elohei Yisra'el ('the LORD, the God of Israel') — the full covenantal title. The verb echqor ('I will sound out, investigate') comes from chaqar, meaning to search deeply, to probe, to investigate thoroughly. Jonathan is promising a genuine intelligence operation, not a casual observation. The phrase galiti et oznekha ('I will uncover your ear') repeats the idiom from verse 2 — the same intimacy Jonathan assumed his father showed him, he now promises to show David."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "כֹּ֣ה יַעֲשֶׂה֩ יְהוָ֨ה לִיהוֹנָתָ֜ן וְכֹ֣ה יוֹסִ֗יף כִּֽי־יֵיטִ֨ב אֶל־אָבִ֤י אֶת־הָֽרָעָה֙ עָלֶ֔יךָ וְגָלִ֙יתִי֙ אֶת־אׇזְנֶ֔ךָ וְשִׁלַּחְתִּ֖יךָ וְהָלַכְתָּ֣ לְשָׁל֑וֹם וִיהִ֤י יְהוָה֙ עִמָּ֔ךְ כַּאֲשֶׁ֥ר הָיָ֖ה עִם־אָבִֽי׃",
+      "text_kjv": "The LORD do so and much more to Jonathan: but if it please my father to do thee evil, then I will shew it thee, and send thee away, that thou mayest go in peace: and the LORD be with thee, as he hath been with my father.",
+      "rendering": "— then may the LORD do thus to Jonathan and even more! But if my father intends harm against you, I will uncover it to your ear and send you away so you can go in safety. May the LORD be with you as he was with my father.\"",
+      "expanded_rendering": "The self-curse formula koh ya'aseh YHWH li-Yehonatan ve-koh yosif ('may the LORD do thus to Jonathan and add more') is a standard oath pattern where the speaker invokes divine punishment on himself if he fails to keep his word. Jonathan is placing his own life under God's judgment as a guarantee. The phrase vihi YHWH immakh ka'asher hayah im avi ('may the LORD be with you as he was with my father') is a stunning concession. Jonathan is acknowledging that divine favor has transferred from Saul to David — the same God who once empowered Saul now accompanies David. This is not a casual wish; it is a theological recognition that David is the future.",
+      "translator_notes": [
+        "The self-curse formula is deliberately vague — koh ('thus') gestures toward an unspecified punishment too terrible to name. The phrase ve-koh yosif ('and may he add more') intensifies the curse beyond the unnamed first portion. This is the most solemn form of oath available.",
+        "Jonathan's blessing — 'may the LORD be with you as he was with my father' — is the chapter's most politically loaded sentence. It implicitly acknowledges that God's presence has departed from Saul and now rests on David. Jonathan the crown prince is pronouncing a transfer of divine legitimacy to the man who will replace his father on the throne. The word ka'asher ('as, in the same way') draws a direct equivalence between Saul's early anointing and David's current calling."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְלֹ֖א אִם־עוֹדֶ֣נִּי חָ֑י וְלֹֽא־תַעֲשֶׂ֧ה עִמָּדִ֛י חֶ֥סֶד יְהוָ֖ה וְלֹ֥א אָמֽוּת׃",
+      "text_kjv": "And thou shalt not only while yet I live shew me the kindness of the LORD, that I die not:",
+      "rendering": "\"And if I am still alive — will you not show me the faithful love of the LORD, so that I do not die?",
+      "translator_notes": [
+        "The syntax of this verse is difficult in Hebrew, with the negative particles creating a tangled conditional. Jonathan is asking David to extend chesed YHWH ('the faithful love of the LORD') to him — not ordinary kindness but the kind of loyal protection that God himself shows to covenant partners. The phrase ve-lo amut ('so that I do not die') reveals Jonathan's awareness that when David becomes king, Jonathan's life will be in danger. Ancient Near Eastern succession typically involved killing all potential rival claimants. Jonathan is asking David to break that pattern."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד יְהוָה",
+          "transliteration": "chesed YHWH",
+          "rendered_as": "the faithful love of the LORD",
+          "semantic_range": "divine loyal love, God's covenant faithfulness, covenant mercy as God practices it",
+          "note": "Jonathan does not ask merely for chesed but for chesed YHWH — faithful love of the kind that the LORD himself shows. This elevates the request from a personal favor to a theological standard. Jonathan is asking David to treat him the way God treats covenant partners: with protection that does not fail even when political reality would counsel elimination."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְלֹֽא־תַכְרִ֧ת אֶֽת־חַסְדְּךָ֛ מֵעִ֥ם בֵּיתִ֖י עַד־עוֹלָ֑ם וְלֹ֗א בְּהַכְרִ֤ת יְהוָה֙ אֶת־אֹיְבֵ֣י דָוִ֔ד אִ֕ישׁ מֵעַ֖ל פְּנֵ֥י הָאֲדָמָֽה׃",
+      "text_kjv": "But also thou shalt not cut off thy kindness from my house for ever: no, not when the LORD hath cut off the enemies of David every one from the face of the earth.",
+      "rendering": "And do not ever cut off your faithful love from my household — not even when the LORD has cut off every one of David's enemies from the face of the earth.\"",
+      "expanded_rendering": "Jonathan extends his request beyond his own lifetime: ve-lo takhrit et chasdekha me'im beyti ad olam ('and do not cut off your faithful love from my house forever'). The verb takhrit ('you shall cut off') uses the same root karat that appears in 'cutting a covenant' (karat berit) — the same verb that seals a bond can also sever one. Jonathan asks David never to wield the cutting blade against his family. The phrase be-hakhrit YHWH et oyvey David ish me'al peney ha-adamah ('when the LORD cuts off the enemies of David, each one from the face of the ground') presupposes David's total victory. Jonathan is looking past the present crisis to a future where David rules and all rivals have been eliminated. He is asking: when that day comes and you have absolute power, remember my house.",
+      "translator_notes": [
+        "The scope of Jonathan's request is remarkable. He is not asking for a temporary favor but for a permanent policy: ad olam ('forever, to perpetuity'). The mention of 'cutting off enemies from the face of the earth' uses the language of total military victory — the same vocabulary applied to God's destruction of the wicked (Genesis 6-7). Jonathan foresees a world in which David has won completely and every rival is gone. In that world, only David's chesed will stand between Jonathan's family and annihilation.",
+        "This verse will be directly fulfilled in 2 Samuel 9, when David actively seeks out Jonathan's surviving son Mephibosheth and restores the house of Saul's land to him, declaring 'I will surely show you chesed for Jonathan your father's sake.'"
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיִּכְרֹ֥ת יְהוֹנָתָ֖ן עִם־בֵּ֣ית דָּוִ֑ד וּבִקֵּ֣שׁ יְהוָ֔ה מִיַּ֖ד אֹיְבֵ֥י דָוִֽד׃",
+      "text_kjv": "So Jonathan made a covenant with the house of David, saying, Let the LORD even require it at the hand of David's enemies.",
+      "rendering": "So Jonathan cut a covenant with the house of David: \"May the LORD call it to account from the hand of David's enemies.\"",
+      "expanded_rendering": "The verb yikhrot ('he cut') is the technical term for covenant making — the same verb used when God cut covenant with Abraham (Genesis 15:18). But the object of this covenant is not David the individual; it is beyt David ('the house of David') — Jonathan is binding himself to David's dynasty, the royal line that does not yet exist. This is the most politically radical act in the chapter. A crown prince is covenanting with the future rival dynasty, thereby legitimizing it. The clause u-viqqesh YHWH mi-yad oyvey David ('and may the LORD seek it from the hand of David's enemies') invokes divine enforcement: anyone who violates this covenant will answer to God.",
+      "translator_notes": [
+        "The phrase 'cut a covenant with the house of David' is extraordinary because at this point David has no house — he is a fugitive. Jonathan is covenanting with a dynasty that exists only in prophetic anticipation. The language mirrors the Davidic covenant that God will establish in 2 Samuel 7, where YHWH promises to build David a 'house' (dynasty). Jonathan's covenant thus runs parallel to God's own future commitment.",
+        "The verb biqqesh ('to seek, to require, to call to account') when applied to God means divine reckoning. God will demand an accounting from anyone who breaks this covenant — the enforcement mechanism is not human justice but divine judgment."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיּ֤וֹסֶף יְהוֹנָתָן֙ לְהַשְׁבִּ֣יעַ אֶת־דָּוִ֔ד בְּאַהֲבָת֖וֹ אֹת֑וֹ כִּֽי־אַהֲבַ֥ת נַפְשׁ֖וֹ אֲהֵבֽוֹ׃",
+      "text_kjv": "And Jonathan caused David to swear again, because he loved him: for he loved him as he loved his own soul.",
+      "rendering": "Jonathan again made David swear by his love for him, because he loved him as he loved his own life.",
+      "translator_notes": [
+        "The verse is saturated with the language of love: be-ahavato oto ('by his love for him') and ki ahavat nafsho ahevo ('because the love of his own life/soul he loved him'). The word ahavah ('love') appears in both its noun and verb forms. The phrase ahavat nafsho ('the love of his soul/life') means Jonathan loved David with the same intensity that a person loves their own existence — this is total identification, not merely affection. The verb lehashbia ('to make swear') means Jonathan administered an oath to David, binding David to the same covenantal commitments. The love is the motive; the oath is the binding mechanism."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיֹּאמֶר־ל֥וֹ יְהוֹנָתָ֖ן מָחָ֣ר חֹ֑דֶשׁ וְנִפְקַ֕דְתָּ כִּ֥י יִפָּקֵ֖ד מוֹשָׁבֶֽךָ׃",
+      "text_kjv": "Then Jonathan said to David, To morrow is the new moon: and thou shalt be missed, because thy seat will be empty.",
+      "rendering": "Jonathan said to him, \"Tomorrow is the New Moon, and you will be missed because your seat will be empty.",
+      "translator_notes": [
+        "Jonathan confirms the plan's timing: machar chodesh ('tomorrow is the New Moon'). The verb nifqadta ('you will be missed/noticed') is the Niphal (passive) form of paqad — David will be attended to, his absence will be registered. The phrase ki yippaqed moshavekha ('because your seat will be noticed empty') makes clear that the royal New Moon feast had assigned seating. David's empty chair will be a visible, conspicuous absence that demands explanation."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֹדֶשׁ",
+          "transliteration": "chodesh",
+          "rendered_as": "New Moon",
+          "semantic_range": "new moon, first day of the month, month, monthly renewal",
+          "note": "Second occurrence in the chapter. The New Moon feast is the mechanism of the entire plot — it creates an obligatory gathering where David's absence becomes a testable variable."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְשִׁלַּשְׁתָּ֙ תֵּרֵ֣ד מְאֹ֔ד וּבָאתָ֙ אֶל־הַמָּק֔וֹם אֲשֶׁר־נִסְתַּ֥רְתָּ שָּׁ֖ם בְּי֣וֹם הַמַּעֲשֶׂ֑ה וְיָ֣שַׁבְתָּ֔ אֵ֖צֶל הָאֶ֥בֶן הָאָֽזֶל׃",
+      "text_kjv": "And when thou hast stayed three days, then thou shalt go down quickly, and come to the place where thou didst hide thyself when the business was in hand, and shalt remain by the stone Ezel.",
+      "rendering": "On the third day go down quickly and come to the place where you hid on the day of the incident, and wait beside the stone Ezel.",
+      "translator_notes": [
+        "The phrase ve-shilashta tered me'od ('on the third day descend greatly/quickly') uses the verb shillesh ('to do on the third day') and me'od ('very, exceedingly') as an adverb of speed — Jonathan wants David to move fast. The reference to 'the day of the incident' (yom ha-ma'aseh) points to a previous meeting at this location, likely the events of chapter 19. The stone Ezel (ha-even ha-azel) may mean 'the stone of departure' or 'the stone that goes' — from the root azal ('to go away, to depart'). The name is fitting for a landmark that will mark David's permanent departure from Saul's court."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַאֲנִ֕י שְׁלֹ֥שֶׁת הַחִצִּ֖ים צִדָּ֣ה אוֹרֶ֑ה לְשַֽׁלַּֽח־לִ֖י לְמַטָּרָֽה׃",
+      "text_kjv": "And I will shoot three arrows on the side thereof, as though I shot at a mark.",
+      "rendering": "I will shoot three arrows to the side, as if aiming at a target.",
+      "translator_notes": [
+        "Jonathan introduces the arrow signal. The phrase sheloshet ha-chitsim ('three arrows') and the verb oreh ('I will shoot') set up the coded communication system. The word tsiddah ('to the side') indicates direction, and le-mattarah ('at a target') provides the cover story — Jonathan will appear to be practicing archery. The entire plan is an intelligence operation disguised as a routine training exercise."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְהִנֵּה֙ אֶשְׁלַ֣ח אֶת־הַנַּ֔עַר לֵ֖ךְ מְצָ֣א אֶת־הַחִצִּ֑ים אִם־אָמֹ֨ר אֹמַ֜ר לַנַּ֗עַר הִנֵּ֤ה הַחִצִּים֙ מִמְּךָ֣ וָהֵ֔נָּה קָחֶ֣נּוּ וָבֹ֔אָה כִּ֤י שָׁלוֹם֙ לְךָ֔ וְאֵ֥ין דָּבָ֖ר חַי־יְהוָֽה׃",
+      "text_kjv": "And, behold, I will send a lad, saying, Go, find out the arrows. If I expressly say unto the lad, Behold, the arrows are on this side of thee, take them; then come thou: for there is peace to thee, and no hurt; as the LORD liveth.",
+      "rendering": "Then I will send a boy, saying, 'Go, find the arrows.' If I say clearly to the boy, 'The arrows are on this side of you — pick them up,' then come out, because it is safe for you and there is nothing wrong, as the LORD lives.",
+      "translator_notes": [
+        "The na'ar ('boy, attendant, servant') is an unwitting participant — he will not know he is carrying a coded message. The key signal for safety: ha-chitsim mimmekha va-hennah ('the arrows are on this side of you and toward here') — meaning the arrows fell short, close by. If the arrows are nearby, David can come out safely. Jonathan seals this with chai YHWH ('as the LORD lives'), the same oath formula David used in verse 3."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְאִם־כֹּ֤ה אֹמַר֙ לָעֶ֔לֶם הִנֵּ֥ה הַחִצִּ֖ים מִמְּךָ֣ וָהָ֑לְאָה לֵ֕ךְ כִּ֥י שִׁלַּחֲךָ֖ יְהוָֽה׃",
+      "text_kjv": "But if I say thus unto the young man, Behold, the arrows are beyond thee; go thy way: for the LORD hath sent thee away.",
+      "rendering": "But if I say to the young man, 'The arrows are beyond you' — then go, because the LORD has sent you away.",
+      "translator_notes": [
+        "The danger signal: ha-chitsim mimmekha va-hal'ah ('the arrows are beyond you and farther') — meaning the arrows overshot, far away. The command lekh ('go!') doubles as both instruction to the boy and a warning to David. Most strikingly, Jonathan frames David's flight as divine action: ki shillachakha YHWH ('because the LORD has sent you away'). David's departure is not merely an escape from Saul; it is a divine commission. The verb shillach with God as subject carries the weight of prophetic sending."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְהַ֨דָּבָ֔ר אֲשֶׁ֥ר דִּבַּ֖רְנוּ אֲנִ֣י וָאָ֑תָּה הִנֵּ֤ה יְהוָה֙ בֵּינִ֣י וּבֵ֣ינְךָ֔ עַד־עוֹלָֽם׃",
+      "text_kjv": "And as touching the matter which thou and I have spoken of, behold, the LORD be between me and thee for ever.",
+      "rendering": "As for the matter we have spoken of, you and I — the LORD stands between me and you forever.\"",
+      "translator_notes": [
+        "Jonathan closes the oath with the definitive covenant formula: hinneh YHWH beyni u-veynekha ad olam ('the LORD is between me and you forever'). The preposition beyn ('between') positions God as the mediator, witness, and enforcer standing in the space between the two covenant partners. The phrase ad olam ('forever, to perpetuity') removes any time limit. This covenant does not expire when circumstances change, when one party gains power, or when the other dies. It is permanent because its guarantor is permanent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיִּסָּתֵ֥ר דָּוִ֖ד בַּשָּׂדֶ֑ה וַיְהִ֣י הַחֹ֔דֶשׁ וַיֵּ֧שֶׁב הַמֶּ֛לֶךְ אֶל־הַלֶּ֖חֶם לֶאֱכֽוֹל׃",
+      "text_kjv": "So David hid himself in the field: and when the new moon was come, the king sat him down to eat meat.",
+      "rendering": "David hid in the open country. When the New Moon came, the king sat down at the meal to eat.",
+      "translator_notes": [
+        "The narrative shifts from dialogue to action: vayyissater David ba-sadeh ('and David hid himself in the field'). The verb nistar (Niphal of satar, 'to hide') conveys deliberate concealment. The scene then cuts to the royal feast: vayyeshev ha-melekh el ha-lechem le-ekhol ('and the king sat down at the bread/food to eat'). The word lechem means both 'bread' and 'food' more generally — this is the formal New Moon banquet, not a casual meal."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֹדֶשׁ",
+          "transliteration": "chodesh",
+          "rendered_as": "New Moon",
+          "semantic_range": "new moon, first day of the month, month, monthly renewal",
+          "note": "Third occurrence. The New Moon feast begins, and the narrative tension shifts from planning to execution. The feast itself becomes the testing ground."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיֵּ֣שֶׁב הַ֠מֶּ֠לֶךְ עַל־מ֨וֹשָׁב֜וֹ כְּפַ֣עַם ׀ בְּפַ֗עַם אֶל־מוֹשַׁב֙ הַקִּ֔יר וַיָּ֙קׇם֙ יְה֣וֹנָתָ֔ן וַיֵּ֥שֶׁב אַבְנֵ֖ר מִצַּ֣ד שָׁא֑וּל וַיִּפָּקֵ֖ד מְק֥וֹם דָּוִֽד׃",
+      "text_kjv": "And the king sat upon his seat, as at other times, even upon a seat by the wall: and Jonathan arose, and Abner sat by Saul's side, and David's place was empty.",
+      "rendering": "The king sat in his seat as usual — the seat by the wall. Jonathan stood, and Abner sat at Saul's side. But David's place was empty.",
+      "translator_notes": [
+        "The seating arrangement reveals court hierarchy: Saul takes the seat by the wall (moshav ha-qir) — the protected position with his back guarded. Abner, the army commander, sits at Saul's side (mi-tsad Sha'ul). The phrase vayyaqom Yehonatan ('and Jonathan arose/stood') is puzzling — some read it as Jonathan standing to yield the seat beside Saul to Abner, others as Jonathan taking a different position. The Greek (LXX) reads 'Jonathan sat opposite' rather than 'arose.' The critical detail is the final clause: vayyippaqed meqom David ('and David's place was noticed empty'). The verb paqad appears again — the empty seat registers as a presence through its very absence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְלֹא־דִבֶּ֥ר שָׁא֛וּל מְא֖וּמָה בַּיּ֣וֹם הַה֑וּא כִּ֤י אָמַר֙ מִקְרֶ֣ה ה֔וּא בִּלְתִּ֥י טָה֛וֹר ה֖וּא כִּי־לֹ֥א טָהֽוֹר׃",
+      "text_kjv": "Nevertheless Saul spake not any thing that day: for he thought, Something hath befallen him, he is not clean; surely he is not clean.",
+      "rendering": "Saul said nothing that day, because he thought, \"Something must have happened to him — he is not ritually pure. He must be unclean.\"",
+      "translator_notes": [
+        "Saul's internal reasoning (ki amar, 'because he said [to himself]') provides a plausible explanation for David's absence: miqreh hu ('it is an accident/occurrence') — something unexpected happened, and bilti tahor hu ki lo tahor ('he is not pure, for he is not clean'). The word tahor ('pure, clean') refers to ritual purity required for participation in sacred meals. Contact with a corpse, bodily discharge, or other sources of impurity (Leviticus 11-15) would disqualify someone from eating the sacrificial food. The repetition — bilti tahor... ki lo tahor — suggests Saul is convincing himself. On day one, he accepts the innocuous explanation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיְהִ֗י מִֽמׇּחֳרַ֤ת הַחֹ֙דֶשׁ֙ הַשֵּׁנִ֔י וַיִּפָּקֵ֖ד מְק֣וֹם דָּוִ֑ד וַיֹּ֤אמֶר שָׁאוּל֙ אֶל־יְהוֹנָתָ֣ן בְּנ֔וֹ מַדּ֜וּעַ לֹא־בָ֧א בֶן־יִשַׁ֛י גַּם־תְּמ֥וֹל גַּם־הַיּ֖וֹם אֶל־הַלָּֽחֶם׃",
+      "text_kjv": "And it came to pass on the morrow, which was the second day of the month, that David's place was empty: and Saul said unto Jonathan his son, Wherefore cometh not the son of Jesse to meat, neither yesterday, nor to day?",
+      "rendering": "On the second day after the New Moon, David's place was still empty. Saul said to Jonathan his son, \"Why has the son of Jesse not come to the meal, either yesterday or today?\"",
+      "translator_notes": [
+        "The second day shatters Saul's ritual-purity theory — most impurities lasted only until evening (Leviticus 15:5-8), so a two-day absence demands a different explanation. Saul's question uses the patronymic ben Yishai ('son of Jesse') rather than David's name — a distancing gesture that reduces David to his family origin and strips him of the personal identity Saul once honored. The phrase gam temol gam ha-yom ('both yesterday and today') emphasizes the pattern: this is no accident."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיַּ֥עַן יְהוֹנָתָ֖ן אֶת־שָׁא֑וּל נִשְׁאֹ֨ל נִשְׁאַ֥ל דָּוִ֛ד מֵעִמָּדִ֖י עַד־בֵּ֥ית לָֽחֶם׃",
+      "text_kjv": "And Jonathan answered Saul, David earnestly asked leave of me to go to Bethlehem:",
+      "rendering": "Jonathan answered Saul, \"David urgently asked my permission to go to Bethlehem.",
+      "translator_notes": [
+        "Jonathan deploys the cover story exactly as David scripted it in verse 6. The infinitive absolute nish'ol nish'al ('he urgently asked, he emphatically requested') mirrors David's original phrasing precisely. The phrase me'immadi ('from me, from my presence') positions Jonathan as the authority who granted the leave — a subtle assertion of his own standing in the court hierarchy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיֹּ֡אמֶר שַׁלְּחֵ֣נִי נָ֡א כִּ֣י זֶבַח֩ מִשְׁפָּחָ֨ה לָ֜נוּ בָּעִ֗יר וְה֤וּא צִוָּֽה־לִי֙ אָחִ֔י וְעַתָּ֗ה אִם־מָצָ֤אתִי חֵן֙ בְּעֵינֶ֔יךָ אִמָּ֥לְטָה נָּ֖א וְאֶרְאֶ֣ה אֶת־אֶחָ֑י עַל־כֵּ֣ן לֹא־בָ֔א אֶל־שֻׁלְחַ֖ן הַמֶּֽלֶךְ׃",
+      "text_kjv": "And he said, Let me go, I pray thee; for our family hath a sacrifice in the city; and my brother, he hath commanded me to be there: and now, if I have found favour in thine eyes, let me get away, I pray thee, and see my brethren. Therefore he cometh not unto the king's table.",
+      "rendering": "He said, 'Let me go, please, because our clan has a sacrifice in the city, and my brother has ordered me to be there. So now, if I have found favor in your eyes, let me slip away and see my brothers.' That is why he has not come to the king's table.\"",
+      "translator_notes": [
+        "Jonathan embellishes David's script slightly — adding the detail that David's brother (achi) commanded his presence, which strengthens the cover story by making it about family obligation, not personal choice. The verb immaltah ('let me slip away, let me escape') is telling — it comes from malat, which means 'to escape, to deliver oneself.' Even in the fabricated speech, the vocabulary of flight bleeds through. The phrase shulchan ha-melekh ('the king's table') names the specific obligation David has violated: the royal table carries political and social weight far beyond a meal."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיִּֽחַר־אַ֥ף שָׁא֖וּל בִּיה֣וֹנָתָ֑ן וַיֹּ֣אמֶר ל֗וֹ בֶּֽן־נַעֲוַ֤ת הַמַּרְדּוּת֙ הֲל֣וֹא יָדַ֗עְתִּי כִּֽי־בֹחֵ֤ר אַתָּה֙ לְבֶן־יִשַׁ֔י לְבׇ֨שְׁתְּךָ֔ וּלְבֹ֖שֶׁת עֶרְוַ֥ת אִמֶּֽךָ׃",
+      "text_kjv": "Then Saul's anger was kindled against Jonathan, and he said unto him, Thou son of the perverse rebellious woman, do not I know that thou hast chosen the son of Jesse to thine own confusion, and unto the confusion of thy mother's nakedness?",
+      "rendering": "Saul's anger blazed against Jonathan. He said to him, \"You son of a twisted, rebellious woman! Do I not know that you have chosen the son of Jesse — to your own shame and to the shame of your mother's nakedness?",
+      "expanded_rendering": "Saul's fury erupts in the most vicious language available to him. The phrase ben na'avat ha-mardut ('son of a twisted rebellious woman') attacks Jonathan through his mother — na'avat derives from a root meaning 'to twist, to pervert,' and mardut means 'rebellion, defiance.' Together they brand Jonathan's mother as both morally crooked and insubordinate, and by extension, Jonathan himself as the offspring of perversion and rebellion. The insult le-boshtekha u-le-boshet ervat immekha ('to your shame and to the shame of your mother's nakedness') drives the assault deeper. The word ervah ('nakedness, sexual exposure') is the same term used in Leviticus 18 for forbidden sexual acts. Saul is saying that Jonathan's alliance with David is so shameful that it exposes and dishonors his mother's very body — as if Jonathan's loyalty to David is a sexual betrayal of his own family line. This is the language of a man who perceives his son's covenant fidelity as a form of treason against blood.",
+      "translator_notes": [
+        "The maternal insult is culturally devastating. In the honor-shame matrix of the ancient Near East, attacking a man's mother was the deepest form of personal assault. The phrase strikes at Jonathan's identity, legitimacy, and family loyalty simultaneously. Saul is not merely angry; he is attempting to shame Jonathan into breaking the covenant with David.",
+        "The word boshet ('shame') will later be used as a substitute for 'Baal' in Israelite names (Ish-bosheth for Ish-baal in 2 Samuel 2:8). Its appearance here in connection with ervah ('nakedness') creates a cluster of shame-vocabulary that reveals Saul's view of Jonathan's choice: it is not merely politically wrong but morally obscene."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "כִּ֣י כׇל־הַיָּמִ֗ים אֲשֶׁ֤ר בֶּן־יִשַׁי֙ חַ֣י עַל־הָאֲדָמָ֔ה לֹ֥א תִכּ֖וֹן אַתָּ֣ה וּמַלְכוּתֶ֑ךָ וְעַתָּ֗ה שְׁלַ֨ח וְקַ֤ח אֹתוֹ֙ אֵלַ֔י כִּ֥י בֶן־מָ֖וֶת הֽוּא׃",
+      "text_kjv": "For as long as the son of Jesse liveth upon the ground, thou shalt not be established, nor thy kingdom. Wherefore now send and fetch him unto me, for he shall surely die.",
+      "rendering": "For as long as the son of Jesse is alive on this earth, neither you nor your kingdom will be established. Now send for him and bring him to me, because he is a dead man.\"",
+      "translator_notes": [
+        "Saul names the political reality that drives his rage: lo tikkon attah u-malkhutekha ('you will not be established — you or your kingship'). The verb tikkon (from kun, 'to be firm, established, secure') is the same word used in God's promise to establish David's throne forever (2 Samuel 7:16). Saul perceives that David's survival means the end of his dynasty. The phrase ben mavet hu ('he is a son of death') is an idiom meaning 'he deserves to die' or 'he is marked for death' — it is a death sentence pronounced by the king.",
+        "Saul again uses ben Yishai ('son of Jesse') rather than David's name, three times in this exchange (verses 27, 30, 31). The patronymic is deliberate: Saul reduces David to his father's son, stripping him of the name and identity that Israel has come to honor."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיַּ֙עַן֙ יְה֣וֹנָתָ֔ן אֶת־שָׁא֖וּל אָבִ֑יו וַיֹּ֧אמֶר אֵלָ֛יו לָ֥מָּה יוּמַ֖ת מֶ֥ה עָשָֽׂה׃",
+      "text_kjv": "And Jonathan answered Saul his father, and said unto him, Wherefore shall he be slain? what hath he done?",
+      "rendering": "Jonathan answered Saul his father and said to him, \"Why should he be put to death? What has he done?\"",
+      "translator_notes": [
+        "Jonathan's response echoes David's own words from verse 1 — meh asah ('what has he done?') mirrors David's meh asiti ('what have I done?'). The verb yumat ('he shall be put to death') is the Hophal (causative passive) of mut — it refers to judicial execution, not casual killing. Jonathan is demanding legal grounds for a death sentence. By asking lammah ('why?'), Jonathan challenges his father to provide evidence that would justify execution under Israelite law. It is a brave and dangerous question to ask a king in a rage."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַיָּ֨טֶל שָׁא֧וּל אֶֽת־הַחֲנִ֛ית עָלָ֖יו לְהַכֹּת֑וֹ וַיֵּ֣דַע יְהוֹנָתָ֔ן כִּֽי־כָ֥לָה הִ֛יא מֵעִ֥ם אָבִ֖יו לְהָמִ֥ית אֶת־דָּוִֽד׃",
+      "text_kjv": "And Saul cast a javelin at him to smite him: whereby Jonathan knew that it was determined of his father to slay David.",
+      "rendering": "Saul hurled his spear at him to strike him down. Then Jonathan knew that his father was fully determined to kill David.",
+      "translator_notes": [
+        "Saul answers Jonathan's legal question with a spear. The verb vayyatel ('he hurled') describes a violent throw — the same action Saul directed at David twice before (18:11, 19:10). Now he turns the weapon on his own son. The spear (chanit) is Saul's characteristic weapon throughout 1 Samuel, functioning almost as an extension of his disordered will. The clause vayyeda' Yehonatan ki khalah hi me'im aviv le-hamit et David ('and Jonathan knew that it was a completed thing from his father to kill David') uses the same word kaletah ('completed, determined') from verse 7 — the very word David predicted. Jonathan now has his answer: the test is over. The 'completed' evil David feared has been confirmed by the spear that nearly killed Jonathan himself."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיָּ֧קׇם יְהוֹנָתָ֛ן מֵעִ֥ם הַשֻּׁלְחָ֖ן בׇּחֳרִי־אָ֑ף וְלֹא־אָכַ֞ל בְּיוֹם־הַחֹ֤דֶשׁ הַשֵּׁנִי֙ לֶ֔חֶם כִּ֤י נֶעְצַב֙ אֶל־דָּוִ֔ד כִּ֥י הִכְלִמ֖וֹ אָבִֽיו׃",
+      "text_kjv": "So Jonathan arose from the table in fierce anger, and did eat no meat the second day of the month: for he was grieved for David, because his father had done him shame.",
+      "rendering": "Jonathan rose from the table burning with anger. He did not eat any food on that second day of the New Moon, because he was grieved for David and because his father had humiliated him.",
+      "translator_notes": [
+        "Jonathan's departure from the table ba-chori af ('in burning anger') mirrors Saul's anger in verse 30 — father and son now share the same emotional intensity but directed in opposite directions. Jonathan's refusal to eat (lo akhal lechem) echoes Hannah's grief in 1:7 — not eating is the body's expression of grief too deep for words. The narrator provides two reasons: ki ne'etsav el David ('because he was grieved for David') and ki hikhlimo aviv ('because his father had shamed him'). The verb ne'etsav (from atsav, 'to grieve, to be pained') is the same word David used in verse 3 when predicting Jonathan would be devastated. The verb hikhlimo ('he had shamed/humiliated him') comes from kalam, meaning to wound through public disgrace."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיְהִ֣י בַבֹּ֔קֶר וַיֵּצֵ֧א יְהוֹנָתָ֛ן הַשָּׂדֶ֖ה לְמוֹעֵ֣ד דָּוִ֑ד וְנַ֥עַר קָטֹ֖ן עִמּֽוֹ׃",
+      "text_kjv": "And it came to pass in the morning, that Jonathan went out into the field at the time appointed with David, and a little lad with him.",
+      "rendering": "In the morning, Jonathan went out to the open country at the time appointed with David, and a small boy was with him.",
+      "translator_notes": [
+        "The phrase le-mo'ed David ('at the appointed time of David') uses mo'ed — the same word used for the appointed festivals and the Tabernacle ('tent of meeting'). The scheduled rendezvous carries the weight of a sacred appointment. The na'ar qaton ('small boy') is deliberately chosen — young enough to be unaware of the signal's meaning. Jonathan has engineered the communication so that only he and David understand what is happening."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיֹּ֣אמֶר לְנַעֲר֔וֹ רֻ֗ץ מְצָ֥א נָ֛א אֶת־הַחִצִּ֖ים אֲשֶׁ֣ר אָנֹכִ֣י מוֹרֶ֑ה הַנַּ֣עַר רָ֔ץ וְה֥וּא יָרָ֛ה הַחֵ֖צִי לְהַעֲבִרֽוֹ׃",
+      "text_kjv": "And he said unto his lad, Run, find out now the arrows which I shoot. And as the lad ran, he shot an arrow beyond him.",
+      "rendering": "He said to his boy, \"Run — find the arrows I am about to shoot.\" The boy ran, and Jonathan shot an arrow past him.",
+      "translator_notes": [
+        "The boy runs first, then Jonathan shoots — the arrow flies over the running boy and lands beyond him. The verb le-ha'aviro ('to make it pass beyond him') uses the Hiphil (causative) of avar, meaning Jonathan deliberately overshot. The signal is being transmitted: the arrow beyond means danger. The word chets (singular 'arrow') appears here though three arrows were mentioned in verse 20 — the singular may indicate the signal arrow that carries the coded message."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וַיָּבֹ֤א הַנַּ֙עַר֙ עַד־מְק֣וֹם הַחֵ֔צִי אֲשֶׁ֥ר יָרָ֖ה יְהוֹנָתָ֑ן וַיִּקְרָ֨א יְהוֹנָתָ֜ן אַחֲרֵ֤י הַנַּ֙עַר֙ וַיֹּ֔אמֶר הֲל֥וֹא הַחֵ֖צִי מִמְּךָ֥ וָהָֽלְאָה׃",
+      "text_kjv": "And when the lad was come to the place of the arrow which Jonathan had shot, Jonathan cried after the lad, and said, Is not the arrow beyond thee?",
+      "rendering": "When the boy reached the place where Jonathan's arrow had landed, Jonathan called out after the boy, \"Isn't the arrow beyond you — farther out?\"",
+      "translator_notes": [
+        "Jonathan delivers the danger signal: halo ha-chetsi mimmekha va-hal'ah ('is not the arrow beyond you and farther?'). These are the exact words from the prearranged code in verse 22. The boy hears an instruction about archery; David, hiding nearby, hears a death sentence confirmed. The double meaning is the chapter's most dramatic moment of dramatic irony — the same words carry two completely different messages depending on who is listening."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיִּקְרָ֤א יְהוֹנָתָן֙ אַחֲרֵ֣י הַנַּ֔עַר מְהֵרָ֥ה ח֖וּשָׁה אַֽל־תַּעֲמֹ֑ד וַיְלַקֵּ֞ט נַ֤עַר יְהוֹנָתָן֙ אֶת־הַחִצִּ֔ים וַיָּבֹ֖א אֶל־אֲדֹנָֽיו׃",
+      "text_kjv": "And Jonathan cried after the lad, Make speed, haste, stay not. And Jonathan's lad gathered up the arrows, and came to his master.",
+      "rendering": "Jonathan called after the boy, \"Hurry! Be quick! Do not stop!\" Jonathan's boy gathered the arrows and came back to his master.",
+      "translator_notes": [
+        "Jonathan adds urgency beyond the prearranged signal: meherah chushah al ta'amod ('hurry, be quick, do not stand still'). Three rapid commands — each one escalating the pace. These words serve double duty: they move the boy along so he does not linger near David's hiding place, and they communicate to David that the danger is immediate and flight must be swift. The boy gathers the arrows (ha-chitsim, plural — returning to the three arrows of verse 20) and returns to Jonathan with no awareness of what he has just participated in."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְהַנַּ֖עַר לֹֽא־יָדַ֣ע מְא֑וּמָה אַ֤ךְ יְהוֹנָתָן֙ וְדָוִ֔ד יָדְע֖וּ אֶת־הַדָּבָֽר׃",
+      "text_kjv": "But the lad knew not any thing: only Jonathan and David knew the matter.",
+      "rendering": "The boy knew nothing at all. Only Jonathan and David knew what was happening.",
+      "translator_notes": [
+        "The narrator makes the dramatic irony explicit: ve-ha-na'ar lo yada' me'umah ('and the boy did not know anything'). The word me'umah ('anything, at all') is emphatic — the boy's ignorance is total. The contrast is sharp: akh Yehonatan ve-David yade'u et ha-davar ('only Jonathan and David knew the matter'). The verb yada' ('to know') connects to the chapter's opening, where Jonathan insisted he would know if Saul intended evil (verse 2). Now knowledge has been confirmed, transmitted, and received — and a boy who carried the message remains completely in the dark."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַיִּתֵּ֤ן יְהוֹנָתָן֙ אֶת־כֵּלָ֔יו אֶל־הַנַּ֖עַר אֲשֶׁר־ל֑וֹ וַיֹּ֣אמֶר ל֔וֹ לֵ֖ךְ הָבֵ֥יא הָעִֽיר׃",
+      "text_kjv": "And Jonathan gave his artillery unto his lad, and said unto him, Go, carry them to the city.",
+      "rendering": "Jonathan gave his weapons to the boy who served him and said, \"Go, take these back to the city.\"",
+      "translator_notes": [
+        "Jonathan hands over his kelav ('his equipment, his weapons') — the bow and arrows that served as the signal apparatus. The verb lekh havi ha-'ir ('go, bring them to the city') dismisses the boy and creates the privacy needed for what comes next. By surrendering his weapons, Jonathan is also symbolically disarming himself — he enters the farewell unarmed, vulnerable, stripped of the tools of the signal plan that has now served its purpose."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "הַנַּ֣עַר בָּ֗א וְדָוִ֡ד קָם֩ מֵאֵ֨צֶל הַנֶּ֜גֶב וַיִּפֹּ֨ל לְאַפָּ֥יו אַ֛רְצָה וַיִּשְׁתַּ֖חוּ שָׁלֹ֣שׁ פְּעָמִ֑ים וַֽיִּשְּׁק֣וּ ׀ אִ֣ישׁ אֶת־רֵעֵ֗הוּ וַיִּבְכּוּ֙ אִ֣ישׁ אֶת־רֵעֵ֔הוּ עַד־דָּוִ֖ד הִגְדִּֽיל׃",
+      "text_kjv": "And as soon as the lad was gone, David arose out of a place toward the south, and fell on his face to the ground, and bowed himself three times: and they kissed one another, and wept one with another, until David exceeded.",
+      "rendering": "As soon as the boy was gone, David rose from beside the south side and fell on his face to the ground. He bowed three times. Then they kissed each other and wept together, until David wept uncontrollably.",
+      "expanded_rendering": "David emerges from hiding me-etsel ha-negev ('from beside the south/Negev side') and his first act is physical submission: vayyippol le-appav artsah ('he fell on his face to the ground'). The triple prostration vayyishtachu shalosh pe'amim ('he bowed down three times') is the gesture of profound honor — not the single bow of greeting but the repeated bow of deepest respect and gratitude. Then the formality dissolves into raw grief: vayyishqqu ish et re'ehu ('they kissed each man his companion') and vayyivku ish et re'ehu ('they wept each man with his companion'). The reciprocal phrase ish et re'ehu ('each man his companion') emphasizes mutuality — this is not one-sided. The final clause ad David higdil ('until David made great/exceeded') indicates that David's weeping surpassed Jonathan's — the verb higdil ('he made great') means David's grief overflowed beyond all measure.",
+      "translator_notes": [
+        "The phrase ad David higdil is ambiguous — it could mean 'until David wept more' or 'until David could take no more.' Most interpreters read it as David's grief exceeding Jonathan's in intensity. The verb gadal ('to be great, to grow') in the Hiphil means 'to make great, to exceed.' David, the one being sent into exile, grieves more than Jonathan, the one returning to the palace. This asymmetry reflects their different futures: Jonathan goes back to a doomed dynasty; David goes forward into suffering that will eventually become kingship.",
+        "The combination of formal prostration followed by mutual kissing and weeping moves from protocol to raw emotion. The three bows acknowledge Jonathan's rank and sacrifice; the tears acknowledge the human cost of what is happening."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וַיֹּ֧אמֶר יְהוֹנָתָ֛ן לְדָוִ֖ד לֵ֣ךְ לְשָׁל֑וֹם אֲשֶׁר֩ נִשְׁבַּ֨עְנוּ שְׁנֵ֜ינוּ אֲנַ֗חְנוּ בְּשֵׁ֤ם יְהוָה֙ לֵאמֹ֔ר יְהוָ֞ה יִהְיֶ֣ה ׀ בֵּינִ֣י וּבֵינֶ֗ךָ וּבֵ֥ין זַרְעִ֛י וּבֵ֥ין זַרְעֲךָ֖ עַד־עוֹלָֽם׃",
+      "text_kjv": "And Jonathan said to David, Go in peace, forasmuch as we have sworn both of us in the name of the LORD, saying, The LORD be between me and thee, and between my seed and thy seed for ever. And he arose and departed: and Jonathan went into the city.",
+      "rendering": "Jonathan said to David, \"Go in safety. What the two of us have sworn in the name of the LORD stands firm: 'The LORD will be between me and you, and between my descendants and your descendants, forever.'\" Then David got up and left, and Jonathan went back into the city.",
+      "expanded_rendering": "Jonathan's final words are both farewell and covenant reaffirmation. The phrase lekh le-shalom ('go in peace/safety') is the standard Hebrew blessing of departure, but here it carries the weight of permanent separation. The clause asher nishba'nu sheneinu anachnu be-shem YHWH ('what the two of us — we ourselves — have sworn in the name of the LORD') uses emphatic pronouns — sheneinu anachnu ('the two of us, we ourselves') — to stress the personal, mutual nature of the oath. The covenant formula YHWH yihyeh beyni u-veynekha u-veyn zar'i u-veyn zar'akha ad olam ('the LORD will be between me and you, and between my seed and your seed forever') extends the covenant from two men to two lineages. The word zera' ('seed, offspring, descendants') projects the covenant into the indefinite future — every child born to Jonathan's line and every child born to David's line will be covered by this oath. The guarantor is YHWH, the mediator standing 'between' (beyn) both parties across all generations. The narrative's final sentence separates them physically: David arose and departed; Jonathan went into the city. Their paths diverge — one toward exile, one toward a throne he will never inherit.",
+      "translator_notes": [
+        "The covenant formula in this verse is the chapter's theological climax. It mirrors Genesis 31:49 (the Mizpah benediction between Jacob and Laban: 'the LORD watch between me and you') but exceeds it by including descendants. This is a dynastic covenant — not merely a pact between two friends but a permanent treaty between two houses, guaranteed by the divine name.",
+        "The final narrative detail — 'David got up and left, and Jonathan went into the city' — is devastating in its simplicity. No further speech, no lingering. The two men go in opposite directions. David will spend the next decade as a fugitive; Jonathan will die with his father on Mount Gilboa (1 Samuel 31:2). They will never see each other again. The covenant they sealed in this chapter will be fulfilled posthumously when David shows chesed to Jonathan's son Mephibosheth (2 Samuel 9)."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

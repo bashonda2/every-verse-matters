@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jeremiah",
+    "chapter": 11,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-31T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jeremiah 11 opens with a direct divine command to proclaim the words of the covenant to Judah and Jerusalem. God recalls the covenant made at the Exodus — the 'iron furnace' of Egypt — and declares that the people have broken it through persistent disobedience and idolatry. The chapter turns sharply personal in its second half: Jeremiah discovers that the men of his own hometown, Anathoth, are plotting to kill him to silence his prophecy. God responds with a judgment oracle against Anathoth, marking the beginning of Jeremiah's 'confessions' — the raw, personal laments that distinguish this book from all other prophetic literature.",
+    "remarkable": "This chapter bridges two of Jeremiah's major themes — the broken covenant and the suffering prophet — within a single literary unit. The covenant language in verses 1-8 echoes Deuteronomy almost verbatim, establishing Jeremiah as a prophet in the Mosaic tradition. The phrase 'iron furnace' (kur ha-barzel, v. 4) for Egypt appears only here and in Deuteronomy 4:20 and 1 Kings 8:51, linking Jeremiah's message directly to the oldest covenant traditions. The conspiracy from Anathoth is especially bitter because Anathoth was a Levitical priestly city — Jeremiah's own priestly kinsmen want him dead. The metaphor of the 'lamb led to slaughter' (v. 19) reappears in Isaiah 53:7 applied to the Suffering Servant, creating one of the most significant intertextual connections between the prophets. We rendered the covenant-curse formula precisely because Jeremiah is not improvising — he is quoting the Deuteronomic curse tradition word for word.",
+    "friction": "The verb shama ('hear, obey') appears repeatedly in verses 2-8, and we had to determine when it means 'hear' (auditory) versus 'obey' (covenantal compliance) — context guided each decision. The word arur ('cursed') in verse 3 is formal covenant-curse language, and we preserved the stark 'Cursed' rather than softening it. The phrase 'I was like a gentle lamb led to the slaughter' (v. 19) uses the rare Hebrew keves alluph, where alluph means 'tame, trusting' — we rendered this as 'a gentle lamb' rather than 'a docile lamb' to capture the innocence rather than mere passivity. The plotting language in verses 18-23 shifts from third-person report to first-person divine speech without explicit transition, requiring careful handling.",
+    "connections": "The covenant-curse language connects directly to Deuteronomy 27:26 and 28:15-68. The 'iron furnace' metaphor links to Deuteronomy 4:20 and 1 Kings 8:51. The 'lamb led to slaughter' image connects forward to Isaiah 53:7 and is applied by early Christians to Jesus. The conspiracy from Jeremiah's hometown anticipates Jesus's rejection at Nazareth (Luke 4:24-29). The divine command 'Do not pray for this people' (v. 14) reprises the prohibition from 7:16 and anticipates 14:11. Anathoth's judgment connects to the broader theme of priestly failure running through Jeremiah 1-20."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "הַדָּבָ֛ר אֲשֶׁר־הָיָ֥ה אֶֽל־יִרְמְיָ֖הוּ מֵאֵ֥ת יְהוָֽה׃",
+      "text_kjv": "The word that came to Jeremiah from the LORD, saying,",
+      "rendering": "The word that came to Jeremiah from the LORD:",
+      "translator_notes": ["The standard prophetic reception formula. The Hebrew le'mor ('saying') introduces direct speech and is rendered as a colon rather than retained as a redundant English word."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "שִׁמְע֗וּ אֶת־דִּבְרֵי֙ הַבְּרִ֣ית הַזֹּ֔את וְדִבַּרְתָּ֕ם אֶל־אִ֥ישׁ יְהוּדָ֖ה וְעַל־יֹשְׁבֵ֥י יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "Hear ye the words of this covenant, and speak unto the men of Judah, and to the inhabitants of Jerusalem;",
+      "rendering": "Hear the words of this covenant, and speak them to the people of Judah and the inhabitants of Jerusalem.",
+      "translator_notes": ["The command is directed first to Jeremiah himself — 'hear' — and then he must relay the covenant words. The word berit ('covenant') immediately establishes that Jeremiah's message concerns the Sinai agreement, not a new revelation."],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, binding agreement, pact",
+          "note": "The central term of the chapter. Jeremiah is being commissioned to enforce the Sinai covenant — the binding agreement between God and Israel established at the Exodus."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְאָמַרְתָּ֣ אֲלֵיהֶ֔ם כֹּֽה־אָמַ֥ר יְהוָ֖ה אֱלֹהֵ֣י יִשְׂרָאֵ֑ל אָר֣וּר הָאִ֔ישׁ אֲשֶׁר֙ לֹ֣א יִשְׁמַ֔ע אֶת־דִּבְרֵ֖י הַבְּרִ֥ית הַזֹּֽאת׃",
+      "text_kjv": "And say thou unto them, Thus saith the LORD God of Israel; Cursed be the man that obeyeth not the words of this covenant,",
+      "rendering": "Say to them: This is what the LORD, the God of Israel, says — Cursed is the one who does not obey the words of this covenant,",
+      "expanded_rendering": "Arur ('cursed') is formal covenant-curse vocabulary drawn directly from the Deuteronomic tradition (Deuteronomy 27:26). It is not a wish or an insult but a legally binding declaration of exclusion from covenant blessing — the opposite of barukh ('blessed').",
+      "translator_notes": ["The formula koh amar YHWH ('Thus says the LORD') is rendered throughout the project as 'This is what the LORD says.' The covenant-curse arur directly quotes the ceremony prescribed in Deuteronomy 27:15-26, where the people themselves said 'Amen' to each curse. Jeremiah is reminding them of their own sworn agreement."],
+      "key_terms": [
+        {
+          "hebrew": "אָרוּר",
+          "transliteration": "arur",
+          "rendered_as": "Cursed",
+          "semantic_range": "cursed, excluded from blessing, under divine ban",
+          "note": "The formal opposite of barukh ('blessed'). In covenant contexts, arur means the person falls under the penalties sworn in the covenant ratification ceremony."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "אֲשֶׁ֣ר צִוִּ֣יתִי אֶת־אֲבֽוֹתֵיכֶ֡ם בְּי֣וֹם הוֹצִיאִֽי־אוֹתָ֣ם מֵאֶֽרֶץ־מִצְרַיִם֩ מִכּ֨וּר הַבַּרְזֶ֜ל לֵאמֹ֗ר שִׁמְע֤וּ בְקוֹלִי֙ וַעֲשִׂיתֶ֣ם אוֹתָ֔ם כְּכֹ֥ל אֲשֶׁר־אֲצַוֶּ֖ה אֶתְכֶ֑ם וִהְיִ֤יתֶם לִי֙ לְעָ֔ם וְאָ֣נֹכִ֔י אֶהְיֶ֥ה לָכֶ֖ם לֵאלֹהִֽים׃",
+      "text_kjv": "Which I commanded your fathers in the day that I brought them forth out of the land of Egypt, from the iron furnace, saying, Obey my voice, and do them, according to all which I command you: so shall ye be my people, and I will be your God:",
+      "rendering": "which I commanded your ancestors on the day I brought them out of the land of Egypt, out of the iron furnace, saying: Obey my voice and do all that I command you, and you will be my people and I will be your God —",
+      "expanded_rendering": "Kur ha-barzel ('iron furnace') is a metaphor for the smelting heat of Egyptian slavery. The image appears only in Deuteronomy 4:20, 1 Kings 8:51, and here — it casts Egypt not merely as a place of suffering but as a crucible that forged Israel into a people fit for covenant.",
+      "translator_notes": ["The covenant formula 'you will be my people and I will be your God' is the bilateral core of the Sinai relationship (Exodus 6:7, Leviticus 26:12, Deuteronomy 26:17-18). The word 'ancestors' replaces the KJV's 'fathers' as standard TCR modernization. The iron furnace metaphor is deliberately archaic within the text itself — Jeremiah is reaching back to the oldest covenant language."],
+      "key_terms": [
+        {
+          "hebrew": "כּוּר הַבַּרְזֶל",
+          "transliteration": "kur ha-barzel",
+          "rendered_as": "iron furnace",
+          "semantic_range": "smelting furnace, iron crucible, furnace of affliction",
+          "note": "A rare metaphor for Egyptian bondage appearing only three times in the Hebrew Bible. The iron furnace smelts raw ore into refined metal — Egypt refined Israel through suffering."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "לְמַ֜עַן הָקִ֣ים אֶת־הַשְּׁבוּעָ֗ה אֲשֶׁר־נִשְׁבַּ֤עְתִּי לַאֲבֽוֹתֵיכֶם֙ לָתֵ֤ת לָהֶם֙ אֶ֣רֶץ זָבַ֣ת חָלָ֣ב וּדְבָ֔שׁ כַּיּ֖וֹם הַזֶּ֑ה וָאַ֖עַן וָאֹמַ֥ר אָמֵ֖ן יְהוָֽה׃",
+      "text_kjv": "That I may perform the oath which I have sworn unto your fathers, to give them a land flowing with milk and honey, as it is this day. Then answered I, and said, So be it, O LORD.",
+      "rendering": "in order to fulfill the oath I swore to your ancestors — to give them a land flowing with milk and honey, as it is today.\" Then I answered and said, \"Amen, LORD.\"",
+      "translator_notes": ["Jeremiah responds with 'Amen' — the liturgical affirmation of covenant acceptance. This is the same response the people were supposed to give at the covenant-curse ceremony in Deuteronomy 27. The prophet personally affirms the covenant that his people have broken."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיֹּ֤אמֶר יְהוָה֙ אֵלַ֔י קְרָ֛א אֶת־כָּל־הַדְּבָרִ֥ים הָאֵ֖לֶּה בְּעָרֵ֣י יְהוּדָ֑ה וּבְחֻצ֤וֹת יְרוּשָׁלַ֙͏ִם֙ לֵאמֹ֔ר שִׁמְע֗וּ אֶת־דִּבְרֵי֙ הַבְּרִ֣ית הַזֹּ֔את וַעֲשִׂיתֶ֖ם אוֹתָֽם׃",
+      "text_kjv": "Then the LORD said unto me, Proclaim all these words in the cities of Judah, and in the streets of Jerusalem, saying, Hear ye the words of this covenant, and do them.",
+      "rendering": "Then the LORD said to me: Proclaim all these words in the cities of Judah and in the streets of Jerusalem, saying — Hear the words of this covenant and do them.",
+      "translator_notes": ["The verb qara ('proclaim, call out') indicates public declaration, not private study. Jeremiah is sent as a herald of the covenant into the public squares. The command 'do them' (wa'asitem otam) echoes the standard Deuteronomic formula for covenant obedience."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "כִּ֣י הָעֵ֤ד הַעִ֙דֹתִי֙ בַּאֲב֣וֹתֵיכֶ֔ם בְּי֛וֹם הַעֲלוֹתִ֥י אוֹתָ֖ם מֵאֶ֣רֶץ מִצְרָ֑יִם וְעַד־הַיּ֤וֹם הַזֶּה֙ הַשְׁכֵּ֣ם וְהָעֵ֔ד לֵאמֹ֖ר שִׁמְע֥וּ בְקוֹלִֽי׃",
+      "text_kjv": "For I earnestly protested unto your fathers in the day that I brought them up out of the land of Egypt, even unto this day, rising early and protesting, saying, Obey my voice.",
+      "rendering": "For I solemnly warned your ancestors from the day I brought them up out of the land of Egypt until this very day, warning them persistently: Obey my voice.",
+      "expanded_rendering": "The phrase hashkem veha'ed ('rising early and warning') is a characteristic Jeremiah idiom depicting God's tireless, repeated effort to reach his people. The image of God 'rising early' to send warnings is not literal but expresses urgent, dawn-to-dusk persistence — God did not wait until the situation was desperate to speak.",
+      "translator_notes": ["The Hebrew construction ha'ed he'edoti is an emphatic infinitive absolute — 'I solemnly, solemnly warned.' The idiom hashkem ('rising early') appears frequently in Jeremiah as shorthand for God's persistent, repeated effort to warn Israel through the prophets (cf. 7:13, 7:25, 25:3, 25:4, 26:5, 29:19, 32:33, 35:14-15, 44:4)."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְלֹ֤א שָֽׁמְעוּ֙ וְלֹ֣א הִטּ֣וּ אֶת־אָזְנָ֔ם וַיֵּ֣לְכ֔וּ אִ֕ישׁ בִּשְׁרִיר֖וּת לִבָּ֣ם הָרָ֑ע וָאָבִ֤יא עֲלֵיהֶם֙ אֶת־כָּל־דִּבְרֵ֣י הַבְּרִית־הַזֹּ֔את אֲשֶׁר־צִוִּ֥יתִי לַעֲשׂ֖וֹת וְלֹ֥א עָשֽׂוּ׃",
+      "text_kjv": "Yet they obeyed not, nor inclined their ear, but walked every one in the imagination of their evil heart: therefore I will bring upon them all the words of this covenant, which I commanded them to do; but they did them not.",
+      "rendering": "But they did not obey or incline their ear. Each one walked in the stubbornness of his evil heart. So I brought upon them all the words of this covenant which I commanded them to do — but they did not do them.",
+      "expanded_rendering": "Sheririut lev ('stubbornness of heart') is one of Jeremiah's signature phrases, appearing more in this book than anywhere else in the Hebrew Bible. The word sheririut suggests something hardened, twisted, or calcified — the heart that has set itself in opposition to God and become rigid in its defiance.",
+      "translator_notes": ["The phrase sheririut libbam hara ('stubbornness of their evil heart') is a Jeremianic formula that recurs throughout the book (3:17, 7:24, 9:13, 13:10, 16:12, 18:12, 23:17). It describes not a single act of rebellion but a settled disposition — the heart has hardened into a fixed posture of resistance. The covenant curses are not arbitrary punishments but the sworn consequences the people accepted at Sinai."],
+      "key_terms": [
+        {
+          "hebrew": "שְׁרִירוּת",
+          "transliteration": "sheririut",
+          "rendered_as": "stubbornness",
+          "semantic_range": "stubbornness, hardness, firmness in rebellion, obstinacy",
+          "note": "A characteristic Jeremiah term. The root suggests something hardened or calcified. Combined with lev ('heart'), it describes a will set permanently against God's instruction."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֹּ֥אמֶר יְהוָ֖ה אֵלָ֑י נִמְצָא־קֶ֙שֶׁר֙ בְּאִ֣ישׁ יְהוּדָ֔ה וּבְיֹשְׁבֵ֖י יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "And the LORD said unto me, A conspiracy is found among the men of Judah, and among the inhabitants of Jerusalem.",
+      "rendering": "Then the LORD said to me: A conspiracy has been found among the people of Judah and the inhabitants of Jerusalem.",
+      "translator_notes": ["The word qesher ('conspiracy') is striking — it is the same word used for Absalom's conspiracy against David (2 Samuel 15:12) and Jehu's coup (2 Kings 9:14). God characterizes covenant-breaking not as mere negligence but as active conspiracy against himself."],
+      "key_terms": [
+        {
+          "hebrew": "קֶשֶׁר",
+          "transliteration": "qesher",
+          "rendered_as": "conspiracy",
+          "semantic_range": "conspiracy, treason, plot, binding together against",
+          "note": "Covenant-breaking is framed as treason against the divine sovereign. The same word describes political coups elsewhere in the Hebrew Bible."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "שָׁ֩בוּ֩ עַל־עֲוֹנֹ֨ת אֲבוֹתָ֜ם הָרִאשֹׁנִ֗ים אֲשֶׁ֤ר מֵֽאֲנוּ֙ לִשְׁמ֣וֹעַ אֶת־דְּבָרַ֔י וְהֵ֣מָּה הָלְכ֗וּ אַחֲרֵ֛י אֱלֹהִ֥ים אֲחֵרִ֖ים לְעָבְדָ֑ם הֵפֵ֤רוּ בֵית־יִשְׂרָאֵל֙ וּבֵ֣ית יְהוּדָ֔ה אֶת־בְּרִיתִ֕י אֲשֶׁר־כָּרַ֖תִּי אֶת־אֲבוֹתָֽם׃",
+      "text_kjv": "They are turned back to the iniquities of their forefathers, which refused to hear my words; and they went after other gods to serve them: the house of Israel and the house of Judah have broken my covenant which I made with their fathers.",
+      "rendering": "They have turned back to the iniquities of their earliest ancestors, who refused to hear my words, and they have gone after other gods to serve them. The house of Israel and the house of Judah have broken my covenant that I made with their ancestors.",
+      "translator_notes": ["The verb heferu ('they have broken, violated') is the technical term for covenant annulment. The word karati ('I cut') reminds the reader that covenants in the ancient world were 'cut' — ratified by cutting animals in half (cf. Genesis 15). Both kingdoms, Israel and Judah, are indicted together, even though the northern kingdom had already fallen by Jeremiah's time."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "לָכֵ֗ן כֹּ֚ה אָמַ֣ר יְהוָ֔ה הִנְנִ֨י מֵבִ֤יא אֲלֵיהֶם֙ רָעָ֔ה אֲשֶׁ֥ר לֹא־יוּכְל֖וּ לָצֵ֣את מִמֶּ֑נָּה וְזָעֲק֣וּ אֵלַ֔י וְלֹ֥א אֶשְׁמַ֖ע אֲלֵיהֶֽם׃",
+      "text_kjv": "Therefore thus saith the LORD, Behold, I will bring evil upon them, which they shall not be able to escape; and though they shall cry unto me, I will not hearken unto them.",
+      "rendering": "Therefore, this is what the LORD says: I am about to bring disaster upon them that they will not be able to escape. When they cry out to me, I will not listen to them.",
+      "translator_notes": ["The word ra'ah ('evil, disaster, calamity') here means disaster as covenant consequence, not moral evil. God's refusal to listen inverts the covenant formula — they would not listen to God (v. 8), so God will not listen to them. The inescapability emphasizes that this is not a threat to be negotiated but a sentence already passed."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְהָלְכ֞וּ עָרֵ֣י יְהוּדָ֗ה וְיֹשְׁבֵי֙ יְרוּשָׁלַ֔͏ִם וְזָֽעֲקוּ֙ אֶל־הָ֣אֱלֹהִ֔ים אֲשֶׁ֛ר הֵ֥ם מְקַטְּרִ֖ים לָהֶ֑ם וְהוֹשֵׁ֛עַ לֹֽא־יוֹשִׁ֥יעוּ לָהֶ֖ם בְּעֵ֥ת רָעָתָֽם׃",
+      "text_kjv": "Then shall the cities of Judah and inhabitants of Jerusalem go, and cry unto the gods unto whom they offer incense: but they shall not save them at all in the time of their trouble.",
+      "rendering": "Then the cities of Judah and the inhabitants of Jerusalem will go and cry out to the gods to whom they burn incense — but those gods will never save them in the time of their disaster.",
+      "translator_notes": ["The bitter irony is explicit: the gods they chose over the LORD will be powerless to help them. The verb meqatterim ('burning incense') indicates active, ongoing worship of foreign deities — this is not a past failing but a present practice."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "כִּ֚י מִסְפַּ֣ר עָרֶ֔יךָ הָי֥וּ אֱלֹהֶ֖יךָ יְהוּדָ֑ה וּמִסְפַּ֞ר חֻצ֣וֹת יְרוּשָׁלַ֗͏ִם שַׂמְתֶּ֤ם מִזְבְּחוֹת֙ לַבֹּ֔שֶׁת מִזְבְּחֹ֖ת לְקַטֵּ֥ר לַבָּֽעַל׃",
+      "text_kjv": "For according to the number of thy cities were thy gods, O Judah; and according to the number of the streets of Jerusalem have ye set up altars to that shameful thing, even altars to burn incense unto Baal.",
+      "rendering": "For your gods have become as numerous as your cities, O Judah, and the altars you have set up to that shameful thing — altars to burn incense to Baal — are as many as the streets of Jerusalem.",
+      "expanded_rendering": "Bosheth ('the shameful thing') is a deliberate dysphemism — a derogatory substitute name for Baal. The scribal tradition sometimes replaced the name Ba'al with bosheth ('shame') in personal names and references to signal that worship of Baal is inherently disgraceful (compare Ish-bosheth for Ish-baal in 2 Samuel).",
+      "translator_notes": ["The rhetoric of abundance — gods matching cities, altars matching streets — depicts total saturation of idolatry. Every urban space has been claimed for false worship. The word bosheth ('shame, shameful thing') is used as a pejorative replacement for Ba'al's name, a practice also visible in the textual history of names like Mephibosheth (originally Merib-baal)."],
+      "key_terms": [
+        {
+          "hebrew": "בֹּשֶׁת",
+          "transliteration": "bosheth",
+          "rendered_as": "shameful thing",
+          "semantic_range": "shame, disgrace, shameful thing; dysphemism for Baal",
+          "note": "Used as a derogatory substitute for Baal. The scribal convention of replacing ba'al with bosheth expresses the theological judgment that Baal worship is inherently shameful."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְאַתָּ֗ה אַל־תִּתְפַּלֵּל֙ בְּעַד־הָעָ֣ם הַזֶּ֔ה וְאַל־תִּשָּׂ֥א בַעֲדָ֖ם רִנָּ֣ה וּתְפִלָּ֑ה כִּ֣י אֵינֶ֣נִּי שֹׁמֵ֗עַ בְּעֵ֛ת קָרְאָ֥ם אֵלַ֖י בְּעַ֥ד רָעָתָֽם׃",
+      "text_kjv": "Therefore pray not thou for this people, neither lift up a cry or prayer for them: for I will not hear them in the time that they cry unto me for their trouble.",
+      "rendering": "As for you — do not pray for this people. Do not lift up a cry or prayer on their behalf, for I will not listen when they call to me in the time of their disaster.",
+      "translator_notes": ["This prohibition against prophetic intercession is one of the most disturbing commands in the book (cf. 7:16, 14:11). The prophet's primary role included interceding for the people before God (as Moses did in Exodus 32:11-14), and God is now cutting off that channel. The situation has passed the point where intercession can help."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "מָ֣ה לִֽידִידִ֣י בְבֵיתִ֡י עֲשׂוֹתָ֣הּ הַמְּזִמָּ֩תָ֩ה֩ הָרַבִּ֨ים וּבְשַׂר־קֹ֤דֶשׁ יַעַבְרוּ֙ מֵֽעָלַ֔יִךְ כִּ֥י רָעָתֵ֖כִי אָ֥ז תַּעֲלֹֽזִי׃",
+      "text_kjv": "What hath my beloved to do in mine house, seeing she hath wrought lewdness with many, and the holy flesh is passed from thee? when thou doest evil, then thou rejoicest.",
+      "rendering": "What right has my beloved in my house when she practices her schemes with many? Can the holy flesh remove your guilt from you? For when you do evil, then you rejoice.",
+      "translator_notes": ["This verse is notoriously difficult in Hebrew. The 'beloved' (yedidi, feminine) is Judah personified as a once-beloved woman now practicing wickedness. 'Holy flesh' likely refers to sacrificial offerings — the people believe that ritual sacrifice can cover their moral corruption. The verse's grammar is disrupted, possibly reflecting the emotional intensity of the speech."],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "זַ֤יִת רַעֲנָן֙ יְפֵ֣ה פְרִי־תֹ֔אַר קָרָ֥א יְהוָ֖ה שְׁמֵ֑ךְ לְק֣וֹל ׀ הֲמוּלָּ֣ה גְדֹלָ֗ה הִצִּ֥ית אֵשׁ֙ עָלֶ֔יהָ וְרָע֖וּ דָּלִיּוֹתָֽיו׃",
+      "text_kjv": "The LORD called thy name, A green olive tree, fair, and of goodly fruit: with the noise of a great tumult he hath kindled fire upon it, and the branches of it are broken.",
+      "rendering": "A flourishing olive tree, beautiful with fine fruit — that is what the LORD once called you. But with the roar of a great storm he has set it ablaze, and its branches are broken.",
+      "translator_notes": ["The olive tree metaphor for Israel appears also in Hosea 14:6 and Romans 11:17-24. The name God gave — 'flourishing olive tree' — expressed promise and beauty, but the tree is now being consumed by fire. The shift from beauty to burning is abrupt and devastating."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיהוָ֤ה צְבָאוֹת֙ הַנּוֹטֵ֣עַ אוֹתָ֔ךְ דִּבֶּ֥ר עָלַ֖יִךְ רָעָ֑ה בִּ֠גְלַל רָעַ֨ת בֵּֽית־יִשְׂרָאֵ֜ל וּבֵ֣ית יְהוּדָ֗ה אֲשֶׁ֨ר עָשׂ֤וּ לָהֶם֙ לְהַכְעִסֵ֔נִי לְקַטֵּ֖ר לַבָּֽעַל׃",
+      "text_kjv": "For the LORD of hosts, that planted thee, hath pronounced evil against thee, for the evil of the house of Israel and of the house of Judah, which they have done against themselves to provoke me to anger in offering incense unto Baal.",
+      "rendering": "For the LORD of Hosts, who planted you, has decreed disaster against you because of the evil that the house of Israel and the house of Judah have done, provoking me to anger by burning incense to Baal.",
+      "translator_notes": ["The same God who planted the olive tree now burns it — the Gardener destroys his own planting because the tree has become corrupt. The phrase YHWH tseva'ot ('the LORD of Hosts') emphasizes God's sovereign power over all heavenly and earthly forces. Both kingdoms are again named together in shared guilt."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַֽיהוָ֥ה הוֹדִיעַ֖נִי וָאֵדָ֑עָה אָ֖ז הִרְאִיתַ֥נִי מַעַלְלֵיהֶֽם׃",
+      "text_kjv": "And the LORD hath given me knowledge of it, and I know it: then thou shewedst me their doings.",
+      "rendering": "The LORD made it known to me, and I knew. Then you showed me their deeds.",
+      "translator_notes": ["This verse marks a dramatic shift — the beginning of Jeremiah's first 'confession' or personal lament (11:18-23). The prophet was unaware of the conspiracy against him until God revealed it. The simplicity of the Hebrew ('he made known, and I knew') captures the moment of sudden, devastating awareness."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַאֲנִ֕י כְּכֶ֥בֶשׂ אַלּ֖וּף יוּבַ֣ל לִטְב֑וֹחַ וְלֹֽא־יָדַ֜עְתִּי כִּֽי־עָלַ֣י ׀ חָשְׁב֣וּ מַחֲשָׁב֗וֹת נַשְׁחִ֤יתָה עֵץ֙ בְּלַחְמ֔וֹ וְנִכְרְתֶ֙נּוּ֙ מֵאֶ֣רֶץ חַיִּ֔ים וּשְׁמ֖וֹ לֹא־יִזָּכֵ֥ר עֽוֹד׃",
+      "text_kjv": "But I was like a lamb or an ox that is brought to the slaughter; and I knew not that they had devised devices against me, saying, Let us destroy the tree with the fruit thereof, and let us cut him off from the land of the living, that his name may be no more remembered.",
+      "rendering": "But I was like a gentle lamb led to the slaughter. I did not know that they had plotted schemes against me: 'Let us destroy the tree with its fruit. Let us cut him off from the land of the living, so that his name will be remembered no more.'",
+      "expanded_rendering": "Keves alluph ('gentle/trusting lamb') depicts Jeremiah's complete unawareness of the danger — like a domesticated lamb that trusts its handlers and does not sense the approach of slaughter. This image becomes one of the most significant prophetic metaphors in Scripture, reappearing in Isaiah 53:7 of the Suffering Servant.",
+      "translator_notes": ["The phrase 'destroy the tree with its fruit' (literally 'with its bread/food') is their plan to eliminate Jeremiah completely — person and legacy. 'Cut off from the land of the living' means killed. 'His name remembered no more' means total obliteration of memory. The conspirators want not just Jeremiah's death but his erasure. The irony is acute: Jeremiah is the most personally documented prophet in the Hebrew Bible."],
+      "key_terms": [
+        {
+          "hebrew": "כֶּבֶשׂ אַלּוּף",
+          "transliteration": "keves alluph",
+          "rendered_as": "gentle lamb",
+          "semantic_range": "tame lamb, trusting lamb, docile sheep",
+          "note": "The adjective alluph means tame, trusting, familiar — an animal that has no reason to suspect danger from those who handle it. This captures Jeremiah's innocence about the plot."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיהוָ֤ה צְבָאוֹת֙ שֹׁפֵ֣ט צֶ֔דֶק בֹּחֵ֥ן כְּלָי֖וֹת וָלֵ֑ב אֶרְאֶ֤ה נִקְמָֽתְךָ֙ מֵהֶ֔ם כִּ֥י אֵלֶ֖יךָ גִּלִּ֥יתִי אֶת־רִיבִֽי׃",
+      "text_kjv": "But, O LORD of hosts, that judgest righteously, that triest the reins and the heart, let me see thy vengeance on them: for unto thee have I revealed my cause.",
+      "rendering": "But, O LORD of Hosts, who judges righteously, who tests the mind and the heart — let me see your vengeance on them, for to you I have committed my cause.",
+      "translator_notes": ["The appeal to God as righteous judge who examines kelayot ('kidneys/inner thoughts') and lev ('heart') reflects the ancient Israelite understanding of the kidneys as the seat of the deepest emotions and the heart as the seat of the will and intellect. Jeremiah does not take revenge himself but commits his riv ('legal case, cause') to God."],
+      "key_terms": [
+        {
+          "hebrew": "כְּלָיוֹת",
+          "transliteration": "kelayot",
+          "rendered_as": "mind",
+          "semantic_range": "kidneys, inner thoughts, deepest emotions, conscience",
+          "note": "Literally 'kidneys' — the Hebrews considered the kidneys the seat of the deepest emotions and secret thoughts. We render as 'mind' for modern readers while noting the Hebrew in the key_terms."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "לָכֵ֗ן כֹּֽה־אָמַ֤ר יְהוָה֙ עַל־אַנְשֵׁ֣י עֲנָת֔וֹת הַֽמְבַקְשִׁ֥ים אֶת־נַפְשְׁךָ֖ לֵאמֹ֑ר לֹ֤א תִנָּבֵא֙ בְּשֵׁ֣ם יְהוָ֔ה וְלֹ֥א תָמ֖וּת בְּיָדֵֽנוּ׃",
+      "text_kjv": "Therefore thus saith the LORD of the men of Anathoth, that seek thy life, saying, Prophesy not in the name of the LORD, that thou die not by our hand:",
+      "rendering": "Therefore, this is what the LORD says concerning the men of Anathoth who are seeking your life and saying, 'Do not prophesy in the name of the LORD, or you will die by our hand' —",
+      "translator_notes": ["Anathoth was a Levitical city about three miles northeast of Jerusalem, Jeremiah's hometown (1:1). These are not foreigners or pagans threatening the prophet — they are his priestly kinsmen, his own community. Their demand — 'Do not prophesy' — attempts to silence the covenant-enforcement message. The threat is explicit: death."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "לָכֵ֗ן כֹּ֚ה אָמַ֣ר יְהוָ֣ה צְבָא֔וֹת הִנְנִ֥י פֹקֵ֖ד עֲלֵיהֶ֑ם הַבַּֽחוּרִים֙ יָמֻ֣תוּ בַחֶ֔רֶב בְּנֵיהֶ֧ם וּבְנוֹתֵיהֶ֛ם יָמֻ֖תוּ בָּרָעָֽב׃",
+      "text_kjv": "Therefore thus saith the LORD of hosts, Behold, I will punish them: the young men shall die by the sword; their sons and their daughters shall die by famine:",
+      "rendering": "Therefore, this is what the LORD of Hosts says: I am about to punish them. Their young men will die by the sword; their sons and daughters will die by famine.",
+      "translator_notes": ["The verb poqed ('punish, visit upon') indicates judicial action — God will formally hold Anathoth accountable. The double death — sword and famine — covers military violence and siege conditions. Those who threatened Jeremiah's life will lose their own children's lives."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וּשְׁאֵרִ֕ית לֹ֥א תִהְיֶ֖ה לָהֶ֑ם כִּֽי־אָבִ֥יא רָעָ֛ה אֶל־אַנְשֵׁ֥י עֲנָת֖וֹת שְׁנַ֥ת פְּקֻדָּתָֽם׃",
+      "text_kjv": "And there shall be no remnant of them: for I will bring evil upon the men of Anathoth, even the year of their visitation.",
+      "rendering": "No remnant will be left to them, for I will bring disaster upon the men of Anathoth in the year of their punishment.",
+      "translator_notes": ["The 'year of their punishment' (shenat pequddatam) indicates an appointed time of divine reckoning. The absence of any remnant (she'erit) is the most severe judgment possible — in prophetic theology, even catastrophic judgment usually leaves a remnant. Anathoth's conspiracy against God's prophet will be met with total destruction."],
+      "reading_level": "8th grade"
+    }
+  ]
+}

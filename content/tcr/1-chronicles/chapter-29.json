@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Chronicles",
+    "chapter": 29,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "David tells the assembly that Solomon is young and inexperienced, and that the work is great, for the Temple is not for man but for the LORD God. David lists the vast resources he has personally contributed from his own treasure: gold, silver, bronze, iron, wood, onyx, antimony, colored stones, marble — all in abundance. He then challenges the assembly: 'Who is willing to consecrate themselves today to the LORD?' The leaders of the ancestral houses, the tribal chiefs, the commanders, and the royal stewards give willingly: five thousand talents of gold, ten thousand darics, ten thousand talents of silver, eighteen thousand talents of bronze, and one hundred thousand talents of iron. Those who had precious stones gave them to the treasury. The people rejoice because they gave willingly, with a whole heart, and David also rejoices greatly. David then prays one of the most majestic prayers in the Hebrew Bible — a prayer of blessing, adoration, and theological depth. He blesses the LORD God of Israel, declaring that greatness, power, glory, victory, and majesty belong to God alone, for everything in heaven and earth is his. Wealth and honor come from God, who rules over all. David acknowledges that all the abundance they have given comes from God's own hand: 'All things come from you, and from your own hand we have given back to you.' He prays for the assembly's hearts to remain faithful, and for Solomon to keep God's commandments and build the Temple. The assembly blesses the LORD and bows in worship. The next day they offer sacrifices — a thousand bulls, a thousand rams, a thousand lambs — with their drink offerings and abundant sacrifices for all Israel. They eat and drink before the LORD with great joy. Solomon is anointed king a second time, and Zadok is anointed priest. Solomon sits on the throne of the LORD as king, and all Israel obeys him. The chapter and the book close with David's death summary: he reigned forty years — seven in Hebron, thirty-three in Jerusalem — and died in good old age, full of days, riches, and honor. Solomon his son reigned in his place.",
+    "remarkable": "David's prayer in verses 10-19 is the theological summit of 1 Chronicles — arguably one of the greatest prayers in the entire Hebrew Bible. It contains the doxological statement lekha YHWH ha-gedulah ve-ha-gevurah ve-ha-tif'eret ve-ha-netsach ve-ha-hod ('Yours, O LORD, is the greatness, the power, the glory, the victory, and the majesty') that became the foundation of the doxology appended to the Lord's Prayer ('For yours is the kingdom, the power, and the glory, forever, amen'). Verse 14 — 'All things come from you, and from your own hand we have given back to you' — is one of the great theological statements of the Bible. It demolishes human pride in generosity: every gift to God is merely returning what God first gave. You cannot enrich God; you can only give back. Verse 15 declares 'we are strangers and sojourners before you, as all our fathers were; our days on earth are like a shadow, and there is no abiding' — language that frames the entire building project in the context of human transience. David builds for eternity while confessing that he himself is a shadow. The juxtaposition of massive material wealth (vv. 2-8) with radical theological humility (vv. 14-15) is the Chronicler's master stroke.",
+    "friction": "The amounts given — five thousand talents of gold, ten thousand talents of silver, eighteen thousand talents of bronze, one hundred thousand talents of iron — are enormous, potentially exceeding the GDP of ancient Near Eastern kingdoms. The ten thousand darics (darkemonim, v. 7) are Persian-era coins, an anachronism if the narrative is set in David's time. The Chronicler either uses contemporary monetary terms for his post-exilic audience or draws from a source that has been updated. Solomon's 'second anointing' (v. 22) contrasts with the emergency first anointing in 1 Kings 1:38-40, which the Chronicler omits — he presents Solomon's accession as orderly and unanimous, without the Adonijah crisis.",
+    "connections": "David's doxology (v. 11) directly informs the doxology of the Lord's Prayer (Matthew 6:13 in some manuscripts) and Revelation 5:12-13. The phrase 'strangers and sojourners' (v. 15) echoes the patriarchal self-description (Genesis 23:4, 47:9) and Psalm 39:12, connecting David to the pilgrim identity of Abraham. The nedavah ('freewill offering') theme links to the tabernacle construction in Exodus 35:5, 21-29, where the people also gave willingly. David's death formula — reigning forty years (seven in Hebron, thirty-three in Jerusalem) — matches 2 Samuel 5:4-5 exactly. Solomon sitting on kiseh YHWH ('the throne of the LORD,' v. 23) recalls 28:5, making Israel's monarchy a visible expression of divine rule. The statement 'from your own hand we have given back to you' (v. 14) becomes a foundational principle of Jewish and Christian giving theology."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיֹּ֨אמֶר דָּוִ֤יד הַמֶּ֙לֶךְ֙ לְכׇל־הַקָּהָ֔ל שְׁלֹמֹ֣ה בְנִ֗י אֶחָד֙ בָּ֣חַר בּ֣וֹ אֱלֹהִ֔ים נַ֥עַר וָרָ֖ךְ וְהַמְּלָאכָ֣ה גְדוֹלָ֑ה כִּ֣י לֹ֤א לְאָדָם֙ הַבִּירָ֔ה כִּ֖י לַיהוָ֥ה אֱלֹהִֽים׃",
+      "text_kjv": "Furthermore David the king said unto all the congregation, Solomon my son, whom alone God hath chosen, is yet young and tender, and the work is great: for the palace is not for man, but for the LORD God.",
+      "rendering": "King David said to the whole assembly, 'My son Solomon, the one whom God has chosen, is young and inexperienced, and the work is great — for the Temple is not for a human being but for the LORD God.",
+      "translator_notes": [
+        "David frames the enormity of the project with two contrasts: Solomon is na'ar va-rakh ('young and tender/inexperienced') while the melakhah gedolah ('the work is great'). The decisive statement — ki lo le-adam ha-birah ki la-YHWH Elohim ('for the Temple is not for man but for the LORD God') — establishes the theological standard: this is not a royal vanity project but a divine dwelling. The word birah ('citadel, Temple, fortress') is a Persian-era term, reflecting the Chronicler's vocabulary."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וּכְכׇל־כֹּחִ֞י הֲכִינ֣וֹתִי לְבֵית־אֱלֹהַ֗י הַזָּהָ֣ב ׀ לַ֠זָּהָ֠ב וְהַכֶּ֨סֶף לַכֶּ֜סֶף וְהַנְּחֹ֣שֶׁת לַנְּחֹ֗שֶׁת הַבַּרְזֶ֤ל לַבַּרְזֶל֙ וְהָעֵצִ֣ים לָעֵצִ֔ים אַבְנֵי־שֹׁ֣הַם וּמִלּוּאִ֗ים אַבְנֵי־פ֤וּךְ וְרִקְמָה֙ וְכֹ֣ל אֶ֣בֶן יְקָרָ֔ה וְאַבְנֵי־שַׁ֖יִשׁ לָרֹֽב׃",
+      "text_kjv": "Now I have prepared with all my might for the house of my God the gold for things to be made of gold, and the silver for things of silver, and the brass for things of brass, the iron for things of iron, and wood for things of wood; onyx stones, and stones to be set, glistering stones, and of divers colours, and all manner of precious stones, and marble stones in abundance.",
+      "rendering": "With all my resources I have provided for the house of my God: gold for the gold work, silver for the silver, bronze for the bronze, iron for the iron, wood for the wood, onyx stones, stones for setting, antimony stones, stones of various colors, every kind of precious stone, and marble — all in abundance.",
+      "translator_notes": [
+        "David's list of materials is comprehensive: seven categories of metal and stone, each specified for its purpose. The phrase u-ke-khol kochi ('with all my strength/resources') indicates total personal investment. The avnei shoham ('onyx stones'), avnei fukh ('antimony/stibium stones,' used for decorative inlay), and avnei shayish ('marble/alabaster stones') describe the gem and stone work that will adorn the Temple."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְע֗וֹד בִּרְצוֹתִי֙ בְּבֵ֣ית אֱלֹהַ֔י יֶשׁ־לִ֥י סְגֻלָּ֖ה זָהָ֣ב וָכָ֑סֶף נָתַ֙תִּי֙ לְבֵ֣ית אֱלֹהַ֔י לְמַ֕עְלָה מִכׇּל־הֲכִינ֖וֹתִי לְבֵ֥ית הַקֹּֽדֶשׁ׃",
+      "text_kjv": "Moreover, because I have set my affection to the house of my God, I have of mine own proper good, of gold and silver, which I have given to the house of my God, over and above all that I have prepared for the holy house,",
+      "rendering": "Moreover, because I delight in the house of my God, I have given from my own personal treasure of gold and silver to the house of my God — over and above everything I have provided for the holy house:",
+      "translator_notes": [
+        "The phrase bi-retsoti be-veit Elohai ('because I delight in the house of my God') reveals David's motivation: ratsah ('to delight, to take pleasure') is desire, not duty. His personal treasury (segullah, 'personal possession, special treasure') is distinguished from the national resources — this is David's private wealth given as an additional offering beyond the official provisions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "שְׁלֹ֧שֶׁת אֲלָפִ֛ים כִּכְּרֵ֥י זָהָ֖ב מִזְּהַ֣ב אוֹפִ֑יר וְשִׁבְעַ֨ת אֲלָפִ֜ים כִּכַּר־כֶּ֤סֶף מְזֻקָּק֙ לָט֣וּחַ קִיר֥וֹת הַבָּתִּֽים׃",
+      "text_kjv": "Even three thousand talents of gold, of the gold of Ophir, and seven thousand talents of refined silver, to overlay the walls of the houses withal:",
+      "rendering": "three thousand talents of gold — gold of Ophir — and seven thousand talents of refined silver, for overlaying the walls of the Temple buildings.",
+      "translator_notes": [
+        "The zahav Ofir ('gold of Ophir') is the premium gold grade in the ancient world — Ophir's location is debated (southern Arabia, East Africa, or India) but its gold was legendary (1 Kings 9:28, 10:11). The silver is mezuqqaq ('refined, purified'). Both are designated la-tuach qirot ha-battim ('for overlaying the walls of the buildings') — the Temple's interior walls will be plated in precious metal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "לַזָּהָ֤ב לַזָּהָב֙ וְלַכֶּ֣סֶף לַכֶּ֔סֶף וּלְכׇל־מְלָאכָ֖ה בְּיַ֣ד חָרָשִׁ֑ים וּמִ֣י מִתְנַדֵּ֔ב לְמַלֹּ֥אות יָד֖וֹ הַיּ֥וֹם לַיהוָֽה׃",
+      "text_kjv": "The gold for things of gold, and the silver for things of silver, and for all manner of work to be made by the hands of artificers. And who then is willing to consecrate his service this day unto the LORD?",
+      "rendering": "gold for the gold work, silver for the silver, and for every kind of work by the hands of craftsmen. Who then will offer willingly, consecrating themselves today to the LORD?'",
+      "translator_notes": [
+        "David's rhetorical question — u-mi mitnaddev le-malle'ot yado ha-yom la-YHWH ('who is willing to fill his hand today to the LORD?') — is a call for freewill offerings. The phrase malle'ot yado ('to fill his hand') is the technical term for priestly consecration (Exodus 28:41), but here David applies it to every Israelite: giving to the Temple is an act of self-consecration. The verb hitnaddev ('to volunteer, to give freely') is the root of nedavah ('freewill offering')."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נְדָבָה",
+          "transliteration": "nedavah",
+          "rendered_as": "offer willingly",
+          "semantic_range": "freewill offering, voluntary gift, willing contribution, generosity",
+          "note": "nedavah (from nadav, 'to be willing, to volunteer') — the freewill offering is distinguished from obligatory offerings by its motivation: it flows from desire, not requirement. David's challenge asks who will make themselves a nedavah — who will become a living freewill offering to God."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיִּתְנַדְּב֞וּ שָׂרֵ֣י הָאָב֗וֹת וְשָׂרֵי֙ שִׁבְטֵ֣י יִשְׂרָאֵ֔ל וְשָׂרֵ֥י הָאֲלָפִ֖ים וְהַמֵּא֑וֹת וּלְשָׂרֵ֖י מְלֶ֥אכֶת הַמֶּֽלֶךְ׃",
+      "text_kjv": "Then the chief of the fathers and princes of the tribes of Israel, and the captains of thousands and of hundreds, with the rulers of the king's work, offered willingly,",
+      "rendering": "The heads of the ancestral houses, the chiefs of the tribes of Israel, the commanders of thousands and hundreds, and the overseers of the king's work gave willingly.",
+      "translator_notes": [
+        "The response is comprehensive: every level of leadership gives. The verb vayyitnadevu ('they volunteered, they gave willingly') is the reflexive form of nadav — they made themselves willing. The listing of four leadership tiers — ancestral heads, tribal chiefs, military commanders, and royal administrators — mirrors the assembly of 28:1."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נְדָבָה",
+          "transliteration": "nedavah",
+          "rendered_as": "gave willingly",
+          "semantic_range": "freewill offering, voluntary gift, willing contribution, generosity",
+          "note": "nedavah here describes the leaders' response to David's challenge. The voluntariness is the point — no one was compelled. The entire construction project for the house of God rests on willing hearts, exactly as the tabernacle in Exodus 35:5 was built from freewill offerings."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַֽיִּתְּנ֞וּ לַעֲבוֹדַ֣ת בֵּית־הָאֱלֹהִ֗ים זָהָ֞ב כִּכָּרִ֣ים חֲמֵ֤שֶׁת אֲלָפִים֙ וַאֲדַרְכֹנִ֣ים רִבּ֔וֹ וְכֶ֕סֶף כִּכָּרִ֖ים עֲשֶׂ֣רֶת אֲלָפִ֑ים וּנְחֹ֗שֶׁת רִבּ֛וֹ וּשְׁמוֹנַ֥ת אֲלָפִ֖ים כִּכָּרִ֥ים וּבַרְזֶ֛ל מֵאָ֥ה אֶ֖לֶף כִּכָּרִֽים׃",
+      "text_kjv": "And gave for the service of the house of God of gold five thousand talents and ten thousand drams, and of silver ten thousand talents, and of brass eighteen thousand talents, and one hundred thousand talents of iron.",
+      "rendering": "They gave for the service of the house of God: five thousand talents of gold, ten thousand darics, ten thousand talents of silver, eighteen thousand talents of bronze, and one hundred thousand talents of iron.",
+      "translator_notes": [
+        "The quantities are staggering. The adarkhonim (darics) are Persian gold coins — an anachronistic term in a Davidic-era narrative, indicating the Chronicler uses monetary language his post-exilic audience would understand. The metals are listed from most to least precious: gold, silver, bronze, iron — a descending hierarchy of value but ascending hierarchy of practical utility."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְהַנִּמְצָ֤א אִתּוֹ֙ אֲבָנִ֔ים נָתְנ֖וּ לְאוֹצַ֣ר בֵּ֣ית יְהוָ֑ה עַ֥ל יַד־יְחִיאֵ֖ל הַגֵּרְשֻׁנִּֽי׃",
+      "text_kjv": "And they with whom precious stones were found gave them to the treasure of the house of the LORD, by the hand of Jehiel the Gershonite.",
+      "rendering": "Those who had precious stones gave them to the treasury of the house of the LORD, into the care of Jehiel the Gershonite.",
+      "translator_notes": [
+        "The stones go to Jehiel the Gershonite, the treasury administrator identified in 26:21-22. The phrase al yad Yechiel ('into the hand of Jehiel') shows the administrative system already functioning — the treasury infrastructure from chapter 26 receives the gifts from chapter 29."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיִּשְׂמְח֤וּ הָעָם֙ עַל־הִתְנַדְּבָ֔ם כִּ֚י בְּלֵ֣ב שָׁלֵ֔ם הִתְנַדְּב֖וּ לַיהוָ֑ה וְגַם֙ דָּוִ֣יד הַמֶּ֔לֶךְ שָׂמַ֖ח שִׂמְחָ֥ה גְדוֹלָֽה׃",
+      "text_kjv": "Then the people rejoiced, for that they offered willingly, because with perfect heart they offered willingly to the LORD: and David the king also rejoiced with great joy.",
+      "rendering": "The people rejoiced over their willing gifts, for they had given to the LORD willingly, with a whole heart. King David also rejoiced with great joy.",
+      "translator_notes": [
+        "Joy is the dominant emotion: vayyismechu ('they rejoiced') over their own generosity, and David samach simchah gedolah ('rejoiced a great joy'). The key phrase is be-lev shalem hitnadevu la-YHWH ('with a whole heart they gave willingly to the LORD') — the same lev shalem ('whole heart') that David urged Solomon to have in 28:9. The people have modeled for Solomon the heart posture his father commanded."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נְדָבָה",
+          "transliteration": "nedavah",
+          "rendered_as": "willing gifts",
+          "semantic_range": "freewill offering, voluntary gift, willing contribution, generosity",
+          "note": "nedavah here is the source of joy — the people rejoice because they gave willingly. The Chronicler's theology of giving is that generosity itself produces joy. The act of giving with a whole heart creates the gladness that accompanies it."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיְבָ֤רֶךְ דָּוִיד֙ אֶת־יְהוָ֔ה לְעֵינֵ֖י כׇּל־הַקָּהָ֑ל וַיֹּ֣אמֶר דָּוִ֗יד בָּר֤וּךְ אַתָּה֙ יְהוָ֔ה אֱלֹהֵ֥י יִשְׂרָאֵ֖ל אָבִ֕ינוּ מֵעוֹלָ֖ם וְעַד־עוֹלָֽם׃",
+      "text_kjv": "Wherefore David blessed the LORD before all the congregation: and David said, Blessed be thou, LORD God of Israel our father, for ever and ever.",
+      "rendering": "David blessed the LORD in the sight of the whole assembly. David said, 'Blessed are you, O LORD, God of Israel our father, from everlasting to everlasting.",
+      "translator_notes": [
+        "The prayer opens with the standard berakah formula: barukh attah YHWH ('blessed are you, O LORD'). God is identified as Elohei Yisra'el avinu ('God of Israel our father') — 'our father' refers to Israel/Jacob, making this the God of the patriarchal covenant. The phrase me-olam ve-ad olam ('from everlasting to everlasting') frames God's existence as beyond all time in both directions."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עוֹלָם",
+          "transliteration": "olam",
+          "rendered_as": "everlasting",
+          "semantic_range": "forever, perpetuity, ancient time, the distant horizon of time",
+          "note": "olam appears twice — me-olam ve-ad olam ('from everlasting to everlasting') — creating a temporal frame that encompasses all of time. God exists before the beginning and beyond the end. This phrase becomes standard in Jewish liturgy (Psalm 41:13, 106:48)."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "לְךָ֣ יְ֠הוָ֠ה הַגְּדֻלָּ֨ה וְהַגְּבוּרָ֤ה וְהַתִּפְאֶ֙רֶת֙ וְהַנֵּ֣צַח וְהַה֔וֹד כִּי־כֹ֖ל בַּשָּׁמַ֣יִם וּבָאָ֑רֶץ לְךָ֤ יְהוָה֙ הַמַּמְלָכָ֔ה וְהַמִּתְנַשֵּׂ֖א לְכֹ֥ל ׀ לְרֹֽאשׁ׃",
+      "text_kjv": "Thine, O LORD, is the greatness, and the power, and the glory, and the victory, and the majesty: for all that is in the heaven and in the earth is thine; thine is the kingdom, O LORD, and thou art exalted as head above all.",
+      "rendering": "Yours, O LORD, is the greatness, the power, the glory, the victory, and the majesty — for everything in heaven and on earth is yours. Yours, O LORD, is the kingdom, and you are exalted as head over all.",
+      "expanded_rendering": "This verse is one of the most magnificent doxologies in Scripture. Five attributes are declared as belonging exclusively to God: ha-gedulah ('the greatness'), ha-gevurah ('the power'), ha-tif'eret ('the glory/splendor'), ha-netsach ('the victory/endurance'), and ha-hod ('the majesty'). Each is preceded by the definite article — these are not qualities God shares with anyone but the absolute, definitive instances of each. The ground is given: ki khol ba-shamayim u-va-arets ('for everything in heaven and on earth is yours'). If everything already belongs to God, then the gifts just given (vv. 6-8) are merely returning what was already his. The second declaration — lekha YHWH ha-mamlakhah ('yours, O LORD, is the kingdom') — asserts that all political authority is derivative. The Davidic monarchy, Solomon's throne, every kingdom that ever existed or will exist: they are all sub-franchises of God's one kingdom. This doxology becomes the source for the ending of the Lord's Prayer ('For yours is the kingdom, the power, and the glory, forever') found in some manuscripts of Matthew 6:13 and universally in Christian liturgy.",
+      "translator_notes": [
+        "The five-fold attribution has been analyzed as encompassing every dimension of divine sovereignty: greatness (scope), power (force), glory (beauty), victory (triumph), and majesty (dignity). The phrase ha-mitnasseh le-khol le-rosh ('the one who is exalted as head over all') uses the reflexive — God lifts himself above all, not by external force but by inherent nature."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כָּבוֹד",
+          "transliteration": "kavod",
+          "rendered_as": "glory",
+          "semantic_range": "glory, honor, weight, radiance, splendor, heavy significance",
+          "note": "kavod (here as tif'eret, 'glory/splendor,' a near-synonym) — the visible, weighty radiance of God's presence. In the doxological sequence, glory stands at the center of the five attributes, flanked by greatness and power on one side, victory and majesty on the other."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְהָעֹ֤שֶׁר וְהַכָּבוֹד֙ מִלְּפָנֶ֔יךָ וְאַתָּה֙ מוֹשֵׁ֣ל בַּכֹּ֔ל וּבְיָדְךָ֖ כֹּ֣חַ וּגְבוּרָ֑ה וּבְיָדְךָ֖ לְגַדֵּ֥ל וּלְחַזֵּ֖ק לַכֹּֽל׃",
+      "text_kjv": "Both riches and honour come of thee, and thou reignest over all; and in thine hand is power and might; and in thine hand it is to make great, and to give strength unto all.",
+      "rendering": "Wealth and honor come from you, and you rule over all. In your hand are power and might, and in your hand is the ability to make great and to give strength to all.",
+      "translator_notes": [
+        "David turns the doxology into a statement about economics and power: ha-osher ve-ha-kavod millefanekha ('the wealth and the honor come from before you'). Every talent of gold and silver just donated came from God first. The phrase u-ve-yadekha ('in your hand') appears twice, emphasizing divine sovereignty: koach u-gevurah ('power and might') and le-gaddel u-le-chazzeq ('to make great and to strengthen'). Human wealth, power, and greatness are all gifts from God's hand.",
+        "Register departure: kavod rendered as 'honor' rather than default 'glory' because this instance is paired with 'wealth' in David's prayer — the social weight and recognition that accompanies material abundance, distinct from the divine glory sense in v. 11."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כָּבוֹד",
+          "transliteration": "kavod",
+          "rendered_as": "honor",
+          "semantic_range": "glory, honor, weight, radiance, splendor, heavy significance",
+          "note": "kavod here means 'honor' — the social weight and recognition that accompanies wealth. Both wealth (osher) and honor (kavod) are traced to their source in God. No human achievement is self-generated; all honor is derivative."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְעַתָּ֣ה אֱלֹהֵ֔ינוּ מוֹדִ֥ים אֲנַ֖חְנוּ לָ֑ךְ וּֽמְהַלְלִ֖ים לְשֵׁ֥ם תִּפְאַרְתֶּֽךָ׃",
+      "text_kjv": "Now therefore, our God, we thank thee, and praise thy glorious name.",
+      "rendering": "And now, our God, we give you thanks and praise your glorious name.",
+      "translator_notes": [
+        "The transition ve-attah Eloheinu ('and now, our God') moves from doxological declaration to direct address. The twin verbs modim anachnu lakh ('we thank you') and mehalelim le-shem tif'artekha ('we praise your glorious name') combine thanksgiving with praise. The shem tif'eret ('name of splendor/glory') is the divine Name itself — the Name that will dwell in the Temple."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כָּבוֹד",
+          "transliteration": "kavod",
+          "rendered_as": "glorious",
+          "semantic_range": "glory, honor, weight, radiance, splendor, heavy significance",
+          "note": "kavod (as tif'eret, 'glory/splendor') here modifies God's Name — the shem tif'eret ('glorious Name') that the Temple will house. Praising the Name is praising the very identity of God."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְכִ֨י מִ֤י אֲנִי֙ וּמִ֣י עַמִּ֔י כִּֽי־נַעְצֹ֣ר כֹּ֔חַ לְהִתְנַדֵּ֖ב כָּזֹ֑את כִּֽי מִמְּךָ֣ הַכֹּ֔ל וּמִיָּדְךָ֖ נָתַ֥נּוּ לָֽךְ׃",
+      "text_kjv": "But who am I, and what is my people, that we should be able to offer so willingly after this sort? for all things come of thee, and of thine own have we given thee.",
+      "rendering": "But who am I, and who are my people, that we should have the ability to give so willingly? For all things come from you, and from your own hand we have given back to you.",
+      "expanded_rendering": "This verse is the theological pinnacle of the chapter — and arguably of all Chronicles. David asks ve-khi mi ani u-mi ammi ('who am I, and who are my people?') — the humility is total. After cataloging a king's ransom in gold, silver, and precious stones, David declares himself and his people unworthy even of giving. The reason demolishes all pretense of human generosity: ki mimmekha hakkol u-mi-yadekha natannu lakh — 'for all things come from you, and from your own hand we have given back to you.' The verb natannu is 'we have given,' but the preposition mi-yadekha ('from your hand') makes clear that we gave back what was already God's. Human giving is not transfer of ownership but return of borrowed goods. This single sentence undoes every possibility of donor pride. No one can boast of generosity when the gift was never theirs to begin with. The theological implication is absolute: there is no such thing as enriching God. All philanthropy, all sacrifice, all dedication of wealth is merely allowing the river to flow back to its source.",
+      "translator_notes": [
+        "The phrase ki na'atsor koach le-hitnaddev ka-zot ('that we should retain strength to give willingly like this') uses the verb atsar ('to retain, to restrain') — even the capacity to give is a power that must be granted. The sentence ki mimmekha hakkol has become foundational in Jewish and Christian theology of stewardship and giving."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נְדָבָה",
+          "transliteration": "nedavah",
+          "rendered_as": "give willingly",
+          "semantic_range": "freewill offering, voluntary gift, willing contribution, generosity",
+          "note": "nedavah here reaches its deepest theological register: even the willingness to give freely is itself a gift from God. The nedavah is doubly derived — both the substance given and the desire to give originate in God."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "כִּי־גֵרִ֨ים אֲנַ֧חְנוּ לְפָנֶ֛יךָ וְתוֹשָׁבִ֖ים כְּכׇל־אֲבֹתֵ֑ינוּ כַּצֵּ֧ל ׀ יָמֵ֛ינוּ עַל־הָאָ֖רֶץ וְאֵ֥ין מִקְוֶֽה׃",
+      "text_kjv": "For we are strangers before thee, and sojourners, as were all our fathers: our days on the earth are as a shadow, and there is none abiding.",
+      "rendering": "For we are strangers before you and sojourners, as all our fathers were. Our days on earth are like a shadow, and there is no abiding.",
+      "expanded_rendering": "From the heights of doxology, David plunges into the deepest statement of human finitude in the Hebrew Bible. Gerim anachnu lefanekha ve-toshavim ke-khol avoteinu ('we are strangers before you and sojourners, as all our fathers were'). The king of Israel, at the summit of his power, surrounded by mountains of gold and silver, declares himself a ger ('stranger, resident alien') — the same word Abraham used of himself (Genesis 23:4). The added phrase ke-khol avoteinu ('as all our fathers were') extends the condition to every generation: not just David, but Abraham, Isaac, Jacob, and every ancestor lived as transients on earth. Then the devastating conclusion: ka-tsel yameinu al ha-arets ve-ein miqveh ('our days on earth are like a shadow, and there is no abiding/no hope of permanence'). The shadow (tsel) is the most insubstantial of images — it has shape but no substance, it moves but has no weight. The phrase ve-ein miqveh ('and there is no hope/no expectation') of permanence is stark. The man commissioning an eternal Temple confesses that he himself is a shadow. The gold endures; the giver does not.",
+      "translator_notes": [
+        "The word miqveh can mean 'hope,' 'expectation,' or 'abiding.' Its negation — ein miqveh — creates absolute finality: human life on earth has no permanence to hope for. This is not despair but theological realism, the same perspective as Psalm 39:5-6, 12 and Psalm 144:4."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "יְהוָ֣ה אֱלֹהֵ֗ינוּ כֹ֣ל הֶהָמ֤וֹן הַזֶּה֙ אֲשֶׁ֣ר הֲכִינֹ֗נוּ לִבְנוֹת־לְךָ֥ בַ֛יִת לְשֵׁ֥ם קׇדְשְׁךָ֖ מִיָּדְךָ֣ ה֑וּא וּלְךָ֖ הַכֹּֽל׃",
+      "text_kjv": "O LORD our God, all this store that we have prepared to build thee an house for thine holy name cometh of thine hand, and is all thine own.",
+      "rendering": "O LORD our God, all this abundance that we have gathered to build you a house for your holy name — it comes from your hand, and all of it is yours.",
+      "translator_notes": [
+        "David reiterates the theology of verse 14 with even greater directness: kol ha-hamon ha-zeh ('all this abundance/wealth') that has been given mi-yadekha hu ('it is from your hand') and ulekha hakkol ('all of it is yours'). The massive treasury of gold, silver, bronze, iron, and gems is declared to be, in its entirety, God's own property temporarily passing through human hands. The phrase le-shem qodshekha ('for your holy Name') identifies the Temple's purpose: housing the divine Name."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְיָדַ֣עְתִּי אֱלֹהַ֔י כִּ֤י אַתָּה֙ בֹּחֵ֣ן לֵבָ֔ב וּמֵישָׁרִ֖ים תִּרְצֶ֑ה אֲנִ֗י בְּיֹ֣שֶׁר לְבָבִ֔י הִתְנַדַּ֣בְתִּי כׇל־אֵ֔לֶּה וְעַתָּ֗ה עַמְּךָ֙ הַנִּמְצְאוּ־פֹ֔ה רָאִ֖יתִי בְּשִׂמְחָ֥ה לְהִתְנַדֶּב־לָֽךְ׃",
+      "text_kjv": "I know also, my God, that thou triest the heart, and hast pleasure in uprightness. As for me, in the uprightness of mine heart I have willingly offered all these things: and now have I seen with joy thy people, which are present here, to offer willingly unto thee.",
+      "rendering": "I know, my God, that you test the heart and take pleasure in uprightness. In the uprightness of my heart I have given all these things willingly, and now I have seen with joy your people who are present here giving willingly to you.",
+      "translator_notes": [
+        "David returns to the divine heart-search of 28:9: attah bochen levav ('you test the heart'). He claims yosher levavi ('uprightness of my heart') for his own giving, then extends the observation to the people: ra'iti be-simchah le-hitnaddev lakh ('I have seen with joy [them] giving willingly to you'). The king's joy is in watching his people mirror his own willing generosity."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נְדָבָה",
+          "transliteration": "nedavah",
+          "rendered_as": "giving willingly",
+          "semantic_range": "freewill offering, voluntary gift, willing contribution, generosity",
+          "note": "nedavah appears twice in this verse — once for David's own giving and once for the people's — completing the chain: God gives, David gives back, the people give back, and all of it originates from and returns to God."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "יְהוָ֗ה אֱ֠לֹהֵ֠י אַבְרָהָ֞ם יִצְחָ֤ק וְיִשְׂרָאֵל֙ אֲבֹתֵ֔ינוּ שׇׁמְרָה־זֹּ֗את לְעוֹלָ֛ם לְיֵ֧צֶר מַחְשְׁב֛וֹת לְבַ֥ב עַמֶּ֖ךָ וְהָכֵ֥ן לְבָבָ֖ם אֵלֶֽיךָ׃",
+      "text_kjv": "O LORD God of Abraham, Isaac, and of Israel, our fathers, keep this for ever in the imagination of the thoughts of the heart of thy people, and prepare their heart unto thee:",
+      "rendering": "O LORD, God of Abraham, Isaac, and Israel our fathers, keep this forever — this inclination in the thoughts of the hearts of your people — and direct their hearts toward you.",
+      "translator_notes": [
+        "David prays for the preservation of the people's willing spirit. The phrase shomrah zot le-olam ('keep this forever') asks God to maintain the generous inclination permanently. The yetser machshevot levav ammekha ('the inclination of the thoughts of the heart of your people') uses the same yetser ('inclination, formation') from 28:9 — but here David asks God to protect it rather than merely observe it. The final plea — ve-hakhen levavam elekha ('and direct/establish their hearts toward you') — acknowledges that even the direction of the heart requires divine action."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עוֹלָם",
+          "transliteration": "olam",
+          "rendered_as": "forever",
+          "semantic_range": "forever, perpetuity, ancient time, the distant horizon of time",
+          "note": "olam here asks God to preserve the people's willing heart-posture permanently — le-olam ('forever'). David prays that the generosity of this moment will not be a one-time event but a permanent characteristic of God's people."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְלִשְׁלֹמֹ֣ה בְנִ֗י תֵּ֚ן לֵבָ֣ב שָׁלֵ֔ם לִשְׁמוֹר֙ מִצְוֹתֶ֔יךָ עֵדְוֹתֶ֖יךָ וְחֻקֶּ֑יךָ וְלַעֲשׂ֣וֹת הַכֹּ֔ל וְלִבְנ֖וֹת הַבִּירָ֥ה אֲשֶׁר־הֲכִינֽוֹתִי׃",
+      "text_kjv": "And give unto Solomon my son a perfect heart, to keep thy commandments, thy testimonies, and thy statutes, and to do all these things, and to build the palace, for the which I have made provision.",
+      "rendering": "And give my son Solomon a whole heart, to keep your commandments, your testimonies, and your statutes, to carry out everything, and to build the Temple for which I have made provision.'",
+      "translator_notes": [
+        "David's final petition is for Solomon: ten levav shalem ('give a whole heart'). The lev shalem ('whole heart') has been the chapter's dominant motif (vv. 9, 17, 19). David cannot command his son's heart — he can only ask God to give it. The threefold Torah obligation — mitsvotekha ('your commandments'), edotekha ('your testimonies'), ve-chuqqekha ('your statutes') — covers the full scope of divine instruction. The birah ('Temple/citadel') is the same Persian-era term from verse 1."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיֹּ֤אמֶר דָּוִיד֙ לְכׇל־הַקָּהָ֔ל בָּרֲכוּ־נָ֖א אֶת־יְהוָ֣ה אֱלֹהֵיכֶ֑ם וַיְבָרֲכ֤וּ כׇל־הַקָּהָל֙ לַיהוָ֔ה אֱלֹהֵ֣י אֲבֹתֵיהֶ֔ם וַיִּקְּד֧וּ וַיִּשְׁתַּחֲו֛וּ לַיהוָ֖ה וְלַמֶּֽלֶךְ׃",
+      "text_kjv": "And David said to all the congregation, Now bless the LORD your God. And all the congregation blessed the LORD God of their fathers, and bowed down their heads, and worshipped the LORD, and the king.",
+      "rendering": "David said to the whole assembly, 'Now bless the LORD your God.' The whole assembly blessed the LORD, the God of their fathers, and bowed low and prostrated themselves before the LORD and the king.",
+      "translator_notes": [
+        "David's command barekhu na et YHWH ('now bless the LORD your God') is a call to worship. The response is total: vayyiqdu vayyishtachavu ('they bowed and prostrated themselves') before both God and the king. The double object — la-YHWH ve-la-melekh ('to the LORD and to the king') — is not idolatry but the recognition that the king represents God's authority on earth. The prostration acknowledges divine sovereignty expressed through human kingship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיִּזְבְּח֣וּ לַיהוָ֣ה ׀ זְ֠בָחִ֠ים וַיַּעֲל֨וּ עֹל֜וֹת לַיהוָ֗ה לְֽמׇחֳרַ֣ת ׀ הַיּ֣וֹם הַה֗וּא פָּרִ֨ים אֶ֤לֶף אֵילִים֙ אֶ֔לֶף כְּבָשִׂ֥ים אֶ֖לֶף וְנִסְכֵּיהֶ֑ם וּזְבָחִ֥ים לָרֹ֖ב לְכׇל־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And they sacrificed sacrifices unto the LORD, and offered burnt offerings unto the LORD, on the morrow after that day, even a thousand bullocks, a thousand rams, and a thousand lambs, with their drink offerings, and sacrifices in abundance for all Israel:",
+      "rendering": "They offered sacrifices to the LORD and presented burnt offerings to the LORD on the next day: a thousand bulls, a thousand rams, a thousand lambs, with their drink offerings, and abundant sacrifices for all Israel.",
+      "translator_notes": [
+        "The numbers are symmetrical — a thousand of each sacrificial category: parim ('bulls'), elim ('rams'), kevasim ('lambs'). The threefold thousand creates a sacrificial abundance that mirrors the monetary abundance of the preceding verses. The phrase u-zevachim la-rov le-khol Yisra'el ('abundant sacrifices for all Israel') indicates communal feasting — everyone eats from the peace offerings."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיֹּאכְל֨וּ וַיִּשְׁתּ֜וּ לִפְנֵ֤י יְהוָה֙ בַּיּ֣וֹם הַה֔וּא בְּשִׂמְחָ֖ה גְדוֹלָ֑ה וַ֠יַּמְלִ֠יכוּ שֵׁנִ֨ית לִשְׁלֹמֹ֤ה בֶן־דָּוִיד֙ וַיִּמְשְׁח֤וּ לַיהוָה֙ לְנָגִ֔יד וּלְצָד֖וֹק לְכֹהֵֽן׃",
+      "text_kjv": "And did eat and drink before the LORD on that day with great gladness. And they made Solomon the son of David king the second time, and anointed him unto the LORD to be the chief governor, and Zadok to be priest.",
+      "rendering": "They ate and drank before the LORD on that day with great joy. They made Solomon son of David king a second time, anointing him before the LORD as ruler, and Zadok as priest.",
+      "translator_notes": [
+        "The phrase vayyamlikhu shenit ('they made king a second time') acknowledges a prior anointing — the emergency coronation in 1 Kings 1:38-40, which the Chronicler has not narrated. This second, public ceremony is the formal, ceremonial installation. Solomon is anointed le-nagid ('as ruler/prince') rather than le-melekh ('as king') — nagid emphasizes that the true king is God; Solomon is his designated leader. Zadok's anointing as priest alongside Solomon's royal anointing creates a dual installation of the two offices that will govern the Temple."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיֵּ֣שֶׁב שְׁלֹמֹ֗ה עַל־כִּסֵּ֤א יְהוָה֙ לְמֶ֔לֶךְ תַּ֥חַת דָּוִ֖יד אָבִ֑יו וַיַּצְלַ֕ח וַיִּשְׁמְע֥וּ אֵלָ֖יו כׇּל־יִשְׂרָאֵֽל׃",
+      "text_kjv": "Then Solomon sat on the throne of the LORD as king instead of David his father, and prospered; and all Israel obeyed him.",
+      "rendering": "Solomon sat on the throne of the LORD as king in place of David his father. He prospered, and all Israel obeyed him.",
+      "translator_notes": [
+        "The phrase kiseh YHWH ('the throne of the LORD') appears again (see 28:5) — Solomon does not sit on his own throne but on God's. The verb vayyatslach ('he prospered') is the Chronicler's shorthand for divine favor. The phrase vayyishme'u elav kol Yisra'el ('all Israel obeyed him') records unanimous national submission — no Adonijah crisis, no opposition, just total unity under the new king."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְכׇ֨ל הַשָּׂרִ֤ים וְהַגִּבֹּרִים֙ וְגַ֗ם כׇּל־בְּנֵי֙ הַמֶּ֣לֶךְ דָּוִ֔יד נָתְנ֥וּ יָ֖ד תַּ֥חַת שְׁלֹמֹ֖ה הַמֶּֽלֶךְ׃",
+      "text_kjv": "And all the princes, and the mighty men, and all the sons likewise of king David, submitted themselves unto Solomon the king.",
+      "rendering": "All the officials, the mighty warriors, and also all the sons of King David pledged their allegiance to King Solomon.",
+      "translator_notes": [
+        "The phrase natenu yad tachat Shelomoh ('they gave a hand under Solomon') is a gesture of submission and loyalty — placing one's hand under the new king's authority. The notation that kol benei ha-melekh David ('all the sons of King David') submitted is significant: no brother contests Solomon's rule. The Chronicler presents a seamless transition free of the fratricidal conflict recorded in 1 Kings 1-2."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיְגַדֵּ֨ל יְהוָ֤ה אֶת־שְׁלֹמֹה֙ לְמַ֔עְלָה לְעֵינֵ֖י כׇּל־יִשְׂרָאֵ֑ל וַיִּתֵּ֤ן עָלָיו֙ ה֣וֹד מַלְכ֔וּת אֲשֶׁ֥ר לֹֽא הָיָ֛ה עַל־כׇּל־מֶ֖לֶךְ לְפָנָ֥יו עַל־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And the LORD magnified Solomon exceedingly in the sight of all Israel, and bestowed upon him such royal majesty as had not been on any king before him in Israel.",
+      "rendering": "The LORD made Solomon exceedingly great in the sight of all Israel and bestowed on him royal majesty such as no king over Israel had possessed before him.",
+      "translator_notes": [
+        "The verb vaygaddel ('he made great') echoes David's prayer in verse 12, where he acknowledged that God alone has the power le-gaddel ('to make great'). The hod malkhut ('royal majesty') given to Solomon surpasses all predecessors — a statement that includes both Saul and David himself. Solomon's glory is entirely a divine gift, fulfilling the theology of verse 12."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְדָוִ֖יד בֶּן־יִשַׁ֑י מָלַ֖ךְ עַל־כׇּל־יִשְׂרָאֵֽל׃",
+      "text_kjv": "Thus David the son of Jesse reigned over all Israel.",
+      "rendering": "David son of Jesse reigned over all Israel.",
+      "translator_notes": [
+        "The death summary begins with David's full patronymic identification — David ben Yishai ('David son of Jesse'). This returns to the very beginning: David entered the narrative as Jesse's youngest son (1 Chronicles 2:13-16), and he exits as David son of Jesse who reigned over all Israel."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְהַיָּמִ֗ים אֲשֶׁ֤ר מָלַךְ֙ עַל־יִשְׂרָאֵ֔ל אַרְבָּעִ֖ים שָׁנָ֑ה בְּחֶבְר֤וֹן מָלַךְ֙ שֶׁ֣בַע שָׁנִ֔ים וּבִירוּשָׁלַ֣͏ִם מָלַ֔ךְ שְׁלֹשִׁ֥ים וְשָׁלֹ֖שׁ׃",
+      "text_kjv": "And the time that he reigned over Israel was forty years; seven years reigned he in Hebron, and thirty and three years reigned he in Jerusalem.",
+      "rendering": "The time he reigned over Israel was forty years: he reigned seven years in Hebron and thirty-three years in Jerusalem.",
+      "translator_notes": [
+        "The regnal summary matches 2 Samuel 5:4-5 exactly: forty years total, divided between Hebron (seven) and Jerusalem (thirty-three). The number forty is a complete generation — David's reign spans an entire era. The Hebron period corresponds to his kingship over Judah alone, the Jerusalem period to his rule over unified Israel."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיָּ֙מׇת֙ בְּשֵׂיבָ֣ה טוֹבָ֔ה שְׂבַ֥ע יָמִ֖ים עֹ֣שֶׁר וְכָב֑וֹד וַיִּמְלֹ֛ךְ שְׁלֹמֹ֥ה בְנ֖וֹ תַּחְתָּֽיו׃",
+      "text_kjv": "And he died in a good old age, full of days, riches, and honour: and Solomon his son reigned in his stead.",
+      "rendering": "He died at a good old age, full of days, riches, and honor. Solomon his son reigned in his place.",
+      "translator_notes": [
+        "The death formula is among the most generous in the Hebrew Bible: seivah tovah ('a good old age'), seva yamim ('full of days'), osher ve-khavod ('riches and honor'). David receives what was promised to Solomon in 1 Kings 3:13 — wealth and honor — as his own epitaph. The regnal succession formula vayyimlokh Shelomoh veno tachtav ('Solomon his son reigned in his place') completes the transition. The Chronicler has omitted the deathbed intrigue of 1 Kings 1-2 entirely — David dies in peace, dignity, and fullness."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְדִבְרֵי֙ דָּוִ֣יד הַמֶּ֔לֶךְ הָרִאשֹׁנִ֖ים וְהָאַחֲרֹנִ֑ים הִנָּ֣ם כְּתוּבִ֗ים עַל־דִּבְרֵי֙ שְׁמוּאֵ֣ל הָרֹאֶ֔ה וְעַל־דִּבְרֵי֙ נָתָ֣ן הַנָּבִ֔יא וְעַל־דִּבְרֵ֖י גָּ֥ד הַחֹזֶֽה׃",
+      "text_kjv": "Now the acts of David the king, first and last, behold, they are written in the book of Samuel the seer, and in the book of Nathan the prophet, and in the book of Gad the seer,",
+      "rendering": "The acts of King David, from first to last, are written in the records of Samuel the seer, in the records of Nathan the prophet, and in the records of Gad the seer,",
+      "translator_notes": [
+        "The Chronicler cites three prophetic sources for David's complete history: divrei Shemu'el ha-ro'eh ('the records of Samuel the seer'), divrei Natan ha-navi ('the records of Nathan the prophet'), and divrei Gad ha-chozeh ('the records of Gad the seer'). Three different prophetic titles — ro'eh ('seer'), navi ('prophet'), and chozeh ('visionary/seer') — suggest these were distinct written works. None survive independently, though their content may be partially preserved in 1-2 Samuel."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "עִ֥ם כׇּל־מַלְכוּת֖וֹ וּגְבוּרָת֑וֹ וְהָעִתִּ֗ים אֲשֶׁ֨ר עָבְר֤וּ עָלָיו֙ וְעַל־יִשְׂרָאֵ֔ל וְעַ֖ל כׇּל־מַמְלְכ֥וֹת הָאֲרָצֽוֹת׃",
+      "text_kjv": "With all his reign and his might, and the times that went over him, and over Israel, and over all the kingdoms of the countries.",
+      "rendering": "together with the full account of his reign, his might, and the events that befell him, Israel, and all the kingdoms of the lands.",
+      "translator_notes": [
+        "The final verse expands the scope of the written sources: they contain not only David's malkhut ('reign') and gevurah ('might') but also ha-ittim asher avru alav ('the times/events that passed over him') — the full sweep of historical circumstance that shaped David's era. The reference to kol mamlakhot ha-aratsot ('all the kingdoms of the lands') places David's story in international context — his reign was not provincial but interacted with the wider world. This is the Chronicler's farewell to David: the man who entered as a shepherd boy and exits as a king whose story is inscribed in prophetic records alongside the histories of empires."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

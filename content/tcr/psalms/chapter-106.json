@@ -1,0 +1,532 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 106,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The dark mirror of Psalm 105. Where 105 celebrated God's faithfulness with Israel's failures omitted, Psalm 106 catalogs those failures in unsparing detail: rebellion at the Red Sea, craving in the wilderness, jealousy of Moses, the golden calf, refusal to enter the land, joining Baal of Peor, grumbling at Meribah, failure to destroy the Canaanite nations, child sacrifice to idols. The psalm is a national confession that spans the entire history from Egypt to exile. Yet it opens and closes with praise, and its theological center is verse 44-45: despite everything, God heard their cry and remembered His covenant.",
+    "remarkable": "Psalm 106 is the most comprehensive confession of national sin in the Psalter. It functions as a communal penitential liturgy, likely used in exile or the early post-exilic period. The psalm's genius is its honesty: it does not excuse, minimize, or explain away Israel's failures. They forgot God's works (v. 13), they were jealous of Moses (v. 16), they exchanged their glory for an image of a bull (v. 20), they sacrificed their children to demons (v. 37). The language is brutal. Yet the psalm is framed by praise — it opens with halelu Yah and hodu la-YHVH ki tov ('praise the LORD, give thanks to the LORD for He is good') and closes with a doxology and halelu Yah. The confession exists within worship. Israel's worst moments are told in God's presence, and the telling itself is an act of faith: only a people who believe in God's chesed can afford to be this honest about their failures.",
+    "friction": "The psalm's assertion that God 'gave them into the hand of the nations' (v. 41) and 'many times He delivered them, but they were rebellious' (v. 43) frames the exile as the consequence of centuries of accumulated disobedience. This raises the question of whether the generation that experienced exile was being punished for the sins of their ancestors. The psalm's answer seems to be that the pattern of sin was continuous — each generation participated in it. The closing prayer in verse 47 ('Save us, O LORD our God, and gather us from among the nations') locates the psalm in the exile or diaspora, making it a prayer for restoration based not on Israel's merit but on God's character.",
+    "connections": "The psalm parallels Nehemiah 9:5-37, another great historical confession. The golden calf episode (vv. 19-23) draws on Exodus 32 and Deuteronomy 9. The Baal Peor incident (vv. 28-31) draws on Numbers 25. The child sacrifice reference (vv. 37-38) draws on 2 Kings 16:3 and Jeremiah 7:31. The closing doxology (v. 48) marks the end of Book IV of the Psalter. Verse 1 appears in 1 Chronicles 16:34-36 as part of David's song. The phrase 'He remembered His covenant' (v. 45) echoes Psalm 105:8 and Exodus 2:24."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "הַ֥לְלוּ יָ֨הּ ׀ הוֹד֣וּ לַיהוָ֣ה כִּי־ט֑וֹב כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ׃",
+      "text_kjv": "Praise ye the LORD. O give thanks unto the LORD; for he is good: for his mercy endureth for ever.",
+      "rendering": "Praise the LORD!\nGive thanks to the LORD, for He is good,\nfor His faithful love endures forever.",
+      "translator_notes": [
+        "The psalm opens with the liturgical formula halelu Yah and the confession hodu la-YHVH ki tov ki le-olam chasdo ('give thanks to the LORD for He is good, for His faithful love is forever'). This exact phrase appears in Psalms 107:1, 118:1, 136:1, and 1 Chronicles 16:34. The confession of God's goodness and eternal chesed precedes the confession of Israel's sin — grace comes first, even in penitential liturgy."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "loyal love, steadfast love, covenant faithfulness, kindness, mercy, devotion",
+          "note": "The psalm opens and will eventually return to chesed (v. 45). The entire catalog of Israel's sins is bracketed by God's faithful love — sin is real, but chesed outlasts it."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "מִ֗י יְ֭מַלֵּל גְּבוּר֣וֹת יְהוָ֑ה יַ֝שְׁמִ֗יעַ כׇּל־תְּהִלָּתֽוֹ׃",
+      "text_kjv": "Who can utter the mighty acts of the LORD? who can shew forth all his praise?",
+      "rendering": "Who can recount the mighty acts of the LORD\nor declare all His praise?",
+      "translator_notes": [
+        "The rhetorical question mi yemallel gevurot YHVH ('who can speak the mighty acts of the LORD?') acknowledges that God's acts exceed human capacity to narrate them. The verb mallel ('to speak, to recount') means that even the longest psalm cannot exhaust the subject."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אַ֭שְׁרֵי שֹׁמְרֵ֣י מִשְׁפָּ֑ט עֹשֵׂ֖ה צְדָקָ֣ה בְכׇל־עֵֽת׃",
+      "text_kjv": "Blessed are they that keep judgment, and he that doeth righteousness at all times.",
+      "rendering": "Blessed are those who maintain justice,\nwho practice righteousness at all times.",
+      "translator_notes": [
+        "The beatitude ashrei shomerei mishpat ('blessed are the keepers of justice') sets the standard that the rest of the psalm will show Israel failing to meet. The phrase oseh tsedaqah be-khol et ('doing righteousness at all times') is the ideal — continuous, unfailing obedience. The psalm will now demonstrate that Israel achieved this at almost no point in their history."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "זׇכְרֵ֣נִי יְ֭הוָה בִּרְצ֣וֹן עַמֶּ֑ךָ פׇּ֝קְדֵ֗נִי בִּישׁוּעָתֶֽךָ׃",
+      "text_kjv": "Remember me, O LORD, with the favour that thou bearest unto thy people: O visit me with thy salvation;",
+      "rendering": "Remember me, O LORD, with the favor you show your people;\nvisit me with your salvation,",
+      "translator_notes": [
+        "The psalmist makes a personal request within the communal psalm: zokhreini YHVH ('remember me, LORD'). The verb paqdeini ('visit me') uses paqad, which means to attend to, to take note of, to act on behalf of. The psalmist asks to be included in the favor (ratson) God shows His people and in the salvation (yeshu'ah) God provides."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "לִרְאוֹת֮ בְּטוֹבַ֢ת בְּחִ֫ירֶ֥יךָ לִ֭שְׂמֹחַ בְּשִׂמְחַ֣ת גּוֹיֶ֑ךָ לְ֝הִתְהַלֵּ֗ל עִם־נַחֲלָתֶֽךָ׃",
+      "text_kjv": "That I may see the good of thy chosen, that I may rejoice in the gladness of thy nation, that I may glory with thine inheritance.",
+      "rendering": "that I may see the prosperity of your chosen ones,\nthat I may rejoice in the gladness of your nation,\nthat I may boast with your inheritance.",
+      "translator_notes": [
+        "Three purpose clauses: lir'ot ('to see'), lismo'ach ('to rejoice'), lehithallel ('to boast'). The psalmist wants to witness God's goodness to Israel, participate in the nation's joy, and share in the glory of being God's nachalah ('inheritance, possession'). This personal prayer frames the communal confession that follows."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "חָטָ֥אנוּ עִם־אֲבוֹתֵ֑ינוּ הֶ֝עֱוִ֗ינוּ הִרְשָֽׁעְנוּ׃",
+      "text_kjv": "We have sinned with our fathers, we have committed iniquity, we have done wickedly.",
+      "rendering": "We have sinned along with our ancestors;\nwe have done wrong; we have acted wickedly.",
+      "expanded_rendering": "The confession begins with three verbs that cover the full range of moral failure: chatanu ('we sinned,' from chata, 'to miss the mark'), he'evinu ('we did wrong,' from avah, 'to bend, to distort'), hirsha'nu ('we acted wickedly,' from rasha, 'to be guilty, to condemn'). The phrase im avoteinu ('with our ancestors') is crucial: the current generation does not merely inherit guilt but participates in the same pattern. The confession is not 'they sinned' but 'we sinned with them.' Solidarity across generations in both sin and confession.",
+      "translator_notes": [
+        "The three sin-verbs (chata, avah, rasha) correspond to the three sin-nouns in Psalm 103:10-12 (chet, avon, pesha). What Psalm 103 celebrated God forgiving, Psalm 106 confesses Israel committing. The two psalms are in theological conversation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "אֲב֘וֹתֵ֤ינוּ בְמִצְרַ֗יִם לֹא־הִשְׂכִּ֣ילוּ נִ֭פְלְאוֹתֶיךָ לֹ֣א זָכְר֗וּ אֶת־רֹ֥ב חֲסָדֶ֑יךָ וַיַּמְר֖וּ עַל־יָ֣ם בְּיַם־סֽוּף׃",
+      "text_kjv": "Our fathers understood not thy wonders in Egypt; they remembered not the multitude of thy mercies; but provoked him at the sea, even at the Red sea.",
+      "rendering": "Our ancestors in Egypt did not grasp your wonders;\nthey did not remember the abundance of your faithful love,\nbut rebelled at the sea, at the Sea of Reeds.",
+      "translator_notes": [
+        "The first failure: lo hiskilu nifle'otekha ('they did not understand your wonders') — Israel saw the plagues but did not comprehend their meaning. The phrase lo zakheru et rov chasadekha ('they did not remember the multitude of your faithful loves') uses the plural of chesed — God's faithful love was manifold, and Israel forgot all of it. The rebellion at the yam suf ('Sea of Reeds') refers to Exodus 14:11-12, where Israel complained that Moses had brought them to die in the wilderness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַ֭יּוֹשִׁיעֵם לְמַ֣עַן שְׁמ֑וֹ לְ֝הוֹדִ֗יעַ אֶת־גְּבוּרָתֽוֹ׃",
+      "text_kjv": "Nevertheless he saved them for his name's sake, that he might make his mighty power to be known.",
+      "rendering": "Yet He saved them for His name's sake,\nto make His mighty power known.",
+      "translator_notes": [
+        "The pattern that will repeat throughout the psalm: Israel sins, yet God saves. The motivation is le-ma'an shemo ('for His name's sake') — not for Israel's merit but for God's own reputation. The phrase lehodi'a et gevurato ('to make known His might') means the salvation was a display of divine power intended for witness beyond Israel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיִּגְעַ֣ר בְּיַם־ס֭וּף וַיֶּחֱרָ֑ב וַ֝יּוֹלִיכֵ֗ם בַּתְּהֹמ֥וֹת כַּמִּדְבָּֽר׃",
+      "text_kjv": "He rebuked the Red sea also, and it was dried up: so he led them through the depths, as through the wilderness.",
+      "rendering": "He rebuked the Sea of Reeds and it dried up;\nHe led them through the depths as through a desert.",
+      "translator_notes": [
+        "God rebuked (vayyig'ar) the sea as He rebuked the waters in Psalm 104:7 — the same authority over chaos. The tehomot ('depths, abysses') through which Israel walked became like a midbar ('desert, wilderness') — dry ground in the middle of the ocean. The imagery collapses the distinction between land and sea: where God commands, any terrain becomes walkable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַ֭יּוֹשִׁיעֵם מִיַּ֣ד שׂוֹנֵ֑א וַ֝יִּגְאָלֵ֗ם מִיַּ֥ד אוֹיֵֽב׃",
+      "text_kjv": "And he saved them from the hand of him that hated them, and redeemed them from the hand of the enemy.",
+      "rendering": "He saved them from the hand of the foe\nand redeemed them from the hand of the enemy.",
+      "translator_notes": [
+        "The verb vayyoshi'em ('He saved them') and vayyig'alem ('He redeemed them') pair salvation with redemption. The go'el concept from Psalm 103:4 returns — God acts as kinsman-redeemer, buying Israel back from the enemy's grasp."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיְכַסּוּ־מַ֥יִם צָרֵיהֶ֑ם אֶחָ֖ד מֵהֶ֣ם לֹ֣א נוֹתָֽר׃",
+      "text_kjv": "And the waters covered their enemies: there was not one of them left.",
+      "rendering": "The waters covered their adversaries;\nnot one of them survived.",
+      "translator_notes": [
+        "The sea that parted for Israel closed over their enemies: echad mehem lo notar ('not one of them remained'). The totality is emphatic — the destruction was complete. The same waters that served as walls for Israel became a grave for Egypt."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיַּאֲמִ֥ינוּ בִדְבָרָ֑יו יָ֝שִׁ֗ירוּ תְּהִלָּתֽוֹ׃",
+      "text_kjv": "Then believed they his words; they sang his praise.",
+      "rendering": "Then they believed His words;\nthey sang His praise.",
+      "translator_notes": [
+        "Brief, conditional faith: vayyaaminu vidvarav ('they believed His words') — but only after seeing the miracle. The singing (yashiru tehillato) refers to the Song of the Sea (Exodus 15). The psalm will immediately show how short-lived this faith was."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "מִ֭הֲרוּ שָׁכְח֣וּ מַעֲשָׂ֑יו לֹֽא־חִ֝כּ֗וּ לַעֲצָתֽוֹ׃",
+      "text_kjv": "They soon forgat his works; they waited not for his counsel:",
+      "rendering": "They quickly forgot His works;\nthey did not wait for His counsel.",
+      "translator_notes": [
+        "The verb miharu ('they hurried') modifies the forgetting — they forgot quickly (shahekhu ma'asav). The phrase lo chikku la'atsato ('they did not wait for His counsel') means impatience drove their rebellion. They wanted answers and provision on their schedule, not God's. Speed of forgetting is the measure of shallow faith."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיִּתְאַוּ֣וּ תַ֭אֲוָה בַּמִּדְבָּ֑ר וַיְנַסּ֖וּ אֵ֣ל בִּישִׁימֽוֹן׃",
+      "text_kjv": "But lusted exceedingly in the wilderness, and tempted God in the desert.",
+      "rendering": "They craved intensely in the wilderness\nand tested God in the wasteland.",
+      "translator_notes": [
+        "The phrase vayyit'avvu ta'avah ('they desired a desire, they craved a craving') is an intensified form — the cognate accusative emphasizes the force of the desire. The reference is to Numbers 11:4-6, the craving for meat. The verb vayyenassu ('they tested') means they put God on trial, demanding proof of His ability and willingness to provide."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיִּתֵּ֣ן לָ֭הֶם שֶׁאֱלָתָ֑ם וַיְשַׁלַּ֖ח רָז֣וֹן בְּנַפְשָֽׁם׃",
+      "text_kjv": "And he gave them their request; but sent leanness into their soul.",
+      "rendering": "He gave them what they asked for,\nbut sent a wasting disease into their souls.",
+      "translator_notes": [
+        "The word razon is debated — it could mean physical illness (Numbers 11:33, where a plague struck those who ate the quail) or spiritual emptiness. Both readings are theologically productive. The principle is the same: desire fulfilled outside God's timing and will produces not satisfaction but wasting."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיְקַנְא֣וּ לְ֭מֹשֶׁה בַּֽמַּחֲנֶ֑ה לְ֝אַהֲרֹ֗ן קְד֣וֹשׁ יְהוָֽה׃",
+      "text_kjv": "They envied Moses also in the camp, and Aaron the saint of the LORD.",
+      "rendering": "They were jealous of Moses in the camp,\nof Aaron, the holy one of the LORD.",
+      "translator_notes": [
+        "The verb vayyeqan'u ('they were jealous') introduces the Korah rebellion (Numbers 16). The jealousy targeted Moses' authority and Aaron's priestly status as qedosh YHVH ('the holy one of the LORD'). The title qedosh designates Aaron as set apart by God — the jealousy is ultimately against God's appointments, not merely human leaders."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "תִּפְתַּח־אֶ֭רֶץ וַתִּבְלַ֣ע דָּתָ֑ן וַ֝תְּכַ֗ס עַל־עֲדַ֥ת אֲבִירָֽם׃",
+      "text_kjv": "The earth opened and swallowed up Dathan, and covered the company of Abiram.",
+      "rendering": "The earth opened and swallowed Dathan\nand covered the assembly of Abiram.",
+      "translator_notes": [
+        "The earth itself executed judgment: tiftach erets vattiblah Datan ('the earth opened and swallowed Dathan'). The reference is Numbers 16:31-33. The verb bala ('to swallow') pictures the ground consuming the rebels like a mouth. The addat Aviram ('assembly of Abiram') was covered (vattekhas) — buried alive. The creation that Psalm 104 celebrated now serves as instrument of judgment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַתִּבְעַר־אֵ֥שׁ בַּעֲדָתָ֑ם לֶ֝הָבָ֗ה תְּלַהֵ֥ט רְשָׁעִֽים׃",
+      "text_kjv": "And a fire was kindled in their company; the flame burned up the wicked.",
+      "rendering": "Fire blazed among their assembly;\na flame consumed the wicked.",
+      "translator_notes": [
+        "The fire (esh) that burned among the rebels (Numbers 16:35) is here presented as divinely directed: lehavah tellahet resha'im ('a flame devoured the wicked'). The 250 men who offered unauthorized incense were consumed by fire from the LORD."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "יַעֲשׂ֣וּ עֵ֣גֶל בְּחֹרֵ֑ב וַ֝יִּשְׁתַּחֲו֗וּ לְמַסֵּכָֽה׃",
+      "text_kjv": "They made a calf in Horeb, and worshipped the molten image.",
+      "rendering": "They made a calf at Horeb\nand worshipped a cast image.",
+      "translator_notes": [
+        "The golden calf: ya'asu egel be-Chorev ('they made a calf at Horeb'). The mountain of revelation became the mountain of idolatry. The massekah ('cast image, molten idol') is the work of human hands substituted for the invisible God. The verb vayyishtachavu ('they bowed down') — the posture of worship directed toward a metal animal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיָּמִ֥ירוּ אֶת־כְּבוֹדָ֑ם בְּתַבְנִ֥ית שׁ֝֗וֹר אֹכֵ֥ל עֵֽשֶׂב׃",
+      "text_kjv": "Thus they changed their glory into the similitude of an ox that eateth grass.",
+      "rendering": "They exchanged their glory\nfor the image of a bull that eats grass.",
+      "expanded_rendering": "The phrase vayyamiru et kevodam ('they exchanged their glory') is devastating. The kevodam ('their glory') refers to God Himself — the glory that appeared on Sinai, the kavod that was Israel's unique possession. They traded it for be-tavnit shor okhel esev ('the form of a bull that eats grass'). The reductio is deliberate: the God who made the heavens and the earth is replaced by a representation of an animal that eats grass. Paul quotes this verse in Romans 1:23 to describe humanity's universal exchange of God's glory for created images. The psalm's judgment is aesthetic as well as theological: the exchange was absurd. They traded infinite glory for a grass-eating animal.",
+      "translator_notes": [
+        "The word tavnit ('form, pattern, image') means they did not merely make an idol but created a representation — they reduced the unrepresentable God to a visible form. The specification okhel esev ('eating grass') is the psalm's contemptuous detail: the 'god' they made was herbivorous."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כָּבוֹד",
+          "transliteration": "kavod",
+          "rendered_as": "glory",
+          "semantic_range": "glory, honor, weight, heaviness, splendor, radiance, the manifest presence of God",
+          "note": "Here kavod refers to God as Israel's glory — their greatest possession, their distinction among the nations. To exchange it for an idol is to trade the infinite for the finite, the Creator for a creature."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "שָׁ֭כְחוּ אֵ֣ל מוֹשִׁיעָ֑ם הָעֹשֶׂ֖ה גְדֹל֣וֹת בְּמִצְרָֽיִם׃",
+      "text_kjv": "They forgat God their saviour, which had done great things in Egypt;",
+      "rendering": "They forgot God their savior,\nwho had done great things in Egypt,",
+      "translator_notes": [
+        "The verb shakhekhu ('they forgot') echoes verse 13 — forgetting is Israel's habitual sin. The God they forgot is El moshi'am ('God their savior, the God who delivers them'). The irony is extreme: they forgot the One who had just done gedolot ('great things') in Egypt. The proximity between salvation and forgetting measures the shallowness of Israel's memory."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "נִ֭פְלָאוֹת בְּאֶ֣רֶץ חָ֑ם נ֝וֹרָא֗וֹת עַל־יַם־סֽוּף׃",
+      "text_kjv": "Wondrous works in the land of Ham, and terrible things by the Red sea.",
+      "rendering": "wonders in the land of Ham,\nterrible deeds at the Sea of Reeds.",
+      "translator_notes": [
+        "The nifla'ot ('wonders') in Egypt and nora'ot ('terrible things, awesome acts') at the Sea of Reeds are the very events the psalm described in verses 7-11. The repetition emphasizes the magnitude of what Israel forgot."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיֹּ֗אמֶר לְֽהַשְׁמִ֫ידָ֥ם לוּלֵ֡י מֹ֘שֶׁ֤ה בְחִיר֗וֹ עָמַ֣ד בַּפֶּ֣רֶץ לְפָנָ֑יו לְהָשִׁ֥יב חֲ֝מָת֗וֹ מֵהַשְׁחִֽית׃",
+      "text_kjv": "Therefore he said that he would destroy them, had not Moses his chosen stood before him in the breach, to turn away his wrath, lest he should destroy them.",
+      "rendering": "So He said He would destroy them —\nhad not Moses, His chosen one,\nstood in the breach before Him\nto turn His wrath from destroying them.",
+      "expanded_rendering": "God declared His intention: vayyomer lehashmidam ('He said He would destroy them'). The verb hishmid ('to destroy, to annihilate') is the language of total destruction. But Moses intervened: amad bapperets lefanav ('he stood in the breach before Him'). The perets ('breach, gap') is a military metaphor — a broken section in a city wall through which the enemy pours. Moses stood in the gap between God's wrath and Israel's destruction, absorbing the force of both. The phrase lehashiv chamato ('to turn back His wrath') means Moses' intercession literally redirected divine anger. This is the Exodus 32:11-14 moment condensed into one verse. Moses is called bechiro ('His chosen one') — God chose Moses, and Moses used that election to save the people from God's own judgment.",
+      "translator_notes": [
+        "The image of standing in the breach (perets) became a standard metaphor for intercessory prayer. Ezekiel 22:30 uses the same image: God sought someone to stand in the gap, and found no one. Moses is the paradigmatic intercessor — the one person whose prayer could halt divine judgment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיִּמְאֲס֗וּ בְּ֭אֶרֶץ חֶמְדָּ֑ה לֹא־הֶ֝אֱמִ֗ינוּ לִדְבָרֽוֹ׃",
+      "text_kjv": "Yea, they despised the pleasant land, they believed not his word;",
+      "rendering": "They rejected the desirable land;\nthey did not believe His word.",
+      "translator_notes": [
+        "The verb vayyim'asu ('they rejected, they despised') is applied to erets chemdah ('the desirable land, the land of delight'). The reference is Numbers 13-14: the spies returned with a report of giants, and the people refused to enter. The phrase lo he'eminu lidvaro ('they did not believe His word') identifies the root cause: unbelief. God had promised the land; they did not believe the promise. The rejection of the land is ultimately a rejection of God's word."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיֵּרָגְנ֥וּ בְאׇהֳלֵיהֶ֑ם לֹ֥א שָׁ֝מְע֗וּ בְּק֣וֹל יְהוָֽה׃",
+      "text_kjv": "But murmured in their tents, and hearkened not unto the voice of the LORD.",
+      "rendering": "They grumbled in their tents;\nthey did not listen to the voice of the LORD.",
+      "translator_notes": [
+        "The verb vayyeragenu ('they grumbled, they murmured') uses ragan, a word for discontented whispering — the kind of complaint that spreads through a camp tent by tent. The phrase be-oholeihem ('in their tents') locates the grumbling in private spaces — it was not public protest but corrosive private complaint. They would not listen (lo shame'u) to God's voice."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיִּשָּׂ֣א יָד֣וֹ לָהֶ֑ם לְהַפִּ֥יל א֝וֹתָ֗ם בַּמִּדְבָּֽר׃",
+      "text_kjv": "Therefore he lifted up his hand against them, to overthrow them in the wilderness;",
+      "rendering": "So He raised His hand against them,\nswearing to make them fall in the wilderness,",
+      "translator_notes": [
+        "The phrase vayyissa yado ('He raised His hand') is an oath gesture — God swore with an uplifted hand. The content of the oath: lehappil otam bamidbar ('to make them fall in the wilderness'). This is the judgment of Numbers 14:29-35: the exodus generation would die in the wilderness and never enter the land."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וּלְהַפִּ֣יל זַ֭רְעָם בַּגּוֹיִ֑ם וּ֝לְזָרוֹתָ֗ם בָּאֲרָצֽוֹת׃",
+      "text_kjv": "To overthrow their seed also among the nations, and to scatter them in the lands.",
+      "rendering": "to cast down their offspring among the nations\nand to scatter them across the lands.",
+      "translator_notes": [
+        "The judgment extends beyond the wilderness generation: u-lehappil zar'am baggoyim ('to make their seed fall among the nations'). The verb lezarotam ('to scatter them') points to the exile — the diaspora is foreshadowed here as a consequence of the same pattern of unbelief that characterized the wilderness generation. The psalm reads exile as the long-delayed consequence of Kadesh Barnea."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַ֭יִּצָּמְדוּ לְבַ֣עַל פְּע֑וֹר וַ֝יֹּאכְל֗וּ זִבְחֵ֥י מֵתִֽים׃",
+      "text_kjv": "They joined themselves also unto Baalpeor, and ate the sacrifices of the dead.",
+      "rendering": "They yoked themselves to Baal of Peor\nand ate sacrifices offered to the dead.",
+      "translator_notes": [
+        "The verb vayyitsamdu ('they yoked themselves, they attached themselves') uses tsamad, a word for binding or yoking — Israel bound itself to a foreign deity the way an ox is yoked to a plow. Ba'al Pe'or was a Moabite deity associated with the incident of Numbers 25. The phrase zivchei metim ('sacrifices of the dead') means either sacrifices offered to dead gods (idols) or sacrifices associated with death cults. Either way, Israel ate what was offered to that which is not God."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַ֭יַּכְעִיסוּ בְּמַעַלְלֵיהֶ֑ם וַתִּפְרׇץ־בָּ֝֗ם מַגֵּפָֽה׃",
+      "text_kjv": "Thus they provoked him to anger with their inventions: and the plague brake in upon them.",
+      "rendering": "They provoked Him with their deeds,\nand a plague broke out among them.",
+      "translator_notes": [
+        "The verb vayyakh'isu ('they provoked, they angered') uses ka'as, the word for deep vexation. The ma'alaleihem ('their deeds, their practices') refers to the sexual and cultic participation with Moab. The maggefah ('plague, striking') that broke out killed 24,000 (Numbers 25:9)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיַּעֲמֹ֣ד פִּ֭ינְחָס וַיְפַלֵּ֑ל וַ֝תֵּעָצַ֗ר הַמַּגֵּפָֽה׃",
+      "text_kjv": "Then stood up Phinehas, and executed judgment: and so the plague was stayed.",
+      "rendering": "Then Phinehas stood up and intervened,\nand the plague was stopped.",
+      "translator_notes": [
+        "Phinehas (Pinchas) is the second intercessor after Moses. The verb vayefallel ('he intervened, he judged, he interceded') can mean judicial execution or intercessory prayer — in Numbers 25:7-8, Phinehas drove a spear through the Israelite man and the Midianite woman. The plague stopped (vatte'atsar) because of his decisive action. Like Moses in verse 23, one person's intervention saved the nation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַתֵּחָ֣שֶׁב ל֭וֹ לִצְדָקָ֑ה לְדֹ֥ר וָ֝דֹ֗ר עַד־עוֹלָֽם׃",
+      "text_kjv": "And that was counted unto him for righteousness unto all generations for evermore.",
+      "rendering": "It was credited to him as righteousness\nfor all generations forever.",
+      "translator_notes": [
+        "The phrase vattechasev lo litsedaqah ('it was counted to him as righteousness') uses the same language as Genesis 15:6 (Abraham 'believed the LORD, and He credited it to him as righteousness'). Phinehas' act of zeal was evaluated by God as tsedaqah — righteous action. The scope is le-dor va-dor ad olam ('to generation and generation forever'). Numbers 25:12-13 confirms this: God gave Phinehas a covenant of perpetual priesthood."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַ֭יַּקְצִיפוּ עַל־מֵ֣י מְרִיבָ֑ה וַיֵּ֥רַע לְ֝מֹשֶׁ֗ה בַּעֲבוּרָֽם׃",
+      "text_kjv": "They angered him also at the waters of strife, so that it went ill with Moses for their sakes:",
+      "rendering": "They angered God at the waters of Meribah,\nand it went badly for Moses on their account.",
+      "translator_notes": [
+        "The mei Merivah ('waters of Meribah/Strife') refers to Numbers 20:1-13. The people's quarreling (riv) at Meribah provoked God, but the consequence fell on Moses: vayyera le-Mosheh ba'avuram ('it went badly for Moses because of them'). Moses struck the rock instead of speaking to it and was barred from entering the land. The people's sin caused Moses' punishment — collective sin has individual casualties."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "כִּי־הִמְר֥וּ אֶת־רוּח֑וֹ וַ֝יְבַטֵּ֗א בִּשְׂפָתָֽיו׃",
+      "text_kjv": "Because they provoked his spirit, so that he spake unadvisedly with his lips.",
+      "rendering": "For they embittered his spirit,\nand he spoke rashly with his lips.",
+      "translator_notes": [
+        "The verb himru ('they embittered, they rebelled against') has God's spirit as its object in some readings, or Moses' spirit in others. The result: vayvatte bishfatav ('he spoke rashly with his lips'). Moses, the paradigmatic intercessor, was provoked into rash speech. The phrase acknowledges that even the greatest leader can be broken by sustained rebellion. Numbers 20:10 ('Listen, you rebels!') is the rash speech in view."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "לֹֽא־הִ֭שְׁמִידוּ אֶת־הָ֣עַמִּ֑ים אֲשֶׁ֤ר אָמַ֖ר יְהוָ֣ה לָהֶֽם׃",
+      "text_kjv": "They did not destroy the nations, concerning whom the LORD commanded them:",
+      "rendering": "They did not destroy the peoples\nas the LORD had commanded them.",
+      "translator_notes": [
+        "The scene shifts to the conquest and settlement period. Israel failed to carry out the herem ('devoted destruction') commanded in Deuteronomy 7:1-2. The verb lo hishmidu ('they did not destroy') is a direct indictment of disobedience."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיִּתְעָרְב֥וּ בַגּוֹיִ֑ם וַ֝יִּלְמְד֗וּ מַעֲשֵׂיהֶֽם׃",
+      "text_kjv": "But were mingled among the heathen, and learned their works.",
+      "rendering": "They mingled with the nations\nand learned their practices.",
+      "translator_notes": [
+        "The verb vayyit'arevu ('they mingled, they mixed') indicates social and cultural integration. The result: vayyilmedu ma'aseihem ('they learned their practices'). The knowledge was not neutral — it was adoption. Israel absorbed the religious practices of the surrounding nations. What Deuteronomy warned against (7:3-4) happened precisely as predicted."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיַּעַבְד֥וּ אֶת־עֲצַבֵּיהֶ֑ם וַיִּהְי֖וּ לָהֶ֣ם לְמוֹקֵֽשׁ׃",
+      "text_kjv": "And they served their idols: which were a snare unto them.",
+      "rendering": "They served their idols,\nwhich became a snare to them.",
+      "translator_notes": [
+        "The atsabbeihem ('their idols') is from the root atsav ('to shape, to form, to grieve') — idols are both shaped things and sources of grief. The metaphor moqesh ('a snare, a trap') means the idols that seemed harmless became instruments of entrapment. Israel could not free itself once caught."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וַיִּזְבְּח֣וּ אֶת־בְּנֵיהֶ֣ם וְאֶת־בְּנוֹתֵיהֶ֑ם לַשֵּׁדִֽים׃",
+      "text_kjv": "Yea, they sacrificed their sons and their daughters unto devils,",
+      "rendering": "They sacrificed their sons\nand their daughters to demons.",
+      "translator_notes": [
+        "The darkest verse in the psalm: vayyizbechu et beneihem ve-et benoteihem ('they sacrificed their sons and their daughters'). The recipients are lashedim ('to demons') — the word shed appears only here and in Deuteronomy 32:17 in the Hebrew Bible. Child sacrifice is attested in 2 Kings 16:3, 17:17, and 21:6. The psalm presents it as the logical terminus of idolatry: begin by serving idols, end by killing your children for them."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיִּשְׁפְּכ֨וּ דָ֪ם נָקִ֡י דַּם־בְּ֭נֵיהֶם וּבְנ֘וֹתֵיהֶ֤ם ׀ אֲ‍ֽשֶׁ֣ר זִ֭בְּחוּ לַעֲצַבֵּ֣י כְנָ֑עַן וַתֶּחֱנַ֖ף הָאָ֣רֶץ בַּדָּמִֽים׃",
+      "text_kjv": "And shed innocent blood, even the blood of their sons and of their daughters, whom they sacrificed unto the idols of Canaan: and the land was polluted with blood.",
+      "rendering": "They poured out innocent blood —\nthe blood of their sons and daughters,\nwhom they sacrificed to the idols of Canaan —\nand the land was polluted with blood.",
+      "translator_notes": [
+        "The phrase dam naqi ('innocent blood') is the legal term for the blood of those who have committed no crime. The children are innocent; their blood pollutes the land. The verb vattechenaf ('it was polluted, it was defiled') uses chanef, meaning the land itself became profane, contaminated. In Leviticus 18:25, the land vomits out inhabitants who defile it. The psalm traces the path from idolatry to child sacrifice to land pollution to exile — a chain of escalating defilement."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיִּטְמְא֥וּ בְמַעֲשֵׂיהֶ֑ם וַ֝יִּזְנ֗וּ בְּמַעַלְלֵיהֶֽם׃",
+      "text_kjv": "Thus were they defiled with their own works, and went a whoring with their own inventions.",
+      "rendering": "They defiled themselves by their deeds\nand prostituted themselves by their practices.",
+      "translator_notes": [
+        "The verb vayyitme'u ('they defiled themselves') uses tame ('unclean, impure') — ritual and moral defilement. The verb vayyiznu ('they prostituted themselves') uses zanah ('to commit sexual immorality, to be unfaithful'). In prophetic literature, idolatry is consistently described as sexual infidelity — Israel is God's wife, and worship of other gods is adultery. The psalm uses the same metaphor."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַיִּחַר־אַ֣ף יְהוָ֣ה בְּעַמּ֑וֹ וַ֝יְתָעֵ֗ב אֶת־נַחֲלָתֽוֹ׃",
+      "text_kjv": "Therefore was the wrath of the LORD kindled against his people, insomuch that he abhorred his own inheritance.",
+      "rendering": "Then the anger of the LORD burned against His people,\nand He abhorred His own inheritance.",
+      "translator_notes": [
+        "The phrase vayyichar af YHVH ('the anger of the LORD burned') is the standard expression for divine wrath. The word vayyeta'ev ('He abhorred, He found detestable') is extreme — God found His own nachalatoh ('His inheritance, His possession') repulsive. The people God chose, the people God redeemed, the people God loved became detestable to Him through their sin. This is the low point of the psalm."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַ֭יִּתְּנֵם בְּיַד־גּוֹיִ֑ם וַיִּמְשְׁל֥וּ בָ֝הֶ֗ם שֹׂנְאֵיהֶֽם׃",
+      "text_kjv": "And he gave them into the hand of the heathen; and they that hated them ruled over them.",
+      "rendering": "He gave them into the hand of the nations,\nand those who hated them ruled over them.",
+      "translator_notes": [
+        "The verb vayyittenem ('He gave them') means God actively handed Israel over to foreign power. This is the theology of the book of Judges compressed: Israel's subjection to foreign nations is not random political misfortune but divine judgment. The phrase vayyimshelu vahem son'eihem ('their enemies ruled over them') describes the exile as God's deliberate act."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וַיִּלְחָצ֥וּם א֫וֹיְבֵיהֶ֑ם וַ֝יִּכָּנְע֗וּ תַּ֣חַת יָדָֽם׃",
+      "text_kjv": "Their enemies also oppressed them, and they were brought into subjection under their hand.",
+      "rendering": "Their enemies oppressed them,\nand they were subdued under their hand.",
+      "translator_notes": [
+        "The verb vayyilchatsum ('they oppressed them, they pressed them') uses lachats, the same word used for Egypt's oppression of Israel in Exodus 3:9. The cycle is tragic: the people God freed from oppression now experience oppression again — this time as divine judgment, not Pharaoh's cruelty."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "פְּעָמִ֥ים רַבּ֗וֹת יַ֫צִּילֵ֥ם וְ֭הֵמָּה יַמְר֣וּ בַעֲצָתָ֑ם וַ֝יָּמֹ֗כּוּ בַּעֲוֺנָֽם׃",
+      "text_kjv": "Many times did he deliver them; but they provoked him with their counsel, and were brought low for their iniquity.",
+      "rendering": "Many times He rescued them,\nbut they were rebellious in their purposes\nand sank low through their iniquity.",
+      "translator_notes": [
+        "The phrase pe'amim rabbot yatsilem ('many times He delivered them') summarizes the entire Judges cycle: sin, oppression, crying out, deliverance — repeated endlessly. The conjunction ve-hemmah yamru va'atsatam ('but they rebelled in their plans') shows the pattern was unbreakable from the human side. The verb vayyamokku ('they sank low, they were brought low') uses makakh, a word for decay and decline. Each cycle of rebellion brought Israel lower."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וַ֭יַּרְא בַּצַּ֣ר לָהֶ֑ם בְּ֝שׇׁמְע֗וֹ אֶת־רִנָּתָֽם׃",
+      "text_kjv": "Nevertheless he regarded their affliction, when he heard their cry:",
+      "rendering": "But He looked on their distress\nwhen He heard their cry.",
+      "translator_notes": [
+        "The great 'but': vayyar batsar lahem ('He saw their distress'). Despite everything — the golden calf, the grumbling, the idolatry, the child sacrifice — when Israel cried out, God saw and heard. The verb shom'o et rinnatam ('when He heard their cry') echoes Exodus 2:24 — the same God who heard the cry in Egypt hears the cry in exile. God's responsiveness outlasts Israel's rebellion."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וַיִּזְכֹּ֣ר לָ֭הֶם בְּרִית֑וֹ וַ֝יִּנָּחֵ֗ם כְּרֹ֣ב חֲסָדָֽיו׃",
+      "text_kjv": "And he remembered for them his covenant, and repented according to the multitude of his mercies.",
+      "rendering": "He remembered His covenant for their sake\nand relented according to the abundance of His faithful love.",
+      "translator_notes": [
+        "The verb nacham applied to God is theologically significant: it does not mean God made a mistake and corrected it, but that God's response to Israel shifted from judgment to mercy. The trigger was not Israel's repentance but God's own covenant-faithfulness. chesed precedes and produces repentance; it does not wait for it."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "loyal love, steadfast love, covenant faithfulness, kindness, mercy, devotion",
+          "note": "The plural chasadav here echoes the rov chasadekha ('abundance of your faithful loves') in verse 7. The psalm has come full circle: Israel forgot the abundance of God's faithful love (v. 7), but God did not forget His covenant (v. 45). chesed outlasted the forgetting."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וַיִּתֵּ֣ן אוֹתָ֣ם לְרַחֲמִ֑ים לִ֝פְנֵ֗י כׇּל־שׁוֹבֵיהֶֽם׃",
+      "text_kjv": "He made them also to be pitied of all those that carried them captives.",
+      "rendering": "He caused all their captors\nto show them compassion.",
+      "translator_notes": [
+        "God arranged compassion (rachamim) for Israel even in captivity: vayyitten otam le-rachamim lifnei kol shoveihem ('He gave them to compassion before all who captured them'). The word shoveihem ('their captors') indicates exile is in view. Even foreign captors were moved to pity — not by Israel's appeal but by God's intervention."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "הוֹשִׁיעֵ֨נוּ ׀ יְהוָ֣ה אֱלֹהֵינוּ֮ וְקַבְּצֵ֢נוּ מִן־הַ֫גּוֹיִ֥ם לְהֹד֥וֹת לְשֵׁ֣ם קׇ֭דְשֶׁךָ לְ֝הִשְׁתַּבֵּ֗חַ בִּתְהִלָּתֶֽךָ׃",
+      "text_kjv": "Save us, O LORD our God, and gather us from among the heathen, to give thanks unto thy holy name, and to triumph in thy praise.",
+      "rendering": "Save us, O LORD our God,\nand gather us from among the nations,\nthat we may give thanks to your holy name\nand boast in your praise.",
+      "translator_notes": [
+        "The psalm turns to direct petition: hoshi'enu YHVH Eloheinu ('save us, LORD our God'). The verb qabbe-tsenu min haggoyim ('gather us from among the nations') is the prayer of the diaspora — God's people are scattered and need to be regathered. The purpose of the gathering is worship: lehodot le-shem qodshekha ('to give thanks to your holy name'). Israel wants to be saved not merely for comfort but for praise. This verse appears in 1 Chronicles 16:35."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "בָּר֤וּךְ יְהוָ֨ה אֱלֹהֵ֪י יִשְׂרָאֵ֡ל מִן־הָ֘עוֹלָ֤ם ׀ וְעַ֬ד הָעוֹלָ֗ם וְאָמַ֖ר כׇּל־הָעָ֥ם אָ֘מֵ֤ן הַֽלְלוּ־יָֽהּ׃",
+      "text_kjv": "Blessed be the LORD God of Israel from everlasting to everlasting: and let all the people say, Amen. Praise ye the LORD.",
+      "rendering": "Blessed be the LORD, the God of Israel,\nfrom everlasting to everlasting!\nAnd let all the people say, 'Amen!'\nPraise the LORD!",
+      "expanded_rendering": "The doxology that closes Book IV of the Psalter: barukh YHVH Elohei Yisra'el min ha-olam ve-ad ha-olam ('blessed be the LORD God of Israel from everlasting to everlasting'). Each of the five books of the Psalter ends with a doxology (Psalms 41:13, 72:18-19, 89:52, 106:48, 150). This one calls for congregational response: ve-amar kol ha-am amen ('and let all the people say Amen'). The word amen (from aman, 'to be firm, to be faithful') means 'so be it, this is true, let it stand.' The psalm that confessed the worst of Israel's history ends with the entire people affirming God's blessedness. Halelu Yah closes the psalm and the book.",
+      "translator_notes": [
+        "This verse serves a dual function: it closes Psalm 106 and marks the end of Book IV (Psalms 90-106). The doxology formula appears in 1 Chronicles 16:36. The transition from confession to doxology enacts the psalm's theology: sin is real, but God's blessedness is the final word."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Kings",
+    "chapter": 12,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Joash begins to reign at seven years old in the seventh year of Jehu, and he reigns forty years in Jerusalem. He does what is right in the eyes of the LORD all the days that Jehoiada the priest instructs him, though the high places are not removed. Joash initiates repairs to the Temple, directing the priests to use the incoming silver — from assessments, personal vows, and freewill offerings — for the repair work. By the twenty-third year of his reign, the priests have not carried out the repairs. Joash confronts Jehoiada and the priests, removing them from the collection process. Instead, Jehoiada places a chest with a bored hole beside the altar, and the priests at the entrance deposit all incoming silver there. When the chest is full, the royal secretary and the high priest count the silver and give it to the foremen overseeing the Temple work. The workers — carpenters, builders, masons, and stonecutters — are paid directly and are so trustworthy that no accounting is demanded of them. However, the silver is not used for Temple vessels; it all goes to the workmen. The chapter closes with a crisis: Hazael of Aram campaigns against Gath and threatens Jerusalem. Joash buys him off by sending all the sacred treasures — the dedicated gifts of his ancestors Jehoshaphat, Jehoram, and Ahaziah, along with his own gifts and all the gold from the Temple and palace treasuries. Hazael withdraws. Joash's servants conspire against him and assassinate him at Beth-millo. His son Amaziah succeeds him.",
+    "remarkable": "The Temple repair narrative is one of the most detailed administrative accounts in the Hebrew Bible, providing a window into the fiscal mechanics of ancient Israelite worship. The system Joash creates — a public collection chest, royal oversight, direct payment to workers — represents an institutional reform that removes priestly middlemen from financial management. The trust extended to the workers (verse 16: 'they did not demand an accounting') stands in sharp contrast to the priestly failure that necessitated the reform. The chapter also demonstrates the fragility of Joash's righteousness: he does right 'all the days that Jehoiada the priest instructed him' (verse 3), implying that without priestly mentorship his faithfulness is not self-sustaining. The ending confirms this: Joash who repaired the Temple also strips it to pay off Hazael, and the king who was saved from assassination as an infant dies by assassination as an adult.",
+    "friction": "The WLC versification for this chapter differs from the English versions: WLC has 22 verses (beginning the chapter with Joash's age and accession, which English versions place as 12:1), while English Bibles typically have 21 verses. We follow the Hebrew (WLC) 22-verse structure. The relationship between 2 Kings 12 and 2 Chronicles 24 raises difficulties: Chronicles adds the apostasy of Joash after Jehoiada's death, the murder of Jehoiada's son Zechariah, and an Aramean invasion as divine punishment — details entirely absent from Kings. The silence of Kings on Joash's later apostasy may reflect the Deuteronomistic Historian's different editorial concerns, or Chronicles may supplement from independent sources. The assassination account is terse in Kings; Chronicles provides theological motivation (vengeance for Zechariah's blood).",
+    "connections": "The Temple repair anticipates Josiah's more dramatic Temple restoration in 2 Kings 22, where the discovery of the book of the law triggers national reformation. Both episodes involve a collection chest, royal initiative, and faithful workers. Joash's payment of tribute to Hazael from Temple treasures echoes Asa's similar action in 1 Kings 15:18-19 and establishes a pattern repeated by Hezekiah (2 Kings 18:15-16). The conditional nature of Joash's righteousness — dependent on Jehoiada's guidance — connects to the broader Deuteronomistic theme that kings need prophetic or priestly counsel to maintain covenant faithfulness. The assassination of Joash fulfills the pattern of violent succession that haunts the Davidic line after David's own sins of violence."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "בִּשְׁנַת־שֶׁ֥בַע לְיֵה֖וּא מָלַ֣ךְ יְהוֹאָ֑שׁ וְאַרְבָּעִ֣ים שָׁנָ֔ה מָלַ֖ךְ בִּירוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "In the seventh year of Jehu Jehoash began to reign; and forty years reigned he in Jerusalem.",
+      "rendering": "In the seventh year of Jehu, Joash became king, and he reigned forty years in Jerusalem.",
+      "translator_notes": [
+        "The WLC begins chapter 12 with the synchronism tying Joash's accession to Jehu's reign in Israel. Forty years is one of the longest reigns in Judah, spanning most of the ninth century BCE. The synchronism anchors Joash's reign to the northern revolution that brought Jehu to power — the same upheaval that created the vacuum Athaliah exploited."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "בֶּן־שֶׁ֥בַע שָׁנִ֖ים יְהוֹאָ֥שׁ בְּמׇלְכֽוֹ׃ וְשֵׁ֣ם אִמּ֔וֹ צִבְיָ֖ה מִבְּאֵ֥ר שָֽׁבַע׃",
+      "text_kjv": "And his mother's name was Zibiah of Beersheba.",
+      "rendering": "Joash was seven years old when he became king. His mother's name was Zibiah, from Beersheba.",
+      "translator_notes": [
+        "The regnal formula provides the king's age at accession and the queen mother's name and city of origin. Zibiah from Beersheba — the southernmost significant city of Judah — locates the king's maternal lineage firmly within Judean territory, contrasting with Athaliah's foreign Omride origins."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיַּ֨עַשׂ יְהוֹאָ֤שׁ הַיָּשָׁר֙ בְּעֵינֵ֣י יְהוָ֔ה כׇּל־יָמָ֕יו אֲשֶׁ֥ר הוֹרָ֖הוּ יְהוֹיָדָ֥ע הַכֹּהֵֽן׃",
+      "text_kjv": "And Jehoash did that which was right in the sight of the LORD all his days wherein Jehoiada the priest instructed him.",
+      "rendering": "Joash did what was right in the eyes of the LORD all the days that Jehoiada the priest instructed him.",
+      "translator_notes": [
+        "The evaluation is positive but qualified. The clause asher horahu Yehoyada ha-kohen ('in which Jehoiada the priest instructed him') limits the duration of his righteousness to the lifetime of his mentor. The verb horahu ('instructed him') comes from the root yarah, the same root that gives us torah — Jehoiada literally 'torah-ed' the king, shaping his conduct by teaching."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "רַ֥ק הַבָּמ֖וֹת לֹ֣א סָ֑רוּ ע֥וֹד הָעָ֛ם מְזַבְּחִ֥ים וּמְקַטְּרִ֖ים בַּבָּמֽוֹת׃",
+      "text_kjv": "But the high places were not taken away: the people still sacrificed and burnt incense in the high places.",
+      "rendering": "However, the high places were not removed. The people continued sacrificing and burning incense at the high places.",
+      "translator_notes": [
+        "This is the standard Deuteronomistic caveat applied to otherwise faithful Judean kings. The high places (bamot) — local worship sites outside Jerusalem — persist throughout most of Judah's history until Hezekiah and Josiah act against them. Their survival qualifies every positive evaluation: even good kings tolerate decentralized worship."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיֹּ֨אמֶר יְהוֹאָ֜שׁ אֶל־הַכֹּהֲנִ֗ים כֹּל֩ כֶּ֨סֶף הַקֳּדָשִׁ֜ים אֲשֶׁר־יוּבָ֤א בֵית־יְהוָה֙ כֶּ֣סֶף עוֹבֵ֔ר אִ֕ישׁ כֶּ֥סֶף נַפְשׁ֖וֹת עֶרְכּ֑וֹ כׇּל־כֶּ֗סֶף אֲשֶׁ֤ר יַעֲלֶה֙ עַ֣ל לֶב־אִ֔ישׁ לְהָבִ֖יא בֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "And Jehoash said to the priests, All the money of the dedicated things that is brought into the house of the LORD, even the money of every one that passeth the account, the money that every man is set at, and all the money that cometh into any man's heart to bring into the house of the LORD,",
+      "rendering": "Joash said to the priests, \"All the silver from the sacred donations brought into the house of the LORD — the silver collected in the census, the silver from personal assessments, and all the silver that anyone is moved to bring to the house of the LORD —",
+      "translator_notes": [
+        "Three categories of silver income are listed: (1) keseph over ('the silver of those who pass through'), likely a census or head tax; (2) keseph nafshot erkko ('silver of persons according to valuation'), referring to the personal vow valuations described in Leviticus 27; and (3) voluntary offerings prompted by personal devotion. Joash attempts to channel all three streams toward Temple repair."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "יִקְח֤וּ לָהֶם֙ הַכֹּ֣הֲנִ֔ים אִ֖ישׁ מֵאֵ֣ת מַכָּר֑וֹ וְהֵ֗ם יְחַזְּק֛וּ אֶת־בֶּ֥דֶק הַבַּ֖יִת לְכֹ֥ל אֲשֶׁר־יִמָּצֵ֥א שָׁ֖ם בָּֽדֶק׃",
+      "text_kjv": "Let the priests take it to them, every man of his acquaintance: and let them repair the breaches of the house, wheresoever any breach shall be found.",
+      "rendering": "let the priests receive it, each from his own donors, and let them repair whatever damage is found in the house.\"",
+      "translator_notes": [
+        "The initial system depends on each priest collecting from his established donors (makkaro, 'his acquaintance, his contact') and applying the funds to repairs. The term bedeq ha-bayit ('damage of the house, breaches of the house') becomes the technical phrase for Temple maintenance throughout this passage."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיְהִ֗י בִּשְׁנַ֨ת עֶשְׂרִ֧ים וְשָׁלֹ֛שׁ שָׁנָ֖ה לַמֶּ֣לֶךְ יְהוֹאָ֑שׁ לֹא־חִזְּק֥וּ הַכֹּהֲנִ֖ים אֶת־בֶּ֥דֶק הַבָּֽיִת׃",
+      "text_kjv": "But it was so, that in the three and twentieth year of king Jehoash the priests had not repaired the breaches of the house.",
+      "rendering": "But by the twenty-third year of King Joash, the priests had still not repaired the damage to the house.",
+      "translator_notes": [
+        "Sixteen years have passed since Joash's accession and the priests have done nothing. The narrator states the failure flatly, without accusation or excuse. Whether the priests spent the money on themselves or simply lacked organizational capacity, the result is the same: the Temple remains in disrepair."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיִּקְרָ֞א הַמֶּ֣לֶךְ יְהוֹאָ֗שׁ לִיהוֹיָדָ֤ע הַכֹּהֵן֙ וְלַכֹּ֣הֲנִ֔ים וַיֹּ֣אמֶר אֲלֵיהֶ֔ם מַדּ֛וּעַ אֵינְכֶ֥ם מְחַזְּקִ֖ים אֶת־בֶּ֣דֶק הַבָּ֑יִת וְעַתָּ֗ה אַל־תִּקְחוּ־כֶ֙סֶף֙ מֵאֵ֣ת מַכָּרֵיכֶ֔ם כִּֽי־לְבֶ֥דֶק הַבַּ֖יִת תִּתְּנֻֽהוּ׃",
+      "text_kjv": "Then king Jehoash called for Jehoiada the priest, and the other priests, and said unto them, Why repair ye not the breaches of the house? now therefore receive no more money of your acquaintance, but deliver it for the breaches of the house.",
+      "rendering": "King Joash summoned Jehoiada the priest and the other priests and said to them, \"Why have you not repaired the damage to the house? From now on, do not take silver from your donors. Hand it over for the repair of the house.\"",
+      "translator_notes": [
+        "Joash confronts his own mentor — a remarkable assertion of royal authority by a king raised under priestly tutelage. The question maddua ('why?') demands accountability. The reform removes priests from the collection chain entirely: they are no longer to receive silver from their contacts but must redirect everything to the repair fund."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֵּאֹ֖תוּ הַכֹּהֲנִ֑ים לְבִלְתִּ֗י קְחַת־כֶּ֙סֶף֙ מֵאֵ֣ת הָעָ֔ם וּלְבִלְתִּ֥י חַזֵּ֖ק אֶת־בֶּ֥דֶק הַבָּֽיִת׃",
+      "text_kjv": "But the priests consented to receive no more money of the people, neither to repair the breaches of the house.",
+      "rendering": "The priests agreed not to collect silver from the people and not to be responsible for repairing the house.",
+      "translator_notes": [
+        "The priests accept both terms: they lose the income stream but also shed the repair obligation. The verb va-ye'otu ('they consented, they agreed') suggests a negotiated settlement rather than a unilateral decree — the priests accept diminished financial authority in exchange for reduced accountability."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיִּקַּ֞ח יְהוֹיָדָ֤ע הַכֹּהֵן֙ אֲר֣וֹן אֶחָ֔ד וַיִּקֹּ֥ב חֹ֖ר בְּדַלְתּ֑וֹ וַיִּתֵּ֣ן אֹת֗וֹ אֵ֤צֶל הַמִּזְבֵּ֙חַ֙ בַּיָּמִ֔ין בְּב֣וֹא אִ֔ישׁ בֵּ֖ית יְהוָ֑ה וְנָֽתְנוּ־שָׁ֣מָּה הַכֹּהֲנִ֗ים שֹׁמְרֵ֣י הַסַּ֔ף אֶֽת־כׇּל־הַכֶּ֔סֶף הַמּוּבָ֖א בֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "But Jehoiada the priest took a chest, and bored a hole in the lid of it, and set it beside the altar, on the right side as one cometh into the house of the LORD: and the priests that kept the door put therein all the money that was brought into the house of the LORD.",
+      "rendering": "Jehoiada the priest took a chest, bored a hole in its lid, and set it beside the altar on the right side as one enters the house of the LORD. The priests who guarded the threshold deposited in it all the silver that was brought into the house of the LORD.",
+      "translator_notes": [
+        "The collection chest (aron echad) is a practical innovation — a locked box with a slot, preventing misappropriation. Its placement beside the altar ensures maximum visibility and associates the donation with worship. The threshold priests (shomrei ha-saf) serve as the new collection agents, funneling all income into a single, secure container."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיְהִ֣י כִּרְאוֹתָ֗ם כִּי־רַ֤ב הַכֶּ֙סֶף֙ בָּאָר֔וֹן וַיַּ֨עַל סֹפֵ֣ר הַמֶּ֔לֶךְ וְהַכֹּהֵ֖ן הַגָּד֑וֹל וַיָּצֻ֗רוּ וַיִּמְנוּ֙ אֶת־הַכֶּ֔סֶף הַנִּמְצָ֖א בֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "And it was so, when they saw that there was much money in the chest, that the king's scribe and the high priest came up, and they put up in bags, and told the money that was found in the house of the LORD.",
+      "rendering": "Whenever they saw that the silver in the chest was plentiful, the king's secretary and the high priest would come, bag it up, and count the silver that had been brought to the house of the LORD.",
+      "translator_notes": [
+        "A dual-authority counting system: the royal secretary (representing the crown) and the high priest (representing the Temple) jointly handle the funds. Neither party acts alone — this built-in accountability reflects Joash's learned distrust of unmonitored priestly finances."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְנָתְנ֣וּ אֶת־הַכֶּ֗סֶף הַמְתֻכָּן֙ עַל־יְדֵי֙ עֹשֵׂ֣י הַמְּלָאכָ֔ה הַמֻּפְקָדִ֖ים בֵּ֣ית יְהוָ֑ה וַיּוֹצִיאֻ֗הוּ לְחָרָשֵׁ֤י הָעֵץ֙ וְלַבֹּנִ֔ים הָעֹשִׂ֖ים בֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "And they gave the money, being told, into the hands of them that did the work, that had the oversight of the house of the LORD: and they laid it out to the carpenters and builders, that wrought upon the house of the LORD,",
+      "rendering": "They gave the weighed-out silver to the foremen in charge of the work on the house of the LORD, who paid it out to the carpenters and builders working on the house of the LORD,",
+      "translator_notes": [
+        "The silver is ha-metukkan ('weighed, reckoned') — precisely measured before distribution. The foremen (osei ha-melakhah, 'doers of the work') serve as project managers who distribute funds to individual tradesmen. The chain of custody is clear: chest to officials to foremen to workers."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְלַגֹּדְרִ֕ים וּלְחֹצְבֵ֖י הָאָ֑בֶן וְלִקְנ֤וֹת עֵצִים֙ וְאַבְנֵ֣י מַחְצֵ֔ב לְחַזֵּ֗ק אֶת־בֶּ֙דֶק֙ בֵּ֣ית יְהוָ֔ה וּלְכֹ֛ל אֲשֶׁר־יֵצֵ֥א עַל־הַבַּ֖יִת לְחׇזְקָֽה׃",
+      "text_kjv": "And to masons, and hewers of stone, and to buy timber and hewed stone to repair the breaches of the house of the LORD, and for all that was laid out for the house to repair it.",
+      "rendering": "and to the masons and stonecutters, and for purchasing timber and dressed stone to repair the damage to the house of the LORD — for every expense needed to restore the house.",
+      "translator_notes": [
+        "Four categories of workers are listed: carpenters (v12), builders (v12), masons (godrim), and stonecutters (chotzevei ha-even). The materials — timber and dressed stone (avnei machtzev) — match the original Temple construction materials. The repair recapitulates the original building project."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "אַ֣ךְ לֹ֣א יֵעָשֶׂ֣ה בֵּ֣ית יְהוָ֡ה סִפּ֣וֹת כֶּ֡סֶף מְזַמְּר֣וֹת מִזְרָק֣וֹת חֲצֹצְר֣וֹת כׇּל־כְּלִ֣י זָהָ֣ב וּכְלִי־כָ֑סֶף מִן־הַכֶּ֖סֶף הַמּוּבָ֥א בֵית־יְהוָֽה׃",
+      "text_kjv": "Howbeit there were not made for the house of the LORD bowls of silver, snuffers, basons, trumpets, any vessels of gold, or vessels of silver, of the money that was brought into the house of the LORD:",
+      "rendering": "However, no silver basins, wick trimmers, sprinkling bowls, trumpets, or any gold or silver vessels were made for the house of the LORD from the silver brought in.",
+      "translator_notes": [
+        "This restriction ensures that all funds go to structural repair, not to liturgical furnishings. The list of excluded items — sippot (basins), mezammerot (wick trimmers), mizraqot (sprinkling bowls), chatzotzrot (trumpets) — catalogs the standard Temple implements. Utility comes before beauty; the building must stand before it can be adorned."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "כִּי־לְעֹשֵׂ֥י הַמְּלָאכָ֖ה יִתְּנֻ֑הוּ וְחִזְּקוּ־ב֖וֹ אֶת־בֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "For they gave that to the workmen, and repaired therewith the house of the LORD.",
+      "rendering": "It was given to the workers, and they used it to repair the house of the LORD.",
+      "translator_notes": [
+        "This verse restates the principle succinctly: the silver goes to workers, and the workers repair the house. The simplicity of the statement emphasizes the directness of the new system — no intermediaries, no diversions."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְלֹ֧א יְחַשְּׁב֣וּ אֶת־הָאֲנָשִׁ֗ים אֲשֶׁ֨ר יִתְּנ֤וּ אֶת־הַכֶּ֙סֶף֙ עַל־יָדָ֔ם לָתֵ֖ת לְעֹשֵׂ֣י הַמְּלָאכָ֑ה כִּ֥י בֶאֱמֻנָ֖ה הֵ֥ם עֹשִֽׂים׃",
+      "text_kjv": "Moreover they reckoned not with the men, into whose hand they delivered the money to be given to them that did the work: for they dealt faithfully.",
+      "rendering": "They did not demand an accounting from the men to whom they gave the silver to pay the workers, because they acted with complete integrity.",
+      "translator_notes": [
+        "The phrase ki ve-emunah hem osim ('because in faithfulness they were working') is the narrator's commendation: these foremen are so trustworthy that auditing is unnecessary. The word emunah ('faithfulness, integrity') shares its root with amen — their reliability is as solid as the word that seals a prayer."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֱמוּנָה",
+          "transliteration": "emunah",
+          "rendered_as": "integrity",
+          "semantic_range": "faithfulness, trustworthiness, reliability, steadfastness, integrity",
+          "note": "emunah from the root aman ('to be firm, to be reliable'). Here applied to financial stewardship: the foremen's character is so established that formal accounting becomes redundant. The same word describes God's faithfulness throughout the Psalms."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "כֶּ֤סֶף אָשָׁם֙ וְכֶ֣סֶף חַטָּא֔וֹת לֹ֥א יוּבָ֖א בֵּ֣ית יְהוָ֑ה לַכֹּהֲנִ֖ים יִהְיֽוּ׃",
+      "text_kjv": "The trespass money and sin money was not brought into the house of the LORD: it was the priests'.",
+      "rendering": "The silver from guilt offerings and the silver from sin offerings was not brought into the house of the LORD; it belonged to the priests.",
+      "translator_notes": [
+        "This verse preserves a priestly prerogative: the silver associated with asham (guilt offering) and chattat (sin offering) remains priestly income, as legislated in Leviticus and Numbers. Joash's reform redirects voluntary and assessment income but respects the Torah's allocation of sacrificial fees to the priesthood."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "אָ֣ז יַעֲלֶ֗ה חֲזָאֵל֙ מֶ֣לֶךְ אֲרָ֔ם וַיִּלָּ֥חֶם עַל־גַּ֖ת וַיִּלְכְּדָ֑הּ וַיָּ֤שֶׂם חֲזָאֵל֙ פָּנָ֔יו לַעֲל֖וֹת עַל־יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "Then Hazael king of Syria went up, and fought against Gath, and took it: and Hazael set his face to go up to Jerusalem.",
+      "rendering": "At that time, Hazael king of Aram marched against Gath and captured it. Then Hazael set his face toward Jerusalem.",
+      "translator_notes": [
+        "The narrative shifts abruptly from administrative reform to military crisis. Hazael's capture of Gath — a Philistine city — demonstrates Aram's expansive power. The phrase va-yasem panav ('he set his face') toward Jerusalem signals determined intent: Hazael will march on Judah's capital next."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיִּקַּ֣ח יְהוֹאָ֣שׁ מֶלֶךְ־יְהוּדָ֡ה אֵ֣ת כׇּל־הַקֳּדָשִׁ֡ים אֲשֶׁר־הִקְדִּ֡ישׁוּ יְהוֹשָׁפָ֣ט וִיהוֹרָ֣ם וַאֲחַזְיָ֣הוּ אֲבֹתָיו֩ מַלְכֵ֨י יְהוּדָ֜ה וְאֶת־קֳדָשָׁ֗יו וְאֵ֤ת כׇּל־הַזָּהָב֙ הַנִּמְצָ֔א בְּאֹצְר֥וֹת בֵּית־יְהוָ֖ה וּבֵ֣ית הַמֶּ֑לֶךְ וַיִּשְׁלַ֗ח לַחֲזָאֵל֙ מֶ֣לֶךְ אֲרָ֔ם וַיַּ֖עַל מֵעַ֥ל יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "And Jehoash king of Judah took all the hallowed things that Jehoshaphat, and Jehoram, and Ahaziah, his fathers, kings of Judah, had dedicated, and his own hallowed things, and all the gold that was found in the treasures of the house of the LORD, and in the king's house, and sent it to Hazael king of Syria: and he went away from Jerusalem.",
+      "rendering": "Joash king of Judah took all the sacred objects that his ancestors Jehoshaphat, Jehoram, and Ahaziah, kings of Judah, had dedicated, along with his own dedicated gifts, and all the gold found in the treasuries of the house of the LORD and the royal palace. He sent everything to Hazael king of Aram, and Hazael withdrew from Jerusalem.",
+      "translator_notes": [
+        "The irony is devastating: the king who spent years restoring the Temple now empties it to buy off an invader. Three generations of royal offerings — his father's, grandfather's, and great-grandfather's sacred gifts — are surrendered in a single transaction. The verb va-ya'al me'al ('he went up from') indicates Hazael accepted the tribute and departed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְיֶ֛תֶר דִּבְרֵ֥י יוֹאָ֖שׁ וְכׇל־אֲשֶׁ֣ר עָשָׂ֑ה הֲלֹא־הֵ֣ם כְּתוּבִ֔ים עַל־סֵ֥פֶר דִּבְרֵ֛י הַיָּמִ֖ים לְמַלְכֵ֥י יְהוּדָֽה׃",
+      "text_kjv": "And the rest of the acts of Joash, and all that he did, are they not written in the book of the chronicles of the kings of Judah?",
+      "rendering": "As for the remaining deeds of Joash and all that he did — are they not recorded in the Book of the Annals of the Kings of Judah?",
+      "translator_notes": [
+        "The standard closing formula refers readers to the now-lost royal annals of Judah. This source citation recurs for nearly every king and indicates the Deuteronomistic Historian worked from archival materials."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיָּקֻ֤מוּ עֲבָדָיו֙ וַיִּקְשְׁר֣וּ קָ֔שֶׁר וַיַּכּ֥וּ אֶת־יוֹאָ֖שׁ בֵּ֥ית מִלֹּֽא הַיּוֹרֵ֖ד סִלָּֽא׃",
+      "text_kjv": "And his servants arose, and made a conspiracy, and smote Joash in the house of Millo, which goeth down to Silla.",
+      "rendering": "His servants rose up and formed a conspiracy. They struck down Joash at Beth-millo, on the road that goes down to Silla.",
+      "translator_notes": [
+        "The king saved from assassination in infancy dies by assassination as an adult. The verb va-yiqsheru qesher ('they conspired a conspiracy') uses the same root as Athaliah's cry in 11:14 — the cycle of conspiracy continues. Beth-millo's exact location is uncertain; Silla is otherwise unknown."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְיוֹזָבָ֣ד בֶּן־שִׁ֠מְעָ֠ת וִיהוֹזָבָ֨ד בֶּן־שֹׁמֵ֥ר עֲבָדָ֛יו הִכֻּ֖הוּ וַיָּמֹ֑ת וַיִּקְבְּר֤וּ אֹתוֹ֙ עִם־אֲבֹתָ֔יו בְּעִ֣יר דָּוִ֔ד וַיִּמְלֹ֛ךְ אֲמַצְיָ֥הוּ בְנ֖וֹ תַּחְתָּֽיו׃",
+      "text_kjv": "For Jozachar the son of Shimeath, and Jehozabad the son of Shomer, his servants, smote him, and he died; and they buried him with his fathers in the city of David: and Amaziah his son reigned in his stead.",
+      "rendering": "Jozabad son of Shimeath and Jehozabad son of Shomer, his servants, struck him down and he died. They buried him with his ancestors in the City of David, and his son Amaziah reigned in his place.",
+      "translator_notes": [
+        "The assassins are named — Jozabad (or Jozachar in some manuscripts) and Jehozabad — both bearing names compounded with the divine element. Their motives are not stated in Kings; 2 Chronicles 24:25 attributes the assassination to vengeance for the blood of Jehoiada's son Zechariah. Despite the violent death, Joash receives proper burial in the City of David, maintaining his place in the Davidic succession."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

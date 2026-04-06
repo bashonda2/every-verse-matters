@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Kings",
+    "chapter": 19,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jezebel sends a messenger swearing to kill Elijah by the next day. The prophet who just defeated 450 prophets of Baal and outran a chariot flees in terror into the wilderness south of Beersheba. Exhausted and suicidal, he lies under a broom tree and asks to die. An angel twice wakes him and provides food and water, then Elijah walks forty days and forty nights to Horeb — the mountain of God, where Moses received the covenant. There, in a cave, the LORD asks him, 'What are you doing here, Elijah?' He responds with a speech of total isolation: he has been utterly zealous for the LORD, but Israel has abandoned the covenant, torn down the altars, killed the prophets, and he alone is left, and they are hunting him. Then the LORD tells him to stand on the mountain: a great wind tears the mountains apart, but the LORD is not in the wind; an earthquake shakes the ground, but the LORD is not in the earthquake; fire comes, but the LORD is not in the fire. After the fire — a sound of thin silence. Elijah wraps his face in his cloak and goes to the cave entrance. God asks the same question, receives the same answer, then sends Elijah back with three commissions: anoint Hazael king of Aram, anoint Jehu king of Israel, and anoint Elisha as his prophetic successor. God corrects Elijah's despair: seven thousand in Israel have not bowed to Baal. Elijah finds Elisha plowing with twelve yoke of oxen, throws his cloak over him, and Elisha follows.",
+    "remarkable": "The chapter's theological center is the theophany at Horeb, one of the most discussed passages in the Hebrew Bible. The phrase qol demamah daqqah (verse 12) — traditionally translated 'a still small voice' — is a paradox in Hebrew: qol means 'sound' or 'voice,' demamah means 'silence' or 'stillness,' and daqqah means 'thin, fine, crushed.' A sound of thin silence. A voice of crushed stillness. The phrase resists easy translation because it describes something that exists at the boundary of hearing and not-hearing. The great wind, earthquake, and fire that precede it are all phenomena associated with the Sinai theophany (Exodus 19:16-18), and the text explicitly says the LORD was not in any of them. This is not a rejection of Sinai's mode of revelation but an expansion: God can come in fire (as he did on Carmel in chapter 18), but God is not limited to fire. The contrast between Elijah's terrifying power on Carmel and his suicidal collapse under a broom tree is one of the most psychologically realistic portraits in ancient literature — the prophet is not a superhero but a human being who crashes after the adrenaline of divine encounter.",
+    "friction": "Several difficulties arise. First, Elijah's claim to be the sole remaining faithful person (verses 10, 14) contradicts both the hundred prophets Obadiah saved (18:4) and the seven thousand God reveals in verse 18. This may represent Elijah's subjective despair rather than objective reality — the text may be portraying a prophet whose perception has been distorted by trauma and exhaustion. Second, the nature of the qol demamah daqqah is endlessly debated: is it literal silence? A barely audible whisper? A paradoxical oxymoron meant to defeat human categorization? We render it with the paradox intact. Third, Elijah receives three commissions (anoint Hazael, anoint Jehu, anoint Elisha) but personally carries out only the third; the first two are eventually accomplished by Elisha (2 Kings 8:13, 9:1-3). Fourth, the forty-day journey to Horeb deliberately echoes Moses (Exodus 34:28, Deuteronomy 9:9), placing Elijah in Mosaic typology, but the text never explicitly makes the comparison.",
+    "connections": "The entire chapter is constructed as a Moses-Elijah parallel. Elijah flees to Horeb (the mountain of God), enters a cave (Moses was placed in a cleft of the rock, Exodus 33:22), experiences wind-earthquake-fire (the Sinai theophany, Exodus 19:16-18), and is commissioned to return with a task. The forty-day journey echoes Moses' forty days on Sinai. The question mah lekha poh Eliyyahu ('What are you doing here, Elijah?') appears twice (verses 9, 13) with identical wording, framing the theophany as a double confrontation with the prophet's despair. Elijah's throwing his cloak (aderet) over Elisha (verse 19) establishes the prophetic mantle as a symbol of succession — the same mantle will later divide the Jordan (2 Kings 2:8, 2:14). The seven thousand who have not bowed to Baal (verse 18) introduces the remnant theology that will become central to Isaiah and the later prophets. The broom tree (rotem) under which Elijah collapses is the same desert shrub mentioned in Psalm 120:4, where its coals represent fierce heat — even in his collapse, Elijah is surrounded by fire imagery."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיַּגֵּ֤ד אַחְאָב֙ לְאִיזֶ֔בֶל אֵ֛ת כׇּל־אֲשֶׁ֥ר עָשָׂ֖ה אֵלִיָּ֑הוּ וְאֵ֨ת כׇּל־אֲשֶׁ֥ר הָרַ֛ג אֶת־כׇּל־הַנְּבִיאִ֖ים בֶּחָֽרֶב׃",
+      "text_kjv": "And Ahab told Jezebel all that Elijah had done, and withal how he had slain all the prophets with the sword.",
+      "rendering": "Ahab told Jezebel everything Elijah had done — and how he had killed all the prophets with the sword.",
+      "translator_notes": [
+        "Ahab functions as a messenger, reporting to Jezebel. The phrase et kol asher asah ('everything he had done') encompasses the entire Carmel contest. The specific mention of killing ba-charev ('with the sword') emphasizes the violence. Jezebel, not Ahab, is the one who responds — she is the driving force behind Baal worship in Israel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַתִּשְׁלַ֤ח אִיזֶ֙בֶל֙ מַלְאָ֔ךְ אֶל־אֵלִיָּ֖הוּ לֵאמֹ֑ר כֹּ֣ה יַעֲשׂ֤וּן אֱלֹהִים֙ וְכֹ֣ה יוֹסִפ֔וּן כִּ֥י כָעֵ֣ת מָחָ֗ר אָשִׂ֤ים אֶֽת־נַפְשְׁךָ֙ כְּנֶ֙פֶשׁ֙ אַחַ֣ד מֵהֶ֔ם׃",
+      "text_kjv": "Then Jezebel sent a messenger unto Elijah, saying, So let the gods do to me, and more also, if I make not thy life as the life of one of them by to morrow about this time.",
+      "rendering": "Jezebel sent a messenger to Elijah, saying, \"May the gods do this to me and more — if by this time tomorrow I have not made your life like the life of one of them!\"",
+      "translator_notes": [
+        "Jezebel's oath — koh ya'asun elohim ve-khoh yosifun ('may the gods do thus and add more') — is the standard oath formula, but she swears by 'gods' (plural), not by the LORD. Her threat is specific: ka-et machar ('by this time tomorrow') — she sets a twenty-four-hour deadline. Some commentators note that sending a warning rather than an assassin suggests Jezebel wanted to frighten Elijah into fleeing rather than actually killing him, since killing him would make him a martyr. Whether strategic or impulsive, the threat achieves its aim."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיַּ֗רְא וַיָּ֙קׇם֙ וַיֵּ֣לֶךְ אֶל־נַפְשׁ֔וֹ וַיָּבֹ֕א בְּאֵ֥ר שֶׁ֖בַע אֲשֶׁ֣ר לִֽיהוּדָ֑ה וַיַּנַּ֥ח אֶֽת־נַעֲר֖וֹ שָֽׁם׃",
+      "text_kjv": "And when he saw that, he arose, and went for his life, and came to Beersheba, which belongeth to Judah, and left his servant there.",
+      "rendering": "He was afraid. He got up and fled for his life. He came to Beersheba, which belongs to Judah, and left his servant there.",
+      "translator_notes": [
+        "The verb va-yar' is read by the Masoretic tradition as va-yira ('he feared'), though some manuscripts read va-yar ('he saw'). The Qere reading ('he feared') makes better narrative sense and we follow it. The phrase va-yelekh el nafsho ('he went for his life / to save his soul') conveys desperate flight. Beersheba is at the extreme southern edge of Judah — Elijah has crossed the entire northern kingdom and entered the south. Leaving his servant behind means he continues alone into the wilderness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְהֽוּא־הָלַ֤ךְ בַּמִּדְבָּר֙ דֶּ֣רֶךְ י֔וֹם וַיָּבֹ֕א וַיֵּ֕שֶׁב תַּ֖חַת רֹ֣תֶם אֶחָ֑ד וַיִּשְׁאַ֤ל אֶת־נַפְשׁוֹ֙ לָמ֔וּת וַיֹּ֣אמֶר ׀ רַ֗ב עַתָּ֤ה יְהוָה֙ קַ֣ח נַפְשִׁ֔י כִּי־לֹא־ט֥וֹב אָנֹכִ֖י מֵאֲבֹתָֽי׃",
+      "text_kjv": "But he himself went a day's journey into the wilderness, and came and sat down under a juniper tree: and he requested for himself that he might die; and said, It is enough; now, O LORD, take away my life; for I am not better than my fathers.",
+      "rendering": "He went a day's journey into the wilderness, sat down under a broom tree, and asked to die. He said, \"Enough! Now, LORD, take my life — I am no better than my fathers.\"",
+      "translator_notes": [
+        "The rotem ('broom tree') is a desert shrub that provides meager shade — barely enough to shelter under. The phrase va-yish'al et nafsho lamut ('he asked his soul to die') is a formal request for death. His prayer — rav attah YHWH qach nafshi ('enough now, LORD, take my life') — is shockingly brief. The word rav ('enough, too much') expresses complete exhaustion. The comparison ki lo tov anokhi me-avotai ('I am no better than my fathers') is enigmatic: it may mean he has failed as thoroughly as previous generations, or that he sees no reason to continue when all who came before him also died."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיִּשְׁכַּב֙ וַיִּישַׁ֔ן תַּ֖חַת רֹ֣תֶם אֶחָ֑ד וְהִנֵּֽה־זֶ֤ה מַלְאָךְ֙ נֹגֵ֣עַ בּ֔וֹ וַיֹּ֥אמֶר ל֖וֹ ק֥וּם אֱכֽוֹל׃",
+      "text_kjv": "And as he lay and slept under a juniper tree, behold, then an angel touched him, and said unto him, Arise and eat.",
+      "rendering": "He lay down and fell asleep under the broom tree. Then an angel touched him and said, \"Get up and eat.\"",
+      "translator_notes": [
+        "The transition from suicidal prayer to sleep is abrupt — Elijah collapses from exhaustion. The angel (mal'akh) touches him (noge'a bo), a gentle physical contact. The command qum ekhol ('get up, eat') is simple and practical — God's first response to Elijah's despair is not a sermon but a meal."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיַּבֵּ֕ט וְהִנֵּ֧ה מְרַאֲשֹׁתָ֛יו עֻגַ֥ת רְצָפִ֖ים וְצַפַּ֣חַת מָ֑יִם וַיֹּ֣אכַל וַיֵּ֔שְׁתְּ וַיָּ֖שׇׁב וַיִּשְׁכָּֽב׃",
+      "text_kjv": "And he looked, and, behold, there was a cake baken on the coals, and a cruse of water at his head. And he did eat and drink, and laid him down again.",
+      "rendering": "He looked, and there at his head was a cake baked on hot stones and a jar of water. He ate and drank, then lay down again.",
+      "translator_notes": [
+        "The ugat retsafim ('cake on hot coals/stones') is simple bread baked directly on heated stones — basic wilderness food. The tsappachat mayim ('jar of water') provides the other essential. The detail me-ra'ashotav ('at his head') places the provisions right where he would see them upon waking. Elijah eats, drinks, and goes back to sleep — his depression is so deep that one meal is not enough to rouse him."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיָּ֤שׇׁב מַלְאַ֨ךְ יְהוָ֤ה ׀ שֵׁנִית֙ וַיִּגַּע־בּ֔וֹ וַיֹּ֖אמֶר ק֣וּם אֱכֹ֑ל כִּ֛י רַ֥ב מִמְּךָ֖ הַדָּֽרֶךְ׃",
+      "text_kjv": "And the angel of the LORD came again the second time, and touched him, and said, Arise and eat; because the journey is too great for thee.",
+      "rendering": "The angel of the LORD came back a second time, touched him, and said, \"Get up and eat — the journey ahead is too much for you.\"",
+      "translator_notes": [
+        "The angel returns shenit ('a second time'), showing divine persistence. The reason given — ki rav mimmekha ha-derekh ('for the road is too great for you') — acknowledges Elijah's weakness while pointing him forward. The word rav ('great, much') echoes Elijah's own rav ('enough') from verse 4: Elijah said 'enough' of life; God says the road is 'great' — implying there is more ahead, more to do."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיָּ֖קׇם וַיֹּ֣אכַל וַיִּשְׁתֶּ֑ה וַיֵּ֜לֶךְ בְּכֹ֣חַ ׀ הָאֲכִילָ֣ה הַהִ֗יא אַרְבָּעִ֥ים יוֹם֙ וְאַרְבָּעִ֣ים לַ֔יְלָה עַ֛ד הַ֥ר הָאֱלֹהִ֖ים חֹרֵֽב׃",
+      "text_kjv": "And he arose, and did eat and drink, and went in the strength of that meat forty days and forty nights unto Horeb the mount of God.",
+      "rendering": "He got up, ate, and drank, and walked in the strength of that food forty days and forty nights to Horeb, the mountain of God.",
+      "translator_notes": [
+        "The phrase be-khoach ha-akhilah ha-hi ('in the strength of that food') gives the angel's provision a supernatural quality — two meals sustain a forty-day journey. The number arba'im yom ve-arba'im lailah ('forty days and forty nights') explicitly echoes Moses at Sinai (Exodus 24:18, 34:28) and Moses' second ascent (Deuteronomy 9:9). Horeb (Chorev) is the alternative name for Sinai — by walking to Horeb, Elijah is retracing the path of Moses back to the place where the covenant was given."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיָּבֹ֥א שָׁ֛ם אֶל־הַמְּעָרָ֖ה וַיָּ֣לֶן שָׁ֑ם וְהִנֵּ֤ה דְבַר־יְהוָה֙ אֵלָ֔יו וַיֹּ֣אמֶר ל֔וֹ מַה־לְּךָ֥ פֹ֖ה אֵלִיָּֽהוּ׃",
+      "text_kjv": "And he came thither unto a cave, and lodged there; and, behold, the word of the LORD came to him, and he said unto him, What doest thou here, Elijah?",
+      "rendering": "He came to a cave there and spent the night. Then the word of the LORD came to him: \"What are you doing here, Elijah?\"",
+      "translator_notes": [
+        "The definite article ha-me'arah ('the cave') suggests a specific, known cave — possibly the same cleft of the rock (niqrat ha-tsur) where Moses stood when God's glory passed by (Exodus 33:22). The question mah lekha poh Eliyyahu ('What is there for you here, Elijah?' or 'What are you doing here, Elijah?') is open-ended and penetrating. It can be read as a rebuke ('Why have you fled here?') or as pastoral inquiry ('Tell me what is wrong'). The identical question will be asked again after the theophany (verse 13), framing the entire experience."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיֹּ֗אמֶר קַנֹּ֤א קִנֵּ֙אתִי֙ לַיהוָ֣ה ׀ אֱלֹהֵ֣י צְבָא֗וֹת כִּ֤י עָזְבוּ֙ בְרִ֣יתְךָ֔ בְּנֵ֖י יִשְׂרָאֵ֑ל אֶת־מִזְבְּחֹתֶ֣יךָ הָרָ֗סוּ וְאֶת־נְבִיאֶ֙יךָ֙ הָרְג֣וּ בֶחָ֔רֶב וָאִוָּתֵ֤ר אֲנִי֙ לְבַדִּ֔י וַיְבַקְשׁ֥וּ אֶת־נַפְשִׁ֖י לְקַחְתָּֽהּ׃",
+      "text_kjv": "And he said, I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.",
+      "rendering": "He said, \"I have been utterly zealous for the LORD, the God of Armies — but the Israelites have abandoned your covenant, torn down your altars, and killed your prophets with the sword. I alone am left, and they are seeking my life to take it.\"",
+      "translator_notes": [
+        "Elijah's speech is a concentrated lament with four accusations against Israel: they abandoned the covenant (azvu beritkhah), demolished the altars (mizbechotekha harasu), murdered the prophets (nevi'ekha hargu va-charev), and are hunting him (vayevaqshu et nafshi). The opening phrase qanno qinneti ('I have been utterly zealous') uses the cognate accusative construction for emphasis — zealous with zeal. The verb qana can mean both 'to be jealous' and 'to be zealous'; for God's cause, 'zealous' captures the sense."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קָנָא",
+          "transliteration": "qana",
+          "rendered_as": "zealous",
+          "semantic_range": "jealous, zealous, ardent, possessively passionate, envious",
+          "note": "Qanno qinneti uses the infinitive absolute construction to intensify: 'I have been zealous with zeal' — that is, utterly, consumingly zealous. The same root describes God's own jealousy for his covenant (Exodus 20:5, 34:14). Elijah claims to share God's own passionate intolerance for covenant violation."
+        },
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, agreement, binding obligation, pact",
+          "note": "Elijah's complaint centers on Israel's berit-violation. The covenant is not merely a contract but the relational bond between God and his people. To abandon the berit is to repudiate the relationship itself."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיֹּ֗אמֶר צֵ֤א וְעָמַדְתָּ֣ בָהָר֙ לִפְנֵ֣י יְהוָ֔ה וְהִנֵּ֧ה יְהוָ֣ה עֹבֵ֗ר וְר֣וּחַ גְּ֠דוֹלָ֠ה וְחָזָ֞ק מְפָרֵ֤ק הָרִים֙ וּמְשַׁבֵּ֣ר סְלָעִ֔ים לִפְנֵ֖י יְהוָ֑ה לֹ֥א בָר֖וּחַ יְהוָ֑ה וְאַחַ֤ר הָר֙וּחַ֙ רַ֔עַשׁ לֹ֥א בָרַ֖עַשׁ יְהוָֽה׃",
+      "text_kjv": "And he said, Go forth, and stand upon the mount before the LORD. And, behold, the LORD passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks before the LORD; but the LORD was not in the wind: and after the wind an earthquake; but the LORD was not in the earthquake:",
+      "rendering": "He said, \"Go out and stand on the mountain before the LORD.\" And there — the LORD was passing by. A great and powerful wind was tearing the mountains apart and shattering rocks before the LORD — but the LORD was not in the wind. After the wind, an earthquake — but the LORD was not in the earthquake.",
+      "translator_notes": [
+        "The command tse ve-amadta ba-har lifnei YHWH ('go out and stand on the mountain before the LORD') echoes God's instruction to Moses (Exodus 34:2). The phrase YHWH over ('the LORD passing by') uses the same verb as God's passing before Moses (Exodus 33:22, 34:6). The great wind — ruach gedolah ve-chazaq mefarreq harim u-meshabber sela'im ('a great and strong wind tearing mountains and shattering rocks') — is described with violent participles: mefarreq ('ripping apart'), meshabber ('breaking to pieces'). Each phenomenon is negated: lo va-ruach YHWH ('the LORD was not in the wind'). The negation is theological: power is not presence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְאַחַ֤ר הָרַ֙עַשׁ֙ אֵ֔שׁ לֹ֥א בָאֵ֖שׁ יְהוָ֑ה וְאַחַ֣ר הָאֵ֔שׁ ק֖וֹל דְּמָמָ֥ה דַקָּֽה׃",
+      "text_kjv": "And after the earthquake a fire; but the LORD was not in the fire: and after the fire a still small voice.",
+      "rendering": "After the earthquake, fire — but the LORD was not in the fire. And after the fire — a sound of thin silence.",
+      "expanded_rendering": "The phrase qol demamah daqqah is one of the most famous and most untranslatable expressions in the Hebrew Bible. Each word resists the others: qol means 'sound, voice, noise' — something audible; demamah means 'silence, stillness, calm' — the absence of sound; daqqah means 'thin, fine, crushed, delicate' — something reduced to its smallest possible form. A sound of silence. A voice of stillness. A noise that is the opposite of noise. The traditional English rendering 'a still small voice' (following the KJV) gives the impression of a quiet whisper, which is not wrong but misses the paradox. The Hebrew does not describe a quiet voice; it describes a sound that is silence — or a silence so intense that it has become audible. Some translations attempt 'a gentle whisper' or 'a low murmuring sound,' but these domesticate what the Hebrew leaves strange. The theological point is that after wind, earthquake, and fire — all traditional vehicles of divine theophany — God's actual presence comes in a mode that defies categorization. The LORD was not in the wind, not in the earthquake, not in the fire. But in the sound-of-thin-silence, Elijah recognizes God and covers his face. Whatever this phrase describes, it is the medium through which God chose to meet a broken, exhausted prophet — not in overwhelming power (Elijah just had that on Carmel) but in something so quiet it barely exists.",
+      "translator_notes": [
+        "The translation problem is genuine and ancient. The Septuagint renders it phone auras leptes ('a sound of a thin breeze'). The Vulgate has sibilus aurae tenuis ('a whistling of a thin breeze'). The Targum paraphrases as qal d'mashabchin b'chashay ('a sound of those praising in silence'). Each translation resolves the paradox differently. We preserve the paradox because the Hebrew clearly intends it: qol ('sound') + demamah ('silence') is an oxymoron. The adjective daqqah ('thin, fine') intensifies rather than resolves the tension — this silence has been refined to its essence.",
+        "The fire (esh) that appears before the qol demamah daqqah is significant: on Carmel, God answered by fire (18:38). Here at Horeb, God is explicitly not in the fire. The same God who used fire as his instrument on Carmel now transcends fire. Elijah is being taught that divine presence is not reducible to any single mode of manifestation."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קוֹל דְּמָמָה דַקָּה",
+          "transliteration": "qol demamah daqqah",
+          "rendered_as": "a sound of thin silence",
+          "semantic_range": "still small voice, sound of sheer silence, soft murmuring sound, sound of a gentle whisper, voice of thin stillness",
+          "note": "A three-word phrase that has generated centuries of theological and literary reflection. Qol ('sound') and demamah ('silence') exist in tension; daqqah ('thin, fine, crushed') intensifies the paradox. We render it as 'a sound of thin silence' to preserve the Hebrew's deliberate oxymoron rather than resolving it into a 'quiet voice' or 'gentle breeze.'"
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיְהִ֣י ׀ כִּשְׁמֹ֣עַ אֵלִיָּ֗הוּ וַיָּ֤לֶט פָּנָיו֙ בְּאַדַּרְתּ֔וֹ וַיֵּצֵ֕א וַיַּעֲמֹ֖ד פֶּ֣תַח הַמְּעָרָ֑ה וְהִנֵּ֤ה אֵלָיו֙ ק֔וֹל וַיֹּ֕אמֶר מַה־לְּךָ֥ פֹ֖ה אֵלִיָּֽהוּ׃",
+      "text_kjv": "And it was so, when Elijah heard it, that he wrapped his face in his mantle, and went out, and stood in the entering in of the cave. And, behold, there came a voice unto him, and said, What doest thou here, Elijah?",
+      "rendering": "When Elijah heard it, he wrapped his face in his cloak, went out, and stood at the entrance of the cave. A voice came to him and said, \"What are you doing here, Elijah?\"",
+      "translator_notes": [
+        "Elijah's response to the qol demamah daqqah is immediate: va-yalet panav be-addaretto ('he wrapped his face in his cloak'). The verb lalat ('to wrap, to cover') and the covering of the face echo Moses covering his face before God (Exodus 3:6). The aderet ('cloak, mantle') is Elijah's prophetic garment — the same one he will throw over Elisha in verse 19. The question is repeated identically: mah lekha poh Eliyyahu. Nothing has changed in the question; the theophany stands between the two identical questions to see if Elijah's answer will change."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֹּ֗אמֶר קַנֹּ֤א קִנֵּ֙אתִי֙ לַיהוָ֣ה ׀ אֱלֹהֵ֣י צְבָא֗וֹת כִּ֤י עָזְבוּ֙ בְרִ֣יתְךָ֔ בְּנֵ֖י יִשְׂרָאֵ֑ל אֶת־מִזְבְּחֹתֶ֣יךָ הָרָ֗סוּ וְאֶת־נְבִיאֶ֙יךָ֙ הָרְג֣וּ בֶחָ֔רֶב וָאִוָּתֵ֤ר אֲנִי֙ לְבַדִּ֔י וַיְבַקְשׁ֥וּ אֶת־נַפְשִׁ֖י לְקַחְתָּֽהּ׃",
+      "text_kjv": "And he said, I have been very jealous for the LORD God of hosts: because the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.",
+      "rendering": "He said, \"I have been utterly zealous for the LORD, the God of Armies — but the Israelites have abandoned your covenant, torn down your altars, and killed your prophets with the sword. I alone am left, and they are seeking my life to take it.\"",
+      "translator_notes": [
+        "Elijah's answer is word-for-word identical to verse 10. The theophany — wind, earthquake, fire, thin silence — has not changed his speech. This repetition is itself a statement: Elijah is locked in his despair, unable to move past his script. God's response in the following verses will not argue with the despair but redirect Elijah toward action."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קָנָא",
+          "transliteration": "qana",
+          "rendered_as": "zealous",
+          "semantic_range": "jealous, zealous, ardent, possessively passionate",
+          "note": "The identical repetition of qanno qinneti after the theophany reveals that Elijah's self-perception has not shifted. He remains fixed in his zeal-and-isolation narrative. God will now respond not with more revelation but with practical commission."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיֹּ֤אמֶר יְהוָה֙ אֵלָ֔יו לֵ֛ךְ שׁ֥וּב לְדַרְכְּךָ֖ מִדְבַּ֣רָה דַמָּ֑שֶׂק וּבָ֗אתָ וּמָשַׁחְתָּ֧ אֶת־חֲזָאֵ֛ל לְמֶ֖לֶךְ עַל־אֲרָֽם׃",
+      "text_kjv": "And the LORD said unto him, Go, return on thy way to the wilderness of Damascus: and when thou comest, anoint Hazael to be king over Syria:",
+      "rendering": "The LORD said to him, \"Go, return by your way to the wilderness of Damascus. When you arrive, anoint Hazael as king over Aram.\"",
+      "translator_notes": [
+        "God's response to Elijah's despair is not comfort but commission: lekh shuv le-darkekha ('go, return on your way'). The direction is reversed — instead of fleeing south, Elijah is sent north to Damascus. The first commission is extraordinary: anointing Hazael as king over Aram (Syria), a foreign nation. This implies God's sovereignty extends beyond Israel's borders — God appoints kings even among nations that do not acknowledge him. Elijah himself does not carry out this specific anointing; Elisha does (2 Kings 8:13)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְאֶת־יֵה֥וּא בֶן־נִמְשִׁ֖י תִּמְשַׁ֣ח לְמֶ֑לֶךְ עַל־יִשְׂרָאֵ֑ל וְאֶת־אֱלִישָׁ֤ע בֶּן־שָׁפָט֙ מֵאָבֵ֣ל מְחוֹלָ֔ה תִּמְשַׁ֖ח לְנָבִ֥יא תַּחְתֶּֽיךָ׃",
+      "text_kjv": "And Jehu the son of Nimshi shalt thou anoint to be king over Israel: and Elisha the son of Shaphat of Abelmeholah shalt thou anoint to be prophet in thy room.",
+      "rendering": "Anoint Jehu son of Nimshi as king over Israel, and anoint Elisha son of Shaphat from Abel-meholah as prophet in your place.",
+      "translator_notes": [
+        "Three commissions in rapid sequence: Hazael over Aram, Jehu over Israel, Elisha as prophetic successor. The phrase navi tachtekha ('prophet in your place') signals that Elijah's ministry has a defined endpoint — he will be replaced. This is not punishment but provision: God ensures the prophetic office continues. Abel-meholah is in the Jordan Valley, placing Elisha in the agricultural heartland."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָבִיא",
+          "transliteration": "navi",
+          "rendered_as": "prophet",
+          "semantic_range": "prophet, spokesperson, one called to speak, proclaimer",
+          "note": "The anointing of Elisha as navi tachtekha ('prophet in your place') is the most personally significant commission: Elijah is not alone, and his work will continue through a successor. The prophetic office is not tied to one man."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְהָיָ֗ה הַנִּמְלָ֛ט מֵחֶ֥רֶב חֲזָאֵ֖ל יָמִ֣ית יֵה֑וּא וְהַנִּמְלָ֛ט מֵחֶ֥רֶב יֵה֖וּא יָמִ֥ית אֱלִישָֽׁע׃",
+      "text_kjv": "And it shall come to pass, that him that escapeth the sword of Hazael shall Jehu slay: and him that escapeth from the sword of Jehu shall Elisha slay.",
+      "rendering": "Whoever escapes the sword of Hazael, Jehu will kill. And whoever escapes the sword of Jehu, Elisha will kill.",
+      "translator_notes": [
+        "The three agents — Hazael, Jehu, Elisha — form a net of judgment that leaves no escape. The verb yamit ('will put to death') is applied even to Elisha, the prophetic figure, indicating that the prophet's word carries lethal force (as seen in 2 Kings 2:24). The structure is a chain: what one misses, the next catches. This answers Elijah's despair: God is not passive — judgment on Baal worship will come through multiple instruments across multiple nations."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְהִשְׁאַרְתִּ֥י בְיִשְׂרָאֵ֖ל שִׁבְעַ֣ת אֲלָפִ֑ים כׇּל־הַבִּרְכַּ֗יִם אֲשֶׁ֤ר לֹא־כָרְעוּ֙ לַבַּ֔עַל וְכׇ֨ל־הַפֶּ֔ה אֲשֶׁ֥ר לֹֽא־נָשַׁ֖ק לֽוֹ׃",
+      "text_kjv": "Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth which hath not kissed him.",
+      "rendering": "Yet I will leave seven thousand in Israel — every knee that has not bowed to Baal and every mouth that has not kissed him.",
+      "translator_notes": [
+        "God's correction of Elijah's 'I alone am left' is devastating in its precision: not one but seven thousand. The number shiv'at alafim ('seven thousand') may be symbolic (seven as completeness multiplied by a thousand) or literal; either way, it demolishes Elijah's claim to sole faithfulness. The two marks of loyalty — knees that have not bowed (lo khare'u) and mouths that have not kissed (lo nashaq) — describe the physical gestures of Baal worship: prostration and the ritual kiss of the idol image. These seven thousand are the hidden faithful — the remnant."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיֵּ֣לֶךְ מִשָּׁ֗ם וַיִּמְצָא֙ אֶת־אֱלִישָׁ֣ע בֶּן־שָׁפָ֔ט וְה֣וּא חֹרֵ֗שׁ שְׁנֵים־עָשָׂ֤ר צְמָדִים֙ לְפָנָ֔יו וְה֖וּא בִּשְׁנֵ֣ים הֶעָשָׂ֑ר וַיַּעֲבֹ֤ר אֵלִיָּ֙הוּ֙ אֵלָ֔יו וַיַּשְׁלֵ֥ךְ אַדַּרְתּ֖וֹ אֵלָֽיו׃",
+      "text_kjv": "So he departed thence, and found Elisha the son of Shaphat, who was plowing with twelve yoke of oxen before him, and he with the twelfth: and Elijah passed by him, and cast his mantle upon him.",
+      "rendering": "He left from there and found Elisha son of Shaphat plowing. Twelve teams of oxen were ahead of him, and he was with the twelfth. Elijah crossed over to him and threw his cloak onto him.",
+      "translator_notes": [
+        "The scene is vividly agricultural: Elisha is plowing with shneim asar tsemadim ('twelve yoke/teams of oxen'), indicating substantial family wealth — this is a large farming operation. The detail ve-hu bi-shneim he-asar ('and he was with the twelfth') places Elisha at the end of the line, driving the last team. Elijah's action — va-yashlekh addaretto elav ('he threw his cloak onto him') — is abrupt and wordless. The aderet ('cloak, mantle') is the prophetic garment; throwing it over Elisha is a symbolic claim of authority and succession. No words are spoken; the gesture says everything."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיַּעֲזֹ֣ב אֶת־הַבָּקָ֗ר וַיָּ֙רׇץ֙ אַחֲרֵ֣י אֵלִיָּ֔הוּ וַיֹּ֗אמֶר אֶשְּׁקָה־נָּ֤א לְאָבִי֙ וּלְאִמִּ֔י וְאֵלְכָ֖ה אַחֲרֶ֑יךָ וַיֹּ֤אמֶר לוֹ֙ לֵ֣ךְ שׁ֔וּב כִּ֥י מֶה־עָשִׂ֖יתִי לָֽךְ׃",
+      "text_kjv": "And he left the oxen, and ran after Elijah, and said, Let me, I pray thee, kiss my father and my mother, and then I will follow thee. And he said unto him, Go back again: for what have I done to thee?",
+      "rendering": "He left the oxen and ran after Elijah, saying, \"Let me kiss my father and mother, and then I will follow you.\" He said to him, \"Go back — for what have I done to you?\"",
+      "translator_notes": [
+        "Elisha's request — eshsheqah na le-avi u-le-immi ('let me kiss my father and mother') — is a request for a proper farewell. Elijah's response — lekh shuv ki meh asiti lakh ('go back, for what have I done to you?') — is cryptic. It may mean: 'Go, do what you need to do, for I have not constrained you' (granting permission), or it may be a test: 'Consider what I have done to you and decide.' The ambiguity is likely deliberate — the call requires free response."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיָּ֨שׇׁב מֵאַחֲרָ֜יו וַיִּקַּ֣ח אֶת־צֶ֧מֶד הַבָּקָ֣ר וַיִּזְבָּחֵ֗הוּ וּבִכְלִ֤י הַבָּקָר֙ בִּשְּׁלָ֣ם הַבָּשָׂ֔ר וַיִּתֵּ֥ן לָעָ֖ם וַיֹּאכֵ֑לוּ וַיָּ֗קׇם וַיֵּ֛לֶךְ אַחֲרֵ֥י אֵלִיָּ֖הוּ וַיְשָׁרְתֵֽהוּ׃",
+      "text_kjv": "And he returned back from him, and took a yoke of oxen, and slew them, and boiled their flesh with the instruments of the oxen, and gave unto the people, and they did eat. Then he arose, and went after Elijah, and ministered unto him.",
+      "rendering": "He turned back from following him, took the team of oxen and slaughtered them. Using the plowing equipment as fuel, he boiled the meat and gave it to the people, and they ate. Then he got up, went after Elijah, and served him.",
+      "translator_notes": [
+        "Elisha's farewell is total and irreversible. He slaughters the oxen (his livelihood) and burns the plowing equipment (u-vikhli ha-baqar bishlam ha-basar, 'with the equipment of the oxen he boiled the meat') — destroying the tools of his former life to fuel a communal feast. This is not a temporary leave of absence; it is a permanent break. The verb va-yesharteihu ('he served/ministered to him') describes Elisha's role as Elijah's attendant — the prophetic apprenticeship begins."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ruth",
+    "chapter": 1,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "A family from Bethlehem flees famine to Moab. The father and both sons die, leaving three widows. Naomi returns to Judah; one daughter-in-law goes home, the other — Ruth the Moabite — refuses to leave and binds herself to Naomi's people and God.",
+    "remarkable": "Ruth's declaration in verses 16-17 is among the most quoted passages in the Hebrew Bible, yet its context is often missed: this is not a wedding vow but a covenant oath sworn by a destitute foreign widow to her equally destitute mother-in-law. Ruth abandons her homeland, her gods, and any prospect of remarriage in Moab — all for a relationship that offers her nothing except shared poverty. The Hebrew verb davaq ('clung') in verse 14 is the same verb used for the marriage bond in Genesis 2:24, and for Israel's covenant attachment to God in Deuteronomy. Ruth's loyalty to Naomi uses the vocabulary of the deepest bonds Scripture knows.",
+    "friction": "Naomi's bitter wordplay in verse 20 — 'Do not call me Naomi (Pleasant); call me Mara (Bitter)' — is clear in Hebrew but requires a translator note in English because the names are left untranslated. The verb shub ('to return') appears twelve times in this chapter, creating a thematic drumbeat that English can partially preserve ('return,' 'go back,' 'turn back') but cannot fully replicate since Hebrew hears the same root each time. In verse 13, Naomi's phrase ha-lahen tesabbernah ('would you wait for them?') uses a rare verb form that may imply either patient waiting or hopeful expectation — we chose 'wait' and noted the ambiguity.",
+    "connections": "The opening phrase 'in the days when the judges ruled' places Ruth within the Judges period but tells a completely different kind of story — not military cycles but domestic faithfulness. The famine that drives Elimelech to Moab echoes Abraham's famine-flight to Egypt (Genesis 12:10) and Jacob's to Egypt (Genesis 42-46) — in each case, leaving the promised land creates crisis. Ruth's oath 'your God will be my God' reverses the pattern of Judges, where Israel repeatedly adopts foreign gods; here a foreigner adopts Israel's God. The genealogy that closes the book (4:18-22) will connect Ruth to David, making this Moabite widow's choice the hinge on which the royal line turns."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֗י בִּימֵי֙ שְׁפֹ֣ט הַשֹּׁפְטִ֔ים וַיְהִ֥י רָעָ֖ב בָּאָ֑רֶץ וַיֵּ֨לֶךְ אִ֜ישׁ מִבֵּ֧ית לֶ֣חֶם יְהוּדָ֗ה לָגוּר֙ בִּשְׂדֵ֣י מוֹאָ֔ב ה֥וּא וְאִשְׁתּ֖וֹ וּשְׁנֵ֥י בָנָֽיו׃",
+      "text_kjv": "Now it came to pass in the days when the judges ruled, that there was a famine in the land. And a certain man of Bethlehemjudah went to sojourn in the country of Moab, he, and his wife, and his two sons.",
+      "rendering": "In the days when the judges ruled, there was a famine in the land. A man from Bethlehem in Judah went to live as a foreigner in the fields of Moab — he, his wife, and his two sons.",
+      "translator_notes": [
+        "The opening vayyehi bimei shefot ha-shofetim ('and it was in the days of the judging of the judges') places the story within the Judges period without specifying which judge. The deliberate vagueness contrasts with the specificity of the Judges narratives — this story operates outside the military-political cycle.",
+        "The phrase lagur bisedei Mo'av ('to sojourn in the fields of Moab') uses the verb gur ('to sojourn, to live as a resident alien') — the same term used of Abraham in Canaan (Genesis 20:1) and Israel in Egypt (Genesis 47:4). A ger has no land rights, no inheritance, no clan protection. Elimelech trades his ancestral property in Bethlehem for landless vulnerability in Moab.",
+        "Bethlehem (Beit Lechem, 'House of Bread') suffering a famine is a bitter irony that the Hebrew reader would hear immediately. The House of Bread has no bread."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גּוּר",
+          "transliteration": "gur",
+          "rendered_as": "live as a foreigner",
+          "semantic_range": "to sojourn, to dwell as an alien, to live temporarily, to reside without rights",
+          "note": "The verb marks Elimelech's family as landless outsiders in Moab — without inheritance, clan, or legal standing. The same status Israel held in Egypt and that Ruth will hold in Bethlehem."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְשֵׁ֣ם הָאִ֣ישׁ אֱ‍ֽלִימֶ֡לֶךְ וְשֵׁם֩ אִשְׁתּ֨וֹ נׇעֳמִ֜י וְשֵׁ֥ם שְׁנֵֽי־בָנָ֣יו ׀ מַחְל֤וֹן וְכִלְיוֹן֙ אֶפְרָתִ֔ים מִבֵּ֥ית לֶ֖חֶם יְהוּדָ֑ה וַיָּבֹ֥אוּ שְׂדֵי־מוֹאָ֖ב וַיִּֽהְיוּ־שָֽׁם׃",
+      "text_kjv": "And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Bethlehemjudah. And they came into the country of Moab, and continued there.",
+      "rendering": "The man's name was Elimelech, his wife's name was Naomi, and his two sons were named Mahlon and Chilion — Ephrathites from Bethlehem in Judah. They came to the fields of Moab and settled there.",
+      "translator_notes": [
+        "Every name in this verse carries meaning that a Hebrew audience would hear: Elimelech ('my God is king'), Naomi ('pleasant, lovely'), Mahlon (possibly 'sickness' or 'weakness'), and Chilion (possibly 'failing, wasting away'). Whether these names are etymologically predictive or literary symbolism applied retroactively, the effect is the same — the narrator signals that the sons will not survive. The names function as compressed foreshadowing.",
+        "Ephrathites (Efratim) identifies the family as members of the Ephrathah clan within Judah — the same designation used for Jesse's family in 1 Samuel 17:12. This is not a random family but part of the lineage that will produce David."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיָּ֥מׇת אֱלִימֶ֖לֶךְ אִ֣ישׁ נׇעֳמִ֑י וַתִּשָּׁאֵ֥ר הִ֖יא וּשְׁנֵ֥י בָנֶֽיהָ׃",
+      "text_kjv": "And Elimelech Naomi's husband died; and she was left, and her two sons.",
+      "rendering": "Then Elimelech, Naomi's husband, died, and she was left with her two sons.",
+      "translator_notes": [
+        "The death is reported with devastating brevity: vayyamot Elimelekh ('and Elimelech died'). No cause, no mourning scene, no burial narrative. The narrator's compression communicates how abruptly and completely disaster strikes. The verb vattisha'er ('she was left, she remained') will recur in verse 5 — each use strips another layer of family away from Naomi. The 'man whose God is king' is gone; Naomi is now defined not by what she has but by what remains after loss."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיִּשְׂא֣וּ לָהֶ֗ם נָשִׁים֙ מֹֽאֲבִיּ֔וֹת שֵׁ֤ם הָֽאַחַת֙ עׇרְפָּ֔ה וְשֵׁ֥ם הַשֵּׁנִ֖ית ר֑וּת וַיֵּ֥שְׁבוּ שָׁ֖ם כְּעֶ֥שֶׂר שָׁנִֽים׃",
+      "text_kjv": "And they took them wives of the women of Moab; the name of the one was Orpah, and the name of the other Ruth: and they dwelled there about ten years.",
+      "rendering": "They married Moabite women; one was named Orpah and the other Ruth. They lived there about ten years.",
+      "translator_notes": [
+        "The marriages to Moabite women (nashim Mo'aviyyot) would have been alarming to an Israelite audience. Deuteronomy 23:3 prohibits Moabites from entering the assembly of the LORD 'to the tenth generation.' The narrator states the marriages without comment — neither condemning nor excusing — and lets the tension stand. The entire book will work to resolve it: how does a Moabite woman become an ancestor of David?",
+        "Orpah's name may derive from oref ('back of the neck, nape') — the part of the body visible when someone turns away. If so, her name foreshadows her departure in verse 14. Ruth's name is less certain — some connect it to re'ut ('friend, companion') or ravah ('to water, to saturate, to refresh'). The ten-year period (ke-eser shanim) underscores that these were real marriages, not casual unions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיָּמ֥וּתוּ גַם־שְׁנֵיהֶ֖ם מַחְל֣וֹן וְכִלְי֑וֹן וַתִּשָּׁאֵר֙ הָֽאִשָּׁ֔ה מִשְּׁנֵ֥י יְלָדֶ֖יהָ וּמֵאִישָֽׁהּ׃",
+      "text_kjv": "And Mahlon and Chilion died also both of them; and the woman was left of her two sons and her husband.",
+      "rendering": "Then both Mahlon and Chilion also died, and the woman was left without her two children and without her husband.",
+      "translator_notes": [
+        "The second use of vattisha'er ('she was left') completes the stripping: Naomi is now mi-shenei yeladeiha u-me'ishah ('from her two children and from her husband') — the preposition min ('from') marking separation and loss. The word yeladim ('children') rather than banim ('sons') is notable — the more intimate, maternal term emphasizes the personal nature of the loss.",
+        "Three deaths in three verses. The narrator's pace is relentless. No explanation is given for why the sons died — the text refuses to moralize. The effect is that Naomi's suffering is presented as raw fact, not as punishment. This restraint is theologically significant: the book does not treat Naomi's loss as divine judgment for the Moab marriage."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַתָּ֤קׇם הִיא֙ וְכַלֹּתֶ֔יהָ וַתָּ֖שׇׁב מִשְּׂדֵ֣י מוֹאָ֑ב כִּ֤י שָֽׁמְעָה֙ בִּשְׂדֵ֣ה מוֹאָ֔ב כִּֽי־פָקַ֤ד יְהוָה֙ אֶת־עַמּ֔וֹ לָתֵ֥ת לָהֶ֖ם לָֽחֶם׃",
+      "text_kjv": "Then she arose with her daughters in law, that she might return from the country of Moab: for she had heard in the country of Moab how that the LORD had visited his people in giving them bread.",
+      "rendering": "She set out with her daughters-in-law to return from the fields of Moab, for she had heard in Moab that the LORD had attended to his people by giving them food.",
+      "translator_notes": [
+        "The verb paqad ('to visit, to attend to, to take note of') is a covenant term — when God paqad his people, it means He has turned His attention toward them with purpose. It carries both positive (visitation with blessing, as here) and negative (visitation with judgment) valences. The same verb describes God's attention to Sarah (Genesis 21:1) and to Israel in Egypt (Exodus 4:31). God's paqad reverses the famine and makes return possible.",
+        "The phrase latet lahem lachem ('to give them bread') closes the circle opened in verse 1: the House of Bread (Bethlehem) that had no bread now has bread again because the LORD has given it. The irony that drove the family to Moab is resolved — but Naomi returns without the family she left with."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "פָּקַד",
+          "transliteration": "paqad",
+          "rendered_as": "attended to",
+          "semantic_range": "to visit, to attend to, to take note of, to appoint, to muster, to punish",
+          "note": "A covenant-loaded verb: when God paqad his people, it signals that He has turned His sovereign attention toward them. Here it means gracious intervention — ending the famine. The same verb in different contexts can mean judgment or military muster."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַתֵּצֵ֗א מִן־הַמָּקוֹם֙ אֲשֶׁ֣ר הָיְתָה־שָׁ֔מָּה וּשְׁתֵּ֥י כַלֹּתֶ֖יהָ עִמָּ֑הּ וַתֵּלַ֣כְנָה בַדֶּ֔רֶךְ לָשׁ֖וּב אֶל־אֶ֥רֶץ יְהוּדָֽה׃",
+      "text_kjv": "Wherefore she went forth out of the place where she was, and her two daughters in law with her; and they went on the way to return unto the land of Judah.",
+      "rendering": "She left the place where she had been living, and her two daughters-in-law went with her. They set out on the road to return to the land of Judah.",
+      "translator_notes": [
+        "The verb shub ('to return') appears here for the first time in its dominant role — it will recur twelve times in this chapter. For Naomi, the return is geographical (Moab to Judah). For Orpah, it will be relational (returning to her mother's house). For Ruth, it creates a paradox: Ruth has never been to Judah, so she cannot 'return' — she can only go. Yet the narrator includes her in the journey of return, hinting that Ruth belongs in Israel even before she arrives."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַתֹּ֤אמֶר נׇעֳמִי֙ לִשְׁתֵּ֣י כַלֹּתֶ֔יהָ לֵ֣כְנָה שֹּׁ֔בְנָה אִשָּׁ֖ה לְבֵ֣ית אִמָּ֑הּ יַ֣עַשׂ יְהוָ֤ה עִמָּכֶם֙ חֶ֔סֶד כַּאֲשֶׁ֧ר עֲשִׂיתֶ֛ם עִם־הַמֵּתִ֖ים וְעִמָּדִֽי׃",
+      "text_kjv": "And Naomi said unto her two daughters in law, Go, return each to her mother's house: the LORD deal kindly with you, as ye have dealt with the dead, and with me.",
+      "rendering": "Naomi said to her two daughters-in-law, \"Go, return — each of you to your mother's house. May the LORD deal with you in faithful love, as you have dealt with the dead and with me.",
+      "expanded_rendering": "The Hebrew chesed — here rendered 'faithful love' — is not generic kindness. Naomi invokes the covenantal loyalty that binds parties in sacred relationship. She is saying: 'May the LORD show you the same kind of bound, obligated, covenant-deep love that you showed to my sons and to me.' That Naomi attributes chesed to these Moabite women is extraordinary — she recognizes covenant-quality love in foreigners outside the formal covenant.",
+      "translator_notes": [
+        "Naomi's blessing — ya'as YHWH immakhem chesed ('may the LORD do with you chesed') — is the first occurrence of chesed in Ruth, and it is theologically explosive. Naomi asks Israel's covenant God to show covenant loyalty to Moabite women. She grounds the request in their own demonstrated chesed: ka'asher asitem im ha-metim ve-immadi ('as you have done with the dead and with me'). The dead (ha-metim) are Mahlon and Chilion — the daughters-in-law's faithfulness to their deceased husbands is recognized as chesed.",
+        "The instruction to return to beit immah ('your mother's house') rather than the expected beit av ('your father's house') is unusual. The 'mother's house' appears in only two other passages (Genesis 24:28, Song of Songs 3:4), both in contexts involving marriage arrangements for women. Naomi may be directing them toward the domestic sphere where remarriage can be negotiated — the mother's house is where a woman's future is arranged."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "steadfast love, faithful love, covenantal loyalty, lovingkindness, mercy, devotion",
+          "note": "The signature term of the book of Ruth. Chesed is not generic kindness — it is the loyalty that exists between parties bound in covenant. Naomi recognizes this quality in her Moabite daughters-in-law, extending covenant vocabulary beyond ethnic Israel. The word will appear again in 2:20 and 3:10, framing the entire narrative."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "יִתֵּ֤ן יְהוָה֙ לָכֶ֔ם וּמְצֶ֣אןָ מְנוּחָ֔ה אִשָּׁ֖ה בֵּ֣ית אִישָׁ֑הּ וַתִּשַּׁ֣ק לָהֶ֔ן וַתִּשֶּׂ֥אנָה קוֹלָ֖ן וַתִּבְכֶּֽינָה׃",
+      "text_kjv": "The LORD grant you that ye may find rest, each of you in the house of her husband. Then she kissed them; and they lifted up their voice, and wept.",
+      "rendering": "May the LORD grant that each of you finds rest in the home of a new husband.\" She kissed them, and they raised their voices and wept.",
+      "translator_notes": [
+        "Naomi's second blessing introduces menuchah ('rest') — not mere cessation of labor but settled security, the condition of being safely placed. The same word describes the promised land itself (Deuteronomy 12:9) and God's own resting place (Psalm 132:14). For a widow in the ancient Near East, menuchah could only come through a husband's household — remarriage was not romance but survival. Naomi wishes them the security she herself has lost.",
+        "The verb vattishaq ('she kissed them') is the standard gesture of familial farewell. The communal weeping — vattise'nah qolan ('they raised their voice') — is a public, audible grief, not quiet tears. Three widows on a road, weeping together, with no men and no home in sight: the scene is one of complete social vulnerability."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מְנוּחָה",
+          "transliteration": "menuchah",
+          "rendered_as": "rest",
+          "semantic_range": "rest, resting place, security, settled condition, repose",
+          "note": "More than physical rest — menuchah is the state of being securely placed in the world. For a widow, this means a household with a husband who provides legal standing and economic protection. The same word describes the promised land and God's dwelling place."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַתֹּאמַ֖רְנָה־לָ֑הּ כִּי־אִתָּ֥ךְ נָשׁ֖וּב לְעַמֵּֽךְ׃",
+      "text_kjv": "And they said unto her, Surely we will return with thee unto thy people.",
+      "rendering": "They said to her, \"No — we will return with you to your people.\"",
+      "translator_notes": [
+        "Both daughters-in-law initially refuse to leave. Their declaration — ittakh nashuv le-ammekh ('with you we will return to your people') — uses the emphatic ki ('surely, indeed') or adversative ki ('no, but rather'). The verb nashuv ('we will return') applies awkwardly to Orpah and Ruth, who have never been to Judah. By using the verb of Naomi's return, they are declaring that Naomi's destination is their destination — her people are their people. This is the same commitment Ruth will formalize in verse 16."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַתֹּ֤אמֶר נׇעֳמִי֙ שֹׁ֣בְנָה בְנֹתַ֔י לָ֥מָּה תֵלַ֖כְנָה עִמִּ֑י הַֽעוֹד־לִ֤י בָנִים֙ בְּֽמֵעַ֔י וְהָי֥וּ לָכֶ֖ם לַאֲנָשִֽׁים׃",
+      "text_kjv": "And Naomi said, Turn again, my daughters: why will ye go with me? are there yet any more sons in my womb, that they may be your husbands?",
+      "rendering": "Naomi said, \"Go back, my daughters. Why would you come with me? Do I still have sons in my womb who could become your husbands?",
+      "translator_notes": [
+        "Naomi's argument invokes the institution of levirate marriage (yibbum) — the obligation for a dead man's brother to marry his widow and produce an heir in the dead man's name (Deuteronomy 25:5-10). Her rhetorical question — ha-od li vanim beme'ai ('are there still sons in my womb?') — is both legally precise and emotionally devastating. Even if she could bear sons, the daughters-in-law would have to wait decades for them to grow. The legal framework that should protect these widows has been emptied by death."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "שֹׁ֤בְנָה בְנֹתַי֙ לֵ֔כְנָ כִּ֥י זָקַ֖נְתִּי מִהְי֣וֹת לְאִ֑ישׁ כִּ֤י אָמַ֙רְתִּי֙ יֶשׁ־לִ֣י תִקְוָ֔ה גַּ֣ם הָיִ֤יתִי הַלַּ֙יְלָה֙ לְאִ֔ישׁ וְגַ֖ם יָלַ֥דְתִּי בָנִֽים׃",
+      "text_kjv": "Turn again, my daughters, go your way; for I am too old to have an husband. If I should say, I have hope, if I should even have an husband to night, and should also bear sons;",
+      "rendering": "Go back, my daughters, go. I am too old to have a husband. Even if I said, 'There is hope for me' — even if I were with a husband tonight and even bore sons —",
+      "translator_notes": [
+        "Naomi builds an impossible hypothetical: ki amarti yesh li tiqvah ('even if I said there is hope for me'). The word tiqvah ('hope') will prove deeply ironic — Naomi declares herself hopeless, but the narrative will restore her through the very daughter-in-law she is trying to send away. The conditional chain (even if I had a husband tonight, even if I bore sons) piles absurdity upon absurdity to make the legal argument airtight: levirate marriage cannot help them."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "הֲלָהֵ֣ן ׀ תְּשַׂבֵּ֗רְנָה עַ֚ד אֲשֶׁ֣ר יִגְדָּ֔לוּ הֲלָהֵן֙ תֵּֽעָגֵ֔נָה לְבִלְתִּ֖י הֱי֣וֹת לְאִ֑ישׁ אַל֙ בְּנֹתַ֔י כִּֽי־מַר־לִ֥י מְאֹ֛ד מִכֶּ֖ם כִּֽי־יָצְאָ֥ה בִ֖י יַד־יְהוָֽה׃",
+      "text_kjv": "Would ye tarry for them till they were grown? would ye stay for them from having husbands? nay, my daughters; for it grieveth me much for your sakes that the hand of the LORD is gone out against me.",
+      "rendering": "would you wait for them until they grew up? Would you shut yourselves off from having husbands? No, my daughters, for it is far more bitter for me than for you, because the hand of the LORD has gone out against me.\"",
+      "translator_notes": [
+        "The verb tesabbernah ('would you wait, would you hope') is rare — used only here in the Hebrew Bible. It may derive from savar ('to wait, to expect, to hope'). The second verb te'agenah ('would you be tied down, would you be restricted') relates to the legal concept of the agunah — a woman bound to a marriage that prevents her from remarrying. Naomi is describing a legal and social prison: if they wait for hypothetical sons, they cannot marry anyone else.",
+        "Naomi's claim ki mar li me'od mikkem ('it is more bitter for me than for you') is ambiguous — it could mean 'my situation is more bitter than yours' or 'I am more grieved on your account than you are.' The first reading expresses Naomi's self-pity; the second expresses compassion. Both are grammatically possible. The phrase yad YHWH ('the hand of the LORD') attributes her suffering directly to God's agency — Naomi does not blame Moab, famine, or circumstance. She blames God."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַתִּשֶּׂ֣נָה קוֹלָ֔ן וַתִּבְכֶּ֖ינָה ע֑וֹד וַתִּשַּׁ֤ק עׇרְפָּה֙ לַחֲמוֹתָ֔הּ וְר֖וּת דָּ֥בְקָה בָּֽהּ׃",
+      "text_kjv": "And they lifted up their voice, and wept again: and Orpah kissed her mother in law; but Ruth clave unto her.",
+      "rendering": "They raised their voices and wept again. Orpah kissed her mother-in-law goodbye, but Ruth clung to her.",
+      "expanded_rendering": "When the text says Ruth 'clung' to Naomi, it uses the Hebrew davaq — the same word that describes the marriage bond in Genesis 2:24 and Israel's covenant attachment to God in Deuteronomy. This is not merely staying behind — it is binding oneself to another person with the force of the deepest commitment Scripture can describe.",
+      "translator_notes": [
+        "The verse splits the two daughters-in-law with a single contrast: Orpah kissed (vattishaq) but Ruth clung (davqah). The kiss is farewell; the clinging is refusal to leave. The verb davaq ('to cling, to cleave, to hold fast') is the same verb used in Genesis 2:24 for the marriage bond ('a man shall leave his father and mother and cling to his wife') and in Deuteronomy 10:20 and 11:22 for Israel's covenant attachment to God ('you shall cling to Him'). Ruth's attachment to Naomi is described with the deepest relational vocabulary the Hebrew Bible possesses.",
+        "Orpah's departure should not be read as failure — she does exactly what Naomi asked. She is the reasonable response. Ruth is the extraordinary one. The narrative needs Orpah's reasonable obedience to measure Ruth's unreasonable devotion."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "דָּבַק",
+          "transliteration": "davaq",
+          "rendered_as": "clung",
+          "semantic_range": "to cling, to cleave, to hold fast, to stick to, to be joined to",
+          "note": "The verb of the deepest relational bonds in Scripture — used for marriage (Genesis 2:24), for covenant loyalty to God (Deuteronomy 10:20), and here for Ruth's attachment to Naomi. It implies a bond that cannot be dissolved by circumstance."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַתֹּ֗אמֶר הִנֵּה֙ שָׁ֣בָה יְבִמְתֵּ֔ךְ אֶל־עַמָּ֖הּ וְאֶל־אֱלֹהֶ֑יהָ שׁ֖וּבִי אַחֲרֵ֥י יְבִמְתֵּֽךְ׃",
+      "text_kjv": "And she said, Behold, thy sister in law is gone back unto her people, and unto her gods: return thou after thy sister in law.",
+      "rendering": "Naomi said, \"Look — your sister-in-law has gone back to her people and to her gods. Go back after your sister-in-law.\"",
+      "translator_notes": [
+        "Naomi's final argument links people and gods: el ammah ve-el eloheiha ('to her people and to her gods'). In the ancient world, returning to your people meant returning to their gods — religion and ethnicity were inseparable. Naomi is saying: Orpah made the sensible choice. She went home to everything familiar — family, culture, worship. You should do the same.",
+        "The term yevimtekh ('your sister-in-law') is from yavam, the same root as yibbum (levirate marriage). The word itself reminds both women of the legal bond that death has severed. By calling Orpah Ruth's yevimtekh, Naomi frames the departing woman in the vocabulary of the broken institution that cannot save any of them."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַתֹּ֤אמֶר רוּת֙ אַל־תִּפְגְּעִי־בִ֔י לְעׇזְבֵ֖ךְ לָשׁ֣וּב מֵאַחֲרָ֑יִךְ כִּ֠י אֶל־אֲשֶׁ֨ר תֵּלְכִ֜י אֵלֵ֗ךְ וּבַאֲשֶׁ֤ר תָּלִ֙ינִי֙ אָלִ֔ין עַמֵּ֣ךְ עַמִּ֔י וֵאלֹהַ֖יִךְ אֱלֹהָֽי׃",
+      "text_kjv": "And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:",
+      "rendering": "But Ruth said, \"Do not press me to leave you or to turn back from following you. For where you go, I will go, and where you stay, I will stay. Your people will be my people, and your God will be my God.",
+      "translator_notes": [
+        "Ruth's declaration — among the most famous passages in the Hebrew Bible — is structured as a series of covenant commitments. The opening al tifge'i bi ('do not press me, do not urge me against') uses the verb paga ('to encounter, to press, to strike against'), here meaning 'do not use force to persuade me.' Ruth is not making a request — she is resisting Naomi's command.",
+        "The four parallel clauses follow a progression from physical companionship to spiritual identity: (1) where you go, I go (shared journey); (2) where you stay, I stay (shared dwelling); (3) your people are my people (shared community); (4) your God is my God (shared worship). Each clause escalates the commitment. The final claim — Elohayikh Elohai ('your God, my God') — is a conversion statement. Ruth abandons Chemosh, the god of Moab, for YHWH. This is not casual — it is the renunciation of everything she has known spiritually.",
+        "The verb shub ('to return, to turn back') appears again — Naomi tells Ruth to 'return,' but Ruth redefines the word: she refuses to turn back. For Ruth, turning back would mean leaving Naomi. The entire chapter's thematic verb is here inverted."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "בַּאֲשֶׁ֤ר תָּמ֙וּתִי֙ אָמ֔וּת וְשָׁ֖ם אֶקָּבֵ֑ר כֹּה֩ יַעֲשֶׂ֨ה יְהוָ֥ה לִי֙ וְכֹ֣ה יֹסִ֔יף כִּ֣י הַמָּ֔וֶת יַפְרִ֖יד בֵּינִ֥י וּבֵינֵֽךְ׃",
+      "text_kjv": "Where thou diest, will I die, and there will I be buried: the LORD do so to me, and more also, if ought but death part thee and me.",
+      "rendering": "Where you die, I will die, and there I will be buried. May the LORD do so to me, and worse, if anything but death separates me from you.\"",
+      "translator_notes": [
+        "Ruth's oath climaxes with death itself: ba'asher tamuti amut vesham eqqaver ('where you die I will die and there I will be buried'). Shared burial means permanent identification with Naomi's family and land — Ruth is renouncing any return to Moab, even in death. In the ancient world, burial location defined tribal and family identity permanently.",
+        "The self-imprecation koh ya'aseh YHWH li vekhoh yosif ('may the LORD do so to me, and add to it') is a standard oath formula (cf. 1 Samuel 3:17, 2 Samuel 3:9, 1 Kings 2:23). The oath invokes divine punishment for oath-breaking, with the unspecified 'so' and 'more' leaving the threatened consequence to God's determination. Ruth swears by YHWH — not by Chemosh — confirming the conversion declared in verse 16.",
+        "The final clause ki ha-mavet yafrid beini u-veinekh ('only death will separate me from you') anticipates Paul's language in Romans 8:38-39 ('neither death nor life... shall be able to separate us'). Whether Paul had Ruth in mind is uncertain, but the verbal echo is striking."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַתֵּ֕רֶא כִּֽי־מִתְאַמֶּ֥צֶת הִ֖יא לָלֶ֣כֶת אִתָּ֑הּ וַתֶּחְדַּ֖ל לְדַבֵּ֥ר אֵלֶֽיהָ׃",
+      "text_kjv": "When she saw that she was stedfastly minded to go with her, then she left speaking unto her.",
+      "rendering": "When Naomi saw that Ruth was determined to go with her, she stopped arguing with her.",
+      "translator_notes": [
+        "The verb mit'ammetset ('was determined, was strengthening herself') comes from the root amats ('to be strong, to be firm') — the same root God uses to commission Joshua: chazaq ve-emats ('be strong and courageous,' Joshua 1:6). Ruth's determination is described with the vocabulary of military-grade resolve. Naomi recognizes an immovable will and vattechdal ledabber eleiha ('she ceased speaking to her'). The silence is acquiescence — not acceptance, not joy, just the end of resistance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַתֵּלַ֣כְנָה שְׁתֵּיהֶ֔ם עַד־בֹּאָ֖נָה בֵּ֣ית לָ֑חֶם וַיְהִ֗י כְּבֹאָ֙נָה֙ בֵּ֣ית לֶ֔חֶם וַתֵּהֹ֤ם כׇּל־הָעִיר֙ עֲלֵיהֶ֔ן וַתֹּאמַ֖רְנָה הֲזֹ֥את נׇעֳמִֽי׃",
+      "text_kjv": "So they two went until they came to Bethlehem. And it came to pass, when they were come to Bethlehem, that all the city was moved about them, and they said, Is this Naomi?",
+      "rendering": "The two of them walked on until they reached Bethlehem. When they arrived in Bethlehem, the whole town was stirred because of them, and the women said, \"Can this be Naomi?\"",
+      "translator_notes": [
+        "The arrival scene: vattehom kol ha-ir aleihen ('the whole city was astir/stirred concerning them'). The verb hamah ('to murmur, to roar, to be in uproar') suggests the entire community buzzing — not a quiet homecoming but a public sensation. Naomi left as a married woman with two sons and returns as a widow with a Moabite daughter-in-law. The question ha-zot No'omi ('is this Naomi?') conveys shock at her changed appearance and circumstances.",
+        "The feminine verb vattomarnah ('they said,' feminine plural) indicates the speakers are the women of Bethlehem specifically — the community that would have known Naomi before her departure. The recognition scene sets up Naomi's bitter response."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַתֹּ֣אמֶר אֲלֵיהֶ֔ן אַל־תִּקְרֶ֥אנָה לִ֖י נׇעֳמִ֑י קְרֶ֤אןָ לִי֙ מָרָ֔א כִּי־הֵמַ֥ר שַׁדַּ֛י לִ֖י מְאֹֽד׃",
+      "text_kjv": "And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me.",
+      "rendering": "She said to them, \"Do not call me Naomi. Call me Mara, for the Almighty has made my life very bitter.",
+      "translator_notes": [
+        "Naomi's name-change demand is a theological protest. No'omi means 'pleasant, lovely, delightful'; Mara means 'bitter.' The wordplay — ki hemar Shaddai li me'od ('for the Almighty has made it very bitter for me') — uses the hiphil of marar ('to be bitter'), making God the active agent of her bitterness. She does not say 'life has been bitter' but 'Shaddai has made it bitter.'",
+        "The divine name Shaddai ('the Almighty') rather than YHWH is significant. Shaddai is the patriarchal-era name (Genesis 17:1, 28:3, 35:11, 43:14, 48:3, 49:25) — the God of promise and abundance. By using this name, Naomi accuses the God of abundance of producing scarcity. The God who was supposed to make fruitful has left her barren and alone."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שַׁדַּי",
+          "transliteration": "Shaddai",
+          "rendered_as": "the Almighty",
+          "semantic_range": "the Almighty, the All-Sufficient, the Mountain One, God of abundance",
+          "note": "The patriarchal divine name associated with fertility, abundance, and blessing (Genesis 17:1, 28:3, 35:11). Naomi's use of Shaddai rather than YHWH is a bitter accusation: the God of abundance has given her emptiness."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "אֲנִי֙ מְלֵאָ֣ה הָלַ֔כְתִּי וְרֵיקָ֖ם הֱשִׁיבַ֣נִי יְהוָ֑ה לָ֣מָּה תִקְרֶ֤אנָה לִי֙ נׇעֳמִ֔י וַֽיהוָה֙ עָ֣נָה בִ֔י וְשַׁדַּ֖י הֵ֥רַֽע לִֽי׃",
+      "text_kjv": "I went out full, and the LORD hath brought me home again empty: why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me?",
+      "rendering": "I went away full, but the LORD has brought me back empty. Why call me Naomi, when the LORD has testified against me and the Almighty has brought misfortune on me?\"",
+      "translator_notes": [
+        "The full/empty contrast — ani mele'ah halakhti vereiqam heshivani YHWH ('I went full, and the LORD brought me back empty') — is Naomi's summary of her entire Moab experience. Mele'ah ('full') encompasses husband, sons, household, social standing. Reiqam ('empty, empty-handed') is the totality of loss. The irony the narrator sees but Naomi does not: she is not returning empty. Ruth is standing right next to her.",
+        "Two divine names frame the accusation: YHWH anah vi ('the LORD testified against me') and Shaddai hera li ('the Almighty brought evil/misfortune upon me'). The verb anah can mean 'to answer, to testify against, to afflict' — Naomi casts her suffering as God's legal verdict against her. The accumulation of divine agency — God made it bitter (v. 20), God brought me back empty, God testified against me, God afflicted me — is the most concentrated accusation against God in any narrative text outside Job."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַתָּ֣שׇׁב נׇעֳמִ֗י וְר֨וּת הַמּוֹאֲבִיָּ֤ה כַלָּתָהּ֙ עִמָּ֔הּ הַשָּׁ֖בָה מִשְּׂדֵ֣י מוֹאָ֑ב וְהֵ֗מָּה בָּ֚אוּ בֵּ֣ית לֶ֔חֶם בִּתְחִלַּ֖ת קְצִ֥יר שְׂעֹרִֽים׃",
+      "text_kjv": "So Naomi returned, and Ruth the Moabitess, her daughter in law, with her, which returned out of the country of Moab: and they came to Bethlehem in the beginning of barley harvest.",
+      "rendering": "So Naomi returned, and with her Ruth the Moabite, her daughter-in-law, who came back from the fields of Moab. They arrived in Bethlehem at the beginning of the barley harvest.",
+      "translator_notes": [
+        "The narrator's closing frame reintroduces Ruth with her full designation: Rut ha-Mo'aviyyah kallatah ('Ruth the Moabite, her daughter-in-law'). The epithet ha-Mo'aviyyah ('the Moabite') will follow Ruth throughout the book (2:2, 2:6, 2:21, 4:5, 4:10) — the narrator never lets the reader forget her foreign origin. It is a constant reminder that the woman who will become David's great-grandmother was an outsider.",
+        "The chapter ends with a temporal marker of hope: bithchillat qetsir se'orim ('at the beginning of the barley harvest'). After famine, death, and emptiness — harvest. The House of Bread has bread again. The timing is also legally significant: the barley harvest is when gleaning rights for the poor (Leviticus 19:9, 23:22) become active, creating the legal mechanism by which Ruth will encounter Boaz in chapter 2."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

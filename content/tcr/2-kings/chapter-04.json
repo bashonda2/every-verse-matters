@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Kings",
+    "chapter": 4,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Four miracle stories demonstrate Elisha's prophetic power and God's provision for the vulnerable. First, a widow of one of the sons of the prophets faces a creditor who will take her two sons as debt-slaves. Elisha instructs her to borrow empty vessels from neighbors and pour her small jar of oil into them. The oil flows until every vessel is full, and she sells it to pay the debt and live on the rest. Second, a wealthy woman from Shunem provides Elisha with regular hospitality, building a special room for him. Elisha promises she will hold a son within a year, though her husband is old. The promise is fulfilled. Years later the child dies suddenly, apparently from heatstroke. The Shunammite rides urgently to Elisha at Mount Carmel. Gehazi, Elisha's servant, is sent ahead with Elisha's staff to lay on the child's face, but nothing happens. Elisha comes himself, lies on the child body-to-body, and the child revives after sneezing seven times. Third, during a famine Elisha feeds the sons of the prophets from a pot of stew that has been accidentally poisoned with wild gourds. He throws flour into the pot and declares it safe. Fourth, a man brings twenty loaves of barley bread and fresh grain, and Elisha commands it be given to a hundred men. The servant protests the inadequacy, but Elisha insists, and they eat with food left over.",
+    "remarkable": "The chapter presents Elisha as a prophet of domestic miracles — his power operates in kitchens, bedrooms, and family crises rather than on Mount Carmel or before kings. Each miracle addresses a concrete human need: debt, childlessness, death, famine, and inadequate food. The oil miracle reveals a principle of faith: the oil stops flowing when the vessels run out, suggesting that God's provision is limited only by the capacity to receive it. The Shunammite narrative is the chapter's centerpiece — the longest and most emotionally complex story. The woman's response to her son's death is extraordinary: she tells no one, rides directly to the prophet, and when asked if everything is well, says shalom ('peace') even though her son is dead. Her fierce, controlled determination to reach Elisha rather than surrendering to grief is one of the most powerful portraits of faith-in-crisis in the Hebrew Bible. The feeding miracle (twenty loaves for a hundred men with leftovers) anticipates Jesus' feeding of the five thousand.",
+    "friction": "The Shunammite woman's response to Elisha in verse 28 — 'Did I ask you for a son? Did I not say, Do not deceive me?' — contains a sharp accusation: the prophetic gift has become a source of deeper pain than her original childlessness. This raises the question of whether God's gifts can become occasions for suffering. The failure of Gehazi's staff-on-the-face method (verse 31) contrasts with the success of Elisha's body-on-body method, raising questions about whether prophetic power can be delegated through objects or requires personal presence. The seven sneezes of the revived child (verse 35) are a specific and unusual detail that interpreters have variously understood as signs of returning breath, expulsion of death, or simply a realistic physical response. The poisoned stew miracle (verses 38-41) is brief and raises no theological difficulty but illustrates the prophetic community's poverty during famine.",
+    "connections": "The widow's oil miracle parallels Elijah's multiplication of the widow of Zarephath's flour and oil (1 Kings 17:8-16) — both prophets provide for destitute widows through miraculous provision. The Shunammite's son narrative parallels and intensifies the Zarephath narrative: Elijah also raised a widow's son (1 Kings 17:17-24), but here the woman is wealthy and the story more psychologically developed. Elisha's body-on-body resuscitation (verse 34) echoes Elijah's identical technique (1 Kings 17:21). The feeding of a hundred from twenty loaves anticipates Jesus' feeding miracles (Matthew 14:13-21, 15:32-38) with the same pattern: inadequate supply, prophetic command, abundant surplus. The debt-slavery crisis reflects the social legislation of Leviticus 25:39-43 and anticipates Nehemiah's reforms (Nehemiah 5)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וְאִשָּׁ֣ה אַחַ֣ת מִנְּשֵׁ֣י בְנֵי־הַנְּבִיאִ֡ים צָעֲקָ֣ה אֶל־אֱלִישָׁע֩ לֵאמֹ֨ר עַבְדְּךָ֤ אִישִׁי֙ מֵ֔ת וְאַתָּ֣ה יָדַ֔עְתָּ כִּ֣י עַבְדְּךָ֔ הָיָ֥ה יָרֵ֖א אֶת־יְהוָ֑ה וְהַנֹּשֶׁ֣ה בָּ֔א לָקַ֜חַת אֶת־שְׁנֵ֧י יְלָדַ֛י ל֖וֹ לַעֲבָדִֽים׃",
+      "text_kjv": "Now there cried a certain woman of the wives of the sons of the prophets unto Elisha, saying, Thy servant my husband is dead; and thou knowest that thy servant did fear the LORD: and the creditor is come to take unto him my two sons to be bondmen.",
+      "rendering": "A woman from among the wives of the sons of the prophets cried out to Elisha, \"Your servant my husband has died. You know that your servant feared the LORD, yet the creditor has come to take my two sons as his slaves.\"",
+      "translator_notes": [
+        "The widow identifies her husband as a God-fearing member of the prophetic community, yet he died in debt. Her appeal highlights a painful reality: faithfulness to God did not guarantee financial security, especially for prophets during the reign of kings hostile to the LORD. The creditor (noseh) had legal right under Israelite law to take children as debt-slaves (cf. Leviticus 25:39; Nehemiah 5:5), though the practice was supposed to be limited and humane."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיֹּ֤אמֶר אֵלֶ֙יהָ֙ אֱלִישָׁ֔ע מָ֥ה אֶעֱשֶׂה־לָּ֖ךְ הַגִּ֣ידִי לִ֑י מַה־יֶּשׁ־לָ֣כִי בַבַּ֔יִת וַתֹּ֗אמֶר אֵ֣ין לְשִׁפְחָתְךָ֤ כֹל֙ בַּבַּ֔יִת כִּ֖י אִם־אָס֥וּךְ שָֽׁמֶן׃",
+      "text_kjv": "And Elisha said unto her, What shall I do for thee? tell me, what hast thou in the house? And she said, Thine handmaid hath not any thing in the house, save a pot of oil.",
+      "rendering": "Elisha asked her, \"What can I do for you? Tell me, what do you have in the house?\" She said, \"Your servant has nothing at all in the house except a small jar of oil.\"",
+      "translator_notes": [
+        "Elisha's question mah yesh lakh ba-bayit ('what is there for you in the house?') redirects attention from what she lacks to what she has. The answer — ein le-shifchatekha khol ba-bayit ki im asukh shamen ('your maidservant has nothing in the house except a jar of oil') — establishes the starting point of the miracle: God works with what exists, however small. The asukh is a small flask or jar, emphasizing how little remains."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיֹּ֗אמֶר לְכִ֤י שַׁאֲלִי־לָךְ֙ כֵּלִ֣ים מִן־הַח֔וּץ מֵאֵ֖ת כׇּל־שְׁכֵנָ֑יִךְ כֵּלִ֥ים רֵקִ֖ים אַל־תַּמְעִֽיטִי׃",
+      "text_kjv": "Then he said, Go, borrow thee vessels abroad of all thy neighbours, even empty vessels; borrow not a few.",
+      "rendering": "He said, \"Go, borrow vessels from all your neighbors outside — empty vessels. Do not get too few.\"",
+      "translator_notes": [
+        "The instruction al tam'iti ('do not make few, do not limit') places the burden of faith on the widow: the scope of the miracle will be determined by how many vessels she collects. More vessels, more oil. Fewer vessels, less provision. This is an active faith — she must go to every neighbor and ask."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וּבָ֗את וְסָגַ֤רְתְּ הַדֶּ֙לֶת֙ בַּעֲדֵ֣ךְ וּבְעַד־בָּנַ֔יִךְ וְיָצַ֕קְתְּ עַ֥ל כׇּל־הַכֵּלִ֖ים הָאֵ֑לֶּה וְהַמָּלֵ֖א תַּסִּ֥יעִי׃",
+      "text_kjv": "And when thou art come in, thou shalt shut the door upon thee and upon thy sons, and shalt pour out into all those vessels, and thou shalt set aside that which is full.",
+      "rendering": "\"Then go inside, shut the door behind you and your sons, and pour oil into all these vessels. Set each one aside when it is full.\"",
+      "translator_notes": [
+        "The instruction to shut the door (ve-sagarat ha-delet ba'adekh) creates a private space for the miracle. This is not a public spectacle but a domestic act of faith performed behind closed doors. The miracle happens in the hidden sphere of a poor widow's home, not on a mountain before crowds."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַתֵּ֖לֶךְ מֵאִתּ֑וֹ וַתִּסְגֹּ֤ר הַדֶּ֙לֶת֙ בַּעֲדָ֣הּ וּבְעַד־בָּנֶ֔יהָ הֵ֛ם מַגִּישִׁ֥ים אֵלֶ֖יהָ וְהִ֥יא מוֹצָֽקֶת׃",
+      "text_kjv": "So she went from him, and shut the door upon her and upon her sons, who brought the vessels to her; and she poured out.",
+      "rendering": "She left him and shut the door behind herself and her sons. They kept bringing vessels to her, and she kept pouring.",
+      "translator_notes": [
+        "The scene behind the closed door has a beautiful rhythm: hem maggishim eleha ve-hi motzaqet ('they were bringing to her and she was pouring'). The sons bring vessels; the mother pours. The participial forms indicate continuous, ongoing action — a sustained miracle happening in the quiet repetition of domestic labor."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיְהִ֣י ׀ כִּמְלֹ֣את הַכֵּלִ֗ים וַתֹּ֤אמֶר אֶל־בְּנָהּ֙ הַגִּ֨ישָׁה אֵלַ֥י עוֹד֙ כֶּ֔לִי וַיֹּ֣אמֶר אֵלֶ֔יהָ אֵ֥ין ע֖וֹד כֶּ֑לִי וַיַּעֲמֹ֖ד הַשָּֽׁמֶן׃",
+      "text_kjv": "And it came to pass, when the vessels were full, that she said unto her son, Bring me yet a vessel. And he said unto her, There is not a vessel more. And the oil stayed.",
+      "rendering": "When the vessels were full, she said to her son, \"Bring me another vessel.\" He said, \"There are no more vessels.\" And the oil stopped flowing.",
+      "expanded_rendering": "The oil stops when the vessels run out, not when the supply runs out. The phrase va-ya'amod ha-shamen ('and the oil stood still, stopped') reveals the principle: God's provision was not limited by the amount of oil in the small jar but by the number of empty vessels available to receive it. Had she borrowed more vessels, more oil would have flowed. The miracle calibrated itself to the widow's faith and initiative — to the number of empty vessels she was willing to ask for. This is provision shaped by receptivity.",
+      "translator_notes": [
+        "The verb va-ya'amod ('it stood, it stopped') is the same verb used for something coming to a halt. The oil did not run out — it stopped because there was nothing left to receive it. The theological implication is that divine abundance meets human capacity: God pours until there is no more room."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַתָּבֹ֗א וַתַּגֵּד֙ לְאִ֣ישׁ הָאֱלֹהִ֔ים וַיֹּ֗אמֶר לְכִ֤י מִכְרִי֙ אֶת־הַשֶּׁ֔מֶן וְשַׁלְּמִ֖י אֶת־נִשְׁיֵ֑ךְ וְאַ֣תְּ וּ֠בָנַ֠יִךְ תִּחְיִ֖י בַּנּוֹתָֽר׃",
+      "text_kjv": "Then she came and told the man of God. And he said, Go, sell the oil, and pay thy debt, and live thou and thy children of the rest.",
+      "rendering": "She went and told the man of God, and he said, \"Go, sell the oil, pay your debt, and you and your sons can live on what remains.\"",
+      "translator_notes": [
+        "Elisha's instruction covers all three needs: pay the debt (ve-shalmi et nishyekh), which prevents the sons from being taken as slaves; then live on the surplus (tichyi ba-notar). The miracle is not merely dramatic — it is economically comprehensive. The woman's crisis is fully resolved."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיְהִ֣י הַיּ֗וֹם וַיַּעֲבֹ֤ר אֱלִישָׁע֙ אֶל־שׁוּנֵ֔ם וְשָׁ֛ם אִשָּׁ֥ה גְדוֹלָ֖ה וַתַּחֲזֶק־בּ֣וֹ לֶאֱכׇל־לָ֑חֶם וַיְהִ֛י מִדֵּ֥י עׇבְר֖וֹ יָסֻ֥ר שָׁ֖מָּה לֶאֱכׇל־לָֽחֶם׃",
+      "text_kjv": "And it fell on a day, that Elisha passed to Shunem, where was a great woman; and she constrained him to eat bread. And so it was, that as oft as he passed by, he turned in thither to eat bread.",
+      "rendering": "One day Elisha passed through Shunem, where a prominent woman persuaded him to eat a meal. From then on, whenever he passed through, he would stop there to eat.",
+      "translator_notes": [
+        "The ishah gedolah ('great woman') is great in social standing — wealthy and influential. The verb va-tachazek bo ('she took hold of him, she urged him strongly') indicates persistent hospitality, not a casual invitation. The regular visits — midei ovro yasur shammah ('whenever he passed by, he would turn in there') — establish a relationship of prophetic patronage."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַתֹּ֙אמֶר֙ אֶל־אִישָׁ֔הּ הִנֵּה־נָ֣א יָדַ֔עְתִּי כִּ֛י אִ֥ישׁ אֱלֹהִ֖ים קָד֣וֹשׁ ה֑וּא עֹבֵ֥ר עָלֵ֖ינוּ תָּמִֽיד׃",
+      "text_kjv": "And she said unto her husband, Behold now, I perceive that this is an holy man of God, which passeth by us continually.",
+      "rendering": "She said to her husband, \"I am certain that this man who regularly passes through here is a holy man of God.\"",
+      "translator_notes": [
+        "The woman's discernment — yadati ki ish Elohim qadosh hu ('I know that he is a holy man of God') — recognizes both his prophetic identity and his holiness. The word qadosh ('holy, set apart') applied to the prophet means she perceives the divine presence that accompanies him. This is spiritual perception, not merely social hospitality."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "נַעֲשֶׂה־נָּ֤א עֲלִיַּת־קִיר֙ קְטַנָּ֔ה וְנָשִׂ֨ים ל֥וֹ שָׁ֛ם מִטָּ֥ה וְשֻׁלְחָ֖ן וְכִסֵּ֣א וּמְנוֹרָ֑ה וְהָיָ֛ה בְּבֹא֥וֹ אֵלֵ֖ינוּ יָס֥וּר שָֽׁמָּה׃",
+      "text_kjv": "Let us make a little chamber, I pray thee, on the wall, and let us set for him there a bed, and a table, and a stool, and a candlestick: and it shall be, when he cometh to us, that he shall turn in thither.",
+      "rendering": "\"Let us make a small upper room on the wall and furnish it with a bed, a table, a chair, and a lamp. Whenever he comes to us, he can stay there.\"",
+      "translator_notes": [
+        "The furnishings — mittah, shulchan, kisei, menorah ('bed, table, chair, lamp') — represent complete provision for a guest. The aliyyat qir qetannah ('small upper room on the wall') is a room built on the flat roof or as an extension of the upper wall. This is permanent hospitality — a dedicated space for the prophet, always ready."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיְהִ֣י הַיּ֔וֹם וַיָּ֣בֹא שָׁ֔מָּה וַיָּ֖סַר אֶל־הָעֲלִיָּ֑ה וַיִּשְׁכַּב־שָֽׁמָּה׃",
+      "text_kjv": "And it fell on a day, that he came thither, and he turned into the chamber, and lay there.",
+      "rendering": "One day Elisha came and went up to the room and rested there.",
+      "translator_notes": [
+        "The narrative is spare: he came, he went up, he lay down. The prophet accepts the hospitality without excessive gratitude or ceremony. The room serves its purpose."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיֹּ֙אמֶר֙ אֶל־גֵּחֲזִ֣י נַעֲר֔וֹ קְרָ֖א לַשּׁוּנַמִּ֣ית הַזֹּ֑את וַיִּקְרָא־לָ֖הּ וַתַּעֲמֹ֥ד לְפָנָֽיו׃",
+      "text_kjv": "And he said to Gehazi his servant, Call this Shunammite. And when he had called her, she stood before him.",
+      "rendering": "He said to Gehazi his servant, \"Call this Shunammite woman.\" He called her, and she stood before him.",
+      "translator_notes": [
+        "Gehazi (Gechazi) is introduced as Elisha's na'ar ('servant, attendant'). He functions as the intermediary between prophet and petitioner — the same role Elisha once played for Elijah. The Shunammite stands lifnav ('before him'), the posture of one awaiting instruction."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיֹּ֣אמֶר ל֗וֹ אֱמׇר־נָ֣א אֵלֶיהָ֮ הִנֵּ֣ה חָרַ֣דְתְּ אֵלֵ֗ינוּ אֶת־כׇּל־הַחֲרָדָ֣ה הַזֹּאת֒ מֶ֚ה לַעֲשׂ֣וֹת לָ֔ךְ הֲיֵ֤שׁ לְדַבֶּר־לָךְ֙ אֶל־הַמֶּ֔לֶךְ א֖וֹ אֶל־שַׂ֣ר הַצָּבָ֑א וַתֹּ֕אמֶר בְּת֥וֹךְ עַמִּ֖י אָנֹכִ֥י יֹשָֽׁבֶת׃",
+      "text_kjv": "And he said unto him, Say now unto her, Behold, thou hast been careful for us with all this care; what is to be done for thee? wouldest thou be spoken for to the king, or to the captain of the host? And she answered, I dwell among mine own people.",
+      "rendering": "He told Gehazi, \"Say to her: You have gone to all this trouble for us. What can be done for you? Should I speak on your behalf to the king or to the commander of the army?\" She answered, \"I live among my own people.\"",
+      "translator_notes": [
+        "Elisha offers political patronage — influence with the king or military commander — the most valuable currency in an ancient Near Eastern monarchy. Her response betokh ammi anokhi yoshevet ('among my own people I am dwelling') is remarkable: she needs nothing from the political establishment. She is content, embedded in her community, lacking nothing that power can provide. This sets up the deeper gift that follows."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֹּ֕אמֶר וּמָ֖ה לַעֲשׂ֣וֹת לָ֑הּ וַיֹּ֣אמֶר גֵּחֲזִ֔י אֲבָ֛ל בֵּ֥ן אֵין־לָ֖הּ וְאִישָׁ֥הּ זָקֵֽן׃",
+      "text_kjv": "And he said, What then is to be done for her? And Gehazi answered, Verily she hath no child, and her husband is old.",
+      "rendering": "He asked, \"Then what can be done for her?\" Gehazi answered, \"She has no son, and her husband is old.\"",
+      "translator_notes": [
+        "Gehazi's observation ben ein lah ve-ishah zaqen ('a son she does not have, and her husband is old') identifies the one lack that wealth and community cannot fill. Childlessness in ancient Israel was not merely a personal sorrow but a threat to the family's future — no heir meant the end of the family line and the loss of the family's ancestral land."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיֹּ֖אמֶר קְרָא־לָ֑הּ וַיִּקְרָא־לָ֖הּ וַתַּעֲמֹ֥ד בַּפָּֽתַח׃",
+      "text_kjv": "And he said, Call her. And when he had called her, she stood in the door.",
+      "rendering": "He said, \"Call her.\" When he called her, she stood in the doorway.",
+      "translator_notes": [
+        "The woman stands ba-petach ('in the doorway') — a threshold position between the public space and the private room. She is on the boundary between her present life and the promise about to be spoken."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיֹּ֗אמֶר לַמּוֹעֵ֤ד הַזֶּה֙ כָּעֵ֣ת חַיָּ֔ה אַ֖תְּ חֹבֶ֣קֶת בֵּ֑ן וַתֹּ֗אמֶר אַל־אֲדֹנִי֙ אִ֣ישׁ הָאֱלֹהִ֔ים אַל־תְּכַזֵּ֖ב בְּשִׁפְחָתֶֽךָ׃",
+      "text_kjv": "And he said, About this season, according to the time of life, thou shalt embrace a son. And she said, Nay, my lord, thou man of God, do not lie unto thine handmaid.",
+      "rendering": "Elisha said, \"At this season next year, you will be holding a son.\" She said, \"No, my lord, man of God — do not deceive your servant.\"",
+      "translator_notes": [
+        "The promise la-mo'ed ha-zeh ka-et chayyah att chobeqet ben ('at this appointed time, at the season of life, you will be embracing a son') echoes the promise to Sarah in Genesis 18:10, 14 — the same phrase ka-et chayyah ('at the time of life/living') appears in both passages. The Shunammite's response al tekhazzev be-shifchatekha ('do not deal falsely with your maidservant') reveals that she has learned to protect herself from the pain of hope. She would rather not hope than hope and be disappointed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַתַּ֙הַר֙ הָֽאִשָּׁ֔ה וַתֵּ֣לֶד בֵּ֔ן לַמּוֹעֵ֤ד הַזֶּה֙ כָּעֵ֣ת חַיָּ֔ה אֲשֶׁר־דִּבֶּ֥ר אֵלֶ֖יהָ אֱלִישָֽׁע׃",
+      "text_kjv": "And the woman conceived, and bare a son at that season that Elisha had said unto her, according to the time of life.",
+      "rendering": "The woman conceived and bore a son at that season the next year, just as Elisha had told her.",
+      "translator_notes": [
+        "The fulfillment is precise: la-mo'ed ha-zeh ka-et chayyah asher dibber eleha Elisha ('at this appointed time, at the season of life, as Elisha had spoken to her'). The prophetic word and its fulfillment frame the promise — what Elisha spoke, reality produced."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיִּגְדַּ֖ל הַיָּ֑לֶד וַיְהִ֣י הַיּ֔וֹם וַיֵּצֵ֥א אֶל־אָבִ֖יו אֶל־הַקֹּצְרִֽים׃",
+      "text_kjv": "And when the child was grown, it fell on a day, that he went out to his father to the reapers.",
+      "rendering": "The child grew. One day he went out to his father, who was among the reapers.",
+      "translator_notes": [
+        "The phrase va-yigdal ha-yeled ('the child grew') compresses years into two words. The scene shifts abruptly to harvest time — the boy is old enough to go to the field. The casualness of the opening — a normal day, a boy going to see his father at work — makes the crisis that follows more devastating."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיֹּ֥אמֶר אֶל־אָבִ֖יו רֹאשִׁ֣י ׀ רֹאשִׁ֑י וַיֹּ֙אמֶר֙ אֶל־הַנַּ֔עַר שָׂאֵ֖הוּ אֶל־אִמּֽוֹ׃",
+      "text_kjv": "And he said unto his father, My head, my head. And he said to a lad, Carry him to his mother.",
+      "rendering": "He said to his father, \"My head, my head!\" The father told a servant, \"Carry him to his mother.\"",
+      "translator_notes": [
+        "The child's cry roshi roshi ('my head, my head!') suggests sunstroke or heatstroke during harvest — a realistic detail for outdoor labor in the summer heat. The father's response — sending the boy to his mother rather than attending to him personally — reflects the social reality that medical care for children fell within the mother's domain."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיִּשָּׂאֵ֕הוּ וַיְבִיאֵ֖הוּ אֶל־אִמּ֑וֹ וַיֵּ֧שֶׁב עַל־בִּרְכֶּ֛יהָ עַד־הַצׇּהֳרַ֖יִם וַיָּמֹֽת׃",
+      "text_kjv": "And when he had taken him, and brought him to his mother, he sat on her knees till noon, and then died.",
+      "rendering": "He carried him and brought him to his mother. The child sat on her lap until noon, and then he died.",
+      "translator_notes": [
+        "The boy dies at noon — the hottest part of the day — on his mother's knees. The brevity of va-yamot ('and he died') after the intimate image of a child on his mother's lap is devastating. The promised son, the impossible gift, is dead."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַתַּ֗עַל וַתַּשְׁכִּבֵ֙הוּ֙ עַל־מִטַּ֣ת אִ֣ישׁ הָאֱלֹהִ֔ים וַתִּסְגֹּ֥ר בַּעֲד֖וֹ וַתֵּצֵֽא׃",
+      "text_kjv": "And she went up, and laid him on the bed of the man of God, and shut the door upon him, and went out.",
+      "rendering": "She went up and laid him on the bed of the man of God, shut the door behind him, and went out.",
+      "translator_notes": [
+        "The Shunammite places her dead son on Elisha's bed — mittat ish ha-Elohim ('the bed of the man of God'). This is not a random choice but a deliberate act: she places her son in the space most saturated with the prophet's presence, the room she built, on the bed she provided. She shuts the door (va-tisgor ba'ado) as if sealing the child in the prophetic space, then leaves to seek the prophet himself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַתִּקְרָא֙ אֶל־אִישָׁ֔הּ וַתֹּ֗אמֶר שִׁלְחָ֨ה נָ֣א לִי֮ אֶחָ֣ד מִן־הַנְּעָרִ֗ים וְאַחַ֛ת הָאֲתֹנ֖וֹת וְאָר֛וּצָה עַד־אִ֥ישׁ הָאֱלֹהִ֖ים וְאָשֽׁוּבָה׃",
+      "text_kjv": "And she called unto her husband, and said, Send me, I pray thee, one of the young men, and one of the asses, that I may run to the man of God, and come again.",
+      "rendering": "She called to her husband and said, \"Send me one of the servants and a donkey so I can hurry to the man of God and come back.\"",
+      "translator_notes": [
+        "She does not tell her husband the child is dead. The verb arutzah ('I will run') conveys urgency. She asks for minimal resources — one servant, one donkey — and frames the trip as brief: ve-ashuvah ('and I will return'). Her composure in this moment is extraordinary: she is managing information and logistics while her dead son lies on the prophet's bed."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיֹּ֗אמֶר מַדּ֜וּעַ אַ֤תְּ הֹלֶ֤כֶת אֵלָיו֙ הַיּ֔וֹם לֹא־חֹ֖דֶשׁ וְלֹ֣א שַׁבָּ֑ת וַתֹּ֖אמֶר שָׁלֽוֹם׃",
+      "text_kjv": "And he said, Wherefore wilt thou go to him to day? it is neither new moon, nor sabbath. And she said, It shall be well.",
+      "rendering": "He asked, \"Why are you going to him today? It is not the new moon or the Sabbath.\" She said, \"All is well.\"",
+      "translator_notes": [
+        "Her husband's question reveals that visits to the prophet were normally reserved for religious occasions — the new moon (chodesh) and Sabbath (shabbat). Her answer shalom ('peace, all is well') is not a lie but a statement of determined faith — she is going to make it well by reaching the prophet. The word shalom here carries the weight of her entire desperate hope."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, completeness, well-being, welfare",
+          "note": "The Shunammite's shalom is not a description of her current state but an assertion of what she intends to achieve. Her child is dead, but she speaks shalom because she is heading toward the one person who can restore it. This is faith expressed as a single word."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַתַּחֲבֹ֣שׁ הָאָת֗וֹן וַתֹּ֤אמֶר אֶֽל־נַעֲרָהּ֙ נְהַ֣ג וָלֵ֔ךְ אַל־תַּעֲצׇר־לִ֣י לִרְכֹּ֔ב כִּ֖י אִם־אָמַ֥רְתִּי לָֽךְ׃",
+      "text_kjv": "Then she saddled an ass, and said to her servant, Drive, and go forward; slack not thy riding for me, except I bid thee.",
+      "rendering": "She saddled the donkey and told her servant, \"Drive fast. Do not slow the pace for me unless I tell you.\"",
+      "translator_notes": [
+        "Her command nehag valekh al ta'atzor li lirkov ('drive and go, do not hold back the riding for me') means: maintain maximum speed regardless of my comfort. She is willing to endure the physical pain of hard riding to reach Elisha faster. Every detail reveals controlled urgency."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַתֵּ֗לֶךְ וַתָּבוֹא֙ אֶל־אִ֣ישׁ הָאֱלֹהִ֔ים אֶל־הַ֖ר הַכַּרְמֶ֑ל וַיְהִ֗י כִּרְא֤וֹת אִישׁ־הָאֱלֹהִים֙ אֹתָ֣הּ מִנֶּ֔גֶד וַיֹּ֙אמֶר֙ אֶל־גֵּחֲזִ֣י נַעֲר֔וֹ הִנֵּ֥ה הַשּׁוּנַמִּ֖ית הַלָּֽז׃",
+      "text_kjv": "So she went and came unto the man of God to mount Carmel. And it came to pass, when the man of God saw her afar off, that he said to Gehazi his servant, Behold, yonder is that Shunammite:",
+      "rendering": "She went and came to the man of God at Mount Carmel. When the man of God saw her at a distance, he said to Gehazi his servant, \"There is the Shunammite woman.\"",
+      "translator_notes": [
+        "Elisha sees her mineged ('from a distance') and recognizes her immediately. His identification — hinneh ha-Shunamit hallaz ('there is that Shunammite') — suggests he already senses something is wrong. She has come at an unusual time, riding hard."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "עַתָּ֞ה רוּץ־נָ֣א לִקְרָאתָ֗הּ וֶאֱמׇר־לָ֞הּ הֲשָׁל֣וֹם לָ֗ךְ הֲשָׁל֤וֹם לְאִישֵׁךְ֙ הֲשָׁל֣וֹם לַיָּ֔לֶד וַתֹּ֖אמֶר שָׁלֽוֹם׃",
+      "text_kjv": "Run now, I pray thee, to meet her, and say unto her, Is it well with thee? is it well with thy husband? is it well with the child? And she answered, It is well.",
+      "rendering": "\"Run now to meet her and ask her: Is it well with you? Is it well with your husband? Is it well with the child?\" She answered, \"It is well.\"",
+      "translator_notes": [
+        "Elisha sends Gehazi with three shalom questions — ha-shalom lakh, ha-shalom le-ishekh, ha-shalom la-yeled ('is it peace to you, is it peace to your husband, is it peace to the child?'). She answers shalom to all three. But when she reaches Elisha himself (verse 27), the truth emerges. She gives Gehazi the surface answer; she reserves the real answer for the prophet."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַתָּבֹ֞א אֶל־אִ֤ישׁ הָאֱלֹהִים֙ אֶל־הָהָ֔ר וַתַּחֲזֵ֖ק בְּרַגְלָ֑יו וַיִּגַּ֨שׁ גֵּחֲזִ֜י לְהׇדְפָ֗הּ וַיֹּ֤אמֶר אִישׁ־הָאֱלֹהִים֙ הַרְפֵּ֣ה לָ֔הּ כִּי־נַפְשָׁ֥הּ מָרָה־לָ֖הּ וַיהוָ֛ה הֶעְלִ֥ים מִמֶּ֖נִּי וְלֹ֥א הִגִּ֥יד לִֽי׃",
+      "text_kjv": "And when she came to the man of God to the hill, she caught him by the feet: and Gehazi came near to thrust her away. And the man of God said, Let her alone; for her soul is vexed within her: and the LORD hath hid it from me, and hath not told me.",
+      "rendering": "When she reached the man of God at the hill, she grasped his feet. Gehazi came forward to push her away, but the man of God said, \"Leave her alone. She is in bitter distress, and the LORD has hidden it from me — He has not told me.\"",
+      "translator_notes": [
+        "She grasps his feet (va-tachazeg be-raglav) — a posture of desperate supplication. Gehazi tries to push her away (lehodfa), presumably to protect the prophet's dignity, but Elisha stops him with a remarkable admission: va-YHWH he'elim mimmenni ve-lo higgid li ('and the LORD has hidden it from me and has not told me'). The prophet does not know everything; God reveals selectively. This honest limitation is theologically important."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַתֹּ֕אמֶר הֲשָׁאַ֥לְתִּי בֵ֖ן מֵאֵ֣ת אֲדֹנִ֑י הֲלֹ֣א אָמַ֔רְתִּי לֹ֥א תַשְׁלֶ֖ה אֹתִֽי׃",
+      "text_kjv": "Then she said, Did I desire a son of my lord? did I not say, Do not deceive me?",
+      "rendering": "She said, \"Did I ask my lord for a son? Did I not say, 'Do not deceive me'?\"",
+      "translator_notes": [
+        "Her accusation is piercing: ha-sha'alti ven me'et adoni ('did I ask for a son from my lord?'). She did not request the child — Elisha offered the promise unsolicited. Her warning in verse 16 — al tekhazzev ('do not deceive') — now returns as evidence: she anticipated this pain. The gift she did not ask for has become the source of her deepest suffering."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיֹּ֨אמֶר לְגֵחֲזִ֜י חֲגֹ֣ר מׇתְנֶ֗יךָ וְקַ֤ח מִשְׁעַנְתִּי֙ בְיָדֶ֔ךָ וָלֵ֕ךְ כִּֽי־תִמְצָ֥א אִ֖ישׁ לֹ֣א תְבָרְכֶ֑נּוּ וְכִי־יְבָרֶכְךָ֥ אִ֖ישׁ לֹ֣א תַעֲנֶ֑נּוּ וְשַׂמְתָּ֥ מִשְׁעַנְתִּ֖י עַל־פְּנֵ֥י הַנָּֽעַר׃",
+      "text_kjv": "Then he said to Gehazi, Gird up thy loins, and take my staff in thine hand, and go thy way: if thou meet any man, salute him not; and if any salute thee, answer him not again: and lay my staff upon the face of the child.",
+      "rendering": "He said to Gehazi, \"Strap up your robe, take my staff in your hand, and go. If you meet anyone, do not greet them; if anyone greets you, do not respond. Lay my staff on the child's face.\"",
+      "translator_notes": [
+        "The instructions for urgency — no greetings, no social exchanges — indicate maximum speed. Greetings in the ancient Near East were lengthy affairs; skipping them saves significant time. The staff (mish'enet) is Elisha's personal prophetic instrument. Laying it on the child's face is an attempt at remote healing through a prophetic object. Its failure (verse 31) will demonstrate that prophetic power requires personal presence, not mere delegation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַתֹּ֙אמֶר֙ אֵ֣ם הַנַּ֔עַר חַי־יְהוָ֥ה וְחֵי־נַפְשְׁךָ֖ אִם־אֶעֶזְבֶ֑ךָּ וַיָּ֖קׇם וַיֵּ֥לֶךְ אַחֲרֶֽיהָ׃",
+      "text_kjv": "And the mother of the child said, As the LORD liveth, and as thy soul liveth, I will not leave thee. And he arose, and followed her.",
+      "rendering": "But the child's mother said, \"As the LORD lives, and as you yourself live, I will not leave you.\" So Elisha got up and followed her.",
+      "translator_notes": [
+        "The Shunammite uses the exact oath formula that Elisha himself used with Elijah in chapter 2: chai YHWH ve-chei nafshekha im e'ezvekka ('as the LORD lives and as your soul lives, I will not leave you'). She will not accept a staff and a servant as substitutes for the prophet himself. The echo is powerful: the loyalty Elisha showed Elijah, this mother now shows Elisha."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְגֵחֲזִ֞י עָבַ֣ר לִפְנֵיהֶ֗ם וַיָּ֤שֶׂם אֶת־הַמִּשְׁעֶ֙נֶת֙ עַל־פְּנֵ֣י הַנַּ֔עַר וְאֵ֥ין ק֖וֹל וְאֵ֣ין קָ֑שֶׁב וַיָּ֤שׇׁב לִקְרָאתוֹ֙ וַיַּגֶּד־ל֣וֹ לֵאמֹ֔ר לֹ֥א הֵקִ֖יץ הַנָּֽעַר׃",
+      "text_kjv": "And Gehazi passed on before them, and laid the staff upon the face of the child; but there was neither voice, nor hearing. Wherefore he went again to meet him, and told him, saying, The child is not awaked.",
+      "rendering": "Gehazi went on ahead and laid the staff on the child's face, but there was no sound and no response. He returned to meet Elisha and reported, \"The child has not awakened.\"",
+      "translator_notes": [
+        "The staff fails: ve-ein qol ve-ein qashev ('no voice and no hearing/attention'). The doubled negative emphasizes complete absence of response. Gehazi reports lo heqitz ha-na'ar ('the child has not awakened') — using the language of sleep for death. The failure establishes that prophetic power cannot be mechanically transferred through objects; it requires the prophet's bodily presence and prayer."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיָּבֹ֥א אֱלִישָׁ֖ע הַבַּ֑יְתָה וְהִנֵּ֤ה הַנַּ֙עַר֙ מֵ֔ת מֻשְׁכָּ֖ב עַל־מִטָּתֽוֹ׃",
+      "text_kjv": "And when Elisha was come into the house, behold, the child was dead, and laid upon his bed.",
+      "rendering": "When Elisha came into the house, the child was dead, lying on his bed.",
+      "translator_notes": [
+        "Elisha arrives to find exactly what the Shunammite told him: the child is met ('dead'), lying on his bed — the prophet's own bed. The simple statement of fact — mushkav al mittato ('lying on his bed') — sets the scene for the most intimate of Elisha's miracles."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַיָּבֹ֕א וַיִּסְגֹּ֥ר הַדֶּ֖לֶת בְּעַ֣ד שְׁנֵיהֶ֑ם וַיִּתְפַּלֵּ֖ל אֶל־יְהוָֽה׃",
+      "text_kjv": "He went in therefore, and shut the door upon them twain, and prayed unto the LORD.",
+      "rendering": "He went in, shut the door behind the two of them, and prayed to the LORD.",
+      "translator_notes": [
+        "The closed door (va-yisgor ha-delet be'ad sheneihem) again creates a private space — this time between the living prophet and the dead child. The first action is prayer: va-yitpallel el YHWH ('he prayed to the LORD'). Before any physical action, Elisha appeals to God. The miracle's source is divine, not prophetic technique."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיַּ֗עַל וַיִּשְׁכַּב֮ עַל־הַיֶּלֶד֒ וַיָּ֨שֶׂם פִּ֜יו עַל־פִּ֗יו וְעֵינָיו֙ עַל־עֵינָ֔יו וְכַפָּ֖יו עַל־כַּפָּ֑יו וַיִּגְהַ֣ר עָלָ֔יו וַיָּ֖חׇם בְּשַׂ֥ר הַיָּֽלֶד׃",
+      "text_kjv": "And he went up, and lay upon the child, and put his mouth upon his mouth, and his eyes upon his eyes, and his hands upon his hands: and he stretched himself upon the child; and the flesh of the child waxed warm.",
+      "rendering": "He went up and lay on the child, placing his mouth on the child's mouth, his eyes on the child's eyes, and his hands on the child's hands. He stretched himself over the child, and the child's body grew warm.",
+      "expanded_rendering": "Elisha's method — piv al piv, einav al einav, kappav al kappav ('his mouth on his mouth, his eyes on his eyes, his hands on his hands') — is a total body-to-body correspondence between the living prophet and the dead child. This is not a medical technique but a prophetic act: the living person imparts life to the dead by full physical identification. The verb va-yighar ('he stretched himself, he bent over') suggests pressing his full weight onto the child. The result is immediate but partial: va-yachom besar ha-yeled ('the flesh of the child grew warm'). Warmth returns before life returns. The same technique was used by Elijah in 1 Kings 17:21, establishing a continuity of prophetic method: life is restored through intimate, bodily contact between the prophet and the dead.",
+      "translator_notes": [
+        "The body-on-body contact echoes Elijah's resurrection of the Zarephath widow's son (1 Kings 17:21). Some interpreters see mouth-to-mouth contact as a form of breath transfer — the prophet breathing the ruach ('breath, spirit') of life into the child. The warming of the flesh is the first sign of returning life, but the child is not yet revived."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיָּ֣שׇׁב וַיֵּ֤לֶךְ בַּבַּ֙יִת֙ אַחַ֣ת הֵ֔נָּה וְאַחַ֖ת הֵ֑נָּה וַיַּ֗עַל וַיִּגְהַר֙ עָלָ֔יו וַיְזוֹרֵ֤ר הַנַּ֙עַר֙ עַד־שֶׁ֣בַע פְּעָמִ֔ים וַיִּפְקַ֥ח הַנַּ֖עַר אֶת־עֵינָֽיו׃",
+      "text_kjv": "Then he returned, and walked in the house to and fro; and went up, and stretched himself upon him: and the child sneezed seven times, and the child opened his eyes.",
+      "rendering": "Elisha got up, paced back and forth in the house, then went up again and stretched himself over the child. The child sneezed seven times and opened his eyes.",
+      "translator_notes": [
+        "Elisha paces — va-yelekh ba-bayit achat hennah ve-achat hennah ('he walked in the house, one way here and one way there') — before returning to the child a second time. The pacing may indicate prayer, agitation, or the building of spiritual intensity. The child's seven sneezes (va-yezorer ha-na'ar ad sheva pe'amim) are a vivid physical detail: the sneeze represents the violent expulsion of breath, the body reasserting its living function. Seven is the number of completion. The opening of the eyes (va-yifqach et einav) signals full restoration."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיִּקְרָא֙ אֶל־גֵּ֣חֲזִ֔י וַיֹּ֖אמֶר קְרָ֣א אֶל־הַשֻּׁנַמִּ֣ית הַזֹּ֑את וַיִּקְרָאֶ֔הָ וַתָּבֹ֣א אֵלָ֔יו וַיֹּ֖אמֶר שְׂאִ֥י בְנֵֽךְ׃",
+      "text_kjv": "And he called Gehazi, and said, Call this Shunammite. So he called her. And when she was come in unto him, he said, Take up thy son.",
+      "rendering": "He called Gehazi and said, \"Call the Shunammite woman.\" He called her, and she came to him. Elisha said, \"Pick up your son.\"",
+      "translator_notes": [
+        "Elisha's words se'i venekh ('pick up your son') are spare and powerful — no explanation, no theological commentary, just the instruction to take the restored child. The brevity mirrors the simplicity of the miracle's resolution: what God has restored does not require elaboration."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וַתָּבֹ֗א וַתִּפֹּל֙ עַל־רַגְלָ֔יו וַתִּשְׁתַּ֖חוּ אָ֑רְצָה וַתִּשָּׂ֥א אֶת־בְּנָ֖הּ וַתֵּצֵֽא׃",
+      "text_kjv": "Then she went in, and fell at his feet, and bowed herself to the ground, and took up her son, and went out.",
+      "rendering": "She came in, fell at his feet, and bowed to the ground. Then she picked up her son and went out.",
+      "translator_notes": [
+        "Her response — falling at his feet, bowing to the ground — is wordless gratitude. The sequence is striking: prostration first, then she takes the child. She honors the prophet before claiming the miracle. Then va-tetze ('she went out') — back to her life, with her restored son."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וֶאֱלִישָׁ֞ע שָׁ֣ב הַגִּלְגָּ֗לָה וְהָרָעָב֮ בָּאָרֶץ֒ וּבְנֵ֤י הַנְּבִיאִים֙ יֹשְׁבִ֣ים לְפָנָ֔יו וַיֹּ֣אמֶר לְנַעֲר֔וֹ שְׁפֹ֥ת הַסִּ֖יר הַגְּדוֹלָ֑ה וּבַשֵּׁ֥ל נָזִ֖יד לִבְנֵ֥י הַנְּבִיאִֽים׃",
+      "text_kjv": "And Elisha came again to Gilgal: and there was a dearth in the land; and the sons of the prophets were sitting before him: and he said unto his servant, Set on the great pot, and seethe pottage for the sons of the prophets.",
+      "rendering": "Elisha returned to Gilgal during a famine in the land. The sons of the prophets were sitting before him, and he said to his servant, \"Put the large pot on the fire and make stew for the sons of the prophets.\"",
+      "translator_notes": [
+        "The scene shifts to Gilgal during a famine (ra'av ba-aretz). The prophetic community is gathered, and food is scarce. Elisha orders a communal meal: shefot ha-sir ha-gedolah u-vashel nazid ('set the great pot and cook stew'). The story demonstrates Elisha's role as provider and protector of the prophetic community."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיֵּצֵ֨א אֶחָ֜ד אֶל־הַשָּׂדֶ֗ה לְלַקֵּ֣ט אֹרֹת֮ וַיִּמְצָ֣א גֶּ֣פֶן שָׂדֶה֒ וַיְלַקֵּ֤ט מִמֶּ֙נּוּ֙ פַּקֻּעֹ֣ת שָׂדֶ֔ה מְלֹ֖א בִגְד֑וֹ וַיָּבֹ֗א וַיְפַלַּ֛ח אֶל־סִ֥יר הַנָּזִ֖יד כִּ֥י לֹ֖א יָדָֽעוּ׃",
+      "text_kjv": "And one went out into the field to gather herbs, and found a wild vine, and gathered thereof wild gourds his lap full, and came and shred them into the pot of pottage: for they knew them not.",
+      "rendering": "One of them went out to the field to gather herbs and found a wild vine. He gathered wild gourds from it, filling his garment, and came back and sliced them into the pot of stew — not knowing what they were.",
+      "translator_notes": [
+        "The paqqu'ot sadeh ('wild gourds, field gourds') are likely colocynth (Citrullus colocynthis), a bitter, toxic gourd that grows wild in the region. During famine, unfamiliar plants become food sources — the man did not know the gourds were dangerous (ki lo yada'u, 'they did not know'). The danger is accidental, not malicious."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַיִּצְּק֥וּ לַאֲנָשִׁ֖ים לֶאֱכֹ֑ל וַיְהִ֗י כְּאׇכְלָם֙ מִן־הַנָּזִ֔יד וְהֵ֣מָּה צָעָ֔קוּ וַיֹּאמְר֛וּ מָ֥וֶת בַּסִּ֖יר אִ֣ישׁ הָאֱלֹהִ֑ים וְלֹ֥א יָכְל֖וּ לֶאֱכֹֽל׃",
+      "text_kjv": "So they poured out for the men to eat. And it came to pass, as they were eating of the pottage, that they cried out, and said, O thou man of God, there is death in the pot. And they could not eat thereof.",
+      "rendering": "They served it to the men to eat, but as they tasted the stew, they cried out, \"There is death in the pot, man of God!\" They could not eat it.",
+      "translator_notes": [
+        "The cry mavet ba-sir ('death in the pot!') is vivid and urgent — the bitter taste warned them of toxicity before they consumed a lethal amount. The stew that was meant to sustain the prophetic community has become a vessel of death. The crisis — like the water at Jericho in chapter 2 — involves a source of life turned toxic."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַיֹּ֙אמֶר֙ וּקְח֣וּ קֶ֔מַח וַיַּשְׁלֵ֖ךְ אֶל־הַסִּ֑יר וַיֹּ֗אמֶר צַ֤ק לָעָם֙ וְיֹאכֵ֔לוּ וְלֹ֥א הָיָ֛ה דָּבָ֥ר רָ֖ע בַּסִּֽיר׃",
+      "text_kjv": "But he said, Then bring meal. And he cast it into the pot; and he said, Pour out for the people, that they may eat. And there was no harm in the pot.",
+      "rendering": "He said, \"Bring some flour.\" He threw it into the pot and said, \"Serve the people so they can eat.\" There was nothing harmful in the pot.",
+      "translator_notes": [
+        "The flour (qemach) is not a natural antidote to the poison — it is a prophetic sign, like the salt thrown into Jericho's spring (2:21). The declaration tzeq la-am ve-yokhelu ('pour out for the people and let them eat') is authoritative: the prophet's word makes the food safe. The note ve-lo hayah davar ra ba-sir ('there was no evil thing in the pot') confirms complete purification."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וְאִ֗ישׁ בָּ֚א מִבַּ֣עַל שָׁלִ֔שָׁה וַיָּבֵ֞א לְאִ֤ישׁ הָאֱלֹהִים֙ לֶ֣חֶם בִּכּוּרִ֔ים עֶשְׂרִ֥ים לֶ֛חֶם שְׂעֹרִ֖ים וְכַרְמֶ֣ל בְּצִקְלֹנ֑וֹ וַיֹּ֕אמֶר תֵּ֥ן לָעָ֖ם וְיֹאכֵֽלוּ׃",
+      "text_kjv": "And there came a man from Baalshalisha, and brought the man of God bread of the firstfruits, twenty loaves of barley, and full ears of corn in the husk thereof. And he said, Give unto the people, that they may eat.",
+      "rendering": "A man came from Baal-shalishah bringing the man of God bread from the firstfruits — twenty loaves of barley bread and fresh grain in his sack. Elisha said, \"Give it to the people to eat.\"",
+      "translator_notes": [
+        "The man from Ba'al Shalishah brings lechem bikkurim ('bread of the firstfruits') — grain from the first harvest, which under the Torah was to be brought to the priests (Leviticus 23:20). That he brings it to Elisha instead suggests either that the northern kingdom's prophets functioned as alternative religious leaders or that the man recognized Elisha's authority as equivalent to priestly authority. Twenty loaves of barley bread is a generous but limited gift."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וַיֹּ֙אמֶר֙ מְשָׁ֣רְת֔וֹ מָ֚ה אֶתֵּ֣ן זֶ֔ה לִפְנֵ֖י מֵ֣אָה אִ֑ישׁ וַיֹּ֗אמֶר תֵּ֤ן לָעָם֙ וְיֹאכֵ֔לוּ כִּ֣י כֹ֤ה אָמַר֙ יְהוָ֔ה אָכֹ֖ל וְהוֹתֵֽר׃",
+      "text_kjv": "And his servitor said, What, should I set this before an hundred men? He said again, Give it unto the people, that they may eat: for thus saith the LORD, They shall eat, and shall leave thereof.",
+      "rendering": "His servant objected, \"How can I set this before a hundred men?\" But Elisha said, \"Give it to the people to eat, for this is what the LORD says: They will eat and have some left over.\"",
+      "translator_notes": [
+        "The servant's protest — mah etten zeh lifnei me'ah ish ('what, shall I give this before a hundred men?') — is the reasonable objection: twenty loaves cannot feed a hundred people. Elisha's response is a prophetic oracle: ko amar YHWH, akhol ve-hoter ('thus says the LORD: eating and having left over'). The surplus is part of the promise — not merely enough but more than enough."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וַיִּתֵּ֣ן לִפְנֵיהֶ֔ם וַיֹּאכְל֖וּ וַיּוֹתִ֑רוּ כִּדְבַ֖ר יְהוָֽה׃",
+      "text_kjv": "So he set it before them, and they did eat, and left thereof, according to the word of the LORD.",
+      "rendering": "He set it before them. They ate and had some left over, according to the word of the LORD.",
+      "translator_notes": [
+        "The fulfillment is stated with the now-familiar formula kidvar YHWH ('according to the word of the LORD'). The surplus (va-yotiru, 'they had left over') confirms that God's provision exceeds the need. This miracle — feeding many from inadequate supply with leftovers — is the closest Old Testament parallel to Jesus' feeding miracles (Matthew 14:20, 15:37), where twelve and seven baskets remain after the crowds are fed."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

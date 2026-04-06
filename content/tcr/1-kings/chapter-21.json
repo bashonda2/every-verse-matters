@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Kings",
+    "chapter": 21,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ahab covets a vineyard next to his palace in Jezreel, owned by a man named Naboth. Ahab offers to buy it or trade a better vineyard, but Naboth refuses on theological grounds: the land is his nachalah, his ancestral inheritance from the LORD, and Torah law forbids its permanent sale outside the family (Leviticus 25:23). Ahab goes home and sulks, lying on his bed and refusing to eat. Jezebel sees his state, mocks his kingship, and takes matters into her own hands. She writes letters in Ahab's name, sealed with his seal, instructing the elders and nobles of Jezreel to proclaim a fast, set Naboth at the head of the assembly, and arrange for two worthless men to testify falsely that Naboth cursed God and the king. The elders comply. Naboth is convicted on false testimony and stoned to death. Jezebel tells Ahab to go take the vineyard — Naboth is dead. As Ahab enters the vineyard to claim it, Elijah meets him with a devastating word from the LORD: 'Have you murdered and also taken possession?' The sentence: dogs will lick Ahab's blood in the place where dogs licked Naboth's blood. Judgment falls on the entire house of Ahab and on Jezebel specifically — dogs will eat her by the wall of Jezreel. When Ahab hears this, he tears his clothes, puts on sackcloth, fasts, and humbles himself. The LORD notices and tells Elijah that because Ahab has humbled himself, the full disaster will not come in his lifetime but in his son's generation.",
+    "remarkable": "The chapter is a masterwork of political theology — it exposes the collision between royal power and covenant law. Naboth's refusal is not personal stubbornness but theological obedience: chalilah li me-YHWH ('far be it from me, before the LORD') frames the sale as something God himself forbids. The nachalah system — ancestral land allotted by God to each family — is foundational to Israel's social order. If a king can simply take a man's inheritance, the entire covenant land-distribution system collapses. Jezebel's response reveals a fundamentally different political philosophy: she comes from Phoenician royal culture where the king's desire is law. Her question 'Are you not the one exercising kingship over Israel?' assumes absolute monarchy; Naboth's refusal assumes covenant monarchy, where even kings are subject to God's law. The judicial murder — using the form of law (trial, witnesses, sentence) to destroy an innocent man — is the most chilling element. Every legal requirement is formally met (two witnesses, a capital charge of blasphemy) while every legal principle is violated (false testimony, predetermined verdict). The chapter is the moral low point of Ahab's reign and provides the legal basis for the destruction of his dynasty.",
+    "friction": "The Septuagint places this chapter after chapter 19 (before chapter 20 in the MT), suggesting different editorial traditions about the sequence of events. The timing is uncertain — some scholars place the Naboth incident before the Aramean wars, others after. The phrase 'cursed God and the king' in verse 10 uses the euphemistic verb berekh ('blessed') where the actual meaning is 'cursed' — a scribal practice (tiqqun soferim) to avoid writing 'curse God' directly. The degree of Ahab's culpability is debated: he did not personally arrange the murder (Jezebel did), but he benefited from it and took possession of the vineyard, making him an accessory. God's partial reprieve in verses 28-29 — delaying the full judgment to the next generation because of Ahab's humbling — raises questions about whether genuine repentance can modify prophetic judgment.",
+    "connections": "Naboth's vineyard becomes a byword for royal injustice and is referenced by later prophets (see Isaiah 5:1-7, the Song of the Vineyard, which uses the vineyard as a metaphor for Israel). The judicial murder by false testimony anticipates the trial of Jesus in the Gospels, where false witnesses testify against an innocent man. Elijah's confrontation of Ahab ('Have you murdered and also taken possession?') echoes Nathan's confrontation of David ('You are the man!', 2 Samuel 12:7) — both are prophets holding kings accountable for murder committed through proxy. Jehu will later execute judgment on Ahab's house at the very field of Naboth (2 Kings 9:25-26), explicitly citing this prophecy. The dogs-licking-blood motif finds partial fulfillment in Ahab's death (22:38) and complete fulfillment in Jezebel's death (2 Kings 9:36). The nachalah theology connects to the larger Deuteronomic vision of the land as divine trust, not human property."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֗י אַחַר֙ הַדְּבָרִ֣ים הָאֵ֔לֶּה כֶּ֧רֶם הָיָ֛ה לְנָב֥וֹת הַיִּזְרְעֵאלִ֖י אֲשֶׁ֣ר בְּיִזְרְעֶ֑אל אֵ֗צֶל הֵיכַ֛ל אַחְאָ֥ב מֶלֶךְ־שֹׁמְרֽוֹן׃",
+      "text_kjv": "And it came to pass after these things, that Naboth the Jezreelite had a vineyard, which was in Jezreel, hard by the palace of Ahab king of Samaria.",
+      "rendering": "After these events, Naboth the Jezreelite had a vineyard in Jezreel, next to the palace of Ahab king of Samaria.",
+      "translator_notes": [
+        "The opening phrase achar ha-devarim ha-elleh ('after these things') is a vague temporal connector that does not specify how much time has passed since the events of chapter 20. The key detail is spatial: the vineyard is etsel heikhal Ach'av ('next to the palace of Ahab') — proximity creates temptation. The term heikhal ('palace, temple') for Ahab's residence elevates it architecturally."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיְדַבֵּ֣ר אַחְאָ֣ב אֶל־נָב֣וֹת ׀ לֵאמֹ֡ר תְּנָה־לִּ֣י אֶת־כַּרְמְךָ֡ וִיהִ֣י לִ֣י לְגַן־יָרָק֩ כִּ֨י ה֤וּא קָרוֹב֙ אֵ֣צֶל בֵּיתִ֔י וְאֶתְּנָ֤ה לְךָ֙ תַּחְתָּ֔יו כֶּ֖רֶם ט֣וֹב מִמֶּ֑נּוּ אִ֚ם ט֣וֹב בְּעֵינֶ֔יךָ אֶתְּנָ֥ה לְךָ֛ כֶּ֖סֶף מְחִ֥יר זֶֽה׃",
+      "text_kjv": "And Ahab spake unto Naboth, saying, Give me thy vineyard, that I may have it for a garden of herbs, because it is near unto my house: and I will give thee for it a better vineyard than it; or, if it seem good to thee, I will give thee the worth of it in money.",
+      "rendering": "Ahab spoke to Naboth: \"Give me your vineyard so I can have it as a vegetable garden, since it is close to my house. I will give you a better vineyard in exchange — or if you prefer, I will pay you its price in silver.\"",
+      "translator_notes": [
+        "Ahab's offer appears reasonable by commercial standards: a better vineyard or fair market price. He wants it le-gan yaraq ('for a vegetable garden') — a mundane purpose that makes the theological refusal seem disproportionate on the surface. But the transaction Ahab proposes is precisely what Torah prohibits: permanent alienation of ancestral land."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיֹּ֤אמֶר נָבוֹת֙ אֶל־אַחְאָ֔ב חָלִ֤ילָה לִּי֙ מֵֽיְהוָ֔ה מִתִּתִּ֛י אֶת־נַחֲלַ֥ת אֲבוֹתַ֖י לָֽךְ׃",
+      "text_kjv": "And Naboth said to Ahab, The LORD forbid it me, that I should give the inheritance of my fathers unto thee.",
+      "rendering": "Naboth said to Ahab, \"Far be it from me before the LORD that I should give you the inheritance of my fathers!\"",
+      "translator_notes": [
+        "Naboth's refusal is framed in the strongest possible terms: chalilah li me-YHWH ('the LORD forbid it to me' or 'far be it from me, before the LORD'). He does not say he doesn't want to sell — he says he cannot, because it would violate divine law. The word nachalat avotai ('the inheritance of my fathers') invokes the entire system of ancestral land-holding: God distributed the land to the tribes and families, and each family holds its plot as a divine trust (Leviticus 25:23: 'the land shall not be sold permanently, for the land is mine')."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נַחֲלָה",
+          "transliteration": "nachalah",
+          "rendered_as": "inheritance",
+          "semantic_range": "inheritance, ancestral portion, allotted property, heritage, possession",
+          "note": "The nachalah is not merely real estate — it is the family's God-given portion in the promised land. Each family received its nachalah in the original land distribution under Joshua, and the Jubilee system (Leviticus 25) was designed to prevent its permanent loss. Naboth's refusal to sell is not stubbornness but covenant faithfulness."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיָּבֹ֣א אַחְאָ֗ב אֶל־בֵּיתוֹ֙ סַ֣ר וְזָעֵ֔ף עַל־הַדָּבָ֗ר אֲשֶׁ֣ר דִּבֶּר֩ אֵלָ֨יו נָב֜וֹת הַיִּזְרְעֵאלִ֗י וַיֹּ֙אמֶר֙ לֹא־אֶתֵּ֣ן לְךָ֔ אֶת־נַחֲלַ֖ת אֲבוֹתָ֑י וַיִּשְׁכַּב֙ עַל־מִטָּת֔וֹ וַיַּסֵּ֥ב אֶת־פָּנָ֖יו וְלֹא־אָ֥כַל לָֽחֶם׃",
+      "text_kjv": "And Ahab came into his house heavy and displeased because of the word which Naboth the Jezreelite had spoken to him: for he had said, I will not give thee the inheritance of my fathers. And he laid him down upon his bed, and turned away his face, and would eat no bread.",
+      "rendering": "Ahab went to his house resentful and sullen because of what Naboth the Jezreelite had said to him — \"I will not give you the inheritance of my fathers.\" He lay down on his bed, turned his face away, and would not eat.",
+      "translator_notes": [
+        "The phrase sar ve-za'ef ('resentful and sullen') is identical to 20:43 — the same paired words mark Ahab's response to both the prophetic judgment and Naboth's refusal. The behavior — lying on the bed, turning away, refusing food — is that of a petulant child, not a king. The narrator quotes Naboth's refusal in Ahab's mind, showing that Ahab hears the legal-theological argument but can only process the personal rejection."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַתָּבֹ֤א אֵלָיו֙ אִיזֶ֣בֶל אִשְׁתּ֔וֹ וַתְּדַבֵּ֣ר אֵלָ֔יו מַה־זֶּ֛ה רוּחֲךָ֥ סָרָ֖ה וְאֵינְךָ֥ אֹכֵ֖ל לָֽחֶם׃",
+      "text_kjv": "But Jezebel his wife came to him, and said unto him, Why is thy spirit so sad, that thou eatest no bread?",
+      "rendering": "Jezebel his wife came to him and said, \"What is this? Why is your spirit so bitter that you will not eat?\"",
+      "translator_notes": [
+        "Jezebel's question — mah zeh ruchakha sarah ('what is this that your spirit is bitter/turning away?') — uses ruach ('spirit') for Ahab's inner state. The adjective sarah ('turning aside, stubborn, bitter') describes a spirit in revolt against its circumstances."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיְדַבֵּ֣ר אֵלֶ֗יהָ כִּ֣י אֲדַבֵּ֡ר אֶל־נָבוֹת֩ הַיִּזְרְעֵאלִ֨י וָאֹ֜מַר ל֗וֹ תְּנָה־לִּ֤י אֶת־כַּרְמְךָ֙ בְּכֶ֔סֶף א֚וֹ אִם־חָפֵ֣ץ אַתָּ֔ה אֶתְּנָ֥ה לְךָ֛ כֶּ֖רֶם תַּחְתָּ֑יו וַיֹּ֕אמֶר לֹא־אֶתֵּ֥ן לְךָ֖ אֶת־כַּרְמִֽי׃",
+      "text_kjv": "And he said unto her, Because I spake unto Naboth the Jezreelite, and said unto him, Give me thy vineyard for money; or else, if it please thee, I will give thee another vineyard for it: and he answered, I will not give thee my vineyard.",
+      "rendering": "He told her, \"I spoke to Naboth the Jezreelite and said, 'Sell me your vineyard for silver, or if you prefer, I will give you another vineyard in exchange.' But he said, 'I will not give you my vineyard.'\"",
+      "translator_notes": [
+        "Ahab's retelling is revealing: he omits Naboth's theological reasoning (chalilah li me-YHWH, 'far be it from me before the LORD') and the word nachalah ('inheritance'). In Ahab's version, Naboth simply refused to sell his karmi ('my vineyard') — reducing a covenant-based refusal to a personal slight. This selective retelling may be deliberate deception of Jezebel, or it may reflect Ahab's own inability to hear the theological dimension."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַתֹּ֤אמֶר אֵלָיו֙ אִיזֶ֣בֶל אִשְׁתּ֔וֹ אַתָּ֕ה עַתָּ֛ה תַּעֲשֶׂ֥ה מְלוּכָ֖ה עַל־יִשְׂרָאֵ֑ל ק֣וּם אֱכׇל־לֶ֗חֶם וְיִטַ֣ב לִבֶּ֔ךָ אֲנִ֗י אֶתֵּ֤ן לְךָ֙ אֶת־כֶּ֔רֶם נָב֖וֹת הַיִּזְרְעֵאלִֽי׃",
+      "text_kjv": "And Jezebel his wife said unto him, Dost thou now govern the kingdom of Israel? arise, and eat bread, and let thine heart be merry: I will give thee the vineyard of Naboth the Jezreelite.",
+      "rendering": "Jezebel his wife said to him, \"Is this how you exercise kingship over Israel? Get up, eat, and let your heart be glad. I will get you the vineyard of Naboth the Jezreelite.\"",
+      "translator_notes": [
+        "Jezebel's question — attah attah ta'aseh melukhah al Yisra'el ('Is it you who exercises kingship over Israel?') — is a stinging rebuke. The word melukhah ('kingship, royal rule') carries the assumption of absolute power: a real king takes what he wants. In Phoenician royal ideology, there was no nachalah system limiting the crown. Jezebel will solve the problem because Ahab cannot — or will not."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַתִּכְתֹּ֤ב סְפָרִים֙ בְּשֵׁ֣ם אַחְאָ֔ב וַתַּחְתֹּ֖ם בְּחֹתָמ֑וֹ וַתִּשְׁלַ֣ח הַסְּפָרִ֗ים אֶל־הַזְּקֵנִ֤ים וְאֶל־הַחֹרִים֙ אֲשֶׁ֣ר בְּעִיר֔וֹ הַיֹּשְׁבִ֖ים אֶת־נָבֽוֹת׃",
+      "text_kjv": "So she wrote letters in Ahab's name, and sealed them with his seal, and sent the letters unto the elders and to the nobles that were in his city, dwelling with Naboth.",
+      "rendering": "She wrote letters in Ahab's name, sealed them with his seal, and sent the letters to the elders and nobles in his city — those who lived alongside Naboth.",
+      "translator_notes": [
+        "The detail be-shem Ach'av ('in Ahab's name') and be-chotamo ('with his seal') implicates Ahab directly: Jezebel uses his authority. Whether Ahab knew what the letters contained is left ambiguous, but his seal carries his authority. The recipients — zequenim ('elders') and chorim ('nobles, free men') — are the local ruling class, the very people responsible for justice."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַתִּכְתֹּ֥ב בַּסְּפָרִ֖ים לֵאמֹ֑ר קִרְא֣וּ צ֔וֹם וְהוֹשִׁ֥יבוּ אֶת־נָב֖וֹת בְּרֹ֥אשׁ הָעָֽם׃",
+      "text_kjv": "And she wrote in the letters, saying, Proclaim a fast, and set Naboth on high among the people:",
+      "rendering": "She wrote in the letters: \"Proclaim a fast and seat Naboth at the head of the assembly.",
+      "translator_notes": [
+        "The fast (tsom) creates a religious pretext — a solemn assembly suggesting some crisis or sin in the community. Seating Naboth be-rosh ha-am ('at the head of the people') gives him a prominent position, which paradoxically sets him up as the target of the false accusation. The public honor is a trap."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְהוֹשִׁ֡יבוּ שְׁנַ֣יִם אֲנָשִׁים֩ בְּנֵ֨י בְלִיַּ֜עַל נֶגְדּ֗וֹ וִיעִדֻ֤הוּ לֵאמֹר֙ בֵּרַ֤כְתָּ אֱלֹהִים֙ וָמֶ֔לֶךְ וְהוֹצִיאֻ֖הוּ וְסִקְלֻ֥הוּ וְיָמֹֽת׃",
+      "text_kjv": "And set two men, sons of Belial, before him, to bear witness against him, saying, Thou didst blaspheme God and the king. Then carry him out, and stone him, that he may die.",
+      "rendering": "Seat two worthless men opposite him, and have them testify against him: 'You cursed God and the king!' Then take him out and stone him to death.\"",
+      "translator_notes": [
+        "The plan is precise: shnayim anashim benei veliyya'al ('two men, sons of worthlessness') — the minimum number for a capital conviction (Deuteronomy 17:6). The verb berakhta ('you blessed') is a scribal euphemism: the actual accusation is that Naboth cursed (qillel) God and the king, a capital offense under Exodus 22:28 and Leviticus 24:15-16. The euphemism avoids writing 'cursed God' directly. Jezebel corrupts every institution — religion (the fast), law (two witnesses), and justice (the death sentence) — while maintaining the appearance of legal process."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיַּעֲשׂ֞וּ אַנְשֵׁ֣י עִיר֗וֹ הַזְּקֵנִ֤ים וְהַחֹרִים֙ אֲשֶׁ֣ר הַיֹּשְׁבִ֣ים בְּעִיר֔וֹ כַּאֲשֶׁ֛ר שָׁלְחָ֥ה אֲלֵיהֶ֖ם אִיזָ֑בֶל כַּאֲשֶׁ֥ר כָּת֖וּב בַּסְּפָרִ֥ים אֲשֶׁר־שָׁלְחָ֖ה אֲלֵיהֶֽם׃",
+      "text_kjv": "And the men of his city, even the elders and the nobles who were the inhabitants in his city, did as Jezebel had sent unto them, and as it was written in the letters which she had sent unto them.",
+      "rendering": "The men of his city — the elders and the nobles who lived in his city — did exactly as Jezebel had sent instructions to them, exactly as written in the letters she sent them.",
+      "translator_notes": [
+        "The compliance of the elders is total and damning: va-ya'asu ('they did') ... ka-asher shalchah ('as she sent') ... ka-asher katuv ('as it was written'). The repetition emphasizes that every step was followed precisely. Not one elder resisted or questioned. The entire civic leadership of Jezreel became accomplices in judicial murder."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "קָרְא֖וּ צ֑וֹם וְהֹשִׁ֥יבוּ אֶת־נָב֖וֹת בְּרֹ֥אשׁ הָעָֽם׃",
+      "text_kjv": "They proclaimed a fast, and set Naboth on high among the people.",
+      "rendering": "They proclaimed a fast and seated Naboth at the head of the assembly.",
+      "translator_notes": [
+        "The execution of the plan begins: tsom proclaimed, Naboth elevated to the position of honor that is actually the position of accusation. The machinery of injustice operates smoothly."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיָּבֹ֡אוּ שְׁנֵי֩ הָאֲנָשִׁ֨ים בְּנֵ֥י בְלִיַּ֛עַל וַיֵּשְׁב֥וּ נֶגְדּ֖וֹ וַיְעִדֻ֜הוּ אַנְשֵׁ֤י הַבְּלִיַּ֙עַל֙ אֶת־נָב֔וֹת נֶ֥גֶד הָעָ֖ם לֵאמֹ֑ר בֵּרַ֤ךְ נָבוֹת֙ אֱלֹהִ֣ים וָמֶ֔לֶךְ וַיֹּצִאֻ֙הוּ֙ מִח֣וּץ לָעִ֔יר וַיִּסְקְלֻ֥הוּ בָאֲבָנִ֖ים וַיָּמֹֽת׃",
+      "text_kjv": "And there came in two men, children of Belial, and sat before him: and the men of Belial witnessed against him, even against Naboth, in the presence of the people, saying, Naboth did blaspheme God and the king. Then they carried him forth out of the city, and stoned him with stones, that he died.",
+      "rendering": "Two worthless men came in and sat opposite him. The worthless men testified against Naboth before the people, saying, \"Naboth cursed God and the king!\" They took him outside the city and stoned him to death.",
+      "translator_notes": [
+        "The execution of the plan is reported with grim efficiency. The false testimony is delivered neged ha-am ('before the people') — publicly, with the entire community as witness. The execution takes place mi-chuts la-ir ('outside the city'), following the legal requirement that stoning occur outside the camp (Leviticus 24:14, Numbers 15:35-36). Every legal form is observed. Every legal principle is violated."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיִּשְׁלְח֖וּ אֶל־אִיזֶ֣בֶל לֵאמֹ֑ר סֻקַּ֥ל נָב֖וֹת וַיָּמֹֽת׃",
+      "text_kjv": "Then they sent to Jezebel, saying, Naboth is stoned, and is dead.",
+      "rendering": "They sent word to Jezebel: \"Naboth has been stoned. He is dead.\"",
+      "translator_notes": [
+        "The report is brutally concise: suqqal Navot va-yamot ('Naboth was stoned and he died'). Two words of action, one word of finality. The elders report to Jezebel, not to Ahab — they know who issued the real orders."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיְהִ֣י כִשְׁמֹ֣עַ אִיזֶ֡בֶל כִּ֣י סֻקַּ֣ל נָב֣וֹת וַיָּמֹת֩ וַתֹּ֨אמֶר אִיזֶ֜בֶל אֶל־אַחְאָ֗ב ק֤וּם רֵשׁ֙ אֶת־כֶּ֤רֶם נָבוֹת֙ הַיִּזְרְעֵאלִ֔י אֲשֶׁ֣ר מֵאֵ֗ן לָתֶת־לְךָ֛ בְּכֶ֖סֶף כִּ֣י אֵ֥ין נָב֛וֹת חַ֖י כִּ֥י מֵֽת׃",
+      "text_kjv": "And it came to pass, when Jezebel heard that Naboth was stoned, and was dead, that Jezebel said unto Ahab, Arise, take possession of the vineyard of Naboth the Jezreelite, which he refused to give thee for money: for Naboth is not alive, but dead.",
+      "rendering": "When Jezebel heard that Naboth had been stoned and was dead, Jezebel said to Ahab, \"Get up and take possession of the vineyard of Naboth the Jezreelite — the one he refused to sell you for silver. Naboth is not alive — he is dead.\"",
+      "translator_notes": [
+        "Jezebel's announcement — qum resh ('get up, take possession') — uses the verb yarash ('to take possession, to inherit'), which ironically is the same root-family as nachalah ('inheritance'). Naboth refused to sell his inheritance; now Ahab will inherit it through murder. The phrase ein Navot chai ki met ('Naboth is not alive, for he is dead') states the obvious with cold finality."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיְהִ֣י כִשְׁמֹ֗עַ אַחְאָב֙ כִּ֣י מֵ֣ת נָב֔וֹת וַיָּ֣קׇם אַחְאָ֗ב לָרֶ֛דֶת אֶל־כֶּ֥רֶם נָב֖וֹת הַיִּזְרְעֵאלִ֑י לְרִשְׁתּֽוֹ׃",
+      "text_kjv": "And it came to pass, when Ahab heard that Naboth was dead, that Ahab rose up to go down to the vineyard of Naboth the Jezreelite, to take possession of it.",
+      "rendering": "When Ahab heard that Naboth was dead, he got up to go down to the vineyard of Naboth the Jezreelite to take possession of it.",
+      "translator_notes": [
+        "Ahab does not ask how Naboth died. He does not mourn. He does not investigate. He simply gets up — va-yaqom — and goes down to claim the vineyard. The verb larishtto ('to take possession of it') completes the crime: murder followed by seizure. The verb yarad ('to go down') from the palace to the vineyard is a physical descent that mirrors a moral one."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֶל־אֵלִיָּ֥הוּ הַתִּשְׁבִּ֖י לֵאמֹֽר׃",
+      "text_kjv": "And the word of the LORD came to Elijah the Tishbite, saying,",
+      "rendering": "The word of the LORD came to Elijah the Tishbite:",
+      "translator_notes": [
+        "The prophetic formula dvar-YHWH ('the word of the LORD') reintroduces Elijah into the narrative. His designation as ha-Tishbi ('the Tishbite') recalls his origins outside the political center — he is from Tishbe in Gilead, not from the court."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "ק֔וּם רֵ֗ד לִקְרַ֛את אַחְאָ֥ב מֶלֶךְ־יִשְׂרָאֵ֖ל אֲשֶׁ֣ר בְּשֹׁמְר֑וֹן הִנֵּה֙ בְּכֶ֣רֶם נָב֔וֹת אֲשֶׁ֥ר יָרַ֖ד שָׁ֥ם לְרִשְׁתּֽוֹ׃",
+      "text_kjv": "Arise, go down to meet Ahab king of Israel, which is in Samaria: behold, he is in the vineyard of Naboth, whither he is gone down to possess it.",
+      "rendering": "\"Get up and go down to meet Ahab king of Israel, who is in Samaria. He is in Naboth's vineyard, where he has gone down to take possession of it.\"",
+      "translator_notes": [
+        "God sends Elijah to the exact location: be-kherem Navot ('in Naboth's vineyard'). The phrase asher yarad sham larishtto ('where he has gone down to possess it') — God knows exactly what Ahab is doing and where. The confrontation will occur at the scene of the crime."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְדִבַּרְתָּ֤ אֵלָיו֙ לֵאמֹ֔ר כֹּ֖ה אָמַ֣ר יְהוָ֑ה הֲרָצַ֖חְתָּ וְגַם־יָרָ֑שְׁתָּ וְדִבַּרְתָּ֤ אֵלָיו֙ לֵאמֹ֔ר כֹּ֚ה אָמַ֣ר יְהוָ֔ה בִּמְק֗וֹם אֲשֶׁ֨ר לָקְק֤וּ הַכְּלָבִים֙ אֶת־דַּ֣ם נָב֔וֹת יָלֹ֥קּוּ הַכְּלָבִ֖ים אֶת־דָּמְךָ֥ גַּם־אָֽתָּה׃",
+      "text_kjv": "And thou shalt speak unto him, saying, Thus saith the LORD, Hast thou killed, and also taken possession? And thou shalt speak unto him, saying, Thus saith the LORD, In the place where dogs licked the blood of Naboth shall dogs lick thy blood, even thine.",
+      "rendering": "\"Speak to him and say, 'This is what the LORD says: Have you murdered and also taken possession?' And say to him, 'This is what the LORD says: In the place where dogs licked the blood of Naboth, dogs will lick your blood — yes, yours!'\"",
+      "translator_notes": [
+        "The double accusation — ha-ratsachta ve-gam yarashta ('have you murdered and also taken possession?') — combines two crimes: murder (ratsach, the word from the sixth commandment, Exodus 20:13) and seizure of property. The conjunction ve-gam ('and also') marks the compounding of crimes. The judgment matches the crime with poetic precision: dogs licked Naboth's blood; dogs will lick Ahab's blood. The emphatic gam attah ('even you, yes you') makes the judgment personal and inescapable."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיֹּ֤אמֶר אַחְאָב֙ אֶל־אֵ֣לִיָּ֔הוּ הַמְּצָאתַ֖נִי אֹ֣יְבִ֑י וַיֹּ֣אמֶר מָצָ֔אתִי יַ֚עַן הִתְמַכֶּרְךָ֔ לַעֲשׂ֥וֹת הָרַ֖ע בְּעֵינֵ֥י יְהוָֽה׃",
+      "text_kjv": "And Ahab said to Elijah, Hast thou found me, O mine enemy? And he answered, I have found thee: because thou hast sold thyself to work evil in the sight of the LORD.",
+      "rendering": "Ahab said to Elijah, \"Have you found me, my enemy?\" He answered, \"I have found you — because you have sold yourself to do evil in the eyes of the LORD.\"",
+      "translator_notes": [
+        "Ahab's question — ha-metsatani oyvi ('have you found me, my enemy?') — reveals that he knows exactly what is happening. He does not deny the murder or the seizure; he objects to being caught. Elijah's response — matsati ('I have found you') — is blunt. The phrase hitmakkerkha la'asot ha-ra ('you have sold yourself to do evil') uses the reflexive: Ahab sold himself — he made himself a slave to evil. The commercial metaphor (selling) connects to the refused sale of the vineyard."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "הִנְנִי֩ מֵבִ֨יא אֵלֶ֜יךָ רָעָ֗ה וּבִעַרְתִּ֣י אַחֲרֶ֔יךָ וְהִכְרַתִּ֤י לְאַחְאָב֙ מַשְׁתִּ֣ין בְּקִ֔יר וְעָצ֥וּר וְעָז֖וּב בְּיִשְׂרָאֵֽל׃",
+      "text_kjv": "Behold, I will bring evil upon thee, and will take away thy posterity, and will cut off from Ahab him that pisseth against the wall, and him that is shut up and left in Israel,",
+      "rendering": "\"I am about to bring disaster on you. I will sweep away your descendants and cut off from Ahab every male, whether slave or free, in Israel.",
+      "translator_notes": [
+        "The phrase mashtin be-qir ('one who urinates against a wall') is a crude expression for every male in the household — no male descendant will survive. The pair atsor ve-azuv ('restrained and released' or 'slave and free') is a merism meaning 'every last one, without exception.' The judgment is dynastic extinction."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְנָתַתִּ֣י אֶת־בֵּ֣יתְךָ֔ כְּבֵ֖ית יָרׇבְעָ֣ם בֶּן־נְבָ֑ט וּכְבֵ֖ית בַּעְשָׁ֥א בֶן־אֲחִיָּ֑ה אֶל־הַכַּ֙עַס֙ אֲשֶׁ֣ר הִכְעַ֔סְתָּ וַתַּחֲטִ֖א אֶת־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And will make thine house like the house of Jeroboam the son of Nebat, and like the house of Baasha the son of Ahijah, for the provocation wherewith thou hast provoked me to anger, and made Israel to sin.",
+      "rendering": "I will make your house like the house of Jeroboam son of Nebat and like the house of Baasha son of Ahijah — because of the provocation with which you have provoked me and caused Israel to sin.\"",
+      "translator_notes": [
+        "Two previous dynasties serve as precedents: Jeroboam's house (exterminated by Baasha, 1 Kings 15:29) and Baasha's house (exterminated by Zimri, 1 Kings 16:11-12). Both were destroyed for the same reason — leading Israel into sin. The phrase va-tachati et Yisra'el ('you caused Israel to sin') is the standard regnal condemnation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְגַ֨ם לְאִיזֶ֜בֶל דִּבֶּ֤ר יְהוָה֙ לֵאמֹ֔ר הַכְּלָבִ֛ים יֹאכְל֥וּ אֶת־אִיזֶ֖בֶל בְּחֵ֥ל יִזְרְעֶֽאל׃",
+      "text_kjv": "And of Jezebel also spake the LORD, saying, The dogs shall eat Jezebel by the wall of Jezreel.",
+      "rendering": "And concerning Jezebel, the LORD also declared: \"The dogs will eat Jezebel by the wall of Jezreel.\"",
+      "translator_notes": [
+        "Jezebel receives her own specific sentence: ha-kelavim yokhlu et Izevel be-chel Yizre'el ('the dogs will eat Jezebel by the fortification-wall of Jezreel'). The word chel ('rampart, outer wall') places the location precisely. This prophecy is fulfilled in detail in 2 Kings 9:30-37."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "הַמֵּ֤ת לְאַחְאָב֙ בָּעִ֔יר יֹאכְל֖וּ הַכְּלָבִ֑ים וְהַמֵּ֣ת בַּשָּׂדֶ֔ה יֹאכְל֖וּ ע֥וֹף הַשָּׁמָֽיִם׃",
+      "text_kjv": "Him that dieth of Ahab in the city the dogs shall eat; and him that dieth in the field shall the fowls of the air eat.",
+      "rendering": "\"Anyone of Ahab's house who dies in the city, the dogs will eat. Anyone who dies in the open field, the birds of the sky will eat.\"",
+      "translator_notes": [
+        "This formula — dogs in the city, birds in the field — is the standard judgment of total dishonor: no burial, bodies left for scavengers. The same formula was pronounced on Jeroboam (14:11) and Baasha (16:4). Denial of burial is the ultimate disgrace in the ancient Near Eastern world."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "רַ֚ק לֹא־הָיָ֣ה כְאַחְאָ֔ב אֲשֶׁ֣ר הִתְמַכֵּ֔ר לַעֲשׂ֥וֹת הָרַ֖ע בְּעֵינֵ֣י יְהוָ֑ה אֲשֶׁ֛ר הֵסַ֥תָּה אֹת֖וֹ אִיזֶ֥בֶל אִשְׁתּֽוֹ׃",
+      "text_kjv": "But there was none like unto Ahab, which did sell himself to work wickedness in the sight of the LORD, whom Jezebel his wife stirred up.",
+      "rendering": "There was no one like Ahab, who sold himself to do evil in the eyes of the LORD — incited by Jezebel his wife.",
+      "translator_notes": [
+        "The narrator's verdict: lo hayah ke-Ach'av ('there was none like Ahab'). The verb hitmakker ('sold himself') repeats from verse 20. The addition of asher hesattah oto Izevel ishto ('whom Jezebel his wife incited') distributes blame: Ahab is the primary agent, Jezebel the instigator. The verb hesattah ('she incited, she seduced') suggests persistent influence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיַּתְעֵ֣ב מְאֹ֔ד לָלֶ֖כֶת אַחֲרֵ֣י הַגִּלֻּלִ֑ים כְּכֹ֣ל אֲשֶׁ֣ר עָשׂ֗וּ הָאֱמֹרִ֕י אֲשֶׁר֙ הוֹרִ֣ישׁ יְהוָ֔ה מִפְּנֵ֖י בְּנֵ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And he did very abominably in following idols, according to all things as did the Amorites, whom the LORD cast out before the children of Israel.",
+      "rendering": "He acted in the most repulsive way, going after the dung-idols, exactly as the Amorites had done — the ones the LORD had driven out before the Israelites.",
+      "translator_notes": [
+        "The word gillulim ('dung-idols, filthy things') is a deliberately derogatory term for idols — possibly derived from galal ('dung'). The comparison to the Amorites (ha-Emori) is the ultimate insult: Ahab has become as detestable as the nations God expelled from the land to make room for Israel. The implication is that what happened to the Amorites could happen to Israel."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיְהִ֣י כִשְׁמֹ֣עַ אַחְאָ֗ב אֶת־הַדְּבָרִ֤ים הָאֵ֙לֶּה֙ וַיִּקְרַ֣ע בְּגָדָ֔יו וַיָּ֥שֶׂם שַׂ֖ק עַל־בְּשָׂר֑וֹ וַיָּ֕צוֹם וַיִּשְׁכַּ֣ב בַּשָּׂ֔ק וַיְהַלֵּ֖ךְ אָֽט׃",
+      "text_kjv": "And it came to pass, when Ahab heard those words, that he rent his clothes, and put sackcloth upon his flesh, and fasted, and lay in sackcloth, and went softly.",
+      "rendering": "When Ahab heard these words, he tore his clothes, put sackcloth against his skin, fasted, slept in sackcloth, and walked about subdued.",
+      "translator_notes": [
+        "Ahab's response is a full catalogue of mourning and penitence: tearing garments (qara begadav), wearing sackcloth directly on the skin (saq al basar — maximum discomfort), fasting (va-yatsom), sleeping in sackcloth (va-yishkav ba-saq), and walking at ('softly, gently, subdued'). The verb halakh at ('he walked subdued') describes a person moving slowly, head down, broken. Whether this represents genuine repentance or merely terror at the sentence is left for God to evaluate."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֶל־אֵלִיָּ֥הוּ הַתִּשְׁבִּ֖י לֵאמֹֽר׃",
+      "text_kjv": "And the word of the LORD came to Elijah the Tishbite, saying,",
+      "rendering": "The word of the LORD came to Elijah the Tishbite:",
+      "translator_notes": [
+        "The prophetic formula returns — God has observed Ahab's response and sends a new word to Elijah."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "הֲרָאִ֗יתָ כִּֽי־נִכְנַ֤ע אַחְאָב֙ מִלְּפָנַ֔י יַ֚עַן כִּי־נִכְנַ֣ע מִפָּנַ֔י לֹא־אָבִ֥יא הָרָעָ֖ה בְּיָמָ֑יו בִּימֵ֣י בְנ֔וֹ אָבִ֥יא הָרָעָ֖ה עַל־בֵּיתֽוֹ׃",
+      "text_kjv": "Seest thou how Ahab humbleth himself before me? because he humbleth himself before me, I will not bring the evil in his days: but in his son's days will I bring the evil upon his house.",
+      "rendering": "\"Have you seen how Ahab has humbled himself before me? Because he has humbled himself before me, I will not bring the disaster in his lifetime. In his son's time I will bring the disaster on his house.\"",
+      "translator_notes": [
+        "God's response is remarkable: ha-ra'ita ki nikhna Ach'av milpanai ('have you seen that Ahab has humbled himself before me?'). The verb nikhna ('he humbled himself, he submitted') from the root kana ('to humble, to be subdued') is taken at face value by God — whatever Ahab's inner motives, the outward humbling is acknowledged. The judgment is not canceled but delayed: lo avi ha-ra'ah be-yamav ('I will not bring the disaster in his days'). The disaster shifts to bimei veno ('in the days of his son') — the generation of Joram, who will be overthrown by Jehu (2 Kings 9-10). The passage reveals that prophetic judgment is not mechanical — divine mercy can modify the timeline even when the verdict stands."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

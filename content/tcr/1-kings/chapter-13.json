@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Kings",
+    "chapter": 13,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "An unnamed man of God from Judah arrives at Bethel and confronts Jeroboam at the altar, delivering a specific prophecy that a king named Josiah will one day desecrate this high place. The altar splits and Jeroboam's hand withers. Refusing the king's hospitality under divine orders, the man of God departs by a different route. An old prophet in Bethel deceives him into returning, claiming an angel gave counter-instructions. The man of God eats and drinks, violating the LORD's command. A lion kills him on the road but does not touch his donkey or his body. The old prophet retrieves and buries him, asking to be laid beside him when he dies.",
+    "remarkable": "This is one of the strangest and most troubling chapters in all of Kings. The central tension is a paradox about prophetic authority: God sends a word through a genuine prophet, then an old prophet contradicts that word with a lie, and yet God holds the man of God accountable for believing the lie. The chapter asks a devastating question: if a prophet lies to you in the name of the LORD, are you still responsible for obeying the original word? The answer in this narrative is yes. The original word remains binding regardless of what any subsequent voice claims. The story also introduces the theme that will dominate Kings: prophecy and fulfillment. The man of God names Josiah by name roughly three centuries before his birth (2 Kings 23:15-18), and when Josiah finally arrives, he finds this very tomb and spares it — closing the loop. The lion that kills the man of God but stands guard over the body and the donkey is one of the most uncanny images in the Hebrew Bible. The animal acts against its nature, becoming a sign that this death is divine judgment, not random predation.",
+    "friction": "The ethical crux of this chapter is the old prophet's lie. He tells the man of God that an angel spoke to him, countermanding God's instructions. The Hebrew narrator flatly states vekhikhesh lo ('he lied to him'). Yet at the very meal obtained through this deception, the word of the LORD comes through the same old prophet — genuinely this time — to pronounce judgment on the man of God. How can a proven liar become a channel for authentic prophecy in the same scene? The text does not resolve this. It treats prophetic authority as separable from prophetic character. The old prophet's later grief appears genuine, and his request to be buried beside the man of God suggests he recognized the authentic word even as he himself had undermined it. The identity of the man of God is never given. He is ish ha-elohim throughout — defined entirely by his function and his failure.",
+    "connections": "The prophecy naming Josiah (verse 2) is fulfilled in 2 Kings 23:15-18, where Josiah burns bones on this altar but spares the tomb of the man of God — one of the longest-range prophecy-fulfillment arcs in the Hebrew Bible. The withering and restoration of Jeroboam's hand recalls Moses' hand turning leprous and being healed (Exodus 4:6-7). The theme of a prophet deceived by another prophet recurs in 1 Kings 22, where the lying spirit enters the prophets of Ahab. Deuteronomy 13:1-5 warns that a prophet who gives signs but leads you astray must be rejected — this chapter dramatizes the cost of failing that test."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וְהִנֵּ֣ה אִ֣ישׁ אֱלֹהִ֗ים בָּ֤א מִֽיהוּדָה֙ בִּדְבַ֣ר יְהוָ֔ה אֶל־בֵּ֖ית אֵ֑ל וְיָרָבְעָ֛ם עֹמֵ֥ד עַל־הַמִּזְבֵּ֖חַ לְהַקְטִֽיר׃",
+      "text_kjv": "And, behold, there came a man of God out of Judah by the word of the LORD unto Bethel: and Jeroboam stood by the altar to burn incense.",
+      "rendering": "A man of God came from Judah to Bethel by the word of the LORD, while Jeroboam was standing beside the altar to burn offerings.",
+      "expanded_rendering": "The narrative opens with cinematic abruptness. No name, no genealogy, no preparation — just ish Elohim, a 'man of God,' arriving from Judah bi-dvar YHWH ('by the word of the LORD'). The preposition be- indicates both the authority and the cause: the word of the LORD is what sent him and what he carries. He arrives at the precise moment Jeroboam is standing at the altar lehagtir ('to make smoke,' that is, to burn incense or offerings). The king is caught in the act of illegitimate worship, and the man of God materializes as the divine response.",
+      "translator_notes": [
+        "The phrase ish Elohim ('man of God') is a technical designation for a prophet or holy man empowered by God. Unlike navi ('prophet'), which emphasizes speaking, ish Elohim emphasizes the person's connection to divine power — signs, wonders, and authoritative action. This figure remains unnamed throughout the chapter, defined solely by his divine commission.",
+        "Bethel ('house of God') is deeply ironic here. The place Jacob named as a site of genuine encounter with God (Genesis 28:19) has become the location of Jeroboam's rival sanctuary with its golden calf. The man of God comes from Judah — the legitimate worship center — to confront the counterfeit."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אִישׁ אֱלֹהִים",
+          "transliteration": "ish Elohim",
+          "rendered_as": "man of God",
+          "semantic_range": "man of God, holy man, prophet, divine agent",
+          "note": "ish Elohim designates a figure whose identity is defined by divine commission rather than personal biography. The title appears over 70 times in the Hebrew Bible, most often in the Elijah-Elisha narratives. Here the anonymity is deliberate — the man matters only as a vehicle for God's word."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיִּקְרָ֤א עַל־הַמִּזְבֵּ֙חַ֙ בִּדְבַ֣ר יְהוָ֔ה וַיֹּ֗אמֶר מִזְבֵּ֤חַ מִזְבֵּ֙חַ֙ כֹּ֣ה אָמַ֣ר יְהוָ֔ה הִנֵּֽה־בֵ֞ן נוֹלָ֤ד לְבֵית־דָּוִד֙ יֹאשִׁיָּ֣הוּ שְׁמ֔וֹ וְזָבַ֣ח עָלֶ֗יךָ אֶת־כֹּהֲנֵ֛י הַבָּמ֖וֹת הַמַּקְטִרִ֣ים עָלֶ֑יךָ וְעַצְמ֥וֹת אָדָ֖ם יִשְׂרְפ֥וּ עָלֶֽיךָ׃",
+      "text_kjv": "And he cried against the altar in the word of the LORD, and said, O altar, altar, thus saith the LORD; Behold, a child shall be born unto the house of David, Josiah by name; and upon thee shall he offer the priests of the high places that burn incense upon thee, and men's bones shall be burnt upon thee.",
+      "rendering": "He cried out against the altar by the word of the LORD and said, \"Altar, altar! This is what the LORD says: A son will be born to the house of David — Josiah will be his name — and he will sacrifice on you the priests of the high places who burn offerings on you, and human bones will be burned on you.\"",
+      "expanded_rendering": "The direct address to the altar — mizbeach, mizbeach! — is extraordinary. The man of God speaks not to Jeroboam but to the inanimate structure itself, as though the altar is the guilty party. The prophecy is staggeringly specific: it names a future king, Yoshiyyahu (Josiah), by name, and describes what he will do — slaughter the high-place priests on this very altar and burn human bones on it. This will not be fulfilled for roughly three hundred years (2 Kings 23:15-16). Naming an unborn figure centuries in advance occurs nowhere else in Kings with this precision. The phrase ben nolad ('a son will be born') uses the passive participle, treating the birth as already determined in the divine plan.",
+      "translator_notes": [
+        "The doubled vocative mizbeach mizbeach ('altar, altar!') follows the Hebrew convention of emphatic address — compare 'Jerusalem, Jerusalem' in later prophetic tradition. The altar is personified as the receptor of illegitimate worship and the future site of its own defilement.",
+        "The name Yoshiyyahu (Josiah) means 'the LORD supports' or 'the LORD heals.' Its appearance here as a predictive naming is unique in the Deuteronomistic History. The fulfillment account in 2 Kings 23:15-18 explicitly references this prophecy, and Josiah spares the tomb of the man of God — closing the narrative arc across centuries of text."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְנָתַ֤ן בַּיּוֹם֙ הַה֣וּא מוֹפֵ֔ת לֵאמֹ֕ר זֶ֣ה הַמּוֹפֵ֗ת אֲשֶׁ֣ר דִּבֶּר֮ יְהוָה֒ הִנֵּ֤ה הַמִּזְבֵּ֙חַ֙ נִקְרָ֔ע וְנִשְׁפַּ֖ךְ הַדֶּ֥שֶׁן אֲשֶׁר־עָלָֽיו׃",
+      "text_kjv": "And he gave a sign the same day, saying, This is the sign which the LORD hath spoken; Behold, the altar shall be rent, and the ashes that are upon it shall be poured out.",
+      "rendering": "He gave a sign that day, saying, \"This is the sign the LORD has spoken: the altar will be torn apart and the ashes on it will be poured out.\"",
+      "translator_notes": [
+        "The word mofet ('sign, portent') differs from ot ('sign') in that mofet typically denotes a wonder that confirms prophetic authority — a visible, immediate proof. The verb niqra ('will be torn') uses the nifal passive, indicating the altar will be acted upon by a force greater than human hands. The word deshen ('fatty ashes') refers to the residue of sacrificial fat mixed with ash — the accumulated evidence of all the offerings burned on this altar will spill out as proof of its illegitimacy."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיְהִי֩ כִשְׁמֹ֨עַ הַמֶּ֜לֶךְ אֶת־דְּבַ֣ר אִישׁ־הָאֱלֹהִ֗ים אֲשֶׁ֤ר קָרָא֙ עַל־הַמִּזְבֵּ֣חַ בְּבֵֽית־אֵ֔ל וַיִּשְׁלַ֨ח יָרָבְעָ֧ם אֶת־יָד֛וֹ מֵעַ֥ל הַמִּזְבֵּ֖חַ לֵאמֹ֑ר תִּפְשֻׂ֕הוּ וַתִּיבַ֤שׁ יָדוֹ֙ אֲשֶׁ֣ר שָׁלַ֣ח עָלָ֔יו וְלֹ֥א יָכֹ֖ל לַהֲשִׁיבָ֥הּ אֵלָֽיו׃",
+      "text_kjv": "And it came to pass, when king Jeroboam heard the saying of the man of God, which had cried against the altar in Bethel, that he put forth his hand from the altar, saying, Lay hold on him. And his hand, which he put forth against him, dried up, so that he could not pull it in again to him.",
+      "rendering": "When King Jeroboam heard the word of the man of God who had cried out against the altar at Bethel, he stretched out his hand from beside the altar and said, \"Seize him!\" But his hand that he stretched out against him withered, and he could not draw it back to himself.",
+      "translator_notes": [
+        "The verb yavesh ('dried up, withered') describes the hand becoming rigid and nonfunctional — not amputated but paralyzed in its extended position. Jeroboam's hand is frozen in the very gesture of commanding violence against God's prophet. The physical sign mirrors the spiritual reality: the king who reaches out to suppress God's word finds his reach arrested.",
+        "The detail me'al hamizbeach ('from beside the altar') indicates Jeroboam was still at his post of illegitimate priestly service when he issued the command. He acts as both false priest and hostile king simultaneously."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְהַמִּזְבֵּ֣חַ נִקְרָ֔ע וַיִּשָּׁפֵ֥ךְ הַדֶּ֖שֶׁן מִן־הַמִּזְבֵּ֑חַ כַּמּוֹפֵ֗ת אֲשֶׁ֥ר נָתַ֛ן אִ֥ישׁ הָאֱלֹהִ֖ים בִּדְבַ֥ר יְהוָֽה׃",
+      "text_kjv": "The altar also was rent, and the ashes poured out from the altar, according to the sign which the man of God had given by the word of the LORD.",
+      "rendering": "The altar was torn apart and the ashes poured out from the altar, exactly as the sign the man of God had given by the word of the LORD.",
+      "translator_notes": [
+        "The fulfillment of the immediate sign (altar splits, ashes pour out) authenticates the long-range prophecy about Josiah. This two-stage pattern — near fulfillment confirming far fulfillment — appears throughout the prophetic literature (compare Isaiah 7:14-16 with its immediate and distant horizons). The phrase bi-dvar YHWH ('by the word of the LORD') bookends the scene: the man came by this word (v. 1) and the sign was given by this word (v. 5)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיַּ֨עַן הַמֶּ֜לֶךְ וַיֹּ֣אמֶר ׀ אֶל־אִ֣ישׁ הָאֱלֹהִ֗ים חַל־נָ֞א אֶת־פְּנֵ֣י ׀ יְהוָ֣ה אֱלֹהֶ֗יךָ וְהִתְפַּלֵּ֣ל בַּעֲדִ֔י וְתָשָׁ֥ב יָדִ֖י אֵלָ֑י וַיְחַ֤ל אִישׁ־הָאֱלֹהִים֙ אֶת־פְּנֵ֣י יְהוָ֔ה וַתָּ֤שָׁב יַד־הַמֶּ֙לֶךְ֙ אֵלָ֔יו וַתְּהִ֖י כְּבָרִאשֹׁנָֽה׃",
+      "text_kjv": "And the king answered and said unto the man of God, Intreat now the face of the LORD thy God, and pray for me, that my hand may be restored me again. And the man of God besought the LORD, and the king's hand was restored him again, and became as it was before.",
+      "rendering": "The king responded and said to the man of God, \"Please seek the favor of the LORD your God and pray for me, so that my hand may be restored to me.\" The man of God sought the favor of the LORD, and the king's hand was restored to him and became as it was before.",
+      "translator_notes": [
+        "Jeroboam's plea chal na et penei YHWH Elohekha ('please soften the face of the LORD your God') uses the verb chalah ('to become weak, to entreat, to soften') with the object penei ('face of'). The phrase means to make God's countenance favorable — to turn away his severity. Crucially, Jeroboam says 'your God,' not 'my God' or 'our God.' Even in crisis, he does not claim YHWH as his own.",
+        "The restoration is complete — vat-tehi kevarishonah ('it became as at first') — yet Jeroboam will draw no lasting lesson from the experience. The healing of the hand does not heal the king's religious policy. This pattern of receiving mercy without repentance is characteristic of Jeroboam throughout Kings."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיְדַבֵּ֤ר הַמֶּ֙לֶךְ֙ אֶל־אִ֣ישׁ הָאֱלֹהִ֔ים בֹּ֥אָה אִתִּ֛י הַבַּ֖יְתָה וּסְעָ֑דָה וְאֶתְּנָ֥ה לְךָ֖ מַתָּֽת׃",
+      "text_kjv": "And the king said unto the man of God, Come home with me, and refresh thyself, and I will give thee a reward.",
+      "rendering": "The king said to the man of God, \"Come home with me, eat a meal, and I will give you a gift.\"",
+      "translator_notes": [
+        "The verb sa'ad ('to sustain, to refresh with food') and the noun mattat ('gift, reward') represent a standard royal offer of patronage. Jeroboam attempts to convert the prophetic encounter into a court transaction — receive a gift, become indebted, soften the message. The offer of hospitality is not merely generous; it is politically strategic."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֹּ֤אמֶר אִישׁ־הָאֱלֹהִים֙ אֶל־הַמֶּ֔לֶךְ אִם־תִּתֶּן־לִ֗י אֶת־חֲצִ֣י בֵיתֶ֔ךָ לֹ֥א אָבֹ֖א עִמָּ֑ךְ וְלֹא־אֹ֤כַל לֶ֙חֶם֙ וְלֹ֣א אֶשְׁתֶּה־מַּ֔יִם בַּמָּק֖וֹם הַזֶּֽה׃",
+      "text_kjv": "And the man of God said unto the king, If thou wilt give me half thine house, I will not go in with thee, neither will I eat bread nor drink water in this place:",
+      "rendering": "The man of God said to the king, \"Even if you gave me half your estate, I would not go with you, nor would I eat food or drink water in this place.\"",
+      "translator_notes": [
+        "The conditional im titten li et chatsi beitekha ('even if you gave me half your house') is a hyperbolic refusal — no amount of royal wealth can override the divine command. The threefold refusal (not go, not eat, not drink) establishes the absolute nature of the prohibition. The phrase bamaqom hazzeh ('in this place') designates Bethel as contaminated space — the man of God cannot accept hospitality in a place of illegitimate worship."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "כִּ֣י כֵ֤ן ׀ צִוָּ֣ה אֹתִ֗י בִּדְבַ֣ר יְהוָ֣ה לֵאמֹ֡ר לֹא־תֹאכַ֨ל לֶ֜חֶם וְלֹ֤א תִשְׁתֶּה־מַּ֙יִם֙ וְלֹ֣א תָשׁ֔וּב בַּדֶּ֖רֶךְ אֲשֶׁ֥ר הָלָֽכְתָּ׃",
+      "text_kjv": "For so it was charged me by the word of the LORD, saying, Eat no bread, nor drink water, nor turn again by the same way that thou camest.",
+      "rendering": "For this is what the LORD commanded me by his word: 'You must not eat food, you must not drink water, and you must not return by the road you came on.'\"",
+      "translator_notes": [
+        "The divine command has three components: no eating, no drinking, and no returning by the same route. The first two prohibit any social engagement that could be construed as fellowship with Bethel's religious establishment. The third — not returning by the same road — may serve a practical purpose (avoiding pursuit or ambush) but also functions symbolically: the prophet's path must be one-directional, delivering God's word and departing without backward entanglement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיֵּ֖לֶךְ בְּדֶ֣רֶךְ אַחֵ֑ר וְלֹא־שָׁ֣ב בַּדֶּ֔רֶךְ אֲשֶׁ֥ר בָּ֖א בָּ֥הּ אֶל־בֵּֽית־אֵֽל׃",
+      "text_kjv": "So he went another way, and returned not by the way that he came to Bethel.",
+      "rendering": "So he went by a different road and did not return by the road on which he had come to Bethel.",
+      "translator_notes": [
+        "The man of God's initial obedience is complete. He has refused the king, refused food and water, and taken a different route. This establishes his faithfulness at the start, which makes his subsequent failure all the more devastating. The narrative emphasis on the route will become critical: it is on this alternate road that the old prophet will find him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְנָבִ֤יא אֶחָד֙ זָקֵ֔ן יֹשֵׁ֖ב בְּבֵֽית־אֵ֑ל וַיָּב֣וֹא בְנ֗וֹ וַיְסַפֶּר־ל֞וֹ אֶת־כׇּל־הַֽמַּעֲשֶׂ֞ה אֲשֶׁר־עָשָׂ֨ה אִישׁ־הָאֱלֹהִ֤ים ׀ הַיּוֹם֙ בְּבֵ֣ית אֵ֔ל אֶת־הַדְּבָרִ֛ים אֲשֶׁ֥ר דִּבֶּ֖ר אֶל־הַמֶּ֥לֶךְ וַיְסַפְּר֖וּם לַאֲבִיהֶֽם׃",
+      "text_kjv": "Now there dwelt an old prophet in Bethel; and his sons came and told him all the works that the man of God had done that day in Bethel: the words which he had spoken unto the king, them they told also to their father.",
+      "rendering": "Now an old prophet was living in Bethel. His son came and told him everything the man of God had done that day at Bethel — the words he had spoken to the king. They told their father everything.",
+      "translator_notes": [
+        "The old prophet (navi zaqen) is introduced without any indication of whether he is a true or false prophet. He lives in Bethel — the site of Jeroboam's cult — which raises the question of his complicity or silence regarding the religious situation. His sons witnessed the confrontation and report it to him, setting the stage for his pursuit of the man of God."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיְדַבֵּ֤ר אֲלֵהֶם֙ אֲבִיהֶ֔ם אֵי־זֶ֥ה הַדֶּ֖רֶךְ הָלָ֑ךְ וַיִּרְא֣וּ בָנָ֗יו אֶת־הַדֶּ֙רֶךְ֙ אֲשֶׁ֣ר הָלַ֔ךְ אִ֥ישׁ הָאֱלֹהִ֖ים אֲשֶׁר־בָּ֥א מִיהוּדָֽה׃",
+      "text_kjv": "And their father said unto them, What way went he? For his sons had seen what way the man of God went, which came from Judah.",
+      "rendering": "Their father said to them, \"Which road did he take?\" His sons had seen the road the man of God from Judah had taken.",
+      "translator_notes": [
+        "The old prophet's first question is about the route — ei zeh haderekh halakh ('which way did he go?'). His interest is pursuit, not curiosity. The sons' knowledge of the direction makes them unwitting accomplices in what follows."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיֹּ֣אמֶר אֶל־בָּנָ֔יו חִבְשׁוּ־לִ֖י הַחֲמ֑וֹר וַיַּחְבְּשׁוּ־ל֣וֹ הַחֲמ֔וֹר וַיִּרְכַּ֖ב עָלָֽיו׃",
+      "text_kjv": "And he said unto his sons, Saddle me the ass. So they saddled him the ass: and he rode thereon,",
+      "rendering": "He said to his sons, \"Saddle the donkey for me.\" They saddled the donkey for him, and he rode out on it.",
+      "translator_notes": [
+        "The verb chavash ('to saddle, bind, harness') will recur significantly in this chapter — the same donkey-saddling action frames the old prophet's departure to deceive and later the man of God's departure to his death. The repetition creates a narrative rhythm of departure and doom."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֵּ֗לֶךְ אַחֲרֵי֙ אִ֣ישׁ הָאֱלֹהִ֔ים וַיִּ֨מְצָאֵ֔הוּ יֹשֵׁ֖ב תַּ֣חַת הָאֵלָ֑ה וַיֹּ֣אמֶר אֵלָ֗יו הַאַתָּ֛ה אִ֥ישׁ הָאֱלֹהִ֖ים אֲשֶׁר־בָּ֣אתָ מִֽיהוּדָ֑ה וַיֹּ֖אמֶר אָֽנִי׃",
+      "text_kjv": "And went after the man of God, and found him sitting under an oak: and he said unto him, Art thou the man of God that camest from Judah? And he said, I am.",
+      "rendering": "He went after the man of God and found him sitting under a terebinth tree. He said to him, \"Are you the man of God who came from Judah?\" He answered, \"I am.\"",
+      "translator_notes": [
+        "The man of God is found yoshev tachat ha-elah ('sitting under the terebinth'). The terebinth (elah) is a large shade tree often associated with sacred sites in the Hebrew Bible (compare the oaks of Mamre, Genesis 18:1). That the man of God has stopped rather than continuing his journey suggests fatigue or rest — he is vulnerable. His simple answer ani ('I am') confirms his identity without suspicion."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיֹּ֣אמֶר אֵלָ֔יו לְכָ֥ה אִתִּ֖י הַבָּ֑יְתָה וֶאֱכֹ֖ל לָֽחֶם׃",
+      "text_kjv": "Then he said unto him, Come home with me, and eat bread.",
+      "rendering": "He said to him, \"Come home with me and eat a meal.\"",
+      "translator_notes": [
+        "The old prophet's invitation echoes Jeroboam's in verse 7, but without the offer of a gift. It is framed as simple hospitality — lekhah itti habbaytah ve-ekhol lachem ('come with me to the house and eat food'). The parallel to the king's rejected offer should have alerted the man of God."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיֹּ֗אמֶר לֹ֤א אוּכַל֙ לָשׁ֣וּב אִתָּ֔ךְ וְלָב֖וֹא אִתָּ֑ךְ וְלֹא־אֹ֤כַל לֶ֙חֶם֙ וְלֹא־אֶשְׁתֶּ֤ה אִתְּךָ֙ מַ֔יִם בַּמָּק֖וֹם הַזֶּֽה׃",
+      "text_kjv": "And he said, I may not return with thee, nor go in with thee: neither will I eat bread nor drink water with thee in this place:",
+      "rendering": "He said, \"I cannot go back with you or come with you, and I will not eat food or drink water with you in this place.\"",
+      "translator_notes": [
+        "The man of God repeats his refusal faithfully, using almost identical language to his response to Jeroboam. The phrase lo ukhal ('I cannot') expresses not unwillingness but inability — the divine command has made it impossible. This repetition shows that at this point, the man of God still holds to his original orders."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "כִּי־דָבָ֤ר אֵלַי֙ בִּדְבַ֣ר יְהוָ֔ה לֹא־תֹ֤אכַל לֶ֙חֶם֙ וְלֹא־תִשְׁתֶּ֥ה שָׁ֖ם מָ֑יִם לֹא־תָשׁ֣וּב לָלֶ֔כֶת בַּדֶּ֖רֶךְ אֲשֶׁר־הָלַ֥כְתָּ בָּֽהּ׃",
+      "text_kjv": "For it was said to me by the word of the LORD, Thou shalt eat no bread nor drink water there; nor turn again to go by the way that thou camest.",
+      "rendering": "For the word came to me by the word of the LORD: 'You must not eat food or drink water there. You must not go back the way you came.'\"",
+      "translator_notes": [
+        "The threefold prohibition is restated: no eating, no drinking, no returning by the same route. The man of God recites God's command accurately and completely. The narrative builds an airtight case: he knew the command, he stated it clearly, and he will violate it anyway. The repetition serves the reader, ensuring there is no ambiguity about what was required."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיֹּ֣אמֶר ל֗וֹ גַּם־אֲנִ֛י נָבִ֥יא כָמ֖וֹךָ וּמַלְאָ֗ךְ דִּבֶּ֤ר אֵלַי֙ בִּדְבַ֣ר יְהוָ֔ה לֵאמֹ֗ר הֲשִׁבֵ֤הוּ אִתְּךָ֙ אֶל־בֵּיתֶ֔ךָ וְיֹ֥אכַל לֶ֖חֶם וְיִשְׁתֶּ֣ה מָ֑יִם כִּחֵ֖שׁ לֽוֹ׃",
+      "text_kjv": "He said unto him, I am a prophet also as thou art; and an angel spake unto me by the word of the LORD, saying, Bring him back with thee into thine house, that he may eat bread and drink water. But he lied unto him.",
+      "rendering": "He said to him, \"I too am a prophet, just like you, and an angel spoke to me by the word of the LORD, saying, 'Bring him back with you to your house so that he may eat food and drink water.'\" He lied to him.",
+      "expanded_rendering": "This is the pivot on which the entire chapter turns. The old prophet makes two claims: gam ani navi kamokha ('I too am a prophet like you') and umal'akh dibber elai bi-dvar YHWH ('an angel spoke to me by the word of the LORD'). Both claims may or may not be individually true — he may indeed be a prophet, and angels do speak. But the instruction he attributes to the angel directly contradicts God's command to the man of God. The narrator's verdict is immediate and devastating: kikhesh lo ('he lied to him'). This is the only time in the chapter the narrator breaks from reported speech to deliver a flat editorial judgment. The verb kikhesh means to deceive, to speak falsely, to deny truth. There is no ambiguity. The question the text forces on the reader is not whether the old prophet lied — he did — but why the man of God believed him, and whether a contradictory word from a fellow prophet can ever override a direct word from God.",
+      "translator_notes": [
+        "The phrase gam ani navi kamokha ('I too am a prophet like you') establishes professional solidarity. The old prophet positions himself as a peer whose revelatory experience is equivalent. The word mal'akh ('messenger, angel') adds authority — not just a human prophet but a heavenly intermediary. The cumulative effect is a wall of credentials: prophet, angel, word of the LORD. Every term is designed to make the lie credible.",
+        "The narrator's kikhesh lo ('he lied to him') is placed after the speech, not before it. The reader receives the lie before learning it is a lie — momentarily experiencing the same uncertainty the man of God faced. This narrative technique implicates the reader in the dilemma."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיָּ֣שָׁב אִתּ֔וֹ וַיֹּ֤אכַל לֶ֙חֶם֙ בְּבֵית֔וֹ וַיֵּ֖שְׁתְּ מָֽיִם׃",
+      "text_kjv": "So he went back with him, and did eat bread in his house, and drank water.",
+      "rendering": "So he went back with him and ate food in his house and drank water.",
+      "translator_notes": [
+        "The brevity is damning. Three verbs — vayyashav ('he returned'), vayyokhal ('he ate'), vayyesht ('he drank') — each one a direct violation of the three prohibitions. No internal deliberation is narrated, no struggle of conscience. The man of God simply complied. The silence about his reasoning is part of the chapter's unsettling power."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיְהִ֗י הֵ֚ם יֹשְׁבִ֣ים אֶל־הַשֻּׁלְחָ֔ן וַיְהִ֣י דְבַר־יְהוָ֔ה אֶל־הַנָּבִ֖יא אֲשֶׁ֥ר הֱשִׁיבֽוֹ׃",
+      "text_kjv": "And it came to pass, as they sat at the table, that the word of the LORD came unto the prophet that brought him back:",
+      "rendering": "While they were sitting at the table, the word of the LORD came to the prophet who had brought him back.",
+      "translator_notes": [
+        "The irony is staggering: the word of the LORD — dvar YHWH — now comes through the very prophet who lied. The man who fabricated a divine message now receives a genuine one. The text makes no attempt to explain this. Prophetic function in the Hebrew Bible is not contingent on moral character. The phrase asher heshivo ('who had brought him back') identifies the old prophet by his act of deception, ensuring the reader cannot forget what he did even as he speaks authentically."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיִּקְרָ֞א אֶל־אִ֣ישׁ הָאֱלֹהִ֗ים אֲשֶׁר־בָּ֤א מִיהוּדָה֙ לֵאמֹ֔ר כֹּ֖ה אָמַ֣ר יְהוָ֑ה יַ֗עַן כִּ֤י מָרִ֙יתָ֙ פִּ֣י יְהוָ֔ה וְלֹ֤א שָׁמַ֙רְתָּ֙ אֶת־הַמִּצְוָ֔ה אֲשֶׁ֥ר צִוְּךָ֖ יְהוָ֥ה אֱלֹהֶֽיךָ׃",
+      "text_kjv": "And he cried unto the man of God that came from Judah, saying, Thus saith the LORD, Forasmuch as thou hast disobeyed the mouth of the LORD, and hast not kept the commandment which the LORD thy God commanded thee,",
+      "rendering": "He cried out to the man of God who had come from Judah, \"This is what the LORD says: Because you defied the mouth of the LORD and did not keep the command that the LORD your God commanded you,",
+      "translator_notes": [
+        "The verb marita ('you rebelled, you defied') comes from marah, which means to be rebellious or contentious against authority. The phrase pi YHWH ('the mouth of the LORD') is a vivid anthropomorphism — the man of God defied the very organ of divine speech. The specificity of 'the LORD your God' (YHWH Elohekha) makes it personal: this is not abstract disobedience but betrayal of a personal command from his own covenant God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַ֠תָּשָׁב וַתֹּ֤אכַל לֶ֙חֶם֙ וַתֵּ֣שְׁתְּ מַ֔יִם בַּמָּק֕וֹם אֲשֶׁ֣ר דִּבֶּ֣ר אֵלֶ֔יךָ אַל־תֹּ֥אכַל לֶ֖חֶם וְאַל־תֵּ֣שְׁתְּ מָ֑יִם לֹא־תָב֥וֹא נִבְלָתְךָ֖ אֶל־קֶ֥בֶר אֲבֹתֶֽיךָ׃",
+      "text_kjv": "But camest back, and hast eaten bread and drunk water in the place, of the which the LORD did say to thee, Eat no bread, and drink no water; thy carcase shall not come unto the sepulchre of thy fathers.",
+      "rendering": "but came back and ate food and drank water in the place where he told you, 'Do not eat food and do not drink water' — your body will not come to the tomb of your fathers.\"",
+      "translator_notes": [
+        "The punishment — lo tavo nivlatkha el qever avotekha ('your corpse will not come to the tomb of your fathers') — denies the man of God proper ancestral burial. In Israelite culture, burial with one's fathers was the final act of family and covenant belonging. To have one's body (nivlah, 'carcass, corpse' — a word used for animal carcasses) left unburied or buried in foreign soil was a profound dishonor. The use of nivlah rather than the more dignified met ('dead person') is deliberately degrading."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיְהִ֗י אַחֲרֵ֛י אׇכְל֥וֹ לֶ֖חֶם וְאַחֲרֵ֣י שְׁתוֹת֑וֹ וַיַּחֲבָשׁ־ל֣וֹ הַחֲמ֔וֹר לַנָּבִ֖יא אֲשֶׁ֥ר הֱשִׁיבֽוֹ׃",
+      "text_kjv": "And it came to pass, after he had eaten bread, and after he had drunk, that he saddled for him the ass, to wit, for the prophet whom he had brought back.",
+      "rendering": "After the man of God had eaten and drunk, the old prophet saddled the donkey for him — for the prophet he had brought back.",
+      "translator_notes": [
+        "The old prophet saddles the donkey for his guest — an act of hospitality that serves as preparation for the man of God's death. The verb chavash ('to saddle') recurs from verse 13, forming a grim bracket. The narrator again identifies the old prophet as asher heshivo ('who had brought him back'), reinforcing his culpability."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיֵּ֕לֶךְ וַיִּמְצָאֵ֤הוּ אַרְיֵה֙ בַּדֶּ֔רֶךְ וַיְמִיתֵ֗הוּ וַתְּהִ֤י נִבְלָתוֹ֙ מֻשְׁלֶ֣כֶת בַּדֶּ֔רֶךְ וְהַחֲמ֛וֹר עֹמֵ֥ד אֶצְלָ֖הּ וְהָאַרְיֵ֥ה עֹמֵ֖ד אֵ֥צֶל הַנְּבֵלָֽה׃",
+      "text_kjv": "And when he was gone, a lion met him by the way, and slew him: and his carcase was cast in the way, and the ass stood by it, the lion also stood by the carcase.",
+      "rendering": "He set out, and a lion found him on the road and killed him. His body lay on the road with the donkey standing beside it and the lion standing beside the body.",
+      "expanded_rendering": "The scene is one of the most eerie in the Hebrew Bible. A lion kills the man of God — vayyemitehu ('and it put him to death') — but then stands guard beside the corpse without eating it and without attacking the donkey. The donkey, which should have bolted in terror, also stands still. Both animals behave contrary to nature. The tableau is a sign: the lion is an agent of divine judgment, not a predator following instinct. The word nivlatow ('his corpse') uses the same degrading term from the prophecy in verse 22, confirming that the sentence has been executed. Three figures stand on the road: a dead prophet, a calm donkey, and a sentinel lion. Passersby will see this impossible scene and carry the report to Bethel.",
+      "translator_notes": [
+        "The verb matsa ('to find, to encounter') makes the lion's attack seem purposeful — it 'found' him, as though sent. The triple image of corpse, donkey, and lion all stationary on the road defies natural explanation: lions kill to eat, donkeys flee from lions. The supernatural restraint of both animals marks this as divine judgment rather than natural disaster."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְהִנֵּ֤ה אֲנָשִׁים֙ עֹבְרִ֔ים וַיִּרְא֤וּ אֶת־הַנְּבֵלָה֙ מֻשְׁלֶ֣כֶת בַּדֶּ֔רֶךְ וְאֶת־הָ֣אַרְיֵ֔ה עֹמֵ֖ד אֵ֣צֶל הַנְּבֵלָ֑ה וַיָּבֹ֙אוּ֙ וַיְדַבְּר֣וּ בָעִ֔יר אֲשֶׁ֛ר הַנָּבִ֥יא הַזָּקֵ֖ן יֹשֵׁ֥ב בָּֽהּ׃",
+      "text_kjv": "And, behold, men passed by, and saw the carcase cast in the way, and the lion standing by the carcase: and they came and told it in the city where the old prophet dwelt.",
+      "rendering": "People passing by saw the body lying on the road with the lion standing beside the body. They went and reported it in the city where the old prophet lived.",
+      "translator_notes": [
+        "The travelers see exactly what the narrator described: corpse on the road, lion standing beside it. They carry the report specifically to the city where the old prophet lives — asher hannavi hazzaqen yoshev bah. The news reaches the person most implicated in the death. The narrative does not say how the travelers knew to go there; the connection between the old prophet and the man of God appears to be known."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיִּשְׁמַע֩ הַנָּבִ֨יא אֲשֶׁ֤ר הֱשִׁיבוֹ֙ מִן־הַדֶּ֔רֶךְ וַיֹּ֕אמֶר אִ֥ישׁ הָאֱלֹהִ֖ים ה֑וּא אֲשֶׁ֤ר מָרָה֙ אֶת־פִּ֣י יְהוָ֔ה וַיִּתְּנֵ֤הוּ יְהוָה֙ לָאַרְיֵ֔ה וַיִּשְׁבְּרֵ֣הוּ וַיְמִתֵ֔הוּ כִּדְבַ֥ר יְהוָ֖ה אֲשֶׁ֥ר דִּבֶּר־לֽוֹ׃",
+      "text_kjv": "And when the prophet that brought him back from the way heard thereof, he said, It is the man of God, who was disobedient unto the word of the LORD: therefore the LORD hath delivered him unto the lion, which hath torn him, and slain him, according to the word of the LORD, which he spake unto him.",
+      "rendering": "When the prophet who had brought him back from the road heard it, he said, \"It is the man of God who defied the mouth of the LORD. The LORD gave him to the lion, which mauled him and killed him, according to the word of the LORD that he spoke to him.\"",
+      "translator_notes": [
+        "The old prophet's response uses the same phrase from the divine oracle he himself delivered: marah et pi YHWH ('defied the mouth of the LORD'). He interprets the death correctly — it fulfills the word spoken at his own table. The verb shavar ('to break, to maul') describes the lion's physical destruction of the body. The old prophet shows no expression of guilt for his own role in bringing about this outcome, though his subsequent actions suggest some form of grief or recognition."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיְדַבֵּ֤ר אֶל־בָּנָיו֙ לֵאמֹ֔ר חִבְשׁוּ־לִ֖י אֶת־הַחֲמ֑וֹר וַיַּחְבֹּֽשׁוּ׃",
+      "text_kjv": "And he spake to his sons, saying, Saddle me the ass. And they saddled him.",
+      "rendering": "He said to his sons, \"Saddle the donkey for me.\" And they saddled it.",
+      "translator_notes": [
+        "The command chaveshu li et hachamor ('saddle me the donkey') repeats verse 13 word for word. The old prophet rides out again — the first time to deceive, this time to retrieve. The structural parallel binds his two journeys into a single arc of cause and consequence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיֵּ֗לֶךְ וַיִּמְצָ֤א אֶת־נִבְלָתוֹ֙ מֻשְׁלֶ֣כֶת בַּדֶּ֔רֶךְ וַחֲמ֤וֹר וְהָֽאַרְיֵה֙ עֹמְדִ֣ים אֵ֣צֶל הַנְּבֵלָ֔ה לֹא־אָכַ֤ל הָאַרְיֵה֙ אֶת־הַנְּבֵלָ֔ה וְלֹ֥א שָׁבַ֖ר אֶת־הַחֲמֽוֹר׃",
+      "text_kjv": "And he went and found his carcase cast in the way, and the ass and the lion standing by the carcase: the lion had not eaten the carcase, nor torn the ass.",
+      "rendering": "He went and found the body lying on the road with the donkey and the lion standing beside the body. The lion had not eaten the body and had not mauled the donkey.",
+      "translator_notes": [
+        "The narrator emphasizes two negatives: lo akhal ('had not eaten') and lo shavar ('had not mauled'). A lion that kills but does not eat, that stands beside prey animals without attacking — this is not natural behavior. The supernatural restraint confirms that the lion is an instrument of specific divine judgment, not indiscriminate predation. The scene would have remained exactly as the travelers described it, preserved for the old prophet's arrival."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיִּשָּׂ֣א הַנָּבִ֗יא אֶת־נִבְלַת֙ אִ֣ישׁ הָאֱלֹהִ֔ים וַיַּנִּחֵ֖הוּ אֶל־הַחֲמ֑וֹר וַיְשִׁיבֵ֗הוּ וַיָּבֹ֛א אֶל־עִ֥יר הַנָּבִ֥יא הַזָּקֵ֖ן לִסְפֹּ֥ד וּלְקָבְרֽוֹ׃",
+      "text_kjv": "And the prophet took up the carcase of the man of God, and laid it upon the ass, and brought it back: and the old prophet came to his city, to mourn and to bury him.",
+      "rendering": "The prophet lifted the body of the man of God and laid it on the donkey. He brought it back and came to his own city to mourn and to bury him.",
+      "translator_notes": [
+        "The verb nasa ('to lift, to carry') and the act of placing the body on the donkey create a scene of somber dignity. The old prophet returns the man of God to civilization for proper burial — lisfod ulqovro ('to lament and to bury him'). The verb safad ('to mourn, to beat the breast') indicates genuine grief, not merely ritual obligation. The old prophet mourns the man whose death he caused."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיַּנַּ֥ח אֶת־נִבְלָת֖וֹ בְּקִבְר֑וֹ וַיִּסְפְּד֥וּ עָלָ֖יו ה֥וֹי אָחִֽי׃",
+      "text_kjv": "And he laid his carcase in his own grave; and they mourned over him, saying, Alas, my brother!",
+      "rendering": "He laid his body in his own tomb, and they mourned over him, crying, \"Alas, my brother!\"",
+      "translator_notes": [
+        "The old prophet places the body be-qivro ('in his own tomb') — his personal burial site. He gives to the dead man what should have been reserved for himself. The lament hoi achi ('alas, my brother!') is an intimate expression of grief. The word ach ('brother') claims a bond of prophetic kinship. Whether this grief is repentance, guilt, or something more complex, the text does not say."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיְהִ֖י אַחֲרֵ֣י קָבְר֣וֹ אֹת֑וֹ וַיֹּ֤אמֶר אֶל־בָּנָיו֙ לֵאמֹ֔ר בְּמוֹתִ֗י וּקְבַרְתֶּ֤ם אֹתִי֙ בַּקֶּ֔בֶר אֲשֶׁ֛ר אִ֥ישׁ הָאֱלֹהִ֖ים קָב֥וּר בּ֑וֹ אֵ֚צֶל עַצְמֹתָ֔יו הַנִּ֖יחוּ אֶת־עַצְמֹתָֽי׃",
+      "text_kjv": "And it came to pass, after he had buried him, that he spake to his sons, saying, When I am dead, then bury me in the sepulchre wherein the man of God is buried; lay my bones beside his bones:",
+      "rendering": "After he had buried him, he said to his sons, \"When I die, bury me in the tomb where the man of God is buried. Lay my bones beside his bones.\"",
+      "translator_notes": [
+        "The request etsel atsmotav hanichu et atsmotai ('beside his bones lay my bones') is remarkable. The old prophet wants to be identified with the man of God in death, united in burial with the prophet he deceived. This request will have practical consequences: when Josiah desecrates the tombs at Bethel three centuries later (2 Kings 23:17-18), he spares this tomb because of the man of God — and the old prophet's bones are preserved alongside his. The deceiver is saved by proximity to his victim."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "כִּ֣י הָיֹ֣ה יִהְיֶ֗ה הַדָּבָר֙ אֲשֶׁ֣ר קָרָ֤א בִּדְבַ֣ר יְהוָ֔ה עַ֚ל הַמִּזְבֵּ֔חַ אֲשֶׁ֖ר בְּבֵ֣ית אֵ֑ל וְעַ֨ל כׇּל־בָּתֵּ֣י הַבָּמ֔וֹת אֲשֶׁ֖ר בְּעָרֵ֥י שֹׁמְרֽוֹן׃",
+      "text_kjv": "For the saying which he cried by the word of the LORD against the altar in Bethel, and against all the houses of the high places which are in the cities of Samaria, shall surely come to pass.",
+      "rendering": "For the word he proclaimed by the word of the LORD against the altar at Bethel and against all the shrines of the high places in the towns of Samaria will certainly come to pass.\"",
+      "translator_notes": [
+        "The infinitive absolute construction hayo yihyeh ('being it will be,' that is, 'it will certainly come to pass') expresses absolute certainty. The old prophet affirms the very prophecy he tried to undermine by detaining God's messenger. The reference to 'the towns of Samaria' is an anachronism from the narrator's perspective — Samaria was not yet built as a city (that happens in chapter 16). This indicates either editorial updating or prophetic foresight extending beyond the immediate context."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "אַחַר֙ הַדָּבָ֣ר הַזֶּ֔ה לֹא־שָׁ֥ב יָרָבְעָ֖ם מִדַּרְכּ֣וֹ הָרָעָ֑ה וַיָּ֗שָׁב וַיַּ֤עַשׂ מִקְצ֣וֹת הָעָ֔ם כֹּהֲנֵ֣י בָמ֔וֹת הֶחָפֵ֖ץ יְמַלֵּ֥א אֶת־יָד֖וֹ וַיְהִ֖י כֹּהֲנֵ֥י בָמֽוֹת׃",
+      "text_kjv": "After this thing Jeroboam returned not from his evil way, but made again of the lowest of the people priests of the high places: whosoever would, he consecrated him, and he became one of the priests of the high places.",
+      "rendering": "After this, Jeroboam did not turn from his evil way. He went back to appointing priests for the high places from among all the people — anyone who wanted it, he filled his hands and he became a priest of the high places.",
+      "translator_notes": [
+        "The phrase lo shav Yarov'am midarko hara'ah ('Jeroboam did not turn from his evil way') is the narrator's theological verdict. Despite the withered hand, the split altar, and the dramatic death of the man of God, Jeroboam persists. The expression yemalle et yado ('he filled his hand') is the technical idiom for priestly consecration (literally, 'to fill the hand' with the offering). Jeroboam consecrates anyone willing — miqtsot ha'am ('from the ends/extremities of the people'), meaning from every social stratum, not just Levites. This is the fundamental violation: non-Levitical priesthood."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיְהִ֣י ׀ בַּדָּבָ֣ר הַזֶּ֗ה לְחַטַּאת֙ בֵּ֣ית יָרָבְעָ֔ם וּלְהַכְחִ֥יד וּלְהַשְׁמִ֖יד מֵעַ֥ל פְּנֵ֥י הָאֲדָמָֽה׃",
+      "text_kjv": "And this thing became sin unto the house of Jeroboam, even to cut it off, and to destroy it from off the face of the earth.",
+      "rendering": "This became the sin of the house of Jeroboam — the sin that led to its being cut off and wiped out from the face of the earth.",
+      "translator_notes": [
+        "The final verse delivers the narrator's sweeping judgment: this policy of illegitimate priesthood became the chattat beit Yarov'am ('the sin of the house of Jeroboam'). The infinitives ulhakkhid ulhashmid ('to cut off and to destroy') use two verbs of total elimination. The phrase me'al penei ha-adamah ('from upon the face of the ground') echoes the language of the flood narrative (Genesis 6:7, 7:4) — complete eradication. This verdict will be executed in chapter 15 when Baasha destroys Jeroboam's entire line."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חַטָּאת",
+          "transliteration": "chattat",
+          "rendered_as": "sin",
+          "semantic_range": "sin, sin-offering, fault, offense, missing the mark",
+          "note": "chattat derives from the root chata ('to miss the mark, to go wrong'). In Kings, 'the sin of Jeroboam' becomes a fixed formula — virtually every subsequent king of Israel is evaluated against this benchmark. The sin is specifically the golden calves and the non-Levitical priesthood at Bethel and Dan."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

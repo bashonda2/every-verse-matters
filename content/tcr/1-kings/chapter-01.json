@@ -1,0 +1,635 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Kings",
+    "chapter": 1,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "King David is old and failing. While his servants provide a young woman named Abishag to attend him, his son Adonijah launches a bid for the throne, gathering military and priestly allies. The prophet Nathan devises a counter-strategy with Bathsheba, David's wife, and together they remind the aging king of his oath to make Solomon his successor. David acts decisively: he orders Solomon anointed at the Gihon spring. The trumpet sounds, the people erupt in celebration, and Adonijah's feast collapses in panic. The chapter ends with Adonijah clinging to the altar horns for sanctuary and Solomon granting him a conditional pardon.",
+    "remarkable": "This is one of the most politically sophisticated narratives in the Hebrew Bible — a succession crisis told entirely through dialogue, positioning, and symbolic action. No divine oracle drives the plot; no angel intervenes. God is mentioned but does not speak. The transfer of power depends entirely on human agency: Nathan's political cunning, Bathsheba's rhetorical skill before the king, and David's capacity to issue commands even from his deathbed. The literary structure mirrors the political struggle: Adonijah's feast at the Stone of Zoheleth is set against Solomon's anointing at the Gihon spring, two rival ceremonies happening almost simultaneously. The narrator never explicitly condemns Adonijah or endorses Solomon — instead, he lets the reader see who has the king's word and who does not. The detail that David 'did not know' Abishag (verse 4) does double duty: it signals his physical decline and, by echoing the sexual language of the Hebrew Bible's power narratives, announces that the era of David's virility — and therefore his kingship — is effectively over.",
+    "friction": "Verse 4 presents a translation challenge with the phrase vehammelekh lo yeda'ah ('and the king did not know her'). The verb yada ('to know') carries both its ordinary cognitive sense and its sexual sense throughout the Hebrew Bible. We render it transparently as 'was not intimate with her,' since the entire passage is establishing David's physical decline. The oath David swore to Bathsheba about Solomon (referenced in verses 13, 17, 30) is never recorded in 2 Samuel — either a source has been lost, the oath was private, or it is a diplomatic fiction crafted by Nathan. The text presents it as genuine and David confirms it, so we translate accordingly without resolving the historical question. The verb hithnasse in verse 5 (Adonijah 'exalting himself') uses the hitpael form of nasa, which implies self-promotion — he is lifting himself up rather than being elevated by others or by God. This reflexive form is critical to the narrator's characterization and we preserve it with 'was promoting himself.'",
+    "connections": "The opening phrase vehammelekh David zaqen ('and King David was old') echoes the aging of earlier patriarchs — Abraham (Genesis 24:1), Isaac (Genesis 27:1), and Joshua (Joshua 23:1) — where advanced age triggers succession crises. Adonijah's self-promotion deliberately mirrors Absalom's earlier coup (2 Samuel 15:1-6): the same chariots, runners, and handsome appearance. The narrator expects the reader to see the parallel and recognize Adonijah as repeating a failed pattern. Solomon's anointing at the Gihon spring connects Israel's royal succession to a water source — recalling how living water symbolizes divine blessing throughout the Hebrew Bible. The horn of oil (qeren hashamen) used to anoint Solomon from the tabernacle (verse 39) links his kingship to sacred rather than merely political authority, tying back to Samuel's anointing of both Saul (1 Samuel 10:1) and David (1 Samuel 16:13). Adonijah's flight to the altar horns (verse 50) invokes the asylum law of Exodus 21:13-14, where the altar protects the accidental killer but not the murderer — his claim to sanctuary is implicitly a claim of innocence."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וְהַמֶּ֤לֶךְ דָּוִד֙ זָקֵ֔ן בָּ֖א בַּיָּמִ֑ים וַיְכַסֻּ֙הוּ֙ בַּבְּגָדִ֔ים וְלֹ֥א יִחַ֖ם לֽוֹ׃",
+      "text_kjv": "Now king David was old and stricken in years; and they covered him with clothes, but he gat no heat.",
+      "rendering": "King David was old, advanced in years. They would cover him with garments, but he could not get warm.",
+      "translator_notes": [
+        "The phrase zaqen ba bayyamim ('old, come into the days') is the standard Hebrew idiom for advanced age — literally 'entering into his days,' meaning he had arrived at the full measure of his allotted time. The identical phrase describes Abraham in Genesis 24:1, creating a deliberate echo: both patriarchs face succession crises in their final days.",
+        "The inability to retain warmth (velo yicham lo, 'and it was not warm to him') is presented as a medical fact, not a metaphor. The verb chamam ('to be warm') in the qal imperfect indicates an ongoing, unresolvable condition. The servants' solution in the next verses — a young woman to provide body heat — was a recognized medical practice in the ancient Near East, attested in Greek and Roman sources as well."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיֹּ֧אמְרוּ ל֣וֹ עֲבָדָ֗יו יְבַקְשׁ֞וּ לַאדֹנִ֤י הַמֶּ֙לֶךְ֙ נַעֲרָ֣ה בְתוּלָ֔ה וְעָֽמְדָה֙ לִפְנֵ֣י הַמֶּ֔לֶךְ וּתְהִי־ל֖וֹ סֹכֶ֑נֶת וְשָׁכְבָ֣ה בְחֵיקֶ֔ךָ וְחַ֖ם לַאדֹנִ֥י הַמֶּֽלֶךְ׃",
+      "text_kjv": "Wherefore his servants said unto him, Let there be sought for my lord the king a young virgin: and let her stand before the king, and let her be a cherisher to him, and let her lie in thy bosom, that my lord the king may get heat.",
+      "rendering": "So his servants said to him, \"Let them search for a young woman, a virgin, for my lord the king. She will attend the king and be his caretaker. She will lie close to you so that my lord the king may be warm.\"",
+      "translator_notes": [
+        "The word sokhenet ('caretaker, nurse') is rare in the Hebrew Bible — this is its only occurrence. It derives from the root sakan ('to be of service, to attend to'), related to the Akkadian shakanu. The term implies intimate personal care beyond mere domestic service. The servants' proposal is framed with formal court language — adoni hammelekh ('my lord the king') — but shifts to second person (becheiqekha, 'in your bosom') when describing the physical arrangement, creating an awkward intimacy within diplomatic formality.",
+        "The word betulah ('virgin') specifies not merely a young woman but one who has not been sexually active. In the context of royal politics, a virgin attendant cannot be accused of prior allegiance to another household — she enters the king's service without complicating alliances."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיְבַקְשׁוּ֙ נַעֲרָ֣ה יָפָ֔ה בְּכֹ֖ל גְּב֣וּל יִשְׂרָאֵ֑ל וַֽיִּמְצְא֗וּ אֶת־אֲבִישַׁ֙ג הַשּׁוּנַמִּ֔ית וַיָּבִ֥אוּ אֹתָ֖הּ לַמֶּֽלֶךְ׃",
+      "text_kjv": "So they sought for a fair damsel throughout all the coasts of Israel, and found Abishag a Shunammite, and brought her to the king.",
+      "rendering": "They searched for a beautiful young woman throughout the entire territory of Israel, and they found Abishag the Shunammite and brought her to the king.",
+      "translator_notes": [
+        "The search covers bekhol gevul Yisrael ('throughout every border of Israel'), indicating a kingdom-wide effort — this is not a casual selection but a deliberate search across the realm. The verb baqash ('to seek, to search for') implies purposeful, sustained effort.",
+        "Abishag is identified as haShunammit ('the Shunammite'), from Shunem in the Jezreel Valley — the same town where Elisha will later stay with a prominent woman (2 Kings 4:8-37). The name Avishag may derive from avi ('my father') and shagah ('to wander, to err'), though the etymology is uncertain. Shunem was a fertile, prosperous town in the Issachar territory, and her selection from there suggests both beauty and status."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְהַֽנַּעֲרָ֖ה יָפָ֣ה עַד־מְאֹ֑ד וַתְּהִ֨י לַמֶּ֤לֶךְ סֹכֶ֙נֶת֙ וַתְּשָׁ֣רְתֵ֔הוּ וְהַמֶּ֖לֶךְ לֹ֥א יְדָעָֽהּ׃",
+      "text_kjv": "And the damsel was very fair, and cherished the king, and ministered to him: but the king knew her not.",
+      "rendering": "The young woman was extraordinarily beautiful. She became the king's caretaker and served him, but the king was not intimate with her.",
+      "translator_notes": [
+        "The phrase yafah ad me'od ('beautiful to the extreme') intensifies beyond ordinary attractiveness. The narrator establishes Abishag's exceptional beauty precisely to underscore the significance of what follows: vehammelekh lo yeda'ah ('and the king did not know her'). The verb yada ('to know') in its sexual sense appears throughout the Hebrew Bible's narratives of power and intimacy (Genesis 4:1, Genesis 19:5, Judges 19:25). David's failure to 'know' Abishag is the narrator's verdict on his physical capacity — the man whose sexual vigor drove some of the most consequential episodes in 2 Samuel can no longer function as a man. The political implication is immediate: a king who cannot 'know' cannot generate heirs, and therefore cannot secure succession by natural means.",
+        "The verb vattesharethu ('and she served him') uses the same root (sharat) applied to Samuel's temple service and Joshua's service to Moses — dignified ministerial attendance, not menial labor."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַאֲדֹנִיָּ֧ה בֶן־חַגִּ֛ית מִתְנַשֵּׂ֥א לֵאמֹ֖ר אֲנִ֣י אֶמְלֹ֑ךְ וַיַּ֣עַשׂ ל֗וֹ רֶ֚כֶב וּפָ֣רָשִׁ֔ים וַחֲמִשִּׁ֥ים אִ֖ישׁ רָצִ֥ים לְפָנָֽיו׃",
+      "text_kjv": "Then Adonijah the son of Haggith exalted himself, saying, I will be king: and he prepared him chariots and horsemen, and fifty men to run before him.",
+      "rendering": "Now Adonijah son of Haggith was promoting himself, saying, \"I will be king.\" He acquired chariots and cavalry for himself, along with fifty men to run ahead of him.",
+      "translator_notes": [
+        "The hitpael verb mithnasse ('exalting himself, promoting himself') is reflexive — Adonijah is elevating himself rather than being elevated by God, by the king, or by the people. The form is a participle indicating ongoing, sustained self-promotion rather than a single act of ambition. The declaration ani emlokh ('I myself will reign') places the pronoun ani emphatically at the front — 'I — I will be king.'",
+        "The apparatus of chariots, cavalry, and fifty runners directly mirrors Absalom's earlier self-promotion in 2 Samuel 15:1. The narrator expects the reader to recognize the parallel: another handsome son of David seizes royal trappings without royal authorization. The fifty runners (chamishim ish ratsim lefanav) served as a visible display of royal pretension — a human escort that announced to everyone in Jerusalem that Adonijah considered himself the heir apparent."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְלֹֽא־עֲצָב֨וֹ אָבִ֤יו מִיָּמָיו֙ לֵאמֹ֔ר מַדּ֖וּעַ כָּ֣כָה עָשִׂ֑יתָ וְגַם־ה֤וּא טֽוֹב־תֹּ֙אַר֙ מְאֹ֔ד וְאֹת֥וֹ יָלְדָ֖ה אַחֲרֵ֥י אַבְשָׁלֽוֹם׃",
+      "text_kjv": "And his father had not displeased him at any time in saying, Why hast thou done so? and he also was a very goodly man; and his mother bare him after Absalom.",
+      "rendering": "His father had never once challenged him by asking, \"Why have you done this?\" He was also very handsome in appearance, and his mother had borne him after Absalom.",
+      "translator_notes": [
+        "The verb atsavo ('grieved him, pained him, corrected him') reveals David's parental failure — he had never caused Adonijah discomfort by questioning his behavior. The phrase lo atsavo aviv miyyamav ('his father had not grieved him from his days') indicates a lifelong pattern of indulgence, not a single oversight. The phrase miyyamav ('from his days') means 'ever in his life.' David's inability to discipline his sons is a recurring theme — he could not confront Amnon after the rape of Tamar (2 Samuel 13:21) and could not bring himself to punish Absalom.",
+        "The note that Adonijah was tov to'ar me'od ('very good of form/appearance') uses the same language applied to David himself (1 Samuel 16:12) and to Absalom (2 Samuel 14:25). The narrator is drawing a visual line: handsome sons of David who presume on their appearance and position. The chronological detail that Haggith bore him acharei Avshalom ('after Absalom') means Adonijah was the next surviving son in the birth order after Absalom's death — making his claim to the throne plausible by primogeniture."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיִּהְי֣וּ דְבָרָ֔יו עִ֚ם יוֹאָ֣ב בֶּן־צְרוּיָ֔ה וְעִ֖ם אֶבְיָתָ֣ר הַכֹּהֵ֑ן וַֽיַּעְזְר֔וּ אַחֲרֵ֖י אֲדֹנִיָּֽה׃",
+      "text_kjv": "And he conferred with Joab the son of Zeruiah, and with Abiathar the priest: and they following Adonijah helped him.",
+      "rendering": "He conferred with Joab son of Zeruiah and with Abiathar the priest, and they threw their support behind Adonijah.",
+      "translator_notes": [
+        "The phrase vayyihyu devarav im ('his words were with') indicates sustained political consultation, not a single conversation. Joab, David's longtime military commander, and Abiathar, one of the two chief priests, represent the old guard of David's administration. Their support gives Adonijah both military and religious legitimacy — the sword and the altar.",
+        "The verb vayyazru ('and they helped') combined with acharei Adoniyyah ('after/behind Adonijah') means they actively assisted and followed his cause. The preposition acharei ('after, behind') implies political allegiance — walking behind a leader as his supporters. Abiathar's choice here is fateful: the priest who survived the massacre at Nob (1 Samuel 22) and served David through decades of crisis now backs the wrong son. His removal from the priesthood under Solomon (1 Kings 2:26-27) will fulfill the word against Eli's house."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְצָד֣וֹק הַ֠כֹּהֵ֠ן וּבְנָיָ֨הוּ בֶן־יְהוֹיָדָ֜ע וְנָתָ֤ן הַנָּבִיא֙ וְשִׁמְעִ֣י וְרֵעִ֔י וְהַגִּבּוֹרִ֖ים אֲשֶׁ֣ר לְדָוִ֑ד לֹ֥א הָי֖וּ עִם־אֲדֹנִיָּֽהוּ׃",
+      "text_kjv": "But Zadok the priest, and Benaiah the son of Jehoiada, and Nathan the prophet, and Shimei, and Rei, and the mighty men which belonged to David, were not with Adonijah.",
+      "rendering": "But Zadok the priest, Benaiah son of Jehoiada, Nathan the prophet, Shimei, Rei, and the warriors who belonged to David were not with Adonijah.",
+      "translator_notes": [
+        "The list of those who did not support Adonijah reads as a counter-establishment: Zadok (the other chief priest), Benaiah (commander of David's personal guard, the Kerethites and Pelethites), Nathan (the court prophet), and David's elite warriors (haggiborim). The division is sharp — old guard versus inner circle, with the professional military and the prophetic voice staying loyal to David.",
+        "The phrase lo hayu im Adoniyyahu ('were not with Adonijah') is understated but decisive. In Hebrew political narrative, being 'with' (im) someone means active alliance. Not being 'with' Adonijah means they either opposed him or remained loyal to David's unrevealed choice. The narrator is mapping the political geography before the crisis erupts."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיִּזְבַּ֣ח אֲדֹנִיָּ֗הוּ צֹ֤אן וּבָקָר֙ וּמְרִ֔יא עִ֚ם אֶ֣בֶן הַזֹּחֶ֔לֶת אֲשֶׁר־אֵ֖צֶל עֵ֣ין רֹגֵ֑ל וַיִּקְרָ֗א אֶת־כׇּל־אֶחָיו֙ בְּנֵ֣י הַמֶּ֔לֶךְ וּלְכׇל־אַנְשֵׁ֥י יְהוּדָ֖ה עַבְדֵ֥י הַמֶּֽלֶךְ׃",
+      "text_kjv": "And Adonijah slew sheep and oxen and fat cattle by the stone of Zoheleth, which is by Enrogel, and called all his brethren the king's sons, and all the men of Judah the king's servants:",
+      "rendering": "Adonijah slaughtered sheep, cattle, and fattened animals at the Stone of Zoheleth, which is beside En-rogel. He invited all his brothers — the king's sons — and all the men of Judah who served the king.",
+      "translator_notes": [
+        "The sacrificial feast at Even haZzochelet ('the Stone of Zoheleth/the Serpent Stone') beside Ein Rogel ('the Fuller's Spring') serves as Adonijah's coronation banquet — a public ceremony designed to create political facts on the ground before David can act. The location is just south of Jerusalem in the Kidron Valley, outside the city but within view of it.",
+        "The name Zochelet may derive from zachal ('to creep, to crawl') — hence 'Serpent Stone' or 'Sliding Stone.' The term meri ('fattened animal') refers to grain-fed livestock reserved for significant occasions. The scale of the sacrifice — sheep, cattle, and fattened animals — signals a royal feast, not a private dinner. Adonijah invites kol echav benei hammelekh ('all his brothers, the sons of the king'), meaning every prince except Solomon, whose exclusion is deliberate and noted in verse 10."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְֽאֶת־נָתָ֤ן הַנָּבִיא֙ וּבְנָיָ֔הוּ וְאֶת־הַגִּבּוֹרִ֖ים וְאֶת־שְׁלֹמֹ֣ה אָחִ֑יו לֹ֖א קָרָֽא׃",
+      "text_kjv": "But Nathan the prophet, and Benaiah, and the mighty men, and Solomon his brother, he called not.",
+      "rendering": "But he did not invite Nathan the prophet, or Benaiah, or the warriors, or his brother Solomon.",
+      "translator_notes": [
+        "The list of those excluded mirrors the list of non-supporters in verse 8. Adonijah's guest list is his political map — he invites only those already aligned with him and deliberately excludes anyone who might object. The exclusion of Solomon (Shelomoh achiv, 'Solomon his brother') is placed last in the list for emphasis, confirming that Adonijah knows exactly who his rival is. The verb qara ('to call, to invite') in the negative (lo qara) makes the exclusion an active, deliberate choice."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיֹּ֣אמֶר נָתָ֗ן אֶל־בַּת־שֶׁ֤בַע אֵם־שְׁלֹמֹה֙ לֵאמֹ֔ר הֲל֣וֹא שָׁמַ֔עַתְּ כִּ֥י מָלַ֖ךְ אֲדֹנִיָּ֣הוּ בֶן־חַגִּ֑ית וַאֲדֹנֵ֥ינוּ דָוִ֖ד לֹ֥א יָדָֽע׃",
+      "text_kjv": "Wherefore Nathan spake unto Bathsheba the mother of Solomon, saying, Hast thou not heard that Adonijah the son of Haggith doth reign, and David our lord knoweth it not?",
+      "rendering": "Nathan said to Bathsheba, Solomon's mother, \"Have you not heard that Adonijah son of Haggith has made himself king? And our lord David does not know about it.\"",
+      "translator_notes": [
+        "Nathan's approach to Bathsheba rather than directly to David reveals his political sophistication. He needs an intermediary who has personal stakes in the outcome — Bathsheba's life and her son's life depend on which prince takes the throne. The verb malakh ('has become king, has reigned') is stated as accomplished fact, though Adonijah has not been formally crowned. Nathan is framing the situation with maximum urgency.",
+        "The phrase va'adonenu David lo yada ('and our lord David does not know') uses the same verb yada from verse 4. David who 'did not know' Abishag also 'does not know' about the coup — his ignorance is both physical and political. Nathan's use of adonenu ('our lord') maintains formal loyalty to David even while revealing the crisis."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְעַתָּ֕ה לְכִ֛י אִיעָצֵ֥ךְ נָ֖א עֵצָ֑ה וּמַלְּטִ֣י אֶת־נַפְשֵׁ֔ךְ וְאֶת־נֶ֥פֶשׁ בְּנֵ֖ךְ שְׁלֹמֹֽה׃",
+      "text_kjv": "Now therefore come, let me, I pray thee, give thee counsel, that thou mayest save thine own life, and the life of thy son Solomon.",
+      "rendering": "Now then, come — let me advise you so that you can save your own life and the life of your son Solomon.\"",
+      "translator_notes": [
+        "Nathan's words umalleti et nafshekh ve'et nefesh benekh Shelomoh ('save your life and the life of your son Solomon') make explicit what is at stake: succession disputes in the ancient Near East routinely ended with the losing faction being executed. If Adonijah consolidates power, Bathsheba and Solomon are dead. The verb malat ('to escape, to save, to deliver') in the piel imperative conveys urgent action — escape from lethal danger.",
+        "The noun etsah ('counsel, advice') and verb i'atsekh ('let me counsel you') frame Nathan's role as royal counselor even as he orchestrates a political intervention. His plan unfolds across verses 13-14 with careful staging."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "לְכִ֞י וּבֹ֣אִי ׀ אֶל־הַמֶּ֣לֶךְ דָּוִ֗ד וְאָמַ֤רְתְּ אֵלָיו֙ הֲלֹֽא־אַתָּ֞ה אֲדֹנִ֣י הַמֶּ֗לֶךְ נִשְׁבַּ֤עְתָּ לַאֲמָֽתְךָ֙ לֵאמֹ֔ר כִּֽי־שְׁלֹמֹ֤ה בְנֵךְ֙ יִמְלֹ֣ךְ אַחֲרַ֔י וְה֖וּא יֵשֵׁ֣ב עַל־כִּסְאִ֑י וּמַדּ֖וּעַ מָלַ֥ךְ אֲדֹנִיָּֽהוּ׃",
+      "text_kjv": "Go and get thee in unto king David, and say unto him, Didst not thou, my lord, O king, swear unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne? why then doth Adonijah reign?",
+      "rendering": "Go and enter King David's presence and say to him, 'Did you not, my lord the king, swear to your servant woman, saying: Your son Solomon will reign after me — he will sit on my throne? Why then has Adonijah become king?'",
+      "translator_notes": [
+        "Nathan scripts Bathsheba's speech with precision. The oath formula — ki Shelomoh venekh yimlokh acharai vehu yeshev al kis'i ('surely Solomon your son will reign after me and he will sit on my throne') — emphasizes both succession (acharai, 'after me') and the physical seat of power (kis'i, 'my throne'). Whether this oath was actually sworn is a matter of scholarly debate, but Nathan's strategy depends on David affirming it.",
+        "Bathsheba is instructed to identify herself as amatekha ('your servant woman'), a term of formal self-deprecation before royalty. The rhetorical structure moves from the oath (what David promised) to the crisis (maddu'a malakh Adoniyyahu, 'why has Adonijah become king?'), forcing David to reconcile his word with the present reality."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "הִנֵּ֗ה עוֹדָ֛ךְ מְדַבֶּ֥רֶת שָׁ֖ם עִם־הַמֶּ֑לֶךְ וַאֲנִ֤י אָבוֹא֙ אַחֲרַ֔יִךְ וּמִלֵּאתִ֖י אֶת־דְּבָרָֽיִךְ׃",
+      "text_kjv": "Behold, while thou yet talkest there with the king, I also will come in after thee, and confirm thy words.",
+      "rendering": "While you are still speaking there with the king, I will come in after you and confirm your words.\"",
+      "translator_notes": [
+        "Nathan's plan involves precise timing — Bathsheba speaks first, then Nathan enters as an apparently independent witness to confirm her account. The verb mille'ti ('I will fill up, I will complete') literally means 'to fill' — Nathan will fill out or complete Bathsheba's words, adding his prophetic authority to her personal appeal. The staging creates the appearance of two independent testimonies converging, following the legal principle that a matter is established by two witnesses (Deuteronomy 19:15)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַתָּבֹ֨א בַת־שֶׁ֤בַע אֶל־הַמֶּ֙לֶךְ֙ הַחַ֔דְרָה וְהַמֶּ֖לֶךְ זָקֵ֣ן מְאֹ֑ד וַאֲבִישַׁ֙ג הַשּׁוּנַמִּ֔ית מְשָׁרַ֖ת אֶת־הַמֶּֽלֶךְ׃",
+      "text_kjv": "And Bathsheba went in unto the king into the chamber: and the king was very old; and Abishag the Shunammite ministered unto the king.",
+      "rendering": "Bathsheba went in to the king in his private chamber. The king was very old, and Abishag the Shunammite was attending to the king.",
+      "translator_notes": [
+        "The word hachadrah ('into the chamber, into the inner room') specifies that this audience occurs in David's private quarters, not in a public throne room. The narrator reminds us again that hammelekh zaqen me'od ('the king was very old'), framing every decision David makes in this chapter against his physical frailty. Abishag's presence as mesharrat ('attending, serving') reminds the reader of the opening scene and David's diminished state. Bathsheba enters the room of an aged, bedridden king attended by a young woman — the visual contrast underscores the urgency of her mission."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַתִּקֹּ֣ד בַּת־שֶׁ֔בַע וַתִּשְׁתַּ֖חוּ לַמֶּ֑לֶךְ וַיֹּ֥אמֶר הַמֶּ֖לֶךְ מַה־לָּֽךְ׃",
+      "text_kjv": "And Bathsheba bowed, and did obeisance unto the king. And the king said, What wouldest thou?",
+      "rendering": "Bathsheba knelt and bowed low before the king. The king said, \"What do you want?\"",
+      "translator_notes": [
+        "Two verbs describe Bathsheba's obeisance: vattiqod ('she knelt, she bowed her head') and vatttishtachu ('she prostrated herself'). The double gesture — kneeling followed by full prostration — is the complete court protocol for approaching the king. David's response mah lakh ('what is to you?' / 'what do you want?') is terse and direct, the question of an old king who does not waste words."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַתֹּ֣אמֶר ל֗וֹ אֲדֹנִי֙ אַתָּ֨ה נִשְׁבַּ֜עְתָּ בַּיהוָ֤ה אֱלֹהֶ֙יךָ֙ לַאֲמָתֶ֔ךָ כִּֽי־שְׁלֹמֹ֤ה בְנֵךְ֙ יִמְלֹ֣ךְ אַחֲרַ֔י וְה֖וּא יֵשֵׁ֣ב עַל־כִּסְאִֽי׃",
+      "text_kjv": "And she said unto him, My lord, thou swarest by the LORD thy God unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne.",
+      "rendering": "She said to him, \"My lord, you swore by the LORD your God to your servant woman: 'Your son Solomon will reign after me — he will sit on my throne.'",
+      "translator_notes": [
+        "Bathsheba follows Nathan's script closely but adds a significant element: she specifies that David swore ba-YHWH Elohekha ('by the LORD your God'), invoking the divine name as guarantor of the oath. This raises the stakes — breaking such an oath would be a violation not only of a promise to Bathsheba but of a vow sworn by God's name. Whether Nathan instructed this addition or Bathsheba supplied it herself, the rhetorical effect is to make David's oath irrevocable."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְעַתָּ֕ה הִנֵּ֥ה אֲדֹנִיָּ֖ה מָלָ֑ךְ וְעַתָּ֛ה אֲדֹנִ֥י הַמֶּ֖לֶךְ לֹ֥א יָדָֽעְתָּ׃",
+      "text_kjv": "And now, behold, Adonijah reigneth; and now, my lord the king, thou knowest it not.",
+      "rendering": "But now — Adonijah has made himself king! And now, my lord the king, you did not know about it.",
+      "translator_notes": [
+        "The repeated ve'attah ('and now') creates rhetorical urgency — the oath was then, but the crisis is now. The statement Adoniyyah malakh ('Adonijah has become king / reigns') is presented as accomplished fact. Bathsheba's accusation is gentle but devastating: ve'attah adoni hammelekh lo yada'ta ('and now, my lord the king, you did not know'). The verb yada again — David did not 'know' Abishag (v4), did not 'know' about the coup (v11), and Bathsheba now confronts him with his ignorance directly. The repetition of lo yada ('did not know') throughout the chapter's opening creates a portrait of a king who has lost awareness of everything happening around him."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַ֠יִּזְבַּ֠ח שׁ֥וֹר וּמְרִֽיא־וְצֹ֖אן לָרֹ֑ב וַיִּקְרָא֙ לְכׇל־בְּנֵ֣י הַמֶּ֔לֶךְ וּלְאֶבְיָתָר֙ הַכֹּהֵ֔ן וּלְיֹאָ֖ב שַׂ֣ר הַצָּבָ֑א וְלִשְׁלֹמֹ֥ה עַבְדְּךָ֖ לֹ֥א קָרָֽא׃",
+      "text_kjv": "And he hath slain oxen and fat cattle and sheep in abundance, and hath called all the sons of the king, and Abiathar the priest, and Joab the captain of the host: but Solomon thy servant hath he not called.",
+      "rendering": "He has slaughtered oxen, fattened cattle, and sheep in abundance. He has invited all the king's sons, and Abiathar the priest, and Joab the commander of the army. But your servant Solomon — he did not invite.",
+      "translator_notes": [
+        "Bathsheba reframes the information from verses 9-10 for David, adding her own emphasis. She calls Joab sar hatsava ('commander of the army'), highlighting the military dimension of the conspiracy. She places Solomon last and calls him avdekha ('your servant'), subtly reinforcing Solomon's loyalty to David in contrast to Adonijah's self-serving ambition. The final clause — veli-Shelomoh avdekha lo qara ('but Solomon your servant he did not invite') — isolates Solomon's exclusion for maximum rhetorical impact."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאַתָּה֙ אֲדֹנִ֣י הַמֶּ֔לֶךְ עֵינֵ֥י כׇל־יִשְׂרָאֵ֖ל עָלֶ֑יךָ לְהַגִּ֣יד לָהֶ֔ם מִ֗י יֵשֵׁ֛ב עַל־כִּסֵּ֥א אֲדֹנִֽי־הַמֶּ֖לֶךְ אַחֲרָֽיו׃",
+      "text_kjv": "And thou, my lord, O king, the eyes of all Israel are upon thee, that thou shouldest tell them who shall sit on the throne of my lord the king after him.",
+      "rendering": "And you, my lord the king — the eyes of all Israel are on you, waiting for you to declare who will sit on the throne of my lord the king after him.",
+      "translator_notes": [
+        "Bathsheba shifts from reporting the crisis to assigning David his responsibility. The phrase einei khol Yisrael alekha ('the eyes of all Israel are upon you') is a powerful image of national expectation focused on one man. The infinitive lehagid ('to declare, to tell') makes clear that what Israel needs is a public, authoritative declaration from the king. Bathsheba is telling David that his silence has created a vacuum that Adonijah is filling. The phrase acharav ('after him') at the end refers to David's own death, a reality Bathsheba addresses directly."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְהָיָ֗ה כִּשְׁכַ֤ב אֲדֹנִֽי־הַמֶּ֙לֶךְ֙ עִם־אֲבֹתָ֔יו וְהָיִ֗יתִי אֲנִ֛י וּבְנִ֥י שְׁלֹמֹ֖ה חַטָּאִֽים׃",
+      "text_kjv": "Otherwise it shall come to pass, when my lord the king shall sleep with his fathers, that I and my son Solomon shall be counted offenders.",
+      "rendering": "Otherwise, when my lord the king lies down with his ancestors, I and my son Solomon will be treated as criminals.\"",
+      "translator_notes": [
+        "Bathsheba concludes with the ultimate stakes: ki-shkhav adoni hammelekh im avotav ('when my lord the king lies down with his fathers') is the standard euphemism for death. The word chatta'im ('sinners, offenders, criminals') does not mean they will be considered morally guilty but rather politically marked — in a new regime under Adonijah, Bathsheba and Solomon would be classified as enemies of the state and eliminated. The term carries both its moral sense ('sinners') and its political sense ('offenders against the crown'). Bathsheba's speech is a masterpiece of persuasion: she moves from oath to crisis to responsibility to personal danger in four verses."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְהִנֵּ֛ה עוֹדֶ֥נָּה מְדַבֶּ֖רֶת עִם־הַמֶּ֑לֶךְ וְנָתָ֥ן הַנָּבִ֖יא בָּֽא׃",
+      "text_kjv": "And, lo, while she yet talked with the king, Nathan the prophet also came in.",
+      "rendering": "While she was still speaking with the king, Nathan the prophet arrived.",
+      "translator_notes": [
+        "The timing is precise — odennah medabberet ('while she was still speaking') — Nathan enters exactly as planned (verse 14). The narrator records the choreography without comment, letting the reader see the coordination. The phrase navi ('prophet') attached to Nathan's name at this moment is significant: he enters not merely as a courtier but in his prophetic capacity, adding divine authority to the political intervention."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיַּגִּ֤ידוּ לַמֶּ֙לֶךְ֙ לֵאמֹ֔ר הִנֵּ֖ה נָתָ֣ן הַנָּבִ֑יא וַיָּבֹא֙ לִפְנֵ֣י הַמֶּ֔לֶךְ וַיִּשְׁתַּ֧חוּ לַמֶּ֛לֶךְ עַל־אַפָּ֖יו אָֽרְצָה׃",
+      "text_kjv": "And they told the king, saying, Behold Nathan the prophet. And when he was come in before the king, he bowed himself before the king with his face to the ground.",
+      "rendering": "They announced to the king, \"Nathan the prophet is here.\" He came before the king and prostrated himself with his face to the ground.",
+      "translator_notes": [
+        "Nathan is formally announced — vayyagidu lammelekh ('they told the king') — indicating that even in David's diminished state, court protocol is observed. Nathan then performs the full prostration: vayyishtachu lammelekh al appav artsah ('he bowed to the king upon his face to the ground'). The phrase al appav ('upon his face/nose') emphasizes complete submission — Nathan, despite being a prophet who once confronted David about Uriah (2 Samuel 12), approaches now in full deference."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיֹּ֣אמֶר נָתָ֔ן אֲדֹנִ֣י הַמֶּ֔לֶךְ אַתָּ֣ה אָמַ֔רְתָּ אֲדֹנִיָּ֖ה יִמְלֹ֣ךְ אַחֲרָ֑י וְה֖וּא יֵשֵׁ֥ב עַל־כִּסְאִֽי׃",
+      "text_kjv": "And Nathan said, My lord, O king, hast thou said, Adonijah shall reign after me, and he shall sit upon my throne?",
+      "rendering": "Nathan said, \"My lord the king, did you declare, 'Adonijah will reign after me — he will sit on my throne'?",
+      "translator_notes": [
+        "Nathan's opening question is a calculated provocation. Rather than asking 'Did you know about Adonijah?' — which might invite a simple no — he asks whether David authorized it: attah amarta ('you yourself said'). The pronoun attah ('you') is emphatic. Nathan forces David to either claim responsibility for Adonijah's coup or deny it, leaving no room for passivity. The phrase mirrors Bathsheba's oath formula (verse 17) but substitutes Adonijah for Solomon, making the implied question: which son did you actually choose?"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "כִּ֣י ׀ יָרַ֣ד הַיּ֗וֹם וַ֠יִּזְבַּ֠ח שׁ֥וֹר וּמְרִֽיא־וְצֹ֖אן לָרֹ֑ב וַיִּקְרָ֣א לְכׇל־בְּנֵ֣י הַ֠מֶּ֠לֶךְ וּלְשָׂרֵ֨י הַצָּבָ֜א וּלְאֶבְיָתָ֣ר הַכֹּהֵ֗ן וְהִנָּ֤ם אֹכְלִים֙ וְשֹׁתִ֣ים לְפָנָ֔יו וַיֹּ֣אמְר֔וּ יְחִ֖י הַמֶּ֥לֶךְ אֲדֹנִיָּֽהוּ׃",
+      "text_kjv": "For he is gone down this day, and hath slain oxen and fat cattle and sheep in abundance, and hath called all the king's sons, and the captains of the host, and Abiathar the priest; and, behold, they eat and drink before him, and say, God save king Adonijah.",
+      "rendering": "For today he went down and slaughtered oxen, fattened cattle, and sheep in abundance. He invited all the king's sons, the commanders of the army, and Abiathar the priest. Right now they are eating and drinking in his presence and shouting, 'Long live King Adonijah!'",
+      "translator_notes": [
+        "Nathan adds details Bathsheba did not mention: the military commanders (sarei hatsava, 'commanders of the army') are present, and the feast is actively underway. The clause vehinnam okhelim veshotim lefanav ('and look — they are eating and drinking before him') uses the participial form to indicate action happening right now, at this very moment. The acclamation yechi hammelekh Adoniyyahu ('may King Adonijah live!') is the royal acclamation — the same formula used for legitimate kings. Nathan is telling David that a coronation is happening while he lies in bed."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְלִ֣י אֲנִֽי־עַ֠בְדֶּ֠ךָ וּלְצָדֹ֨ק הַכֹּהֵ֜ן וְלִבְנָיָ֧הוּ בֶן־יְהוֹיָדָ֛ע וְלִשְׁלֹמֹ֥ה עַבְדְּךָ֖ לֹ֥א קָרָֽא׃",
+      "text_kjv": "But me, even me thy servant, and Zadok the priest, and Benaiah the son of Jehoiada, and thy servant Solomon, hath he not called.",
+      "rendering": "But me — your servant — and Zadok the priest, and Benaiah son of Jehoiada, and your servant Solomon, he did not invite.",
+      "translator_notes": [
+        "Nathan places himself first in the exclusion list with emphatic pronouns: veli ani avdekha ('and to me, I your servant'). He personalizes the snub — Adonijah excluded the prophet, the loyal priest, the guard commander, and the king's own chosen son. Like Bathsheba, Nathan calls Solomon avdekha ('your servant'), reinforcing Solomon's loyalty. The repeated lo qara ('he did not invite') hammers the point: Adonijah's feast is a factional gathering, not a national celebration."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "אִ֗ם מֵאֵ֞ת אֲדֹנִ֤י הַמֶּ֙לֶךְ֙ נִהְיָ֣ה הַדָּבָ֣ר הַזֶּ֔ה וְלֹ֥א הוֹדַ֖עְתָּ אֶֽת־עַבְדְּךָ֑ מִ֗י יֵשֵׁ֛ב עַל־כִּסֵּ֥א אֲדֹנִֽי־הַמֶּ֖לֶךְ אַחֲרָֽיו׃",
+      "text_kjv": "Is this thing done by my lord the king, and thou hast not shewed it unto thy servant, who should sit on the throne of my lord the king after him?",
+      "rendering": "If this matter was authorized by my lord the king, then you did not inform your servant who is to sit on the throne of my lord the king after him.\"",
+      "translator_notes": [
+        "Nathan's closing question is devastatingly effective. The conditional im ('if') sets up a lose-lose for inaction: if David authorized this, then he has failed to inform his most trusted advisors. If he did not, then a coup is underway. Either way, David must act. The verb hoda'ta ('you made known, you informed') is from the root yada — yet another occurrence of the 'knowing' theme. David who does not 'know' has also not made anything 'known.' Nathan concludes where Bathsheba began: mi yeshev al kisse adoni hammelekh acharav ('who will sit on the throne of my lord the king after him') — the succession question, still unanswered."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיַּ֤עַן הַמֶּ֙לֶךְ֙ דָּוִ֔ד וַיֹּ֕אמֶר קִרְאוּ־לִ֖י לְבַת־שָׁ֑בַע וַתָּבֹא֙ לִפְנֵ֣י הַמֶּ֔לֶךְ וַתַּעֲמֹ֖ד לִפְנֵ֥י הַמֶּֽלֶךְ׃",
+      "text_kjv": "Then king David answered and said, Call me Bathsheba. And she came into the king's presence, and stood before the king.",
+      "rendering": "King David responded and said, \"Call Bathsheba to me.\" She came into the king's presence and stood before the king.",
+      "translator_notes": [
+        "David's first action is to summon Bathsheba back — she had apparently withdrawn when Nathan entered (court protocol may have required her to leave during the prophet's audience). The verb vatta'amod ('and she stood') indicates formal attendance — Bathsheba stands before the king rather than prostrating again, suggesting the audience has shifted from petition to royal command. David is about to issue decrees."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיִּשָּׁבַ֥ע הַמֶּ֖לֶךְ וַיֹּאמַ֑ר חַי־יְהוָ֕ה אֲשֶׁר־פָּדָ֥ה אֶת־נַפְשִׁ֖י מִכׇּל־צָרָֽה׃",
+      "text_kjv": "And the king sware, and said, As the LORD liveth, that hath redeemed my soul out of all distress,",
+      "rendering": "The king swore an oath and said, \"As the LORD lives — who has redeemed my life from every distress —",
+      "translator_notes": [
+        "David's oath formula chai YHWH asher padah et nafshi mikkol tsarah ('as the LORD lives who has redeemed my life from all distress') is deeply personal. The verb padah ('to redeem, to ransom') is a covenant term for God's deliverance, and tsarah ('distress, trouble, adversity') encompasses everything from Saul's pursuit to Absalom's rebellion. David swears by the living God and by his own experience of divine rescue — this is not a formulaic oath but a summation of his entire life story compressed into one sentence."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "פָּדָה",
+          "transliteration": "padah",
+          "rendered_as": "redeemed",
+          "semantic_range": "to ransom, to redeem, to deliver, to rescue by payment",
+          "note": "A covenant-laden verb that implies God has paid a price or intervened decisively to rescue. When David uses padah of his own life, he acknowledges that every deliverance was God's active doing, not his own military or political skill."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "כִּ֡י כַּאֲשֶׁר֩ נִשְׁבַּ֨עְתִּי לָ֜ךְ בַּיהוָ֨ה אֱלֹהֵ֤י יִשְׂרָאֵל֙ לֵאמֹ֔ר כִּֽי־שְׁלֹמֹ֤ה בְנֵךְ֙ יִמְלֹ֣ךְ אַחֲרַ֔י וְה֛וּא יֵשֵׁ֥ב עַל־כִּסְאִ֖י תַּחְתָּ֑י כִּ֛י כֵּ֥ן אֶעֱשֶׂ֖ה הַיּ֥וֹם הַזֶּֽה׃",
+      "text_kjv": "Even as I sware unto thee by the LORD God of Israel, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne in my stead; even so will I certainly do this day.",
+      "rendering": "just as I swore to you by the LORD, the God of Israel, saying, 'Your son Solomon will reign after me — he will sit on my throne in my place' — so I will do this very day.\"",
+      "translator_notes": [
+        "David confirms the oath with full specificity: ba-YHWH Elohei Yisrael ('by the LORD, the God of Israel'). He adds a word Bathsheba did not use: tachtai ('in my place, instead of me'), explicitly naming Solomon as his replacement. The decisive phrase ki khen e'eseh hayyom hazzeh ('for so I will do this very day') transforms the oath from past commitment to present action. The word hayyom ('today') is urgent — not tomorrow, not after deliberation, but now. David's mental clarity in this moment stands in sharp contrast to his physical frailty."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַתִּקֹּ֨ד בַּת־שֶׁ֤בַע אַפַּ֙יִם֙ אֶ֔רֶץ וַתִּשְׁתַּ֖חוּ לַמֶּ֑לֶךְ וַתֹּ֕אמֶר יְחִ֗י אֲדֹנִ֛י הַמֶּ֥לֶךְ דָּוִ֖ד לְעֹלָֽם׃",
+      "text_kjv": "Then Bathsheba bowed with her face to the earth, and did reverence to the king, and said, Let my lord king David live for ever.",
+      "rendering": "Bathsheba bowed with her face to the ground and prostrated herself before the king. She said, \"May my lord King David live forever!\"",
+      "translator_notes": [
+        "Bathsheba's response yechi adoni hammelekh David le'olam ('may my lord King David live forever') is both formal gratitude and political acclamation — the same formula yechi ('may he live') that Adonijah's supporters are using for their candidate (verse 25), now directed at the legitimate king. The phrase le'olam ('forever') is conventional court language, not a literal claim of immortality, but in context it carries poignant irony: David is dying, and everyone in the room knows it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיֹּ֣אמֶר ׀ הַמֶּ֣לֶךְ דָּוִ֗ד קִרְאוּ־לִ֞י לְצָד֤וֹק הַכֹּהֵן֙ וּלְנָתָ֣ן הַנָּבִ֔יא וְלִבְנָיָ֖הוּ בֶּן־יְהוֹיָדָ֑ע וַיָּבֹ֖אוּ לִפְנֵ֥י הַמֶּֽלֶךְ׃",
+      "text_kjv": "And king David said, Call me Zadok the priest, and Nathan the prophet, and Benaiah the son of Jehoiada. And they came before the king.",
+      "rendering": "King David said, \"Summon Zadok the priest, Nathan the prophet, and Benaiah son of Jehoiada.\" They came before the king.",
+      "translator_notes": [
+        "David summons exactly the three men who were not with Adonijah (verse 8) — the loyal priest, the prophet, and the military commander. The verb qir'u ('call, summon') in the imperative plural is a royal command. The speed of their arrival (vayyavo'u lifnei hammelekh, 'and they came before the king') suggests they were already nearby, possibly waiting for this moment. David's cabinet for the counter-coup is the mirror image of Adonijah's faction: Zadok versus Abiathar, Benaiah versus Joab, Nathan versus no prophetic voice on Adonijah's side."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַיֹּ֨אמֶר הַמֶּ֜לֶךְ לָהֶ֗ם קְח֣וּ עִ֠מָּכֶ֠ם אֶת־עַבְדֵ֨י אֲדֹנֵיכֶ֜ם וְהִרְכַּבְתֶּ֣ם אֶת־שְׁלֹמֹ֤ה בְנִי֙ עַל־הַפִּרְדָּ֣ה אֲשֶׁר־לִ֔י וְהוֹרַדְתֶּ֥ם אֹת֖וֹ אֶל־גִּחֽוֹן׃",
+      "text_kjv": "The king also said unto them, Take with you the servants of your lord, and cause Solomon my son to ride upon mine own mule, and bring him down to Gihon:",
+      "rendering": "The king said to them, \"Take your lord's servants with you. Mount my son Solomon on my own mule and bring him down to the Gihon spring.",
+      "translator_notes": [
+        "David's command is specific and symbolic. The pirdah ('mule') belonging to the king was a royal mount — riding the king's own mule was a public declaration of chosen succession. The verb vehirkavtem ('and you shall cause to ride') is the hiphil of rakhav, meaning they are to place Solomon on the mule with ceremony. The destination Gichon is the spring on Jerusalem's eastern slope, the city's primary water source — choosing it as the anointing site rather than the temple area connects the ceremony to the life-giving waters of the city David himself conquered."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וּמָשַׁ֣ח אֹת֣וֹ שָׁ֠ם צָד֨וֹק הַכֹּהֵ֜ן וְנָתָ֧ן הַנָּבִ֛יא לְמֶ֖לֶךְ עַל־יִשְׂרָאֵ֑ל וּתְקַעְתֶּם֙ בַּשּׁוֹפָ֔ר וַאֲמַרְתֶּ֕ם יְחִ֖י הַמֶּ֥לֶךְ שְׁלֹמֹֽה׃",
+      "text_kjv": "And let Zadok the priest and Nathan the prophet anoint him there king over Israel: and blow ye with the trumpet, and say, God save king Solomon.",
+      "rendering": "There Zadok the priest and Nathan the prophet will anoint him as king over Israel. Then sound the trumpet and declare, 'Long live King Solomon!'",
+      "expanded_rendering": "The verb mashach ('to anoint') marks the sacred commissioning that transforms a private person into the LORD's designated ruler. Solomon's anointing by both priest and prophet — Zadok and Nathan together — is unique in Israel's history, combining sacral and prophetic authority in a single act that no rival ceremony can match.",
+      "translator_notes": [
+        "The verb umashach ('and he shall anoint') is the root from which mashiach ('anointed one, messiah') derives. Anointing with oil was the definitive act of royal installation — it set a man apart as God's chosen ruler, not merely as a political appointee. David specifies both Zadok the priest and Nathan the prophet as the anointing officials, combining sacerdotal and prophetic authority. This dual anointing is unprecedented: Saul was anointed by Samuel alone, David was anointed by Samuel alone, but Solomon receives the combined witness of both offices.",
+        "The shofar ('ram's horn trumpet') is the instrument of divine proclamation — used at Sinai (Exodus 19:16), in warfare, and at coronations. The acclamation yechi hammelekh Shelomoh ('long live King Solomon') directly counters the rival acclamation for Adonijah in verse 25."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָשַׁח",
+          "transliteration": "mashach",
+          "rendered_as": "anoint",
+          "semantic_range": "to smear, to anoint, to consecrate, to commission by oil",
+          "note": "The act of pouring oil on the head that constitutes royal or priestly installation. The root produces mashiach ('anointed one'), which carries forward into the messianic expectation. Solomon's anointing here establishes the Davidic line's claim to divinely sanctioned kingship."
+        },
+        {
+          "hebrew": "שׁוֹפָר",
+          "transliteration": "shofar",
+          "rendered_as": "trumpet",
+          "semantic_range": "ram's horn, trumpet, signal horn",
+          "note": "The curved ram's horn used for religious and military signaling. At a coronation, the shofar blast announces the new king's installation to the entire population — its sound carries across Jerusalem's valleys and cannot be ignored."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַעֲלִיתֶ֣ם אַחֲרָ֗יו וּבָא֙ וְיָשַׁ֣ב עַל־כִּסְאִ֔י וְה֥וּא יִמְלֹ֖ךְ תַּחְתָּ֑י וְאֹת֤וֹ צִוִּ֙יתִי֙ לִהְי֣וֹת נָגִ֔יד עַל־יִשְׂרָאֵ֖ל וְעַל־יְהוּדָֽה׃",
+      "text_kjv": "Then ye shall come up after him, that he may come and sit upon my throne; for he shall be king in my stead: and I have appointed him to be ruler over Israel and over Judah.",
+      "rendering": "Then you will come up after him, and he will come and sit on my throne. He will reign in my place, for I have appointed him to be leader over Israel and over Judah.\"",
+      "expanded_rendering": "The term nagid ('leader, designated ruler') is distinct from melekh ('king') — it carries the sense of one placed at the front by God's choosing rather than by human ambition. David's use of nagid for Solomon echoes the term God used when designating both Saul (1 Samuel 9:16) and David himself (1 Samuel 13:14), anchoring Solomon's appointment in the same divine pattern.",
+      "translator_notes": [
+        "David's instructions form a complete coronation sequence: ride the royal mule, anoint at the spring, sound the shofar, process back to the palace, take the throne. The verb veyashav al kis'i ('and he will sit on my throne') specifies the physical act of enthronement — the king's throne in Jerusalem. David uses two terms for Solomon's authority: yimlokh tachtai ('he will reign in my place') and nagid al Yisrael ve'al Yehudah ('leader over Israel and over Judah').",
+        "The term nagid is theologically loaded. Unlike melekh ('king'), which describes ruling authority, nagid implies a divinely designated leader — one placed at the front of the people by God's initiative. Samuel used this term for Saul (1 Samuel 9:16) and for David (1 Samuel 13:14). David now applies it to Solomon, placing his son in the succession of divinely appointed rulers. The phrase 'over Israel and over Judah' reflects the dual structure of the united kingdom — a political reality that will fracture after Solomon's death."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָגִיד",
+          "transliteration": "nagid",
+          "rendered_as": "leader",
+          "semantic_range": "leader, ruler, prince, designated one, commander",
+          "note": "A term for divinely appointed leadership distinct from the political title melekh ('king'). Its use by David here places Solomon in the theological succession of leaders whom God places at the front of his people — the same term applied to Saul and David by Samuel."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיַּ֨עַן בְּנָיָ֧הוּ בֶן־יְהוֹיָדָ֛ע אֶת־הַמֶּ֖לֶךְ וַיֹּ֣אמֶר ׀ אָמֵ֑ן כֵּ֣ן יֹאמַ֔ר יְהוָ֕ה אֱלֹהֵ֖י אֲדֹנִ֥י הַמֶּֽלֶךְ׃",
+      "text_kjv": "And Benaiah the son of Jehoiada answered the king, and said, Amen: the LORD God of my lord the king say so too.",
+      "rendering": "Benaiah son of Jehoiada answered the king and said, \"So be it! May the LORD, the God of my lord the king, confirm it.",
+      "translator_notes": [
+        "Benaiah's amen is the first word spoken in response to David's command. The Hebrew amen derives from the root 'aman ('to be firm, to be reliable, to support') — it is an affirmation of something as established and trustworthy. His prayer ken yomar YHWH Elohei adoni hammelekh ('so may the LORD, the God of my lord the king, say') asks God to ratify what David has decreed. Benaiah speaks as the military commander who will enforce the order, but he frames his response theologically: the king's command needs divine confirmation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "כַּאֲשֶׁ֨ר הָיָ֤ה יְהוָה֙ עִם־אֲדֹנִ֣י הַמֶּ֔לֶךְ כֵּ֖ן יְהִ֣י עִם־שְׁלֹמֹ֑ה וִֽיגַדֵּ֣ל אֶת־כִּסְא֔וֹ מִכִּסֵּ֖א אֲדֹנִ֥י הַמֶּ֛לֶךְ דָּוִֽד׃",
+      "text_kjv": "As the LORD hath been with my lord the king, even so be he with Solomon, and make his throne greater than the throne of my lord king David.",
+      "rendering": "As the LORD was with my lord the king, so may He be with Solomon. And may He make his throne even greater than the throne of my lord King David.\"",
+      "translator_notes": [
+        "Benaiah's blessing vigaddel et kis'o mikkisse adoni hammelekh David ('and may He make his throne greater than the throne of my lord King David') is a bold prayer — asking that the son surpass the father. The verb giddel ('to make great, to magnify') applied to the throne means not just personal glory but the expansion of the kingdom's reach and stability. In court protocol, such a statement might seem dangerously impolitic — wishing the successor to exceed the current king — but David does not object, suggesting he endorses the aspiration."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיֵּ֣רֶד צָד֣וֹק הַ֠כֹּהֵ֠ן וְנָתָ֨ן הַנָּבִ֜יא וּבְנָיָ֣הוּ בֶן־יְהוֹיָדָ֗ע וְהַכְּרֵתִי֙ וְהַפְּלֵתִ֔י וַיַּרְכִּ֙בוּ֙ אֶת־שְׁלֹמֹ֔ה עַל־פִּרְדַּ֖ת הַמֶּ֣לֶךְ דָּוִ֑ד וַיֹּלִ֥כוּ אֹת֖וֹ עַל־גִּחֽוֹן׃",
+      "text_kjv": "So Zadok the priest, and Nathan the prophet, and Benaiah the son of Jehoiada, and the Cherethites, and the Pelethites, went down, and caused Solomon to ride upon king David's mule, and brought him to Gihon.",
+      "rendering": "So Zadok the priest, Nathan the prophet, Benaiah son of Jehoiada, and the Kerethites and Pelethites went down. They mounted Solomon on King David's mule and brought him to the Gihon spring.",
+      "translator_notes": [
+        "The Kerethites and Pelethites (hakkereti vehappeleti) were David's personal foreign bodyguard, probably of Aegean origin — the Kerethites may be connected to Crete, the Pelethites to the Philistine coast. Their loyalty was to David personally, not to any Israelite faction, making them the perfect military force for a succession intervention. They obey Benaiah, their commander.",
+        "The verb vayyarkivu ('and they caused to ride') is the hiphil of rakhav — Solomon is placed on the mule by others, a ceremonial act of installation. The pirdat hammelekh David ('the mule of King David') is specified by name — this is not any mule but the king's personal mount, a visible symbol of transferred authority. The procession goes down to Gihon, Jerusalem's primary water source on the eastern slope of the City of David."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיִּקַּח֩ צָד֨וֹק הַכֹּהֵ֜ן אֶת־קֶ֤רֶן הַשֶּׁ֙מֶן֙ מִן־הָאֹ֔הֶל וַיִּמְשַׁ֖ח אֶת־שְׁלֹמֹ֑ה וַיִּתְקְעוּ֙ בַּשּׁוֹפָ֔ר וַיֹּֽאמְר֥וּ כׇל־הָעָ֖ם יְחִ֥י הַמֶּ֛לֶךְ שְׁלֹמֹֽה׃",
+      "text_kjv": "And Zadok the priest took an horn of oil out of the tabernacle, and anointed Solomon. And they blew the trumpet; and all the people said, God save king Solomon.",
+      "rendering": "Zadok the priest took the horn of oil from the tent and anointed Solomon. They sounded the trumpet, and all the people shouted, \"Long live King Solomon!\"",
+      "expanded_rendering": "The qeren hashemen ('horn of oil') taken min ha'ohel ('from the tent') connects Solomon's anointing to the sacred oil of the tabernacle — the same consecrating oil prescribed in Exodus 30:22-33. This is not ordinary oil but the holy anointing oil reserved for setting apart priests and sacred objects, now applied to the king, binding royal authority to sacral legitimacy.",
+      "translator_notes": [
+        "The qeren hashemen ('horn of oil') is taken min ha'ohel ('from the tent'), referring to the tabernacle or a tent housing the Ark. The horn (qeren) as a vessel for oil appears also at David's own anointing (1 Samuel 16:1, 13) — the same type of container used by Samuel. This creates a direct visual and liturgical link between David's anointing and Solomon's.",
+        "The sequence is precise: Zadok anoints (vayyimshach), the shofar sounds (vayyitqe'u bashshofar), the people acclaim (vayyomeru khol ha'am yechi hammelekh Shelomoh). This three-part coronation ritual — oil, trumpet, acclamation — becomes the standard for legitimate royal installation in Israel."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קֶרֶן",
+          "transliteration": "qeren",
+          "rendered_as": "horn",
+          "semantic_range": "horn (of an animal), horn-shaped vessel, strength, power, ray of light",
+          "note": "The horn used as a vessel for sacred anointing oil. The same word qeren means both 'horn' and 'strength/power' throughout the Hebrew Bible — the instrument of anointing is itself a symbol of the authority being conferred."
+        },
+        {
+          "hebrew": "מָשַׁח",
+          "transliteration": "mashach",
+          "rendered_as": "anointed",
+          "semantic_range": "to smear, to anoint, to consecrate, to commission by oil",
+          "note": "Solomon's anointing is performed by the priest from the tabernacle's sacred oil supply, giving it the highest possible liturgical authority. This is the culminating anointing of the chapter."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַיַּעֲל֤וּ כׇל־הָעָם֙ אַחֲרָ֔יו וְהָעָם֙ מְחַלְּלִ֣ים בַּחֲלִלִ֔ים וּשְׂמֵחִ֖ים שִׂמְחָ֣ה גְדוֹלָ֑ה וַתִּבָּקַ֥ע הָאָ֖רֶץ בְּקוֹלָֽם׃",
+      "text_kjv": "And all the people came up after him, and the people piped with pipes, and rejoiced with great joy, so that the earth rent with the sound of them.",
+      "rendering": "All the people went up after him, playing flutes and celebrating with tremendous joy, until the ground split open from their noise.",
+      "translator_notes": [
+        "The verb vattibaqa ha'arets beqolam ('the earth split from their sound') is one of the most vivid hyperboles in the Hebrew Bible. The verb baqa ('to split, to cleave') is used of the splitting of the Red Sea (Exodus 14:21) and the splitting of rocks (Isaiah 48:21). The narrator is saying the celebration was so thunderous that the earth itself seemed to crack open. The phrase functions as a narrative seismograph: the legitimate king's anointing shakes the very ground.",
+        "The chalilim ('flutes, pipes') are wind instruments associated with festive processions and joyful occasions. The phrase semechim simchah gedolah ('rejoicing with great joy') uses the cognate accusative construction for emphasis — they did not merely rejoice but rejoiced a great rejoicing."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַיִּשְׁמַ֣ע אֲדֹנִיָּ֗הוּ וְכׇל־הַקְּרֻאִים֙ אֲשֶׁ֣ר אִתּ֔וֹ וְהֵ֖ם כִּלּ֣וּ לֶאֱכֹ֑ל וַיִּשְׁמַ֤ע יוֹאָב֙ אֶת־ק֣וֹל הַשּׁוֹפָ֔ר וַיֹּ֕אמֶר מַדּ֥וּעַ קוֹל־הַקִּרְיָ֖ה הוֹמָֽה׃",
+      "text_kjv": "And Adonijah and all the guests that were with him heard it as they had made an end of eating. And when Joab heard the sound of the trumpet, he said, Wherefore is this noise of the city being in an uproar?",
+      "rendering": "Adonijah and all the guests with him heard it just as they were finishing their meal. When Joab heard the sound of the trumpet, he said, \"Why is the city in such an uproar?\"",
+      "translator_notes": [
+        "The timing is devastating: vehem killu le'ekhol ('and they had finished eating') — Adonijah's coronation feast is over, the political theater concluded, and only then does the sound of Solomon's anointing reach them. The verb killu ('they finished') signals that Adonijah's moment has passed. Joab, the military veteran, identifies the shofar sound immediately — qol hashshofar ('the sound of the trumpet') is unmistakable to a soldier. His question maddu'a qol haqiryah homah ('why is the sound of the city in tumult?') uses homah ('in tumult, buzzing, roaring'), a word that implies confused, agitated noise — he hears the celebration but does not yet know its cause."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "עוֹדֶ֣נּוּ מְדַבֵּ֔ר וְהִנֵּ֧ה יוֹנָתָ֛ן בֶּן־אֶבְיָתָ֥ר הַכֹּהֵ֖ן בָּ֑א וַיֹּ֤אמֶר אֲדֹנִיָּ֙הוּ֙ בֹּ֔א כִּ֣י אִ֥ישׁ חַ֛יִל אַ֖תָּה וְט֥וֹב תְּבַשֵּֽׂר׃",
+      "text_kjv": "And while he yet spake, behold, Jonathan the son of Abiathar the priest came: and Adonijah said unto him, Come in; for thou art a valiant man, and bringest good tidings.",
+      "rendering": "While he was still speaking, Jonathan son of Abiathar the priest arrived. Adonijah said, \"Come in — you are a worthy man, and you must be bringing good news.\"",
+      "translator_notes": [
+        "The narrative formula odenu medabber ('while he was still speaking') mirrors the same phrase used when Nathan entered during Bathsheba's audience (verse 22) — the narrator uses identical pacing for both sides of the drama. Jonathan ben Evyatar arrives as a messenger from the city. Adonijah's greeting is fatally optimistic: ish chayil attah vetov tevasser ('you are a man of valor and you bring good news'). The word tevasser (from basar, 'to bring news, to announce') is the root of besorah ('good news, gospel'). Adonijah assumes that a worthy man brings worthy news — but the news will destroy him."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וַיַּ֙עַן֙ יוֹנָתָ֔ן וַיֹּ֖אמֶר לַאֲדֹנִיָּ֑הוּ אֲבָ֕ל אֲדֹנֵ֥ינוּ הַמֶּֽלֶךְ־דָּוִ֖ד הִמְלִ֥יךְ אֶת־שְׁלֹמֹֽה׃",
+      "text_kjv": "And Jonathan answered and said to Adonijah, Verily our lord king David hath made Solomon king.",
+      "rendering": "Jonathan answered and said to Adonijah, \"No — our lord King David has made Solomon king.\"",
+      "translator_notes": [
+        "Jonathan's first word is aval ('but, however, on the contrary, indeed') — a particle that can mean either 'truly' or 'on the contrary,' and here it functions as a devastating correction. Adonijah expected good news; Jonathan delivers the opposite. The verb himlikh ('has made king') is the hiphil of malakh — David has actively caused Solomon to become king, an accomplished fact stated in the perfect tense. The title adonenu hammelekh David ('our lord King David') is pointed: David is still king, and his authority still holds."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וַיִּשְׁלַ֨ח אִתּ֜וֹ הַמֶּ֗לֶךְ אֶת־צָד֤וֹק הַכֹּהֵן֙ וְאֶת־נָתָ֣ן הַנָּבִ֔יא וּבְנָיָ֖הוּ בֶּן־יְהוֹיָדָ֑ע וְהַכְּרֵתִ֖י וְהַפְּלֵתִֽי׃",
+      "text_kjv": "And the king hath sent with him Zadok the priest, and Nathan the prophet, and Benaiah the son of Jehoiada, and the Cherethites, and the Pelethites, and they have caused him to ride upon the king's mule:",
+      "rendering": "The king sent with him Zadok the priest, Nathan the prophet, Benaiah son of Jehoiada, and the Kerethites and Pelethites.",
+      "translator_notes": [
+        "Jonathan's report catalogs the forces that accompanied Solomon — the same list the narrator provided in verse 38. For Adonijah's party, hearing these names is hearing the inventory of their defeat: the loyal priest, the prophet, the guard commander, and the entire royal bodyguard. Jonathan is delivering a military intelligence report in the form of a narrative."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וַיִּמְשְׁח֨וּ אֹת֜וֹ צָד֧וֹק הַכֹּהֵ֛ן וְנָתָ֥ן הַנָּבִ֖יא לְמֶ֣לֶךְ בַּגִּח֑וֹן וַיַּעֲל֤וּ מִשָּׁם֙ שְׂמֵחִ֔ים וַתֵּהֹ֖ם הַקִּרְיָ֑ה ה֥וּא הַקּ֖וֹל אֲשֶׁ֥ר שְׁמַעְתֶּֽם׃",
+      "text_kjv": "And Zadok the priest and Nathan the prophet have anointed him king in Gihon: and they are come up from thence rejoicing, and the city rang again. This is the noise that ye have heard.",
+      "rendering": "Zadok the priest and Nathan the prophet anointed him king at the Gihon spring. They came up from there celebrating, and the city is in an uproar. That is the noise you heard.",
+      "expanded_rendering": "The verb mashach here confirms the completed anointing — Solomon has been anointed (nimshach) as king at the Gihon, and the act cannot be reversed. Anointing in Israel was a one-directional act: once the oil was poured, the designation was permanent, which is why the narrator and Jonathan both report it in the perfect tense as accomplished fact.",
+      "translator_notes": [
+        "Jonathan confirms the anointing: vayyimshchu oto Tsadoq hakkohen veNatan hannavi lemelekh baGgichon ('Zadok the priest and Nathan the prophet anointed him king at the Gihon'). The verb is in the perfect — the anointing is accomplished, irreversible. The phrase vattehom haqiryah ('and the city was in tumult') uses the same root as Joab's question in verse 41 — now Jonathan identifies the source of the noise. His concluding phrase hu haqqol asher shema'tem ('that is the noise you heard') is clipped and factual, the tone of a messenger who understands the implications."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָשַׁח",
+          "transliteration": "mashach",
+          "rendered_as": "anointed",
+          "semantic_range": "to smear, to anoint, to consecrate, to commission by oil",
+          "note": "Third occurrence of mashach in the chapter. Jonathan reports the anointing as accomplished fact — the perfect tense signals an irreversible act. Solomon is now the anointed king."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וְגַ֕ם יָשַׁ֥ב שְׁלֹמֹ֖ה עַ֥ל כִּסֵּ֥א הַמְּלוּכָֽה׃",
+      "text_kjv": "And also Solomon sitteth on the throne of the kingdom.",
+      "rendering": "And Solomon has already taken his seat on the royal throne.\"",
+      "translator_notes": [
+        "The brief clause vegam yashav Shelomoh al kisse hammelukhah ('and also Solomon has sat on the throne of the kingdom') is the final blow. Not only has Solomon been anointed — he has already taken physical possession of the throne. The verb yashav ('has sat, is sitting') is in the perfect, indicating completed action. The kisse hammelukhah ('throne of the kingdom') is the actual seat of royal power. For Adonijah, this means there is nothing left to contest: the throne is occupied."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וְגַ֣ם בָּ֗אוּ עַבְדֵ֣י הַמֶּלֶךְ֮ לְבָרֵ֣ךְ אֶת־אֲדֹנֵ֣ינוּ הַמֶּ֣לֶךְ דָּוִד֒ לֵאמֹ֗ר יֵיטֵ֨ב אֱלֹהִ֜ים אֶת־שֵׁ֤ם שְׁלֹמֹה֙ מִשְּׁמֶ֔ךָ וִֽיגַדֵּ֥ל אֶת־כִּסְא֖וֹ מִכִּסְאֶ֑ךָ וַיִּשְׁתַּ֥חוּ הַמֶּ֖לֶךְ עַל־הַמִּשְׁכָּֽב׃",
+      "text_kjv": "And moreover the king's servants came to bless our lord king David, saying, God make the name of Solomon better than thy name, and make his throne greater than thy throne. And the king bowed himself upon the bed.",
+      "rendering": "And the king's servants came to bless our lord King David, saying, 'May God make Solomon's name greater than your name and make his throne greater than your throne.' And the king bowed in worship on his bed.",
+      "translator_notes": [
+        "The servants' blessing echoes Benaiah's earlier prayer (verse 37) — both wish Solomon's reign to exceed David's. The verb vayyishtachu hammelekh al hammishkav ('and the king bowed on the bed') is extraordinary: David, too frail to stand, worships God from his bed. The verb hishtachavah ('to bow, to prostrate oneself') is the standard word for worship, and the image of the dying king worshipping horizontally on his bed is one of the most poignant in the Hebrew Bible — he can no longer prostrate himself on the ground, so he bows where he lies.",
+        "The phrase yeitiv Elohim et shem Shelomoh mishshimkha ('may God make Solomon's name better than your name') asks that the son's reputation and legacy surpass the father's. David receives this prayer not with offense but with worship — he bows in gratitude that his dynasty will continue."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "וְגַם־כָּ֛כָה אָמַ֥ר הַמֶּ֖לֶךְ בָּר֣וּךְ יְהוָ֗ה אֱלֹהֵי֙ יִשְׂרָאֵ֔ל אֲשֶׁ֥ר נָתַ֛ן הַיּ֖וֹם יֹשֵׁ֣ב עַל־כִּסְאִ֑י וְעֵינַ֖י רֹאֽוֹת׃",
+      "text_kjv": "And also thus said the king, Blessed be the LORD God of Israel, which hath given one to sit on my throne this day, mine eyes even seeing it.",
+      "rendering": "And the king himself said, 'Blessed be the LORD, the God of Israel, who has granted someone to sit on my throne today while my own eyes can see it.'",
+      "expanded_rendering": "David's blessing barukh YHWH Elohei Yisrael ('blessed be the LORD, the God of Israel') is a berakhah — a formal declaration that God is the source of the good that has occurred. The phrase ve'einai ro'ot ('and my eyes seeing') is profoundly personal: the king whose capacity to 'know' has been failing throughout this chapter can at least see the succession secured before he dies.",
+      "translator_notes": [
+        "David's doxology barukh YHWH Elohei Yisrael ('blessed be the LORD, the God of Israel') is a standard blessing formula attributing good outcomes to God. But the final clause is deeply personal: ve'einai ro'ot ('and my eyes are seeing it'). The man who could not 'know' (yada) Abishag, who did not 'know' about the coup, can at least see (ro'ot) the succession secured. The verb ra'ah ('to see') functions as a partial restoration of the awareness David has been losing throughout the chapter. He sees — if only this one thing — before he dies."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "וַיֶּחֶרְד֣וּ ׀ וַיָּקֻ֗מוּ כׇּל־הַקְּרֻאִים֙ אֲשֶׁר֙ לַאֲדֹ֣נִיָּ֔הוּ וַיֵּלְכ֖וּ אִ֥ישׁ לְדַרְכּֽוֹ׃",
+      "text_kjv": "And all the guests that were with Adonijah were afraid, and rose up, and went every man his way.",
+      "rendering": "All the guests of Adonijah trembled with fear. They got up and scattered, each man going his own way.",
+      "translator_notes": [
+        "The verb vayyecherdu ('and they trembled') indicates violent, involuntary fear — the same root (charad) used of the trembling at Sinai (Exodus 19:16) and of Samuel's fear at Saul's appearance from the dead (1 Samuel 28:21). The phrase vayyaqumu... vayyellkhu ish ledarko ('they rose and went, each to his road') is the language of complete political collapse — not a retreat but a dissolution. Adonijah's coalition evaporates in a single verse. The feast that began with royal pretension ends with every man fleeing for his own survival."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "וַאֲדֹנִיָּ֖הוּ יָרֵ֣א מִפְּנֵ֣י שְׁלֹמֹ֑ה וַיָּ֣קׇם וַיֵּ֔לֶךְ וַיַּחֲזֵ֖ק בְּקַרְנ֥וֹת הַמִּזְבֵּֽחַ׃",
+      "text_kjv": "And Adonijah feared because of Solomon, and arose, and went, and caught hold on the horns of the altar.",
+      "rendering": "Adonijah was terrified of Solomon. He got up, went, and seized the horns of the altar.",
+      "translator_notes": [
+        "Adonijah's fear (yare mippanei Shelomoh, 'afraid from the face of Solomon') drives him to the last available sanctuary: the horns of the altar. The verb vayyachazaq ('and he seized, gripped firmly') indicates desperate clinging — the hiphil of chazaq implies forceful grasping. The qarnot hammizbeach ('horns of the altar') were projections at the four corners of the sacrificial altar, and grasping them was a claim of sanctuary under asylum law (Exodus 21:13-14). The horns that held the blood of sacrifice now hold a terrified prince.",
+        "The word qarnot ('horns') uses the same root as qeren ('horn') from verse 39 — the horn of oil that anointed Solomon and the horns of the altar where Adonijah hides create a grim wordplay. The horn of power has produced the horn of refuge."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "וַיֻּגַּ֤ד לִשְׁלֹמֹה֙ לֵאמֹ֔ר הִנֵּה֙ אֲדֹ֣נִיָּ֔הוּ יָרֵ֖א אֶת־הַמֶּ֣לֶךְ שְׁלֹמֹ֑ה וְ֠הִנֵּ֠ה אָחַ֞ז בְּקַרְנ֤וֹת הַמִּזְבֵּ֙חַ֙ לֵאמֹ֔ר יִשָּׁ֨בַֽע־לִ֤י כַיּוֹם֙ הַמֶּ֣לֶךְ שְׁלֹמֹ֔ה אִם־יָמִ֥ית אֶת־עַבְדּ֖וֹ בֶּחָֽרֶב׃",
+      "text_kjv": "And it was told Solomon, saying, Behold, Adonijah feareth king Solomon: for, lo, he hath caught hold on the horns of the altar, saying, Let king Solomon swear unto me today that he will not slay his servant with the sword.",
+      "rendering": "It was reported to Solomon: \"Adonijah is terrified of King Solomon. He has seized the horns of the altar, saying, 'Let King Solomon swear to me today that he will not put his servant to death by the sword.'\"",
+      "translator_notes": [
+        "The report to Solomon frames Adonijah's terror and his demand simultaneously. Adonijah calls himself avdo ('his servant'), adopting the language of submission — the man who said ani emlokh ('I will be king') now calls himself Solomon's servant. His demand yishava li hayyom hammelekh Shelomoh ('let King Solomon swear to me today') requests an oath of protection, using the same oath language (shava, 'to swear') that runs throughout the chapter. The phrase im yamit et avdo becherev ('if/that he will not kill his servant by the sword') specifies death by the sword — execution for treason, which is exactly what Adonijah's actions would warrant."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "וַיֹּ֣אמֶר שְׁלֹמֹ֔ה אִ֚ם יִהְיֶ֣ה לְבֶן־חַ֔יִל לֹֽא־יִפֹּ֥ל מִשַּׂעֲרָת֖וֹ אָ֑רְצָה וְאִם־רָעָ֥ה תִמָּצֵא־ב֖וֹ וָמֵֽת׃",
+      "text_kjv": "And Solomon said, If he will shew himself a worthy man, there shall not an hair of him fall to the earth: but if wickedness shall be found in him, he shall die.",
+      "rendering": "Solomon said, \"If he proves to be a man of worth, not a single hair of his will fall to the ground. But if wickedness is found in him, he will die.\"",
+      "translator_notes": [
+        "Solomon's first recorded words as king are a conditional pardon — measured, royal, and ominous. The phrase im yihyeh leven chayil ('if he will be a son of valor/worth') sets the condition: Adonijah must prove himself trustworthy. The idiom lo yippol missa'arato artsah ('not a hair of his head will fall to the ground') is the standard biblical guarantee of complete physical safety (cf. 1 Samuel 14:45, 2 Samuel 14:11). But the second clause — ve'im ra'ah timmatse vo vamet ('and if evil is found in him, he will die') — makes the mercy entirely conditional. Solomon does not swear the oath Adonijah requested; he issues terms. The verb vamet ('and he will die') is blunt and final. This conditional pardon will be revoked in 1 Kings 2:13-25 when Adonijah requests Abishag."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "וַיִּשְׁלַ֣ח הַמֶּ֣לֶךְ שְׁלֹמֹ֗ה וַיֹּרִדֻ֙הוּ֙ מֵעַ֣ל הַמִּזְבֵּ֔חַ וַיָּבֹ֕א וַיִּשְׁתַּ֖חוּ לַמֶּ֣לֶךְ שְׁלֹמֹ֑ה וַיֹּ֧אמֶר־ל֛וֹ שְׁלֹמֹ֖ה לֵ֥ךְ לְבֵיתֶֽךָ׃",
+      "text_kjv": "So king Solomon sent, and they brought him down from the altar. And he came and bowed himself to king Solomon: and Solomon said unto him, Go to thine house.",
+      "rendering": "King Solomon sent men, and they brought him down from the altar. He came and prostrated himself before King Solomon. Solomon said to him, \"Go to your house.\"",
+      "translator_notes": [
+        "The final scene is a masterpiece of compressed political theater. Solomon sends men to remove Adonijah from the altar (vayyoriduhu me'al hammizbeach, 'and they brought him down from upon the altar') — Adonijah does not release the horns voluntarily but is taken down by royal command. He then prostrates himself (vayyishtachu) before Solomon, performing the submission posture that acknowledges Solomon as king.",
+        "Solomon's final words are two words in Hebrew: lekh leveitekha ('go to your house'). The dismissal is terse, royal, and loaded with meaning. 'Your house' means both Adonijah's physical residence and his political future — he is being sent home, confined to private life, stripped of all royal ambition. There is no embrace, no reconciliation, no warmth. Solomon rules from his first moment as a king who calculates — mercy when useful, severity when necessary. The chapter that opened with a king who could not get warm ends with a king whose first act is ice-cold pragmatism."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

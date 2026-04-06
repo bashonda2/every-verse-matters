@@ -1,0 +1,531 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Joshua",
+    "chapter": 19,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-28T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The remaining six tribes receive their territorial allotments by lot at Shiloh: Simeon within Judah's territory, Zebulun, Issachar, Asher, Naphtali, and Dan. Joshua himself receives Timnath-serah in Ephraim's hill country.",
+    "remarkable": "Simeon's allotment is embedded within Judah's territory (v. 1) — 'their inheritance was within the inheritance of Judah, because the portion of Judah was too large for them.' This absorption anticipates Simeon's eventual disappearance as a distinct tribe and partially fulfills Jacob's prophecy in Genesis 49:7 ('I will scatter them in Israel'). Joshua receives his inheritance last (vv. 49-50), after all the people have been settled — the leader takes what remains, not first pick.",
+    "friction": "Dan's allotment (vv. 40-48) is described and then immediately noted as insufficient — 'the territory of Dan slipped away from them' (v. 47), leading to the migration and conquest of Laish described in Judges 18. We rendered yetse mehem as the territory 'slipping away' to preserve the Hebrew's sense of loss rather than mere military failure.",
+    "connections": "Simeon's absorption into Judah fulfills Genesis 49:7. Dan's migration to Laish is narrated in Judges 18. Joshua's personal inheritance at Timnath-serah (v. 50) is his burial place (24:30). The city lists in this chapter overlap with the Levitical cities in chapter 21 and the lists in 1 Chronicles 6."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיֵּצֵ֞א הַגּוֹרָ֣ל הַשֵּׁנִ֗י לְשִׁמְעוֹן֙ לְמַטֵּ֣ה בְנֵ֣י שִׁמְע֔וֹן לְמִשְׁפְּחוֹתָ֑ם וַיְהִ֛י נַחֲלָתָ֖ם בְּת֥וֹךְ נַחֲלַ֥ת בְּנֵ֥י יְהוּדָֽה׃",
+      "text_kjv": "And the second lot came forth to Simeon, even for the tribe of the children of Simeon according to their families: and their inheritance was within the inheritance of the children of Judah.",
+      "rendering": "The second lot fell to Simeon — to the tribe of Simeon, clan by clan. Their inheritance was within the territory of Judah.",
+      "translator_notes": [
+        "Vay'hi nachalatam b'tokh nachalat b'nei Yehudah ('their inheritance was within the inheritance of Judah') — Simeon does not receive an independent territory but an enclave within Judah's allotment. This arrangement fulfills Jacob's prophecy in Genesis 49:7: 'I will divide them in Jacob and scatter them in Israel.' Simeon effectively becomes absorbed into Judah, eventually losing tribal identity. The 'scattering' prophesied by the patriarch is accomplished through the allocation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיְהִ֥י לָהֶ֖ם בְּנַחֲלָתָ֑ם בְּאֵ֥ר שֶׁ֖בַע וְשֶׁ֥בַע וּמוֹלָדָֽה׃",
+      "text_kjv": "And they had in their inheritance Beersheba, or Sheba, and Moladah,",
+      "rendering": "Their inheritance included Beersheba (or Sheba), Moladah,",
+      "translator_notes": [
+        "B'er Sheva ('Beersheba') — the patriarchal well-city (listed in Judah's cities, 15:28) now allocated to Simeon. The overlap between Judah's and Simeon's city lists confirms Simeon's territory is carved from Judah's allocation, likely because Judah's territory proved too large for one tribe."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַחֲצַ֥ר שׁוּעָ֛ל וּבָלָ֖ה וָעָֽצֶם׃",
+      "text_kjv": "And Hazarshual, and Balah, and Azem,",
+      "rendering": "Hazar-shual, Balah, Ezem,",
+      "translator_notes": [
+        "These cities also appear in Judah's Negev list (15:28-29), confirming the territorial overlap."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְאֶלְתּוֹלַ֥ד וּבְת֖וּל וְחׇרְמָֽה׃",
+      "text_kjv": "And Eltolad, and Bethul, and Hormah,",
+      "rendering": "Eltolad, Bethul, Hormah,",
+      "translator_notes": [
+        "Chormah ('Hormah') appears in both tribal lists (15:30), reinforcing the shared territory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְצִקְלַ֥ג וּבֵ֥ית הַמַּרְכָּב֖וֹת וַחֲצַ֥ר סוּסָֽה׃",
+      "text_kjv": "And Ziklag, and Bethmarcaboth, and Hazarsusah,",
+      "rendering": "Ziklag, Beth-marcaboth, Hazar-susah,",
+      "translator_notes": [
+        "Beit ha-Markavot ('house of chariots') and Chatsar Susah ('enclosure of horses') — these names suggest military installations for chariot horses, possibly remnants of Canaanite or Egyptian military infrastructure in the Negev."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וּבֵ֥ית לְבָא֖וֹת וְשָׁרוּחֶ֑ן עָרִ֥ים שְׁלֹ֥שׁ עֶשְׂרֵ֖ה וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "And Bethlebaoth, and Sharuhen; thirteen cities and their villages:",
+      "rendering": "Beth-lebaoth, and Sharuhen — thirteen cities with their surrounding settlements.",
+      "translator_notes": [
+        "Sharuhen — an important fortified city in the western Negev, known from Egyptian records as a Hyksos stronghold that Pharaoh Ahmose besieged after expelling the Hyksos from Egypt (c. 1550 BC)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "עַ֥יִן רִמּ֖וֹן וָעֶ֣תֶר וְעָשָׁ֑ן עָרִ֥ים אַרְבַּ֖ע וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "Ain, Remmon, and Ether, and Ashan; four cities and their villages:",
+      "rendering": "Ain, Rimmon, Ether, and Ashan — four cities with their surrounding settlements.",
+      "translator_notes": [
+        "The second Simeonite district totals four cities. The combined total (seventeen) represents Simeon's modest allocation — among the smallest of the tribal territories."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְכׇל הַחֲצֵרִ֗ים אֲשֶׁר֙ סְבִיב֣וֹת הֶעָרִ֣ים הָאֵ֔לֶּה עַד בַּעֲלַ֥ת בְּאֵ֖ר רָ֣אמַת נֶ֑גֶב זֹ֗את נַחֲלַ֛ת מַטֵּ֥ה בְנֵ֥י שִׁמְע֖וֹן לְמִשְׁפְּחֹתָֽם׃",
+      "text_kjv": "And all the villages that were round about these cities to Baalathbeer, Ramath of the south. This is the inheritance of the tribe of the children of Simeon according to their families.",
+      "rendering": "along with all the settlements surrounding these cities as far as Baalath-beer (Ramah of the Negev). This was the inheritance of the tribe of Simeon, clan by clan.",
+      "translator_notes": [
+        "Ba'alat B'er Ramat Negev ('Baalath-beer, Ramah of the Negev') — the southernmost extent of Simeon's territory, deep in the arid Negev."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "מֵחֶ֙בֶל֙ בְּנֵ֣י יְהוּדָ֔ה נַחֲלַ֖ת בְּנֵ֣י שִׁמְע֑וֹן כִּי הָיָ֞ה חֵ֤לֶק בְּנֵ֣י יְהוּדָה֙ רַ֣ב מֵהֶ֔ם וַיִּנְחֲל֥וּ בְנֵ֥י שִׁמְע֖וֹן בְּת֥וֹךְ נַחֲלָתָֽם׃",
+      "text_kjv": "Out of the portion of the children of Judah was the inheritance of the children of Simeon: for the part of the children of Judah was too much for them: therefore the children of Simeon had their inheritance within the inheritance of them.",
+      "rendering": "Simeon's inheritance came out of Judah's allotment, because Judah's portion proved too large for them. So the Simeonites received their inheritance within Judah's territory.",
+      "translator_notes": [
+        "Ki hayah cheleq b'nei Yehudah rav mehem ('because the portion of Judah was too large for them') — the narrator provides the practical explanation for Simeon's enclave arrangement: Judah had more land than its population needed. Divine lot and practical geography converge: the lot placed Simeon within Judah, and the excess territory made it workable. Providence operates through demographic realities."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיַּ֙עַל֙ הַגּוֹרָ֣ל הַשְּׁלִישִׁ֔י לִבְנֵ֥י זְבוּלֻ֖ן לְמִשְׁפְּחוֹתָ֑ם וַיְהִ֛י גְּב֥וּל נַחֲלָתָ֖ם עַד שָׂרִֽיד׃",
+      "text_kjv": "And the third lot came up for the children of Zebulun according to their families: and the border of their inheritance was unto Sarid:",
+      "rendering": "The third lot came up for Zebulun, clan by clan. The boundary of their inheritance reached to Sarid.",
+      "translator_notes": [
+        "Zebulun received territory in the lower Galilee, between the Jezreel Valley and the hills north of the Carmel range. Jacob's blessing predicted Zebulun would 'dwell at the shore of the sea' (Genesis 49:13), though the allotment described here does not reach the coast — a tension noted by many commentators."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְעָלָ֨ה גְבוּלָ֧ם ׀ לַיָּ֛מָּה וּמַרְעֲלָ֖ה וּפָגַ֣ע בְּדַבָּ֑שֶׁת וּפָגַע֙ אֶל הַנַּ֔חַל אֲשֶׁ֖ר עַל פְּנֵ֥י יׇקְנְעָֽם׃",
+      "text_kjv": "And their border went up toward the sea, and Maralah, and reached to Dabbasheth, and reached to the river that is before Jokneam;",
+      "rendering": "Their boundary went up westward to Maralah, reached Dabbesheth, and extended to the wadi facing Jokneam.",
+      "translator_notes": [
+        "The western boundary approaches the Carmel range near Jokneam (12:22). Zebulun's territory covers the fertile valleys of the lower Galilee — good agricultural land."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְשָׁ֣ב מִשָּׂרִ֗יד קֵ֚דְמָה מִזְרַ֣ח הַשֶּׁ֔מֶשׁ עַל גְּב֥וּל כִּסְלֹ֖ת תָּבֹ֑ר וְיָצָ֥א אֶל הַדָּבְרַ֖ת וְעָלָ֥ה יָפִֽיעַ׃",
+      "text_kjv": "And turned from Sarid eastward toward the sunrising unto the border of Chislothtabor, and then goeth out to Daberath, and goeth up to Japhia,",
+      "rendering": "From Sarid it turned eastward toward the sunrise along the boundary of Chisloth-tabor, then went out to Daberath and up to Japhia.",
+      "translator_notes": [
+        "Kislot Tavor ('flanks of Tabor') — the slopes of Mount Tabor, which rises dramatically from the Jezreel Valley. Tabor will be the staging ground for Deborah and Barak's battle against Sisera (Judges 4:6, 12, 14). Daverat ('Daberath') — a Levitical city at the base of Tabor (21:28)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וּמִשָּׁ֤ם עָבַר֙ קֵ֔דְמָה מִזְרָ֖חָה גִּתָּ֣ה חֵ֑פֶר עִתָּ֥ה קָצִ֖ין וְיָצָ֕א רִמּ֖וֹן הַמְּתֹאָ֥ר הַנֵּעָֽה׃",
+      "text_kjv": "And from thence passeth on along on the east to Gittahhepher, to Ittahkazin, and goeth out to Remmonmethoar to Neah;",
+      "rendering": "From there it passed eastward to Gath-hepher, to Eth-kazin, and went out to Rimmon, curving toward Neah.",
+      "translator_notes": [
+        "Gittah Chefer ('Gath-hepher') — the hometown of the prophet Jonah son of Amittai (2 Kings 14:25). This otherwise minor border town becomes significant as the birthplace of the reluctant prophet who was sent to Nineveh."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְנָסַ֤ב אֹתוֹ֙ הַגְּב֔וּל מִצָּפ֖וֹן חַנָּתֹ֑ן וְהָי֥וּ תוֹצְאֹתָ֖יו גֵּ֥י יִפְתַּח אֵֽל׃",
+      "text_kjv": "And the border compasseth it on the north side to Hannathon: and the outgoings thereof are in the valley of Jiphthahel:",
+      "rendering": "The boundary turned north of it to Hannathon and ended at the Valley of Iphtah-el.",
+      "translator_notes": [
+        "Gei Yiftach El ('Valley of Iphtah-el,' meaning 'God opens') — this valley forms part of Zebulun's northern boundary and also borders Asher (v. 27)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְקַטָּ֤ת וְנַהֲלָל֙ וְשִׁמְר֔וֹן וְיִדְאֲלָ֖ה וּבֵ֣ית לָ֑חֶם עָרִ֥ים שְׁתֵּים עֶשְׂרֵ֖ה וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "And Kattath, and Nahallal, and Shimron, and Idalah, and Bethlehem: twelve cities with their villages.",
+      "rendering": "including Kattath, Nahalal, Shimron, Idalah, and Bethlehem — twelve cities with their surrounding settlements.",
+      "translator_notes": [
+        "Beit Lechem ('Bethlehem') — this is the Galilean Bethlehem (distinct from the Judean Bethlehem of David and later of Jesus), located in Zebulun's territory. The existence of two Bethlehems in different tribal territories is well attested. Nahalal appears in Judges 1:30 as a city where Zebulun failed to drive out the Canaanites."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "זֹ֗את נַחֲלַ֛ת בְּנֵ֥י זְבוּלֻ֖ן לְמִשְׁפְּחוֹתָ֑ם הֶעָרִ֥ים הָאֵ֖לֶּה וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "This is the inheritance of the children of Zebulun according to their families, these cities with their villages.",
+      "rendering": "This was the inheritance of the Zebulunites, clan by clan — these cities with their surrounding settlements.",
+      "translator_notes": [
+        "Zebulun's allocation is complete — a modest territory in the lower Galilee, but strategically located near major trade routes and the fertile Jezreel Valley."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "לְיִ֨שָּׂשכָ֔ר יָצָ֖א הַגּוֹרָ֣ל הָרְבִיעִ֑י לִבְנֵ֥י יִשָּׂשכָ֖ר לְמִשְׁפְּחוֹתָֽם׃",
+      "text_kjv": "And the fourth lot came out to Issachar, for the children of Issachar according to their families.",
+      "rendering": "The fourth lot came out for Issachar — for the Issacharites, clan by clan.",
+      "translator_notes": [
+        "Issachar received territory in the eastern Jezreel Valley and the hills south of the Sea of Galilee — some of the most fertile agricultural land in all of Canaan. Jacob blessed Issachar as a 'strong donkey lying down between the sheepfolds,' who 'saw that rest was good and that the land was pleasant' (Genesis 49:14-15)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיְהִ֖י גְּבוּלָ֑ם יִזְרְעֶ֥אלָה וְהַכְּסוּלֹ֖ת וְשׁוּנֵֽם׃",
+      "text_kjv": "And their border was toward Jezreel, and Chesulloth, and Shunem,",
+      "rendering": "Their territory included Jezreel, Chesulloth, Shunem,",
+      "translator_notes": [
+        "Yizr'elah ('Jezreel') — the city that gives its name to the great valley. It will become a royal residence for the Omride dynasty and the site of Naboth's vineyard (1 Kings 21) and Jezebel's death (2 Kings 9:30-37). Shunem — where the Shunammite woman will host Elisha (2 Kings 4:8-37)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַחֲפָרַ֥יִם וְשִׁיאֹ֖ן וַאֲנָחֲרַֽת׃",
+      "text_kjv": "And Hapharaim, and Shion, and Anaharath,",
+      "rendering": "Hapharaim, Shion, Anaharath,",
+      "translator_notes": [
+        "Issachar's city list continues through the Jezreel Valley settlements."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְהָרַבִּ֥ית וְקִשְׁי֖וֹן וָאָֽבֶץ׃",
+      "text_kjv": "And Rabbith, and Kishion, and Abez,",
+      "rendering": "Rabbith, Kishion, Ebez,",
+      "translator_notes": [
+        "Qishyon ('Kishion') — a Levitical city (21:28). Its location near the Kishon River connects it to the valley where Deborah's army will defeat Sisera (Judges 4-5)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְרֶ֧מֶת וְעֵ֥ין גַּנִּ֖ים וְעֵ֥ין חַדָּ֖ה וּבֵ֥ית פַּצֵּֽץ׃",
+      "text_kjv": "And Remeth, and Engannim, and Enhaddah, and Bethpazzez;",
+      "rendering": "Remeth, En-gannim, En-haddah, Beth-pazzez.",
+      "translator_notes": [
+        "Ein Gannim ('spring of gardens') — a well-watered site, reflecting the agricultural richness of Issachar's territory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וּפָגַע֙ הַגְּב֔וּל בְּתָב֥וֹר וְשַׁחֲצ֖וּמָה וּבֵ֣ית שָׁ֑מֶשׁ וְהָי֥וּ תּוֹצְא֖וֹת גְּבוּלָ֔ם הַיַּרְדֵּ֑ן עָרִ֥ים שֵׁשׁ עֶשְׂרֵ֖ה וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "And the coast reacheth to Tabor, and Shahazimah, and Bethshemesh; and the outgoings of their border were at Jordan: sixteen cities with their villages.",
+      "rendering": "The boundary reached Tabor, Shahazumah, and Beth-shemesh, and ended at the Jordan — sixteen cities with their surrounding settlements.",
+      "translator_notes": [
+        "Tavor ('Tabor') — Mount Tabor, the distinctive dome-shaped mountain rising 1,886 feet above the Jezreel Valley. This Beth-shemesh ('house of the sun') is a different city from the one in Judah/Dan (15:10). Tots'ot g'vulam ha-Yarden ('their boundary ended at the Jordan') — Issachar's eastern boundary touches the Jordan, giving the tribe a cross-section from the Jezreel Valley to the Jordan Rift."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "זֹ֗את נַחֲלַ֛ת מַטֵּ֥ה בְנֵ֥י יִשָּׂשכָ֖ר לְמִשְׁפְּחוֹתָ֑ם הֶעָרִ֖ים וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "This is the inheritance of the tribe of the children of Issachar according to their families, the cities and their villages.",
+      "rendering": "This was the inheritance of the tribe of Issachar, clan by clan — the cities with their surrounding settlements.",
+      "translator_notes": [
+        "Issachar's allocation is complete — sixteen cities in some of the most productive agricultural land in the promised territory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיֵּצֵ֛א הַגּוֹרָ֥ל הַחֲמִישִׁ֖י לְמַטֵּ֣ה בְנֵ֣י אָשֵׁ֑ר לְמִשְׁפְּחוֹתָֽם׃",
+      "text_kjv": "And the fifth lot came out for the tribe of the children of Asher according to their families.",
+      "rendering": "The fifth lot came out for the tribe of Asher, clan by clan.",
+      "translator_notes": [
+        "Asher received the northwestern coastal strip along the Mediterranean, from Carmel northward to Sidon — territory rich in natural resources. Jacob blessed Asher: 'His food will be rich; he will provide royal delicacies' (Genesis 49:20). Moses blessed Asher: 'Most blessed of sons is Asher; let him be favored among his brothers, and let him dip his foot in oil' (Deuteronomy 33:24)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיְהִ֖י גְּבוּלָ֑ם חֶלְקַ֥ת וַחֲלִ֖י וָבֶ֥טֶן וְאַכְשָֽׁף׃",
+      "text_kjv": "And their border was Helkath, and Hali, and Beten, and Achshaph,",
+      "rendering": "Their territory included Helkath, Hali, Beten, Achshaph,",
+      "translator_notes": [
+        "Achshaph — one of the cities whose king joined Jabin's northern coalition (11:1; 12:20)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְאַלַמֶּ֥לֶךְ וְעַמְעָ֖ד וּמִשְׁאָ֑ל וּפָגַ֤ע בְּכַרְמֶל֙ הַיָּ֔מָּה וּבְשִׁיח֖וֹר לִבְנָֽת׃",
+      "text_kjv": "And Alammelech, and Amad, and Misheal; and reacheth to Carmel westward, and to Shihorlibnath;",
+      "rendering": "Allammelech, Amad, Mishal — reaching to Carmel on the west and to Shihor-libnath.",
+      "translator_notes": [
+        "U-faga b'Karmel ha-yammah ('reaching to Carmel on the sea/west') — Mount Carmel, the dramatic headland jutting into the Mediterranean, forms a natural boundary. It will become the site of Elijah's confrontation with the prophets of Baal (1 Kings 18)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְשָׁ֨ב מִזְרַ֣ח הַשֶּׁ֗מֶשׁ בֵּ֣ית דָּגֹ֔ן וּפָגַ֤ע בִּזְבוּלֻן֙ וּבְגֵ֣י יִפְתַּח אֵ֔ל צָפ֕וֹנָה בֵּ֥ית הָעֵ֖מֶק וּנְעִיאֵ֑ל וְיָצָ֥א אֶל כָּב֖וּל מִשְּׂמֹֽאל׃",
+      "text_kjv": "And turneth toward the sunrising to Bethdagon, and reacheth to Zebulun, and to the valley of Jiphthahel toward the north side of Bethemek, and Neiel, and goeth out to Cabul on the left hand,",
+      "rendering": "It turned eastward to Beth-dagon, reached Zebulun and the Valley of Iphtah-el to the north, then to Beth-emek and Neiel, going out to Cabul on the north.",
+      "translator_notes": [
+        "Kavul ('Cabul') — a settlement in western Galilee. The name will recur when Solomon gives twenty Galilean cities to Hiram king of Tyre, who calls the territory 'Cabul' (1 Kings 9:13) — apparently unimpressed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְעֶבְרֹ֤ן וּרְחֹב֙ וְחַמּ֖וֹן וְקָנָ֑ה עַ֖ד צִיד֥וֹן רַבָּֽה׃",
+      "text_kjv": "And Hebron, and Rehob, and Hammon, and Kanah, even unto great Zidon;",
+      "rendering": "including Ebron, Rehob, Hammon, and Kanah, as far as Great Sidon.",
+      "translator_notes": [
+        "Ad Tsidon Rabbah ('as far as Great Sidon') — Asher's ideal territory extends to the major Phoenician city of Sidon on the Lebanese coast. In practice, the Phoenician cities remained independent. Asher's allotment is aspirational in its northern reaches."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְשָׁ֤ב הַגְּבוּל֙ הָרָמָ֔ה וְעַד עִ֥יר מִבְצַר צֹ֖ר וְשָׁ֣ב הַגְּב֔וּל חֹסָ֑ה וְהָי֧וּ תוֹצְאֹתָ֛יו הַיָּ֖מָּה מֵחֶ֥בֶל אַכְזִֽיבָה׃",
+      "text_kjv": "And then the coast turneth to Ramah, and to the strong city Tyre; and the coast turneth to Hosah; and the outgoings thereof are at the sea from the coast to Achzib:",
+      "rendering": "The boundary turned to Ramah and continued to the fortified city of Tyre, then turned to Hosah, ending at the sea in the region of Achzib.",
+      "translator_notes": [
+        "Ir mivtsar Tsor ('the fortified city of Tyre') — Tyre, the great Phoenician island-fortress, appears in Asher's boundary description. Like Sidon, Tyre remained Phoenician throughout Israel's history and became a major trade partner under Solomon and Ahab. Achzib — a coastal city that Asher failed to capture (Judges 1:31)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְעֻמָ֥ה וַאֲפֵ֖ק וּרְחֹ֑ב עָרִ֛ים עֶשְׂרִ֥ים וּשְׁתַּ֖יִם וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "Ummah also, and Aphek, and Rehob: twenty and two cities with their villages.",
+      "rendering": "also Ummah, Aphek, and Rehob — twenty-two cities with their surrounding settlements.",
+      "translator_notes": [
+        "Asher's total is twenty-two cities — a substantial coastal territory, though much of it remained in Phoenician control."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "זֹ֗את נַחֲלַ֛ת מַטֵּ֥ה בְנֵ֥י אָשֵׁ֖ר לְמִשְׁפְּחוֹתָ֑ם הֶעָרִ֥ים הָאֵ֖לֶּה וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "This is the inheritance of the tribe of the children of Asher according to their families, these cities with their villages.",
+      "rendering": "This was the inheritance of the tribe of Asher, clan by clan — these cities with their surrounding settlements.",
+      "translator_notes": [
+        "Asher's allocation is complete — the northwestern coastal strip with aspirational boundaries reaching to Sidon and Tyre."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "לִבְנֵ֣י נַפְתָּלִ֔י יָצָ֛א הַגּוֹרָ֥ל הַשִּׁשִּׁ֖י לִבְנֵ֣י נַפְתָּלִ֑י לְמִשְׁפְּחוֹתָֽם׃",
+      "text_kjv": "The sixth lot came out to the children of Naphtali, even for the children of Naphtali according to their families.",
+      "rendering": "The sixth lot came out for Naphtali — for the Naphtalites, clan by clan.",
+      "translator_notes": [
+        "Naphtali received territory in the upper Galilee, the mountainous region north of the Sea of Galilee. Moses blessed Naphtali: 'satisfied with favor and full of the blessing of the LORD; possess the sea and the south' (Deuteronomy 33:23)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַיְהִ֣י גְבוּלָ֗ם מֵחֵ֙לֶף֙ מֵאֵל֣וֹן בְּצַעֲנַנִּ֔ים וַאֲדָמִ֥י הַנֶּ֖קֶב וְיַבְנְאֵ֑ל עַד לַקּ֔וּם וַיִּהְי֥וּ תוֹצְאֹתָ֖יו הַיַּרְדֵּֽן׃",
+      "text_kjv": "And their coast was from Heleph, from Allon to Zaanannim, and Adami, Nekeb, and Jabneel, unto Lakum; and the outgoings thereof were at Jordan:",
+      "rendering": "Their boundary ran from Heleph, from the oak at Zaanannim, through Adami-nekeb and Jabneel to Lakkum, ending at the Jordan.",
+      "translator_notes": [
+        "Me-Elon b'Tsa'anannim ('from the oak/terebinth at Zaanannim') — this landmark tree is the site where Jael will kill Sisera with a tent peg (Judges 4:11). The boundary description casually mentions a location that will become the site of one of the most dramatic events in the Judges period."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְשָׁ֨ב הַגְּב֥וּל יָ֙מָּה֙ אַזְנ֣וֹת תָּב֔וֹר וְיָצָ֥א מִשָּׁ֖ם חוּקֹ֑קָה וּפָגַ֨ע בִּזְבוּלֻ֜ן מִנֶּ֗גֶב וּבְאָשֵׁ֤ר פָּגַע֙ מִיָּ֔ם וּבִ֥יהוּדָ֛ה הַיַּרְדֵּ֖ן מִזְרַ֥ח הַשָּֽׁמֶשׁ׃",
+      "text_kjv": "And then the coast turneth westward to Aznothtabor, and goeth out from thence to Hukkok, and reacheth to Zebulun on the south side, and reacheth to Asher on the west side, and to Judah upon Jordan toward the sunrising.",
+      "rendering": "The boundary turned westward to Aznoth-tabor, and from there to Hukok. It bordered Zebulun on the south, Asher on the west, and the Jordan on the east.",
+      "translator_notes": [
+        "Uviyhudah ha-Yarden mizrach ha-shamesh ('and Judah at the Jordan toward the sunrise') — this puzzling reference to 'Judah upon the Jordan' in northern Galilee has produced many interpretations. It may refer to a Judahite enclave, a textual corruption, or a variant name for a geographic feature. The most common explanation is that it refers to territory associated with the Israelite settlement broadly rather than the specific tribe of Judah."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וְעָרֵ֖י מִבְצָ֑ר הַצִּדִּ֗ים צֵ֤ר וְחַמַּת֙ רַקַּ֣ת וְכִנָּ֔רֶת׃",
+      "text_kjv": "And the fenced cities are Ziddim, Zer, and Hammath, Rakkath, and Chinnereth,",
+      "rendering": "The fortified cities were Ziddim, Zer, Hammath, Rakkath, and Chinnereth,",
+      "translator_notes": [
+        "Chammat ('Hammath,' meaning 'hot spring') — likely the hot springs south of Tiberias on the Sea of Galilee. Kinneret ('Chinnereth') — the city that gives its name to the Sea of Chinnereth/Galilee, located on the northwestern shore of the lake. Rakkath — possibly the site later rebuilt as Tiberias."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַאֲדָמָ֥ה וְהָרָמָ֖ה וְחָצֽוֹר׃",
+      "text_kjv": "And Adamah, and Ramah, and Hazor,",
+      "rendering": "Adamah, Ramah, Hazor,",
+      "translator_notes": [
+        "Chatsor ('Hazor') — the great city Joshua burned (11:10-11) now appears in Naphtali's city list, indicating it has been rebuilt for Israelite settlement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְקֶ֥דֶשׁ וְאֶדְרֶ֖עִי וְעֵ֥ין חָצֽוֹר׃",
+      "text_kjv": "And Kedesh, and Edrei, and Enhazor,",
+      "rendering": "Kedesh, Edrei, En-hazor,",
+      "translator_notes": [
+        "Qedesh ('Kedesh') — Kedesh-naphtali, later designated as a city of refuge (20:7) and a Levitical city (21:32). It will be the staging ground for Barak's army in the battle against Sisera (Judges 4:6, 9-10)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וְיִרְאוֹן֙ וּמִגְדַּל אֵ֔ל חֳרֵ֖ם וּבֵ֣ית עֲנָ֑ת וּבֵ֣ית שֶׁ֔מֶשׁ עָרִ֥ים תְּשַׁע עֶשְׂרֵ֖ה וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "And Iron, and Migdalel, Horem, and Bethanath, and Bethshemesh; nineteen cities with their villages.",
+      "rendering": "Yiron, Migdal-el, Horem, Beth-anath, and Beth-shemesh — nineteen cities with their surrounding settlements.",
+      "translator_notes": [
+        "Beit Anat ('Beth-anath,' meaning 'house of Anath') — named after the Canaanite warrior goddess Anath. Both Beth-anath and Beth-shemesh ('house of the sun') in Naphtali are cities where the Canaanites were not driven out (Judges 1:33), another instance of incomplete conquest."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "זֹ֗את נַחֲלַ֛ת מַטֵּ֥ה בְנֵ֥י נַפְתָּלִ֖י לְמִשְׁפְּחוֹתָ֑ם הֶעָרִ֖ים וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "This is the inheritance of the tribe of the children of Naphtali according to their families, the cities and their villages.",
+      "rendering": "This was the inheritance of the tribe of Naphtali, clan by clan — the cities with their surrounding settlements.",
+      "translator_notes": [
+        "Naphtali's allocation is complete — nineteen cities in the upper Galilee, including Hazor, Kedesh, and the Sea of Galilee shore."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "לְמַטֵּ֥ה בְנֵ֥י דָ֖ן לְמִשְׁפְּחוֹתָ֑ם יָצָ֖א הַגּוֹרָ֥ל הַשְּׁבִיעִֽי׃",
+      "text_kjv": "And the seventh lot came out for the tribe of the children of Dan according to their families.",
+      "rendering": "The seventh lot came out for the tribe of Dan, clan by clan.",
+      "translator_notes": [
+        "Dan is the last tribe to receive its allotment by lot. Dan's original territory was in the central-western region between Judah, Ephraim, and Benjamin — bordering the Philistine coastal plain. The territory proved untenable, leading to Dan's migration north (Judges 18)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַיְהִ֛י גְּב֥וּל נַחֲלָתָ֖ם צׇרְעָ֣ה וְאֶשְׁתָּא֑וֹל וְעִ֥יר שֶׁ֖מֶשׁ׃",
+      "text_kjv": "And the coast of their inheritance was Zorah, and Eshtaol, and Irshemesh,",
+      "rendering": "The territory of their inheritance included Zorah, Eshtaol, Ir-shemesh,",
+      "translator_notes": [
+        "Tsor'ah v'Eshta'ol ('Zorah and Eshtaol') — the Samson cities (Judges 13:2, 25; 16:31). These towns in the Sorek Valley were also listed in Judah's territory (15:33), reflecting the overlapping claims in this contested border zone."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וְשַׁעֲלַבִּ֥ין וְאַיָּל֖וֹן וְיִתְלָֽה׃",
+      "text_kjv": "And Shaalabbin, and Ajalon, and Jethlah,",
+      "rendering": "Shaalabbin, Aijalon, Ithlah,",
+      "translator_notes": [
+        "Ayyalon ('Aijalon') — the valley where the moon stood still during Joshua's battle (10:12). This strategic valley controlling access from the coastal plain to the highlands is within Dan's allotment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וְאֵל֥וֹן וְתִמְנָ֖תָה וְעֶקְרֽוֹן׃",
+      "text_kjv": "And Elon, and Thimnathah, and Ekron,",
+      "rendering": "Elon, Timnah, Ekron,",
+      "translator_notes": [
+        "Timnah — where Samson's Philistine wife lived (Judges 14:1). Ekron — the northernmost Philistine city. Dan's territory theoretically extends into Philistine territory, but the Danites were unable to hold this land (v. 47; Judges 1:34-35)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וְאֶלְתְּקֵ֥ה וְגִבְּת֖וֹן וּבַעֲלָֽת׃",
+      "text_kjv": "And Eltekeh, and Gibbethon, and Baalath,",
+      "rendering": "Eltekeh, Gibbethon, Baalath,",
+      "translator_notes": [
+        "Gibbethon — a Philistine-held city where two Israelite kings will be assassinated during siege operations (1 Kings 15:27; 16:15-17), demonstrating how long the Danite/Israelite struggle against Philistine control in this region persisted."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וִיהֻ֥ד וּבְנֵ֥י בְרַ֖ק וְגַת רִמּֽוֹן׃",
+      "text_kjv": "And Jehud, and Beneberak, and Gathrimmon,",
+      "rendering": "Jehud, Bene-berak, Gath-rimmon,",
+      "translator_notes": [
+        "B'nei V'raq ('Bene-berak') — a town in the coastal plain, later the site of a significant rabbinic community."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וּמֵ֥י הַיַּרְק֖וֹן וְהָרַקּ֑וֹן עִם הַגְּב֖וּל מ֥וּל יָפֽוֹ׃",
+      "text_kjv": "And Mejarkon, and Rakkon, with the border before Japho.",
+      "rendering": "Me-jarkon, Rakkon, and the territory facing Joppa.",
+      "translator_notes": [
+        "Mei ha-Yarqon ('waters of the Yarkon') — the Yarkon River, which flows to the Mediterranean near modern Tel Aviv. Yafo ('Joppa') — the ancient port city on the Mediterranean coast, later the port from which Jonah will flee (Jonah 1:3) and where Peter will receive his vision of the clean and unclean animals (Acts 10:5-11)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וַיֵּצֵ֥א גְב֛וּל בְּנֵ֥י דָ֖ן מֵהֶ֑ם וַיַּעֲל֣וּ בְנֵ֣י דָ֡ן וַיִּלָּחֲמ֣וּ עִם לֶ֡שֶׁם וַיִּלְכְּד֣וּ אוֹתָ֡הּ וַיַּכּ֣וּ אוֹתָהּ֩ לְפִי חֶ֨רֶב וַיִּרְשׁ֤וּ אוֹתָהּ֙ וַיֵּשְׁב֣וּ בָ֔הּ וַיִּקְרְא֤וּ לְלֶ֙שֶׁם֙ דָּ֔ן כְּשֵׁ֖ם דָּ֥ן אֲבִיהֶֽם׃",
+      "text_kjv": "And the coast of the children of Dan went out too little for them: therefore the children of Dan went up to fight against Leshem, and took it, and smote it with the edge of the sword, and possessed it, and dwelt therein, and called Leshem, Dan, after the name of Dan their father.",
+      "rendering": "When the Danites lost their territory, they went up and attacked Leshem, captured it, and put it to the sword. They took possession of it, settled there, and renamed Leshem as Dan, after their ancestor Dan.",
+      "translator_notes": [
+        "Vayyetse g'vul b'nei Dan mehem ('the territory of Dan went out from them' or 'was too small for them') — the Hebrew is terse but the meaning is clear: Dan could not hold its allotted territory against Philistine and Amorite pressure (Judges 1:34-35). Vayyilachamu im Leshem ('they fought against Leshem') — the Danite migration to the far north, narrated in detail in Judges 18. Leshem (called Laish in Judges 18:7) was a peaceful, isolated city in the upper Jordan Valley that Dan conquered and renamed. Vayyiqr'u l'Leshem Dan k'shem Dan avihem ('they called Leshem Dan, after the name of Dan their father') — the renamed city gives rise to the expression 'from Dan to Beersheba' (the full extent of Israel, north to south)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "זֹ֗את נַחֲלַ֛ת מַטֵּ֥ה בְנֵ֥י דָ֖ן לְמִשְׁפְּחוֹתָ֑ם הֶעָרִ֥ים הָאֵ֖לֶּה וְחַצְרֵיהֶֽן׃",
+      "text_kjv": "This is the inheritance of the tribe of the children of Dan according to their families, these cities with their villages.",
+      "rendering": "This was the inheritance of the tribe of Dan, clan by clan — these cities with their surrounding settlements.",
+      "translator_notes": [
+        "Dan's allocation is nominally complete, but uniquely among the tribes, the Danites could not hold it and migrated to a completely different location. Their story is the most dramatic illustration of the gap between divine grant and human possession."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "וַיְכַלּ֥וּ לִנְחֹל אֶת הָאָ֖רֶץ לִגְבוּלֹתֶ֑יהָ וַיִּתְּנ֨וּ בְנֵ֧י יִשְׂרָאֵ֛ל נַחֲלָ֥ה לִיהוֹשֻׁ֖עַ בִּן נ֥וּן בְּתוֹכָֽם׃",
+      "text_kjv": "When they had made an end of dividing the land for inheritance by their coasts, the children of Israel gave an inheritance to Joshua the son of Nun among them:",
+      "rendering": "When they had finished distributing the land as an inheritance with its boundaries, the Israelites gave an inheritance to Joshua son of Nun among them.",
+      "translator_notes": [
+        "Vayyitt'nu v'nei Yisrael nachalah liYhoshua bin Nun b'tokham ('the Israelites gave an inheritance to Joshua among them') — Joshua receives his personal inheritance last, after every tribe has been allocated. The leader who distributed everyone else's land receives his own only when all others are settled. This selflessness contrasts with the Joseph tribes' complaint (17:14-18): Joshua asks for nothing while his kinsmen demand more."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "עַל פִּ֣י יְהוָ֗ה נָתְנ֤וּ לוֹ֙ אֶת הָעִ֣יר אֲשֶׁ֣ר שָׁאָ֔ל אֶת תִּמְנַ֥ת סֶ֖רַח בְּהַ֣ר אֶפְרָ֑יִם וַיִּבְנֶ֥ה אֶת הָעִ֖יר וַיֵּ֥שֶׁב בָּֽהּ׃",
+      "text_kjv": "According to the word of the LORD they gave him the city which he asked, even Timnathserah in mount Ephraim: and he built the city, and dwelt therein.",
+      "rendering": "By the LORD's command they gave him the city he requested — Timnath-serah in the hill country of Ephraim. He rebuilt the city and settled there.",
+      "translator_notes": [
+        "Al pi YHWH ('by the LORD's command') — even Joshua's personal inheritance is divinely authorized. Et ha-ir asher sha'al ('the city he requested') — Joshua asked for a specific city, not the best territory. Timnat Serach b'har Efrayim ('Timnath-serah in the hill country of Ephraim') — a modest city in his own tribal territory. The name means 'extra portion' or 'portion of the sun.' Vayyivneh et ha-ir vayyeshev bah ('he built the city and settled there') — Joshua had to rebuild the city himself, suggesting it was in poor condition. The conqueror of Canaan retires to a ruined town he must personally reconstruct. The humility is remarkable."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "אֵ֣לֶּה הַנְּחָלֹ֡ת אֲשֶׁ֣ר נִחֲל֣וּ אֶלְעָזָ֣ר הַכֹּהֵ֣ן ׀ וִיהוֹשֻׁ֪עַ בִּן נ֟וּן וְרָאשֵׁ֣י הָאָבוֹת֩ לְמַטּ֨וֹת בְּנֵ֧י יִשְׂרָאֵ֛ל בְּגוֹרָ֖ל בְּשִׁלֹ֑ה לִפְנֵ֣י יְהוָ֗ה פֶּ֚תַח אֹ֣הֶל מוֹעֵ֔ד וַיְכַלּ֕וּ מֵחַלֵּ֖ק אֶת הָאָֽרֶץ׃",
+      "text_kjv": "These are the inheritances, which Eleazar the priest, and Joshua the son of Nun, and the heads of the fathers of the tribes of the children of Israel, divided for an inheritance by lot in Shiloh before the LORD, at the door of the tabernacle of the congregation. So they made an end of dividing the country.",
+      "rendering": "These are the inheritances that Eleazar the priest, Joshua son of Nun, and the heads of the ancestral houses of the Israelite tribes distributed by lot at Shiloh before the LORD, at the entrance of the Tent of Meeting. So they finished dividing the land.",
+      "translator_notes": [
+        "B'goral b'Shiloh lifnei YHWH petach Ohel Mo'ed ('by lot at Shiloh before the LORD at the entrance of the Tent of Meeting') — the closing verse brings together every element of the allocation process: the authorized administrators (Eleazar, Joshua, tribal heads), the method (lot), the location (Shiloh), the divine presence (before the LORD), and the sacred site (the Tent of Meeting). Vay'khallu mechaleq et ha-arets ('they finished dividing the land') — the land distribution is complete. The promise to Abraham of land for his descendants has been fulfilled in its initial form — allocated by tribe, waiting for full possession."
+      ],
+      "reading_level": "10th grade"
+    }
+  ]
+}

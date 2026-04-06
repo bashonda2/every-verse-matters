@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Kings",
+    "chapter": 9,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "This chapter narrates the violent overthrow of the house of Ahab through Jehu son of Nimshi. Elisha sends one of the sons of the prophets to Ramoth-gilead with a flask of oil and specific instructions: find Jehu among the army commanders, take him into an inner room, pour the oil on his head, declare him anointed as king over Israel by the LORD, then open the door and flee without delay. The young prophet does exactly this, adding an oracle of total destruction: the LORD will strike down the entire house of Ahab in vengeance for the blood of the prophets and all the servants of the LORD killed by Jezebel. Every male of Ahab's line will be cut off. Jezebel's body will be eaten by dogs in the plot of ground at Jezreel, with no one to bury her. Jehu returns to his fellow officers, who press him to explain what the 'madman' wanted. When he tells them, they immediately spread their cloaks on the bare steps and blow the ram's horn, declaring 'Jehu is king!' Jehu rides furiously toward Jezreel, where Joram is recovering from his wounds and Ahaziah of Judah is visiting. The watchman on the tower reports a company approaching and identifies the driving as Jehu's — 'he drives like a madman.' Joram sends two mounted messengers in succession, each asking 'Is it peace?' Jehu refuses to answer and the messengers fall in behind him. Joram and Ahaziah ride out to meet Jehu personally, and the meeting occurs at the plot of Naboth the Jezreelite — the very land Ahab seized. Joram asks 'Is there peace, Jehu?' and Jehu answers: 'What peace, so long as the prostitution and sorcery of your mother Jezebel continue?' Joram turns to flee, shouting 'Treachery, Ahaziah!' Jehu draws his bow and strikes Joram between the shoulders; the arrow pierces his heart, and he collapses in his chariot. Jehu orders Bidkar his officer to throw the body into the field of Naboth, recalling the LORD's oracle against Ahab: 'I saw the blood of Naboth and his sons yesterday, and I will repay you on this plot.' Ahaziah flees but is struck on the ascent of Gur near Ibleam and dies at Megiddo; his servants carry his body to Jerusalem for burial. The chapter climaxes with Jezebel's death. When Jehu enters Jezreel, Jezebel paints her eyes, arranges her hair, and looks down from a window. She taunts him: 'Is it peace, Zimri, murderer of his master?' — comparing him to the usurper who lasted only seven days. Jehu looks up and calls: 'Who is on my side?' Two or three court officials look down. He orders them to throw her down. They do. Her blood spatters on the wall and on the horses, and the horses trample her. Jehu goes inside to eat and drink, then orders her burial since she is a king's daughter. But the burial party finds nothing but her skull, feet, and palms — the dogs have eaten her. Jehu declares this fulfills the word of the LORD through Elijah: dogs will eat Jezebel's flesh in the plot of Jezreel, and her body will be like dung on the surface of the field, so that no one can say 'This is Jezebel's grave.'",
+    "remarkable": "The chapter is the most dramatically violent in Kings, yet every act of violence is framed as prophetic fulfillment. Jehu is an instrument of divine judgment — anointed for this purpose — yet his methods are brutal and politically calculated. The repeated question 'Is it peace?' (ha-shalom) runs through the chapter as a thematic refrain: the messengers ask it (verses 17-19), Joram asks it (verse 22), and Jezebel weaponizes it as a taunt (verse 31). The answer is always no — there can be no peace while Ahab's house stands. The convergence at Naboth's field is the narrative's theological climax: Joram dies on the exact ground his father stole from Naboth, fulfilling 1 Kings 21:19 with geographic precision. Jezebel's death scene is unforgettable in its details — the painted eyes, the historical taunt, the defenestration, the dogs, the incomplete remains. She dies as she lived: composed, defiant, and politically astute to the end. Her comparison of Jehu to Zimri is both an insult and a prophecy (Zimri's coup lasted seven days), but Jehu's dynasty will last longer. The irony of her final dignity — painting her face for death — is among the most complex character moments in the Hebrew Bible.",
+    "friction": "Jehu's violence raises acute moral questions. He is anointed by prophetic authority and carries out declared divine judgment, yet his methods — deception, mass killing, and political opportunism — are later condemned by the prophet Hosea (Hosea 1:4: 'I will punish the house of Jehu for the blood of Jezreel'). The text of 2 Kings 9-10 presents Jehu's actions as fulfillment of divine word without explicit moral commentary, but the Hosea passage retroactively complicates the picture: was the judgment just but the instrument excessive? The killing of Ahaziah of Judah extends the judgment beyond the house of Ahab to the house of David — Ahaziah dies because of his family connection to Ahab, raising questions about collateral judgment. Jezebel's death-scene dignity and her historically accurate taunt about Zimri make her a more complex figure than simple villainy would allow. The narrator does not celebrate her death; the tone is closer to terrible fulfillment than triumph.",
+    "connections": "The anointing of Jehu fulfills the commission given to Elijah at Horeb in 1 Kings 19:16: 'anoint Jehu son of Nimshi as king over Israel.' Elijah did not perform this anointing himself; it passes through Elisha to an unnamed prophetic disciple — three generations of prophetic succession to accomplish one divine command. Joram's death in Naboth's field fulfills 1 Kings 21:19-24 with precise geographic detail. Jezebel's consumption by dogs fulfills 1 Kings 21:23. The 'Is it peace?' refrain connects to the broader biblical theology of shalom — true peace requires the removal of the systemic evil that Ahab's house represents. Jehu's 'furious driving' (verse 20) has become proverbial. The defenestration of Jezebel connects typologically to the fate of proud rulers brought low (Daniel 4, Isaiah 14). Hosea 1:4's condemnation of the blood of Jezreel creates a deliberate tension with this chapter, suggesting that divine judgment executed with excessive violence becomes its own sin."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וֶאֱלִישָׁ֣ע הַנָּבִ֗יא קָרָ֗א לְאַחַד֙ מִבְּנֵ֣י הַנְּבִיאִ֔ים וַיֹּ֣אמֶר ל֗וֹ חֲגֹ֤ר מׇתְנֶ֙יךָ֙ וְקַ֞ח פַּ֤ךְ הַשֶּׁ֙מֶן֙ הַזֶּ֣ה בְיָדֶ֔ךָ וְלֵ֖ךְ רָמֹ֥ת גִּלְעָֽד׃",
+      "text_kjv": "And Elisha the prophet called one of the children of the prophets, and said unto him, Gird up thy loins, and take this box of oil in thine hand, and go to Ramothgilead:",
+      "rendering": "Elisha the prophet summoned one of the sons of the prophets and told him, \"Tuck your cloak into your belt, take this flask of oil in your hand, and go to Ramoth-gilead.\"",
+      "translator_notes": [
+        "The instruction chagor motnekha ('gird your loins') means to prepare for urgent action by tucking the robe into the belt for speed. The pak ha-shemen ('flask of oil') is a small vessel — the instrument of anointing. Elisha sends a proxy rather than going himself, extending the prophetic chain from Elijah (who received the commission) to Elisha to an unnamed young prophet."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָבִיא",
+          "transliteration": "navi",
+          "rendered_as": "prophet",
+          "semantic_range": "prophet, spokesperson, one called to speak, proclaimer",
+          "note": "Elisha ha-navi sends one of the benei ha-nevi'im on a mission that will reshape Israel's political order. The prophetic office here functions as king-maker — the navi authorizes regime change by divine command."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וּבָ֣אתָ שָׁ֗מָּה וּרְאֵ֣ה שָׁם֮ יֵה֣וּא בֶן־יְהוֹשָׁפָ֣ט בֶּן־נִמְשִׁי֒ וּבָ֗אתָ וַהֲקֵמֹתוֹ֙ מִתּ֣וֹךְ אֶחָ֔יו וְהֵבֵיאתָ֣ אֹת֔וֹ חֶ֖דֶר בְּחָֽדֶר׃",
+      "text_kjv": "And when thou comest thither, look out there Jehu the son of Jehoshaphat the son of Nimshi, and go in, and make him arise up from among his brethren, and carry him to an inner chamber;",
+      "rendering": "When you get there, find Jehu son of Jehoshaphat son of Nimshi. Go in, get him to stand up from among his fellow officers, and bring him into an inner room.",
+      "translator_notes": [
+        "Jehu is identified by full patronymic: Yehu ben Yehoshafat ben Nimshi. He is among his echav ('brothers, fellow officers') — the military commanders at Ramoth-gilead. The instruction cheder be-chader ('room within a room, an inner chamber') ensures privacy for the anointing. The revolution must begin in secret."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְלָקַחְתָּ֤ פַךְ הַשֶּׁ֙מֶן֙ וְיָצַקְתָּ֣ עַל־רֹאשׁ֔וֹ וְאָ֣מַרְתָּ֔ כֹּ֚ה אָמַ֣ר יְהוָ֔ה מְשַׁחְתִּ֥יךָ לְמֶ֖לֶךְ אֶל־יִשְׂרָאֵ֑ל וּפָתַחְתָּ֥ הַדֶּ֖לֶת וְנַסְתָּ֥ה וְלֹ֥א תְחַכֶּֽה׃",
+      "text_kjv": "Then take the box of oil, and pour it on his head, and say, Thus saith the LORD, I have anointed thee king over Israel. Then open the door, and flee, and tarry not.",
+      "rendering": "Take the flask of oil, pour it on his head, and say, 'This is what the LORD says: I anoint you king over Israel.' Then open the door and run — do not wait!\"",
+      "translator_notes": [
+        "The anointing formula — meshachtikha le-melekh el Yisrael ('I have anointed you as king over Israel') — uses the verb mashach, the root of mashiach ('anointed one, messiah'). The instruction to flee immediately — ve-nastah ve-lo techakkeh ('flee and do not wait') — suggests the act is dangerous: if discovered prematurely, the young prophet's life is at risk."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָשַׁח",
+          "transliteration": "mashach",
+          "rendered_as": "anoint",
+          "semantic_range": "to smear, to anoint with oil, to consecrate, to commission, to install",
+          "note": "Mashach is the act of pouring oil to designate a king or priest for divine service. From this root comes mashiach ('anointed one'). Jehu's anointing marks him as God's chosen instrument for the destruction of Ahab's house — a devastating commission rather than a glorious one."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיֵּ֧לֶךְ הַנַּ֛עַר הַנַּ֥עַר הַנָּבִ֖יא רָמֹ֥ת גִּלְעָֽד׃",
+      "text_kjv": "So the young man, even the young man the prophet, went to Ramothgilead.",
+      "rendering": "So the young man — the young prophet — went to Ramoth-gilead.",
+      "translator_notes": [
+        "The phrase ha-na'ar ha-na'ar ha-navi ('the young man, the young man the prophet') doubles the word na'ar for emphasis, perhaps distinguishing him as both young in age and in prophetic rank. He carries one of the most consequential missions in Israelite history."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיָּבֹ֗א וְהִנֵּ֣ה שָׂרֵ֣י הַחַיִל֮ יֹשְׁבִים֒ וַיֹּ֕אמֶר דָּבָ֥ר לִ֛י אֵלֶ֖יךָ הַשָּׂ֑ר וַיֹּ֤אמֶר יֵהוּא֙ אֶל־מִ֣י מִכֻּלָּ֔נוּ וַיֹּ֖אמֶר אֵלֶ֥יךָ הַשָּֽׂר׃",
+      "text_kjv": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain.",
+      "rendering": "When he arrived, the army commanders were sitting together. He said, \"I have a message for you, commander.\" Jehu asked, \"For which one of us?\" He said, \"For you, commander.\"",
+      "translator_notes": [
+        "The scene is a military council — sarei ha-chayil yoshvim ('the commanders of the army sitting'). The young prophet's announcement davar li elekha ha-sar ('I have a word for you, the commander') does not specify which commander. Jehu's question el mi mi-kullanu ('to whom, from all of us?') prompts the specification: elekha ha-sar ('to you, commander')."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיָּ֙קׇם֙ וַיָּבֹ֣א הַבַּ֔יְתָה וַיִּצֹ֥ק הַשֶּׁ֖מֶן אֶל־רֹאשׁ֑וֹ וַיֹּ֣אמֶר ל֗וֹ כֹּֽה־אָמַ֤ר יְהוָה֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל מְשַׁחְתִּ֧יךָ לְמֶ֛לֶךְ אֶל־עַ֥ם יְהוָ֖ה אֶל־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And he arose, and went into the house; and he poured the oil on his head, and said unto him, Thus saith the LORD God of Israel, I have anointed thee king over the people of the LORD, even over Israel.",
+      "rendering": "Jehu stood up and went inside. The prophet poured the oil on his head and said to him, \"This is what the LORD, the God of Israel, says: 'I anoint you king over the LORD's people, over Israel.'\"",
+      "translator_notes": [
+        "The anointing formula is expanded from Elisha's instructions: meshachtikha le-melekh el am YHWH el Yisrael ('I anoint you king over the people of the LORD, over Israel'). The addition of am YHWH ('people of the LORD') frames the kingship as stewardship over God's own people. The young prophet then adds the oracle of judgment that Elisha did not explicitly instruct him to deliver."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָשַׁח",
+          "transliteration": "mashach",
+          "rendered_as": "anoint",
+          "semantic_range": "to smear, to anoint with oil, to consecrate, to commission, to install",
+          "note": "The anointing of Jehu fulfills the commission given at Horeb (1 Kings 19:16). Three prophetic generations — Elijah, Elisha, the unnamed young navi — participate in executing a single divine command, demonstrating that God's word persists across human lifetimes."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְהִ֨כִּיתָ֔ אֶת־בֵּ֥ית אַחְאָ֖ב אֲדֹנֶ֑יךָ וְנִקַּמְתִּ֞י דְּמֵ֣י ׀ עֲבָדַ֣י הַנְּבִיאִ֗ים וּדְמֵ֛י כׇּל־עַבְדֵ֥י יְהוָ֖ה מִיַּ֥ד אִיזָֽבֶל׃",
+      "text_kjv": "And thou shalt smite the house of Ahab thy master, that I may avenge the blood of my servants the prophets, and the blood of all the servants of the LORD, at the hand of Jezebel.",
+      "rendering": "You are to strike down the house of Ahab your master, so that I may avenge the blood of my servants the prophets and the blood of all the LORD's servants shed by Jezebel.",
+      "translator_notes": [
+        "The oracle charges Jehu with the destruction of beit Achav ('the house of Ahab'). The motive is vengeance for blood: demei avadai ha-nevi'im ('the blood of my servants the prophets') — referring to Jezebel's systematic killing of prophets (1 Kings 18:4, 13). The phrase mi-yad Izevel ('from the hand of Jezebel') places primary responsibility on the queen."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְאָבַ֖ד כׇּל־בֵּ֣ית אַחְאָ֑ב וְהִכְרַתִּ֤י לְאַחְאָב֙ מַשְׁתִּ֣ין בְּקִ֔יר וְעָצ֥וּר וְעָז֖וּב בְּיִשְׂרָאֵֽל׃",
+      "text_kjv": "For the whole house of Ahab shall perish: and I will cut off from Ahab him that pisseth against the wall, and him that is shut up and left in Israel:",
+      "rendering": "The entire house of Ahab will perish. I will cut off from Ahab every male — whether protected or abandoned — in Israel.",
+      "translator_notes": [
+        "The phrase mashtin be-qir ('one who urinates against a wall') is a crude idiom meaning 'every male.' The pair atsur ve-azuv ('shut up and abandoned, restrained and released') is a merism covering all males regardless of status — those in custody and those at liberty, those under protection and those on their own. No male descendant of Ahab will survive."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְנָ֣תַתִּ֔י אֶת־בֵּ֣ית אַחְאָ֔ב כְּבֵ֖ית יָרׇבְעָ֣ם בֶּן־נְבָ֑ט וּכְבֵ֖ית בַּעְשָׁ֥א בֶן־אֲחִיָּֽה׃",
+      "text_kjv": "And I will make the house of Ahab like the house of Jeroboam the son of Nebat, and like the house of Baasha the son of Ahijah:",
+      "rendering": "I will make the house of Ahab like the house of Jeroboam son of Nebat, and like the house of Baasha son of Ahijah.\"",
+      "translator_notes": [
+        "Both Jeroboam's and Baasha's dynasties were completely exterminated — Jeroboam's by Baasha (1 Kings 15:29) and Baasha's by Zimri (1 Kings 16:11-12). The comparison promises the same: total dynastic annihilation. The three destroyed dynasties form a pattern in the book of Kings: sin leads to prophetic sentence, which leads to total destruction through a new king."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְאֶת־אִיזֶ֜בֶל יֹאכְל֧וּ הַכְּלָבִ֛ים בְּחֵ֥לֶק יִזְרְעֶ֖אל וְאֵ֣ין קֹבֵ֑ר וַיִּפְתַּ֥ח הַדֶּ֖לֶת וַיָּנֹֽס׃",
+      "text_kjv": "And the dogs shall eat Jezebel in the portion of Jezreel, and there shall be none to bury her. And he opened the door, and fled.",
+      "rendering": "As for Jezebel — the dogs will eat her in the plot of land at Jezreel, and no one will bury her.\" Then the prophet opened the door and fled.",
+      "translator_notes": [
+        "The prophecy against Jezebel — yokhlu ha-kelavim be-cheleq Yizre'el ('the dogs will eat in the portion/plot of Jezreel') — will be fulfilled with precise detail in verses 35-37. The young prophet follows his instructions exactly: va-yiftach ha-delet va-yanos ('he opened the door and fled'). The anointing is complete; the revolution has begun."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְיֵה֗וּא יָצָא֙ אֶל־עַבְדֵ֣י אֲדֹנָ֔יו וַיֹּ֤אמֶר לוֹ֙ הֲשָׁל֔וֹם מַדּ֛וּעַ בָּ֥א הַמְשֻׁגָּ֖ע הַזֶּ֣ה אֵלֶ֑יךָ וַיֹּ֣אמֶר אֲלֵיהֶ֔ם אַתֶּ֛ם יְדַעְתֶּ֥ם אֶת־הָאִ֖ישׁ וְאֶת־שִׂיחֽוֹ׃",
+      "text_kjv": "Then Jehu came forth to the servants of his lord: and one said unto him, Is all well? wherefore came this mad fellow to thee? And he said unto them, Ye know the man, and his communication.",
+      "rendering": "When Jehu came back out to his master's officers, they asked him, \"Is everything all right? Why did that madman come to you?\" He said to them, \"You know the type — and the kind of thing they say.\"",
+      "translator_notes": [
+        "The officers' question ha-shalom ('is it peace/is everything well?') begins the chapter's refrain of the shalom question. They call the prophet ha-meshugga ha-zeh ('this madman') — the term meshugga was sometimes applied to ecstatic prophets, reflecting the thin line between prophetic behavior and perceived madness. Jehu's deflection — attem yedatem et ha-ish ve-et sicho ('you know the man and his talk') — is evasive: he tests whether to trust them."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, completeness, well-being, welfare, absence of conflict",
+          "note": "Ha-shalom ('is it peace?') begins the chapter's thematic refrain. The question will be asked repeatedly — by the officers here, by the messengers in verses 17-19, by Joram in verse 22, and by Jezebel in verse 31. Each time, the answer reveals that true shalom is impossible while Ahab's house persists."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיֹּאמְר֣וּ שֶׁ֔קֶר הַגֶּד־נָ֖א לָ֑נוּ וַיֹּ֗אמֶר כָּזֹ֤את וְכָזֹאת֙ אָמַ֣ר אֵלַ֔י לֵאמֹ֗ר כֹּ֚ה אָמַ֣ר יְהוָ֔ה מְשַׁחְתִּ֥יךָ לְמֶ֖לֶךְ אֶל־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And they said, It is false; tell us now. And he said, Thus and thus spake he to me, saying, Thus saith the LORD, I have anointed thee king over Israel.",
+      "rendering": "They said, \"That is not true! Tell us what he really said.\" He told them, \"This is what he said to me, word for word: 'This is what the LORD says: I anoint you king over Israel.'\"",
+      "translator_notes": [
+        "The officers' insistence — sheqer hagged na lanu ('falsehood! tell us, please') — means they do not accept his evasion. Jehu relents: kazot ve-khazot amar elai ('thus and thus he said to me'). He shares the core message — the anointing — which immediately triggers the officers' response in the next verse."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַֽיְמַהֲר֗וּ וַיִּקְחוּ֙ אִ֣ישׁ בִּגְד֔וֹ וַיָּשִׂ֥ימוּ תַחְתָּ֖יו אֶל־גֶּ֣רֶם הַמַּעֲל֑וֹת וַֽיִּתְקְעוּ֙ בַּשּׁוֹפָ֔ר וַיֹּאמְר֖וּ מָלַ֥ךְ יֵהֽוּא׃",
+      "text_kjv": "Then they hasted, and took every man his garment, and put it under him on the top of the stairs, and blew with trumpets, saying, Jehu is king.",
+      "rendering": "They hurried, each man taking his cloak and spreading it under Jehu on the bare steps. They blew the ram's horn and proclaimed, \"Jehu is king!\"",
+      "translator_notes": [
+        "The officers' response is instantaneous: va-yemaharu ('they hurried'). Spreading garments (bigdo, 'his garment') creates an impromptu throne on the gerem ha-ma'alot ('the bare/bone steps') — perhaps the steps of the building. The ram's horn (shofar) and the declaration malakh Yehu ('Jehu reigns/is king!') constitute a formal acclamation. The military coup is declared."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיִּתְקַשֵּׁ֞ר יֵה֣וּא בֶן־יְהוֹשָׁפָ֣ט בֶּן־נִמְשִׁ֗י אֶל־יוֹרָ֔ם וְיוֹרָם֙ הָיָ֣ה שֹׁמֵ֔ר בְּרָמֹ֥ת גִּלְעָ֖ד ה֣וּא וְכׇל־יִשְׂרָאֵ֑ל מִפְּנֵ֖י חֲזָאֵ֥ל מֶלֶךְ־אֲרָֽם׃",
+      "text_kjv": "So Jehu the son of Jehoshaphat the son of Nimshi conspired against Joram. (Now Joram had kept Ramothgilead, he and all Israel, because of Hazael king of Syria.",
+      "rendering": "So Jehu son of Jehoshaphat son of Nimshi conspired against Joram. Now Joram had been defending Ramoth-gilead — he and all Israel — against Hazael king of Aram.",
+      "translator_notes": [
+        "The verb va-yitqasher ('he conspired, he bound himself') is the standard term for political conspiracy in Kings. The parenthetical note explains the military situation: the army is at Ramoth-gilead facing Hazael, while the wounded king has gone to Jezreel to recover. The army is thus separated from the king — the ideal condition for a coup."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיָּשׇׁב֩ יְהוֹרָ֨ם הַמֶּ֜לֶךְ לְהִתְרַפֵּ֣א בְיִזְרְעֶ֗אל מִן־הַמַּכִּ֛ים אֲשֶׁ֧ר יַכֻּ֣הוּ אֲרַמִּ֗ים בְּהִלָּ֣חֲמ֔וֹ אֵ֖ת חֲזָאֵ֣ל מֶלֶךְ־אֲרָ֑ם וַיֹּ֤אמֶר יֵהוּא֙ אִם־יֵ֣שׁ נַפְשְׁכֶ֔ם אַל־יֵצֵ֤א פָלִיט֙ מִן־הָעִ֔יר לָלֶ֖כֶת לְהַגִּ֥יד בְּיִזְרְעֶֽאל׃",
+      "text_kjv": "But king Joram was returned to be healed in Jezreel of the wounds which the Syrians had given him, when he fought with Hazael king of Syria.) And Jehu said, If it be your minds, then let no fugitive go forth nor escape out of the city to go to tell it in Jezreel.",
+      "rendering": "King Joram had returned to Jezreel to recover from the wounds the Arameans had inflicted when he fought Hazael king of Aram. Jehu said, \"If this is truly your will, then do not let anyone escape from the city to go and report this in Jezreel.\"",
+      "translator_notes": [
+        "Jehu's command — al yetse falit min ha-ir ('let no fugitive go out from the city') — seals the city to prevent news from reaching Joram. Speed and surprise are essential. The phrase im yesh nafshekhem ('if it is your desire/will, if your soul is in it') tests the officers' commitment before proceeding."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיִּרְכַּ֤ב יֵהוּא֙ וַיֵּ֣לֶךְ יִזְרְעֶ֔אלָה כִּ֥י יוֹרָ֖ם שֹׁכֵ֣ב שָׁ֑מָּה וַאֲחַזְיָ֙הוּ֙ מֶ֣לֶךְ יְהוּדָ֔ה יָרַ֖ד לִרְא֥וֹת אֶת־יוֹרָֽם׃",
+      "text_kjv": "So Jehu rode in a chariot, and went to Jezreel; for Joram lay there. And Ahaziah king of Judah was come down to see Joram.",
+      "rendering": "Jehu mounted his chariot and rode to Jezreel, because Joram was lying there recovering. Ahaziah king of Judah had also come down to visit Joram.",
+      "translator_notes": [
+        "Both target kings are in one place: Joram shokhev shammah ('lying there, resting there') and Ahaziah yarad lir'ot ('had come down to visit'). The convergence that 8:29 set up now becomes the trap. Jehu rides toward both kings simultaneously."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְהַצֹּפֶ֞ה עֹמֵ֣ד ׀ עַל־הַמִּגְדָּ֣ל בְּיִזְרְעֶ֗אל וַיַּ֞רְא אֶת־שִׁפְעַ֤ת יֵהוּא֙ בְּבֹא֔וֹ וַיֹּ֕אמֶר שִׁפְעָ֖ה אֲנִ֣י רֹאֶ֑ה וַיֹּ֣אמֶר יְהוֹרָ֗ם קַ֥ח רַכָּ֛ב וּֽשְׁלַ֥ח לִקְרָאתָ֖ם וְיֹאמַ֥ר הֲשָׁלֽוֹם׃",
+      "text_kjv": "And there stood a watchman on the tower in Jezreel, and he spied the company of Jehu as he came, and said, I see a company. And Joram said, Take an horseman, and send to meet them, and let him say, Is it peace?",
+      "rendering": "The watchman standing on the tower in Jezreel saw Jehu's company approaching and called out, \"I see a troop coming!\" Joram said, \"Send a rider to meet them and ask, 'Is it peace?'\"",
+      "translator_notes": [
+        "The tsofeh ('watchman') on the migdal ('tower') spots the shif'at Yehu ('the company/multitude of Jehu'). Joram's response — qach rakkav u-shelach liqratam ve-yomar ha-shalom ('take a horseman and send to meet them and let him say: is it peace?') — initiates the 'Is it peace?' sequence. The question ha-shalom literally asks about the state of affairs: is all well, or is something wrong?"
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, completeness, well-being, welfare, absence of conflict",
+          "note": "Ha-shalom ('is it peace?') becomes the chapter's haunting refrain. The question asks whether the approaching force comes in peace or war. The answer — implied by every non-response — is that no shalom exists while the house of Ahab stands."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיֵּלֶךְ֩ רֹכֵ֨ב הַסּ֜וּס לִקְרָאת֗וֹ וַיֹּ֙אמֶר֙ כֹּֽה־אָמַ֣ר הַמֶּ֔לֶךְ הֲשָׁל֑וֹם וַיֹּ֣אמֶר יֵה֗וּא מַה־לְּךָ֤ וּלְשָׁלוֹם֙ סֹ֣ב אֶֽל־אַחֲרָ֔י וַיַּגֵּ֤ד הַצֹּפֶה֙ לֵאמֹ֔ר בָּ֥א הַמַּלְאָ֖ךְ עַד־הֵ֥ם וְלֹֽא־שָֽׁב׃",
+      "text_kjv": "So there went one on horseback to meet him, and said, Thus saith the king, Is it peace? And Jehu said, What hast thou to do with peace? turn thee behind me. And the watchman told, saying, The messenger came to them, but he cometh not again.",
+      "rendering": "A rider went out to meet him and said, \"The king asks: 'Is it peace?'\" Jehu said, \"What do you have to do with peace? Fall in behind me.\" The watchman reported, \"The messenger reached them but has not come back.\"",
+      "translator_notes": [
+        "Jehu's response — mah lekha u-le-shalom ('what is it to you and to peace?') — dismisses the question entirely. His command sov el acharai ('turn to behind me') co-opts the messenger. The watchman's observation — ba ha-mal'akh ad hem ve-lo shav ('the messenger came to them and did not return') — signals trouble."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיִּשְׁלַ֗ח רֹכֵ֣ב סוּס֮ שֵׁנִי֒ וַיָּבֹ֣א אֲלֵהֶ֔ם וַיֹּ֙אמֶר֙ כֹּֽה־אָמַ֣ר הַמֶּ֔לֶךְ שָׁל֑וֹם וַיֹּ֣אמֶר יֵה֔וּא מַה־לְּךָ֣ וּלְשָׁל֔וֹם סֹ֖ב אֶל־אַחֲרָֽי׃",
+      "text_kjv": "Then he sent out a second on horseback, which came to them, and said, Thus saith the king, Is it peace? And Jehu answered, What hast thou to do with peace? turn thee behind me.",
+      "rendering": "He sent a second rider, who reached them and said, \"The king asks: 'Is it peace?'\" Jehu said, \"What do you have to do with peace? Fall in behind me.\"",
+      "translator_notes": [
+        "The identical exchange with the second messenger heightens the tension. Both messengers are absorbed into Jehu's company. The repetition creates a pattern that the reader recognizes: Jehu is not answering because the answer will be delivered in person."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, completeness, well-being, welfare, absence of conflict",
+          "note": "The second ha-shalom question meets the same dismissal. Jehu's repeated mah lekha u-le-shalom ('what is it to you and to peace?') implies that the concept of shalom is irrelevant to these intermediaries — the reckoning is between Jehu and the king personally."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיַּגֵּ֤ד הַצֹּפֶה֙ לֵאמֹ֔ר בָּ֥א עַד־אֲלֵיהֶ֖ם וְלֹֽא־שָׁ֑ב וְהַמִּנְהָ֗ג כְּמִנְהַג֙ יֵה֣וּא בֶן־נִמְשִׁ֔י כִּ֥י בְשִׁגָּע֖וֹן יִנְהָֽג׃",
+      "text_kjv": "And the watchman told, saying, He came even unto them, and cometh not again: and the driving is like the driving of Jehu the son of Nimshi; for he driveth furiously.",
+      "rendering": "The watchman reported, \"He reached them but has not come back. And the driving — it is like the driving of Jehu son of Nimshi. He drives like a madman!\"",
+      "translator_notes": [
+        "The watchman identifies Jehu by his driving style: ha-minhag ke-minhag Yehu ben Nimshi ('the driving is like the driving of Jehu son of Nimshi'). The phrase ki ve-shigga'on yinhag ('for he drives in madness/fury') has become proverbial in Hebrew. The word shigga'on ('madness, frenzy') echoes the meshugga ('madman') used for the young prophet in verse 11. Madness frames the chapter — the prophet is called mad, the driving is called mad, yet both carry divine purpose."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיֹּ֤אמֶר יְהוֹרָם֙ אֱסֹ֔ר וַיֶּאְסֹ֖ר רִכְבּ֑וֹ וַיֵּצֵ֣א יְהוֹרָ֣ם מֶֽלֶךְ־יִשְׂרָאֵ֡ל וַאֲחַזְיָ֣הוּ מֶֽלֶךְ־יְהוּדָ֡ה אִ֣ישׁ בְּרִכְבּוֹ֩ וַיֵּצְא֨וּ לִקְרַ֜את יֵה֗וּא וַֽיִּמְצָאֻ֛הוּ בְּחֶלְקַ֥ת נָב֖וֹת הַיִּזְרְעֵאלִֽי׃",
+      "text_kjv": "And Joram said, Make ready. And his chariot was made ready. And Joram king of Israel and Ahaziah king of Judah went out, each in his chariot, and they went out against Jehu, and met him in the portion of Naboth the Jezreelite.",
+      "rendering": "Joram ordered, \"Hitch up my chariot!\" When it was ready, Joram king of Israel and Ahaziah king of Judah rode out, each in his own chariot, to meet Jehu. They met him at the plot of land that had belonged to Naboth the Jezreelite.",
+      "expanded_rendering": "The geographical detail is the theological heart of the chapter: va-yimtsa'uhu be-chelqat Navot ha-Yizre'eli ('they found him at the plot of Naboth the Jezreelite'). Of all the places the two kings could have encountered Jehu, they meet at the exact piece of ground that Ahab stole from Naboth after Jezebel orchestrated his judicial murder (1 Kings 21). The word chelqah ('plot, portion, field') is the same word used in Elijah's prophecy (1 Kings 21:19): 'In the place where dogs licked up Naboth's blood, dogs will lick up your blood.' The narrative geography is not accidental — it is fulfillment made spatial. Both kings ride out ish be-rikhbo ('each in his chariot'), a detail that underscores their vulnerability: they are separated, in the open, approaching a military commander with loyal troops behind him. They ride to their own judgment on the ground of their father's crime.",
+      "translator_notes": [
+        "The convergence at Naboth's field is one of the most dramatic fulfillments in the Hebrew Bible. The narrator specifies the location with precision — chelqat Navot ha-Yizre'eli — because this is where Elijah pronounced judgment on Ahab (1 Kings 21:17-24). The son now dies where the father sinned."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיְהִ֗י כִּרְא֤וֹת יְהוֹרָם֙ אֶת־יֵה֔וּא וַיֹּ֖אמֶר הֲשָׁל֣וֹם יֵה֑וּא וַיֹּ֗אמֶר מָ֣ה הַשָּׁל֔וֹם עַד־זְנוּנֵ֞י אִיזֶ֧בֶל אִמְּךָ֛ וּכְשָׁפֶ֖יהָ הָרַבִּֽים׃",
+      "text_kjv": "And it came to pass, when Joram saw Jehu, that he said, Is it peace, Jehu? And he answered, What peace, so long as the whoredoms of thy mother Jezebel and her witchcrafts are so many?",
+      "rendering": "When Joram saw Jehu, he said, \"Is it peace, Jehu?\" Jehu answered, \"What peace can there be as long as the prostitution and sorcery of your mother Jezebel go on?\"",
+      "translator_notes": [
+        "Joram's question — ha-shalom Yehu ('is it peace, Jehu?') — finally receives a direct answer. Jehu's response — mah ha-shalom ad zenunei Izevel immekha u-kheshafeiha ha-rabbim ('what is the peace while the harlotries of Jezebel your mother and her many sorceries continue?') — redefines the conversation. The zenunei ('harlotries, prostitution') refers to both literal cultic prostitution associated with Baal worship and the metaphorical 'prostitution' of idolatry. The keshafeiha ('her sorceries') adds the charge of occult practice. Jehu declares that shalom is structurally impossible while Jezebel's influence persists."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיַּהֲפֹ֤ךְ יְהוֹרָם֙ יָדָ֔יו וַיָּ֕נׇס וַיֹּ֖אמֶר אֶל־אֲחַזְיָ֑הוּ מִרְמָ֖ה אֲחַזְיָֽהוּ׃",
+      "text_kjv": "And Joram turned his hands, and fled, and said to Ahaziah, There is treachery, O Ahaziah.",
+      "rendering": "Joram turned his chariot to flee and shouted to Ahaziah, \"Treachery, Ahaziah!\"",
+      "translator_notes": [
+        "The phrase va-yahafokh Yehoram yadav ('Joram turned his hands') means he wrenched the reins to reverse the chariot. His cry mirmah Achazyahu ('treachery, Ahaziah!') warns the Judean king. The word mirmah ('deception, treachery') recognizes too late that Jehu's approach was not diplomatic but military."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְיֵהוּא֩ מִלֵּ֨א יָד֜וֹ בַקֶּ֗שֶׁת וַיַּ֤ךְ אֶת־יְהוֹרָם֙ בֵּ֣ין זְרֹעָ֔יו וַיֵּצֵ֥א הַחִצִּ֖י מִלִּבּ֑וֹ וַיִּכְרַ֖ע בְּרִכְבּֽוֹ׃",
+      "text_kjv": "And Jehu drew a bow with his full strength, and smote Jehoram between his arms, and the arrow went out at his heart, and he sunk down in his chariot.",
+      "rendering": "Jehu drew his bow with full force and struck Joram between the shoulder blades. The arrow went through his heart, and he slumped in his chariot.",
+      "translator_notes": [
+        "The phrase mille yado va-qeshet ('he filled his hand with the bow') means he drew the bow to its full extent. The arrow strikes bein zero'av ('between his arms/shoulders') — a shot from behind as Joram flees — and exits through the heart: va-yetse ha-chitsi mi-libbo ('the arrow came out from his heart'). Joram collapses: va-yikhra be-rikhbo ('he sank/collapsed in his chariot'). Like his father Ahab, who was struck in his chariot at Ramoth-gilead, the son is struck in his chariot fleeing from Jezreel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיֹּ֗אמֶר אֶל־בִּדְקַר֙ שָֽׁלִשׁ֔וֹ שָׂ֣א הַשְׁלִכֵ֔הוּ בְּחֶלְקַ֕ת שְׂדֵ֖ה נָב֣וֹת הַיִּזְרְעֵאלִ֑י כִּֽי־זְכֹ֞ר אֲנִ֣י וָ֠אַ֠תָּה אֵ֣ת רֹכְבִ֤ים צְמָדִים֙ אַחֲרֵ֣י אַחְאָ֣ב אָבִ֔יו וַיהוָ֕ה נָשָׂ֥א עָלָ֖יו אֶת־הַמַּשָּׂ֥א הַזֶּֽה׃",
+      "text_kjv": "Then said Jehu to Bidkar his captain, Take up, and cast him in the portion of the field of Naboth the Jezreelite: for remember how that, when I and thou rode together after Ahab his father, the LORD laid this burden upon him;",
+      "rendering": "Jehu said to Bidkar his officer, \"Pick him up and throw him into the field that belonged to Naboth the Jezreelite. Remember — you and I were riding together behind his father Ahab when the LORD pronounced this judgment against him:\"",
+      "translator_notes": [
+        "Jehu addresses Bidkar (his shalish, 'officer, third man') with a personal memory: they both rode as Ahab's escort when the prophetic oracle was delivered. The verb nasa ('lifted, bore') with massa ('burden, oracle') means the LORD 'raised this pronouncement against him.' Jehu witnessed Elijah's oracle against Ahab firsthand."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "אִם־לֹ֡א אֶת־דְּמֵ֣י נָב֣וֹת וְאֶת־דְּמֵ֣י בָנָ֡יו רָאִ֣יתִי אֶ֣מֶשׁ נְאֻם־יְהוָ֗ה וְשִׁלַּמְתִּ֨י לְךָ֜ בַּחֶלְקָ֤ה הַזֹּאת֙ נְאֻם־יְהוָ֔ה וְעַתָּ֗ה שָׂ֧א הַשְׁלִכֵ֛הוּ בַּחֶלְקָ֖ה כִּדְבַ֥ר יְהוָֽה׃",
+      "text_kjv": "Surely I have seen yesterday the blood of Naboth, and the blood of his sons, saith the LORD; and I will requite thee in this plat, saith the LORD. Now therefore take and cast him into the plat of ground, according to the word of the LORD.",
+      "rendering": "\"'I saw the blood of Naboth and the blood of his sons yesterday,' declares the LORD. 'I will repay you on this very plot of ground,' declares the LORD.\" So now — pick him up and throw him on the plot, according to the word of the LORD.\"",
+      "translator_notes": [
+        "The oracle quotes a prophetic word connecting Naboth's blood — and significantly, the blood of his sons (demei vanav) — to retribution on this exact chelqah ('plot'). The detail about Naboth's sons dying is not in 1 Kings 21 but is preserved here, revealing that Ahab's crime was even worse than the earlier account narrated: the sons were also killed to prevent inheritance claims. The word emesh ('yesterday') does not mean literally yesterday but 'recently, in the past' — from God's perspective, the crime is fresh."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, agreement, treaty, pact, binding obligation",
+          "note": "Though berit does not appear in the verse, the entire scene operates within covenant logic. Naboth's land was his nahalah — his covenantal inheritance from the LORD — which Ahab illegally seized. The blood shed to steal covenant land now demands covenant retribution on the same ground. The chelqah is both a physical field and a theological space where covenant violations are settled."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַאֲחַזְיָ֤הוּ מֶלֶךְ־יְהוּדָה֙ רָאָ֔ה וַיָּ֕נׇס דֶּ֖רֶךְ בֵּ֣ית הַגָּ֑ן וַיִּרְדֹּ֨ף אַחֲרָ֜יו יֵה֗וּא וַיֹּ֙אמֶר֙ גַּם־אֹת֣וֹ הַכֻּ֔הוּ אֶל־הַמֶּרְכָּבָ֛ה בְּמַעֲלֵ֥ה ג֖וּר אֲשֶׁ֣ר אֶת־יִבְלְעָ֑ם וַיָּ֥נׇס מְגִדּ֖וֹ וַיָּ֥מׇת שָֽׁם׃",
+      "text_kjv": "But when Ahaziah the king of Judah saw this, he fled by the way of the garden house. And Jehu followed after him, and said, Smite him also in the chariot. And they did so at the going up to Gur, which is by Ibleam: and he fled to Megiddo, and died there.",
+      "rendering": "When Ahaziah king of Judah saw this, he fled toward Beth-haggan. Jehu pursued him and ordered, \"Strike him down too — in the chariot!\" They struck him on the ascent of Gur, near Ibleam. He escaped to Megiddo and died there.",
+      "translator_notes": [
+        "Ahaziah flees derekh beit ha-gan ('the road to Beth-haggan, the garden house') — a town south of Jezreel. Jehu's order gam oto hakkuhu ('also him, strike him!') extends the judgment to the Judean king because of his family ties to Ahab's house. Ahaziah is struck at the ma'aleh Gur ('the ascent of Gur') near Ibleam but manages to reach Megiddo before dying. The 2 Chronicles 22:9 account provides additional details about his capture."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיַּרְכִּ֧בוּ אֹת֛וֹ עֲבָדָ֖יו יְרוּשָׁלָ֑͏ְמָה וַיִּקְבְּר֨וּ אֹת֧וֹ בִקְבֻרָת֛וֹ עִם־אֲבֹתָ֖יו בְּעִ֥יר דָּוִֽד׃",
+      "text_kjv": "And his servants carried him in a chariot to Jerusalem, and buried him in his sepulchre with his fathers in the city of David.",
+      "rendering": "His servants carried him by chariot to Jerusalem and buried him in his tomb with his ancestors in the City of David.",
+      "translator_notes": [
+        "Ahaziah receives proper royal burial in Jerusalem — biqvurato im avotav be-ir David ('in his burial place with his ancestors in the city of David'). Despite his alliance with Ahab's house, his Davidic lineage secures him a burial among the kings of Judah."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וּבִשְׁנַת֙ אַחַת־עֶשְׂרֵ֣ה שָׁנָ֔ה לְיוֹרָ֖ם בֶּן־אַחְאָ֑ב מָלַ֥ךְ אֲחַזְיָ֖ה עַל־יְהוּדָֽה׃",
+      "text_kjv": "And in the eleventh year of Joram the son of Ahab began Ahaziah to reign over Judah.",
+      "rendering": "Ahaziah had become king of Judah in the eleventh year of Joram son of Ahab.",
+      "translator_notes": [
+        "This retrospective synchronism places Ahaziah's accession in context. The eleventh year here differs from the twelfth year stated in 8:25, a well-known chronological difficulty in Kings that likely reflects different counting methods (accession-year vs. non-accession-year systems)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיָּב֥וֹא יֵה֖וּא יִזְרְעֶ֑אלָה וְאִיזֶ֣בֶל שָׁמְעָ֗ה וַתָּ֨שֶׂם בַּפּ֤וּךְ עֵינֶ֙יהָ֙ וַתֵּ֣יטֶב אֶת־רֹאשָׁ֔הּ וַתַּשְׁקֵ֖ף בְּעַ֥ד הַחַלּֽוֹן׃",
+      "text_kjv": "And when Jehu was come to Jezreel, Jezebel heard of it; and she painted her face, and tired her head, and looked out at a window.",
+      "rendering": "When Jehu entered Jezreel, Jezebel heard about it. She painted her eyes, arranged her hair, and looked down from a window.",
+      "translator_notes": [
+        "Jezebel's preparations are deliberate and regal: va-tasem ba-pukh eineiha ('she put antimony/kohl on her eyes') — cosmetic eye-paint — and va-teitiv et roshah ('she made her head good, she arranged her hair'). She does not hide or flee; she adorns herself for the confrontation. Whether this is royal dignity in the face of death, an attempt at seduction, or a calculated display of power is debated. The window (challon) becomes the site of her death."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְיֵה֖וּא בָּ֣א בַשָּׁ֑עַר וַתֹּ֣אמֶר הֲשָׁל֔וֹם זִמְרִ֖י הֹרֵ֥ג אֲדֹנָֽיו׃",
+      "text_kjv": "And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master?",
+      "rendering": "As Jehu came through the gate, she called out, \"Is it peace, Zimri — you who murdered your master?\"",
+      "translator_notes": [
+        "Jezebel's taunt is brilliant and cutting. She calls Jehu 'Zimri' — the usurper who assassinated King Elah but lasted only seven days before being overthrown and dying in a fire (1 Kings 16:9-18). The implied message: your coup will fail as Zimri's did. The question ha-shalom ('is it peace?') — the chapter's refrain — is weaponized as mockery. She simultaneously insults him, prophesies his failure, and demonstrates her own fearlessness. The phrase horeg adonav ('killer of his master') is factually accurate and morally damning."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, completeness, well-being, welfare, absence of conflict",
+          "note": "Jezebel's ha-shalom is the chapter's final and most loaded use of the word. She turns the question into a weapon: Zimri killed his master and found no shalom — only seven days of doomed rule followed by death by fire. The implication is that Jehu will find the same. History will prove her wrong about Jehu's dynasty (it lasts four generations) but right about the violence — Hosea 1:4 will condemn the blood of Jezreel."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיִּשָּׂ֤א פָנָיו֙ אֶל־הַ֣חַלּ֔וֹן וַיֹּ֕אמֶר מִ֥י אִתִּ֖י מִ֑י וַיַּשְׁקִ֣יפוּ אֵלָ֔יו שְׁנַ֥יִם שְׁלֹשָׁ֖ה סָרִיסִֽים׃",
+      "text_kjv": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs.",
+      "rendering": "He looked up at the window and called out, \"Who is on my side? Who?\" Two or three court officials looked down at him.",
+      "translator_notes": [
+        "Jehu's question mi itti mi ('who is with me? who?') bypasses Jezebel entirely and addresses the palace staff directly. The sarisim ('officials, eunuchs, court attendants') who look out are members of Jezebel's own household. Jehu appeals to their self-interest: declare your loyalty now or share her fate."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַיֹּ֖אמֶר שִׁמְט֑וּהָ וַֽיִּשְׁמְט֗וּהָ וַיִּ֤ז מִדָּמָהּ֙ אֶל־הַקִּ֣יר וְאֶל־הַסּוּסִ֔ים וַֽיִּרְמְסֶ֖נָּה׃",
+      "text_kjv": "And he said, Throw her down. So they threw her down: and some of her blood was sprinkled on the wall, and on the horses: and he trode her under foot.",
+      "rendering": "He said, \"Throw her down!\" They threw her down. Her blood splattered on the wall and on the horses, and they trampled her.",
+      "translator_notes": [
+        "The command shimtuha ('let her drop, throw her down') is one word. The execution is immediate: va-yishmetuha ('they threw her down'). The blood spattering — va-yiz mi-damah el ha-qir ve-el ha-susim ('some of her blood splashed on the wall and on the horses') — is graphic. The horses trample her: va-yirmesenah ('they trampled her'). Jezebel's death is violent, public, and degrading."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיָּבֹ֖א וַיֹּ֣אכַל וַיֵּ֑שְׁתְּ וַיֹּ֗אמֶר פִּקְדוּ־נָ֞א אֶת־הָאֲרוּרָ֤ה הַזֹּאת֙ וְקִבְר֔וּהָ כִּ֥י בַת־מֶ֖לֶךְ הִֽיא׃",
+      "text_kjv": "And when he was come in, he did eat and drink, and said, Go, see now this cursed woman, and bury her: for she is a king's daughter.",
+      "rendering": "Jehu went inside, ate and drank, and then said, \"Attend to that cursed woman and bury her — she is, after all, a king's daughter.\"",
+      "translator_notes": [
+        "Jehu eats and drinks first — a display of calm control. Only afterward does he order burial: piqdu na et ha-arurah ha-zot ve-qivruha ('attend to this cursed woman and bury her'). He calls her ha-arurah ('the cursed one') but acknowledges her status: ki vat melekh hi ('for she is a king's daughter') — Jezebel was a Sidonian princess, daughter of Ethbaal. Even in judgment, royal dignity requires burial."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיֵּלְכ֖וּ לְקׇבְרָ֑הּ וְלֹ֣א מָצְא֣וּ בָ֗הּ כִּ֚י אִם־הַגֻּלְגֹּ֣לֶת וְהָרַגְלַ֔יִם וְכַפּ֖וֹת הַיָּדָֽיִם׃",
+      "text_kjv": "And they went to bury her: but they found no more of her than the skull, and the feet, and the palms of her hands.",
+      "rendering": "They went to bury her, but all they found of her were the skull, the feet, and the palms of her hands.",
+      "translator_notes": [
+        "The burial party finds only fragments: ha-gulgolet ve-ha-raglayim ve-khappot ha-yadayim ('the skull and the feet and the palms of the hands') — the parts dogs typically leave because they are bone with minimal flesh. The rest of Jezebel's body has been consumed. The detail is both forensic and theological: even her remains are almost entirely erased."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיָּשֻׁ֗בוּ וַיַּגִּ֣ידוּ לוֹ֮ וַיֹּאמֶר֒ דְּבַר־יְהוָ֣ה ה֗וּא אֲשֶׁ֤ר דִּבֶּר֙ בְּיַד־עַבְדּ֔וֹ אֵלִיָּ֥הוּ הַתִּשְׁבִּ֖י לֵאמֹ֑ר בְּחֵ֣לֶק יִזְרְעֶ֔אל יֹאכְל֥וּ הַכְּלָבִ֖ים אֶת־בְּשַׂ֥ר אִיזָֽבֶל׃",
+      "text_kjv": "Wherefore they came again, and told him. And he said, This is the word of the LORD, which he spake by his servant Elijah the Tishbite, saying, In the portion of Jezreel shall dogs eat the flesh of Jezebel:",
+      "rendering": "They came back and told him. He said, \"This is the word of the LORD, which he spoke through his servant Elijah the Tishbite: 'In the plot at Jezreel, the dogs will eat Jezebel's flesh.'\"",
+      "translator_notes": [
+        "Jehu recognizes the fulfillment: dvar YHWH hu asher dibber be-yad avdo Eliyahu ha-Tishbi ('it is the word of the LORD that he spoke by the hand of his servant Elijah the Tishbite'). The prophecy from 1 Kings 21:23 has been accomplished. The word spoken years ago through Elijah has materialized in flesh-and-blood detail."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְהָיָ֞ה נִבְלַ֣ת אִיזֶ֗בֶל כְּדֹ֛מֶן עַל־פְּנֵ֥י הַשָּׂדֶ֖ה בְּחֵ֣לֶק יִזְרְעֶ֑אל אֲשֶׁ֤ר לֹֽא־יֹאמְרוּ֙ זֹ֣את אִיזָ֔בֶל׃",
+      "text_kjv": "And the carcase of Jezebel shall be as dung upon the face of the field in the portion of Jezreel; so that they shall not say, This is Jezebel's grave.",
+      "rendering": "\"Jezebel's remains will be like dung on the surface of the field in the plot at Jezreel, so that no one will be able to say, 'This is Jezebel's grave.'\"",
+      "translator_notes": [
+        "The final verse denies Jezebel even the dignity of a marked grave. Her nevelat ('carcass, corpse') will be ke-domen al penei ha-sadeh ('like dung on the face of the field') — a comparison that reduces her body to fertilizer. The concluding phrase — asher lo yomru zot Izevel ('so that they will not say this is Jezebel') — means there will be no memorial, no tomb, no pilgrimage site. The queen who filled the land with her presence leaves no trace on it. The prophetic word has the last word."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

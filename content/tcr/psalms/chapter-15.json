@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 15,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "An entrance liturgy that asks and answers the question: Who may dwell in God's presence? The psalm opens with a question addressed to the LORD — who may sojourn in your tent, who may dwell on your holy mountain? — and then provides a ten-part ethical profile of the person qualified for divine access. The answer is entirely moral, not ritual: the one who walks with integrity, speaks truth, refuses slander, keeps oaths even at personal cost, and does not exploit the vulnerable through usury or bribery.",
+    "remarkable": "The psalm's answer to 'Who may approach God?' contains no mention of sacrifice, no ritual requirement, no priestly qualification. The entrance requirements are entirely ethical. This is striking in a temple context, where one might expect purity laws or sacrificial prerequisites. Instead, the psalm describes a person characterized by integrity of conduct, truthful speech, loyal relationships, and economic justice. The structure — question (v. 1), ethical catalog (vv. 2-5b), promise (v. 5c) — mirrors the entrance liturgy format found also in Psalm 24:3-6 and Isaiah 33:14-16. The ten ethical qualities may intentionally echo the Ten Commandments, creating an 'entrance decalogue' for the sanctuary.",
+    "friction": "The prohibition against lending at interest (neshekh, v. 5) reflects the Torah's economic legislation in Exodus 22:25 and Leviticus 25:36-37, which forbade interest on loans to fellow Israelites (especially the poor). This was not a prohibition on all commerce but a protection against the exploitation of the vulnerable. In an agrarian economy, interest-bearing loans to the poor were a mechanism of dispossession — they transferred land and labor from the desperate to the wealthy. The psalm treats this economic practice as a disqualification from God's presence, placing it alongside bribery and slander as barriers to worship.",
+    "connections": "Psalm 24:3-6 asks the same entrance question and provides a parallel answer focused on clean hands and pure heart. Isaiah 33:14-16 adapts the form for a prophetic context. Ezekiel 18:5-9 expands the ethical catalog into a legal case study. The 'tent' (ohel) and 'holy mountain' (har qodesh) of verse 1 link to the wilderness tabernacle and to Mount Zion — God's portable and permanent dwellings respectively. The promise of the final line — 'the one who does these things will never be shaken' — uses the same verb (mot) that appears in Psalm 16:8, connecting the two psalms thematically."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "מִזְמ֗וֹר לְדָ֫וִ֥ד יְֽהוָ֗ה מִי־יָג֥וּר בְּאׇהֳלֶ֑ךָ מִֽי־יִ֝שְׁכֹּ֗ן בְּהַ֣ר קׇדְשֶֽׁךָ׃",
+      "text_kjv": "LORD, who shall abide in thy tabernacle? who shall dwell in thy holy hill?",
+      "rendering": "A psalm of David.\nLORD, who may sojourn in your tent?\nWho may dwell on your holy mountain?",
+      "translator_notes": [
+        "The 'tent' (ohel) recalls the wilderness tabernacle — God's portable dwelling among his people during the exodus. The 'holy mountain' (har qodesh) is Zion, where the temple stands. Together they span Israel's entire history of divine presence: the wandering tent and the settled mountain."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הַר קׇדְשֶׁךָ",
+          "transliteration": "har qodshekha",
+          "rendered_as": "your holy mountain",
+          "semantic_range": "holy mountain, sacred hill, the mountain set apart for God's dwelling",
+          "note": "har qodesh refers to Mount Zion, the site of the temple in Jerusalem. Holiness (qodesh) means set apart, separated for divine use. The mountain is holy not because of its geology but because God chose it as his dwelling place."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "הוֹלֵ֣ךְ תָּ֭מִים וּפֹעֵ֥ל צֶ֑דֶק וְדֹבֵ֥ר אֱ֝מֶ֗ת בִּלְבָבֽוֹ׃",
+      "text_kjv": "He that walketh uprightly, and worketh righteousness, and speaketh the truth in his heart.",
+      "rendering": "The one who walks with integrity,\nwho practices righteousness,\nand speaks truth in their heart.",
+      "translator_notes": [
+        "tamim ('integrity, wholeness') is the same word used to describe Noah (Genesis 6:9) and the sacrificial animal without blemish (Leviticus 1:3). The word connects moral integrity to ritual completeness — a life without hidden defect, like an offering without flaw."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תָּמִים",
+          "transliteration": "tamim",
+          "rendered_as": "integrity",
+          "semantic_range": "complete, whole, blameless, without defect, sound",
+          "note": "tamim describes completeness and soundness. When applied to a person's walk (conduct), it means living without duplicity or hidden corruption — what you see is what there is. The same word describes unblemished sacrificial animals, creating a link between moral and ritual wholeness."
+        },
+        {
+          "hebrew": "צֶדֶק",
+          "transliteration": "tsedeq",
+          "rendered_as": "righteousness",
+          "semantic_range": "righteousness, justice, what is right, conformity to the proper standard",
+          "note": "tsedeq is the masculine form (tsedaqah is feminine) and tends to emphasize the standard or norm of right action. Practicing tsedeq means doing what conforms to God's established order of justice."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "לֹֽא־רָגַ֨ל ׀ עַל־לְשֹׁנ֗וֹ לֹא־עָשָׂ֣ה לְרֵעֵ֣הוּ רָעָ֑ה וְ֝חֶרְפָּ֗ה לֹא־נָשָׂ֥א עַל־קְרֹבֽוֹ׃",
+      "text_kjv": "He that backbiteth not with his tongue, nor doeth evil to his neighbour, nor taketh up a reproach against his neighbour.",
+      "rendering": "They do not slander with their tongue,\ndo no evil to their neighbor,\nand bring no reproach against their close companion.",
+      "translator_notes": [
+        "The verb ragal ('to go about, to spy, to slander') literally means 'to foot it' — to go around peddling harmful speech about others. The three negatives in this verse define the ethical person by what they refuse to do: no malicious speech, no harmful action, no shaming of those close to them. The word qarov ('near one, close companion') intensifies the requirement — it is especially those nearest to us whom we must protect from reproach."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "נִבְזֶ֤ה ׀ בְּֽעֵינָ֗יו נִמְאָ֥ס וְאֶת־יִרְאֵ֣י יְהוָ֣ה יְכַבֵּ֑ד נִשְׁבַּ֥ע לְ֝הָרַ֗ע וְלֹ֣א יָמִֽר׃",
+      "text_kjv": "In whose eyes a vile person is contemned; but he honoureth them that fear the LORD. He that sweareth to his own hurt, and changeth not.",
+      "rendering": "In their eyes the reprobate is despised,\nbut they honor those who fear the LORD.\nThey swear to their own harm and do not go back on their word.",
+      "expanded_rendering": "This verse contains three qualities that reveal deep moral discernment. First: nivzeh be-einav nim'as ('the despised one is rejected in his eyes') — the righteous person recognizes and rejects what is morally contemptible, regardless of social status or power. Second: ve-et yir'ei YHVH yekhabbед ('but those who fear the LORD he honors') — honor is given not to the powerful or wealthy but to the God-fearing. This reverses the world's value system. Third — and perhaps the most demanding quality in the catalog: nishba le-hara ve-lo yamir ('he swears to his own disadvantage and does not change'). When this person makes an oath and fulfilling it turns out to be costly, they keep it anyway. Integrity of word trumps self-interest. This is the antithesis of the smooth-lipped deceivers in Psalm 12.",
+      "translator_notes": [
+        "The phrase nishba le-hara ve-lo yamir ('swears to his own harm and does not change') is one of the most ethically demanding statements in the Psalter. It describes a person for whom their word is more valuable than their comfort, wealth, or advantage. The verb yamir (from mur, 'to change, exchange') means they will not swap out their commitment for a more convenient one."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יִרְאֵי יְהוָה",
+          "transliteration": "yir'ei YHVH",
+          "rendered_as": "those who fear the LORD",
+          "semantic_range": "those who revere, worship, stand in awe of the LORD",
+          "note": "yir'ei YHVH ('fearers of the LORD') is a social and theological category in the Psalms — the community of people defined by their reverent posture toward God. Honoring these people over the powerful is an act of moral counter-valuation."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כַּסְפּ֤וֹ ׀ לֹא־נָתַ֣ן בְּנֶשֶׁךְ֮ וְשֹׁ֥חַד עַל־נָקִ֢י לֹ֫א לָ֫קָ֥ח עֹשֵׂה־אֵ֑לֶּה לֹ֖א יִמּ֣וֹט לְעוֹלָֽם׃",
+      "text_kjv": "He that putteth not out his money to usury, nor taketh reward against the innocent. He that doeth these things shall never be moved.",
+      "rendering": "They do not lend their money at interest,\nnor accept a bribe against the innocent.\nWhoever does these things will never be shaken.",
+      "expanded_rendering": "The final two ethical requirements address economic justice. kaspo lo natan be-neshekh ('his money he does not give at interest') — neshekh literally means 'a bite,' picturing interest as something that gnaws away at the borrower's substance. The Torah prohibited charging interest to fellow Israelites, especially the poor (Exodus 22:25, Leviticus 25:36-37). This is not a blanket prohibition on commerce but a protection of the vulnerable from predatory lending. The second requirement: ve-shochad al naqi lo laqach ('and a bribe against the innocent he does not take') — the bribe (shochad) perverts justice by making the innocent appear guilty. These two prohibitions target the economic mechanisms by which the powerful exploit the weak. The psalm concludes with its only promise: oseh elleh lo yimmot le-olam ('whoever does these things will never be shaken'). The verb mot ('to totter, shake, be moved') describes instability and collapse. The person who meets these ethical requirements stands on ground that will not give way — ever.",
+      "translator_notes": [
+        "neshekh ('interest, usury') literally means 'a bite' — the image is of money that bites back, consuming the borrower. In the ancient world, interest-bearing loans to the poor were instruments of dispossession. The prohibition protects community solidarity against the centrifugal force of economic exploitation.",
+        "The final promise — 'will never be shaken' (lo yimmot le-olam) — does not promise prosperity or ease. It promises stability, rootedness, an unshakeable foundation. This is the same verb used in Psalm 16:8 ('I will not be shaken') and Psalm 46:5 ('it will not be shaken')."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נֶשֶׁךְ",
+          "transliteration": "neshekh",
+          "rendered_as": "interest",
+          "semantic_range": "interest, usury, the bite of a loan",
+          "note": "neshekh derives from nashakh ('to bite') and describes the way interest consumes the borrower. The Torah's prohibition (Exodus 22:25, Deuteronomy 23:19-20) protects the poor from economic predation by fellow Israelites."
+        }
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 54,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "A compact psalm of lament and trust, attributed to David when the Ziphites betrayed his hiding place to Saul. David cries out to God for salvation by God's name and might, declares that strangers have risen against him, and concludes with confident thanksgiving for deliverance.",
+    "remarkable": "This is one of the shortest lament psalms in the Psalter, yet it contains a complete arc: invocation (vv. 3-4), complaint (v. 5), confession of trust (v. 6), and thanksgiving (vv. 8-9). The psalm's efficiency is itself a theological statement — David does not elaborate, explain, or negotiate. He names the crisis, names God, and moves directly to trust. The opening plea 'save me by your name' (v. 3) is particularly striking: David asks God to deploy his name (shem) as a weapon. In the ancient Near East, a name carried the full weight of its bearer's identity, power, and reputation. To be saved 'by God's name' is to be saved by everything God is.",
+    "friction": "Hebrew versification counts the superscription as verses 1-2, so the prayer begins at verse 3. The Ziphites were residents of Ziph in the hill country of Judah — David's own tribal territory. Their betrayal was especially bitter because they were his kinsmen. The word zarim ('strangers, foreigners') in verse 5 is puzzling if the Ziphites were Judahites; some manuscripts read zedim ('arrogant ones') instead, which better fits the context of internal betrayal. The WLC preserves zarim.",
+    "connections": "The Ziphite betrayal is narrated in 1 Samuel 23:19-24 and 26:1. David's appeal to God's name (shem) connects to the theology of the divine name in Exodus 3:13-15 and the third commandment (Exodus 20:7). The pattern of lament-to-praise mirrors Psalm 13 and Psalm 22. The voluntary thank offering (nedavah) in the closing verse connects to the freewill offering legislation in Leviticus 7:16."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "לַמְנַצֵּ֥חַ בִּנְגִינֹ֗ת מַשְׂכִּ֥יל לְדָוִֽד׃",
+      "text_kjv": "To the chief Musician on Neginoth, Maschil, A Psalm of David,",
+      "rendering": "For the director of music. With stringed instruments.\nA maskil of David.",
+      "translator_notes": [
+        "neginot ('stringed instruments') indicates accompaniment by lyres, harps, or similar instruments. The combination of instrumental accompaniment with the maskil classification suggests a reflective, meditative performance style."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "בְּבֹ֣א הַ֭זִּיפִים וַיֹּאמְר֣וּ לְשָׁא֑וּל הֲלֹ֥א דָ֝וִ֗ד מִסְתַּתֵּ֥ר עִמָּֽנוּ׃",
+      "text_kjv": "when the Ziphims came and said to Saul, Doth not David hide himself with us?",
+      "rendering": "When the Ziphites came and said to Saul,\n\"Is not David hiding among us?\"",
+      "translator_notes": [
+        "The Ziphites were inhabitants of Ziph, a town in the southern hill country of Judah (Joshua 15:55). They informed Saul of David's location twice (1 Samuel 23:19 and 26:1). As fellow Judahites, their betrayal was a kin-against-kin violation — the very people who should have protected David turned him over to his persecutor."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אֱ֭לֹהִים בְּשִׁמְךָ֣ הוֹשִׁיעֵ֑נִי וּבִגְבוּרָתְךָ֥ תְדִינֵֽנִי׃",
+      "text_kjv": "Save me, O God, by thy name, and judge me by thy strength.",
+      "rendering": "God, save me by your name,\nand vindicate me by your might.",
+      "expanded_rendering": "The prayer is direct and stripped of preamble. Two requests stand in parallel: save me be-shimkha ('by your name') and vindicate me bi-gevuratekha ('by your might'). Name and might are not separate attributes but two facets of the same reality — God's name is his identity, and his might is that identity in action. The verb hoshi'eni ('save me') is from yasha, the root that gives us 'Joshua' and 'Jesus' — deliverance, rescue, the creation of space where there was constriction. The verb tedineni ('vindicate me, judge me') asks God to render a legal verdict in David's favor — not because David is sinless but because his cause is just against those who seek his life without cause.",
+      "translator_notes": [
+        "tedineni ('judge me') in this context means 'render a just verdict on my behalf' — vindication, not condemnation. David is asking God to adjudicate between him and his enemies and to demonstrate by his actions whose side justice is on."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "אֱ֭לֹהִים שְׁמַ֣ע תְּפִלָּתִ֑י הַ֝אֲזִ֗ינָה לְאִמְרֵי־פִֽי׃",
+      "text_kjv": "Hear my prayer, O God; give ear to the words of my mouth.",
+      "rendering": "God, hear my prayer;\ngive ear to the words of my mouth.",
+      "translator_notes": [
+        "The two verbs — shema ('hear') and ha'azinah ('give ear, listen attentively') — form an intensifying parallel. The first asks God to receive the prayer; the second asks for focused, deliberate attention. imrei fi ('words of my mouth') is a formal expression that elevates the speech from casual request to solemn petition."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כִּ֤י זָ֘רִ֤ים ׀ קָ֤מוּ עָלַ֗י וְ֭עָרִיצִים בִּקְשׁ֣וּ נַפְשִׁ֑י לֹ֤א שָׂ֨מוּ אֱלֹהִ֖ים לְנֶגְדָּ֣ם סֶֽלָה׃",
+      "text_kjv": "For strangers are risen up against me, and oppressors seek after my soul: they have not set God before them. Selah.",
+      "rendering": "For strangers have risen against me,\nand ruthless ones seek my life.\nThey have not set God before them.\nSelah.",
+      "expanded_rendering": "David identifies his enemies with two terms: zarim ('strangers, foreigners') and aritsim ('ruthless ones, tyrants'). The word zarim is textually debated — some manuscripts read zedim ('arrogant, presumptuous ones'), which fits the Ziphite context better since they were not foreigners. Whether zarim or zedim, the point is the same: these people have risen against David (qamu alai) and seek his nefesh ('life, soul, being'). The root diagnosis follows: lo samu Elohim le-negdam ('they have not set God before them'). Their violence flows from the same source as the fool's corruption in Psalm 53 — a practical dismissal of God. If God were real to them, they would not hunt an innocent man.",
+      "translator_notes": [
+        "The textual variant zarim/zedim matters for historical context but not for theology. Whether the betrayers are 'strangers' (distanced from David despite being kinsmen) or 'arrogant ones' (acting with presumptuous disregard), the result is the same: they act without reference to God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "הִנֵּ֣ה אֱ֭לֹהִים עֹזֵ֣ר לִ֑י אֲ֝דֹנָ֗י בְּסֹמְכֵ֥י נַפְשִֽׁי׃",
+      "text_kjv": "Behold, God is mine helper: the Lord is with them that uphold my soul.",
+      "rendering": "Look — God is my helper;\nthe Lord is among those who sustain my life.",
+      "expanded_rendering": "The psalm pivots from lament to trust with the word hinneh ('look!'). David declares two things: Elohim ozer li ('God is my helper') and Adonai be-somkhei nafshi ('the Lord is among those who sustain my life'). The shift is abrupt — there is no narrative of deliverance, no answered prayer, no changed circumstance. David simply decides to state what he knows to be true regardless of what he currently experiences. The word ozer ('helper') is not demeaning — ezer is used of God himself throughout the Hebrew Bible (Psalm 33:20, 70:5, 121:1-2) and of the woman in Genesis 2:18 (ezer kenegdo). It describes someone whose help is essential, not optional.",
+      "translator_notes": [
+        "be-somkhei nafshi ('among those who sustain my life') uses the participle of samakh ('to support, uphold, lean upon'). God is counted among those who prop David up — the same verb used in Psalm 51:14 for God sustaining David with a willing spirit."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "יָשִׁ֣יב הָ֭רַע לְשֹׁרְרָ֑י בַּ֝אֲמִתְּךָ֗ הַצְמִיתֵֽם׃",
+      "text_kjv": "He shall reward evil unto mine enemies: cut them off in thy truth.",
+      "rendering": "He will return the evil upon my enemies;\nin your faithfulness, destroy them.",
+      "expanded_rendering": "David asks God to apply the principle of measure-for-measure justice: yashiv ha-ra le-shorerai ('he will return the evil upon those who watch me with hostility'). The word shorerai ('my watchers, my lurkers') comes from shur ('to watch, to observe with hostile intent') — these are people who stalk David, observe his movements, and report to Saul. The evil they planned will return to them. The instrument of this return is God's emet ('faithfulness, truth, reliability'). God's faithfulness is not passive — it actively destroys (hatsmitem, 'annihilate them, silence them permanently') those who war against the ones God has chosen to protect.",
+      "translator_notes": [
+        "hatsmitem ('destroy them, cut them off') is from tsamat, meaning to silence, to put an end to, to annihilate. It is a severe verb — David is not asking for mild correction but for the permanent elimination of the threat. This reflects the life-or-death reality of his situation: the Ziphites' information could lead to his execution."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֱמוּנָה",
+          "transliteration": "emunah",
+          "rendered_as": "faithfulness",
+          "semantic_range": "faithfulness, reliability, steadfastness, truth, trustworthiness",
+          "note": "Here the related form emet ('truth, faithfulness') appears. God's faithfulness is the basis for his intervention — he is reliable and will act consistently with his character and his promises."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "בִּנְדָבָ֥ה אֶזְבְּחָה־לָּ֑ךְ א֤וֹדֶ֖ה שִּׁמְךָ֥ יְהֹוָ֗ה כִּי־טֽוֹב׃",
+      "text_kjv": "I will freely sacrifice unto thee: I will praise thy name, O LORD; for it is good.",
+      "rendering": "With a freewill offering I will sacrifice to you;\nI will give thanks to your name, LORD, for it is good.",
+      "translator_notes": [
+        "The shift from Elohim throughout the psalm to YHWH ('LORD') in the final verse is unusual in the Elohistic Psalter (Psalms 42-83). It may preserve the original text before Elohistic editing, or it may be a deliberate use of the covenant name at the psalm's climax — the moment of most intimate address."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "כִּ֣י מִכׇּל־צָ֭רָה הִצִּילָ֑נִי וּ֝בְאֹיְבַ֗י רָאֲתָ֥ה עֵינִֽי׃",
+      "text_kjv": "For he hath delivered me out of all trouble: and mine eye hath seen his desire upon mine enemies.",
+      "rendering": "For he has delivered me from every trouble,\nand my eye has looked on my enemies in triumph.",
+      "translator_notes": [
+        "The final verse speaks in the past tense — hitsilani ('he has delivered me') — though the deliverance may not yet have happened. This is the 'prophetic perfect,' a Hebrew convention where future events are described in past tense because their certainty is so complete that they can be spoken of as already accomplished. David's trust in God's faithfulness is so firm that he speaks of rescue as a completed fact."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

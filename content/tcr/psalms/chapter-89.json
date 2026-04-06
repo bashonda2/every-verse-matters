@@ -1,0 +1,591 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 89,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The longest and most theologically weighty psalm of Book III, attributed to Ethan the Ezrahite. It moves in three massive sections. The first (vv. 2-19) is a hymn celebrating God's faithful love and faithfulness, His cosmic power over the sea and the heavenly council, and the blessedness of the people who know the festal shout. The second (vv. 20-38) recounts God's covenant with David in elaborate detail — the anointing, the promise of an unbreakable dynasty, the father-son relationship, the sworn oath that David's throne will endure forever. The third (vv. 39-52) is a devastating lament: God has apparently renounced the covenant, cast off the anointed one, broken down the walls, and handed David's enemies the victory. The psalm closes with a raw question: Where is Your former faithful love, O Lord, which You swore to David in Your faithfulness?",
+    "remarkable": "This psalm is the great collision between theology and history. The first two sections build the most elaborate case for God's faithfulness in the entire Psalter: chesed is mentioned seven times, emunah five times, berit three times. God swore an oath. God made a covenant. God promised with His holiness. The dynasty would last like the sun and moon. And then the third section dismantles everything the first two built. The anointed one is rejected. The crown is profaned in the dust. The walls are breached. The enemies rejoice. The psalmist does not resolve the contradiction — he holds both realities in tension: God's sworn promise and God's apparent abandonment. This is not doubt; it is the most honest form of faith: demanding that God account for the gap between what He said and what has happened.",
+    "friction": "The identity of Ethan the Ezrahite is debated — 1 Kings 4:31 names Ethan as a legendary wise man, and 1 Chronicles 15:19 names an Ethan as a Levitical musician alongside Heman and Asaph. The historical occasion of the lament section is also debated: it could reflect the Babylonian destruction of Jerusalem (586 BCE), the humiliation of a specific king, or the general crisis of the Davidic dynasty's end. The psalm's placement at the end of Book III may be deliberate — it serves as the crisis that Book IV (beginning with Moses's Psalm 90) must address. The doxology in verse 53 is not part of the psalm but a liturgical addition marking the end of Book III.",
+    "connections": "The Davidic covenant language draws heavily from 2 Samuel 7 (Nathan's oracle) and Psalm 2. The cosmic hymn section echoes Psalm 74:12-17 (God's victory over the sea) and Job 26:12 (God crushing Rahab). The lament section parallels Lamentations 2 and 5. The phrase 'Where is Your former chesed?' (v. 50) echoes Isaiah 63:15 and anticipates the theological crisis of exile. The closing doxology (v. 53) connects to the similar doxologies ending Books I-IV (Psalms 41:14, 72:18-19, 106:48)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "מַ֝שְׂכִּ֗יל לְאֵיתָ֥ן הָאֶזְרָחִֽי׃",
+      "text_kjv": "Maschil of Ethan the Ezrahite.",
+      "rendering": "A maskil of Ethan the Ezrahite.",
+      "translator_notes": [
+        "Ethan the Ezrahite appears in 1 Kings 4:31 as one of the wisest men of his era — surpassed only by Solomon. The pairing of Psalm 88 (Heman the Ezrahite) with Psalm 89 (Ethan the Ezrahite) places two Ezrahite wisdom figures side by side: one in unreleived darkness, the other in the tension between covenant promise and covenant crisis."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "חַסְדֵ֣י יְ֭הוָה עוֹלָ֣ם אָשִׁ֑ירָה לְדֹ֥ר וָ֝דֹ֗ר אוֹדִ֤יעַ אֱמוּנָתְךָ֬ בְּפִֽי׃",
+      "text_kjv": "I will sing of the mercies of the LORD for ever: with my mouth will I make known thy faithfulness to all generations.",
+      "rendering": "I will sing of the faithful love of the LORD forever;\nwith my mouth I will make known Your faithfulness\nto every generation.",
+      "expanded_rendering": "The psalm opens with its two governing words: chesed and emunah. Chasdei YHWH olam ashirah ('the faithful love of the LORD I will sing forever') — chesed is not merely discussed but sung. The verb ashirah ('I will sing') commits the psalmist to ongoing, eternal proclamation. And le-dor va-dor odia emunatekha be-fi ('to generation after generation I will make known Your faithfulness with my mouth') — emunah ('faithfulness') will be transmitted orally across generations. The psalmist plants these two words like pillars at the entrance of the psalm. Everything that follows — the cosmic hymn, the Davidic covenant, the devastating lament — will be measured against these two claims: that God's chesed is eternal and His emunah spans every generation. The lament section will ask whether this is still true.",
+      "translator_notes": [
+        "The word olam ('forever, eternity') applied to chesed is the psalm's foundational claim — and its most contested one. If chesed is forever, how do you explain the anointed one lying profaned in the dust? The psalm does not answer this question. It holds the claim and the contradiction together."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "faithful love, loyal love, lovingkindness, covenant loyalty, steadfast devotion, mercy",
+          "note": "chesed appears seven times in this psalm (vv. 2, 3, 15, 25, 29, 34, 50) — a number of completeness. It is the psalm's dominant theme: God's covenant love, sworn and established, which the lament section then questions. The seven occurrences trace an arc from confident proclamation (v. 2) to anguished demand (v. 50: 'Where is Your former chesed?')."
+        },
+        {
+          "hebrew": "אֱמוּנָה",
+          "transliteration": "emunah",
+          "rendered_as": "faithfulness",
+          "semantic_range": "faithfulness, reliability, steadfastness, firmness, trustworthiness",
+          "note": "emunah appears five times (vv. 2, 3, 6, 9, 50), always paired with or parallel to chesed. If chesed is the content of God's commitment (love), emunah is its quality (reliability). Together they form the double foundation of the Davidic covenant. The psalm asks whether that foundation has cracked."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "כִּֽי־אָמַ֗רְתִּי עוֹלָ֣ם חֶ֣סֶד יִבָּנֶ֑ה שָׁ֝מַ֗יִם תָּכִ֤ן אֱמוּנָתְךָ֬ בָהֶֽם׃",
+      "text_kjv": "For I have said, Mercy shall be built up for ever: thy faithfulness shalt thou establish in the very heavens.",
+      "rendering": "For I said, 'Faithful love is built to last forever;\nin the heavens You establish Your faithfulness.'",
+      "translator_notes": [
+        "The verb yibbaneh ('is built, is constructed') from banah applies architectural language to chesed — faithful love is not a feeling but a structure, something built and maintained. The parallel places emunah in the heavens (shamayim), making faithfulness a cosmic reality, anchored above the reach of earthly disruption. The psalmist's claim is that chesed and emunah are as permanent as the sky itself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "כָּרַ֣תִּי בְ֭רִית לִבְחִירִ֑י נִ֝שְׁבַּ֗עְתִּי לְדָוִ֥ד עַבְדִּֽי׃",
+      "text_kjv": "I have made a covenant with my chosen, I have sworn unto David my servant,",
+      "rendering": "I have cut a covenant with My chosen one;\nI have sworn to David My servant:",
+      "translator_notes": [
+        "God speaks directly, quoting His own covenant language. The verb karati ('I cut') is the standard covenant verb — covenants were 'cut' because animals were divided in the ratification ceremony (Genesis 15:9-18). The phrase li-vchiri ('with My chosen one') uses bachir, meaning the one selected, elected, singled out by divine choice. David is both avdi ('My servant') and bechiri ('My chosen') — claimed by God on both grounds of service and election."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, agreement, binding obligation, pact",
+          "note": "berit is the binding commitment that structures the relationship between God and David. In this psalm, berit is not merely a promise but a sworn, ritualized, unbreakable obligation. God stakes His holiness on it (v. 36). The lament section will ask whether berit has been broken — the most serious theological accusation possible in the Hebrew Bible."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "עַד־עוֹלָ֣ם אָכִ֣ין זַרְעֶ֑ךָ וּבָנִ֨יתִי לְדֹר־וָד֖וֹר כִּסְאֲךָ֣ סֶֽלָה׃",
+      "text_kjv": "Thy seed will I establish for ever, and build up thy throne to all generations. Selah.",
+      "rendering": "'I will establish your offspring forever\nand build your throne for every generation.' Selah.",
+      "translator_notes": [
+        "Two promises: the perpetuation of David's zera ('seed, offspring, descendants') and the permanence of his kisse ('throne'). The verb akhin ('I will establish, make firm') from kun and the verb vaniti ('I will build') from banah use the same architectural language as verse 3 — chesed is built forever, and so is David's throne. The symmetry is intentional: the throne's permanence is grounded in chesed's permanence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְי֘וֹד֤וּ שָׁמַ֣יִם פִּלְאֲךָ֣ יְהוָ֑ה אַף־אֱ֝מוּנָ֥תְךָ בִּקְהַ֥ל קְדֹשִֽׁים׃",
+      "text_kjv": "And the heavens shall praise thy wonders, O LORD: thy faithfulness also in the congregation of the saints.",
+      "rendering": "The heavens praise Your wonders, O LORD —\nYour faithfulness in the assembly of the holy ones.",
+      "translator_notes": [
+        "The heavens (shamayim) praise, and the qehal qedoshim ('assembly of holy ones') — the divine council — proclaims emunah. The 'holy ones' (qedoshim) are angelic beings, members of the heavenly court. God's faithfulness is not merely an earthly claim but a celestial reality — the heavenly beings themselves witness to it. This sets up verse 7's comparison."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "כִּ֤י מִ֣י בַ֭שַּׁחַק יַעֲרֹ֣ךְ לַיהוָ֑ה יִדְמֶ֥ה לַ֝יהוָ֗ה בִּבְנֵ֥י אֵלִֽים׃",
+      "text_kjv": "For who in the heaven can be compared unto the LORD? who among the sons of the mighty can be likened unto the LORD?",
+      "rendering": "For who in the skies can compare with the LORD?\nWho among the sons of God is like the LORD?",
+      "translator_notes": [
+        "The word shachaq ('sky, cloud, heaven') and benei elim ('sons of gods, divine beings') place the comparison in the heavenly realm. Even among the celestial beings — not merely among humans — YHWH has no equal. The verb ya'arokh ('can compare, can be arranged alongside') from arakh means to set in a row, to place side by side for comparison. No heavenly being can stand in the same line as YHWH."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "אֵ֣ל נַ֭עֲרָץ בְּסוֹד־קְדֹשִׁ֣ים רַבָּ֑ה וְ֝נוֹרָ֗א עַל־כׇּל־סְבִיבָֽיו׃",
+      "text_kjv": "God is greatly to be feared in the assembly of the saints, and to be had in reverence of all them that are about him.",
+      "rendering": "God is feared in the council of the holy ones —\ngreat and awesome above all who surround Him.",
+      "translator_notes": [
+        "The sod qedoshim rabbah ('great council of holy ones') is the divine assembly — the same setting as Psalm 82:1. The verb na'arats ('is feared, is held in awe') from arats means to be terrifying, to inspire dread. God does not merely preside over the council; He terrifies it. The divine beings who surround God's throne are themselves in awe. The verse establishes God's incomparable majesty as the foundation for the covenant promises that follow."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "יְהוָ֤ה ׀ אֱלֹהֵ֣י צְ֭בָאוֹת מִֽי־כָמ֣וֹךָ חֲסִ֣ין יָ֑הּ וֶ֝אֱמוּנָתְךָ֗ סְבִיבוֹתֶֽיךָ׃",
+      "text_kjv": "O LORD God of hosts, who is a strong LORD like unto thee? or to thy faithfulness round about thee?",
+      "rendering": "O LORD God of Hosts, who is like You?\nMighty is the LORD, and Your faithfulness surrounds You.",
+      "translator_notes": [
+        "The rhetorical question mi khamokha ('who is like You?') echoes Exodus 15:11 — the song at the Red Sea. The word chasin ('mighty, strong') from chasan is rare, emphasizing raw power. And emunatkha sevivotekha ('Your faithfulness surrounds You') — faithfulness is not just an attribute God possesses but an atmosphere that envelops Him. God walks in a cloud of faithfulness; it is the air around His throne."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "אַתָּ֣ה מוֹשֵׁל֮ בְּגֵא֢וּת הַ֫יָּ֥ם בְּשׂ֣וֹא גַ֭לָּיו אַתָּ֣ה תְשַׁבְּחֵ֑ם׃",
+      "text_kjv": "Thou rulest the raging of the sea: when the waves thereof arise, thou stillest them.",
+      "rendering": "You rule the surging of the sea;\nwhen its waves rise, You still them.",
+      "translator_notes": [
+        "The verb moshel ('You rule, You govern') establishes God's sovereignty over the sea — the primordial symbol of chaos in ancient Near Eastern cosmology. The verb teshabchem ('You still them, You calm them') from shavach means to soothe, to bring to rest. God does not merely withstand the waves; He silences them. This cosmic authority grounds the covenant promises: the God who controls the sea can certainly maintain a dynasty."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "אַתָּ֣ה דִ֭כִּאתָ כֶחָלָ֣ל רָ֑הַב בִּזְר֥וֹעַ עֻ֝זְּךָ֗ פִּזַּ֥רְתָּ אוֹיְבֶֽיךָ׃",
+      "text_kjv": "Thou hast broken Rahab in pieces, as one that is slain; thou hast scattered thine enemies with thy strong arm.",
+      "rendering": "You crushed Rahab like a slain corpse;\nwith Your mighty arm You scattered Your enemies.",
+      "translator_notes": [
+        "Rahab (Rahav) is the primordial sea monster — the chaos dragon representing the forces that oppose God's creative order. The verb dikkita ('You crushed, You shattered') from daka means to pulverize. God reduced the chaos monster to a corpse (ke-chalal, 'like a pierced one, like a slain body'). The phrase bi-zero'a uzzekha ('with the arm of Your strength') attributes the victory to God's own power. This cosmic victory narrative — God defeating the sea monster — is the mythological backdrop for the exodus (Isaiah 51:9-10 explicitly connects Rahab to Egypt and the Red Sea)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "לְךָ֣ שָׁ֭מַיִם אַף־לְךָ֥ אָ֑רֶץ תֵּבֵ֥ל וּ֝מְלֹאָ֗הּ אַתָּ֥ה יְסַדְתָּֽם׃",
+      "text_kjv": "The heavens are thine, the earth also is thine: as for the world and the fulness thereof, thou hast founded them.",
+      "rendering": "The heavens are Yours; the earth also is Yours.\nThe world and all it contains — You founded them.",
+      "translator_notes": [
+        "Total cosmic ownership: heavens, earth, tevel ('the inhabited world'), and its melo'ah ('fullness'). The verb yesadtam ('You founded them') from yasad means to lay a foundation. God is both owner and architect of everything that exists. The claim of universal ownership supports the covenant argument: the God who owns everything can surely keep one promise to one king."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "צָפ֣וֹן וְ֭יָמִין אַתָּ֣ה בְרָאתָ֑ם תָּב֥וֹר וְ֝חֶרְמ֗וֹן בְּשִׁמְךָ֥ יְרַנֵּֽנוּ׃",
+      "text_kjv": "The north and the south thou hast created them: Tabor and Hermon shall rejoice in thy name.",
+      "rendering": "North and south — You created them.\nTabor and Hermon shout for joy at Your name.",
+      "translator_notes": [
+        "The compass points (tsafon/north, yamin/south-right) represent the totality of direction, and the mountains (Tabor in the west, Hermon in the north) represent the geographic landmarks of the land. All of creation — directions and landmarks — celebrates God's name. The verb yeranenu ('they shout for joy') personifies the mountains as worshippers. Even the landscape praises."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "לְךָ֣ זְ֭רוֹעַ עִם־גְּבוּרָ֑ה תָּעֹ֥ז יָ֝דְךָ֗ תָּר֥וּם יְמִינֶֽךָ׃",
+      "text_kjv": "Thou hast a mighty arm: strong is thy hand, and high is thy right hand.",
+      "rendering": "Yours is a mighty arm;\nstrong is Your hand, exalted is Your right hand.",
+      "translator_notes": [
+        "Three images of divine power: zero'a ('arm'), yad ('hand'), and yemin ('right hand'). The arm is strength in action; the hand is power applied; the right hand is authority and favor. Together they describe a God whose power is active, directed, and supreme."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "צֶ֣דֶק וּ֭מִשְׁפָּט מְכ֣וֹן כִּסְאֶ֑ךָ חֶ֥סֶד וֶ֝אֱמֶ֗ת יְֽקַדְּמ֥וּ פָנֶֽיךָ׃",
+      "text_kjv": "Justice and judgment are the habitation of thy throne: mercy and truth shall go before thy face.",
+      "rendering": "Righteousness and justice are the foundation of Your throne;\nfaithful love and truth go before Your face.",
+      "expanded_rendering": "This verse is the theological architecture of God's kingship. Tsedeq u-mishpat mekhon kis'ekha ('righteousness and justice are the foundation of Your throne') — the word mekhon ('foundation, established place, base') means that God's throne literally rests on righteousness and justice. Remove them and the throne collapses. Then: chesed ve-emet yeqaddemu fanekha ('faithful love and truth go before Your face') — the same four attributes personified in Psalm 85:10-11 appear here as God's advance guard and throne foundation. Chesed and emet walk ahead of God as heralds; tsedeq and mishpat support God's seat from below. The divine throne is built on justice and preceded by love. This verse is the standard against which the lament section will measure God's actions.",
+      "translator_notes": [
+        "The four attributes — tsedeq (righteousness), mishpat (justice), chesed (faithful love), emet (truth) — form the complete character profile of God's kingship. They appear together here and in Psalm 85:10-14, creating a theological connection between the two psalms. When the psalmist later accuses God of abandoning the covenant, these four attributes are implicitly indicted: has the throne's foundation shifted?"
+      ],
+      "key_terms": [
+        {
+          "hebrew": "צֶדֶק וּמִשְׁפָּט",
+          "transliteration": "tsedeq u-mishpat",
+          "rendered_as": "righteousness and justice",
+          "semantic_range": "righteousness, right order, vindication; justice, judgment, legal ruling, ordinance",
+          "note": "tsedeq ('righteousness') is the cosmic right order that God establishes; mishpat ('justice') is the concrete application of that order in specific rulings and actions. Together they are the foundation — not decoration, not aspiration, but the structural base of God's authority."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "אַשְׁרֵ֣י הָ֭עָם יוֹדְעֵ֣י תְרוּעָ֑ה יְ֝הוָ֗ה בְּאוֹר־פָּנֶ֥יךָ יְהַלֵּכֽוּן׃",
+      "text_kjv": "Blessed is the people that know the joyful sound: they shall walk, O LORD, in the light of thy countenance.",
+      "rendering": "Blessed are the people who know the festal shout!\nO LORD, they walk in the light of Your face.",
+      "translator_notes": [
+        "The teru'ah ('festal shout, alarm, trumpet blast, shout of war or worship') is the sound of the shofar at festivals and the communal cry of worship. To 'know' the teru'ah means to be initiated into the worship of Israel — to participate in the festal life of God's people. These people walk be-or panekha ('in the light of Your face') — the opposite of the hidden face that Psalm 88 lamented. Where God's face shines, there is blessing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "בְּ֭שִׁמְךָ יְגִיל֣וּן כׇּל־הַיּ֑וֹם וּבְצִדְקָתְךָ֥ יָרֽוּמוּ׃",
+      "text_kjv": "In thy name shall they rejoice all the day: and in thy righteousness shall they be exalted.",
+      "rendering": "In Your name they rejoice all day long,\nand in Your righteousness they are lifted high.",
+      "translator_notes": [
+        "Two grounds of celebration: God's name (shem, the personal identity and reputation of YHWH) and God's righteousness (tsidqatekha). The people rejoice not in their own strength but in who God is and what God does rightly. The verb yarumu ('they are lifted high, they are exalted') from rum means God's righteousness elevates His people — they rise because He is right."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "כִּֽי־תִפְאֶ֣רֶת עֻזָּ֣מוֹ אָ֑תָּה וּ֝בִרְצֹנְךָ֗ תָּר֥וּם קַרְנֵֽנוּ׃",
+      "text_kjv": "For thou art the glory of their strength: and in thy favour our horn shall be exalted.",
+      "rendering": "For You are the splendor of their strength,\nand by Your favor You lift up our horn.",
+      "translator_notes": [
+        "The word tif'eret ('splendor, beauty, glory') applied to uzzamo ('their strength') means God is the beautiful part of Israel's power — without God, their strength has no glory. The horn (qeren) is the symbol of power and dignity, and God's favor (ratson, 'pleasure, delight, acceptance') is what raises it. Israel's strength is not indigenous; it is given."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "כִּ֣י לַ֭יהוָה מָגִנֵּ֑נוּ וְלִקְד֖וֹשׁ יִשְׂרָאֵ֣ל מַלְכֵּֽנוּ׃",
+      "text_kjv": "For the LORD is our defence; and the Holy One of Israel is our king.",
+      "rendering": "For our shield belongs to the LORD,\nand our king to the Holy One of Israel.",
+      "translator_notes": [
+        "The 'shield' (magen) and 'king' (malke) both belong to God. The human king — the shield of the people — is himself God's possession. The title Qedosh Yisra'el ('Holy One of Israel') is characteristically Isaianic (occurring 25 times in Isaiah) but appears here to emphasize that Israel's king derives authority from Israel's God. This verse transitions to the Davidic covenant section."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "אָ֤ז דִּבַּ֥רְתָּ בְחָז֗וֹן לַחֲסִידֶ֗ךָ וַתֹּ֗אמֶר שִׁוִּ֣יתִי עֵ֭זֶר עַל־גִּבּ֑וֹר הֲרִימ֖וֹתִי בָח֣וּר מֵעָֽם׃",
+      "text_kjv": "Then thou spakest in vision to thy holy one, and saidst, I have laid help upon one that is mighty; I have exalted one chosen out of the people.",
+      "rendering": "Then You spoke in a vision to Your faithful one\nand said, 'I have placed help on a warrior;\nI have raised up one chosen from the people.",
+      "translator_notes": [
+        "The phrase az dibbarta be-chazon ('then You spoke in a vision') introduces the divine oracle that follows — likely referring to Nathan's prophecy in 2 Samuel 7. The 'faithful one' (chasidekha) may be Nathan, Samuel, or David himself. God chose a gibbor ('warrior, mighty one') and a bachur ('chosen one, young man') from the people (me-am) — David was not born into the royal line but was elevated from the common people."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "מָ֭צָאתִי דָּוִ֣ד עַבְדִּ֑י בְּשֶׁ֥מֶן קׇ֝דְשִׁ֗י מְשַׁחְתִּֽיו׃",
+      "text_kjv": "I have found David my servant; with my holy oil have I anointed him:",
+      "rendering": "with My holy oil I have anointed him.\nI have found David My servant;",
+      "translator_notes": [
+        "The verb matsati ('I found') echoes 1 Samuel 13:14, where God tells Saul He has 'sought out a man after His own heart.' The finding implies that David was not obvious — he was the youngest son, overlooked by his own family (1 Samuel 16:11). God found what everyone else missed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "אֲשֶׁ֣ר יָ֭דִי תִּכּ֣וֹן עִמּ֑וֹ אַף־זְ֝רוֹעִ֗י תְאַמְּצֶֽנּוּ׃",
+      "text_kjv": "With whom my hand shall be established: mine arm also shall strengthen him.",
+      "rendering": "My hand will be established with him;\nMy arm will strengthen him.",
+      "translator_notes": [
+        "God's hand (yad) and arm (zero'a) — the instruments of divine power celebrated in verse 14 — are now pledged to David personally. The verb tikkon ('will be established') and te'ammetsennu ('will strengthen him') promise ongoing, active divine support. God's cosmic power is directed toward one man's success."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "לֹֽא־יַשִּׁ֣א א֭וֹיֵב בּ֑וֹ וּבֶן־עַ֝וְלָ֗ה לֹ֣א יְעַנֶּֽנּוּ׃",
+      "text_kjv": "The enemy shall not exact upon him; nor the son of wickedness afflict him.",
+      "rendering": "No enemy will deceive him;\nno son of wickedness will oppress him.",
+      "translator_notes": [
+        "The verb yasshi ('will exact, will deceive, will lay a claim on') from nasha means to trick or to demand unjust payment. The ben avlah ('son of wickedness') is a person characterized by avlah ('injustice, perversity'). God promises that David will be protected from both deception and oppression. This promise will be tested severely in the lament section."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְכַתּוֹתִ֣י מִפָּנָ֣יו צָרָ֑יו וּמְשַׂנְאָ֥יו אֶגּֽוֹף׃",
+      "text_kjv": "And I will beat down his foes before his face, and plague them that hate him.",
+      "rendering": "I will crush his foes before him\nand strike down those who hate him.",
+      "translator_notes": [
+        "The verb khattoti ('I will crush, I will shatter') from katat and eggof ('I will strike, I will plague') from nagaf describe God personally fighting David's battles. The enemies are both tsarav ('his adversaries') and mesan'av ('those who hate him'). God's combat is personal: He fights because David's enemies are His enemies."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וֶאֱמוּנָתִ֣י וְ֭חַסְדִּי עִמּ֑וֹ וּ֝בִשְׁמִ֗י תָּר֥וּם קַרְנֽוֹ׃",
+      "text_kjv": "And my faithfulness and my mercy shall be with him: and in my name shall his horn be exalted.",
+      "rendering": "My faithfulness and My faithful love are with him,\nand in My name his horn is lifted high.",
+      "translator_notes": [
+        "The two pillar words — emunah and chesed — are now specifically pledged to David. They are not merely cosmic attributes or general qualities; they are personally directed: immo ('with him'). And be-shmi ('in My name') — David's power (horn) is exalted through God's identity. The name is the channel through which divine authority flows to the human king."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְשַׂמְתִּ֣י בַיָּ֣ם יָד֑וֹ וּֽבַנְּהָר֥וֹת יְמִינֽוֹ׃",
+      "text_kjv": "I will set his hand also in the sea, and his right hand in the rivers.",
+      "rendering": "I will set his hand over the sea\nand his right hand over the rivers.",
+      "translator_notes": [
+        "The sea (yam) and rivers (neharot) represent both geographic extent (from the Mediterranean to the Euphrates) and cosmic authority (dominion over the primordial waters). God gives David authority over the same waters that God Himself rules (v. 10). The Davidic king participates in God's cosmic sovereignty."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "ה֣וּא יִ֭קְרָאֵנִי אָ֣בִי אָ֑תָּה אֵ֝לִ֗י וְצ֣וּר יְשׁוּעָתִֽי׃",
+      "text_kjv": "He shall cry unto me, Thou art my father, my God, and the rock of my salvation.",
+      "rendering": "He will call out to Me, 'You are my Father,\nmy God, and the rock of my salvation.'",
+      "expanded_rendering": "The covenant reaches its most intimate expression: hu yiqra'eni Avi attah ('he will call Me, You are my Father'). The Davidic king addresses God as Father — not in the general sense of Creator but in the specific sense of covenant parent. This father-son language comes directly from 2 Samuel 7:14 ('I will be his father, and he will be My son') and becomes the foundation for messianic theology. The king also calls God Eli ('my God') and tsur yeshu'ati ('the rock of my salvation'). Three titles — Father, God, Rock — encompass the entire range of the relationship: intimacy, worship, and security.",
+      "translator_notes": [
+        "The father-son relationship between God and the Davidic king is adoptive, not biological — it is established by covenant, not by nature. This distinguishes Israelite royal theology from Egyptian and Mesopotamian myths where kings were literally descended from gods. The Davidic king is God's son by covenant declaration, not by divine procreation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "אַף־אָ֭נִי בְּכ֣וֹר אֶתְּנֵ֑הוּ עֶ֝לְי֗וֹן לְמַלְכֵי־אָֽרֶץ׃",
+      "text_kjv": "Also I will make him my firstborn, higher than the kings of the earth.",
+      "rendering": "And I will make him the firstborn,\nthe highest of the kings of the earth.",
+      "translator_notes": [
+        "The word bekhor ('firstborn') carries enormous significance — the firstborn received the double portion, the primary blessing, the leadership of the family. God makes David's line His firstborn among all the kings of the earth. The title Elyon ('highest, Most High') — normally reserved for God Himself (v. 8) — is now shared with the Davidic king: he is elyon le-malkhei arets ('the highest of earth's kings'). The king participates in God's supremacy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "לְ֭עוֹלָם אֶשְׁמׇר־ל֣וֹ חַסְדִּ֑י וּ֝בְרִיתִ֗י נֶאֱמֶ֥נֶת לֽוֹ׃",
+      "text_kjv": "My mercy also will I keep for him for evermore, and my covenant shall stand fast with him.",
+      "rendering": "I will keep My faithful love for him forever,\nand My covenant will stand firm for him.",
+      "translator_notes": [
+        "Three key words converge: chesed ('faithful love'), berit ('covenant'), and ne'emenet ('stands firm, is faithful') from aman — the same root as emunah. God's faithful love is kept forever; God's covenant is ne'emenet — itself faithful. The covenant is not merely made; it is reliable, trustworthy, built on the same foundation as God's own character."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְשַׂמְתִּ֣י לָעַ֣ד זַרְע֑וֹ וְ֝כִסְא֗וֹ כִּימֵ֥י שָׁמָֽיִם׃",
+      "text_kjv": "His seed also will I make to endure for ever, and his throne as the days of heaven.",
+      "rendering": "I will establish his offspring forever\nand his throne as the days of heaven.",
+      "translator_notes": [
+        "The phrase ki-ymei shamayim ('as the days of heaven') means as long as heaven endures — essentially, forever. David's dynasty is given cosmic permanence, anchored to the duration of the sky itself. The same architectural permanence promised to chesed in verse 3 is now promised to the throne."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "אִם־יַעַזְב֣וּ בָ֭נָיו תּוֹרָתִ֑י וּ֝בְמִשְׁפָּטַ֗י לֹ֣א יֵלֵכֽוּן׃",
+      "text_kjv": "If his children forsake my law, and walk not in my judgments;",
+      "rendering": "If his children abandon My the Law\nand do not walk in My judgments,",
+      "translator_notes": [
+        "The conditional section begins. God anticipates the failure of David's descendants: im ya'azvu vanav torati ('if his children abandon My Torah'). The verb azav ('to abandon, to forsake') is the standard word for covenant betrayal. Torah here encompasses all of God's instruction — law, teaching, guidance. The 'if' introduces a possibility that will become historical reality."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "אִם־חֻקֹּתַ֥י יְחַלֵּ֑לוּ וּ֝מִצְוֺתַ֗י לֹ֣א יִשְׁמֹֽרוּ׃",
+      "text_kjv": "If they break my statutes, and keep not my commandments;",
+      "rendering": "if they violate My statutes\nand do not keep My commandments,",
+      "translator_notes": [
+        "The verb yechalelu ('they violate, they profane') from chalal means to desecrate — to treat what is holy as common. The accumulation of covenant terms — Torah, mishpatim, chuqqot, mitsvot (law, judgments, statutes, commandments) — covers every possible category of divine instruction. The conditional envisions total disobedience."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וּפָקַדְתִּ֣י בְשֵׁ֣בֶט פִּשְׁעָ֑ם וּ֝בִנְגָעִ֗ים עֲוֺנָֽם׃",
+      "text_kjv": "Then will I visit their transgression with the rod, and their iniquity with stripes;",
+      "rendering": "then I will punish their rebellion with the rod\nand their guilt with blows.",
+      "translator_notes": [
+        "God will punish — but the punishment has a specific character: be-shevet ('with a rod'), the instrument of parental discipline, not execution. The word pish'am ('their rebellion, their transgression') from pasha means willful revolt, and avonam ('their guilt, their iniquity') from avon is the twisted consequence of sin. God disciplines like a father (cf. 2 Samuel 7:14), not like an executioner."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְ֭חַסְדִּי לֹא־אָפִ֣יר מֵעִמּ֑וֹ וְלֹא־אֲ֝שַׁקֵּ֗ר בֶּאֱמוּנָתִֽי׃",
+      "text_kjv": "Nevertheless my lovingkindness will I not utterly take from him, nor suffer my faithfulness to fail.",
+      "rendering": "But My faithful love I will not withdraw from him,\nand I will not be false to My faithfulness.",
+      "expanded_rendering": "This is the covenant's unbreakable core: ve-chasdi lo afir me-immo ('and My faithful love I will not take away from him'). The verb afir (Hiphil of pur, 'to break, to annul') means to cancel, to revoke. God will not revoke chesed. And ve-lo ashaqer be-emunati ('and I will not act falsely against My faithfulness'). The verb shaqer means to lie, to deceive — God will not lie to His own character. His emunah is a commitment not just to David but to Himself. For God to abandon the covenant would require God to betray His own nature. This verse is the theological climax of the covenant section — and the verse that makes the lament section so devastating. If God cannot betray His chesed and emunah, then what has happened to the anointed one?",
+      "translator_notes": [
+        "The phrase lo ashaqer be-emunati ('I will not be false to My faithfulness') makes emunah reflexive — God's faithfulness is a commitment to His own identity. To break the covenant would be to make God a liar, and God cannot lie (Numbers 23:19). This creates the irresolvable tension of the psalm: the covenant cannot be broken, but it appears to be broken."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "לֹא־אֲחַלֵּ֥ל בְּרִיתִ֑י וּמוֹצָ֥א שְׂ֝פָתַ֗י לֹ֣א אֲשַׁנֶּֽה׃",
+      "text_kjv": "My covenant will I not break, nor alter the thing that is gone out of my lips.",
+      "rendering": "I will not violate My covenant\nor alter the word that has gone from My lips.",
+      "translator_notes": [
+        "The verb achalel ('I will violate, I will profane') is the same word used for the children's violation of God's statutes in verse 32. God will not do to His covenant what the children did to His law. And u-motsa sefatai lo ashaneh ('the utterance of My lips I will not change') — once God has spoken, the speech act is irrevocable. God's word, once released, cannot be recalled or revised."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "אַ֭חַת נִשְׁבַּ֣עְתִּי בְקׇדְשִׁ֑י אִם־לְ֝דָוִ֗ד אֲכַזֵּֽב׃",
+      "text_kjv": "Once have I sworn by my holiness that I will not lie unto David.",
+      "rendering": "Once I have sworn by My holiness;\nI will not lie to David.",
+      "translator_notes": [
+        "God swears by be-qodshi ('My holiness') — His own sacred nature is the guarantee. Since there is nothing higher than God by which to swear (cf. Hebrews 6:13), God swears by Himself. The phrase im le-David akhazzev ('if I will lie to David' — a Hebrew oath formula where 'if' means 'I certainly will not') makes the promise absolute. The solemnity is maximal: one oath, by God's holiness, irreversible."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "זַ֭רְעוֹ לְעוֹלָ֣ם יִהְיֶ֑ה וְ֝כִסְא֗וֹ כַשֶּׁ֥מֶשׁ נֶגְדִּֽי׃",
+      "text_kjv": "His seed shall endure for ever, and his throne as the sun before me.",
+      "rendering": "His offspring will endure forever,\nand his throne like the sun before Me.",
+      "translator_notes": [
+        "The throne is compared to the sun (ka-shemesh) — the most permanent, visible, daily-reliable object in creation. As surely as the sun rises, David's throne endures. The phrase negdi ('before Me, in My sight') means God personally witnesses and maintains the throne's permanence. The sun comparison will make the lament's devastation more acute: has the sun gone dark?"
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "כְּ֭יָרֵחַ יִכּ֣וֹן עוֹלָ֑ם וְעֵ֥ד בַּ֝שַּׁ֗חַק נֶאֱמָֽן סֶֽלָה׃",
+      "text_kjv": "It shall be established for ever as the moon, and as a faithful witness in heaven. Selah.",
+      "rendering": "Like the moon, established forever —\na faithful witness in the sky. Selah.",
+      "translator_notes": [
+        "The moon (yareach) joins the sun as a cosmic guarantee. The phrase ed ba-shachaq ne'eman ('a faithful witness in the sky') makes the moon a witness — a ne'eman (from aman, the root of emunah) that testifies nightly to God's covenant commitment. Every moonrise is covenant evidence. Selah marks the end of the covenant section and the transition to the lament."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְאַתָּ֣ה זָ֭נַחְתָּ וַתִּמְאָ֑ס הִ֝תְעַבַּ֗רְתָּ עִם־מְשִׁיחֶֽךָ׃",
+      "text_kjv": "But thou hast cast off and abhorred, thou hast been wroth with thine anointed.",
+      "rendering": "But You — You have rejected and spurned;\nYou have raged against Your anointed one.",
+      "expanded_rendering": "The conjunction ve-attah ('but You') is a hammer blow. After thirty-seven verses of cosmic praise and covenant promises, the psalm turns: zanachta vattim'as ('You have rejected and You have spurned'). The verb zanach ('reject, cast off') and ma'as ('spurn, refuse, despise') are the vocabulary of divorce and abandonment. And the object: meshichekha ('Your anointed one') — the very one God found, anointed with holy oil, called 'My son,' swore to protect. The verb hit'abbarta ('You raged, You crossed over in fury') from avar means God's anger has overflowed its banks. The God who swore by His holiness that He would not lie to David has — from the psalmist's perspective — done exactly that. The word meshichekha ('Your anointed') in this context is both accusation and appeal: he is still Your anointed, even if You treat him like refuse.",
+      "translator_notes": [
+        "The shift from covenant celebration to accusatory lament is the most dramatic tonal reversal in the Psalter. The word 'But' (ve-attah) carries the weight of centuries of shattered expectation. Everything God promised in verses 4-38 is contradicted by what the psalmist now describes."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "נֵ֭אַרְתָּה בְּרִ֣ית עַבְדֶּ֑ךָ חִלַּ֖לְתָּ לָאָ֣רֶץ נִזְרֽוֹ׃",
+      "text_kjv": "Thou hast made void the covenant of thy servant: thou hast profaned his crown by casting it to the ground.",
+      "rendering": "You have renounced the covenant of Your servant;\nYou have profaned his crown to the ground.",
+      "translator_notes": [
+        "The verb ne'arta ('You have renounced, You have abhorred') from na'ar means to shake off, to reject with disgust. The berit ('covenant') that God swore He would not violate (v. 35) has been — according to the psalmist — renounced. And chillalta la-arets nizro ('You have profaned his crown to the ground') — the verb chillal ('profane, desecrate') is the same word used in verses 32 and 35 about violating covenants. God accused the children of profaning His statutes; now the psalmist accuses God of profaning the crown. The nezer ('crown, diadem, consecration') — the symbol of royal anointing — lies in the dirt."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "פָּרַ֥צְתָּ כׇל־גְּדֵרֹתָ֑יו שַׂ֖מְתָּ מִבְצָרָ֣יו מְחִתָּֽה׃",
+      "text_kjv": "Thou hast broken down all his hedges; thou hast brought his strong holds to ruin.",
+      "rendering": "You have broken through all his walls;\nYou have laid his fortresses in ruins.",
+      "translator_notes": [
+        "The verb paratsta ('You broke through') from parats means to breach — the walls God was supposed to defend, God has torn open. The word mechittah ('ruin, destruction, terror') describes the fortresses reduced to rubble. The God who promised 'no enemy will deceive him' (v. 23) has Himself become the one who breaches the defenses."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "שַׁ֭סֻּהוּ כׇּל־עֹבְרֵ֣י דָ֑רֶךְ הָיָ֥ה חֶ֝רְפָּ֗ה לִשְׁכֵנָֽיו׃",
+      "text_kjv": "All that pass by the way spoil him: he is a reproach to his neighbours.",
+      "rendering": "All who pass by plunder him;\nhe has become a disgrace to his neighbors.",
+      "translator_notes": [
+        "The plundering is public — kol ovrei derekh ('all who pass by on the road') can raid at will. And the cherpah ('reproach, disgrace, shame') is social — the neighbors who once respected now mock. The Davidic king has become a roadside spectacle, an object of contempt."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "הֲ֭רִימוֹתָ יְמִ֣ין צָרָ֑יו הִ֝שְׂמַ֗חְתָּ כׇּל־אוֹיְבָֽיו׃",
+      "text_kjv": "Thou hast set up the right hand of his adversaries; thou hast made all his enemies to rejoice.",
+      "rendering": "You have raised the right hand of his foes;\nYou have made all his enemies rejoice.",
+      "translator_notes": [
+        "The irony is exact: in verse 14, God's right hand was exalted; in verse 18, God lifted Israel's horn. Now God raises the right hand of the enemy. God's power, which was directed toward David, is now redirecting toward David's destroyers. The verb hismachta ('You made rejoice') means God gave the enemies joy — the same God who was supposed to give David joy."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "אַף־תָּ֭שִׁיב צ֣וּר חַרְבּ֑וֹ וְלֹ֥א הֲ֝קֵימֹת֗וֹ בַּמִּלְחָמָֽה׃",
+      "text_kjv": "Thou hast also turned the edge of his sword, and hast not made him to stand in the battle.",
+      "rendering": "You have turned back the edge of his sword\nand have not sustained him in battle.",
+      "translator_notes": [
+        "The tsur charbo ('edge/rock of his sword') is dulled or turned back — the weapon is useless. And lo haqemoto ba-milchamah ('You have not made him stand in battle') — the verb haqam ('to cause to stand') is the opposite of what God promised. The warrior God chose (v. 20) cannot stand because God will not hold him up."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "הִשְׁבַּ֥תָּ מִטְּהָר֑וֹ וְ֝כִסְא֗וֹ לָאָ֥רֶץ מִגַּֽרְתָּה׃",
+      "text_kjv": "Thou hast made his glory to cease, and cast his throne down to the ground.",
+      "rendering": "You have put an end to his splendor\nand hurled his throne to the ground.",
+      "translator_notes": [
+        "The word miteharo ('his splendor, his purity, his brightness') from taher may refer to the radiance of the royal office. God has extinguished it. And the throne (kisse) that was supposed to endure like the sun and moon (vv. 37-38) has been cast la-arets ('to the ground'). The cosmic permanence promised in the covenant section is violently contradicted by the earthward motion of the lament."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "הִ֭קְצַרְתָּ יְמֵ֣י עֲלוּמָ֑יו הֶעֱטִ֖יתָ עָלָ֣יו בּוּשָֽׁה סֶֽלָה׃",
+      "text_kjv": "The days of his youth hast thou shortened: thou hast covered him with shame. Selah.",
+      "rendering": "You have cut short the days of his youth;\nYou have covered him with shame. Selah.",
+      "translator_notes": [
+        "The verb hiqtsarta ('You shortened') from qatsar means to cut off, to truncate. The days of youth (yemei alumav) — the prime of life — are abbreviated by God's hand. And he'etita alav bushah ('You covered him with shame') — the verb ata means to wrap, to clothe. Shame is worn like a garment. The king who was clothed with royal splendor is now wrapped in disgrace. Selah."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "עַד־מָ֣ה יְ֭הוָה תִּסָּתֵ֣ר לָנֶ֑צַח תִּבְעַ֖ר כְּמוֹ־אֵ֣שׁ חֲמָתֶֽךָ׃",
+      "text_kjv": "How long, LORD? wilt thou hide thyself for ever? shall thy wrath burn like fire?",
+      "rendering": "How long, O LORD? Will You hide Yourself forever?\nWill Your wrath burn like fire?",
+      "translator_notes": [
+        "The cry ad mah ('how long?') echoes Psalm 82:2 and dozens of other laments — it is the universal question of the sufferer. The verb tissater ('You hide Yourself') from satar is the hidden face of God — the same terror as Psalm 88:15. And tiv'ar kemo esh chamatekha ('will Your wrath burn like fire?') — the fire of God's anger was supposed to burn against David's enemies (v. 24), not against David himself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "זְכׇר־אֲנִ֥י מֶה־חָ֑לֶד עַל־מַה־שָּׁ֝֗וְא בָּרָ֥אתָ כׇל־בְּנֵי־אָדָֽם׃",
+      "text_kjv": "Remember how short my time is: wherefore hast thou made all men in vain?",
+      "rendering": "Remember how fleeting my life is!\nFor what futility have You created all mortals!",
+      "translator_notes": [
+        "The word cheled ('duration, lifespan, world') emphasizes brevity — life is short, and the psalmist feels its shortness acutely. The word shav ('futility, emptiness, vanity') — the same word as in the third commandment ('You shall not take the LORD's name in vain') — asks whether human existence itself is pointless. The question borders on the despair of Ecclesiastes: if the covenant is broken, what is the purpose of life?"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "מִ֤י גֶ֣בֶר יִ֭חְיֶה וְלֹ֣א יִרְאֶה־מָּ֑וֶת יְמַלֵּ֨ט נַפְשׁ֖וֹ מִיַּד־שְׁא֣וֹל סֶֽלָה׃",
+      "text_kjv": "What man is he that liveth, and shall not see death? shall he deliver his soul from the hand of the grave? Selah.",
+      "rendering": "What person can live and not see death?\nWho can deliver their soul from the grip of Sheol? Selah.",
+      "translator_notes": [
+        "The rhetorical question expects the answer 'no one.' The word gever ('man, strong one') echoes Job 3:3 and emphasizes that even the mighty die. The phrase mi-yad she'ol ('from the hand of Sheol') personifies death as a grasping power. No human can pry open death's grip. The psalmist's argument is that death is coming and the covenant promises must be fulfilled before it arrives."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "אַיֵּ֤ה ׀ חֲסָדֶ֖יךָ הָרִאשֹׁנִ֥ים ׀ אֲדֹנָ֑י נִשְׁבַּ֥עְתָּ לְ֝דָוִ֗ד בֶּאֱמוּנָתֶֽךָ׃",
+      "text_kjv": "Lord, where are thy former lovingkindnesses, which thou swarest unto David in thy truth?",
+      "rendering": "Where are Your former acts of faithful love, O Lord,\nwhich You swore to David in Your faithfulness?",
+      "translator_notes": [
+        "This verse is the psalm's climax — the question that the entire poem has been building toward. The seven occurrences of chesed in this psalm (see note on v. 2) reach their crisis here: chesed was celebrated, promised, sworn, and pledged — and now the psalmist demands to know where it has gone. The psalm does not answer the question. It leaves it hanging."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "זְכֹ֣ר אֲ֭דֹנָי חֶרְפַּ֣ת עֲבָדֶ֑יךָ שְׂאֵתִ֥י בְ֝חֵיקִ֗י כׇּל־רַבִּ֥ים עַמִּֽים׃",
+      "text_kjv": "Remember, Lord, the reproach of thy servants; how I do bear in my bosom the reproach of all the mighty people;",
+      "rendering": "Remember, O Lord, the disgrace of Your servants;\nhow I bear in my chest the taunts of all the many peoples.",
+      "translator_notes": [
+        "The verb zekhor ('remember') is the final plea — the psalmist asks God to take notice of the cherpah ('disgrace, reproach') that God's own servants bear. The phrase se'eti be-cheqi ('I bear in my chest/bosom') means the mockery is internalized, carried inside the body like a physical burden. The 'many peoples' (rabbim ammim) are the nations who mock both the king and the God he serves."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "אֲשֶׁ֤ר חֵרְפ֖וּ אוֹיְבֶ֥יךָ ׀ יְהוָ֑ה אֲשֶׁ֥ר חֵ֝רְפ֗וּ עִקְּב֥וֹת מְשִׁיחֶֽךָ׃",
+      "text_kjv": "Wherewith thine enemies have reproached, O LORD; wherewith they have reproached the footsteps of thine anointed.",
+      "rendering": "with which Your enemies taunt, O LORD,\nwith which they taunt the footsteps of Your anointed one.",
+      "expanded_rendering": "The final verse of the psalm proper (v. 53 is the doxology closing Book III) ends not with resolution but with the image of enemies mocking iqvot meshichekha ('the footsteps of Your anointed one'). The word iqvot ('footsteps, tracks, heels') means the enemies follow the anointed one's trail and mock every step he has taken. The mockery is not a single event but a tracking — they follow the anointed one's entire journey and ridicule it. The word meshichekha ('Your anointed') is the psalm's last theological argument: this is still Your anointed one. Whatever has happened to him, You anointed him. The anointing has not been revoked even if the crown lies in the dust. The psalm ends with an unresolved contradiction: God's anointed is mocked, God's covenant is apparently broken, and God has not answered.",
+      "translator_notes": [
+        "The psalm ends without resolution — no doxology of praise, no turning point, no answered prayer. This is deliberate and canonical: the editors of the Psalter placed this unresolved cry at the end of Book III, followed by the doxology of verse 53 and then Moses's Psalm 90, which addresses the crisis of divine wrath and human mortality from a different angle. The arrangement implies that Psalm 89's question finds its response not within the psalm but in the larger canonical structure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "בָּר֖וּךְ יְהוָ֥ה לְ֝עוֹלָ֗ם אָ֘מֵ֤ן ׀ וְאָמֵֽן׃",
+      "text_kjv": "Blessed be the LORD for evermore. Amen, and Amen.",
+      "rendering": "Blessed be the LORD forever.\nAmen and amen.",
+      "translator_notes": [
+        "This doxology is not part of Psalm 89 but a liturgical formula closing Book III of the Psalter (cf. Psalm 41:14 closing Book I, 72:18-19 closing Book II, 106:48 closing Book IV). The double amen ('let it be firm, let it be established') — from aman, the root of emunah — is a communal response of affirmation. The congregation says 'amen' to God's faithfulness even after a psalm that questions it. The doxology does not answer the psalm's questions; it affirms that the conversation with God continues."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

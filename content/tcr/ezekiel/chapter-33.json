@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezekiel",
+    "chapter": 33,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ezekiel 33 marks the structural pivot of the entire book — the transition from judgment to restoration. The chapter opens with a restatement of Ezekiel's watchman commission (vv. 1-9), echoing the original call in chapter 3 but now reframed for a new era. God then addresses the exiles' despair and the theological problem of individual responsibility: can the wicked turn and live? (vv. 10-20). The turning point arrives in verse 21 — a fugitive from Jerusalem brings the news: 'The city has fallen!' This is the moment Ezekiel has been waiting for since 24:25-27. His enforced silence ends; his mouth is opened (v. 22). The chapter concludes with an oracle against those remaining in the ruined land who claim Abraham's inheritance while practicing abomination (vv. 23-29), and a sharp word about the exiles who treat Ezekiel's prophecies as entertainment rather than divine command (vv. 30-33).",
+    "remarkable": "This chapter contains one of the most dramatic moments in prophetic literature: the arrival of news that Jerusalem has fallen. Ezekiel had been struck silent by God (3:26-27, 24:27), his mouth opened only for specific oracles. Now, on the evening before the fugitive arrives, God opens his mouth permanently (v. 22). The silence that began in chapter 3 — spanning the entire judgment section of the book — ends here. The watchman commission is restated nearly verbatim from 3:17-21 but with subtle expansions, suggesting that the same calling now operates in a different theological landscape: the judgment has come, and the question is no longer 'will it happen?' but 'who will survive?' The closing verses (30-33) are remarkably self-aware: Ezekiel reports God's observation that the exiles come to hear him as one goes to hear a singer of love songs — entertained by the eloquence but unmoved to obedience. We preserved the biting irony of this portrait.",
+    "friction": "The watchman parable in verses 1-6 uses the hypothetical construction im-yavo ('if the sword comes') with layered conditional clauses that are syntactically dense in Hebrew. We unpacked the conditionals into clear English while preserving the legal-casuistic structure. The phrase 'Our transgressions and our sins are upon us, and we are rotting away in them' (v. 10) uses the verb namaqqu, which means to rot, decay, or pine away — we chose 'wasting away' to capture both physical decay and spiritual despair. The verb niftach in verse 22 ('was opened') is niphal — God opened Ezekiel's mouth; Ezekiel did not open it himself. The phrase agurat shir ('singer of love songs,' v. 32) is debated: some read agur as 'lovely' or 'beautiful,' others as a musical term. We rendered it as 'a singer of love songs' following the most natural reading of the Hebrew.",
+    "connections": "The watchman commission restates 3:17-21 with expansions. The enforced silence connects back to 3:26-27 and forward from the prediction in 24:25-27. The fall of Jerusalem is narrated in 2 Kings 25 and Jeremiah 39, 52. The individual responsibility teaching reprises chapter 18 almost verbatim. The appeal to Abraham by those remaining in the land echoes Isaiah 51:2 but here is used to justify a false claim. The portrait of Ezekiel as an entertainer (vv. 30-33) anticipates the distinction Jesus draws between hearing and doing (Matthew 7:24-27)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "Again the word of the LORD came unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": [
+        "The standard prophetic reception formula. This marks the beginning of a major new section — the transition from judgment oracles (chs. 1-24) and oracles against the nations (chs. 25-32) to restoration oracles (chs. 33-48). The watchman commission is restated here to signal a new phase of Ezekiel's ministry."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "בֶּן־אָדָ֗ם דַּבֵּ֤ר אֶל־בְּנֵי־עַמְּךָ֙ וְאָמַרְתָּ֣ אֲלֵיהֶ֔ם אֶ֕רֶץ כִּֽי־אָבִ֥יא עָלֶ֖יהָ חָ֑רֶב וְלָקְח֨וּ עַם־הָאָ֜רֶץ אִ֤ישׁ אֶחָד֙ מִקְצֵיהֶ֔ם וְנָתְנ֥וּ אֹת֛וֹ לָהֶ֖ם לְצֹפֶֽה׃",
+      "text_kjv": "Son of man, speak to the children of thy people, and say unto them, When I bring the sword upon a land, if the people of the land take a man of their coasts, and set him for their watchman:",
+      "rendering": "Son of man, speak to your people and say to them: When I bring the sword against a land, and the people of that land take a man from among them and appoint him as their watchman —",
+      "translator_notes": [
+        "The watchman (tsofeh) parable begins with a hypothetical scenario framed in casuistic legal style — 'when... if... then...' — establishing the principle of warning before applying it to Ezekiel personally. The term tsofeh literally means 'one who looks out' or 'one who keeps watch,' and it carries both military and prophetic connotations."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "צֹפֶה",
+          "transliteration": "tsofeh",
+          "rendered_as": "watchman",
+          "semantic_range": "watchman, lookout, sentinel, one who keeps watch",
+          "note": "The same term applied to Ezekiel in 3:17. In military contexts, the watchman stands on the wall to spot approaching danger. In prophetic contexts, the watchman receives divine intelligence about coming judgment and must relay it to the people."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְרָאָ֥ה אֶת־הַחֶ֖רֶב בָּאָ֣ה עַל־הָאָ֑רֶץ וְתָקַ֥ע בַּשּׁוֹפָ֖ר וְהִזְהִ֥יר אֶת־הָעָֽם׃",
+      "text_kjv": "If when he seeth the sword come upon the land, he blow the trumpet, and warn the people;",
+      "rendering": "and he sees the sword coming against the land and blows the ram's horn and warns the people —",
+      "translator_notes": [
+        "The shofar (ram's horn) is the standard instrument of military alarm in ancient Israel (cf. Judges 3:27, 6:34, Nehemiah 4:14). The verb hizhir ('warn') is the key term of the watchman commission — the watchman's sole obligation is to issue the warning. What the people do with it is their responsibility."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְשָׁמַ֣ע הַשֹּׁמֵ֗עַ אֶת־ק֤וֹל הַשּׁוֹפָר֙ וְלֹ֣א נִזְהָ֔ר וַתָּב֥וֹא חֶ֖רֶב וַתִּקָּחֵ֑הוּ דָּמ֥וֹ בְרֹאשׁ֖וֹ יִהְיֶֽה׃",
+      "text_kjv": "Then whosoever heareth the sound of the trumpet, and taketh not warning; if the sword come, and take him, his blood shall be upon his own head.",
+      "rendering": "then if anyone hears the sound of the ram's horn but does not take warning, and the sword comes and takes him, his blood will be on his own head.",
+      "translator_notes": [
+        "The phrase damo brosho ('his blood is on his own head') is a legal formula of self-incurred liability — the person who hears the warning and ignores it bears sole responsibility for the consequences. The same formula appears in Joshua 2:19 and 2 Samuel 1:16."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "אֵ֣ת ק֤וֹל הַשּׁוֹפָר֙ שָׁמַ֔ע וְלֹ֣א נִזְהָ֔ר דָּמ֖וֹ בּ֣וֹ יִהְיֶ֑ה וְה֣וּא נִזְהָ֔ר נַפְשׁ֖וֹ מִלֵּֽט׃",
+      "text_kjv": "He heard the sound of the trumpet, and took not warning; his blood shall be upon him. But he that taketh warning shall deliver his soul.",
+      "rendering": "He heard the sound of the ram's horn but did not take warning — his blood is on him. But the one who takes warning will save his life.",
+      "translator_notes": [
+        "The verb milleit ('save, deliver, rescue') is used with nephesh here, which in context means 'his life' or 'himself' rather than 'soul' in the Greek philosophical sense. The contrast is stark: identical warning, opposite responses, opposite outcomes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְ֠הַצֹּפֶה כִּי־יִרְאֶ֨ה אֶת־הַחֶ֜רֶב בָּאָ֗ה וְלֹֽא־תָקַ֤ע בַּשּׁוֹפָר֙ וְהָעָ֣ם לֹֽא־נִזְהָ֔ר וַתָּב֣וֹא חֶ֔רֶב וַתִּקַּ֥ח מֵהֶ֖ם נָ֑פֶשׁ ה֚וּא בַּעֲוֹנ֣וֹ נִלְקָ֔ח וְדָמ֖וֹ מִיַּד־הַצֹּפֶ֥ה אֶדְרֹֽשׁ׃",
+      "text_kjv": "But if the watchman see the sword come, and blow not the trumpet, and the people be not warned; if the sword come, and take any person from among them, he is taken away in his iniquity; but his blood will I require at the watchman's hand.",
+      "rendering": "But if the watchman sees the sword coming and does not blow the ram's horn, and the people are not warned, and the sword comes and takes a life from among them — that person is taken in his iniquity, but I will require his blood from the watchman's hand.",
+      "translator_notes": [
+        "The verb edrosh ('I will require, I will seek out') indicates divine accountability — God himself will hold the negligent watchman liable. The phrase miyad hatsofeh ('from the watchman's hand') uses 'hand' as a metonym for agency and responsibility. The victim still dies 'in his iniquity' (ba'avono), but the watchman shares culpability for failing to warn."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְאַתָּ֣ה בֶן־אָדָ֔ם צֹפֶ֥ה נְתַתִּ֖יךָ לְבֵ֣ית יִשְׂרָאֵ֑ל וְשָׁמַעְתָּ֤ מִפִּי֙ דָּבָ֔ר וְהִזְהַרְתָּ֥ אוֹתָ֖ם מִמֶּֽנִּי׃",
+      "text_kjv": "So thou, O son of man, I have set thee a watchman unto the house of Israel; therefore thou shalt hear the word at my mouth, and warn them from me.",
+      "rendering": "As for you, son of man — I have appointed you as a watchman for the house of Israel. When you hear a word from my mouth, you must warn them on my behalf.",
+      "translator_notes": [
+        "The parable now becomes personal application. The hypothetical watchman scenario (vv. 2-6) was preparation for this direct commission. The phrase mippi ('from my mouth') emphasizes that Ezekiel's authority derives entirely from divine speech — he does not create the message but receives it. This restates 3:17 almost verbatim but in a new context: the judgment has now occurred."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "בְּאָמְרִ֤י לָרָשָׁע֙ רָשָׁ֗ע מ֣וֹת תָּמ֔וּת וְלֹ֣א דִבַּ֔רְתָּ לְהַזְהִ֥יר רָשָׁ֖ע מִדַּרְכּ֑וֹ ה֤וּא רָשָׁע֙ בַּעֲוֹנ֣וֹ יָמ֔וּת וְדָמ֖וֹ מִיָּדְךָ֥ אֲבַקֵּֽשׁ׃",
+      "text_kjv": "When I say unto the wicked, O wicked man, thou shalt surely die; if thou dost not speak to warn the wicked from his way, that wicked man shall die in his iniquity; but his blood will I require at thine hand.",
+      "rendering": "When I say to the wicked, 'Wicked one, you will certainly die,' and you do not speak to warn the wicked person away from his way, that wicked person will die in his iniquity — but I will require his blood from your hand.",
+      "translator_notes": [
+        "The emphatic mot tamut ('dying you will die' / 'you will certainly die') uses the infinitive absolute construction to stress the certainty of the outcome. The address rasha ('wicked one') is direct and confrontational — the watchman-prophet must deliver uncomfortable verdicts. The verb avaqesh ('I will seek, require') parallels edrosh in verse 6."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְאַתָּ֗ה כִּֽי־הִזְהַ֤רְתָּ רָשָׁע֙ מִדַּרְכּ֔וֹ לָשׁ֖וּב מִמֶּ֑נָּה וְלֹא־שָׁ֣ב מִדַּרְכּ֔וֹ ה֚וּא בַּעֲוֹנ֣וֹ יָמ֔וּת וְאַתָּ֖ה נַפְשְׁךָ֥ הִצַּֽלְתָּ׃",
+      "text_kjv": "Nevertheless, if thou warn the wicked of his way to turn from it; if he do not turn from his way, he shall die in his iniquity; but thou hast delivered thy soul.",
+      "rendering": "But if you warn the wicked person to turn from his way, and he does not turn from his way, he will die in his iniquity — but you will have saved your own life.",
+      "translator_notes": [
+        "The verb hitsalta ('you will have saved, delivered') is the hiphil perfect of natsal, indicating completed action — the watchman's responsibility ends with the delivery of the warning. The prophet is not responsible for the outcome, only for the faithfulness of the message. This is the theological foundation of prophetic ministry."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְאַתָּ֣ה בֶן־אָדָ֗ם אֱמֹר֙ אֶל־בֵּ֣ית יִשְׂרָאֵ֔ל כֵּ֤ן אֲמַרְתֶּם֙ לֵאמֹ֔ר כִּי־פְשָׁעֵ֥ינוּ וְחַטֹּאתֵ֖ינוּ עָלֵ֑ינוּ וּבָ֛ם אֲנַ֥חְנוּ נְמַקִּ֖ים וְאֵ֥יךְ נִחְיֶֽה׃",
+      "text_kjv": "Therefore, O thou son of man, speak unto the house of Israel; Thus ye speak, saying, If our transgressions and our sins be upon us, and we pine away in them, how should we then live?",
+      "rendering": "And you, son of man, say to the house of Israel: This is what you have said — 'Our transgressions and our sins weigh upon us, and we are wasting away because of them. How can we live?'",
+      "translator_notes": [
+        "The verb nimaqim ('we are wasting away, rotting, decaying') comes from the root m-q-q, describing organic decomposition. It appears in Leviticus 26:39 as part of the covenant-curse sequence — the exiles are experiencing exactly what Leviticus predicted. Their question 'How can we live?' (eikh nichyeh) is genuine despair, not rhetorical defiance. God takes the question seriously in the verses that follow."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "פֶּשַׁע",
+          "transliteration": "pesha",
+          "rendered_as": "transgressions",
+          "semantic_range": "rebellion, transgression, willful violation, breach of covenant",
+          "note": "Pesha is the strongest of the three Hebrew sin words — it denotes deliberate rebellion, not accidental failure. Combined with chattat ('sins,' missing the mark), the exiles acknowledge the full spectrum of their guilt."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "אֱמֹ֤ר אֲלֵיהֶם֙ חַי־אָ֨נִי֙ נְאֻ֣ם אֲדֹנָ֣י יְהוִ֔ה אִם־אֶחְפֹּ֖ץ בְּמ֣וֹת הָרָשָׁ֑ע כִּ֣י אִם־בְּשׁ֣וּב רָשָׁ֗ע מִדַּרְכּוֹ֙ וְחָיָ֔ה שׁ֤וּבוּ שׁ֙וּבוּ֙ מִדַּרְכֵיכֶ֣ם הָרָעִ֔ים וְלָ֥מָּה תָמ֖וּתוּ בֵּ֥ית יִשְׂרָאֵֽל׃",
+      "text_kjv": "Say unto them, As I live, saith the Lord GOD, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live: turn ye, turn ye from your evil ways; for why will ye die, O house of Israel?",
+      "rendering": "Say to them: As I live, declares the Lord GOD, I take no pleasure in the death of the wicked. Rather, I desire that the wicked turn from his way and live. Turn back! Turn back from your evil ways! Why should you die, house of Israel?",
+      "expanded_rendering": "The Hebrew shuvu shuvu ('turn back, turn back') is the doubled imperative of teshuvah — the urgent, pleading call to repentance. This is not a cold judicial pronouncement but a desperate appeal from God himself, underscored by his own oath ('as I live'). Teshuvah in Hebrew thought is fundamentally spatial — it is returning to a relationship, turning around from a wrong path and going back to where you belong. God's desire is not punishment but homecoming.",
+      "translator_notes": [
+        "The divine oath chai ani ('as I live') is the strongest possible guarantee — God swears by his own life. The verb chafats ('to delight, take pleasure') reveals God's emotional posture: he is not a dispassionate judge dispensing punishment but a grieving sovereign who longs for reconciliation. The doubled imperative shuvu shuvu ('turn back, turn back') intensifies the urgency — one command was not enough. This verse is a theological cornerstone: God's posture toward the wicked is not wrath but invitation."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שׁוּבוּ",
+          "transliteration": "shuvu",
+          "rendered_as": "Turn back",
+          "semantic_range": "to turn, return, repent, go back, restore",
+          "note": "The imperative of shuv, the foundational Hebrew word for repentance. The doubling expresses urgent repetition — God pleads with his people to return."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְאַתָּ֣ה בֶן־אָדָ֗ם אֱמֹ֤ר אֶל־בְּנֵי־עַמְּךָ֙ צִדְקַ֣ת הַצַּדִּ֗יק לֹ֤א תַצִּילֶ֙נּוּ֙ בְּי֣וֹם פִּשְׁע֔וֹ וְרִשְׁעַ֣ת הָרָשָׁ֔ע לֹא־יִכָּ֥שֶׁל בָּ֖הּ בְּי֣וֹם שׁוּב֣וֹ מֵרִשְׁע֑וֹ וְצַדִּ֗יק לֹ֥א יוּכַ֛ל לִחְי֥וֹת בָּ֖הּ בְּי֥וֹם חֲטֹאתֽוֹ׃",
+      "text_kjv": "Therefore, thou son of man, say unto the children of thy people, The righteousness of the righteous shall not deliver him in the day of his transgression: as for the wickedness of the wicked, he shall not fall thereby in the day that he turneth from his wickedness; neither shall the righteous be able to live for his righteousness in the day that he sinneth.",
+      "rendering": "And you, son of man, say to your people: The righteousness of the righteous will not save him on the day he transgresses, and the wickedness of the wicked will not cause his downfall on the day he turns from his wickedness. The righteous will not be able to live by his righteousness on the day he sins.",
+      "translator_notes": [
+        "This verse encapsulates the theology of individual responsibility developed in chapter 18. Neither past righteousness nor past wickedness determines present standing before God — each person's current moral direction is what matters. The verb yikashel ('stumble, fall') uses the metaphor of tripping on an obstacle; wickedness becomes a stumbling block, but one that disappears the moment the person turns from it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "בְּאָמְרִ֤י לַצַּדִּיק֙ חָיֹ֣ה יִחְיֶ֔ה וְהֽוּא־בָטַ֥ח עַל־צִדְקָת֖וֹ וְעָ֣שָׂה עָ֑וֶל כָּל־צִדְקֹתָ֤יו לֹ֣א תִזָּכַ֔רְנָה וּבְעַוְל֥וֹ אֲשֶׁר־עָשָׂ֖ה בּ֥וֹ יָמֽוּת׃",
+      "text_kjv": "When I shall say to the righteous, that he shall surely live; if he trust to his own righteousness, and commit iniquity, all his righteousnesses shall not be remembered; but for his iniquity that he hath committed, he shall die for it.",
+      "rendering": "When I say to the righteous, 'You will certainly live,' but he trusts in his own righteousness and commits injustice — none of his righteous deeds will be remembered. He will die because of the injustice he has committed.",
+      "translator_notes": [
+        "The verb batach ('to trust, rely on') here has a negative connotation — misplaced trust in one's own moral record. The word avel ('injustice, wrongdoing') is distinct from both pesha (rebellion) and chattat (sin/missing the mark); it denotes perversion of what is right, particularly in social relationships. The phrase lo tizzakharnah ('they will not be remembered') is jarring — God will not recall past righteousness when current conduct contradicts it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וּבְאָמְרִ֥י לָרָשָׁ֖ע מ֣וֹת תָּמ֑וּת וְשָׁב֙ מֵחַטָּאת֔וֹ וְעָשָׂ֥ה מִשְׁפָּ֖ט וּצְדָקָֽה׃",
+      "text_kjv": "Again, when I say unto the wicked, Thou shalt surely die; if he turn from his sin, and do that which is lawful and right,",
+      "rendering": "And when I say to the wicked, 'You will certainly die,' but he turns from his sin and does what is just and right —",
+      "translator_notes": [
+        "The phrase mishpat utsedaqah ('justice and righteousness') is a standard Hebrew word pair (hendiadys) describing the full scope of right conduct — legal justice and relational faithfulness. This is not merely about ceasing to sin but about actively pursuing righteous behavior."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "חֲבֹ֣ל יָשִׁ֗יב רָשָׁע֙ גְּזֵלָ֣ה יְשַׁלֵּ֔ם בְּחֻקּ֤וֹת הַחַיִּים֙ הָלַ֔ךְ לְבִלְתִּ֖י עֲשׂ֣וֹת עָ֑וֶל חָי֥וֹ יִחְיֶ֖ה לֹ֥א יָמֽוּת׃",
+      "text_kjv": "If the wicked restore the pledge, give again that he had robbed, walk in the statutes of life, without committing iniquity; he shall surely live, he shall not die.",
+      "rendering": "if the wicked person restores the pledge, returns what he has stolen, and walks in the statutes that give life without committing injustice — he will certainly live; he will not die.",
+      "translator_notes": [
+        "The examples are concrete: restoring a pledge (chabol — the garment taken as collateral for a loan, cf. Exodus 22:25-26) and returning stolen property (gezelah). Repentance is not abstract remorse but tangible restitution. The phrase chuqqot hachayim ('statutes of life') is striking — God's commandments are not arbitrary restrictions but life-giving instructions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "כָּל־חַטֹּאתָ֤יו אֲשֶׁר־חָטָא֙ לֹ֣א תִזָּכַ֔רְנָה ל֔וֹ מִשְׁפָּ֥ט וּצְדָקָ֖ה עָשָׂ֑ה חָי֖וֹ יִחְיֶֽה׃",
+      "text_kjv": "None of his sins that he hath committed shall be mentioned unto him: he hath done that which is lawful and right; he shall surely live.",
+      "rendering": "None of the sins he committed will be held against him. He has done what is just and right — he will certainly live.",
+      "translator_notes": [
+        "The verb tizzakharnah ('will be remembered, mentioned, held against') is the same verb used in verse 13 for the righteous person's deeds — God's 'memory' of past conduct is overwritten by present direction. This symmetry is theologically deliberate: God's evaluation is always based on current standing, not accumulated moral credit."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְאָמְר֥וּ בְּנֵי־עַמְּךָ֖ לֹ֣א יִתָּכֵ֣ן דֶּ֣רֶךְ אֲדֹנָ֑י וְהֵ֖מָּה דַּרְכָּ֥ם לֹא־יִתָּכֵֽן׃",
+      "text_kjv": "Yet the children of thy people say, The way of the Lord is not equal: but as for them, their way is not equal.",
+      "rendering": "Yet your people say, 'The way of the Lord is not fair.' But it is their way that is not fair.",
+      "translator_notes": [
+        "The verb yittaken ('to be measured, regulated, fair') comes from the root t-k-n, meaning to weigh or measure. The people's complaint is that God's justice system lacks consistency — they want moral credit to accumulate permanently. God's response turns the accusation back: it is their way of thinking, not God's way of judging, that is distorted. This exchange directly parallels 18:25, 29."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "בְּשׁ֤וּב צַדִּיק֙ מִצִּדְקָת֔וֹ וְעָשָׂ֖ה עָ֑וֶל וּמֵ֖ת בָּהֶֽם׃",
+      "text_kjv": "When the righteous turneth from his righteousness, and committeth iniquity, he shall even die thereby.",
+      "rendering": "When the righteous turns from his righteousness and commits injustice, he will die because of it.",
+      "translator_notes": [
+        "The concise syntax mirrors the stark theological principle: turn, sin, die. The Hebrew bahem ('in them, because of them') points to the injustice as both the cause and the context of death."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וּבְשׁ֤וּב רָשָׁע֙ מֵרִשְׁעָת֔וֹ וְעָשָׂ֥ה מִשְׁפָּ֖ט וּצְדָקָ֑ה עֲלֵיהֶ֖ם ה֥וּא יִחְיֶֽה׃",
+      "text_kjv": "But if the wicked turn from his wickedness, and do that which is lawful and right, he shall live thereby.",
+      "rendering": "And when the wicked turns from his wickedness and does what is just and right, he will live because of it.",
+      "translator_notes": [
+        "The symmetry with verse 18 is exact: turn, act justly, live. The parallelism is deliberate — God's justice operates by the same principle in both directions. No special pleading for the righteous, no permanent condemnation for the wicked."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַאֲמַרְתֶּ֕ם לֹ֥א יִתָּכֵ֖ן דֶּ֣רֶךְ אֲדֹנָ֑י אִ֧ישׁ כִּדְרָכָ֛יו אֶשְׁפּ֥וֹט אֶתְכֶ֖ם בֵּ֥ית יִשְׂרָאֵֽל׃",
+      "text_kjv": "Yet ye say, The way of the Lord is not equal. O ye house of Israel, I will judge you every one after his ways.",
+      "rendering": "Yet you say, 'The way of the Lord is not fair.' I will judge each of you according to his ways, house of Israel.",
+      "translator_notes": [
+        "God's final response to the accusation of unfairness is not philosophical argument but judicial declaration: ish kidrakav ('each according to his ways'). Individual accountability is the irreducible principle. This closes the individual responsibility section and prepares for the dramatic shift at verse 21."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיְהִ֞י בִּשְׁתֵּ֧י עֶשְׂרֵ֣ה שָׁנָ֗ה בָּעֲשִׂרִ֛י בַּחֲמִשָּׁ֥ה לַחֹ֖דֶשׁ לְגָלוּתֵ֑נוּ בָּ֣א אֵלַ֗י הַפָּלִיט֙ מִיר֣וּשָׁלַ֔͏ִם לֵאמֹ֖ר הֻכְּתָ֥ה הָעִֽיר׃",
+      "text_kjv": "And it came to pass in the twelfth year of our captivity, in the tenth month, in the fifth day of the month, that one that had escaped out of Jerusalem came unto me, saying, The city is smitten.",
+      "rendering": "In the twelfth year of our exile, on the fifth day of the tenth month, a fugitive from Jerusalem came to me and said, 'The city has fallen!'",
+      "translator_notes": [
+        "This is one of the most dramatic moments in the book. The date is approximately January 585 BCE (or 586 BCE depending on the calendrical system used), roughly a year and a half after Jerusalem's destruction in the summer of 586. The delay reflects the travel time from Jerusalem to Babylon. The word hapalit ('the fugitive, the one who escaped') suggests this person fled through the destruction. The verb hukketa ('has been struck, has fallen') is a hophal passive — the city was struck down by an external force. The three-word report hukketa ha'ir ('the city has fallen') is the news Ezekiel has been waiting for since 24:25-27, where God told him that on the day a fugitive arrives with news, his mouth would be opened."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְיַד־יְהוָ֡ה הָ֠יְתָה אֵלַ֞י בָּעֶ֗רֶב לִפְנֵי֙ בּ֣וֹא הַפָּלִ֔יט וַיִּפְתַּ֣ח אֶת־פִּ֔י עַד־בּ֥וֹא אֵלַ֖י בַּבֹּ֑קֶר וַיִּפָּ֣תַח פִּ֔י וְלֹ֥א נֶאֱלַ֖מְתִּי עֽוֹד׃",
+      "text_kjv": "Now the hand of the LORD was upon me in the evening, afore he that was escaped came; and had opened my mouth, until he came to me in the morning; and my mouth was opened, and I was no more dumb.",
+      "rendering": "Now the hand of the LORD had come upon me the evening before the fugitive arrived, and he opened my mouth before the fugitive came to me in the morning. My mouth was opened, and I was no longer silent.",
+      "translator_notes": [
+        "The sequence is precise: God's hand came upon Ezekiel in the evening, opening his mouth; the fugitive arrived the next morning. The prophetic release preceded the news — God was already acting before the human messenger arrived. The verb niftach ('was opened') is niphal passive: Ezekiel's mouth was opened by God, not by Ezekiel's own volition. The phrase lo ne'elamti od ('I was no longer silent') marks the end of the enforced silence imposed in 3:26. From this point forward, Ezekiel speaks freely. This is a structural hinge: the prophet of judgment becomes the prophet of restoration."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "Then the word of the LORD came unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": [
+        "A new oracle begins, addressed to those remaining in the ruined land of Israel — distinct from the exilic community around Ezekiel in Babylon."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "בֶּן־אָדָ֗ם יֹשְׁבֵ֞י הֶחֳרָב֤וֹת הָאֵ֙לֶּה֙ עַל־אַדְמַ֣ת יִשְׂרָאֵ֔ל אֹמְרִ֣ים לֵאמֹ֔ר אֶחָ֤ד הָיָה֙ אַבְרָהָ֔ם וַיִּירַ֖שׁ אֶת־הָאָ֑רֶץ וַאֲנַ֣חְנוּ רַבִּ֔ים לָ֛נוּ נִתְּנָ֥ה הָאָ֖רֶץ לְמוֹרָשָֽׁה׃",
+      "text_kjv": "Son of man, they that inhabit those wastes of the land of Israel speak, saying, Abraham was one, and he inherited the land: but we are many; the land is given us for inheritance.",
+      "rendering": "Son of man, the inhabitants of these ruins in the land of Israel are saying, 'Abraham was only one person, and he possessed the land. We are many — surely the land has been given to us as a possession.'",
+      "translator_notes": [
+        "The argument is a qal vachomer (lesser to greater) — if one man received the whole land, how much more should many people retain it? But the logic is fatally flawed: it assumes that possession of the land is based on numbers rather than covenant faithfulness. The word choravot ('ruins') highlights the irony — they claim inheritance while standing amid rubble. The verb yarash ('to possess, inherit') is the covenant-land verb par excellence, echoing the Abrahamic promise (Genesis 15:7-8), but the claimants have no covenantal standing to invoke it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "לָכֵ֞ן אֱמֹ֤ר אֲלֵיהֶם֙ כֹּה־אָמַ֣ר אֲדֹנָ֣י יְהוִ֔ה עַל־הַדָּם֙ תֹּאכֵ֔לוּ וְעֵינֵיכֶ֛ם תִּשְׂא֥וּ אֶל־גִּלּוּלֵיכֶ֖ם וְדָ֣ם תִּשְׁפֹּ֑כוּ וְהָאָ֖רֶץ תִּירָֽשׁוּ׃",
+      "text_kjv": "Wherefore say unto them, Thus saith the Lord GOD; Ye eat with the blood, and lift up your eyes toward your idols, and shed blood: and shall ye possess the land?",
+      "rendering": "Therefore say to them: This is what the Lord GOD says — You eat meat with the blood still in it, you lift your eyes to your idols, and you shed blood. Should you then possess the land?",
+      "translator_notes": [
+        "Three violations are listed, each one a direct breach of foundational Torah commands: eating blood (prohibited in Genesis 9:4, Leviticus 17:10-14), idolatry (the first commandment), and bloodshed (Genesis 9:6). The term gillulim ('idols') is Ezekiel's characteristic term of contempt — it likely derives from a root meaning 'dung' or 'pellets,' reducing the objects of worship to excrement. The rhetorical question at the end (veha'arets tirashu?) expects the answer 'absolutely not.'"
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גִּלּוּלִים",
+          "transliteration": "gillulim",
+          "rendered_as": "idols",
+          "semantic_range": "idols, dung-pellets, worthless things, fetishes",
+          "note": "Ezekiel's preferred term for idols, appearing nearly 40 times in the book. The word is deliberately degrading — it reduces objects of worship to something foul and contemptible."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "עֲמַדְתֶּ֣ם עַל־חַרְבְּכֶ֔ם עֲשִׂיתֶ֣ם תּוֹעֵבָ֔ה וְאִ֥ישׁ אֶת־אֵ֛שֶׁת רֵעֵ֖הוּ טִמֵּאתֶ֑ם וְהָאָ֖רֶץ תִּירָֽשׁוּ׃",
+      "text_kjv": "Ye stand upon your sword, ye work abomination, and ye defile every one his neighbour's wife: and shall ye possess the land?",
+      "rendering": "You rely on your sword, you commit abominations, and each of you defiles his neighbor's wife. Should you then possess the land?",
+      "translator_notes": [
+        "The phrase amadtem al charbkhem ('you stand upon your sword') means relying on violence as a way of life — the sword is their foundation, not covenant faithfulness. The word to'evah ('abomination') is Ezekiel's priestly defilement term. Adultery (defiling a neighbor's wife) violates both the seventh commandment and the purity of the land itself. The repeated rhetorical question hammers the point: those who live this way have no claim to the Abrahamic inheritance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "כֹּה־תֹאמַ֣ר אֲלֵהֶ֗ם כֹּה־אָמַ֣ר אֲדֹנָ֣י יְהוִה֮ חַי־אָנִי֒ אִם־לֹ֞א אֲשֶׁ֤ר בֶּחֳרָבוֹת֙ בַּחֶ֣רֶב יִפֹּ֔לוּ וַאֲשֶׁ֗ר עַל־פְּנֵ֤י הַשָּׂדֶה֙ לַחַיָּ֣ה נְתַתִּ֔יו לְאָכְל֑וֹ וַאֲשֶׁ֛ר בַּמְּצָד֥וֹת וּבַמְּעָר֖וֹת בַּדֶּ֥בֶר יָמֽוּתוּ׃",
+      "text_kjv": "Say thou thus unto them, Thus saith the Lord GOD; As I live, surely they that are in the wastes shall fall by the sword, and him that is in the open field will I give to the beasts to be devoured, and they that be in the forts and in the caves shall die of the pestilence.",
+      "rendering": "Say this to them: This is what the Lord GOD says — As I live, those in the ruins will fall by the sword, those in the open field I will give to the wild animals to devour, and those in the strongholds and caves will die by plague.",
+      "translator_notes": [
+        "Three zones of supposed safety — ruins, open country, and fortifications — and none provides refuge. The sword, wild beasts, and plague form a triad of covenant curses (cf. Leviticus 26:22, 25, 33). The oath formula chai ani ('as I live') adds divine certainty — the same formula that in verse 11 guaranteed mercy to the repentant now guarantees judgment on the defiant."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְנָתַתִּ֤י אֶת־הָאָ֙רֶץ֙ שְׁמָמָ֣ה וּמְשַׁמָּ֔ה וְנִשְׁבַּ֖ת גְּא֣וֹן עֻזָּ֑הּ וְשָֽׁמְמ֤וּ הָרֵי֙ יִשְׂרָאֵ֔ל מֵאֵ֖ין עוֹבֵֽר׃",
+      "text_kjv": "For I will lay the land most desolate, and the pomp of her strength shall cease; and the mountains of Israel shall be desolate, that none shall pass through.",
+      "rendering": "I will make the land a desolate waste, and the pride of her strength will cease. The mountains of Israel will be so desolate that no one will pass through them.",
+      "translator_notes": [
+        "The phrase shemamah umeshammah ('desolation and devastation') uses a wordplay built on the same root sh-m-m, intensifying the sense of utter emptiness. The 'pride of her strength' (ge'on uzzah) refers to the land's former fertility and the national confidence it inspired — all of it will end. The image of mountains without travelers conveys total depopulation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְיָדְע֖וּ כִּי־אֲנִ֣י יְהוָ֑ה בְּתִתִּ֤י אֶת־הָאָ֙רֶץ֙ שְׁמָמָ֣ה וּמְשַׁמָּ֔ה עַ֥ל כָּל־תּוֹעֲבוֹתָ֖ם אֲשֶׁ֥ר עָשֽׂוּ׃",
+      "text_kjv": "Then shall they know that I am the LORD, when I have laid the land most desolate because of all their abominations which they have committed.",
+      "rendering": "Then they will know that I am the LORD, when I have made the land a desolate waste because of all their abominations that they have committed.",
+      "translator_notes": [
+        "The recognition formula veyadu ki ani YHWH ('and they will know that I am the LORD') is one of Ezekiel's most characteristic phrases, appearing over 70 times in the book. Knowledge of God comes through judgment — the desolation itself becomes a revelation of divine identity. The purpose of judgment is not annihilation but recognition."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְאַתָּ֣ה בֶן־אָדָ֗ם בְּנֵ֤י עַמְּךָ֙ הַנִּדְבָּרִ֣ים בְּךָ֔ אֵ֧צֶל הַקִּיר֛וֹת וּבְפִתְחֵ֖י הַבָּתִּ֑ים וְדִבֶּר־חָ֗ד אֶת־אָחָ֤ד אִ֣ישׁ אֶת־אָחִ֔יו לֵאמֹ֕ר בֹּ֣אוּ נָ֔א וְשִׁמְע֣וּ מָ֣ה הַדָּבָ֔ר הַיּוֹצֵ֖א מֵאֵ֥ת יְהוָֽה׃",
+      "text_kjv": "Also, thou son of man, the children of thy people still are talking against thee by the walls and in the doors of the houses, and speak one to another, every one to his brother, saying, Come, I pray you, and hear what is the word that cometh forth from the LORD.",
+      "rendering": "As for you, son of man — your people are talking about you beside the walls and in the doorways of their houses, saying to one another, each to his neighbor, 'Come, let us go and hear what word is coming from the LORD.'",
+      "translator_notes": [
+        "The Hebrew hannidbarim bekha can mean either 'talking about you' or 'talking against you' — the preposition be is ambiguous. In context, the tone seems more curious than hostile; they discuss Ezekiel as a novelty. The detail etsel haqirot uvepitchei habattim ('beside the walls and in the doorways') paints a vivid scene of everyday gossip — the prophet has become a topic of neighborhood conversation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיָּבֹ֣אוּ אֵלֶ֗יךָ כִּמְבוֹא־עָם֙ וְיֵשְׁב֤וּ לְפָנֶ֙יךָ֙ עַמִּ֔י וְשָֽׁמְעוּ֙ אֶת־דְּבָרֶ֔יךָ וְאוֹתָ֖ם לֹ֣א יַעֲשׂ֑וּ כִּֽי־עֲגָב֤וֹת בְּפִיהֶם֙ הֵ֣מָּה עֹשִׂ֔ים אַחֲרֵ֥י בִצְעָ֖ם לִבָּ֥ם הֹלֵֽךְ׃",
+      "text_kjv": "And they come unto thee as the people cometh, and they sit before thee as my people, and they hear thy words, but they will not do them: for with their mouth they shew much love, but their heart goeth after their covetousness.",
+      "rendering": "They come to you as a crowd gathers, and they sit before you as my people. They hear your words, but they will not act on them. Their mouths speak of devotion, but their hearts pursue dishonest gain.",
+      "translator_notes": [
+        "The word agavot ('devotion, desire, passion') in their mouths contrasts sharply with bitsa'am ('their unjust gain, profit') in their hearts. The Hebrew describes a split between public piety and private greed. The phrase kimvo am ('as a people comes') suggests they arrive in crowds — Ezekiel has become popular, but popularity without obedience is worthless."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְהִנְּךָ֤ לָהֶם֙ כְּשִׁ֣יר עֲגָבִ֔ים יְפֵ֥ה ק֖וֹל וּמֵטִ֣ב נַגֵּ֑ן וְשָֽׁמְעוּ֙ אֶת־דְּבָרֶ֔יךָ וְעֹשִׂ֥ים אֵינָ֖ם אוֹתָֽם׃",
+      "text_kjv": "And, lo, thou art unto them as a very lovely song of one that hath a pleasant voice, and can play well on an instrument: for they hear thy words, but they do them not.",
+      "rendering": "To them you are like a singer of love songs — one with a beautiful voice who plays skillfully. They hear your words, but they do not act on them.",
+      "translator_notes": [
+        "The comparison is devastating: Ezekiel is treated as entertainment. The phrase shir agavim ('love songs' or 'songs of passion') suggests the kind of music one enjoys for aesthetic pleasure without any obligation to respond. The word metiv naggen ('skilled musician') is the same phrase used of David in 1 Samuel 16:17. The prophet's eloquence becomes a trap — the beauty of the message substitutes for obedience to its content."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וּבְבֹאָ֑הּ הִנֵּ֣ה בָאָ֔ה וְיָ֣דְע֔וּ כִּ֥י נָבִ֖יא הָיָ֥ה בְתוֹכָֽם׃",
+      "text_kjv": "And when this cometh to pass, (lo, it will come,) then shall they know that a prophet hath been among them.",
+      "rendering": "When it comes to pass — and it will come — then they will know that a prophet was among them.",
+      "translator_notes": [
+        "The chapter ends with a grim prophecy about prophecy itself: fulfillment will vindicate the prophet, but by then it will be too late for the hearers to benefit from the warning. The phrase navi hayah betokham ('a prophet was among them') uses the past tense — when the fulfillment arrives, the opportunity will already have passed. The recognition will be retrospective, not prospective. This echoes 2:5 ('whether they listen or refuse to listen, they will know that a prophet has been among them') and forms an inclusio with the watchman theme: the watchman's vindication comes when the sword arrives."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

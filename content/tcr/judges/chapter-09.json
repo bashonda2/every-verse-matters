@@ -1,0 +1,627 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Judges",
+    "chapter": 9,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Abimelech, Gideon's son by a Shechemite concubine, murders his seventy brothers on a single stone and makes himself king at Shechem. Jotham's fable of the trees warns against him. Shechem rebels, and Abimelech destroys the city before being killed by a millstone dropped by a woman.",
+    "remarkable": "Jotham's fable (vv. 7-15) is the only true parable in the Hebrew Bible before the prophets. The trees ask the olive, fig, and vine to be king — each refuses because productive trees have better things to do. Only the thornbush (atad) accepts — worthless, combustible, offering shade it cannot actually provide. The political theology is devastating: the bramble-king will burn the cedars of Lebanon. Abimelech's death by a woman's hand (v. 53) echoes Sisera's and previews a pattern: those who seize power by violence die in humiliation.",
+    "friction": "The word ba'al berit (v. 4, 'Baal of the Covenant' or 'Lord of the Covenant') is the name of Shechem's deity — the irony of a 'covenant god' presiding over covenant betrayal is sharp. We transliterated the divine name and noted the irony. The mass fratricide 'on a single stone' (v. 5, al even achat) suggests a ritual or political execution, not random violence.",
+    "connections": "Shechem's prominence connects to Genesis 34 (the Dinah incident), Joshua 24 (the covenant renewal), and the future division of the kingdom. Jotham's fable anticipates Nathan's parable to David (2 Samuel 12). The phrase 'God repaid the wickedness of Abimelech' (v. 56) fulfills Jotham's curse exactly. The lone survivor Jotham echoes David as the lone survivor of Saul's purges."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיֵּ֨לֶךְ אֲבִימֶ֧לֶךְ בֶּן־יְרֻבַּ֛עַל שְׁכֶ֖מָה אֶל־אֲחֵ֣י אִמּ֑וֹ וַיְדַבֵּ֣ר אֲלֵיהֶ֗ם וְאֶל־כׇּל־מִשְׁפַּ֛חַת בֵּית־אֲבִ֥י אִמּ֖וֹ לֵאמֹֽר׃",
+      "text_kjv": "And Abimelech the son of Jerubbaal went to Shechem unto his mother's brethren, and communed with them, and with all the family of the house of his mother's father, saying,",
+      "rendering": "Abimelech son of Jerubbaal went to Shechem, to his mother's relatives, and spoke to them and to the entire clan of his mother's father's household, saying,",
+      "translator_notes": [
+        "Abimelech (avimelekh, 'my father is king') — the name itself is a political statement and foreshadows his ambition. He is identified as ben Yerubba'al ('son of Jerubbaal/Gideon'), but critically he goes to Shechem, to achei immo ('his mother's brothers') — his maternal kin. His mother was Gideon's concubine (pilegesh) from Shechem (8:31), making Abimelech half-Canaanite and half-Israelite. His power base is not among the Israelite tribes but among the Shechemite clan. The word mishpachat ('clan, extended family') emphasizes the kinship network he will exploit."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֲבִימֶלֶךְ",
+          "transliteration": "avimelekh",
+          "rendered_as": "Abimelech",
+          "semantic_range": "my father is king",
+          "note": "An ironic name given that Gideon refused the kingship (8:23), yet his son by a concubine seizes it by violence"
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "דַּבְּרוּ־נָ֗א בְּאׇזְנֵי֙ כׇּל־בַּעֲלֵ֣י שְׁכֶ֔ם מַה־טּ֣וֹב לָכֶ֗ם הַמְשֹׁ֨ל בָּכֶ֜ם שִׁבְעִ֤ים אִישׁ֙ כֹּ֚ל בְּנֵ֣י יְרֻבַּ֔עַל אִם־מְשֹׁ֥ל בָּכֶ֖ם אִ֣ישׁ אֶחָ֑ד וּזְכַרְתֶּ֕ם כִּֽי־עַצְמִכֶ֥ם וּבְשַׂרְכֶ֖ם אָֽנִי׃",
+      "text_kjv": "Speak, I pray you, in the ears of all the men of Shechem, Whether is better for you, either that all the sons of Jerubbaal, which are threescore and ten persons, reign over you, or that one reign over you? remember also that I am your bone and your flesh.",
+      "rendering": "\"Speak in the hearing of all the citizens of Shechem: 'Which is better for you — to be ruled by seventy men, all of Jerubbaal's sons, or to be ruled by one man?' And remember that I am your own flesh and blood.\"",
+      "translator_notes": [
+        "Ba'alei Shekhem ('citizens/lords of Shechem') — the term ba'al here means 'lord, citizen, property owner,' the civic elite. Abimelech's argument is deceptively simple: would you rather have seventy overlords or one? The number shiv'im ('seventy') is both literal (Gideon had seventy sons, 8:30) and rhetorical — it sounds oppressive. His closing appeal, atsmikhem u-vesarkhem ani ('I am your bone and your flesh'), invokes the kinship bond. This is the language of covenant loyalty (cf. Genesis 29:14, 2 Samuel 5:1), but Abimelech weaponizes it for political ambition."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיְדַבְּר֨וּ אֲחֵי־אִמּ֜וֹ עָלָ֗יו בְּאׇזְנֵי֙ כׇּל־בַּעֲלֵ֣י שְׁכֶ֔ם אֵ֥ת כׇּל־הַדְּבָרִ֖ים הָאֵ֑לֶּה וַיֵּ֤ט לִבָּם֙ אַחֲרֵ֣י אֲבִימֶ֔לֶךְ כִּ֥י אָמְר֖וּ אָחִ֥ינוּ הֽוּא׃",
+      "text_kjv": "And his mother's brethren spake of him in the ears of all the men of Shechem all these words: and their hearts inclined to follow Abimelech; for they said, He is our brother.",
+      "rendering": "His mother's relatives spoke on his behalf in the hearing of all the citizens of Shechem, repeating all these words. Their hearts turned toward Abimelech, because they said, \"He is our kinsman.\"",
+      "translator_notes": [
+        "Va-yet libbam acharei Avimelekh ('their heart inclined/turned after Abimelech') — the verb natah ('to turn, incline, stretch') describes a gravitational pull of loyalty. The decisive factor is the tribal bond: achinu hu ('he is our brother/kinsman'). The Shechemites choose ethnic solidarity over any evaluation of character or divine appointment. This is the anti-pattern of Judges: human criteria replacing divine selection. Shechem's decision is immediate and unexamined."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיִּתְּנוּ־ל֗וֹ שִׁבְעִ֤ים כֶּ֙סֶף֙ מִבֵּ֣ית בַּ֣עַל בְּרִ֔ית וַיִּשְׂכֹּ֤ר בָּהֶם֙ אֲבִימֶ֔לֶךְ אֲנָשִׁ֖ים רֵיקִ֣ים וּפֹחֲזִ֑ים וַיֵּלְכ֖וּ אַחֲרָֽיו׃",
+      "text_kjv": "And they gave him threescore and ten pieces of silver out of the house of Baalberith, and therewith Abimelech hired vain and light persons, which followed him.",
+      "rendering": "They gave him seventy pieces of silver from the temple of Baal-Berith. With it, Abimelech hired reckless and worthless men, and they followed him.",
+      "translator_notes": [
+        "Shiv'im kesef mi-beit Ba'al Berit ('seventy silver from the house/temple of Baal-Berith') — seventy pieces of silver from the temple treasury to murder seventy brothers: one shekel per life. The grim arithmetic is almost certainly intentional. Baal-Berith (ba'al berit, 'lord of the covenant') is a Canaanite deity whose name carries devastating theological irony — the 'lord of the covenant' funds the murder of the sons of the man who delivered Israel. The anashim reqim u-fochazim ('empty and reckless men') are mercenaries of the lowest class — reqim ('empty, worthless') and fochazim ('reckless, unstable'). The same word raq ('empty') describes Jephthah's followers in 11:3."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בַּעַל בְּרִית",
+          "transliteration": "ba'al berit",
+          "rendered_as": "Baal-Berith",
+          "semantic_range": "lord of the covenant",
+          "note": "A Canaanite deity worshiped at Shechem whose name is theologically ironic: a pagan 'lord of the covenant' funds the destruction of the family of Israel's deliverer, while Israel's true LORD of the covenant is ignored"
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיָּבֹ֤א בֵית־אָבִיו֙ עׇפְרָ֔תָה וַיַּהֲרֹ֞ג אֶת־אֶחָ֧יו בְּנֵֽי־יְרֻבַּ֛עַל שִׁבְעִ֥ים אִ֖ישׁ עַל־אֶ֣בֶן אֶחָ֑ת וַיִּוָּתֵר֙ יוֹתָ֣ם בֶּן־יְרֻבַּ֔עַל הַקָּטָ֖ן כִּ֥י נֶחְבָּֽא׃",
+      "text_kjv": "And he went unto his father's house at Ophrah, and slew his brethren the sons of Jerubbaal, being threescore and ten persons, upon one stone: notwithstanding yet Jotham the youngest son of Jerubbaal was left; for he hid himself.",
+      "rendering": "He went to his father's house at Ophrah and killed his brothers, the sons of Jerubbaal — seventy men — on a single stone. But Jotham, the youngest son of Jerubbaal, survived because he hid himself.",
+      "translator_notes": [
+        "Al even echat ('on a single stone') — the mass execution is carried out on one stone, suggesting a ritual or sacrificial dimension. The stone may function as an improvised altar or execution block; the phrase emphasizes the systematic, assembly-line nature of the slaughter. Va-yivvater Yotam ('but Jotham was left/remained') — the verb yatar ('to remain, be left over') is the same root used for the 'remnant' concept in prophetic literature. Jotham (yotam, 'the LORD is perfect/complete') survives because he hid (nechba, 'concealed himself'). The youngest surviving to challenge the tyrant echoes David's position as youngest son."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיֵּאָ֨סְפ֜וּ כׇּל־בַּעֲלֵ֤י שְׁכֶם֙ וְכׇל־בֵּ֣ית מִלּ֔וֹא וַיֵּ֨לְכ֔וּ וַיַּמְלִ֥יכוּ אֶת־אֲבִימֶ֖לֶךְ לְמֶ֑לֶךְ עִם־אֵל֥וֹן מֻצָּ֖ב אֲשֶׁ֥ר בִּשְׁכֶֽם׃",
+      "text_kjv": "And all the men of Shechem gathered together, and all the house of Millo, and went, and made Abimelech king, by the plain of the pillar that was in Shechem.",
+      "rendering": "All the citizens of Shechem and the entire house of Millo assembled. They went and made Abimelech king beside the oak of the pillar that was in Shechem.",
+      "translator_notes": [
+        "Va-yamlikhu et Avimelekh le-melekh ('they made Abimelech king') — this is the first time in Judges that anyone is actually made melekh ('king'). Gideon refused the title (8:23); his bastard son seizes it by fratricide. Beit Millo ('house of Millo/the filled place') likely refers to a fortified area or citadel within Shechem. The elon mutsav ('oak/terebinth of the pillar/standing stone') connects to the sacred site where Joshua made a covenant (Joshua 24:26) — the coronation of a murderer at a covenant site is deeply ironic. Abimelech's kingship is a grotesque inversion of everything the judges period represents."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיַּגִּ֣דוּ לְיוֹתָ֗ם וַיֵּ֙לֶךְ֙ וַיַּעֲמֹד֙ בְּרֹ֣אשׁ הַר־גְּרִזִּ֔ים וַיִּשָּׂ֥א קוֹל֖וֹ וַיִּקְרָ֑א וַיֹּ֤אמֶר לָהֶם֙ שִׁמְע֣וּ אֵלַ֔י בַּעֲלֵ֣י שְׁכֶ֔ם וְיִשְׁמַ֥ע אֲלֵיכֶ֖ם אֱלֹהִֽים׃",
+      "text_kjv": "And when they told it to Jotham, he went and stood in the top of mount Gerizim, and lifted up his voice, and cried, and said unto them, Hearken unto me, ye men of Shechem, that God may hearken unto you.",
+      "rendering": "When they told Jotham, he went and stood on the summit of Mount Gerizim. He raised his voice and called out to them:\n\n\"Listen to me, citizens of Shechem,\n  so that God may listen to you!\"",
+      "translator_notes": [
+        "Va-yissa qolo va-yiqra ('he raised his voice and called out') — the doubled expression signals a formal public proclamation. Mount Gerizim overlooks Shechem from the south and is the mountain of blessing (Deuteronomy 11:29, 27:12); Jotham delivers his curse from the mountain of blessing — another layer of irony. His opening line shim'u elai... ve-yishma aleikhem Elohim ('listen to me... and may God listen to you') frames the fable as more than political rhetoric — it is a prophetic appeal with divine witness. The shift to heightened speech begins here."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "הָל֤וֹךְ הָלְכוּ֙ הָעֵצִ֔ים לִמְשֹׁ֥חַ עֲלֵיהֶ֖ם מֶ֑לֶךְ וַיֹּאמְר֥וּ לַזַּ֖יִת מׇלְכָ֥ה עָלֵֽינוּ׃",
+      "text_kjv": "The trees went forth on a time to anoint a king over them; and they said unto the olive tree, Reign thou over us.",
+      "rendering": "\"The trees once set out\n  to anoint a king over themselves.\nThey said to the olive tree,\n  'Reign over us!'\"",
+      "translator_notes": [
+        "Halokh halekhu ha-etsim limshoch aleihem melekh ('going, the trees went to anoint over themselves a king') — the infinitive absolute halokh halekhu intensifies the action: the trees deliberately, purposefully set out on this quest. The verb mashach ('to anoint') is the technical term for royal inauguration — the same root as mashiach ('messiah/anointed one'). Jotham's fable is the earliest known political parable in the Hebrew Bible. The trees personified represent the citizens of Shechem seeking a ruler. The olive tree (zayit) is approached first as the most valuable and productive tree in the Israelite economy."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֹּ֤אמֶר לָהֶם֙ הַזַּ֔יִת הֶחֳדַ֙לְתִּי֙ אֶת־דִּשְׁנִ֔י אֲשֶׁר־בִּ֛י יְכַבְּד֥וּ אֱלֹהִ֖ים וַאֲנָשִׁ֑ים וְהָ֣לַכְתִּ֔י לָנ֖וּעַ עַל־הָעֵצִֽים׃",
+      "text_kjv": "But the olive tree said unto them, Should I leave my fatness, wherewith by me they honour God and man, and go to be promoted over the trees?",
+      "rendering": "\"But the olive tree said to them,\n  'Should I abandon my richness,\n  by which gods and humans are honored,\n  just to go sway over the trees?'\"",
+      "translator_notes": [
+        "Ha-chaddalti et dishni ('should I cease/abandon my fatness/richness') — the olive's response reveals the fable's political logic: productive, valuable members of society have better things to do than rule. The dishni ('my fatness, my oil, my richness') refers to olive oil, essential for cooking, lighting, medicine, and ritual anointing. The phrase yekhabbedu Elohim va-anashim ('by which gods/God and men are honored') elevates olive oil to sacred status — it serves both divine worship and human civilization. The verb nu'a ('to sway, wave, wander') for ruling is deliberately dismissive — kingship is reduced to mere swaying above others."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיֹּאמְר֥וּ הָעֵצִ֖ים לַתְּאֵנָ֑ה לְכִי־אַ֖תְּ מׇלְכִ֥י עָלֵֽינוּ׃",
+      "text_kjv": "And the trees said to the fig tree, Come thou, and reign over us.",
+      "rendering": "\"Then the trees said to the fig tree,\n  'You come — reign over us!'\"",
+      "translator_notes": [
+        "Lekhi at molkhi aleinu ('come, you, reign over us') — the imperative addressed to the fig tree (te'enah) uses feminine forms, following the grammatical gender of trees in Hebrew. The fig tree is the second most valuable tree in the Israelite economy after the olive. The pattern is being established: the trees approach each productive tree in descending order of economic importance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַתֹּ֤אמֶר לָהֶם֙ הַתְּאֵנָ֔ה הֶחֳדַ֙לְתִּי֙ אֶת־מׇתְקִ֔י וְאֶת־תְּנוּבָתִ֖י הַטּוֹבָ֑ה וְהָ֣לַכְתִּ֔י לָנ֖וּעַ עַל־הָעֵצִֽים׃",
+      "text_kjv": "But the fig tree said unto them, Should I forsake my sweetness, and my good fruit, and go to be promoted over the trees?",
+      "rendering": "\"But the fig tree said to them,\n  'Should I abandon my sweetness\n  and my excellent fruit,\n  just to go sway over the trees?'\"",
+      "translator_notes": [
+        "Ha-chaddalti et motqi ve-et tenuvati ha-tovah ('should I abandon my sweetness and my good produce') — the fig tree's refusal echoes the olive's structure but highlights different virtues: motqi ('my sweetness') and tenuvati ha-tovah ('my good fruit/produce'). Figs were a staple food in ancient Israel, dried into cakes for travel and storage. Like the olive, the fig refuses to trade productive contribution for empty authority. The verb nu'a ('sway') again mocks the nature of kingship."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיֹּאמְר֥וּ הָעֵצִ֖ים לַגָּ֑פֶן לְכִי־אַ֖תְּ מׇלְכִ֥י עָלֵֽינוּ׃",
+      "text_kjv": "Then said the trees unto the vine, Come thou, and reign over us.",
+      "rendering": "\"Then the trees said to the vine,\n  'You come — reign over us!'\"",
+      "translator_notes": [
+        "La-gafen ('to the vine') — the grapevine is the third productive plant approached. Olive, fig, and vine form the classic triad of Israelite agriculture (Deuteronomy 8:8; 1 Kings 4:25). Each refusal narrows the field until only the worthless candidate remains. The repetition of the invitation formula creates a rhythmic, almost liturgical pattern in the fable."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַתֹּ֤אמֶר לָהֶם֙ הַגֶּ֔פֶן הֶחֳדַ֣לְתִּי אֶת־תִּֽירוֹשִׁ֔י הַֽמְשַׂמֵּ֥חַ אֱלֹהִ֖ים וַאֲנָשִׁ֑ים וְהָ֣לַכְתִּ֔י לָנ֖וּעַ עַל־הָעֵצִֽים׃",
+      "text_kjv": "And the vine said unto them, Should I leave my wine, which cheereth God and man, and go to be promoted over the trees?",
+      "rendering": "\"But the vine said to them,\n  'Should I abandon my wine,\n  which brings joy to gods and humans,\n  just to go sway over the trees?'\"",
+      "translator_notes": [
+        "Ha-chaddalti et tiroshi ha-mesammeach Elohim va-anashim ('should I abandon my new wine that gladdens gods/God and humans') — tirosh ('new wine, fresh grape juice') is distinguished from yayin ('fermented wine'). The verb sameach ('to gladden, bring joy') gives wine a quasi-sacred function: it serves both divine offering (drink offerings/nesekh) and human celebration. Like the olive's oil, the vine's product operates in both sacred and secular spheres. The three refusals — oil, sweetness, wine — represent the full spectrum of agricultural blessing. What remains is the thornbush."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֹּאמְר֥וּ כׇל־הָעֵצִ֖ים אֶל־הָאָטָ֑ד לֵ֥ךְ אַתָּ֖ה מְלׇךְ־עָלֵֽינוּ׃",
+      "text_kjv": "Then said all the trees unto the bramble, Come thou, and reign over us.",
+      "rendering": "\"Then all the trees said to the thornbush,\n  'You come — reign over us!'\"",
+      "translator_notes": [
+        "El ha-atad ('to the thornbush/bramble') — the atad is a low, thorny scrub bush, utterly worthless for fruit, shade, or timber. It produces nothing useful and is a fire hazard in the dry season. The contrast with olive, fig, and vine could not be sharper: the trees have exhausted every productive option and now turn to the one plant that contributes nothing. The word kol ('all') is added: all the trees address the thornbush — unanimous desperation. This is Jotham's portrait of Abimelech: the worthless, dangerous option chosen only because every worthy candidate refused."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיֹּ֣אמֶר הָאָטָד֮ אֶל־הָעֵצִים֒ אִ֣ם בֶּאֱמֶ֗ת אַתֶּ֤ם מֹשְׁחִים֙ אֹתִ֣י לְמֶ֣לֶךְ עֲלֵיכֶ֔ם בֹּ֖אוּ חֲס֣וּ בְצִלִּ֑י וְאִם־אַ֕יִן תֵּצֵ֥א אֵ֛שׁ מִן־הָאָטָ֖ד וְתֹאכַ֥ל אֶת־אַרְזֵ֥י הַלְּבָנֽוֹן׃",
+      "text_kjv": "And the bramble said unto the trees, If in truth ye anoint me king over you, then come and put your trust in my shadow: and if not, let fire come out of the bramble, and devour the cedars of Lebanon.",
+      "rendering": "\"And the thornbush said to the trees,\n  'If you are truly anointing me king over you,\n  come, take shelter in my shade.\n  But if not —\n  let fire come out from the thornbush\n  and consume the cedars of Lebanon!'\"",
+      "translator_notes": [
+        "The thornbush's response is the climax of the fable and drips with dark irony. Im be-emet attem moshchim oti le-melekh ('if in truth you are anointing me as king') — the thornbush demands absolute sincerity, the one thing this entire arrangement lacks. Bo'u chasu ve-tsilli ('come, take shelter in my shade') is absurd: a thornbush provides no shade. It is a parody of royal protection. The threat is the real point: ve-im ayin tetse esh min ha-atad ve-tokhal et arzei ha-Levanon ('if not, let fire go out from the thornbush and consume the cedars of Lebanon'). Thornbushes catch fire easily in dry conditions; once burning, they spread wildly. The cedars of Lebanon are the most majestic trees in the ancient Near East. The thornbush — the lowliest plant — threatens to destroy the noblest. This is Jotham's prophecy: Abimelech will destroy Shechem, and Shechem will destroy Abimelech."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְעַתָּ֗ה אִם־בֶּאֱמֶ֤ת וּבְתָמִים֙ עֲשִׂיתֶ֔ם וַתַּמְלִ֖יכוּ אֶת־אֲבִימֶ֑לֶךְ וְאִם־טוֹבָ֤ה עֲשִׂיתֶם֙ עִם־יְרֻבַּ֣עַל וְעִם־בֵּית֔וֹ וְאִם־כִּגְמ֥וּל יָדָ֖יו עֲשִׂ֥יתֶם לֽוֹ׃",
+      "text_kjv": "Now therefore, if ye have done truly and sincerely, in that ye have made Abimelech king, and if ye have dealt well with Jerubbaal and his house, and have done unto him according to the deserving of his hands;",
+      "rendering": "\"Now then — if you have acted in truth and integrity by making Abimelech king, and if you have dealt fairly with Jerubbaal and his household, and if you have treated him as his actions deserved —",
+      "translator_notes": [
+        "Im be-emet u-ve-tamim asitem ('if in truth and in integrity you have acted') — Jotham now applies the fable to the real situation. The word tamim ('integrity, completeness, wholeness') is a covenant term demanding total honesty. The series of conditional 'if' clauses (im... ve-im... ve-im...) builds a rhetorical case that the Shechemites know they are answering 'no' to every question. Gemul yadav ('the reward/recompense of his hands') refers to Gideon's service — what he earned by his hands in delivering Israel."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אֲשֶׁר־נִלְחַ֥ם אָבִ֖י עֲלֵיכֶ֑ם וַיַּשְׁלֵ֥ךְ אֶת־נַפְשׁ֛וֹ מִנֶּ֖גֶד וַיַּצֵּ֥ל אֶתְכֶ֖ם מִיַּ֥ד מִדְיָֽן׃",
+      "text_kjv": "For my father fought for you, and adventured his life far, and delivered you out of the hand of Midian:",
+      "rendering": "for my father fought for you and risked his life, and rescued you from the power of Midian —",
+      "translator_notes": [
+        "Va-yashlekh et nafsho mi-neged ('he threw/cast his life from before [him]') — a vivid idiom for risking one's life. The verb shalakh ('to throw, cast') makes the risk visceral: Gideon hurled his very life away for their sake. Jotham calls Gideon avi ('my father'), emphasizing the personal dimension: you are repaying my father's sacrifice with the murder of his sons. Va-yatsel etkhem mi-yad Midyan ('he rescued you from the hand of Midian') — the standard deliverance formula, reminding Shechem of the debt they owe."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְאַתֶּ֨ם קַמְתֶּ֤ם עַל־בֵּית־אָבִי֙ הַיּ֔וֹם וַתַּהַרְג֧וּ אֶת־בָּנָ֛יו שִׁבְעִ֥ים אִ֖ישׁ עַל־אֶ֣בֶן אֶחָ֑ת וַתַּמְלִ֨יכוּ אֶת־אֲבִימֶ֤לֶךְ בֶּן־אֲמָתוֹ֙ עַל־בַּעֲלֵ֣י שְׁכֶ֔ם כִּ֥י אֲחִיכֶ֖ם הֽוּא׃",
+      "text_kjv": "And ye are risen up against my father's house this day, and have slain his sons, threescore and ten persons, upon one stone, and have made Abimelech, the son of his maidservant, king over the men of Shechem, because he is your brother;)",
+      "rendering": "but you have risen against my father's house today and killed his sons — seventy men — on a single stone, and made Abimelech, the son of his slave woman, king over the citizens of Shechem because he is your kinsman —",
+      "translator_notes": [
+        "Ben amato ('son of his slave woman/maidservant') — Jotham deliberately downgrades Abimelech's mother from pilegesh ('concubine,' 8:31) to amah ('slave woman, maidservant'), a pointed insult to Abimelech's status. The repetition of shiv'im ish al even echat ('seventy men on a single stone') hammers the atrocity home. The bitter sarcasm of ki achikhem hu ('because he is your kinsman') throws the Shechemites' own reasoning (v. 3) back in their faces — your only criterion for kingship is ethnic solidarity, and look what it has purchased."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְאִם־בֶּאֱמֶ֤ת וּבְתָמִים֙ עֲשִׂיתֶ֔ם עִם־יְרֻבַּ֥עַל וְעִם־בֵּית֖וֹ הַיּ֣וֹם הַזֶּ֑ה שִׂמְח֤וּ בַאֲבִימֶ֙לֶךְ֙ וְיִשְׂמַ֥ח גַּם־ה֖וּא בָּכֶֽם׃",
+      "text_kjv": "If ye then have dealt truly and sincerely with Jerubbaal and with his house this day, then rejoice ye in Abimelech, and let him also rejoice in you:",
+      "rendering": "if you have acted in truth and integrity with Jerubbaal and his household today, then rejoice in Abimelech, and let him also rejoice in you!",
+      "translator_notes": [
+        "Simchu ba-Avimelekh ve-yismach gam hu bakhem ('rejoice in Abimelech and let him also rejoice in you') — this is dripping with sarcasm. Jotham knows they have not acted in truth. The conditional im ('if') carries the weight of 'since you obviously have not.' The mutual rejoicing he describes is impossible — relationships built on murder and treachery cannot produce joy. The verse is the ironic setup for the curse that follows."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאִם־אַ֕יִן תֵּצֵ֥א אֵ֛שׁ מֵאֲבִימֶ֖לֶךְ וְתֹאכַ֣ל אֶת־בַּעֲלֵ֣י שְׁכֶ֑ם וְאֶת־בֵּ֣ית מִלּ֔וֹא וְתֵצֵ֥א אֵ֛שׁ מִבַּעֲלֵ֥י שְׁכֶ֖ם וּמִבֵּ֣ית מִלּ֔וֹא וְתֹאכַ֖ל אֶת־אֲבִימֶֽלֶךְ׃",
+      "text_kjv": "But if not, let fire come out from Abimelech, and devour the men of Shechem, and the house of Millo; and let fire come out from the men of Shechem, and from the house of Millo, and devour Abimelech.",
+      "rendering": "But if not — let fire come out from Abimelech and consume the citizens of Shechem and the house of Millo, and let fire come out from the citizens of Shechem and the house of Millo and consume Abimelech!\"",
+      "translator_notes": [
+        "Jotham's curse directly echoes the thornbush's threat in verse 15 — tetse esh ('let fire go out'). The curse is bilateral and self-consuming: fire from Abimelech destroys Shechem, and fire from Shechem destroys Abimelech. Both parties to this blood-soaked arrangement will annihilate each other. The narrator will show this curse fulfilled with terrible precision: Abimelech destroys Shechem (vv. 45-49) and Shechem's legacy destroys Abimelech (v. 53). The fable is not mere rhetoric — it functions as prophetic judgment."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיָּ֣נׇס יוֹתָ֔ם וַיִּבְרַ֖ח וַיֵּ֣לֶךְ בְּאֵ֑רָה וַיֵּ֣שֶׁב שָׁ֔ם מִפְּנֵ֖י אֲבִימֶ֥לֶךְ אָחִֽיו׃",
+      "text_kjv": "And Jotham ran away, and fled, and went to Beer, and dwelt there, for fear of Abimelech his brother.",
+      "rendering": "Then Jotham fled and escaped. He went to Beer and lived there, away from his brother Abimelech.",
+      "translator_notes": [
+        "Va-yanas Yotam va-yivrach ('Jotham fled and escaped') — two verbs of flight emphasize his danger. Beer (be'erah, 'well') is an unidentified location, possibly south of Shechem. The phrase mi-penei Avimelekh achiv ('from the face/presence of Abimelech his brother') is devastating — Jotham must flee from his own brother, the one who murdered all the other brothers. The word achiv ('his brother') keeps the fratricidal horror in focus. Jotham disappears from the narrative, but his curse remains active."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיָּ֣שַׂר אֲבִימֶ֔לֶךְ עַל־יִשְׂרָאֵ֖ל שָׁלֹ֥שׁ שָׁנִֽים׃",
+      "text_kjv": "When Abimelech had reigned three years over Israel,",
+      "rendering": "Abimelech ruled over Israel for three years.",
+      "translator_notes": [
+        "Va-yasar Avimelekh al Yisra'el ('Abimelech ruled/was prince over Israel') — critically, the verb is sar (from the root s-r-r, 'to rule, be prince'), NOT malakh ('to reign as king'). Despite being made melekh by Shechem (v. 6), the narrator refuses to use royal language. He 'ruled' but the text withholds the dignity of the verb 'to reign.' Three years is the shortest tenure in Judges — divine judgment is already in motion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיִּשְׁלַ֤ח אֱלֹהִים֙ ר֣וּחַ רָעָ֔ה בֵּ֣ין אֲבִימֶ֔לֶךְ וּבֵ֖ין בַּעֲלֵ֣י שְׁכֶ֑ם וַיִּבְגְּד֥וּ בַעֲלֵי־שְׁכֶ֖ם בַּאֲבִימֶֽלֶךְ׃",
+      "text_kjv": "Then God sent an evil spirit between Abimelech and the men of Shechem; and the men of Shechem dealt treacherously with Abimelech:",
+      "rendering": "God sent a spirit of hostility between Abimelech and the citizens of Shechem, and the citizens of Shechem acted treacherously against Abimelech —",
+      "translator_notes": [
+        "Va-yishlach Elohim ruach ra'ah bein Avimelekh u-vein ba'alei Shekhem ('God sent a spirit of evil/hostility between Abimelech and the citizens of Shechem') — this is a rare and theologically significant statement. Ruach ra'ah ('spirit of evil/hostility') is not a demon in the later sense but a divinely dispatched disposition of enmity. God actively intervenes to fracture the alliance between Abimelech and Shechem. The same concept appears with Saul (1 Samuel 16:14-16). The verb bagad ('to deal treacherously, betray') is covenant-violation language — the relationship founded on treachery now collapses through treachery."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רוּחַ רָעָה",
+          "transliteration": "ruach ra'ah",
+          "rendered_as": "spirit of hostility",
+          "semantic_range": "spirit of evil, spirit of hostility, evil spirit",
+          "note": "A divinely sent disposition that fractures relationships; God uses the very treachery that founded Abimelech's rule as the instrument of its destruction"
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "לָב֞וֹא חֲמַ֣ס ׀ שִׁבְעִ֣ים בְּנֵֽי־יְרֻבַּ֗עַל וְדָמָם֙ לָשׂ֗וּם עַל־אֲבִימֶ֙לֶךְ֙ אֲחִיהֶ֔ם אֲשֶׁ֥ר הָרַ֖ג אוֹתָ֑ם וְעַל֙ בַּעֲלֵ֣י שְׁכֶ֔ם אֲשֶׁר־חִזְּק֥וּ אֶת־יָדָ֖יו לַהֲרֹ֥ג אֶת־אֶחָֽיו׃",
+      "text_kjv": "That the cruelty done to the threescore and ten sons of Jerubbaal might come, and their blood be laid upon Abimelech their brother, which slew them; and upon the men of Shechem, which aided him in the killing of his brethren.",
+      "rendering": "so that the violence done to the seventy sons of Jerubbaal would be repaid, and their blood would be placed on Abimelech their brother, who murdered them, and on the citizens of Shechem, who strengthened his hand to murder his brothers.",
+      "translator_notes": [
+        "Lavo chamas shiv'im benei Yerubba'al ('so that the violence of the seventy sons of Jerubbaal might come') — chamas ('violence, injustice') is the same word used for the corruption before the flood (Genesis 6:11). Ve-damam lasum al Avimelekh ('and their blood to place upon Abimelech') — blood-guilt (dam) is treated as a physical substance placed on the guilty party. The narrator distributes responsibility to both parties: Abimelech asher harag otam ('who killed them') and ba'alei Shekhem asher chizzqu et yado ('who strengthened his hand') — Shechem financed and enabled the slaughter and shares the guilt."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיָּשִׂ֨ימוּ ל֜וֹ בַּעֲלֵ֤י שְׁכֶם֙ מְאָ֣רְבִ֔ים עַ֖ל רָאשֵׁ֣י הֶהָרִ֑ים וַיִּגְזְל֗וּ אֵ֛ת כׇּל־אֲשֶׁ֥ר יַעֲבֹ֛ר עֲלֵיהֶ֖ם בַּדָּ֑רֶךְ וַיֻּגַּ֖ד לַאֲבִימֶֽלֶךְ׃",
+      "text_kjv": "And the men of Shechem set liers in wait for him in the top of the mountains, and they robbed all that came along that way by them: and it was told Abimelech.",
+      "rendering": "The citizens of Shechem set ambushes against him on the hilltops and robbed everyone who passed by them on the road. This was reported to Abimelech.",
+      "translator_notes": [
+        "Me'arvim ('ambushers, those lying in wait') — the Shechemites' rebellion begins with banditry on the trade routes that pass through Shechem's territory. Since Abimelech presumably controlled and taxed these routes, the robbery is both economic warfare and political provocation. Al rashei heharim ('on the tops/heads of the mountains') gives the ambushers high-ground advantage on the mountain passes. Va-yuggad la-Avimelekh ('it was told to Abimelech') — the passive reporting verb signals the breakdown in the intelligence network between king and city."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיָּבֹ֞א גַּ֤עַל בֶּן־עֶ֙בֶד֙ וְאֶחָ֔יו וַיַּעַבְר֖וּ בִּשְׁכֶ֑ם וַיִּבְטְחוּ־ב֖וֹ בַּעֲלֵ֥י שְׁכֶֽם׃",
+      "text_kjv": "And Gaal the son of Ebed came with his brethren, and went over to Shechem: and the men of Shechem put their confidence in him.",
+      "rendering": "Gaal son of Ebed arrived with his relatives and crossed into Shechem, and the citizens of Shechem put their trust in him.",
+      "translator_notes": [
+        "Ga'al ben Eved ('Gaal son of Ebed/Servant') — the name may be pejorative: ga'al can mean 'loathing' and eved means 'servant/slave.' Whether historical names or narrator's contempt, the effect is to diminish this rival. Va-yivtechu vo ba'alei Shekhem ('the citizens of Shechem trusted in him') — the verb batach ('to trust') is significant: Shechem transfers its loyalty from one violent opportunist to another. They have learned nothing from the thornbush fable."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיֵּצְא֣וּ הַשָּׂדֶ֗ה וַֽיִּבְצְר֤וּ אֶת־כַּרְמֵיהֶם֙ וַֽיִּדְרְכ֔וּ וַיַּעֲשׂ֖וּ הִלּוּלִ֑ים וַיָּבֹ֙אוּ֙ בֵּ֣ית אֱלֹֽהֵיהֶ֔ם וַיֹּאכְל֥וּ וַיִּשְׁתּ֖וּ וַיְקַלְל֥וּ אֶת־אֲבִימֶֽלֶךְ׃",
+      "text_kjv": "And they went out into the fields, and gathered their vineyards, and trode the grapes, and made merry, and went into the house of their god, and did eat and drink, and cursed Abimelech.",
+      "rendering": "They went out into the fields, harvested their vineyards, trod the grapes, and held a celebration. They entered the temple of their god, ate and drank, and cursed Abimelech.",
+      "translator_notes": [
+        "Va-ya'asu hillulim ('they made praise-festivals/celebrations') — the hillulim is a harvest festival with religious overtones, likely connected to the autumn grape harvest. The sequence — harvest, treading, celebration, temple worship — describes a complete Canaanite agricultural festival. Beit eloheihem ('the house/temple of their god') is the temple of Baal-Berith (v. 4). Va-yeqallelu et Avimelekh ('they cursed Abimelech') — the verb qalal ('to curse, treat lightly') is the opposite of kavad ('to honor, make heavy'). Emboldened by wine and religious fervor, the Shechemites publicly curse their king."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיֹּ֣אמֶר גַּ֣עַל בֶּן־עֶ֡בֶד מִֽי־אֲבִימֶ֜לֶךְ וּמִֽי־שְׁכֶ֣ם כִּ֣י נַעַבְדֶ֗נּוּ הֲלֹ֤א בֶן־יְרֻבַּ֙עַל֙ וּזְבֻ֣ל פְּקִיד֔וֹ עִבְד֗וּ אֶת־אַנְשֵׁ֛י חֲמ֥וֹר אֲבִֽי־שְׁכֶ֖ם וּמַדּ֥וּעַ נַעַבְדֶ֖נּוּ אֲנָֽחְנוּ׃",
+      "text_kjv": "And Gaal the son of Ebed said, Who is Abimelech, and who is Shechem, that we should serve him? is not he the son of Jerubbaal? and Zebul his officer? serve the men of Hamor the father of Shechem: for why should we serve him?",
+      "rendering": "Gaal son of Ebed said, \"Who is Abimelech, and what is Shechem to him, that we should serve him? Isn't he the son of Jerubbaal, with Zebul as his deputy? Serve the men of Hamor, the father of Shechem! Why should we serve this man?",
+      "translator_notes": [
+        "Mi Avimelekh u-mi Shekhem ki na'avdennu ('who is Abimelech and who is Shechem that we should serve him') — Gaal's rhetoric challenges both Abimelech's legitimacy and Shechem's subordination. His counter-proposal is striking: ivdu et anshei Chamor avi Shekhem ('serve the men of Hamor, father of Shechem') — Hamor was the original Canaanite ruler of Shechem (Genesis 33:19, 34:2). Gaal is appealing to pre-Israelite Canaanite identity: why should native Shechemites serve the half-breed son of an Israelite? This is ethnic nationalism aimed at reversing Abimelech's hybrid rule. Zebul (zevul, 'prince/exalted one') is Abimelech's governor in Shechem — his local enforcer."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וּמִ֣י יִתֵּ֗ן אֶת־הָעָ֤ם הַזֶּה֙ בְּיָדִ֔י וְאָסִ֖ירָה אֶת־אֲבִימֶ֑לֶךְ וַיֹּ֣אמֶר לַאֲבִימֶ֔לֶךְ רַבֶּ֥ה צְבָאֲךָ֖ וָצֵֽאָה׃",
+      "text_kjv": "And would to God this people were under my hand! then would I remove Abimelech. And he said to Abimelech, Increase thine army, and come out.",
+      "rendering": "If only this people were under my command — I would get rid of Abimelech!\" He said to Abimelech, \"Build up your army and come out to fight!\"",
+      "translator_notes": [
+        "U-mi yitten et ha-am hazeh be-yadi ('who would give this people into my hand' — if only this people were in my hand) — the optative formula mi yitten expresses a wish. Va-asirah et Avimelekh ('I would remove Abimelech') — the verb sur ('to remove, turn aside') treats Abimelech as an obstacle to be cleared away. Gaal's final taunt, rabbeh tseva'akha va-tse'ah ('increase your army and come out!'), is a direct military challenge — drunken bravado that he cannot back up, as events will prove."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיִּשְׁמַ֗ע זְבֻל֙ שַׂר־הָעִ֔יר אֶת־דִּבְרֵ֖י גַּ֣עַל בֶּן־עָ֑בֶד וַיִּ֖חַר אַפּֽוֹ׃",
+      "text_kjv": "And when Zebul the ruler of the city heard the words of Gaal the son of Ebed, his anger was kindled.",
+      "rendering": "When Zebul, the governor of the city, heard the words of Gaal son of Ebed, his anger burned.",
+      "translator_notes": [
+        "Zevul sar ha-ir ('Zebul, the ruler/governor of the city') — sar designates an appointed official, Abimelech's man in Shechem. Va-yichar appo ('his anger burned/was kindled') — the standard Hebrew idiom for intense anger. Zebul's loyalty to Abimelech is about to be tested; unlike the Shechemites, he remains faithful to the king who appointed him. His response will be cunning rather than confrontational."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיִּשְׁלַ֧ח מַלְאָכִ֛ים אֶל־אֲבִימֶ֖לֶךְ בְּתׇרְמָ֣ה לֵאמֹ֑ר הִנֵּ֨ה גַּ֤עַל בֶּן־עֶ֙בֶד֙ וְאֶחָ֔יו בָּאִ֣ים שְׁכֶ֔מָה וְהִנָּ֛ם צָרִ֥ים אֶת־הָעִ֖יר עָלֶֽיךָ׃",
+      "text_kjv": "And he sent messengers unto Abimelech privily, saying, Behold, Gaal the son of Ebed and his brethren be come to Shechem; and, behold, they fortify the city against thee.",
+      "rendering": "He sent messengers to Abimelech secretly, saying, \"Gaal son of Ebed and his relatives have come to Shechem, and they are stirring up the city against you.",
+      "translator_notes": [
+        "Be-tormah ('secretly, by deception/cunning') — the word suggests both secrecy and strategic deception. Zebul cannot openly oppose Gaal while inside the city. Hinnam tsarim et ha-ir alekha ('they are besieging/pressuring the city against you') — the verb tsur ('to press, besiege, confine') can mean either fortifying the city in rebellion or inciting the city against Abimelech. Zebul frames the situation in urgent military terms to provoke Abimelech's response."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְעַתָּ֗ה ק֥וּם לַ֙יְלָה֙ אַתָּ֣ה וְהָעָ֣ם אֲשֶׁר־אִתָּ֔ךְ וֶאֱרֹ֖ב בַּשָּׂדֶֽה׃",
+      "text_kjv": "Now therefore up by night, thou and the people that is with thee, and lie in wait in the field:",
+      "rendering": "Now get up during the night — you and the troops with you — and set an ambush in the open country.",
+      "translator_notes": [
+        "Qum lailah ('rise at night') — Zebul's tactical advice mirrors the night-attack strategy that characterized Gideon's victory over Midian. Ve-erov ba-sadeh ('and lie in ambush in the field') — the verb arav ('to lie in wait, ambush') is a military tactic; the sadeh ('field, open country') outside Shechem's walls will become the killing ground."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְהָיָ֤ה בַבֹּ֙קֶר֙ כִּזְרֹ֣חַ הַשֶּׁ֔מֶשׁ תַּשְׁכִּ֖ים וּפָשַׁטְתָּ֣ עַל־הָעִ֑יר וְהִנֵּה־ה֤וּא וְהָעָם֙ אֲשֶׁר־אִתּ֔וֹ יֹצְאִ֣ים אֵלֶ֔יךָ וְעָשִׂ֣יתָ לּ֔וֹ כַּאֲשֶׁ֖ר תִּמְצָ֥א יָדֶֽךָ׃",
+      "text_kjv": "And it shall be, that in the morning, as soon as the sun is up, thou shalt rise early, and set upon the city: and, behold, when he and the people that is with him come out against thee, then mayest thou do to them as thou shalt find occasion.",
+      "rendering": "At dawn, when the sun rises, move quickly and attack the city. When he and his men come out against you, do to him whatever your hand finds to do.\"",
+      "translator_notes": [
+        "Ki-zroach ha-shemesh ('at the shining/rising of the sun') — Zebul plans a dawn assault. Tashkim u-fashat'ta al ha-ir ('rise early and raid/rush upon the city') — the verb pashat ('to strip, raid, rush upon') is a military term for a sudden assault. Ve-asita lo ka-asher timtsa yadekha ('do to him as your hand finds') — this idiom means 'do whatever opportunity presents,' giving Abimelech total latitude for violence. Zebul's plan is efficient and ruthless."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיָּ֨קׇם אֲבִימֶ֜לֶךְ וְכׇל־הָעָ֤ם אֲשֶׁר־עִמּוֹ֙ לַ֔יְלָה וַיֶּאֶרְב֥וּ עַל־שְׁכֶ֖ם אַרְבָּעָ֥ה רָאשִֽׁים׃",
+      "text_kjv": "And Abimelech rose up, and all the people that were with him, by night, and they laid wait against Shechem in four companies.",
+      "rendering": "Abimelech and all the troops with him moved out at night and positioned themselves in ambush against Shechem in four companies.",
+      "translator_notes": [
+        "Arba'ah rashim ('four heads/companies') — Abimelech divides his force into four units, a standard military tactic for surrounding a target from multiple directions. The number four suggests coverage from all compass points, cutting off escape routes. This mirrors Gideon's three-company strategy (7:16), though Abimelech adds a fourth. The night movement follows Zebul's advice precisely."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיֵּצֵ֗א גַּ֚עַל בֶּן־עֶ֔בֶד וַיַּעֲמֹ֕ד פֶּ֖תַח שַׁ֣עַר הָעִ֑יר וַיָּ֤קׇם אֲבִימֶ֙לֶךְ֙ וְהָעָ֣ם אֲשֶׁר־אִתּ֔וֹ מִן־הַמַּאְרָֽב׃",
+      "text_kjv": "And Gaal the son of Ebed went out, and stood in the entering of the gate of the city: and Abimelech rose up, and the people that were with him, from lying in wait.",
+      "rendering": "Gaal son of Ebed went out and stood at the entrance of the city gate. Then Abimelech and the troops with him rose from their ambush positions.",
+      "translator_notes": [
+        "Petach sha'ar ha-ir ('the entrance/opening of the city gate') — the gate was the center of civic life and the defensive chokepoint. Gaal standing at the gate suggests either morning routine or watchful vigilance. Va-yaqom Avimelekh... min ha-ma'arav ('Abimelech rose from the ambush') — the timing is precise: Gaal exposes himself just as Abimelech's trap is sprung."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיַּ֨רְא גַּ֜עַל אֶת־הָעָ֗ם וַיֹּ֤אמֶר אֶל־זְבֻל֙ הִנֵּה־עָ֣ם יוֹרֵ֔ד מֵרָאשֵׁ֖י הֶהָרִ֑ים וַיֹּ֤אמֶר אֵלָיו֙ זְבֻ֔ל אֵ֥ת צֵ֛ל הֶהָרִ֖ים אַתָּ֥ה רֹאֶ֖ה כָּאֲנָשִֽׁים׃",
+      "text_kjv": "And when Gaal saw the people, he said to Zebul, Behold, there come people down from the top of the mountains. And Zebul said unto him, Thou seest the shadow of the mountains as if they were men.",
+      "rendering": "When Gaal saw the troops, he said to Zebul, \"Look — people are coming down from the hilltops!\" Zebul said to him, \"You are seeing the shadows of the hills — they look like men to you.\"",
+      "translator_notes": [
+        "Zebul's response is a masterpiece of deception. Et tsel heharim attah ro'eh ka-anashim ('you are seeing the shadow of the mountains as men') — he gaslights Gaal, dismissing the advancing army as an optical illusion. Zebul is buying time for Abimelech's forces to get closer. The word tsel ('shadow') is grimly appropriate — the shadow of death is descending on Shechem. Zebul stands beside Gaal at the gate while secretly orchestrating his destruction."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וַיֹּ֨סֶף ע֜וֹד גַּ֣עַל לְדַבֵּ֗ר וַיֹּ֙אמֶר֙ הִנֵּה־עָ֣ם יוֹרְדִ֔ים מֵעִ֖ם טַבּ֣וּר הָאָ֑רֶץ וְרֹאשׁ־אֶחָ֣ד בָּ֔א מִדֶּ֖רֶךְ אֵל֥וֹן מְעוֹנְנִֽים׃",
+      "text_kjv": "And Gaal spake again and said, See there come people down by the middle of the land, and another company come along by the plain of Meonenim.",
+      "rendering": "Gaal spoke again and said, \"Look — people are coming down from the center of the land, and one company is coming by way of the Diviners' Oak!\"",
+      "translator_notes": [
+        "Me-im tabbur ha-arets ('from the navel of the land') — tabbur ('navel, center') identifies a central high point, possibly the sacred center of the Shechem area. Elon me'onenim ('oak of the diviners/soothsayers') — the me'onenim are practitioners of divination (from the root anan, 'to practice divination/observe omens'), and this named oak suggests a site associated with pagan practices. The detail adds to the Canaanite religious atmosphere of the entire narrative. Gaal now recognizes distinct companies approaching from different directions — the trap is closing."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיֹּ֨אמֶר אֵלָ֜יו זְבֻ֗ל אַיֵּ֨ה אֵפ֤וֹא פִ֙יךָ֙ אֲשֶׁ֣ר תֹּאמַ֔ר מִ֥י אֲבִימֶ֖לֶךְ כִּ֣י נַעַבְדֶ֑נּוּ הֲלֹ֤א זֶה֙ הָעָ֔ם אֲשֶׁ֣ר מָאַ֣סְתָּ בּ֔וֹ צֵא־נָ֥א עַתָּ֖ה וְהִלָּ֥חֶם בּֽוֹ׃",
+      "text_kjv": "Then said Zebul unto him, Where is now thy mouth, wherewith thou saidst, Who is Abimelech, that we should serve him? is not this the people that thou hast despised? go out, I pray now, and fight with them.",
+      "rendering": "Then Zebul said to him, \"Where is your big mouth now — you who said, 'Who is Abimelech that we should serve him?' Isn't this the army you despised? Go out now and fight them!\"",
+      "translator_notes": [
+        "Ayyeh efo pikha ('where then is your mouth') — Zebul drops the pretense and turns Gaal's own boasting (v. 28-29) against him. The word peh ('mouth') stands for his bragging — your mouth was brave last night at the festival; where is it now? Asher ma'asta bo ('which you despised/rejected') — the verb ma'as ('to reject, despise') is covenant language often used for Israel's rejection of God. Zebul's taunt forces Gaal into a battle he cannot avoid — fight or be exposed as a coward. The trap is complete."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיֵּצֵ֣א גַ֔עַל לִפְנֵ֖י בַּעֲלֵ֣י שְׁכֶ֑ם וַיִּלָּ֖חֶם בַּאֲבִימֶֽלֶךְ׃",
+      "text_kjv": "And Gaal went out before the men of Shechem, and fought with Abimelech.",
+      "rendering": "Gaal went out at the head of the citizens of Shechem and fought Abimelech.",
+      "translator_notes": [
+        "Va-yetse Ga'al lifnei ba'alei Shekhem ('Gaal went out before/at the head of the citizens of Shechem') — despite being trapped, Gaal leads the Shechemites into battle. The preposition lifnei ('before, at the head of') gives him the position of a military leader. But his drunken bravado at the festival (v. 29) is about to meet Abimelech's professional violence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַיִּרְדְּפֵ֣הוּ אֲבִימֶ֔לֶךְ וַיָּ֖נׇס מִפָּנָ֑יו וַיִּפְּל֥וּ חֲלָלִ֛ים רַבִּ֖ים עַד־פֶּ֥תַח הַשָּֽׁעַר׃",
+      "text_kjv": "And Abimelech chased him, and he fled before him, and many were overthrown and wounded, even unto the entering of the gate.",
+      "rendering": "Abimelech pursued him, and Gaal fled before him. Many fell dead all the way to the entrance of the gate.",
+      "translator_notes": [
+        "Va-yirddefehu Avimelekh va-yanas mi-panav ('Abimelech pursued him and he fled from his face') — the rout is swift and total. Va-yippelu chalalim rabbim ('many fell slain/pierced') — challalim ('pierced ones, slain') denotes battle casualties. The pursuit reaches ad petach ha-sha'ar ('to the entrance of the gate') — the same gate where Gaal stood confidently minutes earlier (v. 35). The gate that was his civic platform becomes the boundary of the slaughter."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַיֵּ֥שֶׁב אֲבִימֶ֖לֶךְ בָּאֲרוּמָ֑ה וַיְגָ֤רֶשׁ זְבֻל֙ אֶת־גַּ֣עַל וְאֶת־אֶחָ֔יו מִשֶּׁ֖בֶת בִּשְׁכֶֽם׃",
+      "text_kjv": "And Abimelech dwelt at Arumah: and Zebul thrust out Gaal and his brethren, that they should not dwell in Shechem.",
+      "rendering": "Abimelech stayed at Arumah, while Zebul expelled Gaal and his relatives, preventing them from living in Shechem.",
+      "translator_notes": [
+        "Arumah is Abimelech's base of operations, possibly the same as Rumah. Va-yegaresh Zevul et Ga'al ('Zebul drove out Gaal') — the verb garash ('to drive out, expel') is the same word used for driving out nations from the land. Zebul, having orchestrated Gaal's defeat, now completes the political purge. Gaal disappears from the narrative entirely — he was a minor opportunist crushed between two more ruthless players."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וַיְהִ֣י מִֽמׇּחֳרָ֔ת וַיֵּצֵ֥א הָעָ֖ם הַשָּׂדֶ֑ה וַיַּגִּ֖דוּ לַאֲבִימֶֽלֶךְ׃",
+      "text_kjv": "And it came to pass on the morrow, that the people went out into the field; and they told Abimelech.",
+      "rendering": "The next day, the people went out into the fields, and this was reported to Abimelech.",
+      "translator_notes": [
+        "Va-yehi mi-mochorat ('it happened on the next day') — the narrative moves quickly. The people of Shechem resume their normal agricultural routine, going out to the sadeh ('field') — perhaps unaware that Abimelech's punitive campaign is not over. Despite Gaal's expulsion, the Shechemites have still participated in rebellion. Va-yaggidu la-Avimelekh ('they reported to Abimelech') — someone provides intelligence, perhaps Zebul maintaining his informant role."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וַיִּקַּ֣ח אֶת־הָעָ֗ם וַֽיֶּחֱצֵם֙ לִשְׁלֹשָׁ֣ה רָאשִׁ֔ים וַיֶּאֱרֹ֖ב בַּשָּׂדֶ֑ה וַיַּ֗רְא וְהִנֵּ֤ה הָעָם֙ יֹצֵ֣א מִן־הָעִ֔יר וַיָּ֥קׇם עֲלֵיהֶ֖ם וַיַּכֵּֽם׃",
+      "text_kjv": "And he took the people, and divided them into three companies, and laid wait in the field, and looked, and, behold, the people were come forth out of the city; and he rose up against them, and smote them.",
+      "rendering": "He took his troops and divided them into three companies and set an ambush in the fields. When he saw the people coming out of the city, he rose against them and struck them down.",
+      "translator_notes": [
+        "Va-yechetsem li-shloshah rashim ('he divided them into three companies') — now three companies rather than four (v. 34), optimized for an open-field engagement rather than a siege. The pattern of ambush (arav) repeating from verse 34 shows Abimelech's consistent tactical approach. Va-yaqom aleihem va-yakkem ('he rose against them and struck them') — the people caught in the fields are defenseless civilians, not combatants. Abimelech's campaign has shifted from defeating Gaal's forces to punishing the general population."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וַאֲבִימֶ֗לֶךְ וְהָרָאשִׁים֙ אֲשֶׁ֣ר עִמּ֔וֹ פָּשְׁט֕וּ וַיַּ֣עַמְד֔וּ פֶּ֖תַח שַׁ֣עַר הָעִ֑יר וּשְׁנֵ֣י הָרָאשִׁ֗ים פָּשְׁט֛וּ עַל־כׇּל־אֲשֶׁ֥ר בַּשָּׂדֶ֖ה וַיַּכּֽוּם׃",
+      "text_kjv": "And Abimelech, and the company that was with him, rushed forward, and stood in the entering of the gate of the city: and the two other companies ran upon all the people that were in the fields, and slew them.",
+      "rendering": "Abimelech and the company with him rushed forward and took position at the entrance of the city gate, while the two other companies attacked everyone in the fields and struck them down.",
+      "translator_notes": [
+        "Abimelech's tactical genius is evident: he personally seizes the gate (petach sha'ar ha-ir) to cut off retreat into the city, while the other two companies (shenei ha-rashim) sweep the fields. Pashtu ('they rushed/raided') — the verb pashat implies a swift, stripping attack. The people caught between the gate and the field have nowhere to go — trapped between Abimelech at the gate and his forces in the open ground."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וַאֲבִימֶ֗לֶךְ נִלְחָ֤ם בָּעִיר֙ כֹּ֣ל הַיּ֣וֹם הַה֔וּא וַיִּלְכֹּ֣ד אֶת־הָעִ֔יר וְאֶת־הָעָ֥ם אֲשֶׁר־בָּ֖הּ הָרָ֑ג וַיִּתֹּץ֙ אֶת־הָעִ֔יר וַיִּזְרָעֶ֖הָ מֶֽלַח׃",
+      "text_kjv": "And Abimelech fought against the city all that day; and he took the city, and the people that was therein he slew, and beat down the city, and sowed it with salt.",
+      "rendering": "Abimelech fought against the city all that day. He captured the city, killed the people in it, tore down the city, and sowed it with salt.",
+      "translator_notes": [
+        "Va-yittots et ha-ir va-yizra'eha melach ('he tore down the city and sowed it with salt') — the total destruction of Shechem culminates in a ritual act of devastation. Sowing salt renders land agriculturally useless — it is a symbolic curse declaring the site permanently desolate. This act has parallels in ancient Near Eastern treaty curses and was performed on conquered cities marked for permanent abandonment. The irony is crushing: Abimelech, who was made king at Shechem, now annihilates the city that crowned him. Jotham's curse (v. 20) — 'let fire come out from Abimelech and consume the citizens of Shechem' — is being fulfilled with terrible literalness."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וַֽיִּשְׁמְע֔וּ כׇּֽל־בַּעֲלֵ֖י מִגְדַּל־שְׁכֶ֑ם וַיָּבֹ֙אוּ֙ אֶל־צְרִ֔יחַ בֵּ֖ית אֵ֥ל בְּרִֽית׃",
+      "text_kjv": "And when all the men of the tower of Shechem heard that, they entered into an hold of the house of the god Berith.",
+      "rendering": "When all the leaders of the Tower of Shechem heard this, they entered the stronghold of the temple of El-Berith.",
+      "translator_notes": [
+        "Ba'alei migdal Shekhem ('the lords/citizens of the Tower of Shechem') — this is the citadel district, possibly the same as Beth-Millo (v. 6). The tseriach ('stronghold, inner chamber, crypt') of Beit El-Berit ('house/temple of El-Berith') — here the deity is called El-Berith ('God of the covenant') rather than Baal-Berith ('Lord of the covenant,' v. 4). The variation may reflect different cult titles for the same deity, or the narrator may be alternating deliberately. The theological irony deepens: the people seek refuge in the temple of the 'god of the covenant' — but no covenant will save them from the consequences of breaking faith."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֵל בְּרִית",
+          "transliteration": "el berit",
+          "rendered_as": "El-Berith",
+          "semantic_range": "God of the covenant",
+          "note": "Variant title of Baal-Berith; the Shechemites flee to the 'covenant god' for protection, but the covenant they made with Abimelech is the very thing destroying them"
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וַיֻּגַּ֖ד לַאֲבִימֶ֑לֶךְ כִּ֣י הִתְקַבְּצ֔וּ כׇּל־בַּעֲלֵ֖י מִגְדַּל־שְׁכֶֽם׃",
+      "text_kjv": "And it was told Abimelech, that all the men of the tower of Shechem were gathered together.",
+      "rendering": "Abimelech was told that all the leaders of the Tower of Shechem had gathered together.",
+      "translator_notes": [
+        "Va-yuggad la-Avimelekh ki hitqabbetsu kol ba'alei migdal Shekhem ('it was reported to Abimelech that all the lords of the Tower of Shechem had assembled') — the passive reporting formula (yuggad) appears again. Abimelech's intelligence network functions efficiently even amid the destruction. The gathering of all the tower's inhabitants into the temple stronghold concentrates the remaining population in one location — making Abimelech's task of total annihilation easier."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "וַיַּ֨עַל אֲבִימֶ֜לֶךְ הַר־צַלְמ֗וֹן ה֚וּא וְכׇל־הָעָ֣ם אֲשֶׁר־אִתּ֔וֹ וַיִּקַּ֤ח אֲבִימֶ֙לֶךְ֙ אֶת־הַקַּרְדֻּמּ֣וֹת בְּיָד֔וֹ וַיִּכְרֹ֥ת שׂוֹכַ֛ת עֵצִ֖ים וַיִּשָּׂאֶ֑הָ וַיָּ֣שֶׂם עַל־שִׁכְמ֗וֹ וַיֹּ֙אמֶר֙ אֶל־הָעָ֣ם אֲשֶׁר־עִמּ֔וֹ מָ֤ה רְאִיתֶם֙ עָשִׂ֔יתִי מַהֲר֖וּ עֲשׂ֥וּ כָמֽוֹנִי׃",
+      "text_kjv": "And Abimelech gat him up to mount Zalmon, he and all the people that were with him; and Abimelech took an axe in his hand, and cut down a bough from the trees, and took it, and laid it on his shoulder, and said unto the people that were with him, What ye have seen me do, make haste, and do as I have done.",
+      "rendering": "Abimelech went up Mount Zalmon — he and all the troops with him. He took axes in his hand, cut a branch from the trees, lifted it, and placed it on his shoulder. He said to the troops with him, \"What you have seen me do — hurry, do the same!\"",
+      "translator_notes": [
+        "Har Tsalmon ('Mount Zalmon/Shadow Mountain') — a wooded hill near Shechem. Abimelech's personal example — cutting branches and carrying them on his own shoulder (shikhmo, 'his shoulder,' a wordplay on Shekhem) — shows the charismatic military leadership he inherited from Gideon. Mah re'item asiti maharu asu kamoni ('what you have seen me do, hurry, do like me') — the command echoes Gideon's 'watch me and do likewise' (7:17). Father and son share tactical instinct, but Gideon fought God's enemies while Abimelech massacres his own people."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "וַיִּכְרְת֨וּ גַם־כׇּל־הָעָ֜ם אִ֣ישׁ שׂוֹכֹ֗ה וַיֵּ֨לְכ֜וּ אַחֲרֵ֤י אֲבִימֶ֙לֶךְ֙ וַיָּשִׂ֣ימוּ עַל־הַצְּרִ֔יחַ וַיַּצִּ֧יתוּ עֲלֵיהֶ֛ם אֶת־הַצְּרִ֖יחַ בָּאֵ֑שׁ וַיָּמ֣וּתוּ גַ֗ם כׇּל־אַנְשֵׁי֙ מִגְדַּל־שְׁכֶ֔ם כְּאֶ֖לֶף אִ֥ישׁ וְאִשָּֽׁה׃",
+      "text_kjv": "And all the people likewise cut down every man his bough, and followed Abimelech, and put them to the hold, and set the hold on fire upon them; so that all the men of the tower of Shechem died also, about a thousand men and women.",
+      "rendering": "All the troops also cut branches, each person one, and followed Abimelech. They piled them against the stronghold and set the stronghold on fire over the people inside. All the people of the Tower of Shechem also died — about a thousand men and women.",
+      "translator_notes": [
+        "Va-yatsitu aleihem et ha-tseriach ba-esh ('they set the stronghold on fire over/upon them') — the people huddled in the temple crypt are burned alive. Jotham's fable reaches its most horrific fulfillment: 'let fire come out from the thornbush and consume the cedars of Lebanon' (v. 15). The thornbush (Abimelech) has set fire to the very people who crowned him. Ke-elef ish ve-ishah ('about a thousand men and women') — the inclusion of women emphasizes that this is not a battle but a massacre of a civilian population seeking sanctuary in their temple. The 'lord/god of the covenant' could not save them."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "וַיֵּ֥לֶךְ אֲבִימֶ֖לֶךְ אֶל־תֵּבֵ֑ץ וַיִּ֥חַן בְּתֵבֵ֖ץ וַיִּלְכְּדָֽהּ׃",
+      "text_kjv": "Then went Abimelech to Thebez, and encamped against Thebez, and took it.",
+      "rendering": "Then Abimelech went to Thebez, besieged it, and captured it.",
+      "translator_notes": [
+        "Tevets is a town northeast of Shechem, apparently part of the same regional rebellion. Va-yichan be-Tevets va-yilkedah ('he camped against Thebez and captured it') — the verbs describe a standard siege operation: encampment followed by capture. Abimelech, flushed with the destruction of Shechem, extends his punitive campaign. The narrator's brevity here is ominous — the real story at Thebez is not the siege but what happens next."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "וּמִגְדַּל־עֹ֣ז הָיָ֗ה בְּת֣וֹךְ הָעִ֔יר וַיָּנֻ֨סוּ שָׁ֜מָּה כׇּל־הָאֲנָשִׁ֣ים וְהַנָּשִׁ֗ים וְכֹל֙ בַּעֲלֵ֣י הָעִ֔יר וַיִּסְגְּר֖וּ בַּעֲדָ֑ם וַיַּעֲל֖וּ עַל־גַּ֥ג הַמִּגְדָּֽל׃",
+      "text_kjv": "But there was a strong tower within the city, and thither fled all the men and women, and all they of the city, and shut it to them, and gat them up to the top of the tower.",
+      "rendering": "There was a fortified tower in the center of the city, and all the men and women — all the citizens of the city — fled there. They shut themselves in and went up to the roof of the tower.",
+      "translator_notes": [
+        "Migdal oz ('tower of strength/fortified tower') — the situation mirrors the Tower of Shechem scenario (v. 46), but with different results. The people seek the same kind of refuge — a fortified structure — that failed the Shechemites. Va-yisgeru ba'adam ('they shut/locked behind themselves') — the verb sagar ('to close, lock') suggests barricading. Going up to the gag ha-migdal ('roof of the tower') gives them a defensive height advantage, or so they think."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "וַיָּבֹ֤א אֲבִימֶ֙לֶךְ֙ עַד־הַמִּגְדָּ֔ל וַיִּלָּ֖חֶם בּ֑וֹ וַיִּגַּ֛שׁ עַד־פֶּ֥תַח הַמִּגְדָּ֖ל לְשׇׂרְפ֥וֹ בָאֵֽשׁ׃",
+      "text_kjv": "And Abimelech came unto the tower, and fought against it, and went hard unto the door of the tower to burn it with fire.",
+      "rendering": "Abimelech advanced to the tower and fought against it. He approached the entrance of the tower to set it on fire —",
+      "translator_notes": [
+        "Va-yiggash ad petach ha-migdal le-sorfo va-esh ('he approached to the entrance of the tower to burn it with fire') — Abimelech attempts to replicate his Shechem strategy: burn the fortified refuge with the people inside. The verb saraf ('to burn') echoes the burning of the Tower of Shechem's stronghold (v. 49). He has found a tactic that works and applies it mechanically. But this time, the narrative will not repeat — the fire strategy that destroyed Shechem will be interrupted at Thebez."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "וַתַּשְׁלֵ֞ךְ אִשָּׁ֥ה אַחַ֛ת פֶּ֥לַח רֶ֖כֶב עַל־רֹ֣אשׁ אֲבִימֶ֑לֶךְ וַתָּ֖רִץ אֶת־גֻּלְגׇּלְתּֽוֹ׃",
+      "text_kjv": "And a certain woman cast a piece of a millstone upon Abimelech's head, and all to brake his skull.",
+      "rendering": "But a woman dropped an upper millstone on Abimelech's head and cracked his skull.",
+      "translator_notes": [
+        "Va-tashlekh ishah achat pelach rekhev al rosh Avimelekh ('a certain/one woman threw a piece of an upper millstone on Abimelech's head') — the pelach rekhev ('piece of a riding [stone]' — the upper millstone that rides on the lower) is a heavy grinding stone, a domestic implement. The irony is exquisite: the man who murdered seventy brothers on a single stone (v. 5) is killed by a stone dropped by a single woman. Va-tarits et gulgolto ('she cracked/crushed his skull') — the verb ruts ('to crush, crack') and gulgoleth ('skull') create a visceral image. The unnamed woman becomes one of the most consequential minor figures in the Hebrew Bible (cf. 2 Samuel 11:21). Abimelech, who slaughtered a thousand men and women at Shechem, is brought down by one woman with a millstone."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 54,
+      "text_hebrew": "וַיִּקְרָ֨א מְהֵרָ֜ה אֶל־הַנַּ֣עַר ׀ נֹשֵׂ֣א כֵלָ֗יו וַיֹּ֤אמֶר לוֹ֙ שְׁלֹ֤ף חַרְבְּךָ֙ וּמ֣וֹתְתֵ֔נִי פֶּן־יֹ֣אמְרוּ לִ֔י אִשָּׁ֖ה הֲרָגָ֑תְהוּ וַיִּדְקְרֵ֥הוּ נַעֲר֖וֹ וַיָּמֹֽת׃",
+      "text_kjv": "Then he called hastily unto the young man his armourbearer, and said unto him, Draw thy sword, and slay me, that men say not of me, A woman slew him. And his young man thrust him through, and he died.",
+      "rendering": "He quickly called to the young man who carried his weapons and said to him, \"Draw your sword and kill me, so they won't say about me, 'A woman killed him.'\" His attendant ran him through, and he died.",
+      "translator_notes": [
+        "Shelof charbakha u-moteteni pen yomru li ishah haragathu ('draw your sword and put me to death, lest they say of me, a woman killed him') — Abimelech's final concern is not his soul, not his legacy of governance, not his people, but his masculine honor. Pen yomru ('lest they say') reveals that his dying thought is about reputation, not repentance. The verb motet ('put to death, kill') is a piel intensive — he wants decisive death, not lingering. Va-yidqerehu na'aro va-yamot ('his attendant pierced/thrust him through and he died') — the armor-bearer complies, but it changes nothing. The narrator (and later, Joab in 2 Samuel 11:21) remembers: a woman killed him."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 55,
+      "text_hebrew": "וַיִּרְא֥וּ אִישׁ־יִשְׂרָאֵ֖ל כִּ֣י מֵ֣ת אֲבִימֶ֑לֶךְ וַיֵּלְכ֖וּ אִ֥ישׁ לִמְקוֹמֽוֹ׃",
+      "text_kjv": "And when the men of Israel saw that Abimelech was dead, they departed every man unto his place.",
+      "rendering": "When the men of Israel saw that Abimelech was dead, each one went home.",
+      "translator_notes": [
+        "Va-yelekhu ish li-meqomo ('they went, each man to his place') — the army dissolves instantly upon the leader's death. There is no successor, no institutional continuity, no dynasty. The entire enterprise was built on one man's ambition, and with his death it evaporates. This is the inherent fragility of power seized by violence rather than granted by divine appointment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 56,
+      "text_hebrew": "וַיָּ֣שֶׁב אֱלֹהִ֔ים אֵ֖ת רָעַ֣ת אֲבִימֶ֑לֶךְ אֲשֶׁ֤ר עָשָׂה֙ לְאָבִ֔יו לַהֲרֹ֖ג אֶת־שִׁבְעִ֥ים אֶחָֽיו׃",
+      "text_kjv": "Thus God rendered the wickedness of Abimelech, which he did unto his father, in slaying his seventy brethren:",
+      "rendering": "So God repaid the wickedness of Abimelech that he had done to his father by murdering his seventy brothers.",
+      "translator_notes": [
+        "Va-yashev Elohim et ra'at Avimelekh ('God returned/repaid the evil of Abimelech') — the verb shuv ('to return, turn back') here means divine retribution. Ra'ah ('evil, wickedness') is the same root as the ruach ra'ah ('spirit of evil') God sent in verse 23. God's instrument of judgment was the very evil that characterized Abimelech's reign. Asher asah le-aviv ('which he did to his father') — the narrator says 'to his father,' emphasizing that the fratricide was ultimately an offense against Gideon/Jerubbaal himself."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 57,
+      "text_hebrew": "וְאֵ֗ת כׇּל־רָעַת֙ אַנְשֵׁ֣י שְׁכֶ֔ם הֵשִׁ֥יב אֱלֹהִ֖ים בְּרֹאשָׁ֑ם וַתָּבֹ֣א אֲלֵיהֶ֔ם קִלְלַ֖ת יוֹתָ֥ם בֶּן־יְרֻבָּֽעַל׃",
+      "text_kjv": "And all the evil of the men of Shechem did God render upon their heads: and upon them came the curse of Jotham the son of Jerubbaal.",
+      "rendering": "And all the wickedness of the men of Shechem God brought back on their own heads. The curse of Jotham son of Jerubbaal came upon them.",
+      "translator_notes": [
+        "Heshiv Elohim be-rosham ('God returned upon their heads') — the preposition be-rosham ('on their head') makes the retribution personal and inescapable. Va-tavo aleihem qillat Yotam ben Yerubba'al ('the curse of Jotham son of Jerubbaal came upon them') — the chapter's final verse explicitly confirms that Jotham's curse (v. 20) functioned as prophetic utterance, not merely political rhetoric. The bilateral destruction — Abimelech destroyed Shechem, Shechem (through the woman at Thebez) destroyed Abimelech — fulfills the curse with mathematical precision. The chapter demonstrates what happens when human ambition replaces divine appointment: mutual annihilation."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

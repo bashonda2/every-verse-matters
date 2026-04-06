@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Judges",
+    "chapter": 11,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jephthah, an outcast son of a prostitute, is recalled by Gilead's elders to fight Ammon. He negotiates diplomatically, citing Israel's history. When war comes, Jephthah vows a burnt offering of whatever first meets him from his house — and his only daughter comes out dancing.",
+    "remarkable": "Jephthah's vow (v. 31) is the book's most tragic moment. The Hebrew is unambiguous: 'I will offer it up as a burnt offering' (veha'alitihu olah). Whether the vow was fulfilled literally (human sacrifice) or commuted (perpetual virginity) has been debated for millennia. The text says 'he did to her according to his vow' (v. 39) and gives no indication of divine approval. The narrator's silence is the loudest commentary: in a book about failed leadership, Jephthah's victory costs him everything.",
+    "friction": "Jephthah's historical argument to Ammon (vv. 14-27) is remarkably sophisticated — he cites Numbers 20-21 and appeals to the three-hundred-year statute of limitations on territorial claims. The reference to Chemosh (v. 24) as Ammon's god is unusual since Chemosh is typically Moab's deity; this may reflect an ancient boundary confusion or a deliberate rhetorical choice. We rendered it as the Hebrew gives it and noted the difficulty.",
+    "connections": "Jephthah is listed among the faithful in Hebrews 11:32 despite the vow's horror — faith and tragedy coexist. His daughter's mourning 'on the mountains' (v. 37) becomes an annual ritual (v. 40), one of the few women's observances in the Hebrew Bible. The historical review (vv. 14-27) parallels Deuteronomy 2 and Numbers 21. The vow's tragedy anticipates Saul's rash oath in 1 Samuel 14:24-45."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וְיִפְתָּ֣ח הַגִּלְעָדִ֗י הָיָה֙ גִּבּ֣וֹר חַ֔יִל וְה֖וּא בֶּן־אִשָּׁ֣ה זוֹנָ֑ה וַיּ֥וֹלֶד גִּלְעָ֖ד אֶת־יִפְתָּֽח׃",
+      "text_kjv": "Now Jephthah the Gileadite was a mighty man of valour, and he was the son of an harlot: and Gilead begat Jephthah.",
+      "rendering": "Now Jephthah the Gileadite was a mighty warrior, but he was the son of a prostitute. Gilead was Jephthah's father.",
+      "translator_notes": [
+        "The narrator introduces Jephthah with a devastating juxtaposition: gibbor chayil ('mighty warrior,' a title of highest military honor) immediately collides with ben-ishah zonah ('son of a prostitute woman'). The same title gibbor chayil was applied to Gideon (6:12), but Jephthah's comes with an asterisk — his valor is real, but his social standing is fatally compromised. The word zonah is unambiguous: a woman who sells sexual access. Gilead is both a person and a region; the dual meaning hints that Jephthah belongs to the land even as the land's people will reject him."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גִּבּוֹר חַיִל",
+          "transliteration": "gibbor chayil",
+          "rendered_as": "mighty warrior",
+          "semantic_range": "warrior of valor, capable soldier, man of substance, champion",
+          "note": "Applied to Jephthah despite his illegitimate birth, creating an immediate tension between military prowess and social shame. The title appears across the Judges cycle — each bearer transforms it in different ways."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַתֵּ֤לֶד אֵֽשֶׁת־גִּלְעָד֙ לוֹ֣ בָנִ֔ים וַיִּגְדְּל֖וּ בְנֵֽי־הָאִשָּׁ֑ה וַיְגָרְשׁ֤וּ אֶת־יִפְתָּח֙ וַיֹּ֣אמְרוּ ל֔וֹ לֹֽא־תִנְחַ֥ל בְּבֵית־אָבִ֖ינוּ כִּ֥י בֶן־אִשָּׁ֥ה אַחֶ֖רֶת אָֽתָּה׃",
+      "text_kjv": "And Gilead's wife bare him sons; and his wife's sons grew up, and they thrust out Jephthah, and said unto him, Thou shalt not inherit in our father's house; for thou art the son of a strange woman.",
+      "rendering": "Gilead's wife also bore him sons. When the wife's sons grew up, they drove Jephthah out and told him, \"You will not inherit in our father's house, because you are the son of another woman.\"",
+      "translator_notes": [
+        "The brothers' verb is yegareshu ('they drove out, expelled') — the same root (g-r-sh) used for Adam's expulsion from Eden and for the driving out of Canaanite nations. Jephthah is exiled from his own family with the same force Israel uses against foreigners. Their stated reason — ben ishah acheret ('son of another woman') — softens zonah to acheret ('other, different'), but the euphemism barely conceals the contempt. The inheritance dispute (lo tinachal — 'you will not inherit') is both economic and covenantal: Jephthah is denied his portion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיִּבְרַ֤ח יִפְתָּח֙ מִפְּנֵ֣י אֶחָ֔יו וַיֵּ֖שֶׁב בְּאֶ֣רֶץ ט֑וֹב וַיִּתְלַקְּט֤וּ אֶל־יִפְתָּח֙ אֲנָשִׁ֣ים רֵיקִ֔ים וַיֵּצְא֖וּ עִמּֽוֹ׃",
+      "text_kjv": "Then Jephthah fled from his brethren, and dwelt in the land of Tob: and there were gathered vain men to Jephthah, and went out with him.",
+      "rendering": "So Jephthah fled from his brothers and settled in the land of Tob. Worthless men gathered around Jephthah, and they went out raiding with him.",
+      "translator_notes": [
+        "Jephthah becomes a bandit chief in erets Tov ('the land of Tob'), an Aramean territory east of Gilead. The men who gather to him are anashim reqim ('empty men, worthless men') — the same descriptor used for Abimelech's mercenaries in 9:4. The parallel is ominous: the last 'empty men' enabler destroyed Shechem. Yet the verb yitlaqtu ('gathered themselves') suggests these men chose Jephthah, drawn to his charisma and skill. The irony deepens: rejected by respectable society, Jephthah builds his own society from its rejects."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיְהִ֖י מִיָּמִ֑ים וַיִּלָּחֲמ֥וּ בְנֵי־עַמּ֖וֹן עִם־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And it came to pass in process of time, that the children of Ammon made war against Israel.",
+      "rendering": "Some time later, the Ammonites went to war against Israel.",
+      "translator_notes": [
+        "The phrase mi-yamim ('from days,' meaning 'after some days passed') creates a narrative gap between Jephthah's exile and Ammon's aggression. The Ammonites (benei Ammon — 'sons of Ammon') are Israel's eastern neighbors, descended from Lot (Genesis 19:38). Their attack forces Gilead to confront its earlier decision to expel its strongest fighter."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיְהִ֕י כַּאֲשֶׁר־נִלְחֲמ֥וּ בְנֵי־עַמּ֖וֹן עִם־יִשְׂרָאֵ֑ל וַיֵּ֨לְכ֔וּ זִקְנֵ֥י גִלְעָ֖ד לָקַ֥חַת אֶת־יִפְתָּ֛ח מֵאֶ֥רֶץ טֽוֹב׃",
+      "text_kjv": "And it was so, that when the children of Ammon made war against Israel, the elders of Gilead went to fetch Jephthah out of the land of Tob:",
+      "rendering": "When the Ammonites fought against Israel, the elders of Gilead went to bring Jephthah back from the land of Tob.",
+      "translator_notes": [
+        "The verb laqachat ('to take, to fetch') — the elders go to retrieve Jephthah like a tool from storage. The same community that expelled him now needs him. The ziqnei Gil'ad ('elders of Gilead') represent the established power structure — the very system that endorsed his expulsion. Their journey to Tob is a journey of desperation, not repentance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיֹּאמְר֣וּ לְיִפְתָּ֔ח לְכָ֕ה וְהָיִ֥יתָה לָּ֖נוּ לְקָצִ֑ין וְנִלָּ֖חֲמָ֥ה בִּבְנֵ֥י עַמּֽוֹן׃",
+      "text_kjv": "And they said unto Jephthah, Come, and be our captain, that we may fight with the children of Ammon.",
+      "rendering": "They said to Jephthah, \"Come and be our commander, so we can fight the Ammonites.\"",
+      "translator_notes": [
+        "The title they offer is qatsin ('commander, military leader') — a temporary war-chief, not a permanent ruler. The elders want Jephthah's sword but not his authority. The imperative lekha ('come!') from the mouths of those who once said 'go!' (by expelling him) creates sharp dramatic irony. They propose a transactional arrangement: fight for us, then presumably return to Tob."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיֹּ֤אמֶר יִפְתָּח֙ לְזִקְנֵ֣י גִלְעָ֔ד הֲלֹ֤א אַתֶּם֙ שְׂנֵאתֶ֣ם אוֹתִ֔י וַתְּגָרְשׁ֖וּנִי מִבֵּ֣ית אָבִ֑י וּמַדּ֜וּעַ בָּאתֶ֤ם אֵלַי֙ עַ֔תָּה כַּאֲשֶׁ֖ר צַ֥ר לָכֶֽם׃",
+      "text_kjv": "And Jephthah said unto the elders of Gilead, Did not ye hate me, and expel me out of my father's house? and why are ye come unto me now when ye are in distress?",
+      "rendering": "Jephthah said to the elders of Gilead, \"Did you not hate me and drive me out of my father's house? So why do you come to me now, when you are in trouble?\"",
+      "translator_notes": [
+        "Jephthah's response is pointed: senetem oti ('you hated me') uses the strong verb s-n-' (hate), and the expulsion verb garashu returns from verse 2 — now thrown back at the elders. His question madua batem elai ('why have you come to me?') followed by ka'asher tsar lakhem ('when it is tight/distressing for you') exposes their motives. The word tsar ('tight, narrow, distressing') is the root for tsarah ('trouble, distress') — they come not from love but from pressure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֹּאמְר֞וּ זִקְנֵ֤י גִלְעָד֙ אֶל־יִפְתָּ֔ח לָכֵ֥ן עַתָּ֖ה שַׁ֣בְנוּ אֵלֶ֑יךָ וְהָלַכְתָּ֣ עִמָּ֗נוּ וְנִלְחַמְתָּ֙ בִּבְנֵ֣י עַמּ֔וֹן וְהָיִ֥יתָ לָּ֛נוּ לְרֹ֖אשׁ לְכֹ֥ל יֹשְׁבֵ֥י גִלְעָֽד׃",
+      "text_kjv": "And the elders of Gilead said unto Jephthah, Therefore we turn again to thee now, that thou mayest go with us, and fight against the children of Ammon, and be our head over all the inhabitants of Gilead.",
+      "rendering": "The elders of Gilead said to Jephthah, \"That is exactly why we have turned back to you now. Come with us and fight the Ammonites, and you will be head over all the inhabitants of Gilead.\"",
+      "translator_notes": [
+        "The elders escalate their offer from qatsin ('commander,' v. 6) to rosh ('head') — a permanent leadership role over all Gilead's inhabitants. The word lakhen ('therefore, for that very reason') acknowledges the injustice: precisely because they wronged him, they now owe him more. The shift from temporary military authority to permanent political headship reveals how desperate they are. They concede everything Jephthah's brothers once denied him."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֹּ֤אמֶר יִפְתָּח֙ אֶל־זִקְנֵ֣י גִלְעָ֔ד אִם־מְשִׁיבִ֣ים אַתֶּ֔ם אוֹתִ֕י לְהִלָּחֵ֖ם בִּבְנֵ֣י עַמּ֑וֹן וְנָתַ֧ן יְהוָ֛ה אוֹתָ֖ם לְפָנָ֑י אָנֹכִ֕י אֶהְיֶ֥ה לָכֶ֖ם לְרֹֽאשׁ׃",
+      "text_kjv": "And Jephthah said unto the elders of Gilead, If ye bring me home again to fight against the children of Ammon, and the LORD deliver them before me, shall I be your head?",
+      "rendering": "Jephthah said to the elders of Gilead, \"If you bring me back to fight the Ammonites, and the LORD gives them over to me, then I will be your head.\"",
+      "translator_notes": [
+        "Jephthah makes the deal explicit and introduces a theological condition: venatan YHWH otam lefanai ('and the LORD gives them before me'). He does not claim personal ability — victory depends on divine action. The conditional im ('if') creates a two-stage test: first the elders must commit, then God must deliver. Only if both conditions are met does Jephthah accept permanent leadership. His political shrewdness matches his military prowess."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיֹּאמְר֞וּ זִקְנֵ֤י גִלְעָד֙ אֶל־יִפְתָּ֔ח יְהוָ֗ה יִהְיֶ֥ה שֹׁמֵ֛עַ בֵּינוֹתֵ֖ינוּ אִם־לֹ֣א כִדְבָרְךָ֖ כֵּ֥ן נַעֲשֶֽׂה׃",
+      "text_kjv": "And the elders of Gilead said unto Jephthah, The LORD be witness between us, if we do not so according to thy words.",
+      "rendering": "The elders of Gilead said to Jephthah, \"The LORD is the witness between us — if we do not do exactly as you say.\"",
+      "translator_notes": [
+        "The elders invoke YHWH yihyeh shomea benotenu ('the LORD will be the one hearing between us') — making God the enforcer of their oath. The verb shomea ('hearing, listening') implies judicial witness: God hears the terms and will hold the violator accountable. The phrase kidvarekha ken na'aseh ('according to your word, so we will do') gives Jephthah full control over the terms. The oath formula is covenantal — a binding agreement with divine enforcement."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיֵּ֤לֶךְ יִפְתָּח֙ עִם־זִקְנֵ֣י גִלְעָ֔ד וַיָּשִׂ֨ימוּ הָעָ֥ם אוֹת֛וֹ עֲלֵיהֶ֖ם לְרֹ֣אשׁ וּלְקָצִ֑ין וַיְדַבֵּ֧ר יִפְתָּ֛ח אֶת־כׇּל־דְּבָרָ֖יו לִפְנֵ֥י יְהוָ֛ה בַּמִּצְפָּֽה׃",
+      "text_kjv": "Then Jephthah went with the elders of Gilead, and the people made him head and captain over them: and Jephthah uttered all his words before the LORD in Mizpeh.",
+      "rendering": "So Jephthah went with the elders of Gilead. The people appointed him head and commander over them, and Jephthah spoke all his terms before the LORD at Mizpah.",
+      "translator_notes": [
+        "The installation happens in two dimensions: the people (ha-am) confirm both titles — rosh ('head,' the political role) and qatsin ('commander,' the military role). Then Jephthah speaks kol devarav ('all his words/terms') before the LORD at Mizpah. The phrase lifnei YHWH ('before the LORD') transforms a political negotiation into a sacred covenant. Mizpah ('watchtower') is a significant covenant site — a place where God 'watches' between parties (cf. Genesis 31:49). Jephthah the outcast now stands at the covenant center."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיִּשְׁלַ֤ח יִפְתָּח֙ מַלְאָכִ֔ים אֶל־מֶ֥לֶךְ בְּנֵי־עַמּ֖וֹן לֵאמֹ֑ר מַה־לִּ֣י וָלָ֔ךְ כִּי־בָ֥אתָ אֵלַ֖י לְהִלָּחֵ֥ם בְּאַרְצִֽי׃",
+      "text_kjv": "And Jephthah sent messengers unto the king of the children of Ammon, saying, What hast thou to do with me, that thou art come against me to fight in my land?",
+      "rendering": "Jephthah sent messengers to the king of the Ammonites, saying, \"What dispute is between you and me, that you have come to fight against my land?\"",
+      "translator_notes": [
+        "Jephthah's first act as leader is diplomatic, not military. The phrase mah li valakh ('what is to me and to you?') is a formula of diplomatic protest — 'what business do you have with me?' His question ki-vata elai lehilachem be-artsi ('that you have come to me to fight against my land') frames the conflict as Ammonite aggression against legitimate Israelite territory. By saying artsi ('my land'), Jephthah claims the land as his own — remarkable for a man who was denied inheritance. The rejected son now speaks for the nation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיֹּ֣אמֶר מֶֽלֶךְ־בְּנֵ֣י עַמּוֹן֮ אֶל־מַלְאֲכֵ֣י יִפְתָּח֒ כִּֽי־לָקַ֨ח יִשְׂרָאֵ֤ל אֶת־אַרְצִי֙ בַּעֲלוֹת֣וֹ מִמִּצְרַ֔יִם מֵאַרְנ֥וֹן וְעַד־הַיַּבֹּ֖ק וְעַד־הַיַּרְדֵּ֑ן וְעַתָּ֕ה הָשִׁ֥יבָה אֶתְהֶ֖ן בְּשָׁלֽוֹם׃",
+      "text_kjv": "And the king of the children of Ammon answered unto the messengers of Jephthah, Because Israel took away my land, when they came up out of Egypt, from Arnon even unto Jabbok, and unto Jordan: now therefore restore those lands again peaceably.",
+      "rendering": "The king of the Ammonites answered Jephthah's messengers, \"Because Israel took my land when they came up from Egypt — from the Arnon to the Jabbok and to the Jordan. Now return it peacefully.\"",
+      "translator_notes": [
+        "The Ammonite king's claim defines the disputed territory: from the Arnon (the southern boundary, a deep canyon flowing into the Dead Sea) to the Jabbok (the northern river, modern Zarqa) and to the Jordan (the western border). His demand hashivah ethen beshalom ('return them in peace') presents the choice as war or peaceful restoration. His argument — ki laqach Yisrael et artsi ('because Israel took my land') — frames Israel as the original aggressor. Jephthah's response (vv. 15-27) will dismantle this claim systematically."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיּ֣וֹסֶף ע֔וֹד יִפְתָּ֖ח וַיִּשְׁלַ֣ח מַלְאָכִ֑ים אֶל־מֶ֖לֶךְ בְּנֵ֥י עַמּֽוֹן׃",
+      "text_kjv": "And Jephthah sent messengers again unto the king of the children of Ammon:",
+      "rendering": "Jephthah sent messengers again to the king of the Ammonites,",
+      "translator_notes": [
+        "The phrase vayosef od ('he added again') introduces Jephthah's lengthy diplomatic counter-argument (vv. 15-27), one of the longest diplomatic speeches in Judges. Rather than responding with force, Jephthah builds a careful historical and legal case — demonstrating intellectual sophistication unusual in the Judges cycle."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיֹּ֣אמֶר ל֔וֹ כֹּ֖ה אָמַ֣ר יִפְתָּ֑ח לֹֽא־לָקַ֤ח יִשְׂרָאֵל֙ אֶת־אֶ֣רֶץ מוֹאָ֔ב וְאֶת־אֶ֖רֶץ בְּנֵ֥י עַמּֽוֹן׃",
+      "text_kjv": "And said unto him, Thus saith Jephthah, Israel did not take the land of Moab, nor the land of the children of Ammon:",
+      "rendering": "saying to him, \"This is what Jephthah says: Israel did not take the land of Moab or the land of the Ammonites.",
+      "translator_notes": [
+        "Jephthah opens his legal argument with a flat denial: lo laqach Yisrael ('Israel did not take'). The formula koh amar Yiftach ('thus says Jephthah') mirrors prophetic messenger formulas — Jephthah speaks as an authorized representative. His argument distinguishes between Moabite/Ammonite territory (which Israel did not take) and Amorite territory (which Israel conquered from Sihon). This distinction is crucial: the disputed land was Amorite, not Ammonite, when Israel took it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "כִּ֖י בַּעֲלוֹתָ֣ם מִמִּצְרָ֑יִם וַיֵּ֤לֶךְ יִשְׂרָאֵל֙ בַּמִּדְבָּ֔ר עַד־יַם־ס֖וּף וַיָּבֹ֥א קָדֵֽשָׁה׃",
+      "text_kjv": "But when Israel came up from Egypt, and walked through the wilderness unto the Red sea, and came to Kadesh;",
+      "rendering": "When they came up from Egypt, Israel traveled through the wilderness to the Sea of Reeds and arrived at Kadesh.",
+      "translator_notes": [
+        "Jephthah begins a detailed historical recitation of Israel's wilderness journey. Yam Suf ('Sea of Reeds') is the traditional crossing site — rendered here as 'Sea of Reeds' rather than 'Red Sea' following the Hebrew more closely (suf = reeds/rushes). Kadesh (Kadesh-Barnea) was the staging area in the southern wilderness where Israel prepared for entry into the land. Jephthah demonstrates command of Israelite history to establish legal precedent."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיִּשְׁלַ֨ח יִשְׂרָאֵ֤ל מַלְאָכִים֙ אֶל־מֶ֣לֶךְ אֱד֔וֹם לֵאמֹ֕ר אֶעְבְּרָה־נָּ֖א בְּאַרְצֶ֑ךָ וְלֹ֤א שָׁמַע֙ מֶ֣לֶךְ אֱד֔וֹם וְגַ֨ם אֶל־מֶ֧לֶךְ מוֹאָ֛ב שָׁלַ֖ח וְלֹ֣א אָבָ֑ה וַיֵּ֥שֶׁב יִשְׂרָאֵ֖ל בְּקָדֵֽשׁ׃",
+      "text_kjv": "Then Israel sent messengers unto the king of Edom, saying, Let me, I pray thee, pass through thy land: but the king of Edom would not hearken thereto. And in like manner they sent unto the king of Moab: but he would not consent: and Israel abode in Kadesh.",
+      "rendering": "Israel sent messengers to the king of Edom, saying, 'Please let me pass through your land.' But the king of Edom would not listen. They also sent to the king of Moab, but he refused. So Israel stayed at Kadesh.",
+      "translator_notes": [
+        "Jephthah's argument establishes Israel's diplomatic good faith: they requested passage (e'berah-na — 'let me pass through, please') before resorting to force. Both Edom and Moab refused (lo shama, lo avah — 'did not listen, was not willing'). The verb avah ('to be willing, to consent') implies Moab's refusal was deliberate, not incidental. Israel's compliance — vayeshev Yisrael beQadesh ('Israel stayed at Kadesh') — proves they respected territorial boundaries when asked."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיֵּ֣לֶךְ בַּמִּדְבָּ֗ר וַיָּ֜סׇב אֶת־אֶ֤רֶץ אֱדוֹם֙ וְאֶת־אֶ֣רֶץ מוֹאָ֔ב וַיָּבֹ֥א מִמִּזְרַח־שֶׁ֖מֶשׁ לְאֶ֣רֶץ מוֹאָ֑ב וַֽיַּחֲנ֞וּ בְּעֵ֤בֶר אַרְנוֹן֙ וְלֹא־בָ֣אוּ בִגְב֣וּל מוֹאָ֔ב כִּ֥י אַרְנ֖וֹן גְּב֥וּל מוֹאָֽב׃",
+      "text_kjv": "Then they went along through the wilderness, and compassed the land of Edom, and the land of Moab, and came by the east side of the land of Moab, and pitched on the other side of Arnon, but came not within the border of Moab: for Arnon was the border of Moab.",
+      "rendering": "Then they traveled through the wilderness, going around the land of Edom and the land of Moab. They came to the east side of the land of Moab and camped on the other side of the Arnon, but they did not enter Moab's territory — because the Arnon was Moab's border.",
+      "translator_notes": [
+        "Jephthah emphasizes Israel's scrupulous respect for borders: vayasov ('they went around, they circled') — the long detour around Edom and Moab rather than forcing passage. The critical detail is velo va'u bigvul Moav ('they did not enter Moab's border'), and the reason: ki Arnon gevul Moav ('because the Arnon was Moab's border'). This establishes that Israel recognized and respected territorial sovereignty. If Israel respected Moab's border at the Arnon, they certainly did not take Ammonite land."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיִּשְׁלַ֤ח יִשְׂרָאֵל֙ מַלְאָכִ֔ים אֶל־סִיח֥וֹן מֶלֶךְ־הָאֱמֹרִ֖י מֶ֣לֶךְ חֶשְׁבּ֑וֹן וַיֹּ֤אמֶר לוֹ֙ יִשְׂרָאֵ֔ל נַעְבְּרָה־נָּ֥א בְאַרְצְךָ֖ עַד־מְקוֹמִֽי׃",
+      "text_kjv": "And Israel sent messengers unto Sihon king of the Amorites, the king of Heshbon; and Israel said unto him, Let us pass, we pray thee, through thy land into my place.",
+      "rendering": "Then Israel sent messengers to Sihon king of the Amorites, who ruled in Heshbon, and Israel said to him, 'Please let us pass through your land to our destination.'",
+      "translator_notes": [
+        "The pattern continues: diplomacy before force. Sihon is identified as melekh ha-Emori ('king of the Amorites'), not king of Ammon — a critical distinction in Jephthah's argument. The request na'berah-na be-artsekha ('let us pass through your land, please') is identical in form to the request made to Edom. The phrase ad meqomi ('to my place') implies Israel had a specific destination and was not seeking to conquer Sihon's territory."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְלֹא־הֶאֱמִ֣ין סִיח֗וֹן אֶת־יִשְׂרָאֵל֙ עֲבֹ֣ר בִּגְבֻל֔וֹ וַיֶּאֱסֹ֤ף סִיחוֹן֙ אֶת־כׇּל־עַמּ֔וֹ וַֽיַּחֲנ֖וּ בְּיָ֑הְצָה וַיִּלָּ֖חֶם עִם־יִשְׂרָאֵֽל׃",
+      "text_kjv": "But Sihon trusted not Israel to pass through his coast: but Sihon gathered all his people together, and pitched in Jahaz, and fought against Israel.",
+      "rendering": "But Sihon did not trust Israel to pass through his territory. Sihon gathered all his forces and camped at Jahaz, and fought against Israel.",
+      "translator_notes": [
+        "Unlike Edom and Moab who simply refused, Sihon responds with military force: lo he'emin ('he did not trust') Israel's intentions. The verb he'emin (from the root '-m-n, related to 'amen' and 'faithfulness') means Sihon refused to have faith in Israel's word. He gathered kol ammo ('all his people') and chose Jahaz as his battleground. By initiating combat, Sihon forfeited his territorial claims under ancient Near Eastern norms of war — the key to Jephthah's legal argument."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיִּתֵּ֣ן יְהוָ֣ה אֱלֹהֵֽי־יִ֠שְׂרָאֵ֠ל אֶת־סִיחוֹן֩ וְאֶת־כׇּל־עַמּ֨וֹ בְּיַ֤ד יִשְׂרָאֵל֙ וַיַּכּ֔וּם וַיִּירַ֣שׁ יִשְׂרָאֵ֔ל אֵ֖ת כׇּל־אֶ֣רֶץ הָאֱמֹרִ֑י יוֹשֵׁ֖ב הָאָ֥רֶץ הַהִֽיא׃",
+      "text_kjv": "And the LORD God of Israel delivered Sihon and all his people into the hand of Israel, and they smote them: so Israel possessed all the land of the Amorites, the inhabitants of that country.",
+      "rendering": "The LORD, the God of Israel, gave Sihon and all his forces into Israel's hand. They defeated them, and Israel took possession of all the land of the Amorites who lived in that region.",
+      "translator_notes": [
+        "The victory is attributed to YHWH Elohei Yisrael ('the LORD God of Israel') — divine agency, not Israelite military superiority. The verb vayirash ('and he dispossessed, took possession') is a key legal term: Israel's title to the land comes by divine conquest, replacing the Amorite inhabitants. Jephthah's point: this was Amorite land (erets ha-Emori), not Ammonite land. Israel conquered it from Sihon the Amorite, not from Ammon."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיִּ֣ירְשׁ֔וּ אֵ֖ת כׇּל־גְּב֣וּל הָאֱמֹרִ֑י מֵאַרְנ֥וֹן וְעַד־הַיַּבֹּ֖ק וּמִן־הַמִּדְבָּ֥ר וְעַד־הַיַּרְדֵּֽן׃",
+      "text_kjv": "And they possessed all the coasts of the Amorites, from Arnon even unto Jabbok, and from the wilderness even unto Jordan.",
+      "rendering": "They took possession of all the Amorite territory — from the Arnon to the Jabbok, and from the wilderness to the Jordan.",
+      "translator_notes": [
+        "Jephthah defines the conquered territory using the same boundaries the Ammonite king cited in verse 13 — Arnon, Jabbok, Jordan — but identifies it as gevul ha-Emori ('the border/territory of the Amorite'). The fourth boundary — min ha-midbar ('from the wilderness') — indicates the eastern desert. The rhetorical strategy is precise: the land the Ammonite king claims was Amorite, not Ammonite, when Israel took it. You cannot reclaim what was never yours."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְעַתָּ֗ה יְהוָ֞ה אֱלֹהֵ֤י יִשְׂרָאֵל֙ הוֹרִ֣ישׁ אֶת־הָאֱמֹרִ֔י מִפְּנֵ֖י עַמּ֣וֹ יִשְׂרָאֵ֑ל וְאַתָּ֖ה תִּירָשֶֽׁנּוּ׃",
+      "text_kjv": "So now the LORD God of Israel hath dispossessed the Amorites from before his people Israel, and shouldest thou possess it?",
+      "rendering": "So now — the LORD, the God of Israel, dispossessed the Amorites before His people Israel. And you think you should possess it?",
+      "translator_notes": [
+        "Jephthah's argument turns theological: YHWH Elohei Yisrael horish et ha-Emori ('the LORD God of Israel dispossessed the Amorite'). The verb horish (hiphil of y-r-sh, 'to cause to possess / to dispossess') carries double force — God both expelled the Amorites and granted the land to Israel. The rhetorical question ve-atah tirashennu ('and you — will you possess it?') challenges Ammon to contest not Israel's army but Israel's God. Jephthah frames territorial claims as theological claims."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "הֲלֹ֞א אֵ֣ת אֲשֶׁ֧ר יוֹרִֽישְׁךָ֛ כְּמוֹשׁ֥ אֱלֹהֶ֖יךָ אוֹת֣וֹ תִירָ֑שׁ וְאֵ֗ת כׇּל־אֲשֶׁ֨ר הוֹרִ֜ישׁ יְהוָ֧ה אֱלֹהֵ֛ינוּ מִפָּנֵ֖ינוּ אוֹת֥וֹ נִירָֽשׁ׃",
+      "text_kjv": "Wilt thou not possess that which Chemosh thy god giveth thee to possess? So whomsoever the LORD our God shall drive out from before us, them will we possess.",
+      "rendering": "Will you not possess what Chemosh your god gives you to possess? And everything that the LORD our God has driven out before us — that we will possess.",
+      "translator_notes": [
+        "This is the most theologically provocative verse in Jephthah's argument. He invokes Kemosh (Chemosh), the national deity of Moab (not Ammon — Ammon's god was Milcom/Molech), framing the dispute in terms both sides can accept: each nation possesses what their god gives them. The argument is diplomatically brilliant but theologically complex — Jephthah appears to grant Chemosh real agency alongside YHWH. Most scholars see this as diplomatic rhetoric rather than polytheistic confession: Jephthah argues on the Ammonite king's own terms. The error in naming Chemosh (a Moabite god) for an Ammonite king may reflect the historical overlap between Moabite and Ammonite territories, or it may be a deliberate conflation in the narrator's source."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כְּמוֹשׁ",
+          "transliteration": "Kemosh",
+          "rendered_as": "Chemosh",
+          "semantic_range": "the national deity of Moab; associated with warfare and territorial sovereignty",
+          "note": "Jephthah's reference to Chemosh (a Moabite deity) when addressing an Ammonite king is a noted difficulty. It may indicate that the Ammonite king controlled former Moabite territory, that the traditions blurred the distinction, or that Jephthah's historical knowledge was imperfect. The Mesha Stele (9th century BCE) confirms Chemosh as Moab's chief deity."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְעַתָּ֗ה הֲט֥וֹב טוֹב֙ אַתָּ֔ה מִבָּלָ֥ק בֶּן־צִפּ֖וֹר מֶ֣לֶךְ מוֹאָ֑ב הֲר֥וֹב רָב֙ עִם־יִשְׂרָאֵ֔ל אִם־נִלְחֹ֥ם נִלְחַ֖ם בָּֽם׃",
+      "text_kjv": "And now art thou any thing better than Balak the son of Zippor, king of Moab? did he ever strive against Israel, or did he ever fight against them,",
+      "rendering": "Now — are you any better than Balak son of Zippor, king of Moab? Did he ever dispute with Israel or go to war against them?",
+      "translator_notes": [
+        "Jephthah brings a precedent argument: Balak ben Tsippor, king of Moab (from Numbers 22-24), who hired Balaam to curse Israel, never made a territorial claim. The rhetorical questions harov rav ('did he contend?') and im nilchom nilcham ('did he fight?') use infinitive absolute constructions for emphasis. If Balak — who had far more grievance — never contested Israel's possession, what grounds does the current Ammonite king have? The argument from silence is powerful: three centuries of unchallenged possession."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "בְּשֶׁ֣בֶת יִשְׂרָאֵ֣ל בְּ֠חֶשְׁבּ֠וֹן וּבִבְנוֹתֶ֜יהָ וּבְעַרְעוֹר֣ וּבִבְנוֹתֶ֗יהָ וּבְכׇל־הֶֽעָרִים֙ אֲשֶׁ֣ר עַל־יְדֵ֣י אַרְנ֔וֹן שְׁלֹ֥שׁ מֵא֖וֹת שָׁנָ֑ה וּמַדּ֥וּעַ לֹֽא־הִצַּלְתֶּ֖ם בָּעֵ֥ת הַהִֽיא׃",
+      "text_kjv": "While Israel dwelt in Heshbon and her towns, and in Aroer and her towns, and in all the cities that be along by the coasts of Arnon, three hundred years, why therefore did ye not recover them within that time?",
+      "rendering": "While Israel has lived in Heshbon and its surrounding villages, in Aroer and its surrounding villages, and in all the towns along the Arnon for three hundred years — why did you not reclaim them during that time?",
+      "translator_notes": [
+        "Jephthah's strongest argument: prescription by long possession. Shelosh me'ot shanah ('three hundred years') of unchallenged Israelite occupation constitutes legal title. The cities named — Heshbon (Sihon's former capital), Aroer (on the Arnon's north rim), and their satellite villages (benoteiha — literally 'her daughters') — define the full extent of the contested territory. The rhetorical question madua lo hitsaltem ba-et ha-hi ('why did you not deliver/reclaim them at that time?') is devastating: silence for three centuries forfeits any claim."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְאָנֹכִי֙ לֹא־חָטָ֣אתִי לָ֔ךְ וְאַתָּ֛ה עֹשֶׂ֥ה אִתִּ֖י רָעָ֑ה לְהִלָּ֣חֶם בִּ֔י יִשְׁפֹּ֤ט יְהוָה֙ הַשֹּׁפֵ֣ט הַיּ֔וֹם בֵּ֥ין בְּנֵ֥י יִשְׂרָאֵ֖ל וּבֵ֥ין בְּנֵ֥י עַמּֽוֹן׃",
+      "text_kjv": "Wherefore I have not sinned against thee, but thou doest me wrong to war against me: the LORD the Judge judge this day between the children of Israel and the children of Ammon.",
+      "rendering": "I have not wronged you, but you are doing me wrong by fighting against me. Let the LORD, the Judge, decide today between the Israelites and the Ammonites.\"",
+      "translator_notes": [
+        "Jephthah closes his argument with a legal verdict and a divine appeal. The phrase lo chatati lakh ('I have not sinned against you') uses the legal sense of chata' — 'transgress, commit an offense.' His countercharge — atah oseh iti ra'ah ('you are doing evil to me') — reverses the accusation. The climax invokes YHWH ha-Shofet ('the LORD the Judge') to render divine judgment (yishpot). The repetition of sh-f-t (judge) — yishpot YHWH ha-Shofet — is emphatic: the ultimate arbiter is God. Jephthah's case rests on three pillars: historical fact, legal precedent, and divine adjudication."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְלֹ֣א שָׁמַ֔ע מֶ֖לֶךְ בְּנֵ֣י עַמּ֑וֹן אֶל־דִּבְרֵ֣י יִפְתָּ֔ח אֲשֶׁ֥ר שָׁלַ֖ח אֵלָֽיו׃",
+      "text_kjv": "Howbeit the king of the children of Ammon hearkened not unto the words of Jephthah which he sent him.",
+      "rendering": "But the king of the Ammonites did not listen to the message Jephthah had sent him.",
+      "translator_notes": [
+        "The terse velo shama ('and he did not listen') dismisses Jephthah's entire diplomatic effort in a single phrase. The verb shama ('listen, heed') implies more than hearing — it means 'to accept, to comply.' The Ammonite king's refusal makes war inevitable and, in the narrative logic, makes the Ammonite king morally culpable for the ensuing bloodshed. Diplomacy exhausted, the narrative pivots to war."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַתְּהִ֤י עַל־יִפְתָּח֙ ר֣וּחַ יְהוָ֔ה וַיַּעֲבֹ֥ר אֶת־הַגִּלְעָ֖ד וְאֶת־מְנַשֶּׁ֑ה וַיַּעֲבֹר֙ אֶת־מִצְפֵּ֣ה גִלְעָ֔ד וּמִמִּצְפֵּ֣ה גִלְעָ֔ד עָבַ֖ר בְּנֵ֥י עַמּֽוֹן׃",
+      "text_kjv": "Then the Spirit of the LORD came upon Jephthah, and he passed over Gilead, and Manasseh, and passed over Mizpeh of Gilead, and from Mizpeh of Gilead he passed over unto the children of Ammon.",
+      "rendering": "Then the Spirit of the LORD came upon Jephthah. He crossed through Gilead and Manasseh, passed through Mizpah of Gilead, and from Mizpah of Gilead he advanced against the Ammonites.",
+      "translator_notes": [
+        "The phrase vattehi al Yiftach ruach YHWH ('the Spirit of the LORD came upon Jephthah') marks divine empowerment for battle — the same Spirit that came upon Othniel (3:10), Gideon (6:34), and Samson (13:25, 14:6). The verb avar ('crossed, passed over') appears three times in rapid succession, creating a sense of sweeping momentum across the tribal territories. The geographic sequence — Gilead, Manasseh, Mizpah of Gilead — traces Jephthah's military march gathering forces. The critical question the narrative raises: if the Spirit empowers Jephthah, does the vow that follows (v. 30-31) also come from the Spirit — or from Jephthah's own anxiety?"
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיִּדַּ֤ר יִפְתָּח֙ נֶ֣דֶר לַיהוָ֔ה וַיֹּאמַ֑ר אִם־נָת֥וֹן תִּתֵּ֛ן אֶת־בְּנֵ֥י עַמּ֖וֹן בְּיָדִֽי׃",
+      "text_kjv": "And Jephthah vowed a vow unto the LORD, and said, If thou shalt without fail deliver the children of Ammon into mine hands,",
+      "rendering": "Jephthah made a vow to the LORD and said, \"If you will certainly give the Ammonites into my hand,",
+      "translator_notes": [
+        "The phrase vayidar Yiftach neder la-YHWH ('Jephthah vowed a vow to the LORD') uses the cognate accusative (neder/vow + nadar/to vow) for emphasis — this is a solemn, binding oath. The conditional im naton titten ('if giving you will give' — 'if you will certainly give') uses the infinitive absolute for intensity. The vow comes after the Spirit has already come upon Jephthah (v. 29), raising the question: was the vow necessary? The Spirit should have been assurance enough. Many interpreters see Jephthah's vow as revealing insecurity — a man who bargains with God rather than trusting the empowerment already given."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְהָיָ֣ה הַיּוֹצֵ֗א אֲשֶׁ֨ר יֵצֵ֜א מִדַּלְתֵ֤י בֵיתִי֙ לִקְרָאתִ֔י בְּשׁוּבִ֣י בְשָׁל֔וֹם מִבְּנֵ֖י עַמּ֑וֹן וְהָיָ֣ה לַיהוָ֔ה וְהַעֲלִיתִ֖הוּ עוֹלָֽה׃",
+      "text_kjv": "Then it shall be, that whatsoever cometh forth of the doors of my house to meet me, when I return in peace from the children of Ammon, shall surely be the LORD'S, and I will offer it up for a burnt offering.",
+      "rendering": "then whatever comes out of the doors of my house to meet me when I return in peace from the Ammonites will belong to the LORD, and I will offer it up as a burnt offering.\"",
+      "translator_notes": [
+        "This is one of the most debated verses in the Hebrew Bible. The key phrase veha'alitihu olah ('and I will offer it up as a burnt offering') uses olah, the whole burnt offering where the entire animal is consumed by fire — the most complete form of sacrifice. The word ha-yotse ('the one going out') uses a masculine participle, which could refer to a person or animal. The conjunction in vehayah la-YHWH veha'alitihu can be read as 'and' (cumulative: 'it will be the LORD's AND I will offer it as a burnt offering') or 'or' (disjunctive: 'it will be the LORD's OR I will offer it as a burnt offering'). The cumulative reading implies literal sacrifice; the disjunctive reading allows for dedication to divine service. The text's ambiguity may be deliberate — the narrator presents the vow without commentary, forcing the reader to sit with its horror. Ancient interpreters were divided: Josephus and most early readers took it as literal sacrifice; later rabbinic tradition (Radak, Kimchi) argued for lifelong dedication to virginity."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עוֹלָה",
+          "transliteration": "olah",
+          "rendered_as": "burnt offering",
+          "semantic_range": "whole burnt offering, ascent offering, holocaust offering — the sacrifice entirely consumed by fire",
+          "note": "The olah is the most total form of Israelite sacrifice: nothing is kept by the offerer. Everything ascends (from the root '-l-h, 'to go up') to God in smoke. If Jephthah literally fulfilled this vow on his daughter, it would constitute human sacrifice — explicitly forbidden in Deuteronomy 12:31 and 18:10. The tension between Jephthah's vow and Torah prohibition is central to the chapter's horror."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיַּעֲבֹ֥ר יִפְתָּ֛ח אֶל־בְּנֵ֥י עַמּ֖וֹן לְהִלָּ֣חֶם בָּ֑ם וַיִּתְּנֵ֥ם יְהוָ֖ה בְּיָדֽוֹ׃",
+      "text_kjv": "So Jephthah passed over unto the children of Ammon to fight against them; and the LORD delivered them into his hands.",
+      "rendering": "Jephthah crossed over to the Ammonites to fight them, and the LORD gave them into his hand.",
+      "translator_notes": [
+        "The victory is reported with devastating brevity: vayitnem YHWH beyado ('the LORD gave them into his hand'). God fulfills the condition of Jephthah's vow — the Ammonites are delivered. The narrator's terseness is itself a statement: the military triumph is not the point. What matters narratively is what happens when Jephthah goes home. The victory that should be the climax becomes merely the trigger for tragedy."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַיַּכֵּ֡ם מֵעֲרוֹעֵ֣ר וְעַד־בּוֹאֲךָ֣ מִנִּ֡ית עֶשְׂרִ֣ים עִיר֩ וְעַ֨ד אָבֵ֤ל כְּרָמִים֙ מַכָּ֣ה גְדוֹלָ֣ה מְאֹ֔ד וַיִּכָּנְע֖וּ בְּנֵ֣י עַמּ֑וֹן מִפְּנֵ֖י בְּנֵ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And he smote them from Aroer, even till thou come to Minnith, even twenty cities, and unto the plain of the vineyards, with a very great slaughter. Thus the children of Ammon were subdued before the children of Israel.",
+      "rendering": "He struck them from Aroer all the way to the approaches of Minnith — twenty towns — and as far as Abel-keramim, inflicting a massive defeat. So the Ammonites were subdued before the Israelites.",
+      "translator_notes": [
+        "The scope of victory is rendered geographically: from Aroer to Minnith (twenty towns) to Abel-keramim ('meadow of vineyards'). The phrase makkah gedolah me'od ('a very great striking') emphasizes the scale of destruction. The verb vayikkane'u ('they were subdued, humbled') uses the niphal of k-n-' — forced submission. But the narrator rushes through this triumph, devoting only two verses (32-33) to the entire war. The narrative weight falls elsewhere."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיָּבֹ֤א יִפְתָּח֙ הַמִּצְפָּ֔ה אֶל־בֵּית֑וֹ וְהִנֵּ֣ה בִתּ֗וֹ יֹצֵ֤את לִקְרָאתוֹ֙ בְּתֻפִּ֣ים וּבִמְחֹל֔וֹת וְרַ֕ק הִ֥יא יְחִידָ֖ה אֵֽין־ל֥וֹ מִמֶּ֛נּוּ בֵּ֥ן אוֹ־בַֽת׃",
+      "text_kjv": "And Jephthah came to Mizpeh unto his house, and, behold, his daughter came out to meet him with timbrels and with dances: and she was his only child; beside her he had neither son nor daughter.",
+      "rendering": "When Jephthah came to Mizpah, to his house, there was his daughter, coming out to meet him with tambourines and dancing! She was his only child — he had no other son or daughter.",
+      "translator_notes": [
+        "The collision between vow and reality arrives with devastating force. The word hineh ('there! look!') forces the reader into Jephthah's perspective at the moment of recognition. His daughter is yotse'at liqrato ('coming out to meet him') — the exact fulfillment of ha-yotse asher yetse middaltei veiti liqrati ('whatever comes out of the doors of my house to meet me,' v. 31). She comes betuppim uvimcholot ('with tambourines and dances') — the traditional victory celebration (cf. Miriam in Exodus 15:20). The narrator's parenthetical — veraq hi yechidah, ein lo mimmennu ben o-vat ('she was his only one; he had no son or daughter besides her') — maximizes the pathos. The word yechidah ('only one, unique one') echoes Genesis 22:2 where Isaac is called yachid ('your only one'), creating an unmistakable parallel between Jephthah's daughter and the binding of Isaac."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיְהִ֣י כִרְאוֹתוֹ֮ אוֹתָהּ֒ וַיִּקְרַ֣ע אֶת־בְּגָדָ֗יו וַיֹּ֙אמֶר֙ אֲהָ֣הּ בִּתִּ֔י הַכְרֵ֥עַ הִכְרַעְתִּ֖נִי וְאַ֣תְּ הָיִ֣ית בְּעֹכְרָ֑י וְאָנֹכִ֗י פָּצִ֤יתִי פִי֙ אֶל־יְהוָ֔ה וְלֹ֥א אוּכַ֖ל לָשֽׁוּב׃",
+      "text_kjv": "And it came to pass, when he saw her, that he rent his clothes, and said, Alas, my daughter! thou hast brought me very low, and thou art one of them that trouble me: for I have opened my mouth unto the LORD, and I cannot go back.",
+      "rendering": "When he saw her, he tore his clothes and said, \"Oh, my daughter! You have brought me to my knees — you have become my devastation! I have opened my mouth to the LORD, and I cannot take it back.\"",
+      "translator_notes": [
+        "Jephthah's grief erupts physically — vayiqra et begadav ('he tore his garments'), the traditional sign of mourning and anguish. His cry ahah bitti ('alas, my daughter!') is raw lament. The verb hikhra'tini ('you have brought me low, brought me to my knees') from k-r-' uses the hiphil intensive — she has destroyed him, though she has done nothing wrong. The phrase ve-at hayit be-okhrai ('you have become among my troublers') uses the root '-k-r, the same root in Achan's name and story (Joshua 7) — one who brings catastrophe on the community. But the devastating self-indictment follows: anokhi patsiti fi el-YHWH ('I opened my mouth to the LORD') — the fault is his words, not her existence. Velo ukhal lashuv ('I cannot return/retract') reflects the ancient Near Eastern understanding that vows to a deity are irrevocable (cf. Numbers 30:3)."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַתֹּ֣אמֶר אֵלָ֗יו אָבִי֙ פָּצִ֤יתָה אֶת־פִּ֙יךָ֙ אֶל־יְהוָ֔ה עֲשֵׂ֣ה לִ֔י כַּאֲשֶׁ֖ר יָצָ֣א מִפִּ֑יךָ אַחֲרֵ֡י אֲשֶׁר֩ עָשָׂ֨ה לְךָ֤ יְהוָה֙ נְקָמ֔וֹת מֵאֹיְבֶ֖יךָ מִבְּנֵ֥י עַמּֽוֹן׃",
+      "text_kjv": "And she said unto him, My father, if thou hast opened thy mouth unto the LORD, do to me according to that which hath proceeded out of thy mouth; forasmuch as the LORD hath taken vengeance for thee of thine enemies, even of the children of Ammon.",
+      "rendering": "She said to him, \"My father, you have opened your mouth to the LORD — do to me what you have spoken, since the LORD has carried out vengeance for you against your enemies, the Ammonites.\"",
+      "translator_notes": [
+        "The daughter's response is among the most remarkable speeches in the Hebrew Bible. She addresses him as avi ('my father') — the relationship word that should have prevented the vow's fulfillment. Her words aseh li ka'asher yatsa mipikha ('do to me according to what came out of your mouth') accept the vow's binding force. She frames compliance as the proper response to God's faithfulness: acharei asher asah lekha YHWH neqamot me-oyvekha ('since the LORD has carried out vengeance for you against your enemies'). Her theology is flawless — God kept His side of the bargain; the human side must be honored too. She never names herself as victim; she speaks as a covenant participant. Her courage exceeds her father's — she faces the vow's consequence without tearing her garments."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וַתֹּ֙אמֶר֙ אֶל־אָבִ֔יהָ יֵעָ֥שֶׂה לִּ֖י הַדָּבָ֣ר הַזֶּ֑ה הַרְפֵּ֨ה מִמֶּ֜נִּי שְׁנַ֣יִם חֳדָשִׁ֗ים וְאֵֽלְכָ֞ה וְיָרַדְתִּ֣י עַל־הֶהָרִ֗ים וְאֶבְכֶּה֙ עַל־בְּתוּלַ֔י אָנֹכִ֖י וְרֵעוֹתָֽי׃",
+      "text_kjv": "And she said unto her father, Let this thing be done for me: let me alone two months, that I may go up and down upon the mountains, and bewail my virginity, I and my fellows.",
+      "rendering": "She said to her father, \"Grant me this one thing: give me two months to go and wander on the mountains and weep over my virginity — I and my companions.\"",
+      "translator_notes": [
+        "Her single request: harpeh mimmenni shenayim chodashim ('release me for two months'). The verb harpeh ('let go, release, relax your grip') implies she is already held by the vow's power. She will yaradti al he-harim ('go down upon the mountains') — the verb yarad normally means 'descend,' but here likely means 'roam' or 'wander' over the mountain terrain. What she mourns is al betulai ('over my virginity') — betulim refers to her virginal state, meaning she will never marry, never bear children, never continue her father's line. In an Israelite context where lineage and progeny were paramount blessings, this is a form of death even if she physically survives. Her companions (re'otai — 'my female friends') will share her grief."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיֹּ֣אמֶר לֵ֔כִי וַיִּשְׁלַ֥ח אוֹתָ֖הּ שְׁנֵ֣י חֳדָשִׁ֑ים וַתֵּ֤לֶךְ הִיא֙ וְרֵ֣עוֹתֶ֔יהָ וַתֵּ֥בְךְּ עַל־בְּתוּלֶ֖יהָ עַל־הֶהָרִֽים׃",
+      "text_kjv": "And he said, Go. And he sent her away for two months: and she went with her companions, and bewailed her virginity upon the mountains.",
+      "rendering": "He said, \"Go.\" He sent her away for two months, and she went with her companions and wept over her virginity on the mountains.",
+      "translator_notes": [
+        "Jephthah's response is a single word: lekhi ('go'). The brevity speaks volumes — he has nothing left to say. The narrator reports without commentary: vayishlach otah shenei chodashim ('he sent her for two months'). The verb shalach ('send') is the same used for sending messengers — but here he sends his daughter to grieve her own life. She and her companions vattevk ('wept') — the community of women shares what the community of men caused. The mountains become a space of ritual lamentation, separate from the settlements where men make vows and wars."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיְהִ֞י מִקֵּ֣ץ ׀ שְׁנַ֣יִם חֳדָשִׁ֗ים וַתָּ֙שׇׁב֙ אֶל־אָבִ֔יהָ וַיַּ֣עַשׂ לָ֔הּ אֶת־נִדְר֖וֹ אֲשֶׁ֣ר נָדָ֑ר וְהִיא֙ לֹא־יָדְעָ֣ה אִ֔ישׁ וַתְּהִי־חֹ֖ק בְּיִשְׂרָאֵֽל׃",
+      "text_kjv": "And it came to pass at the end of two months, that she returned unto her father, who did with her according to his vow which he had vowed: and she knew no man. And it was a custom in Israel,",
+      "rendering": "At the end of two months, she returned to her father, and he did to her according to the vow he had made. She had never known a man. And it became a tradition in Israel",
+      "translator_notes": [
+        "This is the pivotal and deliberately ambiguous verse. The narrator states vaya'as lah et nidro asher nadar ('he did to her his vow which he had vowed') — but does NOT describe what he actually did. The text is silent at the precise moment the reader most needs to know. Two major interpretive traditions exist: (1) LITERAL SACRIFICE — Jephthah offered his daughter as an olah (burnt offering), which is the plain meaning of the vow in v. 31 and was understood this way by Josephus, Pseudo-Philo, and most early interpreters; (2) PERPETUAL DEDICATION — Jephthah dedicated his daughter to lifelong virginity and service to God, reading the vav in v. 31 as disjunctive ('or'), supported by the narrator's note vehi lo yade'ah ish ('she did not know a man'), which would be superfluous if she were dead. The phrase vattehi choq be-Yisrael ('it became a statute/custom in Israel') introduces the annual commemoration in v. 40. CRITICAL: Unlike Genesis 22, where God intervenes to stop Abraham's sacrifice of Isaac, no angel speaks here. No ram appears. The narrator offers no divine commentary — no approval, no condemnation. The silence of God in this text is itself a theological statement that the reader must confront."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "מִיָּמִ֣ים ׀ יָמִ֗ימָה תֵּלַ֙כְנָה֙ בְּנ֣וֹת יִשְׂרָאֵ֔ל לְתַנּ֕וֹת לְבַ֥ת יִפְתָּ֖ח הַגִּלְעָדִ֑י אַרְבַּ֥עַת יָמִ֖ים בַּשָּׁנָֽה׃",
+      "text_kjv": "That the daughters of Israel went yearly to lament the daughter of Jephthah the Gileadite four days in a year.",
+      "rendering": "that the daughters of Israel would go year after year to commemorate the daughter of Jephthah the Gileadite, four days each year.",
+      "translator_notes": [
+        "The chapter closes with an annual women's ritual: mi-yamim yamimah ('from days to days' — 'year after year') the benot Yisrael ('daughters of Israel') gather letannot levat Yiftach ('to commemorate/lament for the daughter of Jephthah'). The verb tannot is debated: it may derive from t-n-h ('to recount, to rehearse, to lament') — either retelling her story or mourning her fate. The four-day annual observance (arba'at yamim ba-shanah) preserved her memory in Israelite women's tradition. She is never named — she is simply bat Yiftach ('Jephthah's daughter'), defined entirely by the father whose vow consumed her. The women of Israel remember what the men of Israel caused. The Judges cycle continues its descent: from Gideon's compromised victory to Abimelech's tyranny to Jephthah's devastating vow — each judge more costly than the last."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

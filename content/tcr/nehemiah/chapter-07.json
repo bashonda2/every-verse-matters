@@ -1,0 +1,759 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Nehemiah",
+    "chapter": 7,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "With the wall completed and its doors installed, Nehemiah appoints his brother Hanani and the fortress commander Hananiah to govern Jerusalem. He orders the gates kept closed until the sun is high and guarded even after opening. The city is large but sparsely populated. God prompts Nehemiah to conduct a census, and he discovers the genealogical register of the first wave of returnees under Zerubbabel and Jeshua. The remainder of the chapter reproduces this list — families, towns, priests, Levites, singers, gatekeepers, temple servants, and descendants of Solomon's servants — concluding with the total count and the offerings given for the rebuilding work.",
+    "remarkable": "This chapter serves a dual function: it establishes administrative security for the rebuilt city and provides demographic legitimacy for its inhabitants. The genealogical list is nearly identical to Ezra 2, with minor numerical variations that have occupied scholars for centuries. The variations are not scribal errors but reflect the reality that census documents were copied, updated, and annotated over decades. The list functions as a theological statement: these are the people God brought back, and their identity as the covenant community rests on documented lineage. The note that some families could not prove their Israelite descent (vv. 61-64) — and were therefore excluded from the priesthood — shows how seriously genealogical continuity was taken in the restoration community.",
+    "friction": "The numerical differences between this list and Ezra 2 (e.g., the sons of Arach: 652 here vs. 775 in Ezra 2:5) have never been fully resolved. Some differences may reflect different points in the registration process, corrections, or variant manuscript traditions. The total figure of 42,360 (v. 66) does not match the sum of the individual numbers in either Nehemiah 7 or Ezra 2, suggesting the total was preserved independently from the itemized entries. The Tirshatha (governor) mentioned in verse 65 likely refers to Zerubbabel at the time of the original return, not to Nehemiah. The Urim and Thummim reference (v. 65) is striking — it implies the community expected the priestly oracle to be restored, though no text records this ever happening after the exile.",
+    "connections": "The list parallels Ezra 2:1-70 almost verse for verse. The genealogical concern connects to the broader restoration theology: identity must be established before worship can proceed. The excluded priests who could not find their genealogical records (vv. 63-64) anticipate Malachi's concern with priestly purity (Malachi 2:1-9). The mention of Urim and Thummim links back to the Exodus priestly system (Exodus 28:30) and to the last recorded use of this oracle method in the early monarchy. The generous freewill offerings (vv. 70-72) parallel the Tabernacle offerings in Exodus 35-36, where the people gave so abundantly they had to be restrained."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֗י כַּאֲשֶׁ֤ר נִבְנְתָה֙ הַחוֹמָ֔ה וָאַעֲמִ֖יד הַדְּלָת֑וֹת וַיִּפָּ֥קְד֛וּ הַשּׁוֹעֲרִ֖ים וְהַמְשֹׁרְרִ֥ים וְהַלְוִיִּֽם׃",
+      "text_kjv": "Now it came to pass, when the wall was built, and I had set up the doors, and the porters and the singers and the Levites were appointed,",
+      "rendering": "When the wall had been rebuilt and I had installed the doors, and the gatekeepers, the singers, and the Levites had been appointed,",
+      "translator_notes": [
+        "Three groups are appointed for the completed city: gatekeepers (sho'arim) for security, singers (meshorerim) for worship, and Levites for Temple service. The sequence is significant — the wall comes first, then the gates, then the staffing. Each layer adds function to the physical structure."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וָאֲצַוֶּ֞ה אֶת־חֲנָנִ֣י אָחִ֗י וְאֶת־חֲנַנְיָ֛ה שַׂ֥ר הַבִּירָ֖ה עַל־יְרוּשָׁלָ֑‍ִם כִּי־ה֤וּא כְּאִישׁ֙ אֱמֶ֔ת וְיָרֵ֥א אֶת־הָאֱלֹהִ֖ים מֵרַבִּֽים׃",
+      "text_kjv": "That I gave my brother Hanani, and Hananiah the ruler of the palace, charge over Jerusalem: for he was a faithful man, and feared God above many.",
+      "rendering": "I put my brother Hanani and Hananiah the fortress commander in charge of Jerusalem — because Hananiah was a man of integrity who feared God more than most.",
+      "key_terms": [
+        {
+          "hebrew": "אֱמֶת",
+          "transliteration": "emet",
+          "rendered_as": "integrity",
+          "semantic_range": "truth, faithfulness, reliability, trustworthiness, firmness",
+          "note": "Emet here describes character rather than abstract truth — Hananiah is a man who can be relied upon, whose word matches his actions. Combined with 'fearing God,' it describes the ideal qualities for a leader entrusted with a city's security."
+        }
+      ],
+      "translator_notes": [
+        "Hanani is the same brother who brought the original bad news from Jerusalem (1:2). Hananiah commands the birah ('fortress, citadel') — the military installation adjacent to the Temple Mount. Two leadership criteria are named: emet ('integrity, reliability') and yir'at Elohim ('fear of God'). The phrase me-rabbim ('more than many') is comparative — Hananiah's reverence exceeded that of his peers."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וָאֹמַ֣ר לָהֶ֗ם לֹ֣א יִפָּתְח֞וּ שַׁעֲרֵ֤י יְרוּשָׁלַ֨‍ִם֙ עַד־חֹ֣ם הַשֶּׁ֔מֶשׁ וְעַ֨ד הֵ֥ם עֹמְדִ֛ים יִגִּ֥יפוּ הַדְּלָת֖וֹת וֶאֱחֹ֑זוּ וְהַעֲמֵ֗יד מִשְׁמְרוֹת֙ יֹשְׁבֵ֣י יְרוּשָׁלַ֔‍ִם אִ֚ישׁ בְּמִשְׁמָר֔וֹ וְאִ֖ישׁ נֶ֥גֶד בֵּיתֽוֹ׃",
+      "text_kjv": "And I said unto them, Let not the gates of Jerusalem be opened until the sun be hot; and while they stand by, let them shut the doors, and bar them: and appoint watches of the inhabitants of Jerusalem, every one in his watch, and every one to be over against his house.",
+      "rendering": "I told them, \"The gates of Jerusalem must not be opened until the sun is well up. While the guards are still on duty, they are to close and bar the doors. Station residents of Jerusalem as guards, each at his assigned post, each opposite his own house.\"",
+      "translator_notes": [
+        "The gate protocol delays opening until chom ha-shemesh ('the heat of the sun') — well past dawn, when surprise attacks typically occurred. The guards must close and bar the doors before leaving their posts. The resident-guard system (ish bemishmaro ve-ish neged beito) continues the principle from chapter 3: people guard the wall section nearest their home."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְהָעִ֞יר רְחָבַ֤ת יָדַ֨יִם֙ וּגְדוֹלָ֔ה וְהָעָ֥ם מְעַ֖ט בְּתוֹכָ֑הּ וְאֵ֥ין בָּתִּ֖ים בְּנוּיִֽם׃",
+      "text_kjv": "Now the city was large and great: but the people were few therein, and the houses were not builded.",
+      "rendering": "The city was spacious and large, but the people in it were few, and no houses had been rebuilt.",
+      "translator_notes": [
+        "The contrast between the restored walls and the empty interior is stark: rechavat yadayim u-gedolah ('wide on both sides and large') describes the enclosed area, but me'at ('few') describes the population, and ein battim benuyim ('no houses built') describes the housing stock. The wall protects an essentially empty city. This sets up the population problem that chapter 11 will address."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיִּתֵּ֤ן אֱלֹהַי֙ אֶל־לִבִּ֔י וָאֶקְבְּצָ֞ה אֶת־הַחֹרִ֤ים וְאֶת־הַסְּגָנִים֙ וְאֶת־הָעָ֔ם לְהִתְיַחֵ֑שׂ וָאֶמְצָ֗א סֵ֤פֶר הַיַּ֨חַשׂ֙ הָעוֹלִ֣ים בָּרִאשׁוֹנָ֔ה וָאֶמְצָ֖א כָּת֥וּב בּֽוֹ׃",
+      "text_kjv": "And my God put into mine heart to gather together the nobles, and the rulers, and the people, that they might be reckoned by genealogy. And I found a register of the genealogy of them which came up at the first, and found written therein,",
+      "rendering": "My God put it in my heart to assemble the nobles, the officials, and the people for genealogical registration. I found the genealogical record of those who had returned in the first wave, and this is what was written in it:",
+      "translator_notes": [
+        "Nehemiah attributes the census idea to divine prompting: va-yitten Elohai el libbi ('my God put it into my heart'). The sefer ha-yachas ('book of genealogy') is the official record from the first return under Zerubbabel (approximately 538-520 BCE). The phrase ha-olim ba-rishonah ('those who went up first') refers to the initial wave of returnees. What follows is Nehemiah's reproduction of that document."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "אֵ֣לֶּה ׀ בְּנֵ֣י הַמְּדִינָ֗ה הָעֹלִים֙ מִשְּׁבִ֣י הַגּוֹלָ֔ה אֲשֶׁ֣ר הֶגְלָ֔ה נְבוּכַדְנֶצַּ֖ר מֶ֣לֶךְ בָּבֶ֑ל וַיָּשׁ֧וּבוּ לִירוּשָׁלַ֛‍ִם וְלִיהוּדָ֖ה אִ֥ישׁ לְעִירֽוֹ׃",
+      "text_kjv": "These are the children of the province, that went up out of the captivity, of those that had been carried away, whom Nebuchadnezzar the king of Babylon had carried away, and came again to Jerusalem and to Judah, every one unto his city;",
+      "rendering": "These are the people of the province who came up from the captivity of the exile — those whom King Nebuchadnezzar of Babylon had deported — and who returned to Jerusalem and Judah, each to his own town.",
+      "translator_notes": [
+        "The introduction frames the list as a homecoming document: people returning from Babylonian exile to their ancestral towns. The phrase ish le-iro ('each man to his town') indicates that the returnees did not all settle in Jerusalem but dispersed to their family's original locations throughout Judah."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "הַבָּאִ֣ים עִם־זְרֻבָּבֶ֗ל יֵשׁ֡וּעַ נְחֶמְיָ֡ה עֲזַרְיָ֡ה רַ֠עַמְיָ֠ה נַחֲמָנִ֨י מׇרְדֳּכַ֜י בִּלְשָׁ֗ן מִסְפֶּ֤רֶת בִּגְוַי֙ נְח֣וּם בַּעֲנָ֔ה מִסְפַּ֕ר אַנְשֵׁ֖י עַ֣ם יִשְׂרָאֵ֑ל׃",
+      "text_kjv": "Who came with Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, Bilshan, Mispereth, Bigvai, Nehum, Baanah. The number of the men of the people of Israel was as follows:",
+      "rendering": "Those who came with Zerubbabel: Yeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, Bilshan, Mispereth, Bigvai, Nehum, Baanah. The count of the men of the people of Israel:",
+      "translator_notes": [
+        "Twelve leaders are named, possibly representing the twelve tribes symbolically. This Nehemiah is not the author but an earlier figure. Zerubbabel was the Davidic heir who led the first return; Yeshua (Jeshua) was the high priest. Some names differ from the Ezra 2 version (e.g., Raamiah here vs. Reelaiah in Ezra; Mispereth here vs. Mispar in Ezra), reflecting variant spellings of the same individuals."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "בְּנֵ֣י פַרְעֹ֔שׁ אַלְפַּ֕יִם מֵאָ֖ה שִׁבְעִ֥ים וּשְׁנָֽיִם׃",
+      "text_kjv": "The children of Parosh, two thousand an hundred seventy and two.",
+      "rendering": "Descendants of Parosh: 2,172.",
+      "translator_notes": [
+        "Parosh ('flea') heads the list of lay families as in Ezra 2:3, which counts 2,172 as well — the two lists agree here."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "בְּנֵ֣י שְׁפַטְיָ֔ה שְׁלֹ֥שׁ מֵא֖וֹת שִׁבְעִ֥ים וּשְׁנָֽיִם׃",
+      "text_kjv": "The children of Shephatiah, three hundred seventy and two.",
+      "rendering": "Descendants of Shephatiah: 372.",
+      "translator_notes": [
+        "Shephatiah ('the LORD has judged') — the number matches Ezra 2:4."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "בְּנֵ֣י אָרַ֔ח שֵׁ֥שׁ מֵא֖וֹת חֲמִשִּׁ֥ים וּשְׁנָֽיִם׃",
+      "text_kjv": "The children of Arah, six hundred fifty and two.",
+      "rendering": "Descendants of Arach: 652.",
+      "translator_notes": [
+        "Arach ('wayfarer') — Ezra 2:5 records 775, one of the significant numerical differences between the two lists. The variation may reflect different stages of the registration process."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "בְּנֵי־פַחַ֣ת מוֹאָ֔ב לִבְנֵ֥י יֵשׁ֖וּעַ וְיוֹאָ֑ב אַלְפַּ֕יִם וּשְׁמֹנֶ֥ה מֵא֖וֹת שְׁמֹנָ֥ה עָשָֽׂר׃",
+      "text_kjv": "The children of Pahathmoab, of the children of Jeshua and Joab, two thousand and eight hundred and eighteen.",
+      "rendering": "Descendants of Pahath-Moab (through the lines of Yeshua and Yoav): 2,818.",
+      "translator_notes": [
+        "Pahath-Moab ('governor of Moab') is a compound clan name. The family traces through two sub-lines: Yeshua and Yoav. Ezra 2:6 records 2,812 — a difference of six."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "בְּנֵ֣י עֵילָ֔ם אֶ֕לֶף מָאתַ֖יִם חֲמִשִּׁ֥ים וְאַרְבָּעָֽה׃",
+      "text_kjv": "The children of Elam, a thousand two hundred fifty and four.",
+      "rendering": "Descendants of Elam: 1,254.",
+      "translator_notes": [
+        "Elam — the number matches Ezra 2:7."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "בְּנֵ֣י זַתּ֔וּא שְׁמֹנֶ֥ה מֵא֖וֹת אַרְבָּעִ֥ים וַחֲמִשָּֽׁה׃",
+      "text_kjv": "The children of Zattu, eight hundred forty and five.",
+      "rendering": "Descendants of Zattu: 845.",
+      "translator_notes": [
+        "Zattu — Ezra 2:8 records 945, a difference of one hundred. Such variations underscore that these are independent copies of an administrative document."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "בְּנֵ֣י זַכָּ֔י שְׁבַ֥ע מֵא֖וֹת וְשִׁשִּֽׁים׃",
+      "text_kjv": "The children of Zaccai, seven hundred and threescore.",
+      "rendering": "Descendants of Zakkai: 760.",
+      "translator_notes": [
+        "Zakkai ('pure, innocent') — the number matches Ezra 2:9."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "בְּנֵ֣י בִנּ֔וּי שֵׁ֥שׁ מֵא֖וֹת אַרְבָּעִ֥ים וּשְׁמֹנָֽה׃",
+      "text_kjv": "The children of Binnui, six hundred forty and eight.",
+      "rendering": "Descendants of Binnui: 648.",
+      "translator_notes": [
+        "Binnui here corresponds to Bani in Ezra 2:10 (which records 642). The name variation and slight numerical difference suggest the same family listed under variant forms."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "בְּנֵ֣י בֵבָ֔י שֵׁ֥שׁ מֵא֖וֹת עֶשְׂרִ֥ים וּשְׁמֹנָֽה׃",
+      "text_kjv": "The children of Bebai, six hundred twenty and eight.",
+      "rendering": "Descendants of Bevai: 628.",
+      "translator_notes": [
+        "Bevai — Ezra 2:11 records 623, a difference of five."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "בְּנֵ֣י עַזְגָּ֔ד אַלְפַּ֕יִם שְׁלֹ֥שׁ מֵא֖וֹת עֶשְׂרִ֥ים וּשְׁנָֽיִם׃",
+      "text_kjv": "The children of Azgad, two thousand three hundred twenty and two.",
+      "rendering": "Descendants of Azgad: 2,322.",
+      "translator_notes": [
+        "Azgad ('Gad is strong') — Ezra 2:12 records 1,222, a significant difference of 1,100 — possibly the largest single discrepancy between the two lists."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "בְּנֵ֣י אֲדֹנִיקָ֔ם שֵׁ֥שׁ מֵא֖וֹת שִׁשִּׁ֥ים וְשִׁבְעָֽה׃",
+      "text_kjv": "The children of Adonikam, six hundred threescore and seven.",
+      "rendering": "Descendants of Adoniqam: 667.",
+      "translator_notes": [
+        "Adoniqam ('my lord has risen') — Ezra 2:13 records 666."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "בְּנֵ֣י בִגְוָ֔י אַלְפַּ֕יִם שִׁשִּׁ֥ים וְשִׁבְעָֽה׃",
+      "text_kjv": "The children of Bigvai, two thousand threescore and seven.",
+      "rendering": "Descendants of Bigvai: 2,067.",
+      "translator_notes": [
+        "Bigvai — Ezra 2:14 records 2,056."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "בְּנֵ֣י עָדִ֔ין שֵׁ֥שׁ מֵא֖וֹת חֲמִשִּׁ֥ים וַחֲמִשָּֽׁה׃",
+      "text_kjv": "The children of Adin, six hundred fifty and five.",
+      "rendering": "Descendants of Adin: 655.",
+      "translator_notes": [
+        "Adin ('delicate') — Ezra 2:15 records 454, a difference of over two hundred."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "בְּנֵ֣י אָטֵ֔ר לְחִזְקִיָּ֖ה תִּשְׁעִ֥ים וּשְׁמֹנָֽה׃",
+      "text_kjv": "The children of Ater of Hezekiah, ninety and eight.",
+      "rendering": "Descendants of Ater (through Hezekiah): 98.",
+      "translator_notes": [
+        "Ater is identified through the line of Hezekiah to distinguish this family from others of the same name. The number matches Ezra 2:16."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "בְּנֵ֣י חָשֻׁ֔ם שְׁלֹ֥שׁ מֵא֖וֹת עֶשְׂרִ֥ים וּשְׁמֹנָֽה׃",
+      "text_kjv": "The children of Hashum, three hundred twenty and eight.",
+      "rendering": "Descendants of Hashum: 328.",
+      "translator_notes": [
+        "Hashum — Ezra 2:19 records 223."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "בְּנֵ֣י בֵצָ֔י שְׁלֹ֥שׁ מֵא֖וֹת עֶשְׂרִ֥ים וְאַרְבָּעָֽה׃",
+      "text_kjv": "The children of Bezai, three hundred twenty and four.",
+      "rendering": "Descendants of Betsai: 324.",
+      "translator_notes": [
+        "Betsai — Ezra 2:17 records 323."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "בְּנֵ֣י חָרִ֔יף מֵאָ֖ה שְׁנֵ֥ים עָשָֽׂר׃",
+      "text_kjv": "The children of Hariph, an hundred and twelve.",
+      "rendering": "Descendants of Hariph: 112.",
+      "translator_notes": [
+        "Hariph here corresponds to Jorah in Ezra 2:18 (which also records 112). The family is the same under a different name."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "בְּנֵ֣י גִבְע֔וֹן תִּשְׁעִ֥ים וַחֲמִשָּֽׁה׃",
+      "text_kjv": "The children of Gibeon, ninety and five.",
+      "rendering": "People of Gibeon: 95.",
+      "translator_notes": [
+        "Beginning here, the list shifts from family names to place names — people identified by their town of origin. Gibeon was a significant town northwest of Jerusalem. Ezra 2:20 lists 'sons of Gibbar' (95), which may be the same community."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "אַנְשֵׁ֤י בֵֽית־לֶ֨חֶם֙ וּנְטֹפָ֔ה מֵאָ֖ה שְׁמֹנִ֥ים וּשְׁמֹנָֽה׃",
+      "text_kjv": "The men of Bethlehem and Netophah, an hundred fourscore and eight.",
+      "rendering": "People of Bethlehem and Netophah: 188.",
+      "translator_notes": [
+        "Bethlehem and Netophah are combined here but listed separately in Ezra 2:21-22 (123 + 56 = 179). Netophah was a village near Bethlehem. The combined figure of 188 differs from Ezra's combined 179."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "אַנְשֵׁ֣י עֲנָת֔וֹת מֵאָ֖ה עֶשְׂרִ֥ים וּשְׁמֹנָֽה׃",
+      "text_kjv": "The men of Anathoth, an hundred twenty and eight.",
+      "rendering": "People of Anathoth: 128.",
+      "translator_notes": [
+        "Anathoth was a priestly town three miles northeast of Jerusalem — Jeremiah's hometown (Jeremiah 1:1). The number matches Ezra 2:23."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "אַנְשֵׁ֣י בֵית־עַזְמָ֔וֶת אַרְבָּעִ֥ים וּשְׁנָֽיִם׃",
+      "text_kjv": "The men of Bethazmaveth, forty and two.",
+      "rendering": "People of Beth-Azmaveth: 42.",
+      "translator_notes": [
+        "Beth-Azmaveth is called simply Azmaveth in Ezra 2:24, which also records 42."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "אַנְשֵׁ֨י קִרְיַ֤ת יְעָרִים֙ כְּפִירָ֣ה וּבְאֵר֔וֹת שְׁבַ֥ע מֵא֖וֹת אַרְבָּעִ֥ים וּשְׁלֹשָֽׁה׃",
+      "text_kjv": "The men of Kirjathjearim, Chephirah, and Beeroth, seven hundred forty and three.",
+      "rendering": "People of Qiryath-Yearim, Kephirah, and Beeroth: 743.",
+      "translator_notes": [
+        "Three Gibeonite-alliance towns grouped together, as in Ezra 2:25 (which records the same 743). Qiryath-Yearim was where the ark rested before David brought it to Jerusalem (1 Samuel 7:1-2)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "אַנְשֵׁ֤י הָרָמָה֙ וָגָ֔בַע שֵׁ֥שׁ מֵא֖וֹת עֶשְׂרִ֥ים וְאֶחָֽד׃",
+      "text_kjv": "The men of Ramah and Gaba, six hundred twenty and one.",
+      "rendering": "People of Ramah and Geva: 621.",
+      "translator_notes": [
+        "Ramah and Geva (Geba) were Benjaminite towns north of Jerusalem. Ezra 2:26 records 621 for the same towns."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "אַנְשֵׁ֣י מִכְמָ֔ס מֵאָ֖ה עֶשְׂרִ֥ים וּשְׁנָֽיִם׃",
+      "text_kjv": "The men of Michmas, an hundred twenty and two.",
+      "rendering": "People of Mikmas: 122.",
+      "translator_notes": [
+        "Mikmas (Michmash) was the site of Jonathan's famous military exploit (1 Samuel 13-14). The number matches Ezra 2:27."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "אַנְשֵׁ֤י בֵֽית־אֵל֙ וְהָעָ֔י מֵאָ֖ה עֶשְׂרִ֥ים וּשְׁלֹשָֽׁה׃",
+      "text_kjv": "The men of Bethel and Ai, an hundred twenty and three.",
+      "rendering": "People of Bethel and Ai: 123.",
+      "translator_notes": [
+        "Bethel and Ai are paired as in Joshua's conquest narrative (Joshua 7-8). Ezra 2:28 records 223 — a significant difference of exactly 100."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "אַנְשֵׁ֣י נְב֣וֹ אַחֵ֔ר חֲמִשִּׁ֥ים וּשְׁנָֽיִם׃",
+      "text_kjv": "The men of the other Nebo, fifty and two.",
+      "rendering": "People of the other Nebo: 52.",
+      "translator_notes": [
+        "The specification 'other' (acher) distinguishes this Nebo from other locations with the same name. Ezra 2:29 records 52 as well."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "בְּנֵ֛י עֵילָ֥ם אַחֵ֖ר אֶ֣לֶף מָאתַ֥יִם חֲמִשִּׁ֖ים וְאַרְבָּעָֽה׃",
+      "text_kjv": "The children of the other Elam, a thousand two hundred fifty and four.",
+      "rendering": "Descendants of the other Elam: 1,254.",
+      "translator_notes": [
+        "A second Elam family (distinct from v. 12), both numbering exactly 1,254. The coincidence of identical numbers for two different Elam clans has puzzled interpreters; it may reflect an administrative convention or a genuine demographic parallel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "בְּנֵ֣י חָרִ֔ם שְׁלֹ֥שׁ מֵא֖וֹת וְעֶשְׂרִֽים׃",
+      "text_kjv": "The children of Harim, three hundred and twenty.",
+      "rendering": "Descendants of Harim: 320.",
+      "translator_notes": [
+        "Harim — Ezra 2:32 also records 320."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "בְּנֵ֣י יְרֵח֔וֹ שְׁלֹ֥שׁ מֵא֖וֹת אַרְבָּעִ֥ים וַחֲמִשָּֽׁה׃",
+      "text_kjv": "The children of Jericho, three hundred forty and five.",
+      "rendering": "People of Jericho: 345.",
+      "translator_notes": [
+        "Jericho — the number matches Ezra 2:34."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "בְּנֵי־לֹד֙ חָדִ֣יד וְאוֹנ֔וֹ שְׁבַ֥ע מֵא֖וֹת עֶשְׂרִ֥ים וְאֶחָֽד׃",
+      "text_kjv": "The children of Lod, Hadid, and Ono, seven hundred twenty and one.",
+      "rendering": "People of Lod, Hadid, and Ono: 721.",
+      "translator_notes": [
+        "Three towns in the coastal plain region, grouped together. Ono is the same plain where Sanballat tried to lure Nehemiah (6:2). Ezra 2:33 records 725."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "בְּנֵ֣י סְנָאָ֔ה שְׁלֹ֣שֶׁת אֲלָפִ֔ים תְּשַׁ֥ע מֵא֖וֹת וּשְׁלֹשִֽׁים׃",
+      "text_kjv": "The children of Senaah, three thousand nine hundred and thirty.",
+      "rendering": "Descendants of Senaah: 3,930.",
+      "translator_notes": [
+        "Senaah is the largest single family in the list. Ezra 2:35 records 3,630 — a difference of 300. The size of this clan suggests it may be a geographic community rather than a single family."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "הַכֹּהֲנִ֑ים בְּנֵ֤י יְדַֽעְיָה֙ לְבֵ֣ית יֵשׁ֔וּעַ תְּשַׁ֥ע מֵא֖וֹת שִׁבְעִ֥ים וּשְׁלֹשָֽׁה׃",
+      "text_kjv": "The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy and three.",
+      "rendering": "The priests: Descendants of Yedaiah (of the house of Yeshua): 973.",
+      "translator_notes": [
+        "The list now shifts to priestly families. Yedaiah's line is connected to the high priestly house of Yeshua (Jeshua), the high priest who returned with Zerubbabel. The number matches Ezra 2:36."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "בְּנֵ֣י אִמֵּ֔ר אֶ֖לֶף חֲמִשִּׁ֥ים וּשְׁנָֽיִם׃",
+      "text_kjv": "The children of Immer, a thousand fifty and two.",
+      "rendering": "Descendants of Immer: 1,052.",
+      "translator_notes": [
+        "Immer — the number matches Ezra 2:37."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "בְּנֵ֣י פַשְׁח֔וּר אֶ֕לֶף מָאתַ֖יִם אַרְבָּעִ֥ים וְשִׁבְעָֽה׃",
+      "text_kjv": "The children of Pashur, a thousand two hundred forty and seven.",
+      "rendering": "Descendants of Pashhur: 1,247.",
+      "translator_notes": [
+        "Pashhur — the number matches Ezra 2:38."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "בְּנֵ֣י חָרִ֔ם אֶ֖לֶף שִׁבְעָ֥ה עָשָֽׂר׃",
+      "text_kjv": "The children of Harim, a thousand and seventeen.",
+      "rendering": "Descendants of Harim: 1,017.",
+      "translator_notes": [
+        "Harim (the priestly Harim, distinct from the lay Harim in v. 35) — the number matches Ezra 2:39. The total of the four priestly families is 4,289 — a substantial proportion of the returning community."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "הַלְוִיִּ֑ם בְּנֵי־יֵשׁ֧וּעַ לְקַדְמִיאֵ֛ל לִבְנֵ֥י הוֹדְוָ֖ה שִׁבְעִ֥ים וְאַרְבָּעָֽה׃",
+      "text_kjv": "The Levites: the children of Jeshua, of Kadmiel, and of the children of Hodevah, seventy and four.",
+      "rendering": "The Levites: Descendants of Yeshua (through Qadmiel, of the line of Hodaviah): 74.",
+      "translator_notes": [
+        "The Levites number only 74 — strikingly small compared to the 4,289 priests. This imbalance is a recurring problem in Ezra-Nehemiah; Ezra had difficulty recruiting Levites (Ezra 8:15-20). Hodaviah here is called Hodevah; Ezra 2:40 has Hodaviah."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "הַמְשֹׁרְרִ֑ים בְּנֵ֣י אָסָ֔ף מֵאָ֖ה אַרְבָּעִ֥ים וּשְׁמֹנָֽה׃",
+      "text_kjv": "The singers: the children of Asaph, an hundred forty and eight.",
+      "rendering": "The singers: Descendants of Asaph: 148.",
+      "translator_notes": [
+        "Asaph was David's chief musician (1 Chronicles 16:4-5). His descendants maintained the musical tradition through exile and return. Ezra 2:41 records 128."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "הַשֹּׁעֲרִ֗ים בְּנֵי־שַׁלּ֤וּם בְּנֵי־אָטֵר֙ בְּנֵי־טַלְמֹ֣ן בְּנֵי־עַקּ֔וּב בְּנֵ֥י חֲטִיטָ֖א בְּנֵ֥י שֹׁבָ֑י מֵאָ֖ה שְׁלֹשִׁ֥ים וּשְׁמֹנָֽה׃",
+      "text_kjv": "The porters: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai, an hundred thirty and eight.",
+      "rendering": "The gatekeepers: Descendants of Shallum, Ater, Talmon, Aqqub, Hatita, and Shovai: 138.",
+      "translator_notes": [
+        "Six gatekeeper families are listed. Ezra 2:42 records 139. Gatekeepers (sho'arim) were Levitical personnel responsible for controlling access to the Temple precincts — a security function parallel to the wall guards."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "הַנְּתִינִ֑ים בְּנֵי־צִחָ֥א בְּנֵי־חֲשֻׂפָ֖א בְּנֵ֥י טַבָּעֽוֹת׃",
+      "text_kjv": "The Nethinims: the children of Ziha, the children of Hashupha, the children of Tabbaoth,",
+      "rendering": "The temple servants: Descendants of Tsiha, Hasupha, and Tabbaoth;",
+      "translator_notes": [
+        "The Netinim ('those who are given') were Temple servants, possibly descended from foreign captives dedicated to sanctuary service. Their list runs from here through verse 56. Ezra 2:43 begins the same sequence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "בְּנֵי־קֵיר֥וֹס בְּנֵי־סִיעָ֖א בְּנֵ֥י פָדֽוֹן׃",
+      "text_kjv": "The children of Keros, the children of Sia, the children of Padon,",
+      "rendering": "descendants of Qeros, Sia, and Padon;",
+      "translator_notes": [
+        "Sia here corresponds to Siaha in Ezra 2:44."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "בְּנֵי־לְבָנָ֥ה בְּנֵי־חֲגָבָ֖ה בְּנֵ֥י שַׁלְמָֽי׃",
+      "text_kjv": "The children of Lebana, the children of Hagaba, the children of Shalmai,",
+      "rendering": "descendants of Levanah, Hagavah, and Shalmai;",
+      "translator_notes": [
+        "Shalmai here corresponds to Shamlai in some manuscripts of Ezra 2:46."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "בְּנֵי־חָנָ֥ן בְּנֵי־גִדֵּ֖ל בְּנֵי־גָֽחַר׃",
+      "text_kjv": "The children of Hanan, the children of Giddel, the children of Gahar,",
+      "rendering": "descendants of Hanan, Giddel, and Gahar;",
+      "translator_notes": [
+        "These three names match Ezra 2:46-47."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "בְּנֵי־רְאָיָ֥ה בְּנֵי־רְצִ֖ין בְּנֵ֥י נְקוֹדָֽא׃",
+      "text_kjv": "The children of Reaiah, the children of Rezin, the children of Nekoda,",
+      "rendering": "descendants of Reaiah, Retsin, and Neqoda;",
+      "translator_notes": [
+        "These names match Ezra 2:48."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "בְּנֵי־גַזָּ֥ם בְּנֵי־עֻזָּ֖א בְּנֵ֥י פָסֵֽחַ׃",
+      "text_kjv": "The children of Gazzam, the children of Uzza, the children of Phaseah,",
+      "rendering": "descendants of Gazzam, Uzza, and Paseach;",
+      "translator_notes": [
+        "These names match Ezra 2:49."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "בְּנֵי־בֵסַ֥י בְּנֵי־מְעוּנִ֖ים בְּנֵ֥י נְפִישְׁסִֽים׃",
+      "text_kjv": "The children of Besai, the children of Meunim, the children of Nephishesim,",
+      "rendering": "descendants of Vesai, the Meunim, and the Nephishesim;",
+      "translator_notes": [
+        "The Meunim and Nephishesim have names suggesting foreign origin — the Meunim were a people from the region of Mount Seir, and Nephishesim may connect to the Ishmaelite tribe Naphish (Genesis 25:15). Their presence among temple servants supports the tradition that this group included assimilated foreigners."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "בְּנֵי־בַקְבּ֥וּק בְּנֵי־חֲקוּפָ֖א בְּנֵ֥י חַרְחֽוּר׃",
+      "text_kjv": "The children of Bakbuk, the children of Hakupha, the children of Harhur,",
+      "rendering": "descendants of Baqbuq, Haqupha, and Harhur;",
+      "translator_notes": [
+        "These names match Ezra 2:51."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 54,
+      "text_hebrew": "בְּנֵי־בַצְלִ֥ית בְּנֵי־מְחִידָ֖א בְּנֵ֥י חַרְשָֽׁא׃",
+      "text_kjv": "The children of Bazlith, the children of Mehida, the children of Harsha,",
+      "rendering": "descendants of Batslith, Mehida, and Harsha;",
+      "translator_notes": [
+        "Batslith here corresponds to Bazluth in Ezra 2:52."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 55,
+      "text_hebrew": "בְּנֵי־בַרְק֥וֹס בְּנֵי־סִֽיסְרָ֖א בְּנֵ֥י תָֽמַח׃",
+      "text_kjv": "The children of Barkos, the children of Sisera, the children of Tamah,",
+      "rendering": "descendants of Barqos, Sisera, and Temah;",
+      "translator_notes": [
+        "The name Sisera is striking — though likely unrelated to the Canaanite general of Judges 4-5, it may indicate foreign ancestry in this temple-servant line."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 56,
+      "text_hebrew": "בְּנֵ֥י נְצִ֖יחַ בְּנֵ֥י חֲטִיפָֽא׃",
+      "text_kjv": "The children of Neziah, the children of Hatipha.",
+      "rendering": "descendants of Netsiach and Hatipha.",
+      "translator_notes": [
+        "The temple servant list concludes with these two families, matching Ezra 2:54."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 57,
+      "text_hebrew": "בְּנֵ֖י עַבְדֵ֣י שְׁלֹמֹ֑ה בְּנֵי־סוֹטַ֥י בְּנֵי־סוֹפֶ֖רֶת בְּנֵ֥י פְרִידָֽא׃",
+      "text_kjv": "The children of Solomon's servants: the children of Sotai, the children of Sophereth, the children of Perida,",
+      "rendering": "Descendants of Solomon's servants: descendants of Sotai, Sophereth, and Perida;",
+      "translator_notes": [
+        "Solomon's servants (avdei Shelomoh) were a distinct class, probably descendants of the Canaanite peoples Solomon conscripted for forced labor (1 Kings 9:20-21). Perida here corresponds to Peruda in Ezra 2:55."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 58,
+      "text_hebrew": "בְּנֵי־יַעֲלָ֥א בְּנֵי־דַרְק֖וֹן בְּנֵ֥י גִדֵּֽל׃",
+      "text_kjv": "The children of Jaala, the children of Darkon, the children of Giddel,",
+      "rendering": "descendants of Yaala, Darqon, and Giddel;",
+      "translator_notes": [
+        "These names match Ezra 2:56."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 59,
+      "text_hebrew": "בְּנֵ֧י שְׁפַטְיָ֣ה בְּנֵ֣י חַטִּ֗יל בְּנֵ֛י פֹּכֶ֥רֶת הַצְּבָיִ֖ים בְּנֵ֥י אָמֽוֹן׃",
+      "text_kjv": "The children of Shephatiah, the children of Hattil, the children of Pochereth of Zebaim, the children of Amon.",
+      "rendering": "descendants of Shephatiah, Hattil, Pokereth-Hatsevaim, and Amon.",
+      "translator_notes": [
+        "Pokereth-Hatsevaim means 'binder of gazelles' — an occupational surname. Amon here may correspond to Ami in Ezra 2:57. The list of Solomon's servants ends here."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 60,
+      "text_hebrew": "כׇּ֨ל־הַנְּתִינִ֔ים וּבְנֵ֖י עַבְדֵ֣י שְׁלֹמֹ֑ה שְׁלֹ֥שׁ מֵא֖וֹת תִּשְׁעִ֥ים וּשְׁנָֽיִם׃",
+      "text_kjv": "All the Nethinims, and the children of Solomon's servants, were three hundred ninety and two.",
+      "rendering": "All the temple servants and descendants of Solomon's servants: 392.",
+      "translator_notes": [
+        "The combined total for temple servants and Solomon's servants matches Ezra 2:58."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 61,
+      "text_hebrew": "וְאֵ֗לֶּה הָעוֹלִים֙ מִתֵּ֥ל מֶ֨לַח֙ תֵּ֣ל חַרְשָׁ֔א כְּר֥וּב אַדּ֖וֹן וְאִמֵּ֑ר וְלֹ֣א יָכְל֗וּ לְהַגִּ֤יד בֵּית־אֲבוֹתָם֙ וְזַרְעָ֔ם אִ֥ם מִיִּשְׂרָאֵ֖ל הֵֽם׃",
+      "text_kjv": "And these were they which went up also from Telmelah, Telharesha, Cherub, Addon, and Immer: but they could not shew their father's house, nor their seed, whether they were of Israel.",
+      "rendering": "These came up from Tel-Melah, Tel-Harsha, Keruv, Addon, and Immer, but they could not prove their ancestral house or their lineage — whether they were Israelites:",
+      "translator_notes": [
+        "A critical category: people who returned from Babylonian towns (Tel-Melah, Tel-Harsha, etc.) but could not document their Israelite ancestry. The tel- prefix means 'mound' — these were Babylonian settlements. Without genealogical proof (beit avotam ve-zar'am, 'their ancestral house and their offspring/seed'), their covenant membership was uncertain."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 62,
+      "text_hebrew": "בְּנֵי־דְלָיָ֥ה בְּנֵי־טוֹבִיָּ֖ה בְּנֵ֣י נְקוֹדָ֑א שֵׁ֥שׁ מֵא֖וֹת אַרְבָּעִ֥ים וּשְׁנָֽיִם׃",
+      "text_kjv": "The children of Delaiah, the children of Tobiah, the children of Nekoda, six hundred forty and two.",
+      "rendering": "descendants of Delaiah, Tobiah, and Neqoda: 642.",
+      "translator_notes": [
+        "These 642 people could not verify their Israelite descent. The name Tobiah here is likely coincidental with Tobiah the Ammonite opponent, though the resonance would not have been lost on readers. Ezra 2:60 records 652."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 63,
+      "text_hebrew": "וּמִן־הַכֹּ֣הֲנִ֔ים בְּנֵ֥י חֳבַיָּ֖ה בְּנֵ֣י הַקּ֑וֹץ בְּנֵ֣י בַרְזִלַּ֗י אֲשֶׁ֣ר לָ֠קַ֠ח מִבְּנ֞וֹת בַּרְזִלַּ֤י הַגִּלְעָדִי֙ אִשָּׁ֔ה וַיִּקָּרֵ֖א עַל־שְׁמָֽם׃",
+      "text_kjv": "And of the priests: the children of Habaiah, the children of Koz, the children of Barzillai, which took one of the daughters of Barzillai the Gileadite to wife, and was called after their name.",
+      "rendering": "And from the priests: descendants of Hovaiah, descendants of Haqqots, descendants of Barzillai (who had married a daughter of Barzillai the Gileadite and was called by their name).",
+      "translator_notes": [
+        "Three priestly families could not prove their genealogy. The Barzillai case is poignant: a priest had married into the family of Barzillai the Gileadite (David's benefactor, 2 Samuel 19:31-39) and taken his wife's family name — thereby losing his own priestly lineage record. The marriage itself was legitimate, but the name change obliterated the genealogical documentation needed for priestly service."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 64,
+      "text_hebrew": "אֵ֗לֶּה בִּקְשׁ֧וּ כְתָבָ֛ם הַמִּתְיַחְשִׂ֖ים וְלֹ֣א נִמְצָ֑א וַיְגֹאֲל֖וּ מִן־הַכְּהֻנָּֽה׃",
+      "text_kjv": "These sought their register among those that were reckoned by genealogy, but it was not found: therefore were they, as polluted, put from the priesthood.",
+      "rendering": "These searched for their genealogical records but could not find them. So they were excluded from the priesthood as unclean.",
+      "translator_notes": [
+        "The verb go'alu ('they were defiled, excluded') is severe — these families were treated as ritually disqualified (from the priesthood, not from the community). Without documented priestly lineage, they could not serve at the altar. The verb biqshu ('they searched') shows they tried to find their records but failed — the Babylonian exile had destroyed archives along with everything else."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 65,
+      "text_hebrew": "וַיֹּ֤אמֶר הַתִּרְשָׁ֨תָא֙ לָהֶ֔ם אֲשֶׁ֥ר לֹא־יֹאכְל֖וּ מִקֹּ֣דֶשׁ הַקֳּדָשִׁ֑ים עַ֛ד עֲמֹ֥ד הַכֹּהֵ֖ן לְאוּרִ֥ים וְתוּמִּֽים׃",
+      "text_kjv": "And the Tirshatha said unto them, that they should not eat of the most holy things, till there stood up a priest with Urim and with Thummim.",
+      "rendering": "The governor told them they must not eat from the most holy portions until a priest stood with the Urim and Thummim.",
+      "key_terms": [
+        {
+          "hebrew": "קֹדֶשׁ הַקֳּדָשִׁים",
+          "transliteration": "qodesh ha-qodashim",
+          "rendered_as": "the most holy portions",
+          "semantic_range": "most holy things, holiest offerings, sacred donations",
+          "note": "From qadosh ('holy'). The priestly portions of certain offerings were classified as qodesh ha-qodashim — only verified priests could consume them. Excluding these families from these portions was a practical consequence of unverified lineage."
+        }
+      ],
+      "translator_notes": [
+        "The Tirshatha (a Persian title meaning 'governor' or 'his excellency') likely refers to Zerubbabel at the time of the original return. The ruling is a compromise: the families are not permanently expelled but suspended until a priest with Urim and Thummim can render a divine verdict. The Urim and Thummim were the priestly oracle objects (Exodus 28:30) used for divine guidance. No text records their use after the exile, making this suspension effectively permanent — a gentle way of excluding without condemning."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 66,
+      "text_hebrew": "כׇּל־הַקָּהָ֖ל כְּאֶחָ֑ד אַרְבַּ֣ע רִבּ֔וֹא אַלְפַּ֖יִם שְׁלֹ֥שׁ מֵא֖וֹת וְשִׁשִּֽׁים׃",
+      "text_kjv": "The whole congregation together was forty and two thousand three hundred and threescore,",
+      "rendering": "The whole assembly together: 42,360,",
+      "translator_notes": [
+        "This total of 42,360 matches Ezra 2:64 exactly, even though the individual line items in the two lists do not sum to this figure in either version. The total was likely preserved from an independent source or represents the full community including women, children, and uncategorized individuals not itemized in the family lists."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 67,
+      "text_hebrew": "מִ֠לְּבַ֠ד עַבְדֵיהֶ֤ם וְאַמְהֹֽתֵיהֶם֙ אֵ֗לֶּה שִׁבְעַ֤ת אֲלָפִים֙ שְׁלֹ֣שׁ מֵא֔וֹת שְׁלֹשִׁ֥ים וְשִׁבְעָ֑ה וְלָהֶ֗ם מְשֹׁרְרִ֤ים וּמְשֹׁרְר֔וֹת מָאתַ֖יִם אַרְבָּעִ֥ים וַחֲמִשָּֽׁה׃",
+      "text_kjv": "Beside their manservants and their maidservants, of whom there were seven thousand three hundred thirty and seven: and they had two hundred forty and five singing men and singing women.",
+      "rendering": "besides their 7,337 male and female servants. They also had 245 male and female singers.",
+      "translator_notes": [
+        "The servants (avadim va-amahot) are listed separately from the free community. The 245 singers (meshorerim u-meshorerot, male and female) are secular musicians, distinct from the Levitical singers of verse 44. Ezra 2:65 records 7,337 servants and 200 singers — the servant number matches but the singer count differs."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 68,
+      "text_hebrew": "סוּסֵיהֶ֕ם שְׁבַ֥ע מֵא֖וֹת שְׁלֹשִׁ֣ים וְשִׁשָּׁ֑ה פִּרְדֵיהֶ֕ם מָאתַ֖יִם אַרְבָּעִ֥ים וַחֲמִשָּֽׁה׃",
+      "text_kjv": "Their horses, seven hundred thirty and six: their mules, two hundred forty and five:",
+      "rendering": "Their horses: 736. Their mules: 245.",
+      "translator_notes": [
+        "The animal inventory begins. Horses were luxury transport and military assets. Mules were prized as sturdy pack animals for the long journey from Babylon. Ezra 2:66 records 736 horses and 245 mules — identical."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 69,
+      "text_hebrew": "גְּמַלִּ֕ים אַרְבַּ֥ע מֵא֖וֹת שְׁלֹשִׁ֣ים וַחֲמִשָּׁ֑ה חֲמֹרִ֕ים שֵׁ֣שֶׁת אֲלָפִ֔ים שְׁבַ֥ע מֵא֖וֹת וְעֶשְׂרִֽים׃",
+      "text_kjv": "Their camels, four hundred thirty and five: their asses, six thousand seven hundred and twenty.",
+      "rendering": "Camels: 435. Donkeys: 6,720.",
+      "translator_notes": [
+        "Camels served the desert crossing from Babylon. The large number of donkeys (6,720) reflects their role as the primary beast of burden for ordinary families. Ezra 2:67 matches on camels (435) and donkeys (6,720)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 70,
+      "text_hebrew": "וּמִקְצָת֙ מֵרָאשֵׁ֣י הָאָב֔וֹת נָתְנ֖וּ לַמְּלָאכָ֑ה הַתִּרְשָׁ֗תָא נָתַן֙ לָא֣וֹצָ֔ר זָהָב֙ דַּרְכְּמוֹנִ֣ים אֶ֔לֶף מִזְרָק֖וֹת חֲמִשִּׁ֑ים כׇּתְנ֥וֹת כֹּהֲנִ֖ים שְׁלֹשִׁ֥ים וַחֲמֵ֥שׁ מֵאֽוֹת׃",
+      "text_kjv": "And some of the chief of the fathers gave unto the work. The Tirshatha gave to the treasure a thousand drams of gold, fifty basons, five hundred and thirty priests' garments.",
+      "rendering": "Some of the heads of families gave to the project. The governor contributed to the treasury: 1,000 gold darics, 50 sprinkling bowls, and 530 priestly garments.",
+      "translator_notes": [
+        "The freewill offerings begin with the governor's contribution. The darkemon ('daric') was a Persian gold coin weighing about 8.4 grams — 1,000 darics represents substantial wealth. The mizraqot ('sprinkling bowls') were Temple vessels used in sacrificial rituals. The priestly garments (kotnot kohanim) were needed to outfit the priests for restored Temple service."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 71,
+      "text_hebrew": "וּמֵרָאשֵׁ֣י הָאָב֗וֹת נָתְנוּ֙ לְאוֹצַ֣ר הַמְּלָאכָ֔ה זָהָ֕ב דַּרְכְּמוֹנִ֖ים שְׁנֵ֣י רִבּ֑וֹא וְכֶ֕סֶף מָנִ֖ים אַלְפַּ֥יִם וּמָאתָֽיִם׃",
+      "text_kjv": "And some of the chief of the fathers gave to the treasure of the work twenty thousand drams of gold, and two thousand and two hundred pound of silver.",
+      "rendering": "Some of the heads of families contributed to the project treasury: 20,000 gold darics and 2,200 silver minas.",
+      "translator_notes": [
+        "The family heads' collective contribution dwarfs the governor's: 20,000 gold darics (roughly 168 kilograms of gold) and 2,200 silver minas (approximately 1,260 kilograms of silver). A mina (maneh) was a unit of weight equal to about 571 grams. These are extraordinary sums that funded Temple restoration and city infrastructure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 72,
+      "text_hebrew": "וַאֲשֶׁ֣ר נָתְנוּ֮ שְׁאֵרִ֣ית הָעָם֒ זָהָ֗ב דַּרְכְּמוֹנִים֙ שְׁנֵ֣י רִבּ֔וֹא וְכֶ֖סֶף מָנִ֣ים אַלְפָּ֑יִם וְכׇתְנֹ֥ת כֹּהֲנִ֖ים שִׁשִּׁ֥ים וְשִׁבְעָֽה׃",
+      "text_kjv": "And that which the rest of the people gave was twenty thousand drams of gold, and two thousand pound of silver, and threescore and seven priests' garments.",
+      "rendering": "What the rest of the people gave: 20,000 gold darics, 2,000 silver minas, and 67 priestly garments.",
+      "translator_notes": [
+        "The ordinary people's contribution nearly matches that of the family heads — another 20,000 darics and 2,000 minas, plus 67 additional priestly garments. The generosity is communal, not limited to the wealthy. This mirrors the Tabernacle construction in Exodus 35-36, where the entire community gave so freely that Moses had to tell them to stop."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

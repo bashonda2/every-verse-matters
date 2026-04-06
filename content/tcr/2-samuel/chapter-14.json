@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Samuel",
+    "chapter": 14,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Joab perceives that David's heart is turned toward Absalom -- three years exiled in Geshur after killing Amnon -- and orchestrates an elaborate scheme to bring him home. He recruits a wise woman from Tekoa to play the role of a grieving widow whose surviving son is threatened by blood-avengers after killing his brother. David rules in her favor, and she then turns the parable back on him: if the king protects her fictional son from the avenger of blood, why does he leave his own banished son in exile? David detects Joab's hand behind the performance, and Joab admits it. David relents and permits Absalom to return to Jerusalem -- but refuses to see him face to face. For two full years Absalom lives in Jerusalem without entering the king's presence. When Joab ignores his repeated summons, Absalom sets Joab's barley field on fire to force a meeting. Joab intercedes again, and David finally summons Absalom, who prostrates himself before the king. David kisses him. The reconciliation is formal but the fracture remains.",
+    "remarkable": "This chapter is a masterclass in indirect speech and political manipulation, rivaling Nathan's parable in chapter 12 in both structure and theological weight. The wise woman of Tekoa constructs a juridical fiction that forces David to rule against his own practice -- and then reveals that his ruling applies to himself. Her argument reaches a theological climax in verse 14: 'God does not take away life; instead, He devises plans so that the banished one is not cast out from Him forever.' This is one of the most extraordinary theological statements in the entire Deuteronomistic History -- a claim about the restorative character of God that pushes against the retributive logic of blood-guilt. Yet the chapter is deeply ambiguous: Absalom's return plants the seed of the rebellion that will nearly destroy David's kingdom. What looks like mercy and reconciliation becomes the staging ground for civil war. The narrator forces the reader to hold both truths simultaneously: the theological principle is sound, but its political application is catastrophic.",
+    "friction": "The Hebrew of verse 14 is notoriously difficult and has generated centuries of interpretive debate. The phrase ki mot namut u-kha-mayim ha-niggarim artsah asher lo ye'asefu ('for we will surely die, and are like water spilled on the ground that cannot be gathered up') is clear enough, but the following clause -- ve-lo yissa Elohim nefesh ve-chashav machashavot le-vilti yiddach mimmennu niddach -- is syntactically ambiguous. Does it mean God does not take away life but instead plans for restoration? Or does it mean God does not show partiality but has devised means of restoration? The rendering must choose, and we have followed the reading that emphasizes God's restorative intent while noting the ambiguity. Additionally, the relationship between this chapter's theology and the larger narrative arc is uncomfortable: the wise woman's argument for mercy and restoration is theologically compelling, but the narrator will show that Absalom's return leads directly to treason, rape of David's concubines, and civil war. The text does not resolve whether David's decision was right or wrong -- only that it was consequential.",
+    "connections": "The Tekoa woman's parable deliberately mirrors Nathan's confrontation with David in chapter 12: both use a fictional legal case to trap the king into ruling against himself, both employ the mashal (parable/juridical fiction) form, and both pivot on the moment of unmasking. But the parallel contains a reversal: Nathan's parable led to judgment and punishment, while the Tekoa woman's leads to mercy and restoration. The avenger-of-blood motif (go'el ha-dam) invokes Numbers 35:9-28, where cities of refuge protect the manslayer from the blood-avenger until proper judgment can be rendered -- the wise woman argues that exile in Geshur has functioned as Absalom's city of refuge and that perpetual banishment exceeds the intent of the system. Absalom's physical beauty, described in verses 25-26, echoes Saul's imposing appearance in 1 Samuel 9:2 and foreshadows a recurring biblical warning: external magnificence does not guarantee internal faithfulness. The two-year estrangement in Jerusalem (v. 28) parallels the two years Absalom waited before killing Amnon (13:23), establishing a pattern of patient, calculated waiting that will characterize his rebellion in chapter 15."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיֵּ֖דַע יוֹאָ֣ב בֶּן־צְרוּיָ֑ה כִּֽי־לֵ֥ב הַמֶּ֖לֶךְ עַל־אַבְשָׁלֽוֹם׃",
+      "text_kjv": "Now Joab the son of Zeruiah perceived that the king's heart was toward Absalom.",
+      "rendering": "Joab son of Zeruiah recognized that the king's heart was set on Absalom.",
+      "expanded_rendering": "Joab reads the king. The verb vayyeda ('he knew, he recognized') signals not a guess but a certainty -- Joab has watched David long enough to interpret his silences and his moods. The king's heart is 'on Absalom,' which could mean either that David's longing is directed toward his exiled son or that Absalom weighs on his mind as an unresolved burden. Either way, Joab sees an opening. This is the same Joab who killed Abner, who will later kill Absalom against David's orders, and who consistently acts on political calculation where David hesitates. He does not wait for David to resolve his own grief; he engineers the resolution.",
+      "translator_notes": [
+        "The phrase lev ha-melekh al-Avshalom ('the king's heart was on/toward Absalom') uses the preposition al, which can indicate direction ('toward'), burden ('upon'), or concern ('about'). The ambiguity is likely intentional: David's heart both yearns for Absalom and is burdened by his absence. Joab reads the composite emotion and decides to act.",
+        "Joab's identification as ben-Tseruyah ('son of Zeruiah') ties him to his mother rather than his father -- an unusual patronymic convention in Hebrew narrative. Zeruiah was David's sister, making Joab the king's nephew. This family connection explains both his access to David's inner state and his willingness to intervene in what is ultimately a family matter."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיִּשְׁלַ֤ח יוֹאָב֙ תְּק֔וֹעָה וַיִּקַּ֥ח מִשָּׁ֖ם אִשָּׁ֣ה חֲכָמָ֑ה וַיֹּ֣אמֶר אֵ֠לֶ֠יהָ הִֽתְאַבְּלִי־נָ֞א וְלִבְשִׁי־נָ֣א בִגְדֵי־אֵ֗בֶל וְאַל־תָּס֙וּכִי֙ שֶׁ֔מֶן וְהָיִ֕ית כְּאִשָּׁ֗ה זֶ֚ה יָמִ֣ים רַבִּ֔ים מִתְאַבֶּ֖לֶת עַל־מֵֽת׃",
+      "text_kjv": "And Joab sent to Tekoah, and fetched thence a wise woman, and said unto her, I pray thee, feign thyself to be a mourner, and put on now mourning apparel, and anoint not thyself with oil, but be as a woman that had a long time mourned for the dead:",
+      "rendering": "Joab sent to Tekoa and brought from there a woman known for her wisdom. He told her, \"Act as though you are in mourning. Put on garments of grief, do not anoint yourself with oil, and present yourself as a woman who has been mourning the dead for a long time.\"",
+      "translator_notes": [
+        "The term ishah chakhamah ('wise woman') identifies a specific social role in ancient Israel, attested also in 2 Samuel 20:16 (the wise woman of Abel Beth-maacah). These women functioned as community counselors and negotiators, skilled in rhetoric and diplomatic speech. The role was distinct from prophetic or priestly authority -- it was a civic function rooted in practical wisdom and persuasive skill.",
+        "The prohibition against anointing with oil (ve'al-tasukhi shemen) is a key marker of mourning in Israelite culture. Oil was applied to the body as part of daily grooming and as a sign of joy and well-being (Psalm 23:5, 'you anoint my head with oil'). To forgo it publicly signals that the woman's grief has consumed her capacity for normal life. Joab is constructing a visual argument before a single word is spoken."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וּבָאת֙ אֶל־הַמֶּ֔לֶךְ וְדִבַּ֥רְתְּ אֵלָ֖יו כַּדָּבָ֣ר הַזֶּ֑ה וַיָּ֧שֶׂם יוֹאָ֛ב אֶת־הַדְּבָרִ֖ים בְּפִֽיהָ׃",
+      "text_kjv": "And come to the king, and speak on this manner unto him. So Joab put the words in her mouth.",
+      "rendering": "\"Then go to the king and speak to him in this manner.\" And Joab placed the words in her mouth.",
+      "translator_notes": [
+        "The phrase vayyasem Yo'av et-ha-devarim be-fiha ('Joab placed the words in her mouth') uses the same verb-phrase construction found in Numbers 22:38, where Balaam tells Balak that he can only speak the word God puts in his mouth. The literary echo is pointed: Joab is playing the role of the deity who scripts the prophet's speech. Whether the narrator intends irony or simply a structural parallel, the effect is clear -- the woman's words are Joab's composition, delivered through her performance.",
+        "The brevity of the verse is itself significant. The narrator does not record the full script Joab gives her, choosing instead to reveal it through the woman's performance before the king. This narrative technique builds suspense: the reader discovers Joab's plan as David does, through the unfolding of the parable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַ֠תֹּ֠אמֶר הָאִשָּׁ֤ה הַתְּקֹעִית֙ אֶל־הַמֶּ֔לֶךְ וַתִּפֹּ֧ל עַל־אַפֶּ֛יהָ אַ֖רְצָה וַתִּשְׁתָּ֑חוּ וַתֹּ֖אמֶר הוֹשִׁ֥עָה הַמֶּֽלֶךְ׃",
+      "text_kjv": "And when the woman of Tekoah spake to the king, she fell on her face to the ground, and did obeisance, and said, Help, O king.",
+      "rendering": "The woman of Tekoa came before the king, fell face-down to the ground in prostration, and cried out, \"Save me, O king!\"",
+      "translator_notes": [
+        "The cry hoshi'ah ha-melekh ('save, O king!') uses the imperative of yasha ('to save, to deliver') -- the same root behind the name Joshua/Yeshua. This is a formal legal appeal to the king as supreme judge, the court of last resort. The woman presents herself not as someone with a political request but as a desperate petitioner whose life depends on the king's ruling. The prostration (vattishtachu) and the face-to-ground posture (vatippol al-appeiha artsah) together convey total submission and urgent need.",
+        "The narrator identifies her as ha-ishah ha-Teqo'it ('the Tekoite woman'), anchoring her in her town of origin. Tekoa will later be associated with the prophet Amos, but at this point it is a small agricultural settlement in the Judean highlands, a plausible origin for a widow with a land dispute."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיֹּ֧אמֶר לָ֛הּ הַמֶּ֖לֶךְ מַה־לָּ֑ךְ וַתֹּ֗אמֶר אֲבָ֛ל אִשָּׁה־אַלְמָנָ֥ה אָ֖נִי וַיָּ֥מׇת אִישִֽׁי׃",
+      "text_kjv": "And the king said unto her, What aileth thee? And she answered, I am indeed a widow woman, and mine husband is dead.",
+      "rendering": "The king said to her, \"What is the matter?\" She said, \"Truly, I am a widow. My husband is dead.\"",
+      "translator_notes": [
+        "The king's question mah-lakh ('what is to you?' or 'what troubles you?') is a standard judicial opening, inviting the petitioner to state her case. David is functioning here in his role as supreme judge of Israel, hearing cases that lower courts could not resolve -- precisely the role Samuel had filled and the role the people expected from their king (1 Samuel 8:20).",
+        "The woman's self-identification as ishah-almanah ('a widow woman') and the declaration vayyamot ishi ('my husband is dead') establish her as a member of one of Israel's most vulnerable social classes. Widows, along with orphans and resident aliens, are singled out repeatedly in Torah as persons whom God specially protects and whom Israel must not oppress (Deuteronomy 10:18, 24:17). By naming herself a widow, she activates David's covenantal obligation to defend the defenseless."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וּלְשִׁפְחָֽתְךָ֙ שְׁנֵ֣י בָנִ֔ים וַיִּנָּצ֤וּ שְׁנֵיהֶם֙ בַּשָּׂדֶ֔ה וְאֵ֥ין מַצִּ֖יל בֵּינֵיהֶ֑ם וַיַּכּ֧וֹ הָאֶחָ֛ד אֶת־הָאֶחָ֖ד וַיָּ֥מֶת אֹתֽוֹ׃",
+      "text_kjv": "And thy handmaid had two sons, and they two strove together in the field, and there was none to part them, but the one smote the other, and slew him.",
+      "rendering": "Your servant had two sons. They quarreled with each other in the field with no one to separate them, and one struck the other and killed him.",
+      "translator_notes": [
+        "The verb vayyinnatsu ('they quarreled, they struggled') from the root natsah describes a physical altercation, not merely a verbal argument. The detail ba-sadeh ('in the field') places the fight away from witnesses, an important legal factor: in Deuteronomic law (Deuteronomy 22:25-27), an act committed in the field where no one could intervene carries different legal weight than one committed in a town. The phrase ve'ein mattsil beineihem ('and there was no one rescuing between them') emphasizes that no third party could have prevented the outcome.",
+        "The phrase vayyakko ha-echad et-ha-echad ('one struck the other') uses the verb nakah, which covers everything from a blow to a killing strike. The woman carefully avoids the word ratsach ('murder'), which would classify the act as a capital crime. She uses language that keeps the killing in the ambiguous zone between murder and manslaughter -- precisely the legal gray area that the cities-of-refuge legislation in Numbers 35 was designed to adjudicate."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְהִנֵּה֩ קָ֨מָה כׇל־הַמִּשְׁפָּחָ֜ה עַל־שִׁפְחָתֶ֗ךָ וַיֹּאמְר֞וּ תְּנִ֣י ׀ אֶת־מַכֵּ֣ה אָחִ֗יו וּנְמִתֵ֙הוּ֙ בְּנֶ֤פֶשׁ אָחִיו֙ אֲשֶׁ֣ר הָרָ֔ג וְנַשְׁמִ֖ידָה גַּ֣ם אֶת־הַיּוֹרֵ֑שׁ וְכִבּ֗וּ אֶת־גַּֽחַלְתִּי֙ אֲשֶׁ֣ר נִשְׁאָ֔רָה לְבִלְתִּ֧י שים־ [שׂוּם] לְאִישִׁ֛י שֵׁ֥ם וּשְׁאֵרִ֖ית עַל־פְּנֵ֥י הָאֲדָמָֽה׃ פ",
+      "text_kjv": "And, behold, the whole family is risen against thine handmaid, and they said, Deliver him that smote his brother, that we may kill him, for the life of his brother whom he slew; and we will destroy the heir also: and so they shall quench my coal which is left, and shall not leave to my husband neither name nor remainder upon the earth.",
+      "rendering": "Now the entire clan has risen against your servant. They say, 'Hand over the one who struck his brother so we can execute him for the life of his brother whom he killed -- and in doing so we will also eliminate the heir.' They would snuff out the one ember I have left, leaving my husband neither name nor survivor on the face of the earth.",
+      "translator_notes": [
+        "The phrase nemitehu be-nefesh achiv ('let us put him to death for the life of his brother') is the formal language of blood-vengeance: a life (nefesh) for a life (nefesh). The clan acts as go'el ha-dam ('avenger of blood'), the kinsman responsible for ensuring that a murdered relative's death is paid for with the killer's life. This is not vigilante justice but an established legal institution (Numbers 35:19-21). The woman's genius is in acknowledging the legal legitimacy of the claim while demonstrating its destructive consequence.",
+        "The metaphor ve-khibbu et-gachalti asher nish'arah ('they would extinguish my remaining ember') is one of the most poignant images in the chapter. A gacheleth is a live coal -- not a flame but the smoldering remnant from which fire can be rekindled. The image captures both fragility and hope: the son is barely alive in a metaphorical sense, and yet from him could come a restored lineage. The phrase she'erit ('remnant, survivor') carries deep theological resonance in Hebrew thought, where the remnant is always the seed of future restoration."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גֹּאֵל הַדָּם",
+          "transliteration": "go'el ha-dam",
+          "rendered_as": "avenger of blood",
+          "semantic_range": "blood-redeemer, kinsman avenger, the relative responsible for avenging a murdered family member, one who reclaims blood-debt",
+          "note": "The go'el ha-dam is a kinsman legally obligated to pursue and kill the person who took a relative's life. The institution is codified in Numbers 35:19-28, which also establishes cities of refuge where a manslayer can flee until his case is adjudicated. The wise woman's argument turns on the tension within this system: the avenger's claim is valid, but the cities-of-refuge principle acknowledges that not every killing demands death. By extension, Absalom's exile in Geshur has functioned as his city of refuge, and perpetual banishment is not what the system intends."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֹּ֧אמֶר הַמֶּ֛לֶךְ אֶל־הָאִשָּׁ֖ה לְכִ֣י לְבֵיתֵ֑ךְ וַאֲנִ֖י אֲצַוֶּ֥ה עָלָֽיִךְ׃",
+      "text_kjv": "And the king said unto the woman, Go to thine house, and I will give charge concerning thee.",
+      "rendering": "The king said to the woman, \"Go home. I will issue a ruling on your behalf.\"",
+      "translator_notes": [
+        "David's response lekhi le-veitekh va-ani atsavveh alayikh ('go to your house and I will give an order concerning you') is a judicial promise: the king will act to resolve her case. The verb tsavah ('to command, to order') indicates a royal decree, not merely advice. David has accepted her case and committed to a ruling -- which is exactly where Joab needs him, because any ruling that protects her fictional son creates a precedent that applies to Absalom.",
+        "The phrasing is deliberately noncommittal at this stage -- David does not yet specify what he will order. He needs time to consider the competing legal claims. But the woman cannot afford ambiguity; she needs an explicit guarantee, which is why she will press him further in the following verses."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַתֹּ֜אמֶר הָאִשָּׁ֤ה הַתְּקוֹעִית֙ אֶל־הַמֶּ֔לֶךְ עָלַ֞י אֲדֹנִ֤י הַמֶּ֙לֶךְ֙ הֶעָוֹ֔ן וְעַל־בֵּ֖ית אָבִ֑י וְהַמֶּ֥לֶךְ וְכִסְא֖וֹ נָקִֽי׃",
+      "text_kjv": "And the woman of Tekoah said unto the king, My lord, O king, the iniquity be on me, and on my father's house: and the king and his throne be guiltless.",
+      "rendering": "The woman of Tekoa said to the king, \"My lord the king, let any guilt fall on me and on my father's house. The king and his throne are innocent.\"",
+      "translator_notes": [
+        "The phrase alay adoni ha-melekh he-avon ('upon me, my lord the king, the guilt') uses avon, which encompasses guilt, punishment, and the consequence of sin as an inseparable package. By claiming the avon, the woman accepts not just moral blame but the tangible consequences that follow -- the ongoing weight of unresolved blood. The offer is extravagant: she volunteers her entire father's house (bet avi) as co-bearers of whatever guilt results from the king's mercy.",
+        "The declaration ve-ha-melekh ve-khis'o naqi ('the king and his throne are innocent/clean') uses naqi, the legal term for acquittal or freedom from guilt. She explicitly extends the protection to the throne itself (kis'o) -- not just David personally but the institution of kingship. This addresses the deeper political concern: a king's unjust ruling can bring collective guilt upon the nation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיֹּ֖אמֶר הַמֶּ֑לֶךְ הַמְדַבֵּ֤ר אֵלַ֙יִךְ֙ וַהֲבֵאתוֹ֣ אֵלַ֔י וְלֹֽא־יֹסִ֥יף ע֖וֹד לָגַ֥עַת בָּֽךְ׃",
+      "text_kjv": "And the king said, Whosoever saith ought unto thee, bring him to me, and he shall not touch thee any more.",
+      "rendering": "The king said, \"If anyone threatens you, bring him to me, and he will never trouble you again.\"",
+      "translator_notes": [
+        "David's ruling escalates: anyone who speaks against her (ha-medabber elayikh, 'the one speaking to you') is to be brought before the king personally. The verb naga ('to touch, to strike, to harm') in its negative form (lo yosif od laga'at bakh, 'he will not again touch you') constitutes a royal protection order. David is now personally guaranteeing the woman's safety and, by extension, the safety of her surviving son.",
+        "The woman has succeeded in drawing David deeper into commitment, but she needs more. A general promise of protection is not the same as a specific guarantee that the avenger of blood will be restrained. She will push further in the next verse."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַתֹּ֕אמֶר יִזְכׇּר־נָ֣א הַמֶּ֔לֶךְ אֶת־יְהֹוָ֖ה אֱלֹהֶ֑יךָ מהרבית [מֵהַרְבַּ֞ת] גֹּאֵ֤ל הַדָּם֙ לְשַׁחֵ֔ת וְלֹ֥א יַשְׁמִ֖ידוּ אֶת־בְּנִ֑י וַיֹּ֕אמֶר חַי־יְהֹוָ֕ה אִם־יִפֹּ֛ל מִשַּׂעֲרַ֥ת בְּנֵ֖ךְ אָֽרְצָה׃",
+      "text_kjv": "Then said she, I pray thee, let the king remember the LORD thy God, that thou wouldest not suffer the revengers of blood to destroy any more, lest they destroy my son. And he said, As the LORD liveth, there shall not one hair of thy son fall to the earth.",
+      "rendering": "She said, \"Please, let the king invoke the LORD your God, so that the avenger of blood will not keep on destroying and they will not wipe out my son.\" He said, \"As the LORD lives, not a single hair of your son's head will fall to the ground.\"",
+      "translator_notes": [
+        "The phrase me-harbat go'el ha-dam le-shachet ('from the multiplying of the avenger of blood to destroy') is textually difficult -- the ketiv (written form) reads meharbith while the qere (read form) reads me-harbat. The sense is clear either way: the avenger of blood will continue destroying (le-shachet, 'to ruin, to corrupt, to destroy') unless the king intervenes. The verb shachat carries connotations of devastation beyond a single death -- the avenger's pursuit threatens to obliterate the entire remaining family.",
+        "David's oath im-yippol missa'arat benekh artsah ('if a hair of your son falls to the ground') is a hyperbolic guarantee of total protection. The hair (sa'arah) is the smallest, most negligible part of a person; an oath that protects even a single hair protects everything. This same formulaic oath appears in 1 Samuel 14:45, where the people swore that not a hair of Jonathan's head would fall -- a precedent David would know well. The irony is that David will eventually be unable to protect Absalom despite this oath."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַתֹּ֙אמֶר֙ הָֽאִשָּׁ֔ה תְּדַבֶּר־נָ֧א שִׁפְחָתְךָ֛ אֶל־אֲדֹנִ֥י הַמֶּ֖לֶךְ דָּבָ֑ר וַיֹּ֖אמֶר דַּבֵּֽרִי׃",
+      "text_kjv": "Then the woman said, Let thine handmaid, I pray thee, speak one word unto my lord the king. And he said, Say on.",
+      "rendering": "The woman said, \"Please allow your servant to speak another word to my lord the king.\" He said, \"Speak.\"",
+      "translator_notes": [
+        "The woman's request tedabber-na shifchatekha ('please let your servant speak') marks a transition. The parable is finished; the application is about to begin. She has secured the king's oath, and now she will turn it against him. Her use of shifchah ('maidservant, female servant') maintains the posture of humility that gives her permission to speak dangerously to power.",
+        "David's single-word response dabberi ('speak') shows he suspects nothing. He still believes he is adjudicating a widow's family dispute. The brevity conveys royal ease -- a king confident in his ruling, granting a petitioner one more word before dismissing her. He does not yet know the word will be an accusation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַתֹּ֙אמֶר֙ הָֽאִשָּׁ֔ה וְלָ֧מָּה חָשַׁ֛בְתָּה כָּזֹ֖את עַל־עַ֣ם אֱלֹהִ֑ים וּמִדַּבֵּ֨ר הַמֶּ֜לֶךְ הַדָּבָ֤ר הַזֶּה֙ כְּאָשֵׁ֔ם לְבִלְתִּ֛י הָשִׁ֥יב הַמֶּ֖לֶךְ אֶֽת־נִדְּחֽוֹ׃",
+      "text_kjv": "And the woman said, Wherefore then hast thou thought such a thing against the people of God? for the king doth speak this thing as one which is faulty, in that the king doth not fetch home again his banished.",
+      "rendering": "The woman said, \"Then why have you devised the same kind of thing against the people of God? By speaking this ruling, the king convicts himself -- because the king has not brought home his own banished son.\"",
+      "translator_notes": [
+        "The phrase chashavtah ka-zo't al am Elohim ('you have devised such a thing against the people of God') shifts the accusation from personal to national. The word chashav ('to think, to plan, to devise') implies deliberate intention -- David's failure to restore Absalom is not an oversight but a policy, and the woman calls it an offense against the collective people of God.",
+        "The term niddacho ('his banished one') from the root nadach ('to drive away, to banish, to scatter') is the key word of the chapter. It will recur in verse 14, where the woman grounds her entire theological argument in God's refusal to leave the banished one permanently cast out. The niddach is not merely an exile; the word carries the weight of divine displacement -- one driven from where they belong."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "כִּי־מ֣וֹת נָמ֗וּת וְכַמַּ֙יִם֙ הַנִּגָּרִ֣ים אַ֔רְצָה אֲשֶׁ֖ר לֹ֣א יֵאָסֵ֑פוּ וְלֹא־יִשָּׂ֤א אֱלֹהִים֙ נֶ֔פֶשׁ וְחָשַׁב֙ מַחֲשָׁב֔וֹת לְבִלְתִּ֛י יִדַּ֥ח מִמֶּ֖נּוּ נִדָּֽח׃",
+      "text_kjv": "For we must needs die, and are as water spilt on the ground, which cannot be gathered up again; neither doth God respect any person: yet doth he devise means, that his banished be not expelled from him.",
+      "rendering": "For we will certainly die -- we are like water poured out on the ground that cannot be gathered up again. But God does not take away life; rather, He devises plans so that the banished one is not driven away from Him permanently.",
+      "translator_notes": [
+        "The phrase ki-mot namut ('for dying we will die') uses the infinitive absolute construction for emphasis -- death is certain, universal, and irreversible. The simile ka-mayim ha-niggarim artsah asher lo ye'asefu ('like water poured on the ground that cannot be gathered') captures the finality: water spilled on earth cannot be scooped back. This acknowledges that Amnon's death cannot be undone -- the argument is not about reversing the past but about choosing the future.",
+        "The clause ve-lo yissa Elohim nefesh is the crux of interpretive difficulty. It can mean 'God does not take away a life [i.e., God does not desire death]' or 'God does not show partiality [literally, does not lift a face/person].' The first reading makes God's character restorative; the second makes God's justice impartial. We follow the first reading because it better fits the clause that follows: ve-chashav machashavot le-vilti yiddach mimmennu niddach ('and He devises plans so that the banished one is not permanently cast out from Him'). The verb chashav ('to plan, to devise') is the same word used in verse 13 for David's 'devising' against the people -- the woman is contrasting human scheming that exiles with divine planning that restores."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָשָׁל",
+          "transliteration": "mashal",
+          "rendered_as": "parable",
+          "semantic_range": "proverb, parable, similitude, juridical fiction, byword, taunt-song, allegory",
+          "note": "Though the word mashal does not appear explicitly in this verse, the wise woman's entire performance is a mashal -- a juridical parable constructed to lead the hearer into self-judgment. The form directly parallels Nathan's mashal in chapter 12 (the poor man's lamb), establishing a pattern in the David narratives: when the king cannot see his own situation clearly, a mashal is employed to bypass his defenses. Both parables work by creating emotional identification with a fictional victim before revealing that the king himself is the perpetrator or the obstacle."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְ֠עַתָּ֠ה אֲשֶׁר־בָּ֨אתִי לְדַבֵּ֜ר אֶל־הַמֶּ֣לֶךְ אֲדֹנִ֗י אֶת־הַדָּבָ֤ר הַזֶּה֙ כִּ֤י יֵרְאֻ֙נִי֙ הָעָ֔ם וַתֹּ֤אמֶר שִׁפְחָתְךָ֙ אֲדַבְּרָה־נָּ֣א אֶל־הַמֶּ֔לֶךְ אוּלַ֛י יַעֲשֶׂ֥ה הַמֶּ֖לֶךְ אֶת־דְּבַ֥ר אֲמָתֽוֹ׃",
+      "text_kjv": "Now therefore that I am come to speak of this thing unto my lord the king, it is because the people made me afraid: and thy handmaid said, I will now speak unto the king; it may be that the king will perform the request of his handmaid.",
+      "rendering": "The reason I have come to speak this word to my lord the king is that the people frightened me. Your servant thought, 'Let me speak to the king -- perhaps the king will act on his servant's request.'",
+      "translator_notes": [
+        "The woman now provides a motivation for her visit: ki yer'uni ha-am ('because the people frightened me'). This functions on two levels simultaneously. Within the fiction, it explains why a widow would bring a family dispute to the king rather than resolving it locally. Within the real situation, it may hint that the nation itself is anxious about the unresolved status of Absalom and the instability it creates.",
+        "The shift from shifchatekha ('your maidservant') to amatekha ('your handmaid') is a subtle intensification of deference -- amah carries a slightly lower social register than shifchah in some contexts, emphasizing her humility at the moment she is making her boldest play. The word ulay ('perhaps') maintains the fiction of uncertainty while the woman's entire performance has been designed to ensure the outcome."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "כִּ֚י יִשְׁמַ֣ע הַמֶּ֔לֶךְ לְהַצִּ֥יל אֶת־אֲמָת֖וֹ מִכַּ֣ף הָאִ֑ישׁ הַשְׁמִ֨יד אֹתִ֤י וְאֶת־בְּנִי֙ יַ֔חַד מִנַּחֲלַ֖ת אֱלֹהִֽים׃",
+      "text_kjv": "For the king will hear, to deliver his handmaid out of the hand of the man that would destroy me and my son together out of the inheritance of God.",
+      "rendering": "For the king will listen and deliver his servant from the grasp of the man who would destroy both me and my son together from God's inheritance.",
+      "translator_notes": [
+        "The phrase mi-nachalat Elohim ('from the inheritance of God') introduces a land-theology argument: to destroy the woman and her son is to cut them off from their share in God's allotted territory. In Israelite thought, the land is God's nachalah, distributed to the tribes and families as a divine trust. To be eliminated from that inheritance is to be severed not just from property but from covenantal belonging. The argument has direct application to Absalom: his exile in Geshur has removed him from the land of God's inheritance.",
+        "The verb hashmiד ('to destroy, to exterminate') from the root shamad is a strong word -- it denotes total annihilation, not merely harm. The woman characterizes the avenger's intent as the complete erasure of her family from the land, which frames the threat in the most extreme terms possible and makes David's intervention a matter of covenantal preservation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַתֹּ֙אמֶר֙ שִׁפְחָ֣תְךָ֔ יִהְיֶה־נָּ֧א דְבַר־אֲדֹנִ֛י הַמֶּ֖לֶךְ לִמְנוּחָ֑ה כִּ֣י ׀ כְּמַלְאַ֣ךְ הָאֱלֹהִ֗ים כֵּ֣ן אֲדֹנִ֤י הַמֶּ֙לֶךְ֙ לִשְׁמֹ֙עַ֙ הַטּ֣וֹב וְהָרָ֔ע וַיהֹוָ֥ה אֱלֹהֶ֖יךָ יְהִ֥י עִמָּֽךְ׃ פ",
+      "text_kjv": "Then thine handmaid said, The word of my lord the king shall now be comfortable: for as an angel of God, so is my lord the king to discern good and bad: therefore the LORD thy God will be with thee.",
+      "rendering": "Your servant thought, 'May the word of my lord the king bring rest.' For my lord the king is like a messenger of God in discerning good from evil. May the LORD your God be with you.\"",
+      "translator_notes": [
+        "The comparison ke-mal'akh ha-Elohim ('like an angel/messenger of God') is a significant piece of royal theology. The mal'akh Elohim in Hebrew thought is a being who operates with divine authority and perception. To call the king 'like an angel of God' is to affirm the theological foundation of Israelite kingship: the king is God's representative, endowed with wisdom to judge. The phrase lishmo'a ha-tov ve-ha-ra ('to hear/discern good and evil') echoes the tree of knowledge in Eden (Genesis 2-3) and Solomon's later request for wisdom to discern good from evil (1 Kings 3:9).",
+        "The phrase li-menuchah ('for rest, for comfort') indicates that the king's word will settle the matter and bring peace to a troubled situation. The word menuchah carries deep resonance -- it is the rest God promises Israel in the land, the settled condition that follows resolution of conflict. The woman implies that David's ruling can bring menuchah to the kingdom itself, not just to her fictional family."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיַּ֣עַן הַמֶּ֗לֶךְ וַיֹּ֙אמֶר֙ אֶל־הָ֣אִשָּׁ֔ה אַל־נָ֨א תְכַחֲדִ֤י מִמֶּ֙נִּי֙ דָּבָ֔ר אֲשֶׁ֥ר אָנֹכִ֖י שֹׁאֵ֣ל אֹתָ֑ךְ וַתֹּ֙אמֶר֙ הָֽאִשָּׁ֔ה יְדַבֶּר־נָ֖א אֲדֹנִ֥י הַמֶּֽלֶךְ׃",
+      "text_kjv": "Then the king answered and said unto the woman, Hide not from me, I pray thee, the thing that I shall ask thee. And the woman said, Let my lord the king now speak.",
+      "rendering": "The king responded and said to the woman, \"Do not hide anything from me when I ask you this question.\" The woman said, \"Let my lord the king ask.\"",
+      "translator_notes": [
+        "David's command al-na tekhachadi mimmeni davar ('do not hide a thing from me') uses the verb kachad ('to hide, to conceal, to deny'), signaling that David suspects the performance is not what it seems. His judicial instincts have been triggered -- the woman's rhetoric was too polished, her argument too precisely targeted. He is beginning to see through the parable, just as he began to see through Nathan's story only after the prophet declared 'You are the man.'",
+        "The woman's response yedabber-na adoni ha-melekh ('let my lord the king speak') is carefully neutral -- she neither confirms nor denies that she is hiding something, simply inviting the king to ask his question. She maintains composure under interrogation, demonstrating the 'wisdom' (chokmah) for which Joab selected her."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיֹּ֣אמֶר הַמֶּ֔לֶךְ הֲיַ֥ד יוֹאָ֛ב אִתָּ֖ךְ בְּכׇל־זֹ֑את וַתַּ֣עַן הָאִשָּׁ֣ה וַתֹּ֡אמֶר חֵי־נַפְשְׁךָ֩ אֲדֹנִ֨י הַמֶּ֜לֶךְ אִם־אִ֣שׁ ׀ לְהֵמִ֣ין וּלְהַשְׂמִ֗יל מִכֹּ֤ל אֲשֶׁר־דִּבֶּר֙ אֲדֹנִ֣י הַמֶּ֔לֶךְ כִּי־עַבְדְּךָ֣ יוֹאָ֔ב ה֥וּא צִוָּ֖נִי וְה֣וּא שָׂ֗ם בְּפִ֤י שִׁפְחָֽתְךָ֙ אֵ֚ת כׇּל־הַדְּבָרִ֖ים הָאֵֽלֶּה׃",
+      "text_kjv": "And the king said, Is not the hand of Joab with thee in all this? And the woman answered and said, As thy soul liveth, my lord the king, none can turn to the right hand or to the left from ought that my lord the king hath spoken: for thy servant Joab, he bade me, and he put all these words in the mouth of thine handmaid:",
+      "rendering": "The king said, \"Is Joab's hand behind all of this?\" The woman answered, \"As surely as you live, my lord the king, there is no turning right or left from anything my lord the king has said. Yes -- it was your servant Joab who commanded me. He put every one of these words in your servant's mouth.\"",
+      "translator_notes": [
+        "The phrase ha-yad Yo'av ittakh be-khol-zo't ('is the hand of Joab with you in all this?') uses yad ('hand') metaphorically for agency and involvement. David does not ask 'Did Joab send you?' but 'Is Joab's hand in this?' -- attributing the entire operation to Joab's directing influence. The phrasing reveals that David knows Joab well enough to recognize his characteristic method: indirect action through intermediaries.",
+        "The woman's admission ki avdekha Yo'av hu tsivvani ('for your servant Joab, he commanded me') uses the emphatic pronoun hu ('he himself') to place full responsibility on Joab. The phrase ve-hu sam be-fi shifchatekha et kol-ha-devarim ha-elleh ('and he placed in your servant's mouth all these words') echoes verse 3, closing the frame: the words were Joab's from beginning to end."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "לְבַ֗עֲבוּר סַבֵּב֙ אֶת־פְּנֵ֣י הַדָּבָ֔ר עָשָׂ֛ה עַבְדְּךָ֥ יוֹאָ֖ב אֶת־הַדָּבָ֣ר הַזֶּ֑ה וַאדֹנִ֣י חָכָ֗ם כְּחׇכְמַת֙ מַלְאַ֣ךְ הָאֱלֹהִ֔ים לָדַ֖עַת אֶֽת־כׇּל־אֲשֶׁ֥ר בָּאָֽרֶץ׃ ס",
+      "text_kjv": "To fetch about this form of the matter hath thy servant Joab done this thing: and my lord is wise, according to the wisdom of an angel of God, to know all things that are in the earth.",
+      "rendering": "Your servant Joab did this to change the shape of the situation. But my lord has wisdom like the wisdom of a messenger of God, knowing everything that happens in the land.\"",
+      "translator_notes": [
+        "The phrase le-va'avur sabbev et penei ha-davar ('in order to turn the face of the matter') is a remarkable expression. The verb sabbev ('to turn around, to go around, to transform') combined with penei ha-davar ('the face of the thing/matter') describes Joab's strategy as literally changing the appearance or orientation of the situation. He has not changed the facts -- Absalom still killed Amnon -- but he has reframed how David sees those facts.",
+        "The second comparison to an angel of God (ke-chokhmat mal'akh ha-Elohim) reinforces the earlier flattery in verse 17, but now with an edge: David's angel-like wisdom saw through the disguise, which means he cannot pretend not to understand the application. His own discernment traps him into acting on what he has discerned."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיֹּ֤אמֶר הַמֶּ֙לֶךְ֙ אֶל־יוֹאָ֔ב הִנֵּה־נָ֥א עָשִׂ֖יתִי אֶת־הַדָּבָ֣ר הַזֶּ֑ה וְלֵ֛ךְ הָשֵׁ֥ב אֶת־הַנַּ֖עַר אֶת־אַבְשָׁלֽוֹם׃",
+      "text_kjv": "And the king said unto Joab, Behold now, I have done this thing: go therefore, bring the young man Absalom again.",
+      "rendering": "The king said to Joab, \"Very well -- I am granting this. Go and bring back the young man Absalom.\"",
+      "expanded_rendering": "David yields. The phrase hinneh-na asiti et ha-davar ha-zeh ('look, I have done this thing') is a royal declaration -- the decision is made, the matter is settled. But notice what David does not say: he does not express joy, he does not call Absalom 'my son,' and he does not mention reconciliation. He calls Absalom ha-na'ar ('the young man') -- a term that can convey affection but here feels distanced, almost clinical. David is granting Joab's request, not embracing it. The king has been outmaneuvered by his own general, and his compliance is grudging. He will make this clear in verse 24: Absalom may return to Jerusalem, but he may not see the king's face.",
+      "translator_notes": [
+        "The imperative lekh hashev ('go, bring back') delegates the actual retrieval to Joab, who engineered the entire situation. The verb hashev (hiphil of shuv, 'to return') means 'to cause to return, to restore, to bring back' -- the same root that carries deep theological significance as teshuvah ('repentance, return'). Whether the narrator intends this resonance is debatable, but the linguistic connection is present: Joab is being sent to bring about Absalom's shuvah, his return.",
+        "The designation ha-na'ar ('the young man') for Absalom is notable. Na'ar can mean 'youth, servant, attendant' and carries varying degrees of formality. Applied to a prince who is old enough to have orchestrated a murder and survived three years of exile, it may be David's way of diminishing the political weight of the moment -- this is not the return of a claimant to the throne, just a young man coming home."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיִּפֹּל֩ יוֹאָ֨ב אֶל־פָּנָ֥יו אַ֛רְצָה וַיִּשְׁתַּ֖חוּ וַיְבָ֣רֶךְ אֶת־הַמֶּ֑לֶךְ וַיֹּ֣אמֶר יוֹאָ֡ב הַיּוֹם֩ יָדַ֨ע עַבְדְּךָ֜ כִּי־מָצָ֨אתִי חֵ֤ן בְּעֵינֶ֙יךָ֙ אֲדֹנִ֣י הַמֶּ֔לֶךְ אֲשֶׁר־עָשָׂ֥ה הַמֶּ֖לֶךְ אֶת־דְּבַ֥ר עבדו [עַבְדּֽוֹ]׃",
+      "text_kjv": "And Joab fell to the ground on his face, and bowed himself, and thanked the king: and Joab said, To day thy servant knoweth that I have found grace in thy sight, my lord, O king, in that the king hath fulfilled the request of his servant.",
+      "rendering": "Joab fell face-down to the ground, prostrated himself, and blessed the king. Joab said, \"Today your servant knows that I have found favor in your eyes, my lord the king, because the king has granted his servant's request.\"",
+      "translator_notes": [
+        "Joab's prostration and blessing follow court protocol for receiving a royal favor, but the scene carries an undercurrent of power dynamics. Joab is the one who manipulated the king into this decision, yet he performs the role of grateful servant. The phrase matsa'ti chen be-einekha ('I have found favor in your eyes') is the standard expression of a subordinate acknowledging a superior's gracious act -- the same language used by Jacob before Esau (Genesis 33:8) and by Ruth before Boaz (Ruth 2:10).",
+        "The ketiv-qere variant avdo/avdo (his servant) is a minor scribal issue with no impact on meaning. Joab's statement asher-asah ha-melekh et devar avdo ('because the king has done the word of his servant') is diplomatically careful: Joab attributes the decision entirely to the king's authority, obscuring the fact that it was Joab's scheme from start to finish."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיָּ֥קׇם יוֹאָ֖ב וַיֵּ֣לֶךְ גְּשׁ֑וּרָה וַיָּבֵ֥א אֶת־אַבְשָׁל֖וֹם יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "So Joab arose and went to Geshur, and brought Absalom to Jerusalem.",
+      "rendering": "Joab set out and traveled to Geshur, and brought Absalom back to Jerusalem.",
+      "translator_notes": [
+        "The narrative is compressed to a single verse: Joab goes, Joab returns with Absalom. The journey from Jerusalem to Geshur (in the northeastern Transjordan, near the Sea of Galilee) would have taken several days in each direction. The narrator's brevity suggests that the logistics are unimportant; what matters is the result -- Absalom is now in Jerusalem.",
+        "Geshur was the small Aramean kingdom ruled by Absalom's maternal grandfather Talmai son of Ammihud (2 Samuel 3:3, 13:37). Absalom fled there after killing Amnon because it was outside Israelite jurisdiction -- a foreign kingdom where David's authority did not extend. His return from Geshur to Jerusalem is a legal and political event, not merely a geographic one."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיֹּ֣אמֶר הַמֶּ֔לֶךְ יִסֹּ֥ב אֶל־בֵּית֖וֹ וּפָנַ֣י לֹ֣א יִרְאֶ֑ה וַיִּסֹּ֤ב אַבְשָׁלוֹם֙ אֶל־בֵּית֔וֹ וּפְנֵ֥י הַמֶּ֖לֶךְ לֹ֥א רָאָֽה׃ ס",
+      "text_kjv": "And the king said, Let him turn to his own house, and let him not see my face. So Absalom returned to his own house, and saw not the king's face.",
+      "rendering": "But the king said, \"Let him go to his own house. He is not to see my face.\" So Absalom went to his own house, and did not see the king's face.",
+      "translator_notes": [
+        "The verb yissov ('let him turn') from the root savav ('to turn, to go around') echoes the same root used in verse 20 for Joab's strategy of 'turning the face of the matter.' The linguistic echo may be coincidental, but the narrative parallel is not: Joab turned the situation to bring Absalom back, but David turns Absalom away from his presence. The two turnings work against each other.",
+        "The repetition is precise and devastating: the king says panai lo yir'eh ('he will not see my face'), and the narrator confirms u-fenei ha-melekh lo ra'ah ('and the face of the king he did not see'). The doubling -- command and fulfillment -- seals the estrangement as official policy, not a temporary arrangement. For two full years (v. 28), this will be Absalom's condition."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וּכְאַבְשָׁל֗וֹם לֹא־הָיָ֧ה אִישׁ־יָפֶ֛ה בְּכׇל־יִשְׂרָאֵ֖ל לְהַלֵּ֣ל מְאֹ֑ד מִכַּ֤ף רַגְלוֹ֙ וְעַ֣ד קׇדְקֳד֔וֹ לֹא־הָ֥יָה ב֖וֹ מֽוּם׃",
+      "text_kjv": "But in all Israel there was none to be so much praised as Absalom for his beauty: from the sole of his foot even to the crown of his head there was no blemish in him.",
+      "rendering": "In all of Israel there was no man so praised for his appearance as Absalom. From the sole of his foot to the crown of his head, there was no flaw in him.",
+      "translator_notes": [
+        "The phrase ish yafeh ('a beautiful/handsome man') uses yafeh, the standard term for physical beauty applied to both men and women. The superlative construction -- lo hayah ish yafeh be-khol-Yisra'el le-hallel me'od ('there was no man so beautiful in all Israel to praise so greatly') -- places Absalom at the pinnacle of Israelite attractiveness. The verb hallel ('to praise') is the same root as hallelujah; Israel's praise of Absalom carries an almost liturgical intensity.",
+        "The phrase lo hayah vo mum ('there was no blemish in him') uses mum, the technical term for a physical defect that would disqualify a priest from serving (Leviticus 21:17-23) or an animal from sacrifice (Leviticus 22:20-25). Applying this priestly/sacrificial vocabulary to Absalom's body creates an unsettling resonance: he is physically 'qualified' in a way that evokes holiness categories, yet his character will prove deeply flawed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וּֽבְגַלְּחוֹ֮ אֶת־רֹאשׁוֹ֒ וְהָיָ֣ה ׀ מִקֵּ֣ץ יָמִ֣ים ׀ לַיָּמִ֗ים אֲשֶׁ֤ר יְגַלֵּ֙חַ֙ כִּֽי־כָבֵ֣ד עָלָ֔יו וְגִלְּח֖וֹ וְשָׁקַל֙ אֶת־שְׂעַ֣ר רֹאשׁ֔וֹ מָאתַ֥יִם שְׁקָלִ֖ים בְּאֶ֥בֶן הַמֶּֽלֶךְ׃",
+      "text_kjv": "And when he polled his head, (for it was at every year's end that he polled it: because the hair was heavy on him, therefore he polled it:) he weighed the hair of his head at two hundred shekels after the king's weight.",
+      "rendering": "When he cut his hair -- he would cut it at the end of each year because its weight became too heavy for him -- the hair of his head weighed two hundred shekels by the royal standard.",
+      "translator_notes": [
+        "The phrase mi-qets yamim la-yamim ('from the end of days to days') is an idiomatic expression for a regular interval, typically understood as annually. The verb gillach ('to shave, to cut hair') and the weight measurement be-even ha-melekh ('by the stone/weight of the king') indicate a royal standard of measurement -- the narrator is precise about the quantification, lending the detail an almost bureaucratic air that contrasts with its narrative function as foreshadowing.",
+        "The weight of ma'atayim sheqalim ('two hundred shekels') has been debated for centuries. By the standard shekel of approximately 11.4 grams, this would be about 2.3 kilograms (roughly 5 pounds). Whether literal or hyperbolic, the number communicates abundance and excess. Absalom's hair is legendary -- and the narrator wants the reader to remember it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיִּוָּלְד֤וּ לְאַבְשָׁלוֹם֙ שְׁלוֹשָׁ֣ה בָנִ֔ים וּבַ֥ת אַחַ֖ת וּשְׁמָ֣הּ תָּמָ֑ר הִ֣יא הָיְתָ֔ה אִשָּׁ֖ה יְפַ֥ת מַרְאֶֽה׃ ס",
+      "text_kjv": "And unto Absalom there were born three sons, and one daughter, whose name was Tamar: she was a woman of a fair countenance.",
+      "rendering": "Three sons were born to Absalom, and one daughter whose name was Tamar. She was a woman of striking beauty.",
+      "translator_notes": [
+        "The absence of the sons' names is notable. In Hebrew narrative, unnamed children often indicate that they died young or left no lasting legacy. Indeed, 2 Samuel 18:18 will record Absalom setting up a memorial pillar because 'I have no son to preserve the memory of my name' -- suggesting that all three sons died before Absalom himself did. The narrator may be foreshadowing the extinction of Absalom's line.",
+        "The name Tamar (tamar, 'date palm') is identical to that of Absalom's sister. The description ishah yefat mar'eh ('a woman beautiful of appearance') uses the same adjective yafeh applied to Absalom in verse 25, linking father and daughter in a shared physical splendor. The beauty of the Davidic line is a recurring narrative thread -- David, Absalom, and both Tamars are described as beautiful, and in each case beauty proves to be entangled with suffering."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיֵּ֧שֶׁב אַבְשָׁל֛וֹם בִּירוּשָׁלַ֖‍ִם שְׁנָתַ֣יִם יָמִ֑ים וּפְנֵ֥י הַמֶּ֖לֶךְ לֹ֥א רָאָֽה׃",
+      "text_kjv": "So Absalom dwelt two full years in Jerusalem, and saw not the king's face.",
+      "rendering": "Absalom lived in Jerusalem for two full years without seeing the king's face.",
+      "translator_notes": [
+        "The phrase shenatayim yamim ('two years of days') uses yamim as an intensifier -- not just two calendar years but two full, complete years, each day of which was spent in the same condition of exclusion. The construction emphasizes duration and monotony: the estrangement was not a brief phase but a sustained policy.",
+        "The repetition of u-fenei ha-melekh lo ra'ah ('and the face of the king he did not see') from verse 24 creates a literary bracket: the estrangement announced by royal decree in v. 24 is confirmed as ongoing reality in v. 28. Nothing has changed. David's refusal to see Absalom is not a temporary cooling-off period -- it has calcified into the status quo."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיִּשְׁלַ֨ח אַבְשָׁל֜וֹם אֶל־יוֹאָ֗ב לִשְׁלֹ֤חַ אֹתוֹ֙ אֶל־הַמֶּ֔לֶךְ וְלֹ֥א אָבָ֖ה לָב֣וֹא אֵלָ֑יו וַיִּשְׁלַ֥ח עוֹד֙ שֵׁנִ֔ית וְלֹ֥א אָבָ֖ה לָבֽוֹא׃",
+      "text_kjv": "Therefore Absalom sent for Joab, to have sent him to the king; but he would not come to him: and when he sent again the second time, he would not come.",
+      "rendering": "Absalom sent for Joab to send him to the king, but Joab refused to come. He sent a second time, and again Joab refused to come.",
+      "translator_notes": [
+        "The verb avah ('to be willing, to consent') in its negative form (lo avah lavo, 'he was not willing to come') indicates a deliberate refusal, not mere unavailability. Joab chose not to respond to Absalom's summons -- twice. The repetition vayyishlach od shenit ('and he sent again a second time') and the identical refusal ve-lo avah lavo emphasize the pattern and build toward the explosion in the next verse.",
+        "The irony is sharp: Joab was willing to engineer an elaborate scheme with the wise woman of Tekoa to convince the king, but he is unwilling to walk across Jerusalem to meet with Absalom. The contrast reveals something important about Joab's character: he acts on his own initiative when he calculates advantage, but he will not be summoned by others -- not even by the prince he restored."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיֹּ֨אמֶר אֶל־עֲבָדָ֜יו רְא֗וּ חֶלְקַ֤ת יוֹאָב֙ אֶל־יָדִ֔י וְלוֹ־שָׁ֖ם שְׂעֹרִ֑ים לְכ֖וּ וְהַצִּת֣וּהָ בָאֵ֑שׁ וַיַּצִּ֙תוּ֙ עַבְדֵ֣י אַבְשָׁל֔וֹם אֶת־הַחֶלְקָ֖ה בָּאֵֽשׁ׃ פ",
+      "text_kjv": "Therefore he said unto his servants, See, Joab's field is near mine, and he hath barley there; go and set it on fire. And Absalom's servants set the field on fire.",
+      "rendering": "So he said to his servants, \"Look -- Joab's field is next to mine, and he has barley growing there. Go and set it on fire.\" And Absalom's servants set the field ablaze.",
+      "translator_notes": [
+        "The phrase chelqat Yo'av el-yadi ('Joab's plot of land is beside mine') reveals that Absalom and Joab owned adjacent fields -- a detail that emphasizes the proximity between the royal family and its military commander, and also the practical ease of the arson: Absalom's servants need only walk to the neighboring field.",
+        "The verb hatsitu ('set on fire') from the root yatsath describes deliberate ignition. The barley (se'orim) would have been ripe or nearly ripe, making it highly flammable. The destruction of a standing grain crop was a recognized form of aggression in the ancient Near East -- Samson used the same tactic against the Philistines (Judges 15:4-5). The narrator records both the command and its execution in a single verse, compressing the act to emphasize its swiftness and decisiveness."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיָּ֧קׇם יוֹאָ֛ב וַיָּבֹ֥א אֶל־אַבְשָׁל֖וֹם הַבָּ֑יְתָה וַיֹּ֣אמֶר אֵלָ֔יו לָ֣מָּה הִצִּ֧יתוּ עֲבָדֶ֛יךָ אֶת־הַחֶלְקָ֥ה אֲשֶׁר־לִ֖י בָּאֵֽשׁ׃",
+      "text_kjv": "Then Joab arose, and came to Absalom unto his house, and said unto him, Wherefore have thy servants set my field on fire?",
+      "rendering": "Joab got up and went to Absalom's house. He said to him, \"Why have your servants set my field on fire?\"",
+      "translator_notes": [
+        "The narrative sequence vayyaqom Yo'av vayyavo el-Avshalom ha-baytah ('Joab rose and came to Absalom's house') uses the same verbs that described Joab's mission to Geshur in verse 23. In both cases, Joab 'rises and goes' at someone else's initiative -- first David's command, now Absalom's provocation. The parallel subtly positions Absalom as exercising the kind of command that should belong to the king.",
+        "Joab's question lammah hitsitu avadekha ('why have your servants set on fire?') attributes the act to Absalom's servants rather than to Absalom directly, which may be a diplomatic attempt to give Absalom an exit ('your servants acted without orders') or simply an acknowledgment of the chain of command. Absalom, as we will see, claims full responsibility."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיֹּ֣אמֶר אַבְשָׁל֣וֹם אֶל־יוֹאָ֡ב הִנֵּ֣ה שָׁלַ֩חְתִּי֩ אֵלֶ֨יךָ לֵאמֹ֜ר בֹּ֣א הֵ֗נָּה וְאֶשְׁלְחָ֤ה אֹֽתְךָ֙ אֶל־הַמֶּ֔לֶךְ לֵאמֹ֕ר לָ֥מָּה בָּ֖אתִי מִגְּשׁ֑וּר ט֣וֹב לִ֗י עֹ֚ד אֲנִ֣י שָׁ֔ם וְעַתָּ֕ה אֶרְאֶ֖ה פְּנֵ֣י הַמֶּ֑לֶךְ וְאִם־יֵ֥שׁ בִּ֛י עָוֹ֖ן וֶהֱמִתָֽנִי׃",
+      "text_kjv": "And Absalom answered Joab, Behold, I sent unto thee, saying, Come hither, that I may send thee to the king, to say, Wherefore am I come from Geshur? it had been good for me to have been there still: now therefore let me see the king's face; and if there be any iniquity in me, let him kill me.",
+      "rendering": "Absalom said to Joab, \"Look -- I sent for you, saying, 'Come here so I can send you to the king with this message: Why did I bother coming back from Geshur? It would have been better for me to still be there.' Now then -- let me see the king's face. And if there is guilt in me, let him put me to death.\"",
+      "translator_notes": [
+        "The phrase tov li od ani sham ('it would be good for me, still being there') is a bitter assessment: Geshur was better than this. The word tov ('good') carries heavy irony -- exile in a foreign kingdom was 'good' compared to being a ghost in his own city. The rhetorical force is designed to shame David through Joab: your mercy is worse than your judgment.",
+        "The conditional ve-im yesh bi avon ve-hemitani ('and if there is guilt in me, let him kill me') uses avon (the same word the wise woman offered to bear in verse 9) and the verb hemit (hiphil of mut, 'to cause to die, to execute'). Absalom is demanding a formal judicial resolution: either acquit me by receiving me, or convict me and carry out the sentence. The demand for clarity is reasonable; the implicit threat -- that the current ambiguity will produce worse consequences -- is the subtext the narrator wants the reader to hear."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וַיָּבֹ֨א יוֹאָ֣ב אֶל־הַמֶּלֶךְ֮ וַיַּגֶּד־לוֹ֒ וַיִּקְרָ֤א אֶל־אַבְשָׁלוֹם֙ וַיָּבֹ֣א אֶל־הַמֶּ֔לֶךְ וַיִּשְׁתַּ֨חוּ ל֧וֹ עַל־אַפָּ֛יו אַ֖רְצָה לִפְנֵ֣י הַמֶּ֑לֶךְ וַיִּשַּׁק־הַמֶּ֖לֶךְ לְאַבְשָׁלֽוֹם׃",
+      "text_kjv": "So Joab came to the king, and told him: and when he had called for Absalom, he came to the king, and bowed himself on his face to the ground before the king: and the king kissed Absalom.",
+      "rendering": "Joab went to the king and reported this. The king summoned Absalom, and he came before the king and prostrated himself face-down to the ground in the king's presence. And the king kissed Absalom.",
+      "translator_notes": [
+        "The verb vayyishtachu ('and he prostrated himself') is the standard term for formal obeisance before a king or before God. Combined with al-appav artsah ('on his face to the ground'), it describes the most extreme form of physical submission. Absalom performs perfectly -- but the narrative has already shown us that Absalom is a man who performs when necessary and burns fields when performance fails.",
+        "The final clause vayyishaq ha-melekh le-Avshalom ('and the king kissed Absalom') uses the verb nashaq ('to kiss'), which in royal contexts signifies acceptance and restoration to favor. The kiss should mark the end of the estrangement. But the narrator provides no commentary, no evaluation, no 'and it was good' or 'and there was peace between them.' The silence after the kiss is the narrator's judgment: this reconciliation is incomplete, and its consequences will be catastrophic."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

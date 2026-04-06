@@ -1,0 +1,520 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Kings",
+    "chapter": 17,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Hoshea son of Elah becomes the last king of Israel. After conspiring with Egypt and withholding tribute from Assyria, he is arrested by Shalmaneser V. The Assyrians besiege Samaria for three years and finally capture it in 722 BCE, deporting the population to Halah, Habor, the Gozan River, and the cities of the Medes. The narrator then delivers the longest theological explanation in the entire book of Kings: Israel fell because they sinned against the God who brought them out of Egypt, feared other gods, walked in the customs of the dispossessed nations, built high places, set up pillars and Asherah poles, burned incense, and served idols — despite repeated prophetic warnings. God removed them from his presence. The chapter concludes with the resettlement: the king of Assyria imports foreign populations into Samaria. When lions attack the settlers, the Assyrians send back a deported Israelite priest to teach them how to worship the local God. The result is a syncretistic religion — the new inhabitants fear the LORD but also serve their own gods.",
+    "remarkable": "This is the theological center of gravity in Kings. After seventeen chapters of northern kingdom narrative — the steady drumbeat of 'he walked in the way of Jeroboam son of Nebat who caused Israel to sin' — the narrator finally pauses the story to deliver his verdict. Verses 7-23 form the longest continuous editorial commentary in Kings, a sustained prosecutorial argument for why the exile was just. The structure is a covenant lawsuit: God delivered Israel from Egypt (the foundational act), Israel violated the covenant terms (the catalog of sins), God sent prophets to warn them (the appeal), Israel refused to listen (the verdict trigger), and God removed them from the land (the sentence). The narrator is not merely recording history; he is arguing a case. Every sentence in the indictment echoes Deuteronomy — this is Mosaic theology applied to historical catastrophe. The chapter's final section (vv. 24-41) on the syncretistic religion of the resettled Samaritans explains the origin of what will become the Samaritan question that persists into the New Testament period.",
+    "friction": "The phrase vayyitgannev benei Yisrael devarim ('the children of Israel secretly did things,' v. 9) uses the rare hitpael of ganav ('to steal'), meaning they 'stole' or smuggled practices into their worship — acting with deliberate concealment. This is difficult to render without over-interpreting; we use 'secretly attributed to the LORD things that were not true.' The list of nations resettled in Samaria (v. 24) and their gods (vv. 30-31) presents names whose exact identifications remain debated. We transliterate them and provide what is known. The final theological statement — that the Samaritans 'feared the LORD and served their own gods' (v. 33) — presents a tension the narrator considers irreconcilable: dual allegiance is not worship but confusion.",
+    "connections": "The entire theological argument of vv. 7-23 is built on Deuteronomy: the exodus as foundational event (Deuteronomy 5:6), the prohibition of other gods (Deuteronomy 5:7), the warning against Canaanite practices (Deuteronomy 18:9-12), the sending of prophets (Deuteronomy 18:15-22), and the curse of exile for covenant violation (Deuteronomy 28:63-68). The phrase 'removed them from his presence' (v. 23) reverses the promise of God's presence with Israel throughout the wilderness and settlement narratives. The resettlement of foreign peoples in Samaria (v. 24) creates the historical foundation for the Samaritan community, whose tense relationship with Judah will surface in Ezra-Nehemiah and in Jesus' interaction with the Samaritan woman (John 4). The lion attacks on the new settlers (v. 25) echo the covenant curse of Leviticus 26:22: 'I will send wild animals against you.'"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "בִּשְׁנַ֣ת שְׁתֵּ֤ים עֶשְׂרֵה֙ לְאָחָ֣ז מֶ֣לֶךְ יְהוּדָ֔ה מָלַ֛ךְ הוֹשֵׁ֥עַ בֶּן־אֵלָ֖ה בְּשֹׁמְר֑וֹן עַל־יִשְׂרָאֵ֖ל תֵּ֥שַׁע שָׁנִֽים׃",
+      "text_kjv": "In the twelfth year of Ahaz king of Judah began Hoshea the son of Elah to reign in Samaria over Israel nine years.",
+      "rendering": "In the twelfth year of Ahaz king of Judah, Hoshea son of Elah became king in Samaria over Israel, and he reigned nine years.",
+      "translator_notes": [
+        "The accession formula for Israel's last king is stark. Hoshea's nine-year reign will end in catastrophe. His name (Hoshea, 'salvation') is bitterly ironic — the man named 'salvation' will preside over the destruction of the northern kingdom."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיַּ֥עַשׂ הָרַ֖ע בְּעֵינֵ֣י יְהוָ֑ה רַ֗ק לֹ֚א כְּמַלְכֵ֣י יִשְׂרָאֵ֔ל אֲשֶׁ֥ר הָי֖וּ לְפָנָֽיו׃",
+      "text_kjv": "And he did that which was evil in the sight of the LORD, but not as the kings of Israel that were before him.",
+      "rendering": "He did what was evil in the eyes of the LORD, though not to the degree of the kings of Israel who preceded him.",
+      "translator_notes": [
+        "The qualifier raq lo kemalkei Yisrael ('only not like the kings of Israel') is a faint distinction — Hoshea is evil, but comparatively less so. This partial mitigation does not save him or his kingdom. The narrator acknowledges a degree of difference without granting approval. The judgment is still hara be-einei YHWH ('evil in the eyes of the LORD')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "עָלָ֣יו עָלָ֔ה שַׁלְמַנְאֶ֖סֶר מֶ֣לֶךְ אַשּׁ֑וּר וַיְהִי־ל֤וֹ הוֹשֵׁ֙עַ֙ עֶ֔בֶד וַיָּ֥שֶׁב ל֖וֹ מִנְחָֽה׃",
+      "text_kjv": "Against him came up Shalmaneser king of Assyria; and Hoshea became his servant, and gave him presents.",
+      "rendering": "Shalmaneser king of Assyria marched against him, and Hoshea became his vassal and paid him tribute.",
+      "translator_notes": [
+        "Shalmaneser V (reigned 727-722 BCE) succeeded Tiglath-pileser III. The phrase vayyehi lo Hoshea eved ('and Hoshea became his servant') indicates formal vassal status. The word minchah ('tribute, gift') in political contexts means regular tribute payments acknowledging overlordship. Israel is now a client state of Assyria."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיִּמְצָ֤א מֶלֶךְ־אַשּׁוּר֙ בְּהוֹשֵׁ֣עַ קֶ֔שֶׁר אֲשֶׁ֨ר שָׁלַ֤ח מַלְאָכִים֙ אֶל־ס֣וֹא מֶלֶךְ־מִצְרַ֔יִם וְלֹא־הֶעֱלָ֥ה מִנְחָ֛ה לְמֶ֥לֶךְ אַשּׁ֖וּר כְּשָׁנָ֣ה בְשָׁנָ֑ה וַיַּ֥עַצְרֵ֛הוּ מֶ֥לֶךְ אַשּׁ֖וּר וַיַּאַסְרֵ֥הוּ בֵּֽית כֶּֽלֶא׃",
+      "text_kjv": "And the king of Assyria found conspiracy in Hoshea: for he had sent messengers to So king of Egypt, and brought no present to the king of Assyria, as he had done year by year: therefore the king of Assyria shut him up, and bound him in prison.",
+      "rendering": "But the king of Assyria discovered a conspiracy by Hoshea — he had sent envoys to So, king of Egypt, and had stopped paying the annual tribute to the king of Assyria. So the king of Assyria arrested him and locked him in prison.",
+      "translator_notes": [
+        "The word qesher ('conspiracy, rebellion') is the political term for revolt against an overlord. So (So') king of Egypt is difficult to identify — possibly Osorkon IV of Tanis, or the Egyptian commander Sib'e mentioned in Assyrian records, or a corruption of Sais (the city). Hoshea's fatal miscalculation was seeking Egyptian alliance against Assyria — a strategy Isaiah repeatedly condemns (Isaiah 30:1-5, 31:1-3). The verb vayyya'atserahu ('and he seized/detained him') followed by vayyya'asrehu beit kele ('and he bound him in a prison house') indicates formal arrest and imprisonment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיַּ֤עַל מֶלֶךְ־אַשּׁוּר֙ בְּכׇל־הָאָ֔רֶץ וַיַּ֖עַל שֹׁמְר֑וֹן וַיָּ֥צַר עָלֶ֖יהָ שָׁלֹ֥שׁ שָׁנִֽים׃",
+      "text_kjv": "Then the king of Assyria came up throughout all the land, and went up to Samaria, and besieged it three years.",
+      "rendering": "The king of Assyria invaded the entire land, marched up to Samaria, and besieged it for three years.",
+      "translator_notes": [
+        "The phrase bekhol ha-arets ('throughout the entire land') indicates a comprehensive military campaign, not a targeted strike. The three-year siege of Samaria (approximately 725-722 BCE) was one of the longest in ancient Near Eastern history. The verb vayyatsar ('and he besieged') implies complete encirclement — cutting off food, water, and communication."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "בִּשְׁנַ֨ת הַתְּשִׁיעִ֜ית לְהוֹשֵׁ֗עַ לָכַ֤ד מֶלֶךְ־אַשּׁוּר֙ אֶת־שֹׁ֣מְר֔וֹן וַיֶּ֥גֶל אֶת־יִשְׂרָאֵ֖ל אַשּׁ֑וּרָה וַיֹּ֨שֶׁב אֹתָ֜ם בַּחְלַ֧ח וּבְחָב֛וֹר נְהַ֥ר גּוֹזָ֖ן וְעָרֵ֥י מָדָֽי׃",
+      "text_kjv": "In the ninth year of Hoshea the king of Assyria took Samaria, and carried Israel away into Assyria, and placed them in Halah and in Habor by the river of Gozan, and in the cities of the Medes.",
+      "rendering": "In the ninth year of Hoshea, the king of Assyria captured Samaria and deported Israel to Assyria. He settled them in Halah, along the Habor — the river of Gozan — and in the cities of the Medes.",
+      "translator_notes": [
+        "This verse records the end of the northern kingdom of Israel — 722 BCE, approximately two hundred years after the division under Rehoboam. The verb vayyegel ('and he exiled') is from galah, the root that means both 'to exile' and 'to uncover, lay bare.' The deportation locations are in upper Mesopotamia and western Iran: Chalach (Halah) near Nineveh, Chavor (Habor) on the Gozan River (modern Khabur River in northeastern Syria), and the cities of the Medes in western Iran. The scattered placement was deliberate Assyrian policy — dispersing conquered populations prevented organized resistance."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גָּלָה",
+          "transliteration": "galah",
+          "rendered_as": "deported",
+          "semantic_range": "to uncover, to reveal, to strip bare, to exile, to deport, to go into captivity",
+          "note": "galah — the verb of exile carries the connotation of stripping and exposure. Israel is 'uncovered' — removed from the protective covering of the land, exposed to the nations. The same root describes the uncovering of nakedness in Leviticus 18, connecting exile to shame."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיְהִ֗י כִּֽי־חָטְא֤וּ בְנֵֽי־יִשְׂרָאֵל֙ לַיהוָ֣ה אֱלֹהֵיהֶ֔ם הַמַּעֲלֶ֤ה אֹתָם֙ מֵאֶ֣רֶץ מִצְרַ֔יִם מִתַּ֕חַת יַ֖ד פַּרְעֹ֣ה מֶלֶךְ־מִצְרָ֑יִם וַיִּֽירְא֖וּ אֱלֹהִ֥ים אֲחֵרִֽים׃",
+      "text_kjv": "For so it was, that the children of Israel had sinned against the LORD their God, which had brought them up out of the land of Egypt, from under the hand of Pharaoh king of Egypt, and had feared other gods,",
+      "rendering": "This happened because the Israelites sinned against the LORD their God, who had brought them up from the land of Egypt, from under the power of Pharaoh king of Egypt. They feared other gods",
+      "translator_notes": [
+        "The theological explanation begins with ki — 'because.' Everything that follows is the reason for the exile. The narrator anchors the entire argument in the exodus: YHWH is identified as hamma'aleh otam me-erets Mitsrayim ('the one who brought them up from the land of Egypt'). The exodus is the foundational act of salvation that creates the obligation of exclusive loyalty. The phrase vayyir'u elohim acherim ('and they feared other gods') uses yare ('to fear, to revere') — the same verb used for proper worship of God. Fearing other gods is the primal covenant violation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֵּֽלְכ֗וּ בְּחֻקּ֤וֹת הַגּוֹיִם֙ אֲשֶׁ֨ר הוֹרִ֤ישׁ יְהוָה֙ מִפְּנֵ֣י בְנֵ֣י יִשְׂרָאֵ֔ל וּמַלְכֵ֥י יִשְׂרָאֵ֖ל אֲשֶׁ֥ר עָשֽׂוּ׃",
+      "text_kjv": "And walked in the statutes of the heathen, whom the LORD cast out from before the children of Israel, and of the kings of Israel, which they had made.",
+      "rendering": "and followed the customs of the nations that the LORD had dispossessed before the Israelites, and the practices that the kings of Israel had introduced.",
+      "translator_notes": [
+        "Two sources of corruption are identified: the chuqqot haggoyim ('statutes/customs of the nations') that God had driven out, and the practices introduced by malkei Yisrael ('the kings of Israel'). The verb horish ('to dispossess, to drive out') recalls the conquest — these nations were removed precisely because of their practices, and now Israel has adopted what destroyed others. The phrase asher asu ('which they made/did') at the end refers to the royal innovations — the calves, the high places, the Baal worship — that the kings imposed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיְחַפְּא֣וּ בְנֵֽי־יִשְׂרָאֵ֗ל דְּבָרִים֙ אֲשֶׁ֣ר לֹא־כֵ֔ן עַל־יְהוָ֖ה אֱלֹהֵיהֶ֑ם וַיִּבְנ֨וּ לָהֶ֤ם בָּמוֹת֙ בְּכׇל־עָ֣רֵיהֶ֔ם מִמִּגְדַּ֥ל נוֹצְרִ֖ים עַד־עִ֥יר מִבְצָֽר׃",
+      "text_kjv": "And the children of Israel did secretly those things that were not right against the LORD their God, and they built them high places in all their cities, from the tower of the watchmen to the fenced city.",
+      "rendering": "The Israelites secretly attributed to the LORD their God things that were not true about him. They built high places in every one of their towns, from the smallest watchtower outpost to the largest fortified city.",
+      "translator_notes": [
+        "The verb vaychapp'u is extremely rare — a hapax legomenon from the root chapa, meaning 'to cover, to conceal, to do secretly.' The Israelites were smuggling pagan meanings into their worship of the LORD, concealing foreign practices under Yahwistic language. The phrase devarim asher lo khen ('things that were not so/right') suggests false theological claims — attributing to God what was not from God.",
+        "The phrase mimmigdal notserim ad ir mivtsar ('from a watchtower of watchmen to a fortified city') is a merism — from the smallest inhabited outpost to the largest urban center, meaning everywhere without exception. No settlement was too small to have its own high place."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיַּצִּ֧בוּ לָהֶ֛ם מַצֵּב֖וֹת וַאֲשֵׁרִ֑ים עַ֚ל כׇּל־גִּבְעָ֣ה גְבֹהָ֔ה וְתַ֖חַת כׇּל־עֵ֥ץ רַעֲנָֽן׃",
+      "text_kjv": "And they set them up images and groves in every high hill, and under every green tree:",
+      "rendering": "They set up sacred pillars and Asherah poles on every high hill and under every leafy tree.",
+      "translator_notes": [
+        "The matstsevot ('standing stones, sacred pillars') were upright stone monuments associated with Canaanite worship. The asherim ('Asherah poles' or 'sacred trees') represented the goddess Asherah. The phrase al kol giv'ah gevohah vetachat kol ets ra'anan ('on every high hill and under every leafy tree') is the standard formula for the ubiquity of illicit worship — elevated sites for pillars, shaded groves for Asherah poles."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיְקַטְּרוּ־שָׁם֙ בְּכׇל־בָּמ֔וֹת כַּגּוֹיִ֕ם אֲשֶׁר־הֶגְלָ֥ה יְהוָ֖ה מִפְּנֵיהֶ֑ם וַֽיַּעֲשׂ֞וּ דְּבָרִ֣ים רָעִ֔ים לְהַכְעִ֖יס אֶת־יְהוָֽה׃",
+      "text_kjv": "And there they burnt incense in all the high places, as did the heathen whom the LORD carried away before them; and wrought wicked things to provoke the LORD to anger;",
+      "rendering": "They burned incense at every high place, just as the nations had done — the ones the LORD had exiled before them. They did evil things that provoked the LORD.",
+      "translator_notes": [
+        "The verb vayyeqatteru ('and they burned incense') at the bamot ('high places') replicates exactly what the dispossessed nations had done. The phrase lehakh'is et YHWH ('to provoke the LORD') uses the hiphil of ka'as ('to anger, to provoke'). The narrator does not say they intended to anger God, but that the objective effect of their actions was provocation. The verb heglah ('he exiled') applied to the former nations foreshadows what will happen to Israel — the same verb, the same fate."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיַּעַבְד֖וּ הַגִּלֻּלִ֑ים אֲשֶׁ֨ר אָמַ֤ר יְהוָה֙ לָהֶ֔ם לֹ֥א תַעֲשׂ֖וּ אֶת־הַדָּבָ֥ר הַזֶּֽה׃",
+      "text_kjv": "For they served idols, whereof the LORD had said unto them, Ye shall not do this thing.",
+      "rendering": "They served worthless idols, about which the LORD had told them, \"You must not do this.\"",
+      "translator_notes": [
+        "The word gillulim ('idols') is a deliberately contemptuous term — probably derived from galal ('to roll') and related to gelal ('dung'). It means something like 'dung-pellets' or 'worthless round things.' The term is a favorite of Ezekiel, who uses it nearly forty times. The direct divine prohibition — lo ta'asu et haddavar hazzeh ('you shall not do this thing') — makes the violation inexcusable. They knew the command and violated it anyway."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיָּ֣עַד יְהוָ֡ה בְּיִשְׂרָאֵ֣ל וּבִיהוּדָ֡ה בְּיַד֩ כׇּל־נְבִיאֵ֨י כׇל־חֹזֶ֜ה לֵאמֹ֗ר שֻׁ֝֗בוּ מִדַּרְכֵיכֶ֤ם הָרָעִים֙ וְשִׁמְר֞וּ מִצְוֺתַ֤י חֻקּוֹתַי֙ כְּכׇל־הַתּוֹרָ֔ה אֲשֶׁ֥ר צִוִּ֖יתִי אֶת־אֲבֹתֵיכֶ֑ם וַאֲשֶׁר֙ שָׁלַ֣חְתִּי אֲלֵיכֶ֔ם בְּיַ֖ד עֲבָדַ֥י הַנְּבִיאִֽים׃",
+      "text_kjv": "Yet the LORD testified against Israel, and against Judah, by all the prophets, and by all the seers, saying, Turn ye from your evil ways, and keep my commandments and my statutes, according to all the law which I commanded your fathers, and which I sent to you by my hand of my servants the prophets.",
+      "rendering": "The LORD warned Israel and Judah through every prophet and every seer: \"Turn back from your evil ways. Keep my commandments and my statutes according to the entire the Law that I commanded your ancestors and that I sent to you through my servants the prophets.\"",
+      "translator_notes": [
+        "The verb vayyya'ad ('and he testified, warned, admonished') is a legal term — God formally placed Israel on notice. The warning went through kol nevi'ei kol chozeh ('every prophet, every seer') — two terms for prophetic figures, indicating comprehensive prophetic witness. The message is simple: shuvu middarkeikhem hara'im ('turn back from your evil ways') — the call to repentance. The standard is kekhol hattorah ('according to the entire Torah') — not part of it, not a reduced version, but the whole instruction given to the ancestors."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹרָה",
+          "transliteration": "torah",
+          "rendered_as": "the Law",
+          "semantic_range": "instruction, teaching, law, direction, guidance, the five books of Moses",
+          "note": "torah (from yarah, 'to instruct, to point the way') — not merely 'law' in the legislative sense but comprehensive divine instruction. The narrator identifies the entire Mosaic covenant as the standard Israel violated."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְלֹ֖א שָׁמֵ֑עוּ וַיַּקְשׁ֤וּ אֶת־עׇרְפָּם֙ כְּעֹ֣רֶף אֲבוֹתָ֔ם אֲשֶׁר֙ לֹ֣א הֶאֱמִ֔ינוּ בַּיהוָ֖ה אֱלֹהֵיהֶֽם׃",
+      "text_kjv": "Notwithstanding they would not hear, but hardened their necks, like to the neck of their fathers, that did not believe in the LORD their God.",
+      "rendering": "But they would not listen. They stiffened their necks like their ancestors who did not trust in the LORD their God.",
+      "translator_notes": [
+        "The phrase vayyaqshu et orfam ('they stiffened their neck') is the classic image of the stubborn ox that will not respond to the yoke. The comparison ke-oref avotam ('like the neck of their ancestors') reaches back to the wilderness generation — the same qeshei oref ('stiff-necked') people of Exodus 32:9 and Deuteronomy 9:6. The verb he'eminu ('they trusted, believed') from the root aman — the refusal to trust God is the fundamental failure beneath all the specific sins."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֱמוּנָה",
+          "transliteration": "emunah",
+          "rendered_as": "trust",
+          "semantic_range": "faithfulness, steadfastness, reliability, trust, firmness, fidelity",
+          "note": "emunah (from aman, 'to be firm, reliable') — the root behind 'amen.' The ancestors' failure was not intellectual doubt but relational refusal: they would not lean their weight on God's reliability."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיִּמְאֲס֣וּ אֶת־חֻקָּ֗יו וְאֶת־בְּרִית֛וֹ אֲשֶׁ֥ר כָּרַ֖ת אֶת־אֲבוֹתָ֑ם וְאֵת֙ עֵדְוֺתָ֔יו אֲשֶׁ֥ר הֵעִ֖יד בָּֽם וַיֵּ֨לְכ֜וּ אַחֲרֵ֤י הַהֶ֙בֶל֙ וַיֶּהְבָּ֔לוּ וְאַחֲרֵ֤י הַגּוֹיִם֙ אֲשֶׁ֣ר סְבִיבֹתָ֔ם אֲשֶׁ֨ר צִוָּ֤ה יְהוָה֙ אֹתָ֔ם לְבִלְתִּ֖י עֲשׂ֥וֹת כָּהֶֽם׃",
+      "text_kjv": "And they rejected his statutes, and his covenant that he made with their fathers, and his testimonies which he testified against them; and they followed vanity, and became vain, and went after the heathen that were round about them, concerning whom the LORD had charged them, that they should not do like them.",
+      "rendering": "They rejected his statutes and his covenant that he had made with their ancestors, and the warnings he had given them. They pursued emptiness and became empty themselves. They imitated the nations around them, the very nations the LORD had commanded them not to copy.",
+      "translator_notes": [
+        "The verb vayyim'asu ('they rejected') is a strong term — active, deliberate refusal, not passive drift. Three things are rejected: chuqqav ('his statutes'), berito ('his covenant'), and edvotav ('his testimonies/warnings'). The wordplay vayyyelkhu acharei hahevel vayyehbalu ('they pursued emptiness and became empty') is one of the most theologically dense phrases in Kings: hevel ('breath, vapor, emptiness') is the word Ecclesiastes uses for futility. They chased vapor and became vapor. You become what you worship."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, agreement, solemn bond, pact, alliance",
+          "note": "berit — the formal bond between God and Israel established at Sinai and renewed in Deuteronomy. Rejecting the berit is not breaking a rule but severing a relationship. The covenant they rejected was made with their ancestors (avotam), meaning this generation bears responsibility for a relationship they inherited."
+        },
+        {
+          "hebrew": "הֶבֶל",
+          "transliteration": "hevel",
+          "rendered_as": "emptiness",
+          "semantic_range": "breath, vapor, emptiness, futility, vanity, worthlessness, absurdity",
+          "note": "hevel — literally 'a breath' or 'vapor,' used for anything that is transient, insubstantial, or futile. The theological point is transformative: pursuing hevel makes you hevel. Idol worship does not merely offend God; it hollows out the worshiper."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיַּעַזְב֗וּ אֶת־כׇּל־מִצְוֺת֙ יְהוָ֣ה אֱלֹהֵיהֶ֔ם וַיַּעֲשׂ֥וּ לָהֶ֛ם מַסֵּכָ֖ה שְׁנֵ֣ים עֲגָלִ֑ים וַיַּעֲשׂ֣וּ אֲשֵׁירָ֗ה וַיִּֽשְׁתַּחֲוּ֛וּ לְכׇל־צְבָ֥א הַשָּׁמַ֖יִם וַיַּעַבְד֥וּ אֶת־הַבָּֽעַל׃",
+      "text_kjv": "And they left all the commandments of the LORD their God, and made them molten images, even two calves, and made a grove, and worshipped all the host of heaven, and served Baal.",
+      "rendering": "They abandoned all the commandments of the LORD their God. They made two cast metal calves for themselves, set up an Asherah pole, bowed down to the entire host of heaven, and served Baal.",
+      "translator_notes": [
+        "The catalog of sins escalates. The massekah shenayim agalim ('molten image — two calves') refers to Jeroboam's golden calves at Dan and Bethel (1 Kings 12:28-29), the foundational sin of the northern kingdom. The asherah is the cult object representing the goddess. The phrase kol tseva hashamayim ('the entire host of heaven') refers to astral worship — sun, moon, stars, and planetary deities. The Baal (haBa'al, 'the lord/master') is the Canaanite storm deity whose worship Elijah confronted on Mount Carmel. The progression moves from Israelite innovation (calves) to Canaanite nature religion (Asherah, Baal) to Mesopotamian astral worship (host of heaven) — a comprehensive catalog of available idolatries."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיַּעֲבִ֧ירוּ אֶת־בְּנֵיהֶ֛ם וְאֶת־בְּנוֹתֵיהֶ֖ם בָּאֵ֑שׁ וַיִּקְסְמ֤וּ קְסָמִים֙ וַיְנַחֵ֔שׁוּ וַיִּֽתְמַכְּר֗וּ לַעֲשׂ֥וֹת הָרַ֛ע בְּעֵינֵ֥י יְהוָ֖ה לְהַכְעִיסֽוֹ׃",
+      "text_kjv": "And they caused their sons and their daughters to pass through the fire, and used divination and enchantments, and sold themselves to do evil in the sight of the LORD, to provoke him to anger.",
+      "rendering": "They made their sons and daughters pass through the fire. They practiced divination and read omens. They sold themselves to do what was evil in the eyes of the LORD, provoking him.",
+      "translator_notes": [
+        "The sins reach their apex: child sacrifice (he'eviru et-beneihem ve-et-benoteihem ba-esh — both sons and daughters), divination (qesamim), and sorcery (nachash, 'reading omens from signs'). The phrase vayyitmakkeru la'asot hara ('they sold themselves to do evil') uses the reflexive of makhar ('to sell') — they became slaves to evil by their own transaction. No one forced them; they sold themselves. The same verb will describe Ahab in 1 Kings 21:25."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיִּתְאַנַּ֨ף יְהוָ֤ה מְאֹד֙ בְּיִשְׂרָאֵ֔ל וַיְסִרֵ֖ם מֵעַ֣ל פָּנָ֑יו לֹ֣א נִשְׁאַ֔ר רַ֛ק שֵׁ֥בֶט יְהוּדָ֖ה לְבַדּֽוֹ׃",
+      "text_kjv": "Therefore the LORD was very angry with Israel, and removed them out of his sight: there was none left but the tribe of Judah only.",
+      "rendering": "The LORD became deeply angry with Israel and removed them from his presence. No one remained except the tribe of Judah alone.",
+      "translator_notes": [
+        "The verb vayyit'annaf ('he became angry') in the hitpael indicates intense, sustained anger. The phrase vayyesirem me-al panav ('he removed them from before his face/presence') is the sentence: exile is removal from the divine presence. The land was where God's face was turned toward Israel; exile is where his face is turned away. The survival of shevet Yehudah levaddo ('the tribe of Judah alone') is both a mercy and a warning — Judah is spared but now utterly alone."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "גַּם־יְהוּדָ֕ה לֹ֣א שָׁמַ֔ר אֶת־מִצְוֺ֖ת יְהוָ֣ה אֱלֹהֵיהֶ֑ם וַיֵּ֣לְכ֔וּ בְּחֻקּ֥וֹת יִשְׂרָאֵ֖ל אֲשֶׁ֥ר עָשֽׂוּ׃",
+      "text_kjv": "Also Judah kept not the commandments of the LORD their God, but walked in the statutes of Israel which they made.",
+      "rendering": "Even Judah did not keep the commandments of the LORD their God but followed the practices that Israel had introduced.",
+      "translator_notes": [
+        "The ominous parenthetical: gam Yehudah ('even Judah') did not guard God's commandments. The narrator interrupts the indictment of Israel to note that Judah is infected with the same disease. They walked bechuqqot Yisrael ('in the customs of Israel') — the northern kingdom's sins had spread south. This verse foreshadows Judah's own eventual exile, which the narrator knows is coming."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיִּמְאַ֣ס יְהוָ֗ה בְּכׇל־זֶ֙רַע֙ יִשְׂרָאֵ֔ל וַיְעַנֵּ֕ם וַיִּתְּנֵ֖ם בְּיַד־שֹׁסִ֑ים עַ֛ד אֲשֶׁ֥ר הִשְׁלִיכָ֖ם מִפָּנָֽיו׃",
+      "text_kjv": "And the LORD rejected all the seed of Israel, and afflicted them, and delivered them into the hand of spoilers, until he had cast them out of his sight.",
+      "rendering": "The LORD rejected the entire offspring of Israel, afflicted them, and handed them over to plunderers until he had thrown them out from his presence.",
+      "translator_notes": [
+        "The verb vayyim'as ('he rejected') echoes v. 15 where Israel rejected God's covenant — the verb is turned back on them. What they did to God's covenant, God now does to them. The phrase ad asher hishlikham mippanav ('until he threw them from before his face') is more violent than v. 18's 'removed' — hishliakh is 'to hurl, to throw away.' The progression from 'removed' to 'hurled away' intensifies the judgment language."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "כִּֽי־קָרַ֤ע יִשְׂרָאֵל֙ מֵעַ֣ל בֵּ֣ית דָּוִ֔ד וַיַּמְלִ֕יכוּ אֶת־יָרָבְעָ֖ם בֶּן־נְבָ֑ט וַיַדַּ֨ח יָרָבְעָ֤ם אֶת־יִשְׂרָאֵל֙ מֵאַחֲרֵ֣י יְהוָ֔ה וְהֶחֱטִיאָ֖ם חֲטָאָ֥ה גְדוֹלָֽה׃",
+      "text_kjv": "For he rent Israel from the house of David; and they made Jeroboam the son of Nebat king: and Jeroboam drave Israel from following the LORD, and made them sin a great sin.",
+      "rendering": "When Israel tore itself away from the house of David and made Jeroboam son of Nebat king, Jeroboam drove Israel away from following the LORD and caused them to commit a great sin.",
+      "translator_notes": [
+        "The narrator traces the disease to its origin: the division of the kingdom. The verb qara ('to tear, to rend') is the same word Ahijah used when he tore his garment into twelve pieces (1 Kings 11:30-31). Jeroboam is charged with two actions: vayyaddach ('he drove away, pushed away') Israel from following YHWH, and hecheti'am chata'ah gedolah ('he caused them to sin a great sin'). The 'great sin' is the establishment of the golden calves at Dan and Bethel — the institutional alternative to Jerusalem worship that corrupted every subsequent generation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיֵּ֣לְכ֔וּ בְּנֵ֖י יִשְׂרָאֵ֑ל בְּכׇל־חַטֹּ֤אות יָרָבְעָם֙ אֲשֶׁ֣ר עָשָׂ֔ה לֹא־סָ֖רוּ מִמֶּֽנָּה׃",
+      "text_kjv": "For the children of Israel walked in all the sins of Jeroboam which he did; they departed not from them;",
+      "rendering": "The Israelites persisted in all the sins of Jeroboam that he had committed. They did not turn away from them",
+      "translator_notes": [
+        "The phrase lo saru mimennah ('they did not turn aside from it') uses the verb sur ('to turn aside, to depart') — the same verb used positively when kings 'do not turn aside' from the LORD's commands. Here it is inverted: they would not turn aside from Jeroboam's sin. The persistence is total — bekhol chattot Yarov'am ('in all the sins of Jeroboam') — no exception, no reform."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "עַ֣ד אֲשֶׁר־הֵסִ֨יר יְהוָ֤ה אֶת־יִשְׂרָאֵל֙ מֵעַ֣ל פָּנָ֔יו כַּאֲשֶׁ֣ר דִּבֶּ֔ר בְּיַ֖ד כׇּל־עֲבָדָ֣יו הַנְּבִיאִ֑ים וַיִּ֤גֶל יִשְׂרָאֵל֙ מֵעַ֣ל אַדְמָת֔וֹ אַשּׁ֖וּרָה עַ֥ד הַיּ֥וֹם הַזֶּֽה׃",
+      "text_kjv": "Until the LORD removed Israel out of his sight, as he had said by all his servants the prophets. So was Israel carried away out of their own land to Assyria unto this day.",
+      "rendering": "until the LORD removed Israel from his presence, just as he had spoken through all his servants the prophets. Israel was deported from their own soil to Assyria, where they remain to this day.",
+      "translator_notes": [
+        "The theological summary reaches its conclusion: ad asher hesir YHWH et Yisrael me-al panav ('until the LORD removed Israel from before his face'). The exile is presented as both predicted (ka'asher dibber, 'just as he spoke') and executed — prophetic word became historical reality. The phrase vayyigel Yisrael me-al admato ('Israel was exiled from upon its soil') uses adamah ('soil, ground') rather than erets ('land'), emphasizing the agricultural, physical rootedness that exile tears up. They are pulled from the ground like uprooted plants."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גָּלָה",
+          "transliteration": "galah",
+          "rendered_as": "deported",
+          "semantic_range": "to uncover, to reveal, to strip bare, to exile, to deport, to go into captivity",
+          "note": "galah — the exile verb appears again at the theological climax. Israel is stripped from its soil, laid bare before the nations. The narrator's 'to this day' confirms the exile is permanent — there is no return narrative for the northern tribes."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיָּבֵ֣א מֶלֶךְ־אַשּׁ֡וּר מִבָּבֶ֡ל וּ֠מִכּוּתָ֠ה וּמֵעַוָּ֤א וּמֵחֲמָת֙ וּסְפַרְוַ֔יִם וַיֹּ֙שֶׁב֙ בְּעָרֵ֣י שֹׁמְר֔וֹן תַּ֖חַת בְּנֵ֣י יִשְׂרָאֵ֑ל וַיִּֽרְשׁוּ֙ אֶת־שֹׁ֣מְר֔וֹן וַיֵּשְׁב֖וּ בְּעָרֶֽיהָ׃",
+      "text_kjv": "And the king of Assyria brought men from Babylon, and from Cuthah, and from Ava, and from Hamath, and from Sepharvaim, and placed them in the cities of Samaria instead of the children of Israel: and they possessed Samaria, and dwelt in the cities thereof.",
+      "rendering": "The king of Assyria brought people from Babylon, Cuthah, Avva, Hamath, and Sepharvaim, and settled them in the cities of Samaria in place of the Israelites. They took possession of Samaria and lived in its towns.",
+      "translator_notes": [
+        "Assyrian population transfer policy: conquered peoples from various regions are relocated to fill the emptied cities of Samaria. Babylon (Bavel) is in southern Mesopotamia; Cuthah (Kutah) is near Babylon; Avva is uncertain but possibly in Syria; Hamath (Chamat) is in central Syria; Sepharvaim (Sefarvayim) may be Sippar in Mesopotamia. The phrase tachat benei Yisrael ('in place of the children of Israel') is blunt replacement language. The verb vayyirshu ('they took possession') is the same verb used for Israel's original taking of the land in Joshua — foreign nations now possess what Israel once conquered."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיְהִ֗י בִּתְחִלַּת֙ שִׁבְתָּ֣ם שָׁ֔ם לֹ֥א יָרְא֖וּ אֶת־יְהוָ֑ה וַיְשַׁלַּ֨ח יְהוָ֤ה בָּהֶם֙ אֶת־הָ֣אֲרָי֔וֹת וַיִּהְי֥וּ הֹרְגִ֖ים בָּהֶֽם׃",
+      "text_kjv": "And so it was at the beginning of their dwelling there, that they feared not the LORD: therefore the LORD sent lions among them, which slew some of them.",
+      "rendering": "When they first settled there, they did not fear the LORD. So the LORD sent lions among them, and the lions were killing some of them.",
+      "translator_notes": [
+        "The phrase lo yar'u et YHWH ('they did not fear the LORD') identifies the problem: the new inhabitants do not know or reverence the God of the land. The response — vayyeshallach YHWH bahem et ha-arayot ('the LORD sent lions among them') — treats the land as sacred territory that rejects uninstructed inhabitants. Lions were native to the region in antiquity and are associated with divine judgment (1 Kings 13:24, 20:36). The participial form horgim ('killing') indicates ongoing, repeated attacks — not a single incident but a persistent threat."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיֹּאמְר֗וּ לְמֶ֣לֶךְ אַשּׁוּר֮ לֵאמֹר֒ הַגּוֹיִ֗ם אֲשֶׁ֤ר הִגְלִ֙יתָ֙ וַתּ֙וֹשֶׁב֙ בְּעָרֵ֣י שֹׁמְר֔וֹן לֹ֣א יָדְע֔וּ אֶת־מִשְׁפַּ֖ט אֱלֹהֵ֣י הָאָ֑רֶץ וַיְשַׁלַּח־בָּ֣ם אֶת־הָאֲרָי֗וֹת וְהִנָּם֙ מְמִיתִ֣ים אוֹתָ֔ם כַּאֲשֶׁ֨ר אֵינָ֤ם יֹדְעִים֙ אֶת־מִשְׁפַּ֖ט אֱלֹהֵ֥י הָאָֽרֶץ׃",
+      "text_kjv": "Wherefore they spake to the king of Assyria, saying, The nations which thou hast removed, and placed in the cities of Samaria, know not the manner of the God of the land: therefore he hath sent lions among them, and, behold, they slay them, because they know not the manner of the God of the land.",
+      "rendering": "They reported to the king of Assyria: \"The nations you deported and resettled in the cities of Samaria do not know the requirements of the God of the land. He has sent lions among them, and the lions are killing them because they do not know the requirements of the God of the land.\"",
+      "translator_notes": [
+        "The settlers understand the situation through their own polytheistic framework: every land has its god, and the god of this land is angry because the proper rituals are not being performed. The phrase mishpat elohei ha-arets ('the requirement/custom of the God of the land') uses mishpat in its sense of 'established practice, customary right.' They see YHWH as a territorial deity whose protocols they need to learn — a fundamental misunderstanding that will shape the syncretistic religion described in the chapter's final verses."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיְצַ֣ו מֶלֶךְ־אַשּׁ֣וּר לֵ֠אמֹ֠ר הֹלִ֨יכוּ שָׁ֜מָּה אֶחָ֣ד מֵהַכֹּהֲנִ֣ים אֲשֶׁ֣ר הִגְלִיתֶ֣ם מִשָּׁ֡ם וְיֵלְכ֣וּ וְיֵשְׁבוּ֩ שָׁ֨ם וְיוֹרֵ֜ם אֶת־מִשְׁפַּ֖ט אֱלֹהֵ֥י הָאָֽרֶץ׃",
+      "text_kjv": "Then the king of Assyria commanded, saying, Carry thither one of the priests whom ye brought from thence; and let them go and dwell there, and let him teach them the manner of the God of the land.",
+      "rendering": "The king of Assyria gave an order: \"Send back one of the priests you deported from there. Let him go and live there and teach them the requirements of the God of the land.\"",
+      "translator_notes": [
+        "The Assyrian solution is pragmatic: send back a priest who knows the local deity's requirements. The verb yoreim ('let him teach them') is from yarah, the root of torah — teaching. But the teaching will be conducted within a polytheistic framework where YHWH is treated as one god among many. The singular 'one of the priests' (echad mehakohanim) means a single Israelite priest must instruct multiple foreign populations — an impossible task that guarantees syncretism."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיָּבֹ֞א אֶחָ֣ד מֵהַכֹּהֲנִ֗ים אֲשֶׁ֤ר הִגְלוּ֙ מִשֹּׁ֣מְר֔וֹן וַיֵּ֖שֶׁב בְּבֵֽית־אֵ֑ל וַיְהִ֣י מוֹרֶ֣ה אוֹתָ֔ם אֵ֖יךְ יִֽירְא֥וּ אֶת־יְהוָֽה׃",
+      "text_kjv": "Then one of the priests whom they had carried away from Samaria came and dwelt in Bethel, and taught them how they should fear the LORD.",
+      "rendering": "So one of the priests who had been deported from Samaria came and settled in Bethel, and began teaching them how to fear the LORD.",
+      "translator_notes": [
+        "The returned priest settles in Beit-El ('House of God') — which is deeply ironic. Bethel was the site of one of Jeroboam's golden calves, the center of the northern kingdom's corrupted worship. A priest trained in Bethel's syncretistic traditions is now teaching foreigners 'how to fear the LORD.' The verb moreh ('teaching') is a participle from yarah — ongoing instruction. But what kind of instruction? The priest himself was trained in a compromised tradition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיִּהְי֣וּ עֹשִׂ֔ים גּ֖וֹי גּ֣וֹי אֱלֹהָ֑יו וַיַּנִּ֣יחוּ ׀ בְּבֵ֣ית הַבָּמ֗וֹת אֲשֶׁ֤ר עָשׂוּ֙ הַשֹּׁ֣מְרֹנִ֔ים גּ֥וֹי גּ֖וֹי בְּעָרֵיהֶ֥ם אֲשֶׁר־הֵ֥ם יֹשְׁבִ֖ים שָֽׁם׃",
+      "text_kjv": "Howbeit every nation made gods of their own, and put them in the houses of the high places which the Samaritans had made, every nation in their cities wherein they dwelt.",
+      "rendering": "But each nation continued making its own gods, and they placed them in the shrines at the high places that the Samaritans had built — each nation in the towns where they settled.",
+      "translator_notes": [
+        "The phrase goy goy elohav ('nation by nation, its gods') — the repetition of goy emphasizes the multiplicity. Every group maintained its own deities alongside the instruction about YHWH. They installed these gods in beit habamot ('the houses/shrines of the high places') that the Shomronim ('Samaritans' — here the original Israelite inhabitants) had previously built. Israel's high places, originally built for syncretistic Yahwism, now serve as ready-made temples for foreign gods."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְאַנְשֵׁ֣י בָבֶ֗ל עָשׂוּ֙ אֶת־סֻכּ֣וֹת בְּנ֔וֹת וְאַנְשֵׁ֣י כ֔וּת עָשׂ֖וּ אֶת־נֵרְגַ֑ל וְאַנְשֵׁ֣י חֲמָ֔ת עָשׂ֖וּ אֶת־אֲשִׁימָֽא׃",
+      "text_kjv": "And the men of Babylon made Succothbenoth, and the men of Cuth made Nergal, and the men of Hamath made Ashima,",
+      "rendering": "The people of Babylon made Succoth-benoth, the people of Cuth made Nergal, and the people of Hamath made Ashima.",
+      "translator_notes": [
+        "The catalog of foreign deities begins. Sukkot Benot ('Booths of Daughters') is obscure — possibly a corruption of a Babylonian deity name (perhaps Sarpanitu or Zir-banitu, consort of Marduk). Nergal was the Mesopotamian god of the underworld and plague, well attested in Babylonian texts. Ashima is mentioned in Amos 8:14 and may be related to a Syrian deity. The narrator lists these names without explaining them — the foreignness itself makes the theological point."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְהָעַוִּ֥ים עָשׂ֖וּ נִבְחַ֣ז וְאֶת־תַּרְתָּ֑ק וְהַסְּפַרְוִ֗ים שֹׂרְפִ֤ים אֶת־בְּנֵיהֶם֙ בָּאֵ֔שׁ לְאַדְרַמֶּ֥לֶךְ וַעֲנַמֶּ֖לֶךְ אֱלֹהֵ֥י סְפַרְוָֽיִם׃",
+      "text_kjv": "And the Avites made Nibhaz and Tartak, and the Sepharvites burnt their children in fire to Adrammelech and Anammelech, the gods of Sepharvaim.",
+      "rendering": "The Avvites made Nibhaz and Tartak. The Sepharvites immolated their children to Adrammelech and Anammelech, the gods of Sepharvaim.",
+      "translator_notes": [
+        "Nibhaz and Tartak are otherwise unknown deities — later Jewish tradition identified Nibhaz with a dog-shaped idol and Tartak with a donkey, but these identifications are speculative. The Sepharvites practice child sacrifice (sorefim et-beneihem ba-esh, 'burning their children in fire') to Adrammelech and Anammelech — the names contain the element melekh ('king'), common in Semitic divine names. The narrator places child sacrifice by foreign settlers in the same land where Israelite kings had already practiced it (v. 17, and 16:3), creating a grim continuity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיִּהְי֥וּ יְרֵאִ֖ים אֶת־יְהוָ֑ה וַיַּעֲשׂ֨וּ לָהֶ֜ם מִקְצוֹתָ֗ם כֹּהֲנֵ֤י בָמוֹת֙ וַיִּהְי֗וּ עֹשִׂ֤ים לָהֶם֙ בְּבֵ֣ית הַבָּמ֔וֹת׃",
+      "text_kjv": "So they feared the LORD, and made unto them of the lowest of them priests of the high places, which sacrificed for them in the houses of the high places.",
+      "rendering": "They also feared the LORD, and from among their own people they appointed priests for the high places, who officiated for them in the high place shrines.",
+      "translator_notes": [
+        "The phrase vayyihyu yre'im et YHWH ('they were fearing the LORD') describes an addition, not a conversion. They added YHWH to their existing pantheon. The phrase miqqetsotam ('from their extremities/from among themselves') means they appointed priests from their own non-Levitical ranks — anyone could serve. This reproduces the original sin of Jeroboam, who appointed non-Levitical priests (1 Kings 12:31). The pattern perpetuates itself through different populations."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "אֶת־יְהוָ֖ה הָי֣וּ יְרֵאִ֑ים וְאֶת־אֱלֹהֵיהֶ֗ם הָי֤וּ עֹֽבְדִים֙ כְּמִשְׁפַּ֣ט הַגּוֹיִ֔ם אֲשֶׁר־הִגְל֥וּ אֹתָ֖ם מִשָּֽׁם׃",
+      "text_kjv": "They feared the LORD, and served their own gods, after the manner of the nations whom they carried away from thence.",
+      "rendering": "They feared the LORD, but they also served their own gods according to the custom of the nations from which they had been deported.",
+      "translator_notes": [
+        "The definitive statement of Samaritan syncretism: et YHWH hayu yre'im ve-et eloheihem hayu ovdim ('the LORD they were fearing, and their own gods they were serving'). The narrator treats these as irreconcilable — fearing the LORD demands exclusive allegiance (Deuteronomy 6:13-14). The dual worship is not a compromise or bridge between religions but a theological impossibility that the narrator records with controlled disapproval."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "עַ֣ד הַיּ֣וֹם הַזֶּ֗ה הֵ֚ם עֹשִׂ֔ים כַּמִּשְׁפָּטִ֖ים הָרִאשֹׁנִ֑ים אֵינָ֤ם יְרֵאִים֙ אֶת־יְהוָ֔ה וְאֵינָ֣ם עֹשִׂ֗ים אֶת־חֻקֹּתָם֙ וְאֶת־מִשְׁפְּטָ֔ם וְאֶת־הַתּוֹרָ֖ה וְאֶת־הַמִּצְוָ֗ה אֲשֶׁ֨ר צִוָּ֤ה יְהוָה֙ אֶת־בְּנֵ֣י יַעֲקֹ֔ב אֲשֶׁר־שָׂ֥ם שְׁמ֖וֹ יִשְׂרָאֵֽל׃",
+      "text_kjv": "Unto this day they do after the former manners: they fear not the LORD, neither do they after their statutes, or after their ordinances, or after the law and commandment which the LORD commanded the children of Jacob, whom he named Israel;",
+      "rendering": "To this day they continue their former practices. They do not truly fear the LORD, and they do not follow the statutes, the ordinances, the Law, or the commandment that the LORD commanded the descendants of Jacob, whom he named Israel.",
+      "translator_notes": [
+        "The narrator now contradicts v. 33 — or rather, clarifies it. In v. 33 they 'feared the LORD'; here he says einam yre'im et YHWH ('they do not fear the LORD'). The resolution: what they practice is not genuine fear of the LORD because it violates the exclusive covenant terms. The full covenant vocabulary is deployed: chuqqotam ('their statutes'), mishpetam ('their ordinances'), hattorah ('the Torah'), hammitsvah ('the commandment'). The reference to benei Ya'aqov asher sam shemo Yisrael ('the children of Jacob, whom he named Israel') reaches back to Genesis 32:28 — the name 'Israel' itself carries covenant identity."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹרָה",
+          "transliteration": "torah",
+          "rendered_as": "the Law",
+          "semantic_range": "instruction, teaching, law, direction, guidance",
+          "note": "torah — the comprehensive divine instruction that defines covenant life. The narrator stacks four legal terms (statutes, ordinances, Torah, commandment) to indicate that every dimension of covenant obligation has been violated."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיִּכְרֹ֨ת יְהוָ֤ה אִתָּם֙ בְּרִ֔ית וַיְצַוֵּ֖ם לֵאמֹ֑ר לֹ֤א תִֽירְאוּ֙ אֱלֹהִ֣ים אֲחֵרִ֔ים וְלֹא־תִשְׁתַּחֲוּ֣ לָהֶ֔ם וְלֹ֣א תַעַבְד֔וּם וְלֹ֖א תִזְבְּח֥וּ לָהֶֽם׃",
+      "text_kjv": "With whom the LORD had made a covenant, and charged them, saying, Ye shall not fear other gods, nor bow yourselves to them, nor serve them, nor sacrifice to them:",
+      "rendering": "The LORD had made a covenant with them and commanded them: \"You must not fear other gods, or bow down to them, or serve them, or sacrifice to them.",
+      "translator_notes": [
+        "The narrator now quotes the original covenant terms. The verb karat ('to cut') is the standard idiom for covenant-making — literally 'cutting a covenant,' referring to the ancient practice of cutting sacrificial animals as part of the ratification ceremony (Genesis 15:9-18). Four prohibitions cascade: lo tir'u ('do not fear'), lo tishtachavu ('do not bow down'), lo ta'avdum ('do not serve'), lo tizbchu ('do not sacrifice'). Each represents a deeper level of worship — from internal reverence to physical prostration to ongoing service to the ultimate act of offering sacrifice."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, agreement, solemn bond, pact, alliance",
+          "note": "berit — the narrator recalls the Sinai covenant, the formal bond that created Israel's exclusive obligation to YHWH. The fourfold prohibition that follows is the covenant's most basic demand: no divided allegiance."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "כִּ֣י אִם־אֶת־יְהוָ֗ה אֲשֶׁר֩ הֶעֱלָ֨ה אֶתְכֶ֜ם מֵאֶ֧רֶץ מִצְרַ֛יִם בְּכֹ֧חַ גָּד֛וֹל וּבִזְר֥וֹעַ נְטוּיָ֖ה אֹת֣וֹ תִירָ֑אוּ וְל֥וֹ תִֽשְׁתַּחֲו֖וּ וְל֥וֹ תִזְבָּֽחוּ׃",
+      "text_kjv": "But the LORD, who brought you up out of the land of Egypt with great power and a stretched out arm, him shall ye fear, and him shall ye worship, and to him shall ye do sacrifice.",
+      "rendering": "Rather, the LORD — who brought you up from the land of Egypt with great power and an outstretched arm — him you must fear, to him you must bow down, and to him you must sacrifice.",
+      "translator_notes": [
+        "The positive command mirrors the negative: the same four verbs (fear, bow down, serve, sacrifice) are redirected exclusively to YHWH. The phrase bekoach gadol uvizro'a netuyah ('with great power and an outstretched arm') is classic Deuteronomic exodus language (Deuteronomy 4:34, 5:15, 26:8). The 'outstretched arm' (zero'a netuyah) is the image of God's power reaching into Egypt to extract Israel — military metaphor applied to divine action."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְאֶת־הַחֻקִּ֨ים וְאֶת־הַמִּשְׁפָּטִ֜ים וְהַתּוֹרָ֤ה וְהַמִּצְוָה֙ אֲשֶׁ֣ר כָּתַ֣ב לָכֶ֔ם תִּשְׁמְר֥וּן לַעֲשׂ֖וֹת כׇּל־הַיָּמִ֑ים וְלֹ֥א תִֽירְא֖וּ אֱלֹהִ֥ים אֲחֵרִֽים׃",
+      "text_kjv": "And the statutes, and the ordinances, and the law, and the commandment, which he wrote for you, ye shall observe to do for evermore; and ye shall not fear other gods.",
+      "rendering": "The statutes, the ordinances, the Law, and the commandment that he wrote for you — you must carefully observe them always. You must not fear other gods.",
+      "translator_notes": [
+        "The fourfold legal vocabulary returns: chuqqim ('statutes'), mishpatim ('ordinances'), torah, mitsvah ('commandment'). The phrase asher katav lakhem ('which he wrote for you') specifies written law — a clear reference to the Mosaic Torah as a written document. The phrase kol hayyamim ('all the days') means perpetually, without interruption or exception. The repetition of lo tir'u elohim acherim ('do not fear other gods') frames the covenant command as both the first and last word."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹרָה",
+          "transliteration": "torah",
+          "rendered_as": "the Law",
+          "semantic_range": "instruction, teaching, law, direction, guidance",
+          "note": "torah — here specified as written (katav), identifying the Torah as a textual authority. The written character of the instruction means it cannot be edited, reinterpreted, or gradually forgotten — it exists as a permanent witness."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וְהַבְּרִ֛ית אֲשֶׁר־כָּרַ֥תִּי אִתְּכֶ֖ם לֹ֣א תִשְׁכָּ֑חוּ וְלֹ֥א תִֽירְא֖וּ אֱלֹהִ֥ים אֲחֵרִֽים׃",
+      "text_kjv": "And the covenant that I have made with you ye shall not forget; neither shall ye fear other gods.",
+      "rendering": "The covenant that I made with you — you must not forget it. You must not fear other gods.",
+      "translator_notes": [
+        "The verb tishkachu ('you shall forget') from shakach ('to forget') reveals the deepest danger: not active rebellion but passive forgetting. The covenant can be lost not only through defiance but through amnesia. Memory is a covenant obligation. The phrase habberit asher karati ittekhem ('the covenant that I cut with you') places God's voice directly into the narrative — the first person karati ('I cut') is God speaking through the narrator's recollection of Sinai."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, agreement, solemn bond, pact, alliance",
+          "note": "berit — the third appearance of the covenant term in this closing section, now paired with the warning against forgetting. The covenant is not merely a set of rules but a relationship that requires active remembering."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "כִּ֛י אִם־אֶת־יְהוָ֥ה אֱלֹהֵיכֶ֖ם תִּירָ֑אוּ וְהוּא֙ יַצִּ֣יל אֶתְכֶ֔ם מִיַּ֖ד כׇּל־אֹיְבֵיכֶֽם׃",
+      "text_kjv": "But the LORD your God ye shall fear; and he shall deliver you out of the hand of all your enemies.",
+      "rendering": "Rather, the LORD your God you must fear, and he will deliver you from the power of all your enemies.\"",
+      "translator_notes": [
+        "The promise attached to exclusive worship: vehu yatstsil etkhem miyyad kol oyeveikhem ('and he will rescue you from the hand of all your enemies'). The verb yatstsil (from natsal, 'to deliver, to snatch away') promises active divine protection. The irony is devastating in context: the nation that feared other gods was not delivered from its enemies but handed over to them. The promise was conditional, and the condition was not met."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וְלֹ֖א שָׁמֵ֑עוּ כִּ֛י אִם־כְּמִשְׁפָּטָ֥ם הָרִאשׁ֖וֹן הֵ֥ם עֹשִֽׂים׃",
+      "text_kjv": "Howbeit they did not hearken, but they did after their former manner.",
+      "rendering": "But they did not listen. They continued their former practices.",
+      "translator_notes": [
+        "The phrase velo shame'u ('but they did not listen') is the verdict that echoes throughout Kings. The Hebrew root shama ('to hear, to listen, to obey') means not merely auditory reception but responsive obedience. They heard the words but did not obey them. The phrase kemishpatam harishon ('according to their former custom') indicates no change — the recitation of covenant terms produced no effect."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַיִּהְי֣וּ ׀ הַגּוֹיִ֣ם הָאֵ֗לֶּה יְרֵאִים֙ אֶת־יְהוָ֔ה וְאֶת־פְּסִילֵיהֶ֖ם הָי֣וּ עֹבְדִ֑ים גַּם־בְּנֵיהֶ֣ם וּבְנֵ֣י בְנֵיהֶ֗ם כַּאֲשֶׁ֤ר עָשׂוּ֙ אֲבֹ֣תָ֔ם הֵ֣ם עֹשִׂ֔ים עַ֖ד הַיּ֥וֹם הַזֶּֽה׃",
+      "text_kjv": "So these nations feared the LORD, and served their graven images, both their children, and their children's children: as did their fathers, so do they unto this day.",
+      "rendering": "So these nations feared the LORD while also serving their carved images. Their children and their grandchildren continue to do exactly as their ancestors did, to this day.",
+      "translator_notes": [
+        "The chapter's final verse is its theological epitaph. The impossible combination persists: yre'im et YHWH ve-et pesileihem hayu ovdim ('fearing the LORD and serving their carved images'). The word pesilim ('carved images') is the term from the second commandment (Exodus 20:4). The generational language — beneihem uvenei veneihem ('their children and their children's children') — indicates the syncretism has become hereditary, passed down as family religion. The phrase ad hayyom hazzeh ('to this day') marks this as a permanent condition at the time of the narrator's writing, explaining the religious situation in Samaria that will persist into the Second Temple period and beyond."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

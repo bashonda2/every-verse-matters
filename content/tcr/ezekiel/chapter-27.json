@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezekiel",
+    "chapter": 27,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ezekiel 27 is a funeral dirge for Tyre cast as the sinking of a magnificent merchant ship. The chapter opens with God commanding Ezekiel to raise a lamentation over Tyre, then constructs an elaborate ship-allegory: Tyre is a vessel of perfect beauty, built from the finest materials of the known world. The middle section (vv. 12-25) is the most extensive trade catalogue in the Hebrew Bible, naming over twenty trading partners and dozens of commodities — metals, textiles, spices, livestock, slaves, and luxury goods. The final section (vv. 26-36) describes the ship's destruction by the east wind and the worldwide mourning that follows. The maritime nations weep, the merchants are appalled, and the great ship that was the pride of the seas sinks forever.",
+    "remarkable": "This chapter is an extraordinary achievement of prophetic poetry — a sustained metaphor in which an entire city-state becomes a single ship, and its economic collapse becomes a shipwreck. The trade catalogue in verses 12-25 is the most detailed economic document in the Hebrew Bible and a primary source for reconstructing ancient Near Eastern trade networks. Every commodity and every trading partner is historically attested. The chapter also anticipates the fall of Babylon in Revelation 18, which borrows extensively from Ezekiel 27's imagery of merchants weeping over a fallen commercial power. We preserved the poetic structure of the dirge sections while rendering the trade catalogue with the precision its economic vocabulary demands. The Hebrew contains numerous rare words for trade goods — some appearing only here in the entire Bible (hapax legomena) — and we documented each uncertain identification in translator notes.",
+    "friction": "The trade catalogue contains some of the most difficult vocabulary in the Hebrew Bible. Several commodity terms are hapax legomena whose identification depends on cognate languages (Akkadian, Ugaritic, Arabic) and ancient trade records. The geographic identifications are sometimes uncertain — 'Tarshish' may be Tartessus in Spain, Tarsus in Cilicia, or a general term for distant western maritime destinations. The Hebrew phrase 'izzim (27:21) could mean 'goats' or a specific breed; we followed the standard identification. The word pannag (27:17) is one of the most debated terms in Ezekiel — possibly a place name, possibly a food product (millet, wax, or a type of confection). We rendered it as 'millet' with a note on the uncertainty. The shift from prose trade list back to poetic dirge in verse 26 required careful handling of register.",
+    "connections": "Revelation 18 draws extensively on this chapter for its depiction of Babylon's fall — the weeping merchants, the catalogue of luxury goods, the maritime mourning. Isaiah 23 contains an earlier oracle against Tyre. The ship metaphor connects to ancient Near Eastern maritime mythology and to Psalm 48:7 (ships of Tarshish broken by the east wind). The east wind (ruach qadim) that destroys the ship is the same wind that parts the Red Sea (Exodus 14:21) and withers Jonah's plant (Jonah 4:8) — a recurring biblical symbol of divine judgment from the desert."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "The word of the LORD came again unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": ["The standard prophetic reception formula. The Hebrew le'mor ('saying') introduces direct speech and is rendered as a colon."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְאַתָּ֣ה בֶן־אָדָ֔ם שָׂ֥א עַל־צֹ֖ר קִינָֽה׃",
+      "text_kjv": "Now, thou son of man, take up a lamentation for Tyrus,",
+      "rendering": "\"And you, son of man, raise a lamentation over Tyre,",
+      "translator_notes": ["The verb nasa ('raise, lift up') with qinah ('lamentation, funeral dirge') is a technical formula for beginning a formal dirge — the same construction used in 2 Samuel 1:17 (David's lament for Saul and Jonathan) and Ezekiel 19:1. A qinah is not merely sadness but a structured poetic form with its characteristic limping rhythm (3+2 stress pattern)."],
+      "key_terms": [
+        {
+          "hebrew": "קִינָה",
+          "transliteration": "qinah",
+          "rendered_as": "lamentation",
+          "semantic_range": "funeral dirge, lament, elegy",
+          "note": "The qinah is a specific Hebrew poetic genre — a funeral song performed over the dead, characterized by its uneven 3+2 meter that creates a 'limping' effect, mimicking the faltering rhythm of grief."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְאָמַרְתָּ֣ לְצ֗וֹר הַיֹּשֶׁ֙בֶת֙ עַל־מְבוֹאֹ֣ת יָ֔ם רֹכֶ֥לֶת הָעַמִּ֖ים אֶל־אִיִּ֣ים רַבִּ֑ים כֹּ֤ה אָמַר֙ אֲדֹנָ֣י יְהוִ֔ה צ֕וֹר אַ֣תְּ אָמַ֔רְתְּ אֲנִ֖י כְּלִ֥ילַת יֹֽפִי׃",
+      "text_kjv": "And say unto Tyrus, O thou that art situate at the entry of the sea, which art a merchant of the people for many isles, Thus saith the Lord GOD; O Tyrus, thou hast said, I am of perfect beauty.",
+      "rendering": "and say to Tyre, who sits at the entrance to the sea, merchant to the peoples on many coastlands: This is what the Lord GOD says — Tyre, you have said, 'I am perfect in beauty.'",
+      "translator_notes": ["The Hebrew kelilat yofi ('perfect in beauty') is literally 'perfection of beauty' — a construct chain emphasizing completeness. Tyre's self-description echoes the language used elsewhere of Jerusalem (Lamentations 2:15, Psalm 50:2), suggesting a claim to quasi-divine status. The word iyyim ('coastlands, islands') refers to the Mediterranean coastal settlements that were Tyre's trading network."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "בְּלֵ֥ב יַמִּ֖ים גְּבוּלָ֑יִךְ בֹּנַ֕יִךְ כָּלְל֖וּ יָפְיֵֽךְ׃",
+      "text_kjv": "Thy borders are in the midst of the seas, thy builders have perfected thy beauty.",
+      "rendering": "Your borders are in the heart of the seas; your builders perfected your beauty.",
+      "translator_notes": ["The phrase belev yammim ('in the heart of the seas') is a key spatial marker that functions both literally — Tyre's island fortress sat in the Mediterranean — and metaphorically, as the ship-allegory places the vessel at the center of the ocean. The same phrase recurs in verse 25-27 when the ship sinks 'in the heart of the seas.'"],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "בְּרוֹשִׁ֤ים מִשְּׂנִיר֙ בָּנ֣וּ לָ֔ךְ אֵ֖ת כָּל־לֻחֹתָ֑יִם אֶ֤רֶז מִלְּבָנוֹן֙ לָקָ֔חוּ לַעֲשׂ֥וֹת תֹּ֖רֶן עָלָֽיִךְ׃",
+      "text_kjv": "They have made all thy ship boards of fir trees of Senir: they have taken cedars from Lebanon to make masts for thee.",
+      "rendering": "They built all your planking from cypresses of Senir; they took cedar from Lebanon to make your mast.",
+      "translator_notes": ["Senir is the Amorite name for Mount Hermon (Deuteronomy 3:9) or its northern ridge. Beroshim are likely cypresses (though sometimes rendered 'fir' or 'juniper') — prized for shipbuilding because of their resistance to water. The ship-allegory now takes over completely: Tyre is no longer merely compared to a ship but described as one, plank by plank. The toren ('mast') is a rare word, appearing only here and in Isaiah 33:23."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "אַלּוֹנִ֣ים מִבָּשָׁ֔ן עָשׂ֖וּ מִשּׁוֹטָ֑יִךְ קַרְשֵׁ֣ךְ עָשׂ֗וּ שֵׁן־בַּת־אֲשֻׁרִים֙ מֵאִיֵּ֖י כִּתִּיִּֽם׃",
+      "text_kjv": "Of the oaks of Bashan have they made thine oars; the company of the Ashurites have made thy benches of ivory, brought out of the isles of Chittim.",
+      "rendering": "From oaks of Bashan they made your oars; your deck they made of boxwood inlaid with ivory from the coastlands of Cyprus.",
+      "translator_notes": ["The Hebrew qarsheikh is difficult — it may mean 'your deck' or 'your benches.' The phrase shen bat-ashurim is obscure: shen means 'ivory' (literally 'tooth'), bat may mean 'daughter of' or indicate material composition, and ashurim may be 'boxwood' (te'ashshur in Isaiah 41:19, 60:13) or 'Assyrians' (as a people). Most modern scholarship reads 'boxwood inlaid with ivory' — a luxury shipbuilding material. Kittim refers to Cyprus, specifically Kition (modern Larnaca), a major Mediterranean trading hub."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "שֵׁ֣שׁ בְּרִקְמָ֤ה מִמִּצְרַ֙יִם֙ הָיָ֣ה מִפְרָשֵׂ֔ךְ לִהְי֥וֹת לָ֖ךְ לְנֵ֑ס תְּכֵ֧לֶת וְאַרְגָּמָ֛ן מֵאִיֵּ֥י אֱלִישָׁ֖ה הָיָ֥ה מְכַסֵּֽךְ׃",
+      "text_kjv": "Fine linen with broidered work from Egypt was that which thou spreadest forth to be thy sail; blue and purple from the isles of Elishah was that which covered thee.",
+      "rendering": "Embroidered linen from Egypt was your sail, serving as your banner; blue and purple cloth from the coastlands of Elishah was your awning.",
+      "translator_notes": ["Shesh is fine linen, an Egyptian specialty. Riqmah ('embroidery') indicates luxury textile work. The sail doubled as a nes ('banner, ensign') — a visible marker of identity and wealth. Tekhelet ('blue') and argaman ('purple') are the prestigious dyes of the ancient Mediterranean — tekhelet from the murex snail (the same dye used in the tabernacle hangings, Exodus 26:1) and argaman from a related species. Elishah is likely Alashiya (Cyprus) or possibly parts of the Greek coastland."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "יֹשְׁבֵ֤י צִידוֹן֙ וְאַרְוַ֔ד הָי֥וּ שָׁטִ֖ים לָ֑ךְ חֲכָמַ֤יִךְ צוֹר֙ הָ֣יוּ בָ֔ךְ הֵ֖מָּה חֹבְלָֽיִךְ׃",
+      "text_kjv": "The inhabitants of Zidon and Arvad were thy mariners: thy wise men, O Tyrus, that were in thee, were thy pilots.",
+      "rendering": "The inhabitants of Sidon and Arvad were your rowers; your own skilled men, Tyre, were your pilots.",
+      "translator_notes": ["Sidon and Arvad were Phoenician cities subordinate to Tyre's commercial empire. Arvad (modern Arwad, Syria) was an island city-state north of Tyre. The distinction is significant: foreign sailors row, but Tyrians pilot — Tyre controls the direction of its own commercial destiny. The word chovlayikh ('your pilots') is from the root ch-v-l relating to rope-handling and navigation."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "זִקְנֵ֨י גְבַ֤ל וַחֲכָמֶ֙יהָ֙ הָ֣יוּ בָ֔ךְ מַחֲזִיקֵ֖י בִּדְקֵ֑ךְ כָּל־אֳנִיּ֤וֹת הַיָּם֙ וּמַלָּ֣חֵיהֶ֔ם הָ֣יוּ בָ֔ךְ לַעֲרֹ֖ב מַעֲרָבֵֽךְ׃",
+      "text_kjv": "The ancients of Gebal and the wise men thereof were in thee thy calkers: all the ships of the sea with their mariners were in thee to occupy thy merchandise.",
+      "rendering": "The elders of Gebal and its craftsmen were in you, caulking your seams; all the ships of the sea and their sailors came to you to trade your merchandise.",
+      "translator_notes": ["Gebal is Byblos (modern Jbeil, Lebanon), one of the oldest continuously inhabited cities in the world and a major Phoenician port. The verb chazaq ('to strengthen, repair') with bedeq ('breach, crack') gives the technical term for ship-caulking — sealing seams against water. The final phrase la'arov ma'aravekh uses the root ayin-resh-bet twice, meaning 'to exchange/trade your wares' — a commercial term for barter trade."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "פָּרַ֧ס וְל֛וּד וּפ֖וּט הָי֣וּ בְחֵילֵ֑ךְ אַנְשֵׁ֣י מִלְחַמְתֵּ֔ךְ מָגֵ֤ן וְכוֹבַע֙ תִּלּוּ־בָ֔ךְ הֵ֖מָּה נָתְנ֥וּ הֲדָרֵֽךְ׃",
+      "text_kjv": "They of Persia and of Lud, and of Phut, were in thine army, thy men of war: they hanged the shield and helmet in thee; they set forth thy comeliness.",
+      "rendering": "Persia, Lud, and Put served in your army as your warriors. They hung shield and helmet in you; they gave you your splendor.",
+      "translator_notes": ["Three distant peoples serve as Tyre's mercenary forces: Persia (Iran), Lud (likely Lydia in western Anatolia), and Put (Libya or Punt in northeastern Africa). The geographic spread — from Iran to Africa — emphasizes Tyre's global reach. Hanging shields on the walls was both military readiness and decorative display, enhancing the city's hadar ('splendor, majesty')."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "בְּנֵ֧י אַרְוַ֣ד וְחֵילֵ֗ךְ עַל־חוֹמוֹתַ֙יִךְ֙ סָבִ֔יב וְגַ֨מָּדִ֔ים בְּמִגְדְּלוֹתַ֖יִךְ הָי֑וּ טְרֵיחֵיהֶ֗ם תִּלּ֛וּ עַל־חוֹמוֹתַ֖יִךְ סָבִ֑יב הֵ֖מָּה כָּלְל֥וּ יָפְיֵֽךְ׃",
+      "text_kjv": "The men of Arvad with thine army were upon thy walls round about, and the Gammadims were in thy towers: they hanged their shields upon thy walls round about; they have made thy beauty perfect.",
+      "rendering": "The men of Arvad with your army were on your walls all around, and warriors were in your towers. They hung their quivers on your walls all around; they made your beauty complete.",
+      "translator_notes": ["The Gammadim (gammadim) is one of the most debated terms in Ezekiel. The KJV transliterates it as a proper noun, but it may derive from a root meaning 'brave warriors' or 'men of valor.' Some suggest it means 'men of Gammad' (an unknown location); the Vulgate reads 'Pygmaei' (pygmies); the Targum reads 'Cappadocians.' We render as 'warriors' following the contextual sense of military garrison. The word terikheihem may mean 'their shields' or 'their quivers' — we chose 'quivers' to distinguish from the shields in verse 10."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "תַּרְשִׁ֣ישׁ סֹחַרְתֵּ֗ךְ מֵרֹ֨ב כָּל־ה֔וֹן בְּכֶ֥סֶף בַּרְזֶ֛ל בְּדִ֥יל וְעוֹפֶ֖רֶת נָתְנ֥וּ עִזְבוֹנָֽיִךְ׃",
+      "text_kjv": "Tarshish was thy merchant by reason of the multitude of all kind of riches; with silver, iron, tin, and lead, they traded in thy fairs.",
+      "rendering": "Tarshish traded with you because of your great wealth of every kind. They exchanged silver, iron, tin, and lead for your wares.",
+      "translator_notes": ["The trade catalogue begins here and runs through verse 25 — the most detailed economic inventory in the Hebrew Bible. Tarshish is traditionally identified with Tartessus in southern Spain, a region rich in metals. The metals listed — silver, iron, tin, and lead — correspond to the known mineral resources of the western Mediterranean. The word izvonavikh ('your wares, your goods') appears frequently in this catalogue and refers to the goods Tyre traded outward in exchange for imports."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "יָוָ֤ן תֻּבַל֙ וָמֶ֔שֶׁךְ הֵ֖מָּה רֹכְלָ֑יִךְ בְּנֶ֤פֶשׁ אָדָם֙ וּכְלֵ֣י נְחֹ֔שֶׁת נָתְנ֖וּ מַעֲרָבֵֽךְ׃",
+      "text_kjv": "Javan, Tubal, and Meshech, they were thy merchants: they traded the persons of men and vessels of brass in thy market.",
+      "rendering": "Greece, Tubal, and Meshech were your traders. They exchanged human slaves and bronze vessels for your merchandise.",
+      "translator_notes": ["Yavan is Greece (Ionia); Tubal and Meshech are peoples of Anatolia (later associated with the regions around the Black Sea). The Hebrew benefesh adam is literally 'with the soul/life of a human being' — a stark reference to the slave trade. We render this directly as 'human slaves' because that is what the trade involved. The use of nephesh ('soul, living being') for enslaved humans is especially pointed — Tyre traded living souls as commodity. Bronze (nechoshet) vessels from Anatolia were a major trade good in the ancient Near East."],
+      "key_terms": [
+        {
+          "hebrew": "נֶפֶשׁ אָדָם",
+          "transliteration": "nephesh adam",
+          "rendered_as": "human slaves",
+          "semantic_range": "human souls, human lives, persons of men",
+          "note": "Literally 'souls of humanity.' The use of nephesh — the word for the living, breathing self — to describe trade goods is a devastating moral indictment embedded in the economic catalogue."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "מִבֵּ֖ית תּוֹגַרְמָ֑ה סוּסִ֤ים וּפָֽרָשִׁים֙ וּפְרָדִ֔ים נָתְנ֖וּ עִזְבוֹנָֽיִךְ׃",
+      "text_kjv": "They of the house of Togarmah traded in thy fairs with horses and horsemen and mules.",
+      "rendering": "Beth-togarmah exchanged horses, war horses, and mules for your wares.",
+      "translator_notes": ["Togarmah is identified with Armenia or eastern Anatolia, a region famous in the ancient world for horse breeding. The word parashim can mean 'horsemen' (cavalry) or 'chariot horses' / 'war horses' — in a trade context, animals rather than riders are being exchanged, so 'war horses' is more appropriate. The three equines — general horses, war horses, and mules — represent different grades of the horse trade."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "בְּנֵ֤י דְדָן֙ רֹכְלָ֔יִךְ אִיִּ֥ים רַבִּ֖ים סְחֹרַ֣ת יָדֵ֑ךְ קַרְנ֤וֹת שֵׁן֙ וַהָּבְנִ֔ים הֵשִׁ֖יבוּ אֶשְׁכָּרֵֽךְ׃",
+      "text_kjv": "The men of Dedan were thy merchants; many isles were the merchandise of thine hand: they brought thee for a present horns of ivory and ebony.",
+      "rendering": "The people of Dedan were your traders; many coastlands were markets under your hand. They brought you ivory tusks and ebony as payment.",
+      "translator_notes": ["Dedan is an Arabian trading center (modern al-Ula in Saudi Arabia). The phrase 'coastlands were markets under your hand' indicates Tyre's commercial dominance over the Mediterranean island trade network. Qarnot shen is literally 'horns of tooth/ivory' — elephant tusks. Hovnim is ebony, the dark hardwood imported from Africa via Arabian intermediaries."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "אֲרָם֙ סֹחַרְתֵּ֔ךְ מֵרֹ֖ב מַעֲשָׂ֑יִךְ בְּנֹ֗פֶךְ אַרְגָּמָן֙ וְרִקְמָ֣ה וּב֤וּץ וְרָאמוֹת֙ וְכַדְכֹּ֔ד נָתְנ֖וּ בְּעִזְבוֹנָֽיִךְ׃",
+      "text_kjv": "Syria was thy merchant by reason of the multitude of the wares of thy making: they occupied in thy fairs with emeralds, purple, and broidered work, and fine linen, and coral, and agate.",
+      "rendering": "Aram traded with you because of your abundant products. They exchanged turquoise, purple cloth, embroidered work, fine linen, coral, and rubies for your wares.",
+      "translator_notes": ["The MT reads Aram (Syria), though some manuscripts and the LXX read Edom — the two words differ by only one letter in Hebrew (resh/dalet confusion). The gemstone identifications are uncertain: nofekh may be turquoise, emerald, or garnet; kadkod may be ruby, agate, or carnelian. Ancient gemstone terminology does not map precisely onto modern mineralogy. Ra'mot is coral, one of the few identifications scholars agree on. Butz is fine linen, a synonym of shesh used in verse 7."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "יְהוּדָ֣ה וְאֶֽרֶץ־יִשְׂרָאֵל֮ הֵ֣מָּה רֹכְלָיִךְ֒ בְּחִטֵּ֣י מִ֠נִּ֠ית וּפַנַּ֨ג וּדְבַ֤שׁ וָשֶׁ֙מֶן֙ וָצֳרִ֔י נָתְנ֖וּ מַעֲרָבֵֽךְ׃",
+      "text_kjv": "Judah, and the land of Israel, they were thy merchants: they traded in thy market wheat of Minnith, and Pannag, and honey, and oil, and balm.",
+      "rendering": "Judah and the land of Israel — they were your traders. They exchanged wheat from Minnith, millet, honey, oil, and balm for your merchandise.",
+      "translator_notes": ["Israel and Judah appear in the trade catalogue as agricultural exporters — a humbling placement alongside pagan nations in a commercial inventory. Minnith is an Ammonite town (Judges 11:33) known for its wheat. Pannag (pannag) is one of the most debated words in Ezekiel — proposals include millet, a type of confection, wax, or even a place name. We render 'millet' as the most widely accepted identification, but certainty is impossible. Tsori ('balm') is the famous balm of Gilead (Genesis 37:25, Jeremiah 8:22)."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "דַּמֶּ֣שֶׂק סֹחַרְתֵּ֗ךְ בְּרֹ֤ב מַעֲשַׂ֙יִךְ֙ מֵרֹ֣ב כָּל־ה֔וֹן בְּיֵ֥ין חֶלְבּ֖וֹן וְצֶ֥מֶר צָחַֽר׃",
+      "text_kjv": "Damascus was thy merchant in the multitude of the wares of thy making, for the multitude of all riches; in the wine of Helbon, and white wool.",
+      "rendering": "Damascus traded with you because of your abundant products and great wealth of every kind — with wine from Helbon and white wool.",
+      "translator_notes": ["Helbon (modern Halbun, northwest of Damascus) was famous in antiquity for its wine — Nebuchadnezzar is reported to have preferred Helbon wine. Tsemer tsachar ('white wool' or 'wool of Zahar/Sahar') — either white wool as a luxury textile or wool from a specific region. Damascus served as a crucial overland trade hub connecting Mesopotamia to the Mediterranean coast."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְדָ֤ן וְיָוָן֙ מְאוּזָּ֔ל בְּעִזְבוֹנַ֣יִךְ נָתָ֑נוּ בַּרְזֶ֤ל עָשׁוֹת֙ קִדָּ֣ה וְקָנֶ֔ה בְּמַעֲרָבֵ֖ךְ הָיָֽה׃",
+      "text_kjv": "Dan also and Javan going to and fro occupied in thy fairs: bright iron, cassia, and calamus, were in thy market.",
+      "rendering": "Dan and Greece from Uzal exchanged wrought iron, cassia, and aromatic cane for your merchandise.",
+      "translator_notes": ["This verse is textually difficult. Me'uzzal may mean 'from Uzal' (the ancient name for Sana'a in Yemen, a spice-trading center), or it may be a verbal form meaning 'going to and fro' or 'spun/wrought.' The combination of iron with spices (cassia and aromatic cane) suggests multiple trade routes converging on Tyre. Qiddah ('cassia') and qaneh ('aromatic cane, calamus') are spice-trade commodities also listed in the tabernacle incense recipe (Exodus 30:23-24)."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "דְּדָ֖ן רֹכַלְתֵּ֑ךְ בְּבִגְדֵי־חֹ֖פֶשׁ לְרִכְבָּֽה׃",
+      "text_kjv": "Dedan was thy merchant in precious cloths for chariots.",
+      "rendering": "Dedan traded with you in saddlecloths for riding.",
+      "translator_notes": ["Dedan appears again (see v. 15), now trading different goods. Bigdei-chofesh is literally 'garments of freedom/looseness' — probably saddlecloths, riding blankets, or loose riding garments. The word rikhbah ('riding') suggests equestrian equipment. Arabian traders were famous for camel and horse equipment."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "עֲרַ֗ב וְכָל־נְשִׂיאֵ֤י קֵדָר֙ הֵ֣מָּה סֹחֲרֵ֣י יָדֵ֔ךְ בְּכָרִ֥ים וְאֵילִ֖ים וְעַתּוּדִ֑ים בָּ֖ם סֹחֲרָֽיִךְ׃",
+      "text_kjv": "Arabia, and all the princes of Kedar, they occupied with thee in lambs, and rams, and goats: in these were they thy merchants.",
+      "rendering": "Arabia and all the chieftains of Kedar — they were traders under your hand, dealing in lambs, rams, and goats.",
+      "translator_notes": ["Kedar is an Arabian tribal confederation descended from Ishmael (Genesis 25:13), known for pastoral nomadism in the Syrian-Arabian desert. The nesi'ei ('chieftains, princes') indicates that Kedar's tribal leadership was directly involved in the livestock trade. The three categories — karim (young male lambs), elim (rams), and attudim (male goats) — represent the full range of the pastoral economy."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "רֹכְלֵ֤י שְׁבָא֙ וְרַעְמָ֔ה הֵ֖מָּה רֹכְלָ֑יִךְ בְּרֹ֤אשׁ כָּל־בֹּ֙שֶׂם֙ וּבְכָל־אֶ֣בֶן יְקָרָ֔ה וְזָהָ֖ב נָתְנ֥וּ עִזְבוֹנָֽיִךְ׃",
+      "text_kjv": "The merchants of Sheba and Raamah, they were thy merchants: they occupied in thy fairs with chief of all spices, and with all precious stones, and gold.",
+      "rendering": "The traders of Sheba and Raamah — they were your traders. They exchanged the finest of every spice, every kind of precious stone, and gold for your wares.",
+      "translator_notes": ["Sheba (southwestern Arabia, modern Yemen) and Raamah (a related Arabian trading people, Genesis 10:7) controlled the incense and spice routes. The phrase ro'sh kol bosem ('the finest of every spice') — ro'sh here means 'chief, best, choicest,' not 'head.' These are premium-grade aromatics. The combination of spices, gemstones, and gold represents the highest tier of luxury trade in the ancient world."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "חָרָ֣ן וְכַנֵּ֣ה וָעֶ֗דֶן רֹכְלֵ֤י שְׁבָא֙ אַשּׁ֣וּר וְכִלְמַ֔ד רֹכַלְתֵּֽךְ׃",
+      "text_kjv": "Haran, and Canneh, and Eden, the merchants of Sheba, Asshur, and Chilmad, were thy merchants.",
+      "rendering": "Haran, Canneh, and Eden, the traders of Sheba, Asshur, and Chilmad were your traders.",
+      "translator_notes": ["This verse lists Mesopotamian and northern Syrian trading centers. Haran is the well-known city of Abraham's family (Genesis 11:31). Canneh may be Calneh (Amos 6:2) or Kullani in northern Syria. Eden here is not the garden but a region called Bit-Adini on the upper Euphrates. Chilmad is otherwise unknown — possibly a city near Baghdad. The accumulation of names creates a panoramic map of Tyre's trade empire stretching deep into Mesopotamia."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "הֵ֣מָּה רֹכְלַ֗יִךְ בְּמַכְלֻלִים֙ בִּגְלוֹמֵ֤י תְכֵ֙לֶת֙ וְרִקְמָ֔ה וּבְגִנְזֵ֣י בְרֹמִ֔ים בַּחֲבָלִ֥ים חֲבֻשִׁ֖ים וַאֲרֻזִ֑ים בְּמַרְכֻלְתֵּֽךְ׃",
+      "text_kjv": "These were thy merchants in all sorts of things, in blue clothes, and broidered work, and in chests of rich apparel, bound with cords, and made of cedar, among thy merchandise.",
+      "rendering": "These traded with you in luxury garments, in cloaks of blue and embroidered work, and in chests of multicolored fabric, bound with cords and secured with cedar, among your merchandise.",
+      "translator_notes": ["The Hebrew here is exceptionally dense with rare trade vocabulary. Makhlulim ('luxury goods, finery') may refer to finished garments or a general category of fine goods. Gelomei tekhelet ('cloaks/wrappings of blue') — gelom is a rare word for a wrapped garment or carpet. Ginzei bromim ('chests/treasuries of multicolored cloth') — ginzei relates to Persian ganza ('treasury, storehouse'). The final phrase describes the packaging: goods bound with cords (chavalim) and packed in cedar (aruzim) for shipping."],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "אֳנִיּ֣וֹת תַּרְשִׁ֔ישׁ שָׁרוֹתַ֖יִךְ מַעֲרָבֵ֑ךְ וַתִּמָּלְאִ֧י וַתִּכְבְּדִ֛י מְאֹ֖ד בְּלֵ֥ב יַמִּֽים׃",
+      "text_kjv": "The ships of Tarshish did sing of thee in thy market: and thou wast replenished, and made very glorious in the midst of the seas.",
+      "rendering": "The ships of Tarshish were the caravans of your trade. You were filled and heavily laden in the heart of the seas.",
+      "translator_notes": ["The word sharotayikh is difficult — possibly 'your caravans' (from sheyarah, 'caravan'), 'your singers' (from shir, 'to sing'), or 'your walls' (from shur). In context, 'caravans' fits the trade catalogue conclusion: the great Tarshish ships were the cargo fleet of Tyre's commerce. The verse transitions from the trade list to the shipwreck: 'filled and heavily laden' — the very wealth catalogued in verses 12-24 now weighs the ship down. The phrase belev yammim ('in the heart of the seas') from verse 4 returns ominously — the ship is in deep water, overloaded."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "בְּמַ֤יִם רַבִּים֙ הֱבִיא֔וּךְ הַשָּׁטִ֖ים אוֹתָ֑ךְ ר֤וּחַ הַקָּדִים֙ שְׁבָרֵ֔ךְ בְּלֵ֖ב יַמִּֽים׃",
+      "text_kjv": "Thy rowers have brought thee into great waters: the east wind hath broken thee in the midst of the seas.",
+      "rendering": "Your rowers brought you out into deep waters, but the east wind shattered you in the heart of the seas.",
+      "translator_notes": ["The shipwreck begins. The ruach haqadim ('east wind') is the hot, destructive wind from the desert — the sirocco. In biblical symbolism, the east wind is consistently an instrument of divine judgment (Exodus 14:21, Psalm 48:7, Jonah 4:8). The verb shavar ('to break, shatter') is violent — this is not capsizing but breaking apart. The irony is bitter: the rowers (mentioned in v. 8 as Sidonians and Arvadites) brought Tyre into deep water, but it was God's wind that destroyed her."],
+      "key_terms": [
+        {
+          "hebrew": "רוּחַ הַקָּדִים",
+          "transliteration": "ruach haqadim",
+          "rendered_as": "east wind",
+          "semantic_range": "east wind, sirocco, desert wind",
+          "note": "The east wind in biblical usage is consistently destructive — the hot desert wind that withers crops, breaks ships, and serves as an instrument of divine judgment. Here it represents Nebuchadnezzar's army coming from the east."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "הוֹנֵ֣ךְ וְ֠עִזְבוֹנַ֠יִךְ מַעֲרָבֵ֨ךְ מַלָּחַ֜יִךְ וְחֹבְלַ֗יִךְ מַחֲזִיקֵ֤י בִדְקֵךְ֙ וְעֹרְבֵ֣י מַעֲרָבֵ֔ךְ וְכָל־אַנְשֵׁ֥י מִלְחַמְתֵּ֖ךְ אֲשֶׁר־בָּ֑ךְ וּבְכָל־קְהָלֵ֗ךְ אֲשֶׁ֤ר בְּתוֹכֵךְ֙ יִפְּל֣וּ בְלֵ֣ב יַמִּ֔ים בְּי֖וֹם מַפַּלְתֵּֽךְ׃",
+      "text_kjv": "Thy riches, and thy fairs, thy merchandise, thy mariners, and thy pilots, thy calkers, and the occupiers of thy merchandise, and all thy men of war, that are in thee, and in all thy company which is in the midst of thee, shall fall into the midst of the seas in the day of thy ruin.",
+      "rendering": "Your wealth, your wares, your merchandise, your sailors and your pilots, your caulkers, your traders, all your warriors who are in you, and all the crew assembled within you — they will fall into the heart of the seas on the day of your downfall.",
+      "translator_notes": ["This verse catalogues everything that sinks with the ship — a systematic reversal of everything built up in verses 5-25. Every category of person and goods is named: wealth (hon), wares (izvonayikh), merchandise (ma'arav), sailors (mallachayikh), pilots (chovlayikh), caulkers (machaziqei bidqekh), traders (orvei ma'aravekh), warriors (anshei milchamtekh), and the entire assembled company (qahal). The word mappalah ('downfall, ruin') is from the root n-f-l ('to fall') — the mighty ship falls."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "לְק֖וֹל זַעֲקַ֣ת חֹבְלָ֑יִךְ יִרְעֲשׁ֖וּ מִגְרָשֽׁוֹת׃",
+      "text_kjv": "The suburbs shall shake at the sound of the cry of thy pilots.",
+      "rendering": "At the sound of your pilots' cry, the open waters will tremble.",
+      "translator_notes": ["Migrashot is usually 'pasture lands' or 'open areas around a city,' but in this maritime context it likely refers to the open waters or coastal areas surrounding Tyre. Some scholars emend to 'waves' or 'coastlands.' The image is of the sea itself shaking at the death-cry of Tyre's navigators — cosmic sympathy with the catastrophe."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְיָרְד֣וּ מֵאָנִיּ֗וֹתֵיהֶם כֹּ֚ל תֹּפְשֵׂ֣י מָשׁ֔וֹט מַלָּחִ֕ים כֹּ֖ל חֹבְלֵ֣י הַיָּ֑ם אֶל־הָאָ֖רֶץ יַעֲמֹֽדוּ׃",
+      "text_kjv": "And all that handle the oar, the mariners, and all the pilots of the sea, shall come down from their ships, they shall stand upon the land;",
+      "rendering": "All who handle the oar, the sailors, all the pilots of the sea will come down from their ships; they will stand on the shore.",
+      "translator_notes": ["The mourning scene begins. The maritime nations abandon their own ships to stand on dry land and grieve — the sea is no longer safe. The three categories (oarsmen, sailors, pilots) mirror the crew catalogue from verses 8-9 but now refer to foreign sailors from other nations, not Tyre's own crew (who sank in v. 27)."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְהִשְׁמִ֤יעוּ עָלַ֙יִךְ֙ בְּקוֹלָ֔ם וְיִזְעֲק֖וּ מָרָ֑ה וְיַעֲל֤וּ עָפָר֙ עַל־רָ֣אשֵׁיהֶ֔ם בָּאֵ֖פֶר יִתְפַּלָּֽשׁוּ׃",
+      "text_kjv": "And shall cause their voice to be heard against thee, and shall cry bitterly, and shall cast up dust upon their heads, they shall wallow themselves in the ashes;",
+      "rendering": "They will raise their voices over you and cry out bitterly. They will throw dust on their heads and roll in ashes.",
+      "translator_notes": ["Three mourning rituals: vocal lamentation (crying bitterly), throwing dust on the head (Genesis 37:34, Joshua 7:6), and rolling in ashes (yitpallashu, a reflexive form — they cover themselves thoroughly). These are standard ancient Near Eastern mourning practices, performed here by pagan sailors mourning a pagan city — the grief is universal, not specifically Israelite."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְהִקְרִ֤חוּ אֵלַ֙יִךְ֙ קָרְחָ֔ה וְחָגְר֖וּ שַׂקִּ֑ים וּבָכ֥וּ אֵלַ֛יִךְ בְּמַר־נֶ֖פֶשׁ מִסְפֵּ֥ד מָֽר׃",
+      "text_kjv": "And they shall make themselves utterly bald for thee, and gird them with sackcloth, and they shall weep for thee with bitterness of heart and bitter wailing.",
+      "rendering": "They will shave their heads bald for you and put on sackcloth. They will weep over you with anguish of soul, with bitter mourning.",
+      "translator_notes": ["Additional mourning rituals: shaving the head (qorchah — the cognate accusative construction hiqrichu qorchah intensifies: 'they will make a baldness of baldness') and wearing sackcloth. These practices were actually forbidden to Israelites in certain contexts (Leviticus 21:5, Deuteronomy 14:1) but were common among other peoples. The phrase bemar-nephesh ('with bitterness of soul') indicates mourning that reaches the core of one's being."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְנָשְׂא֨וּ אֵלַ֤יִךְ בְּנִיהֶם֙ קִינָ֔ה וְקוֹנְנ֖וּ עָלָ֑יִךְ מִ֣י כְצ֔וֹר כְּדֻמָ֖ה בְּת֥וֹךְ הַיָּֽם׃",
+      "text_kjv": "And in their wailing they shall take up a lamentation for thee, and lament over thee, saying, What city is like Tyrus, like the destroyed in the midst of the sea?",
+      "rendering": "In their wailing they will raise a lamentation over you; they will chant over you: 'Who was ever like Tyre, now silenced in the midst of the sea?'",
+      "translator_notes": ["The foreign sailors now take up the very qinah ('lamentation') that God commanded Ezekiel to raise in verse 2 — the dirge has become contagious. The word kedumah is debated: it may mean 'like the silenced one' (from damam, 'to be silent'), 'like the destroyed one' (from damah, 'to destroy'), or 'like a fortress' (from a different root). We render 'silenced' — the great commercial city that once hummed with trade has gone silent."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "בְּצֵ֨את עִזְבוֹנַ֜יִךְ מִיַּמִּ֗ים הִשְׂבַּ֛עַתְּ עַמִּ֥ים רַבִּ֖ים בְּרֹ֣ב הוֹנַ֣יִךְ וּמַעֲרָבַ֑יִךְ הֶעֱשַׁ֖רְתְּ מַלְכֵי־אָֽרֶץ׃",
+      "text_kjv": "When thy wares went forth out of the seas, thou filledst many people; thou didst enrich the kings of the earth with the multitude of thy riches and of thy merchandise.",
+      "rendering": "When your goods went out from the seas, you satisfied many peoples; with your abundant wealth and merchandise, you enriched the kings of the earth.",
+      "translator_notes": ["The lament now looks backward to Tyre's former greatness. The verb hisba'at ('you satisfied, you filled to plenty') emphasizes that Tyre's commerce did not merely supply goods but brought satisfaction and abundance to entire nations. The verb he'esharet ('you enriched') — Tyre made kings wealthy. The irony of the dirge: the city that enriched the world now lies destroyed."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "עֵ֛ת נִשְׁבֶּ֥רֶת מִיַּמִּ֖ים בְּמַעֲמַקֵּי־מָ֑יִם מַעֲרָבֵ֥ךְ וְכָל־קְהָלֵ֖ךְ בְּתוֹכֵ֥ךְ נָפָֽלוּ׃",
+      "text_kjv": "In the time when thou shalt be broken by the seas in the depths of the waters thy merchandise and all thy company in the midst of thee shall fall.",
+      "rendering": "Now you are shattered by the seas, in the depths of the waters; your merchandise and all your crew have gone down with you.",
+      "translator_notes": ["The tense shifts to the moment of destruction. Nishberet ('you are shattered') uses the same root sh-v-r as the east wind's breaking in verse 26 — the destruction is complete. Bema'amaqei-mayim ('in the depths of the waters') takes the ship to the ocean floor. The word qahal ('assembly, company, crew') encompasses everyone aboard — the same word used for Israel's assembly before God is here used for the drowned company of a pagan ship."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "כָּל־יֹשְׁבֵ֥י הָאִיִּ֖ים שָׁמְמ֣וּ עָלָ֑יִךְ וּמַלְכֵיהֶם֙ שָׂ֣עֲרוּ שַׁ֔עַר רָעֲמ֖וּ פָּנִֽים׃",
+      "text_kjv": "All the inhabitants of the isles shall be astonished at thee, and their kings shall be sore afraid, they shall be troubled in their countenance.",
+      "rendering": "All the inhabitants of the coastlands are appalled at you; their kings shudder with horror, their faces contorted with fear.",
+      "translator_notes": ["Three reactions: shamemu ('they are appalled, devastated'), sa'aru sha'ar ('they shudder with shuddering' — a cognate accusative intensifying the terror), and ra'amu panim ('their faces are troubled/contorted'). The progression moves from shock to physical horror to visible facial distortion. The coastland kings who profited from Tyre's trade now tremble — if Tyre can fall, no commercial power is safe."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "סֹחֲרִ֤ים בָּֽעַמִּים֙ שָׁרְק֣וּ עָלַ֔יִךְ בַּלָּה֣וֹת הָיִ֔ית וְאֵינֵ֖ךְ עַד־עוֹלָֽם׃",
+      "text_kjv": "The merchants among the people shall hiss at thee; thou shalt be a terror, and never shalt thou be any more.",
+      "rendering": "The merchants among the peoples hiss at you; you have become an object of horror, and you will be no more — forever.\"",
+      "translator_notes": ["The final verse echoes the closing of chapter 26 (26:21). Sharqu ('they hiss') — a sound of shock and horror, not mockery (compare Jeremiah 19:8). Ballahot ('terrors, object of horror') — Tyre has become the very thing that terrifies. The phrase ve'einekh ad-olam ('and you will not be, forever') is the absolute finality formula. The Hebrew olam here means 'perpetuity' — Tyre's commercial empire will never be restored. The closing formula brackets the entire poem: the city that declared 'I am perfect in beauty' (v. 3) ends as an object of horror that ceases to exist."],
+      "key_terms": [
+        {
+          "hebrew": "עוֹלָם",
+          "transliteration": "olam",
+          "rendered_as": "forever",
+          "semantic_range": "forever, perpetuity, long duration, age",
+          "note": "Olam here carries the sense of irreversible permanence — Tyre's destruction is not temporary exile but permanent cessation. The same formula closes the Tyre oracle cycle."
+        }
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

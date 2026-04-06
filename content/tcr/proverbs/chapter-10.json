@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Proverbs",
+    "chapter": 10,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-30T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Proverbs 10 marks a dramatic shift in the book's form. The extended speeches, personified figures, and narrative sequences of chapters 1-9 give way to individual two-line proverbs — sharp, self-contained observations arranged with minimal visible connection between them. This is the beginning of the 'Proverbs of Solomon' collection (10:1-22:16), which contains 375 proverbs. Nearly every verse in chapter 10 is an antithetic parallelism: the first line makes a statement, and the second line states its opposite, almost always connected by the word 'but.' The dominant themes are the righteous versus the wicked, the wise versus the foolish, the diligent versus the lazy, and the power of speech.",
+    "remarkable": "The abrupt formal transition from chapter 9's dramatic banquet scene to chapter 10's staccato proverbs is itself meaningful. The prologue trained the reader to think; now the reader must apply that training to compressed, often ambiguous statements that offer no explanation. Each proverb is a seed that requires the reader's own wisdom to germinate. The antithetic structure that dominates this chapter is the poetic engine of the entire middle section of Proverbs — line A makes a claim, and line B reverses it. The 'but' (Hebrew ve- with adversative force) is the hinge on which wisdom turns. The chapter's opening verse is its dedication: 'A wise son brings joy to a father, but a foolish son is grief to his mother.' The personal, familial setting grounds the cosmic wisdom of chapters 1-9 in the daily reality of household life.",
+    "friction": "The retributive theology of chapter 10 is stated with absolute confidence: the righteous prosper, the wicked perish, the diligent grow rich, the lazy become poor. This framework will be severely tested by Job, Ecclesiastes, and many psalms of lament. Proverbs 10 presents the general pattern without acknowledging the exceptions. Read as iron laws, these proverbs are demonstrably false; read as general observations about how life tends to work in a morally ordered universe, they are profound. The reader must supply the nuance that the proverbs deliberately omit.",
+    "connections": "The 'Proverbs of Solomon' superscription (v1a) connects to 1:1 and to the later collection headers at 22:17, 24:23, 25:1, 30:1, and 31:1. The righteous/wicked contrast throughout the chapter extends Psalm 1's two-ways theology into specific domains: speech, wealth, labor, and family. The lips/tongue/mouth vocabulary (vv6, 8, 10, 11, 13, 14, 18, 19, 20, 21, 31, 32) makes speech the chapter's dominant concern — fully half the verses address what comes out of a person's mouth."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "מִשְׁלֵ֗י שְׁלֹ֫מֹ֥ה בֵּ֣ן חָ֭כָם יְשַׂמַּח־אָ֑ב וּבֵ֥ן כְּ֝סִ֗יל תּוּגַ֥ת אִמּֽוֹ׃",
+      "text_kjv": "The proverbs of Solomon. A wise son maketh a glad father: but a foolish son is the heaviness of his mother.",
+      "rendering": "The proverbs of Solomon.\n\nA wise son brings joy to his father,\nbut a foolish son is grief to his mother.",
+      "translator_notes": [
+        "The superscription mishle Shelomoh ('proverbs of Solomon') marks the beginning of the main collection. The first proverb grounds everything in the family: the ben chakham ('wise son') produces simchah ('joy') for the father, while the ben kesil ('foolish son') produces tugat ('grief, sorrow') for the mother. The asymmetry of father/mother rather than father/father is typical of Proverbs' inclusive parallelism — both parents are affected, though named separately."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "לֹא־י֭וֹעִילוּ אוֹצְר֣וֹת רֶ֑שַׁע וּ֝צְדָקָ֗ה תַּצִּ֥יל מִמָּֽוֶת׃",
+      "text_kjv": "Treasures of wickedness profit nothing: but righteousness delivereth from death.",
+      "rendering": "Treasures gained by wickedness profit nothing,\nbut righteousness delivers from death.",
+      "translator_notes": [
+        "Otsrot resha ('treasures of wickedness') — wealth acquired through evil means — lo yo'ilu ('do not profit, provide no benefit'). Against this, tsedaqah ('righteousness') tatsil mimmavet ('delivers from death'). The proverb compresses a massive theological claim into a single line: moral character, not material wealth, determines survival."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "לֹא־יַרְעִ֣יב יְ֭הוָה נֶ֣פֶשׁ צַדִּ֑יק וְהַוַּ֖ת רְשָׁעִ֣ים יֶהְדֹּֽף׃",
+      "text_kjv": "The LORD will not suffer the soul of the righteous to famish: but he casteth away the substance of the wicked.",
+      "rendering": "The LORD does not let the righteous go hungry,\nbut He thrusts aside the craving of the wicked.",
+      "translator_notes": [
+        "YHWH lo yar'iv ('the LORD will not cause to hunger') the nefesh tsaddiq ('soul/appetite of the righteous'). God actively provides for the righteous. Conversely, havvat resha'im yehdof ('the desire/craving of the wicked He pushes away, He repels'). The verb hadaf ('to push, to thrust, to drive away') is forceful — God actively resists the wicked's desires."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "רָ֗אשׁ עֹשֶׂ֥ה כַף־רְמִיָּ֑ה וְיַ֖ד חָרוּצִ֣ים תַּעֲשִֽׁיר׃",
+      "text_kjv": "He becometh poor that dealeth with a slack hand: but the hand of the diligent maketh rich.",
+      "rendering": "A slack hand makes for poverty,\nbut the hand of the diligent makes rich.",
+      "expanded_rendering": "The first of the chapter's diligence-laziness proverbs. Rash ('poor, impoverished') comes to oseh khaf remiyyah ('the one who works with a slack/deceitful hand'). The word remiyyah means both 'slack' and 'deceitful' — a lazy hand and a dishonest hand produce the same result. The contrasting yad charutsim ('hand of the diligent, hand of the sharp/decisive') ta'ashir ('makes rich, produces wealth'). The word charuts ('diligent, sharp, decisive') comes from a root meaning 'to cut, to decide, to be sharp' — the diligent person cuts through obstacles with the same decisive action that a blade cuts through material. Wealth in Proverbs is not accidental or arbitrary; it is the natural product of disciplined, honest labor. The proverb does not promise universal wealth to the hardworking — it identifies the general pattern that diligence tends toward prosperity and laziness tends toward poverty.",
+      "translator_notes": [
+        "The double meaning of remiyyah ('slack' and 'deceitful') links laziness to dishonesty — both are forms of failure to do what the situation requires. The sluggard and the fraud are, at root, the same character."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "אֹגֵ֣ר בַּ֭קַּיִץ בֵּ֣ן מַשְׂכִּ֑יל נִרְדָּ֥ם בַּ֝קָּצִ֗יר בֵּ֣ן מֵבִֽישׁ׃",
+      "text_kjv": "He that gathereth in summer is a wise son: but he that sleepeth in harvest is a son that causeth shame.",
+      "rendering": "A son who gathers in summer acts wisely,\nbut a son who sleeps through harvest brings shame.",
+      "translator_notes": [
+        "The ant lesson of 6:6-8 returns in proverbial form. The oger baqqayits ('one who gathers in summer') is a ben maskil ('a prudent/wise son'). The nirdam baqqatsir ('one who sleeps deeply during harvest') is a ben mevish ('a son who causes shame, who brings disgrace'). Harvest is time-sensitive — the grain will rot or fall if not gathered promptly. Sleeping through harvest is not merely lazy but destructive."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "בְּ֭רָכוֹת לְרֹ֣אשׁ צַדִּ֑יק וּפִ֥י רְ֝שָׁעִ֗ים יְכַסֶּ֥ה חָמָֽס׃",
+      "text_kjv": "Blessings are upon the head of the just: but violence covereth the mouth of the wicked.",
+      "rendering": "Blessings crown the head of the righteous,\nbut the mouth of the wicked conceals violence.",
+      "translator_notes": [
+        "Berakhot ('blessings') rest on the rosh tsaddiq ('head of the righteous') like a crown. The pi resha'im ('mouth of the wicked') yekhasseh chamas ('covers/conceals violence'). The wicked person's mouth is a cover for violence — what comes out as words hides what lives within as malice. The contrast between visible blessing and concealed violence is sharp."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "זֵ֣כֶר צַ֭דִּיק לִבְרָכָ֑ה וְשֵׁ֖ם רְשָׁעִ֣ים יִרְקָֽב׃",
+      "text_kjv": "The memory of the just is blessed: but the name of the wicked shall rot.",
+      "rendering": "The memory of the righteous is a blessing,\nbut the name of the wicked will rot.",
+      "expanded_rendering": "Zekher tsaddiq livrachah ('the memory/memorial of the righteous person is for blessing') — when the righteous are remembered, the memory itself blesses those who recall it. Their legacy is life-giving. Veshem resha'im yirqav ('but the name of the wicked will rot, will decay, will decompose'). The verb raqav ('to rot, to decay, to become worm-eaten') is applied to organic matter — wood, bones, fruit. The wicked person's shem ('name, reputation, legacy') undergoes the same decomposition as a corpse. The righteous endure in memory; the wicked decompose in memory. The proverb addresses legacy — what remains after death. The righteous leave behind a name that blesses; the wicked leave behind a name that stinks.",
+      "translator_notes": [
+        "In Hebrew culture, the shem ('name') is not a label but an identity — it carries the person's character and reputation forward through time. A rotting name is a rotting legacy. The most feared fate in ancient Israel was not death but being forgotten or remembered with disgust."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "חֲכַם־לֵ֭ב יִקַּ֣ח מִצְוֺ֑ת וֶאֱוִ֥יל שְׂ֝פָתַ֗יִם יִלָּבֵֽט׃",
+      "text_kjv": "The wise in heart will receive commandments: but a prating fool shall fall.",
+      "rendering": "The wise in heart accept commands,\nbut a babbling fool will come to ruin.",
+      "translator_notes": [
+        "Chakham lev ('wise of heart') yiqqach mitsvot ('receives/accepts commands') — the wise are teachable, willing to take direction. The evil sefatayim ('fool of lips, babbling fool') yillabet ('will be tripped up, will stumble, will come to ruin'). The contrast is between receiving (wise) and producing without receiving (fool). The fool talks when he should listen and stumbles because his mouth is open when his ears should be."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "הוֹלֵ֣ךְ בַּ֭תֹּם יֵ֣לֶךְ בֶּ֑טַח וּמְעַקֵּ֥שׁ דְּ֝רָכָ֗יו יִוָּדֵֽעַ׃",
+      "text_kjv": "He that walketh uprightly walketh surely: but he that perverteth his ways shall be known.",
+      "rendering": "Whoever walks with integrity walks securely,\nbut whoever makes their ways crooked will be found out.",
+      "translator_notes": [
+        "Holekh battom ('the one walking in integrity/wholeness') yelekh betach ('walks securely, walks confidently'). The tom ('integrity') produces betach ('security') — the honest person has nothing to hide and therefore nothing to fear. The me'aqqesh derakhav ('the one who makes crooked his ways') yivvadea ('will be known, will be found out, will be exposed'). The crooked cannot stay hidden forever."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "קֹ֣רֵץ עַ֭יִן יִתֵּ֣ן עַצָּ֑בֶת וֶאֱוִ֥יל שְׂ֝פָתַ֗יִם יִלָּבֵֽט׃",
+      "text_kjv": "He that winketh with the eye causeth sorrow: but a prating fool shall fall.",
+      "rendering": "Whoever winks with the eye causes pain,\nand a babbling fool will come to ruin.",
+      "translator_notes": [
+        "Qorets ayin ('one who winks the eye') echoes the troublemaker of 6:13. The wink signals deception and conspiracy. The second line repeats 10:8b exactly — the babbling fool appears twice in this chapter, reinforcing the danger of uncontrolled speech."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "מְק֣וֹר חַ֭יִּים פִּ֣י צַדִּ֑יק וּפִ֥י רְ֝שָׁעִ֗ים יְכַסֶּ֥ה חָמָֽס׃",
+      "text_kjv": "The mouth of a righteous man is a well of life: but violence covereth the mouth of the wicked.",
+      "rendering": "The mouth of the righteous is a fountain of life,\nbut the mouth of the wicked conceals violence.",
+      "translator_notes": [
+        "Pi tsaddiq ('the mouth of the righteous') is a meqor chayyim ('fountain/source of life'). The same meqor ('source, spring') imagery from 4:23 ('springs of life') now flows through the righteous person's speech. Words from the righteous give life. The second line repeats verse 6b — the wicked mouth covers violence."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "שִׂ֭נְאָה תְּעֹרֵ֣ר מְדָנִ֑ים וְעַ֥ל כָּל־פְּ֝שָׁעִ֗ים תְּכַסֶּ֥ה אַהֲבָֽה׃",
+      "text_kjv": "Hatred stirreth up strifes: but love covereth all sins.",
+      "rendering": "Hatred stirs up conflicts,\nbut love covers all offenses.",
+      "expanded_rendering": "Sin'ah ('hatred') te'orer medanim ('rouses up, awakens, stirs conflicts/strife'). The verb ur ('to awaken, to rouse') presents hatred as an alarm that wakes sleeping conflicts — it does not create problems from nothing but activates latent tensions. Ve-al kol pesha'im tekhasseh ahavah ('but over all offenses/transgressions love covers'). This is one of the most quoted verses in the book, cited in 1 Peter 4:8 ('love covers a multitude of sins'). The verb kasah ('to cover') does not mean love ignores sin or pretends it does not exist. It means love does not expose, broadcast, or weaponize the failings of others. Love chooses not to publicize what it could legitimately reveal. Hatred digs up buried grievances; love buries exposed ones. The proverb is not about forgiveness (a different concept) but about discretion — the refusal to use another person's failures against them.",
+      "translator_notes": [
+        "The covering of pesha'im ('offenses, transgressions, rebellions') by love is not denial or enabling but a choice about what to do with information. The hateful person uses offenses as weapons; the loving person uses discretion as a shield."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אַהֲבָה",
+          "transliteration": "ahavah",
+          "rendered_as": "love",
+          "semantic_range": "love, affection, devotion; both human and divine; the active commitment to another's good",
+          "note": "Ahavah in Proverbs is not primarily emotional but volitional — it is the choice to act in another person's interest. Here it is contrasted with sin'ah ('hatred'), which acts to damage. Love covers; hatred exposes."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "בְּשִׂפְתֵ֣י נָ֭בוֹן יִמָּצֵ֣א חָכְמָ֑ה וְ֝שֵׁ֗בֶט לְגֵ֣ו חֲסַר־לֵֽב׃",
+      "text_kjv": "In the lips of him that hath understanding wisdom is found: but a rod is for the back of him that is void of understanding.",
+      "rendering": "On the lips of the discerning, wisdom is found,\nbut a rod is for the back of the one who lacks sense.",
+      "translator_notes": [
+        "The navon ('discerning person') carries wisdom on his lips — it is available, ready, findable. The chasar lev ('one lacking sense/heart') receives a shevet ('rod, staff') on the gev ('back'). What the wise communicate through words, the fool must learn through pain. The rod is not cruelty but the only pedagogy the fool's closed ears will accept."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "חֲ֭כָמִים יִצְפְּנוּ־דָ֑עַת וּפִ֥י אֱ֝וִ֗יל מְחִתָּ֥ה קְרֹבָֽה׃",
+      "text_kjv": "Wise men lay up knowledge: but the mouth of the foolish is near destruction.",
+      "rendering": "The wise store up knowledge,\nbut the mouth of the fool invites ruin.",
+      "translator_notes": [
+        "Chakhamim yitspe'nu da'at ('the wise treasure/store up knowledge') — the same verb tsaphan from 2:1. The wise accumulate knowledge like savings. The pi evil ('mouth of the fool') is mechittah qerovah ('near destruction, destruction is close'). The fool's mouth is not a fountain of life (v11) but a proximity alarm for catastrophe."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "ה֣וֹן עָ֭שִׁיר קִרְיַ֣ת עֻזּ֑וֹ מְחִתַּ֖ת דַּלִּ֣ים רֵישָֽׁם׃",
+      "text_kjv": "The rich man's wealth is his strong city: the destruction of the poor is their poverty.",
+      "rendering": "The wealth of the rich is their fortified city;\nthe poverty of the poor is their ruin.",
+      "translator_notes": [
+        "Hon ashir ('the wealth of the rich person') is qiryat uzzo ('his city of strength, his fortified city') — wealth provides protection, security, a wall against misfortune. Mechittat dallim resham ('the ruin of the poor is their poverty') — poverty is not merely uncomfortable but destructive, leaving the poor exposed to every threat the wealthy are shielded from. The proverb observes without prescribing — it does not say this arrangement is just, only that it exists."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "פְּעֻלַּ֣ת צַ֭דִּיק לְחַיִּ֑ים תְּבוּאַ֖ת רָשָׁ֣ע לְחַטָּֽאת׃",
+      "text_kjv": "The labour of the righteous tendeth to life: the fruit of the wicked to sin.",
+      "rendering": "The earnings of the righteous lead to life;\nthe income of the wicked leads to sin.",
+      "translator_notes": [
+        "Pe'ullat tsaddiq ('the work/wages of the righteous') leads lechayyim ('to life'). Tevu'at rasha ('the produce/income of the wicked') leads lechatta't ('to sin'). Wealth itself is morally neutral — what matters is whose hands it is in. In the hands of the righteous, earnings produce more life; in the hands of the wicked, income funds more sin."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אֹ֣רַח לְ֭חַיִּים שׁוֹמֵ֣ר מוּסָ֑ר וְעוֹזֵ֖ב תּוֹכַ֣חַת מַתְעֶֽה׃",
+      "text_kjv": "He is in the way of life that keepeth instruction: but he that refuseth reproof erreth.",
+      "rendering": "Whoever heeds discipline is on the path to life,\nbut whoever ignores correction goes astray.",
+      "translator_notes": [
+        "Shomer musar ('the one who guards discipline') is on an orach lechayyim ('path to life'). The ozev tokhachat ('the one who abandons correction') mat'eh ('wanders, leads astray, causes to err'). The hinge between life and death is not talent or luck but the willingness to be corrected."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "מְכַסֶּ֣ה שִׂ֭נְאָה שִׂפְתֵי־שָׁ֑קֶר וּמוֹצִ֥א דִ֝בָּ֗ה ה֣וּא כְסִֽיל׃",
+      "text_kjv": "He that hideth hatred with lying lips, and he that uttereth a slander, is a fool.",
+      "rendering": "Whoever conceals hatred has lying lips,\nand whoever spreads slander is a fool.",
+      "translator_notes": [
+        "Two speech-sins: mekhasseh sin'ah ('concealing hatred') behind siftei shaqer ('lips of falsehood') — pretending friendship while harboring malice. And motsi dibbah ('spreading slander, putting out a bad report'). Both are foolish because both corrupt the social fabric that sustains community."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "בְּרֹ֣ב דְּ֭בָרִים לֹ֣א יֶחְדַּל־פָּ֑שַׁע וְחוֹשֵׂ֖ךְ שְׂפָתָ֣יו מַשְׂכִּֽיל׃",
+      "text_kjv": "In the multitude of words there wanteth not sin: but he that refraineth his lips is wise.",
+      "rendering": "Where words are many, sin is not absent;\nbut whoever restrains his lips acts wisely.",
+      "translator_notes": [
+        "Berov devarim lo yechdal pasha ('in a multitude of words, transgression does not cease') — the more you talk, the more likely you are to sin. The probability of offense increases with volume. Vechosekh sefatav maskil ('but the one who holds back his lips is prudent'). Restraint of speech is a hallmark of wisdom throughout Proverbs. The wise speak less not because they know less but because they know enough to be careful."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "כֶּ֣סֶף נִ֭בְחָר לְשׁ֣וֹן צַדִּ֑יק לֵ֖ב רְשָׁעִ֣ים כִּמְעָֽט׃",
+      "text_kjv": "The tongue of the just is as choice silver: the heart of the wicked is little worth.",
+      "rendering": "The tongue of the righteous is choice silver;\nthe heart of the wicked is worth little.",
+      "translator_notes": [
+        "Leshon tsaddiq ('the tongue of the righteous') is keseph nivchar ('choice silver, selected silver') — refined, tested, valuable. Lev resha'im ('the heart of the wicked') is kim'at ('like a little, worth little, nearly nothing'). The righteous person's speech is precious metal; the wicked person's entire inner life is nearly worthless."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "שִׂפְתֵ֣י צַ֭דִּיק יִרְע֣וּ רַבִּ֑ים וֶ֝אֱוִילִ֗ים בַּחֲסַר־לֵ֥ב יָמֽוּתוּ׃",
+      "text_kjv": "The lips of the righteous feed many: but fools die for want of wisdom.",
+      "rendering": "The lips of the righteous nourish many,\nbut fools die for lack of sense.",
+      "translator_notes": [
+        "Siftei tsaddiq yir'u rabbim ('the lips of the righteous shepherd/feed many') — the verb ra'ah ('to shepherd, to feed, to tend') applies pastoral imagery to speech. The righteous person's words feed the community as a shepherd feeds a flock. Evilim bachsar lev yamutu ('fools die in their lack of heart'). The absence of the heart/sense that wisdom provides is literally fatal."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "בִּרְכַּ֣ת יְ֭הוָה הִ֣יא תַעֲשִׁ֑יר וְלֹא־יוֹסִ֖ף עֶ֣צֶב עִמָּֽהּ׃",
+      "text_kjv": "The blessing of the LORD, it maketh rich, and he addeth no sorrow with it.",
+      "rendering": "The blessing of the LORD — it makes rich,\nand He adds no sorrow with it.",
+      "translator_notes": [
+        "Birkat YHWH hi ta'ashir ('the blessing of the LORD — it enriches'). The pronoun hi ('it') is emphatic: the blessing itself does the work. Velo yosif etsev immah ('and He does not add pain/toil/sorrow with it'). Wealth from God comes without the etsev ('pain, toil, grief') that accompanies wealth gained through overwork or dishonesty. This is not a promise that the blessed never suffer but that God's blessing does not carry a hidden cost."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "כִּשְׂח֣וֹק לִ֭כְסִיל עֲשׂ֣וֹת זִמָּ֑ה וְ֝חָכְמָ֗ה לְאִ֣ישׁ תְּבוּנָֽה׃",
+      "text_kjv": "It is as sport to a fool to do mischief: but a man of understanding hath wisdom.",
+      "rendering": "Doing wickedness is like sport to a fool,\nbut wisdom is natural to a person of understanding.",
+      "translator_notes": [
+        "Kisechoq likhsil asot zimmah ('like laughter/sport to a fool is doing wickedness') — the fool treats evil as entertainment, as a game. But chokmah le-ish tevunah ('wisdom belongs to a person of understanding') — wisdom comes as naturally to the discerning as depravity comes to the fool. What each finds easy reveals what each is."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "מְגוֹרַ֣ת רָ֭שָׁע הִ֣יא תְבוֹאֶ֑נּוּ וְתַאֲוַ֖ת צַדִּיקִ֣ים יִתֵּֽן׃",
+      "text_kjv": "The fear of the wicked, it shall come upon him: but the desire of the righteous shall be granted.",
+      "rendering": "What the wicked dread will come upon them,\nbut the desire of the righteous will be granted.",
+      "translator_notes": [
+        "Megorat rasha ('the dread/fear of the wicked person') hi tevo'ennu ('it will come upon him') — the wicked person's worst fear becomes reality. Ta'avat tsaddiqim yitten ('the desire of the righteous He gives, He grants'). The proverb asserts a moral symmetry: dread comes true for the wicked; desire comes true for the righteous."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "כַּעֲב֣וֹר ס֭וּפָה וְאֵ֣ין רָשָׁ֑ע וְ֝צַדִּ֗יק יְס֣וֹד עוֹלָֽם׃",
+      "text_kjv": "As the whirlwind passeth, so is the wicked no more: but the righteous is an everlasting foundation.",
+      "rendering": "When the storm passes, the wicked are gone,\nbut the righteous stand on an everlasting foundation.",
+      "translator_notes": [
+        "Ka'avor sufah ('when the whirlwind passes through') ve-ein rasha ('the wicked is no more, the wicked has vanished'). The storm imagery from 1:27 returns: the wicked are swept away like chaff. Vetsaddiq yesod olam ('but the righteous is a foundation of eternity') — the righteous person is as permanent as a building's foundation. The storm test separates the rooted from the rootless — echoing Jesus' later parable of the house on the rock (Matthew 7:24-27)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "כַּחֹ֤מֶץ ׀ לַשִּׁנַּ֗יִם וְכֶעָשָׁ֥ן לָעֵינָ֑יִם כֵּ֥ן הֶ֝עָצֵ֗ל לְשֹׁלְחָֽיו׃",
+      "text_kjv": "As vinegar to the teeth, and as smoke to the eyes, so is the sluggard to them that send him.",
+      "rendering": "Like vinegar to the teeth\nand smoke to the eyes,\nso is the sluggard to those who send him.",
+      "translator_notes": [
+        "Two sensory irritants: chomets ('vinegar') that sets the teeth on edge and ashan ('smoke') that stings the eyes. The atsel ('sluggard') produces the same effect on those who rely on him — persistent, low-grade irritation that makes everything harder. The sluggard does not merely fail to perform; he actively aggravates everyone depending on him."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "יִרְאַ֣ת יְ֭הוָה תּוֹסִ֣יף יָמִ֑ים וּשְׁנ֖וֹת רְשָׁעִ֣ים תִּקְצֹֽרְנָה׃",
+      "text_kjv": "The fear of the LORD prolongeth days: but the years of the wicked shall be shortened.",
+      "rendering": "The fear of the LORD adds days,\nbut the years of the wicked are cut short.",
+      "translator_notes": [
+        "Yirat YHWH tosif yamim ('the fear of the LORD adds days') — long life again as the fruit of right relationship with God. Ushenot resha'im tiqtsornah ('but the years of the wicked will be shortened, cut short'). The verb qatsar ('to be short, to reap, to harvest early') suggests premature death — the wicked do not live out their allotted years."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "תּוֹחֶ֣לֶת צַ֭דִּיקִים שִׂמְחָ֑ה וְתִקְוַ֖ת רְשָׁעִ֣ים תֹּאבֵֽד׃",
+      "text_kjv": "The hope of the righteous shall be gladness: but the expectation of the wicked shall perish.",
+      "rendering": "The hope of the righteous brings joy,\nbut the expectation of the wicked will perish.",
+      "translator_notes": [
+        "Tocheleth tsaddiqim simchah ('the hope/waiting of the righteous is joy') — what the righteous wait for arrives, producing simchah ('gladness, joy'). Tiqvat resha'im toved ('the hope/cord/expectation of the wicked perishes'). The tiqvah can mean both 'hope' and 'cord, line' — the wicked person's lifeline snaps."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "מָע֣וֹז לַ֭תֹּם דֶּ֣רֶךְ יְהוָ֑ה וּ֝מְחִתָּ֗ה לְפֹ֣עֲלֵי אָֽוֶן׃",
+      "text_kjv": "The way of the LORD is strength to the upright: but destruction shall be to the workers of iniquity.",
+      "rendering": "The way of the LORD is a stronghold for the blameless,\nbut destruction for evildoers.",
+      "translator_notes": [
+        "Derekh YHWH ('the way of the LORD') is ma'oz ('stronghold, refuge, fortress') for the tam ('blameless, person of integrity') but mechittah ('destruction, ruin') for po'ale aven ('workers of iniquity'). The same divine way functions as both protection and destruction depending on who encounters it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "צַ֭דִּיק לְעוֹלָ֣ם בַּל־יִמּ֑וֹט וּ֝רְשָׁעִ֗ים לֹ֣א יִשְׁכְּנוּ־אָֽרֶץ׃",
+      "text_kjv": "The righteous shall never be removed: but the wicked shall not inhabit the earth.",
+      "rendering": "The righteous will never be shaken,\nbut the wicked will not inhabit the land.",
+      "translator_notes": [
+        "Tsaddiq le-olam bal yimmot ('the righteous person forever will not be moved, will not totter') echoes Psalm 15:5 and Psalm 16:8. Urshe'aim lo yishkenu erets ('but the wicked will not dwell in the land') reprises 2:21-22 — the land-theology of Deuteronomy applied to individual ethics."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "פִּ֣י צַ֭דִּיק יָנ֣וּב חָכְמָ֑ה וּלְשׁ֥וֹן תַּ֝הְפֻּכ֗וֹת תִּכָּרֵֽת׃",
+      "text_kjv": "The mouth of the just bringeth forth wisdom: but the froward tongue shall be cut out.",
+      "rendering": "The mouth of the righteous bears the fruit of wisdom,\nbut the perverse tongue will be cut off.",
+      "translator_notes": [
+        "Pi tsaddiq yanuv chokmah ('the mouth of the righteous buds/bears fruit of wisdom') — the verb nuv ('to bear fruit, to flourish, to sprout') presents the righteous mouth as a fruit tree, connecting to the tree-of-life imagery of 3:18. Ulshon tahpukhot tikkaret ('but the tongue of perversity will be cut off') — the karath ('to cut off') is the language of covenant severance and death."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "שִׂפְתֵ֣י צַ֭דִּיק יֵדְע֣וּן רָצ֑וֹן וּפִ֥י רְ֝שָׁעִ֗ים תַּהְפֻּכֽוֹת׃",
+      "text_kjv": "The lips of the righteous know what is acceptable: but the mouth of the wicked speaketh frowardness.",
+      "rendering": "The lips of the righteous know what is fitting,\nbut the mouth of the wicked speaks perversity.",
+      "translator_notes": [
+        "Siftei tsaddiq yed'un ratson ('the lips of the righteous know what is acceptable, what is fitting, what pleases'). The verb yada ('to know') applied to lips means they have the discernment to speak the right word at the right time. Pi resha'im tahpukhot ('the mouth of the wicked — perversity'). The chapter ends as it has run: righteous speech gives life; wicked speech inverts reality. The thirty-two verses have returned again and again to the same point: what comes out of the mouth reveals and determines who you are."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

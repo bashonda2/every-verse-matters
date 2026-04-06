@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Kings",
+    "chapter": 14,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Amaziah son of Joash becomes king of Judah at twenty-five and reigns twenty-nine years. He does what is right in the eyes of the LORD, though not like David — and the high places remain. He executes his father's assassins but spares their children, following the Torah's principle that children shall not be put to death for their parents' sins. Amaziah achieves a military victory over Edom, killing ten thousand in the Valley of Salt and capturing Sela. Emboldened, he challenges Jehoash king of Israel to battle. Jehoash responds with a mocking fable: a thistle in Lebanon asks a cedar for his daughter in marriage, but a wild animal tramples the thistle. The message is clear — Amaziah is overreaching. Amaziah will not listen. They meet at Beth-shemesh, Judah is routed, and Jehoash captures Amaziah. Jehoash then marches on Jerusalem, breaks down four hundred cubits of the city wall, and plunders the Temple and palace treasuries, taking hostages back to Samaria. Amaziah outlives Jehoash by fifteen years. Eventually a conspiracy forms against Amaziah in Jerusalem. He flees to Lachish, but they pursue and kill him there. His body is brought back on horses and buried in Jerusalem. The people of Judah make his sixteen-year-old son Azariah (Uzziah) king. Azariah rebuilds Elath and restores it to Judah. The chapter concludes with Jeroboam II of Israel, who reigns forty-one years, does evil, yet restores Israel's borders from Lebo-hamath to the Sea of the Arabah, fulfilling the word of the LORD through the prophet Jonah son of Amittai.",
+    "remarkable": "The thistle-and-cedar fable (verse 9) is one of only two fables in the Hebrew Bible (cf. Judges 9:8-15, Jotham's fable). Jehoash uses it to devastating rhetorical effect: Amaziah is the thistle, Israel the cedar, and the wild beast represents the unpredictable consequences of hubris. The fable warns that a minor victory (over Edom) does not qualify someone for a major war. Amaziah's refusal to heed the warning proves the fable's point — the thistle gets trampled. The mention of Jonah son of Amittai (verse 25) provides the historical anchor for the prophetic book of Jonah: the same prophet who predicted Israel's territorial expansion is the one sent to preach to Nineveh. This note transforms our understanding of the Book of Jonah by situating it in a specific political context.",
+    "friction": "The chronological relationship between Amaziah's twenty-nine-year reign (verse 2), his survival fifteen years after Jehoash's death (verse 17), and the accession of Azariah (verse 21) creates difficulties for precise dating. Some scholars posit a co-regency period. The identification of Sela in verse 7 is debated — it may be Petra in Edom or another site. The abruptness of Amaziah's defeat and humiliation after his Edomite success raises narrative questions: 2 Chronicles 25 fills the gap by explaining that Amaziah brought back Edomite gods and worshiped them, provoking divine judgment through the Israelite defeat. Kings omits this theological explanation, leaving the reversal of fortune unexplained within the chapter itself. Jeroboam II's positive military achievements (v25-27) stand in tension with his negative theological evaluation (v24), creating the paradox of a sinful king who restores national greatness.",
+    "connections": "Amaziah's obedience to Deuteronomy 24:16 (verse 6, 'children shall not die for their fathers') is a rare explicit Torah citation in Kings, demonstrating that the written law functions as operative legislation. The Edomite conflict continues the ancient Jacob-Esau rivalry that runs from Genesis 25 through Obadiah. The thistle fable connects to the wisdom tradition's use of nature imagery for moral instruction. Jehoash's breach of Jerusalem's wall (verse 13) prefigures the Babylonian destruction of the walls in 587 BCE. Jeroboam II's restoration of borders 'from Lebo-hamath to the Sea of the Arabah' (verse 25) echoes the idealized Solomonic boundaries (1 Kings 8:65), suggesting a brief return to imperial-scale territory. The prophet Jonah son of Amittai links this chapter to the Book of Jonah, where the same prophet is called to Nineveh — the capital of the Assyrian empire that will eventually destroy the northern kingdom Jonah had blessed."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "בִּשְׁנַ֣ת שְׁתַּ֔יִם לְיוֹאָ֥שׁ בֶּן־יוֹאָחָ֖ז מֶ֣לֶךְ יִשְׂרָאֵ֑ל מָ֠לַ֠ךְ אֲמַצְיָ֧הוּ בֶן־יוֹאָ֛שׁ מֶ֥לֶךְ יְהוּדָֽה׃",
+      "text_kjv": "In the second year of Joash son of Jehoahaz king of Israel reigned Amaziah the son of Joash king of Judah.",
+      "rendering": "In the second year of Joash son of Jehoahaz, king of Israel, Amaziah son of Joash became king of Judah.",
+      "translator_notes": [
+        "Both kingdoms now have kings named Joash (or Jehoash). The synchronism ties Amaziah's accession to the northern Joash's second year. The parallel naming creates potential confusion that the narrator manages through patronymics and kingdom designations."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "בֶּן־עֶשְׂרִ֥ים וְחָמֵ֛שׁ שָׁנָ֖ה הָיָ֣ה בְמׇלְכ֑וֹ וְעֶשְׂרִ֤ים וָתֵ֙שַׁע֙ שָׁנָ֔ה מָלַ֖ךְ בִּירוּשָׁלָ֑͏ִם וְשֵׁ֥ם אִמּ֛וֹ יְהוֹעַדָּ֖ן מִן־יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "He was twenty and five years old when he began to reign, and reigned twenty and nine years in Jerusalem. And his mother's name was Jehoaddan of Jerusalem.",
+      "rendering": "He was twenty-five years old when he became king, and he reigned twenty-nine years in Jerusalem. His mother's name was Jehoaddan, from Jerusalem.",
+      "translator_notes": [
+        "The standard regnal formula: age at accession, length of reign, queen mother's name and origin. Jehoaddan ('the LORD is delight') is from Jerusalem itself — a native Judean queen mother, unlike the foreign-born mothers who imported alien worship."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיַּ֤עַשׂ הַיָּשָׁר֙ בְּעֵינֵ֣י יְהוָ֔ה רַ֕ק לֹ֖א כְּדָוִ֣ד אָבִ֑יו כְּכֹ֤ל אֲשֶׁר־עָשָׂה֙ יוֹאָ֣שׁ אָבִ֔יו עָשָֽׂה׃",
+      "text_kjv": "And he did that which was right in the sight of the LORD, yet not like David his father: he did according to all things as Joash his father did.",
+      "rendering": "He did what was right in the eyes of the LORD, though not like his ancestor David. He did everything his father Joash had done.",
+      "translator_notes": [
+        "A qualified positive evaluation with two comparisons: Amaziah falls short of David (the gold standard) but matches his father Joash (a conditional faithful king). The phrase raq lo ke-David ('only not like David') establishes David as the permanent benchmark for Judean kings — a standard none of them fully meets."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "רַ֥ק הַבָּמ֖וֹת לֹא־סָ֑רוּ ע֥וֹד הָעָ֛ם מְזַבְּחִ֥ים וּמְקַטְּרִ֖ים בַּבָּמֽוֹת׃",
+      "text_kjv": "Howbeit the high places were not taken away: as yet the people did sacrifice and burnt incense on the high places.",
+      "rendering": "However, the high places were not removed. The people continued sacrificing and burning incense at the high places.",
+      "translator_notes": [
+        "The identical high-places caveat that qualified Joash's reign (12:4). The persistence of this note across multiple kings underscores the systemic nature of the problem: decentralized worship is not a single king's failure but a national habit no king before Hezekiah will break."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיְהִ֕י כַּאֲשֶׁ֛ר חָזְקָ֥ה הַמַּמְלָכָ֖ה בְּיָד֑וֹ וַיַּ֤ךְ אֶת־עֲבָדָיו֙ הַמַּכִּ֔ים אֶת־הַמֶּ֖לֶךְ אָבִֽיו׃",
+      "text_kjv": "And it came to pass, as soon as the kingdom was confirmed in his hand, that he slew his servants which had slain the king his father.",
+      "rendering": "As soon as the kingdom was firmly in his hand, he executed the servants who had assassinated his father the king.",
+      "translator_notes": [
+        "Amaziah waits until his power is consolidated (ka-asher chazqah ha-mamlakhah be-yado, 'when the kingdom was strong in his hand') before acting against the assassins. This is political prudence: premature justice against well-connected conspirators could destabilize a new reign."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְאֶת־בְּנֵ֥י הַמַּכִּ֖ים לֹ֣א הֵמִ֑ית כַּכָּת֣וּב בְּסֵ֣פֶר תּוֹרַת־מֹ֠שֶׁ֠ה אֲשֶׁר־צִוָּ֨ה יְהוָ֜ה לֵאמֹ֗ר לֹא־יוּמְת֤וּ אָבוֹת֙ עַל־בָּנִ֔ים וּבָנִ֖ים לֹא־יוּמְת֣וּ עַל־אָב֑וֹת כִּ֛י אִם־אִ֥ישׁ בְּחֶטְא֖וֹ יוּמָֽת׃",
+      "text_kjv": "But the children of the murderers he slew not: according unto that which is written in the book of the law of Moses, wherein the LORD commanded, saying, The fathers shall not be put to death for the children, nor the children be put to death for the fathers; but every man shall be put to death for his own sin.",
+      "rendering": "But he did not put the sons of the assassins to death, in accordance with what is written in the Book of the Law of Moses, where the LORD commanded: 'Parents shall not be put to death for their children, nor shall children be put to death for their parents. Each person shall be put to death only for his own sin.'",
+      "expanded_rendering": "This is one of the rare moments in Kings where a king explicitly follows written Torah as legislation. The citation comes from Deuteronomy 24:16, and the narrator credits the restraint directly to the authority of sefer torat Mosheh ('the Book of the Law of Moses'). In a world where collective punishment was standard — where a conspirator's entire family might be executed to prevent future revenge — Amaziah's restraint is remarkable. Individual moral responsibility is affirmed as a governing legal principle: ish be-chet'o yumat ('each person in his own sin shall die').",
+      "translator_notes": [
+        "The explicit quotation from Deuteronomy 24:16 is introduced with the full authority formula: ka-katuv be-sefer torat Mosheh asher tsivah YHWH ('as written in the Book of the Law of Moses which the LORD commanded'). This is prescriptive Torah being applied as positive law — one of the clearest demonstrations in Kings that the Deuteronomic code functions as the kingdom's constitutional document."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹרָה",
+          "transliteration": "torah",
+          "rendered_as": "Law",
+          "semantic_range": "instruction, teaching, law, direction, guidance",
+          "note": "torah from the root yarah ('to throw, to shoot, to instruct'). Here it refers specifically to the written legal corpus attributed to Moses — the Deuteronomic code at minimum. The phrase sefer torat Mosheh indicates an existing written document with binding legal authority."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "ה֣וּא הִכָּ֤ה אֶת־אֱדוֹם֙ בְּגֵ֣יא הַמֶּ֔לַח עֲשֶׂ֥רֶת אֲלָפִ֖ים וְתָפַ֣שׂ אֶת־הַסֶּ֑לַע בַּמִּלְחָמָ֗ה וַיִּקְרָ֤א אֶת־שְׁמָהּ֙ יׇקְתְאֵ֔ל עַ֖ד הַיּ֥וֹם הַזֶּֽה׃",
+      "text_kjv": "He slew of Edom in the valley of salt ten thousand, and took Selah by war, and called the name of it Joktheel unto this day.",
+      "rendering": "He struck down ten thousand Edomites in the Valley of Salt and captured Sela in battle, renaming it Joktheel — a name it bears to this day.",
+      "translator_notes": [
+        "The Valley of Salt (south of the Dead Sea) was a traditional site of Israelite-Edomite battles (cf. 2 Samuel 8:13). Sela ('rock, cliff') is likely a fortified Edomite city — possibly Petra or another elevated stronghold. The renaming to Joktheel ('God's obedience' or 'God has subdued') marks the conquest as divinely aided."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "אָ֣ז שָׁלַ֤ח אֲמַצְיָה֙ מַלְאָכִ֔ים אֶל־יְהוֹאָ֥שׁ בֶּן־יְהוֹאָחָ֖ז בֶּן־יֵה֣וּא מֶלֶךְ יִשְׂרָאֵ֑ל לֵאמֹ֕ר לְכָ֖ה נִתְרָאֶ֥ה פָנִֽים׃",
+      "text_kjv": "Then Amaziah sent messengers to Jehoash the son of Jehoahaz son of Jehu, king of Israel, saying, Come, let us look one another in the face.",
+      "rendering": "Then Amaziah sent messengers to Jehoash son of Jehoahaz son of Jehu, king of Israel, saying, \"Come, let us face each other in battle.\"",
+      "translator_notes": [
+        "The challenge lekhah nitreh fanim ('come, let us see faces') is a polite idiom for a military confrontation — literally 'let us meet face to face.' Amaziah's Edomite victory has inflated his confidence. The full patronymic chain — 'Jehoash son of Jehoahaz son of Jehu' — emphasizes the northern king's dynastic pedigree."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיִּשְׁלַ֞ח יְהוֹאָ֣שׁ מֶלֶךְ־יִשְׂרָאֵ֗ל אֶל־אֲמַצְיָ֣הוּ מֶלֶךְ־יְהוּדָה֮ לֵאמֹר֒ הַח֜וֹחַ אֲשֶׁ֣ר בַּלְּבָנ֗וֹן שָׁלַ֤ח אֶל־הָאֶ֙רֶז֙ אֲשֶׁ֣ר בַּלְּבָנ֔וֹן לֵאמֹ֛ר תְּנָ֧ה אֶת־בִּתְּךָ֛ לִבְנִ֖י לְאִשָּׁ֑ה וַתַּעֲבֹ֞ר חַיַּ֤ת הַשָּׂדֶה֙ אֲשֶׁ֣ר בַּלְּבָנ֔וֹן וַתִּרְמֹ֖ס אֶת־הַחֽוֹחַ׃",
+      "text_kjv": "And Jehoash the king of Israel sent to Amaziah king of Judah, saying, The thistle that was in Lebanon sent to the cedar that was in Lebanon, saying, Give thy daughter to my son to wife: and there passed by a wild beast that was in Lebanon, and trode down the thistle.",
+      "rendering": "Jehoash king of Israel sent back to Amaziah king of Judah: \"A thistle in Lebanon sent a message to a cedar in Lebanon: 'Give your daughter to my son in marriage.' But a wild animal of Lebanon came passing by and trampled the thistle.",
+      "translator_notes": [
+        "The fable is devastatingly concise. The thistle (choach, a thorny weed) represents Amaziah; the cedar represents Israel; the proposed marriage represents Amaziah's pretension to equality with a greater power. The wild animal that casually destroys the thistle represents the unintended consequences of overreach. Jehoash does not threaten directly — the fable makes the threat for him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "הַכֵּ֤ה הִכִּ֙יתָ֙ אֶת־אֱד֔וֹם וּנְשָׂאֲךָ֖ לִבֶּ֑ךָ הִכָּבֵד֙ וְשֵׁ֣ב בְּבֵיתֶ֔ךָ וְלָ֤מָּה תִתְגָּרֶ֣ה בְרָעָ֔ה וְנָ֣פַלְתָּ֔ אַתָּ֖ה וִיהוּדָ֥ה עִמָּֽךְ׃",
+      "text_kjv": "Thou hast indeed smitten Edom, and thine heart hath lifted thee up: glory of this, and tarry at home: for why shouldest thou meddle to thy hurt, that thou shouldest fall, even thou, and Judah with thee?",
+      "rendering": "You have indeed defeated Edom, and your heart has become proud. Enjoy your glory and stay home! Why provoke disaster? You will fall — you and Judah with you.\"",
+      "translator_notes": [
+        "Jehoash drops the fable and speaks plainly: nesaakha libbkha ('your heart has lifted you up') diagnoses Amaziah's problem as pride inflated by a limited victory. The warning is both political and prophetic: tithgareh be-ra'ah ('you are provoking trouble') and venafalta ('you will fall'). The prediction that Judah will fall with its king proves exactly correct."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְלֹא־שָׁמַ֣ע אֲמַצְיָ֔הוּ וַיַּ֨עַל יְהוֹאָ֤שׁ מֶלֶךְ־יִשְׂרָאֵל֙ וַיִּתְרָא֣וּ פָנִ֔ים ה֖וּא וַאֲמַצְיָ֣הוּ מֶלֶךְ־יְהוּדָ֑ה בְּבֵ֥ית שֶׁ֖מֶשׁ אֲשֶׁ֥ר לִיהוּדָֽה׃",
+      "text_kjv": "But Amaziah would not hear. Therefore Jehoash king of Israel went up; and he and Amaziah king of Judah looked one another in the face at Bethshemesh, which belongeth to Judah.",
+      "rendering": "But Amaziah would not listen. So Jehoash king of Israel advanced, and he and Amaziah king of Judah faced each other at Beth-shemesh in Judah.",
+      "translator_notes": [
+        "The terse ve-lo shama Amatzyahu ('and Amaziah did not listen') is the narrative's verdict: refusal to hear wisdom leads to catastrophe. Beth-shemesh — a Judean town west of Jerusalem — indicates that the battle takes place on Judean soil. Israel is the invader, responding to Judah's provocation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיִּנָּ֥גֶף יְהוּדָ֖ה לִפְנֵ֣י יִשְׂרָאֵ֑ל וַיָּנֻ֖סוּ אִ֥ישׁ לְאֹהָלָֽיו׃",
+      "text_kjv": "And Judah was put to the worse before Israel; and they fled every man to their tents.",
+      "rendering": "Judah was routed by Israel, and every man fled to his home.",
+      "translator_notes": [
+        "The verb va-yinnagef ('was struck, was defeated') describes a comprehensive military collapse. The phrase va-yanusu ish le-ohalav ('each fled to his tent') indicates total dissolution of the army — not an orderly retreat but a panicked dispersal."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְאֵ֨ת אֲמַצְיָ֜הוּ מֶלֶךְ־יְהוּדָ֗ה בֶּן־יְהוֹאָ֤שׁ בֶּן־אֲחַזְיָ֙הוּ֙ תָּפַ֞שׂ יְהוֹאָ֤שׁ מֶלֶךְ יִשְׂרָאֵל֙ בְּבֵ֣ית שֶׁ֔מֶשׁ וַיָּבֹ֖א יְרוּשָׁלָ֑͏ִם וַיִּפְרֹ֞ץ בְּחוֹמַ֣ת יְרוּשָׁלַ֗͏ִם בְּשַׁ֤עַר אֶפְרַ֙יִם֙ עַד־שַׁ֣עַר הַפִּנָּ֔ה אַרְבַּ֥ע מֵא֖וֹת אַמָּֽה׃",
+      "text_kjv": "And Jehoash king of Israel took Amaziah king of Judah, the son of Jehoash the son of Ahaziah, at Bethshemesh, and came to Jerusalem, and brake down the wall of Jerusalem from the gate of Ephraim unto the corner gate, four hundred cubits.",
+      "rendering": "Jehoash king of Israel captured Amaziah king of Judah, son of Jehoash son of Ahaziah, at Beth-shemesh. Then he came to Jerusalem and broke down the wall of Jerusalem from the Ephraim Gate to the Corner Gate — four hundred cubits.",
+      "translator_notes": [
+        "The Judean king is captured on the battlefield — a profound humiliation. Jehoash then breaches Jerusalem's northern wall across a four-hundred-cubit stretch (roughly six hundred feet), leaving the capital defenseless against future attack. The breach runs between two named gates on the northern wall, the side most vulnerable to approach."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְלָקַ֣ח אֶת־כׇּל־הַזָּהָ֣ב וְ֠הַכֶּ֠סֶף וְאֵ֨ת כׇּל־הַכֵּלִ֜ים הַנִּמְצְאִ֣ים בֵּית־יְהוָ֗ה וּבְאֹֽצְר֛וֹת בֵּ֥ית הַמֶּ֖לֶךְ וְאֵ֣ת בְּנֵ֣י הַתַּעֲרֻב֑וֹת וַיָּ֖שׇׁב שֹׁמְרֽוֹנָה׃",
+      "text_kjv": "And he took all the gold and silver, and all the vessels that were found in the house of the LORD, and in the treasures of the king's house, and hostages, and returned to Samaria.",
+      "rendering": "He seized all the gold and silver and all the vessels found in the house of the LORD and in the treasuries of the royal palace, along with hostages, and returned to Samaria.",
+      "translator_notes": [
+        "The plunder is comprehensive: Temple vessels, palace treasury, and hostages (benei ha-ta'aruvot, 'sons of the pledges' — persons held as security for future compliance). For the second time in two chapters, the Temple that Joash repaired is stripped of its wealth. The hostages ensure Judah's continued submission."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְיֶ֨תֶר דִּבְרֵ֤י יְהוֹאָשׁ֙ אֲשֶׁ֣ר עָשָׂ֔ה וּגְבוּרָת֕וֹ אֲשֶׁ֣ר נִלְחַ֔ם עִ֖ם אֲמַצְיָ֣הוּ מֶלֶךְ־יְהוּדָ֑ה הֲלֹא־הֵ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ דִּבְרֵ֣י הַיָּמִ֔ים לְמַלְכֵ֖י יִשְׂרָאֵֽל׃",
+      "text_kjv": "Now the rest of the acts of Jehoash which he did, and his might, and how he fought with Amaziah king of Judah, are they not written in the book of the chronicles of the kings of Israel?",
+      "rendering": "The rest of the acts of Jehoash — what he did and his military exploits, and how he fought against Amaziah king of Judah — are they not written in the Book of the Annals of the Kings of Israel?",
+      "translator_notes": [
+        "The closing formula for Jehoash of Israel. The war with Amaziah is singled out as a notable achievement, reflecting the fact that defeating the Judean king and breaching Jerusalem's walls was an unprecedented northern triumph."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיִּשְׁכַּ֤ב יְהוֹאָשׁ֙ עִם־אֲבֹתָ֔יו וַיִּקָּבֵ֥ר בְּשֹׁמְר֖וֹן עִ֣ם מַלְכֵ֣י יִשְׂרָאֵ֑ל וַיִּמְלֹ֛ךְ יָרׇבְעָ֥ם בְּנ֖וֹ תַּחְתָּֽיו׃",
+      "text_kjv": "And Jehoash slept with his fathers, and was buried in Samaria with the kings of Israel; and Jeroboam his son reigned in his stead.",
+      "rendering": "Jehoash slept with his fathers and was buried in Samaria with the kings of Israel. His son Jeroboam reigned in his place.",
+      "translator_notes": [
+        "Jehoash receives the standard peaceful death formula. Jeroboam II succeeds him — the fourth generation of the Jehu dynasty, fulfilling the LORD's promise of four generations on the throne (10:30)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיְחִ֨י אֲמַצְיָ֤הוּ בֶן־יוֹאָשׁ֙ מֶ֣לֶךְ יְהוּדָ֔ה אַחֲרֵ֣י מ֔וֹת יְהוֹאָ֥שׁ בֶּן־יְהוֹאָחָ֖ז מֶ֣לֶךְ יִשְׂרָאֵ֑ל חֲמֵ֥שׁ עֶשְׂרֵ֖ה שָׁנָֽה׃",
+      "text_kjv": "And Amaziah the son of Joash king of Judah lived after the death of Jehoash son of Jehoahaz king of Israel fifteen years.",
+      "rendering": "Amaziah son of Joash, king of Judah, survived Jehoash son of Jehoahaz, king of Israel, by fifteen years.",
+      "translator_notes": [
+        "This chronological note creates the unusual situation of a defeated, humiliated king continuing to reign for fifteen more years. Amaziah's survival is physical but his kingdom has been diminished — its walls breached, its treasury plundered, its pride broken."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְיֶ֖תֶר דִּבְרֵ֣י אֲמַצְיָ֑הוּ הֲלֹא־הֵ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ דִּבְרֵ֣י הַיָּמִ֔ים לְמַלְכֵ֖י יְהוּדָֽה׃",
+      "text_kjv": "And the rest of the acts of Amaziah, are they not written in the book of the chronicles of the kings of Judah?",
+      "rendering": "As for the remaining deeds of Amaziah — are they not recorded in the Book of the Annals of the Kings of Judah?",
+      "translator_notes": [
+        "The standard source citation for a Judean king. The formula directs readers to a more detailed account that is now lost."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיִּקְשְׁר֤וּ עָלָיו֙ קֶ֣שֶׁר בִּירוּשָׁלַ֔͏ִם וַיָּ֖נׇס לָכִ֑ישָׁה וַיִּשְׁלְח֤וּ אַחֲרָיו֙ לָכִ֔ישָׁה וַיְמִתֻ֖הוּ שָֽׁם׃",
+      "text_kjv": "Now they made a conspiracy against him in Jerusalem: and he fled to Lachish; but they sent after him to Lachish, and slew him there.",
+      "rendering": "A conspiracy was formed against him in Jerusalem, and he fled to Lachish. But they sent men after him to Lachish and killed him there.",
+      "translator_notes": [
+        "Like his father Joash before him, Amaziah dies by conspiracy. Flight to Lachish — a major fortified city in the Judean lowlands — suggests he hoped to find loyal forces there. The pursuit and assassination at Lachish shows the conspirators' determination: distance from Jerusalem does not save him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיִּשְׂא֥וּ אֹת֖וֹ עַל־הַסּוּסִ֑ים וַיִּקָּבֵ֥ר בִּירוּשָׁלַ֖͏ִם עִם־אֲבֹתָ֖יו בְּעִ֥יר דָּוִֽד׃",
+      "text_kjv": "And they brought him on horses: and he was buried at Jerusalem with his fathers in the city of David.",
+      "rendering": "They carried his body back on horses and buried him in Jerusalem with his ancestors in the City of David.",
+      "translator_notes": [
+        "Despite the violent death, Amaziah receives a proper royal burial in the Davidic cemetery. The conspirators are not revolutionaries seeking to end the dynasty — they remove one king but preserve the institution. The transport on horses (al ha-susim) indicates a ceremonial return of the king's body."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיִּקְחוּ֙ כׇּל־עַ֣ם יְהוּדָ֔ה אֶת־עֲזַרְיָ֖ה וְה֣וּא בֶן־שֵׁ֣שׁ עֶשְׂרֵ֣ה שָׁנָ֑ה וַיַּמְלִ֣כוּ אֹת֔וֹ תַּ֖חַת אָבִ֥יו אֲמַצְיָֽהוּ׃",
+      "text_kjv": "And all the people of Judah took Azariah, which was sixteen years old, and made him king instead of his father Amaziah.",
+      "rendering": "The entire populace of Judah chose Azariah — then sixteen years old — and installed him as king to succeed his father Amaziah.",
+      "translator_notes": [
+        "The people (kol am Yehudah) — not the court, not the priests — select the next king. Azariah (also called Uzziah) is young but becomes one of Judah's most capable rulers. The popular selection echoes the installation of Joash by 'all the people of the land' in chapter 11."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "ה֚וּא בָּנָ֣ה אֶת־אֵילַ֔ת וַיְשִׁבֶ֖הָ לִיהוּדָ֑ה אַחֲרֵ֥י שְׁכַב־הַמֶּ֖לֶךְ עִם־אֲבֹתָֽיו׃",
+      "text_kjv": "He built Elath, and restored it to Judah, after that the king slept with his fathers.",
+      "rendering": "He rebuilt Elath , returning it to Judah after the king slept with his fathers.",
+      "translator_notes": [
+        "Elath (modern Eilat/Aqaba), at the head of the Gulf of Aqaba, was strategically vital for Red Sea trade. Its restoration to Judah indicates Azariah's military and economic ambitions. This brief note anticipates the fuller account of Azariah's reign in chapter 15."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "בִּשְׁנַ֨ת חֲמֵ֤שׁ עֶשְׂרֵה֙ שָׁנָ֔ה לַאֲמַצְיָ֥הוּ בֶן־יוֹאָ֖שׁ מֶ֣לֶךְ יְהוּדָ֑ה מָ֠לַ֠ךְ יָרׇבְעָ֨ם בֶּן־יוֹאָ֤שׁ מֶלֶךְ יִשְׂרָאֵל֙ בְּשֹׁ֣מְר֔וֹן אַרְבָּעִ֥ים וְאַחַ֖ת שָׁנָֽה׃",
+      "text_kjv": "In the fifteenth year of Amaziah the son of Joash king of Judah Jeroboam the son of Joash king of Israel began to reign in Samaria, and reigned forty and one years.",
+      "rendering": "In the fifteenth year of Amaziah son of Joash, king of Judah, Jeroboam son of Joash, king of Israel, became king in Samaria and reigned forty-one years.",
+      "translator_notes": [
+        "Jeroboam II's forty-one-year reign is the longest of any northern king and coincides with one of Israel's most prosperous periods. The synchronism creates a confusing situation: both Judah and Israel recently had kings named Joash, and now both patronymics read 'son of Joash' — but they are different men."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיַּ֥עַשׂ הָרַ֖ע בְּעֵינֵ֣י יְהוָ֑ה לֹ֣א סָ֗ר מִכׇּל־חַטֹּאות֙ יָרׇבְעָ֣ם בֶּן־נְבָ֔ט אֲשֶׁ֥ר הֶחֱטִ֖יא אֶת־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And he did that which was evil in the sight of the LORD: he departed not from all the sins of Jeroboam the son of Nebat, who made Israel to sin.",
+      "rendering": "He did evil in the eyes of the LORD. He did not turn away from any of the sins of Jeroboam son of Nebat, who had caused Israel to sin.",
+      "translator_notes": [
+        "The standard negative formula for northern kings. The irony of naming this Jeroboam after the dynasty's founding sinner is compounded by the fact that Jeroboam II is the most politically successful northern king since the original Jeroboam. Military greatness and religious faithfulness move in opposite directions."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "ה֗וּא הֵשִׁיב֙ אֶת־גְּב֣וּל יִשְׂרָאֵ֔ל מִלְּב֥וֹא חֲמָ֖ת עַד־יָ֣ם הָעֲרָבָ֑ה כִּדְבַ֤ר יְהוָה֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל אֲשֶׁ֣ר דִּבֶּ֗ר בְּיַד־עַבְדּ֛וֹ יוֹנָ֥ה בֶן־אֲמִתַּ֖י הַנָּבִ֥יא אֲשֶׁ֖ר מִגַּ֥ת הַחֵֽפֶר׃",
+      "text_kjv": "He restored the coast of Israel from the entering of Hamath unto the sea of the plain, according to the word of the LORD God of Israel, which he spake by the hand of his servant Jonah, the son of Amittai, the prophet, which was of Gathhepher.",
+      "rendering": "He restored the border of Israel from Lebo-hamath to the Sea of the Arabah, according to the word of the LORD, the God of Israel, which He spoke through His servant Jonah son of Amittai, the prophet from Gath-hepher.",
+      "expanded_rendering": "Jeroboam II restores Israel's borders to their greatest historical extent — from Lebo-hamath in the far north (the traditional boundary of Solomon's kingdom, 1 Kings 8:65) to the Sea of the Arabah (the Dead Sea) in the south. This territorial expansion fulfills a prophetic word delivered by Jonah son of Amittai — the same prophet known from the Book of Jonah. The historical context transforms our reading of Jonah's story: the prophet who predicted Israel's triumphant expansion is later sent to preach mercy to Nineveh, the capital of the empire that will eventually destroy everything Jeroboam II has built. Jonah's resistance to the Nineveh mission may reflect his identification with Israelite nationalism — he prophesied Israel's glory and cannot stomach the idea of Israel's future destroyer receiving divine mercy.",
+      "translator_notes": [
+        "Lebo-hamath ('the entrance of Hamath') marks the northernmost extent of the promised land (Numbers 34:8). The Sea of the Arabah is the Dead Sea. Jonah son of Amittai from Gath-hepher (a town in Zebulun, near Nazareth) is the historical prophet behind the Book of Jonah. This verse anchors the literary Jonah in a specific historical moment and political context."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "כִּי־רָאָ֧ה יְהוָ֛ה אֶת־עֳנִ֥י יִשְׂרָאֵ֖ל מֹרֶ֣ה מְאֹ֑ד וְאֶ֤פֶס עָצוּר֙ וְאֶ֣פֶס עָז֔וּב וְאֵ֥ין עֹזֵ֖ר לְיִשְׂרָאֵֽל׃",
+      "text_kjv": "For the LORD saw the affliction of Israel, that it was very bitter: for there was not any shut up, nor any left, nor any helper for Israel.",
+      "rendering": "For the LORD saw that the affliction of Israel was very bitter — there was no one left, whether bond or free, and no one to help Israel.",
+      "translator_notes": [
+        "The phrase efes atzur ve-efes azuv ('there was no one restrained and no one released') is a merism — it means 'absolutely no one,' covering every category of person. Israel's suffering was total and without human remedy. God's response through Jeroboam II is again motivated by compassion for suffering, not approval of the king's character."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְלֹא־דִבֶּ֣ר יְהוָ֔ה לִמְח֕וֹת אֶת־שֵׁ֥ם יִשְׂרָאֵ֖ל מִתַּ֣חַת הַשָּׁמָ֑יִם וַיּ֣וֹשִׁיעֵ֔ם בְּיַ֖ד יָרׇבְעָ֥ם בֶּן־יוֹאָֽשׁ׃",
+      "text_kjv": "And the LORD said not that he would blot out the name of Israel from under heaven: but he saved them by the hand of Jeroboam the son of Joash.",
+      "rendering": "The LORD had not decreed that He would blot out the name of Israel from under heaven, so He delivered them through Jeroboam son of Joash.",
+      "translator_notes": [
+        "God delivers Israel through an evil king because His purpose is not yet to destroy the nation. The phrase limchot et shem Yisra'el mitachat ha-shamayim ('to blot out the name of Israel from under heaven') is the language of total annihilation — and the LORD has not yet spoken that word. The deliverance through Jeroboam is an act of patient grace, not an endorsement of his reign."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "faithful love, loyal love, covenant loyalty, lovingkindness, steadfast love, mercy",
+          "note": "chesed is not explicitly stated in this verse but underlies the entire passage: God's refusal to destroy Israel despite their persistent sin reflects His covenant-rooted faithful love. The narrative logic of verses 23-27 is chesed in action — love that persists when there is no merit to sustain it."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְיֶ֨תֶר דִּבְרֵ֤י יָרׇבְעָם֙ וְכׇל־אֲשֶׁ֣ר עָשָׂ֔ה וּגְבוּרָתוֹ֙ אֲשֶׁ֣ר נִלְחָ֔ם וַאֲשֶׁ֨ר הֵשִׁ֜יב אֶת־דַּמֶּ֧שֶׂק וְאֶת־חֲמָ֛ת לְיָרׇבְעָ֖ם לִיהוּדָ֣ה בְּיִשְׂרָאֵ֑ל הֲלֹא־הֵ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ דִּבְרֵ֣י הַיָּמִ֔ים לְמַלְכֵ֖י יִשְׂרָאֵֽל׃",
+      "text_kjv": "Now the rest of the acts of Jeroboam, and all that he did, and his might, how he warred, and how he recovered Damascus, and Hamath, which belonged to Judah, for Israel, are they not written in the book of the chronicles of the kings of Israel?",
+      "rendering": "The rest of the acts of Jeroboam — all that he did, his military exploits, how he fought, and how he recovered Damascus and Hamath for Israel — are they not written in the Book of the Annals of the Kings of Israel?",
+      "translator_notes": [
+        "The recovery of Damascus and Hamath represents extraordinary territorial expansion — these were Aramean capitals, not merely border towns. The phrase 'for Israel' (le-Yisra'el) is textually difficult; some manuscripts read 'which had belonged to Judah, for Israel,' suggesting Jeroboam reclaimed territories that had once been part of the united monarchy under David and Solomon."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיִּשְׁכַּ֤ב יָרׇבְעָם֙ עִם־אֲבֹתָ֔יו עִ֖ם מַלְכֵ֣י יִשְׂרָאֵ֑ל וַיִּמְלֹ֛ךְ זְכַרְיָ֥ה בְנ֖וֹ תַּחְתָּֽיו׃",
+      "text_kjv": "And Jeroboam slept with his fathers, even with the kings of Israel; and Zachariah his son reigned in his stead.",
+      "rendering": "Jeroboam slept with his fathers, the kings of Israel, and his son Zechariah reigned in his place.",
+      "translator_notes": [
+        "Zechariah's accession fulfills the LORD's promise to Jehu that four generations of his descendants would sit on Israel's throne (10:30) — Jehu, Jehoahaz, Joash, Jeroboam II, and now briefly Zechariah as the fifth generation, though his reign will be cut violently short (15:8-12). The Jehu dynasty has reached its end."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

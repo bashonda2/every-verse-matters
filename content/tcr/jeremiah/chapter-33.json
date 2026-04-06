@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jeremiah",
+    "chapter": 33,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jeremiah 33 completes the Book of Consolation (chapters 30–33) with a second revelation received while Jeremiah remains confined in the court of the guard. God invites the prophet to call upon him and promises to reveal 'great and inaccessible things' (v. 3). The chapter moves from the devastation of siege to the restoration of joy, health, and prosperity in Jerusalem and Judah. Its theological climax is the reaffirmation of the Davidic covenant through the metaphor of cosmic permanence: just as God's covenant with day and night cannot be annulled, neither can his promises to David's line and the Levitical priesthood (vv. 20–26). The Righteous Branch reappears (v. 15, cf. 23:5–6), and Jerusalem itself receives the name 'The LORD Is Our Righteousness.'",
+    "remarkable": "This chapter contains some of the most extraordinary covenant theology in the Hebrew Bible. Verse 3 — 'Call to me and I will answer you, and I will tell you great and inaccessible things that you do not know' — is one of the most quoted verses in Jeremiah, yet its context is often overlooked: Jeremiah is a prisoner when God speaks these words. The promise comes not in freedom but in confinement. The Righteous Branch title tsemach tsaddiq reappears from 23:5–6, but with a striking variation: in 23:6 it is the king who bears the name 'The LORD Is Our Righteousness' (YHWH tsidqenu), while here in 33:16 it is Jerusalem — the city itself — that receives this name. The covenant-with-day-and-night passage (vv. 20–26) is unparalleled in prophetic literature: God stakes his promises to David on the reliability of the created order itself, making the alternation of day and night into a perpetual witness. We note that 33:14–26 is absent from the Septuagint, suggesting these verses may be a later addition to the Hebrew tradition — a significant text-critical issue that we document transparently.",
+    "friction": "The adjective betsurot (v. 3, from batsar, 'to cut off, fortify, make inaccessible') is variously rendered 'mighty,' 'hidden,' 'unsearchable,' or 'fortified.' We chose 'inaccessible' because the root conveys walled-off knowledge — things beyond human reach without divine revelation. The phrase tsemach tsaddiq (v. 15) could be 'righteous branch' or 'righteous shoot/sprout' — we retained 'branch' for consistency with 23:5. The shift of the name YHWH Tsidqenu from the king (23:6) to the city (33:16) required careful notation, as it represents a theological development within the book itself. Verses 14–26 are absent from the LXX, raising the question of whether they belong to the earliest text; we include them as part of the Masoretic tradition while noting the discrepancy.",
+    "connections": "The Righteous Branch (tsemach tsaddiq) connects to 23:5–6 and forward to Zechariah 3:8 and 6:12. The covenant formula 'David will never lack a man on the throne' echoes 2 Samuel 7:12–16 (the Davidic covenant) and 1 Kings 2:4. The covenant with day and night recalls Genesis 8:22 (God's post-flood promise of perpetual seasons) and Jeremiah 31:35–37 (the fixed order of sun, moon, and stars as guarantee of Israel's permanence). The Levitical covenant connects to Numbers 25:12–13 (the covenant of perpetual priesthood with Phinehas) and Malachi 2:4–7. The restoration imagery of joy and thanksgiving echoes 30:19 and 31:4, 12–13. The phrase 'the voice of joy and the voice of gladness, the voice of the bridegroom and the voice of the bride' reprises 7:34 and 16:9 in reverse — what was taken away in judgment is restored in consolation."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֤י דְבַר־יְהוָה֙ אֶֽל־יִרְמְיָ֔הוּ שֵׁנִ֑ית וְהוּא֙ עוֹדֶ֣נּוּ עָצ֔וּר בַּחֲצַ֖ר הַמַּטָּרָֽה לֵאמֹֽר׃",
+      "text_kjv": "Moreover the word of the LORD came unto Jeremiah the second time, while he was yet shut up in the court of the prison, saying,",
+      "rendering": "The word of the LORD came to Jeremiah a second time while he was still confined in the court of the guard:",
+      "translator_notes": ["The word 'second time' (shenit) links this oracle to chapter 32, where the first word came during the same imprisonment. The term matara ('guard') is distinct from the dungeon (bor) where Jeremiah was later thrown (38:6); this is a military courtyard used for detention, not a pit. We render le'mor as a colon introducing direct speech."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "כֹּה־אָמַ֣ר יְהוָ֔ה עֹשָׂ֖הּ יְהוָ֣ה יוֹצְרָ֑הּ לַהֲכִינָ֖הּ יְהוָ֥ה שְׁמֽוֹ׃",
+      "text_kjv": "Thus saith the LORD the maker thereof, the LORD that formed it, to establish it; the LORD is his name:",
+      "rendering": "This is what the LORD says — he who made it, the LORD who shaped it to establish it, whose name is the LORD:",
+      "translator_notes": ["The threefold repetition of YHWH in a single verse is emphatic and liturgical. The verbs 'asah ('made') and yatsar ('shaped, formed') are creation vocabulary — the same yatsar used for God forming humanity from clay in Genesis 2:7. The ambiguous pronoun 'it' likely refers to the earth or Jerusalem; the Hebrew leaves the referent deliberately open, suggesting that the God who shaped creation can reshape his city."],
+      "key_terms": [
+        {
+          "hebrew": "יוֹצֵר",
+          "transliteration": "yotser",
+          "rendered_as": "shaped",
+          "semantic_range": "to form, shape, fashion, mold (as a potter)",
+          "note": "The potter-verb, evoking Jeremiah 18 where God is the potter and Israel the clay. Here God applies it to the act of creation itself."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "קְרָ֥א אֵלַ֖י וְאֶעֱנֶ֑ךָּ וְאַגִּ֧ידָה לְּךָ֛ גְּדֹל֥וֹת וּבְצֻר֖וֹת לֹ֥א יְדַעְתָּֽם׃",
+      "text_kjv": "Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.",
+      "rendering": "Call to me and I will answer you; I will tell you great and inaccessible things that you have not known.",
+      "expanded_rendering": "The word betsurot (from batsar, 'to fortify, wall off, make inaccessible') describes knowledge that is walled off from human discovery — truths so fortified behind divine mystery that only God's direct revelation can breach them. This is not merely 'hidden' information but knowledge that is structurally beyond human reach.",
+      "translator_notes": ["The KJV renders betsurot as 'mighty,' but the root batsar means 'to cut off, fortify, enclose' — the same root used for 'fortified cities' (arei mivtsar). We render 'inaccessible' to capture the sense of walled-off, unreachable knowledge. The invitation 'Call to me' is addressed to a prisoner — Jeremiah has no freedom of movement, but he has unlimited access to God. The verb 'aggidah ('I will tell/declare') implies formal revelation, not casual conversation."],
+      "key_terms": [
+        {
+          "hebrew": "בְּצֻרוֹת",
+          "transliteration": "betsurot",
+          "rendered_as": "inaccessible",
+          "semantic_range": "fortified, enclosed, walled off, inaccessible, impenetrable",
+          "note": "From the root batsar ('to cut off, fortify'). The same root behind 'fortified cities.' Applied to knowledge, it means truths that are walled off from human discovery without divine disclosure."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "כִּ֣י כֹ֤ה אָמַר֙ יְהוָ֣ה אֱלֹהֵ֣י יִשְׂרָאֵ֔ל עַל־בָּתֵּי֙ הָעִ֣יר הַזֹּ֔את וְעַל־בָּתֵּ֖י מַלְכֵ֣י יְהוּדָ֑ה הַנְּתֻצִ֕ים אֶל־הַסֹּלְל֖וֹת וְאֶל־הֶחָֽרֶב׃",
+      "text_kjv": "For thus saith the LORD, the God of Israel, concerning the houses of this city, and concerning the houses of the kings of Judah, which are thrown down by the mounts, and by the sword;",
+      "rendering": "For this is what the LORD, the God of Israel, says concerning the houses of this city and the houses of the kings of Judah that are torn down for siege ramps and for the sword:",
+      "translator_notes": ["The participle nethutsim ('torn down, demolished') describes houses already being demolished during the siege — residents were dismantling their own buildings to construct defensive siege ramps (solelot) against the Babylonian assault. The grim irony is that the city is destroying itself trying to survive."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "בָּאִ֗ים לְהִלָּחֵם֙ אֶת־הַכַּשְׂדִּ֔ים וּלְמַלְאָ֖ם אֶת־פִּגְרֵ֣י הָאָדָ֑ם אֲשֶׁר־הִכֵּ֤יתִי בְאַפִּי֙ וּבַחֲמָתִ֔י וַאֲשֶׁ֨ר הִסְתַּ֤רְתִּי פָנַי֙ מֵהָעִ֣יר הַזֹּ֔את עַ֖ל כָּל־רָעָתָֽם׃",
+      "text_kjv": "They come to fight with the Chaldeans, but it is to fill them with the dead bodies of men, whom I have slain in mine anger and in my fury, and for all whose wickedness I have hid my face from this city.",
+      "rendering": "They come to fight against the Chaldeans only to fill them with the corpses of the people whom I have struck down in my anger and my wrath — those on account of whose wickedness I have hidden my face from this city.",
+      "translator_notes": ["The syntax is difficult: 'fill them' (male'am) likely refers to filling the demolished houses (v. 4) with corpses, not filling the Chaldeans. The image is horrific — the torn-down buildings become mass graves. The idiom histir panim ('to hide the face') is the ultimate expression of divine withdrawal in the Hebrew Bible (cf. Deuteronomy 31:17–18; Isaiah 54:8)."],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "הִנְנִ֧י מַעֲלֶה־לָּ֛הּ אֲרֻכָ֥ה וּמַרְפֵּ֖א וּרְפָאתִ֑ים וְגִלֵּיתִ֣י לָהֶ֔ם עֲתֶ֥רֶת שָׁל֖וֹם וֶאֱמֶֽת׃",
+      "text_kjv": "Behold, I will bring it health and cure, and I will cure them, and will reveal unto them the abundance of peace and truth.",
+      "rendering": "I am going to bring healing and remedy to her, and I will heal them; I will reveal to them an abundance of peace and faithfulness.",
+      "expanded_rendering": "The Hebrew pairs shalom ('peace') with emet ('faithfulness, truth'). Together they form a covenant word-pair: shalom is the wholeness and flourishing that results when all relationships — divine and human — are functioning as intended, and emet is the reliability and trustworthiness that sustains them. God promises not merely the end of war but the restoration of full covenantal wholeness grounded in his own fidelity.",
+      "translator_notes": ["The nouns arukah ('healing, restoration') and marpe ('remedy, cure') are near-synonyms piled for emphasis — the city's wound is so severe that one word for healing is not enough. The verb gala ('reveal, uncover') is striking: peace and faithfulness are not merely given but revealed, as if they had been hidden behind the judgment. We render emet as 'faithfulness' here rather than 'truth' because the context is covenantal restoration, and emet in covenant contexts carries the sense of God's reliable fidelity."],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, well-being, completeness, flourishing",
+          "note": "In this restoration oracle, shalom carries its fullest weight — not merely the absence of siege but the complete restoration of the city's health, joy, and covenantal relationship with God."
+        },
+        {
+          "hebrew": "אֱמֶת",
+          "transliteration": "emet",
+          "rendered_as": "faithfulness",
+          "semantic_range": "truth, faithfulness, reliability, firmness, trustworthiness",
+          "note": "From the same root as emunah and amen. Paired with shalom, it describes the dependable divine fidelity that undergirds the promised restoration."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַהֲשִׁבֹתִ֛י אֶת־שְׁב֥וּת יְהוּדָ֖ה וְאֵ֣ת שְׁב֣וּת יִשְׂרָאֵ֑ל וּבְנִתִ֖ים כְּבָרִאשֹׁנָֽה׃",
+      "text_kjv": "And I will cause the captivity of Judah and the captivity of Israel to return, and will build them, as at the first.",
+      "rendering": "I will restore the fortunes of Judah and the fortunes of Israel, and I will rebuild them as they were at the beginning.",
+      "translator_notes": ["The phrase shavti et-shevut is debated: it could mean 'restore the captivity' (return the exiles) or 'restore the fortunes' (a broader restoration). The latter reading, supported by cognate evidence and the Septuagint, better fits the context of comprehensive renewal. Both kingdoms — Judah and Israel — are included in the restoration, even though the northern kingdom had been dispersed for over a century."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְטִ֣הַרְתִּ֔ים מִכָּל־עֲוֹנָ֖ם אֲשֶׁ֣ר חָֽטְאוּ־לִ֑י וְסָלַחְתִּ֗י לְכָל־עֲוֹנ֛וֹתֵיהֶ֖ם אֲשֶׁ֥ר חָטְאוּ־לִ֖י וַאֲשֶׁ֥ר פָּשְׁע֖וּ בִֽי׃",
+      "text_kjv": "And I will cleanse them from all their iniquity, whereby they have sinned against me; and I will pardon all their iniquities, whereby they have sinned against me, and whereby they have transgressed against me.",
+      "rendering": "I will cleanse them from all their iniquity by which they sinned against me, and I will forgive all their iniquities by which they sinned against me and rebelled against me.",
+      "translator_notes": ["Three sin-terms appear: avon ('iniquity' — the guilt and its consequence), chat'u ('sinned' — from chata, to miss the mark), and pash'u ('rebelled' — from pasha, willful transgression). The Hebrew preserves the full taxonomy of sin: missing the mark, bearing twisted guilt, and deliberate rebellion. Cleansing (tihar) is ritual-purification language, while forgiveness (salach) is relational-restoration language — both are needed."],
+      "key_terms": [
+        {
+          "hebrew": "עָוֹן",
+          "transliteration": "avon",
+          "rendered_as": "iniquity",
+          "semantic_range": "iniquity, guilt, punishment for guilt, crookedness",
+          "note": "Avon carries both the sin and its consequence — it is guilt that bends and distorts. Distinguished from chet (missing the mark) and pesha (rebellion)."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְהָ֣יְתָה לִּ֗י לְשֵׁ֤ם שָׂשׂוֹן֙ לִתְהִלָּ֣ה וּלְתִפְאֶ֔רֶת לְכֹ֖ל גּוֹיֵ֣י הָאָ֑רֶץ אֲשֶׁ֣ר יִשְׁמְע֗וּ אֶת־כָּל־הַטּוֹבָה֙ אֲשֶׁ֣ר אָנֹכִ֣י עֹשֶׂ֣ה אֹתָ֔ם וּפָחֲד֣וּ וְרָגְז֗וּ עַ֤ל כָּל־הַטּוֹבָה֙ וְעַ֣ל כָּל־הַשָּׁל֔וֹם אֲשֶׁ֥ר אָנֹכִ֖י עֹשֶׂ֥ה לָּֽהּ׃",
+      "text_kjv": "And it shall be to me a name of joy, a praise and an honour before all the nations of the earth, which shall hear all the good that I do unto them: and they shall fear and tremble for all the goodness and for all the prosperity that I procure unto it.",
+      "rendering": "This city will become for me a name of joy, a praise and a splendor before all the nations of the earth, who will hear of all the good I am doing for them. They will tremble and be shaken on account of all the good and all the peace that I am bringing about for her.",
+      "translator_notes": ["The triad shem sason, tehillah, tif'eret ('name of joy, praise, splendor') describes Jerusalem's transformed reputation among the nations. The verbs pachadu veragzu ('they will tremble and be shaken') describe the nations' response — not terror in the negative sense but awe at the overwhelming reversal of Jerusalem's fortunes. The nations who watched Jerusalem's destruction will now be stunned by its restoration."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כֹּ֣ה אָמַ֣ר יְהוָ֡ה עוֹד֩ יִשָּׁמַ֨ע בַּמָּק֜וֹם הַזֶּ֗ה אֲשֶׁ֤ר אַתֶּם֙ אֹמְרִ֣ים חָרֵ֣ב ה֔וּא מֵאֵ֥ין אָדָ֖ם וּמֵאֵ֣ין בְּהֵמָ֑ה בְּעָרֵ֤י יְהוּדָה֙ וּבְחֻצ֣וֹת יְרוּשָׁלַ֔͏ִם הַנְשַׁמּ֗וֹת מֵאֵ֥ין אָדָ֛ם וּמֵאֵ֥ין יוֹשֵׁ֖ב וּמֵאֵ֥ין בְּהֵמָֽה׃",
+      "text_kjv": "Thus saith the LORD; Again there shall be heard in this place, which ye say shall be desolate without man and without beast, even in the cities of Judah, and in the streets of Jerusalem, that are desolate, without man, and without inhabitant, and without beast,",
+      "rendering": "This is what the LORD says: In this place — of which you say, 'It is a ruin, without person or animal' — in the cities of Judah and the streets of Jerusalem that are desolate, without person, without inhabitant, without animal,",
+      "translator_notes": ["The threefold repetition of me'ein ('without') — without person, without inhabitant, without animal — hammers the totality of the desolation. This exact formula appeared as a threat in 32:43; here it is quoted only to be reversed. The word charev ('ruin, waste') is the same root used for the destruction of the temple."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "ק֣וֹל שָׂשׂ֞וֹן וְק֣וֹל שִׂמְחָ֗ה ק֣וֹל חָתָן֮ וְק֣וֹל כַּלָּה֒ ק֣וֹל אֹמְרִ֡ים הוֹד֣וּ אֶת־יְהוָ֣ה צְבָא֡וֹת כִּי־ט֣וֹב יְהוָה֙ כִּ֣י לְעוֹלָ֣ם חַסְדּ֔וֹ מְבִאִ֥ים תּוֹדָ֖ה בֵּ֣ית יְהוָ֑ה כִּֽי־אָשִׁ֧יב אֶת־שְׁב֛וּת הָאָ֖רֶץ כְּבָרִאשֹׁנָ֥ה אָמַ֥ר יְהוָֽה׃",
+      "text_kjv": "The voice of joy, and the voice of gladness, the voice of the bridegroom, and the voice of the bride, the voice of them that shall say, Praise the LORD of hosts: for the LORD is good; for his mercy endureth for ever: and of them that shall bring the sacrifice of praise into the house of the LORD. For I will cause to return the captivity of the land, as at the first, saith the LORD.",
+      "rendering": "there will again be heard the sound of joy and the sound of gladness, the sound of the bridegroom and the sound of the bride, the sound of those saying, 'Give thanks to the LORD of Hosts, for the LORD is good, for his faithful love endures forever' — those bringing thanksgiving offerings to the house of the LORD. For I will restore the fortunes of the land as they were at the beginning, says the LORD.",
+      "expanded_rendering": "The liturgical phrase ki le'olam chasdo ('for his faithful love endures forever') is the refrain of Psalm 136, the great thanksgiving psalm sung at temple worship. By placing this song in the mouths of the restored community, God is promising not merely survival but the full resumption of joyful, congregational worship. The chesed invoked here is God's covenantal love that outlasts judgment — the same faithful love that was operative during the exile, even when it was invisible.",
+      "translator_notes": ["This verse reverses the judgment formula from 7:34 and 16:9, where the sounds of joy and wedding celebration were silenced. Five occurrences of qol ('sound, voice') create an overwhelming cascade of restored celebration. The liturgical quotation 'for the LORD is good, for his faithful love endures forever' appears in 2 Chronicles 5:13, 7:3, Ezra 3:11, and Psalm 136 — it is Israel's core worship refrain. The word todah ('thanksgiving offering') means both the sacrifice and the attitude of gratitude."],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "faithful love, steadfast love, covenantal loyalty, lovingkindness, mercy",
+          "note": "The signature covenant term. Here it appears in Israel's foundational worship refrain, affirming that God's bound love outlasts exile and judgment. The olam ('forever') paired with chesed asserts that this covenantal loyalty has no expiration."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "כֹּ֣ה אָמַר֮ יְהוָ֣ה צְבָאוֹת֒ ע֞וֹד יִהְיֶ֣ה ׀ בַּמָּק֣וֹם הַזֶּ֗ה הֶחָרֵ֛ב מֵאֵ֥ין אָדָ֖ם וְעַד־בְּהֵמָ֑ה וּבְכָל־עָרָ֕יו נְוֵ֣ה רֹעִ֔ים מַרְבִּצִ֖ים צֹֽאן׃",
+      "text_kjv": "Thus saith the LORD of hosts; Again in this place, which is desolate without man and without beast, and in all the cities thereof, shall be an habitation of shepherds causing their flocks to lie down.",
+      "rendering": "This is what the LORD of Hosts says: In this place that is desolate — without person or animal — and in all its cities, there will again be pastures for shepherds resting their flocks.",
+      "translator_notes": ["The image of shepherds resting flocks (marbitsei tso'n) is pastoral peace restored. The verb rabats ('to lie down, rest') describes animals at ease, without threat — the opposite of a land terrorized by invasion. The destroyed landscape will return to productive pastoral life."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "בְּעָרֵ֨י הָהָ֜ר בְּעָרֵ֤י הַשְּׁפֵלָה֙ וּבְעָרֵ֣י הַנֶּ֔גֶב וּבְאֶ֧רֶץ בִּנְיָמִ֛ן וּבִסְבִיבֵ֥י יְרוּשָׁלַ֖͏ִם וּבְעָרֵ֣י יְהוּדָ֑ה עֹ֧ד תַּעֲבֹ֛רְנָה הַצֹּ֖אן עַל־יְדֵ֥י מוֹנֶֽה אָמַ֥ר יְהוָֽה׃",
+      "text_kjv": "In the cities of the mountains, in the cities of the vale, and in the cities of the south, and in the land of Benjamin, and in the places about Jerusalem, and in the cities of Judah, shall the flocks pass again under the hands of him that telleth them, saith the LORD.",
+      "rendering": "In the cities of the hill country, in the cities of the lowland, in the cities of the Negev, in the land of Benjamin, in the surroundings of Jerusalem, and in the cities of Judah, flocks will again pass under the hands of the one who counts them, says the LORD.",
+      "translator_notes": ["The geographical survey — hill country, lowland (shephelah), Negev, Benjamin, Jerusalem, Judah — covers the entire territory of the southern kingdom. The image of sheep passing under the counter's hands (al yedei moneh) evokes Leviticus 27:32, where every tenth animal passing under the rod belongs to the LORD. Counting implies ownership, order, and care — the restored land will be managed, not chaotic."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "הִנֵּ֛ה יָמִ֥ים בָּאִ֖ים נְאֻם־יְהוָ֑ה וַהֲקִ֣מֹתִ֔י אֶת־הַדָּבָ֣ר הַטּ֔וֹב אֲשֶׁ֥ר דִּבַּ֛רְתִּי אֶל־בֵּ֥ית יִשְׂרָאֵ֖ל וְעַל־בֵּ֥ית יְהוּדָֽה׃",
+      "text_kjv": "Behold, the days come, saith the LORD, that I will perform that good thing which I have promised unto the house of Israel and to the house of Judah.",
+      "rendering": "The days are coming, declares the LORD, when I will fulfill the good word that I spoke concerning the house of Israel and the house of Judah.",
+      "translator_notes": ["This verse begins a section (vv. 14–26) absent from the Septuagint (LXX), suggesting it may be a later addition to the Hebrew text. We include it as part of the Masoretic tradition while noting this significant text-critical issue. The phrase hadavar hatov ('the good word/thing') refers back to the promises of chapters 30–32 — God is about to specify exactly which promises he means."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "בַּיָּמִ֣ים הָהֵ֔ם וּבָעֵ֖ת הַהִ֑יא אַצְמִ֥יחַ לְדָוִ֛ד צֶ֥מַח צְדָקָ֖ה וְעָשָׂ֥ה מִשְׁפָּ֛ט וּצְדָקָ֖ה בָּאָֽרֶץ׃",
+      "text_kjv": "In those days, and at that time, will I cause the Branch of righteousness to grow up unto David; and he shall execute judgment and righteousness in the land.",
+      "rendering": "In those days and at that time, I will cause a righteous branch to sprout for David, and he will execute justice and righteousness in the land.",
+      "expanded_rendering": "Tsemach tsedaqah ('righteous branch') reprises the messianic image from 23:5, where God promised to raise up for David a tsemach tsaddiq. The metaphor is organic — the Davidic line, seemingly cut down like a felled tree, will send up a new living shoot. Tsedaqah ('righteousness') here means right relationship and right order: the coming ruler will govern in alignment with God's own character, fulfilling the obligations of covenant kingship that Judah's historical kings failed to meet.",
+      "translator_notes": ["This verse closely parallels 23:5 but uses tsemach tsedaqah ('branch of righteousness') rather than tsemach tsaddiq ('righteous branch'). The variation may reflect a subtle theological shift: in 23:5 the branch himself is righteous; here the branch produces righteousness. The verb atsmiyach ('I will cause to sprout') emphasizes divine agency — this is not natural political succession but God's direct intervention in history."],
+      "key_terms": [
+        {
+          "hebrew": "צֶמַח",
+          "transliteration": "tsemach",
+          "rendered_as": "branch",
+          "semantic_range": "sprout, shoot, branch, growth",
+          "note": "A messianic title in Jeremiah and Zechariah (3:8, 6:12). The image of new growth from David's line — seemingly dead — becoming a living, fruitful ruler."
+        },
+        {
+          "hebrew": "צְדָקָה",
+          "transliteration": "tsedaqah",
+          "rendered_as": "righteousness",
+          "semantic_range": "righteousness, justice, right order, covenant faithfulness",
+          "note": "Not abstract moral perfection but relational faithfulness — governing in right relationship with God and people. The coming Davidic ruler will embody what Israel's kings failed to sustain."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "בַּיָּמִ֣ים הָהֵ֔ם תִּוָּשַׁ֖ע יְהוּדָ֑ה וִירוּשָׁלַ֙͏ִם֙ תִּשְׁכּ֣וֹן לָבֶ֔טַח וְזֶ֥ה אֲשֶׁר־יִקְרָא־לָ֖הּ יְהוָ֥ה ׀ צִדְקֵֽנוּ׃",
+      "text_kjv": "In those days shall Judah be saved, and Jerusalem shall dwell safely: and this is the name wherewith she shall be called, The LORD our righteousness.",
+      "rendering": "In those days Judah will be saved and Jerusalem will dwell securely. And this is what she will be called: 'The LORD Is Our Righteousness.'",
+      "expanded_rendering": "In 23:6 the name YHWH Tsidqenu ('The LORD Is Our Righteousness') was given to the Davidic king. Here the same name is transferred to the city of Jerusalem itself. The shift is theologically significant: righteousness is not located in a single ruler but becomes the identity of the entire restored community. The city embodies the covenant relationship — God's own righteousness dwelling in and defining the place where his people live.",
+      "translator_notes": ["The striking difference from 23:6 is the pronoun: there the masculine yiqra'o ('he will be called') applies the name to the king; here the feminine yiqra-lah ('she will be called') applies it to Jerusalem. Whether this is a deliberate theological expansion or a scribal variation is debated, but the Masoretic text clearly assigns the name to the city. The verb tishkon ('will dwell') shares the root sh-k-n with Shekhinah — Jerusalem's secure dwelling echoes God's own dwelling presence."],
+      "key_terms": [
+        {
+          "hebrew": "יְהוָה צִדְקֵנוּ",
+          "transliteration": "YHWH Tsidqenu",
+          "rendered_as": "The LORD Is Our Righteousness",
+          "semantic_range": "The LORD our righteousness/vindication/justice",
+          "note": "A theophoric name asserting that the LORD himself is the source of his people's right standing. Applied to the city rather than the king, it makes righteousness a communal identity grounded in God's character."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "כִּי־כֹ֖ה אָמַ֣ר יְהוָ֑ה לֹֽא־יִכָּרֵ֣ת לְדָוִ֔ד אִ֕ישׁ יֹשֵׁ֖ב עַל־כִּסֵּ֥א בֵית־יִשְׂרָאֵֽל׃",
+      "text_kjv": "For thus saith the LORD; David shall never want a man to sit upon the throne of the house of Israel;",
+      "rendering": "For this is what the LORD says: David will never lack a man to sit on the throne of the house of Israel.",
+      "translator_notes": ["The phrase lo yikkaret ('will not be cut off') uses the same verb (karat) as 'cutting' a covenant — the line will not be severed. This restates the Davidic covenant of 2 Samuel 7:12–16, where God promised David an eternal dynasty. Despite the apparent end of the monarchy with Zedekiah's capture, the promise stands."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְלַכֹּהֲנִ֣ים הַלְוִיִּ֔ם לֹֽא־יִכָּרֵ֥ת אִ֖ישׁ מִלְּפָנָ֑י מַעֲלֶ֨ה עוֹלָ֜ה וּמַקְטִ֧יר מִנְחָ֛ה וְעֹ֥שֶׂה זֶּ֖בַח כָּל־הַיָּמִֽים׃",
+      "text_kjv": "Neither shall the priests the Levites want a man before me to offer burnt offerings, and to kindle meat offerings, and to do sacrifice continually.",
+      "rendering": "And the Levitical priests will never lack a man in my presence to offer burnt offerings, to burn grain offerings, and to prepare sacrifices — for all time.",
+      "translator_notes": ["The phrase hakkohanim haleviyyim ('the priests, the Levites' or 'the Levitical priests') uses the Deuteronomic designation that identifies priests specifically as members of the tribe of Levi (cf. Deuteronomy 18:1). Three types of sacrifice are named: olah (burnt offering, entirely consumed), minchah (grain offering), and zevach (fellowship/peace sacrifice). The promise of perpetual priestly service parallels the perpetual Davidic throne — both institutions are declared permanent."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֶֽל־יִרְמְיָ֥הוּ לֵאמֹֽר׃",
+      "text_kjv": "And the word of the LORD came unto Jeremiah, saying,",
+      "rendering": "The word of the LORD came to Jeremiah:",
+      "translator_notes": ["A fresh reception formula marks a new oracle unit. The following section (vv. 20–26) will anchor the Davidic and Levitical promises in the permanence of the created order."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "כֹּ֚ה אָמַ֣ר יְהוָ֔ה אִם־תָּפֵ֙רוּ֙ אֶת־בְּרִיתִ֣י הַיּ֔וֹם וְאֶת־בְּרִיתִ֖י הַלָּ֑יְלָה וּלְבִלְתִּ֛י הֱי֥וֹת יוֹמָ֛ם וָלַ֖יְלָה בְּעִתָּֽם׃",
+      "text_kjv": "Thus saith the LORD; If ye can break my covenant of the day, and my covenant of the night, and that there should not be day and night in their season;",
+      "rendering": "This is what the LORD says: If you could break my covenant with the day and my covenant with the night, so that day and night no longer come at their appointed time,",
+      "expanded_rendering": "God speaks of a berit ('covenant') with day and night — the regular alternation of light and darkness is not merely a natural phenomenon but a covenantal arrangement. The same God who binds himself to David has bound himself to the structure of creation. The rhetorical force is staggering: annulling the Davidic promise would require unraveling the created order itself. This echoes 31:35–37, where the fixed order of sun, moon, and stars guarantees Israel's permanence.",
+      "translator_notes": ["The concept of a 'covenant with day and night' has its roots in Genesis 8:22, where God promises the perpetual cycle of seasons after the flood, and in 31:35–37, where the fixed order of celestial bodies guarantees Israel's permanence. The verb taferu ('you could break, annul') is the same verb used for breaking covenant in 11:10 — God is saying the cosmic order and the Davidic promise share the same covenantal status, and both are equally unbreakable."],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, binding agreement, treaty, solemn pact",
+          "note": "Applied here to the created order itself — God's relationship with day and night is covenantal. This elevates the regularity of nature from mere mechanism to sacred promise."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "גַּם־בְּרִיתִ֣י תֻפַ֔ר אֶת־דָּוִ֖ד עַבְדִּ֑י מִהְי֨וֹת־ל֤וֹ בֵן֙ מֹלֵ֣ךְ עַל־כִּסְא֔וֹ וְאֶת־הַלְוִיִּ֥ם הַכֹּהֲנִ֖ים מְשָׁרְתָֽי׃",
+      "text_kjv": "Then may also my covenant be broken with David my servant, that he should not have a son to reign upon his throne; and with the Levites the priests, my ministers.",
+      "rendering": "then also my covenant with David my servant could be broken, so that he would have no son reigning on his throne — and my covenant with the Levites, the priests who minister to me.",
+      "translator_notes": ["The conditional structure (if ... then) makes the Davidic covenant as certain as the sunrise. The phrase avdi ('my servant') is an honorific title — David is God's designated agent, not merely a subject. The Levitical priesthood is paired with the Davidic monarchy as co-recipients of irrevocable covenant — both throne and altar are guaranteed."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "אֲשֶׁ֤ר לֹֽא־יִסָּפֵר֙ צְבָ֣א הַשָּׁמַ֔יִם וְלֹ֥א יִמַּ֖ד ח֣וֹל הַיָּ֑ם כֵּ֣ן אַרְבֶּ֗ה אֶת־זֶ֨רַע דָּוִ֤ד עַבְדִּי֙ וְאֶת־הַלְוִיִּ֖ם מְשָׁרְתֵ֥י אֹתִֽי׃",
+      "text_kjv": "As the host of heaven cannot be numbered, neither the sand of the sea measured: so will I multiply the seed of David my servant, and the Levites that minister unto me.",
+      "rendering": "Just as the host of heaven cannot be counted and the sand of the sea cannot be measured, so I will multiply the offspring of David my servant and the Levites who minister to me.",
+      "translator_notes": ["The twin images of uncountable stars and immeasurable sand echo the Abrahamic covenant (Genesis 15:5, 22:17). God transfers the Abrahamic abundance promise to the Davidic and Levitical lines, weaving all three covenants — Abrahamic, Davidic, Levitical — into a single fabric. The word zera ('offspring, seed') is the same word used in the promises to Abraham."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֶֽל־יִרְמְיָ֥הוּ לֵאמֹֽר׃",
+      "text_kjv": "Moreover the word of the LORD came to Jeremiah, saying,",
+      "rendering": "The word of the LORD came to Jeremiah:",
+      "translator_notes": ["Another reception formula introduces the final oracle of the chapter (vv. 23–26), which responds to the despair of the people who believe God has rejected both his chosen families — the Davidic dynasty and the nation of Israel."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "הֲל֣וֹא רָאִ֗יתָ מָ֛ה הָעָ֥ם הַזֶּ֖ה דִּבְּר֣וּ לֵאמֹ֑ר שְׁתֵּ֣י הַמִּשְׁפָּח֗וֹת אֲשֶׁ֨ר בָּחַ֤ר יְהוָה֙ בָּהֶ֔ם וַיִּמְאָסֵ֕ם וְאֶת־עַמִּ֣י יִנְאָצ֔וּן מִהְי֥וֹת ע֖וֹד גּ֥וֹי לִפְנֵיהֶֽם׃",
+      "text_kjv": "Considerest thou not what this people have spoken, saying, The two families which the LORD hath chosen, he hath even cast them off? thus they have despised my people, that they should be no more a nation before them.",
+      "rendering": "Have you not observed what this people are saying — 'The two families that the LORD chose, he has rejected them'? They treat my people with contempt, as if they were no longer a nation in their sight.",
+      "translator_notes": ["The 'two families' (shtei hamishpachot) likely refers to the royal house of David and the priestly house of Levi — or possibly the two kingdoms, Israel and Judah. The verb ma'as ('rejected') is the same verb used for God's rejection of Saul (1 Samuel 15:23, 26). The people are saying God has done to David what he did to Saul — permanently discarded his chosen line. God's response in the following verses is a vehement denial."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "כֹּ֚ה אָמַ֣ר יְהוָ֔ה אִם־לֹ֥א בְרִיתִ֖י יוֹמָ֣ם וָלָ֑יְלָה חֻקּ֛וֹת שָׁמַ֥יִם וָאָ֖רֶץ לֹא־שָֽׂמְתִּי׃",
+      "text_kjv": "Thus saith the LORD; If my covenant be not with day and night, and if I have not appointed the ordinances of heaven and earth;",
+      "rendering": "This is what the LORD says: If I have not established my covenant with day and night, if I have not set in place the fixed orders of heaven and earth —",
+      "translator_notes": ["The chuqqot ('fixed orders, statutes, decrees') of heaven and earth are the same word used for the statutes of the Torah. The laws governing nature and the laws governing the covenant community share the same vocabulary — both are divine decrees. The conditional 'if not' (im lo) introduces an oath formula: 'If I have not done X, then I will not do Y' — meaning 'As certainly as X is true, Y is guaranteed.'"],
+      "key_terms": [
+        {
+          "hebrew": "חֻקּוֹת",
+          "transliteration": "chuqqot",
+          "rendered_as": "fixed orders",
+          "semantic_range": "statutes, decrees, fixed orders, ordinances, prescribed limits",
+          "note": "The same word used for Torah commandments applied here to the laws governing the cosmos. The created order and the covenant order are governed by the same kind of divine decree."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "גַּם־זֶ֣רַע יַעֲקוֹב֮ וְדָוִ֣ד עַבְדִּי֒ אֶמְאַ֗ס מִקַּ֤חַת מִזַּרְעוֹ֙ מֹֽשְׁלִ֔ים אֶל־זֶ֧רַע אַבְרָהָ֛ם יִשְׂחָ֖ק וְיַעֲקֹ֑ב כִּי־אָשׁ֧וּב אֶת־שְׁבוּתָ֛ם וְרִחַמְתִּֽים׃",
+      "text_kjv": "Then will I cast away the seed of Jacob, and David my servant, so that I will not take any of his seed to be rulers over the seed of Abraham, Isaac, and Jacob: for I will cause their captivity to return, and have mercy upon them.",
+      "rendering": "then I would also reject the offspring of Jacob and of David my servant, so as not to take from his offspring rulers over the descendants of Abraham, Isaac, and Jacob. But I will restore their fortunes and have compassion on them.",
+      "translator_notes": ["The verse completes the oath formula begun in v. 25: since God's covenant with day and night is unbreakable, his covenant with David and Jacob is equally unbreakable. The three patriarchs — Abraham, Isaac, Jacob — are invoked together, linking the Davidic promise back to the Abrahamic covenant. The final verb richamtim ('I will have compassion on them') is from the root r-ch-m, related to rechem ('womb') — God's compassion is maternal, visceral, from the depths of his being. The chapter ends not with a threat but with tenderness."],
+      "reading_level": "9th grade"
+    }
+  ]
+}

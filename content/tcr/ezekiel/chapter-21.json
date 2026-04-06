@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezekiel",
+    "chapter": 21,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ezekiel 21 is the great sword oracle — one of the most intense and poetically charged passages in the prophetic literature. The chapter opens with God directing his face against Jerusalem and the sanctuaries of the land, then escalates into a dramatic sword song in which a blade is sharpened and polished for slaughter. The chapter follows the Hebrew verse numbering (32 verses), which differs from the English versification (some English Bibles begin this chapter at what the Hebrew text numbers as 20:45). The sword is personified, almost alive — it flashes, it devours, it is handed to the executioner. Nebuchadnezzar stands at a crossroads and uses divination to choose between Jerusalem and Ammon, and the lot falls on Jerusalem. The chapter closes with a remarkable oracle about the removal of the crown and turban — 'it will not be restored until he comes to whom judgment belongs' — a passage with strong messianic resonance. The poetry sections should be read as poetry; the sword song is among the most rhythmically powerful passages in Ezekiel.",
+    "remarkable": "The sword song (verses 14-22) is one of the rare passages where Ezekiel breaks into sustained, ecstatic poetry. The Hebrew is rhythmically intense and syntactically fragmented — short, stabbing clauses that mirror the action of the sword itself. The verb charbah ('sword') is repeated with incantatory force. Verse 27 contains the phrase ad bo asher lo ha-mishpat — 'until he comes to whom the judgment belongs' — which echoes the Shiloh prophecy of Genesis 49:10 and has been read as messianic by both Jewish and Christian interpreters. Nebuchadnezzar's divination scene (verses 26-27) is remarkably detailed, listing three forms of Babylonian divination: shaking arrows, consulting household gods (teraphim), and examining a liver (hepatoscopy). We rendered each practice precisely rather than generalizing, because the specificity is the point — God is using pagan divination to accomplish his own purposes.",
+    "friction": "The Hebrew text of the sword song is notoriously difficult, with several phrases that remain uncertain among scholars. Verse 15 contains a hapax legomenon that has challenged translators for centuries. The relationship between the 'sword' and its target shifts rapidly — sometimes it is God's sword, sometimes Nebuchadnezzar's, and the ambiguity appears intentional. The phrase in verse 27 (awwah awwah awwah) is an unusual triple repetition that we rendered as 'A ruin! A ruin! A ruin!' to capture the emphatic Hebrew tripling. The transition between poetry and prose throughout the chapter required careful formatting decisions.",
+    "connections": "The sword oracle connects to Ezekiel 5:1-2 (the sword as instrument of judgment on Jerusalem), to Jeremiah 47:6-7 (the sword of the LORD that cannot rest), and to Genesis 49:10 (the Shiloh prophecy echoed in verse 27). The crown/turban removal in verse 31 connects to the priestly turban (mitznephet) of Exodus 28:4 and the royal crown (atarah), merging priestly and royal imagery. The crossroads divination scene anticipates the fall of Jerusalem in 586 BCE. The messianic reading of verse 27 connects forward to the 'one like a son of man' in Daniel 7:13-14 and to Christian readings of Jesus as the rightful heir."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "And the word of the LORD came unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": ["Standard prophetic reception formula. The Hebrew le'mor ('saying') is rendered as a colon introducing the direct speech that follows."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "בֶּן־אָדָ֕ם שִׂ֥ים פָּנֶ֖יךָ אֶל־דָּר֑וֹם וְהַטֵּ֣ף אֶל־דָּר֔וֹם וְהִנָּבֵ֖א אֶל־יַ֥עַר הַשָּׂדֶ֛ה נֶֽגֶב׃",
+      "text_kjv": "Son of man, set thy face toward the south, and drop thy word toward the south, and prophesy against the forest of the south field;",
+      "rendering": "Son of man, set your face toward the south, and preach against the southland, and prophesy against the forest region of the Negev.",
+      "translator_notes": ["Three different Hebrew words for 'south' appear in this verse: darom (the general direction), darom again, and negev (the specific arid region south of Judah). The stacking of synonyms is rhetorically emphatic — the prophet's gaze is being directed with increasing specificity. The verb hateph means 'to drip, to preach' — an unusual word for prophetic speech that suggests words falling like drops of rain."],
+      "key_terms": [
+        {
+          "hebrew": "נֶגֶב",
+          "transliteration": "negev",
+          "rendered_as": "Negev",
+          "semantic_range": "south, southland, dry region, the Negev desert",
+          "note": "Both a directional term and a geographical designation for the arid southern region of Judah. Here it likely functions as a veiled reference to Jerusalem and Judah."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְאָמַרְתָּ֣ לְיַ֣עַר הַנֶּ֗גֶב שְׁמַע֙ דְּבַר־יְהוָ֔ה כֹּֽה־אָמַ֞ר אֲדֹנָ֣י יְהוִ֗ה הִנְנִ֤י מַצִּית־בְּךָ֙ אֵ֔שׁ וְאָכְלָ֣ה בְךָ֔ כָּל־עֵ֥ץ לַ֖ח וְכָל־עֵ֣ץ יָבֵ֑שׁ לֹֽא־תִכְבֶּ֤ה לֶֽהָבָה֙ שַׁלְהֶ֔בֶת וְנִצְרְב֥וּ בָ֛הּ כָּל־פָּנִ֖ים מִנֶּ֥גֶב צָפֽוֹנָה׃",
+      "text_kjv": "And say to the forest of the south, Hear the word of the LORD; Thus saith the Lord GOD; Behold, I will kindle a fire in thee, and it shall devour every green tree in thee, and every dry tree: the flaming flame shall not be quenched, and all faces from the south to the north shall be burned therein.",
+      "rendering": "Say to the forest of the Negev: Hear the word of the LORD. This is what the Lord GOD says — I am about to set a fire in you, and it will consume every green tree and every dry tree in you. The blazing flame will not be extinguished, and every face from south to north will be scorched by it.",
+      "translator_notes": ["The fire metaphor is a parable for military invasion — Nebuchadnezzar's advance through Judah. 'Every green tree and every dry tree' means the righteous and wicked alike will be caught up in the judgment (a total devastation, not selective). The phrase 'every face will be scorched' indicates universal impact — no one escapes the approaching conflagration."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְרָאוּ֙ כָּל־בָּשָׂ֔ר כִּ֛י אֲנִ֥י יְהוָ֖ה בִּעַרְתִּ֑יהָ לֹ֖א תִכְבֶּֽה׃",
+      "text_kjv": "And all flesh shall see that I the LORD have kindled it: it shall not be quenched.",
+      "rendering": "Then all flesh will see that I, the LORD, have set it ablaze. It will not be extinguished.",
+      "translator_notes": ["The verb bi'arti ('I have kindled/burned') uses the divine first person, making clear that the coming destruction is not mere geopolitical accident but divine action. The recognition formula — 'all flesh will see that I the LORD' — is central to Ezekiel's theology of judgment: God acts so that his sovereignty is publicly demonstrated."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וָאֹמַ֕ר אֲהָ֖הּ אֲדֹנָ֣י יְהוִ֑ה הֵ֚מָּה אֹמְרִ֣ים לִ֔י הֲלֹ֛א מְמַשֵּׁ֥ל מְשָׁלִ֖ים הֽוּא׃",
+      "text_kjv": "Then said I, Ah Lord GOD! they say of me, Doth he not speak parables?",
+      "rendering": "Then I said, \"Ah, Lord GOD! They are saying about me, 'Is he not just speaking in riddles?'\"",
+      "translator_notes": ["Ezekiel protests that his audience dismisses him as a riddler. The verb mashal means 'to speak a proverb, a parable, a riddle.' The people refuse to hear the fire-and-forest oracle as a literal warning — they treat it as obscure figurative speech. This complaint prompts God to restate the message in stark, unambiguous terms in the verses that follow."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "And the word of the LORD came unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": ["The reception formula is repeated, marking a new oracle unit. God now restates the fire parable in plain terms — the 'south' is Jerusalem, and the 'fire' is a sword."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "בֶּן־אָדָ֕ם שִׂ֥ים פָּנֶ֖יךָ אֶל־יְרוּשָׁלַ֑͏ִם וְהַטֵּ֣ף אֶל־מִקְדָּשִׁ֔ים וְהִנָּבֵ֖א אֶל־אַדְמַ֥ת יִשְׂרָאֵֽל׃",
+      "text_kjv": "Son of man, set thy face toward Jerusalem, and drop thy word toward the holy places, and prophesy against the land of Israel,",
+      "rendering": "Son of man, set your face toward Jerusalem, preach against the sanctuaries, and prophesy against the land of Israel.",
+      "translator_notes": ["Now the veil of parable is removed — 'the south' is explicitly Jerusalem, 'the forest' is the sanctuaries (miqdashim, plural — possibly referring to both the Temple and local high places), and 'the land of the Negev' is the land of Israel as a whole. The plural 'sanctuaries' may indicate that multiple worship sites are in view, or it may be a plural of majesty referring to the Temple complex."],
+      "key_terms": [
+        {
+          "hebrew": "מִקְדָּשִׁים",
+          "transliteration": "miqdashim",
+          "rendered_as": "sanctuaries",
+          "semantic_range": "holy places, sanctuaries, sacred precincts",
+          "note": "The plural form is unusual when referring to the Jerusalem Temple. It may encompass the Temple complex as a whole or include the various illegitimate worship sites throughout the land."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְאָמַרְתָּ֣ לְאַדְמַ֣ת יִשְׂרָאֵ֗ל כֹּ֚ה אָמַ֣ר יְהוָ֔ה הִנְנִ֣י אֵלַ֔יִךְ וְהוֹצֵאתִ֥י חַרְבִּ֖י מִתַּעְרָ֑הּ וְהִכְרַתִּ֥י מִמֵּ֛ךְ צַדִּ֖יק וְרָשָֽׁע׃",
+      "text_kjv": "And say to the land of Israel, Thus saith the LORD; Behold, I will draw forth my sword out of his sheath, and will cut off from thee the righteous and the wicked.",
+      "rendering": "Say to the land of Israel: This is what the LORD says — I am about to draw my sword from its sheath, and I will cut off from you both the righteous and the wicked.",
+      "translator_notes": ["The metaphor shifts from fire to sword, but the meaning is identical — total, indiscriminate judgment. The phrase 'both the righteous and the wicked' (tsaddiq ve-rasha) is theologically jarring: it contradicts the principle of individual responsibility articulated in chapter 18. The point is that national judgment sweeps up everyone within the affected territory. This tension is deliberate — Ezekiel holds both individual accountability and communal solidarity in unresolved tension."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "יַ֗עַן אֲשֶׁר־הִכְרַתִּ֤י מִמֵּךְ֙ צַדִּ֣יק וְרָשָׁ֔ע לָכֵ֗ן תֵּצֵ֤א חַרְבִּי֙ מִתַּעְרָ֔הּ אֶל־כָּל־בָּשָׂ֖ר מִנֶּ֥גֶב צָפֽוֹן׃",
+      "text_kjv": "Seeing then that I will cut off from thee the righteous and the wicked, therefore shall my sword go forth out of his sheath against all flesh from the south to the north:",
+      "rendering": "Because I will cut off from you both the righteous and the wicked, therefore my sword will go out from its sheath against all flesh, from south to north.",
+      "translator_notes": ["The geographical sweep 'from south to north' encompasses the entire land of Israel. The repetition of 'righteous and wicked' reinforces the totality of the coming judgment. The sword is God's own — it goes out from his sheath, emphasizing that Nebuchadnezzar's army is merely the instrument."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְיָֽדְעוּ֙ כָּל־בָּשָׂ֔ר כִּ֛י אֲנִ֥י יְהוָ֖ה הוֹצֵ֣אתִי חַרְבִּ֑י מִתַּעְרָ֖הּ לֹ֥א תָשׁ֛וּב עֽוֹד׃",
+      "text_kjv": "That all flesh may know that I the LORD have drawn forth my sword out of his sheath: it shall not return any more.",
+      "rendering": "Then all flesh will know that I, the LORD, have drawn my sword from its sheath. It will not return again.",
+      "translator_notes": ["The Ezekielian recognition formula appears again: the purpose of judgment is that 'all flesh will know that I am the LORD.' The finality is absolute — the sword 'will not return.' Once drawn, God's judgment runs its full course. This contrasts with the conditional mercy offered in chapter 18."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְאַתָּ֣ה בֶן־אָדָ֔ם הֵאָנַ֕ח בְּשִׁבְר֥וֹן מָתְנַ֖יִם וּבִמְרִיר֑וּת תֵּאָנַ֖ח לְעֵינֵיהֶֽם׃",
+      "text_kjv": "Sigh therefore, thou son of man, with the breaking of thy loins, and with bitterness sigh before their eyes.",
+      "rendering": "As for you, son of man — groan! Groan with shattered body and bitter anguish before their eyes.",
+      "translator_notes": ["Ezekiel is commanded to perform another sign-act: public groaning. The phrase shivron motnayim literally means 'breaking of the loins/hips,' suggesting the kind of physical collapse that comes with devastating grief. This is not quiet weeping but full-body, visible distress intended to provoke questions from the exiles."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְהָיָ֣ה כִֽי־יֹאמְר֤וּ אֵלֶ֙יךָ֙ עַל־מָ֣ה אַתָּ֣ה נֶאֱנָ֔ח וְאָמַרְתָּ֗ אֶל־שְׁמוּעָ֤ה כִי־בָאָה֙ וְנָמֵ֣ס כָּל־לֵ֗ב וְרָפ֤וּ כָל־יָדַ֙יִם֙ וְכִהֲתָ֣ה כָל־ר֔וּחַ וְכָל־בִּרְכַּ֖יִם תֵּלַ֣כְנָה מָּ֑יִם הִנֵּ֥ה בָאָ֛ה וְנִהְיְתָ֖ה נְאֻ֥ם אֲדֹנָ֥י יְהוִֽה׃",
+      "text_kjv": "And it shall be, when they say unto thee, Wherefore sighest thou? that thou shalt answer, For the tidings; because it cometh: and every heart shall melt, and all hands shall be feeble, and every spirit shall faint, and all knees shall be weak as water: behold, it cometh, and shall be brought to pass, saith the Lord GOD.",
+      "rendering": "When they ask you, 'Why are you groaning?' you will say: Because of the news that is coming. Every heart will melt, every hand will go limp, every spirit will grow faint, and every knee will turn to water. It is coming — it will happen, declares the Lord GOD.",
+      "translator_notes": ["Four parallel clauses describe total physical and psychological collapse: melting hearts, limp hands, fainting spirits, and knees that 'go to water' (a vivid Hebrew idiom for loss of bladder control from terror, or simply knees that become liquid with fear). The fourfold structure emphasizes comprehensiveness — the coming news will devastate body and soul alike. The verb nimsu ('will melt') is the same used for the melting of Jericho's inhabitants in Joshua 2:11."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "And the word of the LORD came unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": ["Third occurrence of the reception formula in this chapter, marking the beginning of the sword song proper — one of the most poetically intense passages in Ezekiel."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "בֶּן־אָדָ֕ם הִנָּבֵ֖א וְאָמַרְתָּ֑ כֹּ֣ה אָמַ֣ר אֲדֹנָ֗י אֱמֹ֤ר חֶ֙רֶב֙ חֶ֔רֶב הוּחַ֖דָּה וְגַם־מְרוּטָֽה׃",
+      "text_kjv": "Son of man, prophesy, and say, Thus saith the LORD; Say, A sword, a sword is sharpened, and also furbished:",
+      "rendering": "Son of man, prophesy and say: This is what the Lord GOD says —\n\nA sword! A sword —\n  sharpened and polished!",
+      "translator_notes": ["The sword song begins with explosive force. The double cherev cherev ('a sword, a sword') is an exclamatory cry — the prophet announces the weapon like a herald announcing doom. The verb huchaddah ('sharpened') comes from chadad ('to be sharp'), and merutah ('polished, burnished') describes the blade being rubbed smooth for maximum lethality. The poetry shifts from prose to short, stabbing rhythmic lines."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "לְמַ֨עַן טְבֹ֤חַ טֶ֙בַח֙ הוּחַ֔דָּה לְמַֽעַן־הָיָה־לָ֥הּ בָּרָ֖ק מְרוּטָ֑ה א֚וֹ נָשִׂ֔ישׂ שֵׁ֥בֶט בְּנִ֖י מֹאֶ֥סֶת כָּל־עֵֽץ׃",
+      "text_kjv": "It is sharpened to make a sore slaughter; it is furbished that it may glitter: should we then make mirth? it contemneth the rod of my son, as every tree.",
+      "rendering": "Sharpened for slaughter,\n  polished to flash like lightning!\n\nShould we celebrate? The scepter of my son —\n  it despises every stick of wood.",
+      "translator_notes": ["This is one of the most textually difficult verses in Ezekiel. The Hebrew is fragmentary and scholars disagree on its precise meaning. The phrase 'the scepter of my son' (shevet bni) is obscure — it may refer to Judah's royal line (the 'son' being the Davidic king), which the sword treats with contempt, regarding it as no more significant than any ordinary stick of wood. The rhetorical question 'Should we celebrate?' interrupts the sword song with bitter irony. The word baraq ('lightning, flash') describes the gleam of the polished blade."],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיִּתֵּ֥ן אֹתָ֛הּ לְמָרְטָ֖ה לִתְפֹּ֣שׂ בַּכָּ֑ף הִ֤יא הוּחַ֙דָּה֙ חֶ֔רֶב וְהִ֣יא מְרוּטָ֔ה לָתֵ֥ת אוֹתָ֖הּ בְּיַ֥ד הוֹרֵֽג׃",
+      "text_kjv": "And he hath given it to be furbished, that it may be handled: this sword is sharpened, and it is furbished, to give it into the hand of the slayer.",
+      "rendering": "He has given it to be polished,\n  to be gripped in the hand.\nThe sword is sharpened,\n  the sword is polished —\n  to be placed in the hand of the executioner.",
+      "translator_notes": ["The sword passes from divine preparation to human execution. The verb tiphosh ('to grip, to seize') indicates it is now ready for action — ready to be grasped. The horeg ('killer, executioner') is Nebuchadnezzar, though he is not named yet. The repetition of 'sharpened' and 'polished' builds incantatory momentum."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "זְעַ֤ק וְהֵילֵל֙ בֶּן־אָדָ֔ם כִּי־הִ֥יא הָיְתָ֖ה בְעַמִּ֑י הִ֛יא בְּכָל־נְשִׂיאֵ֥י יִשְׂרָאֵ֖ל מְגוּרֵ֥י אֶל־חֶ֛רֶב הָי֥וּ אֶת־עַמִּ֖י לָכֵ֥ן סְפֹ֖ק אֶל־יָרֵֽךְ׃",
+      "text_kjv": "Cry and howl, son of man: for it shall be upon my people, it shall be upon all the princes of Israel: terrors by reason of the sword shall be upon my people: smite therefore upon thy thigh.",
+      "rendering": "Cry out and wail, son of man, for it is directed against my people, against all the leaders of Israel. They are thrown to the sword along with my people. Therefore, strike your thigh in grief!",
+      "translator_notes": ["The verb ze'aq ('cry out') and helel ('wail') are paired for maximum emotional intensity. The nesi'ei Yisrael ('leaders of Israel') are the royal and political officials who will not be spared. 'Strike your thigh' (sefoq el yarekh) is a gesture of extreme grief and dismay (cf. Jeremiah 31:19). Ezekiel is commanded to act out publicly the grief that the coming destruction warrants."],
+      "key_terms": [
+        {
+          "hebrew": "נְשִׂיאֵי",
+          "transliteration": "nesi'ei",
+          "rendered_as": "leaders",
+          "semantic_range": "princes, chiefs, leaders, rulers, elevated ones",
+          "note": "Ezekiel typically uses nasi rather than melek ('king') for Israelite rulers — a deliberate terminological choice that may reflect the prophet's reservation of 'king' for God alone, or the post-monarchic reality of the exile."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "כִּ֣י בֹ֔חַן וּמָ֕ה אִם־גַּם־שֵׁ֥בֶט מֹאֶ֖סֶת לֹ֣א יִהְיֶ֑ה נְאֻ֖ם אֲדֹנָ֥י יְהוִֽה׃",
+      "text_kjv": "Because it is a trial, and what if the sword contemn even the rod? it shall be no more, saith the Lord GOD.",
+      "rendering": "For a test is coming — and what if the sword despises even the scepter? It will be no more, declares the Lord GOD.",
+      "translator_notes": ["Another extremely difficult verse. The 'test' (bochan) may refer to God's testing of the nation, and the 'scepter' (shevet) again likely refers to the Davidic royal line. If the sword despises even the royal house, nothing will remain. The phrase 'it will be no more' is a devastating prediction of the end of the monarchy as the exiles know it."],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְאַתָּ֣ה בֶן־אָדָ֗ם הִנָּבֵא֙ וְהַ֣ךְ כַּ֣ף אֶל־כָּ֔ף וְתִכָּפֵ֥ל שְׁלִישִׁ֖תָה חֶ֣רֶב חֲלָלִ֑ים הִ֗יא חֶ֤רֶב חָלָל֙ הַגָּד֔וֹל הַחֹדֶ֖רֶת לָהֶֽם׃",
+      "text_kjv": "Thou therefore, son of man, prophesy, and smite thine hands together, and let the sword be doubled the third time, the sword of the slain: it is the sword of the great men that are slain, which entereth into their privy chambers.",
+      "rendering": "As for you, son of man, prophesy!\nStrike your hands together!\n\nLet the sword strike twice — three times!\nIt is the sword of the slain,\n  the sword of the great slaughter\n  that closes in on them from every side.",
+      "translator_notes": ["Ezekiel claps his hands as a prophetic action intensifying the sword's power. The phrase 'let it be doubled a third time' (tikkafel shelishitah) means the sword's devastation multiplies — doubled, then tripled. The verb choderet ('piercing, entering') suggests the sword penetrates even into private rooms and inner chambers — there is no hiding from it."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "לְמַ֣עַן ׀ לָמ֣וּג לֵ֗ב וְהַרְבֵּ֤ה הַמִּכְשֹׁלִים֙ עַ֣ל כָּל־שַׁעֲרֵיהֶ֔ם נָתַ֖תִּי אִבְחַ֣ת חָ֑רֶב אָ֛ח עֲשׂוּיָ֥ה לְבָרָ֖ק מְעוּטָּ֥ה לְטָֽבַח׃",
+      "text_kjv": "I have set the point of the sword against all their gates, that their heart may faint, and their ruins be multiplied: ah! it is made bright, it is wrapped up for the slaughter.",
+      "rendering": "So that hearts may melt\n  and the fallen may multiply,\nI have stationed the butchering sword at all their gates.\nAh! It is made to flash like lightning,\n  drawn out for slaughter!",
+      "translator_notes": ["The word ivchat ('slaughtering, butchering') is from tavach ('to slaughter'), a term used for slaughtering animals — applied here to human victims, emphasizing the dehumanizing horror. The sword is stationed 'at all their gates,' meaning at every exit point. There is no escape. The interjection ach ('ah!') expresses either the prophet's horror or the sword's own exultation — the ambiguity is effective either way."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "הִתְאַחֲדִ֣י הֵימִ֔נִי הָשִׂ֥ימִי הַשְׂמִ֖ילִי אָ֥נָה פָנַ֖יִךְ מֻעָדֽוֹת׃",
+      "text_kjv": "Go thee one way or other, either on the right hand, or on the left, whithersoever thy face is set.",
+      "rendering": "Slash to the right!\nStrike to the left!\nWhichever way your edge is directed!",
+      "translator_notes": ["The prophet addresses the sword directly, commanding it to cut in every direction. The verbs are feminine singular, matching the grammatically feminine cherev ('sword'). The sword is personified as a living agent of destruction. The rapid, staccato commands mimic the frenzied motion of a blade in combat."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְגַם־אֲנִ֛י אַכֶּ֥ה כַפִּ֖י אֶל־כַּפִּ֑י וַהֲנִחֹתִ֣י חֲמָתִ֔י אֲנִ֥י יְהוָ֖ה דִּבַּֽרְתִּי׃",
+      "text_kjv": "I will also smite mine hands together, and I will cause my fury to rest: I the LORD have said it.",
+      "rendering": "I too will strike my hands together, and I will satisfy my wrath. I, the LORD, have spoken.",
+      "translator_notes": ["God himself now claps his hands — echoing Ezekiel's hand-clapping in verse 19 but with far greater force. When God strikes his hands together, it is not grief but the activation of divine fury. The verb hanichoti ('I will cause to rest, I will satisfy') means God's wrath will find its full expression and be spent. The closing formula 'I the LORD have spoken' seals the oracle as irreversible."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "The word of the LORD came unto me again, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": ["Fourth reception formula in this chapter, introducing the crossroads oracle — Nebuchadnezzar's divination scene."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְאַתָּ֣ה בֶן־אָדָ֗ם שִׂ֣ים לְךָ֮ שְׁנַ֣יִם דְּרָכִים֒ לָב֗וֹא חֶ֙רֶב֙ מֶ֣לֶךְ בָּבֶ֔ל מֵאֶ֥רֶץ אֶחָ֖ד יֵצְא֣וּ שְׁנֵיהֶ֑ם וְיָ֣ד בָּרֵ֔א בְּרֹ֥אשׁ דֶּ֛רֶךְ עִ֖יר בָּרֵֽא׃",
+      "text_kjv": "Also, thou son of man, appoint thee two ways, that the sword of the king of Babylon may come: both twain shall come forth out of one land: and choose thou a place, choose it at the head of the way to the city.",
+      "rendering": "As for you, son of man, mark out two roads for the sword of the king of Babylon to travel. Both roads will branch from a single land. And carve a signpost — carve it at the fork where the road divides toward each city.",
+      "translator_notes": ["Ezekiel is instructed to draw or act out a map showing Nebuchadnezzar's army approaching a fork in the road. The verb bara here means 'to cut, to carve' — the prophet carves a directional sign at the junction. The word yad ('hand') functions as 'signpost' or 'road marker.' This is a dramatic visual aid: the exiles can see the moment of decision when Babylon must choose its target."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "דֶּ֣רֶךְ תָּשִׂ֗ים לָב֤וֹא חֶ֙רֶב֙ אֶת־רַבַּ֣ת בְּנֵֽי־עַמּ֔וֹן וְאֶת־יְהוּדָ֖ה בִּירוּשָׁלַ֥͏ִם בְּצוּרָֽה׃",
+      "text_kjv": "Appoint a way, that the sword may come to Rabbath of the Ammonites, and to Judah in Jerusalem the defenced.",
+      "rendering": "Mark out a road for the sword to come against Rabbah of the Ammonites, and another against Judah — against fortified Jerusalem.",
+      "translator_notes": ["The two targets are named: Rabbah (the Ammonite capital, modern Amman) and Jerusalem. Both had rebelled against Babylon. The adjective betsurah ('fortified') applied to Jerusalem is bitterly ironic — its fortifications will prove useless against the sword God has sharpened."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "כִּֽי־עָמַ֞ד מֶ֣לֶךְ בָּבֶ֗ל אֶל־אֵ֤ם הַדֶּ֙רֶךְ֙ בְּרֹ֣אשׁ שְׁנֵ֣י הַדְּרָכִ֔ים לִקְסָם־קָ֑סֶם קִלְקַ֤ל בַּחִצִּים֙ שָׁאַ֣ל בַּתְּרָפִ֔ים רָאָ֖ה בַּכָּבֵֽד׃",
+      "text_kjv": "For the king of Babylon stood at the parting of the way, at the head of the two ways, to use divination: he made his arrows bright, he consulted with images, he looked in the liver.",
+      "rendering": "For the king of Babylon stands at the fork in the road, at the junction of the two roads, to perform divination: he shakes the arrows, he consults the household gods, he examines the liver.",
+      "translator_notes": ["Three forms of Babylonian divination are listed with precision: (1) belomancy — shaking inscribed arrows in a quiver and drawing one (qilqal ba-chitsim); (2) consulting teraphim — household idol-images used as oracles; (3) hepatoscopy — examining the liver of a sacrificed animal for omens (ra'ah ba-kaved). Ezekiel's priestly training shows in the specificity. The theological irony is acute: God sovereignly directs pagan divination to accomplish his own purposes. The lot will fall on Jerusalem because God wills it."],
+      "key_terms": [
+        {
+          "hebrew": "תְּרָפִים",
+          "transliteration": "teraphim",
+          "rendered_as": "household gods",
+          "semantic_range": "household idols, divinatory images, ancestral figurines",
+          "note": "Small idol-images used for divination. They appear throughout the Hebrew Bible (Genesis 31:19, Judges 17:5, 1 Samuel 19:13) and are consistently condemned. Here they are pagan tools that God co-opts for his own purpose."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "בִּֽימִינוֹ֙ הָיָ֣ה הַקֶּ֔סֶם יְרוּשָׁלַ֕͏ִם לָשׂ֣וּם כָּרִ֔ים לִפְתֹּ֥חַ פֶּ֖ה בְּרֶ֑צַח לְהָרִ֥ים ק֛וֹל בִּתְרוּעָ֖ה לָשׂ֤וּם כָּרִים֙ עַל־שְׁעָרִ֔ים לִשְׁפֹּ֥ךְ סֹלְלָ֖ה לִבְנ֥וֹת דָּיֵֽק׃",
+      "text_kjv": "At his right hand was the divination for Jerusalem, to appoint captains, to open the mouth in the slaughter, to lift up the voice with shouting, to appoint battering rams against the gates, to cast a mount, and to build a fort.",
+      "rendering": "In his right hand is the lot marked 'Jerusalem' — to deploy battering rams, to open mouths with war cries, to raise the voice in battle shouts, to set battering rams against the gates, to build siege ramps, to construct siege walls.",
+      "translator_notes": ["The divination falls on Jerusalem. The 'right hand' is the favorable or decisive hand. What follows is a catalogue of siege warfare tactics: karim ('battering rams'), the war cry (terua'ah), siege ramps (solelah), and siege walls (dayeq). The verb 'to open the mouth in slaughter' (liftoch peh be-retsach) likely refers to the shouting of the attacking army rather than literal mouths opening in death. The precision of the military terminology reflects Ezekiel's awareness of Babylonian siege technology."],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְהָיָ֨ה לָהֶ֤ם כִּקְסָם־שָׁוְא֙ בְּעֵ֣ינֵיהֶ֔ם שְׁבֻעֵ֥י שְׁבֻע֖וֹת לָהֶ֑ם וְהוּא־מַזְכִּ֥יר עָוֺ֖ן לְהִתָּפֵֽשׂ׃",
+      "text_kjv": "And it shall be unto them as a false divination in their sight, to them that have sworn oaths: but he will call to remembrance the iniquity, that they may be taken.",
+      "rendering": "But to them it will seem like a false divination — they who have sworn oaths think they are safe. Yet he is bringing their guilt to remembrance, so that they will be captured.",
+      "translator_notes": ["The inhabitants of Jerusalem dismiss Nebuchadnezzar's divination as a sham (qesam shav, 'false divination'). They trust their oaths — possibly their vassal treaty with Babylon, which they believe protects them, or their covenant with God. But God is using the divination to bring their iniquity into account (mazkir avon). The irony is devastating: the people dismiss the very mechanism by which God's judgment is arriving."],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "לָכֵ֗ן כֹּ֤ה אָמַר֙ אֲדֹנָ֣י יְהוִ֔ה יַ֚עַן הַזְכַּרְכֶ֣ם עֲוֺנְכֶ֔ם בְּהִגָּל֖וֹת פִּשְׁעֵיכֶ֑ם לְהֵרָא֤וֹת חַטֹּאותֵיכֶם֙ בְּכֹ֣ל עֲלִילֽוֹתֵיכֶ֔ם יַ֚עַן הִזָּ֣כֶרְכֶ֔ם בְּכַ֖ף תִּתָּפֵֽשׂוּ׃",
+      "text_kjv": "Therefore thus saith the Lord GOD; Because ye have made your iniquity to be remembered, in that your transgressions are discovered, so that in all your doings your sins do appear; because, I say, that ye are come to remembrance, ye shall be taken with the hand.",
+      "rendering": "Therefore, this is what the Lord GOD says: Because your iniquity is brought to mind, because your transgressions are exposed, because your sins are visible in all your deeds — because you are called to account, you will be seized by force.",
+      "translator_notes": ["The threefold repetition of exposure language — iniquity remembered, transgressions uncovered, sins visible — creates an overwhelming sense of total disclosure. There is no hidden sin left. The phrase 'seized by force' (be-khaf titafeshu) means captured by the hand, taken prisoner. The Babylonian siege is not political misfortune but judicial sentencing."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְאַתָּ֞ה חָלָ֣ל ׀ רָשָׁ֗ע נְשִׂ֤יא יִשְׂרָאֵל֙ אֲשֶׁר־בָּ֣א יוֹמ֔וֹ בְּעֵ֖ת עֲוֺ֥ן קֵֽץ׃",
+      "text_kjv": "And thou, profane wicked prince of Israel, whose day is come, when iniquity shall have an end,",
+      "rendering": "And you — profane, wicked ruler of Israel, whose day has come, whose time of final punishment is here —",
+      "translator_notes": ["The address shifts to Zedekiah, the last king of Judah, though he is not named. The word chalal means 'profaned, pierced, defiled' — Zedekiah has desecrated his office. The phrase 'whose day has come' (asher ba yomo) echoes the day-of-the-LORD language. The 'time of final punishment' (et avon qets) combines iniquity with finality — this is the end of the line for the Davidic monarchy as currently constituted."],
+      "key_terms": [
+        {
+          "hebrew": "נְשִׂיא",
+          "transliteration": "nasi",
+          "rendered_as": "ruler",
+          "semantic_range": "prince, leader, chief, ruler, elevated one",
+          "note": "Ezekiel's preferred term for Israelite political leaders, used instead of melek ('king'). Here applied to Zedekiah, the last occupant of David's throne before the exile."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "כֹּ֤ה אָמַר֙ אֲדֹנָ֣י יְהוִ֔ה הָסִ֥יר הַמִּצְנֶ֖פֶת וְהָרִ֣ם הָעֲטָרָ֑ה זֹ֣את לֹא־זֹ֔את הַשָּׁפָלָ֣ה הַגְבֵּ֔הַ וְהַגָּבֹ֖הַ הַשְׁפִּֽיל׃",
+      "text_kjv": "Thus saith the Lord GOD; Remove the diadem, and take off the crown: this shall not be the same: exalt him that is low, and abase him that is high.",
+      "rendering": "This is what the Lord GOD says:\n\nRemove the turban! Take off the crown!\nNothing will remain as it was.\nExalt the lowly — bring down the exalted!",
+      "translator_notes": ["Two symbols of authority are stripped: the mitznefet ('turban') is the priestly headdress (Exodus 28:4), and the atarah ('crown') is the royal diadem. The merging of priestly and royal imagery is deliberate — both institutions are being dismantled. The phrase 'this is not this' (zot lo zot) means the entire social order is being overturned. The reversal formula — exalt the low, bring down the high — is revolutionary: God is dismantling every existing power structure."],
+      "key_terms": [
+        {
+          "hebrew": "מִצְנֶפֶת",
+          "transliteration": "mitznefet",
+          "rendered_as": "turban",
+          "semantic_range": "turban, headdress, priestly headwrap",
+          "note": "The same word used for the high priest's headgear in Exodus 28:4, 39. Its removal signifies the end of the priestly order as currently constituted — a devastating image from a priest-prophet like Ezekiel."
+        },
+        {
+          "hebrew": "עֲטָרָה",
+          "transliteration": "atarah",
+          "rendered_as": "crown",
+          "semantic_range": "crown, wreath, royal diadem",
+          "note": "The royal crown. Its removal alongside the priestly turban indicates a total collapse of both spiritual and political authority in Israel."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "עַוָּ֥ה עַוָּ֖ה עַוָּ֣ה אֲשִׂימֶ֑נָּה גַּם־זֹאת֙ לֹ֣א הָיָ֔ה עַד־בֹּ֛א אֲשֶׁר־ל֥וֹ הַמִּשְׁפָּ֖ט וּנְתַתִּֽיו׃",
+      "text_kjv": "I will overturn, overturn, overturn, it: and it shall be no more, until he come whose right it is; and I will give it him.",
+      "rendering": "A ruin! A ruin! A ruin — I will make it!\nEven this will not endure\nuntil he comes to whom judgment belongs,\nand I will give it to him.",
+      "expanded_rendering": "The triple avvah avvah avvah ('ruin, ruin, ruin') is an emphatic cry of total overthrow — the tripling intensifies the devastation beyond repair. But the oracle does not end in permanent desolation. The phrase 'until he comes to whom judgment belongs' (ad bo asher lo ha-mishpat) looks forward to a future figure who will rightfully receive the authority being stripped from Zedekiah. This echoes Genesis 49:10 — 'until Shiloh comes' — and has been read as messianic by both Jewish and Christian interpreters: the dismantled throne will be restored, but not to any current claimant. It awaits its rightful owner.",
+      "translator_notes": ["The Hebrew avvah is related to the verb 'to bend, to twist, to pervert' — the crown and turban are being twisted into ruins. The triple repetition is rare and emphatic. The word mishpat here means 'judgment, right, just claim' — the future figure has a legitimate, divinely granted right to the throne. This verse is one of the most explicitly messianic passages in Ezekiel and connects to the broader prophetic theme of a future Davidic king (Isaiah 9:6-7, Jeremiah 23:5-6). The final phrase 'and I will give it to him' (unetattivu) confirms divine agency in the eventual restoration."],
+      "key_terms": [
+        {
+          "hebrew": "מִשְׁפָּט",
+          "transliteration": "mishpat",
+          "rendered_as": "judgment",
+          "semantic_range": "justice, judgment, right, ordinance, legal claim",
+          "note": "Here mishpat means the rightful legal claim to the throne — the future king will possess it not by conquest but by divine right."
+        }
+      ],
+      "reading_level": "10th grade"
+    }
+  ]
+}

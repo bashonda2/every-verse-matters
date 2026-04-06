@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Kings",
+    "chapter": 2,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "David, near death, delivers his final charge to Solomon: keep the LORD's instruction so the dynasty will endure, but also settle unfinished accounts with Joab and Shimei while showing faithful love to Barzillai's sons. David dies after forty years as king. Solomon then secures the throne through a series of decisive actions — executing Adonijah after he overreaches by requesting Abishag, banishing the priest Abiathar to fulfill the old prophecy against Eli's house, killing Joab at the altar of the tabernacle, and confining then executing Shimei when he violates his oath. The kingdom is established firmly in Solomon's hand.",
+    "remarkable": "This chapter is the hinge between two eras: the Davidic kingdom built by warfare, loyalty, and improvisation gives way to the Solomonic kingdom built by consolidation, bureaucracy, and ruthless statecraft. What makes it remarkable is the tension in David's deathbed speech. He begins with high theology — keep the torah of the LORD so the dynastic promise holds — then pivots to a kill list. David charges Solomon to deal with Joab's unpunished bloodshed and Shimei's unpunished curse, using the chilling phrase 'do not let his gray head go down to Sheol in peace.' The man who spared Saul twice and wept for Absalom dies delegating the violence he could not or would not carry out himself. Solomon's handling of these charges reveals a king who operates not by passion but by political calculation: he waits for pretexts, manufactures legal justifications, and acts decisively when the moment comes.",
+    "friction": "David's charge in verses 5-9 creates a moral tension the text does not resolve. He tells Solomon to act 'according to your wisdom' regarding Joab and Shimei — coded language for execution — while framing both cases in terms of justice. The Hebrew dam (blood) and chesed (faithful love) sit side by side in the same speech. Joab's guilt is real (he murdered Abner and Amasa in peacetime), but David's timing — addressing it only on his deathbed — raises the question of complicity. The phrase dam naqi ('innocent blood,' vv. 5, 31-33) is legally precise, referring to blood shed without legitimate cause, and David wants it removed from himself and his house. Whether this is justice or political housecleaning is left for the reader to weigh. Bathsheba's role in the Adonijah episode (vv. 13-25) is also ambiguous — does she naively relay Adonijah's request, or does she knowingly deliver the pretext Solomon needs?",
+    "connections": "The chapter fulfills multiple earlier prophecies and narrative threads. Abiathar's banishment (v. 27) fulfills the word spoken against Eli's house in 1 Samuel 2:27-36 — the narrator explicitly says so. Joab's execution answers the blood of Abner (2 Sam 3:27) and Amasa (2 Sam 20:10). Shimei's death resolves the curse of 2 Samuel 16:5-13, which David endured during Absalom's revolt. David's dynastic promise in verse 4 echoes the covenant of 2 Samuel 7:12-16, conditioned here on obedience to the torah. The phrase 'walk before me in faithfulness' (v. 4) echoes God's charge to Abraham (Gen 17:1) and will become the standard by which every subsequent king in 1-2 Kings is measured. Solomon's consolidation of power sets the stage for the golden age of chapters 3-10, but the violence embedded in its foundation foreshadows the kingdom's eventual fracture."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיִּקְרְב֥וּ יְמֵי־דָוִ֖ד לָמ֑וּת וַיְצַ֛ו אֶת־שְׁלֹמֹ֥ה בְנ֖וֹ לֵאמֹֽר׃",
+      "text_kjv": "Now the days of David drew nigh that he should die; and he charged Solomon his son, saying,",
+      "rendering": "When the time of David's death drew near, he charged his son Solomon, saying:",
+      "translator_notes": [
+        "The phrase vayyiqrevu yemei David lamut ('the days of David drew near to die') is a standard Hebrew death-notice formula, also used for Jacob (Gen 47:29). The verb qarav ('to draw near') treats death as an approaching boundary. David's 'charge' (vaytsaw) uses the same verb as a military command — this is not a gentle bedside whisper but a royal directive."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "אָנֹכִ֣י הֹלֵ֔ךְ בְּדֶ֖רֶךְ כׇּל־הָאָ֑רֶץ וְחָזַקְתָּ֖ וְהָיִ֥יתָ לְאִֽישׁ׃",
+      "text_kjv": "I go the way of all the earth: be thou strong therefore, and shew thyself a man;",
+      "rendering": "\"I am going the way of all the earth. Be strong and prove yourself a man.",
+      "translator_notes": [
+        "The phrase bederekh kol ha'aretz ('the way of all the earth') is a euphemism for death used also by Joshua (Josh 23:14). It frames dying as a universal road everyone walks. David does not say 'I am dying' — he says 'I am going.' The charge vehayita le'ish ('become a man') is not about masculinity in the modern sense but about competence, responsibility, and readiness to rule. The same phrase is used of warriors who must stand firm."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְשָׁמַרְתָּ֞ אֶת־מִשְׁמֶ֣רֶת ׀ יְהוָ֣ה אֱלֹהֶ֗יךָ לָלֶ֤כֶת בִּדְרָכָיו֙ לִשְׁמֹ֨ר חֻקֹּתָ֤יו מִצְוֺתָיו֙ וּמִשְׁפָּטָ֣יו וְעֵדְוֺתָ֔יו כַּכָּת֖וּב בְּתוֹרַ֣ת מֹשֶׁ֑ה לְמַ֣עַן תַּשְׂכִּ֗יל אֵ֚ת כׇּל־אֲשֶׁ֣ר תַּֽעֲשֶׂ֔ה וְאֵ֛ת כׇּל־אֲשֶׁ֥ר תִּפְנֶ֖ה שָֽׁם׃",
+      "text_kjv": "And keep the charge of the LORD thy God, to walk in his ways, to keep his statutes, and his commandments, and his judgments, and his testimonies, as it is written in the law of Moses, that thou mayest prosper in all that thou doest, and whithersoever thou turnest thyself:",
+      "rendering": "Keep the charge of the LORD your God — walk in His ways, keep His statutes, His commands, His rulings, and His decrees, as written in the instruction of Moses — so that you may succeed in everything you do and everywhere you turn.",
+      "expanded_rendering": "Torah (instruction) here refers to the full body of covenant instruction given through Moses. David's charge to Solomon is saturated with Deuteronomic vocabulary: mishmereth (charge), chuqqot (statutes), mitswot (commands), mishpatim (rulings), edot (decrees). This fivefold list echoes Deuteronomy 6-8 and frames the kingship as accountable to written revelation. The verb taskil ('succeed, act wisely') ties obedience to practical outcome — wisdom and prosperity flow from covenant faithfulness, not from political cunning alone.",
+      "translator_notes": [
+        "The phrase betorat Mosheh ('in the instruction of Moses') is a direct reference to Deuteronomy and frames the entire Deuteronomistic History's theology of kingship: the king is not above the torah but under it. This is the editorial lens through which every king in 1-2 Kings will be evaluated.",
+        "The fivefold description — chuqqot, mitswot, mishpatim, edot, and the overarching mishmereth — covers every dimension of divine instruction. The variety of terms is not redundant; each has a slightly different nuance: chuqqot are inscribed statutes, mitswot are direct commands, mishpatim are case-law rulings, edot are covenant stipulations that serve as testimony."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹרָה",
+          "transliteration": "torah",
+          "rendered_as": "instruction",
+          "semantic_range": "instruction, teaching, law, direction, guidance",
+          "note": "Torah means 'instruction' or 'direction' from the root yarah ('to throw, to shoot, to direct'). Rendering it as 'law' narrows it to legal code; 'instruction' preserves the sense of comprehensive divine guidance that includes narrative, wisdom, and command. David points Solomon to the written torah of Moses as the non-negotiable foundation for kingship."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "לְמַ֣עַן יָקִ֣ים יְהוָ֣ה אֶת־דְּבָר֡וֹ אֲשֶׁ֣ר דִּבֶּר֩ עָלַ֨י לֵאמֹ֜ר אִם־יִשְׁמְר֣וּ בָנֶ֣יךָ אֶת־דַּרְכָּ֗ם לָלֶ֤כֶת לְפָנַי֙ בֶּאֱמֶ֔ת בְּכׇל־לְבָבָ֖ם וּבְכׇל־נַפְשָׁ֑ם לֵאמֹ֕ר לֹא־יִכָּרֵ֧ת לְךָ֛ אִ֖ישׁ מֵעַ֥ל כִּסֵּ֥א יִשְׂרָאֵֽל׃",
+      "text_kjv": "That the LORD may continue his word which he spake concerning me, saying, If thy children take heed to their way, to walk before me in truth with all their heart and with all their soul, there shall not fail thee (said he) a man on the throne of Israel.",
+      "rendering": "— so that the LORD may fulfill His word that He spoke concerning me: 'If your sons guard their way, walking before Me in faithfulness with all their heart and all their life-breath, you will never lack a man on the throne of Israel.'\"",
+      "translator_notes": [
+        "The dynastic promise here echoes 2 Samuel 7:12-16 but adds a conditional element: 'if your sons guard their way.' The unconditional promise of an eternal dynasty is here mediated through the Deuteronomistic lens of obedience. This tension — unconditional covenant vs. conditional obedience — runs through all of 1-2 Kings and is never fully resolved within the text.",
+        "The phrase lalekhet lefanai be'emet ('to walk before Me in faithfulness') uses emet ('truth, faithfulness, reliability'), not chesed. The metaphor of 'walking before God' (as opposed to 'walking with God') implies a servant walking in the sight of a king — visibility and accountability.",
+        "The phrase bekhol levavam uvekhol nafsham ('with all their heart and all their life-breath') echoes the Shema (Deut 6:5). Nefesh is rendered 'life-breath' rather than 'soul' to capture the Hebrew sense of the whole living self, not just an immaterial spirit."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְגַ֣ם אַתָּ֣ה יָדַ֡עְתָּ אֵת֩ אֲשֶׁר־עָ֨שָׂה לִ֜י יוֹאָ֣ב בֶּן־צְרוּיָ֗ה אֲשֶׁ֣ר עָשָׂ֡ה לִשְׁנֵי־שָׂרֵ֣י צִבְא֣וֹת יִשְׂרָאֵ֡ל לְאַבְנֵ֣ר בֶּן־נֵ֠ר וְלַעֲמָשָׂ֨א בֶן־יֶ֜תֶר וַיַּ֨הַרְגֵ֜ם וַיָּ֧שֶׂם דְּמֵי־מִלְחָמָ֛ה בְּשָׁלֹ֖ם וַיִּתֵּ֞ן דְּמֵ֣י מִלְחָמָ֗ה בַּחֲגֹרָת֛וֹ אֲשֶׁ֥ר בְּמׇתְנָ֖יו וּבְנַעֲל֥וֹ אֲשֶׁ֥ר בְּרַגְלָֽיו׃",
+      "text_kjv": "Moreover thou knowest also what Joab the son of Zeruiah did to me, and what he did to the two captains of the hosts of Israel, unto Abner the son of Ner, and unto Amasa the son of Jether, whom he slew, and shed the blood of war in peace, and put the blood of war upon his girdle that was about his loins, and in his shoes that were on his feet.",
+      "rendering": "You also know what Joab son of Zeruiah did to me — what he did to the two commanders of Israel's armies, Abner son of Ner and Amasa son of Jether. He killed them, shedding the blood of war in peacetime, and he put the blood of war on the belt around his waist and on the sandals on his feet.",
+      "expanded_rendering": "Dam naqi ('innocent blood') is the concept behind David's accusation, though the phrase used here is demei milchamah ('blood of war'). Joab killed Abner and Amasa as though they were battlefield enemies, but there was no war — the word beshalom ('in peace/peacetime') is the key indictment. The blood physically staining Joab's belt and sandals is not merely metaphorical; David describes contamination that clings to the killer's body and, by extension, to the house of David that employed him. The guilt is transferable, and David wants it transferred away.",
+      "translator_notes": [
+        "The phrase demei milchamah beshalom ('blood of war in peacetime') is the crux of David's charge. Joab killed two men using wartime methods (ambush, deception, a weapon concealed on his person) during peacetime, when no hostilities justified such action. Abner was assassinated during a diplomatic visit (2 Sam 3:27); Amasa was stabbed while being greeted with a kiss (2 Sam 20:9-10).",
+        "The vivid image of blood on Joab's belt and sandals makes the violence physical and personal. In the Israelite legal imagination, shed blood pollutes — it contaminates not only the killer but the land (Num 35:33). David treats Joab's guilt as a material stain that must be removed from his dynasty."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "דָּם נָקִי",
+          "transliteration": "dam naqi",
+          "rendered_as": "innocent blood",
+          "semantic_range": "innocent blood, blood shed without cause, blood of the guiltless",
+          "note": "Dam naqi is a legal term for blood shed without legitimate justification — murder, not execution or battle killing. The concept appears in Deuteronomy 19:10-13 and 21:1-9, where the community bears collective guilt for unsolved bloodshed. David's concern is not only justice for the dead but purification for his dynasty. The phrase drives both the charge against Joab (v. 5) and Benaiah's declaration after the execution (vv. 31-33)."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְעָשִׂ֖יתָ כְּחׇכְמָתֶ֑ךָ וְלֹא־תוֹרֵ֧ד שֵׂיבָת֛וֹ בְּשָׁלֹ֖ם שְׁאֹֽל׃",
+      "text_kjv": "Do therefore according to thy wisdom, and let not his hoar head go down to the grave in peace.",
+      "rendering": "Act according to your wisdom, and do not let his gray head go down to Sheol in peace.",
+      "expanded_rendering": "Sheol is the realm of the dead in Hebrew thought — not a place of punishment or reward but of shadowy, diminished existence beneath the earth. David's phrase 'do not let his gray head go down to Sheol in peace' (beshalom she'ol) is a death sentence wrapped in diplomatic language. The word shalom ('peace') here contrasts with its use in verse 5 (beshalom, 'in peacetime'): Joab shed blood in peace; therefore he must not die in peace. David delegates the timing and method to Solomon's wisdom (chokhmatekha), giving his son both authorization and plausible distance.",
+      "translator_notes": [
+        "The phrase ke-chokhmatekha ('according to your wisdom') is a euphemism: David is telling Solomon to kill Joab without saying the word 'kill.' The wisdom in question is not moral discernment but tactical judgment — knowing when and how to strike. This coded language gives Solomon freedom to choose his moment.",
+        "The image of gray hair (seivah) going down to Sheol is a poetic way of saying 'let him not die of old age in his bed.' Gray hair normally signifies honor and a life fully lived (Prov 16:31); David says Joab must be denied that dignified end."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שְׁאוֹל",
+          "transliteration": "she'ol",
+          "rendered_as": "Sheol",
+          "semantic_range": "underworld, realm of the dead, grave, pit, abode of the departed",
+          "note": "Sheol is the Hebrew term for the realm of the dead — a subterranean place of silence and shadow where all the dead descend, regardless of moral standing. It is not equivalent to the later concept of hell. In this context, David's point is pragmatic: Joab must not be allowed to die peacefully in old age. The same word returns in verse 9 for Shimei."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְלִבְנֵ֨י בַרְזִלַּ֤י הַגִּלְעָדִי֙ תַּעֲשֶׂה־חֶ֔סֶד וְהָי֖וּ בְּאֹכְלֵ֣י שֻׁלְחָנֶ֑ךָ כִּי־כֵן֙ קָרְב֣וּ אֵלַ֔י בְּבׇרְחִ֕י מִפְּנֵ֖י אַבְשָׁל֥וֹם אָחִֽיךָ׃",
+      "text_kjv": "But shew kindness unto the sons of Barzillai the Gileadite, and let them be of those that eat at thy table: for so they came to me when I fled because of Absalom thy brother.",
+      "rendering": "But show faithful love to the sons of Barzillai the Gileadite, and let them eat at your table, for they came to me in the same way when I fled from your brother Absalom.",
+      "expanded_rendering": "Chesed ('faithful love') is the word David uses for how Solomon should treat Barzillai's sons. This is not generic kindness but covenant-rooted loyalty — Barzillai sustained David with food and supplies during his flight from Absalom (2 Sam 17:27-29; 19:31-39), and that act of loyalty now creates an obligation that binds the next generation. To 'eat at the king's table' is to receive a royal pension and have a place in the court — permanent provision and honor. David's use of chesed here, sandwiched between execution orders for Joab and Shimei, reveals his moral framework: faithful love for those who showed faithful love, death for those who shed innocent blood or cursed the LORD's anointed.",
+      "translator_notes": [
+        "The phrase ta'aseh chesed ('do chesed') is a covenantal directive. Barzillai himself was too old to accept David's invitation to the court (2 Sam 19:32-37) and asked that the honor pass to his servant Chimham. David now extends the obligation to Barzillai's sons, ensuring the debt of loyalty outlives both the original parties.",
+        "The phrase bevorchi mippenei Avshalom achikha ('when I fled from Absalom your brother') is striking — David calls Absalom 'your brother,' reminding Solomon that the crisis was a family catastrophe, not merely a political revolt."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "faithful love, loyal kindness, covenant loyalty, steadfast love, mercy, devotion",
+          "note": "Chesed is relational loyalty rooted in covenant or commitment. It is not mere sentiment but action that fulfills an obligation of love. David uses the term precisely: Barzillai showed chesed to David in his darkest hour, and Solomon must now reciprocate. This is the only use of chesed in David's deathbed speech, and its placement between the Joab and Shimei death orders gives it structural weight — chesed stands as the counterpoint to judgment."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְהִנֵּ֣ה עִ֠מְּךָ֠ שִׁמְעִ֨י בֶן־גֵּרָ֥א בֶן־הַיְמִינִי֮ מִבַּחוּרִים֒ וְה֤וּא קִלְלַ֙נִי֙ קְלָלָ֣ה נִמְרֶ֔צֶת בְּי֖וֹם לֶכְתִּ֣י מַחֲנָ֑יִם וְהוּא־יָרַ֤ד לִקְרָאתִי֙ הַיַּרְדֵּ֔ן וָאֶשָּׁ֨בַע ל֤וֹ בַיהוָה֙ לֵאמֹ֔ר אִם־אֲמִיתְךָ֖ בֶּחָֽרֶב׃",
+      "text_kjv": "And, behold, thou hast with thee Shimei the son of Gera, a Benjamite of Bahurim, which cursed me with a grievous curse in the day when I went to Mahanaim: and he came down to meet me at Jordan, and I sware to him by the LORD, saying, I will not put thee to death with the sword.",
+      "rendering": "And there is Shimei son of Gera, the Benjaminite from Bahurim, with you. He cursed me with a savage curse on the day I went to Mahanaim. But he came down to meet me at the Jordan, and I swore to him by the LORD, saying, 'I will not put you to death by the sword.'",
+      "translator_notes": [
+        "The adjective nimretset ('savage, grievous, painful') describes the intensity of Shimei's curse (2 Sam 16:5-13) — he threw stones and dirt at David and called him a man of blood. David endured it, saying the LORD may have told Shimei to curse. Now, on his deathbed, David reveals he never forgot.",
+        "David's oath — 'I will not put you to death by the sword' — is technically limited to David personally and to the method (sword). Solomon, who did not swear, is not bound by the oath. This is the legal opening David leaves for his son, and Solomon will exploit it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְעַתָּה֙ אַל־תְּנַקֵּ֔הוּ כִּ֛י אִ֥ישׁ חָכָ֖ם אָ֑תָּה וְיָדַעְתָּ֙ אֵ֣ת אֲשֶׁ֣ר תַּעֲשֶׂה־לּ֔וֹ וְהוֹרַדְתָּ֧ אֶת־שֵׂיבָת֛וֹ בְּדָ֖ם שְׁאֹֽל׃",
+      "text_kjv": "Now therefore hold him not guiltless: for thou art a wise man, and knowest what thou oughtest to do unto him; but his hoar head bring thou down to the grave with blood.",
+      "rendering": "But now, do not hold him guiltless, for you are a wise man and you know what you must do to him — bring his gray head down to Sheol with blood.\"",
+      "translator_notes": [
+        "The phrase al tenaqqehu ('do not hold him guiltless') uses the verb naqah ('to be clean, innocent'), the same root as naqi in 'innocent blood' (dam naqi). David is saying: Shimei is not clean; do not treat him as though he is. The irony of the root naqah appearing for both Shimei's guilt and the concept of innocent blood creates a web of moral language that runs through the entire chapter.",
+        "The phrase bedam she'ol ('with blood to Sheol') reverses verse 6: Joab must not go to Sheol in peace; Shimei must go to Sheol in blood. David's two enemies receive opposite formulations of the same sentence: neither will die as an innocent old man."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיִּשְׁכַּ֥ב דָּוִ֖ד עִם־אֲבֹתָ֑יו וַיִּקָּבֵ֖ר בְּעִ֥יר דָּוִֽד׃",
+      "text_kjv": "So David slept with his fathers, and was buried in the city of David.",
+      "rendering": "David slept with his fathers, and they buried him in the City of David.",
+      "translator_notes": [
+        "The formula vayyishkav im avotav ('he slept with his fathers') is the standard royal death notice used throughout 1-2 Kings. The verb shakav ('to lie down, to sleep') treats death as sleep — a peaceful image that contrasts sharply with the violent content of David's final speech. The 'City of David' is the original Jebusite fortress on the southeastern ridge of Jerusalem, which David captured (2 Sam 5:7). He is buried where he began his reign."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְהַיָּמִ֗ים אֲשֶׁ֨ר מָלַ֤ךְ דָּוִד֙ עַל־יִשְׂרָאֵ֔ל אַרְבָּעִ֖ים שָׁנָ֑ה בְּחֶבְר֤וֹן מָלַךְ֙ שֶׁ֣בַע שָׁנִ֔ים וּבִירוּשָׁלַ֣&#x4D; מָלַ֔ךְ שְׁלֹשִׁ֥ים וְשָׁלֹ֖שׁ שָׁנִֽים׃",
+      "text_kjv": "And the days that David reigned over Israel were forty years: seven years reigned he in Hebron, and thirty and three years reigned he in Jerusalem.",
+      "rendering": "The total time David reigned over Israel was forty years: he reigned seven years in Hebron and thirty-three years in Jerusalem.",
+      "translator_notes": [
+        "The reign summary is formulaic, matching the pattern used for all kings. Forty years is a round number that may represent a full generation rather than an exact count. The split between Hebron (the Judahite capital where David first ruled) and Jerusalem (the pan-Israelite capital he conquered) reflects the two-stage nature of David's monarchy: first over Judah alone, then over all twelve tribes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וּשְׁלֹמֹ֕ה יָשַׁ֕ב עַל־כִּסֵּ֖א דָּוִ֣ד אָבִ֑יו וַתִּכֹּ֥ן מַלְכֻת֖וֹ מְאֹֽד׃",
+      "text_kjv": "Then sat Solomon upon the throne of David his father; and his kingdom was established greatly.",
+      "rendering": "Solomon sat on the throne of his father David, and his kingdom was firmly established.",
+      "translator_notes": [
+        "The verb tikkon ('was established, was made firm') from the root kun is a key word in this chapter — it appears again in verse 46 as an inclusio. The kingdom's establishment is announced here proleptically; the narrative that follows (vv. 13-46) shows the process by which it was actually secured. The firmness of Solomon's throne depends on the elimination of rivals."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיָּבֹ֞א אֲדֹנִיָּ֣הוּ בֶן־חַגִּ֗ית אֶל־בַּת־שֶׁ֙בַע֙ אֵם־שְׁלֹמֹ֔ה וַתֹּ֖אמֶר הֲשָׁל֣וֹם בֹּאֶ֑ךָ וַיֹּ֖אמֶר שָׁלֽוֹם׃",
+      "text_kjv": "And Adonijah the son of Haggith came to Bathsheba the mother of Solomon. And she said, Comest thou peaceably? And he said, Peaceably.",
+      "rendering": "Then Adonijah son of Haggith came to Bathsheba, Solomon's mother. She said, \"Do you come in peace?\" He said, \"In peace.\"",
+      "translator_notes": [
+        "Bathsheba's question hashalom bo'ekha ('is your coming peace?') reveals tension — Adonijah was Solomon's rival for the throne (1 Kgs 1), and his visit is unexpected. His answer shalom ('peace') will prove deeply ironic: his request will lead directly to his death. The exchange mirrors Jehu's encounter with Joram ('Is it peace?' — 2 Kgs 9:22), where the answer was also ominous."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֹּ֖אמֶר דָּבָ֣ר לִ֣י אֵלָ֑יִךְ וַתֹּ֖אמֶר דַּבֵּֽר׃",
+      "text_kjv": "He said moreover, I have somewhat to say unto thee. And she said, Say on.",
+      "rendering": "He said, \"I have something to say to you.\" She said, \"Speak.\"",
+      "translator_notes": [
+        "The brevity is deliberate — two short exchanges build narrative tension before Adonijah's request. Hebrew narrative uses clipped dialogue to signal that something important is coming."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיֹּ֗אמֶר אַ֤תְּ יָדַ֙עַתְּ֙ כִּי־לִי֙ הָיְתָ֣ה הַמְּלוּכָ֔ה וְעָלַ֞י שָׂ֧מוּ כׇל־יִשְׂרָאֵ֛ל פְּנֵיהֶ֖ם לִמְלֹ֑ךְ וַתִּסֹּ֤ב הַמְּלוּכָה֙ וַתְּהִ֣י לְאָחִ֔י כִּ֥י מֵיְהוָ֖ה הָ֥יְתָה לּֽוֹ׃",
+      "text_kjv": "And he said, Thou knowest that the kingdom was mine, and that all Israel set their faces on me, that I should reign: howbeit the kingdom is turned about, and is become my brother's: for it was his from the LORD.",
+      "rendering": "He said, \"You know that the kingship was mine, and all Israel expected me to reign. But the kingship turned around and went to my brother, for it was his from the LORD.",
+      "translator_notes": [
+        "Adonijah's speech is politically loaded. His claim that the kingdom 'was mine' (li haytah hammelukah) asserts his right as the eldest surviving son. The concession that it came to Solomon 'from the LORD' (me-YHWH) may be sincere or may be a strategic disclaimer to appear non-threatening. The verb tissov ('turned around') suggests an unexpected reversal — Adonijah frames himself as the rightful heir displaced by divine intervention, not by political defeat."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְעַתָּ֗ה שְׁאֵלָ֤ה אַחַת֙ אָנֹכִ֣י שֹׁאֵ֣ל מֵאִתָּ֔ךְ אַל־תָּשִׁ֖בִי אֶת־פָּנָ֑י וַתֹּ֥אמֶר אֵלָ֖יו דַּבֵּֽר׃",
+      "text_kjv": "And now I ask one petition of thee, deny me not. And she said unto him, Say on.",
+      "rendering": "Now I am asking one thing of you — do not refuse me.\" She said to him, \"Speak.\"",
+      "translator_notes": [
+        "The phrase al tashivi et panai ('do not turn back my face') means 'do not refuse me' — literally, 'do not return my face.' To send someone's face back is to reject their petition. Adonijah's insistence that Bathsheba not refuse before hearing the request is a negotiation tactic, but it also signals that he knows his request is risky."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיֹּ֗אמֶר אִמְרִי־נָא֙ לִשְׁלֹמֹ֣ה הַמֶּ֔לֶךְ כִּ֥י לֹא־יָשִׁ֖יב אֶת־פָּנָ֑יִךְ וְיִתֶּן־לִ֛י אֶת־אֲבִישַׁ֥ג הַשּׁוּנַמִּ֖ית לְאִשָּֽׁה׃",
+      "text_kjv": "And he said, Speak, I pray thee, unto Solomon the king, (for he will not say thee nay,) that he give me Abishag the Shunammite to wife.",
+      "rendering": "He said, \"Please ask King Solomon — for he will not refuse you — to give me Abishag the Shunammite as my wife.\"",
+      "translator_notes": [
+        "Adonijah's request for Abishag is either naive or a calculated power play. Abishag served as David's nurse-companion in his final days (1 Kgs 1:1-4), and claiming a king's concubine was a well-established way of asserting a claim to the throne (see Absalom with David's concubines, 2 Sam 16:21-22; Ishbosheth's accusation against Abner over Rizpah, 2 Sam 3:7). Whether Adonijah intends this political implication or genuinely wants to marry her is left ambiguous by the narrative."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַתֹּ֥אמֶר בַּת־שֶׁ֖בַע ט֑וֹב אָנֹכִ֕י אֲדַבֵּ֥ר עָלֶ֖יךָ אֶל־הַמֶּֽלֶךְ׃",
+      "text_kjv": "And Bathsheba said, Well; I will speak for thee unto the king.",
+      "rendering": "Bathsheba said, \"Very well. I will speak to the king on your behalf.\"",
+      "translator_notes": [
+        "Bathsheba's quick agreement (tov, 'good, very well') is either genuine willingness to help or a shrewd understanding that this request will destroy Adonijah. The text gives no indication of her internal motive. If she understands the political implications, she is delivering Adonijah to Solomon's justice. If she does not, she is an unwitting instrument. The narrative's silence on her awareness is deliberately provocative."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַתָּבֹ֤א בַת־שֶׁ֙בַע֙ אֶל־הַמֶּ֣לֶךְ שְׁלֹמֹ֔ה לְדַבֶּר־ל֖וֹ עַל־אֲדֹנִיָּ֑הוּ וַיָּ֨קׇם הַמֶּ֜לֶךְ לִקְרָאתָ֗הּ וַיִּשְׁתַּ֣חוּ לָ֔הּ וַיֵּ֙שֶׁב֙ עַל־כִּסְא֔וֹ וַיָּ֤שֶׂם כִּסֵּא֙ לְאֵ֣ם הַמֶּ֔לֶךְ וַתֵּ֖שֶׁב לִימִינֽוֹ׃",
+      "text_kjv": "Bathsheba therefore went unto king Solomon, to speak unto him for Adonijah. And the king rose up to meet her, and bowed himself unto her, and sat down on his throne, and caused a seat to be set for the king's mother; and she sat on his right hand.",
+      "rendering": "Bathsheba went to King Solomon to speak to him about Adonijah. The king rose to meet her, bowed to her, and sat on his throne. He had a throne set for the king's mother, and she sat at his right hand.",
+      "translator_notes": [
+        "Solomon's gesture — rising, bowing, seating his mother at his right hand — is extraordinary court protocol. The right hand is the position of honor and authority (Ps 110:1). This establishes Bathsheba's role as queen mother (gevirah), a formal position in the Judahite court with real political influence. The contrast between Solomon's deference to his mother here and his furious response to her request (v. 22) heightens the drama."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַתֹּ֗אמֶר שְׁאֵלָ֨ה אַחַ֤ת קְטַנָּה֙ אָנֹכִ֣י שֹׁאֶ֣לֶת מֵֽאִתָּ֔ךְ אַל־תָּ֖שֶׁב אֶת־פָּנָ֑י וַיֹּאמֶר־לָ֤הּ הַמֶּ֙לֶךְ֙ שַׁאֲלִ֣י אִמִּ֔י כִּ֥י לֹא־אָשִׁ֖יב אֶת־פָּנָֽיִךְ׃",
+      "text_kjv": "Then she said, I desire one small petition of thee; I pray thee say me not nay. And the king said unto her, Ask on, my mother; for I will not say thee nay.",
+      "rendering": "She said, \"I have one small request to make of you — do not refuse me.\" The king said to her, \"Ask, my mother, for I will not refuse you.\"",
+      "translator_notes": [
+        "Bathsheba's framing of the request as 'one small thing' (she'elah achat qetannah) minimizes it, perhaps strategically. Solomon's response — sha'ali immi ('ask, my mother') — is warm and absolute: 'I will not refuse you.' He commits before hearing the request, just as Bathsheba committed to Adonijah. The dramatic irony is that Solomon will immediately reverse this commitment once he hears what is being asked."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַתֹּ֕אמֶר יֻתַּ֖ן אֶת־אֲבִישַׁ֣ג הַשֻּׁנַמִּ֑ית לַאֲדֹנִיָּ֥הוּ אָחִ֖יךָ לְאִשָּֽׁה׃",
+      "text_kjv": "And she said, Let Abishag the Shunammite be given to Adonijah thy brother to wife.",
+      "rendering": "She said, \"Let Abishag the Shunammite be given to your brother Adonijah as his wife.\"",
+      "translator_notes": [
+        "Bathsheba uses the passive yuttan ('let her be given') rather than 'give her' — a softer formulation. She also calls Adonijah achikha ('your brother'), emphasizing the family bond. The request, however delivered, will be heard by Solomon as a political challenge, not a family favor."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיַּ֨עַן הַמֶּ֤לֶךְ שְׁלֹמֹה֙ וַיֹּ֣אמֶר לְאִמּ֔וֹ וְלָ֗מָּה אַ֠תְּ שֹׁאֶ֜לֶת אֶת־אֲבִישַׁ֤ג הַשֻּׁנַמִּית֙ לַאֲדֹ֣נִיָּ֔הוּ וְשַׁאֲלִי־ל֥וֹ אֶת־הַמְּלוּכָ֖ה כִּ֣י ה֤וּא אָחִי֙ הַגָּד֣וֹל מִמֶּ֔נִּי וְלוֹ֙ וּלְאֶבְיָתָ֣ר הַכֹּהֵ֔ן וּלְיוֹאָ֖ב בֶּן־צְרוּיָֽה׃",
+      "text_kjv": "And king Solomon answered and said unto his mother, And why dost thou ask Abishag the Shunammite for Adonijah? ask for him the kingdom also; for he is mine elder brother; even for him, and for Abiathar the priest, and for Joab the son of Zeruiah.",
+      "rendering": "King Solomon answered his mother, \"Why are you asking for Abishag the Shunammite for Adonijah? You might as well ask for the kingship for him — for he is my older brother! — for him, and for Abiathar the priest, and for Joab son of Zeruiah.\"",
+      "translator_notes": [
+        "Solomon's response is volcanic. He reads the Abishag request as a bid for the throne and names Adonijah's entire faction: Abiathar the priest and Joab the general. The phrase sha'ali lo et hammelukah ('ask the kingship for him') is sarcastic — Solomon is saying that requesting the king's woman is tantamount to requesting the king's throne. His listing of the co-conspirators shows he has been watching this network since 1 Kings 1.",
+        "The phrase ki hu achi haggadol mimmenni ('for he is my older brother') could be read as acknowledging Adonijah's seniority with bitter irony — Solomon knows that birthright claims are dangerous precisely because they carry legitimacy."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיִּשָּׁבַע֙ הַמֶּ֣לֶךְ שְׁלֹמֹ֔ה בַּיהוָ֖ה לֵאמֹ֑ר כֹּ֣ה יַעֲשֶׂה־לִּ֤י אֱלֹהִים֙ וְכֹ֣ה יוֹסִ֔יף כִּ֣י בְנַפְשׁ֔וֹ דִּבֶּ֣ר אֲדֹנִיָּ֔הוּ אֶת־הַדָּבָ֖ר הַזֶּֽה׃",
+      "text_kjv": "Then king Solomon sware by the LORD, saying, God do so to me, and more also, if Adonijah have not spoken this word against his own life.",
+      "rendering": "Then King Solomon swore by the LORD: \"May God do the same to me and worse if Adonijah has not spoken this word at the cost of his own life.",
+      "translator_notes": [
+        "The oath formula koh ya'aseh li Elohim vekhoh yosif ('may God do thus to me and more') is a standard self-imprecation — Solomon calls divine punishment on himself if he fails to act. The phrase benafsho ('at the cost of his life' or 'against his own life') makes Adonijah's request into a death sentence. The nefesh that Adonijah wagered is the life he will lose."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְעַתָּ֗ה חַי־יְהוָה֙ אֲשֶׁ֣ר הֱכִינַ֗נִי וַיּוֹשִׁיבֵ֙נִי֙ עַל־כִּסֵּא֙ דָּוִ֣ד אָבִ֔י וַאֲשֶׁ֧ר עָשָׂה־לִ֛י בַּ֖יִת כַּאֲשֶׁ֣ר דִּבֵּ֑ר כִּ֣י הַיּ֔וֹם יוּמַ֖ת אֲדֹנִיָּֽהוּ׃",
+      "text_kjv": "Now therefore, as the LORD liveth, which hath established me, and set me on the throne of David my father, and who hath made me an house, as he promised, Adonijah shall be put to death this day.",
+      "rendering": "Now, as the LORD lives — who established me and seated me on the throne of my father David and who made me a dynasty as He promised — Adonijah will be put to death today.\"",
+      "translator_notes": [
+        "Solomon's oath invokes three divine acts: God established him (hekhinani, from kun — the same root as 'established' in v. 12 and v. 46), seated him on David's throne, and made him a 'house' (bayit, meaning dynasty). Each element reinforces Solomon's legitimacy and makes Adonijah's challenge an offense against God's own arrangement. The sentence hayom yumat ('today he will die') is immediate and irreversible."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיִּשְׁלַח֙ הַמֶּ֣לֶךְ שְׁלֹמֹ֔ה בְּיַ֖ד בְּנָיָ֣הוּ בֶן־יְהוֹיָדָ֑ע וַיִּפְגַּע־בּ֖וֹ וַיָּמֹֽת׃",
+      "text_kjv": "And king Solomon sent by the hand of Benaiah the son of Jehoiada; and he fell upon him that he died.",
+      "rendering": "King Solomon sent Benaiah son of Jehoiada, and he struck him down, and he died.",
+      "translator_notes": [
+        "The verb vayyifga ('he struck, he fell upon') is the same word used for Joab's assassination of Amasa (2 Sam 20:10). The execution is reported in the compressed, matter-of-fact style typical of Hebrew narrative violence — three words: vayyifga bo vayyamot ('he struck him and he died'). Benaiah, who will replace Joab as commander (v. 35), serves as Solomon's enforcer throughout this chapter."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וּלְאֶבְיָתָ֤ר הַכֹּהֵן֙ אָמַ֣ר הַמֶּ֔לֶךְ עֲנָתֹ֥ת לֵ֖ךְ עַל־שָׂדֶ֑יךָ כִּ֣י אִ֤ישׁ מָ֙וֶת֙ אַ֔תָּה וּבַיּ֣וֹם הַזֶּ֗ה לֹ֤א אֲמִיתֶ֙ךָ֙ כִּי־נָשָׂ֜אתָ אֶת־אֲרוֹן֩ אֲדֹנָ֨י יְהוִ֜ה לִפְנֵ֣י ׀ דָּוִ֣ד אָבִ֗י וְכִ֣י הִתְעַנִּ֔יתָ בְּכֹ֛ל אֲשֶׁ֥ר הִתְעַנָּ֖ה אָבִֽי׃",
+      "text_kjv": "And unto Abiathar the priest said the king, Get thee to Anathoth, unto thine own fields; for thou art worthy of death: but I will not at this time put thee to death, because thou barest the ark of the Lord GOD before David my father, and because thou hast been afflicted in all wherein my father was afflicted.",
+      "rendering": "To Abiathar the priest, the king said, \"Go to Anathoth, to your fields. You deserve death, but I will not put you to death today because you carried the ark of the Lord GOD before my father David, and because you suffered through everything my father suffered.\"",
+      "translator_notes": [
+        "Solomon's handling of Abiathar is more nuanced than his treatment of Adonijah. He acknowledges two mitigating facts: Abiathar carried the ark (a sacred duty dating to David's early years) and shared David's afflictions (from the flight from Saul onward, 1 Sam 22:20-23). The sentence is exile, not execution — Abiathar is sent to Anathoth, a Levitical town in Benjamin, which will later be the hometown of the prophet Jeremiah (Jer 1:1).",
+        "The phrase ish mavet attah ('you are a man of death') is a legal sentence meaning 'you deserve execution,' but Solomon commutes it. This shows Solomon exercising the 'wisdom' David charged him to use — knowing when to kill and when to spare."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיְגָרֶשׁ֙ שְׁלֹמֹ֔ה אֶת־אֶבְיָתָ֕ר מִהְי֥וֹת כֹּהֵ֖ן לַיהוָ֑ה לְמַלֵּ֗א אֶת־דְּבַ֤ר יְהוָה֙ אֲשֶׁ֣ר דִּבֶּ֔ר עַל־בֵּ֥ית עֵלִ֖י בְּשִׁלֹֽה׃",
+      "text_kjv": "So Solomon thrust out Abiathar from being priest unto the LORD; that he might fulfil the word of the LORD, which he spake concerning the house of Eli in Shiloh.",
+      "rendering": "So Solomon expelled Abiathar from serving as priest to the LORD, fulfilling the word of the LORD that He had spoken against the house of Eli at Shiloh.",
+      "translator_notes": [
+        "This verse is one of the great narrative connections in the Deuteronomistic History. The narrator steps in to identify Solomon's political act as the fulfillment of a prophecy spoken generations earlier (1 Sam 2:27-36). Abiathar is the last surviving descendant of Eli's priestly line at Nob; his removal completes the judgment announced by the unnamed man of God. The verb vaygareish ('expelled') is strong — the same root used for driving out nations from the land. Abiathar is not merely retired; he is cast out."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְהַשְּׁמוּעָ֣ה בָ֣אָה עַד־יוֹאָ֡ב כִּ֣י יוֹאָב֩ נָטָ֨ה אַחֲרֵ֤י אֲדֹנִיָּה֙ וְאַחֲרֵ֣י אַבְשָׁל֣וֹם לֹ֣א נָטָ֔ה וַיָּ֣נׇס יוֹאָ֔ב אֶל־אֹ֖הֶל יְהוָ֑ה וַֽיַּחֲזֵ֖ק בְּקַרְנ֥וֹת הַמִּזְבֵּֽחַ׃",
+      "text_kjv": "Then tidings came to Joab: for Joab had turned after Adonijah, though he turned not after Absalom. And Joab fled unto the tabernacle of the LORD, and caught hold on the horns of the altar.",
+      "rendering": "When the news reached Joab — for Joab had supported Adonijah, though he had not supported Absalom — he fled to the tent of the LORD and seized the horns of the altar.",
+      "translator_notes": [
+        "The narrator's parenthetical — that Joab supported Adonijah but not Absalom — is both factual and evaluative. Joab's loyalty to David during Absalom's revolt (2 Sam 18) did not save him; his later support for Adonijah (1 Kgs 1:7) sealed his fate. Grasping the horns of the altar (the raised corners of the bronze altar) was an act of claiming sanctuary — the altar was considered sacred space where a fugitive might find protection (see Exod 21:14, which makes an exception for deliberate murderers)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיֻּגַּ֞ד לַמֶּ֣לֶךְ שְׁלֹמֹ֗ה כִּ֣י נָ֤ס יוֹאָב֙ אֶל־אֹ֣הֶל יְהוָ֔ה וְהִנֵּ֖ה אֵ֣צֶל הַמִּזְבֵּ֑חַ וַיִּשְׁלַ֤ח שְׁלֹמֹה֙ אֶת־בְּנָיָ֣הוּ בֶן־יְהוֹיָדָ֔ע לֵאמֹ֖ר לֵ֥ךְ פְּגַע־בּֽוֹ׃",
+      "text_kjv": "And it was told king Solomon that Joab was fled unto the tabernacle of the LORD; and, behold, he is by the altar. Then Solomon sent Benaiah the son of Jehoiada, saying, Go, fall upon him.",
+      "rendering": "It was reported to King Solomon that Joab had fled to the tent of the LORD and was beside the altar. Solomon sent Benaiah son of Jehoiada, saying, \"Go, strike him down.\"",
+      "translator_notes": [
+        "Solomon's command lekh pega bo ('go, strike him') uses the same verb (paga) as the execution of Adonijah (v. 25). Solomon does not hesitate despite Joab's claim of sanctuary. The altar that should protect a fugitive will not protect a murderer — Exodus 21:14 explicitly says that a deliberate killer may be taken even from the altar."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיָּבֹ֨א בְנָיָ֜הוּ אֶל־אֹ֣הֶל יְהוָ֗ה וַיֹּ֤אמֶר אֵלָיו֙ כֹּֽה־אָמַ֣ר הַמֶּ֔לֶךְ צֵ֖א וַיֹּ֣אמֶר ׀ לֹ֗א כִּ֣י פֹ֤ה אָמוּת֙ וַיָּ֨שֶׁב בְּנָיָ֤הוּ אֶת־הַמֶּ֙לֶךְ֙ דָּבָ֣ר לֵאמֹ֔ר כֹּֽה־דִבֶּ֥ר יוֹאָ֖ב וְכֹ֥ה עָנָֽנִי׃",
+      "text_kjv": "And Benaiah came to the tabernacle of the LORD, and said unto him, Thus saith the king, Come forth. And he said, Nay; but I will die here. And Benaiah brought the king word again, saying, Thus said Joab, and thus he answered me.",
+      "rendering": "Benaiah came to the tent of the LORD and said to him, \"The king says: Come out.\" He said, \"No — I will die here.\" Benaiah brought word back to the king: \"This is what Joab said, and this is how he answered me.\"",
+      "translator_notes": [
+        "Joab's refusal — lo, ki foh amut ('No, for here I will die') — is defiant. He forces the issue: either Solomon violates the sanctuary of the altar or Joab dies there, making Solomon responsible for bloodshed at the LORD's tent. Benaiah, uncertain about killing a man at the altar, reports back rather than acting on his own. This hesitation shows the gravity of what Solomon is ordering."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיֹּ֧אמֶר ל֣וֹ הַמֶּ֗לֶךְ עֲשֵׂה֙ כַּאֲשֶׁ֣ר דִּבֶּ֔ר וּפְגַע־בּ֖וֹ וּקְבַרְתּ֑וֹ וַהֲסִירֹ֣תָ ׀ דְּמֵ֣י חִנָּ֗ם אֲשֶׁ֤ר שָׁפַךְ֙ יוֹאָ֔ב מֵעָלַ֕י וּמֵעַ֖ל בֵּ֥ית אָבִֽי׃",
+      "text_kjv": "And the king said unto him, Do as he hath said, and fall upon him, and bury him; that thou mayest take away the innocent blood, which Joab shed, from me, and from the house of my father.",
+      "rendering": "The king said to him, \"Do as he says — strike him down and bury him. Remove from me and from my father's house the innocent blood that Joab shed.",
+      "translator_notes": [
+        "Solomon's command 'do as he says' (aseh ka'asher dibber) grimly accepts Joab's terms — he will die at the altar. The phrase demei chinnam ('blood of gratuitous violence') is a variant of dam naqi ('innocent blood') — chinnam means 'without cause, for nothing.' Solomon frames the execution as a purification: removing (vahasirota) the pollution of Joab's murders from the royal house. This is the language of Deuteronomy 19:13 and 21:9, where shedding the guilty killer's blood cleanses the community."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְהֵשִׁ֨יב יְהוָ֤ה אֶת־דָּמוֹ֙ עַל־רֹאשׁ֔וֹ אֲשֶׁ֣ר פָּגַ֗ע בִּשְׁנֵ֣י אֲנָשִׁ֡ים צַדִּיקִ֣ם וְטֹבִים֩ מִמֶּ֨נּוּ וַיַּהַרְגֵ֤ם בַּחֶ֙רֶב֙ וְאָבִ֣י דָוִ֣ד לֹ֣א יָדָ֔ע אֶת־אַבְנֵ֤ר בֶּן־נֵר֙ שַׂר־צְבָ֣א יִשְׂרָאֵ֔ל וְאֶת־עֲמָשָׂ֥א בֶן־יֶ֖תֶר שַׂר־צְבָ֥א יְהוּדָֽה׃",
+      "text_kjv": "And the LORD shall return his blood upon his own head, who fell upon two men more righteous and better than he, and slew them with the sword, my father David not knowing thereof, to wit, Abner the son of Ner, captain of the host of Israel, and Amasa the son of Jether, captain of the host of Judah.",
+      "rendering": "The LORD will return his bloodshed on his own head, because he struck down two men more righteous and better than himself and killed them with the sword — Abner son of Ner, commander of Israel's army, and Amasa son of Jether, commander of Judah's army — and my father David did not know.",
+      "translator_notes": [
+        "Solomon's declaration that Abner and Amasa were tsaddiqim vetovim ('righteous and better') than Joab is a legal judgment, not merely a moral opinion. The phrase veheshiv YHWH et damo al rosho ('the LORD will return his blood on his own head') uses the retribution formula found in Levitical law — the guilt returns to the perpetrator.",
+        "The claim that David 'did not know' (lo yada) about Joab's murders is historically debatable — David publicly mourned Abner (2 Sam 3:31-39) and cursed Joab's house, but he did not punish him. Solomon's assertion protects David's legacy by attributing the unpunished murders to ignorance rather than complicity."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְשָׁ֣בוּ דְמֵיהֶ֔ם בְּרֹ֥אשׁ יוֹאָ֖ב וּבְרֹ֣אשׁ זַרְע֑וֹ לְעוֹלָ֑ם וּלְדָוִ֡ד וּלְזַרְעוֹ֩ וּלְבֵית֨וֹ וּלְכִסְא֜וֹ יִהְיֶ֥ה שָׁל֛וֹם עַד־עוֹלָ֖ם מֵעִ֥ם יְהוָֽה׃",
+      "text_kjv": "Their blood shall therefore return upon the head of Joab, and upon the head of his seed for ever: but upon David, and upon his seed, and upon his house, and upon his throne, shall there be peace for ever from the LORD.",
+      "rendering": "Their blood will return on the head of Joab and on the head of his descendants forever. But for David and his descendants, his house and his throne, there will be peace from the LORD forever.\"",
+      "translator_notes": [
+        "This verse completes the legal argument with a contrast: Joab's line inherits blood-guilt forever; David's line inherits shalom from the LORD forever. The word shalom here carries its full covenantal weight — not merely 'absence of conflict' but wholeness, well-being, and divine favor. Solomon is constructing a theological framework for the execution: it is not political murder but a purification that transfers guilt away from the Davidic dynasty.",
+        "The phrase ad olam me'im YHWH ('forever from the LORD') gives the peace a divine source and eternal duration — this is dynastic theology at its most ambitious, echoing the promise of 2 Samuel 7."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיַּ֙עַל֙ בְּנָיָ֣הוּ בֶן־יְהוֹיָדָ֔ע וַיִּפְגַּע־בּ֖וֹ וַיְמִיתֵ֑הוּ וַיִּקָּבֵ֥ר בְּבֵית֖וֹ בַּמִּדְבָּֽר׃",
+      "text_kjv": "So Benaiah the son of Jehoiada went up, and fell upon him, and slew him: and he was buried in his own house in the wilderness.",
+      "rendering": "So Benaiah son of Jehoiada went up, struck him down, and killed him. He was buried at his own estate in the wilderness.",
+      "translator_notes": [
+        "Joab's burial at his 'house in the wilderness' (beveto bamidbar) means his family estate in the Judean wilderness — he is buried on his own land, not in a place of honor. The execution at the altar and burial in the wilderness represent a complete removal from the center of power. The verb vayyifga bo vaymitehu ('he struck him and killed him') echoes each previous execution in the chapter, establishing Benaiah as the consistent instrument of Solomon's justice."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיִּתֵּ֨ן הַמֶּ֜לֶךְ אֶת־בְּנָיָ֧הוּ בֶן־יְהוֹיָדָ֛ע תַּחְתָּ֖יו עַל־הַצָּבָ֑א וְאֶת־צָד֤וֹק הַכֹּהֵן֙ נָתַ֣ן הַמֶּ֔לֶךְ תַּ֖חַת אֶבְיָתָֽר׃",
+      "text_kjv": "And the king put Benaiah the son of Jehoiada in his room over the host: and Zadok the priest did the king put in the room of Abiathar.",
+      "rendering": "The king appointed Benaiah son of Jehoiada over the army in Joab's place, and the king appointed Zadok the priest in place of Abiathar.",
+      "translator_notes": [
+        "This verse records the double replacement that restructures Israel's leadership: Benaiah replaces Joab as military commander, and Zadok replaces Abiathar as priest. The Zadokite priesthood will dominate Jerusalem's temple until the exile and become the basis for priestly lineage in Ezekiel's vision (Ezek 44:15). Both appointments reward loyalty — Benaiah and Zadok supported Solomon during Adonijah's attempt (1 Kgs 1:8, 32-40)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיִּשְׁלַ֣ח הַמֶּ֗לֶךְ וַיִּקְרָא֙ לְשִׁמְעִ֔י וַיֹּ֣אמֶר ל֗וֹ בְּנֵֽה־לְךָ֥ בַ֙יִת֙ בִּיר֣וּשָׁלַ֔&#x4D; וְיָשַׁבְתָּ֖ שָׁ֑ם וְלֹא־תֵצֵ֥א מִשָּׁ֖ם אָ֥נֶה וָאָֽנָה׃",
+      "text_kjv": "And the king sent and called for Shimei, and said unto him, Build thee an house in Jerusalem, and dwell there, and go not forth thence any whither:",
+      "rendering": "The king summoned Shimei and said to him, \"Build yourself a house in Jerusalem and live there. Do not leave there to go anywhere.",
+      "translator_notes": [
+        "Solomon's arrangement for Shimei is a form of house arrest — confinement to Jerusalem under royal surveillance. The command to 'build a house' suggests a permanent arrangement, not a temporary stay. By placing Shimei in the capital, Solomon keeps him visible and controllable. The phrase aneh va'anah ('here and there, anywhere') emphasizes the totality of the restriction — Shimei cannot leave for any reason or in any direction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְהָיָ֣ה ׀ בְּי֣וֹם צֵאתְךָ֗ וְעָבַרְתָּ֙ אֶת־נַ֣חַל קִדְר֔וֹן יָדֹ֥עַ תֵּדַ֖ע כִּ֣י מ֣וֹת תָּמ֑וּת דָּמְךָ֖ יִהְיֶ֥ה בְרֹאשֶֽׁךָ׃",
+      "text_kjv": "For it shall be, that on the day thou goest out, and passest over the brook Kidron, thou shalt know for certain that thou shalt surely die: thy blood shall be upon thine own head.",
+      "rendering": "On the day you leave and cross the Wadi Kidron, know for certain that you will surely die. Your blood will be on your own head.\"",
+      "translator_notes": [
+        "The Wadi Kidron runs east of Jerusalem between the city and the Mount of Olives — crossing it would mean heading toward Benjaminite territory, Shimei's home region. The phrase yadoa teda ('knowing you will know') is the infinitive absolute construction signaling absolute certainty. The death sentence mot tamut ('dying you will die') uses the same construction — the oldest legal formula in the Bible, first used by God to Adam (Gen 2:17). Solomon leaves no ambiguity: crossing the boundary means death, and the guilt will be Shimei's own."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיֹּ֧אמֶר שִׁמְעִ֛י לַמֶּ֖לֶךְ ט֣וֹב הַדָּבָ֑ר כַּאֲשֶׁ֣ר דִּבֶּר֩ אֲדֹנִ֨י הַמֶּ֜לֶךְ כֵּ֣ן ׀ יַעֲשֶׂ֣ה עַבְדֶּ֗ךָ וַיֵּ֧שֶׁב שִׁמְעִ֛י בִּירוּשָׁלַ֖&#x4D; יָמִ֥ים רַבִּֽים׃",
+      "text_kjv": "And Shimei said unto the king, The saying is good: as my lord the king hath said, so will thy servant do. And Shimei dwelt in Jerusalem many days.",
+      "rendering": "Shimei said to the king, \"The word is good. As my lord the king has spoken, so your servant will do.\" And Shimei lived in Jerusalem for a long time.",
+      "translator_notes": [
+        "Shimei's compliance — tov haddavar ('the word is good') — mirrors Bathsheba's tov in verse 18. He accepts the terms without protest and lives in Jerusalem yamim rabbim ('many days'), suggesting a significant period of obedience. The narrative pauses here, creating the expectation that the arrangement will hold — which makes his eventual violation more dramatic."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיְהִ֗י מִקֵּ֣ץ שָׁלֹ֣שׁ שָׁנִ֡ים וַיִּבְרְח֡וּ שְׁנֵֽי־עֲבָדִ֨ים לְשִׁמְעִ֜י אֶל־אָכִ֨ישׁ בֶּן־מַעֲכָ֜ה מֶ֣לֶךְ גַּ֗ת וַיַּגִּ֤ידוּ לְשִׁמְעִי֙ לֵאמֹ֔ר הִנֵּ֥ה עֲבָדֶ֖יךָ בְּגַ֑ת׃",
+      "text_kjv": "And it came to pass at the end of three years, that two of the servants of Shimei ran away unto Achish son of Maachah king of Gath: and they told Shimei, saying, Behold, thy servants be in Gath.",
+      "rendering": "At the end of three years, two of Shimei's servants ran away to Achish son of Maacah, king of Gath. When Shimei was told, \"Your servants are in Gath,\"",
+      "translator_notes": [
+        "Three years of compliance end when economic self-interest creates a dilemma. Achish king of Gath is likely a successor to the Achish who sheltered David (1 Sam 27:2). The loss of two slaves represents a significant economic loss in the ancient world. The test is whether Shimei values his property more than his life — whether he will break the oath for material recovery."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַיָּ֣קׇם שִׁמְעִ֗י וַֽיַּחֲבֹ֣שׁ אֶת־חֲמֹרוֹ֮ וַיֵּ֣לֶךְ גַּ֣תָה אֶל־אָכִישׁ֮ לְבַקֵּ֣שׁ אֶת־עֲבָדָיו֒ וַיֵּ֣לֶךְ שִׁמְעִ֔י וַיָּבֵ֥א אֶת־עֲבָדָ֖יו מִגַּֽת׃",
+      "text_kjv": "And Shimei arose, and saddled his ass, and went to Gath to Achish to seek his servants: and Shimei went and brought his servants from Gath.",
+      "rendering": "Shimei got up, saddled his donkey, and went to Gath, to Achish, to retrieve his servants. Shimei went and brought his servants back from Gath.",
+      "translator_notes": [
+        "The narrative is deliberately detailed — saddling the donkey, traveling to Gath, retrieving the servants, returning. Each action compounds the violation. Gath is a Philistine city, well beyond Jerusalem's boundaries and across the Wadi Kidron. Shimei's journey is not a momentary lapse but a planned trip requiring days of travel. The narrator's repetition of Shimei's name emphasizes his personal responsibility."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַיֻּגַּ֖ד לִשְׁלֹמֹ֑ה כִּי־הָלַ֤ךְ שִׁמְעִי֙ מִיר֣וּשָׁלַ֔&#x4D; גַּ֖ת וַיָּשֹֽׁב׃",
+      "text_kjv": "And it was told Solomon that Shimei had gone from Jerusalem to Gath, and was come again.",
+      "rendering": "When Solomon was told that Shimei had gone from Jerusalem to Gath and had returned,",
+      "translator_notes": [
+        "Solomon learns of the violation after Shimei's return — the intelligence network of the new monarchy is functioning. The report is simple: he went, he came back. The fact that Shimei returned to Jerusalem, perhaps thinking the trip could go unnoticed, shows either naivety or desperation. Solomon does not act in Shimei's absence; he waits until the violation is complete and undeniable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וַיִּשְׁלַ֣ח הַמֶּ֗לֶךְ וַיִּקְרָא֙ לְשִׁמְעִ֔י וַיֹּ֣אמֶר אֵלָ֗יו הֲל֨וֹא הִשְׁבַּעְתִּ֤יךָ בַיהוָה֙ וָאָעִ֤ד בְּךָ֙ לֵאמֹ֔ר בְּי֣וֹם צֵאתְךָ֗ וְהָלַכְתָּ֙ אָ֣נֶה וָאָ֔נָה יָדֹ֥עַ תֵּדַ֖ע כִּ֣י מ֣וֹת תָּמ֑וּת וַתֹּ֣אמֶר אֵלַ֔י ט֥וֹב הַדָּבָ֖ר שָׁמָֽעְתִּי׃",
+      "text_kjv": "And the king sent and called for Shimei, and said unto him, Did I not make thee to swear by the LORD, and protested unto thee, saying, Know for a certain, on the day thou goest out, and walkest abroad any whither, that thou shalt surely die? and thou saidst unto me, The word that I have heard is good.",
+      "rendering": "the king summoned Shimei and said to him, \"Did I not make you swear by the LORD and warn you solemnly, saying, 'On the day you leave and go anywhere, know for certain that you will surely die'? And you said to me, 'The word is good; I have heard.'",
+      "translator_notes": [
+        "Solomon recites the terms of the oath precisely, repeating the infinitive absolute constructions (yadoa teda, mot tamut) and quoting Shimei's own words of acceptance back to him (tov haddavar shamati). This is a judicial proceeding: the king establishes the terms, the defendant's consent, and the violation before pronouncing sentence. The verb va'a'id bekha ('I warned you solemnly') is legal testimony language — Solomon served as both lawgiver and witness."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וּמַדּ֕וּעַ לֹ֣א שָׁמַ֔רְתָּ אֵ֖ת שְׁבֻעַ֣ת יְהוָ֑ה וְאֶת־הַמִּצְוָ֖ה אֲשֶׁר־צִוִּ֥יתִי עָלֶֽיךָ׃",
+      "text_kjv": "Why then hast thou not kept the oath of the LORD, and the commandment that I have charged thee with?",
+      "rendering": "Why then did you not keep the oath of the LORD and the command I laid upon you?\"",
+      "translator_notes": [
+        "Solomon frames Shimei's violation as a double offense: breaking an oath sworn by the LORD (shevu'at YHWH) and disobeying a royal command (mitswah). The combination elevates the offense from a personal breach of agreement to a sacral-legal violation. Shimei broke his word to God and his word to the king simultaneously."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וַיֹּ֤אמֶר הַמֶּ֙לֶךְ֙ אֶל־שִׁמְעִ֔י אַתָּ֣ה יָדַ֗עְתָּ אֵ֚ת כׇּל־הָ֣רָעָ֔ה אֲשֶׁ֤ר יָדַע֙ לְבָ֣בְךָ֔ אֲשֶׁ֥ר עָשִׂ֖יתָ לְדָוִ֣ד אָבִ֑י וְהֵשִׁ֧יב יְהוָ֛ה אֶת־רָעָתְךָ֖ בְּרֹאשֶֽׁךָ׃",
+      "text_kjv": "The king said moreover to Shimei, Thou knowest all the wickedness which thine heart is privy to, that thou didst to David my father: therefore the LORD shall return thy wickedness upon thine own head;",
+      "rendering": "The king said to Shimei, \"You know all the evil that your heart is aware of — what you did to my father David. The LORD will return your evil on your own head.",
+      "translator_notes": [
+        "Solomon now reaches back to the original offense: Shimei's curse against David during Absalom's revolt (2 Sam 16:5-13). The phrase asher yada levavekha ('that your heart knows') appeals to Shimei's own conscience — he knows what he did. The retribution formula veheshiv YHWH et ra'atekha berosekha ('the LORD will return your evil on your head') is identical in structure to the formula used for Joab (v. 32). Both executions are framed as divine justice mediated through Solomon."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וְהַמֶּ֥לֶךְ שְׁלֹמֹ֖ה בָּר֑וּךְ וְכִסֵּ֣א דָוִ֗ד יִהְיֶ֥ה נָכ֛וֹן לִפְנֵ֥י יְהוָ֖ה עַד־עוֹלָֽם׃",
+      "text_kjv": "And king Solomon shall be blessed, and the throne of David shall be established before the LORD for ever.",
+      "rendering": "But King Solomon will be blessed, and the throne of David will be established before the LORD forever.\"",
+      "translator_notes": [
+        "The contrast with verse 44 is sharp: Shimei's evil returns to his head; Solomon receives blessing. The verb nakhon ('established, firm, secure') from the root kun ties back to verse 12 (vatikkon malkhuto) and forward to verse 46, forming an inclusio around the entire consolidation narrative. The permanence claim — ad olam ('forever') lifnei YHWH ('before the LORD') — places the Davidic throne under divine guarantee, contingent on the purification achieved through this chapter's executions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וַיְצַ֣ו הַמֶּ֗לֶךְ אֶת־בְּנָיָ֙הוּ֙ בֶּן־יְהוֹיָדָ֔ע וַיֵּצֵ֕א וַיִּפְגַּע־בּ֖וֹ וַיָּמֹ֑ת וְהַמַּמְלָכָ֥ה נָכ֖וֹנָה בְּיַד־שְׁלֹמֹֽה׃",
+      "text_kjv": "So the king commanded Benaiah the son of Jehoiada; which went out, and fell upon him, that he died. And the kingdom was established in the hand of Solomon.",
+      "rendering": "The king commanded Benaiah son of Jehoiada, and he went out, struck him down, and he died. And the kingdom was firmly established in Solomon's hand.",
+      "translator_notes": [
+        "The chapter ends as it began — with a command (vaytsaw, the same verb as David's charge in v. 1) and with the kingdom established (nekhonah, the same root kun as v. 12 and v. 45). The final sentence vehammamlakhah nekhonah beyad Shelomoh ('and the kingdom was established in Solomon's hand') closes the inclusio opened in verse 12. Between those two statements of stability, four threats have been eliminated: Adonijah (v. 25), Abiathar (v. 27), Joab (v. 34), and Shimei (v. 46). The kingdom is secured not by a single decisive battle but by a sequence of calculated removals.",
+        "Benaiah's role as executioner throughout (vv. 25, 34, 46) makes him the indispensable instrument of Solomon's consolidation. His reward — command of the army (v. 35) — is the fruit of his obedience."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

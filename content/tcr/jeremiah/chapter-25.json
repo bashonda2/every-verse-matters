@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jeremiah",
+    "chapter": 25,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jeremiah 25 marks a dramatic pivot in the book — from oracles directed at Judah to a vision encompassing all the nations of the earth. The chapter opens with a precise date (the fourth year of Jehoiakim, the first year of Nebuchadnezzar) and a summary of Jeremiah's twenty-three years of rejected prophetic ministry. God announces that Judah will serve Babylon for seventy years, after which Babylon itself will be judged. The second half of the chapter introduces the terrifying image of the cup of God's wrath — a goblet of wine that Jeremiah is commanded to pass to nation after nation, from Jerusalem to Egypt, Uz, Philistia, Edom, Moab, Ammon, Tyre, Sidon, Arabia, Elam, Media, and finally Babylon ('Sheshach'). The chapter closes with an oracle of cosmic judgment: the LORD roars from on high like a lion against all flesh, and a slaughter stretches from one end of the earth to the other.",
+    "remarkable": "This chapter contains two of Jeremiah's most consequential oracles. First, the seventy-year prophecy (v. 11-12) became the foundation for Daniel's prayer in Daniel 9:2 and the entire eschatological tradition of seventy weeks. The number seventy may represent a literal generation count or a symbolic period of completeness — the text does not resolve this, and we preserve the ambiguity. Second, the cup-of-wrath image (v. 15-29) is one of the most imitated metaphors in biblical literature, echoed in Isaiah 51:17, Ezekiel 23:31-34, Habakkuk 2:16, and ultimately Revelation 14:10 and 16:19. The Hebrew kos hayayin hachema ('the cup of the wine of wrath') is a three-word construct chain — cup-of wine-of wrath — packing divine fury into a single drinking vessel. We rendered the atbash cipher 'Sheshach' (v. 26) transparently, noting it as a coded name for Babylon. The sweeping geographic scope of verses 18-26, moving systematically through every known nation, transforms Jeremiah from a prophet of Judah into a prophet over all the earth — fulfilling the commission of 1:10, 'I have appointed you over nations and kingdoms.'",
+    "friction": "The date formula in verse 1 required careful handling — the Hebrew gives 'the fourth year of Jehoiakim son of Josiah king of Judah; that is the first year of Nebuchadnezzar king of Babylon.' We preserved both dating systems as the text presents them. The verb hashkem ('rising early') in verse 3 is the characteristic Jeremiah idiom for God's persistent effort; we rendered it as 'persistently' to capture the urgency without the literal English awkwardness. The word mashchit in verse 9 can mean 'destroy' or 'corrupt,' and we chose 'destroy' for the military context. The atbash cipher Sheshach (שֵׁשַׁךְ) in verse 26 encodes Babel (בָּבֶל) by substituting the first letter of the alphabet for the last, the second for the second-to-last, and so on — we retained the name and explained the cipher in a note. The phrase 'uncircumcised and circumcised alike' (v. 29, implied) in the concluding judgment required careful contextual handling.",
+    "connections": "The seventy-year prophecy (v. 11-12) is directly cited in 2 Chronicles 36:21, Ezra 1:1, and Daniel 9:2, making it one of the most cross-referenced prophecies in the Hebrew Bible. The cup-of-wrath image connects to Isaiah 51:17-22 (Jerusalem has drunk the cup; now it passes to her oppressors), Lamentations 4:21 (Edom will also drink), Ezekiel 23:31-34, and Habakkuk 2:15-16. In the New Testament, Jesus's prayer in Gethsemane — 'Let this cup pass from me' (Matthew 26:39) — draws on this prophetic tradition of the cup of divine judgment. The roaring-lion imagery in verses 30-31 connects to Amos 1:2, Joel 3:16, and Hosea 11:10. The commission to be 'a prophet to the nations' (1:5, 1:10) reaches its fullest expression in this chapter's universal scope."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "הַדָּבָ֞ר אֲשֶׁר־הָיָ֤ה עַֽל־יִרְמְיָ֙הוּ֙ עַל־כָּל־עַ֣ם יְהוּדָ֔ה בַּשָּׁנָה֙ הָרְבִיעִ֔ית לִיהוֹיָקִ֥ים בֶּן־יֹאשִׁיָּ֖הוּ מֶ֣לֶךְ יְהוּדָ֑ה הִ֗יא הַשָּׁנָה֙ הָרִ֣אשֹׁנִ֔ית לִנְבוּכַדְרֶאצַּ֖ר מֶ֥לֶךְ בָּבֶֽל׃",
+      "text_kjv": "The word that came to Jeremiah concerning all the people of Judah in the fourth year of Jehoiakim the son of Josiah king of Judah, that was the first year of Nebuchadrezzar king of Babylon;",
+      "rendering": "The word that came to Jeremiah concerning all the people of Judah in the fourth year of Jehoiakim son of Josiah, king of Judah — that was the first year of Nebuchadnezzar, king of Babylon —",
+      "translator_notes": ["The dual dating formula synchronizes Judah's calendar with Babylon's, placing this oracle at approximately 605 BCE. This is the year of the Battle of Carchemish, when Nebuchadnezzar defeated Egypt and established Babylonian dominance over the entire region. The Hebrew uses 'Nevukhadretsar,' a closer transliteration of the Akkadian Nabû-kudurri-uṣur; we use the conventional English 'Nebuchadnezzar.'"],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "אֲשֶׁ֨ר דִּבֶּ֜ר יִרְמְיָ֤הוּ הַנָּבִיא֙ עַל־כָּל־עַ֣ם יְהוּדָ֔ה וְאֶ֖ל כָּל־יֹשְׁבֵ֣י יְרוּשָׁלָ֑͏ִם לֵאמֹֽר׃",
+      "text_kjv": "The which Jeremiah the prophet spake unto all the people of Judah, and to all the inhabitants of Jerusalem, saying,",
+      "rendering": "which Jeremiah the prophet spoke to all the people of Judah and all the inhabitants of Jerusalem:",
+      "translator_notes": ["The Hebrew le'mor ('saying') functions as a speech-introduction marker and is rendered as a colon. The address is to 'all the people' — this is a public oracle, not a private word to the king or the priests."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "מִן־שְׁלֹ֨שׁ עֶשְׂרֵ֜ה שָׁנָ֗ה לְיֹאשִׁיָּ֤הוּ בֶן־אָמוֹן֙ מֶ֣לֶךְ יְהוּדָ֔ה וְעַד֙ הַיּ֣וֹם הַזֶּ֔ה זֶ֕ה שָׁלֹ֥שׁ וְעֶשְׂרִ֖ים שָׁנָ֑ה הָיָ֤ה דְבַר־יְהוָה֙ אֵלַ֔י וָאֲדַבֵּ֧ר אֲלֵיכֶ֛ם אַשְׁכֵּ֥ם וְדַבֵּ֖ר וְלֹ֥א שְׁמַעְתֶּֽם׃",
+      "text_kjv": "From the thirteenth year of Josiah the son of Amon king of Judah, even unto this day, that is the three and twentieth year, the word of the LORD hath come unto me, and I have spoken unto you, rising early and speaking; but ye have not hearkened.",
+      "rendering": "From the thirteenth year of Josiah son of Amon, king of Judah, to this very day — twenty-three years — the word of the LORD has come to me, and I have spoken to you persistently, but you have not listened.",
+      "translator_notes": ["The thirteen years of Josiah correspond to 627/626 BCE, the traditional date of Jeremiah's call (1:2). Twenty-three years of prophetic ministry had produced no repentance. The idiom hashkem vedabber ('rising early and speaking') is the characteristic Jeremiah expression for persistent, tireless effort — we render it as 'persistently' rather than the literally awkward 'rising early and speaking,' consistent with our rendering in 7:13 and 11:7."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְשָׁלַ֨ח יְהוָ֤ה אֲלֵיכֶם֙ אֶת־כָּל־עֲבָדָ֣יו הַנְּבִיאִ֔ים הַשְׁכֵּ֖ם וְשָׁלֹ֑חַ וְלֹ֣א שְׁמַעְתֶּ֔ם וְלֹֽא־הִטִּיתֶ֥ם אֶת־אָזְנְכֶ֖ם לִשְׁמֹֽעַ׃",
+      "text_kjv": "And the LORD hath sent unto you all his servants the prophets, rising early and sending them; but ye have not hearkened, nor inclined your ear to hear.",
+      "rendering": "The LORD sent to you all his servants the prophets, sending them persistently, but you did not listen or incline your ear to hear.",
+      "translator_notes": ["Again the hashkem idiom, now applied to God sending prophets. The double refusal — 'did not listen' (lo shema'tem) and 'did not incline your ear' (lo hittitem et-oznekhem) — represents a willful refusal at every level: they neither heard the message nor positioned themselves to receive it."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "לֵאמֹ֗ר שׁ֤וּבוּ נָא֙ אִ֣ישׁ מִדַּרְכּ֣וֹ הָרָעָ֔ה וּמֵרֹ֖עַ מַעַלְלֵיכֶ֑ם וּשְׁב֗וּ עַל־הָ֨אֲדָמָ֜ה אֲשֶׁ֨ר נָתַ֧ן יְהוָ֛ה לָכֶ֥ם וְלַאֲבוֹתֵיכֶ֖ם לְמִן־עוֹלָ֥ם וְעַד־עוֹלָֽם׃",
+      "text_kjv": "They said, Turn ye again now every one from his evil way, and from the evil of your doings, and dwell in the land that the LORD hath given unto you and to your fathers for ever and ever:",
+      "rendering": "They said: Turn back, each of you, from your evil way and from the wickedness of your deeds, and remain on the land that the LORD gave to you and your ancestors from ancient times and into the future.",
+      "translator_notes": ["The verb shuv ('turn back, return') is Jeremiah's central term for repentance — a spatial metaphor of returning to where one belongs. The phrase min-olam ve'ad-olam ('from eternity to eternity') describes the intended permanence of the land grant; we render olam as 'ancient times' and 'into the future' to capture the Hebrew sense of time stretching beyond view in both directions, rather than the philosophically loaded 'forever and ever.'"],
+      "key_terms": [
+        {
+          "hebrew": "שׁוּב",
+          "transliteration": "shuv",
+          "rendered_as": "turn back",
+          "semantic_range": "to return, turn back, repent, restore, do again",
+          "note": "The key verb of the entire book of Jeremiah — repentance as spatial return. Here the prophets urge the people to turn back from evil, with the implicit destination being the covenant relationship with God."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְאַל־תֵּלְכ֗וּ אַחֲרֵ֛י אֱלֹהִ֥ים אֲחֵרִ֖ים לְעָבְדָ֣ם וּלְהִשְׁתַּחֲוֺ֣ת לָהֶ֑ם וְלֹֽא־תַכְעִ֤יסוּ אוֹתִי֙ בְּמַעֲשֵׂ֣ה יְדֵיכֶ֔ם וְלֹ֖א אָרַ֥ע לָכֶֽם׃",
+      "text_kjv": "And go not after other gods to serve them, and to worship them, and provoke me not to anger with the works of your hands; and I will do you no hurt.",
+      "rendering": "Do not follow other gods to serve and bow down to them, and do not provoke me to anger with the work of your hands — then I will do you no harm.",
+      "translator_notes": ["The phrase 'work of your hands' (ma'aseh yedeikhem) is double-edged — it refers both to the idols they have manufactured and to the deeds of idolatry they have performed. The conditional structure is implicit in the Hebrew: the promise of 'no harm' is contingent on obedience."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְלֹֽא־שְׁמַעְתֶּ֥ם אֵלַ֖י נְאֻם־יְהוָ֑ה לְמַ֛עַן הַכְעִיסֵ֥נִי בְּמַעֲשֵׂ֥ה יְדֵיכֶ֖ם לְרַ֥ע לָכֶֽם׃",
+      "text_kjv": "Yet ye have not hearkened unto me, saith the LORD; that ye might provoke me to anger with the works of your hands to your own hurt.",
+      "rendering": "But you did not listen to me, declares the LORD, so as to provoke me to anger with the work of your hands, to your own harm.",
+      "translator_notes": ["The Hebrew lema'an ('so as to, in order that') creates a jarring purpose clause — their refusal to listen functioned as if its purpose were to provoke God. Whether this implies deliberate intent or describes the inevitable result of their actions is ambiguous in the Hebrew; we preserve the ambiguity. Ne'um YHWH is rendered with the locked formula 'declares the LORD.'"],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "לָכֵ֗ן כֹּ֤ה אָמַר֙ יְהוָ֣ה צְבָא֔וֹת יַ֕עַן אֲשֶׁ֥ר לֹֽא־שְׁמַעְתֶּ֖ם אֶת־דְּבָרָֽי׃",
+      "text_kjv": "Therefore thus saith the LORD of hosts; Because ye have not heard my words,",
+      "rendering": "Therefore this is what the LORD of Hosts says: Because you have not listened to my words,",
+      "translator_notes": ["The title YHWH tseva'ot ('LORD of Hosts') invokes God as commander of heavenly armies — the military epithet appropriate to the announcement of invasion that follows. The shift from ne'um YHWH (v. 7) to koh amar YHWH tseva'ot signals an escalation in divine authority."],
+      "key_terms": [
+        {
+          "hebrew": "צְבָאוֹת",
+          "transliteration": "tseva'ot",
+          "rendered_as": "of Hosts",
+          "semantic_range": "armies, hosts, heavenly forces, multitudes",
+          "note": "The divine epithet positions God as supreme military commander — the one who commands both heavenly and earthly armies. Its use here introduces the military judgment that follows."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "הִנְנִ֣י שֹׁלֵ֗חַ וְלָֽקַחְתִּי֙ אֶת־כָּל־מִשְׁפְּח֣וֹת צָפ֔וֹן נְאֻם־יְהוָ֔ה וְאֶל־נְבוּכַדְרֶאצַּ֥ר מֶֽלֶךְ־בָּבֶ֖ל עַבְדִּ֑י וַהֲבִ֨אֹתִ֜ים עַל־הָאָ֣רֶץ הַזֹּ֗את וְעַל־יֹֽשְׁבֶ֙יהָ֙ וְעַ֛ל כָּל־הַגּוֹיִ֥ם הָאֵ֖לֶּה סָבִ֑יב וְהַחֲרַמְתִּ֣ים וְשַׂמְתִּ֗ים לְשַׁמָּ֧ה וְלִשְׁרֵקָ֛ה וּלְחָרְב֖וֹת עוֹלָֽם׃",
+      "text_kjv": "Behold, I will send and take all the families of the north, saith the LORD, and Nebuchadrezzar the king of Babylon, my servant, and will bring them against this land, and against the inhabitants thereof, and against all these nations round about, and will utterly destroy them, and make them an astonishment, and an hissing, and perpetual desolations.",
+      "rendering": "I am about to send for and summon all the clans of the north, declares the LORD, and for Nebuchadnezzar king of Babylon, my servant. I will bring them against this land and its inhabitants and against all these surrounding nations. I will devote them to destruction and make them an object of horror and scorn, and ruins that last through the ages.",
+      "expanded_rendering": "The title 'my servant' (avdi) applied to Nebuchadnezzar is one of the most theologically shocking statements in the Hebrew Bible. The pagan emperor who will destroy the temple is called God's servant — an instrument of divine purpose, wielded by God to execute covenant judgment on his own people. This is not an endorsement of Babylon but a declaration of God's sovereignty over all nations.",
+      "translator_notes": ["Hinneni ('look, I am about to') signals imminent divine action. The designation avdi ('my servant') for Nebuchadnezzar is extraordinary — the same title given to Moses, David, and the prophets is here applied to a foreign conqueror. The verb hacharamtim ('devote to destruction') is cherem vocabulary — total consecration to destruction, the same verb used for the conquest of Canaan. The three-fold result — shammah (horror), shreqah (hissing/scorn), charvot olam (perpetual ruins) — is a standard Jeremianic curse formula."],
+      "key_terms": [
+        {
+          "hebrew": "עַבְדִּי",
+          "transliteration": "avdi",
+          "rendered_as": "my servant",
+          "semantic_range": "my servant, my slave, my agent, my vassal",
+          "note": "Applied to Nebuchadnezzar in 25:9, 27:6, and 43:10. God claims the Babylonian emperor as his own instrument of judgment."
+        },
+        {
+          "hebrew": "הַחֲרַמְתִּים",
+          "transliteration": "hacharamtim",
+          "rendered_as": "devote them to destruction",
+          "semantic_range": "to devote to destruction, to utterly destroy, to place under the ban",
+          "note": "Cherem — the vocabulary of total consecration to destruction. The same word used for the conquest of Jericho is now turned against Judah and the nations."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְהַאֲבַדְתִּ֣י מֵהֶ֗ם ק֤וֹל שָׂשׂוֹן֙ וְק֣וֹל שִׂמְחָ֔ה ק֥וֹל חָתָ֖ן וְק֣וֹל כַּלָּ֑ה ק֥וֹל רֵחַ֖יִם וְא֥וֹר נֵֽר׃",
+      "text_kjv": "Moreover I will take from them the voice of mirth, and the voice of gladness, the voice of the bridegroom, and the voice of the bride, the sound of the millstones, and the light of the candle.",
+      "rendering": "I will banish from them the sound of joy and the sound of gladness, the voice of the bridegroom and the voice of the bride, the sound of the millstone and the light of the lamp.",
+      "translator_notes": ["This verse catalogs the sounds and sights of normal life that will cease — celebration (joy, gladness), domestic life (bride, bridegroom), daily labor (millstone grinding), and basic illumination (lamp). The six items progress from festive to mundane, showing that everything from weddings to the grinding of daily grain will stop. This formula recurs in 7:34, 16:9, and 33:11, and is echoed in Revelation 18:22-23 describing Babylon's fall."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְהָיְתָ֞ה כָּל־הָאָ֣רֶץ הַזֹּ֗את לְחָרְבָּ֧ה לְשַׁמָּ֛ה וְעָבְד֛וּ הַגּוֹיִ֥ם הָאֵ֖לֶּה אֶת־מֶ֣לֶךְ בָּבֶ֑ל שִׁבְעִ֖ים שָׁנָֽה׃",
+      "text_kjv": "And this whole land shall be a desolation, and an astonishment; and these nations shall serve the king of Babylon seventy years.",
+      "rendering": "This entire land will become a ruin and a wasteland, and these nations will serve the king of Babylon for seventy years.",
+      "expanded_rendering": "The seventy-year period (shiv'im shanah) became one of the most consequential numbers in biblical prophecy. Whether seventy represents a literal count of years (approximately 605–535 BCE) or a symbolic period of completeness (seven times ten, a generation of divine judgment), the text does not resolve. Daniel 9:2 takes the number literally and prays for its fulfillment. The Chronicler interprets the seventy years as sabbath rest for the land (2 Chronicles 36:21). Both readings stand within the Hebrew tradition.",
+      "translator_notes": ["The phrase shiv'im shanah ('seventy years') appears here and in verse 12. The number generates debate: it may refer to the period from 605 (Nebuchadnezzar's first campaign) to 539 BCE (Cyrus's conquest of Babylon), roughly sixty-six years; or from 586 (temple destruction) to 516 (temple rededication), exactly seventy years. The text itself simply states the number without resolving the calculation. We preserve the number without interpretive comment in the rendering itself."],
+      "key_terms": [
+        {
+          "hebrew": "שִׁבְעִים שָׁנָה",
+          "transliteration": "shiv'im shanah",
+          "rendered_as": "seventy years",
+          "semantic_range": "seventy years (literal or symbolic period of divine judgment)",
+          "note": "The seventy-year prophecy is cited in Daniel 9:2, 2 Chronicles 36:21, and Ezra 1:1. It became the basis for Daniel's 'seventy weeks' (Daniel 9:24-27) and a foundational text for Jewish and Christian eschatology."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְהָיָ֣ה כִמְלֹ֣אות שִׁבְעִ֣ים שָׁנָ֡ה אֶפְקֹד֩ עַל־מֶ֨לֶךְ בָּבֶ֜ל וְעַל־הַגּ֤וֹי הַהוּא֙ נְאֻם־יְהוָ֔ה אֶת־עֲוֹנָ֕ם וְעַל־אֶ֖רֶץ כַּשְׂדִּ֑ים וְשַׂמְתִּ֥י אֹת֖וֹ לְשִׁמְמ֥וֹת עוֹלָֽם׃",
+      "text_kjv": "And it shall come to pass, when seventy years are accomplished, that I will punish the king of Babylon, and that nation, saith the LORD, for their iniquity, and the land of the Chaldeans, and will make it perpetual desolations.",
+      "rendering": "When the seventy years are complete, I will punish the king of Babylon and that nation for their iniquity, declares the LORD, and the land of the Chaldeans, and I will make it a permanent wasteland.",
+      "translator_notes": ["The verb paqad ('visit, attend to, punish') here means to call to account — God will 'visit' Babylon's guilt upon it. The term avon ('iniquity') implies accumulated guilt, not a single offense. The judgment on Babylon is framed as symmetrical justice — the instrument of punishment will itself be punished. The 'land of the Chaldeans' (erets kasdim) identifies Babylon by its ethnic-geographic name."],
+      "key_terms": [
+        {
+          "hebrew": "אֶפְקֹד",
+          "transliteration": "efqod",
+          "rendered_as": "I will punish",
+          "semantic_range": "to visit, attend to, muster, appoint, punish, call to account",
+          "note": "Paqad is one of the most versatile verbs in Hebrew. Here in a judgment context, it means to call to account, to bring the reckoning. God's 'visiting' always has consequences."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַהֲבֵאתִ֣י עַל־הָאָ֣רֶץ הַהִ֗יא אֶת־כָּל־דְּבָרַי֙ אֲשֶׁר־דִּבַּ֣רְתִּי עָלֶ֔יהָ אֵ֛ת כָּל־הַכָּת֥וּב בַּסֵּ֖פֶר הַזֶּ֑ה אֲשֶׁר־נִבָּ֥א יִרְמְיָ֖הוּ עַל־כָּל־הַגּוֹיִֽם׃",
+      "text_kjv": "And I will bring upon that land all my words which I have pronounced against it, even all that is written in this book, which Jeremiah hath prophesied against all the nations.",
+      "rendering": "I will bring upon that land all my words that I have spoken against it — everything written in this scroll, which Jeremiah prophesied against all the nations.",
+      "translator_notes": ["The reference to 'this scroll' (ha-sefer ha-zeh) is a rare self-referential moment in prophetic literature. It likely refers to an earlier collection of Jeremiah's oracles against the nations (chapters 46-51), which may have originally been placed here in some textual traditions. The Septuagint (LXX) actually positions the oracles against the nations after 25:13, confirming that different arrangements of Jeremiah circulated in antiquity. We render sefer as 'scroll' rather than 'book' to reflect the physical medium of the seventh century BCE."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "כִּ֣י עָבְד֣וּ בָ֠ם גַּם־הֵ֜מָּה גּוֹיִ֤ם רַבִּים֙ וּמְלָכִ֣ים גְּדוֹלִ֔ים וְשִׁלַּמְתִּ֥י לָהֶ֖ם כְּפָעֳלָ֑ם וּכְמַעֲשֵׂ֖ה יְדֵיהֶֽם׃",
+      "text_kjv": "For many nations and great kings shall serve themselves of them also: and I will recompense them according to their deeds, and according to the works of their own hands.",
+      "rendering": "For many nations and great kings will also make them serve, and I will repay them according to their deeds and the work of their hands.",
+      "translator_notes": ["The verse describes a chain of domination — Babylon enslaved nations, and in turn other nations and kings will enslave Babylon. The verb shillam ('repay, recompense') carries the sense of completing a transaction, settling a debt. The principle of symmetrical justice — the oppressor experiencing what it inflicted — runs through the prophetic tradition (cf. Obadiah 15)."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "כִּ֣י כֹ֥ה אָמַ֛ר יְהוָ֥ה אֱלֹהֵֽי־יִשְׂרָאֵ֖ל אֵלָ֑י קַ֠ח אֶת־כּ֨וֹס הַיַּ֧יִן הַחֵמָ֛ה הַזֹּ֖את מִיָּדִ֑י וְהִשְׁקִיתָ֣ה אֹת֗וֹ אֶ֤ת כָּל־הַגּוֹיִם֙ אֲשֶׁ֨ר אָנֹכִ֜י שֹׁלֵ֤חַ אוֹתְךָ֙ אֲלֵיהֶ֔ם׃",
+      "text_kjv": "For thus saith the LORD God of Israel unto me; Take the wine cup of this fury at my hand, and cause all the nations, to whom I send thee, to drink it.",
+      "rendering": "For this is what the LORD, the God of Israel, said to me: Take this cup of the wine of wrath from my hand, and make all the nations to whom I send you drink from it.",
+      "translator_notes": ["The kos hayayin hachema ('cup of the wine of wrath') is a compound construct chain — literally 'cup-of wine-of wrath.' The image combines intoxication with divine fury: the nations will stagger and reel not from alcohol but from the overwhelming force of God's judgment. This cup-of-wrath image is foundational to the biblical tradition, echoed in Isaiah 51:17, Ezekiel 23:31-34, Habakkuk 2:16, and Revelation 14:10."],
+      "key_terms": [
+        {
+          "hebrew": "כּוֹס הַיַּיִן הַחֵמָה",
+          "transliteration": "kos hayayin hachema",
+          "rendered_as": "cup of the wine of wrath",
+          "semantic_range": "cup of wine of fury/wrath/rage",
+          "note": "A three-element construct chain creating one of the Bible's most powerful metaphors for divine judgment. The cup is God's; the wine is wrath; the drinking is compulsory."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְשָׁת֕וּ וְהִֽתְגֹּעֲשׁ֖וּ וְהִתְהֹלָ֑לוּ מִפְּנֵ֣י הַחֶ֔רֶב אֲשֶׁ֛ר אָנֹכִ֥י שֹׁלֵ֖חַ בֵּינֹתָֽם׃",
+      "text_kjv": "And they shall drink, and be moved, and be mad, because of the sword that I will send among them.",
+      "rendering": "They will drink and stagger and go mad because of the sword I am sending among them.",
+      "translator_notes": ["Three verbs describe the effect of the cup: shatu ('they will drink'), hitgo'ashu ('they will stagger/reel'), and hitholalu ('they will go mad'). The progression moves from drinking to physical disorientation to mental collapse. The sword (cherev) is the instrument — the cup is the metaphor for the experience of judgment; the sword is the literal reality behind it."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וָאֶקַּ֥ח אֶת־הַכּ֖וֹס מִיַּ֣ד יְהוָ֑ה וָאַשְׁקֶה֙ אֶת־כָּל־הַגּוֹיִ֔ם אֲשֶׁר־שְׁלָחַ֥נִי יְהוָ֖ה אֲלֵיהֶֽם׃",
+      "text_kjv": "Then I took the cup at the LORD's hand, and made all the nations to drink, unto whom the LORD had sent me:",
+      "rendering": "So I took the cup from the LORD's hand and made all the nations drink — all those to whom the LORD had sent me:",
+      "translator_notes": ["Jeremiah's compliance is immediate — no protest, no intercession. The prophetic act is described as if Jeremiah physically traveled to each nation with the cup, though this is visionary rather than literal. The verb va'ashqeh ('I made them drink') uses the causative stem — the nations do not drink voluntarily."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "אֶת־יְרוּשָׁלַ֙͏ִם֙ וְאֶת־עָרֵ֣י יְהוּדָ֔ה וְאֶת־מְלָכֶ֖יהָ וְאֶת־שָׂרֶ֑יהָ לָתֵ֨ת אֹתָ֜ם לְחָרְבָּ֧ה לְשַׁמָּ֛ה לִשְׁרֵקָ֥ה וְלִקְלָלָ֖ה כַּיּ֥וֹם הַזֶּֽה׃",
+      "text_kjv": "To wit, Jerusalem, and the cities of Judah, and the kings thereof, and the princes thereof, to make them a desolation, an astonishment, an hissing, and a curse; as it is this day;",
+      "rendering": "Jerusalem and the cities of Judah, its kings and its officials — to make them a ruin, a horror, an object of scorn, and a curse, as they are this day;",
+      "translator_notes": ["Jerusalem heads the list — judgment begins with God's own people (cf. 1 Peter 4:17). The four-fold curse formula — chorbah (ruin), shammah (horror), shreqah (scorn/hissing), qelalah (curse) — is a standard Jeremianic judgment formula. The phrase 'as they are this day' (ka-yom ha-zeh) indicates the prophecy is being recorded after the fall of Jerusalem, placing the editorial frame in the exilic or post-exilic period."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "אֶת־פַּרְעֹ֤ה מֶֽלֶךְ־מִצְרַ֙יִם֙ וְאֶת־עֲבָדָ֣יו וְאֶת־שָׂרָ֔יו וְאֶ֖ת כָּל־עַמּֽוֹ׃",
+      "text_kjv": "Pharaoh king of Egypt, and his servants, and his princes, and all his people;",
+      "rendering": "Pharaoh king of Egypt, his servants, his officials, and all his people;",
+      "translator_notes": ["Egypt is listed first among the foreign nations because it was Judah's traditional ally and the power Judah foolishly relied on instead of trusting God (cf. 2:18, 37:5-7). The comprehensiveness — servants, officials, all his people — indicates that no level of Egyptian society escapes judgment."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאֵ֖ת כָּל־הָעֶ֑רֶב וְאֵ֣ת ׀ כָּל־מַלְכֵ֣י אֶ֣רֶץ הָע֗וּץ וְאֵ֣ת כָּל־מַלְכֵ֞י אֶ֤רֶץ פְּלִשְׁתִּים֙ וְאֶת־אַשְׁקְל֤וֹן וְאֶת־עַזָּה֙ וְאֶת־עֶקְר֔וֹן וְאֵ֖ת שְׁאֵרִ֥ית אַשְׁדּֽוֹד׃",
+      "text_kjv": "And all the mingled people, and all the kings of the land of Uz, and all the kings of the land of the Philistines, and Ashkelon, and Azzah, and Ekron, and the remnant of Ashdod,",
+      "rendering": "all the mixed peoples; all the kings of the land of Uz; all the kings of the land of the Philistines — Ashkelon, Gaza, Ekron, and the remnant of Ashdod;",
+      "translator_notes": ["The ha'erev ('mixed peoples') likely refers to diverse populations living in frontier or border regions — possibly mercenary groups or mixed ethnic communities. The land of Uz is traditionally associated with the setting of Job (Job 1:1), located in the region east of Palestine. The four Philistine cities named here omit Gath, which had already been destroyed by the time of this oracle. The 'remnant of Ashdod' (she'erit Ashdod) suggests that Ashdod had already suffered significant destruction, possibly by the Assyrians in 711 BCE."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "אֶת־אֱד֥וֹם וְאֶת־מוֹאָ֖ב וְאֶת־בְּנֵ֥י עַמּֽוֹן׃",
+      "text_kjv": "Edom, and Moab, and the children of Ammon,",
+      "rendering": "Edom, Moab, and the Ammonites;",
+      "translator_notes": ["These three nations east and southeast of Judah were traditionally connected to Israel through ancestral kinship — Edom through Esau (Genesis 36), Moab and Ammon through Lot (Genesis 19:36-38). Their inclusion in the judgment is particularly pointed: not even blood relatives escape God's reckoning."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְאֵ֣ת כָּל־מַלְכֵ֥י צֹ֛ר וְאֵ֥ת כָּל־מַלְכֵ֖י צִיד֑וֹן וְאֵ֣ת מַלְכֵ֔י הָאִ֕י אֲשֶׁ֖ר בְּעֵ֥בֶר הַיָּֽם׃",
+      "text_kjv": "And all the kings of Tyrus, and all the kings of Zidon, and the kings of the isles which are beyond the sea,",
+      "rendering": "all the kings of Tyre, all the kings of Sidon, and the kings of the coastlands across the sea;",
+      "translator_notes": ["Tyre and Sidon were the great Phoenician maritime powers. The 'coastlands across the sea' (ha'i asher be'ever hayam) refers to the Mediterranean islands and coastal settlements — possibly Cyprus, Crete, and other Phoenician colonies. The scope of judgment is expanding outward from Jerusalem in concentric circles."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְאֶת־דְּדָ֥ן וְאֶת־תֵּימָ֖א וְאֶת־בּ֑וּז וְאֵ֖ת כָּל־קְצוּצֵ֥י פֵאָֽה׃",
+      "text_kjv": "Dedan, and Tema, and Buz, and all that are in the utmost corners,",
+      "rendering": "Dedan, Tema, Buz, and all who shave their temples;",
+      "translator_notes": ["Dedan, Tema, and Buz are Arabian tribes. The phrase qetsutsai fe'ah ('those who shave their temples') refers to a distinctive haircut practice of certain Arabian desert peoples — shaving or cropping the hair at the corners of the head. This practice is mentioned in 9:25 and 49:32 and was forbidden for Israelites (Leviticus 19:27)."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְאֵ֖ת כָּל־מַלְכֵ֣י עֲרָ֑ב וְאֵ֣ת ׀ כָּל־מַלְכֵ֣י הָעֶ֗רֶב הַשֹּֽׁכְנִ֖ים בַּמִּדְבָּֽר׃",
+      "text_kjv": "And all the kings of Arabia, and all the kings of the mingled people that dwell in the desert,",
+      "rendering": "all the kings of Arabia and all the kings of the mixed peoples who live in the desert;",
+      "translator_notes": ["The repetition of ha'erev ('mixed peoples,' cf. v. 20) alongside Arav ('Arabia') creates a wordplay — the similar-sounding words link the concept of ethnic mixing with the Arabian desert region. These are the semi-nomadic populations of the Arabian peninsula and the Syrian-Arabian desert."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְאֵ֣ת כָּל־מַלְכֵ֣י זִמְרִ֗י וְאֵ֣ת כָּל־מַלְכֵ֤י עֵילָם֙ וְאֵ֣ת כָּל־מַלְכֵ֖י מָדָֽי׃",
+      "text_kjv": "And all the kings of Zimri, and all the kings of Elam, and all the kings of the Medes;",
+      "rendering": "all the kings of Zimri, all the kings of Elam, and all the kings of Media;",
+      "translator_notes": ["Zimri is an otherwise unidentified kingdom, possibly in the Arabian or eastern region. Elam (modern southwestern Iran) and Media (modern northwestern Iran) represent the far eastern reaches of the known world. The inclusion of Media is significant — the Medes would later ally with Babylon under Cyrus to create the Persian Empire that would conquer Babylon itself."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְאֵ֣ת כָּל־מַלְכֵ֧י הַצָּפ֛וֹן הַקְּרֹבִ֥ים וְהָרְחֹקִ֖ים אִ֣ישׁ אֶל־אָחִ֑יו וְאֵ֗ת כָּל־הַמַּמְלְכ֤וֹת הָאָ֙רֶץ֙ אֲשֶׁ֣ר עַל־פְּנֵ֣י הָאֲדָמָ֔ה וּמֶ֥לֶךְ שֵׁשַׁ֖ךְ יִשְׁתֶּ֥ה אַחֲרֵיהֶֽם׃",
+      "text_kjv": "And all the kings of the north, far and near, one with another, and all the kingdoms of the world, which are upon the face of the earth: and the king of Sheshach shall drink after them.",
+      "rendering": "all the kings of the north, near and far, one after another; and all the kingdoms of the world on the face of the earth. And the king of Sheshach will drink after them all.",
+      "translator_notes": ["Sheshach (שֵׁשַׁךְ) is an atbash cipher for Babel (בָּבֶל). Atbash substitutes the first letter of the Hebrew alphabet for the last, the second for the second-to-last, and so on: shin (שׁ) replaces bet (ב), and kaph (ךְ) replaces lamed (ל). Babylon drinks last — the instrument of judgment becomes the final object of judgment. The coded name may reflect either literary artistry or political caution in naming the reigning superpower directly. The phrase 'all the kingdoms of the world on the face of the earth' makes the scope unmistakably universal."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְאָמַרְתָּ֣ אֲלֵיהֶ֗ם כֹּה־אָמַ֞ר יְהוָ֤ה צְבָאוֹת֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל שְׁת֧וּ וְשִׁכְר֛וּ וּקְי֖וּ וְנִפְל֑וּ וְלֹ֣א תָק֔וּמוּ מִפְּנֵ֣י הַחֶ֔רֶב אֲשֶׁ֛ר אָנֹכִ֥י שֹׁלֵ֖חַ בֵּינֵיכֶֽם׃",
+      "text_kjv": "Therefore thou shalt say unto them, Thus saith the LORD of hosts, the God of Israel; Drink ye, and be drunken, and spue, and fall, and rise no more, because of the sword which I will send among you.",
+      "rendering": "Say to them: This is what the LORD of Hosts, the God of Israel, says — Drink, get drunk, vomit, and fall down never to rise, because of the sword I am sending among you.",
+      "translator_notes": ["Four brutal imperatives — shetu ('drink'), shikru ('get drunk'), qi'u ('vomit'), niplu ('fall') — escalate from consumption to collapse. The physical effects of severe intoxication serve as a metaphor for the overwhelming nature of divine judgment. The command lo taqumu ('you will not rise') transforms the drinking metaphor into a death sentence — they will fall and never stand again."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְהָיָ֗ה כִּ֤י יְמָאֲנוּ֙ לָקַ֣חַת הַכּ֤וֹס מִיָּדְךָ֙ לִשְׁתּ֔וֹת וְאָמַרְתָּ֖ אֲלֵיהֶ֑ם כֹּ֥ה אָמַ֛ר יְהוָ֥ה צְבָא֖וֹת שָׁת֥וֹ תִשְׁתּֽוּ׃",
+      "text_kjv": "And it shall be, if they refuse to take the cup at thine hand to drink, then shalt thou say unto them, Thus saith the LORD of hosts; Ye shall certainly drink.",
+      "rendering": "If they refuse to take the cup from your hand and drink, say to them: This is what the LORD of Hosts says — You will certainly drink.",
+      "translator_notes": ["The emphatic infinitive absolute shato tishtu ('drinking, you will drink') removes any possibility of refusal. The nations cannot opt out of God's judgment. The absolute certainty expressed by the Hebrew construction leaves no room for negotiation — this is not an offer but a decree."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "כִּ֣י הִנֵּ֗ה בָּעִ֞יר אֲשֶׁ֨ר נִקְרָא־שְׁמִ֤י עָלֶ֙יהָ֙ אָנֹכִ֣י מֵחֵ֣ל לְהָרַ֔ע וְאַתֶּ֖ם הִנָּקֵ֣ה תִנָּק֑וּ לֹ֣א תִנָּק֔וּ כִּ֣י חֶ֗רֶב אֲנִ֤י קֹרֵא֙ עַל־כָּל־יֹשְׁבֵ֣י הָאָ֔רֶץ נְאֻ֖ם יְהוָ֥ה צְבָאֽוֹת׃",
+      "text_kjv": "For, lo, I begin to bring evil on the city which is called by my name, and should ye be utterly unpunished? Ye shall not be unpunished: for I will call for a sword upon all the inhabitants of the earth, saith the LORD of hosts.",
+      "rendering": "For look — I am beginning to bring disaster on the city that bears my name, and should you go entirely unpunished? You will not go unpunished, for I am summoning a sword against all the inhabitants of the earth, declares the LORD of Hosts.",
+      "translator_notes": ["The argument is from greater to lesser: if God punishes his own city — the one that 'bears his name' (niqra shemi aleha, lit. 'my name is called over it') — how much less will the nations escape? The phrase niqra shemi conveys ownership and patronage; Jerusalem belongs to God, and even belonging to God does not exempt it from judgment for covenant violation. The rhetorical question hinnaqeh tinnaqqu ('will you be completely acquitted?') expects a negative answer, reinforced by the emphatic lo tinnaqqu ('you will not be acquitted')."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְאַתָּה֙ תִּנָּבֵ֣א אֲלֵיהֶ֔ם אֵ֥ת כָּל־הַדְּבָרִ֖ים הָאֵ֑לֶּה וְאָמַרְתָּ֣ אֲלֵיהֶ֗ם יְהוָ֞ה מִמָּר֤וֹם יִשְׁאָג֙ וּמִמְּע֤וֹן קָדְשׁוֹ֙ יִתֵּ֣ן קוֹל֔וֹ שָׁאֹ֤ג יִשְׁאַג֙ עַל־נָוֵ֔הוּ הֵידָ֗ד כְּדֹרְכִ֣ים יַעֲנֶ֔ה אֶ֥ל כָּל־יֹשְׁבֵ֖י הָאָֽרֶץ׃",
+      "text_kjv": "Therefore prophesy thou against them all these words, and say unto them, The LORD shall roar from on high, and utter his voice from his holy habitation; he shall mightily roar upon his habitation; he shall give a shout, as they that tread the grapes, against all the inhabitants of the earth.",
+      "rendering": "You will prophesy all these words against them and say to them:\n\nThe LORD roars from on high;\nfrom his holy dwelling he thunders.\nHe roars fiercely against his fold;\nhe shouts like those who tread the grapes\nagainst all the inhabitants of the earth.",
+      "translator_notes": ["The text shifts from prose to poetry at this point. The verb sha'ag ('roar') is lion imagery — God is a roaring lion against the earth (cf. Amos 1:2, Hosea 11:10, Joel 3:16). The word naveh can mean both 'dwelling' and 'pasture/fold,' creating an ambiguity: God roars from his dwelling (heaven) against his fold (his people/the earth). The grape-treaders' shout (hedad) was a rhythmic cry used during harvest — here it becomes the war cry of divine judgment, turning the joyful harvest image into a scene of slaughter."],
+      "key_terms": [
+        {
+          "hebrew": "שָׁאַג",
+          "transliteration": "sha'ag",
+          "rendered_as": "roars",
+          "semantic_range": "to roar (of a lion), to thunder, to cry out",
+          "note": "Lion-roar imagery for God's voice in judgment. The same verb describes both a lion seizing prey and God announcing destruction."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "בָּ֣א שָׁא֗וֹן עַד־קְצֵ֤ה הָאָ֙רֶץ֙ כִּ֣י רִ֤יב לַֽיהוָה֙ בַּגּוֹיִ֔ם נִשְׁפָּ֥ט ה֖וּא לְכָל־בָּשָׂ֑ר הָרְשָׁעִ֛ים נְתָנָ֥ם לַחֶ֖רֶב נְאֻם־יְהוָֽה׃",
+      "text_kjv": "A noise shall come even to the ends of the earth; for the LORD hath a controversy with the nations, he will plead with all flesh; he will give them that are wicked to the sword, saith the LORD.",
+      "rendering": "The uproar reaches to the ends of the earth,\nfor the LORD has a case against the nations.\nHe enters judgment against all flesh;\nthe wicked he gives over to the sword,\ndeclares the LORD.",
+      "translator_notes": ["The word riv ('case, controversy, legal dispute') frames God's judgment as a lawsuit — a formal legal proceeding against the nations. This is the covenant lawsuit (riv) genre familiar from Micah 6:1-2 and Hosea 4:1. The verb nishpat ('enters judgment') reinforces the legal metaphor. God is both plaintiff and judge in this cosmic court."],
+      "key_terms": [
+        {
+          "hebrew": "רִיב",
+          "transliteration": "riv",
+          "rendered_as": "case",
+          "semantic_range": "dispute, controversy, lawsuit, legal case, quarrel",
+          "note": "The covenant lawsuit — God brings a formal legal charge against the nations for their conduct. This is not arbitrary violence but judicial action."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "כֹּ֤ה אָמַר֙ יְהוָ֣ה צְבָא֔וֹת הִנֵּ֥ה רָעָ֛ה יֹצֵ֥את מִגּ֖וֹי אֶל־גּ֑וֹי וּסְעָ֣ר גָּד֔וֹל יֵע֖וֹר מִיַּרְכְּתֵי־אָֽרֶץ׃",
+      "text_kjv": "Thus saith the LORD of hosts, Behold, evil shall go forth from nation to nation, and a great whirlwind shall be raised up from the coasts of the earth.",
+      "rendering": "This is what the LORD of Hosts says:\nDisaster is spreading from nation to nation;\na great storm is stirring from the farthest corners of the earth.",
+      "translator_notes": ["The word se'ar ('storm, tempest, whirlwind') depicts God's judgment as a massive weather event sweeping across the entire world. The phrase yarketei-arets ('farthest corners of the earth') indicates the storm comes from the remote edges of the known world — from where one cannot see what is coming until it arrives. The disaster is not localized but cascading — migoi el goi ('from nation to nation') — like a chain reaction."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְהָי֞וּ חַלְלֵ֣י יְהוָ֗ה בַּיּ֤וֹם הַהוּא֙ מִקְצֵ֤ה הָאָ֙רֶץ֙ וְעַד־קְצֵ֣ה הָאָ֔רֶץ לֹ֣א יִסָּפְד֔וּ וְלֹ֥א יֵאָסְפ֖וּ וְלֹ֣א יִקָּבֵ֑רוּ לְדֹ֛מֶן עַל־פְּנֵ֥י הָאֲדָמָ֖ה יִהְיֽוּ׃",
+      "text_kjv": "And the slain of the LORD shall be at that day from one end of the earth even unto the other end of the earth: they shall not be lamented, neither gathered, nor buried; they shall be dung upon the ground.",
+      "rendering": "The slain of the LORD on that day will stretch from one end of the earth to the other. They will not be mourned, they will not be gathered, they will not be buried — they will be like dung on the surface of the ground.",
+      "translator_notes": ["Chalelei YHWH ('the slain of the LORD') attributes the killing directly to God — these are not casualties of war but executions of divine judgment. The three negated verbs — lo yissafdu (not mourned), lo ye'asfu (not gathered), lo yiqqaveru (not buried) — deny the dead every dignity. Lack of burial was the ultimate horror in the ancient Near East; the body exposed as dung (domen) represents absolute debasement."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "הֵילִ֣ילוּ הָרֹעִ֗ים וְזַעֲקוּ֙ וְהִתְפַּלְּשׁ֔וּ אַדִּירֵ֖י הַצֹּ֑אן כִּי־מָלְא֤וּ יְמֵיכֶם֙ לִטְב֔וֹחַ וּתְפוֹצ֣וֹתֵיכֶ֔ם וּנְפַלְתֶּ֖ם כִּכְלִ֥י חֶמְדָּֽה׃",
+      "text_kjv": "Howl, ye shepherds, and cry; and wallow yourselves in the ashes, ye principal of the flock: for the days of your slaughter and of your dispersions are accomplished; and ye shall fall like a pleasant vessel.",
+      "rendering": "Wail, you shepherds, and cry out!\nRoll in the dust, you lords of the flock!\nFor your time for slaughter has come;\nyou will be shattered like a prized vessel.",
+      "translator_notes": ["The 'shepherds' (ro'im) are rulers and leaders, and the 'lords of the flock' (addirei hatson) are the elite among them. The verb hitpalleshu ('roll in the dust') describes extreme mourning — throwing oneself on the ground and rolling in ashes or dirt. The simile 'like a prized vessel' (kikheli chemdah) compares their destruction to the shattering of an expensive ceramic piece — beautiful, valuable, and irreparably broken. Some manuscripts read utfutsoteikhem ('your dispersions') while others read utfutsoteikhem as 'your scatterings' — both indicate the leaders will be scattered like fragments."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וְאָבַ֥ד מָנ֖וֹס מִן־הָרֹעִ֑ים וּפְלֵיטָ֖ה מֵאַדִּירֵ֥י הַצֹּֽאן׃",
+      "text_kjv": "And the shepherds shall have no way to flee, nor the principal of the flock to escape.",
+      "rendering": "There will be no escape for the shepherds,\nno way out for the lords of the flock.",
+      "translator_notes": ["The Hebrew expresses this as the 'perishing' (avad) of flight — escape itself has been destroyed. The parallel structure — manos (flight/refuge) for the shepherds, peleitah (escape) for the lords — reinforces the total closure of all exit routes for the ruling class."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "ק֥וֹל צַעֲקַ֖ת הָרֹעִ֑ים וִֽילְלַ֖ת אַדִּירֵ֣י הַצֹּ֑אן כִּֽי־שֹׁדֵ֥ד יְהוָ֖ה אֶת־מַרְעִיתָֽם׃",
+      "text_kjv": "A voice of the cry of the shepherds, and an howling of the principal of the flock, shall be heard: for the LORD hath spoiled their pasture.",
+      "rendering": "The sound of the shepherds' cry,\nthe wailing of the lords of the flock!\nFor the LORD is destroying their pasture.",
+      "translator_notes": ["The subject of the destruction is explicit — YHWH shoded ('the LORD destroys'). The word mar'it ('pasture') continues the shepherd-flock metaphor: the pasture is the kingdom, and God himself is laying waste to it. The reversal is complete: the shepherd God who 'makes me lie down in green pastures' (Psalm 23:2) is now the God who destroys the pasture."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְנָדַמּ֖וּ נְא֣וֹת הַשָּׁל֑וֹם מִפְּנֵ֖י חֲר֥וֹן אַף־יְהוָֽה׃",
+      "text_kjv": "And the peaceable habitations are cut down because of the fierce anger of the LORD.",
+      "rendering": "The peaceful meadows are silenced\nbecause of the burning anger of the LORD.",
+      "translator_notes": ["The phrase ne'ot hashalom ('meadows of peace/the peaceful meadows') uses shalom in its fullest sense — these are places of wholeness, flourishing, well-being, now silenced. The verb nadamu ('are silenced, are devastated') carries both meanings — literal silence (the sounds of life cease) and destruction (they are laid waste). The cause is charon af YHWH ('burning anger of the LORD') — the fierceness of God's fury."],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peaceful",
+          "semantic_range": "peace, wholeness, completeness, well-being, safety, flourishing",
+          "note": "Here shalom modifies the meadows themselves — these are places of total well-being and safety, now destroyed. The loss of shalom is the loss of everything functioning as God intended."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "עָזַ֥ב כַּכְּפִ֖יר סֻכּ֑וֹ כִּֽי־הָיְתָ֤ה אַרְצָם֙ לְשַׁמָּ֔ה מִפְּנֵי֙ חֲר֣וֹן הַיּוֹנָ֔ה וּמִפְּנֵ֖י חֲר֥וֹן אַפּֽוֹ׃",
+      "text_kjv": "He hath forsaken his covert, as the lion: for their land is desolate because of the fierceness of the oppressor, and because of his fierce anger.",
+      "rendering": "He has left his lair like a young lion,\nfor their land has become a desolation\nbecause of the raging sword\nand because of his burning anger.",
+      "translator_notes": ["The subject 'he' most likely refers to God, who has emerged from his dwelling like a young lion (kefir) leaving its thicket to hunt. The word hayonah is textually difficult — it may derive from yanah ('to oppress,' hence 'the oppressor/oppressing sword') or may be an unusual form related to cherev ('sword'). The Septuagint reads 'the sword' and many modern translations follow this. We render 'raging sword' to capture the sense of violent instrument while acknowledging the textual difficulty. The final phrase charon appo ('his burning anger') confirms that the devastation flows from God's wrath."],
+      "reading_level": "9th grade"
+    }
+  ]
+}

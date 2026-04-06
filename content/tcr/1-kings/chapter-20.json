@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Kings",
+    "chapter": 20,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ben-hadad king of Aram gathers thirty-two allied kings and besieges Samaria. He sends messengers demanding Ahab's silver, gold, wives, and children. Ahab initially agrees, but when Ben-hadad escalates to demanding the right to ransack the city, Ahab's elders advise refusal and war begins. An unnamed prophet tells Ahab that the LORD will give him victory, specifying that the young attendants of the provincial commanders will lead the charge. Ahab attacks at noon while Ben-hadad and his allied kings are drinking themselves drunk. The Arameans are routed. The prophet warns Ahab that Ben-hadad will return the following spring. Aram's advisors tell Ben-hadad that Israel's god is a god of the hills and must be fought on the plain; another prophet announces that the LORD will prove he is not merely a hill-god by giving victory on the plain as well. The Israelites camp across from the massive Aramean force like two small flocks of goats. In battle, Israel kills one hundred thousand foot soldiers in a single day. Ben-hadad flees to Aphek, where a wall collapses on twenty-seven thousand of his remaining troops. Ben-hadad surrenders with sackcloth and rope, and Ahab — instead of executing the cherem judgment — makes a treaty with him, calls him 'brother,' and lets him go. A prophet from the sons of the prophets, using a parable-ambush, confronts Ahab: because he released the man God devoted to destruction, Ahab's life will be forfeit for Ben-hadad's life, and his people for Ben-hadad's people.",
+    "remarkable": "The chapter contains two separate battles, two prophetic interventions, and a stunning prophetic judgment scene — all unified by the theological question of whether Ahab will treat military victory as divine gift or personal prerogative. The Aramean advisors' theology in verse 23 is remarkable: they analyze the LORD as a localized deity ('their gods are gods of the hills') and propose a tactical correction ('fight them in the plain'). God's response is not to ignore this theological error but to refute it militarily — the victory on the plain proves that the LORD is God of all terrain, not a regional spirit. The final prophetic judgment (verses 35-43) uses a brilliant literary device: the prophet is wounded and disguised, tells a parable that traps Ahab into pronouncing his own sentence (exactly as Nathan trapped David in 2 Samuel 12:1-7), then reveals the application. Ahab's treaty with Ben-hadad — calling him 'my brother' and letting him ride in his chariot — directly violates the principle of cherem, the total devotion to destruction of what God has marked for judgment.",
+    "friction": "The identity of the prophets in this chapter is debated. They are not Elijah — the text introduces them anonymously as navi echad ('a certain prophet') and ish echad mi-benei ha-nevi'im ('a man from the sons of the prophets'). Some traditions identify the unnamed prophet as Micaiah (who appears in chapter 22), but this is speculative. The number of casualties — 100,000 in battle and 27,000 killed by a falling wall — may be understood as round numbers or may reflect ancient Near Eastern military rhetoric; the Hebrew word elef can sometimes mean 'unit' or 'clan' rather than literally 'thousand.' The speed of events — two major battles with prophetic consultations in between — compresses what was likely a longer military campaign into a tight narrative sequence. Ben-hadad's survival and treaty-making anticipates the political alliance that will feature in chapter 22.",
+    "connections": "The cherem-violation pattern connects directly to 1 Samuel 15, where Saul spared Agag king of Amalek and was rejected from kingship for it. Ahab's sparing of Ben-hadad is the same offense: releasing what God devoted to destruction. The prophetic judgment formula — nafshekha tachat nafsho ('your life in place of his life') — establishes a substitutionary principle that will play out in Ahab's death at Ramoth-gilead (chapter 22). The Aramean claim that Israel's god is a 'god of the hills' engages the broader theological polemic of the Hebrew Bible against divine localization — the LORD is not bound to any geography, temple, or terrain. The sons-of-the-prophets community (benei ha-nevi'im) appears here for the first time in Kings and will become important in the Elisha narratives."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וּבֶן־הֲדַד֙ מֶ֣לֶךְ אֲרָ֔ם קָבַ֖ץ אֶת־כׇּל־חֵיל֑וֹ וּשְׁלֹשִׁ֨ים וּשְׁנַ֥יִם מֶ֙לֶךְ֙ אִתּ֔וֹ וְס֖וּס וָרָ֑כֶב וַיַּ֗עַל וַיָּ֙צַר֙ עַל־שֹׁ֣מְר֔וֹן וַיִּלָּ֖חֶם בָּֽהּ׃",
+      "text_kjv": "And Benhadad the king of Syria gathered all his host together: and there were thirty and two kings with him, and horses, and chariots: and he went up and besieged Samaria, and warred against it.",
+      "rendering": "Ben-hadad king of Aram gathered his entire army — thirty-two kings were with him, along with horses and chariots. He marched up, besieged Samaria, and made war against it.",
+      "translator_notes": [
+        "Ben-hadad (Ben-Hadad, 'son of Hadad') bears a name invoking the Aramean storm god Hadad — another Baal figure. The thirty-two kings (melakhim) were vassal rulers of smaller city-states in the Aramean coalition. The combination of sus va-rekhev ('horses and chariots') represents the dominant military technology of the era. Samaria (Shomeron), Ahab's capital city, is under direct siege."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיִּשְׁלַ֧ח מַלְאָכִ֛ים אֶל־אַחְאָ֥ב מֶלֶךְ־יִשְׂרָאֵ֖ל הָעִ֑ירָה וַיֹּ֣אמֶר ל֔וֹ כֹּ֖ה אָמַ֥ר בֶּן־הֲדָֽד׃",
+      "text_kjv": "And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Benhadad,",
+      "rendering": "He sent messengers to Ahab king of Israel in the city, saying, \"This is what Ben-hadad says:",
+      "translator_notes": [
+        "The messenger formula koh amar Ben-Hadad ('thus says Ben-hadad') deliberately mimics the prophetic formula koh amar YHWH ('thus says the LORD'). Ben-hadad speaks as if he carries divine authority — a pretension the chapter will dismantle."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "כַּסְפְּךָ֥ וּזְהָבְךָ֖ לִי־ה֑וּא וְנָשֶׁ֧יךָ וּבָנֶ֛יךָ הַטּוֹבִ֖ים לִי־הֵֽם׃",
+      "text_kjv": "Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine.",
+      "rendering": "Your silver and your gold are mine. Your wives and your best children are mine.\"",
+      "translator_notes": [
+        "Ben-hadad's demand is total: kaspekha u-zhavekha li hu ('your silver and gold — it is mine'), nashekha u-vanekha ha-tovim li hem ('your wives and your best children — they are mine'). The adjective ha-tovim ('the best, the finest') specifies that he wants the choicest children — likely the heirs. This is not merely tribute but a claim of ownership over the royal household."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיַּ֤עַן מֶלֶךְ־יִשְׂרָאֵל֙ וַיֹּ֔אמֶר כִּדְבָרְךָ֖ אֲדֹנִ֣י הַמֶּ֑לֶךְ לְךָ֥ אֲנִ֖י וְכׇל־אֲשֶׁר־לִֽי׃",
+      "text_kjv": "And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have.",
+      "rendering": "The king of Israel answered, \"As you say, my lord the king — I am yours, and everything I have.\"",
+      "translator_notes": [
+        "Ahab's capitulation is immediate and abject: lekha ani ve-khol asher li ('yours am I, and everything that is mine'). He addresses Ben-hadad as adoni ha-melekh ('my lord, the king'), accepting vassal status. This initial submission makes his later refusal (verse 9) more surprising."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיָּשֻׁ֙בוּ֙ הַמַּלְאָכִ֔ים וַיֹּ֣אמְר֔וּ כֹּֽה־אָמַ֥ר בֶּן־הֲדַ֖ד לֵאמֹ֑ר כִּ֣י שָׁלַ֤חְתִּי אֵלֶ֙יךָ֙ לֵאמֹ֔ר כַּסְפְּךָ֤ וּזְהָבְךָ֙ וְנָשֶׁ֣יךָ וּבָנֶ֔יךָ לִ֖י תִתֵּֽן׃",
+      "text_kjv": "And the messengers came again, and said, Thus speaketh Benhadad, saying, Although I have sent unto thee, saying, Thou shalt deliver me thy silver, and thy gold, and thy wives, and thy children;",
+      "rendering": "The messengers returned and said, \"This is what Ben-hadad says: 'I sent to you saying that you must hand over your silver, gold, wives, and children to me.",
+      "translator_notes": [
+        "Ben-hadad escalates. The repetition of his initial demand is a preamble to an additional demand in verse 6. Having received total submission, he raises the stakes."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "כִּ֣י ׀ אִם־כָּעֵ֣ת מָחָ֗ר אֶשְׁלַ֤ח אֶת־עֲבָדַי֙ אֵלֶ֔יךָ וְחִפְּשׂ֥וּ אֶת־בֵּיתְךָ֖ וְאֵ֣ת בָּתֵּ֣י עֲבָדֶ֑יךָ וְהָיָ֗ה כׇּל־מַחְמַ֥ד עֵינֶ֛יךָ יָשִׂ֥ימוּ בְיָדָ֖ם וְלָקָֽחוּ׃",
+      "text_kjv": "Yet I will send my servants unto thee to morrow about this time, and they shall search thine house, and the houses of thy servants; and it shall be, that whatsoever is pleasant in thine eyes, they shall put it in their hand, and take it away.",
+      "rendering": "But tomorrow at about this time I will send my servants to you. They will search your house and the houses of your officials, and whatever is desirable in your eyes, they will take it away.'\"",
+      "translator_notes": [
+        "The escalation is from tribute (handing over specified items) to ransacking (sending agents to search and seize whatever they want). The phrase kol machmad einekha ('whatever is the desire of your eyes') grants unlimited plundering rights. This crosses the line from submission to humiliation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיִּקְרָ֤א מֶלֶךְ־יִשְׂרָאֵל֙ לְכׇל־זִקְנֵ֣י הָאָ֔רֶץ וַיֹּ֗אמֶר דְּעֽוּ־נָ֤א וּרְאוּ֙ כִּ֥י רָעָ֖ה זֶ֣ה מְבַקֵּ֑שׁ כִּֽי־שָׁלַ֣ח אֵלַ֗י לְ֠נָשַׁ֠י וּלְבָנַ֤י וּלְכַסְפִּי֙ וְלִזְהָבִ֔י וְלֹ֥א מָנַ֖עְתִּי מִמֶּֽנּוּ׃",
+      "text_kjv": "Then the king of Israel called all the elders of the land, and said, Mark, I pray you, and see how this man seeketh mischief: for he sent unto me for my wives, and for my children, and for my silver, and for my gold; and I denied him not.",
+      "rendering": "The king of Israel summoned all the elders of the land and said, \"Take note — see that this man is seeking trouble! He sent for my wives, my children, my silver, and my gold, and I did not refuse him.\"",
+      "translator_notes": [
+        "Ahab consults the elders (ziqnei ha-arets), showing that the decision to resist is collective, not merely royal. His complaint — ki ra'ah zeh mevaqesh ('this one is seeking evil/trouble') — frames Ben-hadad's escalation as the provocative act, not his own initial capitulation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֹּ֤אמְרוּ אֵלָיו֙ כׇּל־הַזְּקֵנִ֔ים וְכׇל־הָעָ֖ם אַל־תִּשְׁמַ֥ע וְלֹ֖א תֹאבֶֽה׃",
+      "text_kjv": "And all the elders and all the people said unto him, Hearken not unto him, nor consent.",
+      "rendering": "All the elders and all the people said to him, \"Do not listen. Do not agree.\"",
+      "translator_notes": [
+        "The advice is terse and unanimous: al tishma ve-lo toveh ('do not hear and do not consent'). The verb toveh ('to be willing, to agree') is a strong refusal — not just 'don't listen' but 'don't yield.'"
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֹּ֜אמֶר לְמַלְאֲכֵ֣י בֶן־הֲדַ֗ד אִמְר֞וּ לַאדֹנִ֣י הַמֶּ֗לֶךְ כֹּ֣ל אֲשֶׁר־שָׁלַ֤חְתָּ אֶל־עַבְדְּךָ֙ בָּרִאשֹׁנָ֣ה אֶעֱשֶׂ֔ה וְהַדָּבָ֥ר הַזֶּ֖ה לֹ֣א אוּכַ֣ל לַעֲשׂ֑וֹת וַיֵּלְכוּ֙ הַמַּלְאָכִ֔ים וַיְשִׁבֻ֖הוּ דָּבָֽר׃",
+      "text_kjv": "And he said unto the messengers of Benhadad, Tell my lord the king, All that thou didst send for to thy servant at the first I will do: but this thing I may not do. And the messengers departed, and brought him word again.",
+      "rendering": "He told Ben-hadad's messengers, \"Tell my lord the king: everything you demanded of your servant the first time, I will do. But this — I cannot do.\" The messengers left and brought back the answer.",
+      "translator_notes": [
+        "Ahab draws a line: the initial tribute he will pay, but the right to ransack he refuses. The phrase ha-davar ha-zeh lo ukhal la'asot ('this thing I cannot do') is firm but still uses the language of a subordinate (avdekha, 'your servant')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיִּשְׁלַ֤ח אֵלָיו֙ בֶּן־הֲדַ֔ד וַיֹּ֕אמֶר כֹּ֧ה יַעֲשׂ֣וּן לִ֛י אֱלֹהִ֖ים וְכֹ֣ה יוֹסִפ֑וּ אִם־יִשְׂפֹּ֤ק עֲפַר֙ שֹׁמְר֔וֹן לִשְׁעָלִ֕ים לְכׇל־הָעָ֖ם אֲשֶׁ֥ר בְּרַגְלָֽי׃",
+      "text_kjv": "And Benhadad sent unto him, and said, The gods do so unto me, and more also, if the dust of Samaria shall suffice for handfuls for all the people that follow me.",
+      "rendering": "Ben-hadad sent to him and said, \"May the gods do this to me and more — if the dust of Samaria will be enough to fill the fists of all the soldiers who follow me!\"",
+      "translator_notes": [
+        "Ben-hadad's boast is vivid: he claims to have so many soldiers that if each one grabbed a handful of dust from Samaria's ruins, there would not be enough dust to go around. The word she'alim ('handfuls, fistfuls') measures the completeness of the threatened destruction. The oath formula koh ya'asun li elohim ('may the gods do thus to me') mirrors Jezebel's in 19:2."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיַּ֤עַן מֶלֶךְ־יִשְׂרָאֵל֙ וַיֹּ֔אמֶר דַּבְּר֕וּ אַל־יִתְהַלֵּ֥ל חֹגֵ֖ר כִּמְפַתֵּֽחַ׃",
+      "text_kjv": "And the king of Israel answered and said, Tell him, Let not him that girdeth on his harness boast himself as he that putteth it off.",
+      "rendering": "The king of Israel replied, \"Tell him: the one who straps on his armor should not boast like the one who takes it off.\"",
+      "translator_notes": [
+        "Ahab's proverb — al yithallel choger kim'fatteach ('let not the one who belts on boast like the one who unbuckles') — is a military proverb: do not celebrate before the battle is won. The verbs choger ('belting on, strapping on') and mefatte'ach ('unbuckling, loosening') refer to armor. The proverb is sharp and memorable — one of Ahab's rare moments of verbal brilliance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיְהִ֗י כִּשְׁמֹ֙עַ֙ אֶת־הַדָּבָ֣ר הַזֶּ֔ה וְה֥וּא שֹׁתֶ֛ה ה֥וּא וְהַמְּלָכִ֖ים בַּסֻּכּ֑וֹת וַיֹּ֤אמֶר אֶל־עֲבָדָיו֙ שִׂ֔ימוּ וַיָּשִׂ֖ימוּ עַל־הָעִֽיר׃",
+      "text_kjv": "And it came to pass, when Benhadad heard this message, as he was drinking, he and the kings in the pavilions, that he said unto his servants, Set yourselves in array. And they set themselves in array against the city.",
+      "rendering": "When he heard this answer — he was drinking with the kings in the field shelters — he said to his servants, \"Take your positions!\" And they took positions against the city.",
+      "translator_notes": [
+        "The detail ve-hu shoteh ('and he was drinking') introduces a theme of drunkenness that will prove militarily fatal. The sukkot ('shelters, booths') are temporary field camps. Ben-hadad issues the attack order while drunk — the verb simu ('set up, take positions') launches the siege in earnest."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְהִנֵּ֣ה נָבִ֣יא אֶחָ֗ד נִגַּשׁ֮ אֶל־אַחְאָ֣ב מֶלֶךְ־יִשְׂרָאֵל֒ וַיֹּ֗אמֶר כֹּ֚ה אָמַ֣ר יְהוָ֔ה הַ֣רָאִ֔יתָ אֵ֛ת כׇּל־הֶהָמ֥וֹן הַגָּד֖וֹל הַזֶּ֑ה הִנְנִ֨י נֹתְנ֤וֹ בְיָדְךָ֙ הַיּ֔וֹם וְיָדַעְתָּ֖ כִּי־אֲנִ֥י יְהוָֽה׃",
+      "text_kjv": "And, behold, there came a prophet unto Ahab king of Israel, saying, Thus saith the LORD, Hast thou seen all this great multitude? behold, I will deliver it into thine hand this day; and thou shalt know that I am the LORD.",
+      "rendering": "Then a prophet approached Ahab king of Israel and said, \"This is what the LORD says: Do you see this entire massive army? I am giving it into your hand today, and you will know that I am the LORD.\"",
+      "translator_notes": [
+        "The prophet is anonymous — navi echad ('a certain prophet'). The divine message has two parts: a promise of victory (hineni notno be-yadekha, 'I am giving it into your hand') and a purpose statement (ve-yada'ta ki ani YHWH, 'and you will know that I am the LORD'). The recognition formula 'you will know that I am the LORD' is characteristic of Exodus and Ezekiel — it frames military victory as theological education."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָבִיא",
+          "transliteration": "navi",
+          "rendered_as": "prophet",
+          "semantic_range": "prophet, spokesperson, one called to speak, proclaimer",
+          "note": "This unnamed navi intervenes at the point of crisis with a divine oracle. The anonymity is significant — the message matters more than the messenger. God continues to send prophets to Ahab despite his covenant violations."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֹּ֤אמֶר אַחְאָב֙ בְּמִ֔י וַיֹּ֗אמֶר כֹּ֤ה אָמַר֙ יְהוָ֔ה בְּנַעֲרֵ֖י שָׂרֵ֣י הַמְּדִינ֑וֹת וַיֹּ֕אמֶר מִי־יֶאֱסֹ֥ר הַמִּלְחָמָ֖ה וַיֹּ֥אמֶר אָֽתָּה׃",
+      "text_kjv": "And Ahab said, By whom? And he said, Thus saith the LORD, Even by the young men of the princes of the provinces. Then he said, Who shall order the battle? And he answered, Thou.",
+      "rendering": "Ahab asked, \"By whom?\" He said, \"This is what the LORD says: by the young attendants of the provincial commanders.\" Ahab asked, \"Who will begin the battle?\" He said, \"You.\"",
+      "translator_notes": [
+        "The instrument of victory is surprising: na'arei sarei ha-medinot ('the young attendants of the provincial commanders') — not the elite troops but the junior staff. This ensures the victory is clearly attributed to God, not to military superiority. Ahab himself must lead the charge (attah, 'you')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיִּפְקֹ֗ד אֶת־נַעֲרֵי֙ שָׂרֵ֣י הַמְּדִינ֔וֹת וַיִּהְי֕וּ מָאתַ֖יִם שְׁנַ֣יִם וּשְׁלֹשִׁ֑ים וְאַחֲרֵיהֶ֗ם פָּקַד֙ אֶת־כׇּל־הָעָ֔ם כׇּל־בְּנֵ֣י יִשְׂרָאֵ֔ל שִׁבְעַ֖ת אֲלָפִֽים׃",
+      "text_kjv": "Then he numbered the young men of the princes of the provinces, and they were two hundred and thirty two: and after them he numbered all the people, even all the children of Israel, being seven thousand.",
+      "rendering": "He mustered the young attendants of the provincial commanders — they numbered two hundred and thirty-two. After them he mustered all the fighting men, all the Israelites — seven thousand.",
+      "translator_notes": [
+        "The numbers underscore the mismatch: 232 young attendants plus 7,000 troops against an army so large it would exhaust Samaria's dust. The number seven thousand (shiv'at alafim) may echo the seven thousand faithful who had not bowed to Baal (19:18), though the text does not make this connection explicit."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיֵּצְא֖וּ בַּצָּהֳרָ֑יִם וּבֶן־הֲדַ֤ד שֹׁתֶה֙ שִׁכּ֔וֹר בַּסֻּכּ֕וֹת ה֣וּא וְהַמְּלָכִ֗ים שְׁלֹשִׁ֧ים וּשְׁנַ֛יִם מֶ֖לֶךְ עֹזֵ֥ר אֹתֽוֹ׃",
+      "text_kjv": "And they went out at noon. But Benhadad was drinking himself drunk in the pavilions, he and the kings, the thirty and two kings that helped him.",
+      "rendering": "They went out at noon. Ben-hadad was drinking himself drunk in the field shelters — he and the thirty-two kings allied with him.",
+      "translator_notes": [
+        "The timing is devastating: the attack comes ba-tsohorayim ('at noon') while Ben-hadad shoteh shikkor ('was drinking, drunk'). The participle shoteh with the adjective shikkor emphasizes ongoing, active drunkenness. The thirty-two allied kings are all drinking with him. Military leadership has collapsed into a drinking party."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיֵּ֨צְא֔וּ נַעֲרֵ֥י שָׂרֵ֛י הַמְּדִינ֖וֹת בָּרִאשֹׁנָ֑ה וַיִּשְׁלַ֣ח בֶּן־הֲדַ֗ד וַיַּגִּ֤ידוּ לוֹ֙ לֵאמֹ֔ר אֲנָשִׁ֥ים יָצְא֖וּ מִשֹּׁמְרֽוֹן׃",
+      "text_kjv": "And the young men of the princes of the provinces went out first; and Benhadad sent out, and they told him, saying, There are men come out of Samaria.",
+      "rendering": "The young attendants of the provincial commanders went out first. Ben-hadad sent scouts, and they reported to him, \"Men have come out from Samaria.\"",
+      "translator_notes": [
+        "The young attendants lead the charge as prophesied. The scouts' report is bare — anashim yats'u mi-Shomeron ('men have come out from Samaria') — giving no indication of the divine power behind the advance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיֹּ֗אמֶר אִם־לְשָׁל֤וֹם יָצָ֙אוּ֙ תִּפְשׂ֣וּם חַיִּ֔ים וְאִם־לְמִלְחָמָ֖ה יָצָ֑אוּ חַיִּ֖ים תִּפְשֽׂוּם׃",
+      "text_kjv": "And he said, Whether they be come out for peace, take them alive; or whether they be come out for war, take them alive.",
+      "rendering": "He said, \"Whether they have come out for peace or for war — take them alive.\"",
+      "translator_notes": [
+        "Ben-hadad's order reveals his overconfidence: regardless of the Israelites' purpose, they should be captured alive (chayyim tifsum, 'seize them alive'). He does not consider the possibility that they could pose a real threat. The drunken commander issues a standing order that assumes total superiority."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, completeness, well-being, welfare, safety",
+          "note": "Ben-hadad uses shalom as a diplomatic term — 'if they come for peace negotiations.' The irony is that there will be no shalom for the Aramean army."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְאֵ֗לֶּה יָצְאוּ֙ מִן־הָעִ֔יר נַעֲרֵ֖י שָׂרֵ֣י הַמְּדִינ֑וֹת וְהַחַ֖יִל אֲשֶׁ֥ר אַחֲרֵיהֶֽם׃",
+      "text_kjv": "So these young men of the princes of the provinces came out of the city, and the army which followed them.",
+      "rendering": "These went out from the city — the young attendants of the provincial commanders, with the army behind them.",
+      "translator_notes": [
+        "The two-wave structure: the 232 young attendants first, then the main force of 7,000. The formation emphasizes that the young men are the spearhead."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיַּכּ֖וּ אִ֣ישׁ אִישׁ֑וֹ וַיָּנֻ֣סוּ אֲרָ֗ם וַיִּרְדְּפֵ֤ם יִשְׂרָאֵל֙ וַיִּמָּלֵ֞ט בֶּן־הֲדַ֤ד מֶלֶךְ־אֲרָם֙ עַל־ס֣וּס וּפָרָשִׁ֔ים׃",
+      "text_kjv": "And they slew every one his man: and the Syrians fled; and Israel pursued them: and Benhadad the king of Syria escaped on an horse with the horsemen.",
+      "rendering": "Each struck his man. The Arameans fled, and Israel pursued them. Ben-hadad king of Aram escaped on a horse with his cavalry.",
+      "translator_notes": [
+        "The phrase va-yakku ish isho ('each struck his man') describes the opening of the rout — each Israelite soldier engaged and defeated his counterpart. The Aramean army collapses and flees. Ben-hadad escapes on horseback, foreshadowing his return in the second campaign."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיֵּצֵ֤א מֶלֶךְ־יִשְׂרָאֵל֙ וַיַּ֣ךְ אֶת־הַסּ֔וּס וְאֶת־הָרֶ֑כֶב וְהִכָּ֥ה בַאֲרָ֖ם מַכָּ֥ה גְדוֹלָֽה׃",
+      "text_kjv": "And the king of Israel went out, and smote the horses and chariots, and slew the Syrians with a great slaughter.",
+      "rendering": "The king of Israel went out and struck down the horses and chariots, and inflicted a devastating defeat on the Arameans.",
+      "translator_notes": [
+        "The destruction of the sus ve-rekhev ('horses and chariots') eliminates Aram's military advantage. The phrase makkah gedolah ('a great strike, a devastating defeat') summarizes the battle outcome."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיִּגַּ֨שׁ הַנָּבִ֜יא אֶל־מֶ֣לֶךְ יִשְׂרָאֵ֗ל וַיֹּ֤אמֶר לוֹ֙ לֵ֣ךְ הִתְחַזַּ֔ק וְדַ֥ע וּרְאֵ֖ה אֵ֣ת אֲשֶׁר־תַּעֲשֶׂ֑ה כִּ֗י לִתְשׁוּבַ֤ת הַשָּׁנָה֙ מֶ֣לֶךְ אֲרָ֔ם עֹלֶ֖ה עָלֶֽיךָ׃",
+      "text_kjv": "And the prophet came to the king of Israel, and said unto him, Go, strengthen thyself, and mark, and see what thou doest: for at the return of the year the king of Syria shall come up against thee.",
+      "rendering": "The prophet approached the king of Israel and said, \"Go, strengthen yourself. Understand and consider what you must do, because at the turn of the year the king of Aram will come up against you.\"",
+      "translator_notes": [
+        "The prophet warns that victory is not final: li-tshuvat ha-shanah ('at the return of the year') — meaning the following spring, the traditional campaign season. The command hitchazzaq ('strengthen yourself') is both military (prepare your defenses) and spiritual (rely on the LORD who gave this victory)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְעַבְדֵ֨י מֶלֶךְ־אֲרָ֜ם אָמְר֣וּ אֵלָ֗יו אֱלֹהֵ֤י הָרִים֙ אֱלֹ֣הֵיהֶ֔ם עַל־כֵּ֥ן חָזְק֖וּ מִמֶּ֑נּוּ וְאוּלָ֗ם נִלָּחֵ֧ם אִתָּ֛ם בַּמִּישׁ֖וֹר אִם־לֹ֥א נֶחֱזַ֖ק מֵהֶֽם׃",
+      "text_kjv": "And the servants of the king of Syria said unto him, Their gods are gods of the hills; therefore they were stronger than we; but let us fight against them in the plain, and surely we shall be stronger than they.",
+      "rendering": "The servants of the king of Aram said to him, \"Their gods are gods of the hills — that is why they overpowered us. But if we fight them on the plain, surely we will overpower them.\"",
+      "translator_notes": [
+        "The Aramean advisors offer a theological analysis: elohei harim eloheihem ('gods of the hills are their gods'). This reflects the common ancient Near Eastern assumption that deities were localized — each god ruled a specific domain. The tactical conclusion is logical within their framework: fight on the mishor ('plain, level ground') to remove Israel's god's home advantage. This theology will be directly refuted by God in verse 28."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְאֶת־הַדָּבָ֥ר הַזֶּ֖ה עֲשֵׂ֑ה הָסֵ֤ר הַמְּלָכִים֙ אִ֣ישׁ מִמְּקֹמ֔וֹ וְשִׂ֥ים פַּח֖וֹת תַּחְתֵּיהֶֽם׃",
+      "text_kjv": "And do this thing, Take the kings away, every man out of his place, and put captains in their rooms:",
+      "rendering": "\"And do this: remove the kings from their commands, each one, and put governors in their place.",
+      "translator_notes": [
+        "The military reform replaces the thirty-two vassal kings with pachot ('governors, professional military commanders'). The advisors recognize that the coalition of drinking kings was a liability — professional officers will fight more effectively than aristocratic allies."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְאַתָּ֣ה תִמְנֶה־לְּךָ֗ חַ֚יִל כַּחַ֤יִל הַנֹּפֵל֙ מֵאוֹתָ֔ךְ וְס֣וּס כַּסּ֔וּס וְרֶ֖כֶב כָּרֶ֑כֶב וְנִלָּחֲמָ֤ה אוֹתָם֙ בַּמִּישׁ֔וֹר אִם־לֹ֥א נֶחֱזַ֖ק מֵהֶ֑ם וַיִּשְׁמַ֥ע לְקֹלָ֖ם וַיַּ֥עַשׂ כֵּֽן׃",
+      "text_kjv": "And number thee an army, like the army that thou hast lost, horse for horse, and chariot for chariot: and we will fight against them in the plain, and surely we shall be stronger than they. And he hearkened unto their voice, and did so.",
+      "rendering": "Rebuild an army equal to the army you lost — horse for horse, chariot for chariot. Then we will fight them on the plain, and we will surely overpower them.\" He listened to their advice and did so.",
+      "translator_notes": [
+        "The phrase chayil ka-chayil ('army like the army'), sus ka-sus ('horse like horse'), rekhev ka-rekhev ('chariot like chariot') describes exact replacement — a one-to-one rebuilding of military capacity. Ben-hadad follows the advice completely."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיְהִ֖י לִתְשׁוּבַ֣ת הַשָּׁנָ֑ה וַיִּפְקֹ֣ד בֶּן־הֲדַ֗ד אֶת־אֲרָ֔ם וַיַּ֖עַל אֲפֵ֥קָה לַמִּלְחָמָ֖ה עִם־יִשְׂרָאֵֽל׃",
+      "text_kjv": "And it came to pass at the return of the year, that Benhadad numbered the Syrians, and went up to Aphek, to fight against Israel.",
+      "rendering": "At the turn of the year, Ben-hadad mustered the Arameans and marched up to Aphek to fight against Israel.",
+      "translator_notes": [
+        "Aphek (Afeqah) is on the plain east of the Sea of Galilee — the battle location has been chosen to match the theological strategy of verse 23: fight Israel's 'hill god' on flat ground. The verb paqad ('he mustered') indicates a full military call-up."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וּבְנֵ֣י יִשְׂרָאֵ֗ל הׇתְפָּקְדוּ֙ וְכׇ֣לְכְּל֔וּ וַיֵּלְכ֖וּ לִקְרָאתָ֑ם וַיַּחֲנ֨וּ בְנֵי־יִשְׂרָאֵ֤ל נֶגְדָּם֙ כִּשְׁנֵ֣י חַשְׂפֵ֣י עִזִּ֔ים וַאֲרָ֖ם מָלְא֥וּ אֶת־הָאָֽרֶץ׃",
+      "text_kjv": "And the children of Israel were numbered, and were all present, and went against them: and the children of Israel pitched before them like two little flocks of kids; but the Syrians filled the country.",
+      "rendering": "The Israelites were mustered and provisioned, and marched out to meet them. The Israelites camped opposite them like two small flocks of goats, while the Arameans filled the land.",
+      "translator_notes": [
+        "The contrast is deliberately comic in its extremity: Israel looks like ki-shnei chasfei izzim ('like two little flocks of goats') while Aram mal'u et ha-arets ('filled the land'). The word chasfei ('small flocks, exposed groups') emphasizes vulnerability — goats are small, unimpressive, defenseless. The visual disparity sets up the theological point: numbers are irrelevant when God fights."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיִּגַּ֣שׁ אִ֣ישׁ הָאֱלֹהִ֗ים וַיֹּ֙אמֶר֙ אֶל־מֶ֣לֶךְ יִשְׂרָאֵ֔ל כֹּ֖ה אָמַ֣ר יְהוָ֑ה יַ֗עַן אֲשֶׁ֤ר אָמְרוּ֙ אֲרָ֔ם אֱלֹהֵ֤י הָרִים֙ יְהוָ֔ה וְלֹֽא־אֱלֹהֵ֥י עֲמָקִ֖ים ה֑וּא וְנָתַתִּ֗י אֶת־כׇּל־הֶהָמ֤וֹן הַגָּדוֹל֙ הַזֶּ֔ה בְּיָדֶ֔ךָ וִידַעְתֶּ֖ם כִּי־אֲנִ֥י יְהוָֽה׃",
+      "text_kjv": "And there came a man of God, and spake unto the king of Israel, and said, Thus saith the LORD, Because the Syrians have said, The LORD is God of the hills, but he is not God of the valleys; therefore will I deliver all this great multitude into thine hand, and ye shall know that I am the LORD.",
+      "rendering": "The man of God approached and said to the king of Israel, \"This is what the LORD says: Because the Arameans have said, 'The LORD is a god of the hills and not a god of the valleys' — I will give this entire massive army into your hand, and you will know that I am the LORD.\"",
+      "translator_notes": [
+        "God takes the Aramean insult personally: ya'an asher amru Aram ('because Aram said'). The theological error — that the LORD is localized to hills — becomes the cause of Aram's destruction. The phrase ve-lo elohei amaqim hu ('and not a god of the valleys') is the specific claim God will refute by granting victory on the plain. The recognition formula vi-da'tem ki ani YHWH ('and you [plural] will know that I am the LORD') extends beyond Ahab to all Israel."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיַּחֲנ֨וּ אֵ֜לֶּה נֹ֣כַח אֵ֗לֶּה שִׁבְעַ֣ת יָמִ֔ים וַיְהִ֣י ׀ בַּיּ֣וֹם הַשְּׁבִיעִ֗י וַתִּקְרַב֙ הַמִּלְחָמָ֔ה וַיַּכּ֤וּ בְנֵי־יִשְׂרָאֵל֙ אֶת־אֲרָ֔ם מֵאָ֥ה אֶ֖לֶף רַגְלִ֖י בְּי֥וֹם אֶחָֽד׃",
+      "text_kjv": "And they pitched one over against the other seven days. And so it was, that in the seventh day the battle was joined: and the children of Israel slew of the Syrians an hundred thousand footmen in one day.",
+      "rendering": "They camped opposite each other for seven days. On the seventh day, battle was joined, and the Israelites struck down one hundred thousand Aramean foot soldiers in a single day.",
+      "translator_notes": [
+        "The seven-day standoff builds tension. The number me'ah elef ragli ('one hundred thousand foot soldiers') is enormous. The phrase be-yom echad ('in a single day') emphasizes the speed of the rout. Whether the numbers are literal or use elef in its alternative sense of 'military unit,' the scale of the victory is total."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיָּנֻ֤סוּ הַנּוֹתָרִים֙ אֲפֵ֔קָה אֶל־הָעִ֑יר וַתִּפֹּ֣ל הַחוֹמָ֗ה עַל־עֶשְׂרִ֨ים וְשִׁבְעָ֤ה אֶ֙לֶף֙ אִ֔ישׁ הַנּוֹתָרִ֑ים וּבֶן־הֲדַ֣ד נָ֔ס וַיָּבֹ֥א אֶל־הָעִ֖יר חֶ֥דֶר בְּחָֽדֶר׃",
+      "text_kjv": "But the rest fled to Aphek, into the city; and there a wall fell upon twenty and seven thousand of the men that were left. And Benhadad fled, and came into the city, into an inner chamber.",
+      "rendering": "The survivors fled to Aphek, into the city, and the wall fell on twenty-seven thousand of the remaining men. Ben-hadad fled and entered the city, going from room to room.",
+      "translator_notes": [
+        "The collapse of the city wall on the fugitives adds a second catastrophe. The phrase cheder be-chader ('room within room, inner room') describes Ben-hadad hiding deeper and deeper within the city — seeking refuge in the most interior space. The repetition conveys his panic."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיֹּ֣אמְרוּ אֵלָ֣יו עֲבָדָ֡יו הִנֵּה־נָ֣א שָׁמַ֡עְנוּ כִּ֣י מַלְכֵ֣י בֵ֣ית יִשְׂרָאֵ֡ל כִּ֣י מַלְכֵ֣י חֶסֶד֩ הֵ֨ם נָשִׂ֜ימָה נָּ֣א שַׂקִּ֣ים בְּמׇתְנֵ֗ינוּ וַחֲבָלִים֙ בְּרֹאשֵׁ֔נוּ וְנֵצֵ֖א אֶל־מֶ֣לֶךְ יִשְׂרָאֵ֑ל אוּלַ֖י יְחַיֶּ֥ה אֶת־נַפְשֶֽׁךָ׃",
+      "text_kjv": "And his servants said unto him, Behold now, we have heard that the kings of the house of Israel are merciful kings: let us, I pray thee, put sackcloth on our loins, and ropes upon our heads, and go out to the king of Israel: peradventure he will save thy life.",
+      "rendering": "His servants said to him, \"We have heard that the kings of the house of Israel are kings of faithful love. Let us put sackcloth around our waists and ropes on our heads and go out to the king of Israel — perhaps he will spare your life.\"",
+      "translator_notes": [
+        "The servants' description of Israel's kings as malkhei chesed ('kings of faithful love, kings of mercy') is significant — even foreign servants know Israel's reputation for covenantal mercy. Sackcloth (saqqim) and ropes (chavalim) are signs of total submission and mourning. The phrase ulai yechayyeh et nafshekha ('perhaps he will keep your life alive') holds out only a thin hope."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "loyal love, faithfulness, mercy, kindness, covenant loyalty, steadfast love",
+          "note": "The Aramean servants know Israel's kings by their chesed — their reputation for mercy rooted in covenant loyalty. The irony is that Ahab's chesed toward Ben-hadad will become a covenant violation: showing mercy to the man God has marked for destruction."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיַּחְגְּר֣וּ שַׂקִּים֩ בְּמׇתְנֵיהֶ֨ם וַחֲבָלִ֜ים בְּרָאשֵׁיהֶ֗ם וַיָּבֹ֙אוּ֙ אֶל־מֶ֣לֶךְ יִשְׂרָאֵ֔ל וַיֹּ֣אמְר֔וּ עַבְדְּךָ֤ בֶן־הֲדַד֙ אָמַ֔ר תְּחִ֥י נָ֖א נַפְשִׁ֑י וַיֹּ֕אמֶר הַעוֹדֶ֥נּוּ חַ֖י אָחִ֥י הֽוּא׃",
+      "text_kjv": "So they girded sackcloth on their loins, and put ropes on their heads, and came to the king of Israel, and said, Thy servant Benhadad saith, I pray thee, let me live. And he said, Is he yet alive? he is my brother.",
+      "rendering": "They tied sackcloth around their waists and put ropes on their heads, went to the king of Israel, and said, \"Your servant Ben-hadad says, 'Please let me live.'\" He said, \"Is he still alive? He is my brother!\"",
+      "translator_notes": [
+        "Ahab's response — ha-odenu chai achi hu ('Is he still alive? He is my brother!') — is the decisive error. By calling Ben-hadad achi ('my brother'), Ahab elevates a defeated enemy to treaty-partner status. The word achi in diplomatic contexts establishes parity — Ahab treats a man under divine judgment as an equal."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְהָאֲנָשִׁ֣ים יְנַחֲשׁ֗וּ וַיְמַהֲרוּ֙ וַיַּחְלְט֔וּ הֲמִמֶּ֖נּוּ וַיֹּאמְר֕וּ אָחִ֖יךָ בֶּן־הֲדָ֑ד וַיֹּ֕אמֶר בֹּ֖אוּ קָחֻֽהוּ וַיֵּצֵ֤א אֵלָיו֙ בֶּן־הֲדַ֔ד וַיַּעֲלֵ֖הוּ עַל־הַמֶּרְכָּבָֽה׃",
+      "text_kjv": "Now the men did diligently observe whether any thing would come from him, and did hastily catch it: and they said, Thy brother Benhadad. Then he said, Go ye, bring him. Then Benhadad came forth to him; and he caused him to come up into the chariot.",
+      "rendering": "The men were watching closely for a sign and quickly seized on it: \"Your brother Ben-hadad!\" He said, \"Go, bring him.\" Ben-hadad came out to him, and Ahab had him come up into his chariot.",
+      "translator_notes": [
+        "The verb yenachashu ('they were watching for omens, reading signs') suggests careful observation — the servants are testing Ahab's reaction for any sign of mercy. When he says 'brother,' they immediately seize the word (va-yachlitu, 'they grabbed it, they took it as binding'). Bringing Ben-hadad into the royal chariot is a dramatic elevation from prisoner to honored guest."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיֹּ֣אמֶר אֵלָ֗יו הֶעָרִ֞ים אֲשֶׁר־לָקַ֤ח אָבִי֙ מֵאֵ֣ת אָבִ֔יךָ אָשִׁ֔יב וְחוּצ֗וֹת תָּשִׂ֤ים לְךָ֙ בְּדַמֶּ֔שֶׂק כַּאֲשֶׁר־שָׂ֤ם אָבִי֙ בְּשֹׁ֣מְר֔וֹן וַאֲנִ֖י בַּבְּרִ֣ית אֲשַׁלְּחֶ֑ךָּ וַיִּכְרָת־ל֥וֹ בְרִ֖ית וַיְשַׁלְּחֵֽהוּ׃",
+      "text_kjv": "And Benhadad said unto him, The cities, which my father took from thy father, I will restore; and thou shalt make streets for thee in Damascus, as my father made in Samaria. Then said Ahab, I will send thee away with this covenant. So he made a covenant with him, and sent him away.",
+      "rendering": "Ben-hadad said to him, \"The cities my father took from your father I will return, and you may establish trade quarters in Damascus, as my father did in Samaria.\" Ahab replied, \"On these covenant terms I will release you.\" He made a covenant with him and let him go.",
+      "translator_notes": [
+        "Ben-hadad's offer includes territorial restoration and trading rights — chutsot ('streets, market quarters') in Damascus would give Israel a commercial foothold in the Aramean capital. Ahab accepts: va-ani ba-berit ashallechekka ('and I, by covenant, will release you'). The verb va-yikhrot lo berit ('he cut a covenant with him') uses the standard covenant-making terminology. The problem is that this man was under divine judgment — making a treaty with him is like Saul sparing Agag."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, agreement, binding obligation, pact",
+          "note": "Ahab 'cuts a covenant' (yikhrot berit) with a man God devoted to destruction. The berit here is a diplomatic treaty, but it directly conflicts with the divine verdict. Ahab's covenant with Ben-hadad will cost him his own life."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וְאִ֨ישׁ אֶחָ֜ד מִבְּנֵ֣י הַנְּבִיאִ֗ים אָמַ֤ר אֶל־רֵעֵ֙הוּ֙ בִּדְבַ֣ר יְהוָ֔ה הַכֵּ֥ינִי נָ֖א וַיְמָאֵ֥ן הָאִ֖ישׁ לְהַכֹּתֽוֹ׃",
+      "text_kjv": "And a certain man of the sons of the prophets said unto his neighbour in the word of the LORD, Smite me, I pray thee. And the man refused to smite him.",
+      "rendering": "A man from the sons of the prophets said to his companion by the word of the LORD, \"Strike me!\" But the man refused to strike him.",
+      "translator_notes": [
+        "The phrase benei ha-nevi'im ('sons of the prophets') designates a prophetic community or guild — not biological sons but members of a prophetic brotherhood. The command hakkeni na ('strike me, please') is a prophetic sign-act: the wound will serve as a prop for the parable in verses 39-40. The companion's refusal creates a problem — disobedience to a command given bi-dvar YHWH ('by the word of the LORD')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיֹּ֣אמֶר ל֗וֹ יַ֚עַן אֲשֶׁ֤ר לֹֽא־שָׁמַ֙עְתָּ֙ בְּק֣וֹל יְהוָ֔ה הִנְּךָ֤ הוֹלֵךְ֙ מֵֽאִתִּ֔י וְהִכְּךָ֖ הָאַרְיֵ֑ה וַיֵּ֙לֶךְ֙ מֵאֶצְל֔וֹ וַיִּמְצָאֵ֥הוּ הָאַרְיֵ֖ה וַיַּכֵּֽהוּ׃",
+      "text_kjv": "Then said he unto him, Because thou hast not obeyed the voice of the LORD, behold, as soon as thou art departed from me, a lion shall slay thee. And as soon as he was departed from him, a lion found him, and slew him.",
+      "rendering": "He said to him, \"Because you did not obey the voice of the LORD — as soon as you leave me, a lion will strike you.\" The man left him, and a lion found him and struck him dead.",
+      "translator_notes": [
+        "The judgment is immediate and severe: refusal to obey a prophetic command given in the LORD's name results in death by lion. This parallels the unnamed prophet of 1 Kings 13:24 who was also killed by a lion for disobedience. The swift fulfillment confirms the prophetic authority behind the request."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וַיִּמְצָ֛א אִ֥ישׁ אַחֵ֖ר וַיֹּ֣אמֶר הַכֵּ֣ינִי נָ֑א וַיַּכֵּ֥הוּ הָאִ֖ישׁ הַכֵּ֥ה וּפָצֹֽעַ׃",
+      "text_kjv": "Then he found another man, and said, Smite me, I pray thee. And the man smote him, so that in smiting he wounded him.",
+      "rendering": "He found another man and said, \"Strike me!\" The man struck him, wounding him.",
+      "translator_notes": [
+        "The second man complies, striking hakkeh u-fatso'a ('striking and wounding') — producing a visible wound that will serve the prophetic parable. The wound becomes part of the disguise."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיֵּ֙לֶךְ֙ הַנָּבִ֔יא וַיַּעֲמֹ֥ד לַמֶּ֖לֶךְ עַל־הַדָּ֑רֶךְ וַיִּתְחַפֵּ֖שׂ בָּאֲפֵ֥ר עַל־עֵינָֽיו׃",
+      "text_kjv": "So the prophet departed, and waited for the king by the way, and disguised himself with ashes upon his face.",
+      "rendering": "The prophet went and waited for the king along the road, disguising himself with a bandage over his eyes.",
+      "translator_notes": [
+        "The verb va-yitchappeis ('he disguised himself') and the afer ('bandage' or 'ashes') over his eyes create a disguise — the prophet appears to be a wounded soldier returning from battle. Some translations render afer as 'ashes' and others as 'bandage'; the context of a wound-disguise favors 'bandage.'"
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיְהִ֤י הַמֶּ֙לֶךְ֙ עֹבֵ֔ר וְה֖וּא צָעַ֣ק אֶל־הַמֶּ֑לֶךְ וַיֹּ֗אמֶר עַבְדְּךָ֞ יָצָ֣א בְקֶרֶב הַמִּלְחָמָ֗ה וְהִנֵּ֨ה אִ֣ישׁ סָר֮ וַיָּבֵ֣א אֵלַ֣י אִישׁ֒ וַיֹּ֗אמֶר שְׁמֹר֙ אֶת־הָאִ֣ישׁ הַזֶּ֔ה אִם־הִפָּקֵ֣ד יִפָּקֵ֔ד וְהָיְתָ֤ה נַפְשְׁךָ֙ תַּ֣חַת נַפְשׁ֔וֹ א֥וֹ כִכַּר־כֶּ֖סֶף תִּשְׁקֽוֹל׃",
+      "text_kjv": "And as the king passed by, he cried unto the king: and he said, Thy servant went out into the midst of the battle; and, behold, a man turned aside, and brought a man unto me, and said, Keep this man: if by any means he be missing, then shall thy life be for his life, or else thou shalt pay a talent of silver.",
+      "rendering": "As the king was passing by, he cried out to the king, \"Your servant went out into the thick of battle, and a man brought me a prisoner and said, 'Guard this man. If he goes missing, your life will answer for his life — or you will pay a talent of silver.'",
+      "translator_notes": [
+        "The parable is a legal case: a soldier was given custody of a prisoner under a life-for-life guarantee (nafshekha tachat nafsho, 'your life in place of his life'). The penalty structure — death or one talent of silver (approximately 75 pounds of silver, an enormous sum) — frames the stakes as absolute. The parable mirrors Ahab's situation: God gave Ben-hadad into his hand, and Ahab let him go."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַיְהִ֧י עַבְדְּךָ֛ עֹשֵׂ֥ה הֵ֖נָּה וָהֵ֑נָּה וְה֣וּא אֵינֶ֔נּוּ וַיֹּ֤אמֶר אֵלָיו֙ מֶ֣לֶךְ יִשְׂרָאֵ֔ל כֵּ֥ן מִשְׁפָּטְךָ֖ אַתָּ֥ה חָרָֽצְתָּ׃",
+      "text_kjv": "And as thy servant was busy here and there, he was gone. And the king of Israel said unto him, So shall thy judgement be; thyself hast decided it.",
+      "rendering": "But while your servant was busy here and there, the prisoner was gone.\" The king of Israel said to him, \"That is your judgment — you have pronounced it yourself.\"",
+      "translator_notes": [
+        "The phrase oseh hennah va-hennah ('doing here and there, busy this way and that') describes distraction and negligence. Ahab's verdict — ken mishpatekha attah charatsta ('so is your judgment; you yourself have decided it') — is self-condemning, exactly as David's verdict on the rich man in Nathan's parable (2 Samuel 12:5-6) condemned himself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וַיְמַהֵ֕ר וַיָּ֙סַר֙ אֶת־הָאֲפֵ֔ר מֵעַ֖ל עֵינָ֑יו וַיַּכֵּ֤ר אֹתוֹ֙ מֶ֣לֶךְ יִשְׂרָאֵ֔ל כִּ֥י מֵהַנְּבִאִ֖ים הֽוּא׃",
+      "text_kjv": "And he hasted, and took the ashes away from his face; and the king of Israel discerned him that he was of the prophets.",
+      "rendering": "He quickly removed the bandage from his eyes, and the king of Israel recognized him as one of the prophets.",
+      "translator_notes": [
+        "The reveal: va-yasar et ha-afer me-al einav ('he removed the bandage from over his eyes'). The king immediately recognizes the man as belonging to the prophetic community (me-ha-nevi'im hu, 'he was from the prophets'). The recognition triggers the application of the parable."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וַיֹּ֣אמֶר אֵלָ֗יו כֹּ֚ה אָמַ֣ר יְהוָ֔ה יַ֗עַן שִׁלַּ֛חְתָּ אֶת־אִ֥ישׁ חֶרְמִ֖י מִיָּ֑ד וְהָיְתָ֤ה נַפְשְׁךָ֙ תַּ֣חַת נַפְשׁ֔וֹ וְעַמְּךָ֖ תַּ֥חַת עַמּֽוֹ׃",
+      "text_kjv": "And he said unto him, Thus saith the LORD, Because thou hast let go out of thy hand a man whom I appointed to utter destruction, therefore thy life shall go for his life, and thy people for his people.",
+      "rendering": "He said to him, \"This is what the LORD says: Because you released the man I devoted to destruction, your life will pay for his life, and your people for his people.\"",
+      "translator_notes": [
+        "The verdict is devastating: ish chermi ('the man of my cherem, the man I devoted to destruction'). The term cherem designates something placed under a ban — totally devoted to God, either for holy use or for destruction. Ben-hadad was under cherem, and Ahab let him go. The substitutionary formula — nafshekha tachat nafsho ve-ammekha tachat ammo ('your life in place of his life, your people in place of his people') — establishes that Ahab will die in Ben-hadad's place. This sentence is executed in chapter 22 at Ramoth-gilead."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וַיֵּ֧לֶךְ מֶלֶךְ־יִשְׂרָאֵ֛ל עַל־בֵּית֖וֹ סַ֣ר וְזָעֵ֑ף וַיָּבֹ֖א שֹׁמְרֽוֹנָה׃",
+      "text_kjv": "And the king of Israel went to his house heavy and displeased, and came to Samaria.",
+      "rendering": "The king of Israel went home resentful and sullen, and arrived in Samaria.",
+      "translator_notes": [
+        "The final description — sar ve-za'ef ('resentful and sullen') — recurs verbatim in 21:4 when Ahab sulks over Naboth's vineyard. These paired words become a character marker for Ahab: a king who, when confronted with divine judgment, does not repent but broods. The chapter closes not with submission but with bitter sulking."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

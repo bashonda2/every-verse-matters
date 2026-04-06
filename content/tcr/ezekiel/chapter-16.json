@@ -1,0 +1,763 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezekiel",
+    "chapter": 16,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ezekiel 16 is the longest single chapter in Ezekiel and one of the most extraordinary passages in the Hebrew Bible — a sustained allegory of Jerusalem's entire history told as the life story of an abandoned girl. The narrative arc moves through five stages: (1) Jerusalem's origins as a foundling of mixed Amorite-Hittite parentage, abandoned at birth in an open field with her umbilical cord uncut (vv. 1-5); (2) God's rescue and nurturing of the infant, who grows to sexual maturity (vv. 6-7); (3) God's marriage to the young woman — the covenant at Sinai — with lavish bridal gifts of clothing, jewelry, and royal food (vv. 8-14); (4) the wife's descent into flagrant prostitution with every passing nation, using the very gifts her husband gave her to purchase lovers, making herself worse than an ordinary prostitute because she pays her clients rather than being paid (vv. 15-34); (5) the sentence of judgment — public stripping, stoning, and dismemberment by the very lovers she pursued (vv. 35-43). The chapter then compares Jerusalem unfavorably to her 'sisters' Samaria and Sodom, declaring that Jerusalem's sins make even Sodom look righteous (vv. 44-58). But the chapter does not end in destruction. In a stunning reversal, God declares that he will remember the covenant of Jerusalem's youth and establish an everlasting covenant (berit olam) — restoring Jerusalem not on the basis of her merit but despite her shame (vv. 59-63).",
+    "remarkable": "This is the most sexually explicit passage in the Hebrew Bible, and that explicitness is theologically intentional. The Mishnah (Megillah 4:10) restricts the public reading of this chapter as a haftarah, acknowledging its disturbing content while preserving it in the canon. The graphic sexual language communicates what abstract theological language cannot: the visceral horror and degradation of idolatry as experienced from God's perspective. Jerusalem is not merely 'unfaithful' — she is depicted as a nymphomaniac who pays foreigners to have sex with her, fabricates phallic images from her husband's gold, spreads her legs for every passerby, and sacrifices her own children to foreign gods. The language is designed to provoke nausea and shame, because that is precisely the emotional register the prophet wants his audience to inhabit. Every euphemism strips the passage of its prophetic force. We have rendered the Hebrew faithfully throughout, documenting the explicit terms without sanitizing them. Readers should understand that the violence described against the unfaithful wife reflects ancient Near Eastern treaty-curse conventions — the punishments are those prescribed in international treaties for vassal-state betrayal, not a prescription for domestic violence. The chapter's final movement toward berit olam (everlasting covenant, vv. 60-63) is all the more powerful because it follows the most devastating catalog of sin in the Bible: God's covenant faithfulness outlasts even this degree of betrayal.",
+    "friction": "The Hebrew in this chapter contains several terms that resist polite translation. The word taznot/taznutekh ('your prostitution/promiscuity') appears repeatedly and must be rendered without softening. The phrase vatifqehi et raglayikh lekhol over ('you spread your legs to every passerby,' v. 25) is anatomically explicit in the Hebrew and we have preserved that explicitness. The phrase basar ('flesh/genitals,' v. 26) in reference to the Egyptians as 'great of flesh' is a euphemism for large genitalia, and we have rendered it as such with documentation. The verb zana ('to prostitute oneself, to commit sexual immorality') is the chapter's dominant verb and must retain its sexual force throughout. The shift from judgment to restoration in verses 59-63 is abrupt and theologically stunning — we preserved the whiplash without smoothing the transition. The comparison with Sodom (vv. 46-52) reverses conventional expectations: Sodom's sin is identified not as sexual immorality but as arrogance, abundance of food, and neglect of the poor — a tradition preserved also in later rabbinic interpretation.",
+    "connections": "The vine/bride imagery connects to Isaiah 5:1-7 (the vineyard song) and Hosea 1-3 (Hosea's marriage to Gomer as allegory for God and Israel). The foundling narrative draws on ancient Near Eastern adoption formulas. The covenant at Sinai as a marriage appears also in Jeremiah 2:2 ('I remember the devotion of your youth, your love as a bride'). The Sodom comparison reappears in Jesus's teaching (Matthew 10:15, 11:23-24). The berit olam ('everlasting covenant') of verse 60 connects to Genesis 17:7 (Abrahamic covenant), Isaiah 55:3 (the sure mercies of David), and Jeremiah 31:31-34 (the new covenant). The child sacrifice references (vv. 20-21) connect to 2 Kings 16:3, 21:6 and Jeremiah 7:31, 19:5. Chapter 23 (Oholah and Oholibah) is the companion piece to this chapter, extending and intensifying the same allegory."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "Again the word of the LORD came unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": ["Standard prophetic reception formula introducing what will become the longest sustained allegory in Ezekiel."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "בֶּן־אָדָ֕ם הוֹדַ֥ע אֶת־יְרוּשָׁלַ֖͏ִם אֶת־תּוֹעֲבֹתֶֽיהָ׃",
+      "text_kjv": "Son of man, cause Jerusalem to know her abominations,",
+      "rendering": "\"Son of man, confront Jerusalem with her detestable practices",
+      "translator_notes": [
+        "The verb hoda ('make known, confront with') carries more force than simply 'tell' — it means to force someone to see what they have been ignoring. The prophet is commanded to hold up a mirror.",
+        "To'avoteha ('her abominations/detestable practices') uses the priestly defilement term that recurs throughout the chapter. Jerusalem is personified as female from the outset, setting up the allegory."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְאָמַרְתָּ֞ כֹּֽה־אָמַ֣ר ׀ אֲדֹנָ֣י יְהוִ֗ה לִירוּשָׁלַ֙͏ִם֙ מְכֹרֹתַ֤יִךְ וּמֹֽלְדֹתַ֙יִךְ֙ מֵאֶ֣רֶץ הַכְּנַעֲנִ֔י אָבִ֥יךְ הָאֱמֹרִ֖י וְאִמֵּ֥ךְ חִתִּֽית׃",
+      "text_kjv": "And say, Thus saith the Lord GOD unto Jerusalem; Thy birth and thy nativity is of the land of Canaan; thy father was an Amorite, and thy mother an Hittite.",
+      "rendering": "and say: This is what the Lord GOD says to Jerusalem — Your origin and your birth are from the land of the Canaanites. Your father was an Amorite and your mother was a Hittite.",
+      "translator_notes": [
+        "The claim that Jerusalem's parentage is Amorite and Hittite is historically grounded — Jerusalem was a Canaanite city (Jebus) before David's conquest (2 Samuel 5:6-9). Theologically, it strips Jerusalem of any claim to inherent holiness or ethnic purity. Jerusalem is not holy by nature; she was made holy by God's choice alone.",
+        "Mekhorotayikh umoldotayikh ('your origins and your birth') — mekhorot refers to extraction or digging out (from the root k-r-h, 'to dig'), suggesting origins in the most fundamental sense. Jerusalem's roots are pagan."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וּמוֹלְדוֹתַ֗יִךְ בְּי֨וֹם הוּלֶּ֤דֶת אֹתָךְ֙ לֹֽא־כָרַּ֣ת שָׁרֵּ֔ךְ וּבְמַ֥יִם לֹֽא־רֻחַ֖צְתְּ לְמִשְׁעִ֑י וְהָמְלֵ֙חַ֙ לֹ֣א הֻמְלַ֔חַתְּ וְהָחְתֵּ֖ל לֹ֥א חֻתָּֽלְתְּ׃",
+      "text_kjv": "And as for thy nativity, in the day thou wast born thy navel was not cut, neither wast thou washed in water to supple thee; thou wast not salted at all, nor swaddled at all.",
+      "rendering": "As for your birth — on the day you were born, your umbilical cord was not cut, you were not washed with water to clean you, you were not rubbed with salt, and you were not wrapped in cloths.",
+      "translator_notes": [
+        "The four negatives describe the complete absence of normal birth care: no cutting of the cord (shorrikh, 'your navel-cord'), no washing, no salt-rubbing (an ancient Near Eastern practice believed to tighten and cleanse the newborn's skin), and no swaddling. Each omission represents a specific act of parental rejection.",
+        "Lemish'i ('for cleansing') — the root sh-'-h is rare and likely means 'to make smooth' or 'to cleanse.' The newborn was left in the blood and fluids of birth, unattended.",
+        "The level of detail is midwifery language — Ezekiel the priest knows the rituals of birth and uses their systematic violation to communicate total abandonment."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "לֹא־חָ֨סָה עָלַ֜יִךְ עַ֗יִן לַעֲשׂ֥וֹת לָ֛ךְ אַחַ֥ת מֵאֵ֖לֶּה לְחֻמְלָ֣ה עָלָ֑יִךְ וַתֻּשְׁלְכִ֞י אֶל־פְּנֵ֤י הַשָּׂדֶה֙ בְּגֹ֣עַל נַפְשֵׁ֔ךְ בְּי֖וֹם הֻלֶּ֥דֶת אֹתָֽךְ׃",
+      "text_kjv": "None eye pitied thee, to do any of these unto thee, to have compassion upon thee; but thou wast cast out in the open field, to the lothing of thy person, in the day that thou wast born.",
+      "rendering": "No eye pitied you enough to do any of these things for you, out of compassion for you. Instead, you were thrown out into the open field in disgust on the day you were born.",
+      "translator_notes": [
+        "The verb tushlikhi ('you were thrown out') is the language of infant exposure — the practice of abandoning unwanted newborns in the open to die of exposure or be eaten by animals. This was documented in the ancient Near East and the Greco-Roman world.",
+        "Bego'al nafshekh ('in the loathing/disgust of your being') — the root g-'-l means 'to abhor, to loathe, to find repulsive.' The infant was not merely abandoned but thrown away with active revulsion.",
+        "The open field (penei hasadeh) is the place of wild animals and death — the opposite of the protected household. The foundling has no family, no identity, no future."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וָאֶעֱבֹ֤ר עָלַ֙יִךְ֙ וָאֶרְאֵ֔ךְ מִתְבּוֹסֶ֖סֶת בְּדָמָ֑יִךְ וָאֹ֤מַר לָךְ֙ בְּדָמַ֣יִךְ חֲיִ֔י וָאֹ֥מַר לָ֖ךְ בְּדָמַ֥יִךְ חֲיִֽי׃",
+      "text_kjv": "And when I passed by thee, and saw thee polluted in thine own blood, I said unto thee when thou wast in thy blood, Live; yea, I said unto thee when thou wast in thy blood, Live.",
+      "rendering": "I passed by you and saw you kicking in your blood, and I said to you in your blood, 'Live!' I said to you in your blood, 'Live!'",
+      "translator_notes": [
+        "The verb mitboseset ('kicking, thrashing, wallowing') depicts the newborn struggling in the afterbirth — a vivid image of helpless vitality amid filth and blood. The infant is alive but dying.",
+        "The command chayi ('Live!') is repeated twice for emphasis. This single word is God's first speech to Jerusalem — a creative command that grants life, echoing the creative speech of Genesis 1. The repetition in the Masoretic Text may also reflect liturgical practice; this verse is traditionally recited during the Passover seder and at circumcision ceremonies.",
+        "Bedamayikh ('in your blood') — the plural damim can mean 'blood' or 'bloodshed.' The newborn lies in the blood of birth, which is simultaneously the blood of near-death. Some interpreters see an allusion to the blood of circumcision and Passover (Exodus 12), the two blood-rites that mark Israel's identity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "רְבָבָ֗ה כְּצֶ֤מַח הַשָּׂדֶה֙ נְתַתִּ֔יךְ וַתִּרְבִּי֙ וַתִּגְדְּלִ֔י וַתָּבֹ֖אִי בַּעֲדִ֣י עֲדָיִ֑ים שָׁדַ֤יִם נָכֹ֙נוּ֙ וּשְׂעָרֵ֣ךְ צִמֵּ֔חַ וְאַ֖תְּ עֵרֹ֥ם וְעֶרְיָֽה׃",
+      "text_kjv": "I have caused thee to multiply as the bud of the field, and thou hast increased and waxen great, and thou art come to excellent ornaments: thy breasts are fashioned, and thine hair is grown, whereas thou wast naked and bare.",
+      "rendering": "I made you flourish like a plant of the field. You grew and matured and reached full womanhood — your breasts developed and your hair grew thick — but you were still naked and bare.",
+      "translator_notes": [
+        "The transition from abandoned infant to sexually mature woman happens in a single verse, compressing years into a sentence. The Hebrew ba'adi adayim ('to the ornament of ornaments') is debated — it may mean 'to full beauty' or 'to the age of adornment.' We rendered it as 'full womanhood' to capture the sense of reaching sexual maturity.",
+        "Shadayim nakhonu ('breasts were formed/established') and se'arekh tsimeach ('your hair had sprouted') are physical markers of puberty described without euphemism. The nakedness (erom ve'eryah, 'naked and bare' — two words for nakedness used together for emphasis) signals both vulnerability and the absence of anyone who would clothe her.",
+        "The agricultural metaphor (kemetsach hasadeh, 'like a plant of the field') connects the girl's growth to the land itself — Jerusalem flourishes like a wild plant, uncultivated but alive."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וָאֶעֱבֹ֨ר עָלַ֜יִךְ וָאֶרְאֵ֗ךְ וְהִנֵּ֤ה עִתֵּךְ֙ עֵ֣ת דֹּדִ֔ים וָאֶפְרֹ֤שׂ כְּנָפִי֙ עָלַ֔יִךְ וָאֲכַסֶּ֖ה עֶרְוָתֵ֑ךְ וָאֶשָּׁ֣בַע לָ֗ךְ וָאָב֛וֹא בִּבְרִ֥ית אֹתָ֖ךְ נְאֻ֥ם אֲדֹנָ֖י יְהוִ֑ה וַתִּ֥הְיִי לִֽי׃",
+      "text_kjv": "Now when I passed by thee, and looked upon thee, behold, thy time was the time of love; and I spread my skirt over thee, and covered thy nakedness: yea, I sware unto thee, and entered into a covenant with thee, saith the Lord GOD, and thou becamest mine.",
+      "rendering": "I passed by you again and looked at you, and your time had come — the time for love. I spread the edge of my garment over you and covered your nakedness. I swore an oath to you and entered into a covenant with you, declares the Lord GOD, and you became mine.",
+      "expanded_rendering": "The act of spreading a garment (kanaf, literally 'wing') over a woman is the formal gesture of marriage proposal and protection in the ancient Near East — the same act Ruth requests of Boaz (Ruth 3:9). The covenant (berit) here is the Sinai covenant, depicted as a marriage covenant between God and Israel. The oath (va'eshava lakh, 'I swore to you') parallels the covenant oath-taking of Exodus 19-24. Jerusalem did not earn this marriage — she was chosen while naked, vulnerable, and without merit.",
+      "translator_notes": [
+        "Et dodim ('the time of love') — dodim means 'love-making, sexual love.' The plural intensifies the term. This is the age of sexual readiness, and God responds not with exploitation but with marriage.",
+        "Efros kenafi ('I spread my wing/garment edge') — the same idiom appears in Ruth 3:9 when Ruth asks Boaz to 'spread your wing over your servant.' It is simultaneously a gesture of protection (a bird covering its young) and a marriage proposal (covering the woman's nakedness with one's own garment).",
+        "The sequence — oath, covenant, 'you became mine' — follows ancient Near Eastern marriage law precisely: a formal declaration, a binding agreement, and the transfer of the bride into the husband's household."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, binding agreement, marriage bond",
+          "note": "Here the covenant is explicitly a marriage covenant — the binding agreement between God and Jerusalem/Israel established at Sinai. The marriage metaphor reveals that the covenant is not merely legal but relational, intimate, and exclusive."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וָאֶרְחָצֵ֣ךְ בַּמַּ֔יִם וָאֶשְׁטֹ֥ף דָּמַ֖יִךְ מֵעָלָ֑יִךְ וָאֲסֻכֵ֖ךְ בַּשָּֽׁמֶן׃",
+      "text_kjv": "Then washed I thee with water; yea, I throughly washed away thy blood from thee, and I anointed thee with oil.",
+      "rendering": "I bathed you with water and washed the blood off you, and I anointed you with oil.",
+      "translator_notes": [
+        "The washing and anointing reverse the neglect of verse 4, where no one washed or cared for the infant. What the birth-parents refused to do, God now does. The anointing with oil (va'asukekh bashamen) elevates the act beyond hygiene to consecration — anointing is a priestly and royal act.",
+        "The blood (damayikh) washed away is both the birth-blood from verse 6 and, symbolically, the pollution of Jerusalem's pagan origins. Cleansing precedes adornment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וָאַלְבִּישֵׁ֣ךְ רִקְמָ֔ה וָאֶנְעֲלֵ֖ךְ תָּ֑חַשׁ וָאֶחְבְּשֵׁ֣ךְ בַּשֵּׁ֔שׁ וַאֲכַסֵּ֖ךְ מֶֽשִׁי׃",
+      "text_kjv": "I clothed thee also with broidered work, and shod thee with badgers' skin, and I girded thee about with fine linen, and I covered thee with silk.",
+      "rendering": "I clothed you in embroidered fabric, gave you sandals of fine leather, wrapped you in linen, and covered you with silk.",
+      "translator_notes": [
+        "Riqmah ('embroidered work') refers to multicolored woven cloth — luxury textile. Tachash ('fine leather,' traditionally 'badgers' skin') is the same material used for the outer covering of the Tabernacle (Exodus 25:5, 26:14) — a priestly connection. Shesh ('linen') is the fabric of the priestly garments (Exodus 28:39). Meshi ('silk') is a rare word appearing only here in the Hebrew Bible; the identification with silk is traditional but uncertain.",
+        "The progression of garments moves from outer clothing to undergarments, each more luxurious than the last. The naked foundling is now dressed like royalty — or like the Tabernacle itself."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וָאֶעְדֵּ֣ךְ עֶ֔דִי וָאֶתְּנָ֥ה צְמִידִ֖ים עַל־יָדָ֑יִךְ וְרָבִ֖יד עַל־גְּרוֹנֵֽךְ׃",
+      "text_kjv": "I decked thee also with ornaments, and I put bracelets upon thy hands, and a chain on thy neck.",
+      "rendering": "I adorned you with jewelry — I put bracelets on your wrists and a necklace around your neck.",
+      "translator_notes": [
+        "The adornment catalog (vv. 11-13) parallels the bridal gifts described in Genesis 24:22, 47 (Rebekah's betrothal) and Song of Songs 1:10-11. Each piece of jewelry signifies honor, beauty, and the husband's wealth bestowed upon the bride.",
+        "Tsemidim ('bracelets') and ravid ('chain, necklace') are standard bridal adornments in ancient Near Eastern marriage texts."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וָאֶתֵּ֥ן נֶ֙זֶם֙ עַל־אַפֵּ֔ךְ וַעֲגִילִ֖ים עַל־אָזְנָ֑יִךְ וַעֲטֶ֥רֶת תִּפְאֶ֖רֶת בְּרֹאשֵֽׁךְ׃",
+      "text_kjv": "And I put a jewel on thy forehead, and earrings in thine ears, and a beautiful crown upon thine head.",
+      "rendering": "I put a ring in your nose, earrings in your ears, and a beautiful crown on your head.",
+      "translator_notes": [
+        "Nezem al appekh ('a ring on your nose') — the KJV's 'jewel on thy forehead' obscures the Hebrew, which specifies a nose ring. Nose rings were standard adornment for women in the ancient Near East (cf. Genesis 24:47, Isaiah 3:21).",
+        "Ateret tif'eret ('a crown of beauty/glory') elevates the foundling to royal status. The progression from abandoned infant to crowned queen is complete."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַתַּעְדִּ֞י זָהָ֣ב וָכֶ֗סֶף וּמַלְבּוּשֵׁךְ֙ שֵׁ֣שׁ וָמֶ֣שִׁי וְרִקְמָ֔ה סֹ֧לֶת וּדְבַ֛שׁ וָשֶׁ֖מֶן אָכָ֑לְתְּ וַתִּ֨יפִ֜י בִּמְאֹ֣ד מְאֹ֗ד וַתִּצְלְחִ֖י לִמְלוּכָֽה׃",
+      "text_kjv": "Thus wast thou decked with gold and silver; and thy raiment was of fine linen, and silk, and broidered work; thou didst eat fine flour, and honey, and oil: and thou wast exceeding fair, and thou didst prosper into a kingdom.",
+      "rendering": "You were adorned with gold and silver. Your clothing was linen, silk, and embroidered fabric. You ate fine flour, honey, and oil. You grew surpassingly beautiful and rose to royalty.",
+      "translator_notes": [
+        "The list of luxury foods (solet, 'fine flour'; devash, 'honey'; shemen, 'oil') parallels the offerings prescribed for the Tabernacle/Temple (cf. Leviticus 2:1-2). The bride eats what the sanctuary consumes — another priestly echo reinforcing the Temple-city-bride identification.",
+        "Vatitselchi limlukha ('you prospered/advanced to royalty') — the verb tsalach ('prosper, advance, succeed') marks the apex of Jerusalem's elevation. The foundling has become a queen. The Davidic monarchy is in view.",
+        "The description now pauses at the peak before the catastrophic descent. Everything that follows will be the squandering of these gifts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֵּ֨צֵא לָ֥ךְ שֵׁ֛ם בַּגּוֹיִ֖ם בְּיָפְיֵ֑ךְ כִּ֣י ׀ כָּלִ֣יל ה֗וּא בַּֽהֲדָרִי֙ אֲשֶׁר־שַׂ֣מְתִּי עָלַ֔יִךְ נְאֻ֖ם אֲדֹנָ֥י יְהוִֽה׃",
+      "text_kjv": "And thy renown went forth among the heathen for thy beauty: for it was perfect through my comeliness, which I had put upon thee, saith the Lord GOD.",
+      "rendering": "Your fame spread among the nations because of your beauty, for it was perfect through the splendor I had bestowed on you, declares the Lord GOD.",
+      "translator_notes": [
+        "The critical theological point: your beauty was kalil ('complete, perfect') through my hadar ('splendor, majesty') that I placed upon you. Jerusalem's beauty is not inherent — it is entirely bestowed. Everything she has, she received. This makes the betrayal that follows all the more grotesque: she will use God's own gifts to pursue other lovers.",
+        "The fame (shem, 'name, reputation') among the nations sets up the international dimension of the prostitution allegory — Jerusalem's beauty attracted the very nations she will later pursue sexually."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַתִּבְטְחִ֣י בְיָפְיֵ֔ךְ וַתִּזְנִ֖י עַל־שְׁמֵ֑ךְ וַתִּשְׁפְּכִ֧י אֶת־תַּזְנוּתַ֛יִךְ עַל־כָּל־עוֹבֵ֖ר לוֹ־יֶֽהִי׃",
+      "text_kjv": "But thou didst trust in thine own beauty, and playedst the harlot because of thy renown, and pouredst out thy fornications on every one that passed by; his it was.",
+      "rendering": "But you trusted in your beauty and used your fame to prostitute yourself. You poured out your promiscuity on every passerby — it was his for the taking.",
+      "translator_notes": [
+        "The pivot verse. The verb zana ('to prostitute oneself, to be sexually immoral') appears here for the first time in the chapter and will dominate the rest. In prophetic usage, zana describes Israel's pursuit of foreign gods and foreign alliances as sexual infidelity against the covenant-husband.",
+        "Vatishpekhi et taznutayikh ('you poured out your promiscuity') — the verb shafakh ('to pour out') is the same verb used for pouring out blood (Genesis 9:6) and pouring out wrath (Ezekiel 7:8). Promiscuity is depicted as something spilled lavishly and indiscriminately.",
+        "Al kol over lo yehi ('on every passerby — his it was') — Jerusalem made herself available to anyone who passed by, with no discrimination. The brief lo yehi ('it was his') is devastatingly terse: the beauty belonged to whoever wanted it."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַתִּקְחִ֣י מִבְּגָדַ֗יִךְ וַתַּעֲשִׂי־לָ֛ךְ בָּמ֥וֹת טְלֻא֖וֹת וַתִּזְנִ֣י עֲלֵיהֶ֑ם לֹ֥א בָא֖וֹת וְלֹ֥א יִהְיֶֽה׃",
+      "text_kjv": "And of thy garments thou didst take, and deckedst thy high places with divers colours, and playedst the harlot thereupon: the like things shall not come, neither shall it be so.",
+      "rendering": "You took some of your garments and made colorful shrines for yourself, and you prostituted yourself on them — such things should never have happened and never should happen.",
+      "translator_notes": [
+        "Bamot telu'ot ('high places patched with colors') — the bamot ('high places') are the hilltop shrines where Canaanite-style worship occurred. Jerusalem used the very clothing God gave her (v. 10) to decorate the pagan shrines where she committed spiritual adultery.",
+        "The phrase lo va'ot velo yihyeh ('not coming and not being') is cryptic and has generated many interpretive attempts. We render it as an expression of moral impossibility — 'such things should never have happened.'"
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַתִּקְחִ֞י כְּלֵ֣י תִפְאַרְתֵּ֗ךְ מִזְּהָבִ֤י וּמִכַּסְפִּי֙ אֲשֶׁ֣ר נָתַ֣תִּי לָ֔ךְ וַתַּעֲשִׂי־לָ֖ךְ צַלְמֵ֣י זָכָ֑ר וַתִּזְנִי־בָֽם׃",
+      "text_kjv": "Thou hast also taken thy fair jewels of my gold and of my silver, which I had given thee, and madest to thyself images of men, and didst commit whoredom with them,",
+      "rendering": "You took your beautiful jewelry made from my gold and my silver that I had given you, and you made male images for yourself and had sex with them.",
+      "translator_notes": [
+        "Tsalmei zakhar ('images of a male') — the word zakhar specifically means 'male,' and tsalmei refers to formed images or figures. These are phallic idols, fabricated from the gold and silver God gave as bridal gifts. The obscenity is deliberate: the wife takes her husband's gifts and fashions phalluses from them.",
+        "Vatizni bam ('you prostituted yourself with them') — the verb zana with the preposition be indicates sexual intercourse. The prophet does not soften the image: Jerusalem had sex with the idols she made from God's own gold."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַתִּקְחִ֛י אֶת־בִּגְדֵ֥י רִקְמָתֵ֖ךְ וַתְּכַסִּ֑ים וְשַׁמְנִ֥י וּקְטָרְתִּ֖י נָתַ֥תְּ לִפְנֵיהֶֽם׃",
+      "text_kjv": "And tookest thy broidered garments, and coveredst them, and thou hast set mine oil and mine incense before them.",
+      "rendering": "You took your embroidered garments and clothed them, and you set my oil and my incense before them.",
+      "translator_notes": [
+        "The possessives are emphatic: shamni ('my oil') and qetorti ('my incense') — these are God's oil and God's incense, the substances dedicated to worship of the LORD (cf. Exodus 30:22-38), now diverted to pagan idols. The sacrilege is compounded by the fact that these are priestly materials being used in unauthorized worship.",
+        "The phallic images are now dressed in embroidered cloth and presented with offerings — they are being treated as honored guests or divine figures. The wife adorns her idols as she herself was adorned."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְלַחְמִ֞י אֲשֶׁר־נָתַ֣תִּי לָ֗ךְ סֹ֤לֶת וָשֶׁ֙מֶן֙ וּדְבַ֔שׁ הֶאֱכַלְתִּ֖יךְ וּנְתַתִּ֣יהוּ לִפְנֵיהֶ֑ם לְרֵ֣יחַ נִיחֹ֔חַ וַיֶּ֕הִי נְאֻ֖ם אֲדֹנָ֥י יְהוִֽה׃",
+      "text_kjv": "My meat also which I gave thee, fine flour, and oil, and honey, wherewith I fed thee, thou hast even set it before them for a sweet savour: and thus it was, saith the Lord GOD.",
+      "rendering": "My food that I gave you — the fine flour, oil, and honey that I fed you — you set before them as a pleasing aroma. And so it was, declares the Lord GOD.",
+      "translator_notes": [
+        "Le'reach nichoach ('for a pleasing aroma') is the standard sacrificial formula from Leviticus (Leviticus 1:9, 13, 17, 2:2, etc.) — the aroma that rises to God from an acceptable offering. Jerusalem has redirected the sacrificial aroma from God to idols. The priestly language makes the sacrilege precise.",
+        "The divine speech marker ne'um Adonai YHWH ('declares the Lord GOD') punctuates the catalog of betrayals with divine witness — God is watching and recording each offense."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַתִּקְחִ֞י אֶת־בָּנַ֤יִךְ וְאֶת־בְּנוֹתַ֙יִךְ֙ אֲשֶׁ֣ר יָלַ֣דְתְּ לִ֔י וַתִּזְבָּחִ֥ים לָהֶ֖ם לֶאֱכ֑וֹל הַמְעַ֥ט מִתַּזְנוּתָ֖יִךְ׃",
+      "text_kjv": "Moreover thou hast taken thy sons and thy daughters, whom thou hast borne unto me, and these hast thou sacrificed unto them to be devoured. Is this of thy whoredoms a small matter,",
+      "rendering": "You took your sons and your daughters whom you bore to me and slaughtered them as food for the idols. Was your promiscuity not enough?",
+      "translator_notes": [
+        "The allegory reaches its most horrifying point: child sacrifice. The verb zavach ('slaughter, sacrifice') is the standard term for ritual sacrifice — the children born from the covenant marriage are offered as food to pagan gods. The historical referent is Molech/Tophet worship, documented in 2 Kings 16:3, 21:6, 23:10 and Jeremiah 7:31, 19:5.",
+        "Asher yaladt li ('whom you bore to me') — the possessive is devastating. These are God's children, born from his covenant marriage. The wife sacrifices the husband's own children to her lovers.",
+        "The rhetorical question hame'at mittaznutayikh ('is it a small thing, your promiscuity?') suggests that everything before this — the shrines, the phallic images, the misused offerings — was already appalling, but child sacrifice crosses into a category beyond."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַתִּשְׁחֲטִ֖י אֶת־בָּנָ֑י וַתִּתְּנִ֖ים בְּהַעֲבִ֥יר אוֹתָ֖ם לָהֶֽם׃",
+      "text_kjv": "That thou hast slain my children, and delivered them to cause them to pass through the fire for them?",
+      "rendering": "You slaughtered my children and handed them over, making them pass through the fire to the idols.",
+      "translator_notes": [
+        "The verb shachat ('slaughter') is butchery language — the word used for slaughtering sacrificial animals (Leviticus 1:5, 11). Applying it to children intensifies the horror.",
+        "Beha'avir otam ('by making them pass through') — the hiphil of avar ('to pass over/through') with reference to fire is the technical term for the Molech ritual (cf. 2 Kings 16:3, 23:10, Deuteronomy 18:10). Whether children were literally burned alive or 'passed through' fire symbolically is debated, but Ezekiel's language — slaughtered and delivered — indicates literal death.",
+        "The shift from 'your children' (v. 20) to 'my children' (banai) makes the crime personal to God. These are not abstractions; they are God's own."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְאֵ֥ת כָּל־תּוֹעֲבֹתַ֖יִךְ וְתַזְנוּתָ֑יִךְ לֹ֤א זָכַרְתְּ֙ אֶת־יְמֵ֣י נְעוּרַ֔יִךְ בִּהְיוֹתֵ֗ךְ עֵרֹ֤ם וְעֶרְיָה֙ מִתְבּוֹסֶ֥סֶת בְּדָמֵ֖ךְ הָיִֽית׃",
+      "text_kjv": "And in all thine abominations and thy whoredoms thou hast not remembered the days of thy youth, when thou wast naked and bare, and wast polluted in thy blood.",
+      "rendering": "Through all your detestable acts and your promiscuity, you did not remember the days of your youth when you were naked and bare, kicking in your blood.",
+      "translator_notes": [
+        "The chapter circles back to the birth narrative of verses 4-6: you forgot where you came from. The foundling who was rescued from death now acts as though her beauty and status are self-made. The failure of memory (lo zakhart, 'you did not remember') is the root of the betrayal — gratitude requires memory, and Jerusalem has none.",
+        "Mitboseset bedamekh ('kicking in your blood') repeats the exact phrase from verse 6, creating an inclusio between the rescue and the ingratitude."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיְהִ֕י אַחֲרֵ֖י כָּל־רָעָתֵ֑ךְ א֣וֹי א֣וֹי לָ֔ךְ נְאֻ֖ם אֲדֹנָ֥י יְהוִֽה׃",
+      "text_kjv": "And it came to pass after all thy wickedness, (woe, woe unto thee! saith the Lord GOD;)",
+      "rendering": "After all your wickedness — woe, woe to you! declares the Lord GOD —",
+      "translator_notes": [
+        "The double oi oi ('woe, woe') is a prophetic lament-cry that erupts from the divine speech. The repetition intensifies the grief and fury. God is both judge and grieving husband.",
+        "This verse functions as a hinge between the catalog of sins (vv. 15-22) and the extended elaboration that follows (vv. 24-34)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַתִּבְנִי־לָ֖ךְ גֶּ֑ב וַתַּעֲשִׂי־לָ֥ךְ רָמָ֖ה בְּכָל־רְחוֹבֽ׃",
+      "text_kjv": "That thou hast also built unto thee an eminent place, and hast made thee an high place in every street:",
+      "rendering": "you built yourself a mound and made yourself a platform in every public square.",
+      "translator_notes": [
+        "Gev ('mound, vaulted chamber') and ramah ('raised platform, high place') refer to structures associated with prostitution or pagan worship — elevated places in public spaces where sexual rituals or idol worship occurred. The placement bekhol rechov ('in every public square') emphasizes the shamelessness: this is not hidden but flaunted in the most visible locations."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "אֶל־כָּל־רֹ֣אשׁ דֶּ֗רֶךְ בָּנִ֣ית רָמָתֵךְ֮ וַתְּתַעֲבִ֣י אֶת־יָפְיֵךְ֒ וַתְּפַשְּׂקִ֣י אֶת־רַגְלַ֔יִךְ לְכָל־עוֹבֵ֑ר וַתַּרְבִּ֖י אֶת־תַּזְנוּתָֽיִךְ׃",
+      "text_kjv": "Thou hast built thy high place at every head of the way, and hast made thy beauty to be abhorred, and hast opened thy feet to every one that passed by, and multiplied thy whoredoms.",
+      "rendering": "At the head of every road you built your platform and made your beauty an abomination. You spread your legs for every passerby and multiplied your acts of promiscuity.",
+      "translator_notes": [
+        "Vatefasqi et raglayikh lekhol over ('you spread your legs to every passerby') — the verb pasaq means 'to spread apart, to open wide.' The phrase is sexually explicit and anatomically specific. The Hebrew does not use euphemism here, and neither does the rendering.",
+        "Vateta'avi et yafyekh ('you made your beauty into an abomination') — the verb ta'av ('to make abominable') transforms beauty itself into a to'evah. What God bestowed as splendor (v. 14), Jerusalem has turned into something detestable.",
+        "The placement el kol rosh derekh ('at the head of every road') indicates that Jerusalem's prostitution is maximally visible — she positions herself where travelers cannot avoid her."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַתִּזְנִ֧י אֶל־בְּנֵי־מִצְרַ֛יִם שְׁכֵנַ֖יִךְ גִּדְלֵ֣י בָשָׂ֑ר וַתַּרְבִּ֥י אֶת־תַּזְנוּתֵ֖ךְ לְהַכְעִיסֵֽנִי׃",
+      "text_kjv": "Thou hast also committed fornication with the Egyptians thy neighbours, great of flesh; and hast increased thy whoredoms, to provoke me to anger.",
+      "rendering": "You prostituted yourself with the Egyptians, your neighbors, who are large of flesh, and you multiplied your promiscuity to provoke me.",
+      "translator_notes": [
+        "Gidlei vasar ('great of flesh') is a euphemism for large genitalia — a crude description of the Egyptians as sexually desirable because of their genital size. The same idiom appears more explicitly in 23:20. The language is deliberately vulgar; the prophet wants his audience to feel the degradation of Jerusalem's political alliances with Egypt.",
+        "The political referent is Judah's recurring attempts to form alliances with Egypt against Babylon (cf. 2 Kings 18:21, Isaiah 30:1-5, 31:1-3, Jeremiah 37:5-8). The prophetic tradition consistently condemns Egyptian alliances as both politically foolish and spiritually adulterous.",
+        "Lehakh'iseni ('to provoke me') — the verb ka'as means 'to provoke to anger, to vex.' The alliances are not merely unwise; they are personally offensive to God."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְהִנֵּ֨ה נָטִ֤יתִי יָדִי֙ עָלַ֔יִךְ וָאֶגְרַ֖ע חֻקֵּ֑ךְ וָאֶתְּנֵ֨ךְ בְּנֶ֤פֶשׁ שֹׂנְאוֹתַ֙יִךְ֙ בְּנ֣וֹת פְּלִשְׁתִּ֔ים הַנִּכְלָמ֖וֹת מִדַּרְכֵּ֥ךְ זִמָּֽה׃",
+      "text_kjv": "Behold, therefore I have stretched out my hand over thee, and have diminished thine ordinary food, and delivered thee unto the will of them that hate thee, the daughters of the Philistines, which are ashamed of thy lewd way.",
+      "rendering": "So I stretched out my hand against you and reduced your allotment, and I handed you over to the desire of those who hate you — the daughters of the Philistines — who were ashamed of your obscene conduct.",
+      "translator_notes": [
+        "Va'egra chuqqekh ('I reduced your allotment/portion') — the verb gara' means 'to diminish, to subtract.' The chuqqah is the designated portion or ration. God reduced what Jerusalem receives — a reference to territorial losses or reduced prosperity.",
+        "The daughters of the Philistines — the Philistine cities — are depicted as being ashamed (niklamot) of Jerusalem's behavior. When even pagan neighbors are embarrassed by your conduct, the degradation is complete.",
+        "Derekh zimmah ('your way of lewdness/obscenity') — zimmah is a strong word for sexual depravity, used in Leviticus 18:17, 19:29, 20:14 for the most serious sexual offenses."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַתִּזְנִי֙ אֶל־בְּנֵ֣י אַשּׁ֔וּר מִבִּלְתִּ֖י שָׂבְעָתֵ֑ךְ וַתִּזְנִ֕ים וְגַ֖ם לֹ֥א שָׂבָֽעַתְּ׃",
+      "text_kjv": "Thou hast played the whore also with the Assyrians, because thou wast unsatiable; yea, thou hast played the harlot with them, and yet couldest not be satisfied.",
+      "rendering": "You also prostituted yourself with the Assyrians because you were insatiable. You prostituted yourself with them, and still you were not satisfied.",
+      "translator_notes": [
+        "Mibbilti sav'atekh ('because you were not satisfied') — the language of sexual insatiability. Jerusalem's political promiscuity mirrors uncontrollable lust. The alliances with Assyria (2 Kings 16:7-8, where Ahaz paid tribute to Tiglath-Pileser) are depicted as a woman who cannot get enough lovers.",
+        "The repetition vatiznim vegam lo sava'at ('you prostituted yourself and still were not satisfied') creates a cycle of pursuit and frustration — no alliance, no foreign god, no lover satisfies."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַתַּרְבִּ֣י אֶת־תַּזְנוּתֵ֔ךְ אֶל־אֶ֥רֶץ כְּנַ֖עַן כַּשְׂדִּ֑ימָה וְגַם־בְּזֹ֖את לֹ֥א שָׂבָֽעַתְּ׃",
+      "text_kjv": "Thou hast moreover multiplied thy fornication in the land of Canaan unto Chaldea; and yet thou wast not satisfied herewith.",
+      "rendering": "You multiplied your promiscuity toward the land of Canaan and on to Chaldea, and even with this you were not satisfied.",
+      "translator_notes": [
+        "The geographical scope expands from Egypt (v. 26) to Assyria (v. 28) to Chaldea/Babylon — Jerusalem has pursued lovers across the entire known world. The phrase el erets Kena'an Kasdimah ('toward the land of Canaan, unto Chaldea') traces the route of her promiscuity from local Canaanite religion to the great empires.",
+        "The refrain vegam bezot lo sava'at ('and even with this you were not satisfied') echoes verse 28, establishing the insatiability as the defining characteristic of Jerusalem's unfaithfulness."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "מָ֤ה אֲמֻלָה֙ לִבָּתֵ֔ךְ נְאֻ֖ם אֲדֹנָ֣י יְהוִ֑ה בַּעֲשׂוֹתֵ֗ךְ אֶת־כָּל־אֵ֛לֶּה מַעֲשֵׂ֥ה אִשָּׁ֖ה זוֹנָ֥ה שַׁלָּֽטֶת׃",
+      "text_kjv": "How weak is thine heart, saith the Lord GOD, seeing thou doest all these things, the work of an imperious whorish woman;",
+      "rendering": "How fevered is your heart, declares the Lord GOD, when you do all these things — the deeds of a brazen prostitute!",
+      "translator_notes": [
+        "Mah amulah libbatekh ('how sick/fevered is your heart') — the word amulah is rare and debated. It may derive from a root meaning 'to be weak, sick, wasted' or 'to languish.' The 'heart' (libbah, feminine form) is the seat of will and desire, and here it is diseased — consumed by insatiable lust.",
+        "Ishah zonah shallateth ('a prostitute woman who is dominant/brazen') — the word shalleteth ('domineering, imperious, brazen') adds a layer to the prostitute image. This is not a desperate woman selling herself from poverty but a woman who aggressively controls the transaction."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "בִּבְנוֹתַ֤יִךְ גַּבֵּךְ֙ בְּרֹ֣אשׁ כָּל־דֶּ֔רֶךְ וְרָמָתֵ֣ךְ עָשִׂ֔יתִ בְּכָל־רְח֑וֹב וְלֹא־הָיִ֥יתִ כַּזּוֹנָ֖ה לְקַלֵּ֥ס אֶתְנָֽן׃",
+      "text_kjv": "In that thou buildest thine eminent place in the head of every way, and makest thine high place in every street; and hast not been as an harlot, in that thou scornest hire;",
+      "rendering": "When you built your mound at the head of every road and made your platform in every public square, you were not even like a regular prostitute — because you scorned payment.",
+      "translator_notes": [
+        "The devastating comparison: Jerusalem is worse than an ordinary prostitute because she leqalles etnan ('scorns/mocks the payment'). A prostitute at least receives payment for her services; Jerusalem pays her clients. This inverts the economics of prostitution entirely.",
+        "The etnan ('prostitute's hire') is a technical term for the fee paid to a sex worker (cf. Deuteronomy 23:19, Hosea 9:1, Micah 1:7). Jerusalem's refusal to accept it means she is driven by lust, not commerce."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "הָאִשָּׁ֖ה הַמְּנָאָ֑פֶת תַּ֣חַת אִישָׁ֔הּ תִּקַּ֖ח אֶת־זָרִֽים׃",
+      "text_kjv": "But as a wife that committeth adultery, which taketh strangers instead of her husband!",
+      "rendering": "You adulterous wife! You take strangers instead of your husband!",
+      "translator_notes": [
+        "Ha'ishah hamena'afet ('the adulterous wife') — the participle form indicates a habitual state, not a single act. This woman is defined by adultery. The preposition tachat ('instead of, in place of') is key: she takes zarim ('strangers, foreigners') in place of her husband. The covenant partner is replaced by outsiders.",
+        "The shift from 'prostitute' (zonah) to 'adulteress' (mena'efet) narrows the moral category: this is not a single woman selling sex but a married woman betraying her husband. The covenant is the marriage."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "לְכָל־זֹנ֖וֹת יִתְּנ֣וּ נֵ֑דֶה וְאַ֨תְּ נָתַ֤תְּ אֶת־נְדָנַ֙יִךְ֙ לְכָל־מְאַהֲבַ֔יִךְ וַתִּשְׁחֳדִ֣י אוֹתָ֗ם לָב֤וֹא אֵלַ֙יִךְ֙ מִסָּבִ֔יב בְּתַזְנוּתָֽיִךְ׃",
+      "text_kjv": "They give gifts to all whores: but thou givest thy gifts to all thy lovers, and hirest them, that they may come unto thee on every side for thy whoredom.",
+      "rendering": "All prostitutes receive gifts, but you — you gave your gifts to all your lovers, bribing them to come to you from all around for your acts of promiscuity.",
+      "translator_notes": [
+        "The reversal is stated explicitly: ordinary prostitutes are paid (yittenu nedeh, 'they give a fee'); Jerusalem pays (nattatt et nedanayikh, 'you gave your fees'). The word nedeh/nedan ('gift, fee, payment') refers to the client's payment to a prostitute. Jerusalem takes the client's role, paying her lovers to come.",
+        "Vatishchodi otam ('you bribed them') — the verb shachad means 'to bribe,' a term associated with corruption of justice (Exodus 23:8, Deuteronomy 16:19). The political alliances cost Jerusalem dearly — tribute, territory, and sovereignty — all given away to attract foreign 'lovers.'"
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיְהִי־בָ֣ךְ הֵ֔פֶךְ מִן־הַנָּשִׁ֖ים בְּתַזְנוּתָ֑יִךְ וְאַחֲרַ֙יִךְ֙ לֹ֣א זוּנָּ֔ה וּבְתִתֵּ֣ךְ אֶתְנָ֗ן וְאֶתְנַן֙ לֹ֣א נִתַּן־לָ֔ךְ וַתְּהִ֖י לְהֶֽפֶךְ׃",
+      "text_kjv": "And the contrary is in thee from other women in thy whoredoms, whereas none followeth thee to commit whoredoms: and in that thou givest a reward, and no reward is given unto thee, therefore thou art contrary.",
+      "rendering": "You are the opposite of other women in your promiscuity — no one solicited you. You gave payment, and no payment was given to you. You are the reverse of everything normal.",
+      "translator_notes": [
+        "Hefekh ('opposite, contrary, reversal') frames the entire comparison. Jerusalem inverts every norm: she pursues rather than being pursued, she pays rather than being paid, she is insatiable rather than reluctant. The word hefekh appears at both the beginning and end of the verse, creating an envelope of reversal.",
+        "The threefold inversion — (1) no one solicited her, (2) she gave payment, (3) no payment was given to her — systematically demolishes any claim that Jerusalem was coerced into idolatry. Her sin is entirely self-driven."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "לָכֵ֖ן זוֹנָ֑ה שִׁמְעִ֖י דְּבַר־יְהוָֽה׃",
+      "text_kjv": "Wherefore, O harlot, hear the word of the LORD:",
+      "rendering": "Therefore, you prostitute, hear the word of the LORD!",
+      "translator_notes": [
+        "The sentence of judgment begins with a direct address: zonah ('prostitute'). God calls Jerusalem by what she has become. The imperative shim'i ('hear!') is the covenant-hearing command (cf. Deuteronomy 6:4) now turned into a summons to judgment."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "כֹּֽה־אָמַ֣ר אֲדֹנָ֣י יְהוִ֗ה יַ֤עַן הִשָּׁפֵ֣ךְ נְחֻשְׁתֵּךְ֮ וַתִּגָּלֶ֣ה עֶרְוָתֵ֣ךְ בְּתַזְנוּתַ֣יִךְ עַל־מְאַהֲבָ֒יִךְ וְעַ֨ל כָּל־גִּלּוּלֵ֤י תוֹעֲבוֹתַ֙יִךְ֙ וְכִדְמֵ֣י בָנַ֔יִךְ אֲשֶׁ֥ר נָתַ֖תְּ לָהֶֽם׃",
+      "text_kjv": "Thus saith the Lord GOD; Because thy filthiness was poured out, and thy nakedness discovered through thy whoredoms with thy lovers, and with all the idols of thy abominations, and by the blood of thy children, which thou didst give unto them;",
+      "rendering": "This is what the Lord GOD says: Because your lust was poured out and your nakedness was exposed through your promiscuity with your lovers, and because of all your detestable idols, and because of the blood of your children that you gave to them —",
+      "translator_notes": [
+        "Nechushtek ('your lust/lewdness' or possibly 'your copper/money') — the word is debated. Some derive it from a root meaning 'bronze, copper' (referring to money spent on lovers); others relate it to a root meaning 'fluid, discharge' (referring to sexual arousal). The ambiguity may be intentional. We render as 'your lust' to capture the sexual dimension.",
+        "Vatiggaleh ervatekh ('your nakedness was uncovered') — ervah ('nakedness') in Levitical usage specifically refers to the genitals and the shame of their exposure (Leviticus 18, 20). Jerusalem has exposed herself to every nation.",
+        "The three charges are summarized: (1) sexual promiscuity with foreign nations, (2) idol worship, (3) child sacrifice. These are the grounds for the sentence that follows."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "לָכֵ֗ן הִנְנִ֤י מְקַבֵּץ֙ אֶת־כָּל־מְאַ֣הֲבַ֔יִךְ אֲשֶׁ֥ר עָרַ֖בְתְּ עֲלֵיהֶ֑ם וְאֵ֨ת כָּל־אֲשֶׁ֤ר אָהַבְתְּ֙ עַ֣ל כָּל־אֲשֶׁ֣ר שָׂנֵ֔את וְקִבַּצְתִּ֤י אֹתָם֙ עָלַ֣יִךְ מִסָּבִ֔יב וְגִלֵּיתִ֤י עֶרְוָתֵךְ֙ אֲלֵהֶ֔ם וְרָא֖וּ אֶת־כָּל־עֶרְוָתֵֽךְ׃",
+      "text_kjv": "Behold, therefore I will gather all thy lovers, with whom thou hast taken pleasure, and all them that thou hast loved, with all them that thou hast hated; I will even gather them round about against thee, and will discover thy nakedness unto them, that they may see all thy nakedness.",
+      "rendering": "therefore I am gathering all your lovers with whom you found pleasure, and all those you loved along with all those you hated. I will gather them against you from every side and strip you naked before them, and they will see all your nakedness.",
+      "translator_notes": [
+        "The punishment fits the crime with brutal precision: the lovers Jerusalem pursued will be assembled to witness her humiliation. God will do publicly what Jerusalem did voluntarily — expose her nakedness (gilleiti ervatekh, 'I will uncover your nakedness'). But now the exposure is shame, not seduction.",
+        "The inclusion of 'all those you hated' alongside 'all those you loved' ensures comprehensive judgment — even nations Jerusalem spurned will participate in her humiliation.",
+        "The language mirrors ancient Near Eastern treaty-curse punishments for vassal states that broke loyalty oaths — public stripping and humiliation before assembled witnesses."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וּשְׁפַטְתִּיךְ֙ מִשְׁפְּטֵ֣י נֹאֲפ֔וֹת וְשֹׁפְכֹ֖ת דָּ֑ם וּנְתַתִּ֖יךְ דַּ֥ם חֵמָ֖ה וְקִנְאָֽה׃",
+      "text_kjv": "And I will judge thee, as women that break wedlock and shed blood are judged; and I will give thee blood in fury and jealousy.",
+      "rendering": "I will sentence you as women who commit adultery and shed blood are sentenced, and I will bring upon you the blood of wrath and jealousy.",
+      "translator_notes": [
+        "Mishpetei no'afot veshofkhot dam ('the sentences of adulteresses and shedders of blood') — two capital offenses under Israelite law: adultery (Leviticus 20:10, Deuteronomy 22:22) and murder (Exodus 21:12). Jerusalem is guilty of both.",
+        "Dam chemah veqin'ah ('blood of wrath and jealousy') — God's response is framed as a jealous husband's fury. The qin'ah ('jealousy') is the same word used for God's jealousy in the Decalogue (Exodus 20:5) — the intense possessiveness of a covenant partner who will not share what belongs to him."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְנָתַתִּ֨י אוֹתָ֜ךְ בְּיָדָ֗ם וְהָרְס֤וּ גַּבֵּךְ֙ וְנִתְּצ֣וּ רָמֹתַ֔יִךְ וְהִפְשִׁ֤יטוּ אוֹתָךְ֙ בְּגָדַ֔יִךְ וְלָקְח֖וּ כְּלֵ֣י תִפְאַרְתֵּ֑ךְ וְהִנִּיח֖וּךְ עֵירֹ֥ם וְעֶרְיָֽה׃",
+      "text_kjv": "And I will also give thee into their hand, and they shall throw down thine eminent place, and shall break down thy high places: they shall strip thee also of thy clothes, and shall take thy fair jewels, and leave thee naked and bare.",
+      "rendering": "I will hand you over to them, and they will tear down your mound and demolish your platforms. They will strip off your clothing and take your beautiful jewelry and leave you naked and bare.",
+      "translator_notes": [
+        "The stripping reverses the adornment sequence of verses 10-13: the clothing (begadayikh, v. 10) and the jewelry (kelei tif'artekh, vv. 11-12) that God gave are taken away. The bride is returned to the nakedness of verse 7 — erom ve'eryah ('naked and bare'), the exact same phrase.",
+        "The demolition of the gev ('mound') and ramot ('platforms') from verse 24 completes the destruction of the sites of prostitution."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וְהֶעֱל֤וּ עָלַ֙יִךְ֙ קָהָ֔ל וְרָגְמ֥וּ אוֹתָ֖ךְ בָּאָ֑בֶן וּבִתְּק֖וּךְ בְּחַרְבוֹתָֽם׃",
+      "text_kjv": "They shall also bring up a company against thee, and they shall stone thee with stones, and thrust thee through with their swords.",
+      "rendering": "They will bring a mob against you and stone you, and they will hack you to pieces with their swords.",
+      "translator_notes": [
+        "The punishment for adultery under Israelite law was stoning (Leviticus 20:10, Deuteronomy 22:22-24). The additional sword violence (bittequkh becharvotam, literally 'they will cut you with their swords') goes beyond legal execution into the brutality of mob violence.",
+        "This reflects ancient Near Eastern treaty-curse language — the punishments prescribed for vassal states that broke loyalty oaths to their suzerain. The violence is not prescribed as normative domestic punishment but as the consequence of covenant betrayal on a national scale."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וְשָׂרְפ֤וּ בָתַּ֙יִךְ֙ בָּאֵ֔שׁ וְעָשׂוּ־בָ֣ךְ שְׁפָטִ֔ים לְעֵינֵ֖י נָשִׁ֣ים רַבּ֑וֹת וְהִשְׁבַּתִּ֙יךְ֙ מִזּוֹנָ֔ה וְגַם־אֶתְנַ֖ן לֹ֥א תִתְּנִי־עֽוֹד׃",
+      "text_kjv": "And they shall burn thine houses with fire, and execute judgments upon thee in the sight of many women: and I will cause thee to cease from playing the harlot, and thou also shalt give no hire any more.",
+      "rendering": "They will burn your houses with fire and execute judgments against you before the eyes of many women. I will put an end to your prostitution, and you will never again pay your lovers.",
+      "translator_notes": [
+        "Le'einei nashim rabboth ('before the eyes of many women') — the other nations (depicted as women) will witness Jerusalem's punishment as a public spectacle and a warning. The humiliation is communal.",
+        "Vehishbattikh mizzonah ('I will cause you to cease from prostitution') — the forced cessation of promiscuity is not repentance but incapacitation. Jerusalem stops sinning not because she has changed but because she has been destroyed. True restoration will come only in verses 60-63."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וַהֲנִחֹתִ֤י חֲמָתִי֙ בָּ֔ךְ וְסָ֥רָה קִנְאָתִ֖י מִמֵּ֑ךְ וְשָׁ֣קַטְתִּ֔י וְלֹ֥א אֶכְעַ֖ס עֽוֹד׃",
+      "text_kjv": "So will I make my fury toward thee to rest, and my jealousy shall depart from thee, and I will be quiet, and will be no more angry.",
+      "rendering": "Then I will exhaust my wrath against you, and my jealousy will turn away from you. I will be calm and no longer angry.",
+      "translator_notes": [
+        "Vahanichoti chamati bakh ('I will cause my wrath to rest in/against you') — the verb nuach ('to rest') is used for wrath 'settling' or 'being spent.' The wrath does not simply stop; it is fully discharged. God's anger is not capricious but measured — it has a limit.",
+        "Vesarah qin'ati ('my jealousy will depart') — the jealousy that drove the punishment (v. 38) is satisfied. The theological point is significant: God's wrath is not eternal but purposeful, aimed at a specific end."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "יַ֗עַן אֲשֶׁ֤ר לֹֽא־זָכַרְתְּ֙ אֶת־יְמֵ֣י נְעוּרַ֔יִךְ וַתִּרְגְּזִי־לִ֖י בְּכָל־אֵ֑לֶּה וְגַם־אֲנִ֤י הֵא֙ דַּרְכֵּ֣ךְ בְּרֹ֣אשׁ נָתַ֔תִּי נְאֻ֖ם אֲדֹנָ֥י יְהוִ֑ה וְלֹ֤א עָשִׂיתִ֙ אֶת־הַזִּמָּ֔ה עַ֖ל כָּל־תּוֹעֲבוֹתָֽיִךְ׃",
+      "text_kjv": "Because thou hast not remembered the days of thy youth, but hast fretted me in all these things; behold, therefore I also will recompense thy way upon thine head, saith the Lord GOD: and thou shalt not commit this lewdness above all thine abominations.",
+      "rendering": "Because you did not remember the days of your youth and you enraged me with all these things — I in turn have brought your conduct down on your own head, declares the Lord GOD. Did you not add obscenity to all your detestable acts?",
+      "translator_notes": [
+        "Darkeikh berosh natatti ('I have given your way/conduct upon your head') — the principle of retributive correspondence: the punishment falls on the same head that devised the crime. The Hebrew concept of consequences 'returning to the head' appears throughout the prophets (cf. Joel 3:4, 7; Obadiah 15).",
+        "The final rhetorical question velo asit et hazimmah al kol to'avotayikh ('did you not do obscenity on top of all your abominations?') may also be read as a statement: 'you have not committed this lewdness on top of all your abominations' — meaning the judgment will prevent further sin. The Hebrew is ambiguous, and we preserve the interrogative reading."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "הִנֵּ֛ה כָּל־הַמֹּשֵׁ֥ל עָלַ֖יִךְ יִמְשֹׁ֣ל לֵאמֹ֑ר כְּאִמָּ֖ה בִּתָּֽהּ׃",
+      "text_kjv": "Behold, every one that useth proverbs shall use this proverb against thee, saying, As is the mother, so is her daughter.",
+      "rendering": "Everyone who quotes proverbs will quote this one about you: 'Like mother, like daughter.'",
+      "translator_notes": [
+        "The proverb ke'immah bittah ('like her mother, her daughter') introduces the next section, which traces Jerusalem's family resemblance to her Canaanite 'mother' and her 'sisters' Samaria and Sodom. The genetic metaphor extends the foundling allegory: Jerusalem's behavior reveals her true parentage.",
+        "Hamoshel ('the one who quotes proverbs') uses the root mashal, the same word used for the 'byword' Jerusalem has become (14:8)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "בַּת־אִמֵּ֣ךְ אַ֔תְּ גֹּעֶ֥לֶת אִישָׁ֖הּ וּבָנֶ֑יהָ וַאֲח֤וֹת אֲחוֹתַ֙יִךְ֙ אַ֔תְּ אֲשֶׁ֥ר גָּעֲל֛וּ אַנְשֵׁיהֶ֖ן וּבְנֵיהֶ֑ן אִמְּכֶ֣ן חִתִּ֔ית וַאֲבִיכֶ֖ן אֱמֹרִֽי׃",
+      "text_kjv": "Thou art thy mother's daughter, that lotheth her husband and her children; and thou art the sister of thy sisters, which lothed their husbands and their children: your mother was an Hittite, and your father an Amorite.",
+      "rendering": "You are your mother's daughter — she who despised her husband and her children. And you are the sister of your sisters, who despised their husbands and their children. Your mother was a Hittite and your father an Amorite.",
+      "translator_notes": [
+        "The 'mother' is the pre-Israelite Canaanite population of Jerusalem (v. 3). The 'sisters' are Samaria (the northern kingdom) and Sodom. All share the same Canaanite parentage in the allegory. The verb ga'al ('to despise, to loathe') echoes the loathing of verse 5, where the birth-parents despised the newborn.",
+        "The family tree is devastating: Jerusalem belongs to a lineage of women who destroy their families. She is not the exception but the pattern."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וַאֲחוֹתֵ֨ךְ הַגְּדוֹלָ֤ה שֹֽׁמְרוֹן֙ הִ֣יא וּבְנוֹתֶ֔יהָ הַיּוֹשֶׁ֖בֶת עַל־שְׂמֹאולֵ֑ךְ וַאֲחוֹתֵ֞ךְ הַקְּטַנָּ֣ה מִמֵּ֗ךְ הַיּוֹשֶׁ֙בֶת֙ מִֽימִינֵ֔ךְ סְדֹ֖ם וּבְנוֹתֶֽיהָ׃",
+      "text_kjv": "And thine elder sister is Samaria, she and her daughters that dwell at thy left hand: and thy younger sister, that dwelleth at thy right hand, is Sodom and her daughters.",
+      "rendering": "Your older sister is Samaria, who lives to your north with her daughters, and your younger sister who lives to your south is Sodom with her daughters.",
+      "translator_notes": [
+        "The directional terms are translated for clarity: 'left' (semo'l) = north and 'right' (yamin) = south when facing east (the default Hebrew orientation). Samaria is north of Jerusalem; Sodom's traditional location is south, near the Dead Sea.",
+        "The 'daughters' of each city are the surrounding towns and villages in their respective regions. Samaria as the 'older' sister and Sodom as the 'younger' creates a family hierarchy where Jerusalem is the middle child — and the worst of the three."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וְלֹ֤א בְדַרְכֵיהֶן֙ הָלַ֔כְתְּ וּבְתוֹעֲבֽוֹתֵיהֶ֖ן עָשִׂ֑ית כִּמְעַ֣ט קָ֔ט וַתַּשְׁחִ֥תִי מֵהֵ֖ן בְּכָל־דְּרָכָֽיִךְ׃",
+      "text_kjv": "Yet hast thou not walked after their ways, nor done after their abominations: but, as if that were a very little thing, thou wast corrupted more than they in all thy ways.",
+      "rendering": "You did not merely walk in their ways or imitate their detestable acts — as if that were not enough — you became more corrupt than they were in all your ways.",
+      "translator_notes": [
+        "Kim'at qat ('as though it were a small thing, a trifle') — Jerusalem did not merely equal her sisters' wickedness; she surpassed them. The comparison escalates through the next several verses.",
+        "Vatashchiti mehen ('you became more corrupt than they') — the hiphil of shachat ('to corrupt, to destroy') indicates active, worsening degradation. Jerusalem outdid both Samaria and Sodom."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "חַי־אָ֕נִי נְאֻ֖ם אֲדֹנָ֣י יְהוִ֑ה אִם־עָֽשְׂתָה֙ סְדֹ֣ם אֲחוֹתֵ֔ךְ הִ֣יא וּבְנוֹתֶ֔יהָ כַּאֲשֶׁ֥ר עָשִׂ֖ית אַ֥תְּ וּבְנוֹתָֽיִךְ׃",
+      "text_kjv": "As I live, saith the Lord GOD, Sodom thy sister hath not done, she nor her daughters, as thou hast done, thou and thy daughters.",
+      "rendering": "As I live, declares the Lord GOD, your sister Sodom and her daughters never did what you and your daughters have done.",
+      "translator_notes": [
+        "The oath formula chai ani ('as I live') again — God swears by his own life that Sodom, the proverbial wicked city (Genesis 18-19), was less sinful than Jerusalem. This is a staggering reversal of the conventional moral hierarchy.",
+        "The comparison with Sodom would have been deeply offensive to Ezekiel's audience. Sodom was the byword for divine destruction (Deuteronomy 29:23, Isaiah 1:9-10). To be told that Sodom is the better sister is devastating."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "הִנֵּה־זֶ֣ה הָיָ֔ה עֲוֺ֖ן סְדֹ֣ם אֲחוֹתֵ֑ךְ גָּא֨וֹן שִׂבְעַת־לֶ֜חֶם וְשַׁלְוַ֣ת הַשְׁקֵ֗ט הָ֤יָה לָהּ֙ וְלִבְנוֹתֶ֔יהָ וְיַד־עָנִ֥י וְאֶבְי֖וֹן לֹ֥א הֶחֱזִֽיקָה׃",
+      "text_kjv": "Behold, this was the iniquity of thy sister Sodom, pride, fulness of bread, and abundance of idleness, was in her and in her daughters, neither did she strengthen the hand of the poor and needy.",
+      "rendering": "This was the guilt of your sister Sodom: she and her daughters had arrogance, excess of food, and complacent ease, but she did not support the poor and needy.",
+      "translator_notes": [
+        "Ezekiel's identification of Sodom's sin is remarkable: not sexual immorality (the dominant reading from Genesis 19) but ga'on ('arrogance, pride'), siv'at lechem ('excess of food, surplus'), shalvat hashqet ('complacent ease, undisturbed quiet'), and failure to help the poor (veyad ani ve'evyon lo hecheziqah). This is a social justice indictment, not a sexual morality indictment.",
+        "This interpretation of Sodom's sin aligns with Isaiah 1:10-17 (where 'rulers of Sodom' are condemned for neglecting justice) and was preserved in rabbinic tradition (e.g., Pirke Avot 5:10, Sanhedrin 109a). Jesus echoes this reading in Matthew 10:14-15, where Sodom's sin is inhospitality.",
+        "The inclusion of daughters who share the mother-city's guilt extends the familial pattern: corruption is intergenerational."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "וַתִּגְבְּהֶ֔ינָה וַתַּעֲשֶׂ֥ינָה תוֹעֵבָ֖ה לְפָנָ֑י וָאָסִ֥יר אֶתְהֶ֖ן כַּאֲשֶׁ֥ר רָאִֽיתִי׃",
+      "text_kjv": "And they were haughty, and committed abomination before me: therefore I took them away as I saw good.",
+      "rendering": "They became arrogant and committed detestable acts before me, so I removed them when I saw it.",
+      "translator_notes": [
+        "Vatigbeheinah ('they became haughty/exalted themselves') continues the pride-language of verse 49. The to'evah ('detestable act') committed before God (lefanai, 'before my face') suggests the sin was done brazenly, without concealment.",
+        "Va'asir ethen ka'asher ra'iti ('I removed them as I saw fit' or 'when I saw it') — the Hebrew can mean either 'as I deemed right' or 'when I witnessed it.' Both readings work: God removed Sodom either because he judged it fitting or because he could no longer look away."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "וְשֹׁ֣מְר֔וֹן כַּחֲצִ֥י חַטֹּאתַ֖יִךְ לֹ֣א חָטָ֑אָה וַתַּרְבִּ֤י אֶת־תּוֹעֲבוֹתַ֙יִךְ֙ מֵהֵ֔נָּה וַתְּצַדְּקִ֣י אֶת־אֲחוֹתַ֔יִךְ בְּכָל־תּוֹעֲבוֹתַ֖יִךְ אֲשֶׁ֥ר עָשִֽׂית׃",
+      "text_kjv": "Neither hath Samaria committed half of thy sins; but thou hast multiplied thine abominations more than they, and hast justified thy sisters in all thine abominations which thou hast done.",
+      "rendering": "Samaria did not commit even half your sins. You multiplied your detestable acts beyond theirs, and you made your sisters appear righteous by comparison through all the detestable things you have done.",
+      "translator_notes": [
+        "Vatetsadqi et achotayikh ('you made your sisters righteous') — the piel of tsadaq means 'to declare righteous, to justify.' Jerusalem's extreme wickedness has the ironic effect of making Samaria and Sodom look righteous by comparison. This is not a vindication of Samaria and Sodom but an indictment of Jerusalem's extraordinary depravity.",
+        "Kachatsi chatto'tayikh lo chata'ah ('she did not sin even half your sins') — a quantitative comparison that would have been humiliating to the Judean audience, who considered themselves superior to the fallen northern kingdom."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "גַּם־אַ֣תְּ ׀ שְׂאִ֣י כְלִמָּתֵ֗ךְ אֲשֶׁ֤ר פִּלַּלְתְּ֙ לַאֲחוֹתֵ֔ךְ בְּחַטֹּאתַ֗יִךְ אֲשֶׁר־הִתְעַ֤בְתְּ מֵהֵן֙ תִּצְדַּ֣קְנָה מִמֵּ֔ךְ וְגַם־אַ֣תְּ בּ֔וֹשִׁי וּשְׂאִ֖י כְלִמָּתֵ֑ךְ בְּצַדֶּקְתֵּ֖ךְ אֶת־אַחְיוֹתָֽיִךְ׃",
+      "text_kjv": "Thou also, which hast judged thy sisters, bear thine own shame for thy sins that thou hast committed more abominable than they: they are more righteous than thou: yea, be thou confounded also, and bear thy shame, in that thou hast justified thy sisters.",
+      "rendering": "You too — bear your disgrace, you who judged your sisters. Through your sins, in which you acted more detestably than they, they appear more righteous than you. So be ashamed and bear your disgrace, since you have made your sisters look righteous.",
+      "translator_notes": [
+        "Se'i klimmatekh ('bear your disgrace') — the verb nasa ('to bear, carry') with klimmah ('disgrace, shame, humiliation') means Jerusalem must carry the weight of her own shame. There is no one else to blame.",
+        "The logic is precise: Jerusalem judged Samaria and Sodom (pilaltt la'achotekh, 'you passed judgment on your sisters'), but her own sins exceed theirs, so the judgment rebounds. The one who condemns others is condemned by her own standard — a principle Jesus invokes in Matthew 7:1-2."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "וְשַׁבְתִּ֣י אֶת־שְׁבִיתָ֗ן אֶת־שְׁבִ֤ית סְדֹם֙ וּבְנוֹתֶ֔יהָ וְאֶת־שְׁבִ֥ית שֹׁמְר֖וֹן וּבְנוֹתֶ֑יהָ וּשְׁבִ֥ית שְׁבִיתַ֖יִךְ בְּתוֹכָֽהְנָה׃",
+      "text_kjv": "When I shall bring again their captivity, the captivity of Sodom and her daughters, and the captivity of Samaria and her daughters, then will I bring again the captivity of thy captives in the midst of them:",
+      "rendering": "I will restore their fortunes — the fortunes of Sodom and her daughters, and the fortunes of Samaria and her daughters — and I will restore your fortunes along with theirs,",
+      "translator_notes": [
+        "Veshavti et shevitan ('I will restore their captivity/fortunes') — the phrase shuv shevut can mean either 'return the captives' or 'restore the fortunes.' The broader meaning ('restore fortunes') is likely here, since Sodom was destroyed by fire, not taken captive.",
+        "The inclusion of Sodom's restoration is theologically startling — a city annihilated by divine fire will have its fortunes restored. Some interpreters read this as rhetorical hyperbole (meaning 'never'), but the plain statement promises restoration. Jerusalem's restoration will come only alongside and in the same category as the restoration of Sodom and Samaria — a deeply humbling framing."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 54,
+      "text_hebrew": "לְמַ֙עַן֙ תִּשְׂאִ֣י כְלִמָּתֵ֔ךְ וְנִכְלַ֕מְתְּ מִכֹּ֖ל אֲשֶׁ֣ר עָשִׂ֑ית בְּנַחֲמֵ֖ךְ אוֹתָֽן׃",
+      "text_kjv": "That thou mayest bear thine own shame, and mayest be confounded in all that thou hast done, in that thou art a comfort unto them.",
+      "rendering": "so that you will bear your disgrace and be ashamed of everything you have done, since you have been a consolation to them.",
+      "translator_notes": [
+        "Benachamekh otan ('in that you console them') — the verb nacham ('to comfort, console') here has an ironic edge: Jerusalem 'consoles' Sodom and Samaria by making them feel better about their own sins. When Jerusalem's wickedness exceeds theirs, the disgraced sisters can take comfort in comparison."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 55,
+      "text_hebrew": "וַאֲחוֹתַ֗יִךְ סְדֹ֤ם וּבְנוֹתֶ֙יהָ֙ תָּשֹׁ֣בְנָה לְקַדְמָתָ֔ן וְשֹׁמְר֣וֹן וּבְנוֹתֶ֔יהָ תָּשֹׁ֖בְנָה לְקַדְמָתָ֑ן וְאַ֣תְּ וּבְנוֹתַ֔יִךְ תָּשֹׁ֖בְנָה לְקַדְמַתְכֶֽן׃",
+      "text_kjv": "When thy sisters, Sodom and her daughters, shall return to their former estate, and Samaria and her daughters shall return to their former estate, then thou and thy daughters shall return to your former estate.",
+      "rendering": "Your sisters Sodom and her daughters will return to their former state, and Samaria and her daughters will return to their former state, and you and your daughters will return to your former state.",
+      "translator_notes": [
+        "Tashovnah leqadmatan ('they will return to their former condition') — the verb shuv ('return') and the noun qadmah ('former state, original condition') promise restoration to a pre-judgment status. The threefold parallel structure treats all three 'sisters' identically — they rise or fall together."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 56,
+      "text_hebrew": "וְל֤וֹא הָיְתָה֙ סְדֹ֣ם אֲחוֹתֵ֔ךְ לִשְׁמוּעָ֖ה בְּפִ֑יךְ בְּי֖וֹם גְּאוֹנָֽיִךְ׃",
+      "text_kjv": "For thy sister Sodom was not mentioned by thy mouth in the day of thy pride,",
+      "rendering": "Was not your sister Sodom a byword in your mouth in the days of your arrogance,",
+      "translator_notes": [
+        "Lishmu'ah befikh ('a report/byword in your mouth') — Jerusalem used Sodom's name as a curse word, a cautionary tale, a synonym for depravity. The irony is that Jerusalem now surpasses the city she mocked.",
+        "Beyom ge'onayikh ('in the day of your pride/arrogance') — the same ga'on ('pride') that defined Sodom's sin (v. 49) also characterized Jerusalem. They share the same fault."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 57,
+      "text_hebrew": "בְּטֶ֙רֶם֙ תִּגָּלֶ֣ה רָעָתֵ֔ךְ כְּמ֗וֹ עֵ֚ת חֶרְפַּ֣ת בְּנוֹת־אֲרָ֔ם וְכָל־סְבִיבוֹתֶ֖יהָ בְּנ֣וֹת פְּלִשְׁתִּ֑ים הַשָּׁאט֥וֹת אוֹתָ֖ךְ מִסָּבִֽיב׃",
+      "text_kjv": "Before thy wickedness was discovered, as at the time of thy reproach of the daughters of Syria, and all that are round about her, the daughters of the Philistines, which despise thee round about.",
+      "rendering": "before your wickedness was exposed? Now you are the object of scorn by the daughters of Aram and all her neighbors, and by the daughters of the Philistines — those who despise you on every side.",
+      "translator_notes": [
+        "Beterem tiggaleh ra'atekh ('before your wickedness was uncovered') — there was a time when Jerusalem looked down on others. Now the tables have turned: the daughters of Aram (Syria) and the daughters of the Philistines scorn Jerusalem.",
+        "Hasha'atot otakh missaviv ('those who despise you from every direction') — the same nations Jerusalem once mocked now despise her in return. The reversal is complete."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 58,
+      "text_hebrew": "אֶת־זִמָּתֵ֥ךְ וְאֶת־תּוֹעֲבוֹתַ֖יִךְ אַ֣תְּ נְשָׂאתִ֑ים נְאֻ֖ם יְהוָֽה׃",
+      "text_kjv": "Thou hast borne thy lewdness and thine abominations, saith the LORD.",
+      "rendering": "You have borne the consequences of your obscenity and your detestable acts, declares the LORD.",
+      "translator_notes": [
+        "At nesa'tim ('you have borne them') — the verb nasa ('to bear, carry') with zimmah ('obscenity, lewdness') and to'avot ('detestable acts') indicates that Jerusalem is carrying the full weight of her own crimes. The sentence has been executed.",
+        "This verse uses YHWH alone (ne'um YHWH) rather than the usual compound Adonai YHWH — a minor textual variation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 59,
+      "text_hebrew": "כִּ֣י כֹ֤ה אָמַר֙ אֲדֹנָ֣י יְהוִ֔ה וְעָשִׂ֥יתִ אוֹתָ֖ךְ כַּאֲשֶׁ֣ר עָשִׂ֑ית אֲשֶׁר־בָּזִ֥ית אָלָ֖ה לְהָפֵ֥ר בְּרִֽית׃",
+      "text_kjv": "For thus saith the Lord GOD; I will even deal with thee as thou hast done, which hast despised the oath in breaking the covenant.",
+      "rendering": "For this is what the Lord GOD says: I will deal with you as you have dealt with me — you who despised the oath by breaking the covenant.",
+      "translator_notes": [
+        "The transitional verse: God will treat Jerusalem as she treated him. The alah ('oath, sworn curse') is the oath sworn at the covenant ratification — the self-curse invoked upon oneself if the covenant is broken. Jerusalem bazit alah ('despised the oath'), treating the most solemn commitment in human experience as worthless.",
+        "Lehafer berit ('to break/annul the covenant') — the verb hafer means 'to frustrate, annul, make void.' The covenant was not merely neglected but actively voided."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אָלָה",
+          "transliteration": "alah",
+          "rendered_as": "oath",
+          "semantic_range": "oath, curse, sworn imprecation, covenant oath",
+          "note": "The self-maledictory oath sworn at covenant ratification — the party invokes curses upon themselves should they break the agreement. Despising the alah means treating one's own sworn curse as meaningless."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 60,
+      "text_hebrew": "וְזָכַרְתִּ֣י אֲנִ֗י אֶת־בְּרִיתִי֙ אוֹתָ֔ךְ בִּימֵ֖י נְעוּרָ֑יִךְ וַהֲקִמוֹתִ֥י לָ֖ךְ בְּרִ֥ית עוֹלָֽם׃",
+      "text_kjv": "Nevertheless I will remember my covenant with thee in the days of thy youth, and I will establish unto thee an everlasting covenant.",
+      "rendering": "Yet I will remember my covenant with you in the days of your youth, and I will establish for you an everlasting covenant.",
+      "expanded_rendering": "The word zacharti ('I will remember') is not merely cognitive recall but covenantal action — when God 'remembers' a covenant, he acts on it (cf. Genesis 8:1, Exodus 2:24). The berit olam ('everlasting covenant') transcends the broken covenant of verse 59. Olam means a duration whose end cannot be seen — this new covenant stretches beyond the horizon of human perception. God establishes it not because Jerusalem has repented (she has not, in this passage) but because God's own faithfulness outlasts human betrayal. The everlasting covenant is pure grace — it emerges from the ashes of the most comprehensive catalog of sin in the Hebrew Bible.",
+      "translator_notes": [
+        "The abrupt transition from judgment to restoration is one of the most dramatic moments in prophetic literature. There is no transition, no call to repentance, no condition met. God simply announces: 'I will remember.' The initiative is entirely divine.",
+        "Beriti otkh bimei ne'urayikh ('my covenant with you in the days of your youth') — God remembers the original marriage covenant of verse 8, when the foundling girl was clean and newly adorned. The memory of the original relationship overrides the decades of betrayal.",
+        "Berit olam ('everlasting covenant') connects to the Abrahamic covenant (Genesis 17:7, 13, 19), the Davidic covenant (2 Samuel 23:5), and anticipates Jeremiah's 'new covenant' (Jeremiah 31:31-34) and Isaiah's 'everlasting covenant' (Isaiah 55:3, 61:8)."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית עוֹלָם",
+          "transliteration": "berit olam",
+          "rendered_as": "everlasting covenant",
+          "semantic_range": "eternal covenant, perpetual covenant, covenant beyond the visible horizon",
+          "note": "A covenant whose duration stretches beyond what can be perceived — not necessarily 'infinite' in the philosophical sense but 'beyond sight.' When God binds himself by a berit olam, he is declaring that no human failure can exhaust his commitment."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 61,
+      "text_hebrew": "וְזָכַ֣רְתְּ אֶת־דְּרָכַ֗יִךְ וְנִכְלַ֙מְתְּ֙ בְּקַחְתֵּ֗ךְ אֶת־אֲחוֹתַ֙יִךְ֙ הַגְּדֹל֣וֹת מִמֵּ֔ךְ אֶל־הַקְּטַנּ֖וֹת מִמֵּ֑ךְ וְנָתַתִּ֤י אֶתְהֶן֙ לָ֣ךְ לְבָנ֔וֹת וְלֹ֖א מִבְּרִיתֵֽךְ׃",
+      "text_kjv": "Then thou shalt remember thy ways, and be ashamed, when thou shalt receive thy sisters, thine elder and thy younger: and I will give them unto thee for daughters, but not by thy covenant.",
+      "rendering": "Then you will remember your ways and be ashamed when you receive your sisters — both the older and the younger. I will give them to you as daughters, but not on the basis of your covenant.",
+      "translator_notes": [
+        "Vezakhart et derakhayikh venikhlamt ('you will remember your ways and be ashamed') — now it is Jerusalem who remembers, and the memory produces shame (klimmah). Her own history, once forgotten (v. 22, 43), will haunt her even in restoration.",
+        "Velo mibberitek ('but not from/by your covenant') — the critical qualifier. The restoration of Samaria and Sodom to Jerusalem as 'daughters' does not arise from Jerusalem's covenant faithfulness (she has none) but from God's gracious initiative. The new arrangement is entirely on God's terms, not Jerusalem's merit."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 62,
+      "text_hebrew": "וַהֲקִימוֹתִ֥י אֲנִ֖י אֶת־בְּרִיתִ֣י אִתָּ֑ךְ וְיָדַ֖עַתְּ כִּֽי־אֲנִ֥י יְהוָֽה׃",
+      "text_kjv": "And I will establish my covenant with thee; and thou shalt know that I am the LORD:",
+      "rendering": "I myself will establish my covenant with you, and you will know that I am the LORD,",
+      "translator_notes": [
+        "Vahaqimoti ani ('and I myself will establish') — the emphatic pronoun ani ('I') stresses divine initiative. The recognition formula veyada'at ki ani YHWH ('you will know that I am the LORD') takes on a new dimension: previously this formula accompanied judgment (vv. 7-8 of ch. 15, etc.), but here it accompanies restoration. God is known through grace as well as through wrath.",
+        "The covenant being established is distinguished from the old covenant by the emphatic first person — this is God's unilateral commitment, not a bilateral agreement that depends on human compliance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 63,
+      "text_hebrew": "לְמַ֤עַן תִּזְכְּרִי֙ וָבֹ֔שְׁתְּ וְלֹ֨א יִהְיֶה־לָ֤ךְ עוֹד֙ פִּתְח֣וֹן פֶּ֔ה מִפְּנֵ֖י כְּלִמָּתֵ֑ךְ בְּכַפְּרִי־לָ֣ךְ לְכָל־אֲשֶׁ֣ר עָשִׂ֔ית נְאֻ֖ם אֲדֹנָ֥י יְהוִֽה׃",
+      "text_kjv": "That thou mayest remember, and be confounded, and never open thy mouth any more because of thy shame, when I am pacified toward thee for all that thou hast done, saith the Lord GOD.",
+      "rendering": "so that you will remember and be ashamed and never again open your mouth because of your disgrace, when I atone for you for all that you have done, declares the Lord GOD.\"",
+      "expanded_rendering": "The final word of the chapter is God's own act of atonement. The verb kipper ('to atone, to make atonement, to cover') is the priestly term par excellence — the same word used for the rituals of Yom Kippur, the Day of Atonement (Leviticus 16). Bekhapperi lakh ('when I atone for you') means God himself provides the covering for Jerusalem's sin. After sixty-three verses cataloging the most comprehensive betrayal in the Bible, the chapter ends not with destruction but with divine atonement. Jerusalem's mouth is silenced — not by violence but by the overwhelming shame of receiving grace she did not earn and could never deserve. The everlasting covenant is not a reward for repentance but an act of sovereign mercy that produces repentance.",
+      "translator_notes": [
+        "Bekhapperi lakh ('when I atone/make atonement for you') — the piel of k-p-r is the technical priestly term for atonement, the covering of sin so that it no longer stands between God and the sinner. God is simultaneously the offended husband, the righteous judge, and the atoning priest. No other passage in the Hebrew Bible concentrates so many divine roles in a single act.",
+        "Pitchon peh ('opening of the mouth') — Jerusalem will be struck speechless. The one who opened her mouth to seduce every passerby (v. 25) will have no words left. Disgrace (klimmah) silences her, but it is the disgrace of receiving unmerited mercy, not the disgrace of punishment.",
+        "The chapter ends as it began — with God speaking. Jerusalem, the subject of the longest prophetic allegory in the Bible, has no lines. She never speaks. The entire narrative is God's perspective on the relationship."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כִּפֶּר",
+          "transliteration": "kipper",
+          "rendered_as": "atone",
+          "semantic_range": "to cover, to atone, to make atonement, to ransom, to expiate",
+          "note": "The foundational priestly term for the removal of sin's barrier between God and humanity. From the root k-p-r ('to cover'). When God himself is the subject of kipper, the act transcends human ritual — God provides his own covering for the sin committed against him."
+        }
+      ],
+      "reading_level": "10th grade"
+    }
+  ]
+}

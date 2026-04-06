@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Proverbs",
+    "chapter": 1,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-30T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Proverbs 1 establishes the purpose of the entire collection (vv1-7), issues a father's warning against the enticement of violent men (vv8-19), and then dramatically shifts voice as Woman Wisdom herself takes to the streets to deliver her first public speech (vv20-33). The chapter moves from private instruction to public confrontation.",
+    "remarkable": "The prologue (vv1-7) is not merely a preface but a thesis statement for the entire book. It names six overlapping goals — wisdom, discipline, discernment, prudence, knowledge, and discretion — all culminating in the declaration that the fear of the LORD is the beginning of knowledge. This is not the end of an argument but its starting point. The most striking feature of the chapter is the personification of wisdom as a woman who shouts in public spaces — streets, squares, gateways. In the ancient Near East, the only women who called out to men in public were either mourners or prostitutes. By casting Wisdom as a woman crying out at the city gates, the text deliberately inverts the image of the seductive woman who will appear in chapters 5-7. The reader must choose which woman's voice to heed.",
+    "friction": "The Hebrew reshit in verse 7 ('beginning') has been debated for centuries. Does it mean 'the starting point' (you begin with the fear of the LORD and then acquire knowledge) or 'the chief part' (the fear of the LORD is the essence, the first principle of knowledge)? Both readings have support. The word can mean either temporal beginning or supreme portion. The ambiguity may be deliberate — the fear of the LORD is both where you start and what matters most. Woman Wisdom's speech in vv20-33 is troublingly harsh: she promises to laugh at the disaster of those who ignored her. This does not fit easily into categories of divine compassion, but it reflects the absolute character of wisdom literature — choices have consequences, and Wisdom will not rescue those who chose Folly.",
+    "connections": "The 'fear of the LORD' formula (v7) is the architectural keystone of the entire wisdom corpus, appearing in Job 28:28, Psalm 111:10, Proverbs 9:10, and Ecclesiastes 12:13. The father-to-son instruction format (v8) matches Egyptian wisdom literature, particularly the Instruction of Amenemope and the Instruction of Ptahhotep, placing Proverbs in a broader ancient Near Eastern tradition. Woman Wisdom's public speech anticipates her major address in chapter 8, where she will claim to have been present at creation itself."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "מִ֭שְׁלֵי שְׁלֹמֹ֣ה בֶן־דָּוִ֑ד מֶ֖לֶךְ יִשְׂרָאֵֽל׃",
+      "text_kjv": "The proverbs of Solomon the son of David, king of Israel;",
+      "rendering": "The proverbs of Solomon, son of David,\nking of Israel:",
+      "translator_notes": [
+        "Mashal (plural meshalim, 'proverbs') means far more than a pithy saying. The root m-sh-l means 'to rule, to compare, to represent.' A mashal is a statement that governs — it captures reality in compressed form and exercises authority over the hearer's understanding. The attribution to Solomon draws on the tradition of 1 Kings 4:32, which credits him with three thousand proverbs."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מִשְׁלֵי",
+          "transliteration": "mishle",
+          "rendered_as": "proverbs",
+          "semantic_range": "proverb, parable, comparison, taunt, ruling word; from mashal ('to rule, to compare')",
+          "note": "A mashal is not mere folk wisdom. It is a governing analogy — a compressed truth that, once heard, reorders perception. The word covers proverbs, parables, allegories, and even prophetic oracles. Its range is far wider than English 'proverb' suggests."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "לָדַ֣עַת חָכְמָ֣ה וּמוּסָ֑ר לְ֝הָבִ֗ין אִמְרֵ֥י בִינָֽה׃",
+      "text_kjv": "To know wisdom and instruction; to perceive the words of understanding;",
+      "rendering": "To know wisdom and discipline,\nto discern words of understanding,",
+      "expanded_rendering": "The purpose clause begins. The first pair — chokmah ('wisdom') and musar ('discipline, correction, instruction') — establishes the book's dual emphasis. Wisdom is not acquired passively; it requires musar, which carries overtones of physical discipline, correction, even punishment. The Hebrew makes no separation between knowing and being trained. The second line deepens the first: lehabin ('to discern, to have insight into') imre vinah ('words of understanding') — to penetrate beneath the surface of what is said and grasp its deeper structure. Wisdom is not information but perception.",
+      "translator_notes": [
+        "Musar is rendered 'discipline' rather than 'instruction' to preserve its sharp edge. The word derives from yasar ('to chastise, to correct, to discipline') and often appears in contexts of physical correction (Proverbs 13:24, 22:15). Wisdom in Proverbs is not acquired without cost — it requires the submission of the learner to correction that may be painful."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חָכְמָה",
+          "transliteration": "chokmah",
+          "rendered_as": "wisdom",
+          "semantic_range": "wisdom, skill, expertise, shrewdness; the ability to navigate life successfully under God's order",
+          "note": "Chokmah in Proverbs encompasses practical skill (Exodus 31:3 uses it for artisanship), ethical discernment, and theological knowledge. It is not abstract philosophy but embodied competence — knowing how to live well before God and among people."
+        },
+        {
+          "hebrew": "מוּסָר",
+          "transliteration": "musar",
+          "rendered_as": "discipline",
+          "semantic_range": "discipline, correction, chastisement, instruction; from yasar ('to discipline, to chasten')",
+          "note": "Musar is the word that prevents wisdom from becoming purely intellectual. It insists that formation involves correction, that growth requires pruning. The pairing of chokmah and musar at the book's opening signals that wisdom is not given to the comfortable but to the corrected."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "לָ֭קַחַת מוּסַ֣ר הַשְׂכֵּ֑ל צֶ֥דֶק וּ֝מִשְׁפָּ֗ט וּמֵישָׁרִֽים׃",
+      "text_kjv": "To receive the instruction of wisdom, justice, and judgment, and equity;",
+      "rendering": "To receive discipline that produces insight —\nrighteousness, justice, and uprightness,",
+      "translator_notes": [
+        "The triad tsedeq, mishpat, and mesharim ('righteousness, justice, and uprightness') is not a random list but a comprehensive description of right living. Tsedeq is conformity to God's standard; mishpat is the just application of that standard in community; mesharim (from yashar, 'straight, upright') is the personal integrity that connects the two. Together they define the moral outcome that wisdom produces."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "לָתֵ֣ת לִפְתָאיִ֣ם עָרְמָ֑ה לְ֝נַ֗עַר דַּ֣עַת וּמְזִמָּֽה׃",
+      "text_kjv": "To give subtilty to the simple, to the young man knowledge and discretion.",
+      "rendering": "To give shrewdness to the naive,\nknowledge and foresight to the young,",
+      "translator_notes": [
+        "The peti ('naive, simple, gullible') is not stupid but untested — a person whose character is still open, still formable. The word comes from patah ('to be open, to be enticed') and describes someone who can be led in either direction. Proverbs does not write off the naive; it targets them as the primary audience. The ormah ('shrewdness, craftiness') given to the naive is the same word used of the serpent in Genesis 3:1 — it is morally neutral cunning, the capacity to navigate deception without being deceived."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "יִשְׁמַ֣ע חָ֭כָם וְי֣וֹסֶף לֶ֑קַח וְ֝נָב֗וֹן תַּחְבֻּל֥וֹת יִקְנֶֽה׃",
+      "text_kjv": "A wise man will hear, and will increase learning; and a man of understanding shall attain unto wise counsels:",
+      "rendering": "Let the wise listen and add to their learning,\nand the discerning acquire guidance —",
+      "translator_notes": [
+        "The shift from the naive (v4) to the already wise (v5) reveals a key principle: wisdom is never finished. The chakham ('wise person') still needs to hear and add learning. Tachbulot ('guidance, steering, strategy') originally referred to the ropes used to steer a ship — wisdom is navigational skill, the ability to direct one's course through complex situations."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "לְהָבִ֣ין מָ֭שָׁל וּמְלִיצָ֑ה דִּבְרֵ֥י חֲ֝כָמִ֗ים וְחִידֹתָֽם׃",
+      "text_kjv": "To understand a proverb, and the interpretation; the words of the wise, and their dark sayings.",
+      "rendering": "to understand a proverb and a figure of speech,\nthe words of the wise and their riddles.",
+      "translator_notes": [
+        "Melitsah ('figure of speech, satire, enigmatic saying') and chidot ('riddles, puzzles') indicate that wisdom literature deliberately obscures as much as it reveals. The wise do not hand answers to the learner; they pose problems that require active engagement. The hearer must work to understand — and the working is itself part of the formation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "יִרְאַ֣ת יְ֭הוָה רֵאשִׁ֣ית דָּ֑עַת חָכְמָ֥ה וּ֝מוּסָ֗ר אֱוִילִ֥ים בָּֽזוּ׃",
+      "text_kjv": "The fear of the LORD is the beginning of knowledge: but fools despise wisdom and instruction.",
+      "rendering": "The fear of the LORD is the beginning of knowledge;\nwisdom and discipline, fools despise.",
+      "expanded_rendering": "This is the thesis statement of the entire book. Yirat YHWH ('the fear of the LORD') is not terror but reverent awe — the recognition that reality has a Creator and that the Creator's character defines what is true, good, and wise. Reshit ('beginning, first principle, chief part') places this fear as the foundation on which all genuine knowledge is built. Without it, intelligence becomes clever foolishness. The second line delivers the counter-thesis: evilim ('fools') — not the intellectually limited but the morally obstinate — bazu ('despise, hold in contempt') chokmah and musar. The fool's problem is not inability but refusal. The verse creates the fundamental binary of the entire book: those who fear the LORD and pursue wisdom, and those who despise both.",
+      "translator_notes": [
+        "The fear of the LORD is not one topic among many in Proverbs — it is the epistemological foundation. Without it, the book's other instructions become merely practical advice. With it, every proverb becomes an expression of divine order. The identical formula appears in 9:10, forming an inclusio around the book's first major section.",
+        "The placement of 'wisdom and discipline, fools despise' at the verse's end — with the verb last — creates emphasis through word order. The Hebrew ear hears chokmah and musar first, then the devastating bazu ('despise'). What fools reject is named before the rejection itself, as if to say: look at what they are throwing away."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יִרְאַת יְהוָה",
+          "transliteration": "yirat YHWH",
+          "rendered_as": "the fear of the LORD",
+          "semantic_range": "fear, awe, reverence, dread; the foundational posture of a creature before the Creator",
+          "note": "Yirah encompasses the full spectrum from terror to worship. In wisdom literature it settles into a specific meaning: the lived acknowledgment that God is real, sovereign, and the definer of all values. It is not an emotion to be cultivated but a reality to be recognized. The person who fears the LORD has correctly identified who is in charge of the universe."
+        },
+        {
+          "hebrew": "רֵאשִׁית",
+          "transliteration": "reshit",
+          "rendered_as": "beginning",
+          "semantic_range": "beginning, first, chief, best; the first portion that determines everything that follows",
+          "note": "Reshit is the same word that opens Genesis: bereshit ('in the beginning'). In Proverbs 1:7 it functions as both temporal ('where you start') and qualitative ('the most important element'). The fear of the LORD is not step one of a program — it is the soil in which all knowledge grows."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "שְׁמַ֣ע בְּ֭נִי מוּסַ֣ר אָבִ֑יךָ וְאַל־תִּ֝טֹּ֗שׁ תּוֹרַ֥ת אִמֶּֽךָ׃",
+      "text_kjv": "My son, hear the instruction of thy father, and forsake not the law of thy mother:",
+      "rendering": "Listen, my son, to your father's discipline,\nand do not abandon your mother's instruction.",
+      "translator_notes": [
+        "The shift to direct address — 'my son' (beni) — signals the beginning of the first instructional unit. The parallelism between father's musar and mother's torah elevates the mother's teaching to equal authority with the father's. In Israelite pedagogy, both parents transmitted wisdom. The mother's torah is instruction in the fullest sense — not a lesser, domestic variant but authoritative teaching."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "כִּ֤י ׀ לִוְיַ֤ת חֵ֓ן הֵ֬ם לְרֹאשֶׁ֑ךָ וַ֝עֲנָקִ֗ים לְגַרְגְּרֹתֶֽיךָ׃",
+      "text_kjv": "For they shall be an ornament of grace unto thy head, and chains about thy neck.",
+      "rendering": "For they will be a garland of grace on your head\nand pendants around your neck.",
+      "translator_notes": [
+        "The imagery of ornamental jewelry applied to parental teaching transforms discipline from burden into adornment. The livyat chen ('garland of grace, wreath of favor') and anaqim ('pendants, necklaces') are publicly visible — wisdom's fruit is not hidden but displayed. In the ancient Near East, such ornaments also signaled social standing and honor."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "בְּ֭נִי אִם־יְפַתּ֣וּךָ חַטָּאִ֑ים אַל־תֹּבֵֽא׃",
+      "text_kjv": "My son, if sinners entice thee, consent thou not.",
+      "rendering": "My son, if sinners entice you,\ndo not consent.",
+      "translator_notes": [
+        "The verb yefattukha ('entice you') is from patah, the same root behind peti ('naive') in verse 4. The naive are those open to enticement; sinners exploit that openness. The father's command is blunt: al tove ('do not consent, do not go along'). No negotiation, no partial engagement — a clean refusal."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "אִם־יֹאמְר֗וּ לְכָ֣ה אִ֭תָּנוּ נֶאֶרְבָ֣ה לְדָ֑ם נִצְפְּנָ֖ה לְנָקִ֣י חִנָּֽם׃",
+      "text_kjv": "If they say, Come with us, let us lay wait for blood, let us lurk privily for the innocent without cause:",
+      "rendering": "If they say, 'Come with us —\nlet us lie in ambush for blood,\nlet us lurk unseen for the innocent without cause,",
+      "translator_notes": [
+        "The father now gives the sinners' actual speech — a recruitment pitch. The verbs eerevah ('let us ambush') and nitspenah ('let us hide, lurk') are cohortative, expressing eager intention. The target is the naqi ('innocent, clean') — someone who has done nothing to provoke attack. The word chinnam ('without cause, for nothing, gratuitously') intensifies the evil: this is violence for its own sake."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "נִ֭בְלָעֵם כִּשְׁא֣וֹל חַיִּ֑ים וּ֝תְמִימִ֗ים כְּי֣וֹרְדֵי בֽוֹר׃",
+      "text_kjv": "Let us swallow them up alive as the grave; and whole, as those that go down into the pit:",
+      "rendering": "Let us swallow them alive like Sheol,\nwhole, like those who descend to the pit —",
+      "translator_notes": [
+        "The sinners compare themselves to Sheol — the grave, the realm of the dead — which swallows people whole. The imagery is deliberately monstrous: they see themselves as death itself, consuming victims who are chayyim ('alive') and temimim ('whole, blameless'). The boast reveals the predatory nature of the invitation. Sheol in Hebrew thought was insatiable (Proverbs 27:20, Isaiah 5:14), and so are those who pattern their lives after it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "כָּל־ה֣וֹן יָקָ֣ר נִמְצָ֑א נְמַלֵּ֖א בָתֵּ֣ינוּ שָׁלָֽל׃",
+      "text_kjv": "We shall find all precious substance, we shall fill our houses with spoil:",
+      "rendering": "We will find every kind of precious wealth;\nwe will fill our houses with plunder.'",
+      "translator_notes": [
+        "The pitch moves from thrill to profit. Hon yaqar ('precious wealth') and shalal ('plunder, spoil') reveal the economic motive beneath the violence. The promise to fill houses with plunder is an inversion of the wisdom promise — wisdom fills a house with good things (Proverbs 24:4), but the violent fill theirs with stolen goods."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "גּ֭וֹרָ֣לְךָ תַּפִּ֣יל בְּתוֹכֵ֑נוּ כִּ֥יס אֶ֝חָ֗ד יִהְיֶ֥ה לְכֻלָּֽנוּ׃",
+      "text_kjv": "Cast in thy lot among us; let us all have one purse:",
+      "rendering": "'Throw in your lot with us —\nwe will all share one purse.'",
+      "translator_notes": [
+        "The final enticement is belonging: throw your goral ('lot, share, portion') in with ours. The shared kis ('purse, bag') offers community and equal distribution. The gang promises what family and wisdom also promise — identity, provision, solidarity — but through violence rather than virtue. The counterfeit is compelling precisely because it mimics the real thing."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "בְּנִ֗י אַל־תֵּ֭לֵךְ בְּדֶ֣רֶךְ אִתָּ֑ם מְנַ֥ע רַ֝גְלְךָ֗ מִנְּתִיבָתָֽם׃",
+      "text_kjv": "My son, walk not thou in the way with them; refrain thy foot from their path:",
+      "rendering": "My son, do not walk on the road with them;\nhold back your foot from their path,",
+      "translator_notes": [
+        "The father's response is physical: restrain your ragel ('foot') from their netivah ('path, track'). The language of walking and paths runs throughout Proverbs — life is a journey, and the critical choice is which road to take. The imperative mena ('hold back, withhold, restrain') implies that the pull is real; without active resistance, the feet will follow."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "כִּ֣י רַ֭גְלֵיהֶם לָרַ֣ע יָר֑וּצוּ וִֽ֝ימַהֲר֗וּ לִשְׁפָּךְ־דָּֽם׃",
+      "text_kjv": "For their feet run to evil, and make haste to shed blood.",
+      "rendering": "for their feet run toward evil\nand they rush to shed blood.",
+      "translator_notes": [
+        "The verbs yarutsu ('run') and yimaharu ('hasten, rush') convey eagerness — the violent are not reluctant participants but enthusiastic ones. Isaiah 59:7 quotes this verse nearly verbatim in an indictment of Israel, and Paul cites it in Romans 3:15 as evidence of universal human depravity."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "כִּֽי־חִ֭נָּם מְזֹרָ֣ה הָרָ֑שֶׁת בְּ֝עֵינֵ֗י כָּל־בַּ֥עַל כָּנָֽף׃",
+      "text_kjv": "Surely in vain the net is spread in the sight of any bird.",
+      "rendering": "For in vain is a net spread\nin the sight of any bird.",
+      "translator_notes": [
+        "The father inserts a proverb within his instruction: a bird that sees the net avoids it. The implication is devastating — these sinners are less perceptive than birds. They set a trap that will catch themselves, and they cannot see it. The resheth ('net') they spread for others becomes their own snare (v18)."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְ֭הֵם לְדָמָ֣ם יֶאֱרֹ֑בוּ יִ֝צְפְּנ֗וּ לְנַפְשֹׁתָֽם׃",
+      "text_kjv": "And they lay wait for their own blood; they lurk privily for their own lives.",
+      "rendering": "But these men lie in ambush for their own blood;\nthey lurk in hiding for their own lives.",
+      "translator_notes": [
+        "The identical verbs from verse 11 — arav ('ambush') and tsaphan ('lurk') — return, but with a devastating twist. In verse 11 the sinners lay ambush for others; in verse 18 they ambush themselves. The irony is total: violence is self-consuming. The nafshotam ('their own lives, their own souls') they destroy are their own."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "כֵּ֗ן אָ֭רְחוֹת כָּל־בֹּ֣צֵעַ בָּ֑צַע אֶת־נֶ֖פֶשׁ בְּעָלָ֣יו יִקָּֽח׃",
+      "text_kjv": "So are the ways of every one that is greedy of gain; which taketh away the life of the owners thereof.",
+      "rendering": "Such are the paths of all who profit by violence —\nit takes the life of those who gain it.",
+      "expanded_rendering": "The father draws the lesson. The word botse'a batsa ('one who cuts off unjust gain') describes profit gained by cutting — by severing what belongs to others and seizing it. The root batsa means 'to cut, to break off,' and its repetition in the phrase (cognate accusative) emphasizes the greedy act itself. The final clause is chilling: the unjust gain (personified as 'it') yiqqach ('takes, seizes') the nefesh ('life, soul, self') of its owners. Greed does not merely damage the greedy person — it consumes them. The pursuer becomes the prey, the hunter becomes the hunted. The father's warning ends where the sinners' speech began: with death. The difference is that the sinners promised death for others; the father reveals that the death is their own.",
+      "translator_notes": [
+        "The word batsa ('unjust gain, profit by violence') appears throughout the prophetic corpus as a key indictment of corrupt leaders (Jeremiah 6:13, Ezekiel 22:27, Habakkuk 2:9). Its presence here connects the father's private instruction to the public concerns of prophecy — personal greed and social injustice are the same sin at different scales."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "חָ֭כְמוֹת בַּח֣וּץ תָּרֹ֑נָּה בָּ֝רְחֹב֗וֹת תִּתֵּ֥ן קוֹלָֽהּ׃",
+      "text_kjv": "Wisdom crieth without; she uttereth her voice in the streets:",
+      "rendering": "Wisdom cries aloud in the street;\nin the public squares she raises her voice.",
+      "expanded_rendering": "The scene shifts dramatically. The Hebrew chokmot is a plural or intensive form of chokmah — Wisdom herself, personified as a woman, now speaks. The verbs taronah ('cries out, shouts, sings') and titten qolah ('gives her voice, raises her voice') describe public proclamation. The locations — chuts ('outside, the street') and rechovot ('broad places, public squares') — are not private or sacred spaces but the noisiest, most common areas of the city. Wisdom does not whisper in the academy or murmur in the temple; she shouts where merchants hawk goods and crowds press through gates. Her accessibility is total. Those who miss her do so not because she was hidden but because they refused to listen.",
+      "translator_notes": [
+        "The plural form chokmot has generated much discussion. Some see it as a plural of majesty (like Elohim), others as an abstract plural, others as a Canaanite feminine ending. Regardless of grammar, the effect is to present Wisdom as a figure of public authority — a voice that cannot be ignored or confined to a single setting."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "בְּרֹ֥אשׁ הֹמִיּ֗וֹת תִּ֫קְרָ֥א בְּפִתְחֵ֖י שְׁעָרִ֥ים בָּעִ֗יר אֲמָרֶ֥יהָ תֹאמֵֽר׃",
+      "text_kjv": "She crieth in the chief place of concourse, in the openings of the gates: in the city she uttereth her words, saying,",
+      "rendering": "At the busiest corner she calls out;\nat the entrance of the gates, in the city,\nshe speaks her words:",
+      "translator_notes": [
+        "The city gate (sha'ar) was the center of legal, commercial, and social life in ancient Israelite cities. Elders judged cases there, merchants conducted business, and news was exchanged. By placing Wisdom at the gate's entrance, the text positions her at the crossroads of public life — every decision made in the city passes through her hearing."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "עַד־מָתַ֣י ׀ פְּתָיִם֮ תְּֽאֵהֲב֫וּ פֶ֥תִי וְלֵצִ֗ים לָ֭צוֹן חָמְד֣וּ לָהֶ֑ם וּ֝כְסִילִ֗ים יִשְׂנְאוּ־דָֽעַת׃",
+      "text_kjv": "How long, ye simple ones, will ye love simplicity? and the scorners delight in their scorning, and fools hate knowledge?",
+      "rendering": "'How long, you naive ones, will you love naivety?\nHow long will scoffers delight in their scoffing\nand fools hate knowledge?",
+      "translator_notes": [
+        "Wisdom's speech opens with ad matay ('how long?'), the same phrase used in lament psalms to address God (Psalm 13:1-2). Here Wisdom uses it to address the foolish — she laments over them. Three categories appear: petayim ('the naive,' who are reachable but undirected), letsim ('scoffers,' who mock what they do not understand), and kesilim ('fools,' who are morally obstinate). Each group is defined by what it loves or hates: the naive love their openness, scoffers love their mockery, and fools hate knowledge itself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "תָּשׁ֣וּבוּ לְתוֹכַחְתִּ֑י הִנֵּ֤ה אַבִּ֥יעָה לָ֝כֶ֗ם רוּחִ֥י אוֹדִ֖יעָה דְבָרַ֣י אֶתְכֶֽם׃",
+      "text_kjv": "Turn you at my reproof: behold, I will pour out my spirit unto you, I will make known my words unto you.",
+      "rendering": "Turn back at my reproof!\nLook — I will pour out my spirit on you;\nI will make my words known to you.",
+      "translator_notes": [
+        "Wisdom offers her ruach ('spirit, breath, wind') — an astonishing claim. The verb abi'ah ('I will pour out, I will cause to bubble forth') suggests abundance, even excess. Wisdom is not rationing herself. The offer is lavish and conditional only on turning (shuvu, 'turn back, repent'). The same root sh-u-v that defines prophetic repentance defines the response Wisdom demands."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "יַ֣עַן קָ֭רָאתִי וַתְּמָאֵ֑נוּ נָטִ֥יתִי יָ֝דִ֗י וְאֵ֣ין מַקְשִֽׁיב׃",
+      "text_kjv": "Because I have called, and ye refused; I have stretched out my hand, and no man regarded;",
+      "rendering": "Because I called and you refused,\nI stretched out my hand and no one paid attention,",
+      "translator_notes": [
+        "The verbs shift to past tense — Wisdom has already been calling. The refusal is not a single event but a pattern. Natiti yadi ('I stretched out my hand') is a gesture of offering, even pleading. The word maqshiv ('one who pays attention, one who listens carefully') from qashav emphasizes that what was lacking was not access to Wisdom but attentiveness to her."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַתִּפְרְע֥וּ כָל־עֲצָתִ֑י וְ֝תוֹכַחְתִּ֗י לֹ֣א אֲבִיתֶֽם׃",
+      "text_kjv": "But ye have set at nought all my counsel, and would none of my reproof:",
+      "rendering": "and you ignored all my counsel\nand would not accept my reproof —",
+      "translator_notes": [
+        "The verb tifre'u ('you let loose, you neglected, you let go') is the same word used for Pharaoh 'letting' Israel go (Exodus 5:4) and for undoing restraint. They released Wisdom's counsel — let it slip through their fingers — and refused her tokhachat ('reproof, correction, argument')."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "גַּם־אֲ֭נִי בְּאֵידְכֶ֣ם אֶשְׂחָ֑ק אֶ֝לְעַ֗ג בְּבֹ֣א פַחְדְּכֶֽם׃",
+      "text_kjv": "I also will laugh at your calamity; I will mock when your fear cometh;",
+      "rendering": "then I in turn will laugh at your disaster;\nI will mock when your dread arrives,",
+      "translator_notes": [
+        "This is among the most unsettling verses in wisdom literature. Wisdom does not merely warn; she promises to laugh (eshchaq) and mock (el'ag) when calamity strikes. The language mirrors the scoffers' own behavior — they mocked wisdom, and now wisdom will mock them. The reversal is exact and merciless. This is not cruelty but the inherent logic of rejection: the one you mocked will not rescue you."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "בְּבֹ֤א כַשׁוֹאָ֨ה ׀ פַּחְדְּכֶ֗ם וְֽ֭אֵידְכֶם כְּסוּפָ֣ה יֶאֱתֶ֑ה בְּבֹ֥א עֲ֝לֵיכֶ֗ם צָרָ֥ה וְצוּקָֽה׃",
+      "text_kjv": "When your fear cometh as desolation, and your destruction cometh as a whirlwind; when distress and anguish cometh upon you.",
+      "rendering": "when your dread arrives like a storm\nand your disaster sweeps in like a whirlwind,\nwhen distress and anguish come upon you.",
+      "translator_notes": [
+        "The storm imagery (sho'ah, 'devastation, storm' and sufah, 'whirlwind, tempest') conveys suddenness and overwhelming force. The pairing tsarah ve-tsuqah ('distress and anguish') is a rhyming pair in Hebrew that underscores the completeness of the suffering. The fools thought they were free; the storm reveals they were exposed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "אָ֣ז יִ֭קְרָאֻנְנִי וְלֹ֣א אֶעֱנֶ֑ה יְ֝שַׁחֲרֻ֗נְנִי וְלֹ֣א יִמְצָאֻֽנְנִי׃",
+      "text_kjv": "Then shall they call upon me, but I will not answer; they shall seek me early, but they shall not find me:",
+      "rendering": "Then they will call on me, but I will not answer;\nthey will search for me urgently, but will not find me,",
+      "translator_notes": [
+        "The verbs yiqra'uneni ('they will call on me') and yeshacharuneni ('they will seek me early, diligently') echo the language of prayer — the fools will seek Wisdom the way a desperate person seeks God. But the answer will be silence. The verb shachar ('to seek early, to seek eagerly') implies dawn-time seeking, the most urgent and devoted kind of search. Even this will be too late."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "תַּ֭חַת כִּי־שָׂנְא֣וּ דָ֑עַת וְיִרְאַ֥ת יְ֝הוָ֗ה לֹ֣א בָחָֽרוּ׃",
+      "text_kjv": "For that they hated knowledge, and did not choose the fear of the LORD:",
+      "rendering": "because they hated knowledge\nand did not choose the fear of the LORD,",
+      "translator_notes": [
+        "The reason for Wisdom's silence is stated plainly: they hated knowledge and did not choose (bacharu, from bachar) the fear of the LORD. The verb bachar ('to choose, to select, to prefer') makes clear that the fear of the LORD is a decision, not a feeling. It must be chosen — and it was not."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "לֹא־אָב֥וּ לַעֲצָתִ֑י נָ֝אֲצ֗וּ כָּל־תּוֹכַחְתִּֽי׃",
+      "text_kjv": "They would none of my counsel: they despised all my reproof.",
+      "rendering": "they would not accept my counsel;\nthey spurned all my reproof.",
+      "translator_notes": [
+        "The verb na'atsu ('they spurned, they treated with contempt') is stronger than mere rejection — it is active contempt, the deliberate disparagement of what Wisdom offered. The word appears in descriptions of Israel's rejection of God's covenant (Numbers 14:23, Deuteronomy 32:19)."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְֽיֹאכְלוּ֮ מִפְּרִ֢י דַ֫רְכָּ֥ם וּֽמִמֹּעֲצֹ֖תֵיהֶ֥ם יִשְׂבָּֽעוּ׃",
+      "text_kjv": "Therefore shall they eat of the fruit of their own way, and be filled with their own devices.",
+      "rendering": "So they will eat the fruit of their own way\nand be gorged on their own schemes.",
+      "translator_notes": [
+        "The agricultural metaphor returns: actions are seeds, consequences are fruit, and the harvest must be consumed. The verb yisba'u ('they will be satisfied, stuffed, gorged') often describes pleasant fullness, but here it is ironic — they will be filled to overflowing with the consequences of their own mo'atsot ('plans, schemes, counsels'). They rejected Wisdom's counsel; they will be force-fed their own."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "כִּ֤י מְשׁוּבַ֣ת פְּתָיִ֣ם תַּהַרְגֵ֑ם וְשַׁלְוַ֖ת כְּסִילִ֣ים תְּאַבְּדֵֽם׃",
+      "text_kjv": "For the turning away of the simple shall slay them, and the prosperity of fools shall destroy them.",
+      "rendering": "For the waywardness of the naive will kill them,\nand the complacency of fools will destroy them.",
+      "expanded_rendering": "Wisdom identifies the specific mechanisms of destruction. Meshuvat petayim ('the turning away, the apostasy of the naive') — from shuv ('to turn'), the same root that could have saved them in verse 23 — will tahargem ('kill them'). They were told to turn toward Wisdom; instead they turned away, and the turning itself is lethal. The second line names shalvat kesilim ('the ease, the complacency, the false security of fools') as the other killer. Shalvah often means peace and prosperity (Psalm 122:7), but here it is the dangerous contentment of those who see no need for wisdom. Their comfort is their coffin. The fools do not die by external assault but by internal rot — their own choices consume them from within.",
+      "translator_notes": [
+        "The irony of meshuvah ('turning away') is sharp: turning is exactly what Wisdom invited in verse 23 (tashuvu, 'turn back'). The same capacity — the ability to change direction — saves or destroys depending on which way one turns."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְשֹׁמֵ֣עַ לִ֭י יִשְׁכָּן־בֶּ֑טַח וְ֝שַׁאֲנַ֗ן מִפַּ֥חַד רָעָֽה׃",
+      "text_kjv": "But whoso hearkeneth unto me shall dwell safely, and shall be quiet from fear of evil.",
+      "rendering": "But whoever listens to me will dwell secure\nand be at ease, without fear of harm.",
+      "translator_notes": [
+        "Wisdom's speech ends not with threat but with promise. The one who shome'a li ('listens to me, obeys me') will yishkan betach ('dwell in security'). The verb shakan ('to dwell, to settle, to tabernacle') evokes permanence — this is not temporary refuge but settled habitation. Sha'anan ('at ease, tranquil, undisturbed') is the positive version of the shalvah ('complacency') that destroys fools in verse 32. The same ease that kills the fool blesses the wise — the difference is not the comfort itself but whether it is grounded in wisdom or ignorance."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

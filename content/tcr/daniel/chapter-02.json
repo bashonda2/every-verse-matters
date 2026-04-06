@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Daniel",
+    "chapter": 2,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Daniel 2 recounts Nebuchadnezzar's disturbing dream of a colossal statue made of four metals — gold, silver, bronze, and iron mixed with clay — shattered by a stone cut without human hands. When the king demands that his wise men both tell him the dream and interpret it (on pain of death), they fail. Daniel, after receiving the mystery through a night vision, reveals both the dream and its meaning: four successive kingdoms will rise, but God will establish an eternal kingdom that will crush all others. Nebuchadnezzar acknowledges Daniel's God as 'God of gods and Lord of kings' and elevates Daniel to rule over Babylon's province.",
+    "remarkable": "This chapter contains the most significant language transition in the Hebrew Bible. Verses 1-4a are in Hebrew; at 2:4b, when the Chaldeans begin speaking to the king, the text switches to Aramaic — the lingua franca of the Neo-Babylonian and Persian empires — and remains in Aramaic through 7:28. This linguistic shift signals that the content concerns the nations, not Israel alone. The statue vision establishes the apocalyptic framework of four world empires followed by God's eternal kingdom, a schema that shapes all subsequent Jewish and Christian apocalyptic thought. The 'stone cut without hands' (even garut di-la bi-yadin) becomes one of the most widely interpreted symbols in biblical prophecy — both Jewish and Christian traditions see it as the kingdom of God breaking into human history without human agency.",
+    "friction": "The Aramaic of Daniel 2:4b-49 is Imperial Aramaic, closely related to the Aramaic of Ezra. Transliterations follow standard Aramaic conventions rather than Hebrew. The identity of the four kingdoms has been debated for millennia — the traditional reading sees Babylon, Medo-Persia, Greece, and Rome; other scholars see Babylon, Media, Persia, and Greece. We render the text without imposing either identification, letting the imagery stand. The phrase even garut di-la bi-yadin ('a stone cut not by hands,' v. 34) is theologically loaded — 'not by hands' means without human agency, signaling divine origin. The Aramaic word raz ('mystery,' vv. 18-19, 27-30, 47) is a Persian loanword central to the chapter's theology of revealed knowledge.",
+    "connections": "The four-kingdom schema recurs in Daniel 7 (four beasts), Daniel 8 (ram and goat), and Daniel 10-11 (kings of north and south). The stone that becomes a mountain filling the earth echoes the cosmic mountain traditions of Isaiah 2:2-4 and Micah 4:1-3. Nebuchadnezzar's confession in verse 47 anticipates his fuller confession in chapter 4. Daniel's night vision and thanksgiving prayer (vv. 19-23) parallel the wisdom tradition of Proverbs 2:6 and Job 12:22. The pattern of faithful exile receiving divine wisdom and rising to political power parallels Joseph before Pharaoh (Genesis 41)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וּבִשְׁנַ֣ת שְׁתַּ֗יִם לְמַלְכ֤וּת נְבֻֽכַדְנֶאצַּר֙ חָלַ֤ם נְבֻֽכַדְנֶאצַּר֙ חֲלֹמ֔וֹת וַתִּתְפָּעֶ֣ם רוּח֔וֹ וּשְׁנָת֖וֹ נִהְיְתָ֥ה עָלָֽיו׃",
+      "text_kjv": "And in the second year of the reign of Nebuchadnezzar Nebuchadnezzar dreamed dreams, wherewith his spirit was troubled, and his sleep brake from him.",
+      "rendering": "In the second year of Nebuchadnezzar's reign, Nebuchadnezzar had dreams that troubled his spirit, and sleep escaped him.",
+      "translator_notes": [
+        "This verse is still in Hebrew; the language shift to Aramaic occurs at verse 4b.",
+        "The dating 'second year' raises a difficulty — if Daniel's three-year training (1:5) has concluded, this should be at least the third year. Solutions include counting from a different starting point or the training ending early. We render as the text reads.",
+        "The verb titpa'em ('was agitated, was disturbed') from the root pa'am conveys a deep, restless disturbance — not mild concern but a shaking of the spirit. The plural chalomot ('dreams') may indicate recurring nightmares."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיֹּ֣אמֶר הַמֶּ֡לֶךְ לִקְרֹא֩ לַֽחַרְטֻמִּ֨ים וְלָאַשָּׁפִ֜ים וְלַֽמְכַשְּׁפִ֗ים וְלַכַּשְׂדִּ֛ים לְהַגִּ֥יד לַמֶּ֖לֶךְ חֲלֹמֹתָ֑יו וַיָּבֹ֕אוּ וַיַּעַמְד֖וּ לִפְנֵ֥י הַמֶּֽלֶךְ׃",
+      "text_kjv": "Then the king commanded to call the magicians, and the astrologers, and the sorcerers, and the Chaldeans, for to shew the king his dreams. So they came and stood before the king.",
+      "rendering": "The king gave orders to summon the magicians, enchanters, sorcerers, and Chaldeans to explain his dreams to him. When they came and stood before the king,",
+      "translator_notes": [
+        "Four classes of Babylonian scholars are listed: chartummim (magicians/scribes), ashshafim (enchanters/conjurers), mekhashshefim (sorcerers/practitioners of magic), and Kasdim (Chaldeans). The Chaldeans here are not an ethnic group but a professional class of scholar-priests specializing in divination and astral observation.",
+        "The verb lehaggid ('to declare, tell') indicates the king wants more than interpretation — he wants the dream itself disclosed, as becomes clear in verse 5."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיֹּ֤אמֶר לָהֶם֙ הַמֶּ֔לֶךְ חֲל֖וֹם חָלָ֑מְתִּי וַתִּפָּ֣עֶם רוּחִ֔י לָדַ֖עַת אֶת־הַחֲלֽוֹם׃",
+      "text_kjv": "And the king said unto them, I have dreamed a dream, and my spirit was troubled to know the dream.",
+      "rendering": "the king said to them, \"I have had a dream, and my spirit is troubled trying to understand it.\"",
+      "translator_notes": [
+        "The verb tipa'em ('is agitated') recurs from verse 1, reinforcing the intensity of the king's distress. The phrase lada'at et ha-chalom ('to know the dream') is ambiguous — it could mean 'to understand what the dream means' or 'to recall the dream.' This ambiguity sets up the tension of the next verses."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיְדַבְּר֧וּ הַכַּשְׂדִּ֛ים לַמֶּ֖לֶךְ אֲרָמִ֑ית מַלְכָּ֣א לְעָלְמִ֣ין חֱיִ֔י אֱמַ֥ר חֶלְמָ֛א לְעַבְדָ֖ךְ וּפִשְׁרָ֥א נְחַוֵּֽא׃",
+      "text_kjv": "Then spake the Chaldeans to the king in Syriack, O king, live for ever: tell thy servants the dream, and we will shew the interpretation.",
+      "rendering": "The Chaldeans spoke to the king in Aramaic: \"O king, live forever! Tell your servants the dream, and we will provide the interpretation.\"",
+      "translator_notes": [
+        "CRITICAL LANGUAGE TRANSITION: The word aramit ('in Aramaic') signals the shift from Hebrew to Aramaic. From this point through 7:28, the biblical text itself is written in Aramaic. The Chaldeans speak in the lingua franca of the empire, and the narrator adopts this language for the remainder of the section dealing with international empires.",
+        "The greeting malka le-almin cheyi ('O king, live forever') is standard Babylonian court protocol. The phrase appears throughout Daniel's Aramaic sections as a formulaic address to royalty.",
+        "The Chaldeans' offer is reasonable — they will interpret if the king tells the dream. They assume the normal procedure of dream interpretation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "עָנֵ֤ה מַלְכָּא֙ וְאָמַ֣ר לְכַשְׂדָּאֵ֔י מִלְּתָ֖א מִנִּ֣י אַזְדָּ֑א הֵ֣ן לָ֤א תְהוֹדְעוּנַּ֙נִי֙ חֶלְמָ֣א וּפִשְׁרֵ֔הּ הַדָּמִ֣ין תִּתְעַבְד֔וּן וּבָתֵּיכ֖וֹן נְוָלִ֥י יִתְּשָׂמֽוּן׃",
+      "text_kjv": "The king answered and said to the Chaldeans, The thing is gone from me: if ye will not make known unto me the dream, with the interpretation thereof, ye shall be cut in pieces, and your houses shall be made a dunghill.",
+      "rendering": "The king replied to the Chaldeans, \"My decision is firm: if you do not make known to me the dream and its interpretation, you will be torn limb from limb, and your houses will be turned into rubble heaps.",
+      "translator_notes": [
+        "The Aramaic phrase milta minni azda is debated — it may mean 'the matter has gone from me' (i.e., he forgot the dream) or 'my decree is issued' (i.e., his decision is final). The latter reading, 'my decision is firm,' fits the context better: the king is establishing the terms, not confessing forgetfulness.",
+        "The punishment hadamin tit'avdun ('you will be made into pieces/limbs') refers to dismemberment — a documented Babylonian judicial punishment. The additional penalty of having houses turned into nevali ('dungheaps, ruins') represents total social obliteration."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְהֵ֗ן חֶלְמָא֙ וּפִשְׁרֵ֔הּ תְּהַֽחֲו֖וֹן מַתְּנָ֧ן וּנְבִזְבָּ֛ה וִיקָ֥ר שַׂגִּ֖יא תְּקַבְּל֣וּן מִן־קֳדָמָ֑י לָהֵ֕ן חֶלְמָ֥א וּפִשְׁרֵ֖הּ הַֽחֲוֹֽנִי׃",
+      "text_kjv": "But if ye shew the dream, and the interpretation thereof, ye shall receive of me gifts and rewards and great honour: therefore shew me the dream, and the interpretation thereof.",
+      "rendering": "But if you reveal the dream and its interpretation, you will receive gifts, rewards, and great honor from me. So tell me the dream and its interpretation.\"",
+      "translator_notes": [
+        "The Aramaic mattan ('gifts'), nevizbah ('rewards, bonuses' — a Persian loanword), and yeqar saggi ('great honor') represent the full range of royal compensation. The king offers both material and social rewards as incentive alongside the threat of punishment — the carrot follows the stick."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "עֲנ֣וֹ תִנְיָנ֗וּת וְאָ֣מְרִין מַלְכָּ֞א חֶלְמָ֤א יֵאמַר֙ לְעַבְד֔וֹהִי וּפִשְׁרָ֖א נְהַחֲוֵֽה׃",
+      "text_kjv": "They answered again and said, Let the king tell his servants the dream, and we will shew the interpretation of it.",
+      "rendering": "They answered a second time, \"Let the king tell the dream to his servants, and we will provide the interpretation.\"",
+      "translator_notes": [
+        "The Chaldeans repeat their reasonable request — interpretation requires knowing the dream. Their insistence highlights the impossibility of the king's demand and sets the stage for Daniel's supernatural revelation. The word tinyanut ('a second time') emphasizes their persistence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "עָנֵ֤ה מַלְכָּא֙ וְאָמַ֔ר מִן־יַצִּ֕יב יָדַ֣ע אֲנָ֔ה דִּ֥י עִדָּנָ֖א אַנְתּ֣וּן זָבְנִ֑ין כָּל־קֳבֵ֕ל דִּ֣י חֲזֵיתוֹן֔ דִּ֥י אַזְדָּ֖א מִנִּ֥י מִלְּתָֽא׃",
+      "text_kjv": "The king answered and said, I know of certainty that ye would gain the time, because ye see the thing is gone from me.",
+      "rendering": "The king responded, \"I know with certainty that you are trying to buy time, because you see that my decision is final.",
+      "translator_notes": [
+        "The phrase iddana antun zavnin ('you are buying time') uses the commercial metaphor of 'purchasing' a delay. The king suspects them of stalling, hoping he will either forget his demand or relent.",
+        "The phrase azda minni milta again — here confirming the interpretation 'my decree stands firm' rather than 'the dream has left me.'"
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "דִּ֣י הֵ֧ן חֶלְמָ֛א לָ֥א תְהוֹדְעוּנַּ֖נִי חֲדָ֣ה־הִיא דָתְכ֑וֹן וּמִלָּ֨ה כִדְבָ֤ה וּשְׁחִיתָ֑ה הִזְמִנְתּ֣וּן לְמֵאמַ֣ר קָֽדָמַ֔י עַ֛ד דִּ֥י עִדָּנָ֖א יִשְׁתַּנֵּ֑א לָהֵ֗ן חֶלְמָא֙ אֱמַ֣רוּ לִ֔י וְאִנְדַּ֕ע דִּ֥י פִשְׁרֵ֖הּ תְּהַחֲוֻנַּֽנִי׃",
+      "text_kjv": "But if ye will not make known unto me the dream, there is but one decree for you: for ye have prepared lying and corrupt words to speak before me, till the time be changed: therefore tell me the dream, and I shall know that ye can shew me the interpretation thereof.",
+      "rendering": "If you do not tell me the dream, there is only one sentence for you. You have agreed among yourselves to present false and deceptive words before me, hoping circumstances will change. So tell me the dream, and then I will know that you can show me its interpretation.\"",
+      "translator_notes": [
+        "The Aramaic chada-hi datkhen ('one is your sentence/law') means there is a single, non-negotiable verdict awaiting them — death by dismemberment as stated in verse 5.",
+        "The phrase millah kidvah u-shechitah ('words of falsehood and corruption') reveals the king's deeper motive: he suspects his advisors of routinely inventing interpretations. By demanding the dream itself, he creates a verifiable test of their genuine access to supernatural knowledge.",
+        "The phrase ad di iddana yishtaneh ('until the time changes') — the king believes they are stalling until political circumstances shift in their favor."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "עֲנ֤וֹ כַשְׂדָּאֵ֙י֙ קֳדָ֣ם מַלְכָּ֔א וְאָ֣מְרִ֔ין לָא־אִיתַ֤י אֱנָשׁ֙ עַל־יַבֶּשְׁתָּ֔א דִּ֚י מִלַּ֣ת מַלְכָּ֔א יוּכַ֖ל לְהַחֲוָיָ֑ה כָּל־קֳבֵ֗ל דִּ֚י כָּל־מֶ֣לֶךְ רַ֔ב וְשַׁלִּ֔יט מִלָּ֤ה כִדְנָה֙ לָ֣א שְׁאֵ֔ל לְכָל־חַרְטֹּ֖ם וְאָשַׁ֥ף וְכַשְׂדָּֽי׃",
+      "text_kjv": "The Chaldeans answered before the king, and said, There is not a man upon the earth that can shew the king's matter: therefore there is no king, lord, nor ruler, that asked such things at any magician, or astrologer, or Chaldean.",
+      "rendering": "The Chaldeans answered the king, \"There is no one on earth who can fulfill what the king demands. No king, however great or powerful, has ever asked such a thing of any magician, enchanter, or Chaldean.",
+      "translator_notes": [
+        "The Aramaic al-yabeshta ('upon the dry land/earth') is rendered 'on earth.' The Chaldeans' protest is both a defense and an inadvertent theological statement — they are correct that no human can do this; only God can.",
+        "Their argument from precedent ('no king has ever asked this') reveals the unprecedented nature of Nebuchadnezzar's demand and sets up the contrast with Daniel's God, who does what no earthly power can."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וּמִלְּתָ֤א דִֽי־מַלְכָּא֙ שָׁאֵ֔ל יַקִּירָ֕ה וְאָחֳרָן֙ לָ֣א אִיתַ֔י דִּ֥י יְחַוִּנַּ֖הּ קֳדָ֣ם מַלְכָּ֑א לָהֵ֣ן אֱלָהִ֔ין דִּ֚י מְדָ֣רְה֔וֹן עִם־בִּשְׂרָ֖א לָ֥א אִיתֽוֹהִי׃",
+      "text_kjv": "And it is a rare thing that the king requireth, and there is none other that can shew it before the king, except the gods, whose dwelling is not with flesh.",
+      "rendering": "What the king asks is too difficult. No one can reveal it to the king except the gods, whose dwelling is not among mortals.\"",
+      "translator_notes": [
+        "The Aramaic yaqqirah ('rare, precious, difficult') describes the impossibility of the demand. The Chaldeans' theological confession — that only gods (elahin) whose dwelling is not 'with flesh' (im bisra) could know this — is profoundly ironic. They unwittingly describe exactly what Daniel's God will do: the God of heaven, though transcendent, will reveal the mystery to a mortal.",
+        "The phrase im bisra la ithohi ('is not with flesh') reflects a Babylonian theological framework of distant, unapproachable deities — a framework Daniel's experience will overturn."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "כָּל־קֳבֵ֣ל דְּנָ֔ה מַלְכָּ֕א בְּנַ֥ס וּקְצַ֖ף שַׂגִּ֑יא וַאֲמַר֙ לְהוֹבָדָ֔ה לְכֹ֖ל חַכִּימֵ֥י בָבֶֽל׃",
+      "text_kjv": "For this cause the king was angry and very furious, and commanded to destroy all the wise men of Babylon.",
+      "rendering": "Because of this, the king became enraged and furious, and ordered the execution of all the wise men of Babylon.",
+      "translator_notes": [
+        "The paired terms benas u-qetsaf saggi ('angry and greatly furious') intensify each other — this is white-hot royal rage. The decree to destroy 'all' (kol) the wise men is sweeping — it would include Daniel and his friends, who are now counted among Babylon's scholars. This sets the narrative crisis in motion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְדָתָ֣א נֶפְקַ֔ת וְחַכִּימַיָּ֖א מִתְקַטְּלִ֑ין וּבְע֛וֹ דָּנִיֵּ֥אל וְחַבְר֖וֹהִי לְהִתְקְטָלָֽה׃",
+      "text_kjv": "And the decree went forth that the wise men should be slain; and they sought Daniel and his fellows to be slain.",
+      "rendering": "The decree was issued and the wise men were about to be killed. They searched for Daniel and his companions to put them to death as well.",
+      "translator_notes": [
+        "The participle mitqattelin ('being killed') may indicate that executions had already begun, or that the process was underway. We render 'were about to be killed' to convey the imminent danger.",
+        "Daniel and his chavrohī ('companions, associates') are caught up in the decree though they were never consulted — they are counted among the wise men of Babylon by virtue of their training and appointment in chapter 1."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "בֵּאדַ֣יִן דָּנִיֵּ֗אל הֲתִ֤יב עֵטָא֙ וּטְעֵ֔ם לְאַרְי֕וֹךְ רַב־טַבָּחַיָּ֖א דִּ֣י מַלְכָּ֑א דִּ֥י נְפַ֛ק לְקַטָּלָ֥ה לְחַכִּימֵ֖י בָבֶֽל׃",
+      "text_kjv": "Then Daniel answered with counsel and wisdom to Arioch the captain of the king's guard, which was gone forth to slay the wise men of Babylon:",
+      "rendering": "Then Daniel responded with prudence and discretion to Arioch, the commander of the king's guard, who had gone out to execute the wise men of Babylon.",
+      "translator_notes": [
+        "The phrase hativ eta u-te'em ('returned counsel and discretion') emphasizes Daniel's composure — even facing execution, he responds with wisdom rather than panic. The same quality of diplomatic wisdom seen in his food negotiations in chapter 1.",
+        "Arioch bears the title rav-tabbachayya ('chief of the executioners/butchers'). The term tabbachayya literally means 'slaughterers,' reflecting the grim function of this office."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "עָנֵ֣ה וְאָמַ֗ר לְאַרְי֛וֹךְ שַׁלִּיטָ֥א דִֽי־מַלְכָּ֖א עַל־מָ֤ה דָתָא֙ מְהַחְצְפָ֔ה מִן־קֳדָ֣ם מַלְכָּ֑א אֱדַ֛יִן מִלְּתָ֥א הוֹדַ֖ע אַרְי֥וֹךְ לְדָנִיֵּֽאל׃",
+      "text_kjv": "He answered and said to Arioch the king's captain, Why is the decree so hasty from the king? Then Arioch made the thing known to Daniel.",
+      "rendering": "He asked Arioch, the king's officer, \"Why is this decree from the king so urgent?\" Then Arioch explained the situation to Daniel.",
+      "translator_notes": [
+        "The Aramaic mehachtsefah ('harsh, severe, urgent') from the root chatsaf suggests both haste and harshness. Daniel's question is strategic — by asking 'why,' he opens a conversation that leads to opportunity rather than confrontation.",
+        "Arioch's willingness to explain rather than simply execute may reflect Daniel's reputation already established in chapter 1, or the favor God granted Daniel in 1:9 extending to this situation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְדָנִיֵּאל֙ עַ֣ל וּבְעָ֔ה מִן־מַלְכָּ֕א דִּ֥י זְמָ֖ן יִנְתֵּן־לֵ֑הּ וּפִשְׁרָ֖א לְהַחֲוָיָ֥ה לְמַלְכָּֽא׃",
+      "text_kjv": "Then Daniel went in, and desired of the king that he would give him time, and that he would shew the king the interpretation.",
+      "rendering": "Daniel then went in and asked the king to grant him time, and he would reveal the interpretation to the king.",
+      "translator_notes": [
+        "Daniel's boldness is remarkable — he gains direct audience with the king and makes a promise the Chaldeans could not make. He asks only for time (zeman), not for the dream to be told to him. This implicitly claims he can do what the professionals declared impossible."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אֱדַ֛יִן דָּנִיֵּ֥אל לְבַיְתֵ֖הּ אֲזַ֑ל וְלַחֲנַנְיָ֤ה מִֽישָׁאֵל֙ וַעֲזַרְיָ֣ה חַבְר֔וֹהִי מִלְּתָ֖א הוֹדַ֥ע׃",
+      "text_kjv": "Then Daniel went to his house, and made the thing known to Hananiah, Mishael, and Azariah, his companions:",
+      "rendering": "Then Daniel went to his house and informed his companions Hananiah, Mishael, and Azariah about the matter,",
+      "translator_notes": [
+        "The narrator again uses the Hebrew names rather than the Babylonian ones, maintaining the theological identity of these men. Daniel's first instinct is to gather his community of faith — he does not attempt to face this alone."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְרַחֲמִ֗ין לְמִבְעֵא֙ מִן־קֳדָם֙ אֱלָ֣הּ שְׁמַיָּ֔א עַ֖ל רָזָ֣ה דְנָ֑ה דִּ֣י לָ֤א יְהוֹבְד֙וּן֙ דָּנִיֵּ֣אל וְחַבְר֔וֹהִי עִם־שְׁאָ֖ר חַכִּימֵ֥י בָבֶֽל׃",
+      "text_kjv": "That they would desire mercies of the God of heaven concerning this secret; that Daniel and his fellows should not perish with the rest of the wise men of Babylon.",
+      "rendering": "urging them to plead for mercy from the God of heaven concerning this mystery, so that Daniel and his companions would not be destroyed along with the rest of the wise men of Babylon.",
+      "translator_notes": [
+        "The Aramaic rachamim ('mercies, compassion') — Daniel seeks not information alone but divine compassion. The title Elah shemayya ('God of heaven') is the characteristic designation for Israel's God in the Aramaic sections of Daniel and Ezra, emphasizing God's sovereignty over all earthly kingdoms.",
+        "The word raz ('mystery, secret') is a Persian loanword (from Old Iranian rāza) that becomes the key theological term of this chapter. A raz is not merely unknown information — it is a divine secret that can only be revealed by God himself."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רָזָה",
+          "transliteration": "raz/raza",
+          "rendered_as": "mystery",
+          "semantic_range": "secret, mystery, divine counsel, hidden purpose",
+          "note": "A Persian loanword used 9 times in Daniel 2. It denotes a divinely concealed truth that transcends human investigation — it can only be known through revelation. This concept profoundly influenced later Jewish apocalypticism and Paul's use of mysterion in the New Testament."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "אֱדַ֗יִן לְדָנִיֵּאל֙ בְּחֶזְוָ֣א דִֽי־לֵילְיָ֔א רָזָ֖ה גֲלִ֑י אֱדַ֕יִן דָּנִיֵּ֕אל בָּרִ֖ךְ לֶאֱלָ֥הּ שְׁמַיָּֽא׃",
+      "text_kjv": "Then was the secret revealed unto Daniel in a night vision. Then Daniel blessed the God of heaven.",
+      "rendering": "Then the mystery was revealed to Daniel in a vision during the night, and Daniel blessed the God of heaven.",
+      "translator_notes": [
+        "The verb geli ('was revealed, uncovered') is passive — the mystery is unveiled by God's initiative, not discovered through Daniel's effort. The chezva di-leilya ('vision of the night') distinguishes this from an ordinary dream; it is a deliberate divine communication.",
+        "Daniel's immediate response is worship — barekh ('blessed'). Before going to the king, before saving his own life, he turns to praise. This establishes the prayer of verses 20-23."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "עָנֵ֤ה דָנִיֵּאל֙ וְאָמַ֔ר לֶהֱוֵ֨א שְׁמֵ֤הּ דִּֽי־אֱלָהָא֙ מְבָרַ֔ךְ מִן־עָלְמָ֖א וְעַ֣ד עָלְמָ֑א דִּ֤י חָכְמְתָ֥א וּגְבוּרְתָ֖א דִּ֥י לֵ֖הּ הִֽיא׃",
+      "text_kjv": "Daniel answered and said, Blessed be the name of God for ever and ever: for wisdom and might are his:",
+      "rendering": "Daniel declared: \"Let the name of God be blessed from age to age, for wisdom and power belong to him.",
+      "expanded_rendering": "The Aramaic min-alma ve-ad alma ('from age to age,' or 'from everlasting to everlasting') uses olam — a duration stretching beyond the horizon of perception. Daniel praises God's name across the full sweep of time, from depths beyond memory to distances beyond sight. The pairing of chokhma ('wisdom') and gevurah ('power') announces the two divine attributes that will be demonstrated in this chapter: God knows what is hidden (wisdom) and controls the rise and fall of kingdoms (power).",
+      "translator_notes": [
+        "Daniel's prayer-poem in verses 20-23 is structured as a hymn of praise, distinct from the surrounding narrative. We preserve the poetic quality by rendering in elevated but modern English.",
+        "The phrase min-alma ve-ad alma is rendered 'from age to age' rather than the KJV's 'for ever and ever' to reflect the Aramaic sense of vast temporal expanse rather than abstract eternity."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עָלְמָא",
+          "transliteration": "alma",
+          "rendered_as": "age",
+          "semantic_range": "age, eternity, long duration, hidden time",
+          "note": "The Aramaic cognate of Hebrew olam. A duration whose boundaries are hidden from view — not necessarily infinite but vast beyond comprehension."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְה֞וּא מְהַשְׁנֵ֤א עִדָּנַיָּא֙ וְזִמְנַיָּ֔א מְהַעְדֵּ֤ה מַלְכִין֙ וּמְהָקֵ֣ם מַלְכִ֔ין יָהֵ֥ב חָכְמְתָ֖א לְחַכִּימִ֑ין וּמַנְדְּעָ֖א לְיָדְעֵ֥י בִינָֽה׃",
+      "text_kjv": "And he changeth the times and the seasons: he removeth kings, and setteth up kings: he giveth wisdom to the wise, and knowledge to them that know understanding:",
+      "rendering": "He changes times and seasons; he removes kings and raises up kings. He gives wisdom to the wise and knowledge to those who have understanding.",
+      "translator_notes": [
+        "The verbs are all participial — mehashneh, meh'addeh, mehaqqem — describing God's ongoing, habitual activity. This is not a one-time act but God's continuous governance of history.",
+        "The phrase meh'addeh malkin u-mehaqqem malkin ('removing kings and establishing kings') is the theological thesis of the entire book of Daniel — God is sovereign over political power. Every empire in Daniel's visions rises and falls by divine permission."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "ה֛וּא גָּלֵ֥א עַמִּיקָתָ֖א וּמְסַתְּרָתָ֑א יָדַ֤ע מָה֙ בַּחֲשׁוֹכָ֔א וּנְהוֹרָ֖א עִמֵּ֥הּ שְׁרֵֽא׃",
+      "text_kjv": "He revealeth the deep and secret things: he knoweth what is in the darkness, and the light dwelleth with him.",
+      "rendering": "He reveals what is deep and hidden; he knows what lies in darkness, and light dwells with him.",
+      "translator_notes": [
+        "The pairing ammiqqata u-mesattrata ('the deep things and the hidden things') describes knowledge beyond human access — God penetrates depths and unveils concealment.",
+        "The final phrase nehora immeh shre ('light dwells with him') is a theological statement about God's nature: light — representing knowledge, truth, and revelation — has its home in God. This contrasts with the chashokha ('darkness') that conceals mysteries from human sight."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "לָ֣ךְ אֱלָ֤הּ אֲבָהָתִי֙ מְהוֹדֵ֤א וּמְשַׁבַּח֙ אֲנָ֔ה דִּ֧י חָכְמְתָ֛א וּגְבוּרְתָ֖א יְהַ֣בְתְּ לִ֑י וּכְעַ֣ן הוֹדַעְתַּ֔נִי דִּֽי־בְעֵ֖ינָא מִנָּ֑ךְ דִּֽי־מִלַּ֥ת מַלְכָּ֖א הוֹדַעְתַּֽנָא׃",
+      "text_kjv": "I thank thee, and praise thee, O thou God of my fathers, who hast given me wisdom and might, and hast made known unto me now what we desired of thee: for thou hast now made known unto us the king's matter.",
+      "rendering": "To you, God of my ancestors, I give thanks and praise, for you have given me wisdom and strength, and now you have made known to me what we asked of you — you have revealed to us the king's matter.\"",
+      "translator_notes": [
+        "Daniel shifts from third person praise (vv. 20-22) to direct second-person address — the hymn becomes personal prayer. The phrase Elah abahatiy ('God of my ancestors') connects Daniel to the covenant tradition of Abraham, Isaac, and Jacob even while standing in Babylon.",
+        "The shift from singular 'me' (li, 'to me') to plural 'us' (lana, 'to us') is significant — Daniel received the revelation individually but credits the communal prayer of his companions. The wisdom was given to him; the petition was made by them all."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "כָּל־קֳבֵ֣ל דְּנָ֗ה דָּנִיֵּאל֙ עַ֣ל עַל־אַרְי֔וֹךְ דִּ֤י מַנִּי֙ מַלְכָּ֔א לְהוֹבָדָ֖ה לְחַכִּימֵ֣י בָבֶ֑ל אֲזַ֞ל וְכֵ֤ן אֲמַר־לֵהּ֙ לְחַכִּימֵ֤י בָבֶל֙ אַל־תְּהוֹבֵ֔ד הַעֵ֙לְנִי֙ קֳדָ֣ם מַלְכָּ֔א וּפִשְׁרָ֖א לְמַלְכָּ֥א אֲחַוֵּֽא׃",
+      "text_kjv": "Therefore Daniel went in unto Arioch, whom the king had ordained to destroy the wise men of Babylon: he went and said thus unto him; Destroy not the wise men of Babylon: bring me in before the king, and I will shew unto the king the interpretation.",
+      "rendering": "Therefore Daniel went to Arioch, whom the king had appointed to destroy the wise men of Babylon, and said to him, \"Do not execute the wise men of Babylon. Bring me before the king, and I will reveal the interpretation to him.\"",
+      "translator_notes": [
+        "Daniel's first words to Arioch are not about himself but about saving the wise men — 'Do not execute the wise men of Babylon.' His intervention saves the very class of scholars who could not help the king. This parallels Joseph saving Egypt's people despite being a prisoner himself.",
+        "The verb al-tehobed ('do not destroy') is an imperative — Daniel speaks with authority despite being a junior member of the court, emboldened by divine revelation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "אֱדַ֗יִן אַרְי֛וֹךְ בְּהִתְבְּהָלָ֥ה הַנְעֵ֖ל לְדָנִיֵּ֣אל קֳדָ֣ם מַלְכָּ֑א וְכֵ֤ן אֲמַר־לֵהּ֙ דִּ֣י הַשְׁכַּ֤חַת גְּבַר֙ מִן־בְּנֵ֤י גָלוּתָא֙ דִּ֣י יְה֔וּד דִּ֥י פִשְׁרָ֖א לְמַלְכָּ֥א יְהוֹדַֽע׃",
+      "text_kjv": "Then Arioch brought in Daniel before the king in haste, and said thus unto him, I have found a man of the captives of Judah, that will make known unto the king the interpretation.",
+      "rendering": "Arioch quickly brought Daniel before the king and said, \"I have found a man among the Judean exiles who can make the interpretation known to the king.\"",
+      "translator_notes": [
+        "The phrase be-hitbehalah ('in haste, urgently') shows Arioch's eagerness — he too is under threat if the executions proceed and later prove unnecessary.",
+        "Arioch claims credit — 'I have found' (hashkachat) — when in fact Daniel came to him. This small detail of court politics is characteristically realistic in Daniel's narrative style.",
+        "The phrase benei galuta di Yehud ('sons of the exile of Judah') identifies Daniel by his status as a deportee, emphasizing the irony: the answer comes not from Babylon's elite scholars but from a conquered exile."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "עָנֵ֤ה מַלְכָּא֙ וְאָמַ֣ר לְדָ֣נִיֵּ֔אל דִּ֥י שְׁמֵ֖הּ בֵּלְטְשַׁאצַּ֑ר הַאִיתָ֣ךְ כָּהֵ֗ל לְהוֹדָעוּתַ֛נִי חֶלְמָ֥א דִֽי־חֲזֵ֖ית וּפִשְׁרֵֽהּ׃",
+      "text_kjv": "The king answered and said to Daniel, whose name was Belteshazzar, Art thou able to make known unto me the dream which I have seen, and the interpretation thereof?",
+      "rendering": "The king asked Daniel, who was called Belteshazzar, \"Are you able to make known to me the dream I saw and its interpretation?\"",
+      "translator_notes": [
+        "The narrator inserts the Babylonian name Belteshazzar as a parenthetical — this is how the king would know him. But the text always leads with 'Daniel,' the Hebrew name, asserting the character's true identity.",
+        "The king's question ha-itakh kahel ('are you able') echoes the Chaldeans' declaration of impossibility in verse 10. The king is testing whether Daniel's claim exceeds what his own experts have declared cannot be done."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "עָנֵ֤ה דָנִיֵּאל֙ קֳדָ֣ם מַלְכָּ֔א וְאָמַ֑ר רָזָה֙ דִּֽי־מַלְכָּ֣א שָׁאֵ֔ל לָ֤א חַכִּימִין֙ אָשְׁפִ֔ין חַרְטֻמִּ֥ין גָּזְרִ֖ין יָכְלִ֥ין לְהַחֲוָיָ֖ה לְמַלְכָּֽא׃",
+      "text_kjv": "Daniel answered in the presence of the king, and said, The secret which the king hath demanded cannot the wise men, the astrologers, the magicians, the soothsayers, shew unto the king;",
+      "rendering": "Daniel answered the king, \"The mystery that the king demands — no wise man, enchanter, magician, or diviner can reveal it to the king.",
+      "translator_notes": [
+        "Daniel begins not by exalting himself but by affirming what the Chaldeans said: human wisdom cannot solve this. He lists four categories of professional scholars — chakkimin, ashfin, chartummin, gazrin — to emphasize that every class of human expertise fails before this mystery.",
+        "The term gazrin ('diviners, those who cut' — from the root gazar, 'to cut, determine') refers to specialists in cutting-divination, possibly hepatoscopy (reading animal livers). This is the only time they appear in the list."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "בְּרַ֗ם אִיתַ֛י אֱלָ֥הּ בִּשְׁמַיָּ֖א גָּלֵ֣א רָזִ֑ין וְהוֹדַ֞ע לְמַלְכָּ֤א נְבוּכַדְנֶאצַּר֙ מָ֣ה דִּ֤י לֶהֱוֵא֙ בְּאַחֲרִ֣ית יוֹמַיָּ֔א חֶלְמָ֛ךְ וְחֶזְוֵ֥י רֵאשָׁ֖ךְ עַל־מִשְׁכְּבָ֥ךְ דְּנָ֖ה הֽוּא׃",
+      "text_kjv": "But there is a God in heaven that revealeth secrets, and maketh known to the king Nebuchadnezzar what shall be in the latter days. Thy dream, and the visions of thy head upon thy bed, are these;",
+      "rendering": "But there is a God in heaven who reveals mysteries. He has made known to King Nebuchadnezzar what will happen in the latter days. This is your dream and the visions that passed through your mind as you lay on your bed:",
+      "translator_notes": [
+        "The phrase itay Elah bishmayya ('there is a God in heaven') directly answers the Chaldeans' claim in verse 11 that 'the gods whose dwelling is not with flesh' cannot help. Daniel's God is in heaven yet communicates with humans — transcendent yet accessible.",
+        "The phrase be-acharit yomayya ('in the latter days,' 'at the end of days') is eschatological language — the dream concerns the ultimate trajectory of history, not merely the near future. This phrase connects to the prophetic tradition of Isaiah 2:2 and Micah 4:1.",
+        "Daniel deflects personal credit throughout — 'there is a God in heaven who reveals,' not 'I will reveal.'"
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אַחֲרִית יוֹמַיָּא",
+          "transliteration": "acharit yomayya",
+          "rendered_as": "the latter days",
+          "semantic_range": "end of days, latter days, final period, eschaton",
+          "note": "The Aramaic equivalent of the Hebrew acharit ha-yamim. A technical term in prophetic and apocalyptic literature for the culminating period of God's plan for history."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "אַ֣נְתְּ מַלְכָּ֗א רַעְיוֹנָךְ֙ עַל־מִשְׁכְּבָ֣ךְ סְלִ֔קוּ מָ֣ה דִּ֤י לֶהֱוֵא֙ אַחֲרֵ֣י דְנָ֔ה וְגָלֵ֧א רָזַיָּ֛א הוֹדְעָ֖ךְ מָה־דִּ֥י לֶהֱוֵֽא׃",
+      "text_kjv": "As for thee, O king, thy thoughts came into thy mind upon thy bed, what should come to pass hereafter: and he that revealeth secrets maketh known to thee what shall come to pass.",
+      "rendering": "As for you, O king — while you were on your bed, thoughts came to you about what would happen in the future, and the Revealer of mysteries has shown you what will take place.",
+      "translator_notes": [
+        "Daniel calls God galeh razayya ('the Revealer of mysteries') — a title rather than a name, emphasizing God's unique role as the one who unveils what is hidden. No human guild or professional class shares this function.",
+        "The phrase mah di leheve acharei denah ('what will be after this') distinguishes from the eschatological 'latter days' of verse 28 — the dream addresses the sweep of future history, from Nebuchadnezzar's own time to the ultimate end."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַאֲנָה֙ לָ֤א בְחָכְמָה֙ דִּי־אִיתַ֣י בִּ֔י מִן־כָּל־חַיַּיָּ֔א רָזָ֥א דְנָ֖ה גֲלִ֣י לִ֑י לָהֵ֗ן עַל־דִּבְרַת֙ דִּ֤י פִשְׁרָא֙ לְמַלְכָּ֣א יְהוֹדְע֔וּן וְרַעְיוֹנֵ֥י לִבְבָ֖ךְ תִּנְדַּֽע׃",
+      "text_kjv": "But as for me, this secret is not revealed to me for any wisdom that I have more than any living, but for their sakes that shall make known the interpretation to the king, and that thou mightest know the thoughts of thy heart.",
+      "rendering": "As for me, this mystery was not revealed to me because I possess more wisdom than any other living person, but so that the interpretation may be made known to the king and you may understand the thoughts of your own heart.",
+      "translator_notes": [
+        "Daniel explicitly disclaims personal superiority — la be-chokhma di itay bi ('not by wisdom that is in me'). The revelation came through him, not from him. This humility distinguishes Daniel from the professional wise men who trade on their own expertise.",
+        "The purpose clause 'that you may understand the thoughts of your heart' suggests Nebuchadnezzar's dream reflects his own deep anxieties about the future of his empire — God is answering the king's unspoken questions."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "אַ֣נְתְּ מַלְכָּ֗א חָזֵ֣ה הֲוַ֡יְתָ וַאֲל֣וּ צְלֵם֩ חַ֨ד שַׂגִּ֜יא צַלְמָ֣א דִכֵּ֗ן רַ֤ב וְזִיוֵהּ֙ יַתִּ֔יר קָאֵ֖ם לְקָֽבְלָ֑ךְ וְרֵיוֵ֖הּ דְּחִֽיל׃",
+      "text_kjv": "Thou, O king, sawest, and behold a great image. This great image, whose brightness was excellent, stood before thee; and the form thereof was terrible.",
+      "rendering": "You, O king, were looking, and there before you stood a great statue. That statue was immense and extraordinarily brilliant, standing before you, and its appearance was terrifying.",
+      "translator_notes": [
+        "The Aramaic tselem ('image, statue') is the same word used in Genesis 1:26-27 (Hebrew tselem) for the image of God. This massive human-form statue stands as a counterfeit — human empire attempting to project divine-scale grandeur.",
+        "The description builds through three qualities: saggi ('great'), rav ('immense'), and ziyveh yattir ('its brilliance exceeding') — the statue overwhelms by sheer scale and radiance. Yet its appearance (reveh) is dechil ('terrifying'), not beautiful."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "ה֤וּא צַלְמָא֙ רֵאשֵׁ֣הּ דִּֽי־דְהַ֣ב טָ֔ב חֲד֥וֹהִי וּדְרָע֖וֹהִי דִּ֣י כְסַ֑ף מְע֥וֹהִי וְיַרְכָתֵ֖הּ דִּ֥י נְחָֽשׁ׃",
+      "text_kjv": "This image's head was of fine gold, his breast and his arms of silver, his belly and his thighs of brass,",
+      "rendering": "The head of that statue was of pure gold, its chest and arms were of silver, its belly and thighs of bronze,",
+      "translator_notes": [
+        "The four metals descend in value but increase in strength — gold is most precious but softest, iron is least valuable but hardest. This creates a paradox: the kingdoms grow stronger militarily but deteriorate in intrinsic worth.",
+        "The Aramaic dehav tav ('good gold, fine gold') emphasizes the quality of the gold head — the Babylonian kingdom at its zenith."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "שָׁק֖וֹהִי דִּ֣י פַרְזֶ֑ל רַגְל֕וֹהִי מִנְּהֵ֥ין דִּי פַרְזֶ֖ל וּמִנְּהֵ֥ין דִּ֥י חֲסַֽף׃",
+      "text_kjv": "His legs of iron, his feet part of iron and part of clay.",
+      "rendering": "its legs of iron, and its feet partly of iron and partly of clay.",
+      "translator_notes": [
+        "The division into two materials — iron and chasaf ('baked clay, pottery') — at the feet signals inherent instability. A statue resting on a mixture of the hardest metal and the most brittle ceramic is structurally doomed. The feet are the point of catastrophic failure in verse 34."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "חָזֵ֣ה הֲוַ֗יְתָ עַ֣ד דִּ֤י הִתְגְּזֶ֙רֶת֙ אֶ֙בֶן֙ דִּי־לָ֣א בִידַ֔יִן וּמְחָ֤ת לְצַלְמָא֙ עַל־רַגְל֔וֹהִי דִּ֥י פַרְזְלָ֖א וְחַסְפָּ֑א וְהַדֶּ֖קֶת הִמּֽוֹן׃",
+      "text_kjv": "Thou sawest till that a stone was cut out without hands, which smote the image upon his feet that were of iron and clay, and brake them to pieces.",
+      "rendering": "You watched as a stone was cut out — not by human hands — and it struck the statue on its feet of iron and clay, shattering them.",
+      "expanded_rendering": "The phrase di-la vi-yadayin ('not by hands') is the theological center of the vision. This stone originates outside human agency — no army carved it, no king commissioned it. It represents divine intervention entering history from beyond history. The destruction begins at the feet, the point of structural weakness where iron and clay refuse to bond, and collapses the entire edifice of human empire.",
+      "translator_notes": [
+        "The Aramaic even ('stone') that is hitgezeret ('cut out') uses a passive verb with divine agency implied — God is the unnamed cutter. The phrase di-la vi-yadayin ('not by hands') emphatically excludes human involvement in this kingdom's origin.",
+        "The verb haddeqet ('crushed, shattered') indicates complete pulverization, not merely breaking into large pieces. The stone targets the weakest point — the composite feet."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֶבֶן דִּי־לָא בִידַיִן",
+          "transliteration": "even di-la vi-yadayin",
+          "rendered_as": "a stone cut out — not by human hands",
+          "semantic_range": "stone not made by hands, divinely originated stone",
+          "note": "This phrase becomes one of the most interpreted images in biblical prophecy. It represents God's kingdom entering the world without human agency, overthrowing all human political systems. Both Jewish and Christian traditions apply this to the messianic kingdom."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "בֵּאדַ֣יִן דָּ֡קוּ כַחֲדָה֩ פַּרְזְלָ֨א חַסְפָּ֜א נְחָשָׁ֣א כַסְפָּ֣א וְדַהֲבָ֗א וַהֲו֤וֹ כְּעוּר֙ מִן־אִדְּרֵי־קַ֔יִט וּנְשָׂ֤א הִמּוֹן֙ רוּחָ֔א וְכָל־אֲתַ֖ר לָא־הִשְׁתְּכַ֣ח לְה֑וֹן וְאַבְנָ֣א דִּֽי־מְחָ֣ת לְצַלְמָ֗א הֲוָ֛ת לְט֥וּר רַ֖ב וּמְלָ֥ת כָּל־אַרְעָֽא׃",
+      "text_kjv": "Then was the iron, the clay, the brass, the silver, and the gold, broken to pieces together, and became like the chaff of the summer threshingfloors; and the wind carried them away, that no place was found for them: and the stone that smote the image became a great mountain, and filled the whole earth.",
+      "rendering": "Then the iron, clay, bronze, silver, and gold were all crushed together and became like chaff on a summer threshing floor. The wind swept them away without leaving a trace. But the stone that struck the statue became a great mountain and filled the entire earth.",
+      "expanded_rendering": "The image of chaff blown from a summer threshing floor is drawn from agrarian life — in summer the chaff is driest, lightest, most easily scattered. The combined empires of human history, for all their weight and grandeur, become weightless before God's action. The stone that was small enough to strike feet grows into a mountain filling the earth — God's kingdom begins small but expands without limit. The Aramaic tur rav ('great mountain') evokes the cosmic mountain traditions where God's dwelling towers above all creation.",
+      "translator_notes": [
+        "The materials are listed in reverse order — iron, clay, bronze, silver, gold — from bottom to top, indicating total simultaneous collapse. The phrase ke-ur min-idderei qayit ('like chaff from summer threshing floors') is a vivid agricultural metaphor: summer chaff is the lightest, most insubstantial waste.",
+        "The phrase kol-atar la-hishtekach lehon ('no place was found for them') means complete annihilation — not just defeat but erasure from the landscape of history.",
+        "The transformation of the stone into a tur rav ('great mountain') that melet kol-ar'a ('filled the whole earth') signals a kingdom that is not merely one among many but all-encompassing."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "דְּנָ֖ה חֶלְמָ֑א וּפִשְׁרֵ֥הּ נֵאמַ֖ר קֳדָ֥ם מַלְכָּֽא׃",
+      "text_kjv": "This is the dream; and we will tell the interpretation thereof before the king.",
+      "rendering": "This was the dream, and now we will tell the king its interpretation.",
+      "translator_notes": [
+        "The plural ne'mar ('we will tell') may be a royal or editorial 'we,' or it may include Daniel's companions who prayed for the revelation. Daniel has already proven his authority by recounting the dream without being told — the interpretation now follows with full credibility."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "אַ֣נְתְּ מַלְכָּ֗א מֶ֤לֶךְ מַלְכַיָּא֙ דִּ֣י אֱלָ֣הּ שְׁמַיָּ֔א מַלְכוּתָ֧א חִסְנָ֛א וְתָקְפָּ֥א וִיקָרָ֖א יְהַב־לָֽךְ׃",
+      "text_kjv": "Thou, O king, art a king of kings: for the God of heaven hath given thee a kingdom, power, and strength, and glory.",
+      "rendering": "You, O king, are king of kings. The God of heaven has given you the kingdom, the power, the strength, and the glory.",
+      "translator_notes": [
+        "The title melekh malkaiya ('king of kings') is standard ancient Near Eastern imperial titulature. But Daniel immediately qualifies it — Nebuchadnezzar holds this authority because the God of heaven gave it. The four gifts — malkuta ('kingdom'), chisna ('strength/dominion'), toqfa ('power'), and yeqara ('glory') — are all divine grants, not self-generated accomplishments."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וּבְכָל־דִּ֣י דָֽיְרִ֗ין בְּנֵ֤י אֲנָשָׁא֙ חֵיוַ֤ת בָּרָא֙ וְעוֹף־שְׁמַיָּ֔א יְהַ֣ב בִּידָ֔ךְ וְהַשְׁלְטָ֖ךְ בְּכָלְּה֑וֹן אַ֥נְתְּ ה֖וּא רֵאשָׁ֥ה דִּ֥י דַהֲבָֽא׃",
+      "text_kjv": "And wheresoever the children of men dwell, the beasts of the field and the fowls of the heaven hath he given into thine hand, and hath made thee ruler over them all. Thou art this head of gold.",
+      "rendering": "Wherever people dwell — along with the wild animals and birds of the sky — he has placed them under your authority and made you ruler over them all. You are that head of gold.",
+      "translator_notes": [
+        "The language of dominion over humans, beasts, and birds echoes the creation mandate of Genesis 1:28 and God's covenant with Noah in Genesis 9:2. Nebuchadnezzar is cast as a kind of Adam figure — given comprehensive authority over the created order. But unlike Adam's, this authority is delegated and temporary.",
+        "The identification 'you are the head of gold' (anteh hu re'sha di dahava) makes Nebuchadnezzar's Babylon the first and most glorious kingdom. Gold is the most precious metal — subsequent kingdoms will be lesser in this quality."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וּבָתְרָ֗ךְ תְּק֤וּם מַלְכ֤וּ אָֽחֳרִי֙ אֲרַ֣עא מִנָּ֔ךְ וּמַלְכ֤וּ תְלִיתָֽאָה֙ אָֽחֳרִ֔י דִּ֣י נְחָשָׁ֔א דִּ֥י תִשְׁלַ֖ט בְּכָל־אַרְעָֽא׃",
+      "text_kjv": "And after thee shall arise another kingdom inferior to thee, and another third kingdom of brass, which shall bear rule over all the earth.",
+      "rendering": "After you, another kingdom will arise, inferior to yours, and then a third kingdom, of bronze, which will rule over the entire earth.",
+      "translator_notes": [
+        "The second kingdom (silver) is described only as ara'a minnakh ('inferior to you') — less glorious than Babylon, though historically more extensive. The text does not name these kingdoms, and scholarly debate continues about their identification.",
+        "The third kingdom (bronze) is said to tishlat be-khol-ar'a ('rule over the whole earth') — the most expansive claim made of any kingdom in the sequence. The descending metal value but increasing geographic scope creates a paradox of deteriorating quality with expanding reach."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וּמַלְכ֤וּ רְבִיעָֽאָה֙ תֶּהֱוֵ֤א תַקִּיפָה֙ כְּפַרְזְלָ֔א כָּל־קֳבֵל֙ דִּ֣י פַרְזְלָ֔א מְהַדֵּ֥ק וְחָשֵׁ֖ל כֹּ֑לָּא וּכְפַרְזְלָ֤א דִּֽי־מְרָעַע֙ כָּל־אִלֵּ֔ין תַּדִּ֖ק וְתֵרֹֽעַ׃",
+      "text_kjv": "And the fourth kingdom shall be strong as iron: forasmuch as iron breaketh in pieces and subdueth all things: and as iron that breaketh all these, shall it break in pieces and bruise.",
+      "rendering": "A fourth kingdom will be as strong as iron, for just as iron shatters and crushes everything, so it will shatter and crush all the others.",
+      "translator_notes": [
+        "The fourth kingdom is defined entirely by destructive force — the verbs mehaddeq ('shatters'), chashel ('breaks'), tadiq ('crushes'), and tero'a ('smashes') all describe violent domination. Iron is chosen not for beauty or value but for its capacity to destroy.",
+        "The repetition of iron imagery emphasizes relentless military power. This is the kingdom with the least inherent value (iron versus gold, silver, bronze) but the greatest destructive capability."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וְדִי֩ חֲזַ֨יְתָה רַגְלַיָּ֜א וְאֶצְבְּעָתָ֗א מִנְּהֵ֤ין חֲסַף֙ דִּ֣י פֶחָ֔ר וּמִנְּהֵ֖ין פַּרְזֶ֑ל מַלְכ֤וּ פְלִיגָה֙ תֶּהֱוֵ֔ה וּמִן־נִצְבְּתָ֤א דִי פַרְזְלָא֙ לֶהֱוֵא־בַ֔הּ כָּל־קֳבֵ֗ל דִּ֤י חֲזַ֙יְתָה֙ פַּרְזְלָ֔א מְעָרַ֖ב בַּחֲסַ֥ף טִינָֽא׃",
+      "text_kjv": "And whereas thou sawest the feet and toes, part of potters' clay, and part of iron, the kingdom shall be divided; but there shall be in it of the strength of the iron, forasmuch as thou sawest the iron mixed with miry clay.",
+      "rendering": "As you saw the feet and toes, partly of potter's clay and partly of iron — it will be a divided kingdom, though it will have some of the strength of iron in it, since you saw iron mixed with common clay.",
+      "translator_notes": [
+        "The Aramaic peligah ('divided') indicates internal fracture — this kingdom lacks the unity of the previous three. The mixture of iron and chasaf tina ('clay of mud/common clay') represents an attempted fusion that cannot hold.",
+        "The phrase min-nitsbeta di farzela ('from the firmness of iron') indicates residual strength — the fourth kingdom retains iron's power in some measure but is fatally compromised by the clay admixture."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וְאֶצְבְּעָ֣ת רַגְלַיָּ֗א מִנְּהֵ֤ין פַּרְזֶל֙ וּמִנְּהֵ֣ין חֲסַ֔ף מִן־קְצָ֥ת מַלְכוּתָ֖א תֶּהֱוֵ֣ה תַקִּיפָ֑ה וּמִנָּ֖הּ תֶּהֱוֵ֥ה תְבִירָֽה׃",
+      "text_kjv": "And as the toes of the feet were part of iron, and part of clay, so the kingdom shall be partly strong, and partly broken.",
+      "rendering": "Just as the toes of the feet were partly iron and partly clay, so this kingdom will be partly strong and partly brittle.",
+      "translator_notes": [
+        "The contrast between taqqifah ('strong') and tevirah ('brittle, broken, fragile') within a single kingdom captures the internal contradiction. The toes — ten of them, possibly representing subdivisions — embody this unstable mixture."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וְדִ֣י חֲזַ֗יְתָה פַּרְזְלָא֙ מְעָרַ֣ב בַּחֲסַ֣ף טִינָ֔א מִתְעָֽרְבִ֥ין לֶהֱוֹ֖ן בִּזְרַ֣ע אֲנָשָׁ֑א וְלָא־לֶהֱוֹ֤ן דָּבְקִין֙ דְּנָ֣ה עִם־דְּנָ֔ה הֵ֚א כְּדִ֣י פַרְזְלָ֔א לָ֥א מִתְעָרַ֖ב עִם־חַסְפָּֽא׃",
+      "text_kjv": "And whereas thou sawest iron mixed with miry clay, they shall mingle themselves with the seed of men: but they shall not cleave one to another, even as iron is not mixed with clay.",
+      "rendering": "As you saw the iron mixed with common clay, so they will mix with one another through human alliances, but they will not hold together, just as iron does not bond with clay.",
+      "translator_notes": [
+        "The phrase bi-zra' anasha ('by the seed of men,' 'through human intermarriage/alliances') likely refers to political marriages intended to forge alliances between rival factions — a common ancient diplomatic strategy. Despite these efforts at unity, the kingdom remains fundamentally incompatible with itself.",
+        "The verb davqin ('adhere, cling, bond') echoes the Genesis 2:24 usage of the same root for marital bonding — the political unions will fail where true covenant bonds would succeed."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וּבְיוֹמֵיהוֹן֙ דִּ֣י מַלְכַיָּ֣א אִנּ֔וּן יְקִ֛ים אֱלָ֥הּ שְׁמַיָּ֖א מַלְכ֕וּ דִּ֤י לְעָלְמִין֙ לָ֣א תִתְחַבַּ֔ל וּמַלְכוּתָ֕ה לְעַ֥ם אָחֳרָ֖ן לָ֣א תִשְׁתְּבִ֑ק תַּדִּ֤ק וְתָסֵיף֙ כָּל־אִלֵּ֣ין מַלְכְוָתָ֔א וְהִ֖יא תְּקוּם֥ לְעָלְמַיָּֽא׃",
+      "text_kjv": "And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, but it shall break in pieces and consume all these kingdoms, and it shall stand for ever.",
+      "rendering": "In the days of those kings, the God of heaven will establish a kingdom that will never be destroyed, nor will its sovereignty be left to another people. It will shatter and bring to an end all those kingdoms, but it itself will stand forever.",
+      "expanded_rendering": "This is the theological climax of the vision. The God of heaven — not a human conqueror, not a political revolution — will establish (yeqim) a kingdom. Three qualities define it: it will never be destroyed (la titchabbal — the root suggests corruption and ruin), its rule will never pass to another people (unlike every human empire that eventually falls to a successor), and it will endure le-almayya (into the ages, beyond the horizon of time). This kingdom does not coexist with the others — it shatters them. God's rule replaces, not supplements, human political systems.",
+      "translator_notes": [
+        "The phrase Elah shemayya yeqim malku ('the God of heaven will establish a kingdom') uses the same verb (qum, 'establish, raise up') used for the rising of human kingdoms in verse 39, but with God as the explicit agent.",
+        "Three negations define this kingdom: la titchabbal ('will not be destroyed'), la tishteviq ('will not be left/abandoned to another'), and the implicit contrast with every preceding kingdom that did fall. The permanence is absolute.",
+        "The Aramaic le-almayya ('for the ages, forever') uses the plural of olam, intensifying the duration beyond even the singular form."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מַלְכוּ דִּי לְעָלְמִין",
+          "transliteration": "malku di le-almin",
+          "rendered_as": "a kingdom that will never be destroyed",
+          "semantic_range": "eternal kingdom, everlasting dominion, kingdom for the ages",
+          "note": "The concept of an indestructible divine kingdom that supersedes all human empires is the foundational idea of biblical apocalypticism. It recurs in Daniel 7:14, 27 and shapes Jesus's proclamation of the kingdom of God in the Gospels."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "כָּל־קֳבֵ֣ל דִּֽי־חֲזַ֡יְתָ דִּ֣י מִטּוּרָא֩ אִתְגְּזֶ֨רֶת אֶ֜בֶן דִּי־לָ֣א בִידַ֗יִן וְהַדֶּ֙קֶת֙ פַּרְזְלָ֤א נְחָשָׁא֙ חַסְפָּ֔א כַּסְפָּ֖א וְדַהֲבָ֑א אֱלָ֣הּ רַב֩ הוֹדַ֨ע לְמַלְכָּ֜א מָ֣ה דִּ֤י לֶהֱוֵא֙ אַחֲרֵ֣י דְנָ֔ה וְיַצִּ֥יב חֶלְמָ֖א וּמְהֵימַ֥ן פִּשְׁרֵֽהּ׃",
+      "text_kjv": "Forasmuch as thou sawest that the stone was cut out of the mountain without hands, and that it brake in pieces the iron, the brass, the clay, the silver, and the gold; the great God hath made known to the king what shall come to pass hereafter: and the dream is certain, and the interpretation thereof sure.",
+      "rendering": "Just as you saw that a stone was cut from the mountain without human hands, and it crushed the iron, bronze, clay, silver, and gold — the great God has made known to the king what will take place in the future. The dream is certain and its interpretation is trustworthy.\"",
+      "translator_notes": [
+        "Here the stone's origin is specified: mi-tura ('from the mountain') — the stone comes from God's mountain, the cosmic mountain that it will itself become (v. 35). The mountain of God produces the stone that becomes a mountain filling the earth.",
+        "The closing formula yatstsiv chelma u-meheiman pishreh ('the dream is certain and its interpretation trustworthy') uses legal language — yatstsiv means 'established, firm' and meheiman means 'reliable, faithful.' Daniel certifies both the accuracy of his dream report and the reliability of his interpretation.",
+        "The title Elah rav ('the great God') appears here for the first time in Daniel — Daniel proclaims God's greatness to the most powerful man on earth."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "בֵּאדַ֗יִן מַלְכָּ֤א נְבוּכַדְנֶאצַּר֙ נְפַ֣ל עַל־אַנְפּ֔וֹהִי וּלְדָנִיֵּ֖אל סְגִ֑ד וּמִנְחָ֥ה וְנִיחֹחִ֖ין אֲמַ֥ר לְנַסָּ֖כָה לֵֽהּ׃",
+      "text_kjv": "Then the king Nebuchadnezzar fell upon his face, and worshipped Daniel, and commanded that they should offer an oblation and sweet odours unto him.",
+      "rendering": "Then King Nebuchadnezzar fell on his face and paid homage to Daniel. He ordered that an offering and incense be presented to him.",
+      "translator_notes": [
+        "The verb segid ('did obeisance, worshipped, paid homage') is the same word used throughout Daniel 3 for worship of the golden image. Nebuchadnezzar prostrates himself before Daniel — an extraordinary act for the most powerful king on earth. Whether this constitutes actual worship or royal tribute is debated; Daniel does not refuse it, which has puzzled commentators.",
+        "The offering of minchah ('grain offering') and nichochin ('incense, pleasing aromas') are sacrificial terms — the king treats Daniel as a divine intermediary, though the next verse shows his praise ultimately directed at Daniel's God."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "עָנֵ֤ה מַלְכָּא֙ לְדָ֣נִיֵּ֔אל וְאָמַ֕ר מִן־קְשֹׁ֣ט דִּ֤י אֱלָֽהֲכוֹן֙ ה֣וּא אֱלָ֤הּ אֱלָהִין֙ וּמָרֵ֣א מַלְכִ֔ין וְגָלֵ֖ה רָזִ֑ין דִּ֥י יְכֵ֖לְתָּ לְמִגְלֵ֥א רָזָ֥א דְנָֽה׃",
+      "text_kjv": "The king answered unto Daniel, and said, Of a truth it is, that your God is a God of gods, and a Lord of kings, and a revealer of secrets, seeing thou couldest reveal this secret.",
+      "rendering": "The king said to Daniel, \"Truly, your God is the God of gods and the Lord of kings, and a Revealer of mysteries, since you were able to reveal this mystery.\"",
+      "translator_notes": [
+        "Nebuchadnezzar makes three confessions: Elah elahin ('God of gods') — supreme over all deities; Mare malkin ('Lord of kings') — sovereign over all rulers, including Nebuchadnezzar himself; and Galeh razin ('Revealer of mysteries') — possessing unique knowledge that no human wisdom can access.",
+        "The phrase min-qeshot ('from truth, truly') introduces a genuine acknowledgment, not mere flattery. This confession anticipates the fuller acknowledgment of chapter 4, though it falls short of exclusive monotheistic faith — Nebuchadnezzar ranks Daniel's God highest among gods rather than declaring him the only God."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "אֱדַ֤יִן מַלְכָּא֙ לְדָנִיֵּ֣אל רַבִּ֔י וּמַתְּנָ֥ן רַבְרְבָ֖ן שַׂגִּיאָ֣ן יְהַב־לֵ֑הּ וְהַשְׁלְטֵ֗הּ עַ֚ל כָּל־מְדִינַ֣ת בָּבֶ֔ל וְרַ֥ב סִגְנִ֖ין עַ֥ל כָּל־חַכִּימֵ֥י בָבֶֽל׃",
+      "text_kjv": "Then the king made Daniel a great man, and gave him many great gifts, and made him ruler over the whole province of Babylon, and chief of the governors over all the wise men of Babylon.",
+      "rendering": "Then the king promoted Daniel to a high position, gave him many lavish gifts, and made him ruler over the entire province of Babylon and chief administrator over all the wise men of Babylon.",
+      "translator_notes": [
+        "Daniel's elevation follows the Joseph pattern — a captive exile rises to the second-highest position in the empire through divinely given wisdom. The twin roles of political governor (over the province) and intellectual chief (over the wise men) place Daniel at the intersection of power and knowledge.",
+        "The phrase rav signīn ('chief of the prefects/governors') makes Daniel the administrative head over the very scholars who could not answer the king. He saves them from execution and then leads them."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "וְדָנִיֵּ֣אל בְּעָ֣א מִן־מַלְכָּ֗א וּמַנִּ֞י עַל־עֲבִידְתָּ֤א דִּי֙ מְדִינַ֣ת בָּבֶ֔ל לְשַׁדְרַ֥ךְ מֵישַׁ֖ךְ וַעֲבֵ֣ד נְג֑וֹ וְדָנִיֵּ֖אל בִּתְרַ֥ע מַלְכָּֽא׃",
+      "text_kjv": "Then Daniel requested of the king, and he set Shadrach, Meshach, and Abednego, over the affairs of the province of Babylon: but Daniel sat in the gate of the king.",
+      "rendering": "At Daniel's request, the king appointed Shadrach, Meshach, and Abednego over the administration of the province of Babylon, while Daniel himself remained at the king's court.",
+      "translator_notes": [
+        "Daniel's first act of authority is to share power with his companions — he does not hoard his elevation but immediately provides for the three who prayed with him in verse 18. Their Babylonian names are used here because they are being installed in official Babylonian positions.",
+        "The phrase be-tera' malka ('in the gate of the king') means at the royal court — the 'gate' being the seat of government in ancient Near Eastern administration. Daniel operates at the imperial center while his friends govern the provincial level. This positioning sets up the crisis of chapter 3, where the three friends will be present in the province while Daniel is apparently absent."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

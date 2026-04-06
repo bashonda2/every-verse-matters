@@ -1,0 +1,480 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Chronicles",
+    "chapter": 9,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "This chapter is the hinge between genealogy and narrative. The Chronicler first summarizes the exile as a consequence of unfaithfulness (v. 1), then lists the inhabitants of Jerusalem after the return from Babylon: Judahites, Benjaminites, Ephraimites, and Manassites who resettled the city, along with the priests, Levites, and temple servants who reconstituted the worship community. A detailed section on the gatekeepers and their duties follows, describing the organization of temple security and service. The chapter concludes by repeating the Saulide genealogy from chapter 8, setting up the death narrative of chapter 10.",
+    "remarkable": "This is the Chronicler's bridge chapter — the moment where genealogical past becomes lived present. The post-exilic community described here is the Chronicler's own community. He is not merely recording ancient history; he is documenting the people he knows and the institutions he serves. The gatekeeper section (vv. 17-34) is extraordinarily detailed, describing round-the-clock shifts, responsibility for storerooms, authority over sacred vessels, and the preparation of showbread and spice mixtures. No other biblical text provides this level of detail about temple operations. The Chronicler is recording the job descriptions of his colleagues.",
+    "friction": "The post-exilic inhabitants list (vv. 2-18) closely parallels Nehemiah 11:3-19 but with significant differences in names and numbers. The two lists may draw on the same source but represent different periods of the post-exilic settlement. The mention of Ephraimites and Manassites living in Jerusalem (v. 3) is surprising — these were northern tribes. Their presence in post-exilic Jerusalem may represent remnants who migrated south after the fall of the northern kingdom in 722 BCE.",
+    "connections": "The exile notice (v. 1) connects to 5:25-26 (the eastern tribes' exile for unfaithfulness) and anticipates 2 Chronicles 36:14-21 (the fall of Jerusalem). The gatekeeper duties connect to David's organization of temple service (1 Chronicles 23-26). The repeated Saulide genealogy (vv. 35-44) mirrors 8:29-38 and serves as the narrative on-ramp to chapter 10, where Saul dies and the throne passes to David. The Chronicler structures the transition carefully: the last genealogical word is about Saul, and the first narrative word is about Saul's death."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וְכׇל־יִשְׂרָאֵ֖ל הִתְיַחְשׂ֑וּ וְהִנָּ֣ם כְּתוּבִ֗ים עַל־סֵ֙פֶר֙ מַלְכֵ֣י יִשְׂרָאֵ֔ל וִיהוּדָ֛ה הׇגְל֥וּ לְבָבֶ֖ל בְּמַעֲלָֽם׃ ס",
+      "text_kjv": "So all Israel were reckoned by genealogies; and, behold, they were written in the book of the kings of Israel and Judah, who were carried away to Babylon for their transgression.",
+      "rendering": "All Israel was enrolled in the genealogical records — they are recorded in the Book of the Kings of Israel and Judah. They were exiled to Babylon because of their unfaithfulness.",
+      "expanded_rendering": "The single word bema'alam ('because of their unfaithfulness') carries the entire theological weight of the exile. Nine chapters of genealogy — Adam to Abraham, Abraham to David, David to the exile, tribe after tribe after tribe — all converge on this one word: ma'al. The same word used for Achan's sin (2:7), the eastern tribes' idolatry (5:25), and the fall of kings throughout Chronicles. The genealogies establish who Israel is; this verse explains why they lost everything. Unfaithfulness broke the chain.",
+      "translator_notes": [
+        "The Chronicler cites his source: sefer malkhei Yisra'el viYehudah ('the Book of the Kings of Israel and Judah') — not our canonical Kings but an administrative chronicle that may have been the Chronicler's primary source. The exile summary hoglu levavel bema'alam ('they were exiled to Babylon because of their unfaithfulness') uses the Chronicler's signature word ma'al to explain the catastrophe. This verse wraps up the entire genealogical section (chs. 1-8) with a single theological verdict before pivoting to the restoration."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מַעַל",
+          "transliteration": "ma'al",
+          "rendered_as": "unfaithfulness",
+          "semantic_range": "unfaithfulness, trespass, treachery, breach of sacred trust",
+          "note": "The noun form of the verb used in 5:25 and 2:7. Ma'al is the Chronicler's single-word explanation for exile. It describes not merely disobedience but betrayal of covenant relationship — acting as a traitor against the God who established and sustained Israel."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְהַיּוֹשְׁבִ֤ים הָרִאשֹׁנִים֙ אֲשֶׁ֣ר בַּאֲחֻזָּתָ֔ם בְּעָרֵיהֶ֖ם יִשְׂרָאֵ֑ל הַכֹּהֲנִ֥ים הַלְוִיִּ֖ם וְהַנְּתִינִֽים׃",
+      "text_kjv": "Now the first inhabitants that dwelt in their possessions in their cities were, the Israelites, the priests, Levites, and the Nethinims.",
+      "rendering": "The first inhabitants who returned to their property in their towns: Israelites, priests, Levites, and temple servants.",
+      "translator_notes": [
+        "The phrase hayyoshvim harishonim ('the first inhabitants') marks the beginning of the restoration. Four categories of returnees: Yisra'el (lay Israelites), hakkohanim (the priests), haLeviyyim (the Levites), and haNetinim ('the given ones' — temple servants, descendants of non-Israelite peoples dedicated to temple service, cf. Joshua 9:27, Ezra 2:43-54). The fourfold structure shows a community organized around the temple: clergy and support staff alongside the general population."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וּבִירוּשָׁלַ֗͏ִם יָשְׁב֣וּ מִן־בְּנֵ֣י יְהוּדָ֡ה וּמִן־בְּנֵי֩ בִנְיָמִ֨ן וּמִן־בְּנֵ֧י אֶפְרַ֛יִם וּמְנַשֶּֽׁה׃",
+      "text_kjv": "And in Jerusalem dwelt of the children of Judah, and of the children of Benjamin, and of the children of Ephraim, and Manasseh;",
+      "rendering": "In Jerusalem lived some from the tribes of Judah, Benjamin, Ephraim, and Manasseh:",
+      "translator_notes": [
+        "The Jerusalem population drew from four tribes: Judah and Benjamin (the core southern kingdom) plus Ephraim and Manasseh (northern tribes). The northern tribal presence in post-exilic Jerusalem is remarkable — it suggests that after the fall of Samaria in 722 BCE, some northerners migrated south and were absorbed into the Judean community. For the Chronicler, who cares about 'all Israel,' this fourfold tribal presence validates Jerusalem as a city of the entire nation, not just of the south."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "עוּתַ֥י בֶּן־עַמִּיה֖וּד בֶּן־עׇמְרִ֑י בֶּן־אִמְרִ֥י בֶּן־בָּנִ֖י מִן־בְּנֵ֥י פֶ֣רֶץ בֶּן־יְהוּדָֽה׃",
+      "text_kjv": "Uthai the son of Ammihud, the son of Omri, the son of Imri, the son of Bani, of the children of Pharez the son of Judah.",
+      "rendering": "Uthai son of Ammihud, son of Omri, son of Imri, son of Bani, from the descendants of Perez son of Judah;",
+      "translator_notes": [
+        "The Judahite section begins with Uthai (Utai, 'my helper'), traced through four generations to the Perezite clan — David's own clan. The returnees are not random refugees; they are genealogically documented members of the tribe that produced the monarchy. Ammihud ('my people is glorious'), Omri, Imri, and Bani connect to established Judahite lineages."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וּמִן־הַשִּׁ֣ילוֹנִ֔י עֲשָׂיָ֥ה הַבְּכ֖וֹר וּבָנָֽיו׃",
+      "text_kjv": "And of the Shilonites; Asaiah the firstborn, and his sons.",
+      "rendering": "From the Shilonites: Asaiah the firstborn, and his sons.",
+      "translator_notes": [
+        "The Shilonites (haShiloni) are descendants of Shelah, Judah's third son (2:3). Asaiah (Asayah, 'YHWH has made') as 'the firstborn' (habbkhor) leads this clan. The presence of all three Judahite clan divisions (Perez, Zerah, Shelah) in post-exilic Jerusalem shows the tribe reconstituted its full internal structure after the return."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וּמִן־בְּנֵי־זֶ֖רַח יְעוּאֵ֣ל וַאֲחֵיהֶ֑ם שֵׁשׁ־מֵא֖וֹת וְתִשְׁעִֽים׃ ס",
+      "text_kjv": "And of the sons of Zerah; Jeuel, and their brethren, six hundred and ninety.",
+      "rendering": "From the sons of Zerah: Jeuel, and their relatives — six hundred ninety.",
+      "translator_notes": [
+        "Jeuel (Ye'u'el, 'God sweeps away') heads the Zerahite contingent. The number 690 represents the total Zerahite population in Jerusalem — a precise count suggesting census records. The three Judahite clans (Perez, Shelah, Zerah) are all represented, reconstituting the tribal structure that existed before the exile."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וּמִן־בְּנֵ֖י בִּנְיָמִ֑ן סַלּוּא֙ בֶּן־מְשֻׁלָּ֔ם בֶּן־הוֹדַוְיָ֖ה בֶּן־הַסְּנֻאָֽה׃",
+      "text_kjv": "And of the sons of Benjamin; Sallu the son of Meshullam, the son of Hodaviah, the son of Hassenuah.",
+      "rendering": "From the Benjaminites: Sallu son of Meshullam, son of Hodaviah, son of Hassenuah;",
+      "translator_notes": [
+        "The Benjaminite section begins. Sallu (Sallu, 'weighed') is traced through Meshullam and Hodaviah to Hassenuah (Hassenu'ah, 'the hated one' — a clan designation). The parallel in Nehemiah 11:7-8 lists different Benjaminite names, suggesting the two texts reflect different settlement periods or census records."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְיִבְנְיָ֣ה בֶּן־יְרֹחָ֗ם וְאֵלָה֙ בֶּן־עֻזִּ֣י בֶּן־מִכְרִ֔י וּמְשֻׁלָּם֙ בֶּן־שְׁפַטְיָ֔ה בֶּן־רְעוּאֵ֖ל בֶּן־יִבְנִיָּֽה׃",
+      "text_kjv": "And Ibneiah the son of Jeroham, and Elah the son of Uzzi, the son of Michri, and Meshullam the son of Shephathiah, the son of Reuel, the son of Ibnijah;",
+      "rendering": "Ibneiah son of Jeroham; Elah son of Uzzi, son of Michri; and Meshullam son of Shephatiah, son of Reuel, son of Ibnijah;",
+      "translator_notes": [
+        "Three Benjaminite clan leaders with their genealogical chains. Ibneiah (Yivneyah, 'YHWH builds'), Elah (Elah, 'terebinth'), and Meshullam — each traced through multiple generations to establish their legitimacy as returnees. Reuel (Re'u'el, 'friend of God') and Ibnijah (Yivniyyah, 'YHWH builds') are theophoric names confirming YHWH worship in the Benjaminite families."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַאֲחֵיהֶ֛ם לְתֹלְדוֹתָ֖ם תְּשַׁ֣ע מֵא֣וֹת וַחֲמִשִּׁ֥ים וְשִׁשָּׁ֑ה כׇּל־אֵ֣לֶּה אֲנָשִׁ֔ים רָאשֵׁ֥י אָב֖וֹת לְבֵ֥ית אֲבוֹתֵיהֶֽם׃ ס",
+      "text_kjv": "And their brethren, according to their generations, nine hundred and fifty and six. All these men were chief of the fathers in the house of their fathers.",
+      "rendering": "Their relatives, by their genealogical records: nine hundred fifty-six. All these men were heads of their ancestral houses.",
+      "translator_notes": [
+        "The Benjaminite total: 956 heads of ancestral houses. Combined with the Judahite count of 690 Zerahites (plus the unnumbered Perezites and Shilonites), the post-exilic Jerusalem had a lay population of well over a thousand clan leaders, each representing a family unit — perhaps a total civilian population of several thousand."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וּמִן־הַכֹּהֲנִ֑ים יְדַעְיָ֥ה וִיהוֹיָרִ֖יב וְיָכִֽין׃",
+      "text_kjv": "And of the priests; Jedaiah, and Jehoiarib, and Jachin,",
+      "rendering": "From the priests: Jedaiah, Jehoiarib, and Jachin;",
+      "translator_notes": [
+        "Three priestly divisions are named: Jedaiah (Yeda'yah, 'YHWH has known'), Jehoiarib (Yehoyariv, 'YHWH contends'), and Jachin (Yakhin, 'he establishes'). These correspond to priestly courses (mishmarot) that David organized (1 Chronicles 24). Jehoiarib's course was first in David's roster (24:7), and the Maccabean/Hasmonean priestly family later claimed descent from Jehoiarib (1 Maccabees 2:1)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַעֲזַרְיָ֥ה בֶן־חִלְקִיָּ֖ה בֶּן־מְשֻׁלָּ֑ם בֶּן־צָדוֹק֙ בֶּן־מְרָי֔וֹת בֶּן־אֲחִיט֖וּב נְגִ֥יד בֵּית־הָאֱלֹהִֽים׃",
+      "text_kjv": "And Azariah the son of Hilkiah, the son of Meshullam, the son of Zadok, the son of Meraioth, the son of Ahitub, the ruler of the house of God;",
+      "rendering": "and Azariah son of Hilkiah, son of Meshullam, son of Zadok, son of Meraioth, son of Ahitub — the chief officer of the house of God;",
+      "translator_notes": [
+        "Azariah is identified as negid beit ha'Elohim ('the chief officer of the house of God') — the head of the temple administration. His genealogy traces through Zadok, confirming the Zadokite priestly line's continued leadership in the post-exilic temple. The title negid ('leader, officer') applied to the temple head is the same word used for the royal leader in 5:2 — the chief priest holds an authority parallel to the king's within his domain."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַעֲדָיָ֤ה בֶּן־יְרֹחָם֙ בֶּן־פַּשְׁח֔וּר בֶּן־מַלְכִּיָּ֑ה וּמַעְשַׂי֙ בֶּן־עֲדִיאֵ֔ל בֶּן־יַחְזֵרָ֗ה בֶּן־מְשֻׁלָּם֙ בֶּן־מְשִׁלֵּמִ֔ית בֶּן־אִמֵּ֖ר׃",
+      "text_kjv": "And Adaiah the son of Jeroham, the son of Pashur, the son of Malchijah, and Maasiai the son of Adiel, the son of Jahzerah, the son of Meshullam, the son of Meshillemith, the son of Immer;",
+      "rendering": "and Adaiah son of Jeroham, son of Pashhur, son of Malchijah; and Maasai son of Adiel, son of Jahzerah, son of Meshullam, son of Meshillemith, son of Immer;",
+      "translator_notes": [
+        "Two more priestly lines. Adaiah (Adayah) traces through Pashhur (Pashchur, 'freedom') — a major priestly family that appears in Jeremiah (Jeremiah 20:1, Ezra 2:38). Maasai (Ma'asai) traces through the Immer (Immer) priestly division, the sixteenth course in David's roster (1 Chronicles 24:14). These genealogies establish that the post-exilic priesthood had legitimate pedigrees tracing to pre-exilic priestly families."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַאֲחֵיהֶ֗ם רָאשִׁים֙ לְבֵ֣ית אֲבוֹתֵיהֶ֔ם אֶ֕לֶף וּשְׁבַ֥ע מֵא֖וֹת וְשִׁשִּׁ֑ים גִּבּ֣וֹרֵי חַ֔יִל מְלֶ֥אכֶת עֲבוֹדַ֖ת בֵּ֥ית הָאֱלֹהִֽים׃ ס",
+      "text_kjv": "And their brethren, heads of the house of their fathers, a thousand and seven hundred and threescore; very able men for the work of the service of the house of God.",
+      "rendering": "Their relatives, heads of their ancestral houses: one thousand seven hundred sixty — able men for the work of the service of the house of God.",
+      "translator_notes": [
+        "The priestly total: 1,760 heads of ancestral houses, characterized as gibborei chayil ('men of ability/valor') for melekhet avodat beit ha'Elohim ('the work of the service of the house of God'). The term gibborei chayil is usually military but here is applied to temple service — the Chronicler treats worship work with the same vocabulary of strength and competence used for warfare."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וּמִן־הַלְוִיִּ֑ם שְׁמַעְיָ֧ה בֶּן־חַשּׁ֛וּב בֶּן־עַזְרִיקָ֥ם בֶּן־חֲשַׁבְיָ֖ה מִן־בְּנֵ֥י מְרָרִֽי׃",
+      "text_kjv": "And of the Levites; Shemaiah the son of Hasshub, the son of Azrikam, the son of Hashabiah, of the sons of Merari;",
+      "rendering": "From the Levites: Shemaiah son of Hasshub, son of Azrikam, son of Hashabiah, from the Merarites;",
+      "translator_notes": [
+        "The Levitical section begins with a Merarite: Shemaiah (Shemayah, 'YHWH has heard') traced through Hasshub (Chashuv, 'esteemed'), Azrikam, and Hashabiah to the Merarite clan. The Chronicler identifies each Levite's clan affiliation because different clans had different responsibilities in the temple."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וּבַקְבַּקַּ֧ר וְחֶ֛רֶשׁ וְגָלָ֖ל וּמַתַּנְיָ֣ה בֶּן־מִיכָ֑א בֶּן־זִכְרִ֖י בֶּן־אָסָֽף׃",
+      "text_kjv": "And Bakbakkar, Heresh, and Galal, and Mattaniah the son of Micah, the son of Zichri, the son of Asaph;",
+      "rendering": "Bakbakkar, Heresh, Galal, and Mattaniah son of Micah, son of Zichri, son of Asaph;",
+      "translator_notes": [
+        "Mattaniah (Mattanyah, 'gift of YHWH') is traced to Asaph — the great musician of David's time. This Asaphite Levite continued the musical tradition of his ancestor in the post-exilic temple. Bakbakkar (Baqbaqqar, 'searching diligently'), Heresh (Cheresh, 'craftsman/deaf'), and Galal (Galal, 'rolling/influential') are additional Levites."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְעֹבַדְיָ֧ה בֶּן־שְׁמַעְיָ֛ה בֶּן־גָּלָ֖ל בֶּן־יְדוּת֑וּן וּבֶרֶכְיָ֤ה בֶן־אָסָא֙ בֶּן־אֶלְקָנָ֔ה הַיּוֹשֵׁ֖ב בְּחַצְרֵ֥י נְטוֹפָתִֽי׃ ס",
+      "text_kjv": "And Obadiah the son of Shemaiah, the son of Galal, the son of Jeduthun, and Berechiah the son of Asa, the son of Elkanah, that dwelt in the villages of the Netophathites.",
+      "rendering": "Obadiah son of Shemaiah, son of Galal, son of Jeduthun; and Berechiah son of Asa, son of Elkanah, who lived in the villages of the Netophathites.",
+      "translator_notes": [
+        "Obadiah (Ovadyah) is traced to Jeduthun (Yedutun) — the third great musician, also known as Ethan. Berechiah (Berekhyah) lived in the villages of the Netophathites (chatserai Netofati) — Netophah near Bethlehem. Some Levites lived outside Jerusalem in surrounding villages and commuted to the temple for their service rotations. The three great musical guilds — Asaph (v. 15), Jeduthun/Ethan (v. 16), and by implication Heman — are all represented in the post-exilic community."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְהַשֹּׁעֲרִ֑ים שַׁלּ֧וּם וְעַקּ֛וּב וְטַלְמ֥וֹן וַאֲחִימָ֖ן וַאֲחֵיהֶ֑ם שַׁלּ֖וּם הָרֹֽאשׁ׃",
+      "text_kjv": "And the porters were, Shallum, and Akkub, and Talmon, and Ahiman, and their brethren: Shallum was the chief;",
+      "rendering": "The gatekeepers: Shallum, Akkub, Talmon, and Ahiman — with their relatives. Shallum was the chief.",
+      "translator_notes": [
+        "The gatekeeper section begins — the Chronicler's most detailed description of temple operations. The sho'arim ('gatekeepers') controlled access to the temple compound. Shallum (Shallum) is haro'sh ('the chief') — the head gatekeeper. Akkub (Aqqub, 'supplanter'), Talmon (Talmon, 'oppressor'), and Ahiman (Achiman, 'brother of a gift') are his colleagues. These four names appear in nearly identical lists in Ezra 2:42 and Nehemiah 7:45, confirming that these gatekeeper families maintained their positions across the post-exilic period."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְעַד־הֵ֖נָּה בְּשַׁ֣עַר הַמֶּ֑לֶךְ מִזְרָ֑חָה הֵ֚מָּה הַשֹּׁ֣עֲרִ֔ים לְמַחֲנ֖וֹת בְּנֵ֥י לֵוִֽי׃ ס",
+      "text_kjv": "Who hitherto waited in the king's gate eastward: they were porters in the companies of the children of Levi.",
+      "rendering": "Until now they have served at the King's Gate on the east side. These are the gatekeepers for the Levitical camps.",
+      "translator_notes": [
+        "The King's Gate (sha'ar hammelekh) on the east side was the principal entrance. The phrase ad hennah ('until now') indicates the Chronicler is describing a current, ongoing arrangement — these gatekeepers are still serving when he writes. The designation lemachanot benei Levi ('for the camps of the sons of Levi') refers to the organized Levitical settlement around the temple, echoing the wilderness camp arrangement where Levites surrounded the tabernacle (Numbers 1:50-53)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְשַׁלּ֣וּם בֶּן־ק֠וֹרֵ֠א בֶּן־אֶבְיָסָ֨ף בֶּן־קֹ֜רַח וְאֶחָ֧יו לְבֵית־אָבִ֛יו הַקׇּרְחִ֖ים עַ֣ל מְלֶ֣אכֶת הָעֲבוֹדָ֑ה שֹׁמְרֵ֣י הַסִּפִּ֗ים לָאֹ֗הֶל וַאֲבוֹתֵיהֶ֛ם עַל־מַחֲנֵ֥ה יְהוָ֖ה שֹׁמְרֵ֥י הַמָּבֽוֹא׃",
+      "text_kjv": "And Shallum the son of Kore, the son of Ebiasaph, the son of Korah, and his brethren, of the house of his father, the Korahites, were over the work of the service, keepers of the gates of the tabernacle: and their fathers, being over the host of the LORD, were keepers of the entry.",
+      "rendering": "Shallum son of Kore, son of Ebiasaph, son of Korah, and his relatives from his ancestral house — the Korahites — were over the work of the service, guarding the thresholds of the tent. Their ancestors had been stationed over the camp of the LORD, guarding the entrance.",
+      "translator_notes": [
+        "The chief gatekeeper Shallum is traced to Korah — the same Korah whose rebellion against Moses ended in judgment (Numbers 16) but whose sons survived. The Korahites became the hereditary gatekeepers, and the Chronicler traces their service back to the wilderness period: va'avoteihem al machaneh YHWH shomerei hammavo ('their ancestors over the camp of the LORD, guarding the entrance'). The gatekeeping role is not new — it extends back to the tabernacle era, establishing a continuous tradition of temple security from Moses to the post-exilic period."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וּפִ֨ינְחָ֧ס בֶּן־אֶלְעָזָ֛ר נָגִ֥יד הָיָ֛ה עֲלֵיהֶ֖ם לְפָנִ֑ים יְהוָ֖ה עִמּֽוֹ׃",
+      "text_kjv": "And Phinehas the son of Eleazar was the ruler over them in time past, and the LORD was with him.",
+      "rendering": "Phinehas son of Eleazar had been their chief officer in former times — the LORD was with him.",
+      "translator_notes": [
+        "Phinehas (Pinechas), Aaron's grandson, once served as nagid ('chief officer') over the gatekeepers. The parenthetical YHWH immo ('the LORD was with him') is the Chronicler's endorsement — the same phrase used for David (1 Chronicles 11:9) and for successful kings. By applying it to Phinehas in his gatekeeping role, the Chronicler elevates temple service to the same dignity as royal authority."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "זְכַרְיָ֧ה בֶּן־מְשֶׁלֶמְיָ֛ה שֹׁעֵ֥ר פֶּ֖תַח לְאֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "And Zechariah the son of Meshelemiah was porter of the door of the tabernacle of the congregation.",
+      "rendering": "Zechariah son of Meshelemiah was gatekeeper of the entrance to the tent of meeting.",
+      "translator_notes": [
+        "Zechariah (Zekharyah, 'YHWH remembers') son of Meshelemiah (Meshelemyah, 'YHWH repays') held the specific post of sho'er petach le'ohel mo'ed ('gatekeeper of the entrance to the tent of meeting'). The continued use of 'tent of meeting' language even for the post-exilic temple shows the Chronicler's effort to connect current worship practices to the original wilderness tabernacle."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "כֻּלָּ֛ם הַבְּרוּרִ֥ים לְשֹׁעֲרִ֖ים בַּסִּפִּ֑ים מָאתַ֙יִם֙ וּשְׁנֵ֣ים עָשָׂ֔ר הֵ֗מָּה בְּחַצְרֵיהֶם֙ הִתְיַחְשָׂ֔ם הֵ֚מָּה יִסַּ֣ד דָּוִ֔יד וּשְׁמוּאֵ֥ל הָרֹאֶ֖ה בֶּאֱמוּנָתָֽם׃",
+      "text_kjv": "All these which were chosen to be porters in the gates were two hundred and twelve. These were reckoned by their genealogy in their villages, whom David and Samuel the seer did ordain in their set office.",
+      "rendering": "All those selected as gatekeepers at the thresholds: two hundred twelve. They were enrolled in their genealogical records in their villages. David and Samuel the seer had established them in their positions of trust.",
+      "translator_notes": [
+        "Total gatekeepers: 212, selected (berurim, 'chosen/select') for their role. The Chronicler traces their appointment to David and Samuel the seer (haro'eh, 'the one who sees'). David and Samuel are credited with establishing the gatekeeper system be'emunatam ('in their faithfulness/trust') — the root emunah ('faithfulness') indicates that the appointment was based on trustworthiness. The gatekeepers were chosen not by lot but by character assessment."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֱמוּנָה",
+          "transliteration": "emunah",
+          "rendered_as": "trust/faithfulness",
+          "semantic_range": "faithfulness, reliability, trustworthiness, steadfastness, fidelity",
+          "note": "The gatekeepers were appointed be'emunatam — 'in their faithfulness.' The same root that describes God's covenant faithfulness (emunah) is the quality required of those who guard God's house. Faithful service mirrors faithful God."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְהֵ֣ם וּבְנֵיהֶ֗ם עַל־הַשְּׁעָרִ֛ים לְבֵית־יְהוָ֖ה לְבֵ֥ית הָאֹ֖הֶל לְמִשְׁמָרֽוֹת׃",
+      "text_kjv": "So they and their children had the oversight of the gates of the house of the LORD, namely, the house of the tabernacle, by wards.",
+      "rendering": "They and their sons kept watch over the gates of the house of the LORD — the house of the tent — by assigned shifts.",
+      "translator_notes": [
+        "The gatekeeper role was hereditary (hem uvneihem, 'they and their sons') and organized lemishmarot ('by watches/shifts'). The double designation beit YHWH leveit ha'ohel ('the house of the LORD, the house of the tent') again bridges temple and tabernacle language. The shift system ensured continuous twenty-four-hour coverage of the temple compound."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "לְאַרְבַּ֥ע רוּח֖וֹת יִהְי֣וּ הַשֹּׁעֲרִ֑ים מִזְרָ֥ח יָ֖מָּה צָפ֥וֹנָה וָנֶֽגְבָּה׃",
+      "text_kjv": "In four quarters were the porters, toward the east, west, north, and south.",
+      "rendering": "The gatekeepers were stationed on all four sides: east, west, north, and south.",
+      "translator_notes": [
+        "The fourfold compass arrangement (le'arba ruchot, 'toward four directions') placed gatekeepers at every approach to the temple. Mizrach (east), yammah (west, literally 'seaward'), tsafonah (north), and negbah (south). Complete perimeter security — no approach was unguarded. This mirrors the wilderness camp arrangement where Levitical clans guarded all four sides of the tabernacle (Numbers 3:23-38)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַאֲחֵיהֶ֖ם בְּחַצְרֵיהֶ֑ם לָב֞וֹא לְשִׁבְעַ֤ת הַיָּמִים֙ מֵעֵ֣ת אֶל־עֵ֔ת עִם־אֵֽלֶּה׃",
+      "text_kjv": "And their brethren, which were in their villages, were to come after seven days from time to time with them.",
+      "rendering": "Their relatives in the villages came in for seven-day shifts at regular intervals to serve alongside them.",
+      "translator_notes": [
+        "The rotation system: gatekeepers who lived in surrounding villages came to Jerusalem for seven-day shifts (leshiv'at hayyamim, 'for seven days'), then returned home. The phrase me'et el et ('from time to time') indicates regular, recurring rotations. This system balanced continuous temple coverage with the practical reality that most Levites lived outside Jerusalem."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "כִּ֣י בֶאֱמוּנָ֥ה הֵ֙מָּה֙ אַרְבַּ֣עַת גִּבּוֹרֵ֣י הַשֹּׁעֲרִ֔ים הֵ֖ם הַלְוִיִּ֑ם וְהָי֗וּ עַל־הַ֨לְּשָׁכ֔וֹת וְעַ֥ל הָאֹצְר֖וֹת בֵּ֥ית הָאֱלֹהִֽים׃",
+      "text_kjv": "For these Levites, the four chief porters, were in their set office, and were over the chambers and treasuries of the house of God.",
+      "rendering": "The four chief gatekeepers held their positions by trust — they were Levites. They were responsible for the chambers and storerooms of the house of God.",
+      "translator_notes": [
+        "The four chief gatekeepers (arba'at gibborei hasho'arim, 'four mighty gatekeepers') held permanent, trust-based positions (be'emunah, 'by faithfulness'). Their responsibilities extended beyond door-keeping to include oversight of halleshakhot ('the chambers') and ha'otsrot ('the treasuries/storerooms'). The temple storerooms held tithes, offerings, and sacred vessels — enormous material responsibility."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וּסְבִיב֥וֹת בֵּית־הָאֱלֹהִ֖ים יָלִ֑ינוּ כִּֽי־עֲלֵיהֶ֥ם מִשְׁמָ֖רֶת וְהֵ֥ם עַל־הַמַּפְתֵּ֖חַ וְלַבֹּ֥קֶר לַבֹּֽקֶר׃",
+      "text_kjv": "And they lodged round about the house of God, because the charge was upon them, and the opening thereof every morning pertained to them.",
+      "rendering": "They spent the night around the house of God because the watch duty was theirs, and they were responsible for opening it every morning.",
+      "translator_notes": [
+        "The gatekeepers lodged overnight (yalinu, 'they spent the night') in quarters surrounding the temple because the watch was continuous. The phrase al hammafteach ('responsible for the key/opening') and labboqer labboqer ('morning by morning') describes their daily duty of unlocking the temple gates at dawn. The temple operated on a daily cycle of opening and closing, with gatekeepers responsible for both the nighttime security and the morning access."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וּמֵהֶ֖ם עַל־כְּלֵ֣י הָעֲבוֹדָ֑ה כִּ֤י בְמִסְפָּר֙ יְבִיא֔וּם וּבְמִסְפָּ֖ר יוֹצִיאֽוּם׃",
+      "text_kjv": "And certain of them had the charge of the ministering vessels, that they should bring them in and out by tale.",
+      "rendering": "Some of them were responsible for the service vessels, counting them when brought in and counting them when taken out.",
+      "translator_notes": [
+        "Inventory control: service vessels were counted (bemispar, 'by number') when removed and when returned — a documented accountability system for sacred objects. The Chronicler describes what amounts to an ancient inventory management protocol, ensuring that no temple vessel went missing. This careful stewardship reflects the sanctity of the objects and the Chronicler's practical interest in institutional operations."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וּמֵהֶ֗ם מְמֻנִּים֙ עַל־הַכֵּלִ֔ים וְעַ֖ל כׇּל־כְּלֵ֣י הַקֹּ֑דֶשׁ וְעַל־הַסֹּ֙לֶת֙ וְהַיַּ֣יִן וְהַשֶּׁ֔מֶן וְהַלְּבוֹנָ֖ה וְהַבְּשָׂמִֽים׃",
+      "text_kjv": "Some of them also were appointed to oversee the vessels, and all the instruments of the sanctuary, and the fine flour, and the wine, and the oil, and the frankincense, and the spices.",
+      "rendering": "Some of them were appointed over the furnishings, over all the holy vessels, and over the fine flour, wine, oil, frankincense, and spices.",
+      "translator_notes": [
+        "The scope of Levitical stewardship: temple furnishings (kelim), holy vessels (kol kelei haqqodesh), and the consumable supplies — solet (fine flour for grain offerings), yayin (wine for libations), shemen (oil for the lampstand and offerings), levonah (frankincense for the incense altar), and besamim (aromatic spices for the sacred incense blend of Exodus 30:34-38). The Chronicler documents the supply chain of worship."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וּמִן־בְּנֵ֣י הַכֹּהֲנִ֔ים רֹקְחֵ֥י הַמִּרְקַ֖חַת לַבְּשָׂמִֽים׃",
+      "text_kjv": "And some of the sons of the priests made the ointment of the spices.",
+      "rendering": "Some of the priests' sons were mixers of the spice ointment.",
+      "translator_notes": [
+        "The roqechei hammirqachat ('mixers/compounders of the spiced ointment') were from priestly families, not general Levites. The sacred anointing oil and incense formulas (Exodus 30:23-38) required specialized preparation and were restricted by law — making unauthorized versions was forbidden (Exodus 30:33, 38). The Chronicler distinguishes this priestly function from the Levitical supply management in the previous verse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וּמַתִּתְיָ֣ה מִן־הַ֠לְוִיִּ֠ם ה֣וּא הַבְּכ֞וֹר לְשַׁלֻּ֣ם הַקׇּרְחִ֗י בֶּאֱמוּנָ֔ה עַ֖ל מַעֲשֵׂ֥ה הַחֲבִתִּֽים׃",
+      "text_kjv": "And Mattithiah, one of the Levites, who was the firstborn of Shallum the Korahite, had the set office over the things that were made in the pans.",
+      "rendering": "Mattithiah, one of the Levites, the firstborn of Shallum the Korahite, held the position of trust over the baking of flat cakes.",
+      "translator_notes": [
+        "Mattithiah (Mattityah, 'gift of YHWH'), a Korahite Levite, held the position be'emunah ('in trust/faithfulness') over ma'aseh hachabittim ('the work of the flat cakes/griddle cakes'). These are the minchah offerings baked on a griddle (Leviticus 2:5, 6:21). Even the baking of sacrificial bread required a designated, trusted official. The Chronicler's attention to this level of operational detail reveals his intimate knowledge of temple procedures."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וּמִן־בְּנֵ֧י הַקְּהָתִ֛י מִן־אֲחֵיהֶ֖ם עַל־לֶ֣חֶם הַמַּעֲרָ֑כֶת לְהָכִ֖ין שַׁבָּ֥ת שַׁבָּֽת׃ ס",
+      "text_kjv": "And other of their brethren, of the sons of the Kohathites, were over the shewbread, to prepare it every sabbath.",
+      "rendering": "Some of their Kohathite relatives were responsible for the bread of the arrangement, preparing it every Sabbath.",
+      "translator_notes": [
+        "The lechem hamma'arekhet ('bread of the arrangement' — traditionally 'showbread') consisted of twelve loaves placed on the golden table before the LORD every Sabbath (Leviticus 24:5-9). Kohathite Levites prepared this bread lehakin shabbat shabbat ('to prepare Sabbath by Sabbath') — a weekly rhythm that structured Levitical life. The bread was both a practical task and a profound symbol: twelve loaves for twelve tribes, representing Israel's continuous presence before God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְאֵ֣לֶּה הַמְשֹׁרְרִ֞ים רָאשֵׁ֤י אָבוֹת֙ לַלְוִיִּ֔ם בַּלְּשָׁכֹ֖ת פְּטֻֽרִים כִּ֥י יוֹמָ֛ם וָלַ֖יְלָה עֲלֵיהֶ֥ם בַּמְּלָאכָֽה׃",
+      "text_kjv": "And these are the singers, chief of the fathers of the Levites, who remaining in the chambers were free: for they were employed in that work day and night.",
+      "rendering": "The musicians, who were heads of Levitical ancestral houses, lived in the temple chambers and were exempt from other duties, because they were engaged in their work day and night.",
+      "translator_notes": [
+        "The musicians (meshorerim) held a privileged position: they lived balleshakhot ('in the chambers') of the temple complex and were peturim ('exempt/released') from other Levitical duties because yomam valaylah aleihem bammelakhah ('day and night upon them was the work'). Worship music was a full-time, round-the-clock vocation. The Chronicler's description implies continuous musical worship — a perpetual soundtrack of praise in the temple."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "אֵ֣לֶּה רָאשֵׁ֤י הָאָבוֹת֙ לַלְוִיִּ֔ם לְתֹלְדוֹתָ֖ם רָאשִׁ֑ים אֵ֖לֶּה יָשְׁב֥וּ בִירוּשָׁלָֽ͏ִם׃ פ",
+      "text_kjv": "These chief fathers of the Levites were chief throughout their generations; these dwelt at Jerusalem.",
+      "rendering": "These were the heads of the Levitical ancestral houses, leaders by their generations. They lived in Jerusalem.",
+      "translator_notes": [
+        "The summary: Levitical leaders were established betoledotam rashim ('as leaders by their generations') and they yashvu viYerushalayim ('lived in Jerusalem'). The petuchah marker signals a major structural break. Everything from verse 2 through verse 34 describes the post-exilic community — the Chronicler's own world. Now the text pivots back to Saul's genealogy, which will launch the narrative section."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וּבְגִבְע֥וֹן יָשְׁב֖וּ אֲבִ֣י גִבְע֑וֹן יְעִיאֵ֕ל וְשֵׁ֥ם אִשְׁתּ֖וֹ מַעֲכָֽה׃",
+      "text_kjv": "And in Gibeon dwelt the father of Gibeon, Jehiel, whose wife's name was Maachah:",
+      "rendering": "In Gibeon lived the father of Gibeon, Jeiel, and his wife's name was Maacah.",
+      "translator_notes": [
+        "The Saulide genealogy repeats from 8:29 with one addition: the founder's name Jeiel (Ye'i'el, 'God lives') is now supplied, which was absent in chapter 8. This repetition is structural — the Chronicler bookends the post-exilic section with the Saul genealogy, creating an inclusio (8:29-40 // 9:35-44) that frames the restoration community between two copies of the old monarchy's family tree."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וּבְנ֥וֹ הַבְּכ֖וֹר עַבְד֑וֹן וְצ֥וּר וְקִ֖ישׁ וּבַ֥עַל וְנֵ֖ר וְנָדָֽב׃",
+      "text_kjv": "And his firstborn son Abdon, then Zur, and Kish, and Baal, and Ner, and Nadab,",
+      "rendering": "His firstborn son Abdon, then Zur, Kish, Baal, Ner, and Nadab,",
+      "translator_notes": [
+        "This version includes Ner (Ner, 'lamp') in the list of Jeiel's sons, which chapter 8 omitted — a small but important addition since Ner is Kish's father and Saul's grandfather (v. 39). The inclusion here makes the Saul-Ner-Kish connection clearer."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וּגְד֥וֹר וְאַחְי֖וֹ וּזְכַרְיָ֥ה וּמִקְלֽוֹת׃",
+      "text_kjv": "And Gedor, and Ahio, and Zechariah, and Mikloth.",
+      "rendering": "Gedor, Ahio, Zechariah, and Mikloth.",
+      "translator_notes": [
+        "Zechariah (Zekharyah) here expands the 'Zecher' (Zekher) of 8:31 — the fuller form of the name. Mikloth (Miqlot) reappears from 8:32. These minor variations between the two copies are typical of parallel genealogical lists and reflect manuscript transmission rather than intentional differences."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וּמִקְל֖וֹת הוֹלִ֣יד אֶת־שִׁמְאָ֑ם וְאַף־הֵ֗מָּה נֶ֧גֶד אֲחֵיהֶ֛ם יָשְׁב֥וּ בִירוּשָׁלַ֖͏ִם עִם־אֲחֵיהֶֽם׃",
+      "text_kjv": "And Mikloth begat Shimeam. And they also dwelt with their brethren at Jerusalem, over against their brethren.",
+      "rendering": "Mikloth fathered Shimeam. They too lived in Jerusalem alongside their relatives.",
+      "translator_notes": [
+        "Identical to 8:32 — the Jerusalem residence note is repeated, emphasizing the Gibeonite-Benjaminite connection to the capital city. The repetition is the Chronicler's way of establishing that this information was stable across his sources."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְנֵר֙ הוֹלִ֣יד אֶת־קִ֔ישׁ וְקִ֖ישׁ הוֹלִ֣יד אֶת־שָׁא֑וּל וְשָׁא֗וּל הוֹלִ֤יד אֶת־יְהוֹנָתָן֙ וְאֶת־מַלְכִּי שׁ֔וּעַ וְאֶת־אֲבִינָדָ֖ב וְאֶת־אֶשְׁבָּֽעַל׃",
+      "text_kjv": "And Ner begat Kish; and Kish begat Saul; and Saul begat Jonathan, and Malchi-shua, and Abinadab, and Esh-baal.",
+      "rendering": "Ner fathered Kish, Kish fathered Saul, and Saul fathered Jonathan, Malchi-shua, Abinadab, and Esh-baal.",
+      "translator_notes": [
+        "The royal sequence repeated from 8:33. Ner-Kish-Saul-Jonathan: the line of Israel's first monarchy. The Chronicler preserves Esh-baal (not Ish-bosheth) again. This genealogy is now positioned immediately before chapter 10's death narrative — the reader moves directly from the family tree to the fatal battle at Mount Gilboa."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וּבֶן־יְהוֹנָתָ֖ן מְרִ֣יב בָּ֑עַל וּמְרִ֣יב בַּ֔עַל הוֹלִ֖יד אֶת־מִיכָֽה׃",
+      "text_kjv": "And the son of Jonathan was Merib-baal: and Merib-baal begat Micah.",
+      "rendering": "The son of Jonathan: Merib-baal. Merib-baal fathered Micah.",
+      "translator_notes": [
+        "Merib-baal (= Mephibosheth) and Micah again — the Jonathanide line that David honored for the sake of his covenant with Jonathan (2 Samuel 9). The Chronicler's second recording of this line underscores its importance for the transitional narrative he is about to tell."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וּבְנֵ֖י מִיכָ֑ה פִּית֥וֹן וָמֶ֖לֶךְ וְתַחְרֵ֥עַ וְאָחָֽז׃",
+      "text_kjv": "And the sons of Micah were, Pithon, and Melech, and Tahrea, and Ahaz.",
+      "rendering": "The sons of Micah: Pithon, Melech, Tahrea, and Ahaz.",
+      "translator_notes": [
+        "Matching 8:35 with a minor variant: Tahrea (Tachre'a) instead of Tarea. Both forms derive from the same root. The four sons extend the line another generation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וְאָחָ֗ז הוֹלִ֣יד אֶת־יַעְרָ֔ה וְיַעְרָ֗ה הוֹלִ֤יד אֶת־עָלֶ֙מֶת֙ וְאֶת־עַזְמָ֣וֶת וְאֶת־זִמְרִ֔י וְזִמְרִ֖י הוֹלִ֥יד אֶת־מוֹצָֽא׃",
+      "text_kjv": "And Ahaz begat Jarah; and Jarah begat Alemeth, and Azmaveth, and Zimri; and Zimri begat Moza.",
+      "rendering": "Ahaz fathered Jarah, and Jarah fathered Alemeth, Azmaveth, and Zimri. Zimri fathered Moza.",
+      "translator_notes": [
+        "Jarah (Ya'rah) is the variant of Jehoaddah (8:36) — different scribal traditions preserving the same ancestor's name differently. The line continues through Zimri to Moza, matching chapter 8."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וּמוֹצָ֖א הוֹלִ֣יד אֶת־בִּנְעָ֑א וּרְפָיָ֥ה בְנ֛וֹ אֶלְעָשָׂ֥ה בְנ֖וֹ אָצֵ֥ל בְּנֽוֹ׃",
+      "text_kjv": "And Moza begat Binea; and Rephaiah his son, Eleasah his son, Azel his son.",
+      "rendering": "Moza fathered Binea; Rephaiah his son, Eleasah his son, Azel his son.",
+      "translator_notes": [
+        "Matching 8:37 — Binea, Rephaiah (Refayah here vs. Raphah in 8:37 — variant forms), Eleasah, and Azel. The Saulide line extends deep into the post-exilic period through these descendants of Jonathan."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וּלְאָצֵ֣ל שִׁשָּׁ֣ה בָנִ֗ים וְאֵ֣לֶּה שְׁמוֹתָ֡ם עַזְרִיקָ֡ם בֹּ֠כְר֠וּ וְיִשְׁמָעֵ֨אל וּשְׁעַרְיָ֧ה וְעֹבַדְיָ֛ה וְחָנָ֖ן אֵ֣לֶּה בְּנֵ֥י אָצֵֽל׃ פ",
+      "text_kjv": "And Azel had six sons, whose names are these, Azrikam, Bocheru, and Ishmael, and Sheariah, and Obadiah, and Hanan: these were the sons of Azel.",
+      "rendering": "Azel had six sons, and these are their names: Azrikam, Boceru, Ishmael, Sheariah, Obadiah, and Hanan. These were the sons of Azel.",
+      "translator_notes": [
+        "The chapter and the entire genealogical section end exactly as chapter 8 ended — with Azel's six sons. The petuchah marker closes nine chapters of genealogy. The Chronicler has traced the entire scope of Israel's identity: from Adam (1:1) through Abraham, the twelve tribes, the priesthood, the monarchy, the exile, the restoration community, and back to the family of Israel's first king. What follows immediately in chapter 10 is Saul's death — the genealogy gives way to narrative, and the Chronicler's real subject, the house of David and the temple of God, begins. These closing verses are the launch pad: the last genealogical word is Saul; the first narrative word will be Saul's end."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Samuel",
+    "chapter": 23,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "David receives word that the Philistines are raiding the threshing floors of Keilah and inquires of the LORD twice before going to rescue the town. After the victory, Saul learns David is in Keilah and mobilizes for siege. David inquires of the LORD a third time through Abiathar's ephod and learns that the citizens of Keilah will surrender him to Saul. David and his six hundred men flee into the wilderness of Ziph. There Jonathan comes to David one final time and strengthens his hand in God, and the two renew their covenant. The Ziphites betray David's location to Saul. Saul closes in on David at the Rock of Division in the wilderness of Maon, but a Philistine raid forces Saul to break off pursuit at the last possible moment. David escapes to the strongholds of En-gedi.",
+    "remarkable": "This chapter is built on two opposing verbs of seeking: sha'al (to inquire, to ask of God) and biqesh (to seek, to hunt). David sha'al-s the LORD three times (verses 2, 4, and the sequence at verses 10-12), each time receiving clear divine guidance. Saul biqesh-s David throughout the chapter (verses 14, 15, 25) but never once inquires of the LORD. The contrast is devastating: the man God rejected consults no one but his own paranoia, while the fugitive anointed one submits every decision to divine inquiry. The chapter also contains the last meeting between David and Jonathan, compressed into two verses (16-18) that carry enormous emotional weight. Jonathan's act of 'strengthening David's hand in God' is a priestly act performed by a prince — he ministers to David's faith at the cost of his own future, openly acknowledging that David will be king and that he himself will be second. They will never meet again. The chapter's climactic scene at the Rock of Division (sela ha-machlekot) is a masterpiece of narrative suspense: Saul and David are on opposite sides of the same mountain, Saul closing in, when a messenger arrives with news of a Philistine attack. Providence intervenes at the seam between capture and escape.",
+    "friction": "Verse 6 presents a textual difficulty: it says that when Abiathar fled to David at Keilah, 'an ephod came down in his hand.' This note appears to be an editorial insertion clarifying how David had access to priestly inquiry — Abiathar brought the ephod from Nob. But the narrative timeline is complicated: Abiathar's flight was narrated in 22:20-23, apparently before the Keilah episode. Some scholars argue that 23:6 is a displaced note or that the events overlap chronologically. We render the verse as it stands, treating it as the narrator's parenthetical explanation. The Ziphites' betrayal (verses 19-20) raises the question of why Judahites would betray David to Saul. The answer likely involves Saul's threat to their safety and the political reality that harboring a fugitive endangered the entire community. David's escape in verse 28 is narrated with almost frustrating brevity — the theological claim is clear (God delivered him) but the mechanics are left to the reader's imagination.",
+    "connections": "David's repeated inquiries of the LORD through the ephod connect backward to the legitimate priesthood destroyed at Nob (chapter 22) and forward to David's consistent pattern of seeking God before acting (2 Samuel 2:1, 5:19, 5:23). Saul's failure to inquire connects to his final desperate consultation of the medium at Endor (chapter 28), where he seeks guidance from the dead because the LORD will not answer him. Jonathan's words in verse 17 — 'you will be king over Israel, and I will be second to you' — recall the original anointing of David in chapter 16 and anticipate the covenant theology of the Davidic line (2 Samuel 7). The Rock of Division prefigures the psalm tradition of God as rock and refuge (Psalm 18, which is attributed to David's deliverance from Saul). The Ziphites' betrayal is remembered in the superscription of Psalm 54: 'When the Ziphites went and told Saul, David is hiding among us.'"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיַּגִּ֥דוּ לְדָוִ֖ד לֵאמֹ֑ר הִנֵּ֤ה פְלִשְׁתִּים֙ נִלְחָמִ֣ים בִּקְעִילָ֔ה וְהֵ֖מָּה שֹׁסִ֥ים אֶת־הַגֳּרָנֽוֹת׃",
+      "text_kjv": "Then they told David, saying, Behold, the Philistines fight against Keilah, and they rob the threshingfloors.",
+      "rendering": "They reported to David, \"The Philistines are attacking Keilah and plundering the threshing floors.\"",
+      "translator_notes": [
+        "The verb shosim ('plundering') describes the systematic stripping of grain at the most vulnerable moment — when it has been harvested and is being processed at the open-air threshing floors. This is economic warfare: seize the food supply at the point of maximum exposure. Keilah was a fortified town in the Judean lowlands (Shephelah), near Philistine territory. David, himself a fugitive with no settled base, receives intelligence about a town under attack — placing him in the position of deciding whether a man on the run can afford to fight someone else's war."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיִּשְׁאַ֨ל דָּוִ֤ד בַּיהוָה֙ לֵאמֹ֔ר הַאֵלֵ֗ךְ וְהִכֵּיתִי֙ בַּפְּלִשְׁתִּ֣ים הָאֵ֔לֶּה וַיֹּ֧אמֶר יְהוָ֛ה אֶל־דָּוִ֖ד לֵ֣ךְ וְהִכִּיתָ֥ בַפְּלִשְׁתִּ֖ים וְהוֹשַׁעְתָּ֥ אֶת־קְעִילָֽה׃",
+      "text_kjv": "Therefore David enquired of the LORD, saying, Shall I go and smite these Philistines? And the LORD said unto David, Go, and smite the Philistines, and save Keilah.",
+      "rendering": "David inquired of the LORD, saying, \"Should I go and strike these Philistines?\" The LORD said to David, \"Go. Strike the Philistines and rescue Keilah.\"",
+      "expanded_rendering": "The verb sha'al ('to inquire') is David's defining act in this chapter. Before committing his small fugitive band to battle against a national enemy, he submits the decision to God. The LORD's answer is not merely permission but a command with a promise embedded in it: lekh ('go'), vehikkita ('and you will strike'), vehoshata ('and you will rescue'). The three imperatives escalate from movement to combat to deliverance — God is not simply approving David's plan but commissioning a rescue mission. The verb hosha'ta ('you will save/rescue') is from the root yasha, the root of 'salvation' and of the name Joshua/Jesus. David is being cast as deliverer — the role Saul was supposed to fill but has abandoned in favor of hunting David.",
+      "translator_notes": [
+        "The verb sha'al ('inquired') is the same root as Saul's name (Sha'ul, 'asked for'). The irony pervades the chapter: David does what Saul's name implies but Saul himself never does. David asks God; Saul asks no one. The medium of inquiry is likely the Urim and Thummim associated with the priestly ephod, though the text does not specify the method until verse 6 clarifies that Abiathar brought the ephod.",
+        "God's response adds a dimension David did not ask about: vehoshata et-Qe'ilah ('and you will rescue Keilah'). David asked only whether he should go and fight; God answers with a mission that extends beyond military victory to the salvation of a community. This pattern — David acting as protector of vulnerable Israelites while Saul hunts him — is the chapter's central irony."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁאַל",
+          "transliteration": "sha'al",
+          "rendered_as": "inquired",
+          "semantic_range": "to ask, to inquire, to consult, to request, to demand",
+          "note": "The verb appears three times in this chapter for David's consultation of the LORD (verses 2, 4, and implicitly in the ephod inquiry of verses 10-12). It is also the root of Saul's name (Sha'ul), creating a sustained wordplay: the man named 'Asked-For' never asks God for anything, while the fugitive David asks repeatedly. In covenant context, sha'al represents the posture of dependence — the one who asks acknowledges that the answer belongs to another."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיֹּאמְר֤וּ אַנְשֵׁי־דָוִד֙ אֵלָ֔יו הִנֵּ֨ה אֲנַ֥חְנוּ פֹ֛ה בִּיהוּדָ֖ה יְרֵאִ֑ים וְאַף֙ כִּֽי־נֵלֵ֣ךְ קְעִילָ֔ה אֶל־מַעַרְכ֖וֹת פְּלִשְׁתִּֽים׃",
+      "text_kjv": "And David's men said unto him, Behold, we be afraid here in Judah: how much more then if we come to Keilah against the armies of the Philistines?",
+      "rendering": "But David's men said to him, \"We are already afraid here in Judah. How much more if we go to Keilah against the battle lines of the Philistines!\"",
+      "translator_notes": [
+        "The men's objection follows a qal va-chomer ('light and heavy') argument — a logical escalation that would become a standard rabbinic reasoning form. If they are already afraid (yere'im) as fugitives hiding in Judah, how much more terrified will they be marching into an open confrontation with Philistine military formations (ma'arkhot, 'battle lines, arranged ranks')? The word ma'arkhot is the same term used for the Philistine battle arrays that Goliath challenged in chapter 17 — David's men may be remembering what Philistine formations look like.",
+        "The men's fear is entirely rational. They are a band of roughly four hundred fugitives (22:2), many of them debtors and malcontents, not a trained army. They are being hunted by their own king. And now David proposes to fight the Philistines — the dominant military power in the region. Their objection reveals the gap between David's faith-informed decision-making and the raw terror of those who must carry it out."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיּ֨וֹסֶף ע֤וֹד דָּוִד֙ לִשְׁאֹ֣ל בַּיהוָ֔ה וַיַּעֲנֵ֣הוּ יְהוָ֔ה וַיֹּ֕אמֶר ק֖וּם רֵ֣ד קְעִילָ֑ה כִּֽי־אֲנִ֥י נֹתֵ֛ן אֶת־פְּלִשְׁתִּ֖ים בְּיָדֶֽךָ׃",
+      "text_kjv": "Then David enquired of the LORD yet again. And the LORD answered him and said, Arise, go down to Keilah; for I will deliver the Philistines into thine hand.",
+      "rendering": "So David inquired of the LORD a second time. The LORD answered him and said, \"Get up. Go down to Keilah, because I am giving the Philistines into your hand.\"",
+      "expanded_rendering": "David's willingness to ask again (vayyosef od ... lish'ol, 'he added again to inquire') is remarkable. He does not override his men's fear by pulling rank, nor does he abandon the mission because of their resistance. Instead he returns to the LORD — treating his men's objection as reason to seek further confirmation, not as grounds for retreat. God's second answer is more emphatic than the first: it adds ki ani noten ('because I am giving'), shifting from command to personal divine guarantee. The 'I' is emphatic — God himself is the agent of the victory. The phrase noten ... beyyadekha ('giving into your hand') is the standard formula for divinely guaranteed military victory throughout Joshua and Judges.",
+      "translator_notes": [
+        "The verb vayyosef ('he added, he did again') indicates David's persistence in seeking God — a pastoral detail showing that divine inquiry is not a one-time formality but an ongoing dialogue, especially when circumstances generate doubt. The second divine response is tailored to the men's fear: the first answer told David to go; the second tells him God will personally deliver the enemy. The addition of ki ani noten ('because I myself am giving') addresses the fear directly — the outcome does not depend on David's military strength but on God's sovereign action."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁאַל",
+          "transliteration": "sha'al",
+          "rendered_as": "inquired",
+          "semantic_range": "to ask, to inquire, to consult, to request, to demand",
+          "note": "David's second inquiry in three verses. The repetition establishes his pattern: when circumstances push back, David does not abandon divine guidance but returns to it. This double inquiry will contrast sharply with Saul's zero inquiries throughout the chapter."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיֵּ֨לֶךְ דָּוִ֤ד וַאֲנָשָׁיו֙ קְעִילָ֔ה וַיִּלָּ֣חֶם בַּפְּלִשְׁתִּ֔ים וַיִּנְהַ֖ג אֶת־מִקְנֵיהֶ֑ם וַיַּ֤ךְ בָּהֶם֙ מַכָּ֣ה גְדוֹלָ֔ה וַיֹּ֣שַׁע דָּוִ֔ד אֵ֖ת יֹשְׁבֵ֥י קְעִילָֽה׃",
+      "text_kjv": "So David and his men went to Keilah, and fought with the Philistines, and brought away their cattle, and smote them with a great slaughter. So David saved the inhabitants of Keilah.",
+      "rendering": "David and his men went to Keilah, fought the Philistines, drove off their livestock, and struck them with a devastating blow. David rescued the inhabitants of Keilah.",
+      "expanded_rendering": "The narrative moves at combat speed: four verbs in rapid succession — halakh ('went'), nilcham ('fought'), nahag ('drove off'), vayakh ('struck'). The capture of Philistine livestock (miqneihem) reverses the original crisis: the Philistines came to steal grain, and David takes their animals. The phrase makkah gedolah ('a great blow') is the standard idiom for a decisive military victory. The final verb is the most theologically loaded: vayyosha David ('David saved/rescued'). The verb yasha ('to save, deliver') is the same root God used in verse 2 — what God commanded, David accomplished. The narrator credits David as the human agent of divine salvation, functioning exactly as a judge in the book of Judges would.",
+      "translator_notes": [
+        "The verb vayyinhag ('he drove off') specifically refers to driving livestock — David not only defeats the Philistines but captures their supply train. This detail transforms a defensive action into an offensive victory with material gain, feeding David's fugitive band. The closing statement vayyosha David et yoshvei Qe'ilah ('David rescued the inhabitants of Keilah') echoes the language of the judges (Judges 2:16, 3:9, 3:15). David is doing what the king should be doing — protecting Israelite towns from foreign enemies — while the king hunts the man doing his job."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיְהִ֗י בִּבְרֹ֨חַ אֶבְיָתָ֧ר בֶּן־אֲחִימֶ֛לֶךְ אֶל־דָּוִ֖ד קְעִילָ֑ה אֵפ֖וֹד יָרַ֥ד בְּיָדֽוֹ׃",
+      "text_kjv": "And it came to pass, when Abiathar the son of Ahimelech fled to David to Keilah, that he came down with an ephod in his hand.",
+      "rendering": "Now when Abiathar son of Ahimelech fled to David at Keilah, an ephod had come down in his hand.",
+      "translator_notes": [
+        "The efod in priestly contexts refers to the linen garment worn by the high priest, which contained the breastplate (choshen) holding the Urim and Thummim — the sacred lots used to receive yes-or-no answers from God. This is the mechanism behind David's inquiries in this chapter. The text emphasizes that the ephod 'came down in his hand' (yarad beyado), a phrase that may indicate Abiathar was carrying it when he fled, or it may be a theological statement: the instrument of divine communication descended to the true anointed one."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֵפוֹד",
+          "transliteration": "efod",
+          "rendered_as": "ephod",
+          "semantic_range": "priestly garment, vestment for divination, linen shoulder-piece, oracular instrument",
+          "note": "The ephod in this context is not merely a garment but the apparatus of divine inquiry. It contained or was associated with the Urim and Thummim, sacred objects used to receive binary divine answers. When the narrator says the ephod came down in Abiathar's hand, the theological point is that legitimate access to God's will now resides with David, not with Saul. Saul destroyed the priesthood at Nob, and the ephod — God's communication channel — fled to David. Throughout 1 Samuel 23, the ephod is what separates David's decision-making (guided by God) from Saul's (guided by obsession)."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיֻּגַּ֣ד לְשָׁא֔וּל כִּי־בָ֥א דָוִ֖ד קְעִילָ֑ה וַיֹּ֣אמֶר שָׁא֗וּל נִכַּ֨ר אֹת֤וֹ אֱלֹהִים֙ בְּיָדִ֔י כִּ֚י נִסְגַּ֣ר לָב֔וֹא בְּעִ֖יר דְּלָתַ֥יִם וּבְרִֽיחַ׃",
+      "text_kjv": "And it was told Saul that David was come to Keilah. And Saul said, God hath delivered him into mine hand; for he is shut in, by entering into a town that hath gates and bars.",
+      "rendering": "When Saul was told that David had come to Keilah, Saul said, \"God has handed him over to me, because he has trapped himself by entering a town with double gates and a bar.\"",
+      "translator_notes": [
+        "The verb nikkar is debated. Some derive it from nakhar ('to treat as foreign, to alienate') — meaning God has estranged David, cast him out. Others derive it from makar ('to sell') with a textual corruption. We follow the reading that Saul claims God has delivered David into his power, treating nikkar as meaning 'handed over' in context. Saul's interpretation of events is consistently self-serving throughout 1 Samuel: every development confirms his paranoid narrative.",
+        "The phrase delatayim u-veriach ('double gates and a bar') refers to the standard fortification of a Judean town — heavy wooden doors reinforced with a crossbar. Saul sees the fortification as a trap for David. What he does not see is that David's presence in the town was an act of divine obedience, not strategic blundering."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיְשַׁמַּ֥ע שָׁא֖וּל אֶת־כׇּל־הָעָ֑ם לַמִּלְחָמָ֗ה לָרֶ֙דֶת֙ קְעִילָ֔ה לָצ֥וּר אֶל־דָּוִ֖ד וְאֶל־אֲנָשָֽׁיו׃",
+      "text_kjv": "And Saul called all the people together to war, to go down to Keilah, to besiege David and his men.",
+      "rendering": "Saul summoned all the troops to war, to march down to Keilah and besiege David and his men.",
+      "translator_notes": [
+        "The verb vayyeshamma ('he summoned, he called to hear') is from the Piel of shama, meaning to call together or muster. Saul mobilizes the entire military apparatus of Israel — not against the Philistines who were just raiding Keilah, but against the man who drove them off. The verb latsur ('to besiege') is a technical military term for surrounding a fortified position and cutting off supply lines. Saul is prepared to lay siege to an Israelite town to capture David — an act that would harm the very citizens David just rescued."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֵּ֣דַע דָּוִ֔ד כִּ֣י עָלָ֔יו שָׁא֖וּל מַחֲרִ֣ישׁ הָרָעָ֑ה וַיֹּ֙אמֶר֙ אֶל־אֶבְיָתָ֣ר הַכֹּהֵ֔ן הַגִּ֖ישָׁה הָאֵפֽוֹד׃",
+      "text_kjv": "And David knew that Saul secretly practised mischief against him; and he said to Abiathar the priest, Bring hither the ephod.",
+      "rendering": "David learned that Saul was forging evil against him in secret. He said to Abiathar the priest, \"Bring the ephod here.\"",
+      "expanded_rendering": "The phrase macharish hara'ah ('silently working evil' or 'forging evil in secret') uses the Hiphil participle of charash, a verb that means both 'to be silent' and 'to engrave, to forge, to craft.' The dual meaning is potent: Saul is both keeping his plans quiet and actively fabricating harm, like a metalworker hammering out a weapon. David's response is immediate and characteristic — he does not panic, flee, or fight. He calls for the ephod. Where Saul forges evil in silence, David seeks the voice of God through the priestly instrument. The contrast between the two men's methods of navigating crisis could not be sharper.",
+      "translator_notes": [
+        "The verb charash in the Hiphil can mean 'to devise silently, to plot' — combining the ideas of secrecy and deliberate crafting. David's intelligence network has detected Saul's mobilization, and his first response is not tactical but theological: bring the ephod. The command hagishah ('bring near, present') is a priestly technical term — the same verb used for presenting offerings. David is requesting a formal priestly consultation, not an informal prayer."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֵפוֹד",
+          "transliteration": "efod",
+          "rendered_as": "ephod",
+          "semantic_range": "priestly garment, vestment for divination, linen shoulder-piece, oracular instrument",
+          "note": "David's command to bring the ephod is the hinge of the chapter's middle section. It signals his shift from military leader (verses 1-5) to covenant petitioner (verses 10-12). The ephod is David's access point to the divine will — and because Abiathar brought it when fleeing Saul's massacre, its presence with David is itself a verdict on whose side God's institutional presence stands."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיֹּ֣אמֶר דָּוִ֗ד יְהוָה֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל שָׁמֹ֤עַ שָׁמַע֙ עַבְדְּךָ֔ כִּֽי־מְבַקֵּ֥שׁ שָׁא֖וּל לָב֣וֹא אֶל־קְעִילָ֑ה לְשַׁחֵ֥ת לָעִ֖יר בַּעֲבוּרִֽי׃",
+      "text_kjv": "Then said David, O LORD God of Israel, thy servant hath certainly heard that Saul seeketh to come to Keilah, to destroy the city for my sake.",
+      "rendering": "David said, \"O LORD, God of Israel, your servant has heard with certainty that Saul is seeking to come to Keilah to destroy the city on my account.\"",
+      "translator_notes": [
+        "The infinitive absolute construction shamoa shama ('hearing, he has heard' — rendered 'heard with certainty') conveys absolute confidence in the intelligence: David is not guessing. The verb mevaqesh ('is seeking') is the chapter's hunting verb — biqesh, to seek or pursue — here applied to Saul's pursuit of David. The phrase leshachet la'ir ('to destroy the city') reveals the full horror of Saul's intention: he will destroy an entire Israelite town to catch one man. The word ba'avuri ('on my account, because of me') shows David's awareness that his presence endangers others — a moral burden that drives his inquiry and his eventual departure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "הֲיַסְגִּרֻ֙נִי֙ בַּעֲלֵ֣י קְעִילָ֔ה בְּיָד֖וֹ הֲיֵרֵ֣ד שָׁא֑וּל כַּאֲשֶׁ֤ר שָׁמַע֙ עַבְדֶּ֔ךָ יְהוָ֗ה אֱלֹהֵ֤י יִשְׂרָאֵל֙ הַגֶּד־נָ֣א לְעַבְדֶּ֔ךָ וַיֹּ֥אמֶר יְהוָ֖ה יֵרֵֽד׃",
+      "text_kjv": "Will the men of Keilah deliver me up into his hand? will Saul come down, as thy servant hath heard? O LORD God of Israel, I beseech thee, tell thy servant. And the LORD said, He will come down.",
+      "rendering": "\"Will the citizens of Keilah hand me over to him? Will Saul come down, as your servant has heard? O LORD, God of Israel, please tell your servant.\" The LORD said, \"He will come down.\"",
+      "translator_notes": [
+        "David asks two questions, and the ephod-based inquiry yields answers to one at a time. The verb yasgiruni ('will they hand me over, will they shut me in') is from sagar, meaning to close, deliver up, or surrender — the same verb used for handing over prisoners or betraying fugitives. The ba'alei Qe'ilah ('citizens of Keilah,' literally 'lords/masters of Keilah') are the leading men of the town. David is asking whether the very people he just saved will betray him. God answers the second question first: Saul will indeed come down. The first question — about betrayal — is reserved for verse 12."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיֹּ֣אמֶר דָּוִ֗ד הֲיַסְגִּ֜רוּ בַּעֲלֵ֤י קְעִילָה֙ אֹתִ֣י וְאֶת־אֲנָשַׁ֔י בְּיַ֖ד שָׁא֑וּל וַיֹּ֥אמֶר יְהוָ֖ה יַסְגִּֽירוּ׃",
+      "text_kjv": "Then said David, Will the men of Keilah deliver me and my men into the hand of Saul? And the LORD said, They will deliver thee up.",
+      "rendering": "David said, \"Will the citizens of Keilah surrender me and my men into the hand of Saul?\" The LORD said, \"They will surrender you.\"",
+      "expanded_rendering": "The devastating brevity of God's answer — yasgiru ('they will surrender') — is one of the most painful moments in David's fugitive narrative. The people he just rescued, whose threshing floors he defended and whose town he saved from Philistine plunder, will hand him over to the man who wants to kill him. The verb sagar ('to surrender, to shut up, to deliver over') treats David as cargo to be transferred. God does not soften the answer or explain the citizens' motives. The answer is a bare future-tense verb: they will do it. David now knows three things: Saul is coming, the town will betray him, and he must leave. Note that God's answer describes what will happen if David stays — it is not a decree but a conditional future, and David acts on it to change the outcome.",
+      "translator_notes": [
+        "The divine answer reveals a conditional future — what will happen if David remains. David's departure changes the outcome: Saul does not attack Keilah (verse 13). This raises a profound question about the nature of prophetic knowledge: God tells David what the citizens of Keilah would do under certain conditions, and David uses that knowledge to alter the conditions. The ephod inquiry here functions less like prophecy and more like divine counsel — God advising David based on knowledge of human hearts and intentions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיָּ֣קָם דָּוִ֣ד וַאֲנָשָׁ֗יו כְּשֵׁ֤שׁ מֵאוֹת֙ אִ֔ישׁ וַיֵּצְא֣וּ מִקְּעִילָ֔ה וַיִּֽתְהַלְּכ֖וּ בַּאֲשֶׁ֣ר יִתְהַלָּ֑כוּ וּלְשָׁא֣וּל הֻגַּ֗ד כִּֽי־נִמְלַ֤ט דָּוִד֙ מִקְּעִילָ֔ה וַיֶּחְדַּ֖ל לָצֵֽאת׃",
+      "text_kjv": "Then David and his men, which were about six hundred, arose and departed out of Keilah, and went whithersoever they could go. And it was told Saul that David was escaped from Keilah; and he forbare to go forth.",
+      "rendering": "David and his men — about six hundred — got up, left Keilah, and moved from place to place wherever they could go. When Saul was told that David had escaped from Keilah, he abandoned the expedition.",
+      "translator_notes": [
+        "The phrase vayyithallekhu ba'asher yithallakhu ('they moved about wherever they could move about') describes aimless, survival-driven wandering — the Hithpael of halakh repeated to convey continuous, directionless motion. David has gone from commander of a rescue mission to a nomad with six hundred mouths to feed. The number shesh me'ot ('six hundred') has grown from the four hundred of 22:2, suggesting David's band is expanding even as his situation deteriorates.",
+        "The verb vayyechdal ('he abandoned, he ceased') shows Saul's siege plan collapsing the moment David leaves. Saul had no interest in Keilah itself — only in David. Without the target, the military operation has no purpose. The narrator's dry report of Saul's cancellation highlights the absurdity of his campaign: the king of Israel mobilized the entire army to besiege a town David had just saved, then went home when David left."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֵּ֨שֶׁב דָּוִ֤ד בַּמִּדְבָּר֙ בַּמְּצָד֔וֹת וַיֵּ֥שֶׁב בְּהַר־מִדְבַּ֖ר זִ֑יף וַיְבַקְשֵׁ֤הוּ שָׁאוּל֙ כׇּל־הַיָּמִ֔ים וְלֹֽא־נְתָנ֥וֹ אֱלֹהִ֖ים בְּיָדֽוֹ׃",
+      "text_kjv": "And David abode in the wilderness in strong holds, and remained in a hill in the wilderness of Ziph. And Saul sought him every day, but God delivered him not into his hand.",
+      "rendering": "David settled in the wilderness, in the strongholds, and he stayed in the hill country of the wilderness of Ziph. Saul hunted for him every day, but God did not give him into his hand.",
+      "expanded_rendering": "The verse establishes the new status quo: David lives in the midbar ('wilderness'), a semi-arid landscape of ravines, caves, and rocky heights southeast of Hebron. The metsadot ('strongholds') are natural rock formations used as defensive positions — not constructed fortresses but geological shelters. The wilderness of Ziph is specific terrain in the Judean desert, identifiable today near Tell Zif, about four miles south of Hebron. Against this geography, the narrator delivers the chapter's theological verdict in a single clause: velo netano Elohim beyado ('but God did not give him into his hand'). This is the direct refutation of Saul's claim in verse 7 that God had handed David over. Saul said God gave David to him; the narrator says God did no such thing. The verb biqesh ('sought, hunted') defines Saul's entire existence for this period — kol-hayyamim ('all the days'), meaning continuously, obsessively, without pause.",
+      "translator_notes": [
+        "The theological summary — 'God did not give him into his hand' — uses the same verb (natan, 'to give') that Saul used in verse 7 and that God used in verse 4. In verse 4, God gives the Philistines into David's hand. In verse 7, Saul claims God has given David into his hand. In verse 14, the narrator settles the matter: God gave nothing to Saul. The verb natan becomes a marker of divine allegiance — God gives victory to David and withholds David from Saul."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיַּ֣רְא דָּוִ֔ד כִּֽי־יָצָ֥א שָׁא֖וּל לְבַקֵּ֣שׁ אֶת־נַפְשׁ֑וֹ וְדָוִ֥ד בְּמִדְבַּר־זִ֖יף בַּחֹֽרְשָׁה׃",
+      "text_kjv": "And David saw that Saul was come out to seek his life: and David was in the wilderness of Ziph in a wood.",
+      "rendering": "David saw that Saul had marched out to seek his life. David was in the wilderness of Ziph, at Horesh.",
+      "translator_notes": [
+        "The phrase levaqesh et-nafsho ('to seek his life/soul') intensifies the hunting language: Saul is not just looking for David's location but seeking his nefesh — his life, his very self. The word bachorshah is debated: it could mean 'in the forest/thicket' (from choresh, 'wooded area') or it could be a place name, Horesh. Given that the wilderness of Ziph is largely scrubland with limited tree cover, many scholars read this as a proper noun. We render it as the place name Horesh, following the Septuagint's treatment of it as a location rather than a generic description."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיָּ֙קָם֙ יְהוֹנָתָ֣ן בֶּן־שָׁא֔וּל וַיֵּ֥לֶךְ אֶל־דָּוִ֖ד חֹ֑רְשָׁה וַיְחַזֵּ֥ק אֶת־יָד֖וֹ בֵּאלֹהִֽים׃",
+      "text_kjv": "And Jonathan Saul's son arose, and went to David into the wood, and strengthened his hand in God.",
+      "rendering": "Jonathan son of Saul set out and went to David at Horesh, and he strengthened his hand in God.",
+      "translator_notes": [
+        "The phrase vaychazzeq et-yado be-Elohim resists easy translation because English has no single verb that captures the Hebrew chazaq in the Piel — it means to make strong, to grasp firmly, to reinforce from outside. Jonathan is not cheering David up; he is actively transferring courage by redirecting David's gaze toward God. The preposition be ('in') is locative: the strength is located in God, and Jonathan's act is to reconnect David to that source. This is the last act of the Jonathan-David relationship, and it is purely theological — not military, not political, but faith sustaining faith."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "וַיְחַזֵּק אֶת־יָדוֹ בֵּאלֹהִים",
+          "transliteration": "vaychazzeq et-yado be-Elohim",
+          "rendered_as": "strengthened his hand in God",
+          "semantic_range": "to make firm, to fortify, to grasp tightly, to encourage, to harden, to repair",
+          "note": "The Piel of chazaq means to actively reinforce or fortify. Combined with 'hand' (yad, representing agency and power) and 'in God' (be-Elohim, identifying the ground of strength), the phrase describes an act of spiritual reinforcement: Jonathan ministers to David's faith, restoring his capacity to act by reconnecting him to divine power. This is Jonathan's final gift to David — not a sword, not an army, but faith. The same verb chazaq is used in Joshua 1:6-9 when God commissions Joshua, and in Isaiah 35:3-4 when the prophet calls for strengthening weak hands before God's arrival. Jonathan's act places him in the company of those who prepare others for divine work."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיֹּ֤אמֶר אֵלָיו֙ אַל־תִּירָ֔א כִּ֠י לֹ֣א תִמְצָאֲךָ֗ יַ֚ד שָׁא֣וּל אָבִ֔י וְאַתָּ֥ה תִמְלֹ֖ךְ עַל־יִשְׂרָאֵ֑ל וְאָנֹכִ֗י אֶֽהְיֶה־לְּךָ֙ לְמִשְׁנֶ֔ה וְגַם־שָׁא֥וּל אָבִ֖י יֹדֵ֥עַ כֵּֽן׃",
+      "text_kjv": "And he said unto him, Fear not: for the hand of Saul my father shall not find thee; and thou shalt be king over Israel, and I shall be next unto thee; and that also Saul my father knoweth.",
+      "rendering": "He said to him, \"Do not be afraid, because the hand of Saul my father will not reach you. You will reign as king over Israel, and I will be second to you — and even Saul my father knows this.\"",
+      "expanded_rendering": "Jonathan's speech contains four declarations, each more extraordinary than the last. First, al-tira ('do not be afraid') — the standard divine reassurance formula, here spoken by a human friend. Second, lo timtsa'akha yad Sha'ul avi ('the hand of Saul my father will not find you') — Jonathan calls Saul 'my father' while promising that his father's hand will fail. He does not disown Saul but names the relationship honestly while siding with David. Third, ve'attah timlokh al-Yisra'el ('you will reign over Israel') — the crown prince openly declares that the fugitive, not himself, will be king. This is not speculation but prophetic certainty: timlokh is an imperfect verb expressing assured future action. Fourth, ve'anokhi ehyeh-lekha le-mishneh ('and I will be second to you') — Jonathan voluntarily assumes the subordinate position, using mishneh ('second, deputy'), a title that could denote a vizier or prime minister. Jonathan is not merely yielding the throne; he is applying for a position in David's administration. The final clause — ve-gam Sha'ul avi yodea ken ('and even Saul my father knows this') — is the most devastating. Jonathan claims his father already knows David will be king. Saul's pursuit is not a misunderstanding but defiance of acknowledged reality.",
+      "translator_notes": [
+        "Jonathan's fourfold declaration is structured as a covenant oracle: reassurance, promise of protection, announcement of kingship, and personal pledge of loyalty. The phrase ehyeh-lekha le-mishneh ('I will be second to you') is poignant because it will never be fulfilled — Jonathan will die with his father at Mount Gilboa (31:2) before David takes the throne. Jonathan is offering a future he will not live to see.",
+        "The claim that Saul 'knows' (yodea) David will be king echoes Saul's own admission in 24:20: 'I know that you will certainly be king.' Jonathan's statement here either reflects private knowledge of his father's inner awareness or is a prophetic insight into Saul's psychology. Either way, it frames Saul's pursuit as rebellion against known truth — not ignorance but willful resistance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיִּכְרְת֧וּ שְׁנֵיהֶ֛ם בְּרִ֖ית לִפְנֵ֣י יְהוָ֑ה וַיֵּ֤שֶׁב דָּוִד֙ בַּחֹ֔רְשָׁה וִיהוֹנָתָ֖ן הָלַ֥ךְ לְבֵיתֽוֹ׃",
+      "text_kjv": "And they two made a covenant before the LORD: and David abode in the wood, and Jonathan went to his house.",
+      "rendering": "The two of them cut a covenant before the LORD. David stayed at Horesh, and Jonathan went home.",
+      "expanded_rendering": "The verb vayyikhrethu ('they cut') preserves the ancient Near Eastern covenant ritual: covenants were not signed but cut, originally involving the cutting of animals whose halves the parties passed between (Genesis 15:9-18). This is the third covenant between David and Jonathan (after 18:3 and 20:16), each one deepening the bond as the political situation worsens. The phrase lifnei YHWH ('before the LORD') identifies God as the witness and guarantor of the covenant — this is not a private friendship pact but a sacred bond ratified in divine presence. The final sentence divides them with devastating simplicity: David stayed in the wilderness, Jonathan went home. One returns to the stronghold of a fugitive; the other returns to the house of the man hunting him. They walk in opposite directions, and the narrative will never bring them together again.",
+      "translator_notes": [
+        "The brevity of the closing — vayyeshev David bachorshah viYhonatan halakh le-veito ('David stayed at Horesh and Jonathan went to his house') — is one of the most understated farewells in scripture. The narrator does not describe an emotional parting, tears, or embraces. The two simply separate: one into wilderness, one into a doomed household. The lack of sentiment makes the scene more, not less, powerful. The reader knows what the characters do not yet know — that Jonathan will die at Gilboa and the promise of verse 17 will go unfulfilled."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיַּעֲל֤וּ זִפִים֙ אֶל־שָׁא֔וּל הַגִּבְעָ֖תָה לֵאמֹ֑ר הֲל֨וֹא דָוִ֤ד מִסְתַּתֵּר֙ עִמָּ֔נוּ בַּמְּצָדוֹת֙ בַּחֹ֔רְשָׁה בְּגִבְעַ֥ת הַחֲכִילָ֖ה אֲשֶׁ֥ר מִימִ֖ין הַיְשִׁימֽוֹן׃",
+      "text_kjv": "Then came up the Ziphites to Saul to Gibeah, saying, Doth not David hide himself with us in the strong holds in the wood, in the hill of Hachilah, which is on the south of Jeshimon?",
+      "rendering": "Then the Ziphites went up to Saul at Gibeah and said, \"Is David not hiding among us in the strongholds at Horesh, on the hill of Hachilah, south of the wasteland?\"",
+      "translator_notes": [
+        "The Ziphites are inhabitants of Ziph, a town in the tribal territory of Judah — David's own tribe. Their betrayal is an intra-tribal act, not an inter-tribal one. They travel to Gibeah, Saul's capital in Benjamin, to volunteer intelligence. The phrase mistatter immanu ('hiding among us') uses the Hithpael of satar ('to hide'), the reflexive form suggesting David is actively concealing himself in their territory. Their report is geographically precise: the strongholds at Horesh, the hill of Hachilah, south of the Yeshimon ('wasteland, desolation'). This level of detail suggests they are offering to guide Saul's forces directly to David — not merely reporting a rumor but providing tactical coordinates.",
+        "The Yeshimon ('wasteland') refers to the barren eastern slopes of the Judean hill country descending toward the Dead Sea — a landscape of extreme aridity and deep wadis. The hill of Hachilah will reappear in chapter 26 as the site of David's second opportunity to kill Saul."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְ֠עַתָּ֠ה לְכׇל־אַוַּ֨ת נַפְשְׁךָ֥ הַמֶּ֛לֶךְ לָרֶ֖דֶת רֵ֑ד וְלָ֥נוּ הַסְגִּיר֖וֹ בְּיַ֥ד הַמֶּֽלֶךְ׃",
+      "text_kjv": "Now therefore, O king, come down according to all the desire of thy soul to come down; and our part shall be to deliver him into the king's hand.",
+      "rendering": "So now, whenever your soul desires to come down, O king, come down — and it will be our task to surrender him into the king's hand.",
+      "translator_notes": [
+        "The phrase lekhol-avvat nafshekha ('according to all the desire of your soul') is obsequious flattery — the Ziphites frame the operation around Saul's personal desire (avvah, 'craving, longing'), treating his obsession as a legitimate royal prerogative. The verb hasgiro ('to hand him over, to surrender him') is the same root (sagar) that appeared in David's inquiry at verses 11-12 — the very betrayal David feared from Keilah is now being offered by the Ziphites. The word lanu ('for us, our part') indicates the Ziphites are volunteering as active collaborators, not passive informants. They will do the work of cornering David if Saul will come."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיֹּ֣אמֶר שָׁא֔וּל בְּרוּכִ֥ים אַתֶּ֖ם לַיהוָ֑ה כִּ֥י חֲמַלְתֶּ֖ם עָלָֽי׃",
+      "text_kjv": "And Saul said, Blessed be ye of the LORD; for ye have compassion on me.",
+      "rendering": "Saul said, \"May you be blessed by the LORD, for you have shown compassion to me.\"",
+      "expanded_rendering": "Saul's response is theologically obscene. He invokes the LORD's blessing (berukhim attem la-YHWH) on people who are helping him hunt the man God has anointed to replace him. The verb chamaltem ('you have shown compassion, you have pitied') from chamal reveals Saul's distorted self-perception: he sees himself as the victim deserving pity, not as the aggressor pursuing an innocent man. The king of Israel, commanding the national army, claims that civilians showing him where to find a fugitive are showing him compassion. The inversion is complete: the hunter poses as the hunted, the persecutor claims to be persecuted, and God's name is invoked to bless the betrayal of God's chosen.",
+      "translator_notes": [
+        "The irony of Saul invoking the LORD's blessing here cannot be overstated. The LORD has explicitly rejected Saul (15:26), refused to answer him (14:37, and later 28:6), and is actively protecting David (verse 14). Saul's use of God's name to validate his manhunt represents the final corruption of his theological language — he uses covenant vocabulary to authorize covenant-breaking behavior. The verb chamal ('to have compassion, to spare') is the same verb used in 15:9 where Saul 'spared' Agag and the best livestock against God's command. Saul's pattern is consistent: he applies compassion where it does not belong and withholds it where it does."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "לְכוּ־נָ֞א הָכִ֣ינוּ ע֗וֹד וּדְע֤וּ וּרְאוּ֙ אֶת־מְקוֹמוֹ֙ אֲשֶׁ֣ר תִּהְיֶ֣ה רַגְל֔וֹ מִ֥י רָאָ֖הוּ שָׁ֑ם כִּ֚י אָמַ֣ר אֵלַ֔י עָר֥וֹם יַעְרִ֖ם לִֽי׃",
+      "text_kjv": "Go, I pray you, prepare yet, and know and see his place where his haunt is, and who hath seen him there: for it is told me that he dealeth very subtilly.",
+      "rendering": "\"Go now, make further preparations. Learn and observe his exact location — where his feet tread, and who has seen him there. For I have been told that he is extremely cunning.\"",
+      "translator_notes": [
+        "Saul's instructions reveal both tactical sophistication and personal anxiety. The verbs pile up in rapid succession: lekhu ('go'), hakhinu ('prepare'), de'u ('know'), re'u ('observe') — four commands before the main intelligence request. The phrase asher tihyeh raglo ('where his foot will be') is a tracking idiom: Saul wants to know David's movement patterns, not just his current position. The admission arum ya'arim li ('he is extremely cunning toward me') uses the verb aram ('to be shrewd, crafty'), the same root used for the serpent in Genesis 3:1 (arum). Whether intentional or not, the echo is suggestive: Saul perceives David as a dangerous adversary of serpentine cleverness, when in fact David's 'cunning' consists primarily of inquiring of the LORD."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וּרְא֣וּ וּדְע֗וּ מִכֹּל֙ הַמַּחֲבוֹאִ֔ים אֲשֶׁ֥ר יִתְחַבֵּ֖א שָׁ֑ם וְשַׁבְתֶּ֤ם אֵלַי֙ אֶל־נָכ֔וֹן וְהָלַכְתִּ֣י אִתְּכֶ֔ם וְהָיָ֗ה אִם־יֶשְׁנ֤וֹ בָאָ֙רֶץ֙ וְחִפַּשְׂתִּ֣י אֹת֔וֹ בְּכֹ֖ל אַלְפֵ֥י יְהוּדָֽה׃",
+      "text_kjv": "See therefore, and take knowledge of all the lurking places where he hideth himself, and come ye again to me with the certainty, and I will go with you: and it shall come to pass, if he be in the land, that I will search him out throughout all the thousands of Judah.",
+      "rendering": "\"Observe and learn every hiding place where he conceals himself, then return to me with certain information. I will go with you, and if he is anywhere in the land, I will search him out among all the clans of Judah.\"",
+      "translator_notes": [
+        "The word machabo'im ('hiding places') is from the root chava, 'to hide' — the same root used for Adam and Eve hiding from God in Genesis 3:8. Saul commands a systematic intelligence sweep of David's positions. The phrase el-nakhon ('with certainty, with what is established') demands verified intelligence, not rumors. Saul's promise vechipassti oto bekhol alfei Yehudah ('I will search him out among all the clans of Judah') reveals the scale of his obsession: he will comb through every military unit (elef, 'thousand/clan') in David's own tribe. The word alfei can mean either 'thousands' (military units) or 'clans' (tribal subdivisions) — either way, Saul is planning a territory-wide sweep of Judah to find one man."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיָּק֣וּמוּ וַיֵּלְכ֥וּ זִ֛יפָה לִפְנֵ֥י שָׁא֖וּל וְדָוִ֤ד וַאֲנָשָׁיו֙ בְּמִדְבַּ֣ר מָע֔וֹן בָּעֲרָבָ֖ה אֶל־יְמִ֥ין הַיְשִׁימֽוֹן׃",
+      "text_kjv": "And they arose, and went to Ziph before Saul: but David and his men were in the wilderness of Maon, in the plain on the south of Jeshimon.",
+      "rendering": "They set out and went to Ziph ahead of Saul. David and his men were in the wilderness of Maon, in the Arabah south of the wasteland.",
+      "translator_notes": [
+        "The Ziphites depart as advance scouts, heading back to Ziph lifnei Sha'ul ('ahead of Saul') to finalize David's location before Saul arrives. Meanwhile, David has moved south from Ziph to the wilderness of Maon — a more remote and rugged area deeper into the Judean desert. The Arabah here likely refers to the dry depression running south toward the Dead Sea. The narrator tracks both parties simultaneously, building narrative tension: the Ziphites are heading to Ziph, David is in Maon, and Saul is mobilizing. The geography tightens like a noose."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיֵּ֤לֶךְ שָׁאוּל֙ וַאֲנָשָׁ֔יו לְבַקֵּ֑שׁ וַיַּגִּ֣דוּ לְדָוִ֗ד וַיֵּ֙רֶד֙ הַסֶּ֔לַע וַיֵּ֖שֶׁב בְּמִדְבַּ֣ר מָע֑וֹן וַיִּשְׁמַ֣ע שָׁא֔וּל וַיִּרְדֹּ֥ף אַחֲרֵי־דָוִ֖ד מִדְבַּ֥ר מָעֽוֹן׃",
+      "text_kjv": "Saul also and his men went to seek him. And they told David; wherefore he came down into a rock, and abode in the wilderness of Maon. And when Saul heard that, he pursued after David in the wilderness of Maon.",
+      "rendering": "Saul and his men went to hunt for him. When David was told, he went down to the rock and stayed in the wilderness of Maon. Saul heard this and pursued David into the wilderness of Maon.",
+      "translator_notes": [
+        "The verb levaqesh ('to seek, to hunt') returns — Saul's defining action throughout the chapter. David receives intelligence (vayyaggidu le-David, 'they told David') — his network of informants continues to function even in the wilderness. The sela ('rock, crag') is a specific geological feature, likely a cliff face or rock formation that David uses as a defensive position. The verb vayyeradof ('he pursued') is from radaf, the standard verb for military pursuit or hunting — Saul is now in active chase mode, closing the distance in the wilderness of Maon."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיֵּ֨לֶךְ שָׁא֜וּל מִצַּ֤ד הָהָר֙ מִזֶּ֔ה וְדָוִ֧ד וַאֲנָשָׁ֛יו מִצַּ֥ד הָהָ֖ר מִזֶּ֑ה וַיְהִ֨י דָוִ֜ד נֶחְפָּ֤ז לָלֶ֙כֶת֙ מִפְּנֵ֣י שָׁא֔וּל וְשָׁא֣וּל וַאֲנָשָׁ֗יו עֹֽטְרִ֛ים אֶל־דָּוִ֥ד וְאֶל־אֲנָשָׁ֖יו לְתׇפְשָֽׂם׃",
+      "text_kjv": "And Saul went on this side of the mountain, and David and his men on that side of the mountain: and David made haste to get away for fear of Saul; for Saul and his men compassed David and his men round about to take them.",
+      "rendering": "Saul moved along one side of the mountain, and David and his men along the other side. David was racing to escape from Saul, while Saul and his men were closing in around David and his men to capture them.",
+      "expanded_rendering": "The narrative reaches its most physically tense moment. The Hebrew arranges the two parties in mirror formation: Sha'ul mi-tsad ha-har mi-zeh ('Saul on this side of the mountain') and David va-anashav mi-tsad ha-har mi-zeh ('David and his men on that side of the mountain'). The mountain itself stands between them — a thin wall of rock separating the hunter from the hunted. The verb nechpaz ('was hurrying, was racing') from chafaz conveys panicked urgency — David is no longer maneuvering but fleeing at full speed. Meanwhile, the participle otrim ('encircling, surrounding') describes Saul's forces closing a net. The verb tafas ('to seize, to capture') states the endgame: Saul intends physical capture. The noose is tightening. There is no divine inquiry, no prophetic word, no military strategy left — only two groups of men on opposite sides of a mountain, one fleeing and one closing in.",
+      "translator_notes": [
+        "The spatial arrangement — both parties moving along opposite sides of the same mountain — creates an almost cinematic image. The narrator achieves maximum suspense with minimal language: David is running, Saul is encircling, capture is imminent. The verb otrim ('encircling') is a military technical term for surrounding an enemy position to cut off escape routes. David appears to be trapped. The chapter has moved from divine guidance (verses 1-12) through theological encouragement (verses 16-18) to this moment of raw physical danger where no human solution is visible."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וּמַלְאָ֣ךְ בָּ֔א אֶל־שָׁא֖וּל לֵאמֹ֑ר מַהֲרָ֣ה וְלֵ֔כָה כִּֽי־פָשְׁט֥וּ פְלִשְׁתִּ֖ים עַל־הָאָֽרֶץ׃",
+      "text_kjv": "But there came a messenger unto Saul, saying, Haste thee, and come; for the Philistines have invaded the land.",
+      "rendering": "Then a messenger came to Saul: \"Hurry! Come quickly! The Philistines have raided the land!\"",
+      "expanded_rendering": "The verb ba ('came') — a single, ordinary word — detonates the entire narrative like a concussion. At the exact moment Saul's net is closing, a messenger arrives with urgent military intelligence: the Philistines have launched a major incursion. The command maharah velekhah ('hurry and go') uses two imperatives conveying maximum urgency — this is not a border skirmish but an invasion requiring the king's immediate attention. The verb fashtu ('they have spread out, they have raided') from pashat describes a broad military sweep across territory, the same kind of attack that opened the chapter at Keilah. The Philistines — the enemy David was fighting while Saul hunted David — have now forced Saul to abandon his pursuit and do his actual job. The narrator never says this is divine intervention. He does not need to. The timing speaks for itself: at the instant of capture, the Philistines attack. The reader who has been tracking God's hand throughout the chapter (verses 2, 4, 12, 14) draws the obvious conclusion.",
+      "translator_notes": [
+        "The narrative structure is masterful: the messenger's arrival interrupts the most suspenseful moment in the chapter with a single-verse pivot. The verb pashat ('to spread out, to raid') is the same verb used for stripping and spreading — it conveys an enemy spreading across the land like a flood. Saul must choose between his private obsession (David) and his public duty (national defense). The Philistines force the choice, and Saul has no option but to turn away. The narrator attributes no theological explanation — the bare sequence of events carries the theological weight."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיָּ֣שָׁב שָׁא֗וּל מִרְדֹּף֙ אַחֲרֵ֣י דָוִ֔ד וַיֵּ֕לֶךְ לִקְרַ֖את פְּלִשְׁתִּ֑ים עַל־כֵּ֗ן קָֽרְא֛וּ לַמָּק֥וֹם הַה֖וּא סֶ֥לַע הַמַּחְלְקֽוֹת׃",
+      "text_kjv": "Wherefore Saul returned from pursuing after David, and went against the Philistines: therefore they called that place Selahammahlekoth.",
+      "rendering": "Saul turned back from pursuing David and went to confront the Philistines. That is why they called that place the Rock of Division.",
+      "translator_notes": [
+        "The etiology (origin story for a place name) is a common narrative device in the Hebrew Bible (cf. Genesis 22:14, Judges 15:17). Sela ha-Machlekot becomes a physical marker in the landscape testifying to David's deliverance. The verb vayyashav ('he turned back') marks Saul's forced retreat — not a voluntary decision but a compelled one. The phrase vayyelekh liqra't Pelishtim ('he went to meet/confront the Philistines') uses the verb qara't, which implies moving toward a confrontation. Saul finally does what a king is supposed to do — fight the national enemy — but only because God's timing removed every other option."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיַּ֥עַל דָּוִ֖ד מִשָּׁ֑ם וַיֵּ֖שֶׁב בִּמְצָד֥וֹת עֵֽין־גֶּֽדִי׃",
+      "text_kjv": "And David went up from thence, and dwelt in strong holds at Engedi.",
+      "rendering": "David went up from there and settled in the strongholds of En-gedi.",
+      "translator_notes": [
+        "The final verse is a single sentence of geographical transition. David ascends (vayyaal, 'went up') from the wilderness of Maon to the metsadot ('strongholds') of En-gedi — the oasis on the western shore of the Dead Sea, famous for its spring, its waterfall, and its network of caves in the surrounding cliffs. The name En-gedi means 'Spring of the Young Goat,' and the ibex that still inhabit the area provided both the name and the imagery for David's life in this period: a nimble creature surviving in impossible terrain. The caves of En-gedi will be the setting for the next chapter's dramatic encounter, where Saul enters the very cave where David is hiding. The chapter ends where it began — with David in motion, seeking shelter, guided by God but homeless in his own land."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

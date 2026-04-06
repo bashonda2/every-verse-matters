@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ruth",
+    "chapter": 4,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Boaz goes to the town gate to settle the matter of redeeming Elimelech's land and Ruth's future. A closer kinsman-redeemer has first right but declines when he learns the obligation includes marrying Ruth the Moabite. Boaz acquires the land and Ruth before witnesses. Ruth bears a son, Obed, whom the women of Bethlehem declare to be Naomi's kinsman-redeemer. The book closes with a genealogy tracing the line from Perez through Boaz and Obed to David.",
+    "remarkable": "The entire legal drama of verses 1-12 turns on a single Hebrew word: go'el, the kinsman-redeemer. The unnamed closer relative is willing to redeem the land but not to take on Ruth — the Moabite element is the deal-breaker. Boaz accepts both, and the text frames this as the greater act of faithfulness. The sandal ceremony in verses 7-8 preserves an ancient legal custom that the narrator must explain to his own audience, indicating the story's antiquity. Most striking is the ending: the women of Bethlehem declare the newborn child — not Boaz — to be Naomi's go'el, her redeemer. The infant restores what death took. Then the genealogy delivers its quiet earthquake: this child of a Moabite widow is the grandfather of King David.",
+    "friction": "We rendered go'el as 'kinsman-redeemer' throughout rather than simplifying to 'redeemer' because the kinship obligation is inseparable from the legal function — a go'el must be a relative. The verb ga'al ('to redeem') and the noun go'el share the same root, and we preserved this connection in English where possible. The phrase peloni almoni in verse 1 (the unnamed kinsman) is a Hebrew idiom roughly equivalent to 'so-and-so' — we rendered it 'a certain man' with a translator note. The sandal custom in verse 7 required careful handling: the Hebrew teudah ('attestation, confirmation') indicates a legal validation ritual, not a casual exchange.",
+    "connections": "The gate scene connects to Deuteronomy 25:5-10, where levirate marriage and the sandal ritual are legislated. Boaz's declaration in verse 10 — 'to raise up the name of the dead upon his inheritance' — echoes that Deuteronomic mandate precisely. The women's blessing in verse 11 invokes Rachel and Leah, the mothers of all Israel, placing Ruth alongside them. The Perez genealogy in verses 18-22 reaches back to Genesis 38 — another story of a woman (Tamar) who used unconventional means to secure offspring within the family line. Ruth and Tamar are literary sisters: foreign or marginalized women whose bold action preserves the covenant line that leads to David."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וּבֹ֨עַז עָלָ֣ה הַשַּׁ֗עַר וַיֵּ֣שֶׁב שָׁם֮ וְהִנֵּ֣ה הַגֹּאֵ֣ל עֹבֵר֒ אֲשֶׁ֤ר דִּבֶּר־בֹּ֙עַז֙ וַיֹּ֗אמֶר ס֤וּרָה שְׁבָה־פֹּה֙ פְּלֹנִ֣י אַלְמֹנִ֔י וַיָּ֖סַר וַיֵּשֵֽׁב׃",
+      "text_kjv": "Then went Boaz up to the gate, and sat him down there: and, behold, the kinsman of whom Boaz spake came by; unto whom he said, Ho, such a one! turn aside, sit down here. And he turned aside, and sat down.",
+      "rendering": "Now Boaz had gone up to the gate and was sitting there. And look — the kinsman-redeemer Boaz had spoken about came passing by. Boaz said, \"Come over here and sit down, friend.\" So the man turned aside and sat down.",
+      "translator_notes": [
+        "The Hebrew vayyehi is implied in the narrative sequence — the scene opens with Boaz already positioned at the gate (ha-sha'ar), the public space where legal transactions and judicial decisions were conducted. This is Israel's courtroom.",
+        "The phrase peloni almoni is a Hebrew idiom for an unnamed person — roughly 'so-and-so' or 'Mr. What's-his-name.' The narrator's refusal to name this man is deliberate: the one who refuses the redemption obligation forfeits his name in the story. We rendered it as 'friend' in Boaz's speech because peloni almoni is the narrator's descriptor, while Boaz would have used the man's actual name. The idiom signals to the reader that this man's identity does not matter — his refusal to redeem will erase him from the record.",
+        "The verb sur ('to turn aside') indicates the kinsman was walking past — Boaz catches him in transit. The timing is presented as providential: the exact person Boaz needs appears at the exact moment Boaz is ready."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גֹּאֵל",
+          "transliteration": "go'el",
+          "rendered_as": "kinsman-redeemer",
+          "semantic_range": "redeemer, kinsman-redeemer, avenger of blood, next-of-kin with legal obligation",
+          "note": "The go'el is not merely a generous helper but a relative with legal obligation to act on behalf of a vulnerable family member. The institution encompasses land redemption (Leviticus 25:25), blood vengeance (Numbers 35:19), and here, the combination of land recovery and marriage. Boaz has been identified as a go'el since 2:20; now the legal process begins."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיִּקַּ֞ח עֲשָׂרָ֧ה אֲנָשִׁ֛ים מִזִּקְנֵ֥י הָעִ֖יר וַיֹּ֣אמֶר שְׁבוּ־פֹ֑ה וַיֵּשֵֽׁבוּ׃",
+      "text_kjv": "And he took ten men of the elders of the city, and said, Sit ye down here. And they sat down.",
+      "rendering": "He gathered ten men from the elders of the city and said, \"Sit down here.\" They sat down.",
+      "translator_notes": [
+        "The ten elders (asarah anashim mi-ziqnei ha-ir) function as both witnesses and judicial authority. Ten became the standard quorum for legal proceedings — later Jewish tradition formalized this as the minyan. Boaz is not acting impulsively; he has assembled a court. The verb vayyiqqach ('he took, he gathered') suggests purposeful selection, not a random group of bystanders."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיֹּ֙אמֶר֙ לַגֹּאֵ֔ל חֶלְקַת֙ הַשָּׂדֶ֔ה אֲשֶׁ֥ר לְאָחִ֖ינוּ לֶאֱלִימֶ֑לֶךְ מָכְרָ֣ה נׇעֳמִ֔י הַשָּׁ֖בָה מִשְּׂדֵ֥ה מוֹאָֽב׃",
+      "text_kjv": "And he said unto the kinsman, Naomi, that is come again out of the country of Moab, selleth a parcel of land, which was our brother Elimelech's:",
+      "rendering": "He said to the kinsman-redeemer, \"The parcel of land that belonged to our relative Elimelech — Naomi, who has returned from the territory of Moab, is selling it.",
+      "translator_notes": [
+        "The phrase chelqat ha-sadeh ('the parcel of the field') indicates a specific plot of ancestral land. Under Israelite land law (Leviticus 25:23-28), land could not be permanently sold outside the family — it must be redeemed by a kinsman. The verb makhrah ('she is selling' or 'she has sold') is ambiguous in form — it could be a perfect ('she sold') or a participial sense ('she is selling'). We read it as an ongoing offer: Naomi is making the land available for redemption.",
+        "Boaz calls Elimelech achinu ('our brother/relative'), establishing the kinship network that activates the go'el obligation. This is not biological brotherhood but clan membership — the shared family identity that triggers the legal duty."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַאֲנִ֨י אָמַ֜רְתִּי אֶגְלֶ֧ה אׇזְנְךָ֣ לֵאמֹ֗ר קְ֠נֵ֠ה נֶ֥גֶד הַיֹּשְׁבִ֛ים וְנֶ֥גֶד זִקְנֵ֖י עַמִּ֑י אִם־תִּגְאַל֙ גְּאָ֔ל וְאִם־לֹ֨א יִגְאַ֜ל הַגִּ֣ידָה לִּ֗י וְאֵֽדְעָה֙ כִּ֣י אֵ֤ין זוּלָֽתְךָ֙ לִגְא֔וֹל וְאָנֹכִ֖י אַחֲרֶ֑יךָ וַיֹּ֖אמֶר אָנֹכִ֥י אֶגְאָֽל׃",
+      "text_kjv": "And I thought to advertise thee, saying, Buy it before the inhabitants, and before the elders of my people. If thou wilt redeem it, redeem it: but if thou wilt not redeem it, then tell me, that I may know: for there is none to redeem it beside thee; and I am after thee. And he said, I will redeem it.",
+      "rendering": "So I decided to bring it to your attention: Acquire it in the presence of those sitting here and in the presence of the elders of my people. If you will redeem it, redeem it. But if you will not redeem it, tell me so I will know, because there is no one besides you to redeem it, and I am next after you.\" He said, \"I will redeem it.\"",
+      "translator_notes": [
+        "The phrase egleh oznekha ('I will uncover your ear') is a Hebrew idiom meaning 'to inform, to bring to your attention' — literally 'to expose the ear.' The same idiom is used of God's revelation to Samuel (1 Samuel 9:15). Boaz is formally disclosing the situation in a legal setting.",
+        "The verb ga'al ('to redeem') appears four times in this verse, creating an emphatic legal refrain: im-tig'al ge'al... ve-im lo yig'al... ligeol ('if you will redeem, redeem... if not redeem... to redeem'). The repetition hammers the legal question: will the obligation be fulfilled? The closer kinsman answers anokhi eg'al ('I myself will redeem') — but he does not yet know the full terms.",
+        "Boaz's statement ve-anokhi achareiykha ('and I am after you') establishes his legal position as second in line. This is not rivalry but proper legal procedure — the closer relative has priority."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גָּאַל",
+          "transliteration": "ga'al",
+          "rendered_as": "redeem",
+          "semantic_range": "to redeem, to act as kinsman-redeemer, to buy back, to reclaim, to ransom",
+          "note": "The verb form of the go'el concept — the act of redemption itself. Four occurrences in one verse create a legal drumbeat. The kinsman agrees to the verb without understanding its full scope, which Boaz will expand in the next verse."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיֹּ֣אמֶר בֹּ֔עַז בְּיוֹם־קְנוֹתְךָ֥ הַשָּׂדֶ֖ה מִיַּ֣ד נׇעֳמִ֑י וּ֠מֵאֵ֠ת ר֣וּת הַמּוֹאֲבִיָּ֤ה אֵֽשֶׁת־הַמֵּת֙ קָנִ֔יתָה לְהָקִ֥ים שֵׁם־הַמֵּ֖ת עַל־נַחֲלָתֽוֹ׃",
+      "text_kjv": "Then said Boaz, What day thou buyest the field of the hand of Naomi, thou must buy it also of Ruth the Moabitess, the wife of the dead, to raise up the name of the dead upon his inheritance.",
+      "rendering": "Then Boaz said, \"On the day you acquire the field from Naomi's hand, you also acquire Ruth the Moabite, the wife of the deceased, in order to raise up the name of the dead man upon his inheritance.\"",
+      "translator_notes": [
+        "Boaz now reveals the full scope of the obligation. The verb qanah ('to acquire, to buy') applies to both the field and to Ruth — the legal transaction is indivisible. The phrase me'et Rut ha-Mo'aviyyah eshet ha-met ('from Ruth the Moabite, wife of the dead man') keeps Ruth's ethnic identity front and center. She is not just a widow; she is a Moabite widow. This is the detail that will change the kinsman's calculation.",
+        "The purpose clause lehakim shem ha-met al nachalato ('to raise up the name of the dead upon his inheritance') invokes the levirate principle of Deuteronomy 25:5-6. The firstborn son of this union would legally be counted as Mahlon's heir, not the redeemer's. This means the kinsman would spend his own resources to produce an heir for another man's line — a costly obligation that the closer relative is unwilling to bear."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קָנָה",
+          "transliteration": "qanah",
+          "rendered_as": "acquire",
+          "semantic_range": "to buy, to acquire, to purchase, to get, to create, to possess",
+          "note": "The verb of legal acquisition — used for both land purchase and marriage arrangement. Boaz binds the two together: acquiring the land requires acquiring Ruth. The same verb will appear in Boaz's public declaration in verse 10."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיֹּ֣אמֶר הַגֹּאֵ֗ל לֹ֥א אוּכַ֛ל לִגְאׇל־לִ֖י פֶּן־אַשְׁחִ֣ית אֶת־נַחֲלָתִ֑י גְּאַל־לְךָ֤ אַתָּה֙ אֶת־גְּאֻלָּתִ֔י כִּ֥י לֹא־אוּכַ֖ל לִגְאֹֽל׃",
+      "text_kjv": "And the kinsman said, I cannot redeem it for myself, lest I mar mine own inheritance: redeem thou my right to thyself; for I cannot redeem it.",
+      "rendering": "The kinsman-redeemer said, \"I cannot redeem it for myself — I would ruin my own inheritance. Take my right of redemption yourself, because I cannot redeem it.\"",
+      "expanded_rendering": "The unnamed kinsman's refusal reveals the cost calculus of the go'el institution. His words pen ashchit et nachalati ('lest I ruin my own inheritance') expose what is at stake: any son born to Ruth would inherit Elimelech's land, meaning the kinsman's own estate would be diminished without gaining an heir counted as his own. The go'el obligation asks him to spend resources on another man's legacy. He is willing to acquire land — that would enlarge his holdings — but unwilling to take on a Moabite wife whose firstborn would legally belong to a dead man's line. The redemption that costs nothing he will do; the redemption that costs everything he refuses. This is the foil against which Boaz's acceptance shines.",
+      "translator_notes": [
+        "The verb shachat ('to ruin, to destroy, to corrupt') is strong language — the kinsman sees marrying Ruth not as inconvenience but as destruction of his inheritance. The ga'al root appears three more times in this verse: ligeol li... ge'ulati... ligeol ('to redeem for myself... my redemption right... to redeem'). The unnamed man hands off his ge'ullah (redemption right) to Boaz, and with it exits the story permanently.",
+        "The phrase ge'al lekha attah et ge'ullati ('redeem for yourself my redemption right') transfers the legal obligation. This is the pivot point of the entire book — the closer kinsman steps aside, and Boaz steps forward."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְזֹאת֙ לְפָנִ֣ים בְּיִשְׂרָאֵ֔ל עַל־הַגְּאוּלָּ֖ה וְעַל־הַתְּמוּרָ֑ה לְקַיֵּ֣ם כׇּל־דָּבָ֗ר שָׁלַ֨ף אִ֤ישׁ נַעֲלוֹ֙ וְנָתַ֣ן לְרֵעֵ֔הוּ וְזֹ֥את הַתְּעוּדָ֖ה בְּיִשְׂרָאֵֽל׃",
+      "text_kjv": "Now this was the manner in former time in Israel concerning redeeming and concerning changing, for to confirm all things; a man plucked off his shoe, and gave it to his neighbour: and this was a testimony in Israel.",
+      "rendering": "Now this was the custom in former times in Israel regarding redemption and exchange: to confirm any matter, a man would remove his sandal and give it to the other party. This was the method of legal attestation in Israel.",
+      "translator_notes": [
+        "The narrator pauses to explain the sandal custom to his audience — the phrase vezot lefanim be-Yisra'el ('and this was formerly in Israel') indicates that the practice had already fallen out of use by the time the book was composed. This editorial aside is strong evidence that the story's setting is considerably older than its composition date.",
+        "The noun teudah ('attestation, testimony, confirmation') indicates a formal legal validation — the sandal functions as what we would call a notarized signature or a sealed contract. The verb shalaf ('to draw out, to pull off') is the same verb used for drawing a sword from its sheath (Judges 3:22), suggesting a decisive, formal gesture — not a casual shoe-removal.",
+        "The pairing of ge'ullah ('redemption') and temurah ('exchange') covers both types of transactions at stake: the redemption of Elimelech's land and the exchange of the kinsman's obligation to Boaz. Deuteronomy 25:9 describes a different sandal ceremony — there the rejected widow removes the man's sandal in disgrace. Here the transfer is voluntary and orderly, suggesting a distinct legal tradition."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תְּעוּדָה",
+          "transliteration": "teudah",
+          "rendered_as": "legal attestation",
+          "semantic_range": "testimony, attestation, confirmation, witness, evidence",
+          "note": "The sandal ceremony is not symbolic in the modern sense — it is a binding legal act. The teudah is the proof that a transaction has been formally concluded. The narrator must explain this to his readers, indicating the custom's antiquity."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֹּ֧אמֶר הַגֹּאֵ֛ל לְבֹ֖עַז קְנֵה־לָ֑ךְ וַיִּשְׁלֹ֖ף נַעֲלֽוֹ׃",
+      "text_kjv": "Therefore the kinsman said unto Boaz, Buy it for thee. So he drew off his shoe.",
+      "rendering": "The kinsman-redeemer said to Boaz, \"Acquire it for yourself.\" And he removed his sandal.",
+      "translator_notes": [
+        "The brevity is striking: qeneh lakh ('acquire for yourself') followed by vayyishlof na'alo ('and he pulled off his sandal'). Two short clauses — and with them, the entire legal transfer is complete. The closer kinsman disappears from the narrative. He is never named, never seen again. His refusal to redeem Ruth means he has no legacy in this story. The man who feared ruining his inheritance has in fact lost the only inheritance that would have mattered — a place in the line of David."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֹּ֨אמֶר בֹּ֜עַז לַזְּקֵנִ֤ים וְכׇל־הָעָם֙ עֵדִ֣ים אַתֶּ֣ם הַיּ֔וֹם כִּ֤י קָנִ֙יתִי֙ אֶת־כׇּל־אֲשֶׁ֣ר לֶֽאֱלִימֶ֔לֶךְ וְאֵ֛ת כׇּל־אֲשֶׁ֥ר לְכִלְי֖וֹן וּמַחְל֑וֹן מִיַּ֖ד נׇעֳמִֽי׃",
+      "text_kjv": "And Boaz said unto the elders, and unto all the people, Ye are witnesses this day, that I have bought all that was Elimelech's, and all that was Chilion's and Mahlon's, of the hand of Naomi.",
+      "rendering": "Boaz said to the elders and all the people, \"You are witnesses today that I have acquired everything that belonged to Elimelech and everything that belonged to Chilion and Mahlon from Naomi's hand.",
+      "translator_notes": [
+        "Boaz's declaration edim attem ha-yom ('you are witnesses today') transforms the gathered crowd into legal attestors. The threefold ki qaniti ('that I have acquired') — covering Elimelech, Chilion, and Mahlon — is comprehensive. Boaz takes on the entire family's legacy, not just a portion. The phrase mi-yad No'omi ('from Naomi's hand') establishes Naomi as the legal holder of the family property, confirming her standing despite her widowhood."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְגַ֣ם אֶת־ר֣וּת הַמֹּאֲבִיָּה֩ אֵ֨שֶׁת מַחְל֜וֹן קָנִ֧יתִי לִ֣י לְאִשָּׁ֗ה לְהָקִ֤ים שֵׁם־הַמֵּת֙ עַל־נַ֣חֲלָת֔וֹ וְלֹֽא־יִכָּרֵ֧ת שֵׁם־הַמֵּ֛ת מֵעִ֥ם אֶחָ֖יו וּמִשַּׁ֣עַר מְקוֹמ֑וֹ עֵדִ֥ים אַתֶּ֖ם הַיּֽוֹם׃",
+      "text_kjv": "Moreover Ruth the Moabitess, the wife of Mahlon, have I purchased to be my wife, to raise up the name of the dead upon his inheritance, that the name of the dead be not cut off from among his brethren, and from the gate of his place: ye are witnesses this day.",
+      "rendering": "And I have also acquired Ruth the Moabite, the wife of Mahlon, as my wife, in order to raise up the name of the dead man upon his inheritance, so that the name of the dead will not be cut off from among his relatives or from the gate of his town. You are witnesses today.\"",
+      "expanded_rendering": "Boaz's public declaration is the fullest demonstration of the go'el principle in the Hebrew Bible. He does not merely redeem land — he takes upon himself a Moabite widow, a foreign woman from a nation excluded from Israel's assembly, and commits to producing an heir who will legally belong not to Boaz but to the dead Mahlon. The phrase lehakim shem ha-met ('to raise up the name of the dead') means the firstborn son will perpetuate Mahlon's name, not Boaz's. And the clause velo yikkaret shem ha-met ('so the name of the dead will not be cut off') invokes the deepest fear in Israelite culture — to be forgotten, to have no heir, to vanish from the community's memory. Boaz acts as the kinsman-redeemer in its most costly form: he absorbs the vulnerability of the foreigner, bears the economic burden, and surrenders the firstborn's identity to a dead man's legacy — all so that a name will not be erased from the gate where justice is done.",
+      "translator_notes": [
+        "The phrase velo yikkaret shem ha-met ('and the name of the dead will not be cut off') uses the verb karat ('to cut, to cut off') — the same verb used for being 'cut off' from the covenant people as divine punishment. To have one's name cut off from 'the gate of his place' (mi-sha'ar meqomo) means to lose all legal and social existence in the community. Boaz's act prevents this covenantal erasure.",
+        "Boaz repeats edim attem ha-yom ('you are witnesses today') to close the declaration, creating an inclusio with verse 9. The entire speech is framed as witnessed legal testimony. The public nature is essential — redemption is not a private deal but a community event."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גֹּאֵל",
+          "transliteration": "go'el",
+          "rendered_as": "kinsman-redeemer",
+          "semantic_range": "redeemer, kinsman-redeemer, avenger of blood, next-of-kin with legal obligation",
+          "note": "This verse is the climactic demonstration of the go'el institution. Boaz embodies what the closer kinsman refused: full redemption that costs the redeemer personally. The go'el here absorbs loss, takes on foreign vulnerability, and produces an heir for another man — the most expensive form of covenant faithfulness."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיֹּ֨אמְר֜וּ כׇּל־הָעָ֤ם אֲשֶׁר־בַּשַּׁ֙עַר֙ וְהַזְּקֵנִ֔ים עֵדִ֕ים יִתֵּ֣ן יְהוָ֗ה אֶת־הָאִשָּׁ֞ה הַבָּאָ֣ה אֶל־בֵּיתֶ֗ךָ כְּרָחֵ֤ל ׀ וּכְלֵאָה֙ אֲשֶׁ֨ר בָּנ֤וּ שְׁתֵּיהֶם֙ אֶת־בֵּ֣ית יִשְׂרָאֵ֔ל וַעֲשֵׂה־חַ֣יִל בְּאֶפְרָ֔תָה וּקְרָא־שֵׁ֖ם בְּבֵ֥ית לָֽחֶם׃",
+      "text_kjv": "And all the people that were in the gate, and the elders, said, We are witnesses. The LORD make the woman that is come into thine house like Rachel and like Leah, which two did build the house of Israel: and do thou worthily in Ephratah, and be famous in Bethlehem:",
+      "rendering": "All the people at the gate and the elders said, \"We are witnesses. May the LORD make the woman entering your house like Rachel and like Leah, who together built the house of Israel. May you prosper in Ephrathah and gain renown in Bethlehem.",
+      "translator_notes": [
+        "The blessing invokes Rachel and Leah — asher banu sheteihem et beit Yisra'el ('who, the two of them, built the house of Israel'). The verb banah ('to build') applied to a household through children is standard Hebrew idiom (compare Genesis 16:2, 30:3). But the comparison is stunning: Ruth the Moabite is placed alongside the matriarchs of all Israel. The community's blessing overwrites her foreign status — she is no longer 'Ruth the Moabite' in their eyes but a potential mother of Israel.",
+        "The phrase aseh chayil be-Efratah ('do valiantly in Ephrathah' or 'prosper in Ephrathah') uses chayil — the same word used to describe Ruth in 3:11 (eshet chayil, 'woman of strength/valor') and Boaz in 2:1 (gibbor chayil, 'man of standing/wealth'). The wordplay ties them together: they are matched in chayil.",
+        "The parallel uqera shem be-Beit Lachem ('and call out a name in Bethlehem') — to have a name proclaimed in Bethlehem — is precisely what Boaz sought for Mahlon's legacy. The blessing asks that Boaz's own name be established as well. History will grant this request beyond anything the speakers imagined."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וִיהִ֤י בֵֽיתְךָ֙ כְּבֵ֣ית פֶּ֔רֶץ אֲשֶׁר־יָלְדָ֥ה תָמָ֖ר לִיהוּדָ֑ה מִן־הַזֶּ֕רַע אֲשֶׁ֨ר יִתֵּ֤ן יְהוָה֙ לְךָ֔ מִן־הַנַּעֲרָ֖ה הַזֹּֽאת׃",
+      "text_kjv": "And let thy house be like the house of Pharez, whom Tamar bare unto Judah, of the seed which the LORD shall give thee of this young woman.",
+      "rendering": "May your house become like the house of Perez, whom Tamar bore to Judah, through the offspring that the LORD will give you from this young woman.\"",
+      "translator_notes": [
+        "The invocation of Perez (Peretz, 'breach, breaking forth') whom Tamar bore to Judah is not random — it is a precise intertextual connection. Tamar, like Ruth, was a woman outside the family who used unconventional means to secure offspring within the covenant line (Genesis 38). Tamar was Canaanite (or at minimum, non-Israelite); Ruth is Moabite. Both were widows of men in Judah's line. Both took bold, sexually risky action to compel a kinsman to fulfill his obligation. The people of Bethlehem, by invoking Tamar, are saying: we have seen this pattern before — God works through foreign women who refuse to let the family line die.",
+        "The phrase min ha-zera asher yitten YHWH lekha ('from the seed which the LORD will give you') places conception under divine sovereignty. The child is not merely biological but a gift of God — the same language used for Isaac (Genesis 21:1-2). The closing genealogy (vv. 18-22) will trace the line from Perez through Boaz to David, fulfilling this blessing beyond what the speakers could foresee."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיִּקַּ֨ח בֹּ֤עַז אֶת־ר֙וּת֙ וַתְּהִי־ל֣וֹ לְאִשָּׁ֔ה וַיָּבֹ֖א אֵלֶ֑יהָ וַיִּתֵּ֨ן יְהוָ֥ה לָ֛הּ הֵרָי֖וֹן וַתֵּ֥לֶד בֵּֽן׃",
+      "text_kjv": "So Boaz took Ruth, and she was his wife: and when he went in unto her, the LORD gave her conception, and she bare a son.",
+      "rendering": "So Boaz took Ruth and she became his wife. He slept with her, and the LORD granted her conception, and she bore a son.",
+      "translator_notes": [
+        "The verb vayyavo eleiha ('and he came to her') is the standard Hebrew euphemism for sexual intercourse. The narrator then inserts divine agency: vayyitten YHWH lah herayon ('and the LORD gave her conception'). This is theologically deliberate — Ruth had been married to Mahlon for ten years without producing a child (1:4). The text implies that her previous childlessness was not biological inability but divine timing. God's gift of conception at this moment, with this man, in this place, is presented as purposeful. The child who will come is not an accident of fertility but a sovereign act.",
+        "The entire journey from chapter 1 to this moment collapses into a single verse: marriage, consummation, conception, birth. After the slow, detailed legal proceedings of verses 1-12, the narrator accelerates radically. The legal process matters; the private details do not."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַתֹּאמַ֤רְנָה הַנָּשִׁים֙ אֶל־נׇעֳמִ֔י בָּר֣וּךְ יְהוָ֔ה אֲשֶׁ֛ר לֹ֥א הִשְׁבִּ֛ית לָ֥ךְ גֹּאֵ֖ל הַיּ֑וֹם וְיִקָּרֵ֥א שְׁמ֖וֹ בְּיִשְׂרָאֵֽל׃",
+      "text_kjv": "And the women said unto Naomi, Blessed be the LORD, which hath not left thee this day without a kinsman, that his name may be famous in Israel.",
+      "rendering": "The women said to Naomi, \"Blessed be the LORD, who has not left you without a kinsman-redeemer today. May his name be proclaimed in Israel.",
+      "expanded_rendering": "The women's blessing applies the term go'el not to Boaz but to the newborn child. This is a remarkable theological move. Throughout the book, the go'el has been an adult male kinsman with legal authority — Boaz, the unnamed closer relative. Now the women declare an infant to be Naomi's redeemer. The child himself, by his mere existence, redeems Naomi from her emptiness. He restores her name, her family line, her place in the community. The go'el concept has been stretched from a legal institution to a relational reality: redemption is not only a transaction at the gate but a child placed in the arms of a grandmother who thought she had lost everything.",
+      "translator_notes": [
+        "The phrase asher lo hishbit lakh go'el ha-yom ('who has not left you without a kinsman-redeemer today') uses the verb shavat (hiphil: 'to cause to cease, to leave without'). God is credited with ensuring the go'el line did not fail. The women's theology is precise: the LORD is the one behind the human actors.",
+        "The identity of the go'el in this verse is debated — some read it as Boaz, others as the child. The immediate context (the women speak to Naomi about the birth, and verse 15 calls the child the 'restorer of your life') strongly favors the child. This reinterpretation of go'el — from legal redeemer to infant restorer — is one of the book's most profound theological moves."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גֹּאֵל",
+          "transliteration": "go'el",
+          "rendered_as": "kinsman-redeemer",
+          "semantic_range": "redeemer, kinsman-redeemer, avenger of blood, next-of-kin with legal obligation",
+          "note": "Here the go'el concept reaches its deepest expression in Ruth: applied to a newborn child who redeems not through legal authority but through relational restoration. The infant is Naomi's redeemer because his existence gives her back a future, a name, and a family."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְהָ֤יָה לָךְ֙ לְמֵשִׁ֣יב נֶ֔פֶשׁ וּלְכַלְכֵּ֖ל אֶת־שֵׂיבָתֵ֑ךְ כִּ֣י כַלָּתֵ֤ךְ אֲשֶׁר־אֲהֵבַ֙תֶךְ֙ יְלָדַ֔תּוּ אֲשֶׁ֛ר הִ֥יא ט֥וֹבָה לָ֖ךְ מִשִּׁבְעָ֥ה בָנִֽים׃",
+      "text_kjv": "And he shall be unto thee a restorer of thy life, and a nourisher of thine old age: for thy daughter in law, which loveth thee, which is better to thee than seven sons, hath born him.",
+      "rendering": "He will be a restorer of your life and a sustainer in your old age, for your daughter-in-law who loves you has borne him — she who is better to you than seven sons.\"",
+      "translator_notes": [
+        "The phrase meshiv nefesh ('restorer of life/soul') uses nefesh in its fullest sense — not merely physical life but vitality, identity, being. The child restores Naomi's nefesh — the self that was emptied in chapter 1. The parallel ulkhalkel et sevitekh ('and to sustain your old age') adds the practical dimension: this child will provide for Naomi when she can no longer provide for herself.",
+        "The climactic declaration — asher hi tovah lakh mi-shiv'ah vanim ('she who is better to you than seven sons') — is the most extraordinary tribute to Ruth in the book. Seven is the number of completeness in Hebrew thought; seven sons is the ideal family (compare 1 Samuel 2:5, Job 1:2). To say a Moabite daughter-in-law surpasses seven sons overturns every ancient Near Eastern assumption about the value of male heirs versus female foreigners. The verb ahavah ('she loves you') is the women's summary of Ruth's entire journey: everything Ruth has done — the oath in chapter 1, the gleaning in chapter 2, the threshing floor in chapter 3 — is love."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַתִּקַּ֨ח נׇעֳמִ֤י אֶת־הַיֶּ֙לֶד֙ וַתְּשִׁתֵ֣הוּ בְחֵיקָ֔הּ וַתְּהִי־ל֖וֹ לְאֹמֶֽנֶת׃",
+      "text_kjv": "And Naomi took the child, and laid it in her bosom, and became nurse unto it.",
+      "rendering": "Naomi took the child and held him on her lap and became his guardian.",
+      "translator_notes": [
+        "The verb vatteshitehu vecheiqah ('she placed him on her lap/bosom') is a gesture of adoption or legal acceptance — the same action by which a patriarch acknowledged a grandchild (Genesis 50:23, 30:3). Naomi, who in 1:21 declared 'the LORD brought me back empty' (reqam), now holds a child in her arms. The word omeneth ('nurse, guardian, caretaker') comes from the root aman ('to be faithful, to support') — from which we get amen. Naomi is the one who will faithfully raise this child. The woman who called herself Mara ('Bitter') has been restored."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַתִּקְרֶ֩אנָה֩ ל֨וֹ הַשְּׁכֵנ֤וֹת שֵׁם֙ לֵאמֹ֔ר יֻלַּד־בֵּ֖ן לְנׇעֳמִ֑י וַתִּקְרֶ֤אנָה שְׁמוֹ֙ עוֹבֵ֔ד ה֥וּא אֲבִי־יִשַׁ֖י אֲבִ֥י דָוִֽד׃",
+      "text_kjv": "And the women her neighbours gave it a name, saying, There is a son born to Naomi; and they called his name Obed: he is the father of Jesse, the father of David.",
+      "rendering": "The neighbor women gave him a name, saying, \"A son has been born to Naomi!\" They named him Obed. He was the father of Jesse, the father of David.",
+      "translator_notes": [
+        "The neighbor women (ha-shekhenot) name the child — an unusual act, as naming was typically the prerogative of the parents. Their declaration yullad ben le-No'omi ('a son has been born to Naomi') attributes the child to the grandmother, not to Ruth or Boaz. This is not erasure of Ruth but legal language: through the levirate-like arrangement, the child is counted as Naomi's grandson and Elimelech's heir. Naomi's family line is restored.",
+        "The name Oved ('servant, one who serves, worshiper') from the root avad ('to serve, to work') anticipates a life of faithful service. But the narrator's editorial comment — hu avi Yishai avi David ('he is the father of Jesse, the father of David') — drops the genealogical thunderbolt almost casually. The entire story of a Moabite widow's loyalty and a Bethlehemite farmer's redemption has been building to this: the royal line of David passes through Ruth. A woman from the nation excluded in Deuteronomy 23:3 is David's great-grandmother."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְאֵ֙לֶּה֙ תּוֹלְד֣וֹת פָּ֔רֶץ פֶּ֖רֶץ הוֹלִ֥יד אֶת־חֶצְרֽוֹן׃",
+      "text_kjv": "Now these are the generations of Pharez: Pharez begat Hezron,",
+      "rendering": "These are the descendants of Perez: Perez fathered Hezron,",
+      "translator_notes": [
+        "The toledot ('generations, descendants') formula — ve-elleh toledot Peretz — echoes the structuring device of Genesis (Genesis 2:4, 5:1, 6:9, 10:1, etc.). By opening with this formula, the narrator places Ruth's story within the grand genealogical architecture of the Torah. The line begins with Perez, the son of Judah and Tamar (Genesis 38), connecting the blessing of verse 12 to this closing genealogy. The ten-generation list (Perez to David) may be selectively compressed — ten being a number of completeness — rather than exhaustive."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְחֶצְר֖וֹן הוֹלִ֥יד אֶת־רָֽם וְרָ֖ם הוֹלִ֥יד אֶת־עַמִּינָדָֽב׃",
+      "text_kjv": "And Hezron begat Ram, and Ram begat Amminadab,",
+      "rendering": "Hezron fathered Ram, Ram fathered Amminadab,",
+      "translator_notes": [
+        "The verb holid ('fathered, sired') is the hiphil of yalad ('to bear, to give birth') — the causative form indicating the father's role in producing offspring. Ram and Amminadab appear in the tribal genealogies of 1 Chronicles 2:9-10, confirming the Judahite lineage. Amminadab ('my kinsman is generous/noble') will be the father of Nahshon, the tribal leader of Judah during the wilderness period (Numbers 1:7)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְעַמִּינָדָ֖ב הוֹלִ֣יד אֶת־נַחְשׁ֑וֹן וְנַחְשׁ֖וֹן הוֹלִ֥יד אֶת־שַׂלְמָֽה׃",
+      "text_kjv": "And Amminadab begat Nahshon, and Nahshon begat Salmon,",
+      "rendering": "Amminadab fathered Nahshon, Nahshon fathered Salmah,",
+      "translator_notes": [
+        "Nahshon (Nachshon) was the leader of the tribe of Judah during the wilderness wandering (Numbers 2:3, 7:12) and brother-in-law of Aaron (Exodus 6:23). His presence in this genealogy anchors the line in Israel's most formative period. The name Salmah (also spelled Salmon) appears in variant forms across the Hebrew manuscripts — the WLC reads Salmah here. He will be identified as Boaz's father in the next verse."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְשַׂלְמוֹן֙ הוֹלִ֣יד אֶת־בֹּ֔עַז וּבֹ֖עַז הוֹלִ֥יד אֶת־עוֹבֵֽד׃",
+      "text_kjv": "And Salmon begat Boaz, and Boaz begat Obed,",
+      "rendering": "Salmon fathered Boaz, Boaz fathered Obed,",
+      "translator_notes": [
+        "The spelling shifts from Salmah (v. 20) to Salmon (Salemon) here — a minor textual variant within the WLC itself. More significant is what the genealogy omits: Ruth's name does not appear. In a patrilineal genealogy, mothers are invisible — yet the entire book exists to tell her story. The reader knows what the genealogical form cannot say: between 'Salmon fathered Boaz' and 'Boaz fathered Obed' stands a Moabite woman whose chesed and courage made the line possible. The genealogy is incomplete without the narrative that precedes it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְעֹבֵ֖ד הוֹלִ֣יד אֶת־יִשָׁ֑י וְיִשַׁ֖י הוֹלִ֥יד אֶת־דָּוִֽד׃",
+      "text_kjv": "And Obed begat Jesse, and Jesse begat David.",
+      "rendering": "Obed fathered Jesse, and Jesse fathered David.",
+      "translator_notes": [
+        "The final two words — et David — are the destination the entire book has been traveling toward. The genealogy does not say 'King David' or 'David the king' — simply David. The name stands alone, unadorned, as though its weight is self-evident. And yet everything that preceded it — famine, death, a widow's oath on a Moabite road, gleaning behind harvesters, a midnight encounter on a threshing floor, a sandal removed at a city gate — all of it was the path to this name.",
+        "The theological implications are staggering when read alongside Deuteronomy 23:3: 'No Ammonite or Moabite shall enter the assembly of the LORD, even to the tenth generation.' Ruth is a Moabite. David is her great-grandson — the third generation. The genealogy does not resolve this tension; it simply presents it. Israel's greatest king, the man after God's own heart, the ancestor of the Messiah, carries Moabite blood. The book of Ruth does not argue against Deuteronomy 23 — it tells a story that explodes its categories from within. Covenant faithfulness, it turns out, is not limited by bloodline.",
+        "The ten-generation structure (Perez to David) parallels other biblical genealogies and may be theologically shaped rather than exhaustively complete. Ten generations from Perez — the son born of Tamar's desperate faithfulness — to David, the king born of Ruth's desperate faithfulness. The symmetry suggests divine design operating through human loyalty across centuries."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

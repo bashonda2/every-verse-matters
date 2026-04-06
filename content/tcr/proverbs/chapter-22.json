@@ -1,0 +1,402 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Proverbs",
+    "chapter": 22,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-30T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Proverbs 22 transitions from the main Solomonic collection (vv1-16) into the 'Words of the Wise' section (vv17-29), a collection heavily influenced by the Egyptian 'Instruction of Amenemope.' The chapter moves from individual proverbs about reputation, wealth, and child-rearing to an extended address from teacher to student, complete with a formal introduction and thematic organization around social ethics and self-control.",
+    "remarkable": "Verse 6 ('Train a child in his way') is one of the most quoted and most misunderstood proverbs in English. The Hebrew al-pi darkho ('according to his way, according to his path') likely means according to the child's nature and developmental stage, not according to the parent's preferred moral program. The proverb is observational wisdom, not a divine guarantee. Beginning at verse 17, the 'Words of the Wise' section marks a dramatic shift in literary form — from two-line independent proverbs to multi-verse instructions with motivation clauses. The parallels with Amenemope are so extensive that most scholars conclude literary dependence in one direction or the other, with the majority view being that the Hebrew writer adapted the Egyptian material.",
+    "friction": "The relationship between Proverbs 22:17-23:11 and the Egyptian Instruction of Amenemope raises questions about the nature of biblical inspiration. The parallels include shared imagery (moving boundary stones), shared structure (thirty sayings), and shared themes (protecting the poor). Rather than undermining the text's authority, this connection demonstrates that Israel's wisdom tradition engaged seriously with international wisdom and was not produced in isolation. The phrase sheloshim ('thirty' in 22:20) may refer to the thirty chapters of Amenemope.",
+    "connections": "Verse 2 ('The rich and the poor meet together; the LORD made them all') connects to Proverbs 29:13. The 'Words of the Wise' section (22:17-24:22) parallels the Egyptian Instruction of Amenemope, particularly the boundary stone prohibition (22:28 / Amenemope ch. 6), the scribe before kings (22:29 / Amenemope ch. 30), and the warning against exploiting the poor at the gate (22:22-23 / Amenemope ch. 2). The teacher-student address form echoes Proverbs 1-9."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "נִבְחָ֣ר שֵׁ֭ם מֵעֹ֣שֶׁר רָ֑ב מִכֶּ֥סֶף וּ֝מִזָּהָ֗ב חֵ֣ן טֽוֹב׃",
+      "text_kjv": "A good name is rather to be chosen than great riches, and loving favour rather than silver and gold.",
+      "rendering": "A good name is more desirable than great wealth;\nfavor is better than silver and gold.",
+      "translator_notes": [
+        "The Hebrew simply says shem ('name') without 'good' — the adjective is implied. In Israelite culture, a name was not a label but a reputation — the summary of a person's character as known by the community. Chen tov ('good favor, gracious esteem') describes how others regard you. Both are relational goods that money cannot purchase."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שֵׁם",
+          "transliteration": "shem",
+          "rendered_as": "name",
+          "semantic_range": "name, reputation, fame, memorial; the public identity and character of a person",
+          "note": "In Hebrew thought, a name carries the person's essence. To have a good shem is to be known as trustworthy, generous, and wise — a social asset more durable than any bank account."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "עָשִׁ֣יר וָרָ֣שׁ נִפְגָּ֑שׁו עֹשֵׂ֖ה כֻלָּ֣ם יְהוָֽה׃",
+      "text_kjv": "The rich and poor meet together: the LORD is the maker of them all.",
+      "rendering": "The rich and the poor cross paths —\nthe LORD made them both.",
+      "expanded_rendering": "The verb nifgashu ('they meet, they encounter each other') suggests not accidental proximity but unavoidable intersection. Rich and poor live in the same world, walk the same streets, depend on each other. The proverb's second line reframes the encounter: whatever economic differences exist, both parties share a common maker. This is not fatalism ('God made some rich and some poor') but a leveling statement: no one has grounds for contempt or despair, because both exist by the same Creator's will. The proverb demands that the rich see the poor as fellow creatures, not as lesser beings.",
+      "translator_notes": [
+        "This proverb appears nearly verbatim in 29:13. The shared-maker theology here is practical, not abstract — it grounds social ethics in creation theology. If God made both, then the rich person who despises the poor insults the Maker."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "עָר֣וּם רָ֭אָה רָעָ֣ה וְנִסְתָּ֑ר וּ֝פְתָיִ֗ם עָבְר֥וּ וְנֶעֱנָֽשׁוּ׃",
+      "text_kjv": "A prudent man foreseeth the evil, and hideth himself: but the simple pass on, and are punished.",
+      "rendering": "The shrewd person sees danger and takes cover;\nthe naive walk straight into it and pay the price.",
+      "translator_notes": [
+        "Arum ('shrewd, prudent, clever') is the same word used for the serpent in Genesis 3:1 — it describes keen perception without moral judgment. Here shrewdness is positive: the ability to read situations accurately and act accordingly. The petayim ('naive ones, simple ones') lack this perceptiveness and suffer for it."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "עֵ֣קֶב עֲ֭נָוָה יִרְאַ֣ת יְהוָ֑ה עֹ֖שֶׁר וְכָב֣וֹד וְחַיִּֽים׃",
+      "text_kjv": "By humility and the fear of the LORD are riches, and honour, and life.",
+      "rendering": "The result of humility and the fear of the LORD\nis wealth, honor, and life.",
+      "translator_notes": [
+        "Eqev ('consequence, result, reward; heel, footstep') connects humility and reverence for God to tangible outcomes. The pairing of anavah ('humility') with yir'at YHWH ('fear of the LORD') is significant: genuine reverence for God produces not arrogance but lowliness. The three rewards — wealth, honor, life — represent the full scope of human flourishing in the wisdom tradition."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עֲנָוָה",
+          "transliteration": "anavah",
+          "rendered_as": "humility",
+          "semantic_range": "humility, lowliness, meekness, modesty; the posture of one who does not overestimate himself",
+          "note": "Anavah is not self-deprecation but accurate self-assessment before God. The humble person knows his place in the order of creation — not groveling, but grounded."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "צִנִּ֣ים פַּ֭חִים בְּדֶ֣רֶךְ עִקֵּ֑שׁ שׁוֹמֵ֥ר נַ֝פְשׁ֗וֹ יִרְחַ֥ק מֵהֶֽם׃",
+      "text_kjv": "Thorns and snares are in the way of the froward: he that doth keep his soul shall be far from them.",
+      "rendering": "Thorns and traps line the path of the crooked;\nwhoever guards his life stays far from them.",
+      "translator_notes": [
+        "Tsinnim ('thorns') and pachim ('traps, snares') are not punishments imposed from outside but natural features of the crooked path itself. The person who chooses crookedness walks into a landscape of pain and entanglement. The one who guards his nefesh ('life, self') avoids that path entirely."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "חֲנֹ֣ךְ לַ֭נַּעַר עַל־פִּ֣י דַרְכּ֑וֹ גַּ֥ם כִּֽי־יַ֝זְקִ֗ין לֹֽא־יָס֥וּר מִמֶּֽנָּה׃",
+      "text_kjv": "Train up a child in the way he should go: and when he is old, he will not depart from it.",
+      "rendering": "Dedicate a young person according to his own way;\neven when he grows old, he will not turn from it.",
+      "expanded_rendering": "Chanokh ('dedicate, train, inaugurate') is the same verb used for dedicating the temple (1 Kings 8:63) and dedicating a house (Deuteronomy 20:5). It implies an inaugural act — setting something apart for its intended purpose. The phrase al-pi darkho ('according to his way, according to his path') is the crux: it most likely means 'according to the child's nature, temperament, and developmental stage,' not 'according to the way you want him to go.' The proverb counsels parents to work with the child's God-given nature rather than against it. The promise 'he will not turn from it' is proverbial wisdom — a general observation about the lasting power of early formation, not an unconditional guarantee.",
+      "translator_notes": [
+        "This is a proverb, not a promise. Proverbs describe how life generally works, not how it always works. Reading it as a divine contract ('if I raise my child right, God guarantees the outcome') misreads the genre. The emphasis is on the parent's responsibility to understand and work with the child's nature."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֲנֹךְ",
+          "transliteration": "chanokh",
+          "rendered_as": "dedicate",
+          "semantic_range": "to dedicate, inaugurate, train, initiate; to set apart for a purpose",
+          "note": "The same root gives us Hanukkah ('dedication'). Training a child is an act of dedication — setting a person apart for the life God designed for them."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "עָ֭שִׁיר בְּרָשִׁ֣ים יִמְשׁ֑וֹל וְעֶ֥בֶד לֹ֝וֶ֗ה לְאִ֣ישׁ מַלְוֶֽה׃",
+      "text_kjv": "The rich ruleth over the poor, and the borrower is servant to the lender.",
+      "rendering": "The rich rule over the poor,\nand the borrower is slave to the lender.",
+      "translator_notes": [
+        "This proverb observes economic power dynamics without approving them. The verb yimshol ('rules, dominates') and the noun eved ('slave, servant') describe the social reality of debt in the ancient world: borrowing created a power relationship indistinguishable from servitude. The proverb warns; it does not celebrate."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "זוֹרֵ֣עַ עַ֭וְלָה יִקְצָר־אָ֑וֶן וְשֵׁ֖בֶט עֶבְרָת֣וֹ יִכְלֶֽה׃",
+      "text_kjv": "He that soweth iniquity shall reap vanity: and the rod of his anger shall fail.",
+      "rendering": "Whoever sows injustice will harvest disaster,\nand the rod of his fury will be broken.",
+      "translator_notes": [
+        "The agricultural metaphor — sowing and reaping — is the wisdom tradition's primary image for moral cause and effect. Avlah ('injustice, unrighteousness') produces aven ('disaster, trouble, wickedness'). The second line adds that the oppressor's instrument of punishment — the shevet ('rod, staff') of his rage — will itself be broken. Power used unjustly is self-destroying."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "טֽוֹב־עַ֭יִן ה֣וּא יְבֹרָ֑ךְ כִּֽי־נָתַ֖ן מִלַּחְמ֣וֹ לַדָּֽל׃",
+      "text_kjv": "He that hath a bountiful eye shall be blessed; for he giveth of his bread to the poor.",
+      "rendering": "The generous person will be blessed,\nbecause he shares his food with the poor.",
+      "translator_notes": [
+        "Tov-ayin (literally 'good of eye') means generous, open-handed — the opposite of ra-ayin ('evil of eye,' which means stingy). The 'eye' idiom reflects the ancient understanding that the eye reveals the heart's orientation: a good eye looks outward toward others' needs, a bad eye looks inward toward self-protection. Blessing follows generosity because generosity aligns with God's own character."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "טוֹב־עַיִן",
+          "transliteration": "tov-ayin",
+          "rendered_as": "generous person",
+          "semantic_range": "good of eye, generous, open-handed, benevolent; one whose outlook is oriented toward giving",
+          "note": "This idiom survives in various Semitic languages. The 'good eye' sees need and responds. The 'evil eye' (ra-ayin, 23:6) sees only threat to its own resources."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "גָּ֣רֵֽשׁ לֵ֭ץ וְיֵצֵ֣א מָד֑וֹן וְ֝יִשְׁבֹּ֗ת דִּ֣ין וְקָלֽוֹן׃",
+      "text_kjv": "Cast out the scorner, and contention shall go out; yea, strife and reproach shall cease.",
+      "rendering": "Drive out the scoffer and conflict leaves with him;\nquarreling and insults will cease.",
+      "translator_notes": [
+        "The proverb identifies the scoffer (lets) as the catalyst for communal conflict. Remove the person, and the conflict evaporates. The three words madon ('strife, contention'), din ('quarrel, dispute'), and qalon ('shame, dishonor, insult') represent escalating forms of social disruption. The solution is not mediation but removal."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "אֹהֵ֣ב טְהָר־לֵ֑ב חֵ֥ן שְׂ֝פָתָ֗יו רֵעֵ֥הוּ מֶֽלֶךְ׃",
+      "text_kjv": "He that loveth pureness of heart, for the grace of his lips the king shall be his friend.",
+      "rendering": "Whoever loves a pure heart and gracious speech —\nthe king will be his friend.",
+      "translator_notes": [
+        "The proverb pairs internal quality (tehar-lev, 'purity of heart') with external expression (chen sefatav, 'grace of his lips'). The person whose inner life is clean and whose speech is gracious gains access to the highest level of society — the king's friendship. Character and communication together open doors that ambition alone cannot."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "עֵינֵ֣י יְ֭הוָה נָ֣צְרוּ דָ֑עַת וַ֝יְסַלֵּ֗ף דִּבְרֵ֥י בֹגֵֽד׃",
+      "text_kjv": "The eyes of the LORD preserve knowledge: and he overthroweth the words of the transgressor.",
+      "rendering": "The eyes of the LORD guard knowledge,\nbut He overturns the words of the treacherous.",
+      "translator_notes": [
+        "God actively protects truth (da'at, 'knowledge') while subverting falsehood. The verb natsru ('guard, watch over, preserve') and yesallef ('overturns, subverts, perverts') create a double action: God is both guardian and judge, preserving what is true and dismantling what is false."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "אָמַ֣ר עָ֭צֵל אֲרִ֣י בַח֑וּץ בְּת֥וֹךְ רְ֝חֹב֗וֹת אֵֽרָצֵֽחַ׃",
+      "text_kjv": "The slothful man saith, There is a lion without, I shall be slain in the streets.",
+      "rendering": "The lazy person says, 'There's a lion outside!\nI'll be killed in the streets!'",
+      "translator_notes": [
+        "The humor is intentional. The lazy person invents an absurd excuse — a lion roaming the city streets — to justify staying indoors. The proverb mocks the creative energy that lazy people invest in avoiding work. The same joke appears in 26:13 with slight variation. Lions existed in ancient Israel but virtually never appeared in urban areas."
+      ],
+      "key_terms": [],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "שׁוּחָ֣ה עֲ֭מֻקָּה פִּ֣י זָר֑וֹת זְע֥וּם יְ֝הוָ֗ה יפול־ [יִפָּל־] שָֽׁם׃",
+      "text_kjv": "The mouth of strange women is a deep pit: he that is abhorred of the LORD shall fall therein.",
+      "rendering": "The mouth of the forbidden woman is a deep pit;\nthe one under the LORD's displeasure falls into it.",
+      "translator_notes": [
+        "The 'forbidden woman' (zarot, plural of zarah) refers to the adulteress figure developed in Proverbs 1-9. Her mouth — her seductive speech — is compared to a deep pit (shuchah amuqqah), a trap that is easy to fall into and nearly impossible to escape. The second line adds a disturbing dimension: falling for her seduction is itself a sign of God's displeasure (ze'um YHWH), suggesting a judicial hardening."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "אִ֭וֶּלֶת קְשׁוּרָ֣ה בְלֶב־נָ֑עַר שֵׁ֥בֶט מ֝וּסָ֗ר יַרְחִיקֶ֥נָּה מִמֶּֽנּוּ׃",
+      "text_kjv": "Foolishness is bound in the heart of a child; but the rod of correction shall drive it far from him.",
+      "rendering": "Foolishness is bound up in the heart of a youth;\nthe rod of discipline will drive it far from him.",
+      "translator_notes": [
+        "Ivvelet ('foolishness, folly') is not innocent ignorance but the active resistance to wisdom that Proverbs considers the default human condition. Qeshurah ('bound, tied') suggests it is not casual but deeply embedded. The shevet musar ('rod of discipline') represents corrective training broadly — the full range of consequences that teach a young person to abandon foolish patterns. The proverb observes that children do not naturally gravitate toward wisdom; they must be trained into it."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "עֹשֵׁ֣ק דָּ֭ל לְהַרְבּ֣וֹת ל֑וֹ נֹתֵ֥ן לְ֝עָשִׁ֗יר אַךְ־לְמַחְסֽוֹר׃",
+      "text_kjv": "He that oppresseth the poor to increase his riches, and he that giveth to the rich, shall surely come to want.",
+      "rendering": "Oppressing the poor to enrich yourself,\nor giving to the rich — both lead only to loss.",
+      "translator_notes": [
+        "Two apparently opposite actions — taking from the poor and giving to the rich — produce the same result: machsor ('lack, want, poverty'). Exploiting the vulnerable and currying favor with the powerful are both strategies that backfire. The proverb refuses to let economic calculation override moral reality."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "הַ֥ט אָזְנְךָ֗ וּשְׁמַ֥ע דִּבְרֵ֥י חֲכָמִ֑ים וְ֝לִבְּךָ֗ תָּשִׁ֥ית לְדַעְתִּֽי׃",
+      "text_kjv": "Bow down thine ear, and hear the words of the wise, and apply thine heart unto my knowledge.",
+      "rendering": "Incline your ear and hear the words of the wise;\nset your heart on my knowledge.",
+      "expanded_rendering": "This verse marks the formal opening of the 'Words of the Wise' collection (22:17-24:22), a new literary unit within Proverbs. The teacher addresses the student directly, shifting from the third-person proverb form to second-person instruction. Hat oznekha ('incline your ear') is a physical metaphor — lean in, turn your ear toward the speaker, give full attention. The teacher claims ownership of the wisdom: da'ati ('my knowledge'), establishing personal authority. This opening closely parallels the prologue of the Egyptian Instruction of Amenemope, suggesting literary awareness of the international wisdom tradition.",
+      "translator_notes": [
+        "The shift from independent proverbs to direct address signals a new collection. 'Words of the Wise' (divre chakhamim) is the section title, parallel to 'Proverbs of Solomon' in 10:1 and 25:1. The teacher-student format returns to the style of Proverbs 1-9."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "כִּֽי־נָ֭עִים כִּֽי־תִשְׁמְרֵ֣ם בְּבִטְנֶ֑ךָ יִכֹּ֥נוּ יַ֝חְדָּ֗ו עַל־שְׂפָתֶֽיךָ׃",
+      "text_kjv": "For it is a pleasant thing if thou keep them within thee; they shall withal be fitted in thy lips.",
+      "rendering": "For it is pleasing when you guard them in your belly;\nlet them be ready together on your lips.",
+      "translator_notes": [
+        "The 'belly' (beten) is the seat of internalized knowledge — wisdom stored deep inside, not merely memorized but absorbed. The movement from belly to lips describes the process: take it in deeply (study, reflect, digest), and it will be available on your lips when needed (speech, counsel, response). Wisdom internalized becomes wisdom expressed."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "לִהְי֣וֹת בַּ֭יהוָה מִבְטַחֶ֑ךָ הוֹדַעְתִּ֖יךָ הַיּ֣וֹם אַף־אָֽתָּה׃",
+      "text_kjv": "That thy trust may be in the LORD, I have made known to thee this day, even to thee.",
+      "rendering": "So that your trust may be in the LORD,\nI am teaching you today — yes, you.",
+      "translator_notes": [
+        "The purpose clause reveals the ultimate goal of the 'Words of the Wise': not mere intellectual development but trust in the LORD (mivtachekha ba-YHWH). Wisdom instruction aims at faith. The emphatic af attah ('even you, yes, you') personalizes the address — this is not abstract teaching but direct, individual challenge."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "הֲלֹ֤א כָתַ֣בְתִּי לְ֭ךָ שלשום [שָׁלִישִׁ֑ים] בְּמ֖וֹעֵצֹ֣ת וָדָֽעַת׃",
+      "text_kjv": "Have not I written to thee excellent things in counsels and knowledge,",
+      "rendering": "Have I not written for you thirty sayings\nof counsel and knowledge,",
+      "expanded_rendering": "The word shalishim is debated: it could mean 'thirty' (referring to thirty discrete teachings), 'excellent things,' or 'officers/captains' (a metaphor for important instructions). The reading 'thirty' is strengthened by the parallel with the thirty chapters of the Egyptian Instruction of Amenemope. If correct, the teacher is organizing his material into a numbered curriculum — thirty lessons in wisdom, each one a unit of counsel (mo'etsot) and knowledge (da'at). The Ketiv (written text) reads shelshom ('formerly, the day before yesterday'), while the Qere (read text) corrects to shalishim.",
+      "translator_notes": [
+        "The textual difficulty here is ancient — the Masoretes themselves flagged the discrepancy between the written and read forms. The rendering 'thirty sayings' follows the Qere and the Amenemope parallel, which together provide the strongest interpretive case."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלִישִׁים",
+          "transliteration": "shalishim",
+          "rendered_as": "thirty sayings",
+          "semantic_range": "thirty; or excellent things; or officers, captains; the reading is disputed",
+          "note": "The connection to Amenemope's thirty chapters has led most modern scholars to read this as 'thirty,' understanding the Words of the Wise as a structured collection of thirty instructions."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "לְהוֹדִ֣יעֲךָ֗ קֹ֭שְׁטְ אִמְרֵ֣י אֱמֶ֑ת לְהָשִׁ֥יב אֲמָרִ֥ים אֱ֝מֶ֗ת לְשֹׁלְחֶֽיךָ׃",
+      "text_kjv": "That I might make thee know the certainty of the words of truth; that thou mightest answer the words of truth to them that send unto thee?",
+      "rendering": "to teach you what is reliable — words of truth —\nso you can bring back truthful answers to those who sent you?",
+      "translator_notes": [
+        "Qosht ('reliability, certainty, truth') is an Aramaic loanword, rare in Hebrew, suggesting a cosmopolitan or late vocabulary. The purpose of wisdom education is twofold: to know what is true (internal) and to report truth accurately (external). The phrase le-sholchekha ('to those who send you') implies the student is an envoy or representative — someone who will carry answers back to an authority. Wisdom training produces trustworthy messengers."
+      ],
+      "key_terms": [],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "אַֽל־תִּגְזָל־דָּ֭ל כִּ֣י דַל־ה֑וּא וְאַל־תְּדַכֵּ֖א עָנִ֣י בַשָּֽׁעַר׃",
+      "text_kjv": "Rob not the poor, because he is poor: neither oppress the afflicted in the gate:",
+      "rendering": "Do not rob the poor because he is poor,\nand do not crush the afflicted at the gate,",
+      "translator_notes": [
+        "The 'gate' (sha'ar) was the public space where legal cases were heard and commercial transactions occurred — the ancient courtroom and marketplace combined. Crushing the afflicted 'at the gate' means exploiting legal processes to harm the vulnerable. The reason given — ki dal hu ('because he is poor') — seems obvious but is the point: poverty itself is being weaponized. The poor person is targeted precisely because he lacks the resources to fight back."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "כִּֽי־יְ֭הוָה יָרִ֣יב רִיבָ֑ם וְקָבַ֖ע אֶת־קֹבְעֵיהֶ֣ם נָֽפֶשׁ׃",
+      "text_kjv": "For the LORD will plead their cause, and spoil the soul of those that spoiled them.",
+      "rendering": "because the LORD will take up their case\nand rob the life of those who rob them.",
+      "translator_notes": [
+        "God becomes the poor person's attorney (yariv rivam, 'will plead their case, will argue their lawsuit'). The legal imagery is precise: the poor person has no advocate at the gate, so God Himself enters the courtroom. The punishment mirrors the crime — qava ('to rob, to plunder') is turned back on the perpetrator. Those who rob the poor will have their own nefesh ('life') robbed by God."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "אַל־תִּ֭תְרַע אֶת־בַּ֣עַל אָ֑ף וְאֶת־אִ֥ישׁ חֵ֝מ֗וֹת לֹ֣א תָבֽוֹא׃",
+      "text_kjv": "Make no friendship with an angry man; and with a furious man thou shalt not go:",
+      "rendering": "Do not befriend a hot-tempered person,\nand do not associate with someone given to rage,",
+      "translator_notes": [
+        "Ba'al af (literally 'master of anger, possessor of wrath') and ish chemot ('man of furies, person of hot anger') describe someone whose defining characteristic is uncontrolled anger. The warning is practical: association leads to imitation (v25). Anger is contagious."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "פֶּן־תֶּ֭אֱלַף אֹרְחֹתָ֑יו וְלָקַחְתָּ֖ מוֹקֵ֣שׁ לְנַפְשֶֽׁךָ׃",
+      "text_kjv": "Lest thou learn his ways, and get a snare to thy soul.",
+      "rendering": "or you will learn his ways\nand set a trap for your own life.",
+      "translator_notes": [
+        "Te'elaf ('you will learn, you will become accustomed to') describes unconscious adoption of behavior patterns. The danger is not that you will choose to become angry but that proximity will rewire your habits. The moqesh ('snare, trap') is self-set — you trap yourself by absorbing someone else's destructive patterns."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "אַל־תְּהִ֥י בְתֹֽקְעֵי־כָ֑ף בַּ֝עֹרְבִ֗ים מַשָּׁאֽוֹת׃",
+      "text_kjv": "Be not thou one of them that strike hands, or of them that are sureties for debts.",
+      "rendering": "Do not be among those who shake hands on pledges\nor who guarantee the debts of others.",
+      "translator_notes": [
+        "Toq'e kaf ('strikers of the palm') refers to the handshake that sealed a financial guarantee. The warning against surety — co-signing someone else's loan — is one of the most repeated financial warnings in Proverbs (6:1-5, 11:15, 17:18, 20:16). The ancient wisdom is timeless: guaranteeing another person's debt puts your own assets at risk."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "אִם־אֵֽין־לְךָ֥ לְשַׁלֵּ֑ם לָ֥מָּה יִקַּ֥ח מִ֝שְׁכָּבְךָ֗ מִתַּחְתֶּֽיךָ׃",
+      "text_kjv": "If thou hast nothing to pay, why should he take away thy bed from under thee?",
+      "rendering": "If you have nothing to pay,\nwhy should your bed be taken from under you?",
+      "translator_notes": [
+        "The image is vivid and concrete: the creditor literally takes the bed out from under the debtor. Mishkav ('bed, sleeping place') represents the most basic necessity of life. The rhetorical question implies the absurdity of risking what you cannot afford to lose."
+      ],
+      "key_terms": [],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "אַל־תַּ֭סֵּג גְּב֣וּל עוֹלָ֑ם אֲשֶׁ֖ר עָשׂ֣וּ אֲבוֹתֶֽיךָ׃",
+      "text_kjv": "Remove not the ancient landmark, which thy fathers have set.",
+      "rendering": "Do not move an ancient boundary marker\nthat your ancestors set in place.",
+      "expanded_rendering": "The gevul olam ('ancient boundary, eternal landmark') was a stone or marker that defined property lines — boundaries established by previous generations to ensure each family retained its ancestral land inheritance. Moving a boundary stone was not mere property theft but an assault on the entire system of land distribution that traced back to the conquest under Joshua. In Israel's theology, land was God's gift to specific families; to steal land was to steal what God had given. This prohibition appears in Deuteronomy 19:14 and 27:17, and its presence here in the 'Words of the Wise' parallels the identical teaching in Amenemope chapter 6.",
+      "translator_notes": [
+        "The parallel with Amenemope is particularly close here: both texts prohibit moving boundary stones, both ground the prohibition in respect for ancestral rights, and both present it as a fundamental ethical norm. This is one of the strongest pieces of evidence for literary connection between the two texts."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גְּבוּל עוֹלָם",
+          "transliteration": "gevul olam",
+          "rendered_as": "ancient boundary marker",
+          "semantic_range": "boundary, border, territory marker; olam adds 'ancient, long-standing, perpetual'",
+          "note": "These markers represented not just property lines but the covenant promise of land. Moving them attacked the inheritance system God had established."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "חָזִ֡יתָ אִ֤ישׁ ׀ מָ֘הִ֤יר בִּמְלַאכְתּ֗וֹ לִֽפְנֵֽי־מְלָכִ֥ים יִתְיַצָּ֑ב בַּל־יִ֝תְיַצֵּ֗ב לִפְנֵ֥י חֲשֻׁכִּֽים׃",
+      "text_kjv": "Seest thou a man diligent in his business? he shall stand before kings; he shall not stand before mean men.",
+      "rendering": "Do you see a person skilled in his work?\nHe will stand before kings;\nhe will not stand before obscure men.",
+      "expanded_rendering": "The chapter's final proverb celebrates professional excellence. Mahir ('skilled, quick, adept') describes someone who has mastered his craft through practice and discipline. The reward is access: yityatsav ('he will station himself, he will take his stand') before kings. The word lifne ('before, in the presence of') carries weight — to stand before a king is to have direct access to the highest authority. Chashukkim ('obscure ones, dark ones, those in the shadows') are not wicked but insignificant — the unknown, the powerless. Skill elevates; mediocrity keeps a person invisible. This proverb closes the first half of the chapter by connecting personal excellence to social advancement, paralleling the closing chapter of Amenemope.",
+      "translator_notes": [
+        "The parallel with Amenemope chapter 30 is notable: both texts close with the image of the skilled scribe who serves royalty. The shared conclusion suggests the two texts may have been organized with awareness of each other's structure."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָהִיר",
+          "transliteration": "mahir",
+          "rendered_as": "skilled",
+          "semantic_range": "quick, adept, skilled, diligent; having mastered a craft through practice",
+          "note": "Mahir describes not raw talent but developed expertise. The skilled person has invested the time and effort to become excellent at what he does."
+        }
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

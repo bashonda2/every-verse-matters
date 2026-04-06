@@ -1,0 +1,576 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Kings",
+    "chapter": 7,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Solomon completes his own palace complex over thirteen years, then commissions Hiram of Tyre — a master bronze craftsman — to fabricate the Temple's bronze furnishings. Hiram casts the two massive pillars Jachin and Boaz for the Temple entrance, the great bronze Sea supported by twelve oxen, ten wheeled stands with their basins, and all the utensils of gold and bronze. The chapter concludes with Solomon depositing the holy things David had dedicated into the Temple treasuries.",
+    "remarkable": "This chapter is the Hebrew Bible's most detailed account of ancient Near Eastern metalwork. The narrator devotes extraordinary attention to Hiram's craftsmanship — not because bronze technology is inherently theological, but because these objects mediate between the visible and the invisible. The two pillars Jachin ('He establishes') and Boaz ('In Him is strength') are named with theological statements, not labels. They do not support the roof; they stand freestanding at the entrance, announcing in bronze what the Temple proclaims in stone: God establishes, and in God is strength. The great Sea (yam) — holding approximately 12,000 gallons and resting on twelve oxen facing the four compass points — echoes the cosmic waters of Genesis 1. The Temple does not merely house worship; it maps creation. Every measurement, every lily-blossom capital, every pomegranate is a statement about divine order imposed on raw material. The chapter moves from Solomon's secular palace (vv. 1-12) to the sacred furnishings (vv. 13-51), and the transition is itself significant: the king's house takes thirteen years, the LORD's house took seven (6:38). The narrator lets the numbers speak without comment.",
+    "friction": "The relationship between the two Hirams is a persistent source of confusion. The Hiram who is king of Tyre (chapter 5) is not the Hiram who crafts the bronze (7:13-14). The craftsman is identified as the son of a widow from the tribe of Naphtali and a Tyrian father — 2 Chronicles 2:14 says his mother was from Dan. This is either a textual discrepancy or a reference to different tribal territories. We render the text as it stands and note the tension. The measurements of the bronze Sea also present a mathematical puzzle: its diameter is ten cubits and its circumference thirty cubits (v. 23), which yields pi as exactly 3. Ancient Near Eastern mathematics used this approximation, and the text reflects practical measurement, not geometric theory. The phrase 'a line of thirty cubits encircled it' is a builder's description, not a mathematical proof.",
+    "connections": "The bronze Sea (yam mutsaq) stands on twelve oxen facing north, south, east, and west (v. 25) — mapping the twelve tribes onto the four directions, just as the wilderness camp was arranged around the tabernacle (Numbers 2). The Sea itself echoes the primordial tehom ('deep') of Genesis 1:2 and the 'sea' that God defeated in creation (Psalm 74:13, Job 26:12). By containing the cosmic waters in a bronze basin, the Temple declares God's mastery over chaos. The pillars Jachin and Boaz (v. 21) will be specifically named when Nebuchadnezzar's forces tear them down (2 Kings 25:13, Jeremiah 52:17) — their destruction signals the undoing of everything their names proclaimed. The holy things of David (v. 51) bridge the Davidic promise (2 Samuel 7) to its Solomonic fulfillment: what the father consecrated, the son installs."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וְאֶת־בֵּית֔וֹ בָּנָ֥ה שְׁלֹמֹ֖ה שְׁלֹ֣שׁ עֶשְׂרֵ֣ה שָׁנָ֑ה וַיְכַ֖ל אֶת־כׇּל־בֵּיתֽוֹ׃",
+      "text_kjv": "But Solomon was building his own house thirteen years, and he finished all his house.",
+      "rendering": "Solomon built his own palace over thirteen years, and he completed the entire complex.",
+      "translator_notes": [
+        "The Hebrew beit ('house') is the same word used for the Temple (beit YHWH). The narrator's placement is deliberate: the Temple took seven years (6:38), the palace took thirteen. No moral judgment is stated, but the contrast invites reflection. The verb vaykhal ('and he completed') signals total completion — every structure in the royal compound."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיִּ֜בֶן אֶת־בֵּ֣ית ׀ יַ֣עַר הַלְּבָנ֗וֹן מֵאָ֨ה אַמָּ֤ה אׇרְכּוֹ֙ וַחֲמִשִּׁ֤ים אַמָּה֙ רׇחְבּ֔וֹ וּשְׁלֹשִׁ֥ים אַמָּ֖ה קוֹמָת֑וֹ עַ֗ל אַרְבָּעָה֙ טוּרֵ֔י עַמּוּדֵ֖י אֲרָזִֽים׃",
+      "text_kjv": "He built also the house of the forest of Lebanon; the length thereof was an hundred cubits, and the breadth thereof fifty cubits, and the height thereof thirty cubits, upon four rows of cedar pillars, with cedar beams upon the pillars.",
+      "rendering": "He built the House of the Forest of Lebanon — one hundred cubits long, fifty cubits wide, and thirty cubits high — on four rows of cedar pillars with cedar beams resting on the pillars.",
+      "translator_notes": [
+        "The House of the Forest of Lebanon (beit ya'ar ha-Levanon) was so named because its dense rows of cedar pillars gave the interior the appearance of a Lebanese forest. At 100 by 50 cubits, it was significantly larger than the Temple (60 by 20 cubits). This structure served as an armory and reception hall (see 10:17, Isaiah 22:8), not a residence."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְסָפֻ֣ן בָּאֶ֗רֶז מִמַּ֨עַל֙ עַל־הַצְּלָעֹ֔ת אֲשֶׁ֖ר עַל־הָעַמּוּדִ֑ים אַרְבָּעִ֣ים וַחֲמִשָּׁ֔ה חֲמִשָּׁ֥ה עָשָׂ֖ר הַטּֽוּר׃",
+      "text_kjv": "And it was covered with cedar above upon the beams, that lay on forty five pillars, fifteen in a row.",
+      "rendering": "It was roofed with cedar above the support beams that rested on the pillars — forty-five pillars, fifteen per row.",
+      "translator_notes": [
+        "The term tsela'ot ('ribs, side-chambers, support beams') is the same word used for Eve's creation from Adam's 'rib' (Genesis 2:21) and for the side chambers of the Temple (6:5). The structural image is of horizontal beams spanning from pillar to pillar, with cedar planking laid across them as the ceiling."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וּשְׁקֻפִ֖ים שְׁלֹשָׁ֣ה טוּרִ֑ים וּמֶחֱזָ֥ה אֶל־מֶחֱזָ֖ה שָׁלֹ֥שׁ פְּעָמִֽים׃",
+      "text_kjv": "And there were windows in three rows, and light was against light in three ranks.",
+      "rendering": "There were window frames in three rows, and window opening faced window opening in three tiers.",
+      "translator_notes": [
+        "The term shequfim ('window frames') and mechezah ('opening, view') describe an arrangement where windows on opposite walls aligned, allowing light to pass through the building. The threefold repetition of 'three' (shalosh) emphasizes the symmetrical design — light answering light across the hall."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְכׇל־הַפְּתָחִ֥ים וְהַמְּזוּז֖וֹת רְבֻעִ֣ים שָׁ֑קֶף וּמ֧וּל מֶחֱזָ֛ה אֶל־מֶחֱזָ֖ה שָׁלֹ֥שׁ פְּעָמִֽים׃",
+      "text_kjv": "And all the doors and posts were square, with the windows: and light was against light in three ranks.",
+      "rendering": "All the doorways and doorposts had squared frames, and window faced window in three tiers.",
+      "translator_notes": [
+        "The term mezuzot ('doorposts') will later become the word for the small case affixed to Jewish doorframes (Deuteronomy 6:9), but here it simply means the structural posts flanking each doorway. The emphasis on squared (revu'im) framing points to precise, right-angled construction — a hallmark of skilled masonry."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְאֵ֤ת אוּלָם֙ הָעַמּוּדִ֣ים עָשָׂ֔ה חֲמִשִּׁ֤ים אַמָּה֙ אׇרְכּ֔וֹ וּשְׁלֹשִׁ֥ים אַמָּ֖ה רׇחְבּ֑וֹ וְאוּלָ֖ם עַל־פְּנֵיהֶ֥ם וְעַמֻּדִ֛ים וְעָ֖ב עַל־פְּנֵיהֶֽם׃",
+      "text_kjv": "And he made a porch of pillars; the length thereof was fifty cubits, and the breadth thereof thirty cubits: and the porch was before them: and the other pillars and the thick beam were before them.",
+      "rendering": "He made the Hall of Pillars — fifty cubits long and thirty cubits wide — with a portico in front of it, supported by pillars and a canopy before them.",
+      "translator_notes": [
+        "The ulam ('hall, portico') is a covered entrance area. The phrase ve-ulam al peneihem ('and a portico before them') suggests a projecting entrance porch. The 'av ('thick beam' or 'canopy') is architecturally uncertain — it may refer to a heavy lintel, a projecting roof element, or a threshold. The structure is a grand colonnaded hall for formal assembly."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְאוּלָ֤ם הַכִּסֵּא֙ אֲשֶׁ֣ר יִשְׁפׇּט־שָׁ֔ם אוּלָ֥ם הַמִּשְׁפָּ֖ט עָשָׂ֑ה וְסָפ֥וּן בָּאֶ֖רֶז מֵהַקַּרְקַ֥ע עַד־הַקַּרְקָֽע׃",
+      "text_kjv": "Then he made a porch for the throne where he might judge, even the porch of judgment: and it was covered with cedar from one side of the floor to the other.",
+      "rendering": "He made the Hall of the Throne where he would render judgment — the Hall of Justice — and it was paneled with cedar from floor to floor.",
+      "translator_notes": [
+        "The ulam ha-kisse ('Hall of the Throne') is also called ulam ha-mishpat ('Hall of Justice'). The dual naming reveals the throne's primary function: not ceremony but judicial decision. Solomon's throne is a judgment seat. The cedar paneling from floor to floor (me-ha-qarqa' ad ha-qarqa') suggests complete coverage of every interior surface."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וּבֵית֞וֹ אֲשֶׁר־יֵ֣שֶׁב שָׁ֗ם חָצֵ֤ר הָאַחֶ֙רֶת֙ מִבֵּית֙ לָאוּלָ֔ם כַּמַּעֲשֶׂ֥ה הַזֶּ֖ה הָיָ֑ה וּבַ֜יִת יַעֲשֶׂ֤ה לְבַת־פַּרְעֹה֙ אֲשֶׁ֣ר לָקַ֣ח שְׁלֹמֹ֔ה כָּאוּלָ֖ם הַזֶּֽה׃",
+      "text_kjv": "And his house where he dwelt had another court within the porch, which was of the like work. Solomon made also an house for Pharaoh's daughter, whom he had taken to wife, like unto this porch.",
+      "rendering": "His personal residence, set in the other courtyard behind the hall, was built in the same style. He also built a house for Pharaoh's daughter, whom Solomon had married, matching this same design.",
+      "translator_notes": [
+        "The mention of Pharaoh's daughter receives no editorial comment here, though the narrator has already flagged this marriage as problematic (3:1). The note that her house matched the royal architecture signals her elevated status in the palace compound. The Hebrew le-vat Par'oh ('for the daughter of Pharaoh') identifies her only by her father's title — she is never given a personal name in the Hebrew Bible."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "כׇּל־אֵ֜לֶּה אֲבָנִ֣ים יְקָרֹ֗ת כְּמִדֹּ֧ת גָּזִ֛ית מְגֹרָר֥וֹת בַּמְּגֵרָ֖ה מִבַּ֣יִת וּמִח֑וּץ וּמִמַּסָּ֣ד עַד־הַטְּפָח֗וֹת וּמִח֖וּץ עַד־הֶחָצֵ֥ר הַגְּדוֹלָֽה׃",
+      "text_kjv": "All these were of costly stones, according to the measures of hewed stones, sawed with saws, within and without, even from the foundation unto the coping, and so on the outside toward the great court.",
+      "rendering": "All these structures were made of costly stones, cut to measure and sawed with saws on the inner and outer faces — from the foundation to the coping stones, and from the inside out to the great courtyard.",
+      "translator_notes": [
+        "The phrase avanim yeqarot ('costly stones, precious stones') refers to high-quality dressed limestone. The verb megorarot ('sawed') indicates precision-cut masonry — blocks sawed to exact dimensions rather than rough-hewn. This level of stone-finishing was exceptionally labor-intensive and marked the building as royal. The tefachot ('coping stones' or 'hand-breadth ledges') are the capstones at the top of the walls."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וּמְיֻסָּ֕ד אֲבָנִ֥ים יְקָר֖וֹת אֲבָנִ֣ים גְּדֹל֑וֹת אַבְנֵי֙ עֶ֣שֶׂר אַמּ֔וֹת וְאַבְנֵ֖י שְׁמֹנֶ֥ה אַמּֽוֹת׃",
+      "text_kjv": "And the foundation was of costly stones, even great stones, stones of ten cubits, and stones of eight cubits.",
+      "rendering": "The foundation was laid with costly stones — massive stones, some ten cubits and some eight cubits long.",
+      "translator_notes": [
+        "Foundation stones of ten cubits (roughly fifteen feet) and eight cubits (roughly twelve feet) represent enormous quarried blocks. Moving and placing stones of this size required sophisticated engineering — rollers, levers, ramps, and coordinated labor teams. The emphasis on size communicates permanence and royal power. These foundation stones are still visible in Jerusalem's archaeological record."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וּמִלְמַ֗עְלָה אֲבָנִ֧ים יְקָר֛וֹת כְּמִדּ֥וֹת גָּזִ֖ית וָאָֽרֶז׃",
+      "text_kjv": "And above were costly stones, after the measures of hewed stones, and cedars.",
+      "rendering": "Above these were costly stones, cut to measure, and cedar beams.",
+      "translator_notes": [
+        "The combination of dressed stone and cedar — the two most valued building materials in the ancient Near East — appears repeatedly throughout the palace and Temple descriptions. Cedar (erez) was imported from Lebanon at great expense, and its aromatic, rot-resistant wood symbolized permanence and luxury."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְחָצֵ֨ר הַגְּדוֹלָ֜ה סָבִ֗יב שְׁלֹשָׁה֙ טוּרִ֣ים גָּזִ֔ית וְט֖וּר כְּרֻתֹ֣ת אֲרָזִ֑ים וְלַחֲצַ֧ר בֵּית־יְהוָ֛ה הַפְּנִימִ֖ית וּלְאֻלָ֥ם הַבָּֽיִת׃",
+      "text_kjv": "And the great court round about was with three rows of hewed stones, and a row of cedar beams, both for the inner court of the house of the LORD, and for the porch of the house.",
+      "rendering": "The great courtyard was enclosed by three courses of cut stone and one course of cedar beams — the same construction used for the inner court of the house of the LORD and for the Temple's portico.",
+      "translator_notes": [
+        "The identical construction method — three courses of stone topped by one course of cedar — links the palace complex to the Temple (see 6:36). This shared building technique physically connects the royal and sacred precincts. The mention of chatsar beit YHWH ha-penimit ('the inner court of the house of the LORD') indicates that the palace and Temple shared an integrated architectural plan on the same ridge."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיִּשְׁלַ֞ח הַמֶּ֣לֶךְ שְׁלֹמֹ֗ה וַיִּקַּ֛ח אֶת־חִירָ֖ם מִצֹּֽר׃",
+      "text_kjv": "And king Solomon sent and fetched Hiram out of Tyre.",
+      "rendering": "King Solomon sent for Hiram and brought him from Tyre.",
+      "translator_notes": [
+        "This is a different Hiram from the king of Tyre in chapter 5. The craftsman Hiram (sometimes spelled Huram) shares the name of the king but is identified in the next verse by his parentage. Solomon's act of sending for a foreign artisan echoes Bezalel's appointment for the tabernacle (Exodus 31:1-5) — both are Spirit-gifted craftsmen commissioned for sacred construction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "בֶּן־אִשָּׁ֣ה אַלְמָנָ֣ה ה֠וּא מִמַּטֵּ֨ה נַפְתָּלִ֜י וְאָבִ֣יו ׀ אִישׁ־צֹרִ֣י חֹרֵ֣שׁ נְחֹ֗שֶׁת וַיִּמָּלֵ֤א אֶת־הַחׇכְמָה֙ וְאֶת־הַתְּבוּנָ֣ה וְאֶת־הַדַּ֔עַת לַעֲשׂ֥וֹת כׇּל־מְלָאכָ֖ה בַּנְּחֹ֑שֶׁת וַיָּבוֹא֙ אֶל־הַמֶּ֣לֶךְ שְׁלֹמֹ֔ה וַיַּ֖עַשׂ אֶת־כׇּל־מְלַאכְתּֽוֹ׃",
+      "text_kjv": "He was a widow's son of the tribe of Naphtali, and his father was a man of Tyre, a worker in brass: and he was filled with wisdom, and understanding, and cunning, to work all works in brass. And he came to king Solomon, and wrought all his work.",
+      "rendering": "He was the son of a widow from the tribe of Naphtali, and his father was a Tyrian man, a bronze craftsman. Hiram was filled with skill, understanding, and knowledge to execute every kind of work in bronze. He came to King Solomon and carried out all his bronze work.",
+      "expanded_rendering": "The threefold description of Hiram's abilities — chokmah (skill), tevunah (understanding), and da'at (knowledge) — uses the exact same three terms applied to Bezalel, the builder of the tabernacle (Exodus 31:3). The narrator is drawing a deliberate parallel: as Bezalel was to the tabernacle, Hiram is to the Temple. The verb vayyimmale ('he was filled') echoes the filling of Bezalel with God's Spirit. Though no divine Spirit is explicitly mentioned for Hiram, the linguistic echo implies that the same caliber of sacred craftsmanship is at work.",
+      "translator_notes": [
+        "The phrase chokmah, tevunah, da'at ('wisdom, understanding, knowledge') is a technical triad in Hebrew wisdom literature, describing comprehensive mastery of a craft. These same three words describe Bezalel's Spirit-given abilities in Exodus 31:3 and the qualities by which God founded the earth in Proverbs 3:19-20. Hiram's bronze work is thus framed not as mere artisanship but as participation in the same creative intelligence that built the cosmos.",
+        "2 Chronicles 2:14 identifies his mother as from Dan, not Naphtali. The tribal territories of Dan and Naphtali bordered each other in the north, so this may reflect different ways of locating the same region, or it may be a genuine textual variant."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חׇכְמָה",
+          "transliteration": "chokmah",
+          "rendered_as": "skill",
+          "semantic_range": "wisdom, skill, expertise, intelligence, craft mastery",
+          "note": "chokmah in artisan contexts means practical mastery — the ability to envision a finished product and execute it. The same term describes Solomon's judicial wisdom (3:28) and God's cosmic design (Proverbs 8:22-31). Here it links the craftsman's hand to the architect's mind."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיָּ֛צַר אֶת־שְׁנֵ֥י הָעַמּוּדִ֖ים נְחֹ֑שֶׁת שְׁמֹנֶ֨ה עֶשְׂרֵ֤ה אַמָּה֙ קוֹמַ֣ת הָעַמּ֣וּד הָאֶחָ֔ד וְח֗וּט שְׁתֵּים־עֶשְׂרֵ֤ה אַמָּה֙ יָסֹ֔ב אֶת־הָעַמּ֖וּד הַשֵּׁנִֽי׃",
+      "text_kjv": "For he cast two pillars of brass, of eighteen cubits high apiece: and a line of twelve cubits did compass either of them about.",
+      "rendering": "He cast two pillars of bronze, each eighteen cubits tall, and a cord of twelve cubits measured the circumference of each pillar.",
+      "translator_notes": [
+        "The two pillars stood roughly twenty-seven feet tall with a circumference of about eighteen feet (diameter roughly six feet). The verb vayyatsar ('he formed, he cast') is the same verb used for God forming Adam from the dust (Genesis 2:7, yatsar). The pillars were hollow-cast bronze — an extraordinary technical achievement requiring precise mold-making and controlled pouring of molten metal."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וּשְׁתֵּ֧י כֹתָרֹ֛ת עָשָׂ֖ה לָתֵ֣ת עַל־רָאשֵׁ֣י הָעַמּוּדִ֑ים מֻצַ֣ק נְחֹ֗שֶׁת חָמֵ֣שׁ אַמּוֹת֩ קוֹמַ֨ת הַכֹּתֶ֤רֶת הָאֶחָת֙ וְחָמֵ֣שׁ אַמּ֔וֹת קוֹמַ֥ת הַכֹּתֶ֖רֶת הַשֵּׁנִֽית׃",
+      "text_kjv": "And he made two chapiters of molten brass, to set upon the tops of the pillars: the height of the one chapiter was five cubits, and the height of the other chapiter was five cubits:",
+      "rendering": "He made two capitals of cast bronze to set on top of the pillars — five cubits high for one capital and five cubits high for the other.",
+      "translator_notes": [
+        "The koteret ('capital, crown') is the ornamental top of a pillar. At five cubits (roughly seven and a half feet), these capitals were substantial sculptural elements. The word koteret shares its root with keter ('crown'), suggesting that the pillars were 'crowned' — an architectural metaphor for royal authority."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "שְׂבָכִ֗ים מַעֲשֵׂ֤ה שְׂבָכָה֙ וּגְדִלִ֔ים מַעֲשֵׂ֥ה שַׁרְשְׁר֖וֹת לַכֹּתָרֹ֑ת אֲשֶׁ֖ר עַל־רֹ֣אשׁ הָעַמּוּדִ֑ים שִׁבְעָ֗ה לַכֹּתֶ֤רֶת הָאֶחָת֙ וְשִׁבְעָ֔ה לַכֹּתֶ֖רֶת הַשֵּׁנִֽית׃",
+      "text_kjv": "And nets of checker work, and wreaths of chain work, for the chapiters which were upon the top of the pillars; seven for the one chapiter, and seven for the other chapiter.",
+      "rendering": "He made lattice networks — a mesh of interwoven chains — for the capitals on top of the pillars: seven networks for one capital and seven for the other.",
+      "translator_notes": [
+        "The sevakhim ('networks, meshes') and gedilim ('twisted chains, wreaths') describe ornamental bronze chainwork draped over the capitals. The number seven for each capital is symbolically loaded — seven is the number of completion throughout the Temple construction narrative (the Temple took seven years, was dedicated in the seventh month). The visual effect was of bronze nets cascading over lily-shaped capitals."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיַּ֖עַשׂ אֶת־הָעַמּוּדִ֑ים וּשְׁנֵ֤י טוּרִים֙ סָבִ֔יב עַל־הַשְּׂבָכָ֣ה הָאֶחָ֗ת לְכַסּ֤וֹת אֶת־הַכֹּֽתָרֹת֙ אֲשֶׁ֣ר עַל־רֹ֣אשׁ הָרִמֹּנִ֔ים וְכֵ֣ן עָשָׂ֔ה לַכֹּתֶ֖רֶת הַשֵּׁנִֽית׃",
+      "text_kjv": "And he made the pillars, and two rows round about upon the one network, to cover the chapiters that were upon the top, with pomegranates: and so did he for the other chapiter.",
+      "rendering": "He fashioned the pillars with two rows of pomegranates encircling each network to cover the capitals on top, and he did the same for the second capital.",
+      "translator_notes": [
+        "The rimmonim ('pomegranates') are a recurring motif in sacred design — they adorned the hem of the high priest's robe (Exodus 28:33-34) and appear throughout Solomonic architecture. The pomegranate, with its many seeds inside a unified skin, symbolized fertility, abundance, and the unity of multiplicity. Two rows of bronze pomegranates encircling each capital created a rich visual crown."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְכֹתָרֹ֗ת אֲשֶׁ֛ר עַל־רֹ֥אשׁ הָעַמּוּדִ֖ים מַעֲשֵׂ֣ה שׁוּשַׁ֑ן בָּאוּלָ֖ם אַרְבַּ֥ע אַמּֽוֹת׃",
+      "text_kjv": "And the chapiters that were upon the top of the pillars were of lily work in the porch, four cubits.",
+      "rendering": "The capitals on top of the pillars in the portico were shaped like lilies — four cubits high.",
+      "translator_notes": [
+        "The ma'aseh shushan ('lily work') describes capitals sculpted to resemble open lily blossoms. The shushan (lily, lotus) was a common architectural motif throughout the ancient Near East, symbolizing life, beauty, and renewal. These four-cubit lily capitals sat atop the five-cubit decorated sections, giving each pillar a total capital height of approximately nine cubits. The visual effect was of massive bronze flowers blooming at the Temple entrance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְכֹתָרֹ֗ת עַל־שְׁנֵי֙ הָעַמּוּדִ֔ים גַּם־מִמַּ֨עַל֙ מִלְּעֻמַּ֣ת הַבֶּ֔טֶן אֲשֶׁ֖ר לְעֵ֣בֶר שְׂבָכָ֑ה וְהָרִמּוֹנִ֗ים מָאתַ֤יִם טֻרִים֙ סָבִ֔יב עַ֖ל הַכֹּתֶ֥רֶת הַשֵּׁנִֽית׃",
+      "text_kjv": "And the chapiters upon the two pillars had pomegranates also above, over against the belly which was by the network: and the pomegranates were two hundred in rows round about upon the other chapiter.",
+      "rendering": "The capitals on both pillars also had pomegranates above, next to the rounded section beside the network — two hundred pomegranates in rows encircling each capital.",
+      "translator_notes": [
+        "The beten ('belly, bulge') describes a rounded, convex section of the capital — the swelling form from which the pomegranate rows hung. Two hundred pomegranates per capital (four hundred total) represents extraordinary decorative abundance. Jeremiah 52:23 specifies ninety-six pomegranates on each side, with the total coming to one hundred per row — the figures vary slightly between accounts."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיָּ֨קֶם֙ אֶת־הָעַמֻּדִ֔ים לְאוּלָ֖ם הַהֵיכָ֑ל וַיָּ֜קֶם אֶת־הָעַמּ֣וּד הַיְמָנִ֗י וַיִּקְרָ֤א אֶת־שְׁמוֹ֙ יָכִ֔ין וַיָּ֙קֶם֙ אֶת־הָעַמּ֣וּד הַשְּׂמָאלִ֔י וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ בֹּֽעַז׃",
+      "text_kjv": "And he set up the pillars in the porch of the temple: and he set up the right pillar, and called the name thereof Jachin: and he set up the left pillar, and called the name thereof Boaz.",
+      "rendering": "He erected the pillars at the portico of the Temple. He set up the right pillar and named it Jachin, and he set up the left pillar and named it Boaz.",
+      "expanded_rendering": "The naming of freestanding pillars is unique in Israelite architecture. Yakhin means 'He establishes' — a third-person statement about God's action. Bo'az means 'In Him is strength.' Together the two names form a theological declaration read by anyone entering the Temple: 'He establishes — in Him is strength.' These are not structural supports; they bear no roof. They are bronze proclamations standing sentinel at the threshold between the ordinary world and the presence of God.",
+      "translator_notes": [
+        "Yakhin (from the root kun, 'to establish, to make firm') is a verbal sentence-name meaning 'He will establish' or 'He establishes.' Bo'az (probably from b- + 'oz, 'in strength') means 'In Him is strength' or 'By strength.' The pillars are freestanding — they support nothing structurally. Their function is entirely symbolic and declarative. Standing at the Temple entrance, they greet every worshiper with a theological statement about God's establishing power and inherent strength.",
+        "These same pillars are named specifically when the Babylonians destroy them in 2 Kings 25:13 and Jeremiah 52:17. The destruction of Jachin and Boaz is the physical negation of what the names proclaimed — when Jerusalem falls, God's 'establishing' and 'strength' appear to have been revoked."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְעַ֨ל רֹ֧אשׁ הָעַמּוּדִ֛ים מַעֲשֵׂ֥ה שׁוֹשָׁ֖ן וַתִּתֹּ֥ם מְלֶ֖אכֶת הָעַמּוּדִֽים׃",
+      "text_kjv": "And upon the top of the pillars was lily work: so was the work of the pillars finished.",
+      "rendering": "On top of the pillars was lily work, and so the work on the pillars was completed.",
+      "translator_notes": [
+        "The verb vatittom ('and it was completed, and it was finished') uses the root tamam, which means both 'to finish' and 'to be perfect, whole.' The completion of the pillars is simultaneously their perfection. The narrator signals closure on this section before moving to the next major element — the bronze Sea."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיַּ֥עַשׂ אֶת־הַיָּ֖ם מוּצָ֑ק עֶ֣שֶׂר בָּ֠אַמָּ֠ה מִשְּׂפָת֨וֹ עַד־שְׂפָת֜וֹ עָגֹ֣ל ׀ סָבִ֗יב וְחָמֵ֤שׁ בָּאַמָּה֙ קוֹמָת֔וֹ וְקָ֛ו שְׁלֹשִׁ֥ים בָּאַמָּ֖ה יָסֹ֥ב אֹת֖וֹ סָבִֽיב׃",
+      "text_kjv": "And he made a molten sea, ten cubits from the one brim to the other: it was round all about, and his height was five cubits: and a line of thirty cubits did compass it round about.",
+      "rendering": "He made the cast Sea — ten cubits from rim to rim, perfectly circular, five cubits high, and a line of thirty cubits measured its circumference.",
+      "expanded_rendering": "The yam mutsaq ('cast Sea') is not merely a large basin. The word yam ('sea') is the same word used for the primordial ocean, the Red Sea, and the cosmic waters that God subdued at creation. By placing a 'sea' in the Temple courtyard — contained, measured, bounded by bronze — Solomon's Temple declares that the chaotic waters are under God's dominion. The Sea is creation theology in metal.",
+      "translator_notes": [
+        "The term yam ('sea') is deliberately cosmic — this is not called a kiyyor ('basin') but a 'sea.' The word invokes the primordial waters of Genesis 1:2 (tehom, the deep) and the cosmic ocean that God defeated in creation mythology (Psalm 74:13, Isaiah 51:9-10). The dimensions — ten cubits diameter, thirty cubits circumference — use pi as approximately 3, which was the standard ancient Near Eastern working value.",
+        "The capacity of this vessel at roughly ten cubits diameter and five cubits depth has been calculated at approximately 12,000 gallons (the text says 2,000 baths in v. 26; 2 Chronicles 4:5 says 3,000). It served for priestly washing (2 Chronicles 4:6) but its symbolic significance far exceeds its practical function."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "יָם",
+          "transliteration": "yam",
+          "rendered_as": "Sea",
+          "semantic_range": "sea, ocean, large body of water, west, cosmic waters",
+          "note": "yam in Temple contexts deliberately evokes the primordial ocean — the chaotic waters God subdued in creation (Genesis 1:2, Psalm 74:13). The bronze Sea is a theological statement: the cosmic waters, contained and bounded, rest within God's house."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וּפְקָעִים֙ מִתַּ֣חַת לִשְׂפָת֔וֹ סָבִ֣יב ׀ סֹבְבִ֣ים אֹת֗וֹ עֶ֚שֶׂר בָּאַמָּ֔ה מַקִּפִ֥ים אֶת־הַיָּ֖ם סָבִ֑יב שְׁנֵ֤י טוּרִים֙ הַפְּקָעִ֔ים יְצֻקִ֖ים בִּיצֻקָתֽוֹ׃",
+      "text_kjv": "And under the brim of it round about there were knops compassing it, ten in a cubit, compassing the sea round about: the knops were cast in two rows, when it was cast.",
+      "rendering": "Beneath its rim, gourds encircled it — ten per cubit running all the way around the Sea in two rows, cast as one piece with the Sea itself.",
+      "translator_notes": [
+        "The peqa'im ('gourds, knobs') are ornamental bulging shapes, probably resembling wild gourds (colocynths). The same motif decorated the interior Temple walls (6:18). At ten per cubit in two rows around a thirty-cubit circumference, there were approximately six hundred gourd ornaments. The phrase yetsuqim bi-ytsuqato ('cast in its casting') means they were integral to the original mold — not attached afterward but part of the single pour."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "עֹמֵ֞ד עַל־שְׁנֵ֧י עָשָׂ֣ר בָּקָ֗ר שְׁלֹשָׁ֣ה פֹנִ֣ים ׀ צָפ֡וֹנָה וּשְׁלֹשָׁה֩ פֹנִ֨ים ׀ יָ֜מָּה וּשְׁלֹשָׁ֣ה ׀ פֹּנִ֣ים נֶ֗גְבָּה וּשְׁלֹשָׁה֙ פֹּנִ֣ים מִזְרָ֔חָה וְהַיָּ֥ם עֲלֵיהֶ֖ם מִלְמָ֑עְלָה וְכׇל־אֲחֹרֵיהֶ֖ם בָּֽיְתָה׃",
+      "text_kjv": "It stood upon twelve oxen, three looking toward the north, and three looking toward the west, and three looking toward the south, and three looking toward the east: and the sea was set above upon them, and all their hinder parts were inward.",
+      "rendering": "It stood on twelve oxen — three facing north, three facing west, three facing south, and three facing east — with the Sea resting on top of them and all their hindquarters turned inward.",
+      "translator_notes": [
+        "The twelve oxen arranged in groups of three facing the four cardinal directions map the twelve tribes onto the compass points, echoing the wilderness camp arrangement (Numbers 2) where three tribes camped on each side of the tabernacle. The oxen face outward, as if carrying the cosmic Sea to the ends of the earth, while their hindquarters face inward toward the center. The image is of centrifugal force restrained — the waters held in place, the tribes oriented outward from God's presence."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְעׇבְי֣וֹ טֶ֔פַח וּשְׂפָת֛וֹ כְּמַעֲשֵׂ֥ה שְׂפַת־כּ֖וֹס פֶּ֣רַח שׁוֹשָׁ֑ן אַלְפַּ֥יִם בַּ֖ת יָכִֽיל׃",
+      "text_kjv": "And it was an hand breadth thick, and the brim thereof was wrought like the brim of a cup, with flowers of lilies: it contained two thousand baths.",
+      "rendering": "Its wall was a handbreadth thick, and its rim was fashioned like the rim of a cup, shaped like an open lily. It held two thousand baths.",
+      "translator_notes": [
+        "A tefach ('handbreadth') is roughly three inches — remarkably thin for a bronze vessel of this size. The rim shaped like a lily blossom (perach shoshan) matches the lily capitals on the pillars, creating visual unity between the vertical and horizontal elements. Two thousand baths equals approximately 12,000 gallons. The lily motif — also found on the pillars (v. 19, 22) — ties the Sea and the pillars into a single decorative program."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיַּ֛עַשׂ אֶת־הַמְּכֹנ֥וֹת עֶ֖שֶׂר נְחֹ֑שֶׁת אַרְבַּ֨ע בָּאַמָּ֜ה אֹ֣רֶךְ הַמְּכוֹנָ֗ה הָאֶחָ֔ת וְאַרְבַּ֤ע בָּאַמָּה֙ רׇחְבָּ֔הּ וְשָׁלֹ֥שׁ בָּאַמָּ֖ה קוֹמָתָֽהּ׃",
+      "text_kjv": "And he made ten bases of brass; four cubits was the length of one base, and four cubits the breadth thereof, and three cubits the height of it.",
+      "rendering": "He made ten bronze stands, each four cubits long, four cubits wide, and three cubits high.",
+      "translator_notes": [
+        "The mekhonot ('stands, bases') were wheeled bronze platforms designed to carry the smaller basins used for washing sacrificial portions (2 Chronicles 4:6). At four by four by three cubits (roughly six feet square and four and a half feet tall), they were substantial pieces of engineering — mobile bronze carts with elaborate decorative panels."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְזֶ֛ה מַעֲשֵׂ֥ה הַמְּכוֹנָ֖ה מִסְגְּרֹ֣ת לָהֶ֑ם וּמִסְגְּרֹ֖ת בֵּ֥ין הַשְׁלַבִּֽים׃",
+      "text_kjv": "And the work of the bases was on this manner: they had borders, and the borders were between the ledges:",
+      "rendering": "This was how the stands were made: they had side panels, with the panels set between the crossbars.",
+      "translator_notes": [
+        "The misgerot ('borders, panels, frames') were flat bronze plates set between the shelabbim ('crossbars, rails') — the structural framework of each stand. The construction resembles a modern cart frame with decorative infill panels between the structural members."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְעַל־הַמִּסְגְּר֞וֹת אֲשֶׁ֣ר בֵּ֣ין הַשְׁלַבִּ֗ים אֲרָי֤וֹת בָּקָר֙ וּכְרוּבִ֔ים וְעַל־הַשְׁלַבִּ֖ים כֵּ֣ן מִמָּ֑עַל וּמִתַּ֙חַת֙ לָאֲרָי֣וֹת וְלַבָּקָ֔ר לֹי֖וֹת מַעֲשֵׂ֥ה מוֹרָֽד׃",
+      "text_kjv": "And on the borders that were between the ledges were lions, oxen, and cherubims: and upon the ledges there was a base above: and beneath the lions and oxen were certain additions made of thin work.",
+      "rendering": "On the panels between the crossbars were lions, oxen, and cherubim. On the crossbars above and below the lions and oxen were wreaths of hammered work.",
+      "translator_notes": [
+        "The three figures — arayot (lions), baqar (oxen), and keruvim (cherubim) — represent power, provision, and divine presence. Lions appear throughout ancient Near Eastern royal iconography as guardians; oxen represent agricultural strength and sacrificial service; cherubim are the throne-bearers of God. The loyot ('wreaths, garlands') of ma'aseh morad ('descending work' or 'hammered work') were decorative bronze garlands hanging from the frames."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְאַרְבָּעָ֞ה אוֹפַנֵּ֤י נְחֹ֙שֶׁת֙ לַמְּכוֹנָ֣ה הָאֶחָ֔ת וְסַרְנֵ֖י נְחֹ֑שֶׁת וְאַרְבָּעָ֣ה פַעֲמֹתָ֗יו כְּתֵפֹ֤ת לָהֶם֙ מִתַּ֣חַת לַכִּיֹּ֔ר הַכְּתֵפֹ֥ת יְצֻק֖וֹת מֵעֵ֥בֶר אִ֖ישׁ לֹיֽוֹת׃",
+      "text_kjv": "And every base had four brasen wheels, and plates of brass: and the four corners thereof had undersetters: under the laver were undersetters molten, at the side of every addition.",
+      "rendering": "Each stand had four bronze wheels with bronze axles, and its four legs had supports cast beneath the basin, with wreaths beside each support.",
+      "translator_notes": [
+        "The ofannim ('wheels') make the stands mobile — they could be rolled to wherever the washing was needed in the Temple courtyard. The sarnei nechoshet ('bronze axles') and ketephot ('shoulders, supports, brackets') describe the engineering that held the basins in place above the wheeled frame. The entire assembly was a functional, mobile, ornately decorated piece of sacred equipment."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וּפִ֣יהוּ ׀ מִבֵּ֣ית לַכֹּתֶ֗רֶת וָמַ֙עְלָה֙ בָּאַמָּ֔ה וּפִ֨יהָ֙ עָגֹ֣ל מַעֲשֵׂה־כֵ֔ן אַמָּ֖ה וַחֲצִ֣י הָאַמָּ֑ה וְגַם־עַל־פִּ֙יהָ֙ מִקְלָע֔וֹת וּמִסְגְּרֹתֵיהֶ֥ם מְרֻבָּע֖וֹת לֹ֥א עֲגֻלּֽוֹת׃",
+      "text_kjv": "And the mouth of it within the chapiter and above was a cubit: but the mouth thereof was round after the work of the base, a cubit and an half: and also upon the mouth of it were gravings with their borders, foursquare, not round.",
+      "rendering": "Its opening inside the crown extended upward one cubit. The opening was round, matching the pedestal design — a cubit and a half across. There were also carvings around its opening, but the panels were square, not round.",
+      "translator_notes": [
+        "The pi ('mouth, opening') is the circular socket into which the basin fitted. The contrast between the round opening and the square panels (merubba'ot lo agullot, 'square, not round') reflects the tension between circular and rectangular geometry throughout the Temple's design — the round Sea on square oxen, round basins on square stands. This interplay of forms may reflect cosmological symbolism: the circle of heaven set within the square of earth."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְאַרְבַּ֣עַת הָאוֹפַנִּ֗ים לְמִתַּ֨חַת֙ לַמִּסְגְּר֔וֹת וִיד֥וֹת הָאוֹפַנִּ֖ים בַּמְּכוֹנָ֑ה וְקוֹמַ֛ת הָאוֹפָ֥ן הָאֶחָ֖ד אַמָּ֥ה וַחֲצִ֥י הָאַמָּֽה׃",
+      "text_kjv": "And under the borders were four wheels; and the axletrees of the wheels were joined to the base: and the height of a wheel was a cubit and half a cubit.",
+      "rendering": "The four wheels were beneath the panels, and the wheel axles were attached to the stand. Each wheel was a cubit and a half in height.",
+      "translator_notes": [
+        "Wheels of a cubit and a half (roughly twenty-seven inches) gave the stands adequate ground clearance for movement over the stone pavement of the Temple courtyard. The yadot ('hands, axles') describe the projecting axle ends that connected each wheel to the stand's frame."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וּמַעֲשֵׂ֣ה הָאוֹפַנִּ֔ים כְּמַעֲשֵׂ֖ה אוֹפַ֣ן הַמֶּרְכָּבָ֑ה יְד֣וֹתָ֗ם וְגַבֵּיהֶ֧ם וְחִשֻּׁקֵיהֶ֛ם וְחִשֻּׁרֵיהֶ֖ם הַכֹּ֥ל מוּצָֽק׃",
+      "text_kjv": "And the work of the wheels was like the work of a chariot wheel: their axletrees, and their naves, and their felloes, and their spokes, were all molten.",
+      "rendering": "The wheels were made like chariot wheels — their axles, rims, spokes, and hubs were all cast bronze.",
+      "translator_notes": [
+        "The comparison to ofan ha-merkavah ('a chariot wheel') establishes the quality standard — chariot wheels were the highest engineering achievement of wheeled construction in the ancient Near East. The four components — yadot (axles), gabbeihem (rims/felloes), chishshuqeihem (spokes), and chishshureihem (hubs) — describe complete cast-bronze wheels. Casting an entire wheel in bronze, rather than assembling it from separate parts, required extraordinary foundry skill."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְאַרְבַּ֣ע כְּתֵפ֔וֹת אֶ֚ל אַרְבַּ֣ע פִּנּ֔וֹת הַמְּכוֹנָ֖ה הָאֶחָ֑ת מִן־הַמְּכוֹנָ֖ה כְּתֵפֶֽיהָ׃",
+      "text_kjv": "And there were four undersetters to the four corners of one base: and the undersetters were of the very base itself.",
+      "rendering": "Four supports were at the four corners of each stand, and the supports were cast as one piece with the stand.",
+      "translator_notes": [
+        "The ketephot ('shoulders, supports') at the four corners were integral to the stand — min ha-mekhonah ketepheiha ('from the stand itself were its supports'). This integral casting ensured structural strength: the supports bore the weight of the filled basin without the weakness of joined parts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וּבְרֹ֣אשׁ הַמְּכוֹנָ֗ה חֲצִ֧י הָאַמָּ֛ה קוֹמָ֥ה ׀ עָגֹ֖ל סָבִ֑יב וְעַל֙ רֹ֣אשׁ הַמְּכוֹנָ֔ה יְדֹתֶ֖יהָ וּמִסְגְּרֹתֶ֥יהָ מִמֶּֽנָּה׃",
+      "text_kjv": "And in the top of the base was there a round compass of half a cubit high: and on the top of the base the ledges thereof and the borders thereof were of the same.",
+      "rendering": "On top of each stand was a circular band half a cubit high, and the handles and panels on top of the stand were cast as one piece with it.",
+      "translator_notes": [
+        "The circular band at the top received the basin. The repeated emphasis on integral casting (mimmennah, 'from itself') stresses that these were single-pour castings, not assembled from parts. This was both structurally superior and technically remarkable — each stand was cast as one unified bronze form."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיְפַתַּ֗ח עַל־הַלֻּחֹ֧ת יְדֹתֶ֛יהָ וְעַ֥ל מִסְגְּרֹתֶ֖יהָ כְּרוּבִ֣ים אֲרָי֣וֹת וְתִמֹר֑וֹת כְּמַעַר־אִ֖ישׁ וְלֹי֥וֹת סָבִֽיב׃",
+      "text_kjv": "For on the plates of the ledges thereof, and on the borders thereof, he graved cherubims, lions, and palm trees, according to the proportion of every one, and additions round about.",
+      "rendering": "He engraved on the surfaces of its handles and panels cherubim, lions, and palm trees — each filling its space — with wreaths all around.",
+      "translator_notes": [
+        "The motifs — keruvim (cherubim), arayot (lions), and timorot (palm trees) — form a theological program. Cherubim guard God's presence, lions embody royal power, and palm trees represent life and fertility (they also adorned the Temple walls, 6:29, 32, 35). The phrase ke-ma'ar ish ('according to the space of each,' literally 'like the nakedness of a man') means each figure was scaled to fill its allotted panel space proportionally."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "כָּזֹ֣את עָשָׂ֗ה אֵ֚ת עֶ֣שֶׂר הַמְּכוֹנ֔וֹת מוּצָ֥ק אֶחָ֛ד מִדָּ֥ה אַחַ֖ת קֶ֥צֶב אֶחָֽד׃",
+      "text_kjv": "After this manner he made the ten bases: all of them had one casting, one measure, and one size.",
+      "rendering": "In this way he made all ten stands — one casting method, one set of measurements, one design for all of them.",
+      "translator_notes": [
+        "The threefold echad ('one') — one casting, one measure, one form — emphasizes uniformity and standardization. All ten stands were identical, reflecting the same commitment to ordered repetition visible throughout the Temple's design. The uniformity itself is a theological statement: divine order produces consistency, not chaos."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וַיַּ֛עַשׂ עֲשָׂרָ֥ה כִיֹּר֖וֹת נְחֹ֑שֶׁת אַרְבָּעִ֨ים בַּ֜ת יָכִ֣יל ׀ הַכִּיּ֣וֹר הָאֶחָ֗ד אַרְבַּ֤ע בָּאַמָּה֙ הַכִּיּ֣וֹר הָאֶחָ֔ד כִּיּ֣וֹר אֶחָ֔ד עַל־הַמְּכוֹנָ֥ה הָאֶחָ֖ת לְעֶ֥שֶׂר הַמְּכוֹנֽוֹת׃",
+      "text_kjv": "Then made he ten lavers of brass: one laver contained forty baths: and every laver was four cubits: and upon every one of the ten bases one laver.",
+      "rendering": "He made ten bronze basins, each holding forty baths. Each basin was four cubits across — one basin for each of the ten stands.",
+      "translator_notes": [
+        "The kiyyorot ('basins, lavers') are functional vessels for washing sacrificial portions and priestly purification (2 Chronicles 4:6). At forty baths capacity (roughly 240 gallons each), they were substantial. The total system — ten stands, ten basins, plus the great Sea — represents a comprehensive water infrastructure for the Temple's sacrificial operations."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיִּתֵּ֞ן אֶת־הַמְּכוֹנ֗וֹת חָמֵשׁ֙ עַל־כֶּ֤תֶף הַבַּ֙יִת֙ מִיָּמִ֔ין וְחָמֵ֛שׁ עַל־כֶּ֥תֶף הַבַּ֖יִת מִשְּׂמֹאל֑וֹ וְאֶת־הַיָּ֗ם נָתַ֞ן מִכֶּ֤תֶף הַבַּ֙יִת֙ הַיְמָנִ֔ית קֵ֖דְמָה מִמּ֥וּל נֶֽגֶב׃",
+      "text_kjv": "And he put five bases on the right side of the house, and five on the left side of the house: and he set the sea on the right side of the house eastward over against the south.",
+      "rendering": "He placed five stands on the south side of the Temple and five on the north side. The Sea he set at the southeast corner of the Temple.",
+      "translator_notes": [
+        "The symmetrical placement — five stands on each side — reflects the bilateral symmetry that governs the Temple's layout. The Sea's position at the southeast corner (keteph ha-bayit ha-yemanit qedmah mi-mul negev, literally 'the right shoulder of the house, eastward, opposite the south') places it near the altar, where the priests would need water most frequently for their purification rituals."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וַיַּ֣עַשׂ חִיר֔וֹם אֶת־הַכִּיֹּר֥וֹת וְאֶת־הַיָּעִ֖ים וְאֶת־הַמִּזְרָק֑וֹת וַיְכַ֣ל חִירָ֗ם לַעֲשׂוֹת֙ אֶת־כׇּל־הַמְּלָאכָ֔ה אֲשֶׁ֣ר עָשָׂ֔ה לַמֶּ֥לֶךְ שְׁלֹמֹ֖ה בֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "And Hiram made the lavers, and the shovels, and the basons. So Hiram made an end of doing all the work that he made king Solomon for the house of the LORD.",
+      "rendering": "Hiram also made the pots, the shovels, and the sprinkling bowls. So Hiram finished all the work he had undertaken for King Solomon on the house of the LORD.",
+      "translator_notes": [
+        "The kiyyorot ('pots' — different from the basins in v. 38, these are ash-removal pots), ya'im ('shovels' for clearing the altar), and mizraqot ('sprinkling bowls' for tossing sacrificial blood against the altar) were the everyday working tools of the sacrificial system. The verb vaykhal ('he finished') marks the completion of Hiram's entire commission."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "עַמּוּדִ֣ים שְׁנַ֔יִם וְגֻלֹּ֧ת הַכֹּתָרֹ֛ת אֲשֶׁ֥ר עַל־רֹ֖אשׁ הָעַמּוּדִ֣ים שְׁתָּ֑יִם וְהַשְּׂבָכ֗וֹת שְׁתַּ֗יִם לְכַסּ֛וֹת אֶת־שְׁתֵּ֥י גֻלֹּ֛ת הַכֹּתָרֹ֖ת אֲשֶׁ֥ר עַל־רֹ֖אשׁ הָעַמּוּדִֽים׃",
+      "text_kjv": "The two pillars, and the two bowls of the chapiters that were on the top of the two pillars; and the two networks, to cover the two bowls of the chapiters which were upon the top of the pillars;",
+      "rendering": "The inventory: two pillars; the two bowl-shaped capitals on top of the pillars; the two networks covering the two bowl-shaped capitals on top of the pillars;",
+      "translator_notes": [
+        "The summary list (vv. 41-45) functions as a formal inventory — a record of completed work. The gullot ('bowl-shapes, globes') describe the rounded form of the capitals. This catalogue style is typical of ancient Near Eastern building records, where completed projects were itemized for royal archives."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וְאֶת־הָרִמֹּנִ֕ים אַרְבַּ֣ע מֵא֔וֹת לִשְׁתֵּ֖י הַשְּׂבָכ֑וֹת שְׁנֵ֨י טוּרִ֤ים רִמֹּנִים֙ לַשְּׂבָכָ֣ה הָאֶחָ֔ת לְכַסּ֛וֹת אֶת־שְׁתֵּ֥י גֻלֹּ֛ת הַכֹּתָרֹ֖ת אֲשֶׁ֥ר עַל־פְּנֵ֖י הָעַמּוּדִֽים׃",
+      "text_kjv": "And four hundred pomegranates for the two networks, even two rows of pomegranates for one network, to cover the two bowls of the chapiters that were upon the pillars;",
+      "rendering": "the four hundred pomegranates for the two networks — two rows of pomegranates for each network — covering the two bowl-shaped capitals on the pillars;",
+      "translator_notes": [
+        "Four hundred pomegranates total — two hundred per capital in two rows of one hundred. The pomegranate count has been consistent through the chapter, confirming the earlier description in verse 20."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וְאֶת־הַמְּכֹנ֖וֹת עָ֑שֶׂר וְאֶת־הַכִּיֹּרֹ֥ת עֲשָׂרָ֖ה עַל־הַמְּכֹנֽוֹת׃",
+      "text_kjv": "And the ten bases, and ten lavers on the bases;",
+      "rendering": "the ten stands, and the ten basins on the stands;",
+      "translator_notes": [
+        "The stands and basins are listed as paired units — each basin inseparable from its stand. The inventory preserves the functional relationship between the components."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וְאֶת־הַיָּ֖ם הָאֶחָ֑ד וְאֶת־הַבָּקָ֥ר שְׁנֵי־עָשָׂ֖ר תַּ֥חַת הַיָּֽם׃",
+      "text_kjv": "And one sea, and twelve oxen under the sea;",
+      "rendering": "the one Sea, and the twelve oxen beneath the Sea;",
+      "translator_notes": [
+        "The Sea is listed as 'one' (echad) — singular, unique, unreplicated. Unlike the stands and basins which come in sets of ten, the Sea has no duplicate. Its uniqueness reinforces its cosmic symbolism: there is one primordial ocean, and it is contained in one bronze vessel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וְאֶת־הַסִּיר֧וֹת וְאֶת־הַיָּעִ֛ים וְאֶת־הַמִּזְרָק֑וֹת וְאֵ֣ת כׇּל־הַכֵּלִ֣ים הָאֵ֡לֶּה אֲשֶׁ֣ר עָשָׂ֣ה חִירָ֡ם לַמֶּ֣לֶךְ שְׁלֹמֹ֣ה בֵּ֣ית יְהוָ֗ה נְחֹ֥שֶׁת מְמֹרָֽט׃",
+      "text_kjv": "And the pots, and the shovels, and the basons: and all these vessels, which Hiram made to king Solomon for the house of the LORD, were of bright brass.",
+      "rendering": "the pots, the shovels, and the sprinkling bowls. All these vessels that Hiram made for King Solomon for the house of the LORD were of burnished bronze.",
+      "translator_notes": [
+        "The term nechoshet memorat ('burnished bronze' or 'polished bronze') indicates that every piece was finished to a high shine. Memorat (from marat, 'to polish, to make smooth') describes metal that has been rubbed to a mirror-like surface. The gleaming bronze would have reflected light throughout the Temple courtyard, creating a visual experience of radiance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "בְּכִכַּ֤ר הַיַּרְדֵּן֙ יְצָקָ֣ם הַמֶּ֔לֶךְ בְּמַעֲבֵ֖ה הָאֲדָמָ֑ה בֵּ֥ין סֻכּ֖וֹת וּבֵ֥ין צָרְתָֽן׃",
+      "text_kjv": "In the plain of Jordan did the king cast them, in the clay ground between Succoth and Zarthan.",
+      "rendering": "The king had them cast in the Jordan plain, in clay molds in the ground between Succoth and Zarethan.",
+      "translator_notes": [
+        "The casting location — the kikkar ha-Yarden ('disk of the Jordan,' the flat plain of the Jordan valley) — was chosen for its clay-rich soil suitable for making casting molds. The phrase be-ma'aveh ha-adamah ('in the thickness of the ground,' i.e., in earth molds) describes the lost-wax or sand-casting technique where molds are formed in dense clay. The location between Sukkot and Tsaretan places the foundry in the central Jordan valley, well away from Jerusalem — the massive bronzework was cast in the lowlands and transported uphill to the Temple mount."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וַיַּנַּ֣ח שְׁלֹמֹ֗ה אֶת־כׇּל־הַכֵּלִים֙ מֵרֹ֣ב מְאֹ֣ד מְאֹ֔ד לֹ֥א נֶחְקַ֖ר מִשְׁקַ֥ל הַנְּחֹֽשֶׁת׃",
+      "text_kjv": "And Solomon left all the vessels unweighed, because they were exceeding many: neither was the weight of the brass found out.",
+      "rendering": "Solomon left all the vessels unweighed because there were so very many of them — the weight of the bronze was beyond reckoning.",
+      "translator_notes": [
+        "The phrase me-rov me'od me'od ('from abundance, very, very much') uses a doubled intensifier — extremely excessive abundance. The statement lo nechqar mishqal ha-nechoshet ('the weight of the bronze was not investigated') means the total was simply too great to calculate. This is not administrative negligence but a rhetorical statement about overwhelming abundance — the bronze was, in effect, innumerable."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "וַיַּ֣עַשׂ שְׁלֹמֹ֗ה אֵ֚ת כׇּל־הַכֵּלִ֔ים אֲשֶׁ֖ר בֵּ֣ית יְהוָ֑ה אֵ֚ת מִזְבַּ֣ח הַזָּהָ֔ב וְאֶת־הַשֻּׁלְחָ֗ן אֲשֶׁ֥ר עָלָ֛יו לֶ֥חֶם הַפָּנִ֖ים זָהָֽב׃",
+      "text_kjv": "And Solomon made all the vessels that pertained unto the house of the LORD: the altar of gold, and the table of gold, whereupon the shewbread was,",
+      "rendering": "Solomon also made all the furnishings inside the house of the LORD: the golden altar and the golden table on which the Bread of the Presence was placed,",
+      "translator_notes": [
+        "The narrative shifts from bronze to gold — from the courtyard furnishings to the interior sacred objects. The mizbach ha-zahav ('altar of gold') is the incense altar that stood before the inner sanctuary. The shulchan ('table') held the lechem ha-panim ('bread of the face/presence'), the twelve loaves representing the twelve tribes set before God's face perpetually (Leviticus 24:5-9)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "וְאֶת־הַמְּנֹר֞וֹת חָמֵ֣שׁ מִיָּמִ֗ין וְחָמֵ֛שׁ מִשְּׂמֹ֖אול לִפְנֵ֣י הַדְּבִ֑יר זָהָ֣ב סָג֔וּר וְהַפֶּ֧רַח וְהַנֵּרֹ֛ת וְהַמֶּלְקַחַ֖יִם זָהָֽב׃",
+      "text_kjv": "And the candlesticks of pure gold, five on the right side, and five on the left, before the oracle, with the flowers, and the lamps, and the tongs of gold,",
+      "rendering": "and the lampstands of refined gold — five on the south side and five on the north side, before the inner sanctuary — along with the blossom ornaments, the lamps, and the tongs, all of gold,",
+      "translator_notes": [
+        "The tabernacle had one menorah (Exodus 25:31-40); Solomon's Temple has ten — five on each side. The multiplication reflects the Temple's grander scale. The zahav sagur ('refined gold' or 'enclosed gold') denotes the highest quality of gold, purified to maximum fineness. The perach ('blossom, flower') ornaments on the lampstands echo the almond-blossom design of the tabernacle menorah (Exodus 25:33). The melqachayim ('tongs, snuffers') were used to trim the lamp wicks."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "וְ֠הַסִּפּ֗וֹת וְהַֽמְזַמְּר֧וֹת וְהַמִּזְרָק֛וֹת וְהַכַּפּ֥וֹת וְהַמַּחְתּ֖וֹת זָהָ֣ב סָג֑וּר וְהַפֹּת֡וֹת לְדַלְת֣וֹת הַבַּיִת֩ הַפְּנִימִ֨י לְקֹ֤דֶשׁ הַקֳּדָשִׁים֙ לְדַלְתֵ֣י הַבַּ֔יִת לַהֵיכָ֖ל זָהָֽב׃",
+      "text_kjv": "And the bowls, and the snuffers, and the basons, and the spoons, and the censers of pure gold; and the hinges of gold, both for the doors of the inner house, the most holy place, and for the doors of the house, to wit, of the temple.",
+      "rendering": "and the cups, the wick-trimmers, the sprinkling bowls, the ladles, and the fire pans, all of refined gold; and the gold hinges for the doors of the innermost room — the Holy of Holies — and for the doors of the main hall of the Temple.",
+      "translator_notes": [
+        "The list moves from functional items (sippot — 'cups,' mezammerot — 'wick-trimmers') to ceremonial vessels (mizraqot — 'sprinkling bowls,' kappot — 'ladles/palms,' machtot — 'fire pans/censers') to architectural hardware (potot — 'hinges'). Even the door hinges of the Holy of Holies were gold. The term qodesh ha-qodashim ('holy of holies') appears here as the destination for the innermost doors — the chamber where the ark would rest beneath the cherubim wings."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קֹדֶשׁ הַקֳּדָשִׁים",
+          "transliteration": "qodesh ha-qodashim",
+          "rendered_as": "Holy of Holies",
+          "semantic_range": "holy of holies, most sacred space, innermost sanctuary",
+          "note": "qodesh ha-qodashim is a Hebrew superlative formed by placing the noun in construct with its own plural — literally 'the holy of holies,' meaning the holiest possible space. This is the room where the ark rested, where God's presence dwelled between the cherubim, and which only the high priest entered once per year."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "וַתִּשְׁלַם֙ כׇּל־הַמְּלָאכָ֔ה אֲשֶׁ֥ר עָשָׂ֛ה הַמֶּ֥לֶךְ שְׁלֹמֹ֖ה בֵּ֣ית יְהוָ֑ה וַיָּבֵ֨א שְׁלֹמֹ֜ה אֶת־קׇדְשֵׁ֣י ׀ דָּוִ֣ד אָבִ֗יו אֶת־הַכֶּ֤סֶף וְאֶת־הַזָּהָב֙ וְאֶת־הַכֵּלִ֔ים נָתַ֕ן בְּאֹצְר֖וֹת בֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "So was ended all the work that king Solomon made for the house of the LORD. And Solomon brought in the things which David his father had dedicated; even the silver, and the gold, and the vessels, did he put among the treasures of the house of the LORD.",
+      "rendering": "So all the work that King Solomon did for the house of the LORD was completed. Then Solomon brought in the holy things that David his father had dedicated — the silver, the gold, and the vessels — and placed them in the treasuries of the house of the LORD.",
+      "expanded_rendering": "The verb vatishlam ('and it was completed') shares its root with shalom ('peace, wholeness, completion'). The Temple's completion is itself an act of shalom — the structure is whole, lacking nothing. Solomon then bridges the generations by installing qodshei David aviv ('the holy things of David his father') — the war spoils and dedicated treasures that David had set apart for a Temple he was not permitted to build (2 Samuel 8:11, 1 Chronicles 18:11). The son completes what the father could only prepare.",
+      "translator_notes": [
+        "The root sh-l-m appears in vatishlam ('was completed'), in Shelomoh ('Solomon'), and underlies the concept of shalom. The entire Temple project is linguistically bound to Solomon's name and to the wholeness his reign was meant to embody.",
+        "The qodshei David ('holy things of David') are the items David dedicated from his military conquests (2 Samuel 8:11-12) — silver and gold from defeated nations, set apart for the future Temple. By placing these in the Temple treasuries, Solomon fulfills David's intention and formally transfers the Davidic dedication into the completed house. The chapter ends not with Hiram's bronze or Solomon's gold, but with David's legacy — the father's faith stored in the son's achievement.",
+        "Register departure: shalom rendered as 'completed' rather than default 'peace' because the root sh-l-m here carries its 'wholeness/completion' sense — the Temple work was brought to its whole, finished state. This is a wordplay: Solomon (Shelomoh) completes (sh-l-m) the house."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁלֹם",
+          "transliteration": "shalom",
+          "rendered_as": "completed",
+          "semantic_range": "peace, wholeness, completion, well-being, soundness, prosperity",
+          "note": "shalom here functions in its sense of completeness and wholeness — the Temple is finished, lacking nothing. The root sh-l-m binds together Solomon's name (Shelomoh), the Temple's completion (vatishlam), and the peace that characterizes his reign. The building is literally 'peace-d' — made whole."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

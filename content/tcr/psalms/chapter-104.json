@@ -1,0 +1,406 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 104,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The great creation psalm — a poetic retelling of Genesis 1 that follows the same sequence (light, sky, waters, land, luminaries, sea creatures, humans) but transforms it from narrative prose into ecstatic hymn. God stretches out the heavens like a tent, rides on the clouds, sets the earth on its foundations, sends springs into valleys, causes grass and wine and bread and oil for human sustenance, appoints the moon for seasons, and fills the sea with creatures beyond counting. The psalm ends with a prayer that sinners vanish from the earth and a return to the opening self-summons: 'Bless the LORD, O my soul.'",
+    "remarkable": "Psalm 104 has been compared to the Egyptian Hymn to the Aten attributed to Pharaoh Akhenaten (14th century BCE), and the parallels are striking — both celebrate the sun, the provision of water, the diversity of creatures, and the dependence of all life on the deity. Whether there is direct literary dependence or a shared ancient Near Eastern tradition of creation hymns is debated. What distinguishes Psalm 104 is its theological integration: creation is not autonomous but continuously dependent on God's breath (ruach). Verse 29 is the psalm's theological center: 'When you hide your face, they are terrified; when you take away their breath, they die and return to dust. When you send forth your spirit, they are created, and you renew the face of the ground.' Creation is not a past event but an ongoing act — God sustains everything moment by moment. The psalm's vision is not deistic (God made it and left) but panentheistic in the broad sense: God is actively present in every spring, every cloud, every lion's roar, every ship on the sea.",
+    "friction": "The psalm has no superscription attributing it to David or any other author in the Hebrew text (LXX adds 'of David'). The relationship to Genesis 1 is structural but not slavish — the psalm rearranges some elements and adds others (wine, oil, storks, rock badgers) that Genesis does not mention. The prayer in verse 35 that sinners be consumed from the earth strikes an unexpected note in a creation hymn — why end a celebration of cosmic beauty with a wish for the wicked to vanish? The answer may be that sin is the one element that does not fit the created order; it is the dissonance in the symphony, and the psalmist wants the music to be pure.",
+    "connections": "The creation sequence follows Genesis 1 closely: light (v. 2), sky/waters divided (vv. 3-6), dry land (vv. 7-9), vegetation (vv. 14-17), luminaries (v. 19), sea creatures (v. 25-26), sustenance for all (vv. 27-28). The breath theology of verses 29-30 connects to Genesis 2:7 (God breathes life into the human), Ecclesiastes 12:7 (the spirit returns to God), and Job 34:14-15 (if God withdrew His spirit, all flesh would perish). The Leviathan reference in verse 26 connects to Job 41 and Isaiah 27:1. Paul's speech in Acts 17:25-28 ('in Him we live and move and have our being') echoes this psalm's vision of continuous divine sustenance."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "בָּרְכִ֥י נַפְשִׁ֗י אֶת־יְ֫הוָ֥ה יְהוָ֣ה אֱ֭לֹהַי גָּדַ֣לְתָּ מְּאֹ֑ד ה֖וֹד וְהָדָ֣ר לָבָֽשְׁתָּ׃",
+      "text_kjv": "Bless the LORD, O my soul. O LORD my God, thou art very great; thou art clothed with honour and majesty.",
+      "rendering": "Bless the LORD, O my soul.\nO LORD my God, you are exceedingly great;\nyou are clothed with splendor and majesty.",
+      "translator_notes": [
+        "The clothing metaphor is central to the psalm: God wraps Himself in light (v. 2), stretches out the heavens like a tent curtain (v. 2), and makes clouds His chariot (v. 3). Creation is God's wardrobe — the visible expression of His invisible nature."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "עֹֽטֶה־א֭וֹר כַּשַּׂלְמָ֑ה נוֹטֶ֥ה שָׁ֝מַ֗יִם כַּיְרִיעָֽה׃",
+      "text_kjv": "Who coverest thyself with light as with a garment: who stretchest out the heavens like a curtain:",
+      "rendering": "He wraps Himself in light as a garment;\nHe stretches out the heavens like a tent curtain.",
+      "expanded_rendering": "The first act of creation in Genesis 1 is light, and the psalm begins there: oteh or kassalmah ('wrapping light like a robe'). God's first garment is light itself — not a created object but a wearable radiance. The parallel line — noteh shamayim kayeri'ah ('stretching out the heavens like a curtain') — pictures God pulling the sky across the cosmos the way a nomad stretches a tent cloth over poles. The verb natah ('to stretch, to extend') implies effort and intentionality. The yeri'ah ('curtain, tent sheet') is the fabric of a dwelling — the sky is God's tent, and He spread it out by hand. The metaphor domesticates the cosmos: the universe is a tent God pitched.",
+      "translator_notes": [
+        "The verb natah ('to stretch out') applied to the heavens appears in Isaiah 40:22, 42:5, 44:24, and Job 9:8. It became a standard theological formula: God 'stretches out' the sky. The tent curtain metaphor suggests that the heavens are not a permanent structure but a fabric God spread — and could, presumably, fold up again (as Psalm 102:27 suggests)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "הַ֭מְקָרֶה בַמַּ֣יִם עֲלִיּוֹתָ֑יו הַשָּׂם־עָבִ֥ים רְ֝כוּב֗וֹ הַֽמְהַלֵּ֥ךְ עַל־כַּנְפֵי־רֽוּחַ׃",
+      "text_kjv": "Who layeth the beams of his chambers in the waters: who maketh the clouds his chariot: who walketh upon the wings of the wind:",
+      "rendering": "He lays the beams of His upper chambers on the waters;\nHe makes the clouds His chariot;\nHe walks on the wings of the wind.",
+      "translator_notes": [
+        "The verb meqareh ('lays beams, constructs with beams') uses architectural language — God builds His upper rooms (aliyyotav) on the cosmic waters above the firmament. The ancient Near Eastern cosmology places water above the sky-dome, and God's palace sits upon those waters. The clouds are His rekhuvo ('His chariot') and the wind (ruach) is His steed. The imagery is of a divine king moving through His realm with cosmic elements as His transportation."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "עֹשֶׂ֣ה מַלְאָכָ֣יו רוּח֑וֹת מְ֝שָׁרְתָ֗יו אֵ֣שׁ לֹהֵֽט׃",
+      "text_kjv": "Who maketh his angels spirits; his ministers a flaming fire:",
+      "rendering": "He makes winds His messengers,\nflaming fire His servants.",
+      "expanded_rendering": "This verse is famously ambiguous. It can be read two ways: 'He makes His angels winds' (angels take the form of wind) or 'He makes winds His messengers' (natural forces serve God's purposes). The Hebrew allows both. The word mal'akhav can mean 'His angels' or 'His messengers,' and ruchot can mean 'winds' or 'spirits.' The parallelism supports the second reading in this creation context: God deploys winds and fire as His agents. Hebrews 1:7 quotes this verse in the Septuagint's reading and uses it to argue that angels are servants, while the Son is enthroned — the psalm's poetic ambiguity becomes christological argument.",
+      "translator_notes": [
+        "The LXX reads 'He makes His angels spirits and His ministers a flame of fire,' and Hebrews 1:7 follows this reading to argue for the Son's superiority over angels. The Hebrew text in its creation-hymn context more likely means that natural forces — wind and fire — serve as God's agents in the world. Both readings are theologically productive."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "יָֽסַד־אֶ֭רֶץ עַל־מְכוֹנֶ֑יהָ בַּל־תִּ֝מּ֗וֹט עוֹלָ֥ם וָעֶֽד׃",
+      "text_kjv": "Who laid the foundations of the earth, that it should not be removed for ever.",
+      "rendering": "He set the earth on its foundations,\nso that it will never be shaken.",
+      "translator_notes": [
+        "The verb yasad ('to found, to lay a foundation') pictures God as a master builder. The mekhoneiha ('its foundations, its bases') are the pillars or supports on which the earth rests — the ancient cosmological image of the earth as a structure built upon foundations (see also Job 38:4-6). The promise bal timmot olam va-ed ('it will not be moved forever and ever') asserts the permanence of God's construction. The earth is stable because God made it so."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "תְּ֭הוֹם כַּלְּב֣וּשׁ כִּסִּית֑וֹ עַל־הָ֝רִ֗ים יַעַמְד֥וּ מָֽיִם׃",
+      "text_kjv": "Thou coveredst it with the deep as with a garment: the waters stood above the mountains.",
+      "rendering": "You draped the deep over it as with a garment;\nthe waters stood above the mountains.",
+      "translator_notes": [
+        "The tehom ('the deep') is the primordial ocean of Genesis 1:2 — the watery chaos that covered everything before God separated the waters. The psalm pictures this as a garment (kallevush) that covered the earth — the deep wrapped the world like a robe. The phrase al harim ya'amdu mayim ('above the mountains the waters stood') describes the pre-creation state: even the highest points on earth were submerged. The following verses will describe God commanding these waters to retreat."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "תְּהוֹם",
+          "transliteration": "tehom",
+          "rendered_as": "the deep",
+          "semantic_range": "the deep, the abyss, primordial ocean, cosmic waters, the watery chaos",
+          "note": "tehom is the Hebrew cognate of the Akkadian Tiamat, the chaos sea-goddess in the Babylonian creation epic. In Genesis and the Psalms, tehom is depersonalized — it is not a goddess but a force that God commands. The deep obeys."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "מִן־גַּעֲרָ֣תְךָ֣ יְנוּס֑וּן מִן־ק֥וֹל רַ֝עַמְךָ֗ יֵחָפֵזֽוּן׃",
+      "text_kjv": "At thy rebuke they fled; at the voice of thy thunder they hasted away.",
+      "rendering": "At your rebuke they fled;\nat the sound of your thunder they rushed away.",
+      "translator_notes": [
+        "The verb yenusun ('they fled') and yechafezun ('they hurried, they rushed') give the waters personality — they respond to God's ga'aratekha ('your rebuke') like soldiers scattering before a commander. The qol ra'amekha ('voice of your thunder') is God's weapon: His voice is thunder, and thunder drives the waters back. The retreat of the primordial waters is not a gradual process but a panicked flight before divine authority."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "יַעֲל֣וּ הָ֭רִים יֵרְד֣וּ בְקָע֑וֹת אֶל־מְ֝ק֗וֹם זֶ֤ה ׀ יָסַ֬דְתָּ לָהֶֽם׃",
+      "text_kjv": "They go up by the mountains; they go down by the valleys unto the place which thou hast founded for them.",
+      "rendering": "Mountains rose, valleys sank down,\nto the place you appointed for them.",
+      "translator_notes": [
+        "The subject could be the waters or the landforms. We read it as the landscape reshaping itself in response to God's command: mountains ascend (ya'alu harim) and valleys descend (yerdu veqa'ot). The phrase el maqom zeh yasadta lahem ('to the place you founded for them') means each feature of the landscape has an assigned position. Geography is not random but ordered — God placed each mountain and valley where it belongs."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "גְּֽבוּל־שַׂ֭מְתָּ בַּל־יַעֲבֹר֑וּן בַּל־יְ֝שׁוּב֗וּן לְכַסּ֥וֹת הָאָֽרֶץ׃",
+      "text_kjv": "Thou hast set a bound that they may not pass over; that they turn not again to cover the earth.",
+      "rendering": "You set a boundary they cannot cross;\nthey will not return to cover the earth.",
+      "translator_notes": [
+        "God sets a gevul ('boundary, border, limit') for the waters. The waters are not destroyed but contained — they have a territory they must not exceed. The phrase bal yeshuvun lekhassot ha-arets ('they will not return to cover the earth') is a creation covenant: God promises that the primordial flood state will not recur. This echoes the Noahic covenant in Genesis 9:11, though the psalm frames it as a creation ordinance rather than a post-flood promise."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "הַֽמְשַׁלֵּ֣חַ מַ֭עְיָנִים בַּנְּחָלִ֑ים בֵּ֖ין הָרִ֣ים יְהַלֵּכֽוּן׃",
+      "text_kjv": "He sendeth the springs into the valleys, which run among the hills.",
+      "rendering": "He sends springs into the valleys;\nthey flow between the mountains.",
+      "translator_notes": [
+        "The scene shifts from primordial cosmology to living landscape. God meshalleach ma'yanim ('sends forth springs') — the verb shalach means to dispatch on a mission. The springs are agents sent by God to water the earth. The nachalim ('wadis, valleys, ravines') are the channels through which the water flows, and the springs run bein harim ('between the mountains'). The water that was chaos in verse 6 is now life-giving irrigation, domesticated by divine purpose."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "יַ֭שְׁקוּ כׇּל־חַיְת֣וֹ שָׂדָ֑י יִשְׁבְּר֖וּ פְרָאִ֣ים צְמָאָֽם׃",
+      "text_kjv": "They give drink to every beast of the field: the wild asses quench their thirst.",
+      "rendering": "They water every beast of the field;\nthe wild donkeys quench their thirst.",
+      "translator_notes": [
+        "The springs serve the animals: kol chaito sadai ('every living thing of the field'). The specific example — pera'im ('wild donkeys') — highlights the most independent, untamed creatures of the steppe. Even they depend on God's springs. The verb yishberu ('they break, they quench') applied to thirst means to shatter it, to end it completely. God provides for creatures that serve no human purpose — the wild donkey is useless to agriculture, yet God waters it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "עֲ֭לֵיהֶם עוֹף־הַשָּׁמַ֣יִם יִשְׁכּ֑וֹן מִבֵּ֥ין עֳ֝פָאיִ֗ם יִתְּנוּ־קֽוֹל׃",
+      "text_kjv": "By them shall the fowls of the heaven have their habitation, which sing among the branches.",
+      "rendering": "Beside them the birds of the heavens dwell;\nfrom among the branches they sing.",
+      "translator_notes": [
+        "The springs create habitat: the birds of the heavens (of ha-shamayim) settle beside the water sources. The phrase mi-bein ofayim ('from among the foliage, the branches') locates the birds in the trees that grow near water. The verb yittenu qol ('they give voice, they sing') is the birds' response to God's provision — their singing is an unconscious form of praise, a natural doxology that the psalmist recognizes as worship."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "מַשְׁקֶ֣ה הָ֭רִים מֵעֲלִיּוֹתָ֑יו מִפְּרִ֥י מַ֝עֲשֶׂ֗יךָ תִּשְׂבַּ֥ע הָאָֽרֶץ׃",
+      "text_kjv": "He watereth the hills from his chambers: the earth is satisfied with the fruit of thy works.",
+      "rendering": "He waters the mountains from His upper chambers;\nthe earth is satisfied with the fruit of your works.",
+      "translator_notes": [
+        "God waters the mountains from His aliyyotav ('His upper rooms') — the same celestial chambers mentioned in verse 3, where God laid beams on the waters. Rain falls from God's palace. The phrase mi-peri ma'asekha ('from the fruit of your works') means the earth's satisfaction comes from what God produces — rain is God's 'fruit.' The verb tisba ('is satisfied') uses the same root as verse 5's mesabbe'a — God satisfies both human desire and the earth itself."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "מַצְמִ֤יחַ חָצִ֨יר ׀ לַבְּהֵמָ֗ה וְ֭עֵשֶׂב לַעֲבֹדַ֣ת הָאָדָ֑ם לְה֥וֹצִיא לֶ֝֗חֶם מִן־הָאָֽרֶץ׃",
+      "text_kjv": "He causeth the grass to grow for the cattle, and herb for the service of man: that he may bring forth food out of the earth;",
+      "rendering": "He causes grass to grow for the livestock\nand plants for human labor,\nbringing food from the earth.",
+      "translator_notes": [
+        "The verb matsmia'ch (Hiphil of tsamach, 'to sprout, to cause to grow') credits God with agriculture. The chatsir ('grass') serves the behemah ('livestock, cattle, domestic animals'), and the esev ('plants, herbs, vegetation') serves the avodat ha-adam ('the labor/service of humans'). The phrase lehotsi lechem min ha-arets ('to bring forth bread from the earth') is the purpose of human agricultural labor — but the underlying cause is God's growth. Humans work, but God makes things grow."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְיַ֤יִן ׀ יְשַׂמַּ֬ח לְֽבַב־אֱנ֗וֹשׁ לְהַצְהִ֣יל פָּנִ֣ים מִשָּׁ֑מֶן וְ֝לֶ֗חֶם לְֽבַב־אֱנ֥וֹשׁ יִסְעָֽד׃",
+      "text_kjv": "And wine that maketh glad the heart of man, and oil to make his face to shine, and bread which strengtheneth man's heart.",
+      "rendering": "And wine to gladden the human heart,\noil to make the face shine,\nand bread to sustain the human heart.",
+      "expanded_rendering": "The psalm catalogs three gifts of the cultivated earth: yayin ('wine') that yesammach levav enosh ('gladdens the human heart'), shemen ('oil') that makes the face shine (lehatshil panim — the glow of health and celebration), and lechem ('bread') that yis'ad ('sustains, supports, strengthens') the heart. The triad covers celebration (wine), beauty (oil), and sustenance (bread). Together they represent the fullness of agricultural blessing. The word enosh ('human, mortal') appears twice, emphasizing that these gifts are for frail, mortal creatures — God provides joy, beauty, and strength to beings made of dust.",
+      "translator_notes": [
+        "Wine, oil, and bread are the three staples of the Mediterranean agricultural economy and the three elements of festive celebration. The psalm treats them as divine gifts, not human achievements. God causes the growth; humans harvest the result. The theological point is that even the most ordinary meal is sustained by God's creative power."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "יִ֭שְׂבְּעוּ עֲצֵ֣י יְהוָ֑ה אַֽרְזֵ֥י לְ֝בָנ֗וֹן אֲשֶׁ֣ר נָטָֽע׃",
+      "text_kjv": "The trees of the LORD are full of sap; the cedars of Lebanon, which he hath planted;",
+      "rendering": "The trees of the LORD drink their fill —\nthe cedars of Lebanon that He planted.",
+      "translator_notes": [
+        "The atsei YHVH ('trees of the LORD') are trees so massive and ancient that they can only be God's own planting. The cedars of Lebanon (arzei Levanon) were the tallest, most majestic trees known to the ancient Israelite world. The verb yisbe'u ('they are satisfied, they drink their fill') applies the language of contentment to trees — they too are recipients of God's provision. The clause asher nata ('which He planted') attributes their existence to God's direct action. No human planted the cedars of Lebanon; God did."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אֲשֶׁר־שָׁ֭ם צִפֳּרִ֣ים יְקַנֵּ֑נוּ חֲ֝סִידָ֗ה בְּרוֹשִׁ֥ים בֵּיתָֽהּ׃",
+      "text_kjv": "Where the birds make their nests: as for the stork, the fir trees are her house.",
+      "rendering": "There the birds build their nests;\nthe stork — the cypresses are her home.",
+      "translator_notes": [
+        "The cedars provide habitat. The tsipporim ('birds') nest in them, and the chasidah ('stork') makes her home in the beroshim ('cypresses, fir trees'). The word chasidah is from the root chesed — the stork is literally 'the faithful one,' named for its attentive care of its young. Even the naming of animals reflects covenantal vocabulary. The detail is ecological: tall trees house specific birds, and the psalm delights in this specificity."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "הָרִ֣ים הַ֭גְּבֹהִים לַיְּעֵלִ֑ים סְ֝לָעִ֗ים מַחְסֶ֥ה לַשְׁפַנִּֽים׃",
+      "text_kjv": "The high hills are a refuge for the wild goats; and the rocks for the conies.",
+      "rendering": "The high mountains belong to the wild goats;\nthe cliffs are a refuge for the rock badgers.",
+      "translator_notes": [
+        "The ye'elim ('wild goats, ibex') inhabit the highest, most inaccessible peaks; the shefannim ('rock badgers, hyrax') hide in the cliff crevices. Both are creatures that serve no agricultural purpose and live beyond human reach. Yet God provides habitat for them. The psalm's ecological vision is non-utilitarian: creation exists not merely for human benefit but because God delights in its diversity."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "עָשָׂ֣ה יָ֭רֵחַ לְמוֹעֲדִ֑ים שֶׁ֝֗מֶשׁ יָדַ֥ע מְבוֹאֽוֹ׃",
+      "text_kjv": "He appointed the moon for seasons: the sun knoweth his going down.",
+      "rendering": "He made the moon for appointed times;\nthe sun knows its setting.",
+      "translator_notes": [
+        "The yareach ('moon') serves le-mo'adim ('for appointed times, for festivals'). The Hebrew liturgical calendar is lunar — the mo'adim (the festivals of Leviticus 23) are determined by the moon's phases. The moon is not merely decorative but functional in God's worship system. The sun (shemesh) yada mevo'o ('knows its going down') — the sun is personified as knowing when to set. The celestial bodies are obedient servants who know their schedule."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "תָּֽשֶׁת־חֹ֭שֶׁךְ וִ֣יהִי לָ֑יְלָה בּ֝וֹ־תִרְמֹ֗שׂ כׇּל־חַיְתוֹ־יָֽעַר׃",
+      "text_kjv": "Thou makest darkness, and it is night: wherein all the beasts of the forest do creep forth.",
+      "rendering": "You appoint darkness and it becomes night,\nwhen every creature of the forest stirs.",
+      "translator_notes": [
+        "God sets (tashet) the darkness — choshekh is not an absence but an appointment. Night is not the failure of day but a purposeful creation. The phrase bo tirmosh kol chayto ya'ar ('in it every beast of the forest creeps about') means night belongs to the animals — it is their time to emerge, hunt, and move. The psalm's vision includes the nocturnal world as part of God's good order."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "הַ֭כְּפִירִים שֹׁאֲגִ֣ים לַטָּ֑רֶף וּלְבַקֵּ֖שׁ מֵאֵ֣ל אׇכְלָֽם׃",
+      "text_kjv": "The young lions roar after their prey, and seek their meat from God.",
+      "rendering": "The young lions roar for prey,\nseeking their food from God.",
+      "translator_notes": [
+        "The kephirim ('young lions') roar (sho'agim) for their prey (taraph). The psalm interprets their hunting as prayer: u-levaqesh me-El okhlam ('and to seek from God their food'). The lion's roar is, in the psalm's theology, a petition to God for sustenance. Every predator, in the act of hunting, is unconsciously asking God for dinner. This is radical theological ecology: the food chain is a prayer chain."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "תִּזְרַ֣ח הַ֭שֶּׁמֶשׁ יֵאָסֵפ֑וּן וְאֶל־מְ֝עוֹנֹתָ֗ם יִרְבָּצֽוּן׃",
+      "text_kjv": "The sun ariseth, they gather themselves together, and lay them down in their dens.",
+      "rendering": "The sun rises — they withdraw\nand lie down in their dens.",
+      "translator_notes": [
+        "At dawn, the nocturnal creatures retreat. The verb ye'asefun ('they gather themselves, they withdraw') and yirbbatsun ('they crouch, they lie down') describe the ordered transition from night to day. The me'onotam ('their dens, their lairs') are their assigned places. Night and day each have their inhabitants, and the rotation is seamless. The psalm presents the 24-hour cycle as a choreographed performance."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "יֵצֵ֣א אָדָ֣ם לְפׇעֳל֑וֹ וְ֝לַעֲבֹ֥דָת֗וֹ עֲדֵי־עָֽרֶב׃",
+      "text_kjv": "Man goeth forth unto his work and to his labour until the evening.",
+      "rendering": "Humans go out to their work\nand to their labor until evening.",
+      "translator_notes": [
+        "The human appears in the psalm for the first time since verse 15 — and the role is modest. Humans go out to work (le-fo'olo) and labor (la'avodato) until evening (adei arev). The human occupies one slot in the daily cycle: the daytime shift. Lions hunt at night; humans work by day. The psalm does not privilege human activity — it is one part of a larger pattern. The word adam ('human') is generic, not a name."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "מָֽה־רַבּ֬וּ מַעֲשֶׂ֨יךָ ׀ יְֽהוָ֗ה כֻּ֭לָּם בְּחׇכְמָ֣ה עָשִׂ֑יתָ מָלְאָ֥ה הָ֝אָ֗רֶץ קִנְיָנֶֽךָ׃",
+      "text_kjv": "O LORD, how manifold are thy works! in wisdom hast thou made them all: the earth is full of thy creatures.",
+      "rendering": "How many are your works, O LORD!\nIn wisdom you made them all;\nthe earth is full of your creatures.",
+      "expanded_rendering": "The psalm pauses for exclamation: mah rabbu ma'asekha YHVH ('how many are your works, LORD!'). The verb rabbu ('they are many, they are great') expresses both quantity and quality. The key word is chokmah ('wisdom'): kullam be-chokmah asita ('all of them in wisdom you made'). Every creature, every ecosystem, every daily cycle is the product of divine wisdom — not random process but intelligent design in the deepest sense. The earth is male'ah qinyanekha ('full of your possessions, your creatures'). The word qinyan ('possession, acquisition, creature') means everything on earth belongs to God. The creation is God's property, made by God's wisdom, sustained by God's breath.",
+      "translator_notes": [
+        "The word chokmah ('wisdom') connects this psalm to the wisdom tradition — Proverbs 8:22-31 pictures wisdom as God's companion in creation. The psalm affirms that the created order is wise, not merely powerful. The diversity of life is evidence of intelligence, not chaos."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "זֶ֤ה ׀ הַיָּ֥ם גָּד֗וֹל וּרְחַ֥ב יָדָ֑יִם שָֽׁם־רֶ֭מֶשׂ וְאֵ֣ין מִסְפָּ֑ר חַיּ֖וֹת קְטַנּ֣וֹת עִם־גְּדֹלֽוֹת׃",
+      "text_kjv": "So is this great and wide sea, wherein are things creeping innumerable, both small and great beasts.",
+      "rendering": "There is the sea, vast and wide,\nteeming with creatures beyond number —\nliving things both small and great.",
+      "translator_notes": [
+        "The zeh hayyam gadol u-rechav yadayim ('this sea, great and broad of hands/extent') introduces the ocean as a marvel. The phrase ein mispar ('without number') means the sea creatures are uncountable — not because the psalmist is lazy but because the abundance exceeds human inventory. The juxtaposition of qetannot im gedolot ('small with great') highlights the range: from plankton to whale, the sea contains every scale of life."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "שָׁ֭ם אֳנִיּ֣וֹת יְהַלֵּכ֑וּן לִ֝וְיָתָ֗ן זֶֽה־יָצַ֥רְתָּ לְשַׂחֶק־בּֽוֹ׃",
+      "text_kjv": "There go the ships: there is that leviathan, whom thou hast made to play therein.",
+      "rendering": "There the ships travel,\nand Leviathan, whom you formed to play in it.",
+      "expanded_rendering": "The ships (oniyyot) are human technology — they traverse the sea, but they do not own it. Then comes the psalm's most playful line: Livyatan zeh yatsarta lesacheq bo ('Leviathan — this one you formed to sport in it'). Leviathan, the great sea monster that in other texts represents primordial chaos (Isaiah 27:1, Job 41), is here reduced to God's bath toy. The verb lesacheq ('to play, to sport') means God made Leviathan for recreation — the most terrifying creature in the ancient imagination is God's plaything. The theological subversion is complete: what terrifies humans amuses God. Chaos is God's pet.",
+      "translator_notes": [
+        "The word Livyatan (from lavah, 'to twist, to coil') is the great sea serpent of ancient Near Eastern mythology. In Ugaritic texts, Lotan is the seven-headed chaos dragon defeated by Baal. In Isaiah 27:1, God will slay Leviathan with a sword. But in this psalm, Leviathan plays in the sea like a dolphin. The psalm has domesticated cosmic chaos through divine humor."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "כֻּ֭לָּם אֵלֶ֣יךָ יְשַׂבֵּר֑וּן לָתֵ֖ת אׇכְלָ֣ם בְּעִתּֽוֹ׃",
+      "text_kjv": "These wait all upon thee; that thou mayest give them their meat in due season.",
+      "rendering": "All of them look to you\nto give them their food in its time.",
+      "translator_notes": [
+        "The verb yesabberu ('they look expectantly, they wait') pictures all creatures — from rock badgers to Leviathan — turning their faces toward God and waiting. The phrase latet okhlam be-itto ('to give their food in its season') means God feeds each creature at the right time. The psalm's vision of universal dependence is both ecological and theological: every feeding event in nature is God's act of provision."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "תִּתֵּ֣ן לָ֭הֶם יִלְקֹט֑וּן תִּפְתַּ֥ח יָ֝דְךָ֗ יִשְׂבְּע֥וּן טֽוֹב׃",
+      "text_kjv": "That thou givest them they gather: thou openest thine hand, they are filled with good.",
+      "rendering": "When you give to them, they gather;\nwhen you open your hand, they are filled with good.",
+      "translator_notes": [
+        "The two clauses establish a direct chain: God gives (titten), creatures gather (yilqotun); God opens His hand (tiftach yadekha), creatures are satisfied with good (yisbe'un tov). The hand of God is the source — when it opens, abundance flows; when it closes, scarcity follows. The verb laqat ('to gather, to glean') is the verb used for gathering manna in Exodus 16. All food-gathering in all of nature is a form of manna-gathering."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "תַּסְתִּ֣יר פָּ֭נֶיךָ יִבָּהֵל֑וּן תֹּסֵ֥ף ר֝וּחָ֗ם יִגְוָע֥וּן וְאֶל־עֲפָרָ֥ם יְשׁוּבֽוּן׃",
+      "text_kjv": "Thou hidest thy face, they are troubled: thou takest away their breath, they die, and return to their dust.",
+      "rendering": "When you hide your face, they are terrified;\nwhen you take away their breath, they die\nand return to their dust.",
+      "expanded_rendering": "This is the psalm's theological center. The phrase tastir panekha ('you hide your face') means God withdraws His attention — and the result is yibbahelun ('they are dismayed, terrified'). Life depends on God's face being turned toward creation. The next line is more severe: tosef rucham ('you gather their breath/spirit') — God recalls the ruach He lent them, and yigva'un ('they expire'). Death is God taking back what He loaned. The final phrase — ve-el apharam yeshuvun ('and to their dust they return') — echoes Genesis 3:19 ('dust you are and to dust you shall return'). Every death in nature is a return to the raw material. But the next verse will reverse this: God's spirit does not merely withdraw but also re-creates.",
+      "translator_notes": [
+        "The verb asaph ('to gather, to collect') applied to ruach means God retrieves the breath of life He distributed. Life is a loan, not a possession. The triad — hiding face, gathering breath, returning to dust — describes the mechanics of death as a divine act, not a natural process. God is as involved in death as in life."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רוּחַ",
+          "transliteration": "ruach",
+          "rendered_as": "breath",
+          "semantic_range": "breath, wind, spirit, the animating force of life, God's creative power",
+          "note": "ruach in this verse means the life-breath God gives to all creatures. When God withdraws it, they die. When God sends it forth (v. 30), new life is created. ruach is the thread that connects creation, sustenance, death, and renewal."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "תְּשַׁלַּ֣ח ר֭וּחֲךָ יִבָּרֵא֑וּן וּ֝תְחַדֵּ֗שׁ פְּנֵ֣י אֲדָמָֽה׃",
+      "text_kjv": "Thou sendest forth thy spirit, they are created: and thou renewest the face of the earth.",
+      "rendering": "When you send forth your spirit, they are created,\nand you renew the face of the ground.",
+      "expanded_rendering": "The reversal: teshalach ruchakha ('you send forth your spirit/breath') and yibbareun ('they are created'). The verb bara ('to create') — the exclusive divine verb of Genesis 1 — appears here in the Niphal: new creatures come into being when God sends His ruach. Creation is not a past event locked in the first week; it is continuous. God's spirit creates, and creates, and creates. The final phrase — u-techadesh penei adamah ('and you renew the face of the ground') — uses chadash ('to make new, to renew') to describe the earth's ongoing refreshment. The adamah ('ground, soil') whose face is renewed is the same adamah from which the adam was formed in Genesis 2:7. The psalm envisions a cosmos in perpetual renewal, sustained breath by breath by the spirit of God.",
+      "translator_notes": [
+        "The verb bara appears only with God as subject in the Hebrew Bible. Its use here means that every new generation of creatures is a genuine act of creation, not merely biological reproduction. The psalm collapses the distinction between original creation and ongoing sustenance — both are the work of God's ruach."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "יְהִ֤י כְב֣וֹד יְהוָ֣ה לְעוֹלָ֑ם יִשְׂמַ֖ח יְהוָ֣ה בְּמַעֲשָֽׂיו׃",
+      "text_kjv": "The glory of the LORD shall endure for ever: the LORD shall rejoice in his works.",
+      "rendering": "May the glory of the LORD endure forever;\nmay the LORD rejoice in His works.",
+      "translator_notes": [
+        "The phrase yehi khevod YHVH le-olam ('let the glory of the LORD be forever') is a wish that God's kavod — His manifest splendor — never diminishes. The parallel line — yismach YHVH be-ma'asav ('let the LORD rejoice in His works') — pictures God delighting in creation. The verb samach ('to rejoice') applied to God means the Creator takes pleasure in what He has made. This echoes Genesis 1:31: 'God saw everything that He had made, and it was very good.' The psalm wants that divine delight to continue."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כָּבוֹד",
+          "transliteration": "kavod",
+          "rendered_as": "glory",
+          "semantic_range": "glory, honor, weight, heaviness, splendor, radiance, the manifest presence of God",
+          "note": "Here kavod is the visible evidence of God's presence in creation. The prayer is that this manifestation continue forever — that creation always display God's splendor."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "הַמַּבִּ֣יט לָ֭אָרֶץ וַתִּרְעָ֑ד יִגַּ֖ע בֶּהָרִ֣ים וְיֶעֱשָֽׁנוּ׃",
+      "text_kjv": "He looketh on the earth, and it trembleth: he toucheth the hills, and they smoke.",
+      "rendering": "He looks at the earth and it trembles;\nHe touches the mountains and they smoke.",
+      "translator_notes": [
+        "The God who plays with Leviathan and sends springs for birds can also make the earth quake with a glance (hamabbit la-arets vatir'ad) and set mountains smoking with a touch (yigga beharim veye'eshanu). The verbs are instantaneous: God looks — the earth trembles; God touches — the mountains erupt. The psalm reminds the listener that the gentle provider of verses 10-28 is also the terrifying Lord of Sinai (Exodus 19:18). Power and tenderness are not contradictions in God."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "אָשִׁ֣ירָה לַיהוָ֣ה בְּחַיָּ֑י אֲזַמְּרָ֖ה לֵאלֹהַ֣י בְּעוֹדִֽי׃",
+      "text_kjv": "I will sing unto the LORD as long as I live: I will sing praise to my God while I have my being.",
+      "rendering": "I will sing to the LORD as long as I live;\nI will make music to my God while I exist.",
+      "translator_notes": [
+        "The psalmist pledges lifelong praise: be-chayyai ('in my life, as long as I live') and be-odi ('while I still exist, while I have being'). The word od ('still, yet, continuance') acknowledges that existence is temporary — the psalmist knows from verse 29 that his breath is on loan. The response to borrowed breath is praise: I will use every breath I have to sing."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "יֶעֱרַ֣ב עָלָ֣יו שִׂיחִ֑י אָ֝נֹכִ֗י אֶשְׂמַ֥ח בַּיהוָֽה׃",
+      "text_kjv": "My meditation of him shall be sweet: I will be glad in the LORD.",
+      "rendering": "May my meditation be pleasing to Him;\nI will rejoice in the LORD.",
+      "translator_notes": [
+        "The verb ye'erav ('may it be sweet, pleasing') expresses the hope that the psalmist's sichi ('meditation, musing, complaint') will be acceptable to God — that it will taste good to Him, like a pleasing sacrifice. The psalmist then declares anokhi esmach ba-YHVH ('I, I will rejoice in the LORD') — the emphatic pronoun anokhi adds personal force. This is the psalmist's individual response to the cosmic panorama: joy in God."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "יִתַּ֤מּוּ חַטָּאִ֨ים ׀ מִן־הָאָ֗רֶץ וּרְשָׁעִ֤ים ׀ ע֤וֹד אֵינָ֗ם בָּרְכִ֣י נַ֭פְשִׁי אֶת־יְהוָ֗ה הַֽלְלוּ־יָֽהּ׃",
+      "text_kjv": "Let the sinners be consumed out of the earth, and let the wicked be no more. Bless thou the LORD, O my soul. Praise ye the LORD.",
+      "rendering": "Let sinners vanish from the earth,\nand let the wicked be no more.\nBless the LORD, O my soul.\nPraise the LORD!",
+      "expanded_rendering": "The psalm's penultimate line surprises: yittammu chatta'im min ha-arets ('let sinners be finished from the earth'). The verb tamam ('to be complete, to be finished') here means to be used up, to cease existing. After thirty-four verses of celebrating creation's beauty and order, the psalmist identifies the one element that does not fit: sin. The u-resha'im od einam ('and the wicked — they are no more') expresses a longing for the world to match its design. If God made everything in wisdom, if every creature has its place, then wickedness is the anomaly — the one thing in creation that does not belong. The psalm ends with the frame closing: barekhi nafshi et YHVH ('bless the LORD, O my soul') and the first appearance of halelu Yah ('praise the LORD!') — a liturgical acclamation that will dominate the final psalms of the Psalter.",
+      "translator_notes": [
+        "The appearance of halelu Yah ('praise the LORD') here is the first occurrence of this liturgical phrase in the Psalter's final collection. It will become the signature exclamation of Psalms 146-150. Some scholars attach the halelu Yah to the beginning of Psalm 105 rather than the end of 104 — the Masoretic text places it here."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

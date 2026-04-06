@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Kings",
+    "chapter": 5,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Hiram king of Tyre sends envoys to Solomon, and the two kings forge an alliance for the construction of the Temple. Solomon explains that David could not build because of surrounding wars, but now God has given rest on every side. Hiram supplies cedar and cypress timber from Lebanon in exchange for wheat and oil. Solomon conscripts thirty thousand laborers from Israel, rotating them to Lebanon in shifts of ten thousand per month, and appoints seventy thousand burden-bearers and eighty thousand stonecutters in the hill country, overseen by thirty-three hundred foremen.",
+    "remarkable": "This chapter is the hinge between promise and construction. The word menuchah ('rest') in verse 18 is the theological trigger: David could not build because there was no rest; Solomon can build because God has given rest on every side. The entire Deuteronomic program -- conquest, settlement, rest, then centralized worship -- reaches its intended sequence here. But the chapter also reveals the human cost. The mas ('forced labor') conscripted from 'all Israel' in verse 27 uses the same vocabulary as Egyptian slavery. Solomon builds God's house using the methods of Pharaoh. The narrator records this without explicit commentary, but the echoes are deafening. The chapter also establishes the first international trade alliance in Israel's history: Israelite grain for Phoenician timber, Israelite labor for Lebanese cedar. The Temple will be built from foreign materials by Israelite hands -- a theological statement about the nations contributing to God's dwelling place, and a political statement about the cost of grandeur.",
+    "friction": "The WLC versification of this chapter differs significantly from the KJV. WLC chapter 5 contains 32 verses, beginning with material the KJV places at 4:21 and continuing through KJV 5:18. We follow the Hebrew versification throughout. The labor numbers present a historical puzzle: thirty thousand conscripts rotating in ten-thousand shifts (verse 27-28) plus seventy thousand carriers and eighty thousand quarry workers (verse 29) totals approximately 180,000 laborers. Whether these numbers are literal, conventional for 'very large,' or include non-Israelite workers alongside Israelites is debated. The text says 'all Israel' was conscripted (verse 27), but 9:22 later claims Solomon did not make Israelites into slaves. This tension is real and unresolved in the text itself.",
+    "connections": "Solomon's declaration that God has given menuchah ('rest') fulfills Deuteronomy 12:10-11, which stipulates that centralized worship at a chosen place can begin only after God grants rest from all surrounding enemies. David's inability to build because of war (verse 17) echoes 2 Samuel 7:1-13 and 1 Chronicles 22:8, where God tells David that his son -- a man of peace -- will build the house. The cedar of Lebanon as building material connects to the forests described in the Song of Songs (3:9) and to the eschatological restoration of Lebanon in Isaiah 35:2 and 60:13, where Lebanon's glory adorns God's sanctuary."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיִּשְׁלַ֨ח חִירָ֜ם מֶ֣לֶךְ־צֹ֗ר אֶת־עֲבָדָיו֙ אֶל־שְׁלֹמֹ֔ה כִּ֣י שָׁמַ֔ע כִּ֥י אֹת֖וֹ מָשְׁח֣וּ לְמֶ֑לֶךְ תַּ֣חַת אָבִ֔יהוּ כִּ֣י אֹהֵ֗ב הָיָ֨ה חִירָ֧ם לְדָוִ֛ד כׇּל־הַיָּמִֽים׃",
+      "text_kjv": "And Hiram king of Tyre sent his servants unto Solomon; for he had heard that they had anointed him king in the room of his father: for Hiram was ever a lover of David.",
+      "rendering": "Hiram king of Tyre sent his servants to Solomon, because he had heard that Solomon had been anointed king in his father's place. For Hiram had always been an ally of David.",
+      "translator_notes": [
+        "The verb shalach ('he sent') initiates the diplomatic exchange. Hiram acts first -- the Phoenician king reaches out to the Israelite king, not the reverse. The reason given is twofold: the news of Solomon's anointing, and the pre-existing relationship (ohev hayah Chiram le-David kol ha-yamim, 'Hiram had been a lover/ally of David all the days'). The word ohev ('lover, friend') in diplomatic contexts means 'covenant partner, political ally' -- the same term used in treaty language throughout the ancient Near East."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיִּשְׁלַ֥ח שְׁלֹמֹ֖ה אֶל־חִירָ֥ם לֵאמֹֽר׃",
+      "text_kjv": "And Solomon sent to Hiram, saying,",
+      "rendering": "Solomon sent word to Hiram, saying:",
+      "translator_notes": [
+        "The brevity of this transition -- vayyishlach Shelomoh el Chiram lemor -- moves directly from Hiram's initiative to Solomon's formal response. The verb shalach is now reciprocal: Hiram sent, Solomon sends back. Diplomatic symmetry frames the exchange."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אַתָּ֣ה יָדַ֗עְתָּ אֶת־דָּוִ֣ד אָבִי֒ כִּ֣י לֹ֤א יָכֹל֙ לִבְנ֣וֹת בַּ֔יִת לְשֵׁ֖ם יְהוָ֣ה אֱלֹהָ֑יו מִפְּנֵ֣י הַמִּלְחָמָ֗ה אֲשֶׁ֤ר סְבָבֻ֙הוּ֙ עַ֣ד תֵּ֣ת יְהוָ֔ה אֹתָ֖ם תַּ֥חַת כַּפּ֥וֹת רַגְלָֽיו׃",
+      "text_kjv": "Thou knowest how that David my father could not build an house unto the name of the LORD his God for the wars which were about him on every side, until the LORD put them under the soles of his feet.",
+      "rendering": "You know that my father David was unable to build a house for the name of the LORD his God because of the wars that surrounded him, until the LORD placed his enemies under the soles of his feet.",
+      "expanded_rendering": "Solomon's opening to Hiram is a theological explanation, not a military briefing. The phrase livnot bayit le-shem YHWH ('to build a house for the name of the LORD') introduces the bayit ('house') theme that has governed the narrative since 2 Samuel 7: David wanted to build God a house, but God said he would build David a house (dynasty), and David's son would build the physical house. Now Solomon claims the role. The reason for David's inability is hammilchamah asher sevavuhu ('the war that surrounded him') -- not personal disqualification but circumstantial impossibility. God has now placed those enemies tachat kappot raglav ('under the soles of his feet'), an image of total subjugation drawn from ancient Near Eastern conquest iconography where victorious kings literally stood on the necks of defeated foes.",
+      "translator_notes": [
+        "Solomon addresses Hiram with attah yadata ('you yourself know'), appealing to shared knowledge between allied courts. David's wars were not a moral failing but a historical reality that prevented temple construction. The Chronicler adds that God explicitly told David he could not build because he was a man of blood (1 Chronicles 22:8), but the Kings narrative focuses on the practical obstacle of ongoing warfare."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בַּיִת",
+          "transliteration": "bayit",
+          "rendered_as": "house",
+          "semantic_range": "house, household, dynasty, temple, family line, palace",
+          "note": "bayit carries the full double meaning established in the Nathan oracle (2 Samuel 7): both a physical structure (temple) and a royal dynasty. Solomon builds the physical bayit that fulfills the promise God made about David's dynastic bayit."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְעַתָּ֕ה הֵנִ֨יחַ יְהוָ֧ה אֱלֹהַ֛י לִ֖י מִסָּבִ֑יב אֵ֣ין שָׂטָ֔ן וְאֵ֖ין פֶּ֥גַע רָֽע׃",
+      "text_kjv": "But now the LORD my God hath given me rest on every side, so that there is neither adversary nor evil occurrent.",
+      "rendering": "But now the LORD my God has given me rest on every side. There is no adversary and no threat of harm.",
+      "translator_notes": [
+        "The word heniach ('he has caused to rest') is the Hiphil of nuach -- God is the active agent who gives rest. The crucial term satan here means 'adversary, accuser, opponent' in its common noun sense -- not the proper name of a supernatural figure. Solomon declares ein satan ('there is no adversary'), a claim of total geopolitical security. The phrase ein pega ra ('no harmful occurrence, no evil encounter') completes the picture: not even random misfortune threatens. This is the Deuteronomic condition for temple construction fulfilled."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׂטָן",
+          "transliteration": "satan",
+          "rendered_as": "adversary",
+          "semantic_range": "adversary, accuser, opponent, obstructer",
+          "note": "satan here is a common noun meaning 'opponent' or 'adversary,' not a proper name. The same word appears as a title for the heavenly accuser in Job 1-2 and Zechariah 3:1, but in this context it refers to human political or military opponents. Solomon is declaring that no enemy nation threatens Israel."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְהִנְנִ֣י אֹמֵ֗ר לִבְנ֤וֹת בַּ֙יִת֙ לְשֵׁ֣ם יְהוָ֣ה אֱלֹהָ֔י כַּאֲשֶׁ֨ר דִּבֶּ֤ר יְהוָה֙ אֶל־דָּוִ֣ד אָבִ֔י לֵאמֹ֕ר בִּנְךָ֗ אֲשֶׁ֨ר אֶתֵּ֤ן תַּחְתֶּ֙יךָ֙ עַל־כִּסְאֶ֔ךָ ה֥וּא יִבְנֶ֥ה הַבַּ֖יִת לִשְׁמִֽי׃",
+      "text_kjv": "And, behold, I purpose to build an house unto the name of the LORD my God, as the LORD spake unto David my father, saying, Thy son, whom I will set upon thy throne in thy room, he shall build an house unto my name.",
+      "rendering": "So now I intend to build a house for the name of the LORD my God, just as the LORD promised my father David: 'Your son, whom I will place on your throne in your place -- he will build the house for my name.'",
+      "translator_notes": [
+        "Solomon quotes the Nathan oracle (2 Samuel 7:12-13) directly to a foreign king, treating God's covenant promise as the authorization for his building project. The phrase le-shem YHWH ('for the name of the LORD') appears twice in this exchange (verses 3 and 5), establishing that the Temple is fundamentally a house for God's Name -- his revealed identity and presence -- rather than a house containing God himself. This distinction will become explicit in Solomon's dedication prayer (chapter 8)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְעַתָּ֡ה צַוֵּה֩ וְיִכְרְתוּ־לִ֨י אֲרָזִ֜ים מִן־הַלְּבָנ֗וֹן וַעֲבָדַי֙ יִהְי֣וּ עִם־עֲבָדֶ֔יךָ וּשְׂכַ֤ר עֲבָדֶ֙יךָ֙ אֶתֵּ֣ן לְךָ֔ כְּכֹ֖ל אֲשֶׁ֣ר תֹּאמֵ֑ר כִּ֣י ׀ אַתָּ֣ה יָדַ֗עְתָּ כִּ֣י אֵ֤ין בָּ֙נוּ֙ אִ֔ישׁ יֹדֵ֛עַ לִכְרֹ֥ת עֵצִ֖ים כַּצִּדֹנִֽים׃",
+      "text_kjv": "Now therefore command thou that they hew me cedar trees out of Lebanon; and my servants shall be with thy servants: and unto thee will I give hire for thy servants according to all that thou shalt say: for thou knowest that there is not among us any that can skill to hew timber like unto the Sidonians.",
+      "rendering": "So now give orders for cedars to be cut for me from Lebanon. My servants will work alongside your servants, and I will pay your servants' wages at whatever rate you set. For you know that there is no one among us skilled in felling timber like the Sidonians.",
+      "translator_notes": [
+        "Solomon's request is specific and deferential: tsavveh ('command, give the order') acknowledges Hiram's sovereignty over the Lebanon forests. The admission ein banu ish yodea likhrot etsim ka-Tsidonim ('there is no one among us who knows how to cut timber like the Sidonians') is remarkably candid for a king writing to an ally. Solomon openly states Israel's deficiency in forestry and lumber technology, recognizing Phoenician expertise. The Sidonians (a general term for Phoenicians) were the ancient world's master woodsmen and shipbuilders."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיְהִ֗י כִּשְׁמֹ֤עַ חִירָם֙ אֶת־דִּבְרֵ֣י שְׁלֹמֹ֔ה וַיִּשְׂמַ֥ח מְאֹ֖ד וַיֹּ֑אמֶר בָּר֤וּךְ יְהוָה֙ הַיּ֔וֹם אֲשֶׁ֨ר נָתַ֤ן לְדָוִד֙ בֵּ֣ן חָכָ֔ם עַ֖ל הָעָ֥ם הָרַ֥ב הַזֶּֽה׃",
+      "text_kjv": "And it came to pass, when Hiram heard the words of Solomon, that he rejoiced greatly, and said, Blessed be the LORD this day, which hath given unto David a wise son over this great people.",
+      "rendering": "When Hiram heard Solomon's words, he rejoiced greatly and said, \"Blessed be the LORD today, who has given David a wise son to rule over this great people.\"",
+      "translator_notes": [
+        "Hiram blesses YHWH by name -- barukh YHWH ha-yom ('blessed be the LORD this day'). Whether this represents genuine devotion to Israel's God or diplomatic courtesy toward an ally's deity is ambiguous. Phoenician kings were polytheistic, but treaty language often invoked the partner's god. Hiram's words echo the language of chapter 3: God gave Solomon chokmah ('wisdom'), and Hiram recognizes it. The phrase ben chakham ('a wise son') validates Solomon's fitness as David's successor."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיִּשְׁלַ֥ח חִירָ֖ם אֶל־שְׁלֹמֹ֣ה לֵאמֹ֑ר שָׁמַ֕עְתִּי אֵ֥ת אֲשֶׁר־שָׁלַ֖חְתָּ אֵלָ֑י אֲנִ֣י אֶעֱשֶׂ֗ה אֶת־כׇּל־חֶפְצְךָ֛ בַּעֲצֵ֥י אֲרָזִ֖ים וּבַעֲצֵ֥י בְרוֹשִֽׁים׃",
+      "text_kjv": "And Hiram sent to Solomon, saying, I have considered the things which thou sentest to me for: and I will do all thy desire concerning timber of cedar, and concerning timber of fir.",
+      "rendering": "Hiram sent word to Solomon: \"I have heard what you sent to me. I will fulfill your every desire for cedar timber and cypress timber.\"",
+      "translator_notes": [
+        "Hiram responds with total agreement: ani e'eseh et kol cheftsekha ('I will do all your desire'). The two timber types are arazim ('cedars') and beroshim ('cypresses' or 'junipers'). Cedar was the premium construction wood of the ancient Near East -- fragrant, rot-resistant, and strong. Cypress served as secondary structural timber and decorative paneling. Both grew abundantly in the Lebanon mountains and were Tyre's most valuable export commodity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "עֲבָדַי֩ יֹרִ֨דוּ מִן־הַלְּבָנ֜וֹן יָ֗מָּה וַאֲנִ֣י אֲשִׂימֵ֡ם דֹּבְרוֹת֩ בַּיָּ֨ם עַד־הַמָּק֜וֹם אֲשֶׁר־תִּשְׁלַ֤ח אֵלַי֙ וְנִפַּצְתִּ֣ים שָׁ֔ם וְאַתָּ֖ה תִּשָּׂ֑א וְאַתָּה֙ תַּעֲשֶׂ֣ה אֶת־חֶפְצִ֔י לָתֵ֥ת לֶ֖חֶם בֵּיתִֽי׃",
+      "text_kjv": "My servants shall bring them down from Lebanon unto the sea: and I will convey them by sea in floats unto the place that thou shalt appoint me, and will cause them to be discharged there, and thou shalt receive them: and thou shalt accomplish my desire, in giving food for my household.",
+      "rendering": "My servants will bring them down from Lebanon to the sea. I will make them into rafts on the sea and float them to whatever place you designate. I will have them broken apart there, and you will carry them away. And you will fulfill my desire by providing food for my household.",
+      "translator_notes": [
+        "The logistics are precise: timber felled in the Lebanon mountains, dragged downhill to the Mediterranean coast, assembled into doverot ('rafts, log-floats') for sea transport, then disassembled at the destination port (likely Joppa, modern Jaffa). The verb nifatstem ('I will break them apart') describes disassembling the rafts into individual logs for overland transport to Jerusalem. Hiram's reciprocal demand is lechem beiti ('food for my household') -- grain provisions for the Tyrian royal court."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיְהִ֣י חִירָ֗ם נֹתֵ֤ן לִשְׁלֹמֹה֙ עֲצֵ֣י אֲרָזִ֔ים וַעֲצֵ֖י בְּרוֹשִׁ֑ים כׇּל־חֶפְצֽוֹ׃",
+      "text_kjv": "So Hiram gave Solomon cedar trees and fir trees according to all his desire.",
+      "rendering": "So Hiram supplied Solomon with all the cedar and cypress timber he wanted.",
+      "translator_notes": [
+        "The summary statement kol cheftso ('all his desire') emphasizes complete satisfaction of the order. The trade relationship is presented as smooth and mutually beneficial -- a model of international cooperation that the narrator records without criticism at this point."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וּשְׁלֹמֹ֗ה נָתַ֣ן לְחִירָם֮ עֶשְׂרִ֣ים אֶ֣לֶף כֹּ֣ר חִטִּים֒ מַכֹּ֣לֶת לְבֵית֔וֹ וְעֶשְׂרִ֥ים כֹּ֖ר שֶׁ֣מֶן כָּתִ֑ית כֹּֽה־יִתֵּ֧ן שְׁלֹמֹ֛ה לְחִירָ֖ם שָׁנָ֥ה בְשָׁנָֽה׃",
+      "text_kjv": "And Solomon gave Hiram twenty thousand measures of wheat for food to his household, and twenty measures of beaten oil: thus gave Solomon to Hiram year by year.",
+      "rendering": "Solomon gave Hiram twenty thousand cors of wheat as provisions for his household, and twenty cors of pressed olive oil. Solomon provided this to Hiram year after year.",
+      "translator_notes": [
+        "Twenty thousand cors of wheat (approximately 4.4 million liters of grain) and twenty cors of shemen katit ('pressed oil,' the finest grade, cold-pressed from the first extraction) represent an enormous annual payment. The olive oil quantity seems small compared to the wheat, but katit oil was the premium grade -- the same quality used in the tabernacle lampstand (Exodus 27:20). The phrase shanah be-shanah ('year by year') indicates this was not a one-time payment but an ongoing trade obligation lasting throughout the construction period and beyond."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיהוָ֗ה נָתַ֤ן חׇכְמָה֙ לִשְׁלֹמֹ֔ה כַּאֲשֶׁ֖ר דִּבֶּר־ל֑וֹ וַיְהִ֣י שָׁלֹ֗ם בֵּ֤ין חִירָם֙ וּבֵ֣ין שְׁלֹמֹ֔ה וַיִּכְרְת֥וּ בְרִ֖ית שְׁנֵיהֶֽם׃",
+      "text_kjv": "And the LORD gave Solomon wisdom, as he promised him: and there was peace between Hiram and Solomon; and they two made a league together.",
+      "rendering": "The LORD gave Solomon wisdom, just as he had promised him. There was peace between Hiram and Solomon, and the two of them cut a covenant.",
+      "translator_notes": [
+        "The narrator interjects a theological interpretation: God's gift of wisdom (chapter 3) is what made this diplomacy possible. The phrase vayyikhrethu verit sheneihem ('the two of them cut a covenant') uses the standard Hebrew idiom for treaty-making -- karat berit ('to cut a covenant'), referring to the cutting of animals in ratification rituals (Genesis 15:9-18). This is a formal international treaty between Israel and Tyre, not merely a trade agreement."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, alliance, pact, agreement, bond",
+          "note": "berit between human parties means a binding treaty with obligations on both sides. The verb karat ('to cut') reflects the ritual of cutting sacrificial animals to solemnize the agreement. Solomon's covenant with Hiram is the first formal international treaty in Israelite history conducted as an equal partnership rather than a vassal arrangement."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיַּ֨עַל הַמֶּ֥לֶךְ שְׁלֹמֹ֛ה מַ֖ס מִכׇּל־יִשְׂרָאֵ֑ל וַיְהִ֣י הַמַּ֔ס שְׁלֹשִׁ֥ים אֶ֖לֶף אִֽישׁ׃",
+      "text_kjv": "And king Solomon raised a levy out of all Israel; and the levy was thirty thousand men.",
+      "rendering": "King Solomon raised a forced labor levy from all Israel. The levy totaled thirty thousand men.",
+      "translator_notes": [
+        "The verb ya'al ('he raised, he brought up') combined with mas ('forced labor, corvee') describes compulsory state labor. The phrase mikkol Yisra'el ('from all Israel') indicates this conscription was nationwide, not limited to specific tribes or to non-Israelite populations. This is the moment the narrator wants the reader to feel: the king of Israel is conscripting his own people for labor gangs, using the same institution (mas) that Pharaoh imposed on Israel in Egypt."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיִּשְׁלָחֵ֣ם לְבָנ֗וֹנָה עֲשֶׂ֨רֶת אֲלָפִ֤ים בַּחֹ֙דֶשׁ֙ חֲלִיפ֔וֹת חֹ֣דֶשׁ ׀ יִהְי֣וּ בַלְּבָנ֗וֹן שְׁנַ֤יִם חֳדָשִׁים֙ בְּבֵית֔וֹ וַאֲדֹנִירָ֖ם עַל־הַמַּֽס׃",
+      "text_kjv": "And he sent them to Lebanon, ten thousand a month by courses: a month they were in Lebanon, and two months at home: and Adoniram was over the levy.",
+      "rendering": "He sent them to Lebanon in rotating shifts of ten thousand per month -- one month in Lebanon, two months at home. Adoniram was over the forced labor.",
+      "translator_notes": [
+        "The rotation system (chalifot, 'shifts, exchanges') was designed to distribute the burden: each man served one month out of three. Even so, removing ten thousand working men from the economy each month represented a massive disruption to agriculture and family life. Adoniram (the same official from 4:6) administered the entire labor system. His name means 'my lord is exalted' -- an ironic designation for the overseer of forced labor gangs."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיְהִ֧י לִשְׁלֹמֹ֛ה שִׁבְעִ֥ים אֶ֖לֶף נֹשֵׂ֣א סַבָּ֑ל וּשְׁמֹנִ֥ים אֶ֖לֶף חֹצֵ֥ב בָּהָֽר׃",
+      "text_kjv": "And Solomon had threescore and ten thousand that bare burdens, and fourscore thousand hewers in the mountains;",
+      "rendering": "Solomon had seventy thousand burden-bearers and eighty thousand stonecutters in the hill country,",
+      "translator_notes": [
+        "The nosei savval ('burden-bearers, carriers') transported stone and materials from quarry to construction site. The chotsev ba-har ('hewers in the mountain') were quarry workers cutting stone blocks from the limestone hills. These 150,000 workers are apparently separate from the thirty thousand timber conscripts in verse 13. The scale of the labor force rivals the great building projects of Egypt and Mesopotamia."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "לְ֠בַ֠ד מִשָּׂרֵ֨י הַנִּצָּבִ֤ים לִשְׁלֹמֹה֙ אֲשֶׁ֣ר עַל־הַמְּלָאכָ֔ה שְׁלֹ֥שֶׁת אֲלָפִ֖ים וּשְׁלֹ֣שׁ מֵא֑וֹת הָרֹדִ֣ים בָּעָ֔ם הָעֹשִׂ֖ים בַּמְּלָאכָֽה׃",
+      "text_kjv": "Beside the chief of Solomon's officers which were over the work, three thousand and three hundred, which ruled over the people that wrought in the work.",
+      "rendering": "besides Solomon's three thousand three hundred chief overseers who supervised the work and directed the laborers.",
+      "translator_notes": [
+        "The sarei ha-nitstsavim ('chief officers stationed over') served as foremen. The verb rodim ('ruling, dominating') is strong -- the same root (radah) used for human dominion over animals in Genesis 1:26 and for harsh rule in Leviticus 25:43, 46. The 3,300 foremen 'ruling over the people doing the work' echoes the language of Egyptian taskmasters. The parallel in 2 Chronicles 2:17 gives 3,600 overseers, a minor numerical discrepancy common in ancient texts."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיְצַ֣ו הַמֶּ֗לֶךְ וַיַּסִּ֙עוּ֙ אֲבָנִ֣ים גְּדֹל֔וֹת אֲבָנִ֖ים יְקָר֑וֹת לְיַסֵּ֥ד הַבַּ֖יִת אַבְנֵ֥י גָזִֽית׃",
+      "text_kjv": "And the king commanded, and they brought great stones, costly stones, and hewed stones, to lay the foundation of the house.",
+      "rendering": "The king commanded, and they quarried large stones -- costly stones -- dressed stones to lay the foundation of the house.",
+      "translator_notes": [
+        "Three adjectives describe the foundation stones: gedolot ('great, large'), yeqarot ('costly, precious'), and gazit ('dressed, hewn'). The term avanei gazit refers to stones precisely cut and squared with tools, distinguishing them from rough fieldstone. The foundation of the Temple required enormous ashlar blocks, similar to those still visible in the Western Wall retaining structure. The phrase leyassed ha-bayit ('to lay the foundation of the house') marks the first physical construction action in the narrative."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַֽיִּפְסְלוּ֙ בֹּנֵ֣י שְׁלֹמֹ֔ה וּבֹנֵ֖י חִירָ֑ם וְהַגִּבְלִ֕ים וַיָּכִ֧ינוּ הָעֵצִ֛ים וְהָאֲבָנִ֖ים לִבְנ֥וֹת הַבָּֽיִת׃",
+      "text_kjv": "And Solomon's builders and Hiram's builders did hew them, and the stonesquarers: so they prepared timber and stones to build the house.",
+      "rendering": "Solomon's builders, Hiram's builders, and the Gebalites cut and shaped the timber and stones to build the house.",
+      "translator_notes": [
+        "The Givlim ('Gebalites') are craftsmen from Gebal (Byblos), the ancient Phoenician port city north of Beirut renowned for its stonework and building expertise. Three groups collaborate: Israelite builders, Tyrian builders, and Byblian specialists. The verb vayyifselhu ('they cut, they carved') and the verb vayyakhinu ('they prepared') describe the pre-fabrication of materials at the quarry and forest before transport to Jerusalem. This international workforce -- Israelite, Tyrian, and Gebalite -- foreshadows the Temple's theological significance as a 'house of prayer for all nations' (Isaiah 56:7)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיְהִ֗י בִּשְׁמֹנִ֤ים שָׁנָה֙ וְאַרְבַּ֣ע מֵא֣וֹת שָׁנָ֔ה לְצֵ֥את בְּנֵי־יִשְׂרָאֵ֖ל מֵאֶ֣רֶץ מִצְרָ֑יִם בַּשָּׁנָ֨ה הָרְבִיעִ֜ית בְּחֹ֣דֶשׁ זִ֗ו ה֚וּא הַחֹ֣דֶשׁ הַשֵּׁנִ֔י לִמְלֹ֥ךְ שְׁלֹמֹ֖ה עַל־יִשְׂרָאֵ֑ל וַיִּ֥בֶן הַבַּ֖יִת לַיהוָֽה׃",
+      "text_kjv": "And it came to pass in the four hundred and eightieth year after the children of Israel were come out of the land of Egypt, in the fourth year of Solomon's reign over Israel, in the month Zif, which is the second month, that he began to build the house of the LORD.",
+      "rendering": "In the four hundred and eightieth year after the Israelites came out of the land of Egypt, in the fourth year of Solomon's reign over Israel, in the month of Ziv -- that is, the second month -- he began to build the house of the LORD.",
+      "expanded_rendering": "The chronological formula links the Temple directly to the Exodus. The narrator counts time not from creation, not from Abraham, but from the departure from Egypt -- making the Temple the culmination of the redemption story. Four hundred and eighty years (likely a schematic number representing twelve generations of forty years each) spans the entire period from deliverance to permanent worship. The month of Ziv (the pre-exilic name for the second month, later called Iyyar) means 'radiance' or 'splendor' -- the house of the LORD begins in the month of light. Solomon's fourth year places this after his consolidation of power, his prayer for wisdom, and his administrative reorganization. Everything to this point has been preparation.",
+      "translator_notes": [
+        "The 480 years has generated extensive scholarly debate. If taken literally, it dates the Exodus to approximately 1446 BCE. Many scholars view it as a symbolic number (12 x 40) representing generational completeness. The month name Ziv belongs to the old Canaanite calendar, replaced after the exile by Babylonian month names. The narrator glosses it as 'the second month' for readers unfamiliar with the pre-exilic calendar."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְהַבַּ֗יִת אֲשֶׁ֨ר בָּנָ֜ה הַמֶּ֤לֶךְ שְׁלֹמֹה֙ לַיהוָ֔ה שִׁשִּׁ֤ים אַמָּה֙ אׇרְכּ֔וֹ וְעֶשְׂרִ֥ים רׇחְבּ֖וֹ וּשְׁלֹשִׁ֥ים אַמָּ֖ה קוֹמָתֽוֹ׃",
+      "text_kjv": "And the house which king Solomon built for the LORD, the length thereof was threescore cubits, and the breadth thereof twenty cubits, and the height thereof thirty cubits.",
+      "rendering": "The house that King Solomon built for the LORD was sixty cubits long, twenty cubits wide, and thirty cubits high.",
+      "translator_notes": [
+        "At approximately 90 feet long, 30 feet wide, and 45 feet high (using an 18-inch cubit), the Temple was not enormous by ancient Near Eastern standards -- Mesopotamian temples and Egyptian halls were larger. Its significance was theological, not architectural. The proportions are precisely double those of the tabernacle (Exodus 26:15-30), making the Temple a permanent, expanded version of the wilderness dwelling. The 3:1 length-to-width ratio and the overall rectangular plan follow the standard tripartite temple design found throughout the Levant."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְהָאוּלָ֗ם עַל־פְּנֵי֙ הֵיכַ֣ל הַבַּ֔יִת עֶשְׂרִ֣ים אַמָּ֔ה אׇרְכּ֖וֹ עַל־פְּנֵ֣י רֹ֣חַב הַבָּ֑יִת עֶ֧שֶׂר בָּאַמָּ֛ה רׇחְבּ֖וֹ עַל־פְּנֵ֥י הַבָּֽיִת׃",
+      "text_kjv": "And the porch before the temple of the house, twenty cubits was the length thereof, according to the breadth of the house; and ten cubits was the breadth thereof before the house.",
+      "rendering": "The entrance hall in front of the temple hall of the house was twenty cubits long, matching the width of the house, and ten cubits deep, extending from the front of the house.",
+      "translator_notes": [
+        "The ulam ('entrance hall, vestibule, porch') was the first space one entered. It matched the full width of the building (twenty cubits) but extended only ten cubits in depth. The term heikhal ('temple hall, main hall') here refers to the central worship space behind the vestibule. The tripartite structure -- ulam (vestibule), heikhal (main hall), devir (inner sanctuary) -- follows a plan well attested in Syrian and Phoenician temples of the same period, particularly at Tell Tayinat and Ain Dara."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הֵיכַל",
+          "transliteration": "heikhal",
+          "rendered_as": "temple hall",
+          "semantic_range": "temple, palace, main hall, nave, great hall",
+          "note": "heikhal derives from Sumerian E.GAL ('great house') and can mean either 'temple' or 'palace.' In Temple architecture it designates the main worship hall between the vestibule and the inner sanctuary -- the space where the altar of incense, the lampstands, and the tables of showbread stood."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיַּ֣עַשׂ לַבָּ֔יִת חַלּוֹנֵ֖י שְׁקֻפִ֥ים אֲטֻמִֽים׃",
+      "text_kjv": "And for the house he made windows of narrow lights.",
+      "rendering": "He made windows for the house with recessed frames.",
+      "translator_notes": [
+        "The phrase challonei shequfim atumim is among the most debated architectural terms in the Hebrew Bible. Shequfim may mean 'wide-framed' or 'with beams/frames,' and atumim may mean 'narrow, closed, latticed.' The combined sense is probably windows that were wide on the inside and narrow on the outside (splayed windows), allowing light in while maintaining structural integrity -- a common feature in ancient Near Eastern temple and fortress architecture."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיִּ֣בֶן עַל־קִ֣יר הַבַּ֡יִת יָצִ֣יעַ סָבִיב֩ אֶת־קִיר֨וֹת הַבַּ֤יִת סָבִיב֙ לַהֵיכָ֣ל וְלַדְּבִ֔יר וַיַּ֥עַשׂ צְלָע֖וֹת סָבִֽיב׃",
+      "text_kjv": "And against the wall of the house he built chambers round about, against the walls of the house round about, both of the temple and of the oracle: and he made chambers round about:",
+      "rendering": "He built a side structure against the wall of the house all around -- against the walls of both the temple hall and the inner sanctuary -- and he made side rooms all around.",
+      "translator_notes": [
+        "The yatsia ('side structure, annex') was a multi-story addition built against the Temple's exterior walls on three sides. The tsela'ot ('side rooms, chambers') within this structure served for storage of temple vessels, treasuries, and priestly quarters. The term devir appears here for the first time -- the innermost room of the Temple, the Holy of Holies. The side structure surrounded both the heikhal (main hall) and the devir (inner sanctuary), creating a buffer zone between the sacred interior and the outside world."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "חָמֵ֨שׁ בָּאַמָּ֜ה רׇחְבּ֣וֹ הַתַּחְתֹּנָ֗ה וְשֵׁ֤שׁ בָּֽאַמָּה֙ רֹ֙חַב֙ הַתִּ֣יכֹנָ֔ה וְשֶׁ֧בַע בָּאַמָּ֛ה רֹ֖חַב הַשְּׁלִישִׁ֑ית כִּ֡י מִגְרָעוֹת֩ נָתַ֨ן לַבַּ֤יִת סָבִיב֙ ח֔וּצָה לְבִלְתִּ֖י אֲחֹ֥ז בְּקִירֽוֹת הַבָּֽיִת׃",
+      "text_kjv": "The nethermost chamber was five cubits broad, and the middle was six cubits broad, and the third was seven cubits broad: for without in the wall of the house he made narrowed rests round about, that the beams should not be fastened in the walls of the house.",
+      "rendering": "The lowest story was five cubits wide, the middle was six cubits wide, and the third was seven cubits wide. For he made offset ledges around the outside of the house so that the beams would not be inserted into the Temple walls.",
+      "translator_notes": [
+        "The progressively wider stories (5, 6, 7 cubits) resulted from migraot ('offsets, recessions') -- stepped ledges built into the Temple's exterior wall at each level. The beams of the side structure rested on these ledges rather than being embedded in the Temple wall itself. The reason is stated explicitly: le-vilti achoz be-qirot ha-bayit ('so as not to grip the walls of the house'). The Temple walls were to remain structurally inviolate -- nothing foreign was to penetrate the sacred enclosure's walls."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְהַבַּ֙יִת֙ בְּהִבָּ֣נֹת֔וֹ אֶ֧בֶן שְׁלֵמָ֛ה מַסָּ֖ע נִבְנָ֑ה וּמַקָּב֤וֹת וְהַגַּרְזֶן֙ כׇּל־כְּלִ֣י בַרְזֶ֔ל לֹ֥א נִשְׁמַ֖ע בַּבַּ֥יִת בְּהִבָּנֹתֽוֹ׃",
+      "text_kjv": "And the house, when it was in building, was built of stone made ready before it was brought thither: so that there was neither hammer nor axe nor any tool of iron heard in the house, while it was in building.",
+      "rendering": "When the house was being built, it was constructed with stones finished at the quarry, so that no hammer, chisel, or any iron tool was heard at the house during its construction.",
+      "expanded_rendering": "This verse describes a construction method of extraordinary intentionality. Every stone was cut, shaped, and fitted at the quarry site before transport, so that the Temple mount itself was a place of silence during assembly. The phrase lo nishma ba-bayit ('was not heard in the house') emphasizes acoustic sanctity -- the Temple rose without the violence of metal on stone. The theological resonance is powerful: the altar law in Exodus 20:25 forbade cutting altar stones with iron tools because 'if you wield your sword upon it, you profane it.' Solomon extends this principle to the entire building. The house of God is assembled, not manufactured. It comes together as if by divine ordering, not human force.",
+      "translator_notes": [
+        "The term even shelemah massa ('complete quarried stone') means stones fully dressed at the masa ('quarry'). The three tools mentioned -- maqqavot ('hammers'), garzen ('axes, chisels'), kol keli varzel ('any iron implement') -- represent the full toolkit of stone-working. Their silence at the construction site is presented as a deliberate architectural choice, not merely a logistical convenience."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "פֶּ֗תַח הַצֵּלָע֙ הַתִּ֣יכֹנָ֔ה אֶל־כֶּ֥תֶף הַבַּ֖יִת הַיְמָנִ֑ית וּבְלוּלִּ֗ים יַעֲל֛וּ עַל־הַתִּ֖יכֹנָ֑ה וּמִן־הַתִּ֖יכֹנָ֥ה אֶל־הַשְּׁלִשִֽׁים׃",
+      "text_kjv": "The door for the middle chamber was in the right side of the house: and they went up with winding stairs into the middle chamber, and out of the middle to the third.",
+      "rendering": "The entrance to the lowest side room was on the right side of the house. They went up by winding stairs to the middle story, and from the middle to the third.",
+      "translator_notes": [
+        "The petach ('entrance') was on the ketef ha-bayit ha-yemanit ('the right shoulder of the house'), meaning the south side. The belullim ('winding stairs, spiral staircases') provided internal access between the three levels of the side structure. This is one of the earliest references to a spiral staircase in ancient literature. Access was from ground level upward through the side annex, never through the Temple's main worship spaces."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיִּ֥בֶן אֶת־הַבַּ֖יִת וַיְכַלֵּ֑הוּ וַיִּסְפֹּ֤ן אֶת־הַבַּ֙יִת֙ גֵּבִ֔ים וּשְׂדֵרֹ֖ת בָּאֲרָזִֽים׃",
+      "text_kjv": "And he built the house, and finished it; and covered the house with beams and boards of cedar.",
+      "rendering": "He built the house and completed it. He roofed the house with beams and planks of cedar.",
+      "translator_notes": [
+        "The verb vayyekhalleihu ('he completed it') uses the same root (kalah) as the completion of creation in Genesis 2:1 and the completion of the tabernacle in Exodus 40:33. The gevim ('beams') and sederot ('rows of planks') formed the roof structure, all of cedar wood. The entire interior structure from roof to walls was timber, with stone visible only from the outside."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיִּ֣בֶן אֶת־הַיָּצִ֗יעַ עַל־כׇּל־הַבַּ֙יִת֙ חָמֵ֤שׁ אַמּוֹת֙ קוֹמָת֔וֹ וַיֶּאֱחֹ֥ז אֶת־הַבַּ֖יִת בַּעֲצֵ֥י אֲרָזִֽים׃",
+      "text_kjv": "And he built the side chambers against all the house, five cubits was the height thereof: and they rested on the house with timber of cedars.",
+      "rendering": "He built the side structure around the entire house, five cubits high on each level, and attached it to the house with cedar timbers.",
+      "translator_notes": [
+        "Each story of the side structure (yatsia) was five cubits (approximately 7.5 feet) high. The phrase vayyeechoz et ha-bayit ba-atsei arazim ('he attached it to the house with cedar timbers') describes the wooden joinery connecting the side annex to the main structure -- the cedar beams resting on the offset ledges described in verse 24 without penetrating the Temple walls."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֶל־שְׁלֹמֹ֥ה לֵאמֹֽר׃",
+      "text_kjv": "And the word of the LORD came to Solomon, saying,",
+      "rendering": "The word of the LORD came to Solomon:",
+      "translator_notes": [
+        "The formula vayehi devar YHWH el Shelomoh ('the word of the LORD came to Solomon') is the standard prophetic reception formula, used hundreds of times for prophets like Jeremiah, Ezekiel, and Hosea. Its application to Solomon mid-construction is striking -- God interrupts the building project with a direct word, as though the physical construction requires theological grounding before it can continue."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "הַבַּ֥יִת הַזֶּ֖ה אֲשֶׁר־אַתָּ֣ה בֹנֶ֑ה אִם־תֵּלֵ֣ךְ בְּחֻקֹּתַ֗י וְאֶת־מִשְׁפָּטַי֙ תַּעֲשֶׂ֔ה וְשָׁמַרְתָּ֥ אֶת־כׇּל־מִצְוֹתַ֖י לָלֶ֣כֶת בָּהֶ֑ם וַהֲקִמֹתִ֤י אֶת־דְּבָרִי֙ אִתָּ֔ךְ אֲשֶׁ֥ר דִּבַּ֖רְתִּי אֶל־דָּוִ֥ד אָבִֽיךָ׃",
+      "text_kjv": "Concerning this house which thou art in building, if thou wilt walk in my statutes, and execute my judgments, and keep all my commandments to walk in them; then will I perform my word with thee, which I spake unto David thy father:",
+      "rendering": "\"As for this house that you are building -- if you walk in my statutes, carry out my judgments, and keep all my commandments by walking in them, then I will fulfill my promise to you that I spoke to your father David.\"",
+      "translator_notes": [
+        "God's word is conditional: im ('if') introduces a protasis with three requirements -- walking in chuqqotai ('my statutes'), doing mishpatai ('my judgments'), and keeping kol mitsvotai ('all my commandments'). The triple formulation covers the full scope of Torah obedience. Only then will God fulfill (vahaqimoti, 'I will establish, I will raise up') the Davidic promise. The Temple's permanence depends on the king's obedience -- a condition that will prove devastating when Solomon himself fails."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְשָׁ֣כַנְתִּ֔י בְּת֖וֹךְ בְּנֵ֣י יִשְׂרָאֵ֑ל וְלֹ֥א אֶעֱזֹ֖ב אֶת־עַמִּ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And I will dwell among the children of Israel, and will not forsake my people Israel.",
+      "rendering": "\"I will dwell among the Israelites, and I will not abandon my people Israel.\"",
+      "expanded_rendering": "The verb shakhan ('to dwell, to tabernacle') is the root of mishkan ('tabernacle') and shekhinah ('divine presence'). God's promise ve-shakhanti betokh benei Yisra'el ('I will dwell in the midst of the children of Israel') echoes Exodus 25:8 ('let them make me a sanctuary that I may dwell among them') and Exodus 29:45 ('I will dwell among the Israelites and be their God'). The Temple is the permanent fulfillment of the tabernacle's purpose. The second clause -- ve-lo e'ezov et ammi Yisra'el ('I will not forsake my people Israel') -- is the negative counterpart: God will be present and will not withdraw. But this promise is linked to the 'if' of verse 30. Presence is promised; permanence is conditional.",
+      "translator_notes": [
+        "The pairing of divine indwelling with the pledge not to abandon uses covenant language that will echo through Israel's prophetic tradition. When God does eventually withdraw his presence from the Temple (Ezekiel 10-11), it will be understood as the consequence of the broken condition."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שָׁכַנְתִּי",
+          "transliteration": "shakhanti",
+          "rendered_as": "dwell",
+          "semantic_range": "to dwell, to settle, to tabernacle, to reside, to encamp",
+          "note": "shakhan specifically means to set up residence in a place, to make one's dwelling there. It is the technical verb for God's localized presence among his people, from the wilderness tabernacle to the Temple to the incarnation ('the Word became flesh and tabernacled among us,' John 1:14)."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיִּ֥בֶן שְׁלֹמֹ֖ה אֶת־הַבָּ֑יִת וַיְכַלֵּֽהוּ׃",
+      "text_kjv": "So Solomon built the house, and finished it.",
+      "rendering": "So Solomon built the house and completed it.",
+      "translator_notes": [
+        "The chapter closes with the same completion formula as verse 27: vayyiven et ha-bayit vayekhalleihu. The repetition brackets the divine oracle (verses 29-31) within the construction narrative, as though God's conditional promise is structurally embedded in the building itself. The house is built, the house is finished -- but its endurance depends on what happens inside it."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

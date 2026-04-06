@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Samuel",
+    "chapter": 9,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "A wealthy Benjaminite named Kish sends his son Saul to find lost donkeys. After days of fruitless searching, Saul's servant suggests consulting a man of God in a nearby town. God has already told Samuel that He will send a man from Benjamin to be anointed as leader over Israel, to deliver the people from the Philistines. When Saul arrives, the LORD identifies him to Samuel, and Samuel honors Saul with the chief seat at a feast and a private audience — all before Saul understands what is happening to him.",
+    "remarkable": "The entire chapter operates on dramatic irony. Saul is looking for donkeys; God is looking for a king. The reader knows what Saul does not — that every step of his wandering has been orchestrated by divine intention. The word nagid ('designated leader, prince') is used rather than melekh ('king') when God speaks to Samuel about Saul in verse 16. This distinction is theologically loaded: God is not handing over sovereignty but appointing a military deliverer who remains under divine authority. The chapter also preserves a remarkable editorial note in verse 9 — a parenthetical explaining that the word 'prophet' (navi) used to be 'seer' (ro'eh), revealing the text's awareness of its own linguistic history. This is one of the few places in the Hebrew Bible where the narrator steps outside the story to explain archaic terminology to a later audience.",
+    "friction": "Verse 9 presents a genuine translation challenge: it is a parenthetical gloss, almost certainly editorial, inserted to explain that what the narrator's audience calls a navi ('prophet') was formerly called a ro'eh ('seer'). The question is whether to render this as a seamless part of the narrative or to preserve its disruptive, explanatory quality. We preserve its parenthetical feel because the interruption itself carries meaning — it reveals layers of authorship and the evolution of Israelite religious vocabulary. Verse 16 uses nagid rather than melekh for Saul's role, and the choice is deliberate but difficult to render in English. 'Prince' carries connotations of royal birth; 'commander' is too military. We use 'leader' because nagid implies an appointed leader designated by God, not a hereditary monarch, and the simplicity of the English matches the directness of the Hebrew. The phrase gibbor chayil in verse 1 describing Kish is another friction point — it can mean 'mighty warrior,' 'man of wealth,' or 'man of standing.' Context suggests social prominence and wealth rather than battlefield prowess, but the term deliberately leaves the categories blurred.",
+    "connections": "Saul's search for lost donkeys and unexpected discovery of a kingdom echoes a persistent biblical pattern: people seeking small things find cosmic ones (Moses tending sheep finds God at the burning bush, Exodus 3:1-2; David keeping sheep is summoned to kingship, 1 Samuel 16:11). The anointing of a Benjaminite as Israel's first king connects to the near-extinction of Benjamin in Judges 19-21 — the smallest and most damaged tribe produces the first king, continuing the theme of God choosing the unlikely. Samuel's role as ro'eh ('seer') links him to the prophetic tradition where divine knowledge comes through direct revelation rather than institutional mediation. The feast scene where Saul receives the thigh portion (the priest's share in Leviticus 7:32-34) anticipates his royal status before it is publicly declared, and the private rooftop conversation echoes the pattern of secret divine appointments that will recur with David (1 Samuel 16:1-13)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִי־אִ֣ישׁ מִבִּנְיָמִ֗ין וּשְׁמ֤וֹ קִישׁ֙ בֶּן־אֲבִיאֵ֣ל בֶּן־צְר֤וֹר בֶּן־בְּכוֹרַת֙ בֶּן־אֲפִ֔יחַ בֶּן־אִ֥ישׁ יְמִינִ֖י גִּבּ֥וֹר חָֽיִל׃",
+      "text_kjv": "Now there was a man of Benjamin, whose name was Kish, the son of Abiel, the son of Zeror, the son of Bechorath, the son of Aphiah, a Benjamite, a mighty man of power.",
+      "rendering": "There was a man from Benjamin whose name was Kish son of Abiel, son of Zeror, son of Becorath, son of Aphiah — a Benjaminite, a man of standing and strength.",
+      "translator_notes": [
+        "The genealogy traces five generations, grounding Kish firmly in Benjamin. The phrase ish yemini ('a man of the right hand,' i.e., a Benjaminite) is a play on the tribal name Binyamin ('son of the right hand'). The final descriptor gibbor chayil is applied to Kish, not to Saul — the father's social position is what matters for the introduction. In context, gibbor chayil likely denotes a man of wealth, social prominence, and capability rather than strictly a warrior. The same phrase describes Boaz in Ruth 2:1, where it clearly means a man of means and standing.",
+        "The five-generation genealogy (ben Avi'el ben Tseror ben Bekhorat ben Aficah) is unusually deep, paralleling the genealogy of Elkanah in 1 Samuel 1:1. Both introductions invest heavily in lineage, signaling that family identity matters in this narrative world."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "גִּבּוֹר חָיִל",
+          "transliteration": "gibbor chayil",
+          "rendered_as": "man of standing and strength",
+          "semantic_range": "mighty warrior, man of valor, man of wealth, man of substance, capable man",
+          "note": "This compound phrase fuses military and economic connotations. Gibbor means 'mighty one, warrior, hero.' Chayil means 'strength, wealth, army, capability.' Applied to Kish, it signals that Saul comes from a family of prominence — not poverty or obscurity. The same phrase describes Gideon (Judges 6:12), Boaz (Ruth 2:1), and Jephthah (Judges 11:1), each time with slightly different weight depending on context."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְלוֹ־הָיָ֣ה בֵ֗ן וּשְׁמוֹ֙ שָׁא֔וּל בָּח֥וּר וָט֖וֹב וְאֵ֣ין אִ֗ישׁ מִבְּנֵי֙ יִשְׂרָאֵ֔ל ט֖וֹב מִמֶּ֑נּוּ מִשִּׁכְמ֣וֹ וָמַ֔עְלָה גָּבֹ֖הַּ מִכׇּל־הָעָֽם׃",
+      "text_kjv": "And he had a son, whose name was Saul, a choice young man, and a goodly: and there was not among the children of Israel a goodlier person than he: from his shoulders and upward he was higher than any of the people.",
+      "rendering": "He had a son named Saul — young, impressive, and there was no one among the sons of Israel more impressive than he. From his shoulders upward he stood taller than all the people.",
+      "expanded_rendering": "The Hebrew bachur va-tov ('choice and good') describes Saul with two loaded terms. Bachur means 'chosen, selected, prime' — a young man in the peak of life. Tov ('good') in Hebrew encompasses physical attractiveness, moral quality, and fitness for purpose. The narrator is presenting Saul as the ideal specimen: he looks like what Israel thinks a king should look like. His height — from the shoulders up, taller than everyone — foreshadows both his selection and his problem. Israel will get the king they can see, towering above the crowd, before they learn that God looks at the heart (1 Samuel 16:7).",
+      "translator_notes": [
+        "The name Sha'ul means 'asked for' or 'requested' — from the verb sha'al ('to ask'). This is profoundly ironic: the man whose name means 'asked for' is the answer to Israel's demand for a king (1 Samuel 8:5-6). The wordplay with Samuel's name (connected to sha'al in 1:20) binds the two figures linguistically.",
+        "The physical description emphasizes height (gavoah mi-kol ha-am, 'taller than all the people') as Saul's defining visible trait. This is not neutral observation — it sets up the theological contrast with David's selection in chapter 16, where God explicitly rejects the criteria of height and appearance. Saul is everything the human eye would choose."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַתֹּאבַ֙דְנָה֙ הָאֲתֹנ֔וֹת לְקִ֖ישׁ אֲבִ֣י שָׁא֑וּל וַיֹּ֨אמֶר קִ֜ישׁ אֶל־שָׁא֣וּל בְּנ֗וֹ קַח־נָ֤א אִתְּךָ֙ אֶת־אַחַ֣ד מֵהַנְּעָרִ֔ים וְק֣וּם לֵ֔ךְ בַּקֵּ֖שׁ אֶת־הָאֲתֹנֹֽת׃",
+      "text_kjv": "And the asses of Kish Saul's father were lost. And Kish said to Saul his son, Take now one of the servants with thee, and arise, go seek the asses.",
+      "rendering": "The donkeys belonging to Kish, Saul's father, had wandered off. Kish said to his son Saul, \"Take one of the servants with you, get up, and go look for the donkeys.\"",
+      "translator_notes": [
+        "The verb avad ('to be lost, to perish, to wander') is used for the donkeys. The same verb will carry heavier meaning later — things that are 'lost' in 1 Samuel often turn out to be divinely redirected. The donkeys' disappearance is the mundane mechanism God uses to move Saul toward Samuel. The Hebrew atonot (female donkeys) were valuable work animals; their loss was a genuine economic concern for even a wealthy household.",
+        "Kish's command uses three verbs in sequence: qach ('take'), qum ('arise'), lekh ('go') — an urgent, stacked imperative. He is not making a casual suggestion. The addition of na ('please, now') softens the command slightly, but the father's authority is clear."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיַּעֲבֹ֧ר בְּהַר־אֶפְרַ֛יִם וַיַּעֲבֹ֥ר בְּאֶֽרֶץ־שָׁלִ֖שָׁה וְלֹ֣א מָצָ֑אוּ וַיַּעַבְר֤וּ בְאֶֽרֶץ־שַׁעֲלִים֙ וָאַ֔יִן וַיַּעֲבֹ֥ר בְּאֶֽרֶץ־יְמִינִ֖י וְלֹ֥א מָצָֽאוּ׃",
+      "text_kjv": "And he passed through mount Ephraim, and passed through the land of Shalisha, but they found them not: then they passed through the land of Shalim, and there they were not: and he passed through the land of the Benjamites, but they found them not.",
+      "rendering": "He passed through the hill country of Ephraim and through the region of Shalishah, but they did not find them. They passed through the region of Shaalim — nothing. They passed through the territory of Benjamin, but did not find them.",
+      "translator_notes": [
+        "The repetitive structure — passed through X, did not find; passed through Y, nothing; passed through Z, did not find — creates a rhythm of futility. Each region yields emptiness. The Hebrew va-ayin ('and nothing,' 'and there was not') is starkly abrupt, even more terse than the surrounding negations. The geographic sweep covers a wide area: from Ephraim's hills through Shalishah (possibly northwest of Benjamin) to Shaalim (possibly 'land of foxes') and back into Benjamin. Saul has circled extensively and found nothing.",
+        "The place names may carry symbolic weight. Shalishah may relate to shalosh ('three') and Shaalim to shu'al ('fox'). If so, the names paint a landscape of fragmented, wild territory — fitting for a search that leads nowhere by human reckoning but everywhere by divine design."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "הֵ֗מָּה בָּ֚אוּ בְּאֶ֣רֶץ צ֔וּף וְשָׁא֥וּל אָמַ֛ר לְנַעֲר֥וֹ אֲשֶׁר־עִמּ֖וֹ לְכָ֣ה וְנָשׁ֑וּבָה פֶּן־יֶחְדַּ֥ל אָבִ֛י מִן־הָאֲתֹנ֖וֹת וְדָ֥אַג לָֽנוּ׃",
+      "text_kjv": "And when they were come to the land of Zuph, Saul said to his servant that was with him, Come, and let us return; lest my father leave caring for the asses, and take thought for us.",
+      "rendering": "When they came to the territory of Zuph, Saul said to his servant who was with him, \"Come, let's turn back — otherwise my father will stop worrying about the donkeys and start worrying about us.\"",
+      "translator_notes": [
+        "The land of Zuph connects directly to Samuel's genealogy — Zuph is Samuel's ancestor (1 Samuel 1:1). Without knowing it, Saul has wandered into Samuel's ancestral territory. The verb da'ag ('to worry, to be anxious') reveals Saul's concern for his father's emotional state — a detail that humanizes him and shows filial loyalty. The verb chadal ('to cease, to stop') paired with min ('from') gives the sense of Kish redirecting his anxiety from the donkeys to his missing son.",
+        "Saul's impulse to return home is the natural, sensible response. The narrative tension depends on what happens next: the servant's suggestion will redirect Saul toward Samuel and toward his destiny. Human wisdom says go home; divine providence says keep going."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיֹּ֣אמֶר ל֗וֹ הִנֵּה־נָ֤א אִישׁ־אֱלֹהִים֙ בָּעִ֣יר הַזֹּ֔את וְהָאִ֣ישׁ נִכְבָּ֔ד כֹּ֥ל אֲשֶׁר־יְדַבֵּ֖ר בּ֣וֹא יָב֑וֹא עַתָּה֙ נֵ֣לְכָה שָּׁ֔ם אוּלַי֙ יַגִּ֣יד לָ֔נוּ אֶת־דַּרְכֵּ֖נוּ אֲשֶׁר־הָלַ֥כְנוּ עָלֶֽיהָ׃",
+      "text_kjv": "And he said unto him, Behold now, there is in this city a man of God, and he is an honourable man; all that he saith cometh surely to pass: now let us go thither; peradventure he can shew us our way that we should go.",
+      "rendering": "The servant said to him, \"Listen — there is a man of God in this town, and the man is highly respected. Everything he says proves true. Let's go there now; perhaps he can tell us which way to go.\"",
+      "translator_notes": [
+        "The servant calls Samuel ish Elohim ('man of God') — a title that designates a person who carries divine authority and whose words have demonstrable power. The phrase nikhbad ('honored, weighty, respected') comes from the root kavod ('glory, weight, honor'). The servant's recommendation is grounded in Samuel's track record: kol asher yedabber bo yavo ('all that he speaks surely comes') uses the infinitive absolute construction (bo yavo) to emphasize certainty — his words never fail.",
+        "The servant's knowledge of Samuel suggests he is more informed about the religious landscape than his master. The phrase et darkenu asher halakhnu aleha ('our way on which we have gone') is specific — the servant is asking not for general prophecy but for practical direction about their journey. They are consulting a seer about donkeys, not about kingdoms."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיֹּ֤אמֶר שָׁאוּל֙ לְנַעֲר֔וֹ וְהִנֵּ֣ה נֵלֵ֔ךְ וּמַה־נָּבִ֖יא לָאִ֑ישׁ כִּ֣י הַלֶּ֜חֶם אָזַ֣ל מִכֵּלֵ֗ינוּ וּתְשׁוּרָ֤ה אֵין־לְהָבִיא֙ לְאִ֣ישׁ הָאֱלֹהִ֔ים מָ֖ה אִתָּֽנוּ׃",
+      "text_kjv": "Then said Saul to his servant, But, behold, if we go, what shall we bring the man? for the bread is spent in our vessels, and there is not a present to bring to the man of God: what have we?",
+      "rendering": "Saul said to his servant, \"But if we go, what can we bring the man? The bread in our bags is gone, and there is no gift to bring to the man of God. What do we have?\"",
+      "translator_notes": [
+        "Saul's concern about arriving empty-handed reflects the cultural expectation that one does not consult a man of God without a gift. The word teshurah ('gift, present') appears only here in the Hebrew Bible — it is a rare term for a token of respect or a consultation fee. The verb azal ('is spent, is gone, is used up') describes the bread as entirely consumed. Saul's practical concern — we have nothing to offer — reveals both proper etiquette and his limited perspective. He is worried about protocol while God is arranging a coronation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֹּ֤סֶף הַנַּ֙עַר֙ לַעֲנ֣וֹת אֶת־שָׁא֔וּל וַיֹּ֕אמֶר הִנֵּה֙ נִמְצָ֣א בְיָדִ֔י רֶ֥בַע שֶׁ֖קֶל כָּ֑סֶף וְנָ֣תַתִּ֗י לְאִ֧ישׁ הָאֱלֹהִ֛ים וְהִגִּ֥יד לָ֖נוּ אֶת־דַּרְכֵּֽנוּ׃",
+      "text_kjv": "And the servant answered Saul again, and said, Behold, I have here at hand the fourth part of a shekel of silver: that will I give to the man of God, to tell us our way.",
+      "rendering": "The servant answered Saul again: \"Look — I have in my hand a quarter-shekel of silver. I will give it to the man of God, and he will tell us our way.\"",
+      "translator_notes": [
+        "The servant produces reva sheqel kesef ('a quarter-shekel of silver') — a small amount, but enough to serve as a consultation gift. The servant's resourcefulness advances the narrative at every turn: he knew about the man of God, and now he has the means to pay. The verb nimtsa ('is found') in nimtsa be-yadi ('is found in my hand') suggests the silver was unexpectedly available — even this small detail serves the theme of divine provision through ordinary circumstances.",
+        "The servant's confidence — veheggid lanu et darkenu ('and he will tell us our way') — contrasts with Saul's hesitation. The servant expects results; Saul was ready to go home."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "לְפָנִ֣ים ׀ בְּיִשְׂרָאֵ֗ל כֹּֽה־אָמַ֤ר הָאִישׁ֙ בְּלֶכְתּוֹ֙ לִדְר֣וֹשׁ אֱלֹהִ֔ים לְכ֥וּ וְנֵלְכָ֖ה עַד־הָרֹאֶ֑ה כִּ֤י לַנָּבִיא֙ הַיּ֔וֹם יִקָּרֵ֥א לְפָנִ֖ים הָרֹאֶֽה׃",
+      "text_kjv": "Beforetime in Israel, when a man went to enquire of God, thus he spake, Come, and let us go to the seer: for he that is now called a Prophet was beforetime called a Seer.",
+      "rendering": "(In former times in Israel, when someone went to inquire of God, they would say, \"Come, let us go to the seer\" — because the one now called a prophet was formerly called a seer.)",
+      "translator_notes": [
+        "We preserve the parenthetical format because the verse is not part of the narrative flow — it is a scholarly note embedded in the text. The phrase le-fanim be-Yisra'el ('in former times in Israel') signals that the narrator is speaking from a later vantage point. The verb darash ('to inquire, to seek') when paired with Elohim ('God') is a technical term for seeking divine guidance through a prophet or oracle.",
+        "The distinction between ro'eh and navi is historically significant. The ro'eh tradition appears to be older, associated with individual seers who could locate lost objects, identify hidden information, and perceive divine intent. The navi tradition emphasizes the prophetic office as a channel of God's proclaimed word. Samuel bridges both roles — he is the last of the old seers and the first of the institutional prophets."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רֹאֶה",
+          "transliteration": "ro'eh",
+          "rendered_as": "seer",
+          "semantic_range": "seer, one who sees, visionary, perceiver",
+          "note": "From the root ra'ah ('to see'). The ro'eh sees what is hidden from ordinary perception — lost animals, future events, divine intentions. The term emphasizes the receptive dimension of prophecy: the seer receives vision rather than proclaiming words. Samuel is called ro'eh in this chapter, connecting him to the older, pre-institutional prophetic tradition."
+        },
+        {
+          "hebrew": "נָבִיא",
+          "transliteration": "navi",
+          "rendered_as": "prophet",
+          "semantic_range": "prophet, spokesperson, proclaimer, called one",
+          "note": "The standard term for a prophet in later Israelite usage. Likely derived from an Akkadian root nabu ('to call, to proclaim'). The navi speaks on God's behalf — the emphasis is on the outward proclamation rather than the inward reception. This verse explicitly marks the transition from ro'eh to navi as the standard term."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיֹּ֧אמֶר שָׁא֛וּל לְנַעֲר֖וֹ ט֣וֹב דְּבָרְךָ֑ לְכָ֖ה נֵלֵ֑כָה וַיֵּלְכ֗וּ אֶל־הָעִיר֙ אֲשֶׁר־שָׁ֔ם אִ֖ישׁ הָאֱלֹהִֽים׃",
+      "text_kjv": "Then said Saul to his servant, Well said; come, let us go. So they went unto the city where the man of God was.",
+      "rendering": "Saul said to his servant, \"Good idea. Come, let's go.\" So they went to the town where the man of God was.",
+      "translator_notes": [
+        "Saul's response tov devarkha ('good is your word') is brief and decisive — once persuaded, he commits. The phrase is literally 'your word is good,' affirming the servant's suggestion. The pace of the narrative accelerates here after the slow, repetitive searching of verse 4. The shift from wandering to purposeful movement signals that the story is converging on its goal."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "הֵ֗מָּה עֹלִים֙ בְּמַעֲלֵ֣ה הָעִ֔יר וְהֵ֙מָּה֙ מָצְא֣וּ נְעָר֔וֹת יֹצְא֖וֹת לִשְׁאֹ֣ב מָ֑יִם וַיֹּאמְר֣וּ לָהֶ֔ן הֲיֵ֥שׁ בָּזֶ֖ה הָרֹאֶֽה׃",
+      "text_kjv": "And as they went up the hill to the city, they found young maidens going out to draw water, and said unto them, Is the seer here?",
+      "rendering": "As they were going up the ascent to the town, they encountered young women coming out to draw water, and they asked them, \"Is the seer here?\"",
+      "translator_notes": [
+        "The scene of meeting women at a water source is a recurring biblical type-scene — encounters at wells typically signal pivotal moments (Genesis 24:11-14 for Rebekah, Genesis 29:1-12 for Rachel, Exodus 2:15-21 for Zipporah). Here the pattern is adapted: instead of a betrothal, the women direct Saul toward his anointing. The word na'arot ('young women') and the activity of drawing water (lish'ov mayim) deliberately invoke the convention, and the audience would have recognized the echo.",
+        "The use of ha-ro'eh ('the seer') rather than ha-navi ('the prophet') in their question follows the narrator's explanation in verse 9 — they use the older terminology that fits the pre-prophetic idiom of the story's setting."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַתַּעֲנֶ֧ינָה אוֹתָ֛ם וַתֹּאמַ֥רְנָה יֵּ֖שׁ הִנֵּ֣ה לְפָנֶ֑יךָ מַהֵ֣ר ׀ עַתָּ֗ה כִּ֤י הַיּוֹם֙ בָּ֣א לָעִ֔יר כִּ֣י זֶ֧בַח הַיּ֛וֹם לָעָ֖ם בַּבָּמָֽה׃",
+      "text_kjv": "And they answered them, and said, He is; behold, he is before you: make haste now, for he came to day to the city; for there is a sacrifice of the people to day in the high place.",
+      "rendering": "They answered, \"Yes — he is just ahead of you. Hurry now, because he has come to the town today since there is a sacrifice for the people today at the high place.\"",
+      "translator_notes": [
+        "The young women's response is surprisingly detailed and urgent. They use maher ('hurry') and atah ('now') to press speed. The mention of the bamah ('high place') is significant — before the centralization of worship in Jerusalem under Josiah's reform (2 Kings 23), local high places served as legitimate worship sites. Samuel presides over sacrificial worship at a bamah without any narrative disapproval, reflecting the pre-Deuteronomic setting of the story.",
+        "The word zevach ('sacrifice') here refers to a communal sacrificial feast — the meat of the offering would be shared among the participants after the sacred portion was offered. This is the feast at which Saul will receive the place of honor."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "כְּבֹאֲכֶ֣ם הָעִ֣יר כֵּ֣ן תִּמְצְא֣וּן אֹת֡וֹ בְּטֶ֣רֶם יַעֲלֶה֩ הַבָּמָ֨תָה לֶאֱכֹ֜ל כִּ֣י לֹֽא־יֹאכַ֤ל הָעָם֙ עַד־בֹּא֔וֹ כִּֽי־ה֥וּא יְבָרֵ֛ךְ הַזֶּ֖בַח אַחֲרֵי־כֵ֣ן יֹאכְל֣וּ הַקְּרֻאִ֑ים וְעַתָּ֣ה עֲל֔וּ כִּ֥י אֹת֛וֹ כְּהַיּ֖וֹם תִּמְצְא֥וּן אֹתֽוֹ׃",
+      "text_kjv": "As soon as ye be come into the city, ye shall straightway find him, before he go up to the high place to eat: for the people will not eat until he come, because he doth bless the sacrifice; and afterwards they eat that be bidden. Now therefore get you up; for about this time ye shall find him.",
+      "rendering": "As soon as you enter the town you will find him, before he goes up to the high place to eat. The people will not eat until he arrives, because he blesses the sacrifice — and after that, the invited guests eat. Go up now, because right about now you will find him.\"",
+      "translator_notes": [
+        "The women's knowledge of Samuel's schedule and role reveals his authority in the community. He is the one who mevarekh ha-zevach ('blesses the sacrifice') — without his blessing, no one eats. The word ha-qeru'im ('the invited ones, the called ones') indicates that this is not an open public meal but a curated guest list. Saul will be seated among the qeru'im as a guest of honor — an invitation he does not yet know is waiting for him.",
+        "The repetition of timtse'un oto ('you will find him') at the beginning and end of the women's speech creates a frame of certainty: you will find him, so go now, you will find him. The verb matsa ('to find') echoes the search for the donkeys — they could not find (lo matsa'u) the animals, but they will find the seer."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיַּעֲל֖וּ הָעִ֑יר הֵ֗מָּה בָּאִים֙ בְּת֣וֹךְ הָעִ֔יר וְהִנֵּ֤ה שְׁמוּאֵל֙ יֹצֵ֣א לִקְרָאתָ֔ם לַעֲל֖וֹת הַבָּמָֽה׃",
+      "text_kjv": "And they went up into the city: and when they were come into the city, behold, Samuel came out against them, for to go up to the high place.",
+      "rendering": "They went up to the town. As they were entering the town, there was Samuel, coming out toward them on his way up to the high place.",
+      "translator_notes": [
+        "The timing is precise to the point of being providential — just as Saul enters, Samuel exits, heading in their direction. The phrase yotse liqratam ('coming out to meet them') uses the same construction used for deliberate encounters elsewhere, but here Samuel does not yet know who they are. The convergence is orchestrated from above: God has placed these two men on a collision course, and the narrator presents the moment with understated drama — vehineh Shemu'el ('and there was Samuel')."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַֽיהוָ֗ה גָּלָ֤ה אֶת־אֹ֙זֶן֙ שְׁמוּאֵ֔ל י֥וֹם אֶחָ֖ד לִפְנֵ֣י בֽוֹא־שָׁא֑וּל לֵאמֹֽר׃",
+      "text_kjv": "Now the LORD had told Samuel in his ear a day before Saul came, saying,",
+      "rendering": "Now the LORD had uncovered Samuel's ear the day before Saul arrived, saying:",
+      "expanded_rendering": "The Hebrew galah et ozen ('uncovered the ear') is a striking idiom for divine revelation. It pictures God physically pulling back something that covers the ear — removing the barrier between divine knowledge and human perception. The image suggests that ordinary human hearing is covered, blocked, insufficient to perceive God's intentions; revelation is an act of uncovering, of removing the obstruction. This happened yom echad lifnei bo Sha'ul ('one day before Saul's coming'), emphasizing that God's plan preceded Saul's arrival by exactly one day. Nothing about this encounter is accidental.",
+      "translator_notes": [
+        "The idiom galah ozen ('to uncover the ear') appears in 2 Samuel 7:27, Ruth 4:4, and Job 33:16, always denoting the private disclosure of information that would otherwise remain hidden. We retain the literal image ('uncovered Samuel's ear') rather than flattening it to 'told Samuel' because the idiom preserves the physicality of prophetic experience — revelation is not merely informational but sensory.",
+        "The temporal marker yom echad ('one day') is precise. God prepared Samuel exactly twenty-four hours before the moment of meeting. The narrative is structured so the reader learns God's plan (verses 15-16) before Saul does, creating dramatic irony that will persist through the entire chapter."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "כָּעֵ֣ת ׀ מָחָ֡ר אֶשְׁלַ֣ח אֵלֶיךָ֩ אִ֨ישׁ מֵאֶ֜רֶץ בִּנְיָמִ֗ן וּמְשַׁחְתּ֤וֹ לְנָגִיד֙ עַל־עַמִּ֣י יִשְׂרָאֵ֔ל וְהוֹשִׁ֥יעַ אֶת־עַמִּ֖י מִיַּ֣ד פְּלִשְׁתִּ֑ים כִּ֤י רָאִ֙יתִי֙ אֶת־עַמִּ֔י כִּ֥י בָ֛אָה צַעֲקָתָ֖ם אֵלָֽי׃",
+      "text_kjv": "To morrow about this time I will send thee a man out of the land of Benjamin, and thou shalt anoint him to be captain over my people Israel, that he may save my people out of the hand of the Philistines: for I have looked upon my people, because their cry is come unto me.",
+      "rendering": "\"About this time tomorrow I will send to you a man from the territory of Benjamin. You will anoint him as leader over my people Israel, and he will deliver my people from the hand of the Philistines — because I have seen my people, for their cry has reached me.\"",
+      "translator_notes": [
+        "The title nagid is theologically charged and deliberately chosen over melekh ('king'). A nagid is appointed by God and accountable to God; the term preserves divine sovereignty over Israel's governance. We render it 'leader' because the term conveys appointed authority without implying autonomous royal power. The word will recur at critical moments in 1-2 Samuel.",
+        "The phrase ba'ah tsa'aqatam elai ('their cry has come to me') uses tsa'aqah — the same word for the cry of Israel in Egyptian bondage (Exodus 3:9). God responds to the Philistine oppression with the same language used for the Egyptian oppression, framing Saul's appointment as a new exodus-type deliverance."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָגִיד",
+          "transliteration": "nagid",
+          "rendered_as": "leader",
+          "semantic_range": "prince, designated leader, commander, chief, one who stands at the front",
+          "note": "From the root nagad ('to be in front, to declare, to make known'). The nagid is one placed at the front of the people by divine appointment. Unlike melekh ('king'), which implies autonomous sovereign authority, nagid implies delegated authority — the leader governs on God's behalf. God uses nagid rather than melekh when speaking to Samuel about Saul, preserving the theological claim that God alone is Israel's true king."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וּשְׁמוּאֵ֖ל רָאָ֣ה אֶת־שָׁא֑וּל וַיהוָ֣ה עָנָ֔הוּ הִנֵּ֤ה הָאִישׁ֙ אֲשֶׁ֣ר אָמַ֣רְתִּי אֵלֶ֔יךָ זֶ֖ה יַעְצֹ֥ר בְּעַמִּֽי׃",
+      "text_kjv": "And when Samuel saw Saul, the LORD said unto him, Behold the man whom I spake to thee of! this same shall reign over my people.",
+      "rendering": "When Samuel saw Saul, the LORD answered him: \"This is the man I told you about. He is the one who will govern my people.\"",
+      "expanded_rendering": "The verb ra'ah ('to see') connects Samuel's physical sight of Saul to his identity as ro'eh ('seer') — the seer sees, and at the moment of seeing, God speaks. The LORD anahu ('answered him') is striking because the text has not recorded Samuel asking a question at this moment. The verb anah ('to answer') can mean 'to respond' even to an unspoken question — God answers the inquiry of Samuel's heart. The verb atsar ('to restrain, to govern, to hold back') is unusual for describing royal authority. It means 'to hold in check, to contain, to rule' — suggesting governance as restraint and boundary-setting rather than domination. Saul's role will be to hold the people together, to contain the Philistine threat.",
+      "translator_notes": [
+        "The verb atsar is rendered 'govern' rather than 'reign' to reflect its restraining connotation. The word does not appear in the standard vocabulary of kingship — it carries overtones of holding, checking, and containing. Some scholars translate it 'restrain' (i.e., Saul will hold back the people from disintegration), which fits the political context of Philistine pressure and internal tribal fragmentation.",
+        "The divine identification of Saul — zeh ya'atsor be-ammi ('this one will govern my people') — uses the emphatic demonstrative zeh ('this one'), physically pointing to Saul. God identifies the future leader not by name or genealogy but by pointing: this one, right there."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיִּגַּ֥שׁ שָׁא֛וּל אֶת־שְׁמוּאֵ֖ל בְּת֣וֹךְ הַשָּׁ֑עַר וַיֹּ֕אמֶר הַגִּֽידָה־נָּ֣א לִ֔י אֵי־זֶ֖ה בֵּ֥ית הָרֹאֶֽה׃",
+      "text_kjv": "Then Saul drew near to Samuel in the gate, and said, Tell me, I pray thee, where the seer's house is.",
+      "rendering": "Saul approached Samuel in the gateway and said, \"Please tell me — where is the seer's house?\"",
+      "translator_notes": [
+        "The dramatic irony reaches its peak. Saul asks the seer where the seer lives — he is speaking to the very man he is looking for and does not know it. The sha'ar ('gate') was the public gathering place where legal and social transactions occurred; it is the town's center of activity. Saul's request is polite — haggidah na li ('please tell me') uses the particle na for courtesy — and entirely mundane. He has no idea he is standing before the man who will change his life.",
+        "The verb nagash ('to approach, to draw near') often carries ritual or formal connotations in Hebrew (approaching an altar, drawing near to God). Its use here may subtly signal that Saul is approaching something far more significant than he realizes."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיַּ֧עַן שְׁמוּאֵ֛ל אֶת־שָׁא֖וּל וַיֹּ֣אמֶר אָנֹכִ֣י הָרֹאֶ֑ה עֲלֵ֣ה לְפָנַי֩ הַבָּמָ֨ה וַאֲכַלְתֶּ֤ם עִמִּי֙ הַיּ֔וֹם וְשִׁלַּחְתִּ֣יךָ בַבֹּ֔קֶר וְכֹ֛ל אֲשֶׁ֥ר בִּֽלְבָבְךָ֖ אַגִּ֥יד לָֽךְ׃",
+      "text_kjv": "And Samuel answered Saul, and said, I am the seer: go up before me unto the high place; for ye shall eat with me to day, and to morrow I will let thee go, and will tell thee all that is in thine heart.",
+      "rendering": "Samuel answered Saul: \"I am the seer. Go up ahead of me to the high place, and you will eat with me today. In the morning I will send you on your way, and everything that is in your heart I will tell you.\"",
+      "translator_notes": [
+        "Samuel's self-identification anokhi ha-ro'eh ('I am the seer') is direct and authoritative. His instructions reverse the expected social hierarchy — he tells Saul aleh le-fanai ('go up before me'), giving Saul the position of precedence by having him walk ahead. The promise vekhol asher bilvavekha aggid lakh ('everything that is in your heart I will tell you') goes far beyond donkey-finding. Samuel claims to know the contents of Saul's heart — a seer's knowledge that extends to inner thoughts and unspoken desires.",
+        "The sequence of Samuel's commands — eat with me today, I will send you tomorrow, and I will reveal your heart — creates a structured program: fellowship, then revelation, then commission. Samuel is not improvising; he is following the divine plan disclosed to him the day before."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְלָאֲתֹנוֹת֙ הָאֹבְד֣וֹת לְךָ֗ הַיּ֛וֹם שְׁלֹ֥שֶׁת הַיָּמִ֖ים אַל־תָּ֣שֶׂם אֶת־לִבְּךָ֣ לָהֶ֑ן כִּ֣י נִמְצָ֔אוּ וּלְמִי֙ כׇּל־חֶמְדַּ֣ת יִשְׂרָאֵ֔ל הֲל֣וֹא לְךָ֔ וּלְכֹ֖ל בֵּ֥ית אָבִֽיךָ׃",
+      "text_kjv": "And as for thine asses that were lost three days ago, set not thy mind on them; for they are found. And on whom is all the desire of Israel? Is it not on thee, and on all thy father's house?",
+      "rendering": "\"As for your donkeys that went missing three days ago — don't worry about them; they have been found. And to whom does all that Israel desires belong? Is it not to you and to your father's entire house?\"",
+      "translator_notes": [
+        "Samuel demonstrates his identity as seer by knowing about the donkeys before Saul mentions them. The phrase al tasem et libbkha lahen ('do not set your heart on them') means 'stop worrying about them' — the verb sum ('to set, to place') with lev ('heart') describes where one directs attention and concern. Samuel redirects Saul's heart from donkeys to destiny.",
+        "The phrase kol chemdat Yisra'el ('all the desire of Israel') is ambiguous and provocative. Chemdah means 'desire, delight, precious thing' — Samuel is saying that everything Israel longs for now belongs to Saul and his father's house. The statement hints at kingship without naming it, leaving Saul to grasp the implication. The inclusion of kol beit avikha ('all your father's house') extends the promise beyond Saul individually to his dynasty."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיַּ֨עַן שָׁא֜וּל וַיֹּ֗אמֶר הֲל֨וֹא בֶן־יְמִינִ֤י אָנֹכִי֙ מִקַּטַנֵּי֙ שִׁבְטֵ֣י יִשְׂרָאֵ֔ל וּמִשְׁפַּחְתִּי֙ הַצְּעִרָ֔ה מִכׇּל־מִשְׁפְּח֖וֹת שִׁבְטֵ֣י בִנְיָמִ֑ן וְלָ֙מָּה֙ דִּבַּ֣רְתָּ אֵלַ֔י כַּדָּבָ֖ר הַזֶּֽה׃",
+      "text_kjv": "And Saul answered and said, Am not I a Benjamite, of the smallest of the tribes of Israel? and my family the least of all the families of the tribe of Benjamin? wherefore then speakest thou so to me?",
+      "rendering": "Saul answered, \"Am I not a Benjaminite, from the smallest of the tribes of Israel? And my clan is the least of all the clans of the tribe of Benjamin. Why would you say such a thing to me?\"",
+      "translator_notes": [
+        "Saul's response mirrors Gideon's protest in Judges 6:15 ('my clan is the weakest in Manasseh, and I am the least in my father's house') — both men respond to divine selection with claims of insignificance. Whether Saul's humility is genuine or performative is debated. Benjamin was indeed the smallest tribe after the near-annihilation recorded in Judges 20-21, so his claim has historical basis. The phrase mi-qatannei shivtei Yisra'el ('from the smallest of the tribes of Israel') uses qatan ('small, insignificant') — the same word used when God chose David over his brothers (1 Samuel 16:11).",
+        "The question lamah dibbarta elai ka-davar ha-zeh ('why have you spoken to me a thing like this?') reveals Saul's bewilderment. He came looking for donkeys and is hearing intimations of national destiny."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיִּקַּ֤ח שְׁמוּאֵל֙ אֶת־שָׁא֣וּל וְאֶֽת־נַעֲר֔וֹ וַיְבִיאֵ֖ם לִשְׁכָּ֑תָה וַיִּתֵּ֨ן לָהֶ֤ם מָקוֹם֙ בְּרֹ֣אשׁ הַקְּרוּאִ֔ים וְהֵ֖מָּה כִּשְׁלֹשִׁ֥ים אִֽישׁ׃",
+      "text_kjv": "And Samuel took Saul and his servant, and brought them into the parlour, and made them sit in the chiefest place among them that were bidden, which were about thirty persons.",
+      "rendering": "Samuel took Saul and his servant and brought them into the hall, and he gave them a place at the head of the invited guests — about thirty people.",
+      "translator_notes": [
+        "The lishkah ('hall, chamber, room') is the dining room attached to the high place where the sacrificial feast takes place. Samuel seats Saul be-rosh ha-qeru'im ('at the head of the called ones') — the position of highest honor among the invited guests. This is a public act of distinction: in a room of thirty prominent people, the unknown stranger from Benjamin is placed first. The number thirty (kishloshim) may suggest a formal council or representative gathering rather than a casual meal.",
+        "Samuel's actions speak before his words. By seating Saul at the head, he signals Saul's importance to the entire assembly without yet explaining why. The guests witness the honor without understanding its full significance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיֹּ֤אמֶר שְׁמוּאֵל֙ לַטַּבָּ֔ח תְּנָ֥ה אֶת־הַמָּנָ֖ה אֲשֶׁ֣ר נָתַ֣תִּי לָ֑ךְ אֲשֶׁר֙ אָמַ֣רְתִּי אֵלֶ֔יךָ שִׂ֥ים אֹתָ֖הּ עִמָּֽךְ׃",
+      "text_kjv": "And Samuel said unto the cook, Bring the portion which I gave thee, of which I said unto thee, Set it by thee.",
+      "rendering": "Samuel said to the cook, \"Bring the portion I gave you — the one I told you to set aside.\"",
+      "translator_notes": [
+        "The word tabbach ('cook, butcher') comes from the root tavach ('to slaughter'). Samuel had pre-arranged this: he gave the cook a specific portion (manah) with instructions to keep it in reserve (sim otah immakh, 'place it with you'). This advance preparation reveals that Samuel expected Saul's arrival — the divine revelation of verse 15-16 had already been translated into practical action. The seer does not merely receive knowledge; he acts on it."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיָּ֣רֶם הַ֠טַּבָּ֠ח אֶת־הַשּׁ֨וֹק וְהֶעָלֶ֜יהָ וַיָּ֣שֶׂם ׀ לִפְנֵ֣י שָׁא֗וּל וַיֹּ֙אמֶר֙ הִנֵּ֤ה הַנִּשְׁאָר֙ שִׂים־לְפָנֶ֣יךָ אֱכֹ֔ל כִּ֧י לַמּוֹעֵ֛ד שָֽׁמוּר־לְךָ֥ לֵאמֹ֖ר הָעָ֣ם קָרָ֑אתִי וַיֹּ֧אכַל שָׁא֛וּל עִם־שְׁמוּאֵ֖ל בַּיּ֥וֹם הַהֽוּא׃",
+      "text_kjv": "And the cook took up the shoulder, and that which was upon it, and set it before Saul. And Samuel said, Behold that which is left! set it before thee, and eat: for unto this time hath it been kept for thee since I said, I have invited the people. So Saul did eat with Samuel that day.",
+      "rendering": "The cook lifted up the thigh and what was on it and set it before Saul. Samuel said, \"Here is what has been reserved — set it before you and eat, because it was kept for you for this appointed time when I said, 'I have invited the people.'\" So Saul ate with Samuel that day.",
+      "expanded_rendering": "The shoq ('thigh, leg') is the choicest portion of the sacrificial animal. In Leviticus 7:32-34, the right thigh (shoq ha-yamin) is designated as the priest's portion — the terumah ('raised offering') that belongs to the one who officiates. By giving Saul the priestly portion, Samuel is making a powerful symbolic statement: this man is being elevated to a sacred status. The phrase la-mo'ed shamur lekha ('for the appointed time it was kept for you') uses mo'ed — a word that means not just 'time' but 'appointed meeting, sacred assembly, designated occasion.' Nothing about this meal is accidental; it was a divinely scheduled appointment, and the food was held in reserve for a guest whose arrival was foretold.",
+      "translator_notes": [
+        "The shoq ('thigh') is the priestly portion in the Levitical system. Its presentation to Saul carries implicit sacral significance — he is being treated as someone who holds a sacred office. The phrase ve-he'aleha ('and what was upon it') likely refers to the fat or additional meat on the thigh portion, indicating a generous, complete serving.",
+        "The Hebrew of this verse is textually difficult. The phrase la-mo'ed shamur lekha le'mor ha-am qarati has been interpreted variously. Our rendering takes it as: 'for this appointed time it was kept for you, since I said I have invited the people' — meaning Samuel set aside the portion when he organized the feast, knowing that God's appointed guest would arrive. The word mo'ed ('appointed time') resonates with its use for Israel's sacred festivals, elevating this meal beyond ordinary hospitality."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיֵּרְד֥וּ מֵהַבָּמָ֖ה הָעִ֑יר וַיְדַבֵּ֥ר עִם־שָׁא֖וּל עַל־הַגָּֽג׃",
+      "text_kjv": "And when they were come down from the high place into the city, Samuel communed with Saul upon the top of the house.",
+      "rendering": "They came down from the high place into the town, and Samuel spoke with Saul on the rooftop.",
+      "translator_notes": [
+        "The gag ('roof, rooftop') was a flat surface used for private conversation, sleeping, and retreat in ancient Israelite homes. Samuel's choice to speak with Saul al ha-gag ('on the rooftop') signals a private, confidential conversation — above the household, away from listening ears. The verb dibber ('he spoke') without specifying the content creates suspense. The narrator withholds what Samuel told Saul on the rooftop, preserving the mystery of this private revelation. The reader knows from verses 15-16 what the subject must be, but the conversation itself remains unrecorded."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיַּשְׁכִּ֗מוּ וַיְהִ֣י כַּעֲל֣וֹת הַשַּׁ֡חַר וַיִּקְרָ֣א שְׁמוּאֵל֩ אֶל־שָׁא֨וּל הַגָּ֜גָה לֵאמֹ֤ר ק֙וּמָה֙ וַאֲשַׁלְּחֶ֔ךָּ וַיָּ֖קׇם שָׁא֑וּל וַיֵּצְא֧וּ שְׁנֵיהֶ֛ם ה֥וּא וּשְׁמוּאֵ֖ל הַחֽוּצָה׃",
+      "text_kjv": "And they arose early: and it came to pass about the spring of the day, that Samuel called Saul to the top of the house, saying, Up, that I may send thee away. And Saul arose, and they went out both of them, he and Samuel, abroad.",
+      "rendering": "They rose early, and as dawn was breaking, Samuel called to Saul on the rooftop: \"Get up, and I will send you on your way.\" Saul got up, and the two of them — he and Samuel — went out into the street.",
+      "translator_notes": [
+        "The phrase ka'alot ha-shachar ('as the dawn was rising') uses the verb alah ('to go up') for the dawn — the sun ascends as Saul's destiny ascends. Samuel's command qumah va-ashallchekka ('get up and I will send you') uses the same verb shalach ('to send') that God used in verse 16 ('I will send to you a man'). God sent Saul to Samuel; now Samuel sends Saul forward into his commission. The word ha-chutzah ('outside, into the open') indicates they moved from the private rooftop into the public street — the transition from private revelation to the beginning of public action."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "הֵ֗מָּה יוֹרְדִים֙ בִּקְצֵ֣ה הָעִ֔יר וּשְׁמוּאֵ֞ל אָמַ֣ר אֶל־שָׁא֗וּל אֱמֹ֥ר לַנַּ֛עַר וְיַעֲבֹ֥ר לְפָנֵ֖ינוּ וַיַּעֲבֹ֑ר וְאַתָּ֗ה עֲמֹד֙ כַּיּ֔וֹם וְאַשְׁמִיעֲךָ֖ אֶת־דְּבַ֥ר אֱלֹהִֽים׃",
+      "text_kjv": "And as they were going down to the end of the city, Samuel said to Saul, Bid the servant pass on before us, (and he passed on,) but stand thou still a while, that I may shew thee the word of God.",
+      "rendering": "As they were going down to the edge of the town, Samuel said to Saul, \"Tell the servant to go on ahead of us\" — and he went on — \"but you, stand here for a moment, so I can make you hear the word of God.\"",
+      "translator_notes": [
+        "The phrase amod ka-yom ('stand here for a moment,' literally 'stand as the day' or 'stand now') signals a pause in movement — physical stillness before a life-altering word. The verb ashmi'akha ('I will make you hear') uses the causative stem, emphasizing that this is not casual information but divinely authorized communication that Samuel will actively transmit. The word davar ('word') in davar Elohim means both 'word' and 'thing/matter' — the word of God is not merely speech but reality-creating substance.",
+        "The chapter ends mid-action, with Saul standing still and Samuel about to speak. This is a deliberate cliffhanger — the anointing itself is reserved for chapter 10:1, creating a chapter break that suspends the reader at the moment of maximum anticipation."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jeremiah",
+    "chapter": 51,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jeremiah 51 continues the oracle against Babylon begun in chapter 50, forming the longest chapter in the book. The chapter moves through waves of imagery: Babylon as God's 'war-hammer' now broken, the cup of God's wrath poured out on the nations now turned back on Babylon, the heavens and earth singing over Babylon's fall, and the cosmic scope of the LORD's sovereignty over all creation. The chapter climaxes with a dramatic sign-act: the prophet instructs Seraiah son of Neriah to carry a scroll bearing all these oracles to Babylon, read them aloud, tie a stone to the scroll, and hurl it into the Euphrates with the words 'So shall Babylon sink, never to rise again.' The final line — 'Thus far are the words of Jeremiah' — marks the formal end of the prophetic collection before the historical appendix of chapter 52.",
+    "remarkable": "Three images dominate this chapter. First, Babylon as God's mappets ('war-hammer' or 'shatterer,' v. 20) — a nation used as a divine instrument of judgment now itself shattered by the same God who wielded it. Second, the cup of wrath — Babylon made the nations drink, and now the LORD forces the cup back on her (v. 7). Third, the scroll-sinking sign-act (vv. 59-64) is one of the most vivid prophetic actions in the Hebrew Bible, a physical enactment of the oracle's message: as the stone drags the scroll to the riverbed, so Babylon will be dragged down irreversibly. The instruction to Seraiah is significant because he is the brother of Baruch, Jeremiah's scribe — both sons of Neriah serve as the prophet's literary agents. The closing colophon 'Thus far are the words of Jeremiah' (v. 64b) is a scribal note that marks the boundary between Jeremiah's prophetic corpus and the historical appendix of chapter 52.",
+    "friction": "The Hebrew mappets (v. 20) is variously translated as 'battle-axe,' 'war-club,' or 'hammer' — we chose 'war-hammer' because the root n-p-ts means 'to shatter,' and the instrument is defined by its effect. The verb shiqqu (v. 39) in 'when they are heated I will set their feast' is difficult; some read it as intoxication, others as a burning heat — we followed the intoxication reading since the cup-of-wrath metaphor governs the context. The phrase lev qamai (v. 1), traditionally read as an atbash cipher for kasdim ('Chaldeans'), poses a translation question — we rendered the surface meaning with a note on the cipher. The relationship between this chapter's poetry and the prose sign-act narrative (vv. 59-64) required attention to tonal shift.",
+    "connections": "The cup-of-wrath motif connects to Jeremiah 25:15-29, where Jeremiah is first commanded to make the nations drink. The war-hammer imagery echoes Jeremiah 50:23 ('How the hammer of the whole earth is cut down and broken!'). The sign-act of sinking the scroll parallels other Jeremiah sign-acts: the linen belt (ch. 13), the potter's vessel (ch. 19), the yoke (ch. 27-28). Seraiah son of Neriah connects to Baruch son of Neriah (ch. 36, 45). The closing formula connects forward to chapter 52's historical appendix, which draws from 2 Kings 24-25. The cosmic hymn sections (vv. 15-19) are nearly identical to Jeremiah 10:12-16, forming an inclusio within the book."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "כֹּ֚ה אָמַ֣ר יְהוָ֔ה הִנְנִ֣י מֵעִ֗יר עַל־בָּבֶל֙ וְאֶל־יֹשְׁבֵ֣י לֵ֣ב קָמָ֔י ר֖וּחַ מַשְׁחִֽית׃",
+      "text_kjv": "Thus saith the LORD; Behold, I will raise up against Babylon, and against them that dwell in the midst of them that rise up against me, a destroying wind;",
+      "rendering": "This is what the LORD says: I am stirring up against Babylon and against those who dwell in Leb-qamai a destroying wind.",
+      "translator_notes": ["The phrase lev qamai ('the heart of those who rise against me') is widely recognized as an atbash cipher — a Hebrew code where letters are substituted in reverse alphabetical order — for kasdim ('Chaldeans'). The same technique appears in 25:26 where sheshakh encodes bavel ('Babylon'). We retain the surface meaning in the rendering with this note. The verb me'ir ('stirring up') indicates that God initiates this destruction actively, not merely permits it."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְשִׁלַּחְתִּ֤י לְבָבֶל֙ זָרִ֔ים וְזֵר֖וּהָ וִיבֹקְק֣וּ אֶת־אַרְצָ֑הּ כִּֽי־הָי֥וּ עָלֶ֛יהָ מִסָּבִ֖יב בְּי֥וֹם רָעָֽה׃",
+      "text_kjv": "And will send unto Babylon fanners, that shall fan her, and shall empty her land: for in the day of trouble they shall be against her round about.",
+      "rendering": "I will send winnowers to Babylon, and they will winnow her and empty her land, for they will come against her from every side on the day of disaster.",
+      "translator_notes": ["The verb zarah ('to winnow') pictures grain thrown into the wind so the chaff blows away — applied to Babylon, it means the nation will be scattered and sifted until nothing of value remains. The wordplay between bavel and zarim/zeruha (Babylon and the winnowers) reinforces the irony: Babylon the great will be blown away like chaff."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אֶֽל־יִדְרֹ֤ךְ הַדֹּרֵךְ֙ קַשְׁתּ֔וֹ וְאֶל־יִתְעַ֖ל בְּסִרְיֹנ֑וֹ וְאַֽל־תַּחְמְל֣וּ אֶל־בַּחֻרֶ֔יהָ הַחֲרִ֖ימוּ כָּל־צְבָאָֽהּ׃",
+      "text_kjv": "Against him that bendeth let the archer bend his bow, and against him that lifteth himself up in his brigandine: and spare not her young men; destroy ye utterly all her host.",
+      "rendering": "Let no archer string his bow, let no one stand tall in his armor. Do not spare her young men — devote her entire army to destruction.",
+      "translator_notes": ["The verse is directed at Babylon's defenders, telling them resistance is futile. The verb hacharim ('devote to destruction') is the language of cherem — total consecration to God through annihilation. This same vocabulary was used for Israel's conquest of Canaan, now turned against Babylon. The irony is devastating: the instrument of God's judgment is now itself under the ban."],
+      "key_terms": [
+        {
+          "hebrew": "הַחֲרִימוּ",
+          "transliteration": "hacharimu",
+          "rendered_as": "devote to destruction",
+          "semantic_range": "to ban, devote to destruction, place under the ban, consecrate for annihilation",
+          "note": "Cherem vocabulary — what was once applied to Canaan's inhabitants is now applied to Babylon. God's instruments of judgment are not exempt from judgment themselves."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְנָפְל֥וּ חֲלָלִ֖ים בְּאֶ֣רֶץ כַּשְׂדִּ֑ים וּמְדֻקָּרִ֖ים בְּחוּצוֹתֶֽיהָ׃",
+      "text_kjv": "Thus the slain shall fall in the land of the Chaldeans, and they that are thrust through in her streets.",
+      "rendering": "The slain will fall in the land of the Chaldeans, the pierced through in her streets.",
+      "translator_notes": ["The parallelism between chalal ('slain') and meduqarim ('pierced through') intensifies the carnage. The phrase 'in her streets' echoes the language used earlier for Jerusalem's own destruction (Lamentations 2:21), creating a grim reciprocity — what Babylon did to Zion's streets now happens in Babylon's own."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כִּ֣י לֹֽא־אַלְמָ֞ן יִשְׂרָאֵ֤ל וִיהוּדָה֙ מֵֽאֱלֹהָ֔יו מֵיְהוָ֖ה צְבָא֑וֹת כִּ֤י אַרְצָם֙ מָלְאָ֣ה אָשָׁ֔ם מִקְּד֖וֹשׁ יִשְׂרָאֵֽל׃",
+      "text_kjv": "For Israel hath not been forsaken, nor Judah of his God, of the LORD of hosts; though their land was filled with sin against the Holy One of Israel.",
+      "rendering": "For Israel and Judah have not been widowed by their God, by the LORD of Hosts — though their land was filled with guilt before the Holy One of Israel.",
+      "translator_notes": ["The verb alman ('widowed') is striking — it casts the covenant relationship as a marriage, with exile as the apparent death of the spouse. But God declares the marriage is not over; Israel is not a widow. The word asham ('guilt') here denotes both the offense and the liability it creates. The title 'the Holy One of Israel' (qedosh yisra'el) is more characteristic of Isaiah but appears here to emphasize God's covenantal distinctness."],
+      "key_terms": [
+        {
+          "hebrew": "אַלְמָן",
+          "transliteration": "alman",
+          "rendered_as": "widowed",
+          "semantic_range": "widowed, forsaken, bereft, abandoned",
+          "note": "The marital metaphor implies that exile looked like divine death — as if God had died and left Israel a widow. But the covenant partner lives."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "נֻ֣סוּ ׀ מִתּ֣וֹךְ בָּבֶ֗ל וּמַלְּטוּ֙ אִ֣ישׁ נַפְשׁ֔וֹ אַל־תִּדַּ֖מּוּ בַּעֲוֹנָ֑הּ כִּ֣י עֵ֤ת נְקָמָה֙ הִיא֙ לַיהוָ֔ה גְּמ֕וּל ה֥וּא מְשַׁלֵּ֖ם לָֽהּ׃",
+      "text_kjv": "Flee out of the midst of Babylon, and deliver every man his soul: be not cut off in her iniquity; for this is the time of the LORD's vengeance; he will render unto her a recompence.",
+      "rendering": "Flee from the midst of Babylon! Each of you, save your own life! Do not be destroyed for her iniquity, for this is the time of the LORD's vengeance — he is repaying her what she deserves.",
+      "translator_notes": ["The command to flee Babylon is addressed to the Judean exiles living there — they must separate themselves before judgment falls. The verb damam in the nifal ('be silenced, be destroyed') carries the sense of being wiped out. The noun gemul ('recompense, what is deserved') implies strict proportional justice — Babylon will receive exactly what she gave."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "כּוֹס־זָהָ֤ב בָּבֶל֙ בְּיַ֣ד יְהוָ֔ה מְשַׁכֶּ֖רֶת כָּל־הָאָ֑רֶץ מִיֵּינָ֣הּ שָׁת֣וּ גוֹיִ֔ם עַל־כֵּ֖ן יִתְהֹלְל֥וּ גוֹיִֽם׃",
+      "text_kjv": "Babylon hath been a golden cup in the LORD's hand, that made all the earth drunken: the nations have drunken of her wine; therefore the nations are mad.",
+      "rendering": "Babylon was a golden cup in the LORD's hand, making the whole earth drunk. The nations drank her wine — that is why the nations have gone mad.",
+      "translator_notes": ["The image of Babylon as a golden cup in God's hand is theologically explosive: Babylon's imperial conquest was God's instrument of judgment, but now the cup turns. The verb mesakkeret ('making drunk') connects to the cup-of-wrath motif in Jeremiah 25:15-29. The verb yitholelu ('go mad, rave') depicts the political chaos that follows Babylon's influence — the nations stagger like drunks."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "פִּתְאֹ֛ם נָפְלָ֥ה בָבֶ֖ל וַתִּשָּׁבֵ֑ר הֵילִ֣ילוּ עָלֶ֗יהָ קְח֤וּ צֳרִי֙ לְמַכְאוֹבָ֔הּ אוּלַ֖י תֵּרָפֵֽא׃",
+      "text_kjv": "Babylon is suddenly fallen and destroyed: howl for her; take balm for her pain, if so be she may be healed.",
+      "rendering": "Suddenly Babylon has fallen and is shattered! Wail over her! Bring balm for her wound — perhaps she can be healed.",
+      "translator_notes": ["The verb nishbarah ('is shattered') uses the same root as the shattering Babylon inflicted on others. The word tsori ('balm, resin') recalls Jeremiah 8:22 — 'Is there no balm in Gilead?' — creating a bitter echo. There was no healing for Judah's wound, and now there is none for Babylon's. The 'perhaps' (ulai) is ironic: the speaker knows there is no remedy."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "רִפִּ֤ינוּ אֶת־בָּבֶל֙ וְלֹ֣א נִרְפָּ֔תָה עִזְב֕וּהָ וְנֵלֵ֖ךְ אִ֣ישׁ לְאַרְצ֑וֹ כִּֽי־נָגַ֤ע אֶל־הַשָּׁמַ֙יִם֙ מִשְׁפָּטָ֔הּ וְנִשָּׂ֖א עַד־שְׁחָקִֽים׃",
+      "text_kjv": "We would have healed Babylon, but she is not healed: forsake her, and let us go every one into his own country: for her judgment reacheth unto heaven, and is lifted up even to the skies.",
+      "rendering": "We tried to heal Babylon, but she could not be healed. Leave her, and let each of us go to his own land, for her judgment reaches to the heavens and rises to the clouds.",
+      "translator_notes": ["The speakers here are likely the foreign nations who served Babylon — they tried to sustain the empire, but it is beyond saving. The phrase 'reaches to the heavens' echoes the Tower of Babel narrative (Genesis 11:4), where Babylon's builders said 'let us build a tower that reaches to the heavens.' Now it is Babylon's judgment, not her tower, that reaches heaven."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "הוֹצִ֥יא יְהוָ֖ה אֶת־צִדְקֹתֵ֑ינוּ בֹּ֚אוּ וּנְסַפְּרָ֣ה בְצִיּ֔וֹן אֶֽת־מַעֲשֵׂ֖ה יְהוָ֥ה אֱלֹהֵֽינוּ׃",
+      "text_kjv": "The LORD hath brought forth our righteousness: come, and let us declare in Zion the work of the LORD our God.",
+      "rendering": "The LORD has brought forth our vindication! Come, let us declare in Zion the work of the LORD our God.",
+      "translator_notes": ["The word tsidqoteinu ('our righteousness/vindication') here carries the sense of legal vindication — God has demonstrated that Israel's cause was just by judging their oppressor. The shift from Babylon's judgment to Zion's declaration creates a liturgical moment: the exiles envision returning to tell the story."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "הָבֵ֣רוּ הַחִצִּ֗ים מִלְא֣וּ הַשְּׁלָטִים֒ הֵעִ֣יר יְהוָ֗ה אֶת־ר֙וּחַ֙ מַלְכֵ֣י מָדַ֔י כִּֽי־עַל־בָּבֶ֥ל מְזִמָּת֖וֹ לְהַשְׁחִיתָ֑הּ כִּֽי־נִקְמַ֤ת יְהוָה֙ הִ֔יא נִקְמַ֖ת הֵיכָלֽוֹ׃",
+      "text_kjv": "Make bright the arrows; gather the shields: the LORD hath raised up the spirit of the kings of the Medes: for his device is against Babylon, to destroy it; because it is the vengeance of the LORD, the vengeance of his temple.",
+      "rendering": "Sharpen the arrows! Fill the quivers! The LORD has stirred up the spirit of the kings of the Medes, for his purpose against Babylon is to destroy her — for this is the vengeance of the LORD, the vengeance for his temple.",
+      "translator_notes": ["The Medes are named as God's instrument, historically accurate since the Medo-Persian alliance under Cyrus conquered Babylon in 539 BCE. The phrase niqmat hekhalo ('vengeance for his temple') refers to the destruction of Solomon's temple in 586 BCE — God will avenge the desecration of his own dwelling place. The word mezimmah ('plan, purpose, device') emphasizes that Babylon's fall is not random but divinely orchestrated."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "אֶל־חוֹמֹ֤ת בָּבֶל֙ שְׂא֣וּ נֵ֔ס הַחֲזִ֙יקוּ֙ הַמִּשְׁמָ֔ר הָקִ֖ימוּ שֹׁמְרִ֑ים הָכִ֣ינוּ הָאֹרְבִ֔ים כִּ֚י גַּם־זָמַ֣ם יְהוָ֔ה גַּם־עָשָׂ֕ה אֵ֥ת אֲשֶׁר־דִּבֶּ֖ר אֶל־יֹשְׁבֵ֥י בָבֶֽל׃",
+      "text_kjv": "Set up the standard upon the walls of Babylon, make the watch strong, set up the watchmen, prepare the ambushes: for the LORD hath both devised and done that which he spake against the inhabitants of Babylon.",
+      "rendering": "Raise the signal against the walls of Babylon! Strengthen the guard, post the watchmen, prepare the ambushes — for the LORD has both planned and carried out what he spoke against the inhabitants of Babylon.",
+      "translator_notes": ["The military commands pile up in rapid succession — five imperatives in a single verse. The final clause affirms the prophetic-fulfillment principle: God both devises (zamam) and executes (asah) his word. The distinction between planning and doing emphasizes that prophetic speech is not wishful thinking but a declaration of what God has already determined."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "שֹׁכַנְתְּ֙ עַל־מַ֣יִם רַבִּ֔ים רַבַּ֖ת אוֹצָרֹ֑ת בָּ֥א קִצֵּ֖ךְ אַמַּ֥ת בִּצְעֵֽךְ׃",
+      "text_kjv": "O thou that dwellest upon many waters, abundant in treasures, thine end is come, and the measure of thy covetousness.",
+      "rendering": "You who dwell by many waters, rich in treasures — your end has come, the measure of your profit-taking is cut off.",
+      "translator_notes": ["Babylon was literally built on waterways — the Euphrates ran through the city, and an elaborate canal system sustained its agriculture and commerce. The phrase 'many waters' is both geographical and symbolic, evoking the cosmic waters of chaos that Babylon claimed to control. The word bitsa ('profit, unjust gain, plunder') denotes wealth gained through exploitation. The noun ammah ('cubit, measure') here functions as the limit God sets: Babylon's greed has been measured and found finished."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "נִשְׁבַּ֛ע יְהוָ֥ה צְבָא֖וֹת בְּנַפְשׁ֑וֹ כִּ֣י אִם־מִלֵּאתִ֤יךְ אָדָם֙ כַּיֶּ֔לֶק וְעָנ֥וּ עָלַ֖יִךְ הֵידָֽד׃",
+      "text_kjv": "The LORD of hosts hath sworn by himself, saying, Surely I will fill thee with men, as with caterpillers; and they shall lift up a shout against thee.",
+      "rendering": "The LORD of Hosts has sworn by himself: I will surely fill you with attackers like a swarm of locusts, and they will raise a war cry against you.",
+      "translator_notes": ["God swearing 'by himself' (benafsho, literally 'by his own life/soul') is the most solemn oath possible — there is no higher authority to swear by. The comparison to yeleq ('locusts') evokes the plague imagery of Joel and Exodus — an overwhelming, consuming force. The hedad ('war cry, shout') is the triumphal shout of harvesters or warriors, ironically applied here to Babylon's destruction."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "עֹשֵׂ֥ה אֶ֙רֶץ֙ בְּכֹח֔וֹ מֵכִ֥ין תֵּבֵ֖ל בְּחָכְמָת֑וֹ וּבִתְבוּנָת֖וֹ נָטָ֥ה שָׁמָֽיִם׃",
+      "text_kjv": "He hath made the earth by his power, he hath established the world by his wisdom, and hath stretched out the heaven by his understanding.",
+      "rendering": "He made the earth by his power, established the world by his wisdom, and stretched out the heavens by his understanding.",
+      "translator_notes": ["This verse begins a hymnic section (vv. 15-19) that is nearly identical to Jeremiah 10:12-16, creating an inclusio within the book. Placed here in the Babylon oracle, it serves a polemical function: the God who judges Babylon is not a local deity but the creator of all things. The three parallel clauses ascribe three attributes to creation: power (koach), wisdom (chokhmah), and understanding (tevunah)."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "לְק֣וֹל תִּתּ֗וֹ הֲמ֤וֹן מַ֙יִם֙ בַּשָּׁמַ֔יִם וַיַּ֥עַל נְשִׂאִ֖ים מִקְצֵ֣ה אָ֑רֶץ בְּרָקִ֤ים לַמָּטָר֙ עָשָׂ֔ה וַיֹּ֥צֵא ר֖וּחַ מֵאֹצְרֹתָֽיו׃",
+      "text_kjv": "When he uttereth his voice, there is a multitude of waters in the heavens; and he causeth the vapours to ascend from the ends of the earth: he maketh lightnings with rain, and bringeth forth the wind out of his treasures.",
+      "rendering": "When he thunders, there is a roar of waters in the heavens. He makes clouds rise from the ends of the earth, creates lightning for the rain, and brings wind out from his storehouses.",
+      "translator_notes": ["The phrase leqol titto ('at the sound of his giving') is rendered 'when he thunders' because the context describes God's voice as the thunderstorm. The 'storehouses' (otsrot) of wind is a cosmological image — God keeps the winds stored until he releases them, asserting sovereign control over weather, which Babylonian religion attributed to Marduk."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "נִבְעַ֤ר כָּל־אָדָם֙ מִדַּ֔עַת הֹבִ֥ישׁ כָּל־צוֹרֵ֖ף מִפָּ֑סֶל כִּ֛י שֶׁ֥קֶר נִסְכּ֖וֹ וְלֹא־ר֥וּחַ בָּֽם׃",
+      "text_kjv": "Every man is brutish by his knowledge; every founder is confounded by the graven image: for his molten image is falsehood, and there is no breath in them.",
+      "rendering": "Every person is too stupid to understand; every metalworker is put to shame by his idol, for his cast image is a lie and there is no breath in them.",
+      "translator_notes": ["The verb niv'ar ('made brutish, rendered stupid') is a harsh assessment — idol-makers are not merely mistaken but rendered sub-rational by their craft. The phrase lo ruach bam ('no breath/spirit in them') is the definitive judgment on idols: they lack the animating breath (ruach) that God breathes into living things (Genesis 2:7). This directly contrasts with the living God described in vv. 15-16."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "הֶ֥בֶל הֵ֖מָּה מַעֲשֵׂ֣ה תַּעְתֻּעִ֑ים בְּעֵ֥ת פְּקֻדָּתָ֖ם יֹאבֵֽדוּ׃",
+      "text_kjv": "They are vanity, the work of errors: in the time of their visitation they shall perish.",
+      "rendering": "They are worthless, a work of mockery. In the time of their reckoning, they will perish.",
+      "translator_notes": ["The word hevel ('vapor, breath, worthlessness') — the same word that dominates Ecclesiastes — dismisses idols as insubstantial. The phrase ma'aseh ta'tu'im ('work of mockery/delusion') suggests the idols are both deceptive and ridiculous. The 'time of reckoning' (et pequddatam) is the moment God calls all things to account."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "לֹֽא־כְאֵ֜לֶּה חֵ֣לֶק יַעֲקֹ֗ב כִּֽי־יוֹצֵ֤ר הַכֹּל֙ ה֔וּא וְשֵׁ֖בֶט נַחֲלָת֑וֹ יְהוָ֥ה צְבָא֖וֹת שְׁמֽוֹ׃",
+      "text_kjv": "The portion of Jacob is not like them; for he is the former of all things: and Israel is the rod of his inheritance: the LORD of hosts is his name.",
+      "rendering": "The portion of Jacob is not like these, for the one who formed all things is he, and Israel is the tribe of his inheritance — the LORD of Hosts is his name.",
+      "translator_notes": ["This verse concludes the hymnic section by contrasting the living God with dead idols. The 'portion of Jacob' (cheleq ya'aqov) means that Israel's God is not an idol but the maker of everything. The word shevet ('tribe, staff, scepter') here designates Israel as God's particular possession among the nations. This verse is nearly identical to 10:16."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "מַפֵּ֥ץ אַתָּ֖ה לִ֑י כְּלֵ֣י מִלְחָמָ֔ה וְנִפַּצְתִּ֤י בְךָ֙ גּוֹיִ֔ם וְהִשְׁחַתִּ֥י בְךָ֖ מַמְלָכֽוֹת׃",
+      "text_kjv": "Thou art my battle axe and weapons of war: for with thee will I break in pieces the nations, and with thee will I destroy kingdoms;",
+      "rendering": "You are my war-hammer, my weapon of battle. With you I shattered nations, with you I destroyed kingdoms.",
+      "expanded_rendering": "The Hebrew mappets (from the root n-p-ts, 'to shatter') designates a heavy instrument of smashing — not a cutting weapon like an axe but a blunt force tool that pulverizes. God addresses Babylon as the instrument he wielded to smash nations, but the word carries its own irony: the shatterer will itself be shattered (v. 21ff).",
+      "translator_notes": ["The noun mappets appears only here in the Hebrew Bible — it is coined for this context, derived from the verb nippets ('to shatter, smash to pieces'). We render it 'war-hammer' rather than 'battle-axe' (KJV) because the root describes blunt-force shattering, not cutting. The past tense 'shattered' and 'destroyed' (perfective verbs) is deliberate — God speaks of Babylon's role as already completed. What follows in vv. 21-23 is a litany of what God smashed with this hammer, building to the revelation that the hammer itself is now broken."],
+      "key_terms": [
+        {
+          "hebrew": "מַפֵּץ",
+          "transliteration": "mappets",
+          "rendered_as": "war-hammer",
+          "semantic_range": "war-club, battle-hammer, shatterer, smashing weapon",
+          "note": "A hapax legomenon — a word appearing only once in the Hebrew Bible, coined from the root n-p-ts to describe Babylon's role as God's instrument of annihilation. The instrument is defined by its action: shattering."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְנִפַּצְתִּ֣י בְךָ֔ ס֖וּס וְרֹכְב֑וֹ וְנִפַּצְתִּ֣י בְךָ֔ רֶ֖כֶב וְרֹכְבֽוֹ׃",
+      "text_kjv": "And with thee will I break in pieces the horse and his rider; and with thee will I break in pieces the chariot and his rider;",
+      "rendering": "With you I shattered horse and rider; with you I shattered chariot and driver.",
+      "translator_notes": ["The repetitive 'with you I shattered' (venippatsti bekha) creates a litany that extends through verse 23. Each line names a category of human power — military, political, social — all crushed by God's war-hammer. The rhythm is deliberately incantatory, building to a devastating crescendo."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְנִפַּצְתִּ֣י בְךָ֔ אִ֖ישׁ וְאִשָּׁ֑ה וְנִפַּצְתִּ֣י בְךָ֔ זָקֵ֖ן וָנָֽעַר׃",
+      "text_kjv": "With thee also will I break in pieces man and woman; and with thee will I break in pieces old and young;",
+      "rendering": "With you I shattered man and woman; with you I shattered old and young.",
+      "translator_notes": ["The litany moves from military targets (v. 21) to civilian ones — men, women, elderly, youth. The totality of destruction is the point: no category of person was exempt from the devastation God inflicted through Babylon. The merism 'old and young' encompasses the entire population."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וְנִפַּצְתִּ֣י בְךָ֔ רֹעֶ֖ה וְעֶדְר֑וֹ וְנִפַּצְתִּ֣י בְךָ֔ אִכָּ֖ר וְצִמְדּֽוֹ וְנִפַּצְתִּ֣י בְךָ֔ פַּח֖וֹת וּסְגָנִֽים׃",
+      "text_kjv": "I will also break in pieces with thee the shepherd and his flock; and with thee will I break in pieces the husbandman and his yoke of oxen; and with thee will I break in pieces captains and rulers.",
+      "rendering": "With you I shattered shepherd and flock; with you I shattered farmer and team of oxen; with you I shattered governors and officials.",
+      "translator_notes": ["The litany concludes by spanning all social roles — pastoral (shepherd), agricultural (farmer), and political (governors, officials). The words pachot ('governors') and seganim ('officials') are loan words from Akkadian, appropriate for an oracle about Babylon. The effect of the seven-fold repetition of 'with you I shattered' is cumulative: Babylon was the instrument of total devastation — and now that instrument is finished."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְשִׁלַּמְתִּ֨י לְבָבֶ֜ל וּלְכֹ֣ל ׀ יוֹשְׁבֵ֣י כַשְׂדִּ֗ים אֵ֧ת כָּל־רָעָתָ֛ם אֲשֶׁר־עָשׂ֥וּ בְצִיּ֖וֹן לְעֵינֵיכֶ֑ם נְאֻ֖ם יְהוָֽה׃",
+      "text_kjv": "And I will render unto Babylon and to all the inhabitants of Chaldea all their evil that they have done in Zion in your sight, saith the LORD.",
+      "rendering": "I will repay Babylon and all the inhabitants of Chaldea for all the evil they did in Zion before your eyes, declares the LORD.",
+      "translator_notes": ["The verb shillamti ('I will repay, recompense') carries the sense of completing a payment — God will settle the account in full. The phrase le'eineikhem ('before your eyes') means the exiles will witness the reversal — the same people who watched Zion's destruction will see Babylon's."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "הִנְנִ֨י אֵלֶ֜יךָ הַ֤ר הַמַּשְׁחִית֙ נְאֻם־יְהוָ֔ה הַמַּשְׁחִ֖ית אֶת־כָּל־הָאָ֑רֶץ וְנָטִ֤יתִי אֶת־יָדִי֙ עָלֶ֔יךָ וְגִלְגַּלְתִּ֙יךָ֙ מִן־הַסְּלָעִ֔ים וּנְתַתִּ֖יךָ לְהַ֥ר שְׂרֵפָֽה׃",
+      "text_kjv": "Behold, I am against thee, O destroying mountain, saith the LORD, which destroyest all the earth: and I will stretch out mine hand upon thee, and roll thee down from the rocks, and will make thee a burnt mountain.",
+      "rendering": "I am against you, destroying mountain, declares the LORD — you who destroy the whole earth. I will stretch out my hand against you and roll you down from the crags and make you a scorched mountain.",
+      "translator_notes": ["Babylon was built on a flat plain, so 'mountain' (har) here is metaphorical — Babylon is a mountain of destructive power, towering over the nations. The image of being rolled down from the crags and becoming a 'scorched mountain' (har serefah) evokes volcanic destruction: the once-mighty peak reduced to burned-out rock from which no building stone can ever be quarried (v. 26). The verb gilgalti ('I will roll you') is vivid and physical — God pushes Babylon off the heights like a boulder."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְלֹֽא־יִקְח֤וּ מִמְּךָ֙ אֶ֣בֶן לְפִנָּ֔ה וְאֶ֖בֶן לְמוֹסָד֑וֹת כִּֽי־שִׁמְמ֤וֹת עוֹלָם֙ תִּֽהְיֶ֔ה נְאֻ֖ם יְהוָֽה׃",
+      "text_kjv": "And they shall not take of thee a stone for a corner, nor a stone for foundations; but thou shalt be desolate for ever, saith the LORD.",
+      "rendering": "No one will take from you a stone for a cornerstone or a stone for foundations, for you will be an everlasting ruin, declares the LORD.",
+      "translator_notes": ["The image is of total demolition — not even the rubble will be reusable. A city whose stones cannot serve as foundation material is a city permanently erased from civilization. The phrase shimmemot olam ('everlasting desolation') uses olam to indicate duration beyond the horizon of perception — Babylon will not recover within any foreseeable future."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "שְׂאוּ־נֵ֣ס בָּאָ֗רֶץ תִּקְע֤וּ שׁוֹפָר֙ בַּגּוֹיִ֔ם קַדְּשׁ֤וּ עָלֶ֙יהָ֙ גּוֹיִ֔ם הַשְׁמִ֣יעוּ עָלֶ֗יהָ מַמְלְכ֛וֹת אֲרָרַ֥ט מִנִּ֖י וְאַשְׁכְּנָ֑ז פִּקְד֤וּ עָלֶ֙יהָ֙ טִפְסָ֔ר הַעֲל֥וּ ס֖וּס כְּיֶ֥לֶק סָמָֽר׃",
+      "text_kjv": "Set ye up a standard in the land, blow the trumpet among the nations, prepare the nations against her, call together against her the kingdoms of Ararat, Minni, and Ashchenaz; appoint a captain against her; cause the horses to come up as the rough caterpillers.",
+      "rendering": "Raise a signal in the land! Blow the ram's horn among the nations! Consecrate nations against her, summon against her the kingdoms of Ararat, Minni, and Ashkenaz. Appoint a commander against her; bring up horses like bristling locusts.",
+      "translator_notes": ["The three kingdoms — Ararat (Urartu, in modern eastern Turkey/Armenia), Minni (the Manneans, south of Lake Urmia), and Ashkenaz (the Scythians) — are all peoples who came under Median control and participated in the assault on Babylon. The verb qaddesh ('consecrate, set apart') for military campaign uses holy-war language — the attack on Babylon is a sacred mission. The word tipsar ('commander, marshal') is an Akkadian loan word. The simile 'like bristling locusts' (keyelek samar) describes cavalry horses with their manes standing on end."],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "קַדְּשׁ֨וּ עָלֶ֤יהָ גוֹיִם֙ אֶת־מַלְכֵ֣י מָדַ֔י אֶת־פַּחוֹתֶ֖יהָ וְאֶת־כָּל־סְגָנֶ֑יהָ וְאֵ֖ת כָּל־אֶ֥רֶץ מֶמְשַׁלְתּֽוֹ׃",
+      "text_kjv": "Prepare against her the nations with the kings of the Medes, the captains thereof, and all the rulers thereof, and all the land of his dominion.",
+      "rendering": "Consecrate nations against her — the kings of the Medes, all their governors, all their officials, and every land under their rule.",
+      "translator_notes": ["The Medes are again identified as the human agents of divine judgment. The repetition of 'consecrate' (qaddesh) reinforces the holy-war framework: this is not mere geopolitics but sacred action. The phrase 'every land under their rule' (kol erets memshaltô) indicates a coalition of vassal states under Median hegemony."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַתִּרְעַ֥שׁ הָאָ֖רֶץ וַתָּחֹ֑ל כִּ֣י קָ֤מָה עַל־בָּבֶל֙ מַחְשְׁב֣וֹת יְהוָ֔ה לָשׂ֤וּם אֶת־אֶ֙רֶץ֙ בָּבֶ֔ל לְשַׁמָּ֖ה מֵאֵ֥ין יוֹשֵֽׁב׃",
+      "text_kjv": "And the land shall tremble and sorrow: for every purpose of the LORD shall be performed against Babylon, to make the land of Babylon a desolation without an inhabitant.",
+      "rendering": "The earth trembles and writhes, for the purposes of the LORD against Babylon stand firm — to make the land of Babylon a desolation with no one living in it.",
+      "translator_notes": ["The verbs ra'ash ('tremble') and chul ('writhe, convulse') describe the earth itself reacting to God's judgment as if in labor pains. The phrase me'ein yoshev ('without an inhabitant') is the ultimate judgment formula in Jeremiah, recurring throughout the book (2:15, 4:7, 9:10, 33:10, 34:22, 44:22, 46:19) — a land without people is a land under the full weight of covenant curse."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "חָדְלוּ֩ גִבּוֹרֵ֨י בָבֶ֜ל לְהִלָּחֵ֗ם יָשְׁבוּ֙ בַּמְּצָד֔וֹת נָשְׁתָ֥ה גְבוּרָתָ֖ם הָי֣וּ לְנָשִׁ֑ים הִצִּ֙יתוּ֙ מִשְׁכְּנֹתֶ֔יהָ נִשְׁבְּר֖וּ בְּרִיחֶֽיהָ׃",
+      "text_kjv": "The mighty men of Babylon have forborn to fight, they have remained in their holds: their might hath failed; they became as women: they have burned her dwellingplaces; her bars are broken.",
+      "rendering": "The warriors of Babylon have stopped fighting; they sit in their fortresses. Their strength has dried up; they have become like women. Her dwellings are set on fire; her gate-bars are broken.",
+      "translator_notes": ["The verb nasheta ('has dried up') pictures strength evaporating like water — the mighty warriors are drained of all power. The simile 'become like women' (hayu lenashim) reflects ancient Near Eastern war rhetoric where defeated warriors are compared to women as an expression of total military collapse. The breaking of bars (berichim) signifies the breaching of the city's defenses — Babylon's famous gates are forced open."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "רָ֤ץ לִקְרַאת־רָץ֙ יָר֔וּץ וּמַגִּ֖יד לִקְרַ֣את מַגִּ֑יד לְהַגִּיד֙ לְמֶ֣לֶךְ בָּבֶ֔ל כִּֽי־נִלְכְּדָ֥ה עִיר֖וֹ מִקָּצֶֽה׃",
+      "text_kjv": "One post shall run to meet another, and one messenger to meet another, to shew the king of Babylon that his city is taken at one end,",
+      "rendering": "Runner meets runner, messenger meets messenger, to report to the king of Babylon that his city is captured from end to end,",
+      "translator_notes": ["The breathless sequence of runners and messengers conveys the speed and panic of the city's fall. The phrase miqqatseh ('from the end') means the invaders have entered from the outskirts and are advancing inward — the king learns his city is falling section by section. According to Herodotus (1.191) and the Nabonidus Chronicle, the Persians entered Babylon by diverting the Euphrates and walking under the walls along the dried riverbed."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְהַמַּעְבָּר֣וֹת נִתְפָּ֔שׂוּ וְאֶת־הָאֲגַמִּ֖ים שָׂרְפ֣וּ בָאֵ֑שׁ וְאַנְשֵׁ֥י הַמִּלְחָמָ֖ה נִבְהָֽלוּ׃",
+      "text_kjv": "And that the passages are stopped, and the reeds they have burned with fire, and the men of war are affrighted.",
+      "rendering": "the river crossings are seized, the marshes are burned with fire, and the soldiers are in a panic.",
+      "translator_notes": ["The ma'barot ('crossings, fords') are the strategic river passages through Babylon — whoever controls the Euphrates crossings controls the city. The agammim ('marshes, reed pools') surrounding Babylon are set ablaze, eliminating both cover and escape routes. The verb nivhalu ('are terrified, panic') describes the complete psychological collapse of the defending forces."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "כִּ֣י כֹ֤ה אָמַר֙ יְהוָ֣ה צְבָא֔וֹת אֱלֹהֵ֖י יִשְׂרָאֵ֑ל בַּת־בָּבֶ֗ל כְּגֹ֙רֶן֙ עֵ֣ת הִדְרִיכָ֔הּ ע֣וֹד מְעַ֔ט וּבָ֥אָה עֵֽת־הַקָּצִ֖יר לָֽהּ׃",
+      "text_kjv": "For thus saith the LORD of hosts, the God of Israel; The daughter of Babylon is like a threshingfloor, it is time to thresh her: yet a little while, and the time of her harvest shall come.",
+      "rendering": "For this is what the LORD of Hosts, the God of Israel, says: Daughter Babylon is like a threshing floor at the time it is trampled — just a little longer, and the time of harvest will come for her.",
+      "translator_notes": ["The threshing floor image (goren) layers two agricultural metaphors: the floor is trampled and prepared now, and soon the harvest (qatsir) — the full destruction — will arrive. The phrase 'Daughter Babylon' (bat bavel) personifies the city as a woman, consistent with ancient Near Eastern convention. The word hidrikhah ('treading, trampling') describes the oxen treading grain on the threshing floor, an image of being crushed underfoot."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "אֲכָלַ֣נוּ הֲמָמַ֗נוּ נְבוּכַדְרֶאצַּר֮ מֶ֣לֶךְ בָּבֶל֒ הִצִּיגַ֙נוּ֙ כְּלִ֣י רִ֔יק בְּלָעָ֙נוּ֙ כַּתַּנִּ֔ין מִלָּ֥א כְרֵשׂ֖וֹ מֵעֲדָנָ֑י הֱדִיחָֽנוּ׃",
+      "text_kjv": "Nebuchadrezzar the king of Babylon hath devoured me, he hath crushed me, he hath made me an empty vessel, he hath swallowed me up like a dragon, he hath filled his belly with my delicacies, he hath cast me out.",
+      "rendering": "Nebuchadnezzar king of Babylon has devoured us, he has crushed us, he has set us down like an empty vessel. He has swallowed us like a sea-serpent, filled his belly with our delicacies, and vomited us out.",
+      "translator_notes": ["Jerusalem speaks in the first person plural, voicing the experience of exile. The verb bela'anu ('swallowed us') compares Nebuchadnezzar to a tannin ('sea-serpent, dragon, great sea creature') — the primordial chaos monster of ancient Near Eastern mythology. The progression is vivid: devoured, crushed, emptied, swallowed, filled, expelled. The verb hedichanu ('cast us out, rinsed us away') carries the sense of being flushed out — Jerusalem was consumed and then discarded."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "חֲמָסִ֤י וּשְׁאֵרִי֙ עַל־בָּבֶ֔ל תֹּאמַ֖ר יֹשֶׁ֣בֶת צִיּ֑וֹן וְדָמִ֗י אֶל־יֹשְׁבֵ֤י כַשְׂדִּים֙ תֹּאמַ֖ר יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "The violence done to me and to my flesh be upon Babylon, shall the inhabitant of Zion say; and my blood be upon the inhabitants of Chaldea, shall Jerusalem say.",
+      "rendering": "The violence done to me and my flesh — let it fall on Babylon, says the inhabitant of Zion. My blood — let it fall on the inhabitants of Chaldea, says Jerusalem.",
+      "translator_notes": ["Zion and Jerusalem speak as plaintiff and witness, demanding that the violence (chamas) and bloodshed (dam) they suffered be returned upon Babylon. The word she'eri ('my flesh, my body') makes the suffering physical and personal — not abstract political loss but bodily violation. This is a legal cry for justice, not mere vengeance."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "לָכֵ֗ן כֹּ֚ה אָמַ֣ר יְהוָ֔ה הִנְנִי־רָ֥ב אֶת־רִיבֵ֖ךְ וְנִקַּמְתִּ֣י אֶת־נִקְמָתֵ֑ךְ וְהַחֲרַבְתִּ֥י אֶת־יַמָּ֖הּ וְהֹבַשְׁתִּ֥י אֶת־מְקוֹרָֽהּ׃",
+      "text_kjv": "Therefore thus saith the LORD; Behold, I will plead thy cause, and take vengeance for thee; and I will dry up her sea, and make her springs dry.",
+      "rendering": "Therefore this is what the LORD says: I am taking up your case and exacting your vengeance. I will dry up her sea and make her springs run dry.",
+      "translator_notes": ["God responds to Zion's legal cry (v. 35) by taking up her case (riv) — the language is forensic, depicting God as both advocate and judge. The drying up of Babylon's 'sea' (yam) and 'springs' (maqor) refers to the elaborate water systems that sustained the city. Without the Euphrates and its canal network, Babylon cannot survive. Historically, Cyrus diverted the Euphrates to enter the city."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְהָיְתָ֨ה בָבֶ֧ל ׀ לְגַלִּ֛ים מְע֥וֹן תַּנִּ֖ים שַׁמָּ֣ה וּשְׁרֵקָ֑ה מֵאֵ֖ין יוֹשֵֽׁב׃",
+      "text_kjv": "And Babylon shall become heaps, a dwellingplace for dragons, an astonishment, and an hissing, without an inhabitant.",
+      "rendering": "Babylon will become a heap of ruins, a haunt of jackals, an object of horror and hissing, with no one living in it.",
+      "translator_notes": ["The word gallim ('heaps, stone piles') reduces Babylon from the world's greatest city to rubble. The tannim here is 'jackals' (not the tannin 'sea-serpent' of v. 34 — different Hebrew words). The phrase shammah ushreqah ('horror and hissing') describes the reaction of passersby — they gasp in shock and hiss in contempt at the ruins."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "יַחְדָּ֖ו כַּכְּפִרִ֣ים יִשְׁאָ֑גוּ נָעֲר֖וּ כְּגוֹרֵ֥י אֲרָיֽוֹת׃",
+      "text_kjv": "They shall roar together like lions: they shall yell as lions' whelps.",
+      "rendering": "Together they roar like young lions; they growl like lion cubs.",
+      "translator_notes": ["The Babylonians are compared to lions in their ferocity — kefirim ('young lions') and gorei arayot ('lion cubs') are still dangerous but not fully mature, suggesting Babylon's power is past its prime. The verbs yish'agu ('they roar') and na'aru ('they growl') create an animal soundscape of predatory aggression."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "בְּחֻמָּ֞ם אָשִׁ֣ית אֶת־מִשְׁתֵּיהֶ֗ם וְהִשְׁכַּרְתִּים֙ לְמַ֣עַן יַעֲלֹ֔זוּ וְיָשְׁנ֥וּ שְׁנַת־עוֹלָ֖ם וְלֹ֣א יָקִ֑יצוּ נְאֻ֖ם יְהוָֽה׃",
+      "text_kjv": "In their heat I will make their feasts, and I will make them drunken, that they may rejoice, and sleep a perpetual sleep, and not wake, saith the LORD.",
+      "rendering": "When they are heated, I will prepare their feast and make them drunk so that they revel — then they will sleep an everlasting sleep and never wake, declares the LORD.",
+      "translator_notes": ["The word bechumam ('in their heat, when they are inflamed') may refer to intoxication at a feast or to the heat of battle fever. We follow the feast interpretation since the next clause describes drinking. The phrase shenat olam ('everlasting sleep') is a euphemism for death — the drunken revelry becomes a permanent stupor. Historically, ancient sources report that Babylon fell during a feast (Daniel 5; Herodotus 1.191; Xenophon, Cyropaedia 7.5.15)."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "אוֹרִידֵ֖ם כְּכָרִ֣ים לִטְב֑וֹחַ כְּאֵילִ֖ים עִם־עַתּוּדִֽים׃",
+      "text_kjv": "I will bring them down like lambs to the slaughter, like rams with he goats.",
+      "rendering": "I will bring them down like lambs to the slaughter, like rams together with he-goats.",
+      "translator_notes": ["The sacrificial imagery is deliberate — karim ('lambs'), elim ('rams'), and attudim ('he-goats') are all sacrificial animals. Babylon's destruction is portrayed as a sacrifice to God, reversing the language of worship: the empire that destroyed God's temple now becomes an offering on God's altar."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "אֵ֚יךְ נִלְכְּדָ֣ה שֵׁשַׁ֔ךְ וַתִּתָּפֵ֖שׂ תְּהִלַּ֣ת כָּל־הָאָ֑רֶץ אֵ֣יךְ הָיְתָ֧ה לְשַׁמָּ֛ה בָּבֶ֖ל בַּגּוֹיִֽם׃",
+      "text_kjv": "How is Sheshach taken! and how is the praise of the whole earth surprised! how is Babylon become an astonishment among the nations!",
+      "rendering": "How Sheshach is captured — the praise of all the earth seized! How Babylon has become an object of horror among the nations!",
+      "translator_notes": ["Sheshakh is the atbash cipher for Bavel ('Babylon') — the same code used in 25:26. The letters b-b-l become sh-sh-k when each letter is replaced by its reverse-alphabet counterpart. The phrase tehillat kol ha'arets ('the praise of all the earth') is used ironically — the city that was admired by every nation has become shameful. The exclamatory eikh ('How!') is the same word that opens Lamentations, creating a deliberate echo between Jerusalem's fall and Babylon's."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "עָלָ֥ה עַל־בָּבֶ֖ל הַיָּ֑ם בַּהֲמ֥וֹן גַּלָּ֖יו נִכְסָֽתָה׃",
+      "text_kjv": "The sea is come up upon Babylon: she is covered with the multitude of the waves thereof.",
+      "rendering": "The sea has risen over Babylon; she is covered by the roar of its waves.",
+      "translator_notes": ["The 'sea' (yam) here is metaphorical — the invading armies are compared to a flood of chaotic waters overwhelming the city. This inverts Babylon's own self-image: in Babylonian mythology, Marduk conquered the chaos-sea Tiamat. Now the chaos-waters conquer Babylon. The verb nikhsatah ('she is covered, overwhelmed') pictures total submersion."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "הָי֤וּ עָרֶ֙יהָ֙ לְשַׁמָּ֔ה אֶ֥רֶץ צִיָּ֖ה וַעֲרָבָ֑ה אֶ֗רֶץ לֹֽא־יֵשֵׁ֤ב בָּהֵן֙ כָּל־אִ֔ישׁ וְלֹֽא־יַעֲבֹ֥ר בָּהֵ֖ן בֶּן־אָדָֽם׃",
+      "text_kjv": "Her cities are a desolation, a dry land, and a wilderness, a land wherein no man dwelleth, neither doth any son of man pass thereby.",
+      "rendering": "Her cities have become a desolation, a dry and barren land, a land where no one dwells and no human being passes through.",
+      "translator_notes": ["Three terms pile up for the wasteland: shammah ('desolation'), tsiyyah ('dry land'), and aravah ('steppe, wilderness'). The phrase ben adam ('son of man, human being') is used in its generic sense — not a single human will traverse this land. The total absence of human life reverses the divine blessing of filling and subduing the earth (Genesis 1:28)."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וּפָקַדְתִּ֨י עַל־בֵּ֜ל בְּבָבֶ֗ל וְהֹצֵאתִ֤י אֶת־בִּלְעוֹ֙ מִפִּ֔יו וְלֹֽא־יִנְהֲר֥וּ אֵלָ֛יו ע֖וֹד גּוֹיִ֑ם גַּם־חוֹמַ֥ת בָּבֶ֖ל נָפָֽלָה׃",
+      "text_kjv": "And I will punish Bel in Babylon, and I will bring forth out of his mouth that which he hath swallowed up: and the nations shall not flow together any more unto him: yea, the wall of Babylon shall fall.",
+      "rendering": "I will punish Bel in Babylon and force out of his mouth what he has swallowed. The nations will no longer stream to him — even the wall of Babylon has fallen.",
+      "translator_notes": ["Bel (from the Akkadian belu, 'lord') is the title of Marduk, Babylon's chief deity. The image of forcing out what Bel has swallowed refers to the captive peoples and temple treasures that Babylon consumed — God will make Marduk disgorge his plunder. The verb yinharu ('stream, flow') describes the tributary nations who once flowed toward Babylon like rivers toward the sea — that tide has reversed. The fall of Babylon's wall (chomat bavel) signals the end of what was considered the greatest fortification in the ancient world."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "צְא֤וּ מִתּוֹכָהּ֙ עַמִּ֔י וּמַלְּט֖וּ אִ֣ישׁ אֶת־נַפְשׁ֑וֹ מֵחֲר֖וֹן אַף־יְהוָֽה׃",
+      "text_kjv": "My people, go ye out of the midst of her, and deliver ye every man his soul from the fierce anger of the LORD.",
+      "rendering": "Come out from her, my people! Each of you, save your own life from the fierce anger of the LORD!",
+      "translator_notes": ["The command ammi ('my people') is addressed to the Judean exiles in Babylon — they must physically separate from the doomed city. The phrase charon af YHWH ('fierce anger of the LORD') is literally 'the burning of the LORD's nostrils,' a physiological metaphor for wrath. This call to 'come out' anticipates Isaiah 48:20 and Revelation 18:4."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וּפֶן־יֵרַ֤ךְ לְבַבְכֶם֙ וְתִֽירְא֔וּ בַּשְּׁמוּעָ֖ה הַנִּשְׁמַ֣עַת בָּאָ֑רֶץ וּבָ֤א בַשָּׁנָה֙ הַשְּׁמוּעָ֔ה וְאַחֲרָ֤יו בַּשָּׁנָה֙ הַשְּׁמוּעָ֔ה וְחָמָ֣ס בָּאָ֔רֶץ וּמֹשֵׁ֖ל עַל־מֹשֵֽׁל׃",
+      "text_kjv": "And lest your heart faint, and ye fear for the rumour that shall be heard in the land; a rumour shall both come one year, and after that in another year shall come a rumour, and violence in the land, ruler against ruler.",
+      "rendering": "Do not lose heart or be afraid when rumors are heard in the land — one year a rumor comes, and the next year another rumor, with violence in the land and ruler against ruler.",
+      "translator_notes": ["The word shemu'ah ('rumor, report, news') repeats three times, capturing the anxiety of exile life — each year brings a new alarming report. The phrase moshel al moshel ('ruler against ruler') describes the power struggles within the Babylonian empire during its final years. The exiles must not mistake these upheavals for the end — the final judgment will come in God's time."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "לָכֵ֗ן הִנֵּ֛ה יָמִ֥ים בָּאִ֖ים וּפָקַדְתִּ֣י עַל־פְּסִילֵ֣י בָבֶ֑ל וְכָל־אַרְצָ֣הּ תֵּב֔וֹשׁ וְכָל־חֲלָלֶ֖יהָ יִפְּל֥וּ בְתוֹכָֽהּ׃",
+      "text_kjv": "Therefore, behold, the days come, that I will do judgment upon the graven images of Babylon: and her whole land shall be confounded, and all her slain shall fall in the midst of her.",
+      "rendering": "Therefore the days are coming when I will punish the idols of Babylon. Her whole land will be put to shame, and all her slain will fall in her midst.",
+      "translator_notes": ["The verb paqad ('punish, attend to, visit') is used for divine reckoning against Babylon's idols (pesilei bavel). The word pesil ('carved image, idol') targets the physical representations of Babylonian religion. When God punishes the idols, the entire theological claim of Babylon — that its gods sustain the empire — is exposed as false."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "וְרִנְּנ֤וּ עַל־בָּבֶל֙ שָׁמַ֣יִם וָאָ֔רֶץ וְכֹ֖ל אֲשֶׁ֣ר בָּהֶ֑ם כִּ֧י מִצָּפ֛וֹן יָבֹֽא־לָ֥הּ הַשּׁוֹדְדִ֖ים נְאֻם־יְהוָֽה׃",
+      "text_kjv": "Then the heaven and the earth, and all that is therein, shall sing for Babylon: for the spoilers shall come unto her from the north, saith the LORD.",
+      "rendering": "Then the heavens and the earth and everything in them will shout for joy over Babylon, for the destroyers will come against her from the north, declares the LORD.",
+      "translator_notes": ["The cosmic response — heavens, earth, and everything in them singing — elevates Babylon's fall to a creation-wide event. The irony is sharp: 'from the north' (mitstsafon) echoes Jeremiah's early oracles where judgment came on Judah 'from the north' (1:13-15, 4:6, 6:1). Now the northern threat turns against Babylon itself."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "גַּם־בָּבֶ֕ל לִנְפֹּ֖ל חַֽלְלֵ֣י יִשְׂרָאֵ֑ל גַּם־לְבָבֶ֥ל נָפְל֖וּ חַֽלְלֵ֥י כָל־הָאָֽרֶץ׃",
+      "text_kjv": "As Babylon hath caused the slain of Israel to fall, so at Babylon shall fall the slain of all the earth.",
+      "rendering": "Just as Babylon caused the slain of Israel to fall, so at Babylon the slain of all the earth have fallen.",
+      "translator_notes": ["The parallelism creates strict reciprocity: Babylon caused Israel's dead to fall, and now Babylon's own dead fall — along with the dead of every nation she consumed. The gam...gam ('also...also') construction emphasizes exact proportionality in divine justice."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "פְּלֵטִ֣ים מֵחֶ֔רֶב הִלְכ֖וּ אַֽל־תַּעֲמֹ֑דוּ זִכְר֤וּ מֵֽרָחוֹק֙ אֶת־יְהוָ֔ה וִירוּשָׁלַ֖͏ִם תַּעֲלֶ֥ה עַל־לְבַבְכֶֽם׃",
+      "text_kjv": "Ye that have escaped the sword, go away, stand not still: remember the LORD afar off, and let Jerusalem come into your mind.",
+      "rendering": "You who have escaped the sword — go! Do not stand still! Remember the LORD from far away, and let Jerusalem rise in your hearts.",
+      "translator_notes": ["This verse is addressed to the Judean exiles who will survive Babylon's fall. The command 'do not stand still' (al ta'amodu) urges immediate departure — do not linger in the collapsing empire. The phrase 'let Jerusalem rise in your hearts' (virushalaim ta'aleh al levavkhem) is deeply poignant: the exiles must carry Jerusalem within them as they journey home. The verb 'rise' (ta'aleh) is the same root as 'go up' (alah), the technical term for pilgrimage to Jerusalem."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "בֹּ֕שְׁנוּ כִּ֥י שָׁמַ֖עְנוּ חֶרְפָּ֑ה כִּסְּתָ֤ה כְלִמָּה֙ פָּנֵ֔ינוּ כִּ֚י בָּ֣אוּ זָרִ֔ים עַֽל־מִקְדְּשֵׁ֖י בֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "We are confounded, because we have heard reproach: shame hath covered our faces: for strangers are come into the sanctuaries of the house of the LORD.",
+      "rendering": "We are ashamed, for we have heard insults; disgrace has covered our faces because foreigners have entered the holy places of the house of the LORD.",
+      "translator_notes": ["The exiles speak, confessing their shame at the desecration of the temple. The word miqdeshei ('holy places, sanctuaries') of the LORD's house refers to the inner sacred spaces that only authorized priests could enter — foreigners in the holy of holies is the ultimate violation. The emotion is both national humiliation and religious horror."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "לָכֵ֛ן הִנֵּֽה־יָמִ֥ים בָּאִ֖ים נְאֻם־יְהוָ֑ה וּפָקַדְתִּ֖י עַל־פְּסִילֶֽיהָ וּבְכָל־אַרְצָ֖הּ יֶאֱנֹ֥ק חָלָֽל׃",
+      "text_kjv": "Wherefore, behold, the days come, saith the LORD, that I will do judgment upon her graven images: and through all her land the wounded shall groan.",
+      "rendering": "Therefore the days are coming, declares the LORD, when I will punish her idols, and throughout her entire land the wounded will groan.",
+      "translator_notes": ["God responds to the exiles' shame (v. 51) with a promise of action against Babylon's idols. The verb ye'enoq ('groan, moan') is onomatopoeic — the sound of the word mimics the groan of the dying. This auditory detail makes the judgment visceral: Babylon will be filled with the sound of suffering."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "כִּ֧י תַעֲלֶ֤ה בָבֶל֙ הַשָּׁמַ֔יִם וְכִ֥י תְבַצֵּ֖ר מְר֣וֹם עֻזָּ֑הּ מֵאִתִּ֗י יָבֹ֤אוּ שֹֽׁדְדִים֙ לָ֔הּ נְאֻ֖ם יְהוָֽה׃",
+      "text_kjv": "Though Babylon should mount up to heaven, and though she should fortify the height of her strength, yet from me shall spoilers come unto her, saith the LORD.",
+      "rendering": "Even if Babylon were to ascend to the heavens, even if she were to fortify her lofty stronghold, destroyers will come against her from me, declares the LORD.",
+      "translator_notes": ["The language echoes the Tower of Babel (Genesis 11:4) — even if Babylon builds to heaven itself, God will bring her down. The verb tevatser ('fortify, make inaccessible') suggests a fortress so high it seems unreachable. But no height is beyond God's reach. The phrase me'itti ('from me') emphasizes that the destroyers come as God's agents — this is not random conquest but divine commission."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 54,
+      "text_hebrew": "ק֥וֹל זְעָקָ֖ה מִבָּבֶ֑ל וְשֶׁ֥בֶר גָּד֖וֹל מֵאֶ֥רֶץ כַּשְׂדִּֽים׃",
+      "text_kjv": "A sound of a cry cometh from Babylon, and great destruction from the land of the Chaldeans:",
+      "rendering": "A sound of outcry from Babylon — great shattering from the land of the Chaldeans!",
+      "translator_notes": ["The noun shever ('shattering, breaking, destruction') is the same root as the verb used for shattering throughout the war-hammer litany (vv. 20-23). The shatterer is now shattered — the wordplay completes the reversal. The verse is pure sound: ze'aqah ('outcry') and shever gadol ('great shattering') create an auditory image of collapse."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 55,
+      "text_hebrew": "כִּֽי־שֹׁדֵ֤ד יְהוָה֙ אֶת־בָּבֶ֔ל וְאִבַּ֥ד מִמֶּ֖נָּה ק֣וֹל גָּד֑וֹל וְהָמ֤וּ גַלֵּיהֶם֙ כְּמַ֣יִם רַבִּ֔ים נִתַּ֥ן שְׁא֖וֹן קוֹלָֽם׃",
+      "text_kjv": "Because the LORD hath spoiled Babylon, and destroyed out of her the great voice; when her waves do roar like great waters, a noise of their voice is uttered:",
+      "rendering": "For the LORD is destroying Babylon and silencing her great voice. Their waves roar like mighty waters; the thunder of their voice is unleashed.",
+      "translator_notes": ["The 'great voice' (qol gadol) that God silences is Babylon's imperial proclamation — the voice of command that ruled the nations. The 'waves' (gallim) continue the sea metaphor from v. 42 — the invading forces are an unstoppable flood. The word she'on ('thunder, roar, tumult') describes the overwhelming noise of the assault, drowning out Babylon's silenced voice."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 56,
+      "text_hebrew": "כִּ֣י בָ֤א עָלֶ֙יהָ֙ עַל־בָּבֶ֔ל שׁוֹדֵ֕ד וְנִלְכְּד֖וּ גִּבּוֹרֶ֑יהָ חִתְּתָ֣ה קַשְּׁתוֹתָ֔ם כִּ֛י אֵ֥ל גְּמֻל֖וֹת יְהוָ֥ה שַׁלֵּ֖ם יְשַׁלֵּֽם׃",
+      "text_kjv": "Because the spoiler is come upon her, even upon Babylon, and her mighty men are taken, every one of their bows is broken: for the LORD God of recompences shall surely requite.",
+      "rendering": "For a destroyer has come against her — against Babylon. Her warriors are captured; their bows are shattered, for the LORD is a God of recompense; he will surely repay in full.",
+      "translator_notes": ["The title el gemulot ('God of recompense/repayment') appears only here in the Hebrew Bible — it defines God's character in terms of exact justice. The emphatic infinitive absolute shallem yeshallem ('he will surely, fully repay') guarantees that the debt will be collected in its entirety. The broken bows (qashshot) symbolize the end of Babylon's military capability."],
+      "key_terms": [
+        {
+          "hebrew": "אֵל גְּמֻלוֹת",
+          "transliteration": "el gemulot",
+          "rendered_as": "God of recompense",
+          "semantic_range": "God of repayment, retribution, just requital",
+          "note": "A unique divine title emphasizing God's commitment to proportional justice — every act of violence or oppression will be met with an exactly measured response."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 57,
+      "text_hebrew": "וְ֠הִשְׁכַּרְתִּי שָׂרֶ֨יהָ וַחֲכָמֶ֜יהָ פַּחוֹתֶ֤יהָ וּסְגָנֶ֙יהָ֙ וְגִבּוֹרֶ֔יהָ וְיָשְׁנ֥וּ שְׁנַת־עוֹלָ֖ם וְלֹ֣א יָקִ֑יצוּ נְאֻ֨ם הַמֶּ֔לֶךְ יְהוָ֥ה צְבָא֖וֹת שְׁמֽוֹ׃",
+      "text_kjv": "And I will make drunk her princes, and her wise men, her captains, and her rulers, and her mighty men: and they shall sleep a perpetual sleep, and not wake, saith the King, whose name is the LORD of hosts.",
+      "rendering": "I will make her officials and sages drunk, her governors, commanders, and warriors, and they will sleep an everlasting sleep and never wake, declares the King — the LORD of Hosts is his name.",
+      "translator_notes": ["The divine title 'the King' (ha-melekh) is placed in direct contrast with Babylon's human rulers — God outranks every official, sage, governor, and warrior just listed. The five categories of leadership (officials, sages, governors, commanders, warriors) represent the full apparatus of imperial power, all rendered unconscious by divine judgment. The phrase 'everlasting sleep' (shenat olam) repeats from v. 39, reinforcing the finality of death."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 58,
+      "text_hebrew": "כֹּֽה־אָמַ֞ר יְהוָ֣ה צְבָא֗וֹת חֹ֠מוֹת בָּבֶ֤ל הָֽרְחָבָה֙ עַרְעֵ֣ר תִּתְעַרְעָ֔ר וּשְׁעָרֶ֥יהָ הַגְּבֹהִ֖ים בָּאֵ֣שׁ יִצַּ֑תּוּ וְיִֽגְע֨וּ עַמִּ֧ים בְּדֵי־רִ֛יק וּלְאֻמִּ֥ים בְּדֵי־אֵ֖שׁ וְיָעֵֽפוּ׃",
+      "text_kjv": "Thus saith the LORD of hosts; The broad walls of Babylon shall be utterly broken, and her high gates shall be burned with fire; and the people shall labour in vain, and the folk in the fire, and they shall be weary.",
+      "rendering": "This is what the LORD of Hosts says: The broad walls of Babylon will be completely torn down, and her high gates will be set on fire. The peoples labor for nothing, and the nations exhaust themselves for what the flames consume.",
+      "translator_notes": ["Babylon's walls were legendary — Herodotus reports them as 56 miles long, 80 feet thick, and 320 feet high (likely exaggerated, but reflecting their fame). The verb 'ar'er tit'ar'ar is an emphatic infinitive absolute meaning 'will surely, completely be torn down.' The closing proverb about laboring for nothing and for fire echoes Habakkuk 2:13 almost verbatim — the nations build empires that God reduces to ash."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 59,
+      "text_hebrew": "הַדָּבָ֞ר אֲשֶׁר־צִוָּ֣ה ׀ יִרְמְיָ֣הוּ הַנָּבִ֗יא אֶת־שְׂרָיָ֣ה בֶן־נֵרִיָּה֮ בֶּן־מַחְסֵיָה֒ בְּלֶכְתּ֗וֹ אֶת־צִדְקִיָּ֙הוּ֙ מֶ֣לֶךְ יְהוּדָ֔ה בָּבֶ֕ל בִּשְׁנַ֥ת הָרְבִעִ֖ית לְמָלְכ֑וֹ וּשְׂרָיָ֖ה שַׂ֥ר מְנוּחָֽה׃",
+      "text_kjv": "The word which Jeremiah the prophet commanded Seraiah the son of Neriah, the son of Maaseiah, when he went with Zedekiah the king of Judah into Babylon in the fourth year of his reign. And this Seraiah was a quiet prince.",
+      "rendering": "The instruction that Jeremiah the prophet gave to Seraiah son of Neriah, son of Mahseiah, when Seraiah went with Zedekiah king of Judah to Babylon in the fourth year of his reign. Seraiah was the quartermaster.",
+      "translator_notes": ["This verse begins the sign-act narrative that closes the Babylon oracle (vv. 59-64). Seraiah son of Neriah is the brother of Baruch son of Neriah, Jeremiah's scribe (32:12) — both brothers serve the prophet. The title sar menuchah is debated: KJV renders it 'quiet prince,' but it more likely means 'quartermaster' or 'officer of rest stops' — the official responsible for the delegation's lodging during the journey to Babylon. Zedekiah's trip to Babylon in his fourth year (594/593 BCE) was likely to demonstrate continued loyalty after unrest in the region."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 60,
+      "text_hebrew": "וַיִּכְתֹּ֣ב יִרְמְיָ֗הוּ אֵ֧ת כָּל־הָרָעָ֛ה אֲשֶׁר־תָּב֥וֹא אֶל־בָּבֶ֖ל אֶל־סֵ֣פֶר אֶחָ֑ד אֵ֚ת כָּל־הַדְּבָרִ֣ים הָאֵ֔לֶּה הַכְּתֻבִ֖ים אֶל־בָּבֶֽל׃",
+      "text_kjv": "So Jeremiah wrote in a book all the evil that should come upon Babylon, even all these words that are written against Babylon.",
+      "rendering": "Jeremiah wrote on a single scroll all the disaster that would come upon Babylon — all these words that are written against Babylon.",
+      "translator_notes": ["The word sefer ('scroll, book, document') refers to a parchment or papyrus scroll. The phrase sefer echad ('a single scroll') emphasizes that all the Babylon oracles (chapters 50-51) were gathered into one document for this specific mission. This is a rare glimpse into the physical production of prophetic literature — the oracle is not just spoken but written, transported, and performed."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 61,
+      "text_hebrew": "וַיֹּ֥אמֶר יִרְמְיָ֖הוּ אֶל־שְׂרָיָ֑ה כְּבֹאֲךָ֣ בָבֶ֔ל וְרָאִ֕יתָ וְקָרָ֕אתָ אֵ֥ת כָּל־הַדְּבָרִ֖ים הָאֵֽלֶּה׃",
+      "text_kjv": "And Jeremiah said to Seraiah, When thou comest to Babylon, and shalt see, and shalt read all these words;",
+      "rendering": "Jeremiah said to Seraiah, \"When you arrive in Babylon, make sure you read aloud all these words.",
+      "translator_notes": ["The verb qara ('read, call out, proclaim') means to read aloud, not silently. Seraiah is to publicly proclaim the oracle against Babylon while standing in Babylon — an extraordinarily dangerous act of prophetic theater. The verb ra'ita ('and you shall see') may mean 'survey' or 'observe' — Seraiah should witness Babylon's grandeur and then read God's sentence against it."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 62,
+      "text_hebrew": "וְאָמַרְתָּ֗ יְהוָה֙ אַתָּ֣ה דִבַּ֗רְתָּ אֶל־הַמָּק֤וֹם הַזֶּה֙ לְהַכְרִית֔וֹ לְבִלְתִּ֤י הֱיוֹת־בּוֹ֙ יוֹשֵׁ֔ב לְמֵאָדָ֖ם וְעַד־בְּהֵמָ֑ה כִּֽי־שִׁמְמ֥וֹת עוֹלָ֖ם תִּֽהְיֶֽה׃",
+      "text_kjv": "Then shalt thou say, O LORD, thou hast spoken against this place, to cut it off, so that none shall remain in it, neither man nor beast, but that it shall be desolate for ever.",
+      "rendering": "Then say: LORD, you yourself have spoken against this place, declaring that it will be cut off so that no one will dwell in it — neither human nor animal — for it will be an everlasting desolation.",
+      "translator_notes": ["Seraiah is to address God directly while standing in the heart of Babylon — a prayer that God fulfill his own word. The merism 'from human to animal' (me'adam ve'ad behemah) indicates the reversal of creation itself in that place: where God made both humanity and animals to inhabit the earth, Babylon will have neither. The phrase shimmemot olam ('everlasting desolation') repeats from v. 26, forming a frame around the oracle."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 63,
+      "text_hebrew": "וְהָיָ֗ה כְּכַלֹּתְךָ֗ לִקְרֹא֙ אֶת־הַסֵּ֣פֶר הַזֶּ֔ה תִּקְשֹׁ֥ר עָלָ֖יו אָ֑בֶן וְהִשְׁלַכְתּ֖וֹ אֶל־תּ֥וֹךְ פְּרָֽת׃",
+      "text_kjv": "And it shall be, when thou hast made an end of reading this book, that thou shalt bind a stone to it, and cast it into the midst of Euphrates:",
+      "rendering": "When you finish reading this scroll, tie a stone to it and throw it into the middle of the Euphrates.",
+      "translator_notes": ["The sign-act reaches its climax: the written word of God is physically enacted. The stone (even) ensures the scroll sinks — it will not float or be recovered. The Euphrates (Perat) was Babylon's lifeline, the river that ran through the city center. Throwing the oracle into the Euphrates is throwing God's judgment into the heart of Babylon. The act is both symbolic and irrevocable — once sunk, the scroll cannot be retrieved, and neither can the judgment be reversed."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 64,
+      "text_hebrew": "וְאָמַרְתָּ֗ כָּ֠כָה תִּשְׁקַ֨ע בָּבֶ֤ל וְלֹא־תָקוּם֙ מִפְּנֵ֣י הָרָעָ֗ה אֲשֶׁ֧ר אָנֹכִ֛י מֵבִ֥יא עָלֶ֖יהָ וְיָעֵ֑פוּ עַד־הֵ֖נָּה דִּבְרֵ֥י יִרְמְיָֽהוּ׃",
+      "text_kjv": "And thou shalt say, Thus shall Babylon sink, and shall not rise from the evil that I will bring upon her: and they shall be weary. Thus far are the words of Jeremiah.",
+      "rendering": "Then say: So shall Babylon sink, never to rise again, because of the disaster I am bringing upon her. And they will collapse in exhaustion.\"\n\nThus far are the words of Jeremiah.",
+      "translator_notes": ["The verb tishqa ('sink, submerge') is the interpretive key to the entire sign-act: as the stone-weighted scroll sinks to the riverbed, so Babylon will sink beneath the weight of divine judgment. The phrase velo taqum ('and will not rise') makes the sinking permanent — there is no resurfacing. The colophon 'Thus far are the words of Jeremiah' (ad hennah divrei yirmeyahu) is a scribal notation marking the end of the prophetic collection. Everything that follows in chapter 52 is historical appendix, drawn from the same tradition as 2 Kings 24-25. This colophon is one of the clearest editorial markers in the prophetic books, indicating that the book of Jeremiah was compiled and edited by hands other than the prophet's — likely Baruch or a later scribal circle."],
+      "reading_level": "8th grade"
+    }
+  ]
+}

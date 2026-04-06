@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jeremiah",
+    "chapter": 49,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jeremiah 49 collects five short oracles against nations surrounding Israel: Ammon (vv. 1-6), Edom (vv. 7-22), Damascus (vv. 23-27), Kedar and Hazor (vv. 28-33), and Elam (vv. 34-39). Each oracle announces divine judgment for a specific reason — Ammon for land theft, Edom for proud self-reliance, Damascus for panic in the face of bad news, the Arabian tribes for false security, and Elam for military aggression. Three of the five oracles (Ammon, Edom, Elam) close with promises of future restoration, extending the pattern established in chapter 48's Moab oracle.",
+    "remarkable": "The Edom oracle (vv. 7-22) is the most theologically dense section, borrowing extensively from Obadiah — the only case in the Hebrew Bible where two prophetic books share this much material, raising complex questions about literary priority and prophetic tradition. The question 'Is there no longer wisdom in Teman?' (v. 7) challenges Edom's famed intellectual tradition (Teman being associated with wisdom, as in Job's friend Eliphaz the Temanite). The Kedar-Hazor oracle is notable for its target — nomadic Arabian tribes rather than settled kingdoms — and contains some of the most vivid desert warfare imagery in prophetic literature. The Elam oracle is geographically surprising, reaching far to the east (modern southwestern Iran), suggesting that God's sovereignty extends well beyond Israel's immediate neighbors. We preserved the distinct rhetorical character of each sub-oracle rather than harmonizing them into a uniform style.",
+    "friction": "The Edom oracle's relationship to Obadiah required careful handling — where the Hebrew of Jeremiah 49 parallels Obadiah, we rendered Jeremiah's own text rather than importing our Obadiah renderings, since the textual traditions may have diverged deliberately. The phrase malkom in verse 1 is ambiguous: it could mean 'their king' (malkam) or 'Milcom' (the Ammonite deity), and context supports both readings — we rendered 'Milcom' with a note on the ambiguity. Several place names in the oracle against Kedar and Hazor are uncertain, and the Hazor here is not the Canaanite city of Joshua 11 but an otherwise unknown Arabian settlement. The shift between divine first-person and prophetic third-person speech is particularly abrupt in this chapter, sometimes changing mid-verse.",
+    "connections": "The Edom oracle connects to Obadiah 1-9 (shared material), Genesis 25 and 36 (Esau/Edom traditions), and the broader prophetic tradition of Edom as Israel's perpetual antagonist (Isaiah 34, 63:1-6, Ezekiel 25:12-14, 35:1-15, Malachi 1:2-5). The Ammon oracle connects to Judges 11 (Jephthah's dispute over Ammonite land claims) and Amos 1:13-15. The Damascus oracle parallels Amos 1:3-5 and Isaiah 17. The promise of restoration for Ammon (v. 6) and Elam (v. 39) parallels the Moab restoration promise (48:47), forming a theological pattern: God's judgment of the nations is real but not final. Bozrah in the Edom oracle (v. 13) should not be confused with the Moabite Bozrah of 48:24 — this is the Edomite capital, modern Buseirah in southern Jordan."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "לִבְנֵ֣י עַמּ֗וֹן כֹּ֚ה אָמַ֣ר יְהוָ֔ה הֲבָנִ֥ים אֵ֖ין לְיִשְׂרָאֵ֑ל אִם־יוֹרֵ֣שׁ אֵ֣ין ל֔וֹ מַדּ֗וּעַ יָרַ֤שׁ מַלְכָּם֙ אֶת־גָּ֔ד וְעַמּ֖וֹ בְּעָרָ֥יו יָשָֽׁב׃",
+      "text_kjv": "Concerning the Ammonites, thus saith the LORD; Hath Israel no sons? hath he no heir? why then doth their king inherit Gad, and his people dwell in his cities?",
+      "rendering": "Concerning the Ammonites — this is what the LORD says:\nDoes Israel have no sons?\nHas he no heir?\nThen why has Milcom dispossessed Gad,\nand why do his people settle in its cities?",
+      "translator_notes": ["The word malkam is deliberately ambiguous — it can be vocalized as 'their king' (malkam) or as 'Milcom' (the national deity of Ammon, also known as Molech). We rendered it as 'Milcom' because the parallel with Chemosh in 48:7 (Moab's god going into exile) suggests a deity rather than a human king. The tribe of Gad occupied Transjordanian territory that Ammon claimed; after Gad's deportation by Assyria (c. 733 BCE), Ammon expanded into the vacated land. God's rhetorical questions imply that Israel's exile was not an invitation for Ammon to annex the territory — Israel still has heirs."],
+      "key_terms": [
+        {
+          "hebrew": "מַלְכָּם",
+          "transliteration": "malkam",
+          "rendered_as": "Milcom",
+          "semantic_range": "their king, Milcom (Ammonite deity)",
+          "note": "The ambiguity between 'their king' and the divine name 'Milcom' may be intentional — the Ammonite king and the Ammonite god are functionally identified, just as Israel's true king is the LORD."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "לָכֵ֞ן הִנֵּ֣ה ׀ יָמִ֣ים בָּאִ֗ים נְאֻם־יְהוָ֗ה וְהִשְׁמַעְתִּ֞י אֶל־רַבַּ֤ת בְּנֵֽי־עַמּוֹן֙ תְּרוּעַ֣ת מִלְחָמָ֔ה וְהָיְתָ֥ה לְתֵ֖ל שְׁמָמָ֑ה וּבְנֹתֶ֙יהָ֙ בָּאֵ֣שׁ תִּצַּ֔תְנָה וְיָרַ֧שׁ יִשְׂרָאֵ֛ל אֶת־יֹרְשָׁ֖יו אָמַ֥ר יְהוָֽה׃",
+      "text_kjv": "Therefore, behold, the days come, saith the LORD, that I will cause an alarm of war to be heard in Rabbah of the Ammonites; and it shall be a desolate heap, and her daughters shall be burned with fire: then shall Israel be heir unto them that were his heirs, saith the LORD.",
+      "rendering": "Therefore the days are coming, declares the LORD,\nwhen I will sound the battle alarm against Rabbah of the Ammonites.\nShe will become a desolate mound,\nand her surrounding towns will be burned with fire.\nThen Israel will dispossess those who dispossessed him,\nsays the LORD.",
+      "translator_notes": ["Rabbah (modern Amman, Jordan) was the Ammonite capital. The term teru'at milchamah ('alarm of war, war cry') refers to the blast of the shofar or the shout of attacking troops. The word tel ('mound, ruin heap') is a technical term for the artificial hill created when a city is destroyed and rebuilt repeatedly — Rabbah will become an archaeological ruin. The phrase yarash yisra'el et yorshav ('Israel will dispossess his dispossessors') uses the same verb from v. 1 (yarash, 'to inherit, to dispossess') — the tables are turned, and Israel reclaims what was taken."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "הֵילִ֨ילִי חֶשְׁבּ֜וֹן כִּ֣י שֻׁדְּדָה־עַ֗י צְעַ֙קְנָה֙ בְּנ֣וֹת רַבָּ֔ה חֲגֹ֣רְנָה שַׂקִּ֔ים סְפֹ֕דְנָה וְהִתְשׁוֹטַ֖טְנָה בַּגְּדֵר֑וֹת כִּ֤י מַלְכָּם֙ בַּגּוֹלָ֣ה יֵלֵ֔ךְ כֹּהֲנָ֥יו וְשָׂרָ֖יו יַחְדָּֽו׃",
+      "text_kjv": "Howl, O Heshbon, for Ai is spoiled: cry, ye daughters of Rabbah, gird you with sackcloth; lament, and run to and fro by the hedges; for their king shall go into captivity, and his priests and his princes together.",
+      "rendering": "Wail, Heshbon, for Ai is destroyed!\nCry out, daughters of Rabbah!\nPut on sackcloth, lament,\nand run back and forth among the walls,\nfor Milcom will go into exile,\nhis priests and officials together.",
+      "translator_notes": ["Heshbon here is in Ammonite territory (distinct from the Moabite context of chapter 48). The Ai mentioned here is not the Ai of Joshua 7-8 near Bethel but an otherwise unknown Ammonite town. The phrase malkam bagolah yelekh ('Milcom/their king will go into exile') exactly parallels 48:7 where Chemosh goes into exile — the pattern demonstrates that foreign gods are powerless against the LORD. The women running 'among the walls/hedges' (bagederot) suggests frantic, directionless movement within confined spaces."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "מַה־תִּתְהַלְלִ֣י בַעֲמָקִ֔ים זָ֣ב עִמְקֵ֔ךְ הַבַּ֖ת הַשּׁוֹבֵבָ֑ה הַבּוֹטְחָה֙ בְּאוֹצְרֹתֶ֔יהָ מִ֖י יָב֥וֹא אֵלָֽי׃",
+      "text_kjv": "Wherefore gloriest thou in the valleys, thy flowing valley, O backsliding daughter? that trusted in her treasures, saying, Who shall come unto me?",
+      "rendering": "Why do you boast of your valleys —\nyour valley is flowing away, faithless daughter!\nYou who trust in your treasures, saying,\n'Who would come against me?'",
+      "translator_notes": ["The phrase zav imqekh ('your valley flows') is a wordplay — the amaqim ('valleys') that Ammon boasts about are 'flowing away,' possibly referring to the blood flowing in the valleys or the fertility of the land draining away. The title bat hashovovevah ('faithless/backsliding daughter') applies the same term used for Israel (3:14, 22) to Ammon — even foreign nations are held accountable for faithlessness. The arrogant question 'Who would come against me?' echoes Edom's boast in Obadiah 3 and is a characteristic prophetic marker of prideful self-delusion."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "הִנְנִ֧י מֵבִ֣יא עָלַ֗יִךְ פַּ֛חַד נְאֻ֥ם אֲדֹנָ֛י יְהוִ֥ה צְבָא֖וֹת מִכָּל־סְבִיבָ֑יִךְ וְנִדַּחְתֶּ֗ם אִ֚ישׁ לְפָנָ֔יו וְאֵ֥ין מְקַבֵּ֖ץ לַנֹּדֵֽד׃",
+      "text_kjv": "Behold, I will bring a fear upon thee, saith the Lord GOD of hosts, from all those that be about thee; and ye shall be driven out every man right forth; and none shall gather up him that wandereth.",
+      "rendering": "I am bringing terror upon you,\ndeclares the Lord GOD of Hosts,\nfrom every side.\nEach of you will be driven out headlong,\nand no one will gather the fugitives.",
+      "translator_notes": ["The full divine title Adonai YHWH Tseva'ot ('the Lord GOD of Hosts') is used here — the most expansive form of the divine name, combining the title of sovereignty (Adonai), the covenant name (YHWH), and the military title (Tseva'ot). The phrase ish lefanav ('each man straight ahead') describes panicked, directionless flight — each person running wherever he faces, with no coordination or leadership. The final clause 'no one will gather the fugitives' (ein meqabbets lanoded) means there will be no rallying point, no regrouping — the dispersal is permanent."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְאַחֲרֵי־כֵ֗ן אָשִׁ֛יב אֶת־שְׁב֥וּת בְּנֵֽי־עַמּ֖וֹן נְאֻם־יְהוָֽה׃",
+      "text_kjv": "And afterward I will bring again the captivity of the children of Ammon, saith the LORD.",
+      "rendering": "But afterward I will restore the fortunes of the Ammonites,\ndeclares the LORD.",
+      "translator_notes": ["As with Moab (48:47) and later Elam (49:39), the judgment oracle closes with a promise of restoration. The phrase ashiv et shevut ('I will restore the fortunes/captivity') uses the root shuv ('return'), Jeremiah's central verb for both judgment and restoration. The word 'afterward' (acharei-khen) is less specific than the 'latter days' of 48:47 — it promises restoration without placing it in eschatological time."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "לֶאֱד֗וֹם כֹּ֤ה אָמַר֙ יְהוָ֣ה צְבָא֔וֹת הַאֵ֤ין עוֹד֙ חָכְמָ֣ה בְתֵימָ֔ן נֶאֶבְדָ֥ה עֵצָ֖ה מִבָּנִ֑ים נִסְרְחָ֖ה חָכְמָתָֽם׃",
+      "text_kjv": "Concerning Edom, thus saith the LORD of hosts; Is wisdom no more in Teman? is counsel perished from the prudent? is their wisdom vanished?",
+      "rendering": "Concerning Edom — this is what the LORD of Hosts says:\nIs there no longer wisdom in Teman?\nHas counsel vanished from the discerning?\nHas their wisdom rotted away?",
+      "translator_notes": ["Teman, an Edomite clan and region, was renowned in the ancient world for wisdom — Eliphaz the Temanite is the most prominent of Job's friends (Job 2:11). The three rhetorical questions are devastating: Edom's famed intellectual tradition has failed completely. The verb nisrechah ('has rotted, has become foul, has decayed') is unusually strong — wisdom has not merely departed but decomposed. The word banim ('sons, children') here means 'the discerning ones' or 'the intelligent' — a usage of ben as a member of a class rather than a literal offspring."],
+      "key_terms": [
+        {
+          "hebrew": "חָכְמָה",
+          "transliteration": "chokhmah",
+          "rendered_as": "wisdom",
+          "semantic_range": "wisdom, skill, insight, practical intelligence, philosophical knowledge",
+          "note": "Edom's wisdom tradition was proverbial in the ancient Near East. Its collapse under judgment means that human wisdom — even the best of it — cannot resist divine purposes."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "נֻ֤סוּ הָפְנוּ֙ הֶעְמִ֣יקוּ לָשֶׁ֔בֶת יֹשְׁבֵ֖י דְּדָ֑ן כִּ֣י אֵ֤יד עֵשָׂו֙ הֵבֵ֣אתִי עָלָ֔יו עֵ֖ת פְּקַדְתִּֽיו׃",
+      "text_kjv": "Flee ye, turn back, dwell deep, O inhabitants of Dedan; for I will bring the calamity of Esau upon him, the time that I will visit him.",
+      "rendering": "Flee! Turn back! Go deep into hiding,\nyou inhabitants of Dedan!\nFor I will bring Esau's disaster upon him —\nthe time when I punish him.",
+      "translator_notes": ["Dedan was an Arabian trading settlement at the southern edge of Edom's territory. The inhabitants are warned to flee because Edom's catastrophe will spill over into neighboring regions. The name 'Esau' is used instead of 'Edom' — a reminder that Edom is Jacob/Israel's twin brother (Genesis 25:25-26, 36:1), making this a judgment within the family. The verb he'miqu ('go deep') suggests hiding in deep caves or remote wadis — the terrain of Edom (Petra region) is famous for its deep, narrow gorges and hidden caves."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "אִם־בֹּֽצְרִים֙ בָּ֣אוּ לָ֔ךְ לֹ֥א יַשְׁאִ֖ירוּ עוֹלֵל֑וֹת אִם־גַּנָּבִ֣ים בַּלַּ֔יְלָה הִשְׁחִ֖יתוּ דַיָּֽם׃",
+      "text_kjv": "If grapegatherers come to thee, would they not leave some gleaning grapes? if thieves by night, they will destroy till they have enough.",
+      "rendering": "If grape-pickers came to you,\nwould they not leave some gleanings?\nIf thieves came in the night,\nwould they not steal only what they needed?",
+      "translator_notes": ["This verse closely parallels Obadiah 5. The rhetorical logic is a fortiori: even grape-harvesters leave some fruit behind, and even thieves take only enough — but the judgment coming on Edom will be far more thorough than either. The implied conclusion (stated explicitly in v. 10) is that Edom will be stripped completely bare. The word ollelot ('gleanings') refers to the small clusters left on the vine after harvest — gleaning laws in Israel required leaving these for the poor (Leviticus 19:10)."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כִּ֣י אֲנִ֞י חָשַׂ֣פְתִּי אֶת־עֵשָׂ֗ו גִּלֵּ֙יתִי֙ אֶת־מִסְתָּרָ֔יו וְנֶחְבָּ֖ה לֹ֣א יוּכָ֑ל שֻׁדַּ֥ד זַרְע֛וֹ וְאֶחָ֥יו וּשְׁכֵנָ֖יו וְאֵינֶֽנּוּ׃",
+      "text_kjv": "But I have made Esau bare, I have uncovered his secret places, and he shall not be able to hide himself: his seed is spoiled, and his brethren, and his neighbours, and he is not.",
+      "rendering": "But I — I have stripped Esau bare,\nI have uncovered his hiding places,\nand he cannot conceal himself.\nHis offspring are destroyed, his brothers and his neighbors,\nand he is no more.",
+      "translator_notes": ["The emphatic pronoun ani ('I myself') stresses divine agency — this is not a natural disaster but God's deliberate act. The verb chasafti ('I have stripped bare, I have exposed') is the opposite of Edom's attempt to hide in deep places (v. 8). God strips away every layer of protection. The phrase ve'einennu ('and he is not, and he is no more') is stark and final — Edom ceases to exist. Historically, the Edomites were gradually absorbed by the Nabataeans and later the Idumeans of the Hellenistic period, effectively disappearing as a distinct people."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "עָזְבָ֥ה יְתֹמֶ֖יךָ אֲנִ֣י אֲחַיֶּ֑ה וְאַלְמְנוֹתֶ֖יךָ עָלַ֥י תִּבְטָֽחוּ׃",
+      "text_kjv": "Leave thy fatherless children, I will preserve them alive; and let thy widows trust in me.",
+      "rendering": "Leave your orphans — I will keep them alive.\nLet your widows trust in me.",
+      "translator_notes": ["This verse is startling in context — after announcing total destruction, God offers to protect Edom's most vulnerable: the orphans (yetomim) and widows (almanot). The verse may be ironic (Edom's orphans will need divine protection because there will be no men left) or genuinely compassionate (even in judgment, God cares for the helpless). The tension between these readings is deliberate and should not be resolved. The imperative 'leave' (azvah) addresses Edom directly — entrust your most vulnerable to the God who is destroying you."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "כִּי־כֹ֣ה ׀ אָמַ֣ר יְהוָ֗ה הִנֵּ֤ה אֲשֶׁר־אֵ֤ין מִשְׁפָּטָם֙ לִשְׁתּ֣וֹת הַכּ֔וֹס שָׁת֖וֹ יִשְׁתּ֑וּ וְאַתָּ֗ה ה֤וּא נָקֹה֙ תִּנָּקֶ֔ה לֹ֣א תִנָּקֶ֔ה כִּ֥י שָׁת֖וֹ תִּשְׁתֶּֽה׃",
+      "text_kjv": "For thus saith the LORD; Behold, they whose judgment was not to drink of the cup have assuredly drunken; and art thou he that shall altogether go unpunished? thou shalt not go unpunished, but thou shalt surely drink of it.",
+      "rendering": "For this is what the LORD says: If those who did not deserve to drink the cup must drink it, will you really go unpunished? You will not go unpunished — you will certainly drink it.",
+      "translator_notes": ["The cup metaphor connects to Jeremiah's cup-of-wrath vision in 25:15-29, where all nations must drink from the cup of divine judgment. The argument is a fortiori: if even those whose 'judgment' (mishpat) did not require drinking the cup must nevertheless drink, how much more must Edom drink? The emphatic infinitive absolute construction shato tishteh ('you will certainly drink') leaves no room for escape. The identity of those who 'did not deserve to drink' is debated — it likely refers to Judah, who suffered despite being God's covenant people."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "כִּ֣י בִ֤י נִשְׁבַּ֙עְתִּי֙ נְאֻם־יְהוָ֔ה כִּֽי־לְשַׁמָּ֧ה לְחֶרְפָּ֛ה לְחָרְבָּ֥ה וְלִקְלָלָ֖ה תִּהְיֶ֣ה בָצְרָ֑ה וְכָל־עָרֶ֛יהָ תִּהְיֶ֥ינָה לְחָרְב֖וֹת עוֹלָֽם׃",
+      "text_kjv": "For I have sworn by myself, saith the LORD, that Bozrah shall become a desolation, a reproach, a waste, and a curse; and all the cities thereof shall be perpetual wastes.",
+      "rendering": "For I have sworn by myself, declares the LORD,\nthat Bozrah will become a desolation,\na reproach, a ruin, and a curse.\nAll her cities will be ruins forever.",
+      "translator_notes": ["God swears by himself because there is no greater authority to swear by (cf. Genesis 22:16, Hebrews 6:13). Bozrah (modern Buseirah in southern Jordan) was the capital of Edom — not to be confused with the Moabite Bozrah of 48:24. The four-fold sentence — shamah ('desolation'), cherpah ('reproach'), chorbah ('ruin'), qelalah ('curse') — is a comprehensive judgment formula. The phrase chorvot olam ('ruins forever') uses olam in its sense of indefinite, stretching-beyond-sight duration."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "שְׁמוּעָ֤ה שָׁמַ֙עְתִּי֙ מֵאֵ֣ת יְהוָ֔ה וְצִ֖יר בַּגּוֹיִ֣ם שָׁל֑וּחַ הִתְקַבְּצ֤וּ וּבֹ֙אוּ֙ עָלֶ֔יהָ וְק֖וּמוּ לַמִּלְחָמָֽה׃",
+      "text_kjv": "I have heard a rumour from the LORD, and an ambassador is sent unto the heathen, saying, Gather ye together, and come against her, and rise up to the battle.",
+      "rendering": "I have heard a report from the LORD,\nand a messenger has been sent among the nations:\n'Assemble and march against her!\nRise up for battle!'",
+      "translator_notes": ["This verse closely parallels Obadiah 1. The prophet receives a shemu'ah ('report, rumor, message') directly from the LORD, then sees a tsir ('envoy, messenger') dispatched among the nations to muster an army against Edom. The scene reveals the heavenly council directing international affairs — the nations think they are acting independently, but God has summoned them. The imperatives hitqabetsu ('gather yourselves'), bo'u ('come'), and qumu ('rise up') create urgency."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "כִּי־הִנֵּ֥ה קָטֹ֛ן נְתַתִּ֖יךָ בַּגּוֹיִ֑ם בָּז֖וּי בָּאָדָֽם׃",
+      "text_kjv": "For, lo, I will make thee small among the heathen, and despised among men.",
+      "rendering": "For I will make you small among the nations,\ndespised among humanity.",
+      "translator_notes": ["Parallels Obadiah 2. The verbs describe both diminishment (qaton, 'small, insignificant') and social contempt (bazui, 'despised'). Edom, which considered itself great and secure, will be reduced to insignificance. The word ba'adam ('among humanity, among people') broadens the scope beyond the nations to a universal contempt."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "תִּפְלַצְתְּךָ֞ הִשִּׁ֤יא אוֹתָךְ֙ זְד֣וֹן לִבֶּ֔ךָ שֹׁכְנִ֣י בְחַגְוֵ֣י הַסֶּ֗לַע תֹּפְשִׂי֙ מְר֣וֹם גִּבְעָ֔ה כִּי־תַגְבִּ֤יהַ כַּנֶּ֙שֶׁר֙ קִנֶּ֔ךָ מִשָּׁ֖ם אוֹרִֽידְךָ֥ נְאֻם־יְהוָֽה׃",
+      "text_kjv": "Thy terribleness hath deceived thee, and the pride of thine heart, O thou that dwellest in the clefts of the rock, that holdest the height of the hill: though thou shouldest make thy nest as high as the eagle, from thence will I bring thee down, saith the LORD.",
+      "rendering": "The dread you inspire has deceived you,\nthe arrogance of your heart —\nyou who dwell in the clefts of the rock,\nwho cling to the height of the hill.\nEven if you build your nest as high as the eagle,\nfrom there I will bring you down,\ndeclares the LORD.",
+      "translator_notes": ["Parallels Obadiah 3-4. The word tiflatstetkha is rare — it may mean 'the terror/dread you inspire in others' or 'your horrible nature.' Edom's fearsome reputation has become a source of self-deception: because others fear them, they believe they are invulnerable. The geographic references to 'clefts of the rock' (chagvei hassela) precisely describe the terrain around Petra (whose name means 'rock' in Greek) and the Edomite highlands — narrow canyon passages and cliff dwellings that seemed impregnable. The eagle-nest image combines height with the illusion of inaccessibility, but God's reach exceeds even the eagle's altitude."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְהָיְתָ֥ה אֱד֖וֹם לְשַׁמָּ֑ה כֹּ֚ל עֹבֵ֣ר עָלֶ֔יהָ יִשֹּׁ֥ם וְיִשְׁרֹ֖ק עַל־כָּל־מַכּוֹתֶֽהָ׃",
+      "text_kjv": "Also Edom shall be a desolation: every one that goeth by it shall be astonished, and shall hiss at all the plagues thereof.",
+      "rendering": "Edom will become a desolation.\nEveryone passing by will be appalled\nand will hiss at all her wounds.",
+      "translator_notes": ["The reaction of passersby combines yishom ('will be appalled, horrified, stunned') with yishroq ('will hiss, whistle') — the hissing is a gesture of shock and contempt, the sharp intake of breath at something terrible. The word makkoteha ('her wounds, her plagues, her blows') describes Edom's devastation as physical injuries inflicted on a body."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "כְּמַהְפֵּכַ֨ת סְדֹ֧ם וַעֲמֹרָ֛ה וּשְׁכֵנֶ֖יהָ אָמַ֣ר יְהוָ֑ה לֹֽא־יֵשֵׁ֤ב שָׁם֙ אִ֔ישׁ וְלֹֽא־יָג֥וּר בָּ֖הּ בֶּן־אָדָֽם׃",
+      "text_kjv": "As in the overthrow of Sodom and Gomorrah and the neighbour cities thereof, saith the LORD, no man shall abide there, neither shall a son of man dwell in it.",
+      "rendering": "Like the overthrow of Sodom and Gomorrah\nand their neighboring cities, says the LORD,\nno one will live there,\nno human being will settle in her.",
+      "translator_notes": ["The comparison to Sodom and Gomorrah (Genesis 19) invokes the paradigmatic divine destruction — total, irreversible, and exemplary. The phrase mahpekhat Sedom ('the overthrow of Sodom') uses a specific noun for catastrophic overturning, not merely 'destruction.' The double negation — 'no one will live there, no human being will settle' — uses two different words for humanity (ish, 'a man,' and ben-adam, 'a son of man/human being') to emphasize the completeness of depopulation."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "הִנֵּ֣ה כְאַרְיֵ֗ה יַעֲלֶ֛ה מִגְּא֥וֹן הַיַּרְדֵּ֖ן אֶל־נְוֵ֣ה אֵיתָ֑ן כִּ֣י אַרְגִּ֤יעָה אֲרִיצֶ֙נּוּ֙ מֵֽעָלֶ֔יהָ וּמִ֤י בָחוּר֙ אֵלֶ֣יהָ אֶפְקֹ֔ד כִּ֣י מִ֤י כָמ֙וֹנִי֙ וּמִ֣י יוֹעִדֶ֔נִּי וּמִ֤י זֶה֙ רֹעֶ֔ה אֲשֶׁ֥ר יַעֲמֹ֖ד לְפָנָֽי׃",
+      "text_kjv": "Behold, he shall come up like a lion from the swelling of Jordan against the habitation of the strong: but I will suddenly make him run away from her: and who is a chosen man, that I may appoint over her? for who is like me? and who will appoint me the time? and who is that shepherd that will stand before me?",
+      "rendering": "Look — like a lion coming up\nfrom the thickets of the Jordan\nto rich pastureland,\nI will suddenly chase him away from it.\nAnd who is the chosen one I will appoint over it?\nFor who is like me?\nWho can summon me to court?\nAnd what shepherd can stand against me?",
+      "translator_notes": ["This extended simile compares God to a lion emerging from the dense vegetation along the Jordan River to attack prey in open pasture. The ge'on haYarden ('pride/thickets of the Jordan') refers to the lush, jungle-like growth along the river banks where lions once lived. The three rhetorical questions assert God's absolute sovereignty: no one equals him (mi khamoni), no one can call him to account (mi yo'ideni), and no leader (ro'eh, 'shepherd,' a common metaphor for kings) can resist him. This passage is reused almost verbatim in 50:44 against Babylon."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "לָכֵ֞ן שִׁמְע֣וּ עֲצַת־יְהוָ֗ה אֲשֶׁ֤ר יָעַץ֙ אֶל־אֱד֔וֹם וּמַ֨חְשְׁבוֹתָ֔יו אֲשֶׁ֥ר חָשַׁ֖ב אֶל־יֹשְׁבֵ֣י תֵימָ֑ן אִם־לֹ֤א יִסְחָבוּם֙ צְעִירֵ֣י הַצֹּ֔אן אִם־לֹ֥א יַשִּׁ֖ים עֲלֵיהֶ֥ם נְוֵהֶֽם׃",
+      "text_kjv": "Therefore hear the counsel of the LORD, that he hath taken against Edom; and his purposes, that he hath purposed against the inhabitants of Teman: Surely the least of the flock shall draw them out: surely he shall make their habitations desolate with them.",
+      "rendering": "Therefore hear the plan of the LORD\nthat he has devised against Edom,\nand his purposes that he has formed\nagainst the inhabitants of Teman:\nSurely the youngest of the flock will drag them away;\nsurely their pasture will be made desolate because of them.",
+      "translator_notes": ["The 'plan' (atsat) and 'purposes' (machshevotav) of the LORD are presented as accomplished facts — what God has planned is as good as done. The image of tse'irei hatso'n ('the youngest/smallest of the flock') dragging away the mighty Edomites is deliberately humiliating — even the weakest will overcome them. The word neveh ('pasture, dwelling') continues the pastoral metaphor: Edom's home territory will be made desolate. This verse reappears nearly identically in 50:45 against Babylon."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "מִקּ֣וֹל נִפְלָ֔ם רָעֲשָׁ֖ה הָאָ֑רֶץ צְעָקָ֕ה בְּיַם־ס֖וּף נִשְׁמַ֥ע קוֹלָֽהּ׃",
+      "text_kjv": "The earth is moved at the noise of their fall, at the cry the noise thereof was heard in the Red sea.",
+      "rendering": "At the sound of their fall the earth trembles;\ntheir outcry is heard at the Sea of Reeds.",
+      "translator_notes": ["The fall of Edom is so catastrophic that the earth itself shakes (ra'ashah ha'arets) and the sound carries to the yam-suf ('Sea of Reeds,' traditionally 'Red Sea') — an enormous distance, emphasizing the magnitude of the event. The mention of the Sea of Reeds also evokes the Exodus, linking Edom's fall to the paradigmatic act of divine judgment and deliverance."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "הִנֵּ֣ה כַנֶּ֔שֶׁר יַעֲלֶ֖ה וְיִדְאֶ֑ה וְיִפְרֹ֤שׂ כְּנָפָיו֙ עַל־בָּצְרָ֔ה וְהָיָ֞ה לֵ֣ב ׀ גִּבּוֹרֵ֣י אֱד֗וֹם בַּיּ֤וֹם הַהוּא֙ כְּלֵ֔ב אִשָּׁ֖ה מְצֵרָֽה׃",
+      "text_kjv": "Behold, he shall come up and fly as the eagle, and spread his wings over Bozrah: and at that day shall the heart of the mighty men of Edom be as the heart of a woman in her pangs.",
+      "rendering": "Look — like an eagle he rises and swoops,\nspreading his wings over Bozrah.\nOn that day the heart of Edom's warriors\nwill be like the heart of a woman in labor.",
+      "translator_notes": ["This verse closely parallels 48:40-41 (the eagle over Moab), using nearly identical language for Edom. The reuse suggests that the same divine agent of destruction (the eagle, representing Nebuchadnezzar) will strike both nations. The simile of warriors reduced to the helplessness of a woman in labor (ishah metserah) describes involuntary, overwhelming physical distress — the mightiest soldiers seized by terror as uncontrollable as contractions."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "לְדַמֶּ֗שֶׂק בּ֤וֹשָׁה חֲמָת֙ וְאַרְפָּ֔ד כִּי־שְׁמֻעָ֥ה רָעָ֛ה שָׁמְע֖וּ נָמֹ֑גוּ בַּיָּ֣ם דְּאָגָ֔ה הַשְׁקֵ֖ט לֹ֥א יוּכָֽל׃",
+      "text_kjv": "Concerning Damascus. Hamath is confounded, and Arpad: for they have heard evil tidings: they are fainthearted; there is sorrow on the sea; it cannot be quiet.",
+      "rendering": "Concerning Damascus —\nHamath and Arpad are put to shame,\nfor they have heard bad news.\nThey melt in anxiety;\nthere is agitation on the sea that cannot be calmed.",
+      "translator_notes": ["The Damascus oracle begins abruptly without a messenger formula. Hamath and Arpad were Syrian cities north of Damascus that fell to Assyria before Damascus itself (cf. Isaiah 10:9, 36:19). The verb namogu ('they melt, they dissolve') describes the loss of all solidity and resolve. The phrase bayyam de'agah ('anxiety/worry on the sea') is difficult — it may mean the anxious sea as a metaphor for turmoil, or 'anxiety like the sea' (comparing their inner turmoil to the restless ocean). The verb hashqet ('to be quiet, to be still') with lo yukal ('is not able') describes uncontrollable agitation."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "רָפְתָ֣ה דַמֶּ֔שֶׂק הִפְנְתָ֖ה לָנ֑וּס וְרֶ֣טֶט ׀ הֶחֱזִ֗יקָה צָרָ֧ה וַחֲבָלִ֛ים אֲחָזָ֖תָה כַּיּוֹלֵדָֽה׃",
+      "text_kjv": "Damascus is waxed feeble, and turneth herself to flee, and fear hath seized on her: anguish and sorrows have taken her, as a woman in travail.",
+      "rendering": "Damascus has lost her strength.\nShe has turned to flee,\nand panic has gripped her.\nDistress and pain have seized her\nlike a woman giving birth.",
+      "translator_notes": ["The verb rafetah ('has become weak, has gone limp') describes the loss of physical strength — Damascus's legendary military power collapses. The personification as a woman in labor (kayyoleodah) echoes 48:41 and 49:22 — the same image applied to Moab, Edom, and now Damascus, suggesting that divine judgment produces the same helpless agony regardless of the nation. The word retet ('trembling, panic') is rare in the Hebrew Bible, intensifying the unusualness of Damascus's experience."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "אֵ֥יךְ לֹֽא־עֻזְּבָ֖ה עִ֣יר תְּהִלָּ֑ה קִרְיַ֖ת מְשׂוֹשִֽׂי׃",
+      "text_kjv": "How is the city of praise not left, the city of my joy!",
+      "rendering": "How is the renowned city not abandoned,\nthe town of my delight!",
+      "translator_notes": ["The speaker of this lament is debated — it may be the prophet, a citizen of Damascus, or God himself expressing loss. The phrase ir tehillah ('city of praise/renown') and qiryat mesosi ('city of my joy/delight') indicate that Damascus was celebrated for its beauty and vitality. The exclamation eikh ('How!') again echoes the lament formula. The verse's meaning is also debated: 'How is it that the city has not yet been abandoned' (wondering why people stay in a doomed place) or 'How has the city of renown been abandoned' (mourning its fall)."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "לָכֵ֛ן יִפְּל֥וּ בַחוּרֶ֖יהָ בִּרְחֹבֹתֶ֑יהָ וְכָל־אַנְשֵׁ֧י הַמִּלְחָמָ֛ה יִדַּ֖מּוּ בַּיּ֥וֹם הַהֽוּא נְאֻ֖ם יְהוָ֥ה צְבָאֽוֹת׃",
+      "text_kjv": "Therefore her young men shall fall in her streets, and all the men of war shall be cut off in that day, saith the LORD of hosts.",
+      "rendering": "Therefore her young men will fall in her public squares,\nand all her soldiers will be silenced on that day,\ndeclares the LORD of Hosts.",
+      "translator_notes": ["The verb yiddammu ('will be silenced, will perish') from the root d-m-m ('to be silent, to cease') suggests death as silencing — the noisy, vibrant city falls into the silence of death. The rechov ('public square, broad place') was the center of civic life in an ancient city — for young men to fall there means the heart of the city is a killing ground. The phrase bayyom hahu ('on that day') is eschatological language marking a decisive divine intervention."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְהִצַּ֥תִּי אֵ֖שׁ בְּחוֹמַ֣ת דַּמָּ֑שֶׂק וְאָכְלָ֖ה אַרְמְנ֥וֹת בֶּן־הֲדָֽד׃",
+      "text_kjv": "And I will kindle a fire in the wall of Damascus, and it shall consume the palaces of Benhadad.",
+      "rendering": "I will set fire to the walls of Damascus,\nand it will consume the fortresses of Ben-hadad.",
+      "translator_notes": ["Ben-hadad ('son of Hadad') was a dynastic name used by several Aramean kings of Damascus (1 Kings 15:18, 20:1, 2 Kings 13:3). The name invokes the storm god Hadad, the chief deity of the Arameans — calling the fortresses by this name suggests that Damascus's royal power, rooted in its national deity, will be consumed. This verse closely parallels Amos 1:4. The verb hitsatti ('I will kindle, I will set fire') makes God the direct agent of destruction."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "לְקֵדָ֣ר וּלְמַמְלְכ֣וֹת חָצ֗וֹר אֲשֶׁ֤ר הִכָּה֙ נְבֽוּכַדְרֶאצַּ֣ר מֶֽלֶךְ־בָּבֶ֔ל כֹּ֖ה אָמַ֣ר יְהוָ֑ה ק֛וּמוּ עֲל֥וּ אֶל־קֵדָ֖ר וְשָׁדְד֥וּ אֶת־בְּנֵי־קֶֽדֶם׃",
+      "text_kjv": "Concerning Kedar, and concerning the kingdoms of Hazor, which Nebuchadrezzar king of Babylon shall smite, thus saith the LORD; Arise ye, go up to Kedar, and spoil the men of the east.",
+      "rendering": "Concerning Kedar and the kingdoms of Hazor,\nwhich Nebuchadnezzar king of Babylon defeated —\nthis is what the LORD says:\nRise up, advance against Kedar,\nand plunder the people of the east!",
+      "translator_notes": ["Kedar was a confederation of Arabian tribes descended from Ishmael (Genesis 25:13), inhabiting the Syrian-Arabian desert east of Israel. Hazor here is not the Canaanite city of Joshua 11:1 but refers to unwalled Arabian settlements (from chatser, 'enclosure, settlement') — semi-permanent encampments in the desert. The phrase benei-qedem ('people of the east, easterners') is a general term for Arabian and Transjordanian peoples. Nebuchadnezzar is named directly as the historical agent of this judgment — a rare explicit identification in the oracles against nations."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "אָהֳלֵיהֶ֤ם וְצֹאנָם֙ יִקָּ֔חוּ יְרִיעוֹתֵיהֶ֤ם וְכָל־כְּלֵיהֶם֙ וּגְמַלֵּיהֶ֔ם יִשְׂא֖וּ לָהֶ֑ם וְקָרְא֥וּ עֲלֵיהֶ֖ם מָג֥וֹר מִסָּבִֽיב׃",
+      "text_kjv": "Their tents and their flocks shall they take away: they shall take to themselves their curtains, and all their vessels, and their camels; and they shall cry unto them, Fear on every side.",
+      "rendering": "Their tents and their flocks will be seized,\ntheir tent curtains and all their goods and their camels\ncarried off.\nMen will shout at them:\n'Terror on every side!'",
+      "translator_notes": ["The catalogue of plunder — tents, flocks, curtains, goods, camels — is the complete inventory of nomadic wealth. These are not city-dwellers with walls and storehouses but pastoralists whose entire livelihood is portable and vulnerable. The cry magor missaviv ('terror on every side') is a characteristic Jeremiah phrase (6:25, 20:3, 20:10, 46:5) — it becomes the war cry shouted at the fleeing nomads, turning Jeremiah's own experience of terror into a weapon against others."],
+      "key_terms": [
+        {
+          "hebrew": "מָגוֹר מִסָּבִיב",
+          "transliteration": "magor missaviv",
+          "rendered_as": "Terror on every side",
+          "semantic_range": "terror all around, fear from every direction, panic on every side",
+          "note": "A signature Jeremiah phrase. In 20:3 Jeremiah renamed Pashhur 'Magor-missaviv' — Terror-on-every-side. Here the phrase becomes the battle cry of the invaders."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "נֻ֨סוּ נֻּ֜דוּ מְאֹ֗ד הֶעְמִ֤יקוּ לָשֶׁ֙בֶת֙ יֹשְׁבֵ֣י חָצ֔וֹר נְאֻם־יְהוָ֑ה כִּֽי־יָעַ֨ץ עֲלֵיכֶ֜ם נְבוּכַדְרֶאצַּ֤ר מֶֽלֶךְ־בָּבֶל֙ עֵצָ֔ה וְחָשַׁ֥ב עֲלֵיהֶ֖ם מַחֲשָׁבָֽה׃",
+      "text_kjv": "Flee, get you far off, dwell deep, O ye inhabitants of Hazor, saith the LORD; for Nebuchadrezzar king of Babylon hath taken counsel against you, and hath conceived a purpose against you.",
+      "rendering": "Flee! Wander far away! Go deep into hiding,\nyou inhabitants of Hazor, declares the LORD!\nFor Nebuchadnezzar king of Babylon\nhas devised a plan against you\nand formed a strategy against you.",
+      "translator_notes": ["The triple imperative — nusu ('flee'), nudu ('wander'), he'miqu ('go deep') — creates escalating urgency. The same command to 'go deep' (he'miqu lashavet) appeared in v. 8 addressed to Dedan near Edom — the same survival strategy for different nations. The word etsah ('counsel, plan') and machashavah ('thought, strategy') describe Nebuchadnezzar's deliberate military planning, but the broader context makes clear that the Babylonian king's plans are themselves instruments of God's judgment."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "ק֣וּמוּ עֲל֗וּ אֶל־גּ֤וֹי שְׁלֵיו֙ יוֹשֵׁ֣ב לָבֶ֔טַח נְאֻם־יְהוָ֑ה לֹא־דְלָתַ֧יִם וְלֹא־בְרִ֛יחַ ל֖וֹ בָּדָ֥ד יִשְׁכֹּֽנוּ׃",
+      "text_kjv": "Arise, get you up unto the wealthy nation, that dwelleth without care, saith the LORD, which have neither gates nor bars, which dwell alone.",
+      "rendering": "Rise up, advance against a nation at ease,\nliving in security, declares the LORD —\na nation with no gates and no bars,\ndwelling in isolation.",
+      "translator_notes": ["The description of the target — shelev ('at ease, tranquil'), yoshev lavetach ('living in security'), without doors or bars, dwelling alone — describes the nomadic lifestyle as both its blessing and its vulnerability. These desert-dwelling tribes have no fortifications because they have no fixed cities. Their isolation (badad yishkonu, 'they dwell alone') is geographic and cultural — they live apart from the settled world. What was freedom becomes fatal exposure when an army comes."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְהָי֨וּ גְמַלֵּיהֶ֜ם לָבַ֗ז וַהֲמ֤וֹן מִקְנֵיהֶם֙ לְשָׁלָ֔ל וְזֵרִיתִ֥ם לְכָל־ר֖וּחַ קְצוּצֵ֣י פֵאָ֑ה וּמִכָּל־עֲבָרָ֛יו אָבִ֥יא אֶת־אֵידָ֖ם נְאֻם־יְהוָֽה׃",
+      "text_kjv": "And their camels shall be a booty, and the multitude of their cattle a spoil: and I will scatter into all winds them that are in the utmost corners; and I will bring their calamity from all sides thereof, saith the LORD.",
+      "rendering": "Their camels will become plunder\nand their vast herds, spoil.\nI will scatter to every wind\nthose who clip the corners of their hair,\nand from every direction I will bring their disaster,\ndeclares the LORD.",
+      "translator_notes": ["The phrase qetsutssei fe'ah ('those who clip the corners [of their hair]') describes an Arabian grooming custom — trimming the hair at the temples. This same phrase appears in 9:25 and 25:23, identifying specific Arabian peoples by their distinctive hairstyle. The scattering 'to every wind' (lekhol-ruach) means dispersal in all four directions — total diaspora. The phrase mikkol-avarav ('from all his sides/directions') means disaster converges from every quarter, leaving no direction of escape."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְהָיְתָ֨ה חָצ֜וֹר לִמְע֤וֹן תַּנִּים֙ שְׁמָמָ֣ה עַד־עוֹלָ֔ם לֹֽא־יֵשֵׁ֥ב שָׁ֛ם אִ֖ישׁ וְלֹֽא־יָג֣וּר בָּ֑הּ בֶּן־אָדָֽם׃",
+      "text_kjv": "And Hazor shall be a dwelling for dragons, and a desolation for ever: there shall no man abide there, nor any son of man dwell in it.",
+      "rendering": "Hazor will become a haunt of jackals,\na desolation forever.\nNo one will live there;\nno human being will settle in her.",
+      "translator_notes": ["The word tannim ('jackals') represents the wild animals that reclaim abandoned human settlements — a standard image of desolation in prophetic literature (cf. Isaiah 13:22, 34:13). The double negation with ish and ben-adam (paralleling v. 18 and 48:9) is the comprehensive depopulation formula. The phrase shemamah ad-olam ('desolation forever/to the distant horizon of time') uses olam in its sense of indefinite, stretching-beyond-sight duration — the desolation has no visible end."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "אֲשֶׁ֨ר הָיָ֧ה דְבַר־יְהוָ֛ה אֶל־יִרְמְיָ֥הוּ הַנָּבִ֖יא אֶל־עֵילָ֑ם בְּרֵאשִׁ֕ית מַלְכ֖וּת צִדְקִיָּ֥ה מֶֽלֶךְ־יְהוּדָ֖ה לֵאמֹֽר׃",
+      "text_kjv": "The word of the LORD that came to Jeremiah the prophet against Elam in the beginning of the reign of Zedekiah king of Judah, saying,",
+      "rendering": "The word of the LORD that came to Jeremiah the prophet concerning Elam, at the beginning of the reign of Zedekiah king of Judah:",
+      "translator_notes": ["The Elam oracle is unique among the oracles against nations for having a precise date — the beginning of Zedekiah's reign (c. 597 BCE). Elam was located in what is now southwestern Iran (capital: Susa), far to the east of Israel's usual sphere of concern. Its inclusion extends the scope of God's sovereignty far beyond the Levant. The dating formula connects this oracle to the turbulent period immediately after Nebuchadnezzar's first deportation of Judah."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "כֹּ֤ה אָמַר֙ יְהוָ֣ה צְבָא֔וֹת הִנְנִ֥י שֹׁבֵ֖ר אֶת־קֶ֣שֶׁת עֵילָ֑ם רֵאשִׁ֖ית גְּבוּרָתָֽם׃",
+      "text_kjv": "Thus saith the LORD of hosts; Behold, I will break the bow of Elam, the chief of their might.",
+      "rendering": "This is what the LORD of Hosts says:\nI am about to break the bow of Elam,\nthe chief weapon of their strength.",
+      "translator_notes": ["Elam was renowned in the ancient world for its archers — the bow (qeshet) was their signature military weapon. Breaking the bow means destroying their primary military capability. The phrase reshit gevuratam ('the beginning/chief of their strength') identifies archery as the foundation of Elamite power. The destruction begins with the weapon system that defines them — without the bow, Elam is defenseless."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וְהֵבֵאתִ֣י אֶל־עֵילָ֗ם אַרְבַּע֙ רוּח֔וֹת מֵאַרְבַּ֖ע קְצ֣וֹת הַשָּׁמָ֑יִם וְזֵ֣רִיתִ֗ם לְכֹל֙ הָרוּח֣וֹת הָאֵ֔לֶּה וְלֹֽא־יִהְיֶ֣ה הַגּ֔וֹי אֲשֶׁר־לֹ֥א יָב֛וֹא שָׁ֖ם נִדְּחֵ֥י עֵילָֽם׃",
+      "text_kjv": "And upon Elam will I bring the four winds from the four quarters of heaven, and will scatter them toward all those winds; and there shall be no nation whither the outcasts of Elam shall not come.",
+      "rendering": "I will bring against Elam the four winds\nfrom the four corners of the heavens.\nI will scatter them to all these winds,\nand there will be no nation\nwhere Elam's exiles will not reach.",
+      "translator_notes": ["The 'four winds from the four corners of the heavens' (arba ruchot me'arba qetsot hashamayim) represents cosmic-scale judgment — destruction comes from every cardinal direction simultaneously. The scattering of Elam's people to every nation is the most extreme dispersal formula in Jeremiah's oracles against nations. The word nidchei ('exiles, outcasts, driven-out ones') from the root n-d-ch describes forced, involuntary displacement to the farthest reaches of the known world."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְהַחְתַּתִּ֣י אֶת־עֵ֠ילָם לִפְנֵ֤י אֹֽיְבֵיהֶם֙ וְלִפְנֵ֖י מְבַקְשֵׁ֣י נַפְשָׁ֑ם וְהֵבֵאתִ֨י עֲלֵיהֶ֜ם רָעָ֗ה אֶת־חֲר֤וֹן אַפִּי֙ נְאֻם־יְהוָ֔ה וְשִׁלַּחְתִּ֣י אַחֲרֵיהֶ֔ם אֶת־הַחֶ֕רֶב עַ֥ד כַּלּוֹתִ֖י אוֹתָֽם׃",
+      "text_kjv": "For I will cause Elam to be dismayed before their enemies, and before them that seek their life: and I will bring evil upon them, even my fierce anger, saith the LORD; and I will send the sword after them, till I have consumed them:",
+      "rendering": "I will shatter Elam before their enemies,\nbefore those who seek their lives.\nI will bring disaster upon them —\nthe burning heat of my anger,\ndeclares the LORD.\nI will send the sword after them\nuntil I have consumed them.",
+      "translator_notes": ["The phrase charon appi ('the burning of my anger, my fierce wrath') is one of the strongest anger expressions in Hebrew — charon means 'burning heat' and af ('nose, anger') refers to the flaring nostrils of fury. The verb hichatti ('I will shatter, I will terrify') from the root ch-t-t describes the complete breakdown of morale. The sword 'sent after them' (shilachti achareihem et-hacherev) personifies the weapon as a pursuing agent — the sword chases Elam's scattered survivors until consumption (kaloti, 'until I have finished/consumed') is complete."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וְשַׂמְתִּ֥י כִסְאִ֖י בְּעֵילָ֑ם וְהַאֲבַדְתִּ֥י מִשָּׁ֛ם מֶ֖לֶךְ וְשָׂרִ֥ים נְאֻם־יְהוָֽה׃",
+      "text_kjv": "And I will set my throne in Elam, and will destroy from thence the king and the princes, saith the LORD.",
+      "rendering": "I will set my throne in Elam\nand destroy her king and officials from there,\ndeclares the LORD.",
+      "translator_notes": ["The image of God setting his throne (kis'i) in Elam is extraordinary — it declares that God will personally exercise sovereignty in this distant land, displacing its human rulers. The destruction of 'king and officials' (melekh vesarim) eliminates the entire governing structure. This verse makes explicit what the other oracles against nations imply: God is not merely punishing foreign lands but establishing his own kingship over them. The placement of God's throne in Elam anticipates the universal sovereignty theme of later apocalyptic literature."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְהָיָ֣ה ׀ בְּאַחֲרִ֣ית הַיָּמִ֗ים אָשִׁ֛יב אֶת־שְׁב֥וּת עֵילָ֖ם נְאֻם־יְהוָֽה׃",
+      "text_kjv": "But it shall come to pass in the latter days, that I will bring again the captivity of Elam, saith the LORD.",
+      "rendering": "But in the latter days\nI will restore the fortunes of Elam,\ndeclares the LORD.",
+      "expanded_rendering": "The restoration formula (ashiv et shevut, 'I will restore the fortunes') closes the Elam oracle just as it closed the Moab oracle (48:47) and the Ammon oracle (49:6). The phrase be'acharit hayyamim ('in the latter days') places this restoration in the eschatological future — beyond the immediate historical judgment. The pattern across chapters 48-49 is consistent: God's judgment of the nations is real and devastating, but it is not his final word. Even nations as distant as Elam fall within the scope of ultimate divine restoration.",
+      "translator_notes": ["The restoration formula echoes 48:47 (Moab) and 49:6 (Ammon), completing a three-fold pattern: judgment is followed by eschatological hope. The phrase be'acharit hayyamim ('in the latter days') uses the same eschatological time-marker as 48:47. Notably, Edom and Damascus receive no such restoration promise — their oracles end with unrelieved judgment. The theological significance is debated: does this pattern suggest degrees of divine mercy, or is it a redactional difference reflecting the history of the text's composition? Acts 2:9 mentions Elamites among those present at Pentecost, which some interpreters read as fulfillment of this promise."],
+      "key_terms": [
+        {
+          "hebrew": "אַחֲרִית הַיָּמִים",
+          "transliteration": "acharit hayyamim",
+          "rendered_as": "the latter days",
+          "semantic_range": "the end of days, the latter days, the final period, the eschatological future",
+          "note": "The same phrase used in 48:47. It points beyond historical restoration to God's ultimate purposes for the nations."
+        }
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

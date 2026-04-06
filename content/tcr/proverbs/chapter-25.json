@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Proverbs",
+    "chapter": 25,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-30T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Proverbs 25 opens the 'Hezekiah Collection' — proverbs of Solomon copied by the scribes of King Hezekiah of Judah (c. 715-686 BCE). This chapter is rich in extended similes and comparisons, moving from the glory of kings and the hiddenness of God, through social wisdom about legal disputes, speech, and self-control, to the famous instruction about giving food and drink to your enemy.",
+    "remarkable": "The superscription (v1) is one of the most important editorial notes in the Hebrew Bible: it tells us that Hezekiah's court scribes actively collected, copied, and arranged Solomonic proverbs — evidence of a royal scribal project preserving wisdom literature centuries after Solomon. This chapter is also unusually dense with simile: nearly every proverb uses 'like' (ke-) comparisons, creating a gallery of vivid images — apples of gold in silver settings, cold water to a tired soul, clouds without rain, a broken tooth and a twisted foot. Verses 21-22 (feeding your enemy) are quoted by Paul in Romans 12:20, becoming one of the Hebrew Bible's most influential ethical instructions in the New Testament.",
+    "friction": "The 'coals of fire on his head' image in verse 22 has been debated for centuries. Does it mean you will cause your enemy pain (punitive reading)? Or does it refer to an Egyptian penitential ritual where carrying coals on the head symbolized shame and repentance (transformative reading)? The transformative reading fits the context better: kindness to an enemy provokes inner shame that may lead to genuine change. The punitive reading contradicts the spirit of v21.",
+    "connections": "The Hezekiah editorial note (v1) connects to 2 Kings 18-20 and 2 Chronicles 29-32, which describe Hezekiah's religious reforms. The 'apples of gold' image (v11) has no exact parallel but echoes Song of Songs 2:3-5 in its use of fruit imagery. Verses 21-22 are quoted in Romans 12:20. The 'rooftop' proverb (v24) repeats 21:9 verbatim. The 'cold water to a thirsty soul' (v25) connects to Psalm 42:1-2 and Jeremiah 2:13."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "גַּם־אֵ֭לֶּה מִשְׁלֵ֣י שְׁלֹמֹ֑ה אֲשֶׁ֥ר הֶ֝עְתִּ֗יקוּ אַנְשֵׁ֤י ׀ חִזְקִיָּ֬ה מֶֽלֶךְ־יְהוּדָֽה׃",
+      "text_kjv": "These are also proverbs of Solomon, which the men of Hezekiah king of Judah copied out.",
+      "rendering": "These also are proverbs of Solomon,\ncopied by the men of Hezekiah, king of Judah.",
+      "expanded_rendering": "This superscription is a rare window into the editorial process behind the Hebrew Bible. He'etiqu ('they copied, they transcribed, they transferred') indicates a scribal operation: Hezekiah's court officials gathered Solomonic proverbs from various sources and assembled them into this collection (chapters 25-29). The verb implies not composition but transmission — these men did not write the proverbs but preserved them. Hezekiah's religious reform (2 Kings 18:1-6, 2 Chronicles 29-31) included a cultural renaissance that valued Israel's literary heritage. This note places the collection in a specific historical moment: the late eighth century BCE, when Judah was threatened by Assyria and the preservation of national wisdom was both cultural and spiritual resistance.",
+      "translator_notes": [
+        "The superscription authenticates both the Solomonic origin and the Hezekian transmission. It distinguishes this collection from 10:1-22:16 (also attributed to Solomon but without named editors) and from the 'Words of the Wise' (22:17-24:34, attributed to an unnamed wisdom tradition)."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הֶעְתִּיקוּ",
+          "transliteration": "he'etiqu",
+          "rendered_as": "copied",
+          "semantic_range": "to copy, to transcribe, to transfer, to move; to remove from one place to another",
+          "note": "The verb suggests physical copying — scribes writing on scrolls. This is evidence of an organized, royally sponsored literary preservation project in the eighth century BCE."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "כְּבֹ֣ד אֱ֭לֹהִים הַסְתֵּ֣ר דָּבָ֑ר וּכְבֹ֥ד מְ֝לָכִ֗ים חֲקֹ֣ר דָּבָֽר׃",
+      "text_kjv": "It is the glory of God to conceal a thing: but the honour of kings is to search out a matter.",
+      "rendering": "It is the glory of God to conceal a matter,\nbut the glory of kings is to search a matter out.",
+      "expanded_rendering": "Two kinds of glory, two kinds of relationship to knowledge. God's kavod ('glory, honor, weight') is displayed in concealment — He hides things because His purposes transcend human comprehension. A king's kavod is displayed in investigation — he uncovers, probes, and brings hidden things to light. The proverb defines both the limit and the task of human authority: God keeps secrets; kings solve them. Wisdom begins with accepting that some things are beyond human reach (the hidden counsel of God) while pursuing with full energy the things that can be known.",
+      "translator_notes": [
+        "The verb haster ('to hide, to conceal') applied to God does not describe deception but transcendence — God conceals things because they belong to a level of reality humans cannot yet access. The verb chaqor ('to search, to investigate, to explore') applied to kings is the same word used for mining precious metals (Job 28) — it describes intensive, sustained inquiry."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "כָּבוֹד",
+          "transliteration": "kavod",
+          "rendered_as": "glory",
+          "semantic_range": "glory, honor, weight, heaviness, dignity, splendor; the visible manifestation of worth",
+          "note": "Kavod derives from kaved ('heavy'). Glory is weight — substance, significance, gravitas. God's glory has weight because His concealment demonstrates sovereignty; a king's glory has weight because his investigation demonstrates competence."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "שָׁמַ֥יִם לָר֑וּם וָאָ֥רֶץ לָ֝עֹ֗מֶק וְלֵ֣ב מְלָכִ֣ים אֵ֣ין חֵֽקֶר׃",
+      "text_kjv": "The heaven for height, and the earth for depth, and the heart of kings is unsearchable.",
+      "rendering": "The heavens for height and the earth for depth,\nbut the heart of kings — unfathomable.",
+      "translator_notes": [
+        "Three immeasurable things: the height of the sky, the depth of the earth, and the inner life of a king. Ein cheqer ('there is no searching, it is unsearchable') applied to the king's heart means that royal decision-making is opaque to outsiders. The king investigates others (v2) but cannot himself be fully investigated. This is both a statement about royal privacy and a warning: do not assume you understand what the king is thinking."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "הָג֣וֹ סִיגִ֣ים מִכָּ֑סֶף וַיֵּצֵ֖א לַצֹּרֵ֣ף כֶּֽלִי׃",
+      "text_kjv": "Take away the dross from the silver, and there shall come forth a vessel for the finer.",
+      "rendering": "Remove the dross from silver,\nand a vessel emerges for the refiner.",
+      "translator_notes": [
+        "Sigim ('dross, impurities, waste metal') must be removed before silver can be shaped. The metallurgical metaphor sets up verse 5: as dross must be removed from silver before it becomes useful, so the wicked must be removed from the king's presence before governance becomes righteous."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "הָג֣וֹ רָ֭שָׁע לִפְנֵי־מֶ֑לֶךְ וְ֝יִכּ֗וֹן בַּצֶּ֥דֶק כִּסְאֽוֹ׃",
+      "text_kjv": "Take away the wicked from before the king, and his throne shall be established in righteousness.",
+      "rendering": "Remove the wicked from the king's presence,\nand his throne will be established in righteousness.",
+      "translator_notes": [
+        "The application of the metallurgy image: the rasha ('wicked person') is the dross in the king's court. Once removed, the throne is established (yikkon, 'made firm, set on a stable foundation') in tsedeq ('righteousness, justice'). The purity of governance depends on the purity of the inner circle."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "אַל־תִּתְהַדַּ֥ר לִפְנֵי־מֶ֑לֶךְ וּבִמְק֥וֹם גְּ֝דֹלִ֗ים אַֽל־תַּעֲמֹֽד׃",
+      "text_kjv": "Put not forth thyself in the presence of the king, and stand not in the place of great men:",
+      "rendering": "Do not promote yourself in the king's presence,\nand do not stand in the place of the great,",
+      "translator_notes": [
+        "Tithaddar ('to glorify yourself, to make yourself splendid, to put yourself forward') warns against self-promotion before royalty. The advice is practical and social: do not claim a rank above your station. Jesus echoes this in Luke 14:7-11, where he tells guests not to choose the best seat at a banquet."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "כִּ֤י ט֗וֹב אֲמָר־לְךָ֗ עֲ‍ֽלֵ֫ה הֵ֥נָּה מֵֽ֭הַשְׁפִּ֣ילְךָ֗ לִפְנֵ֣י נָדִ֑יב אֲשֶׁ֖ר רָא֣וּ עֵינֶֽיךָ׃",
+      "text_kjv": "For better it is that it be said unto thee, Come up hither; than that thou shouldest be put lower in the presence of the prince whom thine eyes have seen.",
+      "rendering": "for it is better to be told, 'Come up here!'\nthan to be humiliated before a noble\nwhom your own eyes have seen.",
+      "translator_notes": [
+        "The social calculus is clear: being invited upward is honor; being pushed downward is shame. The phrase asher ra'u einekha ('whom your eyes have seen') adds the sting of witnesses — the humiliation happens in public, before people you know. Strategic humility avoids this risk."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "אַל־תֵּצֵ֥א לָרִ֗ב מַ֫הֵ֥ר פֶּ֣ן מַה־תַּ֭עֲשֶׂה בְּאַחֲרִיתָ֑הּ בְּהַכְלִ֖ים אֹתְךָ֣ רֵעֶֽךָ׃",
+      "text_kjv": "Go not forth hastily to strive, lest thou know not what to do in the end thereof, when thy neighbour hath put thee to shame.",
+      "rendering": "Do not rush to bring a lawsuit,\nor what will you do in the end\nwhen your neighbor puts you to shame?",
+      "translator_notes": [
+        "Maher ('quickly, hastily, in haste') warns against impulsive litigation. The acharitah ('its end, its outcome') is unpredictable — you may lose, and the defeat will be public (behakhlim, 'when he shames, when he humiliates'). The proverb counsels patience and private resolution before public confrontation."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "רִֽ֭יבְךָ רִ֣יב אֶת־רֵעֶ֑ךָ וְס֖וֹד אַחֵ֣ר אַל־תְּגָֽל׃",
+      "text_kjv": "Debate thy cause with thy neighbour himself; and discover not a secret to another:",
+      "rendering": "Argue your case with your neighbor directly,\nbut do not reveal another person's secret,",
+      "translator_notes": [
+        "Two instructions in one: settle disputes face to face (rivekha riv et re'ekha, 'your dispute, dispute with your neighbor') and do not drag third parties' private information into the conflict (sod acher al-tegal, 'another's secret do not uncover'). Disputes should be contained, not weaponized with gossip."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "פֶּן־יְחַסֶּדְךָ֥ שֹׁמֵ֑עַ וְ֝דִבָּתְךָ֗ לֹ֣א תָשֽׁוּב׃",
+      "text_kjv": "Lest he that heareth it put thee to shame, and thine infamy turn not away.",
+      "rendering": "or the one who hears will disgrace you,\nand your bad reputation will never go away.",
+      "translator_notes": [
+        "Dibbatekha ('your bad report, your infamy, your reputation for gossip') lo tashuv ('will not return, will not go away') warns that a reputation as a gossip or betrayer of confidences is permanent. Once people know you cannot be trusted with secrets, that knowledge cannot be undone."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "תַּפּוּחֵ֣י זָ֭הָב בְּמַשְׂכִּיּ֥וֹת כָּ֑סֶף דָּ֝בָ֗ר דָּבֻ֥ר עַל־אָפְנָֽיו׃",
+      "text_kjv": "A word fitly spoken is like apples of gold in pictures of silver.",
+      "rendering": "A word spoken at the right moment\nis like apples of gold in a setting of silver.",
+      "expanded_rendering": "Tappuche zahav be-maskiyyot kasef ('apples of gold in silver filigree/settings') is the most aesthetically beautiful image in Proverbs. The 'apples' may be golden ornaments or actual fruit; the 'settings' (maskiyyot) may be filigree baskets, engraved plates, or latticed frames. Whatever the precise referent, the image is of something precious displayed in something beautiful — the gold is enhanced by the silver surround. A word spoken al-ofanav ('on its wheels,' meaning at the right time, in the right way, fitted precisely to the situation) achieves the same effect: perfect content delivered in perfect form. Timing is the silver setting that makes golden words shine.",
+      "translator_notes": [
+        "The phrase al-ofanav (literally 'upon its wheels' or 'upon its turnings') is often rendered 'fitly spoken' or 'aptly spoken.' The root ofen means 'wheel' or 'manner' — a word that rolls out at exactly the right moment, turning precisely as it should."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "נֶ֣זֶם זָ֭הָב וַחֲלִי־כָ֑תֶם מוֹכִ֥יחַ חָ֝כָ֗ם עַל־אֹ֥זֶן שֹׁמָֽעַת׃",
+      "text_kjv": "As an earring of gold, and an ornament of fine gold, so is a wise reprover upon an obedient ear.",
+      "rendering": "A gold ring and an ornament of fine gold —\nthat is a wise rebuke to a listening ear.",
+      "translator_notes": [
+        "The comparison links the beauty of jewelry to the beauty of correction. A mokhiach chakham ('wise reprover, wise person who corrects') paired with an ozen shoma'at ('hearing ear, ear that listens') creates something as valuable and beautiful as gold jewelry. Both parties are needed: the rebuke must be wise and the ear must be willing. Without the listening ear, even golden correction is wasted."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "כְּצִנַּ֤ת שֶׁ֨לֶג ׀ בְּי֬וֹם קָצִ֗יר צִ֣יר נֶ֭אֱמָן לְשֹׁלְחָ֑יו וְנֶ֖פֶשׁ אֲדֹנָ֣יו יָשִֽׁיב׃",
+      "text_kjv": "As the cold of snow in the time of harvest, so is a faithful messenger to them that send him: for he refresheth the soul of his masters.",
+      "rendering": "Like the cold of snow on a harvest day\nis a faithful messenger to those who send him;\nhe refreshes the soul of his masters.",
+      "translator_notes": [
+        "Snow-cooled water (not actual snowfall, which would ruin the harvest) was the ultimate refreshment during the exhausting harvest season. A tsir ne'eman ('faithful messenger, trustworthy envoy') provides the same relief to his senders: the assurance that the task was completed properly. Nefesh adonav yashiv ('he restores the soul of his masters') uses the same verb as Psalm 23:3 ('he restores my soul')."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נֶאֱמָן",
+          "transliteration": "ne'eman",
+          "rendered_as": "faithful",
+          "semantic_range": "faithful, trustworthy, reliable, confirmed; one who can be counted on",
+          "note": "From the root aman ('to support, to be firm'), the same root as emunah ('faithfulness') and amen ('so be it'). A ne'eman person is one on whom you can lean your full weight."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "נְשִׂיאִ֣ים וְ֭רוּחַ וְגֶ֣שֶׁם אָ֑יִן אִ֥ישׁ מִ֝תְהַלֵּ֗ל בְּמַתַּת־שָֽׁקֶר׃",
+      "text_kjv": "Whoso boasteth himself of a false gift is like clouds and wind without rain.",
+      "rendering": "Clouds and wind but no rain —\nthat is a person who boasts of a gift he never gives.",
+      "translator_notes": [
+        "In an arid climate, clouds and wind that produce no rain are a cruel promise — the appearance of relief without the reality. Nesi'im ('clouds, vapor') and ruach ('wind') create anticipation; geshem ayin ('rain — none!') is the devastating letdown. A person who mithallel be-mattat shaqer ('boasts of a false gift, brags about what he will give but does not') generates the same emotional cruelty: raised hope followed by nothing."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "בְּאֹ֣רֶךְ אַ֭פַּיִם יְפֻתֶּ֣ה קָצִ֑ין וְלָשׁ֥וֹן רַ֝כָּ֗ה תִּשְׁבָּר־גָּֽרֶם׃",
+      "text_kjv": "By long forbearing is a prince persuaded, and a soft tongue breaketh the bone.",
+      "rendering": "Through patience a ruler can be persuaded,\nand a gentle tongue can break a bone.",
+      "translator_notes": [
+        "Orekh appayim ('length of nostrils,' the Hebrew idiom for patience, since anger was associated with flaring nostrils) can move a qatsin ('ruler, leader, commander'). Lashon rakkah ('soft tongue, gentle speech') can break a gerem ('bone') — the hardest structure in the body yields to the softest approach. The proverb celebrates the paradoxical power of gentleness: soft breaks hard."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "דְּבַ֣שׁ מָ֭צָאתָ אֱכֹ֣ל דַּיֶּ֑ךָּ פֶּן־תִּ֝שְׂבָּעֶ֗נּוּ וַהֲקֵאתֽוֹ׃",
+      "text_kjv": "Hast thou found honey? eat so much as is sufficient for thee, lest thou be filled therewith, and vomit it.",
+      "rendering": "If you find honey, eat only what you need;\ntoo much, and you will vomit it up.",
+      "translator_notes": [
+        "Honey represents any good thing — pleasure, wealth, comfort. The proverb endorses enjoyment (ekhol, 'eat!') but within limits (dayyekka, 'your sufficiency, what is enough for you'). Beyond the limit, even sweetness becomes sickness. Self-regulation transforms a blessing into sustained enjoyment; excess transforms it into nausea."
+      ],
+      "key_terms": [],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "הֹקַ֣ר רַ֭גְלְךָ מִבֵּ֣ית רֵעֶ֑ךָ פֶּן־יִ֝שְׂבָּעֲךָ֗ וּשְׂנֵאֶֽךָ׃",
+      "text_kjv": "Withdraw thy foot from thy neighbour's house; lest he be weary of thee, and so hate thee.",
+      "rendering": "Make your foot scarce at your neighbor's house,\nor he will grow tired of you and hate you.",
+      "translator_notes": [
+        "Hoqar raglekha ('make your foot rare/precious') extends the honey principle to social visits. Even good relationships are ruined by excess. Yisba'akha ('he will have his fill of you') uses the same verb as v16 — just as you can have too much honey, your neighbor can have too much of you."
+      ],
+      "key_terms": [],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "מֵפִ֣יץ וְ֭חֶרֶב וְחֵ֣ץ שָׁנ֑וּן אִ֥ישׁ עֹנֶ֥ה בְ֝רֵעֵ֗הוּ עֵ֣ד שָֽׁקֶר׃",
+      "text_kjv": "A man that beareth false witness against his neighbour is a mazer, and a sword, and a sharp arrow.",
+      "rendering": "A war club, a sword, and a sharpened arrow —\nthat is a person who bears false witness against his neighbor.",
+      "translator_notes": [
+        "Three weapons — mefits ('mace, war club'), cherev ('sword'), and chets shanun ('sharpened arrow') — represent three kinds of damage: blunt force, cutting, and piercing from a distance. False testimony does all three: it bludgeons reputation, cuts relationships, and wounds from afar. The progression from close-range to long-range suggests that false witness does damage even at a distance."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "שֵׁ֣ן רֹ֭עָה וְרֶ֣גֶל מוּעָ֑דֶת מִבְטָ֥ח בּ֝וֹגֵ֗ד בְּי֣וֹם צָרָֽה׃",
+      "text_kjv": "Confidence in an unfaithful man in time of trouble is like a broken tooth, and a foot out of joint.",
+      "rendering": "A broken tooth and a twisted foot —\nthat is trusting a treacherous person in a time of trouble.",
+      "translator_notes": [
+        "Both images describe body parts that should function but do not: a shen ro'ah ('bad tooth, broken tooth') that was supposed to chew and a regel mu'adet ('slipping foot, dislocated foot') that was supposed to walk. Trusting a boged ('traitor, unfaithful person') in crisis is the same: the support you counted on collapses precisely when you need it most."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "מַ֤עֲדֶה בֶּ֨גֶד ׀ בְּי֣וֹם קָ֭רָה חֹ֣מֶץ עַל־נָ֑תֶר וְשָׁ֥ר בַּ֝שִּׁרִ֗ים עַ֣ל לֶב־רָֽע׃",
+      "text_kjv": "As he that taketh away a garment in cold weather, and as vinegar upon nitre, so is he that singeth songs to an heavy heart.",
+      "rendering": "Stripping off a garment on a cold day,\npouring vinegar on an open wound —\nthat is singing songs to a heavy heart.",
+      "translator_notes": [
+        "Three images of inappropriate action: removing warmth when cold is needed, applying acid to a wound (chomets al-nater, 'vinegar on soda/natron' — which produces a fizzing, useless chemical reaction), and singing cheerful songs to a person in grief. Forced cheer for a grieving person is not comfort but cruelty — it strips away the dignity of sorrow and adds pain to pain. The proverb validates grief and condemns the impulse to fix sadness with performance."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "אִם־רָעֵ֣ב שֹׂ֭נַאֲךָ הַאֲכִלֵ֣הוּ לָ֑חֶם וְאִם־צָ֝מֵ֗א הַשְׁקֵ֥הוּ מָֽיִם׃",
+      "text_kjv": "If thine enemy be hungry, give him bread to eat; and if he be thirsty, give him water to drink:",
+      "rendering": "If your enemy is hungry, give him food to eat;\nif he is thirsty, give him water to drink.",
+      "expanded_rendering": "The instruction is startlingly direct: the two basic necessities of life — lechem ('bread, food') and mayim ('water') — must be given to your sone'akha ('the one who hates you, your enemy'). The conditional structure (im ra'ev... im tsame... 'if hungry... if thirsty...') identifies specific, observable need. The instruction does not require you to feel warmth toward your enemy or to pretend the enmity does not exist. It requires action: feed the hungry enemy, give drink to the thirsty enemy. Ethics in Proverbs is about conduct, not emotion.",
+      "translator_notes": [
+        "This proverb is quoted by Paul in Romans 12:20 as the basis for 'overcoming evil with good.' The Hebrew text makes no reference to the motivation being punishment — the instruction is simply to meet need regardless of the relationship."
+      ],
+      "key_terms": [],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "כִּ֤י גֶֽחָלִ֗ים אַ֭תָּה חֹתֶ֣ה עַל־רֹאשׁ֑וֹ וַֽ֝יהוָ֗ה יְשַׁלֶּם־לָֽךְ׃",
+      "text_kjv": "For thou shalt heap coals of fire upon his head, and the LORD shall reward thee.",
+      "rendering": "For you will heap burning coals on his head,\nand the LORD will reward you.",
+      "expanded_rendering": "The 'coals of fire' (gechalim choteh al-rosho) is the proverb's most debated image. Three main readings: (1) Punitive — you cause your enemy burning pain through your kindness, which shames him. (2) Transformative — the coals represent the burning shame of conscience that leads to repentance, possibly connected to an Egyptian penitential ritual where a person carried a bowl of coals on their head as a sign of contrition. (3) Practical — kindness 'burns' away the enmity itself, melting hostility the way fire melts metal. The transformative reading best fits the context: feeding and giving drink are acts of care, not covert aggression. The LORD's reward (YHWH yeshallem-lakh, 'the LORD will repay you, will make you whole') confirms that the motivation is righteousness, not revenge.",
+      "translator_notes": [
+        "Whatever the coals image means, the final clause settles the ethical direction: God rewards this behavior. Acts of enemy-love align with God's will, and God will repay the person who practices them. The reward is from God, not from the enemy's changed behavior."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "ר֣וּחַ צָ֭פוֹן תְּח֣וֹלֵֽל גָּ֑שֶׁם וּפָנִ֥ים נִ֝זְעָמִ֗ים לְשׁ֣וֹן סָֽתֶר׃",
+      "text_kjv": "The north wind driveth away rain: so doth an angry countenance a backbiting tongue.",
+      "rendering": "The north wind brings rain,\nand a secretive tongue brings angry looks.",
+      "translator_notes": [
+        "Ruach tsafon ('north wind') in Israel typically brings rain from the Mediterranean. Lashon sater ('hidden tongue, secretive speech, backbiting') similarly produces a predictable result: panim niz'amim ('angry faces, indignant countenances'). The cause-and-effect is as reliable as weather: gossip produces anger as surely as the north wind produces rain."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "ט֗וֹב שֶׁ֥בֶת עַל־פִּנַּת־גָּ֑ג מֵאֵ֥שֶׁת מִ֝דְיָנִ֗ים וּבֵ֥ית חָבֶֽר׃",
+      "text_kjv": "It is better to dwell in the corner of the housetop, than with a brawling woman and in a wide house.",
+      "rendering": "Better to sit on a corner of the roof\nthan to share a house with a quarrelsome woman.",
+      "translator_notes": [
+        "This is a verbatim repetition of 21:9. Its presence here in the Hezekiah collection suggests it circulated independently and was included in both collections. The repetition itself is significant — it shows that the editors did not harmonize the collections but preserved them as received."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "מַ֣יִם קָ֭רִים עַל־נֶ֣פֶשׁ עֲיֵפָ֑ה וּשְׁמוּעָ֥ה ט֝וֹבָ֗ה מֵאֶ֥רֶץ מֶרְחָֽק׃",
+      "text_kjv": "As cold waters to a thirsty soul, so is good news from a far country.",
+      "rendering": "Cold water to a weary soul —\nthat is good news from a distant land.",
+      "translator_notes": [
+        "Mayim qarim ('cold water') on a nefesh ayefah ('exhausted/thirsty soul') is instant, physical relief. Shemu'ah tovah me-erets merchaq ('good news from a far country') provides the same relief to the anxious mind. In a world without instant communication, news from distant family or business took weeks or months — the arrival of good news after long uncertainty was as reviving as cold water after hard labor."
+      ],
+      "key_terms": [],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "מַעְיָ֣ן נִ֭רְפָּשׂ וּמָק֥וֹר מָשְׁחָ֑ת צַ֝דִּ֗יק מָ֣ט לִפְנֵֽי־רָשָֽׁע׃",
+      "text_kjv": "A righteous man falling down before the wicked is as a troubled fountain, and a corrupt spring.",
+      "rendering": "A muddied spring and a polluted fountain —\nthat is a righteous person who gives way before the wicked.",
+      "translator_notes": [
+        "A ma'yan nirpas ('trampled spring') and maqor mashchat ('corrupted source') are water sources ruined by contamination — still present but no longer useful. When a tsaddiq ('righteous person') collapses (mat, 'totters, stumbles, gives way') before a rasha ('wicked person'), the community loses its source of clean moral water. The righteous person who compromises under pressure becomes a polluted spring — present but poisoned."
+      ],
+      "key_terms": [],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "אָכֹ֣ל דְּבַ֣שׁ הַרְבּ֣וֹת לֹא־ט֑וֹב וְחֵ֖קֶר כְּבֹדָ֣ם כָּבֽוֹד׃",
+      "text_kjv": "It is not good to eat much honey: so for men to search their own glory is not glory.",
+      "rendering": "Too much honey is not good,\nand searching for your own glory is no glory at all.",
+      "translator_notes": [
+        "Extending v16, excessive honey consumption is now paired with excessive self-promotion. Cheqer kevodam kavod ('the investigation of their glory is glory' — read sarcastically, or emended to 'the investigation of weighty matters is weighty/burdensome') suggests that constantly seeking your own honor is as sickening as gorging on honey. True glory is not pursued; it is received."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "עִ֣יר פְּ֭רוּצָה אֵ֣ין חוֹמָ֑ה אִ֝֗ישׁ אֲשֶׁ֤ר אֵ֖ין מַעְצָ֣ר לְרוּחֽוֹ׃",
+      "text_kjv": "He that hath no rule over his own spirit is like a city that is broken down, and without walls.",
+      "rendering": "A city with broken walls and no defenses —\nthat is a person with no control over his spirit.",
+      "expanded_rendering": "Ir perutsah ein chomah ('a breached city without a wall') is a city that has lost its primary defense — its wall is broken down (perutsah, 'breached, broken through, torn open') and what remains provides no protection. Anyone can enter; nothing can be kept out. A person who has ein ma'atsar le-rucho ('no restraint for his spirit') is identically vulnerable: every impulse enters, every provocation finds its target, every temptation has free access. Self-control (ma'atsar, 'restraint, containment, check') is the wall of the soul. Without it, the person is an open city — exposed to every enemy.",
+      "translator_notes": [
+        "The military image would have been especially vivid in the Hezekiah collection, since Hezekiah witnessed the Assyrian siege of Jerusalem (2 Kings 18-19). A breached wall was not a metaphor but a lived terror."
+      ],
+      "key_terms": [],
+      "reading_level": "6th grade"
+    }
+  ]
+}

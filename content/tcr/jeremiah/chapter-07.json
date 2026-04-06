@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Jeremiah",
+    "chapter": 7,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Jeremiah 7 contains the Temple Sermon — the prophet's most provocative public address. Standing at the gate of the LORD's house, Jeremiah confronts the people's false confidence that the Temple's presence guarantees Jerusalem's safety. The threefold repetition 'The temple of the LORD' (v. 4) mocks a popular slogan. God demands moral reform, not ritual attendance (vv. 5-7), and invokes the destruction of Shiloh as proof that he will abandon even his own sanctuary when the people corrupt it (vv. 12-14). The chapter escalates to a prohibition against intercessory prayer (v. 16), describes the Queen of Heaven cult (vv. 17-19), and culminates in God's declaration that he never commanded sacrifice — he commanded obedience (vv. 21-23). The chapter closes with the abomination of child sacrifice in the Valley of Hinnom (vv. 30-34).",
+    "remarkable": "This is the sermon that nearly got Jeremiah killed (the aftermath appears in chapter 26). The threefold 'temple of the LORD' in verse 4 is not emphasis but mockery — Jeremiah is imitating and ridiculing a liturgical chant the people used as a talisman. The Shiloh reference (vv. 12-14) is devastating: Shiloh was where the tabernacle stood for centuries before its destruction, proving that God's presence can be withdrawn from a sacred site. The statement 'I did not speak to your ancestors or command them concerning burnt offerings and sacrifices' (v. 22) is one of the most radical claims in the Hebrew Bible — not that sacrifice is wrong, but that obedience was always the primary demand. The Valley of Ben-Hinnom (Ge-Hinnom, v. 31) becomes the source of the Greek Gehenna, the New Testament's primary image for final judgment.",
+    "friction": "The verb batach ('trust') in verse 4 required careful handling — the people are not trusting God but trusting in the Temple building as a magical guarantee. We rendered divrei hasheqer as 'deceptive words' rather than 'lying words' to capture the self-deception involved. The phrase 'the Queen of Heaven' (melekhet hashamayim, v. 18) is historically debated — likely Ishtar/Astarte — but we retain the Hebrew designation without identifying a specific deity, as the text does not. The controversial verse 22 ('I did not command... concerning burnt offerings') must be rendered without either softening it into irrelevance or overstating it as an absolute rejection of all sacrifice — the contrast is between ritual mechanics and covenantal obedience.",
+    "connections": "The Temple Sermon parallels Micah 3:11-12 (Zion will be plowed as a field). The Shiloh reference connects to the ark narrative of 1 Samuel 4 and Psalm 78:60. The prohibition against intercession reprises the theme from 11:14 and 14:11. The 'Queen of Heaven' cult reappears in 44:15-19 among the Egyptian refugees. The Valley of Hinnom connects to 2 Kings 23:10 (Josiah's reform) and becomes Gehenna in Matthew 5:22 and Mark 9:43. The obedience-over-sacrifice principle echoes 1 Samuel 15:22 and Hosea 6:6, and is quoted by Jesus in Matthew 9:13."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "הַדָּבָ֛ר אֲשֶׁר־הָיָ֥ה אֶֽל־יִרְמְיָ֖הוּ מֵאֵ֥ת יְהוָֽה לֵאמֹֽר׃",
+      "text_kjv": "The word that came to Jeremiah from the LORD, saying,",
+      "rendering": "The word that came to Jeremiah from the LORD:",
+      "translator_notes": ["The standard prophetic reception formula. The Hebrew le'mor ('saying') functions as a speech-introduction marker and is rendered as a colon rather than as an additional English word."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "עֲמֹ֗ד בְּשַׁ֙עַר֙ בֵּ֣ית יְהוָ֔ה וְקָרָ֣אתָ שָׁ֔ם אֶת־הַדָּבָ֥ר הַזֶּ֖ה וְאָמַרְתָּ֑ שִׁמְע֤וּ דְבַר־יְהוָה֙ כָּל־יְהוּדָ֔ה הַבָּאִ֛ים בַּשְּׁעָרִ֥ים הָאֵ֖לֶּה לְהִשְׁתַּחֲוֺ֥ת לַיהוָֽה׃",
+      "text_kjv": "Stand in the gate of the LORD's house, and proclaim there this word, and say, Hear the word of the LORD, all ye of Judah, that enter in at these gates to worship the LORD.",
+      "rendering": "Stand at the gate of the LORD's house and proclaim this message there. Say: Hear the word of the LORD, all of Judah who enter through these gates to worship the LORD.",
+      "translator_notes": ["The location is critical — Jeremiah is told to stand at the Temple gate itself, confronting worshippers as they arrive. The verb hishtachavot ('to bow down, worship') indicates prostration before God. The irony is that these are people coming to worship who will be told their worship is worthless without moral reform."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "כֹּֽה־אָמַ֞ר יְהוָ֤ה צְבָאוֹת֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל הֵיטִ֥יבוּ דַרְכֵיכֶ֖ם וּמַעַלְלֵיכֶ֑ם וַאֲשַׁכְּנָ֣ה אֶתְכֶ֔ם בַּמָּק֖וֹם הַזֶּֽה׃",
+      "text_kjv": "Thus saith the LORD of hosts, the God of Israel, Amend your ways and your doings, and I will cause you to dwell in this place.",
+      "rendering": "This is what the LORD of Hosts, the God of Israel, says: Reform your ways and your deeds, and I will let you continue to dwell in this place.",
+      "translator_notes": ["The verb heitivu ('make good, reform') demands active moral change, not mere ritual adjustment. The conditional promise — 'I will let you dwell' — implies that continued residence in the land is not guaranteed. The phrase 'this place' (hammaqom hazzeh) refers ambiguously to both the Temple and the land, a deliberate doubling."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "אַל־תִּבְטְח֣וּ לָכֶ֔ם אֶל־דִּבְרֵ֥י הַשֶּׁ֖קֶר לֵאמֹ֑ר הֵיכַ֤ל יְהוָה֙ הֵיכַ֣ל יְהוָ֔ה הֵיכַ֥ל יְהוָ֖ה הֵֽמָּה׃",
+      "text_kjv": "Trust ye not in lying words, saying, The temple of the LORD, The temple of the LORD, The temple of the LORD, are these.",
+      "rendering": "Do not trust in deceptive words, chanting: 'The temple of the LORD! The temple of the LORD! The temple of the LORD!'",
+      "expanded_rendering": "The threefold repetition hekhal YHWH is not a prayer but a slogan — a popular belief that the Temple's physical presence made Jerusalem invulnerable. Jeremiah mocks this as divrei hasheqer ('words of deception'), a self-deceiving mantra that substitutes a building for a relationship with God.",
+      "translator_notes": ["The verb batach ('to trust, rely on') indicates the people are placing their security in the Temple as a talisman rather than in the God who dwells there. The triple repetition hekhal YHWH ('temple of the LORD') imitates a liturgical chant — Jeremiah is quoting and ridiculing a popular slogan. The word sheqer ('falsehood, deception') is one of Jeremiah's most frequent words, characterizing the entire spiritual culture of his day."],
+      "key_terms": [
+        {
+          "hebrew": "שֶׁקֶר",
+          "transliteration": "sheqer",
+          "rendered_as": "deceptive",
+          "semantic_range": "falsehood, deception, lie, emptiness, fraud",
+          "note": "One of Jeremiah's signature words. It describes not just dishonesty but a comprehensive culture of self-deception — false prophecy, false worship, false security."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כִּ֤י אִם־הֵיטֵ֣יב תֵּיטִ֔יבוּ אֶת־דַּרְכֵיכֶ֖ם וְאֶת־מַעַלְלֵיכֶ֑ם אִם־עָשׂ֤וֹ תַעֲשׂוּ֙ מִשְׁפָּ֔ט בֵּ֥ין אִ֖ישׁ וּבֵ֥ין רֵעֵֽהוּ׃",
+      "text_kjv": "For if ye throughly amend your ways and your doings; if ye throughly execute judgment between a man and his neighbour;",
+      "rendering": "For if you truly reform your ways and your deeds — if you truly practice justice between one person and another,",
+      "translator_notes": ["The infinitive absolute construction heitev teitivu ('truly reform') intensifies the demand — superficial adjustment will not suffice. The word mishpat ('justice') here means fair dealing in legal and social disputes, not abstract righteousness. Jeremiah begins a catalogue of specific moral requirements."],
+      "key_terms": [
+        {
+          "hebrew": "מִשְׁפָּט",
+          "transliteration": "mishpat",
+          "rendered_as": "justice",
+          "semantic_range": "justice, judgment, legal decision, right, due process",
+          "note": "Mishpat encompasses both legal procedure and the broader concept of social fairness. Here it specifically refers to honest dealings between individuals in daily life."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "גֵּ֣ר יָת֤וֹם וְאַלְמָנָה֙ לֹ֣א תַעֲשֹׁ֔קוּ וְדָ֣ם נָקִ֔י אַֽל־תִּשְׁפְּכ֖וּ בַּמָּק֣וֹם הַזֶּ֑ה וְאַחֲרֵ֨י אֱלֹהִ֧ים אֲחֵרִ֛ים לֹ֥א תֵלְכ֖וּ לְרַ֥ע לָכֶֽם׃",
+      "text_kjv": "If ye oppress not the stranger, the fatherless, and the widow, and shed not innocent blood in this place, neither walk after other gods to your hurt:",
+      "rendering": "if you do not oppress the foreigner, the orphan, or the widow, and do not shed innocent blood in this place, and do not follow other gods to your own harm —",
+      "translator_notes": ["The triad ger-yatom-almanah ('foreigner, orphan, widow') represents the most vulnerable members of Israelite society. Their protection is a covenant obligation (Deuteronomy 24:17-22). The phrase 'to your own harm' (lera lakhem) is striking — idolatry harms not God but the worshippers themselves."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְשִׁכַּנְתִּ֤י אֶתְכֶם֙ בַּמָּק֣וֹם הַזֶּ֔ה בָּאָ֕רֶץ אֲשֶׁ֥ר נָתַ֛תִּי לַאֲבֽוֹתֵיכֶ֖ם לְמִן־עוֹלָ֥ם וְעַד־עוֹלָֽם׃",
+      "text_kjv": "Then will I cause you to dwell in this place, in the land that I gave to your fathers, for ever and ever.",
+      "rendering": "then I will let you dwell in this place, in the land that I gave to your ancestors from age to age.",
+      "translator_notes": ["The phrase lemin olam ve'ad olam ('from age to age') expresses perpetuity. The conditional structure is complete: moral reform (vv. 5-6) would secure continued dwelling. The land promise to the ancestors is real but conditional on covenant faithfulness — this is the core tension of Deuteronomic theology."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "הִנֵּ֣ה אַתֶּ֔ם בֹּטְחִ֥ים לָכֶ֖ם עַל־דִּבְרֵ֣י הַשָּׁ֑קֶר לְבִלְתִּ֖י הוֹעִֽיל׃",
+      "text_kjv": "Behold, ye trust in lying words, that cannot profit.",
+      "rendering": "Look — you are trusting in deceptive words that accomplish nothing.",
+      "translator_notes": ["The accusation resumes from verse 4. The phrase levilti ho'il ('without benefit, to no profit') declares the Temple-slogan theology not just false but useless — it provides no actual protection. The verb batach ('trust') again highlights misplaced confidence."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "הֲגָנֹ֤ב ׀ רָצֹ֙חַ֙ וְנָאֹ֔ף וְהִשָּׁבֵ֖עַ לַשָּׁ֑קֶר וְקַטֵּ֣ר לַבַּ֔עַל וְהָלֹ֗ךְ אַחֲרֵ֛י אֱלֹהִ֥ים אֲחֵרִ֖ים אֲשֶׁ֥ר לֹא־יְדַעְתֶּֽם׃",
+      "text_kjv": "Will ye steal, murder, and commit adultery, and swear falsely, and burn incense unto Baal, and walk after other gods whom ye know not;",
+      "rendering": "Will you steal, murder, commit adultery, swear falsely, burn incense to Baal, and follow other gods that you have not known —",
+      "translator_notes": ["This catalogue echoes the Ten Commandments (Exodus 20:1-17; Deuteronomy 5:6-21). Stealing, murder, adultery, and false oaths violate commandments 6-9, while Baal worship and following other gods violate commandments 1-2. Jeremiah compresses the Decalogue into a single accusatory question. The infinitive absolute construction (ganov, ratsoach, na'of) gives the list a staccato, relentless rhythm."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וּבָאתֶ֞ם וַעֲמַדְתֶּ֣ם לְפָנַ֗י בַּבַּ֤יִת הַזֶּה֙ אֲשֶׁ֣ר נִקְרָא־שְׁמִ֣י עָלָ֔יו וַאֲמַרְתֶּ֖ם נִצַּ֑לְנוּ לְמַ֣עַן עֲשׂ֔וֹת אֵ֥ת כָּל־הַתּוֹעֵב֖וֹת הָאֵֽלֶּה׃",
+      "text_kjv": "And come and stand before me in this house, which is called by my name, and say, We are delivered to do all these abominations?",
+      "rendering": "and then come and stand before me in this house that bears my name, and say, 'We are safe!' — only to go on doing all these abominations?",
+      "translator_notes": ["The phrase niqra shemi alav ('my name is called upon it') means the Temple bears God's name — it belongs to him. The people's cry nitsalnu ('we are delivered, saved, safe') exposes their theology: they believe Temple attendance functions as a magical protection spell that permits continued sin. The word to'evot ('abominations') is the strongest term for covenant violations."],
+      "key_terms": [
+        {
+          "hebrew": "תּוֹעֵבוֹת",
+          "transliteration": "to'evot",
+          "rendered_as": "abominations",
+          "semantic_range": "abominations, detestable acts, things hateful to God",
+          "note": "The plural of to'evah, the term for acts that violate the fundamental order of the covenant relationship. Stronger than 'sin' — these are acts God finds repulsive."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "הַמְעָרַ֣ת פָּרִצִ֗ים הָיָ֨ה הַבַּ֧יִת הַזֶּ֛ה אֲשֶׁר־נִקְרָא־שְׁמִ֥י עָלָ֖יו בְּעֵינֵיכֶ֑ם גַּ֧ם אָנֹכִ֛י הִנֵּ֥ה רָאִ֖יתִי נְאֻם־יְהוָֽה׃",
+      "text_kjv": "Is this house, which is called by my name, become a den of robbers in your eyes? Behold, even I have seen it, saith the LORD.",
+      "rendering": "Has this house that bears my name become a den of criminals in your eyes? I too have seen it, declares the LORD.",
+      "translator_notes": ["The phrase me'arat paritsim ('cave/den of violent ones') is quoted by Jesus when he cleanses the Temple (Matthew 21:13, Mark 11:17, Luke 19:46). Paritsim are not merely thieves but violent breakers — robbers who use force. The Temple has become a hideout where criminals come to feel safe after committing their crimes. God's 'I too have seen it' is ominous — he is not fooled by their ritual performance."],
+      "key_terms": [
+        {
+          "hebrew": "מְעָרַת פָּרִצִים",
+          "transliteration": "me'arat paritsim",
+          "rendered_as": "den of criminals",
+          "semantic_range": "cave of robbers, den of violent men, hideout of bandits",
+          "note": "This phrase becomes one of the most famous in Scripture through Jesus's quotation of it. The image is of a robber's cave — a place criminals retreat to for safety between crimes."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "כִּ֣י לְכוּ־נָ֗א אֶל־מְקוֹמִי֙ אֲשֶׁ֣ר בְּשִׁיל֔וֹ אֲשֶׁ֨ר שִׁכַּ֧נְתִּי שְׁמִ֛י שָׁ֖ם בָּרִאשׁוֹנָ֑ה וּרְא֕וּ אֵ֛ת אֲשֶׁר־עָשִׂ֥יתִי ל֖וֹ מִפְּנֵ֥י רָעַ֛ת עַמִּ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "But go ye now unto my place which was in Shiloh, where I set my name at the first, and see what I did to it for the wickedness of my people Israel.",
+      "rendering": "Go now to my place at Shiloh, where I first made my name dwell, and see what I did to it because of the wickedness of my people Israel.",
+      "translator_notes": ["Shiloh, in the territory of Ephraim, was the central sanctuary before the monarchy — the tabernacle stood there for centuries (Joshua 18:1; 1 Samuel 1-4). Its destruction (referenced in Psalm 78:60) demonstrated that God would abandon even his own sacred site when the people corrupted it. The parallel is unmistakable: what happened to Shiloh can happen to Jerusalem's Temple."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְעַתָּ֗ה יַ֤עַן עֲשׂוֹתְכֶם֙ אֶת־כָּל־הַמַּֽעֲשִׂ֣ים הָאֵ֔לֶּה נְאֻם־יְהוָ֔ה וָאֲדַבֵּ֧ר אֲלֵיכֶ֛ם הַשְׁכֵּ֥ם וְדַבֵּ֖ר וְלֹ֣א שְׁמַעְתֶּ֑ם וָאֶקְרָ֥א אֶתְכֶ֖ם וְלֹ֥א עֲנִיתֶֽם׃",
+      "text_kjv": "And now, because ye have done all these works, saith the LORD, and I spake unto you, rising up early and speaking, but ye heard not; and I called you, but ye answered not;",
+      "rendering": "And now, because you have done all these things, declares the LORD — and though I spoke to you persistently, you did not listen, and though I called you, you did not answer —",
+      "translator_notes": ["The idiom hashkem vedabber ('rising early and speaking') is the same persistence formula seen in 11:7. God's repeated, tireless efforts to communicate are met with silence. The double failure — 'did not listen... did not answer' — establishes the legal basis for judgment: the defendant was warned and given every opportunity to respond."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְעָשִׂ֜יתִי לַבַּ֣יִת ׀ אֲשֶׁ֧ר נִקְרָא־שְׁמִ֣י עָלָ֗יו אֲשֶׁ֤ר אַתֶּם֙ בֹּטְחִ֣ים בּ֔וֹ וְלַ֨מָּק֔וֹם אֲשֶׁר־נָתַ֥תִּי לָכֶ֖ם וְלַאֲבוֹתֵיכֶ֑ם כַּאֲשֶׁ֥ר עָשִׂ֖יתִי לְשִׁילֽוֹ׃",
+      "text_kjv": "Therefore will I do unto this house, which is called by my name, wherein ye trust, and unto the place which I gave you and to your fathers, as I have done to Shiloh.",
+      "rendering": "I will do to this house that bears my name — the one you are trusting in — and to the place I gave to you and your ancestors, what I did to Shiloh.",
+      "translator_notes": ["The sentence structure deliberately parallels the Temple ('this house') with the land ('the place I gave you') — both are at risk. The verb botechim ('trusting') echoes verse 4 and 8: their trust is in the building, not in God. The Shiloh comparison is the climax of the argument — if God destroyed his first sanctuary, he will destroy his second."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְהִשְׁלַכְתִּ֥י אֶתְכֶ֖ם מֵעַ֣ל פָּנָ֑י כַּאֲשֶׁ֤ר הִשְׁלַ֙כְתִּי֙ אֶת־כָּל־אֲחֵיכֶ֔ם אֵ֖ת כָּל־זֶ֥רַע אֶפְרָֽיִם׃",
+      "text_kjv": "And I will cast you out of my sight, as I have cast out all your brethren, even the whole seed of Ephraim.",
+      "rendering": "I will throw you out of my presence, just as I threw out all your kinsmen — all the descendants of Ephraim.",
+      "translator_notes": ["Ephraim represents the northern kingdom of Israel, destroyed by Assyria in 722 BCE. God has already expelled the ten northern tribes. Judah is not exempt from the same fate. The verb hishlakhti ('I threw out, cast away') is violent — not a gentle sending away but a forceful ejection from God's presence."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְאַתָּ֞ה אַל־תִּתְפַּלֵּ֣ל ׀ בְּעַד־הָעָ֣ם הַזֶּ֗ה וְאַל־תִּשָּׂ֧א בַעֲדָ֛ם רִנָּ֥ה וּתְפִלָּ֖ה וְאַל־תִּפְגַּע־בִּ֑י כִּ֥י אֵינֶ֖נִּי שֹׁמֵ֥עַ אֹתָֽךְ׃",
+      "text_kjv": "Therefore pray not thou for this people, neither lift up cry nor prayer for them, neither make intercession to me: for I will not hear thee.",
+      "rendering": "As for you — do not pray for this people. Do not lift up cry or prayer on their behalf, and do not plead with me, for I will not listen to you.",
+      "translator_notes": ["This prohibition against prophetic intercession is devastating. A prophet's core function included standing before God on behalf of the people (as Moses did repeatedly, Exodus 32:11-14; Numbers 14:13-19). God is shutting down the last channel of mercy. The verb tifga ('press upon, plead, intercede') is stronger than ordinary prayer — it implies urgent, pressing petition. Even that will not be heard."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "הַאֵינְךָ֣ רֹאֶ֔ה מָ֛ה הֵ֥מָּה עֹשִׂ֖ים בְּעָרֵ֣י יְהוּדָ֑ה וּבְחֻצ֖וֹת יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "Seest thou not what they do in the cities of Judah and in the streets of Jerusalem?",
+      "rendering": "Do you not see what they are doing in the cities of Judah and in the streets of Jerusalem?",
+      "translator_notes": ["God directs Jeremiah's attention to what is happening in plain sight. The question is rhetorical — the prophet can see the idolatry everywhere. The shift to second person singular addresses Jeremiah personally, pulling him into the evidence for why intercession is pointless."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "הַבָּנִ֞ים מְלַקְּטִ֣ים עֵצִ֗ים וְהָֽאָבוֹת֙ מְבַעֲרִ֣ים אֶת־הָאֵ֔שׁ וְהַנָּשִׁ֖ים לָשׁ֣וֹת בָּצֵ֑ק לַעֲשׂ֤וֹת כַּוָּנִים֙ לִמְלֶ֣כֶת הַשָּׁמַ֔יִם וְהַסֵּ֤ךְ נְסָכִים֙ לֵאלֹהִ֣ים אֲחֵרִ֔ים לְמַ֖עַן הַכְעִסֵֽנִי׃",
+      "text_kjv": "The children gather wood, and the fathers kindle the fire, and the women knead their dough, to make cakes to the queen of heaven, and to pour out drink offerings unto other gods, that they may provoke me to anger.",
+      "rendering": "The children gather wood, the fathers light the fire, and the women knead dough to make cakes for the Queen of Heaven, and they pour out drink offerings to other gods — provoking me to anger.",
+      "translator_notes": ["The whole family participates in the idolatrous ritual — children, fathers, and women each have a role. The phrase melekhet hashamayim ('Queen of Heaven') likely refers to the Mesopotamian goddess Ishtar or the Canaanite Astarte. The kavvanim ('cakes') were probably shaped in the goddess's image or stamped with her symbol. This cult reappears in 44:15-19, where the women defend their worship. The verb hakh'iseni ('to provoke me') attributes genuine anger to God — the idolatry is personally offensive."],
+      "key_terms": [
+        {
+          "hebrew": "מְלֶכֶת הַשָּׁמַיִם",
+          "transliteration": "melekhet hashamayim",
+          "rendered_as": "Queen of Heaven",
+          "semantic_range": "Queen of Heaven; a title for a goddess, possibly Ishtar/Astarte",
+          "note": "The exact identification is debated. The cult involved family-based ritual with shaped cakes and drink offerings. It was apparently widespread and deeply popular, especially among women."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "הַאֹתִ֛י הֵ֥ם מַכְעִסִ֖ים נְאֻם־יְהוָ֑ה הֲל֣וֹא אֹתָ֔ם לְמַ֖עַן בֹּ֥שֶׁת פְּנֵיהֶֽם׃",
+      "text_kjv": "Do they provoke me to anger? saith the LORD: do they not provoke themselves to the confusion of their own faces?",
+      "rendering": "Is it me they are provoking? declares the LORD. Is it not rather themselves, to their own shame?",
+      "translator_notes": ["A remarkable theological statement: God declares that idolatry ultimately harms the idolaters, not God. The word bosheth ('shame') appears again (cf. 11:13 where it substitutes for Baal). The rhetorical question structure implies that God's sovereignty is not threatened by their worship of other gods — but they are destroying themselves."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "לָכֵ֗ן כֹּה־אָמַ֣ר אֲדֹנָ֣י יְהוִ֡ה הִנֵּ֣ה אַפִּ֣י וַחֲמָתִי֩ נִתֶּ֨כֶת אֶל־הַמָּק֜וֹם הַזֶּ֗ה עַל־הָאָדָ֤ם וְעַל־הַבְּהֵמָה֙ וְעַל־עֵ֣ץ הַשָּׂדֶ֔ה וְעַל־פְּרִ֖י הָאֲדָמָ֑ה וּבָעֲרָ֖ה וְלֹ֥א תִכְבֶּֽה׃",
+      "text_kjv": "Therefore thus saith the Lord GOD; Behold, mine anger and my fury shall be poured out upon this place, upon man, and upon beast, and upon the trees of the field, and upon the fruit of the ground; and it shall burn, and shall not be quenched.",
+      "rendering": "Therefore, this is what the Lord GOD says: My anger and my wrath will be poured out on this place — on human and animal, on the trees of the field and the fruit of the ground. It will burn and will not be quenched.",
+      "translator_notes": ["The double divine title Adonai YHWH ('Lord GOD') adds solemnity. The verb nittekhet ('poured out') depicts wrath as a liquid — molten anger that flows over everything. The judgment is comprehensive, affecting all creation: humans, animals, vegetation, and crops. The cosmic scope echoes the uncreation themes found elsewhere in the prophets. The phrase 'will not be quenched' (lo tikhbeh) indicates irreversible judgment."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "כֹּ֥ה אָמַ֛ר יְהוָ֥ה צְבָא֖וֹת אֱלֹהֵ֣י יִשְׂרָאֵ֑ל עֹלוֹתֵיכֶ֛ם סְפ֥וּ עַל־זִבְחֵיכֶ֖ם וְאִכְל֥וּ בָשָֽׂר׃",
+      "text_kjv": "Thus saith the LORD of hosts, the God of Israel; Put your burnt offerings unto your sacrifices, and eat flesh.",
+      "rendering": "This is what the LORD of Hosts, the God of Israel, says: Add your burnt offerings to your other sacrifices and eat the meat yourselves!",
+      "translator_notes": ["This is biting sarcasm. Burnt offerings (olot) were entirely consumed on the altar — none of the meat went to the worshipper. God says: go ahead and eat even those. The whole sacrificial system has become so meaningless that the distinction between sacrifices for God and meals for the people is irrelevant. The imperative 'eat flesh' dismisses the sacrificial system as mere meat consumption."],
+      "key_terms": [
+        {
+          "hebrew": "עֹלוֹת",
+          "transliteration": "olot",
+          "rendered_as": "burnt offerings",
+          "semantic_range": "burnt offerings, whole offerings, ascension offerings",
+          "note": "The olah ('burnt offering') was entirely consumed by fire on the altar — the worshipper received no portion. God's command to eat even these expresses contempt for the people's hollow ritual."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "כִּ֣י לֹֽא־דִבַּ֣רְתִּי אֶת־אֲבֽוֹתֵיכֶ֗ם וְלֹ֤א צִוִּיתִים֙ בְּי֗וֹם הוֹצִיאִ֤י אוֹתָם֙ מֵאֶ֣רֶץ מִצְרַ֔יִם עַל־דִּבְרֵ֥י עוֹלָ֖ה וָזָ֑בַח׃",
+      "text_kjv": "For I spake not unto your fathers, nor commanded them in the day that I brought them out of the land of Egypt, concerning burnt offerings or sacrifices:",
+      "rendering": "For I did not speak to your ancestors, nor did I command them on the day I brought them out of the land of Egypt, concerning burnt offerings and sacrifices.",
+      "translator_notes": ["This is one of the most provocative statements in the Hebrew Bible. Taken at face value, it appears to contradict the extensive sacrificial legislation in Exodus and Leviticus. The interpretive key is the phrase 'on the day I brought them out' — God's first words at Sinai were the Ten Commandments, which concern moral obedience, not ritual. The sacrificial system came later. Jeremiah's point is not that sacrifice is illegitimate but that it was never the primary demand — obedience was."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "כִּ֣י אִם־אֶת־הַדָּבָ֣ר הַזֶּ֡ה צִוִּ֣יתִי אוֹתָם֩ לֵאמֹ֨ר שִׁמְע֤וּ בְקוֹלִי֙ וְהָיִ֤יתִי לָכֶם֙ לֵאלֹהִ֔ים וְאַתֶּ֖ם תִּהְיוּ־לִ֣י לְעָ֑ם וַהֲלַכְתֶּ֗ם בְּכָל־הַדֶּ֙רֶךְ֙ אֲשֶׁ֣ר אֲצַוֶּ֣ה אֶתְכֶ֔ם לְמַ֖עַן יִיטַ֥ב לָכֶֽם׃",
+      "text_kjv": "But this thing commanded I them, saying, Obey my voice, and I will be your God, and ye shall be my people: and walk ye in all the ways that I have commanded you, that it may be well unto you.",
+      "rendering": "Rather, this is what I commanded them: Obey my voice, and I will be your God and you will be my people. Walk in every way that I command you, so that it may go well for you.",
+      "translator_notes": ["The covenant formula — 'I will be your God and you will be my people' — returns (cf. 11:4). The substance of the original covenant demand is relational obedience (shim'u beqoli, 'obey my voice'), not ritual performance. The promise lema'an yitav lakhem ('so that it may go well for you') frames obedience as being for the people's own benefit, not God's."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְלֹ֤א שָׁמְעוּ֙ וְלֹא־הִטּ֣וּ אֶת־אָזְנָ֔ם וַיֵּלְכ֥וּ בְּמֹעֵצ֖וֹת בִּשְׁרִר֣וּת לִבָּ֣ם הָרָ֑ע וַיִּהְי֥וּ לְאָח֖וֹר וְלֹ֥א לְפָנִֽים׃",
+      "text_kjv": "But they hearkened not, nor inclined their ear, but walked in the counsels and in the imagination of their evil heart, and went backward, and not forward.",
+      "rendering": "But they did not listen or incline their ear. They walked according to the schemes and stubbornness of their evil heart, and went backward, not forward.",
+      "expanded_rendering": "The phrase sheririut libbam hara ('stubbornness of their evil heart') is Jeremiah's characteristic diagnosis of Israel's spiritual condition — a heart that has hardened into permanent resistance against God's instruction. The spatial metaphor 'backward, not forward' (le'achor velo lefanim) depicts covenant history as regression rather than progress.",
+      "translator_notes": ["The phrase sheririut libbam hara ('stubbornness of their evil heart') is Jeremiah's signature expression (cf. 3:17, 9:13, 11:8, 13:10, 16:12, 18:12, 23:17). The spatial metaphor 'backward, not forward' captures the tragedy — Israel should have been advancing toward God's purposes but instead regressed."],
+      "key_terms": [
+        {
+          "hebrew": "שְׁרִירוּת",
+          "transliteration": "sheririut",
+          "rendered_as": "stubbornness",
+          "semantic_range": "stubbornness, hardness, obstinacy, firmness in rebellion",
+          "note": "Jeremiah's characteristic term for Israel's calcified resistance to God. The root suggests something hardened or twisted into a fixed position."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "לְמִן־הַיּ֗וֹם אֲשֶׁ֨ר יָצְא֤וּ אֲבוֹתֵיכֶם֙ מֵאֶ֣רֶץ מִצְרַ֔יִם עַ֖ד הַיּ֣וֹם הַזֶּ֑ה וָאֶשְׁלַ֤ח אֲלֵיכֶם֙ אֶת־כָּל־עֲבָדַ֣י הַנְּבִיאִ֔ים י֖וֹם הַשְׁכֵּ֥ם וְשָׁלֹֽחַ׃",
+      "text_kjv": "Since the day that your fathers came forth out of the land of Egypt unto this day I have even sent unto you all my servants the prophets, daily rising up early and sending them.",
+      "rendering": "From the day your ancestors came out of the land of Egypt until this very day, I have sent to you all my servants the prophets — sending them persistently, day after day.",
+      "translator_notes": ["The persistence idiom hashkem veshaloch ('rising early and sending') recurs throughout Jeremiah (cf. 11:7, 25:4, 26:5, 29:19, 35:15, 44:4). God's prophetic warnings span the entire history from Exodus to the present — this is not a sudden intervention but a sustained, centuries-long effort."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְלֹ֤א שָׁמְעוּ֙ אֵלַ֔י וְלֹ֥א הִטּ֖וּ אֶת־אָזְנָ֑ם וַיַּקְשׁ֖וּ אֶת־עָרְפָּ֔ם הֵרֵ֖עוּ מֵאֲבוֹתָֽם׃",
+      "text_kjv": "Yet they hearkened not unto me, nor inclined their ear, but hardened their neck: they did worse than their fathers.",
+      "rendering": "But they did not listen to me or incline their ear. They stiffened their neck and did worse than their ancestors.",
+      "translator_notes": ["The phrase vayyaqshu et orfam ('they stiffened their neck') depicts stubborn resistance using the image of an ox that resists the yoke by going rigid. The final clause is devastating: each generation surpassed the previous one in wickedness. The trajectory is not static rebellion but escalating corruption."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְדִבַּרְתָּ֤ אֲלֵיהֶם֙ אֶת־כָּל־הַדְּבָרִ֣ים הָאֵ֔לֶּה וְלֹ֥א יִשְׁמְע֖וּ אֵלֶ֑יךָ וְקָרָ֥אתָ אֲלֵיהֶ֖ם וְלֹ֥א יַעֲנֽוּכָה׃",
+      "text_kjv": "Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee.",
+      "rendering": "You will speak all these words to them, but they will not listen to you. You will call out to them, but they will not answer you.",
+      "translator_notes": ["God warns Jeremiah in advance that his preaching will fail. This is one of the most painful aspects of prophetic calling — the prophet is sent knowing his audience will not respond. The double prediction ('will not listen... will not answer') mirrors the people's treatment of God himself (v. 13)."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְאָמַרְתָּ֣ אֲלֵיהֶ֗ם זֶ֤ה הַגּוֹי֙ אֲשֶׁ֣ר לֹֽא־שָׁמְע֗וּ בְּקוֹל֙ יְהוָ֣ה אֱלֹהָ֔יו וְלֹ֥א לָקְח֖וּ מוּסָ֑ר אָבְדָה֙ הָאֱמוּנָ֔ה וְנִכְרְתָ֖ה מִפִּיהֶֽם׃",
+      "text_kjv": "But thou shalt say unto them, This is a nation that obeyeth not the voice of the LORD their God, nor receiveth correction: truth is perished, and is cut off from their mouth.",
+      "rendering": "Then say to them: This is the nation that did not obey the voice of the LORD their God and refused correction. Faithfulness has perished — it has been cut off from their lips.",
+      "expanded_rendering": "Emunah ('faithfulness') here means the living reality of covenantal loyalty between God and people. Its disappearance from their lips means that truthful, faithful speech has vanished — they no longer speak or live in covenant fidelity.",
+      "translator_notes": ["The word emunah here is rendered 'faithfulness' rather than 'truth' (KJV) because the Hebrew encompasses more than factual accuracy — it is covenantal reliability, trustworthiness, and loyalty. The metaphor of emunah being 'cut off from their mouth' (nikhretah mippihem) suggests it has been severed like a living thing — faithfulness is dead in their public speech and commitment."],
+      "key_terms": [
+        {
+          "hebrew": "אֱמוּנָה",
+          "transliteration": "emunah",
+          "rendered_as": "faithfulness",
+          "semantic_range": "faithfulness, reliability, trustworthiness, firmness, fidelity",
+          "note": "From the root aleph-mem-nun ('to be firm'). Emunah is not merely intellectual belief but active, enduring covenantal loyalty. Its disappearance signals the total collapse of the covenant relationship."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "גָּזִּ֣י נִזְרֵ֗ךְ וְהַשְׁלִ֙יכִי֙ וּשְׂאִ֤י עַל־שְׁפָיִם֙ קִינָ֔ה כִּ֚י מָאַ֣ס יְהוָ֔ה וַיִּטֹּ֖שׁ אֶת־דּ֥וֹר עֶבְרָתֽוֹ׃",
+      "text_kjv": "Cut off thine hair, O Jerusalem, and cast it away, and take up a lamentation on high places; for the LORD hath rejected and forsaken the generation of his wrath.",
+      "rendering": "Cut off your hair and throw it away! Raise a lament on the barren heights, for the LORD has rejected and abandoned the generation that provoked his wrath.",
+      "translator_notes": ["The command to cut hair (gozzi nizrekh) is a mourning ritual — the uncut hair was a sign of consecration (the word nezer can mean 'consecrated hair' as with the Nazirite vow). Jerusalem, personified as a woman, is told to sever the sign of her consecration because the relationship is over. The 'barren heights' (shefayim) are the same high places associated with idolatrous worship — now they become places for mourning."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "כִּֽי־עָשׂ֨וּ בְנֵי־יְהוּדָ֥ה הָרַ֛ע בְּעֵינַ֖י נְאֻם־יְהוָ֑ה שָׂ֣מוּ שִׁקּוּצֵיהֶ֗ם בַּבַּ֛יִת אֲשֶׁר־נִקְרָא־שְׁמִ֥י עָלָ֖יו לְטַמְּאֽוֹ׃",
+      "text_kjv": "For the children of Judah have done evil in my sight, saith the LORD: they have set their abominations in the house which is called by my name, to pollute it.",
+      "rendering": "For the people of Judah have done what is evil in my sight, declares the LORD. They have placed their detestable idols in the house that bears my name, defiling it.",
+      "translator_notes": ["The shiqquts ('detestable thing, idol') is stronger than to'evah — it refers specifically to idolatrous objects placed inside the Temple itself. This is not merely worshipping foreign gods elsewhere but installing them in the LORD's own house. The defilement (tame') is ritual contamination that makes the Temple unfit for God's presence. This likely refers to the practices described in 2 Kings 21:4-7 and 23:4-14."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וּבָנ֞וּ בָּמ֣וֹת הַתֹּ֗פֶת אֲשֶׁ֤ר בְּגֵי֙ בֶן־הִנֹּ֔ם לִשְׂרֹ֛ף אֶת־בְּנֵיהֶ֥ם וְאֶת־בְּנֹתֵיהֶ֖ם בָּאֵ֑שׁ אֲשֶׁ֣ר לֹ֣א צִוִּ֔יתִי וְלֹ֥א עָלְתָ֖ה עַל־לִבִּֽי׃",
+      "text_kjv": "And they have built the high places of Tophet, which is in the valley of the son of Hinnom, to burn their sons and their daughters in the fire; which I commanded it not, neither came it into my heart.",
+      "rendering": "They have built the high places of Topheth in the Valley of Ben-Hinnom to burn their sons and daughters in the fire — something I never commanded, and which never entered my mind.",
+      "translator_notes": ["Topheth (from a root meaning 'fireplace' or 'drum' — drums may have been beaten to drown out screams) was the site of child sacrifice in the valley south of Jerusalem. The phrase 'never entered my mind' (lo aletah al libbi) is God's strongest possible denial — he not only did not command this practice but could not even conceive of it. The Valley of Ben-Hinnom (Ge-Hinnom) later becomes Gehenna in Greek, the New Testament's primary image of final judgment."],
+      "key_terms": [
+        {
+          "hebrew": "תֹּפֶת",
+          "transliteration": "Topheth",
+          "rendered_as": "Topheth",
+          "semantic_range": "fireplace, place of burning; the sacrificial site in the Hinnom Valley",
+          "note": "The etymology may relate to 'fire-pit' or to the drums (toph) beaten during the rituals. It became a byword for the most horrific form of false worship."
+        },
+        {
+          "hebrew": "גֵּי בֶן־הִנֹּם",
+          "transliteration": "Ge Ben-Hinnom",
+          "rendered_as": "Valley of Ben-Hinnom",
+          "semantic_range": "Valley of the son of Hinnom; geographic location south of Jerusalem",
+          "note": "This valley's name was corrupted into Greek Gehenna (γέεννα), which became the primary New Testament term for the place of final punishment (Matthew 5:22, Mark 9:43)."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "לָכֵ֞ן הִנֵּ֣ה ׀ יָמִ֣ים בָּאִ֗ים נְאֻם־יְהוָ֔ה וְלֹא־יֵאָמֵ֤ר עוֹד֙ הַתֹּ֔פֶת וְגֵ֖י בֶן־הִנֹּ֑ם כִּ֚י אִם־גֵּ֣י הַהֲרֵגָ֔ה וְקָבְר֥וּ בְתֹ֖פֶת מֵאֵ֥ין מָקֽוֹם׃",
+      "text_kjv": "Therefore, behold, the days come, saith the LORD, that it shall no more be called Tophet, nor the valley of the son of Hinnom, but the valley of slaughter: for they shall bury in Tophet, till there be no place.",
+      "rendering": "Therefore, the days are coming, declares the LORD, when it will no longer be called Topheth or the Valley of Ben-Hinnom, but the Valley of Slaughter. They will bury the dead in Topheth until there is no more room.",
+      "translator_notes": ["The renaming from 'Valley of Ben-Hinnom' to 'Valley of Slaughter' (Ge ha-Haregah) reverses the site's function — where children were killed as sacrifices, now the sacrificers themselves will be killed and buried. The grimly ironic justice: the place of murder becomes the mass grave of the murderers. 'Until there is no more room' indicates catastrophic death on a scale that overwhelms burial capacity."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְהָיְתָ֞ה נִבְלַ֣ת ׀ הָעָ֣ם הַזֶּ֗ה לְמַאֲכָל֙ לְע֣וֹף הַשָּׁמַ֔יִם וּלְבֶהֱמַ֖ת הָאָ֑רֶץ וְאֵ֖ין מַחֲרִֽיד׃",
+      "text_kjv": "And the carcases of this people shall be meat for the fowls of the heaven, and for the beasts of the earth; and none shall fray them away.",
+      "rendering": "The corpses of this people will become food for the birds of the sky and the beasts of the earth, and no one will drive them away.",
+      "translator_notes": ["Exposure of corpses to scavengers was the ultimate degradation in the ancient Near East — denial of proper burial was a curse-fulfillment (Deuteronomy 28:26). The phrase 'no one will drive them away' (ein macharid) means there will be no living person left to shoo the scavengers from the dead. This is the Deuteronomic covenant-curse enacted literally."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְהִשְׁבַּתִּ֣י ׀ מֵעָרֵ֣י יְהוּדָ֗ה וּמֵחֻצוֹת֙ יְרוּשָׁלַ֔͏ִם ק֤וֹל שָׂשׂוֹן֙ וְק֣וֹל שִׂמְחָ֔ה ק֥וֹל חָתָ֖ן וְק֣וֹל כַּלָּ֑ה כִּ֥י לְחָרְבָּ֖ה תִּהְיֶ֥ה הָאָֽרֶץ׃",
+      "text_kjv": "Then will I cause to cease from the cities of Judah, and from the streets of Jerusalem, the voice of mirth, and the voice of gladness, the voice of the bridegroom, and the voice of the bride: for the land shall be desolate.",
+      "rendering": "I will silence in the cities of Judah and the streets of Jerusalem the sound of joy and the sound of gladness, the voice of the bridegroom and the voice of the bride, for the land will become a wasteland.",
+      "translator_notes": ["The fourfold 'sound/voice' (qol) creates a litany of silencing — joy, gladness, bridegroom, bride. These represent the sounds of a thriving society: celebration and marriage. Their cessation means the death of normal life. This formula of silenced celebration recurs in 16:9, 25:10, and 33:11 (where it is reversed in restoration). The final word — 'wasteland' (chorbah) — is the chapter's verdict."],
+      "reading_level": "7th grade"
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Judges",
+    "chapter": 20,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "All Israel assembles against Gibeah. Benjamin refuses to surrender the offenders, and civil war erupts. Israel suffers two devastating defeats before God grants victory on the third day. Benjamin is nearly annihilated — 600 men survive by fleeing to the Rock of Rimmon.",
+    "remarkable": "Israel inquires of God three times: 'Who shall go up first?' (v. 18), 'Shall we again draw near?' (v. 23), and 'Shall we go up once more?' (v. 28). The first two times, God authorizes the attack, and Israel loses. The defeats are unexplained — God permits righteous war to fail, perhaps to purge Israel's own self-righteousness before granting victory. The 25,000 Benjaminite dead (v. 46) represent the costliest internal conflict in the pre-monarchic period.",
+    "friction": "The battle narratives include numbers that seem incompatible between verses — 25,100 Benjaminites (v. 35) vs. 25,000 (v. 46) vs. detailed counts that add to slightly different totals. We rendered each number as the Hebrew gives it and noted the variants. The phrase vayinnagfu lifnei Yisra'el (v. 35, 'were struck down before Israel') uses the standard holy-war vocabulary — even in civil war, the narrative framework remains theological.",
+    "connections": "The initial question 'who shall go up first?' (v. 18) echoes 1:1, forming a bookend — the book opens and closes with the same question, but the enemy has shifted from Canaanites to fellow Israelites. The near-annihilation of Benjamin anticipates Saul's tribe — the traumatized remnant produces Israel's first king. The 600 survivors at the Rock of Rimmon (v. 47) are the thread from which Benjamin will be rebuilt."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיֵּצְאוּ֮ כׇּל־בְּנֵ֣י יִשְׂרָאֵל֒ וַתִּקָּהֵ֨ל הָעֵדָ֜ה כְּאִ֤ישׁ אֶחָד֙ מִדָּן֙ וְעַד־בְּאֵ֣ר שֶׁ֔בַע וְאֶ֖רֶץ הַגִּלְעָ֑ד אֶל־יְהוָ֖ה הַמִּצְפָּֽה׃",
+      "text_kjv": "Then all the children of Israel went out, and the congregation was gathered together as one man, from Dan even to Beersheba, with the land of Gilead, unto the LORD in Mizpeh.",
+      "rendering": "All the Israelites went out and the community assembled as one person, from Dan to Beersheba, including the land of Gilead, before the LORD at Mizpah.",
+      "translator_notes": [
+        "The assembly formula — vattiqahel ha-edah ke-ish echad ('the assembly gathered as one man') — expresses unprecedented unity. The geographical scope — mi-Dan ve-ad Be'er Sheva ('from Dan to Beersheba') — encompasses the entire land from north to south, plus ve-erets ha-Gil'ad ('the land of Gilead') east of the Jordan. The phrase el YHWH ha-Mitspah ('before the LORD at Mizpah') indicates this is both a military muster and a sacred assembly. Mizpah (meaning 'watchtower') was a prominent gathering site in Benjamin. The opening echoes 1:1 — Israel assembles to inquire of the LORD — but this time the enemy is not Canaanites but a fellow Israelite tribe."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיִּתְיַצְּב֗וּ פִּנּוֹת֙ כׇּל־הָעָ֔ם כֹּ֖ל שִׁבְטֵ֣י יִשְׂרָאֵ֑ל בִּקְהַ֖ל עַ֣ם הָאֱלֹהִ֑ים אַרְבַּ֨ע מֵא֥וֹת אֶ֛לֶף אִ֥ישׁ רַגְלִ֖י שֹׁלֵ֥ף חָֽרֶב׃",
+      "text_kjv": "And the chief of all the people, even of all the tribes of Israel, presented themselves in the assembly of the people of God, four hundred thousand footmen that drew sword.",
+      "rendering": "The leaders of all the people and of all the tribes of Israel took their positions in the assembly of God's people — four hundred thousand foot soldiers who carried swords.",
+      "translator_notes": [
+        "The pinnot ('corners, leaders, chieftains') of the people — the word pintah literally means 'corner' and metaphorically refers to cornerstones of leadership. The assembly is called qehal am ha-Elohim ('the assembly of the people of God') — sacred language for what is becoming a war council. The army count — arba me'ot elef ish ragli sholef cherev ('four hundred thousand men on foot, drawers of the sword') — represents an overwhelming force. Whether the numbers are literal or use elef to mean 'military unit/clan' rather than 'thousand,' the point is Israel's unified strength against Benjamin."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיִּשְׁמְע֣וּ בְנֵי־בִנְיָמִ֔ן כִּי־עָל֥וּ בְנֵי־יִשְׂרָאֵ֖ל הַמִּצְפָּ֑ה וַיֹּאמְרוּ֙ בְּנֵ֣י יִשְׂרָאֵ֔ל דַּבְּר֕וּ אֵיכָ֥ה נִהְיְתָ֖ה הָרָעָ֥ה הַזֹּֽאת׃",
+      "text_kjv": "Now the children of Benjamin heard that the children of Israel were gone up to Mizpeh.) Then said the children of Israel, Tell us, how was this wickedness?",
+      "rendering": "The Benjaminites heard that the Israelites had gone up to Mizpah. The Israelites said, \"Tell us — how did this terrible thing happen?\"",
+      "translator_notes": [
+        "Benjamin learns of the assembly but does not attend — a significant absence that will harden into military opposition. The Israelites' question — dabberu eikhah nihyetah ha-ra'ah ha-zot ('speak — how did this evil come about?') — demands a formal account. The word ha-ra'ah ('the evil, the wickedness') characterizes the Gibeah incident without euphemism."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיַּ֗עַן הָאִ֣ישׁ הַלֵּוִי֮ אִ֣ישׁ הָאִשָּׁ֣ה הַנִּרְצָחָה֒ וַיֹּ֕אמַר הַגִּבְעָ֛תָה אֲשֶׁ֥ר לְבִנְיָמִ֖ן בָּ֣אתִי אֲנִ֣י וּפִילַגְשִׁ֑י לָלֽוּן׃",
+      "text_kjv": "And the Levite, the husband of the woman that was slain, answered and said, I came into Gibeah that belongeth to Benjamin, I and my concubine, to lodge.",
+      "rendering": "The Levite, the husband of the murdered woman, answered and said, \"I came to Gibeah in Benjamin — I and my concubine — to spend the night.",
+      "translator_notes": [
+        "The Levite is identified as ish ha-ishah ha-nirtsachah ('the husband of the murdered woman') — the verb r-ts-ch ('to murder') is the same root as the sixth commandment's lo tirtsach ('you shall not murder,' Exodus 20:13). His testimony begins with straightforward facts: he came to Gibeah with his concubine to lodge. But as the account continues, he will edit the story to remove his own complicity."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיָּקֻ֤מוּ עָלַי֙ בַּעֲלֵ֣י הַגִּבְעָ֔ה וַיָּסֹ֧בּוּ עָלַ֛י אֶת־הַבַּ֖יִת לָ֑יְלָה אוֹתִי֙ דִּמּ֣וּ לַהֲרֹ֔ג וְאֶת־פִּילַגְשִׁ֥י עִנּ֖וּ וַתָּמֹֽת׃",
+      "text_kjv": "And the men of Gibeah rose against me, and beset the house round about upon me by night, and thought to have slain me: and my concubine have they forced, that she is dead.",
+      "rendering": "The citizens of Gibeah rose up against me. They surrounded the house at night intending to kill me. They raped my concubine, and she died.",
+      "translator_notes": [
+        "The Levite's testimony is factually selective: he says oti dimmu laharog ('they intended to kill me') — casting himself as the primary target and victim. He says ve-et pilagshi innu ('they violated my concubine') — using the passive to obscure his own role in pushing her outside. He omits entirely that the mob's demand was sexual assault against him, and that he himself seized his concubine and handed her over. The verb innu ('they afflicted/violated') is the same used for the Egyptian oppression of Israel (Exodus 1:12). His edited account shapes the narrative for maximum outrage while concealing his own moral failure."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וָאֹחֵ֣ז בְּפִֽילַגְשִׁ֗י וָאֲנַתְּחֶ֙הָ֙ וָאֲשַׁלְּחֶ֔הָ בְּכׇל־שְׂדֵ֖ה נַחֲלַ֣ת יִשְׂרָאֵ֑ל כִּ֥י עָשׂ֛וּ זִמָּ֥ה וּנְבָלָ֖ה בְּיִשְׂרָאֵֽל׃",
+      "text_kjv": "And I took my concubine, and cut her in pieces, and sent her throughout all the country of the inheritance of Israel: for they have committed lewdness and folly in Israel.",
+      "rendering": "I took my concubine, cut her into pieces, and sent them throughout the entire territory of Israel's inheritance, because they committed a depraved outrage in Israel.",
+      "translator_notes": [
+        "The Levite reports his own act of dismemberment as a righteous response: va'ochaz befilagshi va'anattecheha va'ashallecheha ('I seized my concubine and cut her up and sent her'). The vocabulary of butchering (n-t-ch) is stated plainly. His justification: ki asu zimmah unevalah be-Yisra'el ('because they committed depravity and outrage in Israel'). The word zimmah ('depravity, lewdness, planned wickedness') denotes deliberate, calculated evil. Combined with nevalah ('outrage, disgrace'), it constitutes the most severe moral condemnation available in Hebrew. The Levite successfully frames the narrative to motivate military action."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "הִנֵּ֤ה כֻלְּכֶם֙ בְּנֵ֣י יִשְׂרָאֵ֔ל הָב֥וּ לָכֶ֛ם דָּבָ֥ר וְעֵצָ֖ה הֲלֹֽם׃",
+      "text_kjv": "Behold, ye are all children of Israel; give here your advice and counsel.",
+      "rendering": "Here you all are, Israelites. Give your judgment and counsel on this matter.\"",
+      "translator_notes": [
+        "The Levite concludes with a demand for action: havu lakhem davar ve-etsah halom ('give yourselves a word and counsel here'). The phrase addresses the assembly collectively — kullekhem benei Yisra'el ('all of you, sons of Israel') — making it a national responsibility. His rhetorical strategy has succeeded: he presented a crime demanding collective response while concealing his own role in it."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיָּ֣קׇם כׇּל־הָעָ֗ם כְּאִ֤ישׁ אֶחָד֙ לֵאמֹ֔ר לֹ֤א נֵלֵךְ֙ אִ֣ישׁ לְאׇהֳל֔וֹ וְלֹ֥א נָס֖וּר אִ֥ישׁ לְבֵיתֽוֹ׃",
+      "text_kjv": "And all the people arose as one man, saying, We will not any of us go to his tent, neither will we any of us turn into his house.",
+      "rendering": "All the people rose as one person, saying, \"None of us will go to his tent. None of us will return home.",
+      "translator_notes": [
+        "The response is unanimous — ke-ish echad ('as one man') — the same unity formula from verse 1. Their resolve is expressed as a double negative vow: lo nelekh ish le-oholo velo nasur ish leveito ('not one person will go to his tent, not one will turn aside to his house'). The parallelism (tent/house) is a merism: no one will leave until this matter is resolved."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וְעַתָּ֕ה זֶ֣ה הַדָּבָ֔ר אֲשֶׁ֥ר נַעֲשֶׂ֖ה לַגִּבְעָ֑ה עָלֶ֖יהָ בְּגוֹרָֽל׃",
+      "text_kjv": "But now this shall be the thing which we will do to Gibeah; we will go up by lot against it;",
+      "rendering": "Now this is what we will do to Gibeah — we will go up against it by lot.",
+      "translator_notes": [
+        "The strategy is determined by goral ('lot') — the same mechanism used for land distribution (Joshua 18-19). The lot will determine which tribes lead the attack and supply logistics. The phrase aleiha be-goral ('against it by lot') places the military planning under a quasi-sacred procedure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְלָקַ֣חְנוּ עֲשָׂרָ֣ה אֲנָשִׁ֣ים לַמֵּאָ֡ה לְכֹל֩ שִׁבְטֵ֨י יִשְׂרָאֵ֜ל וּמֵאָ֣ה לָאֶ֗לֶף וְאֶ֙לֶף֙ לָרְבָבָ֔ה לָקַ֥חַת צֵדָ֖ה לָעָ֑ם לַעֲשׂ֗וֹת לְבוֹאָם֙ לְגֶ֣בַע בִּנְיָמִ֔ן כְּכֹ֥ל הַנְּבָלָ֖ה אֲשֶׁ֥ר עָשָׂ֖ה בְּיִשְׂרָאֵֽל׃",
+      "text_kjv": "And we will take ten men of an hundred throughout all the tribes of Israel, and an hundred of a thousand, and a thousand out of ten thousand, to fetch victual for the people, that they may do, when they come to Gibeah of Benjamin, according to all the folly that they have wrought in Israel.",
+      "rendering": "We will take ten men out of every hundred from all the tribes of Israel, a hundred from every thousand, and a thousand from every ten thousand, to gather provisions for the army, so that when they arrive at Gibeah of Benjamin, they can deal with all the outrage that was committed in Israel.\"",
+      "translator_notes": [
+        "The logistics are organized by a tithe system — ten percent of the force (asarah anashim la-me'ah, 'ten men per hundred') will serve as a supply corps (laqachat tsedah la-am, 'to take provisions for the people'). The purpose is stated: la'asot levo'am le-Geva Binyamin ('to act when they come to Gibeah of Benjamin') — the action is punitive. The charge: kekhol ha-nevalah asher asah be-Yisra'el ('according to all the outrage committed in Israel') — nevalah again, the term for gross violation of social and sexual norms."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיֵּאָסֵ֗ף כׇּל־אִ֧ישׁ יִשְׂרָאֵ֛ל אֶל־הָעִ֖יר כְּאִ֥ישׁ אֶחָֽד חֲבֵרִֽים׃",
+      "text_kjv": "So all the men of Israel were gathered against the city, knit together as one man.",
+      "rendering": "So all the men of Israel were assembled against the city, united as one person.",
+      "translator_notes": [
+        "The third repetition of ke-ish echad ('as one man') in this chapter, now with the addition of chaverim ('united, joined, allies'). The unity of Israel against Benjamin is total — but the narrator's insistence on this unity also underscores the tragedy: the covenant community is unified, but unified for internal war."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיִּשְׁלְח֗וּ שִׁבְטֵ֤י יִשְׂרָאֵל֙ אֲנָשִׁ֔ים בְּכׇל־שִׁבְטֵ֥י בִנְיָמִ֖ן לֵאמֹ֑ר מָ֚ה הָרָעָ֣ה הַזֹּ֔את אֲשֶׁ֥ר נִהְיְתָ֖ה בָּכֶֽם׃",
+      "text_kjv": "And the tribes of Israel sent men through all the tribe of Benjamin, saying, What wickedness is this that is done among you?",
+      "rendering": "The tribes of Israel sent messengers throughout the tribe of Benjamin, saying, \"What is this terrible thing that has happened among you?",
+      "translator_notes": [
+        "Before attacking, Israel offers diplomacy: they send messengers bekhol shivtei Vinyamin ('throughout all the clans of Benjamin') asking for accountability. The question mah ha-ra'ah ha-zot asher nihyetah bakhem ('what is this evil that has occurred among you?') places responsibility on the entire tribe, not just Gibeah — collective accountability for collective failure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְעַתָּ֗ה תְּנ֞וּ אֶת־הָאֲנָשִׁ֤ים בְּנֵי־בְלִיַּ֙עַל֙ אֲשֶׁ֣ר בַּגִּבְעָ֔ה וּנְמִיתֵ֖ם וּנְבַעֲרָ֣ה רָ֑ע מִיִּשְׂרָאֵ֔ל וְלֹ֤א אָבוּ֙ בְּנֵ֣י בִנְיָמִ֔ן לִשְׁמֹ֕עַ בְּק֖וֹל אֲחֵיהֶ֥ם בְּנֵי־יִשְׂרָאֵֽל׃",
+      "text_kjv": "Now therefore deliver us the men, the children of Belial, which are in Gibeah, that we may put them to death, and put away evil from Israel. But the children of Benjamin would not hearken to the voice of their brethren the children of Israel:",
+      "rendering": "Now hand over the worthless men who are in Gibeah so we can put them to death and purge the evil from Israel.\" But the Benjaminites refused to listen to their fellow Israelites.",
+      "translator_notes": [
+        "Israel's demand is specific and proportionate: tenu et ha-anashim benei beliya'al asher ba-Giv'ah ('give over the men, the sons of worthlessness, who are in Gibeah'). The purpose — unemitem ('we will put them to death') uneva'arah ra me-Yisra'el ('we will burn out/purge evil from Israel') — uses Deuteronomic purge language (cf. Deuteronomy 13:6, 17:7, 19:19). Benjamin's refusal — velo avu benei Vinyamin lishmo'a beqol acheihem ('the sons of Benjamin were not willing to listen to the voice of their brothers') — transforms a judicial demand into a tribal solidarity crisis. Benjamin chooses to protect its criminals rather than submit to inter-tribal justice."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֵּאָסְפ֧וּ בְנֵי־בִנְיָמִ֛ן מִן־הֶעָרִ֖ים הַגִּבְעָ֑תָה לָצֵ֥את לַמִּלְחָמָ֖ה עִם־בְּנֵ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "But the children of Benjamin gathered themselves together out of the cities unto Gibeah, to go out to battle against the children of Israel.",
+      "rendering": "Instead, the Benjaminites gathered from their towns to Gibeah to go out and fight against the Israelites.",
+      "translator_notes": [
+        "Benjamin mobilizes: vayyease'fu benei Binyamin min he-arim ha-Giv'atah ('the sons of Benjamin gathered from the cities to Gibeah'). Rather than surrendering the guilty, they rally for war — latset la-milchamah im benei Yisra'el ('to go out to war with the sons of Israel'). Tribal loyalty overrides justice."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיִּתְפָּ֨קְד֜וּ בְּנֵ֤י בִנְיָמִן֙ בַּיּ֣וֹם הַה֔וּא מֵהֶ֣עָרִ֔ים עֶשְׂרִ֥ים וְשִׁשָּׁ֛ה אֶ֖לֶף אִ֣ישׁ שֹׁ֣לֵף חָ֑רֶב לְ֠בַ֠ד מִיֹּשְׁבֵ֤י הַגִּבְעָה֙ הִתְפָּ֣קְד֔וּ שְׁבַ֥ע מֵא֖וֹת אִ֥ישׁ בָּחֽוּר׃",
+      "text_kjv": "And the children of Benjamin were numbered at that time out of the cities twenty and six thousand men that drew sword, beside the inhabitants of Gibeah, which were numbered seven hundred chosen men.",
+      "rendering": "The Benjaminites mustered from their towns on that day twenty-six thousand swordsmen, in addition to the inhabitants of Gibeah, who mustered seven hundred select warriors.",
+      "translator_notes": [
+        "Benjamin's total force: esrim veshishah elef ish sholef cherev ('twenty-six thousand men drawing sword') from the outlying towns, plus sheva me'ot ish bachur ('seven hundred chosen/select men') from Gibeah itself. Against Israel's 400,000 (v. 2), Benjamin is outnumbered roughly 15:1 — yet they will win the first two battles, a narrative shock that raises theological questions about divine justice and timing."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "מִכֹּ֣ל ׀ הָעָ֣ם הַזֶּ֗ה שְׁבַ֤ע מֵאוֹת֙ אִ֣ישׁ בָּח֔וּר אִטֵּ֖ר יַד־יְמִינ֑וֹ כׇּל־זֶ֗ה קֹלֵ֤עַ בָּאֶ֙בֶן֙ אֶל־הַֽשַּׂעֲרָ֔ה וְלֹ֖א יַחֲטִֽא׃",
+      "text_kjv": "Among all this people there were seven hundred chosen men lefthanded; every one could sling stones at an hair breadth, and not miss.",
+      "rendering": "Among all these fighters were seven hundred select men who were left-handed. Every one of them could sling a stone at a hair's width and not miss.",
+      "translator_notes": [
+        "The seven hundred left-handed slingers — sheva me'ot ish bachur itter yad yemino ('seven hundred chosen men, bound/restricted of the right hand') — are Benjamin's elite unit. The term itter means 'bound, restricted' — possibly trained from youth to use the left hand by binding the right. Left-handedness has a special association with Benjamin: Ehud was also a left-handed Benjaminite (3:15). The phrase qole'a va-even el ha-sa'arah velo yachti ('slinging with a stone at a hair and not missing') describes extraordinary precision. The word sa'arah ('hair') indicates a target the width of a single hair — hyperbolic, but communicating deadly accuracy."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְאִ֤ישׁ יִשְׂרָאֵל֙ הִתְפָּ֣קְד֔וּ לְבַ֖ד מִבִּנְיָמִ֑ן אַרְבַּ֨ע מֵא֥וֹת אֶ֛לֶף אִ֥ישׁ שֹׁ֣לֵף חָ֔רֶב כׇּל־זֶ֖ה אִ֥ישׁ מִלְחָמָֽה׃",
+      "text_kjv": "And the men of Israel, beside Benjamin, were numbered four hundred thousand men that drew sword: all these were men of war.",
+      "rendering": "The men of Israel, not counting Benjamin, mustered four hundred thousand swordsmen — all of them warriors.",
+      "translator_notes": [
+        "The narrator reiterates Israel's force: arba me'ot elef ish sholef cherev ('four hundred thousand men drawing sword'). The addition kol zeh ish milchamah ('all of these men of war') emphasizes that this is a seasoned fighting force. The disparity in numbers makes the first two defeats even more theologically jarring."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיָּקֻ֣מוּ וַיַּעֲל֣וּ בֵֽית־אֵ֗ל וַיִּשְׁאֲלוּ֙ בֵּֽאלֹהִ֔ים וַיֹּאמְרוּ֙ בְּנֵ֣י יִשְׂרָאֵ֔ל מִ֚י יַעֲלֶה־לָּ֣נוּ בַתְּחִלָּ֔ה לַמִּלְחָמָ֖ה עִם־בְּנֵ֣י בִנְיָמִ֑ן וַיֹּ֥אמֶר יְהוָ֖ה יְהוּדָ֥ה בַתְּחִלָּֽה׃",
+      "text_kjv": "And the children of Israel arose, and went up to the house of God, and asked counsel of God, and said, Which of us shall go up first to the battle against the children of Benjamin? And the LORD said, Judah shall go up first.",
+      "rendering": "The Israelites set out and went up to Bethel and inquired of God. The Israelites asked, \"Who among us should go up first to fight against the Benjaminites?\" The LORD said, \"Judah first.\"",
+      "translator_notes": [
+        "The inquiry at Bethel — vayyish'alu ve-Elohim ('they inquired of God') — mirrors the opening of the book: mi ya'aleh lanu battechillah ('who will go up for us first?') is nearly identical to 1:1. God's answer — Yehudah battechillah ('Judah first') — is also identical to 1:2. The structural parallel is deliberate: the book ends as it began, with Israel asking who should lead in battle and God answering 'Judah.' But the enemy has changed from Canaanites to Israelites — the cycle has turned inward. The location Beit El ('house of God') may refer to the town Bethel or may simply mean 'the house of God' (the sanctuary)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיָּקֻ֥מוּ בְנֵי־יִשְׂרָאֵ֖ל בַּבֹּ֑קֶר וַיַּחֲנ֖וּ עַל־הַגִּבְעָֽה׃",
+      "text_kjv": "And the children of Israel rose up in the morning, and encamped against Gibeah.",
+      "rendering": "The Israelites got up in the morning and encamped against Gibeah.",
+      "translator_notes": [
+        "The advance begins: vayyachanu al ha-Giv'ah ('they encamped against Gibeah'). The simplicity of the verse contrasts with the catastrophe about to unfold."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיֵּצֵ֤א אִֽישׁ־יִשְׂרָאֵל֙ לַמִּלְחָמָ֔ה עִם־בִּנְיָמִ֑ן וַיַּעַרְכ֨וּ אִתָּ֧ם אִֽישׁ־יִשְׂרָאֵ֛ל מִלְחָמָ֖ה אֶל־הַגִּבְעָֽה׃",
+      "text_kjv": "And the men of Israel went out to battle against Benjamin; and the men of Israel put themselves in array to fight against them at Gibeah.",
+      "rendering": "The men of Israel went out to fight Benjamin and drew up their battle lines against them at Gibeah.",
+      "translator_notes": [
+        "The verb vayyaarkhu ('they arranged, drew up') is the technical term for forming battle lines. Israel deploys against Gibeah with overwhelming numerical superiority."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיֵּצְא֤וּ בְנֵי־בִנְיָמִן֙ מִן־הַגִּבְעָ֔ה וַיַּשְׁחִ֧יתוּ בְיִשְׂרָאֵ֛ל בַּיּ֥וֹם הַה֖וּא שְׁנַ֥יִם וְעֶשְׂרִ֛ים אֶ֖לֶף אִ֥ישׁ אָֽרְצָה׃",
+      "text_kjv": "And the children of Benjamin came forth out of Gibeah, and destroyed down to the ground of the Israelites that day twenty and two thousand men.",
+      "rendering": "The Benjaminites came out of Gibeah and cut down twenty-two thousand Israelite men that day.",
+      "translator_notes": [
+        "The first battle is a devastating Israelite defeat: shenayim ve-esrim elef ish artsah ('twenty-two thousand men to the ground'). The verb vayyashchitu ('they destroyed, devastated') conveys wholesale slaughter. Benjamin — outnumbered 15:1 — wins decisively. The theological shock is intentional: Israel inquired of God, God directed them, and they lost catastrophically. The narrator offers no explanation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיִּתְחַזֵּ֣ק הָעָ֔ם אִ֖ישׁ יִשְׂרָאֵ֑ל וַיֹּסִ֗פוּ לַעֲרֹ֤ךְ מִלְחָמָה֙ בַּמָּק֔וֹם אֲשֶׁ֥ר עָרְכוּ שָׁ֖ם בַּיּ֥וֹם הָרִאשֽׁוֹן׃",
+      "text_kjv": "And the people the men of Israel encouraged themselves, and set their battle again in array in the place where they put themselves in array the first day.",
+      "rendering": "But the Israelite forces rallied their courage and again formed battle lines in the same place where they had formed up the first day.",
+      "translator_notes": [
+        "The verb vayyitchazzeq ('they strengthened themselves, rallied') indicates that morale had to be actively restored after the devastating loss. They deploy again ba-maqom asher arkhu sham ba-yom harishon ('in the place where they had arranged on the first day') — same position, same strategy, undeterred by failure."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיַּעֲל֣וּ בְנֵי־יִשְׂרָאֵ֗ל וַיִּבְכּ֣וּ לִפְנֵי־יְהוָה֮ עַד־הָעֶרֶב֒ וַיִּשְׁאֲל֤וּ בַיהוָה֙ לֵאמֹ֔ר הַאוֹסִ֗ף לָגֶ֙שֶׁת֙ לַמִּלְחָמָ֔ה עִם־בְּנֵ֥י בִנְיָמִ֖ן אָחִ֑י וַיֹּ֥אמֶר יְהוָ֖ה עֲל֥וּ אֵלָֽיו׃",
+      "text_kjv": "And the children of Israel went up and wept before the LORD until even, and asked counsel of the LORD, saying, Shall I go up again to battle against the children of Benjamin my brother? And the LORD said, Go up against him.",
+      "rendering": "The Israelites went up and wept before the LORD until evening. They inquired of the LORD, \"Should we again engage in battle against the Benjaminites, our own brothers?\" The LORD said, \"Go up against him.\"",
+      "translator_notes": [
+        "After the defeat, Israel adds weeping to their inquiry: vayyivku lifnei YHWH ad ha-erev ('they wept before the LORD until evening'). Their question now includes a painful qualifier: benei Vinyamin achi ('the sons of Benjamin my brother') — the fraternal language acknowledges the tragedy of civil war. God's answer — alu elav ('go up against him') — is direct but offers no guarantee of victory. The divine response is enigmatic: God commands attack but does not promise success."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיִּקְרְב֧וּ בְנֵי־יִשְׂרָאֵ֛ל אֶל־בְּנֵ֥י בִנְיָמִ֖ן בַּיּ֥וֹם הַשֵּׁנִֽי׃",
+      "text_kjv": "And the children of Israel came near against the children of Benjamin the second day.",
+      "rendering": "The Israelites advanced against the Benjaminites on the second day.",
+      "translator_notes": [
+        "The second engagement begins: vayyiqrevu ('they drew near, advanced'). The verse is terse — the narrator withholds the outcome for maximum impact."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיֵּצֵ֨א בִנְיָמִ֜ן לִקְרָאתָ֗ם מִן־הַגִּבְעָה֙ בַּיּ֣וֹם הַשֵּׁנִ֔י וַיַּשְׁחִ֨יתוּ בִבְנֵ֧י יִשְׂרָאֵ֛ל ע֖וֹד שְׁמֹנַ֣ת עָשָׂ֥ר אֶ֛לֶף אִ֖ישׁ אָ֑רְצָה כׇּל־אֵ֖לֶּה שֹׁלְפֵ֥י חָֽרֶב׃",
+      "text_kjv": "And Benjamin went forth against them out of Gibeah the second day, and destroyed down to the ground of the children of Israel again eighteen thousand men; all these drew the sword.",
+      "rendering": "Benjamin came out from Gibeah against them on the second day and cut down another eighteen thousand Israelite swordsmen.",
+      "translator_notes": [
+        "The second defeat: od shemonat asar elef ish artsah ('another eighteen thousand men to the ground'). Combined with the first day's losses (22,000), Israel has now lost 40,000 men — a tenth of their force — in two days. The repeated devastation after divine consultation deepens the theological crisis. God told them to go, and they were slaughtered. The pattern will break only on the third attempt, after a fundamentally different kind of inquiry."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיַּעֲל֣וּ כׇל־בְּנֵ֣י יִשְׂרָאֵ֣ל ׀ וְכׇל־הָעָ֡ם וַיָּבֹ֣אוּ בֵֽית־אֵל֩ וַיִּבְכּ֨וּ וַיֵּשְׁב֣וּ שָׁם֙ לִפְנֵ֣י יְהוָ֔ה וַיָּצ֥וּמוּ בַיּוֹם־הַה֖וּא עַד־הָעָ֑רֶב וַיַּעֲל֛וּ עֹל֥וֹת וּשְׁלָמִ֖ים לִפְנֵ֥י יְהוָֽה׃",
+      "text_kjv": "Then all the children of Israel, and all the people, went up, and came unto the house of God, and wept, and sat there before the LORD, and fasted that day until even, and offered burnt offerings and peace offerings before the LORD.",
+      "rendering": "Then all the Israelites — the entire army — went up to Bethel. They wept, sat before the LORD, fasted that day until evening, and offered burnt offerings and fellowship offerings before the LORD.",
+      "translator_notes": [
+        "After two devastating defeats, Israel's approach changes dramatically. They add fasting (vayyatsumu, 'they fasted') and sacrifice (olot ushelamim, 'burnt offerings and fellowship/peace offerings') to their weeping. The escalation of religious intensity — from simple inquiry (v. 18) to weeping and inquiry (v. 23) to weeping, sitting, fasting, and sacrifice (v. 26) — reflects deepening desperation and, perhaps, deepening sincerity. The shelamim ('peace/fellowship offerings') involve shared meals with God, seeking restored relationship."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיִּשְׁאֲל֧וּ בְנֵי־יִשְׂרָאֵ֛ל בַּיהוָ֖ה וְשָׁ֣ם ׀ אֲר֣וֹן בְּרִית־הָאֱלֹהִ֗ים בַּיָּמִ֖ים הָהֵֽם׃",
+      "text_kjv": "And the children of Israel enquired of the LORD, (for the ark of the covenant of God was there in those days,",
+      "rendering": "The Israelites inquired of the LORD — for the ark of the covenant of God was there in those days,",
+      "translator_notes": [
+        "The narrator inserts a crucial detail: vesham aron berit ha-Elohim ba-yamim ha-hem ('and there was the ark of the covenant of God in those days'). The ark's presence at Bethel locates the legitimate sanctuary and the means of authoritative divine communication. This detail, combined with the identification of the priest in the next verse, grounds the third inquiry in institutional legitimacy that the previous two consultations may have lacked."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֲרוֹן בְּרִית הָאֱלֹהִים",
+          "transliteration": "aron berit ha-Elohim",
+          "rendered_as": "the ark of the covenant of God",
+          "semantic_range": "ark of God's covenant, chest of the divine covenant, covenant box",
+          "note": "The ark was the most sacred object in Israelite worship — a gold-covered chest containing the covenant tablets (Deuteronomy 10:1-5), located in the Most Holy Place. Its presence at Bethel rather than at an established central sanctuary reflects the transitional and disordered state of Israelite worship in the Judges period. The ark's mention here authenticates this third consultation as occurring at the legitimate cultic center."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וּפִינְחָ֣ס בֶּן־אֶלְעָזָ֣ר בֶּן־אַהֲרֹ֗ן עֹמֵ֣ד ׀ לְפָנָיו֮ בַּיָּמִ֣ים הָהֵם֒ לֵאמֹ֗ר הַאוֹסִ֨ף ע֜וֹד לָצֵ֤את לַמִּלְחָמָה֙ עִם־בְּנֵ֣י בִנְיָמִ֣ן אָחִ֔י אִ֖ם אֶחְדָּ֑ל וַיֹּ֤אמֶר יְהוָה֙ עֲל֔וּ כִּ֥י מָחָ֖ר אֶתְּנֶ֥נּוּ בְיָדֶֽךָ׃",
+      "text_kjv": "And Phinehas, the son of Eleazar, the son of Aaron, stood before it in those days,) saying, Shall I yet again go out to battle against the children of Benjamin my brother, or shall I cease? And the LORD said, Go up; for to morrow I will deliver them into thine hand.",
+      "rendering": "and Phinehas son of Eleazar son of Aaron was serving before it in those days — saying, \"Should we go out once more to battle against the Benjaminites, our brothers, or should we stop?\" The LORD said, \"Go up, because tomorrow I will give them into your hand.\"",
+      "translator_notes": [
+        "The priestly identity is now specified: Pinechas ben El'azar ben Aharon ('Phinehas son of Eleazar son of Aaron') — a direct descendant of Aaron, the legitimate high priestly line. The same Phinehas is known for zealous action in Numbers 25:7-13. His presence connects this narrative to the early post-Moses period. The question now includes the option of stopping: im echdal ('or should I cease/desist?') — genuine humility after two catastrophic losses. God's response this time is qualitatively different: alu ki machar etnennu beyadekha ('go up, because tomorrow I will give him into your hand') — for the first time, a promise of victory accompanies the command. The two prior defeats were not divine abandonment but divine preparation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וַיָּ֤שֶׂם יִשְׂרָאֵל֙ אֹרְבִ֔ים אֶל־הַגִּבְעָ֖ה סָבִֽיב׃",
+      "text_kjv": "And Israel set liers in wait round about Gibeah.",
+      "rendering": "Israel set ambushes around Gibeah.",
+      "translator_notes": [
+        "The strategy changes: vayyasem Yisra'el orevim ('Israel set ambushers') — a tactical shift from frontal assault to ambush. The word orevim ('those lying in wait') from the root a-r-v is military terminology for concealed forces. This is the same tactic Joshua used against Ai (Joshua 8:2-22), and the parallel is deliberate — a failed frontal assault followed by a successful ambush strategy."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וַיַּעֲל֧וּ בְנֵי־יִשְׂרָאֵ֛ל אֶל־בְּנֵ֥י בִנְיָמִ֖ן בַּיּ֣וֹם הַשְּׁלִישִׁ֑י וַיַּעַרְכ֥וּ אֶל־הַגִּבְעָ֖ה כַּפַּ֥עַם בְּפָֽעַם׃",
+      "text_kjv": "And the children of Israel went up against the children of Benjamin on the third day, and put themselves in array against Gibeah, as at other times.",
+      "rendering": "The Israelites went up against the Benjaminites on the third day and formed up against Gibeah as before.",
+      "translator_notes": [
+        "The third day — ba-yom ha-shelishi — and Israel deploys kappa'am befa'am ('as time after time' — as on the previous occasions). The apparent repetition is the ruse: they present the same front to draw Benjamin out, concealing the ambush force behind the city."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַיֵּצְא֤וּ בְנֵי־בִנְיָמִן֙ לִקְרַ֣את הָעָ֔ם הֻנְתְּק֖וּ מִן־הָעִ֑יר וַיָּחֵ֡לּוּ לְהַכּ֣וֹת מֵהָעָם֩ חֲלָלִ֨ים כְּפַ֤עַם בְּפַ֙עַם֙ בַּמְסִלּ֗וֹת אֲשֶׁ֨ר אַחַ֜ת עֹלָ֤ה בֵית־אֵל֙ וְאַחַ֤ת גִּבְעָ֙תָה֙ בַּשָּׂדֶ֔ה כִּשְׁלֹשִׁ֥ים אִ֖ישׁ בְּיִשְׂרָאֵֽל׃",
+      "text_kjv": "And the children of Benjamin went out against the people, and were drawn away from the city; and they began to smite of the people, and kill, as at other times, in the highways, of which one goeth up to the house of God, and the other to Gibeah in the field, about thirty men of Israel.",
+      "rendering": "The Benjaminites came out to meet the army and were drawn away from the city. They began striking down casualties among the troops as before, along the roads — one leading to Bethel and the other to Gibeah through the open country — killing about thirty Israelites.",
+      "translator_notes": [
+        "The plan works: the Benjaminites hunttequ min ha-ir ('were drawn away from the city') — the verb n-t-q ('to tear away, pull out') means they were lured out of their defensive position. Overconfident from two victories, they pursue the apparently retreating Israelites and begin inflicting casualties — kishloshim ish ('about thirty men') — along the mesillot ('highways, main roads'). They think the pattern is repeating: kefa'am befa'am ('as time after time'). But this is the trap."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיֹּאמְר֣וּ בְּנֵי־בִנְיָמִ֗ן נִגָּפִ֥ים הֵם֙ לְפָנֵ֔ינוּ כְּבָרִאשׁוֹנָ֑ה וּבְנֵ֤י יִשְׂרָאֵל֙ אָמְר֔וּ נָנ֕וּסָה וּנְתַקְּנֻ֖הוּ מִן־הָעִ֥יר אֶל־הַמְּסִלּֽוֹת׃",
+      "text_kjv": "And the children of Benjamin said, They are smitten down before us, as at the first. But the children of Israel said, Let us flee, and draw them from the city unto the highways.",
+      "rendering": "The Benjaminites said, \"They are falling before us just as before!\" But the Israelites had planned, \"Let's retreat and draw them away from the city onto the roads.\"",
+      "translator_notes": [
+        "The dramatic irony is sharp: Benjamin's assessment — niggafim hem lefaneinu kevarishonah ('they are being struck before us as at first') — is exactly the false confidence Israel intended to create. Meanwhile, Israel's actual plan — nanusah unetaqquenuhu min ha-ir el ha-mesillot ('let us flee and pull them from the city to the roads') — is working perfectly. The verb nataq ('to pull away, draw out') is the same used in verse 31 for Benjamin being drawn out."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְכֹ֣ל ׀ אִ֣ישׁ יִשְׂרָאֵ֗ל קָ֚מוּ מִמְּקוֹמָ֔ם וַיַּעַרְכ֖וּ בְּבַ֣עַל תָּמָ֑ר וְאֹרֵ֤ב יִשְׂרָאֵל֙ מֵגִ֣יחַ מִמְּקוֹמ֔וֹ מִמַּעֲרֵ֖ה גָּֽבַע׃",
+      "text_kjv": "And all the men of Israel rose up out of their place, and put themselves in array at Baaltamar: and the liers in wait of Israel came forth out of their places, even out of the meadows of Gibeah.",
+      "rendering": "All the Israelite main force rose from their positions and formed up at Baal-tamar, while the Israelite ambush force burst out from their position west of Gibeah.",
+      "translator_notes": [
+        "The trap springs: the main Israelite force reforms at Ba'al Tamar ('Lord of the Palm Tree' — a place name), while the orev Yisra'el ('Israel's ambush') megiach mimeqomo ('breaks forth from its position'). The phrase mimma'areh Gava ('from the meadow/open area of Gibeah' or possibly 'from west of Gibeah') locates the ambush force. The two-pronged movement closes on Benjamin from both directions."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וַיָּבֹ֣אוּ מִנֶּ֣גֶד לַגִּבְעָ֡ה עֲשָׂרָ֣ה אֲלָפִ֣ים אִ֣ישׁ בָּח֣וּר מִכׇּל־יִשְׂרָאֵ֡ל וְהַמִּלְחָמָ֣ה כָבֵ֔דָה וְהֵ֥ם לֹ֣א יָדְע֔וּ כִּֽי־נֹגַ֥עַת עֲלֵיהֶ֖ם הָרָעָֽה׃",
+      "text_kjv": "And there came against Gibeah ten thousand chosen men out of all Israel, and the battle was sore: but they knew not that evil was near them.",
+      "rendering": "Ten thousand select warriors from all Israel came directly against Gibeah. The fighting was fierce, but the Benjaminites did not realize that disaster was closing in on them.",
+      "translator_notes": [
+        "The ambush force — asarah alafim ish bachur mi-kol Yisra'el ('ten thousand chosen men from all Israel') — attacks Gibeah directly from the opposite side. The narrator's comment is chilling: vehem lo yade'u ki noga'at aleihem ha-ra'ah ('and they did not know that disaster was touching/reaching them'). The verb noga'at ('touching, reaching') personifies destruction as something physically approaching — close enough to touch but unseen."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיִּגֹּ֨ף יְהוָ֥ה ׀ אֶת־בִּנְיָמִן֮ לִפְנֵ֣י יִשְׂרָאֵל֒ וַיַּשְׁחִ֨יתוּ בְנֵי־יִשְׂרָאֵ֤ל בְּבִנְיָמִן֙ בַּיּ֣וֹם הַה֔וּא עֶשְׂרִ֧ים וַחֲמִשָּׁ֛ה אֶ֥לֶף וּמֵאָ֖ה אִ֑ישׁ כׇּל־אֵ֖לֶּה שֹׁלְפֵ֥י חָֽרֶב׃",
+      "text_kjv": "And the LORD smote Benjamin before Israel: and the children of Israel destroyed of the Benjamites that day twenty and five thousand and an hundred men: all these drew the sword.",
+      "rendering": "The LORD struck Benjamin down before Israel, and the Israelites destroyed twenty-five thousand one hundred Benjaminite swordsmen that day.",
+      "translator_notes": [
+        "The decisive verse: vayyiggof YHWH et Binyamin lifnei Yisra'el ('the LORD struck Benjamin before Israel'). The verb n-g-f ('to strike, defeat') attributes the victory directly to God — the same verb used throughout the conquest narrative. The casualties — esrim vachamishah elef ume'ah ish ('twenty-five thousand one hundred men') — represent the near-total destruction of Benjamin's fighting force (out of 26,700 in vv. 15-16). This summary verse establishes the outcome; the following verses provide the tactical details."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיִּרְא֥וּ בְנֵי־בִנְיָמִ֖ן כִּ֣י נִגָּ֑פוּ וַיִּתְּנ֨וּ אִישׁ־יִשְׂרָאֵ֤ל מָקוֹם֙ לְבִנְיָמִ֔ן כִּ֤י בָטְחוּ֙ אֶל־הָ֣אֹרֵ֔ב אֲשֶׁ֥ר שָׂ֖מוּ אֶל־הַגִּבְעָֽה׃",
+      "text_kjv": "So the children of Benjamin saw that they were smitten: for the men of Israel gave place to the Benjamites, because they trusted unto the liers in wait which they had set beside Gibeah.",
+      "rendering": "The Benjaminites saw that they were defeated. The Israelite main force had given ground to Benjamin because they were relying on the ambush they had set near Gibeah.",
+      "translator_notes": [
+        "The narrator now explains the tactic: vayyittenu ish Yisra'el maqom le-Vinyamin ('the men of Israel gave ground to Benjamin') — the retreat was deliberate, ki vatchu el ha-orev ('because they trusted the ambush'). Benjamin's two earlier victories were real, but Israel's third retreat was strategic — and Benjamin could not distinguish the feigned retreat from the genuine defeats."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְהָאֹרֵ֣ב הֵחִ֔ישׁוּ וַיִּפְשְׁט֖וּ אֶל־הַגִּבְעָ֑ה וַיִּמְשֹׁ֣ךְ הָאֹרֵ֔ב וַיַּ֥ךְ אֶת־כׇּל־הָעִ֖יר לְפִי־חָֽרֶב׃",
+      "text_kjv": "And the liers in wait hasted, and rushed upon Gibeah; and the liers in wait drew themselves along, and smote all the city with the edge of the sword.",
+      "rendering": "The ambush force moved quickly and rushed into Gibeah. They spread through the city and struck everyone in it with the sword.",
+      "translator_notes": [
+        "The ambush executes: ha-orev hechishu ('the ambush hurried') vayyifshetu el ha-Giv'ah ('they burst/spread into Gibeah'). The verb p-sh-t ('to spread out, strip, raid') describes a rapid sweep through the city. The phrase vayyakh et kol ha-ir lefi cherev ('he struck the entire city with the edge of the sword') indicates comprehensive destruction — not a targeted operation but the annihilation of the entire population."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וְהַמּוֹעֵ֗ד הָיָ֛ה לְאִ֥ישׁ יִשְׂרָאֵ֖ל עִם־הָאֹרֵ֑ב הַרְבּ֛וֹת לְהַעֲל֥וֹת מַשְׂאַ֖ת הֶעָשָׁ֥ן מִן־הָעִֽיר׃",
+      "text_kjv": "Now there was an appointed sign between the men of Israel and the liers in wait, that they should make a great flame with smoke rise up out of the city.",
+      "rendering": "The prearranged signal between the Israelite main force and the ambush was this: the ambush would send up a great column of smoke from the city.",
+      "translator_notes": [
+        "The moed ('appointed signal, predetermined sign') was smoke: harvot leha'alot mas'at he-ashan min ha-ir ('to increase sending up a rising column of smoke from the city'). The word mas'at ('rising, lifting') describes a thick column of smoke visible from a distance — the signal for the main force to turn and attack the now-trapped Benjaminites. This same smoke-signal tactic was used at Ai (Joshua 8:20-21)."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַיַּהֲפֹ֥ךְ אִֽישׁ־יִשְׂרָאֵ֖ל בַּמִּלְחָמָ֑ה וּבִנְיָמִ֡ן הֵחֵ֣ל לְהַכּ֣וֹת חֲלָלִ֣ים בְּאִישׁ־יִשְׂרָאֵ֣ל כִּשְׁלֹשִׁ֣ים אִישׁ֩ כִּ֨י אָמְר֜וּ אַ֣ךְ נִגּ֥וֹף נִגָּ֛ף ה֖וּא לְפָנֵ֑ינוּ כַּמִּלְחָמָ֖ה הָרִאשֹׁנָֽה׃",
+      "text_kjv": "And when the men of Israel retired in the battle, Benjamin began to smite and kill of the men of Israel about thirty persons: for they said, Surely they are smitten down before us, as in the first battle.",
+      "rendering": "When the Israelite main force turned in the battle, Benjamin had already begun inflicting casualties — about thirty Israelites — because they were saying, \"They are certainly falling before us, just as in the earlier battles!\"",
+      "translator_notes": [
+        "The narrative rewinds to show the Benjaminite perspective during the trap. While inflicting initial casualties (kishloshim ish, 'about thirty men'), Benjamin's conclusion is akh niggof niggaf hu lefaneinu ('surely, being defeated he is defeated before us') — the infinitive absolute niggof niggaf intensifies their false confidence. The phrase ka-milchamah harishonah ('as in the first battle') shows they are reading the third engagement through the lens of their earlier victories — a fatal misread."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וְהַמַּשְׂאֵ֗ת הֵחֵ֛לָּה לַעֲל֥וֹת מִן־הָעִ֖יר עַמּ֣וּד עָשָׁ֑ן וַיִּ֤פֶן בִּנְיָמִן֙ אַחֲרָ֔יו וְהִנֵּ֛ה עָלָ֥ה כְלִיל־הָעִ֖יר הַשָּׁמָֽיְמָה׃",
+      "text_kjv": "But when the flame began to arise up out of the city with a pillar of smoke, the Benjamites looked behind them, and, behold, the flame of the city ascended up to heaven.",
+      "rendering": "But then the column of smoke began to rise from the city — a pillar of smoke. Benjamin looked behind them, and the entire city was going up in flames toward the sky.",
+      "translator_notes": [
+        "The signal appears: ha-mas'et hechellah la'alot min ha-ir ammud ashan ('the rising column began to go up from the city, a pillar of smoke'). The phrase ammud ashan ('pillar of smoke') deliberately evokes the pillar of cloud/fire that led Israel through the wilderness (Exodus 13:21) — but this pillar marks Israel destroying Israel. When Benjamin turns — vayyifen Binyamin acharav ('Benjamin turned behind him') — they see vehineh alah khelil ha-ir ha-shamayemah ('the entirety of the city had gone up toward the heavens'). The word khelil ('entirety, whole burnt offering') is the same word used for an offering consumed entirely by fire — Gibeah has become a holocaust."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וְאִ֤ישׁ יִשְׂרָאֵל֙ הָפַ֔ךְ וַיִּבָּהֵ֖ל אִ֣ישׁ בִּנְיָמִ֑ן כִּ֣י רָאָ֔ה כִּי־נָגְעָ֥ה עָלָ֖יו הָרָעָֽה׃",
+      "text_kjv": "And when the men of Israel turned again, the men of Benjamin were amazed: for they saw that evil was come upon them.",
+      "rendering": "Then the Israelite main force turned to attack, and the Benjaminites were terrified, because they realized that disaster had overtaken them.",
+      "translator_notes": [
+        "The reversal: ve-ish Yisra'el hafakh ('the man of Israel turned') — the retreating force pivots to attack. Benjamin's response: vayyibbahel ish Binyamin ('the man of Benjamin was terrified/dismayed'). The verb b-h-l ('to be terrified, panic') describes the sudden realization of catastrophe. The phrase ki ra'ah ki nag'ah alav ha-ra'ah ('because he saw that disaster had touched upon him') echoes verse 34 — the ra'ah ('disaster, evil') that was approaching unseen has now arrived."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וַיִּפְנ֞וּ לִפְנֵ֧י אִישׁ־יִשְׂרָאֵ֛ל אֶל־דֶּ֥רֶךְ הַמִּדְבָּ֖ר וְהַמִּלְחָמָ֣ה הִדְבִּיקָ֑תְהוּ וַאֲשֶׁר֙ מֵהֶ֣עָרִ֔ים מַשְׁחִיתִ֥ים אוֹת֖וֹ בְּתוֹכֽוֹ׃",
+      "text_kjv": "Therefore they turned their backs before the men of Israel unto the way of the wilderness; but the battle overtook them; and them which came out of the cities they destroyed in the midst of them.",
+      "rendering": "They turned and fled from the Israelites toward the wilderness, but the battle caught up with them. Meanwhile, those coming out of the towns were destroying them in between.",
+      "translator_notes": [
+        "Benjamin routs toward the midbar ('wilderness, desert') east of Gibeah. But the milchamah hidbiqathu ('the battle caught up with/overtook him') — there is no escape. The ambush force from the city and the pursuing main force create a pincer: va-asher me-he-arim mashchitim oto betokkho ('those from the cities were destroying him in the midst of him') — Benjaminites are being cut down from every direction."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "כִּתְּר֣וּ אֶת־בִּנְיָמִ֗ן הִרְדִּיפֻ֙הוּ֙ מְנוּחָ֔ה הִדְרִיכֻ֕הוּ עַ֖ד נֹ֥כַח הַגִּבְעָ֖ה מִמִּזְרַ֥ח שָֽׁמֶשׁ׃",
+      "text_kjv": "Thus they inclosed the Benjamites round about, and chased them, and trode them down with ease over against Gibeah toward the sunrising.",
+      "rendering": "They surrounded Benjamin, pursued them relentlessly, and trampled them down opposite Gibeah on the east side.",
+      "translator_notes": [
+        "Three verbs describe the annihilation: kitteru ('they surrounded/encircled'), hirdifuhu menucha ('they pursued him without rest/relentlessly'), and hidrikhuhu ('they trampled him down'). The word menucha ('rest, resting place') used with pursuit means 'without pause, without relief' — relentless, unceasing chase. The location ad nokhach ha-Giv'ah mi-mizrach shamesh ('to opposite Gibeah, from the rising of the sun/east') means the fleeing Benjaminites were driven east of their own city."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וַיִּפְּל֣וּ מִבִּנְיָמִ֔ן שְׁמֹנָ֥ה עָשָׂ֛ר אֶ֖לֶף אִ֑ישׁ אֶת־כׇּל־אֵ֖לֶּה אַנְשֵׁ֥י חָֽיִל׃",
+      "text_kjv": "And there fell of Benjamin eighteen thousand men; all these were men of valour.",
+      "rendering": "Eighteen thousand Benjaminites fell — all of them warriors.",
+      "translator_notes": [
+        "The casualty count begins: shemonah asar elef ish ('eighteen thousand men'), all described as anshei chayil ('men of valor, warriors'). This is the main battlefield toll, with additional casualties reported in the following verses."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וַיִּפְנ֣וּ וַיָּנֻ֘סוּ֮ הַמִּדְבָּ֒רָה֒ אֶל־סֶ֣לַע הָֽרִמּ֔וֹן וַיְעֹ֨לְל֔וּהוּ בַּמְסִלּ֖וֹת חֲמֵ֣שֶׁת אֲלָפִ֣ים אִ֑ישׁ וַיַּדְבִּ֤יקוּ אַחֲרָיו֙ עַד־גִּדְעֹ֔ם וַיַּכּ֥וּ מִמֶּ֖נּוּ אַלְפַּ֥יִם אִֽישׁ׃",
+      "text_kjv": "And they turned and fled toward the wilderness unto the rock of Rimmon: and they gleaned of them in the highways five thousand men; and pursued hard after them unto Gidom, and slew of them two thousand men.",
+      "rendering": "They turned and fled toward the wilderness to the Rock of Rimmon. The Israelites cut down five thousand of them on the roads, pursued them hard as far as Gidom, and struck down two thousand more.",
+      "translator_notes": [
+        "The survivors flee toward Sela ha-Rimmon ('the Rock of Rimmon') — a rocky outcrop that will shelter the final remnant. Along the retreat routes, Israel vayyolleluhu ('gleaned him' — picked off stragglers) — the agricultural metaphor of gleaning (gathering leftover grain after harvest) is applied to killing fleeing soldiers. Five thousand killed on the highways, two thousand more at Gid'om. The total in this verse — seven thousand — plus the eighteen thousand of verse 44 equals twenty-five thousand, consistent with the summary in verse 35."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וַיְהִ֗י כׇּל־הַנֹּפְלִים֙ מִבִּנְיָמִ֔ן עֶשְׂרִ֧ים וַחֲמִשָּׁ֛ה אֶ֥לֶף אִ֖ישׁ שֹׁ֣לֵף חָ֑רֶב בַּיּ֣וֹם הַה֔וּא אֶת־כׇּל־אֵ֖לֶּה אַנְשֵׁ֥י חָֽיִל׃",
+      "text_kjv": "So that all which fell that day of Benjamin were twenty and five thousand men that drew the sword; all these were men of valour.",
+      "rendering": "The total number of Benjaminites who fell that day was twenty-five thousand swordsmen — all of them warriors.",
+      "translator_notes": [
+        "The summary: esrim vachamishah elef ish sholef cherev ('twenty-five thousand men drawing sword'). The qualifier anshei chayil ('men of valor') is repeated — these were not untrained conscripts but fighting men. The number represents the near-extinction of an Israelite tribe."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וַיִּפְנ֞וּ וַיָּנֻ֤סוּ הַמִּדְבָּ֙רָה֙ אֶל־סֶ֣לַע הָרִמּ֔וֹן שֵׁ֥שׁ מֵא֖וֹת אִ֑ישׁ וַיֵּשְׁבוּ֙ בְּסֶ֣לַע הָרִמּ֔וֹן אַרְבָּעָ֖ה חֳדָשִֽׁים׃",
+      "text_kjv": "But six hundred men turned and fled to the wilderness unto the rock Rimmon, and abode in the rock Rimmon four months.",
+      "rendering": "Six hundred men turned and fled into the wilderness to the Rock of Rimmon. They stayed at the Rock of Rimmon for four months.",
+      "translator_notes": [
+        "The remnant: shesh me'ot ish ('six hundred men') — the same number as the Danite migration force (18:11), creating an epilogue echo. They take refuge at Sela ha-Rimmon ('Rock of Rimmon,' possibly modern Rammun northeast of Bethel) for arba'ah chodashim ('four months'). Out of an original fighting force of 26,700 (vv. 15-16), only 600 survive — a 97.8% casualty rate. Benjamin as a tribe is on the edge of extinction."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "וְאִ֨ישׁ יִשְׂרָאֵ֜ל שָׁ֣בוּ אֶל־בְּנֵ֤י בִנְיָמִן֙ וַיַּכּ֣וּם לְפִי־חֶ֔רֶב מֵעִ֤יר מְתֹם֙ עַד־בְּהֵמָ֔ה עַ֖ד כׇּל־הַנִּמְצָ֑א גַּ֛ם כׇּל־הֶעָרִ֥ים הַנִּמְצָא֖וֹת שִׁלְּח֥וּ בָאֵֽשׁ׃",
+      "text_kjv": "And the men of Israel turned again upon the children of Benjamin, and smote them with the edge of the sword, as well the men of every city, as the beast, and all that came to hand: also they set on fire all the cities that they came to.",
+      "rendering": "The Israelites turned back against the Benjaminites and struck them down with the sword — entire towns, livestock, and everyone they found. They also set fire to every town they came across.",
+      "translator_notes": [
+        "The final verse describes systematic destruction beyond the battle: vayyakkum lefi cherev me-ir metom ad behemah ad kol ha-nimtsa ('they struck them with the edge of the sword — from city, entire population, to livestock, to everything found'). The word metom ('entirety, completeness') indicates total destruction of civilian populations. The phrase gam kol he-arim ha-nimtsa'ot shillechu va-esh ('also all the towns found they sent up in fire') describes the burning of Benjaminite towns throughout their territory. This is cherem-style warfare — the complete destruction normally reserved for Canaanite enemies (cf. Deuteronomy 20:16-18) — turned against a fellow Israelite tribe. The irony is total: Israel's 'righteous' response to the outrage at Gibeah has become an outrage of its own."
+      ],
+      "reading_level": "10th grade"
+    }
+  ]
+}

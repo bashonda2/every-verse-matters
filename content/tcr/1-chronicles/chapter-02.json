@@ -1,0 +1,597 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Chronicles",
+    "chapter": 2,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "The Chronicler lists the twelve sons of Israel, then immediately focuses on the tribe of Judah — the royal tribe. The genealogy traces Judah's line through Perez to Hezron, and then follows three branches of Hezron's descendants: through Ram (leading to David in verse 15), through Caleb, and through Jerahmeel. Additional clan lineages fill out the chapter, mapping the families of Judah in extraordinary detail. The entire chapter is structured to demonstrate that David's kingship emerged from a specific, traceable line within Judah.",
+    "remarkable": "The Chronicler's decision to begin Israel's tribal genealogies with Judah rather than Reuben (the firstborn) is a theological statement: kingship trumps birth order. The genealogy is not strictly linear but branching — it follows multiple lines of Hezron's descendants, creating a map of the clans that populated Judah's territory. The placement of David at verse 15 (the middle of a 55-verse chapter) is structurally deliberate: everything before verse 15 leads to him, and everything after fills out the surrounding clans. The chapter includes women at crucial junctures — Tamar (v. 4), Bathshua the Canaanite (v. 3), Abishai (v. 16), Abigail (v. 17) — signaling that the Chronicler cares about maternal lineage even in a patrilineal system. The note about Er being evil in the LORD's sight (v. 3) is one of the chapter's only moral judgments, preserved because it explains why the messianic line runs through Perez rather than through the firstborn.",
+    "friction": "The genealogical relationships in this chapter are notoriously complex. 'Caleb son of Hezron' (vv. 18, 42) is distinct from 'Caleb son of Jephunneh' (the spy from Numbers 13-14), though the two may have been conflated in later tradition. The term 'father of' (avi) sometimes means 'founder of' or 'chief of' a town rather than biological paternity — for instance, 'Shobal the father of Kiriath-jearim' (v. 50) means the founder or leading figure of that settlement. We render 'father of' consistently and note the settlement-founding sense where it applies. The Hebrew text contains some textual difficulties in verses 42-55, where the Septuagint and MT diverge significantly.",
+    "connections": "The Judah genealogy connects back to Genesis 38 (Judah and Tamar), Genesis 46 (Jacob's family entering Egypt), and Ruth 4:18-22 (the Perez-to-David genealogy that closes the book of Ruth). The line Perez-Hezron-Ram-Amminadab-Nahshon-Salmon-Boaz-Obed-Jesse-David is the backbone of the messianic genealogy, replicated in Ruth 4 and Matthew 1. Nahshon son of Amminadab (v. 10) was the tribal leader of Judah during the wilderness period (Numbers 2:3), establishing that the family destined for kingship was already leading the tribe centuries before David. The Calebite genealogy (vv. 42-55) connects to the conquest traditions of Hebron and the Negev."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "אֵ֖לֶּה בְּנֵ֣י יִשְׂרָאֵ֑ל רְאוּבֵ֡ן שִׁמְעוֹן֩ לֵוִ֨י וִיהוּדָ֜ה יִשָּׂשכָ֣ר וּזְבֻל֗וּן׃",
+      "text_kjv": "These are the sons of Israel; Reuben, Simeon, Levi, and Judah, Issachar, and Zebulun,",
+      "rendering": "These are the sons of Israel: Reuben, Simeon, Levi, Judah, Issachar, and Zebulun,",
+      "translator_notes": [
+        "The Chronicler uses 'Israel' (not 'Jacob'), maintaining the covenant name. The first six sons listed are Leah's children in birth order (Genesis 29:31-30:20). By listing all twelve sons before focusing on Judah, the Chronicler acknowledges the full tribal structure before zeroing in on the royal tribe. Reuben is listed first as the biological firstborn, but the Chronicler will explain in 5:1-2 why Judah receives the priority."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "דָּ֥ן יוֹסֵ֖ף וּבִנְיָמִ֑ן נַפְתָּלִ֖י גָּ֥ד וְאָשֵֽׁר׃ ס",
+      "text_kjv": "Dan, Joseph, and Benjamin, Naphtali, Gad, and Asher.",
+      "rendering": "Dan, Joseph, and Benjamin, Naphtali, Gad and Asher — as recorded in the genealogies.",
+      "translator_notes": [
+        "The remaining six sons are from the concubines and Rachel. The order differs from Genesis birth narratives — Dan (Bilhah's son) appears before Joseph (Rachel's firstborn), and Benjamin follows Joseph rather than appearing last. The Chronicler groups them by a logic that is not purely chronological. Notably, Joseph appears as one name rather than being split into Ephraim and Manasseh, which the Chronicler will handle separately. The setumah marker closes this brief twelve-tribe list before the deep dive into Judah."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "בְּנֵ֣י יְהוּדָ֔ה עֵ֥ר וְאוֹנָ֖ן וְשֵׁלָ֑ה שְׁלוֹשָׁה֙ נוֹלַד־ל֔וֹ מִבַּת־שׁ֖וּעַ הַכְּנַעֲנִ֑ית וַיְהִ֥י עֵ֛ר בְּכ֥וֹר יְהוּדָ֖ה רַ֣ע בְּעֵינֵ֣י יְהוָ֑ה וַיְמִיתֵֽהוּ׃ ס",
+      "text_kjv": "The sons of Judah; Er, and Onan, and Shelah: which three were born unto him of the daughter of Shua the Canaanitess. And Er, the firstborn of Judah, was evil in the sight of the LORD; and he slew him.",
+      "rendering": "The sons of Judah: Er, Onan, and Shelah. These three were born to him by Bath-shua the Canaanite woman. Er, the firstborn of Judah, was evil in the eyes of the LORD, and he put him to death.",
+      "translator_notes": [
+        "The Chronicler compresses the entire Judah-and-Tamar episode of Genesis 38 into two verses. Bath-shua (Bat-Shua, 'daughter of Shua') is identified as hakena'anit ('the Canaanite woman'), a detail the Chronicler preserves because it matters genealogically — Judah's first marriage was with a non-Israelite. The phrase ra be'einei YHWH ('evil in the eyes of the LORD') is one of the Chronicler's standard moral assessments, and vayemitehu ('and he put him to death') attributes Er's death directly to divine judgment. Genesis 38:7 says the same but never specifies what Er's sin was. The Chronicler inherits this silence."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רַע בְּעֵינֵי יְהוָה",
+          "transliteration": "ra be'einei YHWH",
+          "rendered_as": "evil in the eyes of the LORD",
+          "semantic_range": "bad, wicked, displeasing, harmful — as evaluated from God's perspective",
+          "note": "This is the Chronicler's standard formula for divine moral judgment, used throughout Kings and Chronicles to evaluate rulers. Its appearance here for Er explains why the messianic line does not pass through Judah's firstborn."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וְתָמָר֙ כַּלָּת֔וֹ יָ֥לְדָה לּ֖וֹ אֶת־פֶּ֣רֶץ וְאֶת־זָ֑רַח כׇּל־בְּנֵ֥י יְהוּדָ֖ה חֲמִשָּֽׁה׃ ס",
+      "text_kjv": "And Tamar his daughter in law bare him Pharez and Zerah. All the sons of Judah were five.",
+      "rendering": "Tamar his daughter-in-law bore him Perez, and Zerah. All the sons of Judah were five.",
+      "translator_notes": [
+        "Tamar (Tamar, 'palm tree') is named without shame or apology — the Chronicler includes her as a legitimate mother in the royal genealogy. The story of how she secured offspring from Judah by disguising herself as a prostitute (Genesis 38) is assumed knowledge. Perez (Perets, 'breach') is listed before Zerah (Zerach, 'shining/rising') because Perez is the ancestor of David. The total count of five (Er, Onan, Shelah, Perez, Zerah) includes the two who died — the Chronicler counts all biological sons regardless of their fate."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "בְּנֵי־פֶ֖רֶץ חֶצְר֥וֹן וְחָמֽוּל׃",
+      "text_kjv": "The sons of Perez; Hezron, and Hamul.",
+      "rendering": "These were the sons of Perez: Hezron and Hamul.",
+      "translator_notes": [
+        "Hezron (Chetsron, 'enclosed/surrounded') is the critical name — his descendants will fill most of the rest of this chapter and form the core of the Judahite clans. Hamul (Chamul, 'spared' or 'pitied') receives no further genealogy here. Both are listed in Genesis 46:12 among those who went down to Egypt with Jacob. The line narrows: of Perez's two sons, the genealogy will follow Hezron exclusively."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וּבְנֵ֖י זֶ֑רַח זִ֠מְרִ֠י וְאֵיתָ֨ן וְהֵימָ֧ן וְכַלְכֹּ֛ל וָדָ֖רַע כֻּלָּ֥ם חֲמִשָּֽׁה׃ ס",
+      "text_kjv": "And the sons of Zerah; Zimri, and Ethan, and Heman, and Calcol, and Dara: five of them in all.",
+      "rendering": "The sons of Zerah: Zimri, Ethan, Heman, Calcol, and Dara — five in all.",
+      "translator_notes": [
+        "These five sons of Zerah include names associated with wisdom. Ethan (Eitan, 'enduring') and Heman (Heiman, 'faithful') are the names of famous wise men mentioned in 1 Kings 4:31, where Solomon is said to be wiser than 'Ethan the Ezrahite, Heman, Calcol, and Darda' — the Ezrahite designation derives from Zerah. These may be the same individuals or later descendants bearing ancestral names. The Chronicler links Judah not only to kingship but to the wisdom tradition. Zimri (Zimri) should not be confused with the later Israelite king of that name (1 Kings 16:9-20)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וּבְנֵ֥י כַרְמִ֖י עָכָ֑ר עוֹכֵ֣ר יִשְׂרָאֵ֔ל אֲשֶׁ֥ר מָעַ֖ל בַּחֵֽרֶם׃ ס",
+      "text_kjv": "And the sons of Carmi; Achar, the troubler of Israel, who transgressed in the thing accursed.",
+      "rendering": "The son of Carmi: Achar, the one who brought disaster on Israel by acting unfaithfully regarding the devoted things.",
+      "translator_notes": [
+        "This is the most dramatic note in the chapter. Achar (Akhar) is called Achan (Akhan) in Joshua 7 — the Chronicler uses the variant form to create a wordplay with okher Yisra'el ('troubler of Israel'), since akhar sounds like akhar/okher ('to trouble/bring disaster'). The phrase asher ma'al bacherem ('who acted unfaithfully regarding the cherem') uses two critical theological terms: ma'al ('to act unfaithfully, to trespass' — a key word in Chronicles for covenant violation) and cherem ('the devoted/banned thing' — items under the ban of total destruction in holy war). Achan's sin at Jericho (Joshua 7) cost Israel a military defeat and thirty-six lives. The Chronicler includes this infamy within the genealogy as a warning: even within the chosen tribe, unfaithfulness brings judgment.",
+        "Register departure: cherem rendered as 'devoted things' rather than default 'devoted to destruction' because this verse refers to the items placed under the ban, not the act of destruction itself. The Hebrew refers to the consecrated objects Achan took."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָעַל",
+          "transliteration": "ma'al",
+          "rendered_as": "acted unfaithfully",
+          "semantic_range": "to trespass, to act treacherously, to be unfaithful, to violate sacred trust",
+          "note": "A signature word in Chronicles, used more frequently here than in any other biblical book. Ma'al describes the breach of sacred obligation — specifically the violation of what belongs to God. The Chronicler uses it to explain exile, judgment, and divine displeasure throughout his work."
+        },
+        {
+          "hebrew": "חֵרֶם",
+          "transliteration": "cherem",
+          "rendered_as": "devoted things",
+          "semantic_range": "ban, devoted thing, thing set apart for destruction, consecrated for God alone",
+          "note": "Items placed under the cherem belong exclusively to God and cannot be taken for personal use. Achan's violation was not mere theft but sacrilege — taking what was consecrated to God."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וּבְנֵ֥י אֵיתָ֖ן עֲזַרְיָֽה׃",
+      "text_kjv": "And the sons of Ethan; Azariah.",
+      "rendering": "The son of Ethan: Azariah.",
+      "translator_notes": [
+        "Azariah (Azaryah, 'the LORD has helped') is Ethan's only named descendant here. The name is one of the most common in the Hebrew Bible, borne by kings, priests, and officials. Its theophoric element (-yah, from YHWH) signals devotion to Israel's God. After the digression into Zerah's famous and infamous descendants, the Chronicler will now return to the main Hezron line."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וּבְנֵ֥י חֶצְר֖וֹן אֲשֶׁ֣ר נוֹלַד־ל֑וֹ אֶת־יְרַחְמְאֵ֥ל וְאֶת־רָ֖ם וְאֶת־כְלוּבָֽי׃",
+      "text_kjv": "The sons also of Hezron, that were born unto him; Jerahmeel, and Ram, and Chelubai.",
+      "rendering": "The sons born to Hezron: Jerahmeel, Ram, and Chelubai.",
+      "translator_notes": [
+        "These three sons of Hezron structure the rest of the chapter. Ram's line will lead to David (vv. 10-17). Chelubai (Keluvai) is another form of Caleb (Kalev) — this is 'Caleb son of Hezron,' distinct from the famous Caleb son of Jephunneh. Jerahmeel's line is given in verses 25-41. The order is significant: Jerahmeel is listed first (possibly the eldest) but Ram's line is traced first because it leads to the king. The Chronicler consistently prioritizes theological importance over birth order."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְרָ֖ם הוֹלִ֣יד אֶת־עַמִּינָדָ֑ב וְעַמִּינָדָב֙ הוֹלִ֣יד אֶת־נַחְשׁ֔וֹן נְשִׂ֖יא בְּנֵ֥י יְהוּדָֽה׃",
+      "text_kjv": "And Ram begat Amminadab; and Amminadab begat Nahshon, prince of the children of Judah;",
+      "rendering": "Ram fathered Amminadab, and Amminadab fathered Nahshon, the leader of the sons of Judah.",
+      "translator_notes": [
+        "Nahshon (Nachshon, 'serpent' or 'diviner') is identified as nesi benei Yehudah ('leader/prince of the sons of Judah') — a title from the wilderness period (Numbers 2:3, 7:12). Nahshon led Judah's tribal contingent in the wilderness march and was the first tribal leader to bring his offering at the tabernacle's dedication. Amminadab (Amminadav, 'my kinsman is noble') bridges the gap between the patriarchal period and the wilderness generation. This verse establishes that the family destined for the throne was already the leading family of Judah during the Exodus."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְנַחְשׁוֹן֙ הוֹלִ֣יד אֶת־שַׂלְמָ֔א וְשַׂלְמָ֖א הוֹלִ֥יד אֶת־בֹּֽעַז׃",
+      "text_kjv": "And Nahshon begat Salma, and Salma begat Boaz,",
+      "rendering": "Nahshon fathered Salma, and Salma fathered Boaz.",
+      "translator_notes": [
+        "Salma (Salma, possibly 'garment' or a shortened form of Solomon) is called Salmon in Ruth 4:20-21. The Chronicler uses the variant form. Boaz (Bo'az, 'in him is strength') is the kinsman-redeemer of the book of Ruth — the man who married the Moabite widow and secured the line that would produce David. The Chronicler does not mention Ruth or the story of redemption at the threshing floor; the names carry the narrative for the informed reader. Each generation in this sequence spans roughly 40-80 years, covering the period from the wilderness to the early settlement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וּבֹ֙עַז֙ הוֹלִ֣יד אֶת־עוֹבֵ֔ד וְעוֹבֵ֖ד הוֹלִ֥יד אֶת־יִשָֽׁי׃ ס",
+      "text_kjv": "And Boaz begat Obed, and Obed begat Jesse;",
+      "rendering": "Boaz fathered Obed, and Obed fathered Jesse.",
+      "translator_notes": [
+        "Obed (Oved, 'servant/worshiper') was named by the women of Bethlehem who celebrated his birth to Naomi and Ruth (Ruth 4:17). Jesse (Yishai, possibly 'man of YHWH' or 'gift') is David's father, rooted in Bethlehem. This verse brings the genealogy within one generation of the Chronicler's central figure. The line from Perez to Jesse in these verses (5, 9-12) replicates Ruth 4:18-22 almost exactly — the Chronicler is drawing on the same genealogical tradition that the author of Ruth used."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְיִשַׁ֗י הוֹלִ֤יד אֶת־בְּכֹרוֹ֙ אֶת־אֱלִיאָ֔ב וַאֲבִינָדָ֖ב הַשֵּׁנִ֑י וְשִׁמְעָ֖א הַשְּׁלִישִֽׁי׃",
+      "text_kjv": "And Jesse begat his firstborn Eliab, and Abinadab the second, and Shimma the third,",
+      "rendering": "Jesse fathered his firstborn Eliab, Abinadab the second, and Shimea the third,",
+      "translator_notes": [
+        "Jesse's sons are numbered by birth order, recalling the scene in 1 Samuel 16 where Samuel reviewed Jesse's sons before God chose David, the youngest. Eliab (Eli'av, 'my God is father') was the eldest, the tall, impressive one whom Samuel initially assumed would be the anointed (1 Samuel 16:6). Abinadab (Avinadav, 'my father is noble') and Shimea (Shim'a, 'hearing/report' — called Shammah in 1 Samuel 16:9) passed before Samuel as well. The Chronicler's numbering system emphasizes that David was not chosen by primogeniture."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "נְתַנְאֵ֥ל הָרְבִיעִ֖י רַדַּ֥י הַחֲמִישִֽׁי׃",
+      "text_kjv": "Nethaneel the fourth, Raddai the fifth,",
+      "rendering": "Nethanel the fourth, Raddai the fifth, — as recorded in the genealogies.",
+      "translator_notes": [
+        "Nethanel (Netan'el, 'God has given') and Raddai (Raddai, possibly 'treading/dominating') do not appear in the Samuel narrative of David's family. The Chronicler provides a fuller list of Jesse's sons than 1 Samuel does, suggesting access to additional genealogical records. These brothers who never became king are nonetheless recorded — the Chronicler values the complete family structure, not just the chosen individual."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "אֹ֥צֶם הַשִּׁשִּׁ֖י דָּוִ֥יד הַשְּׁבִעִֽי׃",
+      "text_kjv": "Ozem the sixth, David the seventh:",
+      "rendering": "Ozem the sixth, David the seventh — as recorded in the genealogies.",
+      "translator_notes": [
+        "David (David, 'beloved') is listed as the seventh son. This creates a discrepancy with 1 Samuel 16:10-11 and 17:12, which imply Jesse had eight sons. Either one son died young and was dropped from later records, or different traditions counted differently. The number seven may be theologically significant — the seventh son in a culture that valued seven as the number of completeness. The Chronicler places David's name without any title, without 'the king' — here he is simply Jesse's seventh boy, embedded in the family structure before his elevation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְאַ֨חְיוֹתֵיהֶ֔ם צְרוּיָ֖ה וַאֲבִיגָ֑יִל וּבְנֵ֣י צְרוּיָ֗ה אַבְשַׁ֥י וְיוֹאָ֛ב וַעֲשָׂה־אֵ֖ל שְׁלֹשָֽׁה׃",
+      "text_kjv": "Whose sisters were Zeruiah, and Abigail. And the sons of Zeruiah; Abishai, and Joab, and Asahel, three.",
+      "rendering": "Their sisters were Zeruiah and Abigail. The sons of Zeruiah: Abishai, Joab, and Asahel — three.",
+      "translator_notes": [
+        "The Chronicler names David's sisters because their sons are among his most important officers. Zeruiah's (Tseruyyah's) three sons — Abishai (Avshai, 'my father is a gift'), Joab (Yo'av, 'YHWH is father'), and Asahel (Asah'el, 'God has made') — form David's military inner circle. Joab is his lifelong general; Abishai is a hero among the thirty mighty men; Asahel was killed by Abner (2 Samuel 2:23). The patronymic 'sons of Zeruiah' rather than their father's name is unusual — their mother's identity apparently carried more weight, possibly because she was David's sister."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַאֲבִיגַ֕יִל יָלְדָ֖ה אֶת־עֲמָשָׂ֑א וַאֲבִ֣י עֲמָשָׂ֔א יֶ֥תֶר הַיִּשְׁמְעֵאלִֽי׃ ס",
+      "text_kjv": "And Abigail bare Amasa: and the father of Amasa was Jether the Ishmeelite.",
+      "rendering": "Abigail bore Amasa and the father of Amasa was Jether the Ishmaelite — as recorded in the genealogies.",
+      "translator_notes": [
+        "Abigail (Avigayil, 'my father is joy') — David's other sister — married Jether (Yeter, 'abundance'), identified as haYishme'eli ('the Ishmaelite'). Second Samuel 17:25 calls him 'Ithra the Israelite' — the discrepancy may be a scribal confusion between Yishme'eli and Yisre'eli, or one tradition preserved the original ethnic identity while the other normalized it. Their son Amasa (Amasa, 'burden-bearer') later served briefly as David's general before being murdered by Joab (2 Samuel 20:10). The intermarriage with an Ishmaelite shows the fluidity of ethnic boundaries in David's family."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְכָלֵ֣ב בֶּן־חֶצְר֗וֹן הוֹלִ֛יד אֶת־עֲזוּבָ֥ה אִשָּׁ֖ה וְאֶת־יְרִיע֑וֹת וְאֵ֣לֶּה בָנֶ֔יהָ יֵ֥שֶׁר וְשׁוֹבָ֖ב וְאַרְדּֽוֹן׃",
+      "text_kjv": "And Caleb the son of Hezron begat children of Azubah his wife, and of Jerioth: her sons are these; Jesher, and Shobab, and Ardon.",
+      "rendering": "Caleb son of Hezron fathered children by Azubah his wife and by Jerioth. These were her sons: Jesher, Shobab, and Ardon.",
+      "translator_notes": [
+        "This Caleb (Kalev) son of Hezron is the ancestor of the Calebite clan within Judah — distinct from the famous spy Caleb son of Jephunneh, though the two lines may have merged. Azubah (Azuvah, 'forsaken') and Jerioth (Yeri'ot, 'tent curtains') are either two wives or a wife and a daughter — the Hebrew syntax is ambiguous. The names Jesher (Yesher, 'upright'), Shobab (Shovav, 'rebellious' — an ironic name), and Ardon (Ardon, possibly 'fugitive') are not attested elsewhere."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַתָּ֖מׇת עֲזוּבָ֑ה וַיִּֽקַּֽח־ל֤וֹ כָלֵב֙ אֶת־אֶפְרָ֔ת וַתֵּ֥לֶד ל֖וֹ אֶת־חֽוּר׃",
+      "text_kjv": "And when Azubah was dead, Caleb took unto him Ephrath, which bare him Hur.",
+      "rendering": "When Azubah died, Caleb married Ephrath, and she bore him Hur.",
+      "translator_notes": [
+        "Ephrath (Efrat) is associated with Bethlehem — 'Bethlehem Ephrathah' (Micah 5:2). The marriage of Caleb to Ephrath links the Calebite clan to Bethlehem's territory. Hur (Chur, 'white/noble') is an important figure — his grandson is Bezalel, the master craftsman of the tabernacle (Exodus 31:2, and v. 20 below). Through this marriage, the Calebite branch connects to both the Bethlehem region (David's hometown) and the tabernacle-building tradition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְח֖וּר הוֹלִ֣יד אֶת־אוּרִ֑י וְאוּרִ֖י הוֹלִ֥יד אֶת־בְּצַלְאֵֽל׃ ס",
+      "text_kjv": "And Hur begat Uri, and Uri begat Bezaleel.",
+      "rendering": "Hur fathered Uri, and Uri fathered Bezalel.",
+      "translator_notes": [
+        "Bezalel (Betsal'el, 'in the shadow of God') is the master artisan whom God filled with his Spirit to construct the tabernacle and its furnishings (Exodus 31:1-5, 35:30-36:1). By tracing Bezalel back through the Calebite-Judahite line, the Chronicler claims the tabernacle's chief craftsman for the tribe of Judah. Uri (Uri, 'my light') serves as the connecting link. This genealogical note is significant for the Chronicler's temple theology: the same tribe that produces the king also produces the artisan who built God's first dwelling place."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְאַחַ֗ר בָּ֤א חֶצְרוֹן֙ אֶל־בַּת־מָכִ֣יר אֲבִֽי־גִלְעָ֔ד וְה֣וּא לְקָחָ֔הּ וְה֖וּא בֶּן־שִׁשִּׁ֣ים שָׁנָ֑ה וַתֵּ֥לֶד ל֖וֹ אֶת־שְׂגֽוּב׃",
+      "text_kjv": "And afterward Hezron went in to the daughter of Machir the father of Gilead, whom he married when he was threescore years old; and she bare him Segub.",
+      "rendering": "Afterward Hezron went to the daughter of Machir, the father of Gilead. He married her when he was sixty years old, and she bore him Segub.",
+      "translator_notes": [
+        "This marriage connects the tribe of Judah to the Transjordanian territory of Gilead through Machir (Makhir), who is Manasseh's son (Genesis 50:23). The phrase avi Gil'ad ('father of Gilead') means Machir was the founder/chief of the Gilead region. Hezron's marriage at sixty to a Manassite woman created a cross-tribal bond between Judah and the eastern tribes. Segub (Seguv, 'exalted') is the product of this inter-tribal marriage."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וּשְׂג֖וּב הוֹלִ֣יד אֶת־יָאִ֑יר וַֽיְהִי־ל֗וֹ עֶשְׂרִ֤ים וְשָׁלֹשׁ֙ עָרִ֔ים בְּאֶ֖רֶץ הַגִּלְעָֽד׃",
+      "text_kjv": "And Segub begat Jair, who had three and twenty cities in the land of Gilead.",
+      "rendering": "Segub fathered Jair, who had twenty-three towns in the land of Gilead.",
+      "translator_notes": [
+        "Jair (Ya'ir, 'he enlightens') is associated with the 'towns of Jair' (Chavvot Ya'ir) mentioned in Numbers 32:41, Deuteronomy 3:14, and Judges 10:3-4. The twenty-three towns represent a significant territorial holding in Transjordan. Through this line, Judahite blood flows into the Gileadite aristocracy — the Chronicler traces these connections to show that Judah's influence extended beyond its own tribal borders. The Jair of Judges 10:3 (a minor judge) may be a later descendant carrying the ancestral name."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיִּקַּ֨ח גְּשֽׁוּר־וַאֲרָ֜ם אֶת־חַוֹּ֧ת יָאִ֛יר מֵאִתָּ֖ם אֶת־קְנָ֣ת וְאֶת־בְּנוֹתֶ֑יהָ שִׁשִּׁ֖ים עִֽיר כׇּל־אֵ֕לֶּה בְּנֵ֥י מָכִ֖יר אֲבִי־גִלְעָֽד׃",
+      "text_kjv": "And he took Geshur, and Aram, with the towns of Jair, from them, with Kenath, and the towns thereof, even threescore cities. All these belonged to the sons of Machir the father of Gilead.",
+      "rendering": "But Geshur and Aram captured the towns of Jair from them, along with Kenath and its surrounding villages — sixty towns. All these belonged to the sons of Machir, father of Gilead.",
+      "translator_notes": [
+        "This verse records a territorial loss — Geshur (the Aramean kingdom northeast of the Sea of Galilee, whose princess David later married) and Aram (Syria) captured the towns of Jair. The sixty towns (combining the twenty-three of Jair with Kenath and its dependencies) represent a significant Israelite territorial loss in Transjordan. Kenath (Qenat) is identified with Qanawat in the Hauran region of modern Syria. The Chronicler's note that 'all these belonged to the sons of Machir' preserves the memory of a once-extensive Israelite presence east of the Jordan that was subsequently lost."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְאַחֲרֵ֥י מוֹת־חֶצְר֖וֹן בְּכָלֵ֣ב אֶפְרָ֑תָה וְאֵ֤שֶׁת חֶצְרוֹן֙ אֲבִיָּ֔ה וַתֵּ֣לֶד ל֔וֹ אֶת־אַשְׁח֖וּר אֲבִ֥י תְקֽוֹעַ׃ ס",
+      "text_kjv": "And after that Hezron was dead in Caleb-ephratah, then Abiah Hezron's wife bare him Ashur the father of Tekoa.",
+      "rendering": "After the death of Hezron, in Caleb-ephrathah, Hezron's wife Abijah bore him Ashhur, the father of Tekoa.",
+      "translator_notes": [
+        "The phrase beKhalev Efratah ('in Caleb-ephrathah') is textually difficult — it may refer to a place name combining the Calebite territory with the Ephrathah (Bethlehem) region, or it may be a corruption. Abijah (Aviyyah, 'my father is YHWH') bore Ashhur (Ashchur) posthumously or near Hezron's death. Ashhur is called avi Teqoa ('father of Tekoa') — meaning founder or chief of the town of Tekoa, the settlement south of Bethlehem famous later as the home of the prophet Amos (Amos 1:1) and the wise woman David consulted (2 Samuel 14:2)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיִּהְי֧וּ בְנֵי־יְרַחְמְאֵ֛ל בְּכ֥וֹר חֶצְר֖וֹן הַבְּכ֣וֹר רָ֑ם וּבוּנָ֥ה וָאֹ֛רֶן וָאֹ֖צֶם אֲחִיָּֽה׃",
+      "text_kjv": "And the sons of Jerahmeel the firstborn of Hezron were, Ram the firstborn, and Bunah, and Oren, and Ozem, and Ahijah.",
+      "rendering": "The sons of Jerahmeel, Hezron's firstborn, were: Ram his firstborn, Bunah, Oren, Ozem, and Ahijah.",
+      "translator_notes": [
+        "The Jerahmeelite genealogy begins. Jerahmeel (Yerachme'el, 'God has compassion') was Hezron's firstborn but not the ancestor of David — another instance where the Chronicler's genealogical priorities override birth order. This Ram is distinct from the Ram of verse 9 whose line leads to David. The Jerahmeelites settled in the Negev — David had dealings with them during his time as a fugitive (1 Samuel 27:10, 30:29). Their inclusion maps the southern reaches of Judah's territory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַתְּהִ֨י אִשָּׁ֥ה אַחֶ֛רֶת לִירַחְמְאֵ֖ל וּשְׁמָ֣הּ עֲטָרָ֑ה הִ֥יא אֵ֖ם אוֹנָֽם׃ ס",
+      "text_kjv": "Jerahmeel had also another wife, whose name was Atarah; she was the mother of Onam.",
+      "rendering": "Jerahmeel had another wife named Atarah; she was the mother of Onam.",
+      "translator_notes": [
+        "Atarah (Atarah, 'crown/wreath') is named because her son Onam (Onam, 'vigorous') begins a distinct sub-branch of the Jerahmeelite clan. The Chronicler's naming of wives at key junctures shows that maternal identity mattered for distinguishing sub-clans. When two lines descend from the same father through different mothers, the mother's identity determines clan affiliation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיִּהְי֥וּ בְנֵי־רָ֛ם בְּכ֥וֹר יְרַחְמְאֵ֖ל מַ֥עַץ וְיָמִ֖ין וָעֵֽקֶר׃",
+      "text_kjv": "And the sons of Ram the firstborn of Jerahmeel were, Maaz, and Jamin, and Eker.",
+      "rendering": "The sons of Ram, Jerahmeel's firstborn: Maaz, Jamin, and Eker.",
+      "translator_notes": [
+        "These grandsons of Jerahmeel represent sub-clans in the Negev region. Maaz (Ma'ats, 'wrath' or 'counsel') is unique to this passage. Jamin (Yamin, 'right hand' — the same root as Benjamin) and Eker (Eqer, 'root/offspring') are otherwise unattested. The Chronicler's preservation of these names, unknown from any narrative, demonstrates his access to comprehensive clan registers that have not survived independently."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיִּהְי֥וּ בְנֵי־אוֹנָ֖ם שַׁמַּ֣י וְיָדָ֑ע וּבְנֵ֥י שַׁמַּ֖י נָדָ֥ב וַאֲבִישֽׁוּר׃",
+      "text_kjv": "And the sons of Onam were, Shammai, and Jada. And the sons of Shammai; Nadab, and Abishur.",
+      "rendering": "The sons of Onam: Shammai and Jada. The sons of Shammai: Nadab and Abishur.",
+      "translator_notes": [
+        "The Jerahmeelite genealogy branches through Onam (Atarah's son). Shammai (Shammai, 'desolate' or 'astonishing') generates two sons: Nadab (Nadav, 'generous/noble' — the same name as Aaron's eldest son who died offering unauthorized fire) and Abishur (Avishur, 'my father is a wall'). Jada's line follows in verse 32. The Chronicler traces both branches with equal care."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְשֵׁ֤ם אֵ֣שֶׁת אֲבִישׁ֔וּר אֲבִיהָ֑יִל וַתֵּ֣לֶד ל֔וֹ אֶת־אַחְבָּ֖ן וְאֶת־מוֹלִֽיד׃",
+      "text_kjv": "And the name of the wife of Abishur was Abihail, and she bare him Ahban, and Molid.",
+      "rendering": "The name of Abishur's wife was Abihail, and she bore him Ahban and Molid.",
+      "translator_notes": [
+        "Abihail (Avichayil, 'my father is strength') is a name borne by both men and women in the Hebrew Bible — Esther's father bore this name (Esther 2:15). Ahban (Achban, possibly 'brother of the wise one') and Molid (Molid, 'begetter') are not otherwise attested. The Chronicler's care in naming Abishur's wife suggests she came from a notable family whose identity mattered for clan records."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וּבְנֵ֥י נָדָ֖ב סֶ֣לֶד וְאַפָּ֑יִם וַיָּ֥מׇת סֶ֖לֶד לֹ֥א בָנִֽים׃ ס",
+      "text_kjv": "And the sons of Nadab; Seled, and Appaim: but Seled died without children.",
+      "rendering": "The sons of Nadab: Seled and Appaim. Seled died without sons.",
+      "translator_notes": [
+        "The note vayyamot Seled lo vanim ('Seled died without sons') is significant in a genealogical context — it means his line ended. In a culture where continuity of name and inheritance depended on male descendants, dying without sons was a form of genealogical death. The Chronicler records these dead ends alongside the fruitful lines, maintaining the accuracy of his records. Only Appaim's line continues."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וּבְנֵ֥י אַפַּ֖יִם יִשְׁעִ֑י וּבְנֵ֤י יִשְׁעִי֙ שֵׁשָׁ֔ן וּבְנֵ֥י שֵׁשָׁ֖ן אַחְלָֽי׃",
+      "text_kjv": "And the sons of Appaim; Ishi. And the sons of Ishi; Sheshan. And the children of Sheshan; Ahlai.",
+      "rendering": "The son of Appaim: Ishi. The son of Ishi: Sheshan. The son of Sheshan: Ahlai.",
+      "translator_notes": [
+        "Three generations in a single verse, each with only one son — the Jerahmeelite line narrows to a single thread. Ishi (Yish'i, 'my salvation'), Sheshan (Sheshan, meaning uncertain), and Ahlai (Achlai, possibly 'oh, would that!' — an exclamatory name expressing parental longing). The use of 'sons of' (benei) for a single child is normal Hebrew usage. Sheshan's story continues in verses 34-35 with an unusual arrangement."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וּבְנֵ֥י יָדָ֖ע אֲחִ֣י שַׁמָּ֑י יֶ֥תֶר וְיוֹנָתָ֖ן וַיָּ֥מׇת יֶ֖תֶר לֹ֥א בָנִֽים׃ ס",
+      "text_kjv": "And the sons of Jada the brother of Shammai; Jether, and Jonathan: and Jether died without children.",
+      "rendering": "The sons of Jada, Shammai's brother: Jether and Jonathan. Jether died without sons.",
+      "translator_notes": [
+        "Another dead-end line: Jether (Yeter, 'abundance') died childless, like Seled in verse 30. The Jerahmeelite genealogy records these truncated lines faithfully. Jonathan (Yonatan, 'YHWH has given') — a different Jonathan from Saul's son — carries Jada's line forward. The phrase achi Shammai ('brother of Shammai') anchors the reader in the genealogical structure, since both Jada and Shammai were sons of Onam (v. 28)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וּבְנֵ֥י יוֹנָתָ֖ן פֶּ֣לֶת וְזָזָ֑א אֵ֥לֶּה הָי֖וּ בְּנֵ֥י יְרַחְמְאֵֽל׃ ס",
+      "text_kjv": "And the sons of Jonathan; Peleth, and Zaza. These were the sons of Jerahmeel.",
+      "rendering": "The sons of Jonathan: Peleth and Zaza. These were the descendants of Jerahmeel.",
+      "translator_notes": [
+        "Peleth (Pelet, 'deliverance/swiftness') and Zaza (Zaza, meaning uncertain — possibly a pet name or reduplicated form) close out the Jerahmeelite main genealogy. The closing formula elleh hayu benei Yerachme'el ('these were the sons of Jerahmeel') wraps up the entire section begun at verse 25. The Jerahmeelites are thus fully documented — a complete Negev clan with its branches, dead ends, and surviving lines — before the Chronicler moves to additional Judahite clans."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְלֹא־הָיָ֧ה לְשֵׁשָׁ֛ן בָּנִ֖ים כִּ֣י אִם־בָּנ֑וֹת וּלְשֵׁשָׁ֗ן עֶ֚בֶד מִצְרִ֔י וּשְׁמ֖וֹ יַרְחָֽע׃",
+      "text_kjv": "Now Sheshan had no sons, but daughters. And Sheshan had a servant, an Egyptian, whose name was Jarha.",
+      "rendering": "Sheshan had no sons, only daughters. Sheshan had an Egyptian servant named Jarha.",
+      "translator_notes": [
+        "This verse creates a puzzle: verse 31 listed Ahlai as Sheshan's child, but now we learn Sheshan had 'no sons, only daughters' — Ahlai may have been a daughter, or the genealogical record followed a different convention. The introduction of Jarha (Yarcha), an Egyptian servant (eved Mitsri), sets up an unusual arrangement: a non-Israelite slave will continue the line. This parallels the broader biblical pattern where unexpected people — foreigners, women, younger sons — become part of God's covenant story."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיִּתֵּ֨ן שֵׁשָׁ֧ן אֶת־בִּתּ֛וֹ לְיַרְחָ֥ע עַבְדּ֖וֹ לְאִשָּׁ֑ה וַתֵּ֥לֶד ל֖וֹ אֶת־עַתָּֽי׃",
+      "text_kjv": "And Sheshan gave his daughter to Jarha his servant to wife; and she bare him Attai.",
+      "rendering": "Sheshan gave his daughter to his servant Jarha as a wife, and she bore him Attai.",
+      "translator_notes": [
+        "An Israelite clan leader gives his daughter to an Egyptian slave to continue the family line — a remarkable social arrangement that the Chronicler records without any hint of disapproval. The marriage preserved Sheshan's inheritance within his family (since a slave's children belong to the master's household in ancient Near Eastern law) while also raising Jarha's status. Attai (Attai, 'timely' or 'my time') begins a new branch that is genealogically Jerahmeelite through the mother but biologically half-Egyptian through the father."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וְעַתַּי֙ הוֹלִ֣יד אֶת־נָתָ֔ן וְנָתָ֖ן הוֹלִ֥יד אֶת־זָבָֽד׃",
+      "text_kjv": "And Attai begat Nathan, and Nathan begat Zabad,",
+      "rendering": "Attai fathered Nathan, and Nathan fathered Zabad,",
+      "translator_notes": [
+        "The line continues through the Egyptian-Israelite marriage without comment. Nathan (Natan, 'he gave') is a common name — not the prophet Nathan. Zabad (Zavad, 'gift/endowment') carries the line forward. The Chronicler traces this branch for thirteen generations (vv. 36-41), an unusually long sequence that suggests the family maintained careful records — perhaps because their mixed Egyptian-Israelite origin made genealogical documentation particularly important."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְזָבָד֙ הוֹלִ֣יד אֶת־אֶפְלָ֔ל וְאֶפְלָ֖ל הוֹלִ֥יד אֶת־עוֹבֵֽד׃",
+      "text_kjv": "And Zabad begat Ephlal, and Ephlal begat Obed,",
+      "rendering": "Zabad fathered Ephlal, and Ephlal fathered Obed,",
+      "translator_notes": [
+        "Ephlal (Eflal, 'judging' or 'interceding') is unique to this genealogy. Obed (Oved, 'servant') shares the name of David's grandfather (v. 12) but is a different individual within the Jerahmeelite branch. Name reuse within the broader clan is expected — popular names circulated among related families."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וְעוֹבֵד֙ הוֹלִ֣יד אֶת־יֵה֔וּא וְיֵה֖וּא הוֹלִ֥יד אֶת־עֲזַרְיָֽה׃",
+      "text_kjv": "And Obed begat Jehu, and Jehu begat Azariah,",
+      "rendering": "Obed fathered Jehu, and Jehu fathered Azariah,",
+      "translator_notes": [
+        "Jehu (Yehu, 'he is YHWH') shares the name of the famous northern king who destroyed the house of Ahab (2 Kings 9-10) but is a Judahite from the Jerahmeelite clan. Azariah (Azaryah, 'YHWH has helped') appears frequently in Judahite genealogies — it was one of the most popular theophoric names in the southern kingdom."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וַעֲזַרְיָה֙ הוֹלִ֣יד אֶת־חָ֔לֶץ וְחֶ֖לֶץ הוֹלִ֥יד אֶת־אֶלְעָשָֽׂה׃",
+      "text_kjv": "And Azariah begat Helez, and Helez begat Eleasah,",
+      "rendering": "Azariah fathered Helez, and Helez fathered Eleasah,",
+      "translator_notes": [
+        "Helez (Chelets, 'strength/vigor') may be the same Helez listed among David's mighty warriors — 'Helez the Paltite' (2 Samuel 23:26) or 'Helez the Pelonite' (1 Chronicles 11:27). If so, this Jerahmeelite from an Egyptian-Israelite line served in David's elite military unit. Eleasah (El'asah, 'God has made') continues the line."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וְאֶלְעָשָׂה֙ הוֹלִ֣יד אֶת־סִסְמָ֔י וְסִסְמַ֖י הוֹלִ֥יד אֶת־שַׁלּֽוּם׃",
+      "text_kjv": "And Eleasah begat Sisamai, and Sisamai begat Shallum,",
+      "rendering": "Eleasah fathered Sismai, and Sismai fathered Shallum,",
+      "translator_notes": [
+        "Sismai (Sismai, meaning uncertain) is unique to this passage. Shallum (Shallum, 'retribution' or 'the requited one') is a name shared with several biblical figures including a king of Israel (2 Kings 15:10) and a gatekeeper (1 Chronicles 9:17). The name's prevalence across different tribal lines and periods shows it was widely used."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וְשַׁלּוּם֙ הוֹלִ֣יד אֶת־יְקַמְיָ֔ה וִיקַמְיָ֖ה הוֹלִ֥יד אֶת־אֱלִישָׁמָֽע׃ ס",
+      "text_kjv": "And Shallum begat Jekamiah, and Jekamiah begat Elishama.",
+      "rendering": "Shallum fathered Jekamiah, and Jekamiah fathered Elishama.",
+      "translator_notes": [
+        "Jekamiah (Yeqamyah, 'YHWH will establish') and Elishama (Elishama, 'my God has heard') close this thirteen-generation sequence from Attai (the son of the Egyptian servant Jarha) to Elishama. The theophoric names (-yah and El-) demonstrate that this family, despite its mixed Egyptian-Israelite origin, was fully integrated into Israelite worship of YHWH. The Chronicler makes no distinction between their status and that of 'pure' Judahite lines."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וּבְנֵ֤י כָלֵב֙ אֲחִ֣י יְרַחְמְאֵ֔ל מֵישָׁ֥ע בְּכֹר֖וֹ ה֣וּא אֲבִי־זִ֑יף וּבְנֵ֥י מָרֵשָׁ֖ה אֲבִ֥י חֶבְרֽוֹן׃",
+      "text_kjv": "Now the sons of Caleb the brother of Jerahmeel were, Mesha his firstborn, which was the father of Ziph; and the sons of Mareshah the father of Hebron.",
+      "rendering": "The sons of Caleb, Jerahmeel's brother: Mesha his firstborn, who was the father of Ziph, and the sons of Mareshah, the father of Hebron.",
+      "translator_notes": [
+        "The Chronicler returns to Caleb (Kalev) son of Hezron (from v. 18). The phrase avi Zif and avi Chevron use 'father of' in the sense of 'founder/chief of' a settlement. Ziph is the town in the Judean wilderness where David hid from Saul (1 Samuel 23:14-15). Hebron is the great southern city where Abraham settled, where David first reigned, and where the patriarchs were buried. By tracing Hebron's founding to the Calebite branch of Judah, the Chronicler links David's first capital to his broader clan."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וּבְנֵ֖י חֶבְר֑וֹן קֹ֥רַח וְתַפֻּ֖חַ וְרֶ֥קֶם וָשָֽׁמַע׃",
+      "text_kjv": "And the sons of Hebron; Korah, and Tappuah, and Rekem, and Shema.",
+      "rendering": "The sons of Hebron: Korah, Tappuah, Rekem, and Shema.",
+      "translator_notes": [
+        "These are sub-clans associated with the Hebron district. Korah (Qorach, 'baldness/ice') — not the Levite rebel of Numbers 16 but a Calebite clan leader. Tappuah (Tappuach, 'apple/citron') is also a town name in Judah's territory (Joshua 15:34). Rekem (Reqem, 'variegated') and Shema (Shema, 'hearing/report') represent additional settlement-clans in the Hebron highlands."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וְשֶׁ֣מַע הוֹלִ֔יד אֶת־רַ֖חַם אֲבִ֣י יׇרְקְעָ֑ם וְרֶ֖קֶם הוֹלִ֥יד אֶת־שַׁמָּֽי׃",
+      "text_kjv": "And Shema begat Raham, the father of Jorkoam: and Rekem begat Shammai.",
+      "rendering": "Shema fathered Raham, the father of Jorkeam, and Rekem fathered Shammai.",
+      "translator_notes": [
+        "Raham (Racham, 'compassion/mercy') founded or led Jorkeam (Yorqe'am), a town in Judah whose location is uncertain. The name Raham from the root racham ('to have compassion') carries theological weight as a personal name. Shammai reappears — a different Shammai from verse 28, within a different branch of the family. The Chronicler distinguishes them by genealogical position rather than by epithet."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וּבֶן־שַׁמַּ֖י מָע֑וֹן וּמָע֖וֹן אֲבִ֥י בֵית־צֽוּר׃",
+      "text_kjv": "And the son of Shammai was Maon: and Maon was the father of Bethzur.",
+      "rendering": "The son of Shammai: Maon. Maon was the father of Beth-zur.",
+      "translator_notes": [
+        "Maon (Ma'on, 'habitation/dwelling') is both a person and a town — the wilderness of Maon, south of Hebron, is where David evaded Saul (1 Samuel 23:24-25). Beth-zur (Beit Tsur, 'house of the rock') was a significant fortified town in the Judean hills, later prominent in the Maccabean wars. The Chronicler traces the founding of these strategically important Judean settlements to specific Calebite clan leaders."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 46,
+      "text_hebrew": "וְעֵיפָ֗ה פִּלֶ֣גֶשׁ כָּלֵ֔ב יָלְדָ֥ה אֶת־חָרָ֖ן וְאֶת־מוֹצָ֣א וְאֶת־גָּזֵ֑ז וְחָרָ֖ן הוֹלִ֥יד אֶת־גָּזֵֽז׃ ס",
+      "text_kjv": "And Ephah, Caleb's concubine, bare Haran, and Moza, and Gazez: and Haran begat Gazez.",
+      "rendering": "Ephah, Caleb's concubine, bore Haran, Moza, and Gazez. Haran fathered Gazez.",
+      "translator_notes": [
+        "Ephah (Efah) as a concubine (pilegesh) of Caleb produces a secondary line. The repetition of Gazez — both as Ephah's son and as Haran's son — may indicate a grandfather-grandson naming pattern (naming a child after a living sibling) or a textual issue. Moza (Motsa, 'going forth') may be connected with the settlement of Mozah near Jerusalem (Joshua 18:26). Haran (Charan) shares a name with Abraham's brother and the city in Mesopotamia but is a Judahite."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 47,
+      "text_hebrew": "וּבְנֵ֖י יׇהְדָּ֑י רֶ֤גֶם וְיוֹתָם֙ וְגֵישָׁ֔ן וָפֶ֥לֶט וְעֵיפָ֖ה וָשָֽׁעַף׃",
+      "text_kjv": "And the sons of Jahdai; Regem, and Jotham, and Gesham, and Pelet, and Ephah, and Shaaph.",
+      "rendering": "The sons of Jahdai: Regem, Jotham, Geshan, Pelet, Ephah, and Shaaph.",
+      "translator_notes": [
+        "Jahdai (Yahdai, 'whom God directs') appears without any stated relationship to the preceding genealogy — he may be a Calebite sub-clan leader whose connection to the main line was assumed but not specified. Jotham (Yotam, 'YHWH is perfect') shares a name with the later Judahite king. Ephah reappears as a person's name (distinct from the concubine in v. 46). Six sons suggest a significant clan."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 48,
+      "text_hebrew": "פִּלֶ֤גֶשׁ כָּלֵב֙ מַעֲכָ֔ה יָלְדָ֥ה שֶׁ֖בֶר וְאֶת־תִּרְחֲנָֽה׃",
+      "text_kjv": "Maachah, Caleb's concubine, bare Sheber, and Tirhanah.",
+      "rendering": "Maacah, Caleb's concubine, bore Sheber and Tirhanah — as recorded in the genealogies.",
+      "translator_notes": [
+        "Maacah (Ma'akhah, 'oppression' or a geographic name) is another of Caleb's concubines. The name Maacah is associated with an Aramean kingdom north of Israel (2 Samuel 10:6) and is borne by several women in the Hebrew Bible, including the mother of King Asa. Sheber (Shever, 'breaking') and Tirhanah (Tirchanah, meaning uncertain) are otherwise unattested. The multiple concubines of Caleb reflect the expansive nature of the Calebite clan, which populated a large area of southern Judah."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 49,
+      "text_hebrew": "וַתֵּ֗לֶד שַׁ֙עַף֙ אֲבִ֣י מַדְמַנָּ֔ה אֶת־שְׁוָ֥א אֲבִ֛י מַכְבֵּנָ֖ה וַאֲבִ֣י גִבְעָ֑א וּבַת־כָּלֵ֖ב עַכְסָֽה׃ ס",
+      "text_kjv": "She bare also Shaaph the father of Madmannah, Sheva the father of Machbenah, and the father of Gibea: and the daughter of Caleb was Achsah.",
+      "rendering": "She also bore Shaaph the father of Madmannah and Sheva the father of Machbenah and the father of Gibea. The daughter of Caleb was Achsah — as recorded in the genealogies.",
+      "translator_notes": [
+        "More Calebite settlements: Madmannah is a Negev town (Joshua 15:31). Machbenah and Gibea are Judean settlements whose exact locations are debated. The sudden mention of Achsah (Akhsah) — 'the daughter of Caleb' — connects this genealogy to the famous story of Caleb giving his daughter to Othniel as a reward for conquering Debir (Joshua 15:16-17, Judges 1:12-15). This is likely the Caleb son of Jephunneh, and the Chronicler may be deliberately conflating the two Calebs, or Achsah represents a clan tradition shared across both Calebite lineages."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 50,
+      "text_hebrew": "אֵ֤לֶּה הָיוּ֙ בְּנֵ֣י כָלֵ֔ב בֶּן־ח֖וּר בְּכ֣וֹר אֶפְרָ֑תָה שׁוֹבָ֕ל אֲבִ֖י קִרְיַ֥ת יְעָרִֽים׃",
+      "text_kjv": "These were the sons of Caleb the son of Hur, the firstborn of Ephratah; Shobal the father of Kirjath-jearim,",
+      "rendering": "These were the descendants of Caleb son of Hur, the firstborn of Ephrathah: Shobal the father of Kiriath-jearim,",
+      "translator_notes": [
+        "The genealogy shifts to Caleb's line through Hur (from v. 19-20), connecting to the Ephrathah (Bethlehem) territory. Shobal (Shoval, 'flowing') is called avi Qiryat Ye'arim — founder/chief of Kiriath-jearim ('city of forests'), the town where the ark of the covenant rested for twenty years after the Philistines returned it (1 Samuel 7:1-2). The Chronicler links this important sanctuary site to the Judahite-Calebite clan, establishing Judah's territorial and religious credentials."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 51,
+      "text_hebrew": "שַׂלְמָ֕א אֲבִ֖י בֵּ֣ית לָ֑חֶם חָרֵ֕ף אֲבִ֖י בֵּ֥ית גָּדֵֽר׃ ס",
+      "text_kjv": "Salma the father of Bethlehem, Hareph the father of Beth-gader.",
+      "rendering": "Salma the father of Bethlehem, Hareph the father of Beth-gader — as recorded in the genealogies.",
+      "translator_notes": [
+        "Salma (Salma) is called avi Beit Lechem — 'father of Bethlehem.' This is the same Salma from verse 11 (Nahshon's son, Boaz's father), now identified as the founder of Bethlehem itself. David's ancestor did not merely live in Bethlehem — he founded it. This is perhaps the most important genealogical note in the chapter for messianic theology: the family that would produce the king also established the city from which the Messiah would come (Micah 5:2). Hareph (Charep, 'reproach' or 'autumn') founded Beth-gader ('house of the wall'), a fortified settlement."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 52,
+      "text_hebrew": "וַיִּהְי֤וּ בָנִים֙ לְשׁוֹבָ֔ל אֲבִ֖י קִרְיַ֣ת יְעָרִ֑ים הָרֹאֶ֕ה חֲצִ֖י הַמְּנֻחֽוֹת׃",
+      "text_kjv": "And Shobal the father of Kirjath-jearim had sons; Haroeh, and half of the Manahethites.",
+      "rendering": "Shobal, the father of Kiriath-jearim, had sons: Haroeh and half of the Menuhoth.",
+      "translator_notes": [
+        "Haroeh (HaRo'eh, 'the seer') is an unusual name that may be a clan designation rather than a personal name — 'the seer' as a family title. The phrase chatsi hamMenuchot ('half of the Menuhoth/Manahathites') indicates that only a portion of this clan group descended from Shobal; the other half presumably had a different lineage. The Menuhoth may be connected with Manahath (v. 54), a settlement whose population was divided between different ancestral lines."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 53,
+      "text_hebrew": "וּמִשְׁפְּח֣וֹת קִרְיַת֮ יְעָרִים֒ הַיִּתְרִ֗י וְהַפּוּתִי֙ וְהַשֻּׁ֣מָתִ֔י וְהַמִּ֖שְׁרָעִ֑י מֵאֵ֗לֶּה יָצְא֥וּ הַצׇּרְעָתִ֖י וְהָאֶשְׁתָּאֻלִֽי׃",
+      "text_kjv": "And the families of Kirjath-jearim; the Ithrites, and the Puhites, and the Shumathites, and the Mishraites; of them came the Zareathites, and the Eshtaulites.",
+      "rendering": "The clans of Kiriath-jearim: the Ithrites, the Puthites, the Shumathites, and the Mishraites. From these descended the Zorathites and the Eshtaolites.",
+      "translator_notes": [
+        "The Chronicler maps the clan structure of Kiriath-jearim — four resident clans who together produced the populations of Zorah and Eshtaol. These two towns are associated with the Samson narratives (Judges 13:25, 16:31) and with the Danite migration (Judges 18:2, 8, 11). The Ithrites may be connected with Jether/Ithran. The Chronicler's note that the Zorathites and Eshtaolites 'came from these' (me'elleh yatse'u) traces the origins of Danite-territory towns to Judahite clan founders, suggesting complex population movements."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 54,
+      "text_hebrew": "בְּנֵ֣י שַׂלְמָ֗א בֵּ֤ית לֶ֙חֶם֙ וּנְט֣וֹפָתִ֔י עַטְר֖וֹת בֵּ֣ית יוֹאָ֑ב וַחֲצִ֥י הַמָּנַחְתִּ֖י הַצֹּרְעִֽי׃",
+      "text_kjv": "The sons of Salma; Bethlehem, and the Netophathites, Atroth, the house of Joab, and half of the Manahethites, the Zorites.",
+      "rendering": "The descendants of Salma: Bethlehem, the Netophathites, Atroth-beth-joab, half of the Manahathites, and the Zorites.",
+      "translator_notes": [
+        "Salma's descendants are identified by the settlements they populated. Bethlehem (Beit Lechem, 'house of bread') heads the list as the primary settlement. The Netophathites are from Netophah, a village near Bethlehem where some of David's mighty warriors originated (2 Samuel 23:28-29). Atroth-beth-joab ('crowns of the house of Joab') connects to David's general Joab. The other half of the Manahathites (the first half was in v. 52) and the Zorites complete the Bethlehem-region clan structure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 55,
+      "text_hebrew": "וּמִשְׁפְּח֤וֹת סֹפְרִים֙ יֹשְׁבֵ֣י יַעְבֵּ֔ץ תִּרְעָתִ֥ים שִׁמְעָתִ֖ים שׂוּכָתִ֑ים הֵ֚מָּה הַקִּינִ֣ים הַבָּאִ֔ים מֵחַמַּ֖ת אֲבִ֥י בֵית־רֵכָֽב׃ פ",
+      "text_kjv": "And the families of the scribes which dwelt at Jabez; the Tirathites, the Shimeathites, and Suchathites. These are the Kenites that came of Hemath, the father of the house of Rechab.",
+      "rendering": "The clans of scribes who lived at Jabez: the Tirathites, the Shimeathites, and the Sucathites. These are the Kenites who came from Hammath, the father of the house of Rechab.",
+      "translator_notes": [
+        "This final verse is extraordinary: it identifies clans of scribes (sofrim) living at a place called Jabez (Ya'bets — the same name that will appear with a prayer in 4:9-10) and identifies them as Kenites (Qinim). The Kenites were a non-Israelite people associated with Moses' father-in-law (Judges 1:16, 4:11) who attached themselves to Israel. Here they are integrated into Judah's genealogical structure as scribal families — professionals who preserved written records. The house of Rechab (Beit Rekhav) is the family of the Rechabites, known from Jeremiah 35 for their strict lifestyle. The Chronicler closes Judah's genealogy by acknowledging that even the scribes who may have helped compile these very records had Kenite rather than Israelite origins."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

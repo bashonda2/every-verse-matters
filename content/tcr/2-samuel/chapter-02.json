@@ -1,0 +1,400 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Samuel",
+    "chapter": 2,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "David inquires of the LORD and is directed to Hebron, where the men of Judah anoint him king. David sends a message of blessing to the men of Jabesh-gilead for burying Saul, invoking the LORD's faithful love (chesed) and pledging his own good will. Meanwhile, Abner son of Ner installs Saul's surviving son Ish-bosheth as king over a rival Israelite kingdom. The two factions meet at the pool of Gibeon, where Abner proposes a contest between young warriors that erupts into full battle. David's forces prevail. Asahel, Joab's youngest brother, pursues Abner with reckless speed; Abner warns him twice to turn aside, then kills him with a backward thrust of his spear. Joab and Abishai pursue Abner until sunset, when Abner rallies the Benjaminites on a hilltop and calls for an end to the bloodshed. Joab sounds the trumpet and the pursuit stops. Abner's forces lose three hundred and sixty men; David's forces lose nineteen men plus Asahel. The chapter ends with Asahel buried in his father's tomb at Bethlehem and both armies returning to their respective capitals.",
+    "remarkable": "This chapter narrates the formal beginning of the divided kingdom — not the later split under Rehoboam, but the first fracture in Israelite unity. Two anointed kings now reign simultaneously: David over Judah at Hebron, Ish-bosheth over the remaining tribes at Mahanaim. The political geography is telling: David holds the southern heartland, while Ish-bosheth governs from a city east of the Jordan — a refugee capital, not a power center. The contest at the pool of Gibeon (vv. 14-16) is one of the most unusual military episodes in the Hebrew Bible: twelve men from each side are paired in single combat, and all twenty-four die simultaneously, each grabbing his opponent's head and driving a sword into his side. The site is named Helkath-hazzurim ('Field of Flint-Edges' or 'Field of Sword-Edges'), preserving the memory of this mutual slaughter. Asahel's death at Abner's hand sets in motion the blood-feud that will dominate the next several chapters, culminating in Joab's murder of Abner in chapter 3. The narrator emphasizes Abner's reluctance — he warns Asahel twice, knowing that killing Joab's brother will create an unresolvable vendetta.",
+    "friction": "The primary translational tension lies in verse 14, where Abner says yaqumu na ha-ne'arim vi-yesachagu lefanenu — 'let the young men arise and make sport before us.' The verb sachaq (Piel: yesachagu) can mean 'to laugh, to play, to sport, to perform' and even 'to engage in combat as entertainment.' Is Abner proposing a harmless display, a formalized duel, or a fight to the death? The ambiguity may be deliberate — what begins as sechok ('sport') escalates into milchamah ('battle'). We render it as 'compete before us' to capture the controlled-contest sense, while the translator's notes address the darker possibilities. A second friction point is in verse 8: Ish-bosheth's name. The Masoretic text reads Ish-boshet ('man of shame'), but this is almost certainly a scribal alteration of the original Ish-baal ('man of Baal' or 'man of the lord'). The name change reflects later scribal discomfort with the element baal. We render the name as given in the MT (Ish-bosheth) and explain the likely original in the notes. Verse 16 presents a third crux: the place-name Helqat ha-Tsurim is variously interpreted as 'Field of Flint-Edges,' 'Field of Sword-Edges,' 'Field of Adversaries,' or 'Field of the Sharp Ones.' The etymology is genuinely uncertain, and we retain the Hebrew transliteration with explanation.",
+    "connections": "David's anointing at Hebron fulfills the trajectory begun with Samuel's secret anointing in 1 Samuel 16. Hebron itself is Abraham's city (Genesis 13:18, 23:2), the place where the patriarchal promises were first rooted in the land — David's reign begins at the covenant's geographic origin. The message to Jabesh-gilead (vv. 5-7) directly connects to the closing scene of 1 Samuel, where the men of Jabesh recovered Saul's body from the walls of Beth-shan (1 Samuel 31:11-13). David's use of chesed in verse 6 echoes the covenant vocabulary that runs throughout the David-Jonathan narrative (1 Samuel 20:8, 14-15). The pool of Gibeon will appear again as a significant site in 2 Samuel 20:8 (the assassination of Amasa). Asahel's fatal pursuit of Abner anticipates Joab's revenge killing in 3:27, which in turn becomes a burden David carries to his deathbed (1 Kings 2:5-6). The civil war between Benjamin and Judah prefigures the permanent tribal division after Solomon's death (1 Kings 12)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֣י אַחֲרֵי־כֵ֗ן וַיִּשְׁאַ֤ל דָּוִד֙ בַּיהוָ֣ה לֵאמֹ֔ר הַאֶעֱלֶ֖ה בְּאַחַ֣ת עָרֵ֣י יְהוּדָ֑ה וַיֹּ֤אמֶר יְהוָה֙ אֵלָ֔יו עֲלֵ֑ה וַיֹּ֧אמֶר דָּוִ֛ד אָ֥נָה אֶעֱלֶ֖ה וַיֹּ֥אמֶר חֶבְרֹֽנָה׃",
+      "text_kjv": "And it came to pass after this, that David enquired of the LORD, saying, Shall I go up into any of the cities of Judah? And the LORD said unto him, Go up. And David said, Whither shall I go up? And he said, Unto Hebron.",
+      "rendering": "After this, David inquired of the LORD: \"Should I go up to one of the cities of Judah?\" The LORD said to him, \"Go up.\" David asked, \"Where should I go?\" He answered, \"To Hebron.\"",
+      "translator_notes": [
+        "The verb sha'al ('to ask, to inquire') indicates formal oracular inquiry, likely through the ephod carried by the priest Abiathar (1 Samuel 23:6, 30:7-8). David's consultation of the LORD before every major move contrasts sharply with Saul, who in his final days could get no answer from the LORD by any means (1 Samuel 28:6). The dialogue structure — question, answer, follow-up question, specific answer — shows David's posture of dependent obedience.",
+        "Hebron (chevronah) sits in the Judean hill country, roughly 19 miles south of Jerusalem. It was the burial site of Abraham and Sarah (Genesis 23:19) and a city of refuge under the Levitical system (Joshua 20:7). The LORD's direction to Hebron is not random — it is the patriarchal capital of the south, the place most associated with the Abrahamic covenant in Judah's territory."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיַּ֤עַל שָׁם֙ דָּוִ֔ד וְגַ֖ם שְׁתֵּ֣י נָשָׁ֑יו אֲחִינֹ֙עַם֙ הַיִּזְרְעֵאלִ֔ית וַאֲבִיגַ֕יִל אֵ֖שֶׁת נָבָ֥ל הַכַּרְמְלִֽי׃",
+      "text_kjv": "So David went up thither, and his two wives also, Ahinoam the Jezreelitess, and Abigail Nabal's wife the Carmelite.",
+      "rendering": "So David went up there, along with his two wives — Ahinoam of Jezreel and Abigail, the widow of Nabal of Carmel.",
+      "translator_notes": [
+        "The narrator specifies David's wives by name and origin, anchoring his household in known geography. Ahinoam (achinoam, 'my brother is delight') came from Jezreel in Judah (not the northern Jezreel Valley). Abigail is still identified in relation to Nabal (naval, 'fool'), whose story in 1 Samuel 25 resulted in both his death and David's marriage to his widow. Identifying Abigail as eshet Naval ('wife of Nabal') rather than by her own patronymic keeps the Nabal episode in the reader's memory.",
+        "The phrase va-ya'al sham David ('David went up there') uses the same verb alah ('to go up') that the LORD commanded. David's obedience is immediate and complete — no delay, no negotiation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַאֲנָשָׁ֧יו אֲשֶׁר־עִמּ֛וֹ הֶעֱלָ֥ה דָוִ֖ד אִ֣ישׁ וּבֵית֑וֹ וַיֵּשְׁב֖וּ בְּעָרֵ֥י חֶבְרֽוֹן׃",
+      "text_kjv": "And his men that were with him did David bring up, every man with his household: and they dwelt in the cities of Hebron.",
+      "rendering": "David also brought up the men who were with him, each with his household, and they settled in the towns surrounding Hebron.",
+      "translator_notes": [
+        "The phrase ish u-veto ('each man and his household') indicates that David's band of warriors — the four hundred, later six hundred, who gathered around him during his fugitive years (1 Samuel 22:2, 27:2) — relocated as complete family units. This is not a military deployment but a migration, a resettlement of David's entire community from Philistine territory into Judah.",
+        "The plural arei Chevron ('cities/towns of Hebron') refers to the satellite villages and settlements in the Hebron district. David's group was too large to fit within the city walls alone, so they spread across the surrounding area — effectively occupying the Hebron region."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וַיָּבֹ֙אוּ֙ אַנְשֵׁ֣י יְהוּדָ֔ה וַיִּמְשְׁחוּ־שָׁ֧ם אֶת־דָּוִ֛ד לְמֶ֖לֶךְ עַל־בֵּ֣ית יְהוּדָ֑ה וַיַּגִּ֤דוּ לְדָוִד֙ לֵאמֹ֔ר אַנְשֵׁי֙ יָבֵ֣ישׁ גִּלְעָ֔ד אֲשֶׁ֥ר קָבְר֖וּ אֶת־שָׁאֽוּל׃",
+      "text_kjv": "And the men of Judah came, and there they anointed David king over the house of Judah. And they told David, saying, That the men of Jabeshgilead were they that buried Saul.",
+      "rendering": "The men of Judah came and anointed David king over the house of Judah. David was also informed, \"It was the men of Jabesh-gilead who buried Saul.\"",
+      "translator_notes": [
+        "The verb mashach ('to anoint') is the same verb used when Samuel secretly anointed David in 1 Samuel 16:13. That was a prophetic, hidden anointing; this is a public, tribal anointing — the first of David's three anointings (the third will come in 2 Samuel 5:3, when all Israel anoints him). The formula le-melekh al bet Yehudah ('as king over the house of Judah') is precise: David's authority extends over one tribe only. The ten northern tribes are not represented.",
+        "The report about Jabesh-gilead is syntactically connected to the anointing scene, suggesting that David received this intelligence shortly after his coronation. The verb qaveru ('they buried') is the standard term for honorable interment. The men of Jabesh-gilead had recovered Saul's body from the wall of Beth-shan (1 Samuel 31:11-13), an act of extraordinary loyalty."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "וַיִּמְשְׁחוּ",
+          "transliteration": "vayyimshekhu",
+          "rendered_as": "anointed",
+          "semantic_range": "to smear, to anoint with oil, to consecrate for office, to install as king or priest",
+          "note": "The verb mashach is the root behind mashiach ('anointed one, messiah'). David's anointing at Hebron is the second of three — the progression from secret prophetic anointing (1 Samuel 16) to tribal anointing (here) to national anointing (2 Samuel 5) traces the gradual public recognition of what God declared privately. Each anointing enlarges the circle of acknowledgment."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיִּשְׁלַ֤ח דָּוִד֙ מַלְאָכִ֔ים אֶל־אַנְשֵׁ֖י יָבֵ֣ישׁ גִּלְעָ֑ד וַיֹּ֣אמֶר אֲלֵיהֶ֗ם בְּרוּכִ֤ים אַתֶּם֙ לַיהוָ֔ה אֲשֶׁ֤ר עֲשִׂיתֶם֙ הַחֶ֣סֶד הַזֶּ֔ה עִם־אֲדֹנֵיכֶ֖ם עִם־שָׁא֥וּל וַתִּקְבְּר֖וּ אֹתֽוֹ׃",
+      "text_kjv": "And David sent messengers unto the men of Jabeshgilead, and said unto them, Blessed be ye of the LORD, that ye have shewed this kindness unto your lord, even unto Saul, and have buried him.",
+      "rendering": "David sent messengers to the men of Jabesh-gilead and said to them, \"May the LORD bless you, because you showed this faithful love to your lord Saul by burying him.\"",
+      "expanded_rendering": "The Hebrew ha-chesed ha-zeh ('this faithful love') uses the Theologically Rich Term chesed with the definite article and demonstrative — 'this specific act of chesed.' David identifies the recovery and burial of Saul's body not as mere kindness or civic duty but as covenantal faithful love, the same term used for God's steadfast commitment to his people. By naming their act chesed, David elevates it to the register of covenant loyalty: what Jabesh-gilead did for Saul was an act of the same quality as what God does for Israel.",
+      "translator_notes": [
+        "The blessing formula beruchim attem la-YHWH ('blessed are you by the LORD') invokes divine favor. David speaks not merely as a grateful politician but as the newly anointed king pronouncing a royal benediction. The preposition la-YHWH marks the LORD as the source of the blessing — it is God's blessing David channels, not his own.",
+        "The phrase im adoneikhem im Sha'ul ('with your lord, with Saul') uses the preposition im ('with') twice, creating emphasis. The word adon ('lord, master') acknowledges Saul's legitimate authority over them — David does not diminish Saul's kingship even after his own anointing. This diplomatic sensitivity is characteristic of David's posture toward Saul throughout the narrative."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הַחֶסֶד",
+          "transliteration": "ha-chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "loyal love, covenant faithfulness, steadfast kindness, mercy, devotion, lovingkindness",
+          "note": "Chesed is the defining term of the Covenant Rendering project. It denotes love that is bound by commitment — not mere emotion but loyalty that persists because of a prior relationship or obligation. The men of Jabesh-gilead owed Saul a debt from his rescue of their city (1 Samuel 11), and their recovery of his body is chesed because it is love expressed through costly, risky, faithful action. David's use of this word to describe their deed is theologically precise."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וְעַתָּ֕ה יַעַשׂ־יְהוָ֥ה עִמָּכֶ֖ם חֶ֣סֶד וֶאֱמֶ֑ת וְגַ֣ם אָנֹכִ֗י אֶעֱשֶׂ֤ה אִתְּכֶם֙ הַטּוֹבָ֣ה הַזֹּ֔את אֲשֶׁ֥ר עֲשִׂיתֶ֖ם הַדָּבָ֥ר הַזֶּֽה׃",
+      "text_kjv": "And now the LORD shew kindness and truth unto you: and I also will requite you this kindness, because ye have done this thing.",
+      "rendering": "Now may the LORD deal with you in faithful love and trustworthiness. And I myself will also treat you well, because you have done this.",
+      "expanded_rendering": "The phrase chesed ve-emet ('faithful love and trustworthiness') pairs two of the most important covenant terms in the Hebrew Bible. Chesed is loyal love; emet is firmness, reliability, truth. Together they form a hendiadys — 'faithful, reliable love' or 'love you can count on.' This is the same word-pair used to describe God's character at Sinai (Exodus 34:6) and throughout the Psalms (Psalm 25:10, 86:15). David prays that God will treat Jabesh-gilead with the same quality of covenant commitment they showed to Saul.",
+      "translator_notes": [
+        "The conjunction of divine chesed ve-emet with David's personal ha-tovah ha-zo't ('this good thing') creates a parallel structure: God will repay them with covenant love, and David will repay them with practical benefit. The word tovah ('good, goodness') is less theologically loaded than chesed — David carefully distinguishes what God can offer (chesed ve-emet) from what he can offer (tovah, political good will).",
+        "The phrase ve-gam anochi ('and also I myself') uses the emphatic independent pronoun. David is not merely promising — he is binding himself personally alongside God's promised blessing. This is the language of political alliance dressed in theological garments: David is courting Jabesh-gilead's loyalty."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד וֶאֱמֶת",
+          "transliteration": "chesed ve-emet",
+          "rendered_as": "faithful love and trustworthiness",
+          "semantic_range": "covenant loyalty and reliability, steadfast love and truth, lovingkindness and faithfulness",
+          "note": "This word-pair is among the most theologically dense in the Hebrew Bible. It appears in God's self-revelation at Sinai (Exodus 34:6), in the patriarchal narratives (Genesis 24:27, 47:29), and throughout the Psalms. When the two words appear together, they describe love that is both deeply committed (chesed) and utterly reliable (emet) — love that does not waver or deceive. David invokes this divine attribute as a blessing on human beings."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְעַתָּ֣ה ׀ תֶּחֱזַ֣קְנָה יְדֵיכֶ֗ם וִהְי֣וּ בְנֵי־חַ֔יִל כִּי־מֵ֖ת אֲדֹנֵיכֶ֣ם שָׁא֑וּל וְגַם־אֹתִ֗י מָשְׁח֧וּ בֵית־יְהוּדָ֛ה לְמֶ֖לֶךְ עֲלֵיהֶֽם׃",
+      "text_kjv": "Therefore now let your hands be strengthened, and be ye valiant: for your master Saul is dead; and also the house of Judah have anointed me king over them.",
+      "rendering": "So now, let your hands be strong and be courageous, for your lord Saul is dead — and the house of Judah has anointed me as king over them.",
+      "translator_notes": [
+        "The phrase techezaqnah yedeikhem ('let your hands be strong') is an idiom of encouragement that appears throughout the Hebrew Bible in moments of political and military transition (Judges 7:11, Zechariah 8:9). Strong hands can work, fight, and govern; weak hands signal despair and collapse. David is urging Jabesh-gilead not to lose heart despite their king's death.",
+        "The phrase bene chayil ('sons of valor/strength') means men of military capability and social standing — warriors who are also men of substance. David is affirming their identity and calling them to continue in strength. The final clause — 'the house of Judah has anointed me as king over them' — is a carefully worded political overture. David does not claim kingship over Jabesh-gilead or over Israel broadly; he states a fact about Judah and lets the implication settle: there is now a new king in the south, and he remembers who showed loyalty to the old king."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְאַבְנֵ֣ר בֶּן־נֵ֔ר שַׂר־צָבָ֖א אֲשֶׁ֣ר לְשָׁא֑וּל לָקַ֗ח אֶת־אִ֥ישׁ בֹּ֛שֶׁת בֶּן־שָׁא֖וּל וַיַּעֲבִרֵ֥הוּ מַחֲנָֽיְמָה׃",
+      "text_kjv": "But Abner the son of Ner, captain of Saul's host, took Ishbosheth the son of Saul, and brought him over to Mahanaim;",
+      "rendering": "Meanwhile, Abner son of Ner, the commander of Saul's army, had taken Ish-bosheth son of Saul and brought him across to Mahanaim.",
+      "translator_notes": [
+        "The adversative transition signals the narrative's pivot from David's consolidation in the south to the rival power structure in the north. Abner (avner, 'my father is a lamp') was Saul's cousin and the real military power behind the throne. The verb laqach ('he took') implies initiative: Abner is the actor, and Ish-bosheth is the object. The power dynamics are transparent from the first verb — Abner is the kingmaker, not the king.",
+        "The name Ish-boshet ('man of shame') is almost certainly a scribal emendation of the original Ish-baal ('man of Baal' or 'man of the lord'). The element baal was originally a legitimate title meaning 'lord' or 'master,' but later scribes replaced it with boshet ('shame') to avoid any association with the Canaanite deity. The original name appears in 1 Chronicles 8:33 as Esh-baal. Mahanaim ('two camps'), east of the Jordan, was Jacob's camp when he encountered angels (Genesis 32:2). Its use as Ish-bosheth's capital signals weakness — the new king governs from the Transjordanian fringe, not from any major Israelite city."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיַּמְלִכֵ֣הוּ אֶל־הַגִּלְעָ֗ד וְאֶל־הָאֲשׁוּרִי֙ וְאֶל־יִזְרְעֶ֔אל וְעַל־אֶפְרַ֙יִם֙ וְעַל־בִּנְיָמִ֔ן וְעַל־יִשְׂרָאֵ֖ל כֻּלֹּֽה׃",
+      "text_kjv": "And made him king over Gilead, and over the Ashurites, and over Jezreel, and over Ephraim, and over Benjamin, and over all Israel.",
+      "rendering": "He made him king over Gilead, the Ashurites, Jezreel, Ephraim, Benjamin, and all Israel.",
+      "translator_notes": [
+        "The list of territories under Ish-bosheth's nominal rule moves from east to west: Gilead (Transjordan), the Ashurites (possibly the Geshurites or Asherites — the identity is debated), Jezreel (the great northern valley), Ephraim (the central hill country), and Benjamin (Saul's home tribe). The final phrase ve-al Yisra'el kulah ('and over all Israel') is the narrator's summary claim, though the reality falls far short — David already holds Judah, and Philistine control over key areas renders Ish-bosheth's sovereignty largely theoretical.",
+        "The identity of ha-Ashuri is a long-standing textual crux. The Septuagint reads 'Geshur,' some manuscripts suggest 'Asher,' and the Vulgate has 'Gessuri.' No identification is certain. We follow the MT form and note the ambiguity."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "בֶּן־אַרְבָּעִ֨ים שָׁנָ֜ה אִישׁ־בֹּ֣שֶׁת בֶּן־שָׁא֗וּל בְּמׇלְכ֤וֹ עַל־יִשְׂרָאֵל֙ וּשְׁתַּ֣יִם שָׁנִ֔ים מָלָ֑ךְ אַ֚ךְ בֵּ֣ית יְהוּדָ֔ה הָי֖וּ אַחֲרֵ֥י דָוִֽד׃",
+      "text_kjv": "Ishbosheth Saul's son was forty years old when he began to reign over Israel, and reigned two years. But the house of Judah followed David.",
+      "rendering": "Ish-bosheth son of Saul was forty years old when he became king over Israel, and he reigned for two years. But the house of Judah followed David.",
+      "translator_notes": [
+        "The regnal formula — age at accession and length of reign — follows the standard pattern for Israelite kings. The number forty may be formulaic (indicating a generation or full maturity) rather than precise. His two-year reign contrasts sharply with David's seven-and-a-half years at Hebron (v. 11), suggesting that Ish-bosheth's kingdom was short-lived and contested.",
+        "The adversative akh ('but, however') introduces a sharp contrast: whatever Ish-bosheth claims, the house of Judah belongs to David. The verb hayu acharei David ('were after David, followed David') uses acharei in the sense of political allegiance — they walked behind David as subjects walk behind their king."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיְהִ֗י מִסְפַּ֤ר הַיָּמִים֙ אֲשֶׁ֨ר הָיָ֥ה דָוִ֛ד מֶ֖לֶךְ בְּחֶבְר֑וֹן עַל־בֵּ֣ית יְהוּדָ֔ה שֶׁ֥בַע שָׁנִ֖ים וְשִׁשָּׁ֥ה חֳדָשִֽׁים׃",
+      "text_kjv": "And the time that David was king in Hebron over the house of Judah was seven years and six months.",
+      "rendering": "The total time David reigned as king in Hebron over the house of Judah was seven years and six months.",
+      "translator_notes": [
+        "This chronological note provides the framework for the events narrated in chapters 2-4. The precision — seven years and six months — suggests access to official court records. This number recurs in 2 Samuel 5:5 and 1 Kings 2:11, confirming its place in the royal chronology. David's Hebron period is longer than Ish-bosheth's two-year reign, implying a period of interregnum or contested rule between Ish-bosheth's fall and David's anointing over all Israel."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיֵּצֵ֗א אַבְנֵ֤ר בֶּן־נֵר֙ וְעַבְדֵ֣י אִישׁ־בֹּ֣שֶׁת בֶּן־שָׁא֔וּל מִמַּחֲנַ֖יִם גִּבְעֽוֹנָה׃",
+      "text_kjv": "And Abner the son of Ner, and the servants of Ishbosheth the son of Saul, went out from Mahanaim to Gibeon.",
+      "rendering": "Abner son of Ner marched out from Mahanaim to Gibeon with the servants of Ish-bosheth son of Saul.",
+      "translator_notes": [
+        "The verb yatsa ('went out') in military contexts means to march out for war, to deploy forces. Abner's movement from Mahanaim westward to Gibeon is an aggressive strategic move — Gibeon sits in Benjaminite territory, only six miles northwest of Jerusalem. This is a bid to assert control over the central highlands and press Ish-bosheth's claim into Judah's proximity.",
+        "Gibeon was a significant city in Israelite history: the site of Joshua's treaty with the Gibeonites (Joshua 9) and the great battle where the sun stood still (Joshua 10:12). It also housed the tabernacle in this period (1 Chronicles 16:39, 21:29). Abner's choice of Gibeon as his staging ground may have been strategic, political, or both."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְיוֹאָ֤ב בֶּן־צְרוּיָה֙ וְעַבְדֵ֣י דָוִ֔ד יָצְא֕וּ וַיִּפְגְּשׁ֣וּם עַל־בְּרֵכַ֥ת גִּבְע֖וֹן יַחְדָּ֑ו וַיֵּשְׁב֤וּ אֵ֙לֶּה֙ עַל־הַבְּרֵכָ֣ה מִזֶּ֔ה וְאֵ֥לֶּה עַל־הַבְּרֵכָ֖ה מִזֶּֽה׃",
+      "text_kjv": "And Joab the son of Zeruiah, and the servants of David, went out, and met together by the pool of Gibeon: and they sat down, the one on the one side of the pool, and the other on the other side of the pool.",
+      "rendering": "Joab son of Zeruiah and David's servants also marched out, and the two forces met at the pool of Gibeon. They took up positions on opposite sides of the pool — one group on one side, the other group facing them.",
+      "translator_notes": [
+        "The verb pagash ('to meet, to encounter') can denote a chance meeting or a deliberate confrontation. Given the military context, this is a face-off, not an accident. The pool of Gibeon (berekhat Giv'on) has been identified archaeologically as a large, rock-cut water installation at the site of el-Jib, approximately 37 feet in diameter. It served as a natural dividing line between the two forces.",
+        "The spatial description — elleh al ha-berekhah mizzeh ve-elleh al ha-berekhah mizzeh ('these on one side of the pool and those on the other side of the pool') — creates a visual tableau of two armies in mirrored positions, separated by water. The symmetry of the description foreshadows the symmetry of the combat that follows."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיֹּ֤אמֶר אַבְנֵר֙ אֶל־יוֹאָ֔ב יָק֤וּמוּ נָא֙ הַנְּעָרִ֔ים וִישַׂחֲק֖וּ לְפָנֵ֑ינוּ וַיֹּ֥אמֶר יוֹאָ֖ב יָקֻֽמוּ׃",
+      "text_kjv": "And Abner said to Joab, Let the young men now arise, and play before us. And Joab said, Let them arise.",
+      "rendering": "Abner said to Joab, \"Let the young men get up and compete before us.\" Joab said, \"Let them.\"",
+      "translator_notes": [
+        "The verb sachaq (Piel: yesachagu, here vi-yesachagu) has a broad semantic range: to laugh, to play, to jest, to perform, to engage in combat as sport. The same root describes Isaac's play (Genesis 21:9), Samson's forced performance for the Philistines (Judges 16:25), and children playing in the streets (Zechariah 8:5). In a military context between opposing armies, the 'play' is almost certainly representative combat — a formalized contest between chosen warriors whose outcome may determine or initiate the broader battle.",
+        "Joab's curt response — yaqumu, a single word ('let them arise') — gives consent without enthusiasm. The brevity may signal agreement, indifference, or calculated willingness to let the other side take the initiative and the blame. Joab is David's nephew (son of David's sister Zeruiah) and already functions as David's chief military commander."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיָּקֻ֤מוּ וַיַּעַבְר֣וּ בְמִסְפָּ֔ר שְׁנֵ֤ים עָשָׂר֙ לְבִנְיָמִ֔ן וּלְאִ֥ישׁ בֹּ֖שֶׁת בֶּן־שָׁא֑וּל וּשְׁנֵ֥ים עָשָׂ֖ר מֵעַבְדֵ֥י דָוִֽד׃",
+      "text_kjv": "Then there arose and went over by number twelve of Benjamin, which pertained to Ishbosheth the son of Saul, and twelve of the servants of David.",
+      "rendering": "They rose and crossed over by count — twelve for Benjamin and Ish-bosheth son of Saul, and twelve from David's servants.",
+      "translator_notes": [
+        "The phrase va-ya'avru be-mispar ('they crossed over by number') indicates a formal, counted selection — this is not a spontaneous brawl but an organized contest with precisely matched sides. The number twelve on each side echoes the twelve tribes of Israel, suggesting that these champions represent the whole nation in microcosm.",
+        "The fighters from Ish-bosheth's side are identified as le-Vinyamin ('for Benjamin') — they are Benjaminites, Saul's own tribesmen and presumably his most loyal warriors. The narrator's identification of them by tribe rather than just by king underscores the tribal nature of this civil war."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַֽיַּחֲזִ֜קוּ אִ֣ישׁ ׀ בְּרֹ֣אשׁ רֵעֵ֗הוּ וְחַרְבּ֛וֹ בְּצַ֥ד רֵעֵ֖הוּ וַיִּפְּל֣וּ יַחְדָּ֑ו וַיִּקְרָא֩ לַמָּק֨וֹם הַה֜וּא חֶלְקַ֥ת הַצֻּרִ֛ים אֲשֶׁ֖ר בְּגִבְעֽוֹן׃",
+      "text_kjv": "And they caught every one his fellow by the head, and thrust his sword in his fellow's side; so they fell down together: wherefore that place was called Helkathhazzurim, which is in Gibeon.",
+      "rendering": "Each man seized his opponent by the head and drove his sword into his opponent's side, and they all fell together. So that place was named Helkath-hazzurim — it is in Gibeon.",
+      "translator_notes": [
+        "The verb chazaq ('to seize, to grasp firmly') describes each warrior grabbing the head of the man opposite him — likely gripping the hair or the back of the skull to hold him in place for the killing blow. The phrase ve-charbo be-tsad re'ehu ('and his sword in his opponent's side') describes simultaneous mutual kills: each man stabs the other while being stabbed himself. The result — vayyiplu yachdav ('they fell together') — is total mutual annihilation. Twenty-four men enter the contest; twenty-four die.",
+        "The place-name Helqat ha-Tsurim is notoriously difficult. Tsurim could derive from tsur ('rock, flint'), tsur ('sharp edge, blade'), or tsar ('adversary'). Possible meanings include 'Field of Flint-Edges,' 'Field of Sword-Edges,' or 'Field of Adversaries.' The Septuagint reads 'portion of the plotters' (meris ton epibulon). The ambiguity preserves the horror of the scene: the name memorializes violence, whatever its exact etymology."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַתְּהִ֧י הַמִּלְחָמָ֛ה קָשָׁ֥ה עַד־מְאֹ֖ד בַּיּ֣וֹם הַה֑וּא וַיִּנָּ֣גֶף אַבְנֵ֗ר וְאַנְשֵׁ֣י יִשְׂרָאֵ֔ל לִפְנֵ֖י עַבְדֵ֥י דָוִֽד׃",
+      "text_kjv": "And there was a very sore battle that day; and Abner was beaten, and the men of Israel, before the servants of David.",
+      "rendering": "The battle that day was extremely fierce. Abner and the men of Israel were defeated by David's servants.",
+      "translator_notes": [
+        "The adjective qashah ('hard, severe, fierce') intensifies the violence — the mutual slaughter of the twenty-four champions did not settle the conflict but ignited a full-scale battle. The verb vayyinnagef ('he was struck, defeated') is a Niphal passive: Abner was defeated. The passive construction places the focus on the result rather than the agent — David's men won, but the narrator does not celebrate the victory. This is, after all, Israelite killing Israelite.",
+        "The phrase anshei Yisra'el ('the men of Israel') refers to the northern forces under Abner. The narrator's use of 'Israel' for Ish-bosheth's faction and 'servants of David' for the southern forces avoids calling the Judahites 'Israel' — the name belongs, at this point, to the larger tribal confederation that has not yet accepted David."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיִּהְיוּ־שָׁ֗ם שְׁלֹשָׁה֙ בְּנֵ֣י צְרוּיָ֔ה יוֹאָ֥ב וַאֲבִישַׁ֖י וַעֲשָׂהאֵ֑ל וַעֲשָׂהאֵ֗ל קַ֥ל בְּרַגְלָ֖יו כְּאַחַ֥ד הַצְּבָיִֽם אֲשֶׁ֥ר בַּשָּׂדֶֽה׃",
+      "text_kjv": "And there were three sons of Zeruiah there, Joab, and Abishai, and Asahel: and Asahel was as light of foot as a wild roe.",
+      "rendering": "Three sons of Zeruiah were there — Joab, Abishai, and Asahel. Asahel was as fleet-footed as one of the wild gazelles.",
+      "translator_notes": [
+        "The phrase qal be-raglav ('light on his feet') describes exceptional running speed. The comparison to the tsevi ('gazelle') is not ornamental — the mountain gazelle of the Judean hills was proverbially the fastest creature in the Israelite landscape. The phrase ke-achad ha-tseva'im asher ba-sadeh ('like one of the gazelles that are in the open field') specifies wild, not domesticated — these are creatures of pure speed in open terrain.",
+        "Zeruiah was David's sister (1 Chronicles 2:16), making Joab, Abishai, and Asahel David's nephews. The three brothers function as David's military inner circle. The introduction of Asahel here, with his defining characteristic of speed, is narrative preparation for his death — the very quality that makes him exceptional will be his undoing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיִּרְדֹּ֥ף עֲשָׂהאֵ֖ל אַחֲרֵ֣י אַבְנֵ֑ר וְלֹא־נָטָ֣ה לָלֶ֗כֶת עַל־הַיָּמִ֛ין וְעַל־הַשְּׂמֹ֖אול מֵאַחֲרֵ֥י אַבְנֵֽר׃",
+      "text_kjv": "And Asahel pursued after Abner; and in going he turned not to the right hand nor to the left from following Abner.",
+      "rendering": "Asahel chased after Abner and did not veer to the right or the left from pursuing him.",
+      "translator_notes": [
+        "The verb radaph ('to pursue, to chase') indicates single-minded pursuit. The phrase lo natah ('he did not turn aside') combined with al ha-yamin ve-al ha-semo'l ('to the right or to the left') is a totality expression: Asahel was locked onto Abner with absolute focus, ignoring every other combatant on the field. This kind of fixation on a single enemy commander was either extraordinarily brave or fatally reckless — the narrator lets both possibilities stand.",
+        "Asahel's pursuit of Abner, the enemy commander, suggests ambition beyond the battle itself. Killing or capturing Abner would end the war in a single stroke. The young warrior's speed gives him the physical ability to catch the older general, but the text is about to reveal that speed is not the only factor in combat."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיִּ֤פֶן אַבְנֵר֙ אַחֲרָ֔יו וַיֹּ֕אמֶר הַאַתָּ֥ה זֶ֖ה עֲשָׂהאֵ֑ל וַיֹּ֖אמֶר אָנֹֽכִי׃",
+      "text_kjv": "Then Abner looked behind him, and said, Art thou Asahel? And he answered, I am.",
+      "rendering": "Abner looked back and said, \"Is that you, Asahel?\" He answered, \"It is.\"",
+      "translator_notes": [
+        "Abner's question ha-attah zeh Asa'el ('are you this one — Asahel?') shows that Abner recognizes his pursuer. The demonstrative zeh ('this') suggests visual identification under difficult conditions — mid-flight, looking over his shoulder. The recognition is crucial: Abner knows exactly whose brother he will have to kill if Asahel does not relent. The exchange is remarkably brief: question and answer, two words from Asahel — anokhi ('I am'). There is no bravado, no taunting — just identification."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיֹּ֣אמֶר ל֣וֹ אַבְנֵ֗ר נְטֵ֤ה לְךָ֙ עַל־יְמִֽינְךָ֙ א֣וֹ עַל־שְׂמֹאלֶ֔ךָ וֶאֱחֹ֣ז לְךָ֗ אַחַד֙ מֵהַנְּעָרִ֔ים וְקַח־לְךָ֖ אֶת־חֲלִצָת֑וֹ וְלֹ֤א אָבָה֙ עֲשָׂהאֵ֔ל לָס֖וּר מֵאַחֲרָֽיו׃",
+      "text_kjv": "And Abner said to him, Turn thee aside to thy right hand or to thy left, and lay thee hold on one of the young men, and take thee his armour. But Asahel would not turn aside from following of him.",
+      "rendering": "Abner said to him, \"Turn aside — go right or left. Seize one of the young soldiers and take his equipment for yourself.\" But Asahel refused to stop pursuing him.",
+      "translator_notes": [
+        "Abner's command neteh lekha ('turn aside for yourself') is his first attempt to save Asahel's life. The offer — take the armor-strip (chalitsah) from a lesser soldier — gives Asahel a way to claim a trophy and save face without forcing a confrontation with the commander himself. The word chalitsah refers to the stripped equipment of a defeated enemy, a standard spoil of war that proved combat valor.",
+        "The refusal formula lo avah Asa'el lasur me-acharav ('Asahel was not willing to turn from behind him') uses the same construction (lo avah) that described Saul's armor-bearer refusing to strike the king (1 Samuel 31:4). In both cases, the refusal is a deep dispositional unwillingness — but with opposite moral valences. The armor-bearer refused out of reverent terror; Asahel refuses out of reckless ambition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיֹּ֨סֶף ע֜וֹד אַבְנֵ֗ר לֵאמֹר֙ אֶל־עֲשָׂהאֵ֔ל ס֥וּר לְךָ֖ מֵאַחֲרָ֑י לָ֤מָּה אַכֶּ֙כָּה֙ אַ֔רְצָה וְאֵיךְ֙ אֶשָּׂ֣א פָנַ֔י אֶל־יוֹאָ֖ב אָחִֽיךָ׃",
+      "text_kjv": "And Abner said again to Asahel, Turn thee aside from following me: wherefore should I smite thee to the ground? how then should I hold up my face to Joab thy brother?",
+      "rendering": "Abner warned him again: \"Turn away from me! Why should I strike you to the ground? How could I face your brother Joab?\"",
+      "translator_notes": [
+        "Abner's second warning is more urgent and more personal. The question lammah akkekah artsah ('why should I strike you to the ground') is not a bluff — it is a statement of certain outcome. Abner knows he can kill Asahel. The verb nakah ('to strike') in the Hiphil conveys a decisive, lethal blow. Abner frames the killing not as a question of ability but of consequence.",
+        "The phrase ve-eikh essa fanay el Yo'av achikha ('how would I lift my face to Joab your brother') reveals Abner's strategic calculus. Killing Asahel would create a blood-feud with Joab that could never be resolved through normal political negotiation. The idiom nasa panim ('to lift the face') means to face someone without shame or fear — Abner is saying that killing Joab's brother would make any future peace between them impossible. This warning proves prophetically accurate: Joab will murder Abner in chapter 3."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיְמָאֵ֣ן לָס֗וּר וַיַּכֵּ֣הוּ אַבְנֵ֡ר בְּאַחֲרֵ֨י הַחֲנִ֜ית אֶל־הַחֹ֗מֶשׁ וַתֵּצֵ֤א הַחֲנִית֙ מֵאַחֲרָ֔יו וַיִּפׇּל־שָׁ֛ם וַיָּ֥מׇת תַּחְתָּ֑יו וַיְהִ֗י כׇּל־הַבָּא֙ אֶל־הַמָּק֗וֹם אֲשֶׁר־נָ֧פַל שָׁ֛ם עֲשָׂהאֵ֖ל וַיָּמֹ֑ת וַיַּעֲמֹֽדוּ׃",
+      "text_kjv": "Howbeit he refused to turn aside: wherefore Abner with the hinder end of the spear smote him under the fifth rib, that the spear came out behind him; and he fell down there, and died in the same place: and it came to pass, that as many as came to the place where Asahel fell down and died stood still.",
+      "rendering": "But he refused to turn aside. So Abner struck him in the belly with the butt-end of his spear, and the spear came out through his back. He fell there and died on the spot. Everyone who came to the place where Asahel had fallen and died stopped and stood still.",
+      "translator_notes": [
+        "The verb me'en ('he refused') is stronger than lo avah in verse 21 — it is an active, emphatic refusal. Abner responds with lethal precision: be-acharei ha-chanit ('with the back-end of the spear') means the blunt, metal-tipped butt-end of the shaft, not the spearhead. That Abner kills Asahel with the wrong end of the spear — without even turning to face him — underscores the vast gap in combat experience between the two men. The blow lands el ha-chomesh ('to the fifth [rib]' or 'to the abdomen'), a vulnerable spot below the ribcage.",
+        "The detail va-tetse ha-chanit me-acharav ('the spear came out from behind him') indicates the force of the blow drove the butt-end entirely through Asahel's body. The phrase vayyamot tachtav ('he died in his place' or 'he died under himself') means he dropped dead where he stood — instant death, no lingering. The final image — everyone who reaches the spot stops and stands still (vayyaamodu) — is cinematic: Asahel's body becomes a landmark on the battlefield, a marker of horror that freezes every passing soldier in his tracks."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וַיִּרְדְּפ֥וּ יוֹאָ֛ב וַאֲבִישַׁ֖י אַחֲרֵ֣י אַבְנֵ֑ר וְהַשֶּׁ֣מֶשׁ בָּ֗אָה וְהֵ֤מָּה בָּ֙אוּ֙ עַד־גִּבְעַ֣ת אַמָּ֔ה אֲשֶׁ֣ר עַל־פְּנֵי־גִ֔יחַ דֶּ֖רֶךְ מִדְבַּ֥ר גִּבְעֽוֹן׃",
+      "text_kjv": "Joab also and Abishai pursued after Abner: and the sun went down when they were come to the hill of Ammah, that lieth before Giah by the way of the wilderness of Gibeon.",
+      "rendering": "Joab and Abishai pursued Abner. By the time the sun was setting, they had reached the hill of Ammah, which faces Giah along the road to the wilderness of Gibeon.",
+      "translator_notes": [
+        "The pursuit now shifts from Asahel (dead) to his two brothers, Joab and Abishai. The temporal marker ve-ha-shemesh ba'ah ('the sun was coming/going') indicates late afternoon or early evening — the battle has lasted most of the day. The geographic markers — giv'at Ammah ('hill of Ammah') and Giach — are otherwise unknown and cannot be identified with certainty. They function as waypoints in a running pursuit through the Gibeonite countryside.",
+        "The phrase derekh midbar Giv'on ('the road to the wilderness of Gibeon') indicates Abner is retreating eastward, back toward the Jordan and his base at Mahanaim. The 'wilderness' (midbar) here refers to the sparsely settled terrain descending from the central ridge toward the Jordan Valley."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיִּתְקַבְּצ֤וּ בְנֵֽי־בִנְיָמִן֙ אַחֲרֵ֣י אַבְנֵ֔ר וַיִּהְי֖וּ לַאֲגֻדָּ֣ה אֶחָ֑ת וַיַּעַמְד֕וּ עַל־רֹ֥אשׁ גִּבְעָ֖ה אֶחָֽת׃",
+      "text_kjv": "And the children of Benjamin gathered themselves together after Abner, and became one troop, and stood on the top of an hill.",
+      "rendering": "The Benjaminites rallied behind Abner, forming a single unit, and took a stand on the top of a hill.",
+      "translator_notes": [
+        "The verb hitqabtsu ('they gathered themselves together') is a Hithpael reflexive — the Benjaminites regroup on their own initiative, rallying around their commander after a rout. The phrase la-aguddah echat ('into one band/unit') indicates tactical consolidation: scattered troops forming a defensive cluster. The hilltop position (al rosh giv'ah achat) gives them the defensive advantage of high ground, turning a retreat into a defensible stand.",
+        "The identification of the rallying troops as bene Vinyamin ('sons of Benjamin') rather than 'men of Israel' narrows the focus: it is Saul's own tribe that forms Abner's last-stand force. Tribal loyalty, not pan-Israelite nationalism, is what holds this army together."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַיִּקְרָ֤א אַבְנֵר֙ אֶל־יוֹאָ֔ב וַיֹּ֕אמֶר הֲלָנֶ֖צַח תֹּ֣אכַל חָ֑רֶב הֲל֣וֹא יָדַ֗עְתָּה כִּי־מָרָ֛ה תִּהְיֶ֥ה בָאַחֲרוֹנָ֖ה וְעַד־מָתַ֗י לֹ֤א תֹאמַר֙ לָעָ֔ם לָשׁ֖וּב מֵאַחֲרֵ֥י אֲחֵיהֶֽם׃",
+      "text_kjv": "Then Abner called to Joab, and said, Shall the sword devour for ever? knowest thou not that it will be bitterness in the latter end? how long shall it be then, ere thou bid the people return from following their brethren?",
+      "rendering": "Abner called out to Joab: \"Must the sword consume forever? Don't you realize how bitter this will end? How long before you order your men to stop pursuing their own brothers?\"",
+      "translator_notes": [
+        "Abner's speech contains three rhetorical questions, each escalating in urgency. The first — ha-la-netsach tokhal cherev ('will the sword eat forever?') — personifies the sword as a devouring beast, an image found throughout Hebrew poetry (Deuteronomy 32:42, Isaiah 1:20). The verb akhal ('to eat, to consume') makes warfare into predation.",
+        "The second question — ki marah tihyeh ba-acharonah ('it will be bitter in the end') — warns of consequences. The adjective marah ('bitter') evokes the bitterness of death, grief, and regret. Abner is not making a moral argument but a practical one: this fratricidal fighting will produce a bitterness that outlasts the battle itself. The third question — ad matay lo tomar la-am lashuv me-acharei achehem ('how long until you tell the people to turn back from behind their brothers') — introduces the devastating word achehem ('their brothers'). Abner names the fundamental horror of civil war: these armies are brothers pursuing brothers."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיֹּ֣אמֶר יוֹאָ֔ב חַ֚י הָאֱלֹהִ֔ים כִּ֥י לוּלֵ֖א דִבַּ֑רְתָּ כִּ֤י אָז֙ מֵֽהַבֹּ֔קֶר נַעֲלָ֣ה הָעָ֔ם אִ֖ישׁ מֵאַחֲרֵ֥י אָחִֽיו׃",
+      "text_kjv": "And Joab said, As God liveth, unless thou hadst spoken, surely then in the morning the people had gone up every one from following his brother.",
+      "rendering": "Joab replied, \"As God lives, if you had not spoken, the men would have continued pursuing their brothers until morning.\"",
+      "translator_notes": [
+        "Joab's oath formula chai ha-Elohim ('as God lives') solemnizes his statement. The conditional clause lu-le' dibbarta ('if you had not spoken') is ambiguous: does Joab mean 'if you had not called for the contest in verse 14, none of this would have happened,' or 'if you had not just now called for a cease-fire, I would not have stopped until dawn'? Both readings are grammatically possible. The first is an accusation (you started this); the second is a concession (I accept your terms).",
+        "The phrase me-ha-boqer na'alah ha-am ('from the morning the people would have gone up') refers to the pursuit continuing through the night until the next morning. The verb alah ('to go up') in military context means to advance, to press the attack. Joab's response accepts the cease-fire but refuses to accept blame — the ambiguity of his words preserves his dignity while ending the bloodshed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וַיִּתְקַ֤ע יוֹאָב֙ בַּשּׁוֹפָ֔ר וַיַּעַמְד֣וּ כׇּל־הָעָ֔ם וְלֹֽא־יִרְדְּפ֥וּ ע֖וֹד אַחֲרֵ֣י יִשְׂרָאֵ֑ל וְלֹ֥א יָסְפ֖וּ ע֥וֹד לְהִלָּחֵֽם׃",
+      "text_kjv": "So Joab blew a trumpet, and all the people stood still, and pursued after Israel no more, neither fought they any more.",
+      "rendering": "Joab sounded the ram's horn, and all the troops halted. They no longer pursued Israel, and the fighting ceased.",
+      "translator_notes": [
+        "The shofar blast serves as the formal signal to break off combat. The verb taqah ('to thrust, to blow') combined with shofar indicates a clear, recognized military signal — the troops respond immediately: vayyaamdu kol ha-am ('all the people stood still'). The cessation is total: lo yirdephu od ('they no longer pursued') and lo yasephu od le-hillachem ('they no longer continued to fight'). The double negative construction emphasizes the completeness of the disengagement.",
+        "The narrator's reference to the opposing force as 'Israel' (acharei Yisra'el) is significant: from Joab's army's perspective, the enemy is 'Israel' — the larger entity from which Judah has separated. The term carries weight: David's men are fighting against Israel, not merely against Abner's faction."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְאַבְנֵ֣ר וַאֲנָשָׁ֗יו הָלְכ֤וּ בָֽעֲרָבָה֙ כׇּל־הַלַּ֣יְלָה הַה֔וּא וַיַּעַבְר֖וּ אֶת־הַיַּרְדֵּ֑ן וַיֵּלְכ֥וּ כׇּל־הַבִּתְר֖וֹן וַיָּבֹ֥אוּ מַחֲנָֽיִם׃",
+      "text_kjv": "And Abner and his men walked all that night through the plain, and passed over Jordan, and went through all Bithron, and they came to Mahanaim.",
+      "rendering": "Abner and his men marched through the Arabah all night, crossed the Jordan, and traveled through the whole Bithron before arriving at Mahanaim.",
+      "translator_notes": [
+        "The Arabah (aravah) is the rift valley running from the Sea of Galilee south through the Dead Sea basin. Abner's night march through this low-lying terrain and across the Jordan River represents a retreat of considerable distance — roughly thirty to forty miles from Gibeon to Mahanaim. The urgency of the march (kol ha-laylah ha-hu, 'all that night') suggests Abner feared Joab might resume the pursuit at dawn.",
+        "The Bithron (ha-bitron) is an otherwise unknown locality, possibly a ravine or district in Transjordan. The word may derive from batar ('to cut, to cleave'), suggesting a cut or gorge through which the road passed. The arrival at Mahanaim brings Abner's forces full circle — they departed from Mahanaim in verse 12 and return to it here, having accomplished nothing except losses."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְיוֹאָ֗ב שָׁ֚ב מֵאַחֲרֵ֣י אַבְנֵ֔ר וַיִּקְבֹּ֖ץ אֶת־כׇּל־הָעָ֑ם וַיִּפָּ֨קְד֜וּ מֵעַבְדֵ֤י דָוִד֙ תִּשְׁעָ֤ה עָשָׂר֙ אִ֔ישׁ וַעֲשָׂה־אֵֽל׃",
+      "text_kjv": "And Joab returned from following Abner: and when he had gathered all the people together, there lacked of David's servants nineteen men and Asahel.",
+      "rendering": "Joab returned from pursuing Abner and assembled all his troops. When David's servants were counted, nineteen men were missing — and Asahel.",
+      "translator_notes": [
+        "The verb paqad ('to count, to muster, to take account of') is the standard military census verb. The total losses from David's side: nineteen men and Asahel — twenty total. The narrator separates Asahel's name from the count with the conjunction ve ('and Asahel'), giving him a distinct place in the casualty list. He is not merely one of the twenty; he is named individually because his death carries consequences that the nineteen anonymous dead do not.",
+        "The relatively low number (twenty) compared to the losses on Abner's side (three hundred and sixty, v. 31) confirms the decisive nature of David's military victory at Gibeon, despite the emotional cost of Asahel's death."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וְעַבְדֵ֣י דָוִ֗ד הִכּוּ֙ מִבִּנְיָמִ֔ן וּבְאַנְשֵׁ֖י אַבְנֵ֑ר שְׁלֹשׁ־מֵא֧וֹת וְשִׁשִּׁ֛ים אִ֖ישׁ מֵֽתוּ׃",
+      "text_kjv": "But the servants of David had smitten of Benjamin, and of Abner's men, so that three hundred and threescore men died.",
+      "rendering": "David's servants had struck down three hundred and sixty of the Benjaminites and Abner's men — they were dead.",
+      "translator_notes": [
+        "The casualty ratio is stark: twenty to three hundred sixty, an eighteen-to-one disparity. The dead are identified as mi-Vinyamin u-ve-anshei Avner ('from Benjamin and from Abner's men'), again using the tribal name alongside the commander's. The verb hikku ('they struck') is a Hiphil of nakah, the standard verb for inflicting lethal military blows.",
+        "The final word metu ('they died') is blunt and unadorned. The narrator does not celebrate the victory or moralize about the losses. Both sides are Israelites; every death is a loss to the covenant people. The body count simply stands as evidence of what happens when brothers make war on brothers."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וַיִּשְׂא֣וּ אֶת־עֲשָׂהאֵ֔ל וַיִּקְבְּרֻ֙הוּ֙ בְּקֶ֣בֶר אָבִ֔יו אֲשֶׁ֖ר בֵּ֣ית לָ֑חֶם וַיֵּלְכ֣וּ כׇל־הַלַּ֗יְלָה יוֹאָב֙ וַאֲנָשָׁ֔יו וַיֵּאֹ֥ר לָהֶ֖ם בְּחֶבְרֽוֹן׃",
+      "text_kjv": "And they took up Asahel, and buried him in the sepulchre of his father, which was in Bethlehem. And Joab and his men went all night, and they came to Hebron at break of day.",
+      "rendering": "They carried Asahel and buried him in his father's tomb at Bethlehem. Then Joab and his men marched all night and reached Hebron at daybreak.",
+      "translator_notes": [
+        "The verb nasa ('to carry, to lift') describes the bearing of Asahel's body — the same verb used for carrying the ark, for bearing burdens, and for the solemn transport of the dead. The burial in qever aviv ('his father's tomb') at Bethlehem follows standard Israelite practice of interment in the family burial site. Bethlehem is identified here as the ancestral home of Jesse's family — David's family — confirming that Asahel, as David's nephew, belongs to the Bethlehemite clan.",
+        "Joab's night march from the Gibeon area to Hebron (roughly 20 miles through the hill country) mirrors Abner's night march to Mahanaim. Both commanders return to their respective capitals under cover of darkness. The phrase vayyeor lahem be-Chevron ('it grew light for them in Hebron') is a beautiful temporal marker: dawn breaks as they arrive home, the first light after a dark day of fratricidal war."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

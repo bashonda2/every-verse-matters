@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Job",
+    "chapter": 36,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Elihu's fourth and longest speech begins as a defense of God's justice and climbs steadily toward a meditation on divine power in nature. He opens by claiming to speak on God's behalf, asserting that God is mighty but does not despise anyone. God watches over the righteous and seats them with kings, but when the afflicted are bound in chains, he uses their suffering to expose their transgressions and open their ears to instruction. Those who listen are restored to prosperity; those who refuse perish. The godless in heart nurse anger and refuse to cry for help. Elihu then turns directly to Job, warning him not to long for the night of judgment and not to turn toward iniquity. From verse 22 onward, the speech transforms: Elihu lifts his eyes to the sky and begins describing God's power as revealed in storm, rain, lightning, and thunder. God is great beyond human comprehension. He draws up water droplets that distill into rain. He spreads his lightning and covers the depths of the sea. Through these he judges nations and provides abundant food. Lightning fills his hands and he commands it to strike its mark. The thunder announces his coming — even the cattle sense the approaching storm.",
+    "remarkable": "This chapter is the hinge of the entire Elihu section and arguably of the book. Beginning at verse 22, Elihu stops arguing about suffering and starts pointing at the sky. His speech undergoes a genre shift from didactic discourse to nature poetry, and the nature poetry builds directly into the theophany of chapters 38-41. Elihu becomes the warm-up act for God. The transition is not accidental — it enacts the very theology Elihu has been preaching. He told Job to look up (35:5); now Elihu himself looks up and is overwhelmed by what he sees. The rain cycle described in verses 27-28 is remarkably accurate for ancient observation: God draws up water droplets, they condense in clouds, and the clouds pour down rain on humanity. The lightning imagery in verses 30-33 is visceral — God holds bolts in his hands and hurls them at targets. The chapter ends with cattle sensing the storm, a detail of pastoral observation that grounds the cosmic poetry in lived experience.",
+    "friction": "Elihu's claim to speak 'on behalf of my Maker' (verse 3) is audacious, and the book will implicitly rebuke it when God speaks for himself. Elihu's pastoral theology in verses 8-15 — that suffering is God's way of opening ears to instruction — contains genuine wisdom but stumbles on the same rock as the friends: it assumes a pedagogical purpose for all suffering, which does not account for the gratuitous dimension of Job's case. The prologue has established that Job's suffering originates in a divine wager, not in a divine lesson plan. Elihu's nature poetry, however, escapes this limitation because it makes no claim about why Job suffers — it simply directs attention toward the God who controls the storm. In doing so, Elihu inadvertently provides the correct preparation for encountering God: not understanding but awe.",
+    "connections": "The rain cycle (verses 27-28) parallels Amos 4:7 and Psalm 147:8. The 'God is great' declaration (verse 26) uses gadol, the same term in Deuteronomy 10:17 ('the great, mighty, and awesome God'). The throne imagery (verse 7, 'he seats them with kings') echoes 1 Samuel 2:8 (Hannah's prayer: 'he raises the poor from the dust and seats them with princes'). The transition from didactic speech to nature theophany mirrors the structure of Psalm 19, which moves from 'the heavens declare the glory of God' to the law of the Lord. Most critically, Elihu's storm poetry in verses 26-33 functions as the dramatic overture to God's whirlwind speech — the storm that Elihu describes is the very storm from which God will speak in 38:1."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיֹּ֥סֶף אֱלִיה֗וּא וַיֹּאמַֽר׃",
+      "text_kjv": "Elihu also proceeded, and said,",
+      "rendering": "Then Elihu continued and said:",
+      "translator_notes": [
+        "The va-yosef Elihu ('and Elihu added/continued') va-yomar ('and he said') — the verb yasaf ('to add, to continue') signals that this is a continuation of his preceding argument, not a new topic. This is Elihu's fourth and final speech, and the longest."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "כַּתַּר־לִ֣י זְ֭עֵיר וַאֲחַוֶּ֑ךָּ כִּ֤י ע֖וֹד לֶאֱל֣וֹהַּ מִלִּֽים׃",
+      "text_kjv": "Suffer me a little, and I will shew thee that I have yet to speak on God's behalf.",
+      "rendering": "Bear with me a little longer — I will show you,\nfor there are still words to speak on God's behalf.",
+      "translator_notes": [
+        "The kattar li ze'eir ('wait for me a little, bear with me briefly') — Elihu asks for patience. The va-achavvekka ('and I will declare to you, show you') uses the Aramaic-influenced verb chavah ('to declare, show'). The ki od le-Eloha millin ('for there are still words for God') — Elihu claims that more remains to be said in God's defense. He positions himself as God's advocate."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אֶשָּׂ֣א דֵ֭עִי לְמֵרָח֑וֹק וּ֝לְפֹעֲלִ֗י אֶתֵּֽן־צֶֽדֶק׃",
+      "text_kjv": "I will fetch my knowledge from afar, and will ascribe righteousness to my Maker.",
+      "rendering": "I will draw my knowledge from far away\nand ascribe righteousness to my Maker.",
+      "translator_notes": [
+        "The essa de'i le-merachoq ('I will carry/lift my knowledge from afar') claims a breadth of understanding that transcends local experience. The u-le-fo'ali ('and to my Maker') etten tsedeq ('I will give righteousness/justice') — Elihu's stated purpose is to vindicate God, to prove that God is just. The fo'ali ('my Maker') uses the verb pa'al ('to make, to do'), establishing Elihu's creaturely relationship to the God he defends."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "כִּֽי־אׇ֭מְנָם לֹא־שֶׁ֣קֶר מִלָּ֑י תְּמִ֖ים דֵּע֣וֹת עִמָּֽךְ׃",
+      "text_kjv": "For truly my words shall not be false: he that is perfect in knowledge is with thee.",
+      "rendering": "Truly, my words are not false.\nOne complete in knowledge stands before you.",
+      "translator_notes": [
+        "The ki omnam lo sheqer millai ('for truly, not falsehood are my words') — Elihu certifies his own honesty. The temim de'ot immakh ('one complete/perfect in knowledge is with you') — Elihu claims comprehensive understanding. The temim ('complete, whole, blameless') is the same word used of Job in 1:1. Whether Elihu refers to himself or to God is debated; the grammar most naturally refers to Elihu himself, which is a striking claim."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "הֶן־אֵ֣ל כַּ֭בִּיר וְלֹ֣א יִמְאָ֑ס כַּ֝בִּ֗יר כֹּ֣חַ לֵֽב׃",
+      "text_kjv": "Behold, God is mighty, and despiseth not any: he is mighty in strength and wisdom.",
+      "rendering": "See — God is mighty, yet he does not despise.\nHe is mighty in strength of understanding.",
+      "translator_notes": [
+        "The hen El kabbir ('behold, God is mighty/great') ve-lo yim'as ('and he does not despise/reject') — God's power does not produce contempt for the small. The kabbir koach lev ('mighty in strength of heart/understanding') — lev ('heart') in Hebrew denotes the seat of intellect and will, not merely emotion. God's might is not brute force but informed power, power guided by understanding."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "לֹא־יְחַיֶּ֥ה רָשָׁ֑ע וּמִשְׁפַּ֖ט עֲנִיִּ֣ים יִתֵּֽן׃",
+      "text_kjv": "He preserveth not the life of the wicked: but giveth right to the poor.",
+      "rendering": "He does not keep the wicked alive,\nbut he grants justice to the afflicted.",
+      "translator_notes": [
+        "The lo yechayeh rasha ('he does not give life to / preserve the wicked') — God does not sustain the wicked indefinitely. The u-mishpat aniyyim yitten ('and the judgment/justice of the poor/afflicted he gives') — God provides justice specifically to the aniyyim ('the poor, the afflicted, the humble'). The contrast establishes that God's power serves justice, not arbitrary will."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "לֹֽא־יִגְרַ֥ע מִצַּדִּ֗יק עֵ֫ינָ֥יו וְאֶת־מְלָכִ֥ים לַכִּסֵּ֑א וַיֹּשִׁיבֵ֥ם לָ֝נֶ֗צַח וַיִּגְבָּֽהוּ׃",
+      "text_kjv": "He withdraweth not his eyes from the righteous: but with kings are they on the throne; yea, he doth establish them for ever, and they are exalted.",
+      "rendering": "He does not withdraw his eyes from the righteous.\nHe seats them with kings on thrones —\nhe establishes them forever, and they are exalted.",
+      "translator_notes": [
+        "The lo yigra mi-tsaddiq einav ('he does not withdraw from the righteous his eyes') — God's gaze remains fixed on the just. The ve-et melakhim la-kkisse ('and with kings to the throne') va-yoshivem ('and he seats them') — the righteous are elevated to royal status. The la-netsach ('forever') va-yigbahu ('and they are exalted') — the establishment is permanent. This echoes Hannah's song (1 Samuel 2:8) and anticipates the enthronement theology of Psalm 113:7-8."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְאִם־אֲסוּרִ֥ים בַּזִּקִּ֑ים יִ֝לָּכְד֗וּן בְּחַבְלֵי־עֹֽנִי׃",
+      "text_kjv": "And if they be bound in fetters, and be holden in cords of affliction;",
+      "rendering": "But if they are bound in chains,\ncaught in the cords of affliction —",
+      "translator_notes": [
+        "The ve-im asurim ba-zziqim ('and if they are bound in fetters/chains') — the asurim ('bound ones, prisoners') are not necessarily criminals. The yillakhedun be-chavlei oni ('they are caught/held in the ropes of affliction') — the chavlei ('cords, ropes, birth pangs') of oni ('affliction, poverty, misery') bind the righteous. This is Elihu's theology of suffering: even the righteous may be bound, but the binding has a purpose."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיַּגֵּ֣ד לָ֭הֶם פׇּעֳלָ֑ם וּ֝פִשְׁעֵיהֶ֗ם כִּ֣י יִתְגַּבָּֽרוּ׃",
+      "text_kjv": "Then he sheweth them their work, and their transgressions that they have exceeded.",
+      "rendering": "then he reveals to them what they have done —\ntheir offenses, how they grew arrogant.",
+      "translator_notes": [
+        "The va-yagged lahem po'olam ('and he declares to them their deed/work') — suffering becomes revelation. God uses affliction to show people their own behavior. The u-fish'eihem ('and their transgressions') ki yitgabbaru ('that they acted arrogantly, they were mighty in rebellion'). The verb gavar ('to be mighty, to prevail') in the hitpael means 'to act arrogantly, to behave overbearingly.' Suffering functions as a mirror."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיִּ֣גֶל אׇ֭זְנָם לַמּוּסָ֑ר וַ֝יֹּ֗אמֶר כִּֽי־יְשֻׁב֥וּן מֵאָֽוֶן׃",
+      "text_kjv": "He openeth also their ear to discipline, and commandeth that they return from iniquity.",
+      "rendering": "He opens their ear to correction\nand commands them to turn back from wickedness.",
+      "translator_notes": [
+        "The va-yigel oznam ('and he uncovers/opens their ear') la-mmusar ('to instruction, correction, discipline') — the galah ozen ('uncovering the ear') idiom means to reveal something privately, to give privileged information. The va-yomer ki yeshuvun me-aven ('and he says that they should turn from iniquity') — the verb shuv ('to turn, to return, to repent') is the standard term for repentance. Elihu's theology: suffering is God's private tutorial, not his punishment."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "אִם־יִשְׁמְע֥וּ וְיַעֲבֹ֑דוּ יְכַלּ֖וּ יְמֵיהֶ֥ם בַּ֝טּ֗וֹב וּשְׁנֵיהֶ֥ם בַּנְּעִימִֽים׃",
+      "text_kjv": "If they obey and serve him, they shall spend their days in prosperity, and their years in pleasures.",
+      "rendering": "If they listen and serve him,\nthey will finish their days in prosperity\nand their years in contentment.",
+      "translator_notes": [
+        "The conditional promise: im yishme'u ('if they hear/obey') ve-ya'avodu ('and they serve') — the two verbs shama ('to hear') and avad ('to serve') form the core Deuteronomic response to God. The yekhallu yemeihem ba-ttov ('they will complete their days in good') u-sheneihem ba-nne'imim ('and their years in pleasant things'). The ne'imim ('pleasantness, delight') is the positive outcome. Elihu presents a genuinely conditional theology — the outcome depends on response."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְאִם־לֹ֣א יִ֭שְׁמְעוּ בְּשֶׁ֣לַח יַעֲבֹ֑רוּ וְ֝יִגְוְע֗וּ בִּבְלִי־דָֽעַת׃",
+      "text_kjv": "But if they obey not, they shall perish by the sword, and they shall die without knowledge.",
+      "rendering": "But if they do not listen,\nthey cross over into death by the sword\nand perish without ever understanding.",
+      "translator_notes": [
+        "The alternative: ve-im lo yishme'u ('and if they do not hear') be-shelach ya'avoru ('by the weapon/dart they cross over/pass away'). The shelach is a thrown weapon — a javelin or dart. The ve-yigve'u ('and they expire') bi-veli da'at ('without knowledge') — the tragedy is not merely death but death in ignorance. They never learned what the suffering was trying to teach them. This is Elihu's worst-case scenario: not punishment but wasted revelation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְחַנְפֵי־לֵ֭ב יָשִׂ֣ימוּ אָ֑ף לֹ֥א יְ֝שַׁוְּע֗וּ כִּ֣י אֲסָרָֽם׃",
+      "text_kjv": "But the hypocrites in heart heap up wrath: they cry not when he bindeth them.",
+      "rendering": "The godless in heart store up anger;\nthey do not cry for help when he binds them.",
+      "translator_notes": [
+        "The ve-chanfei lev ('and the godless/profane of heart') yasimu af ('they place/store anger') — the chanef ('godless, profane, polluted') person hoards resentment rather than turning toward God. The lo yeshavve'u ki asaram ('they do not cry out when he binds them') — when God binds them in affliction, they refuse to call out. This is the inverse of verse 10: God opens the ear, but the godless refuse to use the opened ear. Their silence is not peace but sullen defiance."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "תָּמֹ֣ת בַּנֹּ֣עַר נַפְשָׁ֑ם וְ֝חַיָּתָ֗ם בַּקְּדֵשִֽׁים׃",
+      "text_kjv": "They die in youth, and their life is among the unclean.",
+      "rendering": "They die in their youth;\ntheir life ends among the temple prostitutes.",
+      "translator_notes": [
+        "The tamot ba-nno'ar nafsham ('their soul dies in youth') — premature death. The ve-chayyatam ba-qqedeshim ('and their life is among the qedeshim') — the qedeshim are the cultic prostitutes attached to pagan temples. The qadesh ('consecrated one') is an ironic term — 'holy' in etymology but referring to those dedicated to sexual rites in Canaanite worship. The implication: the godless die young and their existence is as degraded as cultic prostitution."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "יְחַלֵּ֣ץ עָנִ֣י בְעׇנְי֑וֹ וְיִ֖גֶל בַּלַּ֣חַץ אׇזְנָֽם׃",
+      "text_kjv": "He delivereth the poor in his affliction, and openeth their ears in oppression.",
+      "rendering": "He rescues the afflicted through their affliction\nand opens their ear by means of distress.",
+      "translator_notes": [
+        "The yechallets ani be-onyo ('he delivers the poor/afflicted in/through his affliction') — the preposition be can mean 'in' (during affliction) or 'by means of' (through affliction). Elihu means both: God delivers during suffering and by means of suffering. The ve-yigel ba-llachats oznam ('and he uncovers in the oppression their ear') — the same ear-opening idiom from verse 10. This is Elihu's most concise theological statement: affliction is the instrument of deliverance, not its opposite."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְאַ֤ף הֲסִיתְךָ֨ ׀ מִפִּי־צָ֗ר רַ֭חַב לֹא־מוּצָ֣ק תַּחְתֶּ֑יהָ וְנַ֥חַת שֻׁ֝לְחָנְךָ֗ מָלֵ֥א דָֽשֶׁן׃",
+      "text_kjv": "Even so would he have removed thee out of the strait into a broad place, where there is no straitness; and that which should be set on thy table should be full of fatness.",
+      "rendering": "He would have led you too out of the jaws of distress\ninto a wide place with no confinement,\nand your table would be loaded with rich food.",
+      "translator_notes": [
+        "Elihu turns directly to Job: ve-af hesitikha ('and indeed he would have enticed/led you') mi-ppi tsar ('from the mouth of distress') — the tsar ('narrowness, distress') has a mouth like a beast; God would have pulled Job from its jaws. The rachav lo mutsaq tachteiha ('a broad place with no constriction beneath it') — expansive freedom after confinement. The ve-nachat shulchanekha male dashen ('and the rest/setting of your table full of fatness') — a table laden with rich food. The dashen ('fatness, richness') is the sign of divine blessing."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְדִין־רָשָׁ֥ע מָלֵ֑אתָ דִּ֖ין וּמִשְׁפָּ֣ט יִתְמֹֽכוּ׃",
+      "text_kjv": "But thou hast fulfilled the judgment of the wicked: judgment and justice take hold on thee.",
+      "rendering": "But you are full of the judgment due the wicked;\njudgment and justice have seized you.",
+      "translator_notes": [
+        "The ve-din rasha maleta ('and the judgment of the wicked you are full of') — Job is saturated with the kind of judgment that belongs to the wicked. The din u-mishpat yitmokhu ('judgment and justice take hold, seize') — the two terms for justice (din and mishpat) act as agents that grab hold of Job. Elihu's point is ambiguous: either Job has brought this upon himself, or the judgment that seems to belong to the wicked has mistakenly attached itself to him."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "כִּי־חֵ֭מָה פֶּן־יְסִֽיתְךָ֣ בְסָ֑פֶק וְרׇב־כֹּ֝֗פֶר אַל־יַטֶּֽךָּ׃",
+      "text_kjv": "Because there is wrath, beware lest he take thee away with his stroke: then a great ransom cannot deliver thee.",
+      "rendering": "Beware — let not anger lure you into mockery,\nand let no size of ransom lead you astray.",
+      "translator_notes": [
+        "A warning: ki chemah ('because wrath/anger') pen yesitikha ('lest it entice you') be-safeq ('with a clap, with mockery, with sufficiency') — the safeq can mean 'a handclap' (mocking gesture), 'sufficiency' (wealth), or 'a blow.' The ve-rov kofer al yattekka ('and the greatness of ransom let it not turn you aside') — no amount of payment can buy escape from divine judgment. The verb natah ('to turn aside, to bend') warns against being deflected from the right path."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "הֲיַעֲרֹ֣ךְ שׁ֭וּעֲךָ לֹ֣א בְצָ֑ר וְ֝כֹ֗ל מַאֲמַצֵּי־כֹֽחַ׃",
+      "text_kjv": "Will he esteem thy riches? no, not gold, nor all the forces of strength.",
+      "rendering": "Can your cry for help be arranged so as to keep you from distress?\nCan all your strenuous efforts?",
+      "translator_notes": [
+        "This verse is textually very difficult. The ha-ya'arokh shu'akha ('can your cry/wealth be arranged/set in order') lo be-tsar ('not in distress') — the shua can mean 'cry for help' or 'wealth/riches.' The ve-khol ma'amattsei koach ('and all the exertions of strength') — all human effort is insufficient. Whether read as 'can your wealth keep you from distress' or 'can your cry for help be arranged to avoid trouble,' the answer is the same: no human resource suffices."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "אַל־תִּשְׁאַ֥ף הַלָּ֑יְלָה לַעֲל֖וֹת עַמִּ֣ים תַּחְתָּֽם׃",
+      "text_kjv": "Desire not the night, when people are cut off in their place.",
+      "rendering": "Do not long for the night\nwhen peoples are swept away from their place.",
+      "translator_notes": [
+        "The al tish'af ha-llailah ('do not gasp for/desire the night') — the verb sha'af ('to pant after, to gasp for, to desire eagerly') suggests desperate longing. The lailah ('night') here means the night of divine judgment. The la'alot ammim tachtam ('for the going up of peoples from beneath them, from their place') — peoples are removed, swept away in the dark. Elihu warns Job not to wish for the eschatological judgment he has been demanding — it is more terrible than Job imagines."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "הִ֭שָּׁמֶר אַל־תֵּ֣פֶן אֶל־אָ֑וֶן כִּֽי־עַל־זֶ֝֗ה בָּחַ֥רְתָּ מֵעֹֽנִי׃",
+      "text_kjv": "Take heed, regard not iniquity: for this hast thou chosen rather than affliction.",
+      "rendering": "Be careful — do not turn toward wickedness,\nfor you have preferred this over affliction.",
+      "translator_notes": [
+        "The hishamer ('guard yourself, be careful') al tefen el aven ('do not turn toward iniquity') — the verb panah ('to turn') implies a deliberate choice of direction. The ki al zeh bacharta me-oni ('for on account of this you have chosen rather than affliction') — Elihu accuses Job of preferring to complain about injustice rather than accept affliction as instruction. The bacharta ('you have chosen') makes it a matter of will, not fate."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "הֶן־אֵ֣ל יַשְׂגִּ֣יב בְּכֹח֑וֹ מִ֖י כָמֹ֣הוּ מוֹרֶֽה׃",
+      "text_kjv": "Behold, God exalteth by his power: who teacheth like him?",
+      "rendering": "See — God is exalted in his power.\nWho is a teacher like him?",
+      "translator_notes": [
+        "The pivot: hen El yasgiv be-khocho ('behold, God is exalted/made high in his power') — from this point, Elihu's speech transforms from argument to praise. The mi khamohu moreh ('who is like him as a teacher/instructor') — the moreh ('teacher, one who instructs') could also be read as 'one who shoots' (from yarah, 'to shoot, to throw, to teach'). God teaches through what he does in nature. This verse launches the nature hymn that will build directly into the theophany."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "מִֽי־פָקַ֣ד עָלָ֣יו דַּרְכּ֑וֹ וּמִֽי־אָ֝מַ֗ר פָּעַ֥לְתָּ עַוְלָֽה׃",
+      "text_kjv": "Who hath enjoined him his way? or who can say, Thou hast wrought iniquity?",
+      "rendering": "Who has prescribed his path for him?\nWho can say to him, 'You have done wrong'?",
+      "translator_notes": [
+        "The mi paqad alav darkko ('who has appointed over him his way') — no one assigns God his course of action. The u-mi amar pa'alta avlah ('and who has said: you have committed injustice') — this directly addresses Job's central claim. The verb paqad ('to appoint, to visit, to command') and the noun avlah ('injustice, wrong') frame the question: God is accountable to no one. This anticipates God's own challenge in 40:8: 'Would you condemn me to justify yourself?'"
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "זְ֭כֹר כִּֽי־תַשְׂגִּ֣יא פׇעֳל֑וֹ אֲשֶׁ֖ר שֹׁרְר֣וּ אֲנָשִֽׁים׃",
+      "text_kjv": "Remember that thou magnify his work, which men behold.",
+      "rendering": "Remember to magnify his work,\nwhich humanity has sung about from old.",
+      "translator_notes": [
+        "The zekhor ki tasgi po'olo ('remember that you should magnify his work') — the verb sagah ('to make great, to magnify') in the hiphil demands active praise. The asher shoreru anashim ('which people have sung/gazed upon') — the verb sharar can mean 'to sing' or 'to behold.' Elihu appeals to a tradition of human response to divine works — people have always seen and celebrated what God does."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "כׇּל־אָדָ֥ם חָֽזוּ־ב֑וֹ אֱ֝נ֗וֹשׁ יַבִּ֥יט מֵרָחֽוֹק׃",
+      "text_kjv": "Every man may see it; man may behold it afar off.",
+      "rendering": "All humanity has gazed upon it;\nmortals behold it from afar.",
+      "translator_notes": [
+        "The kol adam chazu vo ('all humanity has looked at it') — God's work in creation is universally visible. The enosh yabbit merachoq ('a mortal looks from afar') — the verb nabat ('to look, to gaze') with merachoq ('from a distance') acknowledges that human perception is distant. We see God's works but from a great remove. The tension between universal visibility and remote viewing is central: everyone can see, but no one can see closely enough."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "הֶן־אֵ֣ל שַׂ֭גִּיא וְלֹ֣א נֵדָ֑ע מִסְפַּ֖ר שָׁנָ֣יו וְאֵֽין־חֵֽקֶר׃",
+      "text_kjv": "Behold, God is great, and we know him not, neither can the number of his years be searched out.",
+      "rendering": "See — God is great beyond our knowing;\nthe number of his years is beyond searching out.",
+      "expanded_rendering": "This verse is the theological summit of Elihu's argument and the launching point for the nature poetry that follows. The hen El saggi ('behold, God is great') uses the Aramaic-influenced saggi rather than the more common gadol, though the semantic force is identical — God is gadol, great in the fullest sense: great in power, in scope, in duration, in every category of magnitude. But the critical qualifier follows immediately: ve-lo neda ('and we do not know') — God's greatness exceeds human comprehension. This is not agnosticism but doxological humility: we know enough to know that we do not know enough. The mispar shanav ('the number of his years') ve-ein cheqer ('and there is no searching out') declares God's eternity unsearchable. The cheqer ('searching, investigation, fathoming') is the same word used in 11:7 ('can you fathom the deep things of God?'). Elihu's answer: no. And that unknowability is not a problem to be solved but a reality to be worshipped. From this confession of unknowing, Elihu turns to what can be observed — the storm, the rain, the lightning — not as proofs of God but as traces of the One who cannot be fully known.",
+      "translator_notes": [
+        "The saggi ('great') is an Aramaism that appears frequently in the Elihu speeches, supporting the view that these chapters reflect a distinct linguistic layer. The ve-lo neda ('we do not know') is a first-person plural confession — Elihu includes himself in the unknowing. This is his most humble moment. The ein cheqer ('no searching out, unfathomable') is an absolute negation — not 'difficult to search out' but 'impossible to search out.' God's years — his temporal existence — cannot even be numbered, let alone comprehended."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "שַׂגִּיא",
+          "transliteration": "saggi",
+          "rendered_as": "great",
+          "semantic_range": "great, mighty, large, much, exceedingly (Aramaic cognate of gadol)",
+          "note": "saggi is the Aramaic-influenced equivalent of the Hebrew gadol ('great'). In this verse it carries the full theological weight of divine greatness — not merely large in size but transcendent in every dimension. The term connects to Deuteronomy 10:17 where God is ha-El ha-gadol ('the great God') and to the broader biblical tradition of divine magnificence. Elihu's use of the Aramaism may reflect the international wisdom tradition — the greatness of God transcends linguistic and cultural boundaries."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "כִּ֭י יְגָרַ֣ע נִטְפֵי־מָ֑יִם יָזֹ֖קּוּ מָטָ֣ר לְאֵדֽוֹ׃",
+      "text_kjv": "For he maketh small the drops of water: they pour down rain according to the vapour thereof:",
+      "rendering": "For he draws up the drops of water;\nthey distill as rain from his mist —",
+      "translator_notes": [
+        "The nature poetry begins. The ki yegara nitfei mayim ('for he diminishes/draws up the drops of water') — the verb gara ('to diminish, to withdraw, to draw off') describes the evaporation process: God draws water upward in tiny droplets. The yazoquu matar le-edo ('they refine/distill rain for his mist/vapor') — the verb zaqaq ('to refine, to purify, to distill') is a metallurgical term applied to meteorology. Rain is refined from vapor the way metal is refined from ore. This is remarkably accurate ancient observation of the water cycle."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "אֲשֶׁר־יִזְּל֥וּ שְׁחָקִ֑ים יִ֝רְעֲפ֗וּ עֲלֵ֤י ׀ אָדָ֬ם רָֽב׃",
+      "text_kjv": "Which the clouds do drop and distil upon man abundantly.",
+      "rendering": "which the clouds pour down\nand shower upon humanity in abundance.",
+      "translator_notes": [
+        "The asher yizzelu shechakim ('which the clouds drip/flow') — the verb nazal ('to flow, to drip, to trickle') describes the steady release of water from clouds. The yir'afu alei adam rav ('they drip upon humanity abundantly') — the verb ra'af ('to drip, to shower') and rav ('much, many, abundant') indicate generous rainfall. The three-verse sequence (26-28) moves from God's unknowable greatness to the observable gift of rain — from theology to meteorology, from the hidden to the revealed."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "אַ֣ף אִם־יָ֭בִין מִפְרְשֵׂי־עָ֑ב תְּ֝שֻׁא֗וֹת סֻכָּתֽוֹ׃",
+      "text_kjv": "Also can any understand the spreadings of the clouds, or the noise of his tabernacle?",
+      "rendering": "Can anyone understand the spreading of the clouds,\nthe thundering from his pavilion?",
+      "translator_notes": [
+        "The af im yavin mifrsei av ('indeed, can anyone understand the spreadings of the cloud') — the verb paras ('to spread out') describes the way clouds extend across the sky. The teshu'ot sukkato ('the crashings/thunderings of his booth/pavilion') — the sukkah ('booth, tent, pavilion') is God's dwelling in the storm cloud, and the teshu'ot ('crashings, thunder') are the sounds from that dwelling. God lives in the storm cloud as in a tent, and thunder is the sound of his habitation."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "הֵן־פָּרַ֣שׂ עָ֭לָיו אוֹר֑וֹ וְשָׁרְשֵׁ֖י הַיָּ֣ם כִּסָּֽה׃",
+      "text_kjv": "Behold, he spreadeth his light upon it, and covereth the bottom of the sea.",
+      "rendering": "See — he spreads his lightning over it\nand covers the roots of the sea.",
+      "translator_notes": [
+        "The hen paras alav oro ('behold, he spreads over it his light') — the or ('light') here is lightning, spread like a canopy over the storm cloud. The ve-shorshei ha-yam kissah ('and the roots/depths of the sea he covers') — God's lightning illuminates from the heights of the sky to the shorshei ('roots, depths, foundations') of the sea. The range is total: from sky to ocean floor. The verb kasah ('to cover') suggests the lightning reveals what was hidden in the deep."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "כִּי־בָ֭ם יָדִ֣ין עַמִּ֑ים יִֽתֶּן־אֹ֥כֶל לְמַכְבִּֽיר׃",
+      "text_kjv": "For by them judgeth he the people; he giveth meat in abundance.",
+      "rendering": "For by these he judges peoples\nand gives food in abundance.",
+      "translator_notes": [
+        "The ki vam yadin ammim ('for by them he judges peoples') — the storm phenomena (rain, lightning, thunder) are instruments of both judgment and provision. The yitten okhel le-makhbir ('he gives food in abundance') — the makhbir ('in abundance, exceedingly') from the root kavar ('to be much, to multiply'). The dual function of storm — destructive judgment and life-giving rain — captures the paradox of divine power: the same force that terrifies also feeds."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "עַל־כַּפַּ֥יִם כִּסָּה־א֑וֹר וַיְצַ֖ו עָלֶ֣יהָ בְמַפְגִּֽיעַ׃",
+      "text_kjv": "With clouds he covereth the light; and commandeth it not to shine by the cloud that cometh betwixt.",
+      "rendering": "He covers his hands with lightning\nand commands it to strike its target.",
+      "translator_notes": [
+        "The al kappayim kissah or ('upon his palms he covers light/lightning') — God holds lightning in his hands like a weapon. The va-yetsav aleiha be-mafgi'a ('and he commands it by/against its target') — the mafgi'a ('the one who intercedes, the one who hits the mark') from the root paga ('to encounter, to meet, to strike'). God aims the lightning and it hits what he intends. The image is of a warrior holding bolts of light and hurling them with precision."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "יַגִּ֣יד עָלָ֣יו רֵע֑וֹ מִ֝קְנֶ֗ה אַ֣ף עַל־עוֹלֶֽה׃",
+      "text_kjv": "The noise thereof sheweth concerning it, the cattle also concerning the vapour.",
+      "rendering": "His thunder announces his coming;\neven the cattle sense the rising storm.",
+      "translator_notes": [
+        "The yaggid alav re'o ('his thunder/companion declares about him') — the re'a can mean 'thunder' or 'companion/friend.' As thunder, it announces God's approach. The miqneh af al oleh ('the cattle also concerning what rises') — even livestock sense the approaching storm. The oleh ('what rises, what ascends') refers to the storm building on the horizon. This pastoral detail grounds the cosmic poetry: before God arrives in the whirlwind, the cattle in the fields become restless. Nature knows its Maker before the theologians do."
+      ],
+      "reading_level": "6th grade"
+    }
+  ]
+}

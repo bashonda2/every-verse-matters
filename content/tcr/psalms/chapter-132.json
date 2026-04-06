@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 132,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "A Song of Ascents that recounts David's oath to find a resting place for the ark of the LORD and God's answering oath to establish David's dynasty forever. The psalm divides into two halves: David's vow to God (vv. 1-10) and God's vow to David (vv. 11-18). It is the fullest poetic expression of the Davidic covenant outside of 2 Samuel 7.",
+    "remarkable": "This psalm is built on the architecture of reciprocal oaths. David swears an oath to God (vv. 2-5) and God swears an oath to David (vv. 11-12). The structure creates a mirror: human faithfulness answered by divine faithfulness, human initiative met by divine promise. But the asymmetry is crucial — David's oath is conditional on effort ('I will not enter my house... I will not give sleep to my eyes'), while God's oath is conditional on obedience ('If your sons keep my covenant'). The psalm also resolves the tension between the movable ark and the permanent temple by showing that God's choice of Zion is His own act of desire: 'The LORD has chosen Zion; He has desired it for His dwelling' (v. 13). God is not housed because David decided to build; God dwells in Zion because He wanted to.",
+    "friction": "Verse 6 contains a geographical puzzle: 'We heard of it in Ephrathah; we found it in the fields of Jaar.' Ephrathah may refer to Bethlehem (David's hometown) or to the region around Kiriath-Jearim where the ark rested for twenty years (1 Samuel 7:1-2). 'Fields of Jaar' (sedei ya'ar) appears to be a shortened form of Kiriath-Jearim ('city of forests'). The verse compresses the entire history of the lost and recovered ark into a single couplet. The conditional clause in verse 12 — 'if your sons keep my covenant' — introduces a tension with the unconditional promise of 2 Samuel 7:14-16, where God says He will discipline David's sons but never remove His faithful love. The psalm holds both the conditional and the unconditional together without resolving them.",
+    "connections": "This psalm is the poetic counterpart to 2 Samuel 7 (the Davidic covenant narrative) and 1 Chronicles 28:2 (David's speech about building the temple). The ark's journey from Kiriath-Jearim to Jerusalem is narrated in 2 Samuel 6. The language of verse 8 — 'Arise, LORD, to your resting place, you and the ark of your strength' — echoes Numbers 10:35-36, Moses' cry when the ark set out. The promise that David's lamp will never be extinguished (v. 17) appears in 1 Kings 11:36 and 2 Kings 8:19. The psalm is used liturgically in 2 Chronicles 6:41-42 at the dedication of Solomon's temple."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "שִׁ֗יר הַֽמַּ֫עֲל֥וֹת\nזְכ֤וֹר יְהוָ֨ה ׀ לְדָוִ֗ד\nאֵ֥ת כׇּל־עֻנּוֹתֽוֹ׃",
+      "text_kjv": "Lord, remember David, and all his afflictions:",
+      "rendering": "A song of ascents.\nRemember, LORD, for David's sake\nall his hardship.",
+      "expanded_rendering": "The psalm opens with a plea that God remember David — not David's greatness or victories, but his unnoto ('his hardship, his affliction'). The root anah means 'to be bowed down, afflicted, humbled,' and here it refers to the struggles David endured in his quest to bring the ark to Jerusalem and to establish proper worship. The psalmist appeals to God's memory as a covenant act: to remember David is to remember the promises made to him.",
+      "translator_notes": [
+        "The word unnoto (from anah, 'to be afflicted, humbled') could also be translated 'his self-denial' or 'his devotion through hardship.' Some scholars connect it to the vow-making process itself — the hardships David voluntarily imposed on himself in pursuit of housing the ark. The KJV's 'afflictions' captures the suffering but misses the voluntary, self-imposed dimension."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "אֲשֶׁ֣ר נִ֭שְׁבַּע לַיהוָ֑ה\nנָ֝דַ֗ר לַאֲבִ֥יר יַעֲקֹֽב׃",
+      "text_kjv": "How he sware unto the LORD, and vowed unto the mighty God of Jacob;",
+      "rendering": "How he swore to the LORD,\nmade a vow to the Mighty One of Jacob:",
+      "expanded_rendering": "Two parallel acts of binding commitment: nishba ('he swore') and nadar ('he vowed'). The oath (shevu'ah) binds the swearer to God under penalty; the vow (neder) is a voluntary commitment with specific terms. David's devotion was not casual piety but formal, binding self-obligation. The title Avir Ya'aqov ('Mighty One of Jacob') is an ancient divine epithet appearing first in Genesis 49:24 — Jacob's deathbed blessing. It connects David's vow to the patriarchal promises, linking the Davidic covenant back to the ancestral one.",
+      "translator_notes": [
+        "Avir Ya'aqov ('Mighty One of Jacob') appears in Genesis 49:24, Isaiah 1:24, 49:26, and 60:16. The word avir means 'mighty one, bull, champion' — it evokes strength and reliability. By using this patriarchal title rather than simply 'the LORD,' the psalm anchors David's vow in the deep history of God's relationship with Israel's ancestors."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֲבִיר יַעֲקֹב",
+          "transliteration": "Avir Ya'aqov",
+          "rendered_as": "Mighty One of Jacob",
+          "semantic_range": "mighty one, strong one, champion, bull; a divine title emphasizing power and reliability",
+          "note": "An ancient epithet for God tracing back to the patriarchal period. It connects the Davidic covenant to the promises made to Jacob and his descendants, creating a theological arc from Genesis to the monarchy."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אִם־אָ֭בֹא בְּאֹ֣הֶל בֵּיתִ֑י\nאִם־אֶ֝עֱלֶ֗ה עַל־עֶ֥רֶשׂ יְצוּעָֽי׃",
+      "text_kjv": "Surely I will not come into the tabernacle of my house, nor go up into my bed;",
+      "rendering": "\"I will not enter the tent of my house\nor climb onto the couch of my bed.",
+      "translator_notes": [
+        "The oath formula im ('if') in Hebrew oaths functions as a strong negative: 'I will certainly not...' The escalating parallelism — 'tent of my house' / 'couch of my bed' — moves from the general (entering the house) to the specific (getting into bed). David vows to deny himself domestic comfort until he has secured a home for the ark."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "אִם־אֶ֭תֵּן שְׁנַ֣ת לְעֵינָ֑י\nלְ֝עַפְעַפַּ֗י תְּנוּמָֽה׃",
+      "text_kjv": "I will not give sleep to mine eyes, or slumber to mine eyelids,",
+      "rendering": "I will not give sleep to my eyes\nor slumber to my eyelids,",
+      "translator_notes": [
+        "The parallelism moves from 'sleep' (shenah) to 'slumber' (tenumah), from 'eyes' (einai) to 'eyelids' (af'appai). The language is nearly identical to Proverbs 6:4, where the sluggard is told to deny himself rest until he has escaped his debt. David applies the urgency of a debtor to the project of housing God's ark — rest is impossible until the task is accomplished."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "עַד־אֶמְצָ֣א מָ֭קוֹם לַיהוָ֑ה\nמִ֝שְׁכָּנ֗וֹת לַאֲבִ֥יר יַעֲקֹֽב׃",
+      "text_kjv": "Until I find out a place for the LORD, an habitation for the mighty God of Jacob.",
+      "rendering": "until I find a place for the LORD,\na dwelling for the Mighty One of Jacob.\"",
+      "expanded_rendering": "The vow reaches its object: maqom ('a place') and mishkanot ('dwelling places, tabernacles'). The word maqom is simple and open — just 'a place' — while mishkanot (plural of mishkan, 'tabernacle, dwelling') carries the weight of the wilderness tabernacle and God's ongoing need for earthly habitation. David's quest is to find where God will rest. The irony, which the second half of the psalm will reveal, is that God does not need David to find Him a place — God has already chosen Zion. David's devotion is genuine, but the initiative ultimately belongs to God.",
+      "translator_notes": [
+        "The plural mishkanot ('dwellings') is used for poetic fullness rather than to indicate multiple locations. The singular mishkan is the standard term for the tabernacle in the wilderness narratives (Exodus 25:9). Here the plural elevates the concept — a dwelling worthy of the Mighty One of Jacob."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "הִנֵּֽה־שְׁמַעֲנ֥וּהָ בְאֶפְרָ֑תָה\nמְ֝צָאנ֗וּהָ בִּשְׂדֵי־יָֽעַר׃",
+      "text_kjv": "Lo, we heard of it at Ephratah: we found it in the fields of the wood.",
+      "rendering": "We heard of it in Ephrathah;\nwe found it in the fields of Jaar.",
+      "expanded_rendering": "The voice shifts from David's oath to a communal memory: 'we heard... we found.' The pronoun 'it' (the feminine suffix -ha) refers to the ark. Ephrathah is likely a reference to the region around Bethlehem and Kiriath-Jearim, where the ark rested for twenty years after the Philistines returned it (1 Samuel 6-7). 'Fields of Jaar' (sedei ya'ar) is a poetic abbreviation of Kiriath-Jearim ('City of Forests'). The verse compresses decades of Israel's history — the ark's captivity, return, and long neglect at Kiriath-Jearim — into a single couplet of hearing and finding. What was lost has been located; what was heard as rumor has been found as reality.",
+      "translator_notes": [
+        "The identification of Ephrathah is debated. It most likely refers to the district including both Bethlehem (David's origin, cf. Micah 5:2) and Kiriath-Jearim (where the ark rested). Sedei ya'ar ('fields of Jaar/forest') appears to be a shortened poetic form of Kiriath-Jearim. The verse traces the arc from hearing about the ark (in the region of David's youth) to finding it (in the fields near Kiriath-Jearim)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "נָ֭בוֹאָה לְמִשְׁכְּנוֹתָ֑יו\nנִ֝שְׁתַּחֲוֶ֗ה לַהֲדֹ֥ם רַגְלָֽיו׃",
+      "text_kjv": "We will go into his tabernacles: we will worship at his footstool.",
+      "rendering": "Let us go to His dwelling places;\nlet us bow down at His footstool.",
+      "translator_notes": [
+        "The 'footstool' (hadom raglav) is the ark of the covenant, understood as the base of God's invisible throne. The cherubim atop the ark form the seat; the ark itself is where God's feet rest. This image appears in 1 Chronicles 28:2, where David says, 'I had it in my heart to build a house of rest for the ark of the covenant of the LORD, for the footstool of our God.' The invitation to 'bow down' (nishtachaveh) at the footstool is an invitation to worship at the very point where heaven meets earth."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "קוּמָ֣ה יְ֭הוָה לִמְנוּחָתֶ֑ךָ\nאַ֝תָּ֗ה וַאֲר֥וֹן עֻזֶּֽךָ׃",
+      "text_kjv": "Arise, O LORD, into thy rest; thou, and the ark of thy strength.",
+      "rendering": "Arise, LORD, to your resting place —\nyou and the ark of your strength.",
+      "translator_notes": [
+        "This verse is quoted almost verbatim in 2 Chronicles 6:41, where Solomon speaks it at the dedication of the temple. The movement from Numbers 10:35 (the ark arises to lead Israel through the wilderness) to Psalm 132:8 (the ark arises to find its permanent home) maps the entire arc of Israel's journey from Sinai to Zion."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מְנוּחָה",
+          "transliteration": "menuchah",
+          "rendered_as": "resting place",
+          "semantic_range": "rest, resting place, settled habitation, quietness, peace",
+          "note": "From the root nuach ('to rest, settle down'). Menuchah is not just absence of motion but arrival at the intended destination. It appears in Ruth 1:9 for a wife's settled home, in Deuteronomy 12:9 for the promised land, and here for God's chosen dwelling. The concept implies that God, like Israel, has been journeying and now arrives."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "כֹּהֲנֶ֥יךָ יִלְבְּשׁוּ־צֶ֑דֶק\nוַחֲסִידֶ֥יךָ יְרַנֵּֽנוּ׃",
+      "text_kjv": "Let thy priests be clothed with righteousness; and let thy saints shout for joy.",
+      "rendering": "Let your priests be clothed in righteousness,\nand let your faithful ones shout for joy.",
+      "translator_notes": [
+        "The priests are 'clothed' (yilbeshu) in tsedeq ('righteousness') — not garments but character. The parallel term chasidekha ('your faithful ones, your devoted ones') derives from chesed and describes those bound to God by mutual loyalty. The verse pairs institutional worship (priests) with communal devotion (the faithful). Both are essential to the scene of God's arrival at His resting place."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "בַּ֭עֲבוּר דָּוִ֣ד עַבְדֶּ֑ךָ\nאַל־תָּ֝שֵׁ֗ב פְּנֵ֣י מְשִׁיחֶֽךָ׃",
+      "text_kjv": "For thy servant David's sake turn not away the face of thine anointed.",
+      "rendering": "For the sake of your servant David,\ndo not turn away the face of your anointed one.",
+      "translator_notes": [
+        "The word mashiach ('anointed one, messiah') here refers to the reigning king of David's line. Every Davidic king was God's mashiach — anointed with oil as a sign of divine selection. The later development of 'Messiah' as a title for an eschatological deliverer grows out of passages exactly like this one, where the promise to David's line carries the weight of God's eternal commitment."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מְשִׁיחַ",
+          "transliteration": "mashiach",
+          "rendered_as": "anointed one",
+          "semantic_range": "anointed one, messiah; one set apart by anointing with oil for a divinely appointed role",
+          "note": "From mashach ('to smear, anoint'). In the Psalms, mashiach primarily refers to the reigning Davidic king. The term carries forward into later Jewish and Christian eschatology as 'the Messiah' — the ultimate anointed king who fulfills God's promises to David's house."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "נִשְׁבַּֽע־יְהוָ֨ה ׀ לְדָוִ֗ד\nאֱ֭מֶת לֹא־יָשׁ֣וּב מִמֶּ֑נָּה\nמִפְּרִ֥י בִ֝טְנְךָ֗ אָשִׁ֥ית לְכִסֵּא־לָֽךְ׃",
+      "text_kjv": "The LORD hath sworn in truth unto David; he will not turn from it; Of the fruit of thy body will I set upon thy throne.",
+      "rendering": "The LORD swore to David —\na firm truth from which He will not turn back:\n\"From the fruit of your body\nI will set someone on your throne.",
+      "expanded_rendering": "The psalm pivots. David swore to God in verses 2-5; now God swears to David. The word emet ('truth, firmness, reliability') modifies the oath — this is not a conditional promise but a sworn commitment backed by God's own character. Lo yashuv mimmenah ('He will not turn from it') uses the language of irreversibility. The content of the oath is dynastic succession: mi-peri vitnekha ('from the fruit of your belly/body') — David's biological descendants will occupy his throne. This is the poetic restatement of 2 Samuel 7:12-13, where God promises through Nathan that David's offspring will build the house and God will establish the throne forever.",
+      "translator_notes": [
+        "The phrase nishba YHWH ('the LORD swore') is remarkable — God binds Himself by oath. In Hebrews 6:13-17, this divine self-binding is cited as the ultimate guarantee: since God can swear by no one greater, He swears by Himself. The word emet ('truth') here functions almost as an adverb: God swore truly, firmly, reliably."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "אֱמֶת",
+          "transliteration": "emet",
+          "rendered_as": "firm truth",
+          "semantic_range": "truth, firmness, reliability, faithfulness, stability",
+          "note": "From the root aman ('to be firm, established, reliable'). Emet describes what is solid, what can be trusted, what will not shift. When applied to God's oath, it means the promise is as stable as God's own character."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "אִם־יִשְׁמְר֬וּ בָנֶ֨יךָ ׀ בְּרִיתִ֗י\nוְ֭עֵדֹתִי ז֣וֹ אֲלַמְּדֵ֑ם\nגַּם־בְּנֵיהֶ֥ם עֲדֵי־עַ֗ד\nיֵ֝שְׁב֗וּ לְכִסֵּא־לָֽךְ׃",
+      "text_kjv": "If thy children will keep my covenant and my testimony that I shall teach them, their children shall also sit upon thy throne for evermore.",
+      "rendering": "If your sons keep my covenant\nand my decrees that I will teach them,\nthen their sons also, forever,\nwill sit on your throne.\"",
+      "expanded_rendering": "Here the conditional element enters: im yishmeru vanekha beriti ('if your sons keep my covenant'). The dynasty is promised, but the continuation of any particular line within it depends on covenant faithfulness. The word beriti ('my covenant') and edoti ('my decrees, my testimonies') refer to the terms of the Sinai covenant — the Torah obligations that bind Israel's kings no less than its people. God will teach these (alamdem) — the instruction is divine, not merely human tradition. The reward for obedience is stated in the strongest possible terms: gam beneihem adei ad yeshvu le-khisse lakh ('also their sons, forever and ever, will sit on your throne'). The promise is perpetual but each generation must choose to sustain it.",
+      "translator_notes": [
+        "The tension between the unconditional promise of verse 11 and the conditional clause of verse 12 is one of the great puzzles of Davidic covenant theology. In 2 Samuel 7:14-16, God says He will discipline David's sons but never remove His chesed. Here, the continuation of the throne depends on covenant-keeping. The resolution may be that the dynasty itself is unconditional (it will eventually produce the ultimate king) while individual reigns within it are conditional on faithfulness."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, agreement, pact; a binding relationship defined by terms and obligations",
+          "note": "The foundational concept of Israelite theology. Here berit refers to the Sinai covenant — the Torah — which David's sons must keep. The psalm layers covenants: the Davidic covenant (God's promise to David) depends on the Sinai covenant (God's terms for Israel). Covenant builds on covenant."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "כִּֽי־בָחַ֣ר יְהוָ֣ה בְּצִיּ֑וֹן\nאִ֝וָּ֗הּ לְמוֹשָׁ֥ב לֽוֹ׃",
+      "text_kjv": "For the LORD hath chosen Zion; he hath desired it for his habitation.",
+      "rendering": "For the LORD has chosen Zion;\nHe has desired it as His dwelling.",
+      "expanded_rendering": "The verb bachar ('to choose, select') is the same verb used for God's election of Israel (Deuteronomy 7:6) and His choice of the Levites (Deuteronomy 18:5). Now it applies to a place: Zion is elected. More striking is ivvah ('He desired it') — from the root avah, meaning 'to want, desire, wish for.' God does not merely designate Zion; He desires it. This is one of the few places in the Hebrew Bible where God is described as having desire for a specific location. The theological implication is profound: Zion is not sacred because David chose it but because God wanted it.",
+      "translator_notes": [
+        "The verb ivvah (from avah) is the same verb used for human desire and appetite. Applying it to God is anthropomorphic but deliberate — the psalm wants the reader to understand that God's presence in Zion is not obligation but desire. He chose because He wanted to dwell there."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "זֹאת־מְנוּחָתִ֥י עֲדֵי־עַ֑ד\nפֹּֽה־אֵ֝שֵׁ֗ב כִּ֣י אִוִּתִֽיהָ׃",
+      "text_kjv": "This is my rest for ever: here will I dwell; for I have desired it.",
+      "rendering": "\"This is my resting place forever.\nHere I will dwell, for I have desired it.",
+      "expanded_rendering": "God now speaks in the first person, declaring Zion His menuchah ('resting place') — the same word used in verse 8 when the psalmist asked God to arise to His rest. The quest is fulfilled. Poh eshev ('here I will dwell') is emphatic — here, this place, not elsewhere. The reason given is again desire: ki ivvitiha ('for I have desired it'). God's dwelling in Zion is presented as the fulfillment of divine longing, not merely the answer to David's vow. The psalm teaches that behind every human initiative toward God stands a prior divine desire.",
+      "translator_notes": [
+        "The adverbial phrase adei ad ('forever and ever') is one of the strongest temporal expressions in Hebrew, denoting permanence without limit. When God says 'this is my rest forever,' the claim transcends any particular structure — the first temple, the second temple. The psalm makes a theological claim about Zion that outlasts every building erected on it."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "צֵ֭ידָהּ בָּרֵ֣ךְ אֲבָרֵ֑ךְ\nאֶ֝בְיוֹנֶ֗יהָ אַשְׂבִּ֥יעַ לָֽחֶם׃",
+      "text_kjv": "I will abundantly bless her provision: I will satisfy her poor with bread.",
+      "rendering": "I will richly bless her provisions;\nher poor I will satisfy with bread.",
+      "expanded_rendering": "God's blessings begin with the material: tseidah ('provisions, food supply') will be blessed — the infinitive absolute barekh abarekh ('blessing I will bless') intensifies the promise to an emphatic degree. The poor (evyoneiha) — not the wealthy or the priests but the most vulnerable — will be satisfied (asbia) with bread. God's chosen dwelling is not a place of scarcity but abundance, and that abundance flows first to those who need it most.",
+      "translator_notes": [
+        "The infinitive absolute construction barekh abarekh ('I will surely bless, I will richly bless') is the same grammatical form God uses in blessing Abraham (Genesis 22:17). It signals a divine commitment of the highest order. The focus on feeding the poor connects Zion theology to social justice — God's dwelling place must be a place where the hungry eat."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְ֭כֹהֲנֶיהָ אַלְבִּ֣ישׁ יְשׁוּעָ֑ה\nוַ֝חֲסִידֶ֗יהָ רַנֵּ֥ן יְרַנֵּֽנוּ׃",
+      "text_kjv": "I will also clothe her priests with salvation: and her saints shall shout aloud for joy.",
+      "rendering": "Her priests I will clothe with salvation,\nand her faithful ones will shout aloud for joy.",
+      "translator_notes": [
+        "The parallel between verse 9 (the psalmist's prayer) and verse 16 (God's answer) reveals the psalm's structure of call and response. The community asks for tsedeq ('righteousness'); God gives yeshu'ah ('salvation'). The community asks for joy; God gives intensified joy. In every case, God's answer exceeds the request."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "שָׁ֤ם אַצְמִ֣יחַ קֶ֣רֶן לְדָוִ֑ד\nעָרַ֥כְתִּי נֵ֝֗ר לִמְשִׁיחִֽי׃",
+      "text_kjv": "There will I make the horn of David to bud: I have ordained a lamp for mine anointed.",
+      "rendering": "There I will cause a horn to sprout for David;\nI have prepared a lamp for my anointed one.",
+      "expanded_rendering": "Two images converge: the horn (qeren) and the lamp (ner). The verb atsmiyach ('I will cause to sprout, to grow') uses agricultural language — the horn of David will grow like a plant from the soil of Zion. The 'horn' symbolizes strength and royal power; 'causing it to sprout' suggests an organic, living dynasty that grows from God's planting. The lamp (ner) is the symbol of dynastic continuity — in 1 Kings 11:36 and 2 Kings 8:19, God preserves 'a lamp' for David in Jerusalem, meaning the line will not be extinguished. The verb arakhti ('I have prepared, arranged, set in order') indicates that the lamp is already established — God's preparation precedes the promise.",
+      "translator_notes": [
+        "The verb atsmiyach ('I will cause to sprout') is the same root as tsemach, the word Jeremiah (23:5) and Zechariah (3:8, 6:12) use for the messianic 'Branch' — the righteous descendant who will sprout from David's line. This verse is one of the roots of that later messianic terminology.",
+        "The 'lamp' (ner) as a symbol of dynastic survival appears repeatedly in the books of Kings. When God tears the kingdom from Solomon, He leaves one tribe 'so that David my servant may always have a lamp before me in Jerusalem' (1 Kings 11:36). The lamp is the visible sign of God's ongoing commitment to the Davidic line."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קֶרֶן",
+          "transliteration": "qeren",
+          "rendered_as": "horn",
+          "semantic_range": "horn (of an animal); strength, power, might; a symbol of royal authority and military victory",
+          "note": "The horn is one of the Hebrew Bible's primary symbols of power. To 'lift the horn' is to gain strength; to 'cut off the horn' is to destroy power. Here, God causes the horn to sprout — an image combining strength (horn) with organic growth (sprouting), suggesting a dynasty that is both powerful and living."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "א֭וֹיְבָיו אַלְבִּ֣ישׁ בֹּ֑שֶׁת\nוְ֝עָלָ֗יו יָצִ֥יץ נִזְרֽוֹ׃",
+      "text_kjv": "His enemies will I clothe with shame: but upon himself shall his crown flourish.",
+      "rendering": "His enemies I will clothe with shame,\nbut upon him his crown will shine.",
+      "expanded_rendering": "The final verse draws a sharp contrast using the verb 'clothe' (albish) for the third time in the psalm: priests are clothed in salvation (v. 16), but enemies are clothed in boshet ('shame, disgrace'). The anointed king, meanwhile, wears a crown that yatsits ('will blossom, shine, sparkle'). The verb yatsits comes from the root tsuts ('to bud, blossom, shine') — the crown is not merely worn but alive, flourishing like a flower. The word nizro ('his crown, his consecration') may also echo the nezer, the golden plate on the high priest's turban (Exodus 29:6), connecting royal and priestly authority. The psalm ends with a living, blossoming crown on a divinely established king — a picture of the Davidic covenant in full flower.",
+      "translator_notes": [
+        "The verb yatsits ('to blossom, shine') applied to the crown is unusual and vivid. It connects the crown to the sprouting horn of verse 17 — both images are organic and living, suggesting a dynasty that is not merely maintained but flourishing. The choice of this verb transforms the crown from a static object to a living symbol of divine favor."
+      ],
+      "reading_level": "7th grade"
+    }
+  ]
+}

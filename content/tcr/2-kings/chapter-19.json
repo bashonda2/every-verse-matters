@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Kings",
+    "chapter": 19,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Hezekiah tears his garments, puts on sackcloth, and enters the Temple. He sends officials to the prophet Isaiah with an urgent plea. Isaiah responds with a word from the LORD: do not fear the Rabshakeh's words; the Assyrian king will hear a rumor and return to his own land, where he will fall by the sword. Meanwhile, Sennacherib sends a letter to Hezekiah repeating his threats — no god has saved any nation from Assyria, and the God of Jerusalem will be no different. Hezekiah spreads the letter before the LORD in the Temple and prays one of the great prayers of the Hebrew Bible: he affirms that the LORD alone is God of all kingdoms, acknowledges that Assyria has indeed destroyed nations and their gods, and asks God to save Jerusalem so that all kingdoms will know that the LORD alone is God. Isaiah sends a second oracle — a poetic masterpiece — declaring that Assyria has raged against the Holy One of Israel, but God controls the rise and fall of empires. A sign is given: for two years Judah will eat what grows on its own, and in the third year they will plant and harvest normally. That night, the angel of the LORD strikes down 185,000 in the Assyrian camp. Sennacherib withdraws to Nineveh and is eventually assassinated by his own sons.",
+    "remarkable": "This chapter contains two of the most important theological speeches in Kings: Hezekiah's prayer and the LORD's response through Isaiah. Hezekiah's prayer (vv. 15-19) is a model of covenant theology under pressure — he does not deny the Rabshakeh's facts (Assyria has destroyed nations), but he reframes the theological category (those were not gods; the LORD is). The Isaiah oracle (vv. 21-34) is one of the most sophisticated pieces of Hebrew poetry in the prophetic corpus, shifting between mockery of Assyrian arrogance, affirmation of divine sovereignty over history, and specific promise of Jerusalem's preservation. The destruction of the Assyrian army (v. 35) is narrated in a single verse — the narrator gives more space to the theological argument than to the military miracle, because the argument is the point. God does not save Jerusalem because of its walls or Hezekiah's diplomacy but because of his own name and his covenant with David.",
+    "friction": "The number 185,000 killed (v. 35) has generated extensive discussion. Some read it literally as divine intervention; others propose a plague (Herodotus records a story of mice destroying Sennacherib's army's bowstrings, possibly reflecting a plague narrative); still others suggest it is a stylized number. The Hebrew text simply states vayyakkeh bemachaneh Ashshur ('he struck in the camp of Assyria') — the mechanism is not specified, only the agent (mal'akh YHWH, 'the angel/messenger of the LORD'). We render the text as given. The relationship between Sennacherib's assassination (v. 37) and historical records is confirmed: Esarhaddon did succeed him after a dynastic crisis, though Assyrian records name only one assassin. The Isaiah oracle's poetry (vv. 21-28) presents translation challenges with its dense metaphorical language and shifts between addressees.",
+    "connections": "Hezekiah's response to crisis — entering the Temple, sending to a prophet — is the inverse of Ahaz's response (seeking Assyria rather than God). The phrase qedosh Yisrael ('the Holy One of Israel,' v. 22) is Isaiah's distinctive title for God, appearing over 25 times in his prophecy and rarely elsewhere — its use here marks the oracle as authentically Isaianic. The angel of the LORD striking the camp (v. 35) echoes the Passover narrative: the same destroying agent who struck Egypt now strikes Assyria. The sign of two years of wild growth followed by normal agriculture (vv. 29-31) recalls the Sabbath and Jubilee agricultural cycles of Leviticus 25 — the land itself will testify to divine control of time. Sennacherib's assassination before his god Nisroch (v. 37) creates a final irony: the king who mocked other gods as unable to save is killed in the temple of his own god, who also cannot save him."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֗י כִּשְׁמֹ֙עַ֙ הַמֶּ֣לֶךְ חִזְקִיָּ֔הוּ וַיִּקְרַ֖ע אֶת־בְּגָדָ֑יו וַיִּתְכַּ֣ס בַּשָּׂ֔ק וַיָּבֹ֖א בֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "And it came to pass, when king Hezekiah heard it, that he rent his clothes, and covered himself with sackcloth, and went into the house of the LORD.",
+      "rendering": "When King Hezekiah heard this, he tore his garments, wrapped himself in sackcloth, and went into the house of the LORD.",
+      "translator_notes": [
+        "Hezekiah's three actions form a sequence: tearing garments (grief and distress), donning sackcloth (mourning and penitence), and entering the Temple (turning to God). The verb vayyavo beit YHWH ('he went into the house of the LORD') is the decisive choice — where Ahaz turned to Assyria, Hezekiah turns to God's house. This is the physical expression of the trust (batach) that defines his reign."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַ֠יִּשְׁלַ֠ח אֶת־אֶלְיָקִ֨ים אֲשֶׁר־עַל־הַבַּ֜יִת וְאֵ֣ת ׀ שֶׁבְנָ֣א הַסּוֹפֵ֗ר וְאֵת֙ זִקְנֵ֣י הַכֹּהֲנִ֔ים מִתְכַּסִּ֖ים בַּשַּׂקִּ֑ים אֶל־יְשַׁעְיָ֥הוּ הַנָּבִ֖יא בֶּן־אָמֽוֹץ׃",
+      "text_kjv": "And he sent Eliakim, which was over the household, and Shebna the scribe, and the elders of the priests, covered with sackcloth, to Isaiah the prophet the son of Amoz.",
+      "rendering": "He sent Eliakim, who was in charge of the palace, Shebna the secretary, and the senior priests — all wearing sackcloth — to the prophet Isaiah son of Amoz.",
+      "translator_notes": [
+        "Hezekiah's delegation now includes ziqnei hakkohanim ('the elders of the priests') — not just civil officials but religious leaders. All are mitkassim basaqqim ('covered in sackcloth'), indicating national mourning. Isaiah ben Amots ('Isaiah son of Amoz') appears by name for the first time in Kings. He is called hannavi ('the prophet'), his formal title, identifying him as the authoritative voice of God for this crisis."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַיֹּאמְר֣וּ אֵלָ֗יו כֹּ֚ה אָמַ֣ר חִזְקִיָּ֔הוּ יוֹם־צָרָ֧ה וְתוֹכֵחָ֛ה וּנְאָצָ֖ה הַיּ֣וֹם הַזֶּ֑ה כִּ֣י בָ֤אוּ בָנִים֙ עַד־מַשְׁבֵּ֔ר וְכֹ֥חַ אַ֖יִן לְלֵדָֽה׃",
+      "text_kjv": "And they said unto him, Thus saith Hezekiah, This day is a day of trouble, and of rebuke, and blasphemy: for the children are come to the birth, and there is not strength to bring forth.",
+      "rendering": "They told him, \"This is what Hezekiah says: This is a day of distress, rebuke, and disgrace. Children have reached the point of birth, but there is no strength to deliver them.",
+      "translator_notes": [
+        "Hezekiah's message uses three words for the crisis: tsarah ('distress, anguish'), tokhechah ('rebuke, correction, punishment'), and ne'atsah ('contempt, disgrace, blasphemy'). The birth metaphor — ba'u vanim ad mashber vekoach ayin leledah ('children have come to the breaking point of birth and there is no strength to deliver') — is devastating. The mashber is the birth stool or the cervical opening; the image is of a woman in the final stage of labor who has no strength to push. The nation is at the crisis point but cannot save itself."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "אוּלַ֗י יִשְׁמַ֞ע יְהוָ֣ה אֱלֹהֶ֗יךָ אֵ֚ת כׇּל־דִּבְרֵ֣י רַב־שָׁקֵ֔ה אֲשֶׁ֨ר שְׁלָח֤וֹ מֶלֶךְ־אַשּׁוּר֙ אֲדֹנָ֔יו לְחָרֵ֖ף אֱלֹהִ֣ים חָ֑י וְהוֹכִ֗יחַ בַּדְּבָרִ֛ים אֲשֶׁ֥ר שָׁמַ֖ע יְהוָ֥ה אֱלֹהֶֽיךָ׃ וְנָשָׂ֥אתָ תְפִלָּ֖ה בְּעַ֥ד הַשְּׁאֵרִ֖ית הַנִּמְצָאָֽה׃",
+      "text_kjv": "It may be the LORD thy God will hear all the words of Rabshakeh, whom the king of Assyria his master hath sent to reproach the living God; and will reprove the words which the LORD thy God hath heard: wherefore lift up thy prayer for the remnant that are left.",
+      "rendering": "Perhaps the LORD your God will hear all the words of the Rabshakeh, whom his master the king of Assyria sent to mock the living God, and will rebuke the words the LORD your God has heard. Lift up a prayer for the remnant that survives.\"",
+      "translator_notes": [
+        "The word ulai ('perhaps') reveals genuine uncertainty — Hezekiah does not presume on divine action but hopes for it. The phrase lecharef Elohim chai ('to mock the living God') reframes the Rabshakeh's speech as blasphemy against Elohim chai ('the living God') — a title that distinguishes YHWH from the dead idols of the nations. The request venasata tefillah be'ad hashe'erit hannimtsa'ah ('lift up prayer for the remnant that is found') uses she'erit ('remnant'), the prophetic term for the surviving portion of the people. Jerusalem is the remnant — all else has fallen."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיָּבֹ֗אוּ עַבְדֵ֛י הַמֶּ֥לֶךְ חִזְקִיָּ֖הוּ אֶל־יְשַׁעְיָֽהוּ׃",
+      "text_kjv": "So the servants of king Hezekiah came to Isaiah.",
+      "rendering": "When King Hezekiah's servants came to Isaiah,",
+      "translator_notes": [
+        "A brief transitional verse linking the royal delegation's departure to their arrival at Isaiah's location. The officials are called avdei hammelekh ('servants of the king'), emphasizing they act under royal authority."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיֹּ֤אמֶר לָהֶם֙ יְשַׁעְיָ֔הוּ כֹּ֥ה תֹאמְר֖וּן אֶל־אֲדֹנֵיכֶ֑ם כֹּ֣ה ׀ אָמַ֣ר יְהוָ֗ה אַל־תִּירָא֙ מִפְּנֵ֤י הַדְּבָרִים֙ אֲשֶׁ֣ר שָׁמַ֔עְתָּ אֲשֶׁ֧ר גִּדְּפ֛וּ נַעֲרֵ֥י מֶלֶךְ־אַשּׁ֖וּר אֹתִֽי׃",
+      "text_kjv": "And Isaiah said unto them, Thus shall ye say to your master, Thus saith the LORD, Be not afraid of the words which thou hast heard, with which the servants of the king of Assyria have blasphemed me.",
+      "rendering": "Isaiah said to them, \"Tell your master: This is what the LORD says — Do not be afraid of the words you have heard, with which the servants of the king of Assyria have blasphemed me.",
+      "translator_notes": [
+        "Isaiah's response opens with koh amar YHWH ('thus says the LORD'), the prophetic messenger formula — the same formula the Rabshakeh used for the Assyrian king. The divine message begins with al tira ('do not fear'), the standard oracle of reassurance in the Hebrew Bible. God identifies the Rabshakeh's words as giddefu oti ('they have blasphemed me') — the Rabshakeh attacked God, not merely Hezekiah, and God takes personal offense. The Assyrian officials are dismissively called na'arei melekh Ashshur ('servants/boys of the king of Assyria') — a deliberate demotion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "הִנְנִ֨י נֹתֵ֥ן בּוֹ֙ ר֔וּחַ וְשָׁמַ֥ע שְׁמוּעָ֖ה וְשָׁ֣ב לְאַרְצ֑וֹ וְהִפַּלְתִּ֥יו בַּחֶ֖רֶב בְּאַרְצֽוֹ׃",
+      "text_kjv": "Behold, I will send a blast upon him, and he shall hear a rumour, and shall return to his own land; and I will cause him to fall by the sword in his own land.",
+      "rendering": "I am about to put a spirit in him so that when he hears a report, he will return to his own land. And I will cause him to fall by the sword in his own land.\"",
+      "translator_notes": [
+        "The prophecy is precise and will be fulfilled: hineni noten bo ruach ('I am putting a spirit in him') — God will manipulate Sennacherib's inner disposition. The word ruach ('spirit, wind, disposition') here means an impulse or inclination that God plants. The shemu'ah ('report, rumor') he will hear is likely news of the Ethiopian/Egyptian advance (v. 9) or internal Assyrian threats. The phrase veshav le-artso ('he will return to his land') predicts withdrawal, and vehippaltiv bacherev be-artso ('I will fell him by the sword in his land') predicts his assassination — fulfilled in v. 37."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיָּ֙שׇׁב֙ רַב־שָׁקֵ֔ה וַיִּמְצָ֥א אֶת־מֶלֶךְ־אַשּׁ֖וּר נִלְחָ֣ם עַל־לִבְנָ֑ה כִּ֣י שָׁמַ֔ע כִּ֥י נָסַ֖ע מִלָּכִֽישׁ׃",
+      "text_kjv": "So Rabshakeh returned, and found the king of Assyria warring against Libnah: for he had heard that he was departed from Lachish.",
+      "rendering": "The Rabshakeh returned and found the king of Assyria fighting against Libnah, because he had heard that Sennacherib had moved on from Lachish.",
+      "translator_notes": [
+        "Libnah (Livnah) was a fortified city in the Judahite lowlands, near Lachish. Sennacherib has moved to a new siege target while the Rabshakeh was at Jerusalem. The campaign continues — the Assyrian war machine does not stop for negotiations."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיִּשְׁמַ֗ע אֶל־תִּרְהָ֤קָה מֶלֶךְ־כּוּשׁ֙ לֵאמֹ֔ר הִנֵּ֥ה יָצָ֖א לְהִלָּחֵ֣ם אִתָּ֑ךְ וַיָּ֗שׇׁב וַיִּשְׁלַ֤ח מַלְאָכִים֙ אֶל־חִזְקִיָּ֔הוּ לֵאמֹֽר׃",
+      "text_kjv": "And when he heard say of Tirhakah king of Ethiopia, Behold, he is come out to fight against thee: he sent messengers again unto Hezekiah, saying,",
+      "rendering": "Then Sennacherib heard a report about Tirhakah king of Cush: \"He has set out to fight against you.\" So he sent messengers again to Hezekiah, saying,",
+      "translator_notes": [
+        "Tirhakah (Tirhaqah) was a Nubian/Cushite pharaoh of Egypt's 25th Dynasty. His advance from the south threatened Sennacherib's flank. Some scholars note that Tirhakah may not yet have been pharaoh in 701 BCE, suggesting either an anachronistic title or a second campaign. The approach of an Egyptian force makes Sennacherib intensify his pressure on Jerusalem — he wants the city before he must turn south."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כֹּ֣ה תֹאמְר֗וּן אֶל־חִזְקִיָּ֤הוּ מֶלֶךְ־יְהוּדָה֙ לֵאמֹ֔ר אַל־יַשִּׁאֲךָ֣ אֱלֹהֶ֔יךָ אֲשֶׁ֥ר אַתָּ֖ה בֹּטֵ֣חַ בּ֑וֹ לֵאמֹ֕ר לֹ֚א תִנָּתֵ֣ן יְרוּשָׁלַ֔͏ִם בְּיַ֖ד מֶ֥לֶךְ אַשּֽׁוּר׃",
+      "text_kjv": "Thus shall ye speak to Hezekiah king of Judah, saying, Let not thy God in whom thou trustest deceive thee, saying, Jerusalem shall not be delivered into the hand of the king of Assyria.",
+      "rendering": "\"Say this to Hezekiah king of Judah: Do not let your God, in whom you trust, deceive you by saying, 'Jerusalem will not be handed over to the king of Assyria.'",
+      "translator_notes": [
+        "Sennacherib's letter repeats the Rabshakeh's argument but now in writing. The phrase al yashshi'akha Elohekha asher attah boteach bo ('do not let your God in whom you are trusting deceive you') directly targets the trust relationship between Hezekiah and God. The participle boteach ('trusting') is continuous — Sennacherib knows Hezekiah is still trusting, and tries to break that trust."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בָּטַח",
+          "transliteration": "batach",
+          "rendered_as": "trust",
+          "semantic_range": "to trust, to rely upon, to feel secure, to be confident, to lean on",
+          "note": "batach — Sennacherib's letter identifies the same quality the narrator praised in 18:5. The Assyrian king and the biblical narrator agree on what defines Hezekiah; they disagree on whether it is a virtue or a delusion."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "הִנֵּ֣ה אַתָּ֣ה שָׁמַ֗עְתָּ אֵ֣ת אֲשֶׁ֤ר עָשׂוּ֙ מַלְכֵ֣י אַשּׁ֔וּר לְכׇל־הָאֲרָצ֖וֹת לְהַחֲרִימָ֑ם וְאַתָּ֖ה תִּנָּצֵֽל׃",
+      "text_kjv": "Behold, thou hast heard what the kings of Assyria have done to all lands, by destroying them utterly: and shalt thou be delivered?",
+      "rendering": "You have heard what the kings of Assyria have done to every land, utterly destroying them. Will you alone be rescued?",
+      "translator_notes": [
+        "The verb lehacharimam ('to devote them to destruction') uses the root charam — the same word used for Israel's total warfare in Joshua. Sennacherib claims Assyria has applied cherem ('total destruction') to every nation. The rhetorical question ve-attah tinnatsel ('and will you be saved?') implies the obvious answer: no."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "הַהִצִּ֨ילוּ אֹתָ֜ם אֱלֹהֵ֣י הַגּוֹיִ֗ם אֲשֶׁ֨ר שִׁחֲת֤וּ אֲבוֹתַי֙ אֶת־גּוֹזָ֣ן וְאֶת־חָרָ֔ן וְרֶ֖צֶף וּבְנֵי־עֶ֥דֶן אֲשֶׁ֖ר בִּתְלַאשָּֽׂר׃",
+      "text_kjv": "Have the gods of the nations delivered them which my fathers have destroyed; as Gozan, and Haran, and Rezeph, and the children of Eden which were in Thelasar?",
+      "rendering": "Did the gods of the nations rescue them — the ones my predecessors destroyed: Gozan, Haran, Rezeph, and the people of Eden who were in Telassar?",
+      "translator_notes": [
+        "The list of conquered territories is meant to overwhelm: Gozan in upper Mesopotamia, Haran (Abraham's ancestral city) in northern Syria, Rezeph in the Syrian Desert, and benei Eden ('children of Eden,' not the garden but the Aramean state of Bit-Adini) near Telassar. The word avotai ('my fathers/predecessors') refers to previous Assyrian kings, claiming a dynasty of destroyers."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "אַיֵּ֤ה מֶלֶךְ־חֲמָת֙ וּמֶ֣לֶךְ אַרְפָּ֔ד וּמֶ֖לֶךְ לְעִ֣יר סְפַרְוָ֑יִם הֵנַ֖ע וְעִוָּֽה׃",
+      "text_kjv": "Where is the king of Hamath, and the king of Arpad, and the king of the city of Sepharvaim, of Hena, and Ivah?",
+      "rendering": "Where is the king of Hamath? The king of Arpad? The king of Sepharvaim, Hena, and Ivvah?\"",
+      "translator_notes": [
+        "The taunting question ayyeh ('where?') repeats the Rabshakeh's earlier challenge (18:34). The kings are gone — erased. The question is rhetorical: they are nowhere, because Assyria destroyed them. The repetition of this list from chapter 18 shows Sennacherib's propaganda is standardized — the same arguments, the same city names, the same challenge to any god who would resist."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וַיִּקַּ֨ח חִזְקִיָּ֧הוּ אֶת־הַסְּפָרִ֛ים מִיַּ֥ד הַמַּלְאָכִ֖ים וַיִּקְרָאֵ֑הוּ וַיַּ֙עַל֙ בֵּ֣ית יְהוָ֔ה וַיִּפְרְשֵׂ֥הוּ חִזְקִיָּ֖הוּ לִפְנֵ֥י יְהוָֽה׃",
+      "text_kjv": "And Hezekiah received the letter of the hand of the messengers, and read it: and Hezekiah went up into the house of the LORD, and spread it before the LORD.",
+      "rendering": "Hezekiah took the letter from the hand of the messengers and read it. Then he went up to the house of the LORD and spread it open before the LORD.",
+      "translator_notes": [
+        "The verb vayyifresehu ('he spread it out') is a vivid physical action: Hezekiah unrolls or unfolds the letter and lays it open lifnei YHWH ('before the LORD's face'). He is showing God the letter — not because God needs to read it, but as an act of bringing the crisis directly into God's presence. The gesture is both prayer and protest: 'See what they have written. See what they say about you.' This is prayer as presentation of evidence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיִּתְפַּלֵּ֨ל חִזְקִיָּ֜הוּ לִפְנֵ֤י יְהוָה֙ וַיֹּאמַ֔ר יְהוָ֞ה אֱלֹהֵ֤י יִשְׂרָאֵל֙ יֹשֵׁ֣ב הַכְּרֻבִ֔ים אַתָּה־ה֤וּא הָאֱלֹהִים֙ לְבַדְּךָ֔ לְכֹ֖ל מַמְלְכ֣וֹת הָאָ֑רֶץ אַתָּ֣ה עָשִׂ֔יתָ אֶת־הַשָּׁמַ֖יִם וְאֶת־הָאָֽרֶץ׃",
+      "text_kjv": "And Hezekiah prayed before the LORD, and said, O LORD God of Israel, which dwellest between the cherubims, thou art the God, even thou alone, of all the kingdoms of the earth; thou hast made heaven and earth.",
+      "rendering": "Hezekiah prayed before the LORD: \"O LORD, God of Israel, enthroned above the cherubim — you alone are God over all the kingdoms of the earth. You made the heavens and the earth.",
+      "translator_notes": [
+        "The prayer opens with a theological declaration that answers the Rabshakeh's fundamental error. YHWH is yoshev hakeruvim ('enthroned above the cherubim'), a reference to the Ark of the Covenant where God's presence dwelt between the cherubim in the Holy of Holies. The critical claim: attah hu ha-Elohim levaddekha lekhol mamlekhot ha-arets ('you alone are the God of all the kingdoms of the earth'). This is not a territorial deity but the universal sovereign. The phrase attah asita et hashamayim ve-et ha-arets ('you made the heavens and the earth') grounds the claim in creation — a God who made everything cannot be defeated by anything."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "הַטֵּ֨ה יְהוָ֤ה ׀ אׇזְנְךָ֙ וּֽשֲׁמָ֔ע פְּקַ֤ח יְהוָה֙ עֵינֶ֣יךָ וּרְאֵ֔ה וּשְׁמַ֖ע אֵ֣ת דִּבְרֵ֣י סַנְחֵרִ֑יב אֲשֶׁ֣ר שְׁלָח֔וֹ לְחָרֵ֖ף אֱלֹהִ֥ים חָֽי׃",
+      "text_kjv": "LORD, bow down thine ear, and hear: open, LORD, thine eyes, and see: and hear the words of Sennacherib, which hath sent him to reproach the living God.",
+      "rendering": "Incline your ear, O LORD, and hear. Open your eyes, O LORD, and see. Hear the words of Sennacherib, which he sent to mock the living God.",
+      "translator_notes": [
+        "The prayer uses body-part language for God — hatteh oznekha ('incline your ear'), peqach einekha ('open your eyes') — not as literal anthropomorphism but as the language of intimate plea. The verbs are imperatives: hear, see, hear. Hezekiah wants God to attend to the specific words of Sennacherib's letter. The title Elohim chai ('living God') is repeated from v. 4 — it distinguishes YHWH from the dead gods of the nations and implicitly challenges Sennacherib's comparison."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "אׇ֣מְנָ֔ם יְהוָ֕ה הֶחֱרִ֛יבוּ מַלְכֵ֥י אַשּׁ֖וּר אֶת־הַגּוֹיִ֑ם וְאֶת־אַרְצָֽם׃",
+      "text_kjv": "Of a truth, LORD, the kings of Assyria have destroyed the nations and their lands,",
+      "rendering": "It is true, O LORD — the kings of Assyria have laid waste the nations and their lands.",
+      "translator_notes": [
+        "Hezekiah concedes the Rabshakeh's facts: omnam ('truly, indeed') — the Assyrians have destroyed nations. The verb hecherivu ('they devastated, laid waste') does not sugarcoat the military reality. Honest prayer does not require denying reality; it requires reframing it theologically."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְנָתְנ֥וּ אֶת־אֱלֹהֵיהֶ֖ם בָּאֵ֑שׁ כִּ֣י ׀ לֹ֣א אֱלֹהִ֣ים הֵ֗מָּה כִּ֣י אִם־מַעֲשֵׂ֧ה יְדֵי־אָדָ֛ם עֵ֥ץ וָאֶ֖בֶן וַיְאַבְּדֽוּם׃",
+      "text_kjv": "And have cast their gods into the fire: for they were no gods, but the work of men's hands, wood and stone: therefore they have destroyed them.",
+      "rendering": "They have thrown their gods into the fire — because they were not gods at all, but only the work of human hands, wood and stone. So of course they destroyed them.",
+      "translator_notes": [
+        "The theological reframe: ki lo elohim hemmah ('because they are not gods'). This is the pivot of the prayer. The Rabshakeh argued: no god has saved anyone, so your God cannot save you either. Hezekiah argues: they were not gods — they were ma'aseh yedei adam ets va-even ('the work of human hands, wood and stone'). The argument is not that those gods failed but that they never existed as gods in the first place. Assyria destroyed idols, not deities. The category error is the Rabshakeh's, not Hezekiah's."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְעַתָּ֛ה יְהוָ֥ה אֱלֹהֵ֖ינוּ הוֹשִׁיעֵ֣נוּ נָ֑א מִיָּד֕וֹ וְיֵֽדְעוּ֙ כׇּל־מַמְלְכ֣וֹת הָאָ֔רֶץ כִּ֥י אַתָּ֛ה יְהוָ֥ה אֱלֹהִ֖ים לְבַדֶּֽךָ׃",
+      "text_kjv": "Now therefore, O LORD our God, I beseech thee, save us out of his hand, that all the kingdoms of the earth may know that thou art the LORD God, even thou only.",
+      "rendering": "Now, O LORD our God, save us from his power, so that all the kingdoms of the earth may know that you, O LORD, are God alone.\"",
+      "translator_notes": [
+        "The prayer reaches its climax with two petitions: hoshi'enu na miyyado ('save us now from his hand') and the purpose clause — veyyed'u kol mamlekhot ha-arets ki attah YHWH Elohim levaddekha ('so that all kingdoms of the earth will know that you, LORD, are God alone'). Hezekiah's prayer is not merely for survival but for divine self-revelation. Salvation is not an end in itself but a means by which all nations will recognize YHWH's sole divinity. The universalism is striking: the goal is not Judah's vindication but the world's knowledge of God."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיִּשְׁלַ֛ח יְשַׁעְיָ֥הוּ בֶן־אָמ֖וֹץ אֶל־חִזְקִיָּ֣הוּ לֵאמֹ֑ר כֹּ֥ה אָמַ֛ר יְהוָ֖ה אֱלֹהֵ֣י יִשְׂרָאֵ֑ל אֲשֶׁ֨ר הִתְפַּלַּ֤לְתָּ אֵלַי֙ אֶל־סַנְחֵרִ֣יב מֶלֶךְ־אַשּׁ֔וּר שָׁמָֽעְתִּי׃",
+      "text_kjv": "Then Isaiah the son of Amoz sent to Hezekiah, saying, Thus saith the LORD God of Israel, That which thou hast prayed to me against Sennacherib king of Assyria I have heard.",
+      "rendering": "Isaiah son of Amoz sent a message to Hezekiah: \"This is what the LORD, the God of Israel, says: What you prayed to me about Sennacherib king of Assyria — I have heard.",
+      "translator_notes": [
+        "The divine response begins with shama'ti ('I have heard') — answering Hezekiah's plea 'hear' (v. 16). God heard because Hezekiah asked him to hear. The prayer-response pattern confirms the covenant relationship: the God who seemed silent during the Rabshakeh's speech now speaks through his prophet."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "זֶ֣ה הַדָּבָ֗ר אֲשֶׁר־דִּבֶּ֤ר יְהוָה֙ עָלָ֔יו בָּזָ֨ה לְךָ֜ לָעֲגָ֣ה לְּךָ֗ בְּתוּלַת֙ בַּת־צִיּ֔וֹן אַחֲרֶ֙יךָ֙ רֹ֣אשׁ הֵנִ֔יעָה בַּ֖ת יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "This is the word that the LORD hath spoken concerning him; The virgin the daughter of Zion hath despised thee, and laughed thee to scorn; the daughter of Jerusalem hath shaken her head at thee.",
+      "rendering": "This is the word the LORD has spoken against him: She despises you, she mocks you — Virgin Daughter Zion! She shakes her head behind your back — Daughter Jerusalem!",
+      "translator_notes": [
+        "The Isaiah oracle begins with taunting poetry. The personification of Jerusalem as betulat bat Tsiyyon ('Virgin Daughter Zion') turns the tables completely: the mighty Assyrian king is mocked by a young woman. The word bazah ('she despises, she scorns') is the verb of contempt. The gesture rosh heni'ah ('she shakes her head') is dismissive ridicule. The unraveling of Assyrian power begins with God laughing at the pretension."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קָדוֹשׁ יִשְׂרָאֵל",
+          "transliteration": "qedosh Yisra'el",
+          "rendered_as": "Holy One of Israel",
+          "semantic_range": "the Holy One of Israel — Isaiah's distinctive divine title emphasizing God's transcendent otherness and his particular covenant relationship with Israel",
+          "note": "qedosh Yisra'el — this title appears in v. 22 and is Isaiah's signature name for God, combining transcendence (qadosh, 'holy, set apart, wholly other') with covenant intimacy (Yisra'el, 'Israel'). The Holy One is not distant; he belongs to Israel, and Israel belongs to him."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "אֶת־מִ֤י חֵרַ֙פְתָּ֙ וְגִדַּ֔פְתָּ וְעַל־מִ֖י הֲרִימ֣וֹתָ ק֑וֹל וַתִּשָּׂ֥א מָר֛וֹם עֵינֶ֖יךָ עַל־קְד֥וֹשׁ יִשְׂרָאֵֽל׃",
+      "text_kjv": "Whom hast thou reproached and blasphemed? and against whom hast thou exalted thy voice, and lifted up thine eyes on high? even against the Holy One of Israel.",
+      "rendering": "Whom have you mocked and blasphemed? Against whom have you raised your voice and lifted your eyes in arrogance? Against the Holy One of Israel!",
+      "translator_notes": [
+        "Three rhetorical questions with one devastating answer: et mi cherafta veggiddafta ('whom did you mock and blaspheme?'), al mi harimota qol ('against whom did you raise your voice?'), and vattissa marom einekha ('you lifted your eyes on high'). The answer: al qedosh Yisrael ('against the Holy One of Israel'). The title qedosh Yisrael appears over twenty-five times in Isaiah and is his most distinctive name for God. Qadosh means 'separate, set apart, wholly other' — the Assyrians have challenged the one being in the cosmos they cannot dominate."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "בְּיַ֣ד מַלְאָכֶ֗יךָ חֵרַ֤פְתָּ ׀ אֲדֹנָי֙ וַתֹּ֗אמֶר בְּרֹ֤ב רִכְבִּי֙ אֲנִ֣י עָלִ֗יתִי מְר֤וֹם הָרִים֙ יַרְכְּתֵ֣י לְבָנ֔וֹן וְאֶכְרֹ֤ת קוֹמַת֙ אֲרָזָ֔יו מִבְח֖וֹר בְּרֹשָׁ֑יו וְאָב֙וֹאָה֙ מְל֣וֹן קִצּ֔וֹ יַ֖עַר כַּרְמִלּֽוֹ׃",
+      "text_kjv": "By thy messengers thou hast reproached the Lord, and hast said, With the multitude of my chariots I am come up to the height of the mountains, to the sides of Lebanon, and will cut down the tall cedar trees thereof, and the choice fir trees thereof: and I will enter into the lodgings of his borders, and into the forest of his Carmel.",
+      "rendering": "Through your messengers you have mocked the Lord and said, 'With my many chariots I have scaled the mountain heights, the remotest peaks of Lebanon. I cut down its tallest cedars, its choicest cypresses. I penetrated its farthest lodge, its densest forest.",
+      "translator_notes": [
+        "God quotes Sennacherib's own boasts back to him. The language of conquest is expressed through nature imagery: climbing mountains, cutting cedars, penetrating forests. Lebanon's cedars (arazav) were the ancient world's most prized timber — claiming to cut them down is claiming dominion over nature's finest. The phrase melon qitso ('the lodge of its limit/end') and ya'ar karmillo ('its garden-forest') represent the uttermost reaches of territory. Sennacherib claims there is nowhere he cannot go."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "אֲנִ֣י קַ֗רְתִּי וְשָׁתִ֙יתִי֙ מַ֣יִם זָרִ֔ים וְאַחְרִ֖ב בְּכַף־פְּעָמַ֑י כֹּ֖ל יְאֹרֵ֥י מָצֽוֹר׃",
+      "text_kjv": "I have digged and drunk strange waters, and with the sole of my feet have I dried up all the rivers of besieged places.",
+      "rendering": "I dug wells and drank foreign waters. With the soles of my feet I dried up all the rivers of Egypt.'",
+      "translator_notes": [
+        "Sennacherib's boast continues: he dug wells in foreign lands (qarti veshatiti mayim zarim, 'I dug and drank foreign waters') and his marching armies dried up rivers (achrib bekhaf pe'amai kol ye'orei matsor, 'I dried up with the sole of my feet all the canals of Egypt'). The word ye'orei is the plural of ye'or, the Nile — the rivers of matsor ('Egypt' or 'siege'). The boast claims mastery over water itself, the fundamental resource of life. In a region where water means survival, claiming to control it claims to control everything."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "הֲלֹא־שָׁמַ֗עְתָּ לְמֵרָח֤וֹק אֹתָהּ֙ עָשִׂ֔יתִי לִ֥ימֵי קֶ֖דֶם וִיצַרְתִּ֑יהָ עַתָּ֣ה הֲבֵאתִ֔יהָ וּתְהִ֗י לְהַשְׁא֛וֹת גַּלִּ֥ים נִצִּ֖ים עָרִ֥ים בְּצֻרֽוֹת׃",
+      "text_kjv": "Hast thou not heard long ago how I have done it, and of ancient times that I have formed it? now have I brought it to pass, that thou shouldest be to lay waste fenced cities into ruinous heaps.",
+      "rendering": "Have you not heard? Long ago I planned it. In ancient times I shaped it. Now I have brought it about — that you should crush fortified cities into heaps of rubble.",
+      "translator_notes": [
+        "God's response to Sennacherib's boasting: halo shamata ('have you not heard?') — a devastating question. Everything Assyria has accomplished was planned by God lemerachoq ('from afar, long ago') and formed liyemei qedem ('from days of old'). Sennacherib is not a conqueror but an instrument. The verb yetsartihah ('I formed it, I shaped it') uses the potter's verb (yatsar) — God molded this history like clay. Assyria's victories are not achievements but assignments."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְיֹ֣שְׁבֵיהֶן֮ קִצְרֵי־יָד֒ חַ֣תּוּ וָבֹ֔שׁוּ הָי֛וּ עֵ֥שֶׂב שָׂדֶ֖ה וִ֣ירַק דֶּ֑שֶׁא חֲצִ֣יר גַּגּ֔וֹת וּשְׁדֵמָ֖ה לִפְנֵ֥י קָמָֽה׃",
+      "text_kjv": "Therefore their inhabitants were of small power, they were dismayed and confounded; they were as the grass of the field, and as the green herb, as the grass on the house tops, and as corn blasted before it be grown up.",
+      "rendering": "Their inhabitants, shorn of strength, were shattered and shamed. They became like plants of the field, like tender green shoots, like grass on rooftops scorched before it can grow.",
+      "translator_notes": [
+        "The conquered peoples are described with images of fragility: esev sadeh ('plants of the field'), yereq deshe ('tender green herb'), chatsir gaggot ('roof grass'). Grass growing on flat rooftops in the ancient Near East had no deep soil and withered quickly in the sun. The phrase ushedemah lifnei qamah ('scorched/blasted before standing') describes grain destroyed before it reaches maturity. The nations were weak not because Assyria was strong but because God made them weak for his purposes."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וְשִׁבְתְּךָ֗ וְצֵאתְךָ֤ וּבוֹאֲךָ֙ יָדַ֔עְתִּי וְאֵ֖ת הִֽתְרַגֶּזְךָ֥ אֵלָֽי׃",
+      "text_kjv": "But I know thy abode, and thy going out, and thy coming in, and thy rage against me.",
+      "rendering": "I know your sitting down, your going out, and your coming in — and your raging against me.",
+      "translator_notes": [
+        "God claims total surveillance of Sennacherib: shivtekha ('your sitting/dwelling'), tse'tekha ('your going out'), uvo'akha ('your coming in') — every movement is known. The final phrase ve-et hitragezekha elai ('and your raging against me') identifies Sennacherib's real offense: not political ambition but personal rage against God. The verse echoes Psalm 139:2 ('you know my sitting down and my rising up') — the same all-knowing attention, now turned from comfort to judgment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "יַ֗עַן הִתְרַגֶּזְךָ֣ אֵלַ֔י וְשַׁאֲנַנְךָ֖ עָלָ֣ה בְאׇזְנָ֑י וְשַׂמְתִּ֨י חַחִ֜י בְּאַפֶּ֗ךָ וּמִתְגִּי֙ בִּשְׂפָתֶ֔יךָ וַהֲשִׁ֣בֹתִ֔יךָ בַּדֶּ֖רֶךְ אֲשֶׁר־בָּ֥אתָ בָּֽהּ׃",
+      "text_kjv": "Because thy rage against me and thy tumult is come up into mine ears, therefore I will put my hook in thy nose, and my bridle in thy lips, and I will turn thee back by the way by which thou camest.",
+      "rendering": "Because your raging against me and your arrogance have reached my ears, I will put my hook in your nose and my bit in your lips, and I will turn you back by the way you came.\"",
+      "translator_notes": [
+        "The punishment matches Assyrian practice — Assyrian reliefs show conquered kings led by hooks through their noses or lips. God will do to Sennacherib what Sennacherib does to others: vesamti chachi be-appekha umitiggiy bisfatekha ('I will set my hook in your nose and my bridle in your lips'). The image is of an animal led by a ring. The once-mighty conqueror becomes a led beast. The phrase vahashivotikha baderekh asher bata bah ('I will return you by the way you came') promises forced withdrawal — the same road in, the same road back."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְזֶה־לְּךָ֣ הָא֔וֹת אָכ֤וֹל הַשָּׁנָה֙ סָפִ֔יחַ וּבַשָּׁנָ֥ה הַשֵּׁנִ֖ית סָחִ֑ישׁ וּבַשָּׁנָ֣ה הַשְּׁלִישִׁ֗ית זִרְע֤וּ וְקִצְרוּ֙ וְנִטְע֣וּ כְרָמִ֔ים וְאִכְל֖וּ פִּרְיָֽם׃",
+      "text_kjv": "And this shall be a sign unto thee, Ye shall eat this year such things as grow of themselves, and in the second year that which springeth of the same; and in the third year sow ye, and reap, and plant vineyards, and eat the fruits thereof.",
+      "rendering": "And this will be your sign: This year you will eat what grows on its own. In the second year you will eat what springs from that. But in the third year, sow and reap, plant vineyards and eat their fruit.",
+      "translator_notes": [
+        "The sign (ot) is agricultural: for two years the land will produce only saphiach ('aftergrowth, volunteer grain') and sachish ('what springs up by itself') — crops from ungathered seed of the previous harvest. The disruption of normal agriculture reflects the Assyrian invasion's damage. But in the third year — zir'u veqitsru ('sow and reap') — normal life resumes. The sign confirms divine control over the agricultural calendar, the most basic human concern. Vineyards take years to mature, so 'plant vineyards and eat their fruit' promises long-term stability."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְיָ֨סְפָ֜ה פְּלֵיטַ֧ת בֵּית־יְהוּדָ֛ה הַנִּשְׁאָרָ֖ה שֹׁ֣רֶשׁ לְמָ֑טָּה וְעָשָׂ֥ה פְרִ֖י לְמָֽעְלָה׃",
+      "text_kjv": "And the remnant that is escaped of the house of Judah shall yet again take root downward, and bear fruit upward.",
+      "rendering": "The surviving remnant of the house of Judah will take root downward and bear fruit upward.",
+      "translator_notes": [
+        "The agricultural metaphor extends to the people: peleitatat beit Yehudah hannish'arah ('the escaped remnant of the house of Judah that remains') will function like a replanted tree — shoresh lemattah ('root downward') and asah peri lema'lah ('bear fruit upward'). The image reverses exile: instead of being uprooted and deported (as happened to Israel), Judah will be rooted deeper. The word peleitah ('escaped remnant, survivors') and nish'arah ('remaining') acknowledge the devastating losses while promising recovery."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "כִּ֤י מִירוּשָׁלַ֙͏ִם֙ תֵּצֵ֣א שְׁאֵרִ֔ית וּפְלֵיטָ֖ה מֵהַ֣ר צִיּ֑וֹן קִנְאַ֥ת יְהוָ֖ה צְבָא֥וֹת תַּעֲשֶׂה־זֹּֽאת׃",
+      "text_kjv": "For out of Jerusalem shall go forth a remnant, and they that escape out of mount Zion: the zeal of the LORD of hosts shall do this.",
+      "rendering": "For out of Jerusalem a remnant will go forth, and survivors from Mount Zion. The zeal of the LORD of Hosts will accomplish this.",
+      "translator_notes": [
+        "The promise is sourced: qin'at YHWH tseva'ot ta'aseh zot ('the zeal of the LORD of Hosts will accomplish this'). The word qin'ah ('zeal, jealousy, passionate commitment') is the divine attribute that refuses to share Israel with other gods and refuses to abandon Israel to other powers. YHWH Tseva'ot ('the LORD of Hosts/Armies') is the divine warrior title — the God who commands heavenly armies acts out of covenant jealousy."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "לָכֵ֗ן כֹּה־אָמַ֤ר יְהוָה֙ אֶל־מֶ֣לֶךְ אַשּׁ֔וּר לֹ֤א יָבוֹא֙ אֶל־הָעִ֣יר הַזֹּ֔את וְלֹא־יוֹרֶ֥ה שָׁ֖ם חֵ֑ץ וְלֹֽא־יְקַדְּמֶ֣נָּה מָגֵ֔ן וְלֹא־יִשְׁפֹּ֥ךְ עָלֶ֖יהָ סֹלְלָֽה׃",
+      "text_kjv": "Therefore thus saith the LORD concerning the king of Assyria, He shall not come into this city, nor shoot an arrow there, nor come before it with shield, nor cast a bank against it.",
+      "rendering": "Therefore this is what the LORD says about the king of Assyria: He will not enter this city. He will not shoot an arrow here. He will not advance against it with a shield. He will not build a siege ramp against it.",
+      "translator_notes": [
+        "Four negations describe what Sennacherib will not do to Jerusalem: lo yavo ('he will not enter'), lo yoreh sham chets ('he will not shoot an arrow there'), lo yeqaddemenah magen ('he will not confront it with a shield'), lo yishpokh aleha solelah ('he will not pour out against it a ramp'). Each item represents a stage of ancient siege warfare: entry, missile fire, close combat, and ramp-building. God forbids the entire sequence. The city will be untouched — not because its walls are strong but because God's word forbids the assault."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "בַּדֶּ֥רֶךְ אֲשֶׁר־בָּ֖א בָּ֣הּ יָשׁ֑וּב וְאֶל־הָעִ֤יר הַזֹּאת֙ לֹ֣א יָב֔וֹא נְאֻם־יְהוָֽה׃",
+      "text_kjv": "By the way that he came, by the same shall he return, and shall not come into this city, saith the LORD.",
+      "rendering": "By the way he came, he will return. He will not enter this city — declares the LORD.",
+      "translator_notes": [
+        "The oracle concludes with ne'um YHWH ('oracle of the LORD'), the prophetic seal of authority. The promise badderekh asher ba bah yashuv ('by the road he came he will return') is a forced retreat — the same road, reversed. The repetition of lo yavo ('he will not enter') is emphatic. The city's safety is guaranteed by divine speech, not military calculation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְגַנּוֹתִ֛י אֶל־הָעִ֥יר הַזֹּ֖את לְהוֹשִׁיעָ֑הּ לְמַעֲנִ֕י וּלְמַ֖עַן דָּוִ֥ד עַבְדִּֽי׃",
+      "text_kjv": "For I will defend this city, to save it, for mine own sake, and for my servant David's sake.",
+      "rendering": "I will shield this city and save it — for my own sake and for the sake of my servant David.",
+      "translator_notes": [
+        "Two motivations for Jerusalem's deliverance: lema'ani ('for my own sake') and ulma'an David avdi ('for the sake of David my servant'). God acts for his own reputation — the name that Sennacherib blasphemed must be vindicated — and for the Davidic covenant. The phrase David avdi ('David my servant') invokes 2 Samuel 7 and the unconditional promise to David's house. Jerusalem is saved not because of Hezekiah's merit or Judah's righteousness but because of God's name and God's promise to David."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַיְהִ֣י ׀ בַּלַּ֣יְלָה הַה֗וּא וַיֵּצֵ֣א מַלְאַ֣ךְ יְהוָ֡ה וַיַּ֣ךְ בְּמַחֲנֵ֣ה אַשּׁוּר֩ מֵאָ֨ה שְׁמוֹנִ֜ים וַחֲמִשָּׁ֥ה אָ֗לֶף וַיַּשְׁכִּ֙ימוּ֙ בַבֹּ֔קֶר וְהִנֵּ֥ה כֻלָּ֖ם פְּגָרִ֥ים מֵתִֽים׃",
+      "text_kjv": "And it came to pass that night, that the angel of the LORD went out, and smote in the camp of the Assyrians an hundred fourscore and five thousand: and when they arose early in the morning, behold, they were all dead corpses.",
+      "rendering": "That night the angel of the LORD went out and struck down one hundred eighty-five thousand in the Assyrian camp. When the survivors rose at dawn, there were dead bodies everywhere.",
+      "translator_notes": [
+        "The destruction occurs ballailah hahu ('that very night') — the theological argument has been made; now the action follows immediately. The mal'akh YHWH ('angel/messenger of the LORD') is the agent of divine warfare — the same figure who passed through Egypt on Passover night (Exodus 12:23). The number 185,000 (me'ah shemonim vachamishah elef) is staggering. The narrative moves from the theological speeches to a single devastating verse. The phrase vayyashkimu vaboqer ('they rose early in the morning') presumably refers to the survivors, who find vehinne khullam pegarim metim ('behold, all of them — dead corpses'). The word pegarim ('corpses') is a clinical term for dead bodies."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַיִּסַּ֣ע וַיֵּ֔לֶךְ וַיָּ֖שׇׁב סַנְחֵרִ֣יב מֶלֶךְ־אַשּׁ֑וּר וַיֵּ֖שֶׁב בְּנִינְוֵֽה׃",
+      "text_kjv": "So Sennacherib king of Assyria departed, and went and returned, and dwelt at Nineveh.",
+      "rendering": "Sennacherib king of Assyria broke camp, departed, and returned to Nineveh, where he remained.",
+      "translator_notes": [
+        "Three verbs of retreat: vayyissa ('he pulled up stakes, broke camp'), vayyyelekh ('he went'), vayyashav ('he returned'). The mighty Assyrian emperor who sent three officials and a massive army to Jerusalem simply leaves. The phrase vayyeshev beNineveh ('he settled in Nineveh') indicates he did not attempt another campaign against Jerusalem. The prophecy of v. 7 ('he will return to his own land') is fulfilled."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וַיְהִ֗י ה֤וּא מִשְׁתַּחֲוֶה֙ בֵּ֣ית ׀ נִסְרֹ֣ךְ אֱלֹהָ֔יו וְאַדְרַמֶּ֣לֶךְ וְשַׂרְאֶ֗צֶר בָּנָיו֙ הִכֻּ֣הוּ בַחֶ֔רֶב וְהֵ֥מָּה נִמְלְט֖וּ אֶ֣רֶץ אֲרָרָ֑ט וַיִּמְלֹ֛ךְ אֵֽסַר־חַדֹּ֥ן בְּנ֖וֹ תַּחְתָּֽיו׃",
+      "text_kjv": "And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer his sons smote him with the sword: and they escaped into the land of Armenia. And Esarhaddon his son reigned in his stead.",
+      "rendering": "While he was worshiping in the temple of his god Nisroch, his sons Adrammelech and Sharezer struck him down with the sword. They escaped to the land of Ararat, and his son Esarhaddon reigned in his place.",
+      "translator_notes": [
+        "The final irony: Sennacherib, who mocked the gods of every nation as powerless, is assassinated beit Nisrokh elohav ('in the house of Nisroch his god'). His own god's temple cannot protect him. The assassination by his own sons — Adrammelech and Sharezer (Assyrian records confirm the coup) — fulfills Isaiah's prophecy of v. 7: 'I will fell him by the sword in his own land.' They flee to erets Ararat ('the land of Ararat,' modern Armenia/eastern Turkey). Esarhaddon (Esar-Chaddon) succeeded in 681 BCE, confirmed by Assyrian records. The man who challenged the living God dies in the house of a dead one."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

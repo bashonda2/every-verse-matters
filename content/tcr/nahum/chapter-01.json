@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Nahum",
+    "chapter": 1,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Nahum 1 opens with a superscription identifying the book as an oracle against Nineveh, the capital of the Assyrian Empire. What follows is a partial acrostic hymn celebrating the LORD as a God of vengeance who is slow to anger but overwhelming in power. The poem moves from cosmic theophany — mountains quaking, seas rebuked, the earth trembling — to a direct address distinguishing between those who take refuge in the LORD and those who plot against him. The chapter closes with an announcement of good news: Nineveh's yoke will be broken, and Judah can celebrate its festivals again.",
+    "remarkable": "The partial acrostic in verses 2-8 follows the Hebrew alphabet roughly from aleph through kaph, though the pattern breaks down after about eight letters — whether by design, textual corruption, or editorial revision remains debated. The theological tension is striking: the same God described as 'slow to anger' (v. 3, echoing Exodus 34:6) is here celebrated specifically for his fury against the wicked. This is not a contradiction but a completion — the God of chesed is also the God of justice, and patience exhausted becomes judgment unleashed. Nahum's name itself means 'comfort,' and the comfort he brings is the news that the oppressor will fall.",
+    "friction": "The acrostic structure is fragmentary, and scholars disagree on its extent and original form. We rendered the text as it stands in the Masoretic tradition without attempting reconstruction. The shift between second-person addresses in verses 9-14 is ambiguous — sometimes addressing Nineveh, sometimes Judah — and we followed contextual clues to determine the referent, noting transitions. The word beliyya'al in verse 11 (rendered 'worthlessness') carries strong negative connotations and later became a proper name for evil personified.",
+    "connections": "The divine self-description in verse 3 echoes the foundational revelation of Exodus 34:6-7. The theophany language (Bashan withering, Carmel fading, Lebanon languishing) connects to similar cosmic-upheaval passages in Habakkuk 3, Psalm 18, and Judges 5. The 'good news on the mountains' of verse 15 is echoed in Isaiah 52:7. The entire oracle presupposes the historical memory of Assyria's destruction of the northern kingdom (722 BCE) and its siege of Jerusalem under Sennacherib (701 BCE)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "מַשָּׂ֖א נִֽינְוֵ֑ה סֵ֧פֶר חֲז֛וֹן נַח֖וּם הָאֶלְקֹשִֽׁי׃",
+      "text_kjv": "The burden of Nineveh. The book of the vision of Nahum the Elkoshite.",
+      "rendering": "An oracle concerning Nineveh. The book of the vision of Nahum the Elkoshite.",
+      "translator_notes": ["The Hebrew massa can mean 'burden' or 'oracle/pronouncement.' In prophetic literature it consistently introduces a weighty declaration of judgment, and we render it 'oracle' throughout the project. The location of Elkosh is unknown — proposals range from Galilee to Mesopotamia to southern Judah."],
+      "key_terms": [
+        {
+          "hebrew": "מַשָּׂא",
+          "transliteration": "massa",
+          "rendered_as": "oracle",
+          "semantic_range": "burden, oracle, pronouncement, weighty utterance",
+          "note": "From the root nasa ('to lift, carry'). In prophetic usage it introduces a heavy word from God — a pronouncement the prophet carries and delivers."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "אֵ֣ל קַנּ֤וֹא וְנֹקֵם֙ יְהוָ֔ה נֹקֵ֥ם יְהוָ֖ה וּבַ֣עַל חֵמָ֑ה נֹקֵ֤ם יְהוָה֙ לְצָרָ֔יו וְנוֹטֵ֥ר ה֖וּא לְאֹיְבָֽיו׃",
+      "text_kjv": "God is jealous, and the LORD revengeth; the LORD revengeth, and is furious; the LORD will take vengeance on his adversaries, and he reserveth wrath for his enemies.",
+      "rendering": "The LORD is a jealous and avenging God; the LORD is an avenger, full of wrath. The LORD takes vengeance on his adversaries and maintains his fury against his enemies.",
+      "translator_notes": ["The threefold repetition of noqem ('avenger') is emphatic and deliberate — this is the keynote of the entire book. The word qanno ('jealous, zealous') is the same term used in Exodus 20:5 and 34:14 for God's exclusive covenantal claim on Israel. Ba'al chemah ('lord/master of wrath') is a striking construct — chemah is a burning, passionate rage. The verb noter ('maintains, keeps') means God stores up wrath against his enemies; their judgment is not forgotten but reserved."],
+      "key_terms": [
+        {
+          "hebrew": "קַנּוֹא",
+          "transliteration": "qanno",
+          "rendered_as": "jealous",
+          "semantic_range": "jealous, zealous, passionate in exclusive devotion",
+          "note": "Covenantal jealousy — the fierce protectiveness of a God who will not share his people with rivals. The same attribute that guards Israel becomes the weapon that destroys those who harm Israel."
+        },
+        {
+          "hebrew": "נֹקֵם",
+          "transliteration": "noqem",
+          "rendered_as": "avenger",
+          "semantic_range": "avenger, one who takes vengeance, vindicator",
+          "note": "Repeated three times for maximum emphasis. Divine vengeance in Hebrew is not petty retaliation but the establishment of justice for the oppressed."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "יְהוָ֗ה אֶ֤רֶךְ אַפַּ֙יִם֙ וּגְדׇל־כֹּ֔חַ וְנַקֵּ֖ה לֹ֣א יְנַקֶּ֑ה יְהוָ֗ה בְּסוּפָ֤ה וּבִשְׂעָרָה֙ דַּרְכּ֔וֹ וְעָנָ֖ן אֲבַ֥ק רַגְלָֽיו׃",
+      "text_kjv": "The LORD is slow to anger, and great in power, and will not at all acquit the wicked: the LORD hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet.",
+      "rendering": "The LORD is slow to anger and great in power, but he will by no means leave the guilty unpunished. The LORD's path is in the whirlwind and the storm, and clouds are the dust of his feet.",
+      "expanded_rendering": "Erekh appayim ('slow to anger,' literally 'long of nostrils') echoes the foundational divine self-revelation at Sinai (Exodus 34:6). But Nahum quotes only the justice side of that revelation — he omits 'abounding in faithful love' and emphasizes 'will by no means leave the guilty unpunished.' For Nineveh, God's patience has run its course. What remains is the reckoning.",
+      "translator_notes": ["This verse deliberately echoes Exodus 34:6-7, the most quoted divine self-description in the Hebrew Bible. Nahum's selection is theological: he takes the judgment clause and leaves the mercy clause, because his audience is the oppressor, not the covenant people. The imagery of storm-clouds as dust kicked up by God's feet portrays the LORD as a cosmic warrior whose mere walking generates tempests."],
+      "key_terms": [
+        {
+          "hebrew": "אֶרֶךְ אַפַּיִם",
+          "transliteration": "erekh appayim",
+          "rendered_as": "slow to anger",
+          "semantic_range": "slow to anger, patient, long-suffering (literally 'long of nostrils')",
+          "note": "The idiom describes anger as the flaring of nostrils — to be 'long of nostrils' means it takes a long time for anger to build. But the implicit corollary is that the anger does eventually arrive."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "גּוֹעֵ֤ר בַּיָּם֙ וַֽיַּבְּשֵׁ֔הוּ וְכׇל־הַנְּהָר֖וֹת הֶחֱרִ֑יב אֻמְלַ֤ל בָּשָׁן֙ וְכַרְמֶ֔ל וּפֶ֥רַח לְבָנ֖וֹן אֻמְלָֽל׃",
+      "text_kjv": "He rebuketh the sea, and maketh it dry, and drieth up all the rivers: Bashan languisheth, and Carmel, and the flower of Lebanon languisheth.",
+      "rendering": "He rebukes the sea and dries it up; he makes all the rivers run dry. Bashan and Carmel wither, and the bloom of Lebanon fades.",
+      "translator_notes": ["The verb ga'ar ('rebuke') recalls God's command over the waters at creation and the Red Sea. Bashan was known for its rich pastures, Carmel for its lush vegetation, and Lebanon for its cedars and flowers — the three most fertile regions of the Levant all wilt before God's approach. The acrostic pattern is visible here: this verse begins with gimel (ג)."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "הָרִים֙ רָעֲשׁ֣וּ מִמֶּ֔נּוּ וְהַגְּבָע֖וֹת הִתְמֹגָ֑גוּ וַתִּשָּׂ֤א הָאָ֙רֶץ֙ מִפָּנָ֔יו וְתֵבֵ֖ל וְכׇל־י֥וֹשְׁבֵי בָֽהּ׃",
+      "text_kjv": "The mountains quake at him, and the hills melt, and the earth is burned at his presence, yea, the world, and all that dwell therein.",
+      "rendering": "Mountains quake before him, and the hills dissolve. The earth heaves at his presence — the world and all who dwell in it.",
+      "translator_notes": ["The verb hitmogagu ('dissolve, melt') describes the hills losing their solidity, as if the landscape itself becomes liquid before the LORD. The verb tissa ('heaves, rises') has been variously read — some take it as 'is laid waste' (from nasa meaning 'to lift up in ruin'), others as 'rises up' in upheaval. The theophany intensifies from water (v. 4) to land (v. 5), encompassing all creation."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "לִפְנֵ֤י זַעְמוֹ֙ מִ֣י יַֽעֲמ֔וֹד וּמִ֥י יָק֖וּם בַּחֲר֣וֹן אַפּ֑וֹ חֲמָתוֹ֙ נִתְּכָ֣ה כָאֵ֔שׁ וְהַצֻּרִ֖ים נִתְּצ֥וּ מִמֶּֽנּוּ׃",
+      "text_kjv": "Who can stand before his indignation? and who can abide in the fierceness of his anger? his fury is poured out like fire, and the rocks are thrown down by him.",
+      "rendering": "Who can stand before his indignation? Who can endure his burning anger? His wrath is poured out like fire, and the rocks are shattered before him.",
+      "translator_notes": ["Two rhetorical questions with the implied answer: no one. The word za'am ('indignation') denotes explosive, righteous fury. Chemah ('wrath') is described as being 'poured out' (nittekah) like molten fire — the same verb used for casting molten metal. Even rocks, the most permanent features of the landscape, are nittsetsu ('shattered, broken apart') before him."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "ט֣וֹב יְהוָ֔ה לְמָע֖וֹז בְּי֣וֹם צָרָ֑ה וְיֹדֵ֖עַ חֹ֥סֵי בֽוֹ׃",
+      "text_kjv": "The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him.",
+      "rendering": "The LORD is good, a refuge in the day of distress. He knows those who take shelter in him.",
+      "translator_notes": ["After six verses of terrifying divine power, this verse pivots abruptly to comfort. The word ma'oz ('refuge, stronghold') means a fortified place of safety — the same God whose power shatters rocks becomes a fortress for those who trust him. The verb yode'a ('knows') carries covenantal weight — God's 'knowing' is not mere awareness but intimate, relational recognition (cf. Amos 3:2, 'You only have I known of all the families of the earth')."],
+      "key_terms": [
+        {
+          "hebrew": "מָעוֹז",
+          "transliteration": "ma'oz",
+          "rendered_as": "refuge",
+          "semantic_range": "stronghold, refuge, fortress, place of safety",
+          "note": "The contrast is deliberate: the same divine power that destroys becomes protection for those in covenant with him."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וּבְשֶׁ֣טֶף עֹבֵ֔ר כָּלָ֖ה יַעֲשֶׂ֣ה מְקוֹמָ֑הּ וְאֹיְבָ֖יו יְרַדֶּף־חֹֽשֶׁךְ׃",
+      "text_kjv": "But with an overrunning flood he will make an utter end of the place thereof, and darkness shall pursue his enemies.",
+      "rendering": "But with an overwhelming flood he will make a complete end of her place, and darkness will pursue his enemies.",
+      "translator_notes": ["The 'overwhelming flood' (sheteph over) likely alludes to the historical destruction of Nineveh in 612 BCE, when the Tigris River flooded and breached the city walls, enabling the Babylonian-Median coalition to enter. 'Her place' (meqomah) refers to Nineveh. Darkness as a pursuing agent inverts the normal imagery — usually people flee darkness, but here darkness hunts them down."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "מַה־תְּחַשְּׁב֖וּן אֶל־יְהוָ֑ה כָּלָה֙ ה֣וּא עֹשֶׂ֔ה לֹֽא־תָק֥וּם פַּעֲמַ֖יִם צָרָֽה׃",
+      "text_kjv": "What do ye imagine against the LORD? he will make an utter end: affliction shall not rise up the second time.",
+      "rendering": "What are you plotting against the LORD? He will bring total destruction. Distress will not rise a second time.",
+      "translator_notes": ["The address shifts to Nineveh's plotters. The verb techashevun ('plot, devise') suggests calculated scheming against God. The promise that distress 'will not rise a second time' means God's blow against Nineveh will be so complete that no second strike will be needed — one is enough."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כִּ֚י עַד־סִירִ֣ים סְבֻכִ֔ים וּכְסׇבְאָ֖ם סְבוּאִ֑ים אֻ֨כְּל֔וּ כְּקַ֥שׁ יָבֵ֖שׁ מָלֵֽא׃",
+      "text_kjv": "For while they be folden together as thorns, and while they are drunken as drunkards, they shall be devoured as stubble fully dry.",
+      "rendering": "Though they are tangled like thorns and sodden with drink, they will be consumed like dry stubble.",
+      "translator_notes": ["The imagery piles up three metaphors of vulnerability: tangled thorns (easily kindled), drunken revelers (unable to defend themselves), and dry stubble (instantly combustible). The combination suggests Nineveh's forces will be caught unprepared, entangled in their own confusion, and burned up without resistance."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "מִמֵּ֣ךְ יָצָ֔א חֹשֵׁ֥ב עַל־יְהוָ֖ה רָעָ֑ה יֹעֵ֖ץ בְּלִיָּֽעַל׃",
+      "text_kjv": "There is one come out of thee, that imagineth evil against the LORD, a wicked counsellor.",
+      "rendering": "From you has come one who plots evil against the LORD, a counselor of worthlessness.",
+      "translator_notes": ["The address is to Nineveh. The 'counselor of worthlessness' (yo'ets beliyya'al) likely refers to the Assyrian king, perhaps Sennacherib specifically, whose campaign against Jerusalem in 701 BCE was an affront to the LORD. Beliyya'al literally means 'without profit/worthlessness' and later evolved into a proper name for the personification of wickedness (cf. 2 Corinthians 6:15, 'Belial')."],
+      "key_terms": [
+        {
+          "hebrew": "בְּלִיַּעַל",
+          "transliteration": "beliyya'al",
+          "rendered_as": "worthlessness",
+          "semantic_range": "worthlessness, wickedness, destruction, villainy",
+          "note": "A compound term (beli + ya'al) meaning 'without profit' or 'without worth.' In later Jewish and Christian tradition it becomes a name for the ultimate adversary."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "כֹּ֣ה ׀ אָמַ֣ר יְהוָ֗ה אִם־שְׁלֵמִים֙ וְכֵ֣ן רַבִּ֔ים וְכֵ֥ן נָגֹ֖זּוּ וְעָבָ֑ר וְעִ֨נִּתִ֔ךְ לֹ֥א אֲעַנֵּ֖ךְ עֽוֹד׃",
+      "text_kjv": "Thus saith the LORD; Though they be quiet, and likewise many, yet thus shall they be cut down, when he shall pass through. Though I have afflicted thee, I will afflict thee no more.",
+      "rendering": "This is what the LORD says: Though they are at full strength and many in number, they will be cut down and pass away. Though I have afflicted you, I will afflict you no longer.",
+      "translator_notes": ["The verse shifts address mid-sentence — the first half speaks about Assyria in the third person ('they'), while the second half addresses Judah in the second person ('you'). Shelemim ('at full strength, intact') emphasizes that Assyria's forces are not weakened — they will be destroyed at peak power. The promise to Judah reverses the affliction: God used Assyria as a rod of discipline (cf. Isaiah 10:5), but that chapter is closing."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְעַתָּ֕ה אֶשְׁבֹּ֥ר מֹטֵ֖הוּ מֵֽעָלָ֑יִךְ וּמוֹסְרֹתַ֖יִךְ אֲנַתֵּֽק׃",
+      "text_kjv": "For now will I break his yoke from off thee, and will burst thy bonds in sunder.",
+      "rendering": "Now I will break his yoke from upon you and snap your chains.",
+      "translator_notes": ["God addresses Judah directly. The 'yoke' (motteh) and 'chains' (moserot) are metaphors for Assyrian domination — the imperial vassal system that extracted tribute and imposed foreign policy. 'Snap' (anatteq) is a violent verb, suggesting a sudden, forceful liberation."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְצִוָּ֤ה עָלֶ֙יךָ֙ יְהוָ֔ה לֹא־יִזָּרַ֥ע מִשִּׁמְךָ֖ ע֑וֹד מִבֵּ֨ית אֱלֹהֶ֜יךָ אַכְרִ֨ית פֶּ֧סֶל וּמַסֵּכָ֛ה אָשִׂ֥ים קִבְרֶ֖ךָ כִּ֥י קַלּֽוֹתָ׃",
+      "text_kjv": "And the LORD hath given a commandment concerning thee, that no more of thy name be sown: out of the house of thy gods will I cut off the graven image and the molten image: I will make thy grave; for thou art vile.",
+      "rendering": "The LORD has decreed concerning you: No descendant will bear your name any longer. From the house of your gods I will cut off the carved image and the cast idol. I will prepare your grave, for you are contemptible.",
+      "translator_notes": ["The address shifts back to the Assyrian king or Nineveh personified. 'No descendant will bear your name' (lo yizzara' mishshimkha) means the dynasty ends — no seed will be sown from your name. The destruction of idols in the temple and the preparation of a grave are acts of total annihilation — both legacy and religion are obliterated. Qallota ('you are contemptible, light, worthless') is the opposite of kavod ('glory, weight')."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "הִנֵּ֨ה עַל־הֶהָרִ֜ים רַגְלֵ֤י מְבַשֵּׂר֙ מַשְׁמִ֣יעַ שָׁל֔וֹם חׇגִּ֧י יְהוּדָ֛ה חַגַּ֖יִךְ שַׁלְּמִ֣י נְדָרָ֑יִךְ כִּי֩ לֹ֨א יוֹסִ֥יף ע֛וֹד לַעֲבׇר־בָּ֥ךְ בְּלִיַּ֖עַל כֻּלֹּ֥ה נִכְרָֽת׃",
+      "text_kjv": "Behold upon the mountains the feet of him that bringeth good tidings, that publisheth peace! O Judah, keep thy solemn feasts, perform thy vows: for the wicked shall no more pass through thee; he is utterly cut off.",
+      "rendering": "Look! On the mountains — the feet of one who brings good news, who announces peace! Celebrate your festivals, Judah; fulfill your vows. For the worthless one will never again pass through you; he is completely cut off.",
+      "expanded_rendering": "Shalom here carries its fullest prophetic weight — not merely the absence of war but the restoration of wholeness, security, and right order that Assyrian domination had shattered. The announcement of shalom on the mountains echoes Isaiah 52:7 and envisions a herald running across the hilltops with the news that the oppressor is gone and God's people can worship freely again.",
+      "translator_notes": ["This verse is nearly identical to Isaiah 52:7 and may share a common liturgical source. The 'feet of the herald' (raglei mevasser) is a vivid image of a runner cresting the mountain ridge, visible in silhouette, bringing the news of victory. The command to celebrate festivals and fulfill vows means the disruption of worship caused by Assyrian invasion is over — normal religious life can resume. Beliyya'al here echoes verse 11, creating an inclusio around the chapter."],
+      "key_terms": [
+        {
+          "hebrew": "מְבַשֵּׂר",
+          "transliteration": "mevasser",
+          "rendered_as": "one who brings good news",
+          "semantic_range": "herald of good news, one who announces victory, gospel-bringer",
+          "note": "The root b-s-r means 'to bring news, especially good news of victory.' This is the Hebrew concept behind the Greek euangelion ('gospel'). The herald announces that the war is over and God has won."
+        },
+        {
+          "hebrew": "שָׁלוֹם",
+          "transliteration": "shalom",
+          "rendered_as": "peace",
+          "semantic_range": "peace, wholeness, completeness, well-being, harmony, flourishing",
+          "note": "More than the absence of war — the restoration of everything Assyria destroyed. Shalom is the state where creation functions as God intended."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

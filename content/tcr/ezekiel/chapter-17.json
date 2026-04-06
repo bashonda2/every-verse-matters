@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezekiel",
+    "chapter": 17,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Ezekiel 17 is a political allegory cast as a fable (mashal) involving two great eagles, a cedar, and a vine. The first eagle (Nebuchadnezzar) takes the top of the cedar (King Jehoiachin) and plants a seed (Zedekiah) that grows into a spreading vine. The vine then turns toward a second eagle (Pharaoh of Egypt), seeking military alliance in violation of the vassal oath sworn to Babylon. God interprets the allegory in verses 11-21: Zedekiah's broken oath to Nebuchadnezzar is treated not merely as political treachery but as covenant violation against God himself, because the oath was sworn in God's name. The chapter concludes with a messianic promise (vv. 22-24): God himself will take a sprig from the top of the cedar, plant it on the high mountain of Israel, and it will become a great tree sheltering all nations.",
+    "remarkable": "This chapter is extraordinary for its treatment of political treaties as divine covenants. Zedekiah swore his vassal oath to Nebuchadnezzar in the name of YHWH (2 Chronicles 36:13), and God holds him accountable for that oath as though it were a covenant with God himself. The theological logic is striking: any oath sworn in God's name binds the swearer before God, regardless of the political circumstances. The word for 'oath' (alah) and 'covenant' (berit) appear together, and God says 'My oath which he despised and My covenant which he broke' (v. 19) — the possessive pronoun shifts the oath from a political instrument to a divine obligation. The messianic promise in verses 22-24 introduces the image of God planting a tender sprig on a high mountain that becomes a great tree — an image that resonates with Isaiah 11:1 (the shoot from Jesse's stump) and anticipates Jesus's parables of the mustard seed (Mark 4:30-32). We preserved the fable genre in the opening section, maintaining the literary register of parable before the divine interpretation breaks through.",
+    "friction": "The term mashal ('parable, proverb, allegory') in verse 2 required careful handling — it encompasses fable, riddle, and allegory simultaneously. We rendered the opening command as 'pose a riddle and speak a parable' to capture both dimensions. The eagle imagery uses nesher, which could mean 'eagle' or 'vulture' — we chose 'eagle' for its association with power and sovereignty, noting the ambiguity. The vine imagery (gefen, tsemach, zemorah) is dense and requires distinguishing between the vine itself, its shoots, and its branches. The verb ma'al ('to act treacherously, to break faith') in verse 20 is technical covenant-violation language, and we rendered it as 'broke faith' to capture its relational weight.",
+    "connections": "The cedar-top imagery connects to Jeremiah 22:23-24 (Jehoiachin as a cedar shoot) and forward to Isaiah 11:1 (the shoot from Jesse's stump). The messianic planting in verses 22-24 anticipates the Davidic restoration promises of Ezekiel 34:23-24 and 37:24-25. The vine allegory connects to Isaiah 5:1-7 (the song of the vineyard), Psalm 80:8-16 (the vine brought from Egypt), and Ezekiel 15 (Jerusalem as a useless vine). Zedekiah's broken oath connects to 2 Kings 24:20-25:7 and 2 Chronicles 36:13, and the theological principle that God enforces oaths sworn in his name appears also in Joshua 9:19-20 (the Gibeonite treaty). The great tree sheltering birds in verse 23 reappears in Daniel 4:10-12 (Nebuchadnezzar's dream) and in Jesus's mustard seed parable (Matthew 13:31-32, Mark 4:30-32)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "And the word of the LORD came unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": ["The standard prophetic reception formula. The Hebrew le'mor ('saying') introduces direct speech and is rendered as a colon. This formula occurs over fifty times in Ezekiel — it marks each new divine communication as a distinct oracle."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "בֶּן־אָדָ֕ם חוּד חִידָ֔ה וּמְשֹׁ֥ל מָשָׁ֖ל אֶל־בֵּ֥ית יִשְׂרָאֵֽל׃",
+      "text_kjv": "Son of man, put forth a riddle, and speak a parable unto the house of Israel;",
+      "rendering": "Son of man, pose a riddle and speak a parable to the house of Israel.",
+      "translator_notes": ["Two genres are commanded simultaneously: chidah ('riddle') and mashal ('parable, proverb, allegory'). The combination signals that the following story operates on two levels — a surface narrative (the fable of eagles and vines) and a concealed meaning (the political situation of Judah). The cognate accusative construction chud chidah ('riddle a riddle') and meshol mashal ('parable a parable') is emphatic in Hebrew."],
+      "key_terms": [
+        {
+          "hebrew": "חִידָה",
+          "transliteration": "chidah",
+          "rendered_as": "riddle",
+          "semantic_range": "riddle, enigma, puzzling question, dark saying",
+          "note": "A chidah requires interpretation — it is not self-evident. The pairing with mashal signals that what follows is deliberately coded speech requiring the divine key provided in verses 11-21."
+        },
+        {
+          "hebrew": "מָשָׁל",
+          "transliteration": "mashal",
+          "rendered_as": "parable",
+          "semantic_range": "parable, proverb, allegory, byword, taunt",
+          "note": "Mashal is the broadest term in Hebrew for figurative speech. It encompasses proverbs (Proverbs 1:1), allegories (here), taunt songs (Isaiah 14:4), and bywords (Deuteronomy 28:37). In this context it denotes an extended allegorical narrative."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְאָמַרְתָּ֞ כֹּה־אָמַ֣ר ׀ אֲדֹנָ֣י יְהוִ֗ה הַנֶּ֤שֶׁר הַגָּדוֹל֙ גְּד֤וֹל הַכְּנָפַ֙יִם֙ אֶ֣רֶךְ הָאֵ֔בֶר מָלֵ֥א הַנּוֹצָ֖ה אֲשֶׁר־ל֣וֹ הָרִקְמָ֑ה בָּ֚א אֶל־הַלְּבָנ֔וֹן וַיִּקַּ֖ח אֶת־צַמֶּ֥רֶת הָאָֽרֶז׃",
+      "text_kjv": "And say, Thus saith the Lord GOD; A great eagle with great wings, longwinged, full of feathers, which had divers colours, came unto Lebanon, and took the highest branch of the cedar:",
+      "rendering": "Say: This is what the Lord GOD says — The great eagle with broad wings and long pinions, full of plumage with richly patterned colors, came to Lebanon and took the top of the cedar.",
+      "translator_notes": ["The eagle (nesher) represents Nebuchadnezzar, as verse 12 will confirm. The description emphasizes imperial magnificence: 'broad wings' (gedol hakkenafayim), 'long pinions' (erekh ha'ever), and 'richly patterned' plumage (riqmah). Lebanon and its cedars are standard biblical imagery for the Davidic monarchy — the royal palace was even called 'the House of the Forest of Lebanon' (1 Kings 7:2). The 'top of the cedar' (tsammeret ha'erez) is King Jehoiachin, taken captive to Babylon in 597 BCE."],
+      "key_terms": [
+        {
+          "hebrew": "נֶשֶׁר",
+          "transliteration": "nesher",
+          "rendered_as": "eagle",
+          "semantic_range": "eagle, griffon vulture, large raptor",
+          "note": "Nesher may refer to either the golden eagle or the griffon vulture. Both are large, powerful raptors associated with kingship and sovereignty in the ancient Near East. 'Eagle' is chosen here because the imagery demands majesty and dominion."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "אֵ֛ת רֹ֥אשׁ יְנִיקוֹתָ֖יו קָטָ֑ף וַיְבִיאֵ֙הוּ֙ אֶל־אֶ֣רֶץ כְּנַ֔עַן בְּעִ֥יר רֹכְלִ֖ים שָׂמָֽהוּ׃",
+      "text_kjv": "He cropped off the top of his young twigs, and carried it into a land of traffick; he set it in a city of merchants.",
+      "rendering": "He plucked off the topmost of its young shoots and brought it to a land of commerce; he placed it in a city of merchants.",
+      "translator_notes": ["The 'land of commerce' (erets kena'an) is a wordplay — kena'an means both 'Canaan' and 'merchant/trader.' Here it refers to Babylon, characterized by its commercial power. The 'city of merchants' (ir rokhelim) is Babylon itself. Jehoiachin was deported to Babylon in 597 BCE along with the royal court, craftsmen, and warriors (2 Kings 24:14-16). The verb qataf ('plucked off') suggests deliberate, selective removal — Nebuchadnezzar chose which members of the Davidic line to take."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיִּקַּ֞ח מִזֶּ֣רַע הָאָ֗רֶץ וַֽיִּתְּנֵ֙הוּ֙ בִּשְׂדֵה־זָ֔רַע קָ֥ח עַל־מַ֖יִם רַבִּ֑ים צַפְצָפָ֖ה שָׂמָֽהוּ׃",
+      "text_kjv": "He took also of the seed of the land, and planted it in a fruitful field; he placed it by great waters, and set it as a willow tree.",
+      "rendering": "He also took some of the seed of the land and planted it in fertile soil. He placed it beside abundant waters, setting it like a willow.",
+      "translator_notes": ["The 'seed of the land' (mizzera' ha'arets) is Zedekiah — a native Judean of the royal line whom Nebuchadnezzar installed as vassal king (2 Kings 24:17). The word tsaftsafah ('willow') appears only here in the Hebrew Bible. The imagery of planting beside 'abundant waters' suggests that Nebuchadnezzar gave Zedekiah favorable conditions — he was meant to thrive as a loyal vassal. The shift from cedar imagery (Jehoiachin) to seed/willow imagery (Zedekiah) already signals Zedekiah's diminished status."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיִּצְמַ֡ח וַיְהִי֩ לְגֶ֨פֶן סֹרַ֜חַת שִׁפְלַ֣ת קוֹמָ֗ה לִפְנ֤וֹת דָּלִיּוֹתָיו֙ אֵלָ֔יו וְשָׁרָשָׁ֖יו תַּחְתָּ֣יו יִהְי֑וּ וַתְּהִ֣י לְגֶ֔פֶן וַתַּ֥עַשׂ בַּדִּ֖ים וַתְּשַׁלַּ֥ח פֹּארָֽה׃",
+      "text_kjv": "And it grew, and became a spreading vine of low stature, whose branches turned toward him, and the roots thereof were under him: so it became a vine, and brought forth branches, and shot forth sprigs.",
+      "rendering": "It sprouted and became a spreading vine, low in stature, its branches turning toward him and its roots remaining beneath him. So it became a vine — it produced boughs and sent out shoots.",
+      "translator_notes": ["The vine (gefen) is Zedekiah's kingdom under Babylonian vassalage. The key detail is 'low in stature' (shiflat qomah) — the vine was designed to remain low, a vassal state, not an independent kingdom. Its branches turned 'toward him' (elav) — toward the eagle, toward Nebuchadnezzar — in loyal dependence. The roots 'beneath him' (tachtav) indicate the vine's subordinate position. The imagery describes a stable, if humble, political arrangement."],
+      "key_terms": [
+        {
+          "hebrew": "גֶּפֶן",
+          "transliteration": "gefen",
+          "rendered_as": "vine",
+          "semantic_range": "vine, grapevine",
+          "note": "Israel as a vine is a recurring biblical image (Isaiah 5:1-7, Psalm 80:8-16, Hosea 10:1). Here the vine is specifically Zedekiah's vassal kingdom — productive but deliberately kept low."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיְהִ֣י נֶ֣שֶׁר אֶחָ֡ד גָּדוֹל֩ גְּד֨וֹל כְּנָפַ֜יִם וְרַב־נוֹצָ֗ה וְהִנֵּ֞ה הַגֶּ֤פֶן הַזֹּאת֙ כָּפְנָ֤ה שָׁרָשֶׁ֙יהָ֙ עָלָ֔יו וְדָלִיּוֹתָ֖יו שִׁלְּחָ֣ה אֵלָ֑יו לְהַשְׁק֣וֹת אוֹתָ֔הּ מֵעֲרוּג֖וֹת מַטָּעָֽהּ׃",
+      "text_kjv": "There was also another great eagle with great wings and many feathers: and, behold, this vine did bend her roots toward him, and shot forth her branches toward him, that he might water it by the furrows of her plantation.",
+      "rendering": "But there was another great eagle with broad wings and thick plumage, and this vine bent its roots toward him and stretched its branches toward him, seeking water from him, away from the bed where it was planted.",
+      "translator_notes": ["The second eagle is Pharaoh of Egypt — identified in verse 15. The vine (Zedekiah) actively turns away from the first eagle (Babylon) toward the second (Egypt), seeking sustenance and military support. The verb kafenah ('bent, turned') describes deliberate reorientation — Zedekiah chose to seek an Egyptian alliance. The phrase 'away from the bed where it was planted' (me'arugot matta'ah) is significant: the vine is abandoning the ground Nebuchadnezzar gave it. This is not merely political maneuvering; it is an uprooting of the arrangement God established."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "אֶל־שָׂדֶ֥ה טוֹב֙ אֶל־מַ֣יִם רַבִּ֔ים הִ֖יא שְׁתוּלָ֑ה לַעֲשׂ֤וֹת עָנָף֙ וְלָשֵׂ֣את פֶּ֔רִי לִהְי֖וֹת לְגֶ֥פֶן אַדָּֽרֶת׃",
+      "text_kjv": "It was planted in a good soil by great waters, that it might bring forth branches, and that it might bear fruit, that it might be a goodly vine.",
+      "rendering": "It had been planted in good soil beside abundant waters so that it would produce branches and bear fruit and become a splendid vine.",
+      "translator_notes": ["This verse states the irony: the vine already had everything it needed — good soil, abundant water, the conditions for a splendid existence. The adjective adderet ('splendid, majestic, magnificent') is the same word used for Elijah's mantle (1 Kings 19:13). Zedekiah could have thrived as Babylon's vassal, but he chose rebellion. The theological point is that God had provided adequately through the Babylonian arrangement, and Zedekiah's turn to Egypt was both unnecessary and unfaithful."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "אֱמֹ֗ר כֹּ֤ה אָמַר֙ אֲדֹנָ֣י יְהוִ֔ה תִּצְלָ֑ח הֲלוֹא֩ אֶת־שָׁרָשֶׁ֨יהָ יְנַתֵּ֜ק וְאֶת־פִּרְיָ֣הּ ׀ יְקוֹסֵ֗ס וְיָבֵ֛שׁ כָּל־טַרְפֵּ֥י צִמְחָ֖הּ תִּיבָ֑שׁ וְלֹֽא־בִזְר֤וֹעַ גְּדוֹלָה֙ וּבְעַם־רָ֔ב לְמַשְׂא֥וֹת אוֹתָ֖הּ מִשָּׁרָשֶֽׁיהָ׃",
+      "text_kjv": "Say thou, Thus saith the Lord GOD; Shall it prosper? shall he not pull up the roots thereof, and cut off the fruit thereof, that it wither? it shall wither in all the leaves of her spring, even without great power or many people to pluck it up by the roots thereof.",
+      "rendering": "Say: This is what the Lord GOD says — Will it thrive? Will he not tear out its roots and strip off its fruit so that it withers? All its fresh growth will dry up. No great army or large force will be needed to pull it up by its roots.",
+      "translator_notes": ["God now breaks into the parable to pronounce judgment. The rhetorical question 'Will it thrive?' (titslach) demands a negative answer. The verbs intensify: yenateq ('tear out'), yeqoses ('strip off'), yavesh ('wither'). The final observation — no great army needed — is biting: Zedekiah's rebellion is so foolish that his destruction will require minimal effort. Historically, Nebuchadnezzar's siege of Jerusalem (588-586 BCE) did in fact succeed despite Egypt's failure to provide lasting relief."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְהִנֵּ֥ה שְׁתוּלָ֖ה הֲתִצְלָ֑ח הֲלֹ֣א כְּגַ֤עַת בָּהּ֙ ר֣וּחַ הַקָּדִ֔ים תִּיבַ֤שׁ יָבֹ֙שׁ֙ עַל־עֲרֻג֣וֹת צִמְחָ֔הּ תִּיבָֽשׁ׃",
+      "text_kjv": "Yea, behold, being planted, shall it prosper? shall it not utterly wither, when the east wind toucheth it? it shall wither in the furrows where it grew.",
+      "rendering": "Even though it is planted, will it thrive? When the east wind strikes it, will it not wither completely? It will wither right in the bed where it grew.",
+      "translator_notes": ["The 'east wind' (ruach haqqadim) is a dual image: literally, the hot sirocco wind from the desert that scorches vegetation, and figuratively, Babylon, which lies to the east of Judah. The east wind as an instrument of divine judgment appears throughout the prophets (Hosea 13:15, Jeremiah 18:17). The emphatic construction tivash yavosh ('wither, it will wither') uses the infinitive absolute for emphasis — total, irreversible destruction."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיְהִ֥י דְבַר־יְהוָ֖ה אֵלַ֥י לֵאמֹֽר׃",
+      "text_kjv": "Moreover the word of the LORD came unto me, saying,",
+      "rendering": "The word of the LORD came to me:",
+      "translator_notes": ["The reception formula marks the transition from parable (vv. 3-10) to divine interpretation (vv. 11-21). Ezekiel does not interpret his own allegory — God provides the key."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "אֱמָר־נָ֗א לְבֵ֤ית הַמֶּ֙רִי֙ הֲלֹ֣א יְדַעְתֶּ֔ם מָה־אֵ֑לֶּה אֱמֹ֗ר הִנֵּה־בָ֤א מֶֽלֶךְ־בָּבֶל֙ יְר֣וּשָׁלַ֔͏ִם וַיִּקַּ֥ח אֶת־מַלְכָּ֖הּ וְאֶת־שָׂרֶ֑יהָ וַיָּבֵ֥א אוֹתָ֛ם אֵלָ֖יו בָּבֶֽלָה׃",
+      "text_kjv": "Say now to the rebellious house, Know ye not what these things mean? tell them, Behold, the king of Babylon is come to Jerusalem, and hath taken the king thereof, and the princes thereof, and led them with him to Babylon;",
+      "rendering": "Say to the rebellious house: Do you not know what these things mean? Tell them: The king of Babylon came to Jerusalem, took its king and its officials, and brought them back with him to Babylon.",
+      "translator_notes": ["The phrase beit hammeri ('house of rebellion') is a distinctive Ezekiel term for Israel — it appears nowhere else in the prophets. It replaces the more neutral 'house of Israel' at moments of divine frustration. The interpretation begins with historical fact: Nebuchadnezzar's deportation of Jehoiachin and the Judean leadership in 597 BCE (2 Kings 24:10-16). The word sarim ('officials, princes') refers to the royal court and military commanders taken into exile alongside the king."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיִּקַּ֖ח מִזֶּ֣רַע הַמְּלוּכָ֑ה וַיִּכְרֹ֤ת אִתּוֹ֙ בְּרִ֔ית וַיָּבֵ֥א אֹת֖וֹ בְּאָלָ֑ה וְאֶת־אֵילֵ֥י הָאָ֖רֶץ לָקָֽח׃",
+      "text_kjv": "And hath taken of the king's seed, and made a covenant with him, and hath taken an oath of him: he hath also taken the mighty of the land:",
+      "rendering": "He took one of the royal line and made a covenant with him, putting him under oath. He also took away the leading men of the land,",
+      "expanded_rendering": "Berit ('covenant') and alah ('oath') appear together, establishing that Zedekiah's vassalage to Nebuchadnezzar was not merely a political arrangement but a sworn covenant sealed by a solemn oath. In the ancient Near East, such oaths invoked the gods as witnesses and guarantors — and because Zedekiah swore in the name of YHWH (2 Chronicles 36:13), God himself became the enforcer of this treaty.",
+      "translator_notes": ["The phrase mizzera' hammelukah ('from the seed of the kingdom') refers to Zedekiah, Jehoiachin's uncle, whom Nebuchadnezzar installed as vassal king (2 Kings 24:17). The covenant (berit) and oath (alah) are the vassal treaty terms. The 'leading men of the land' (eilei ha'arets) — literally 'the rams of the land,' a metaphor for the powerful — were taken as hostages to ensure compliance. This was standard Babylonian practice: take the nobility to ensure the vassal king's loyalty."],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, binding agreement, pact",
+          "note": "Here berit refers to a political vassal treaty, but because it was sworn in God's name, it carries the full weight of divine covenant obligation. This is the theological crux of the chapter."
+        },
+        {
+          "hebrew": "אָלָה",
+          "transliteration": "alah",
+          "rendered_as": "oath",
+          "semantic_range": "oath, curse, imprecation, sworn commitment",
+          "note": "Alah is not a casual promise but a self-imprecatory oath — the swearer calls down curses upon himself if he breaks the agreement. When Zedekiah violated this oath, he activated its curse upon himself."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "לִהְי֥וֹת מַמְלָכָ֖ה שְׁפָלָ֑ה לְבִלְתִּ֣י הִתְנַשֵּׂ֔א לִשְׁמֹ֥ר אֶת־בְּרִית֖וֹ לְעָמְדָֽהּ׃",
+      "text_kjv": "That the kingdom might be base, that it might not lift itself up, but that by keeping of his covenant it might stand:",
+      "rendering": "so that the kingdom would remain humble and not exalt itself, but rather keep his covenant and so endure.",
+      "translator_notes": ["The purpose of Nebuchadnezzar's arrangement was stability through subordination — the kingdom was to be 'humble' (shefalah, literally 'low'), echoing the 'low stature' (shiflat qomah) of the vine in verse 6. The verb hitnasse' ('exalt itself') is reflexive — Zedekiah's temptation was self-exaltation beyond his appointed station. The verse establishes that obedience to the vassal covenant was the condition for the kingdom's survival (la'omdah, 'so that it might stand, endure')."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וַיִּמְרָד־בּ֗וֹ לִשְׁלֹ֤חַ מַלְאָכָיו֙ מִצְרַ֔יִם לָתֶת־ל֣וֹ סוּסִ֔ים וְעַם־רָ֑ב הֲיִצְלָ֤ח הֲיִמָּלֵט֙ הָעֹשֵׂ֣ה אֵ֔לֶּה וְהֵפֵ֥ר בְּרִ֖ית וְנִמְלָֽט׃",
+      "text_kjv": "But he rebelled against him in sending his ambassadors into Egypt, that they might give him horses and much people. Shall he prosper? shall he escape that doeth such things? or shall he break the covenant, and be delivered?",
+      "rendering": "But he rebelled against him by sending his envoys to Egypt to obtain horses and a large army. Will he succeed? Will the one who does these things escape? Can he break the covenant and still go free?",
+      "translator_notes": ["The verb marad ('rebelled') is strong political language — outright defiance, not mere disagreement. Zedekiah sent ambassadors (mal'akhav) to Egypt seeking military horses and troops — the classic forbidden alliance (cf. Deuteronomy 17:16, 'the king shall not acquire many horses from Egypt'). The three rhetorical questions expect negative answers: no, he will not succeed; no, he will not escape; no, covenant-breaking does not lead to deliverance. The verb hefer ('break, annul') applied to berit ('covenant') is the strongest possible language for covenant violation."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "חַי־אָ֗נִי נְאֻם֙ אֲדֹנָ֣י יְהוִ֔ה אִם־לֹ֗א בִּמְק֤וֹם הַמֶּ֙לֶךְ֙ הַמַּמְלִ֣יךְ אֹת֔וֹ אֲשֶׁ֤ר בָּזָה֙ אֶת־אָ֣לָת֔וֹ וַאֲשֶׁ֥ר הֵפֵ֖ר אֶת־בְּרִית֑וֹ אִתּ֖וֹ בְּת֥וֹךְ בָּבֶ֖ל יָמֽוּת׃",
+      "text_kjv": "As I live, saith the Lord GOD, surely in the place where the king dwelleth that made him king, whose oath he despised, and whose covenant he brake, even with him in the midst of Babylon he shall die.",
+      "rendering": "As I live — declares the Lord GOD — surely in the place of the king who made him king, whose oath he despised and whose covenant he broke, there in the heart of Babylon he will die.",
+      "translator_notes": ["The divine oath formula chai ani ('as I live') is the strongest possible assurance — God swears by his own life. The verbs bazah ('despised') and hefer ('broke') applied to the oath and covenant respectively intensify the indictment: Zedekiah did not merely fail to keep the treaty — he actively treated it with contempt. Historically, Zedekiah was captured, brought before Nebuchadnezzar at Riblah, saw his sons executed, was blinded, and was taken in chains to Babylon where he died in prison (2 Kings 25:6-7, Jeremiah 52:9-11)."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְלֹ֣א בְחַ֤יִל גָּדוֹל֙ וּבְקָהָ֣ל רָ֔ב יַעֲשֶׂ֥ה אוֹת֖וֹ פַרְעֹ֣ה בַמִּלְחָמָ֑ה בִּשְׁפֹּ֤ךְ סֹלְלָה֙ וּבִבְנ֣וֹת דָּיֵ֔ק לְהַכְרִ֖ית נְפָשׁ֥וֹת רַבּֽוֹת׃",
+      "text_kjv": "Neither shall Pharaoh with his mighty army and great company make for him in the war, by casting up mounts, and building forts, to cut off many persons:",
+      "rendering": "Pharaoh with his great army and vast assembly will not help him in battle, when siege ramps are raised and siege walls built to cut off many lives.",
+      "translator_notes": ["The verse declares Egypt's military irrelevance — Pharaoh will not save Zedekiah. The Hebrew construction lo ya'aseh oto par'oh ('Pharaoh will not act for him') can mean either 'Pharaoh will not help him' or 'Pharaoh will not match him [Nebuchadnezzar] in war.' We chose the former reading as more contextually fitting. Historically, Pharaoh Hophra (Apries) did march out to relieve Jerusalem during the siege, but the relief was temporary and ineffective (Jeremiah 37:5-10). The siege terminology — solelah ('ramp') and dayeq ('siege wall') — describes standard Babylonian military engineering."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וּבָזָ֤ה אָלָה֙ לְהָפֵ֣ר בְּרִ֔ית וְהִנֵּ֥ה נָתַ֖ן יָד֑וֹ וְכָל־אֵ֥לֶּה עָשָׂ֖ה לֹ֥א יִמָּלֵֽט׃",
+      "text_kjv": "Seeing he despised the oath by breaking the covenant, when, lo, he had given his hand, and hath done all these things, he shall not escape.",
+      "rendering": "He despised the oath by breaking the covenant — even though he had given his hand in pledge. Because he did all these things, he will not escape.",
+      "translator_notes": ["The phrase natan yad ('gave his hand') is the ancient Near Eastern gesture of covenant ratification — a handshake sealing a sworn agreement. Zedekiah performed the physical act of covenant commitment and then violated it. The juxtaposition is devastating: he gave his hand, and then he did all these things. The verb yimmalet ('escape') echoes verse 15 — the answer to the earlier rhetorical question is now stated definitively: no, he will not escape."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "לָכֵ֗ן כֹּה־אָמַר֮ אֲדֹנָ֣י יְהוִה֒ חַי־אָ֗נִי אִם־לֹ֤א אָֽלָתִי֙ אֲשֶׁ֣ר בָּזָ֔ה וּבְרִיתִ֖י אֲשֶׁ֣ר הֵפִ֑יר וּנְתַתִּ֖יו בְּרֹאשֽׁוֹ׃",
+      "text_kjv": "Therefore thus saith the Lord GOD; As I live, surely mine oath that he hath despised, and my covenant that he hath broken, even it will I recompense upon his own head.",
+      "rendering": "Therefore, this is what the Lord GOD says: As I live — My oath that he despised and My covenant that he broke, I will bring down upon his own head.",
+      "expanded_rendering": "The possessive pronouns are theologically explosive: God says 'My oath' (alati) and 'My covenant' (beriti). What was politically a vassal treaty between Zedekiah and Nebuchadnezzar is now claimed by God as his own covenant. Because the oath was sworn in YHWH's name, the violation is not merely against Babylon but against God himself. Every oath sworn in God's name carries divine weight — to break it is to break faith with God.",
+      "translator_notes": ["The shift from third-person description to first-person divine speech with possessive pronouns is the theological climax of the interpretation. God does not say 'the oath' or 'Nebuchadnezzar's covenant' — he says alati ('My oath') and beriti ('My covenant'). This elevates a political treaty to sacred obligation. The phrase untativ berosho ('I will bring it down upon his head') is covenant-curse language — the consequences sworn in the oath will fall on the oath-breaker himself."],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִיתִי",
+          "transliteration": "beriti",
+          "rendered_as": "My covenant",
+          "semantic_range": "my covenant, my treaty, my binding agreement",
+          "note": "God claims ownership of a political treaty because it was sworn in his name. This establishes the principle that all oaths invoking God's name are, in effect, covenants with God."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וּפָרַשְׂתִּ֤י עָלָיו֙ רִשְׁתִּ֔י וְנִתְפַּ֖שׂ בִּמְצוּדָתִ֑י וַהֲבִיאוֹתִ֣הוּ בָבֶ֗לָה וְנִשְׁפַּטְתִּ֤י אִתּוֹ֙ שָׁ֔ם מַעֲל֖וֹ אֲשֶׁ֥ר מָֽעַל־בִּֽי׃",
+      "text_kjv": "And I will spread my net upon him, and he shall be taken in my snare, and I will bring him to Babylon, and will plead with him there for his trespass that he hath trespassed against me.",
+      "rendering": "I will spread My net over him, and he will be caught in My snare. I will bring him to Babylon and enter into judgment with him there for the treachery he committed against Me.",
+      "translator_notes": ["The hunting imagery — net (rishti) and snare (metsudati) — presents God as the hunter and Zedekiah as prey. The same imagery appears in Ezekiel 12:13 in the earlier prophecy about Zedekiah's capture. The verb ma'al ('act treacherously, break faith') is technical covenant-violation language used especially for sacred obligations — it appears in Leviticus 5:15 and Numbers 5:12 for violations against holy things and marital faithfulness. God will 'enter into judgment' (nishpateti) with Zedekiah — the covenant lawsuit terminology of the prophets."],
+      "key_terms": [
+        {
+          "hebrew": "מַעַל",
+          "transliteration": "ma'al",
+          "rendered_as": "treachery",
+          "semantic_range": "treachery, unfaithfulness, breach of trust, sacrilege",
+          "note": "Ma'al is the specific term for violating a sacred trust — it implies betrayal of a relationship that should have been inviolable. Its use here confirms that Zedekiah's political rebellion is, in God's eyes, sacrilege."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְאֵ֣ת כָּל־מִבְרָחָ֗יו בְּכָל־אֲגַפָּיו֙ בַּחֶ֣רֶב יִפֹּ֔לוּ וְהַנִּשְׁאָרִ֖ים לְכָל־ר֣וּחַ יִפָּרֵ֑שׂוּ וִידַעְתֶּ֕ם כִּ֛י אֲנִ֥י יְהוָ֖ה דִּבַּֽרְתִּי׃",
+      "text_kjv": "And all his fugitives with all his bands shall fall by the sword, and they that remain shall be scattered toward all winds: and ye shall know that I the LORD have spoken it.",
+      "rendering": "All his choicest troops in every unit will fall by the sword, and the survivors will be scattered to every wind. Then you will know that I, the LORD, have spoken.",
+      "translator_notes": ["The word mivrachav is debated: the Masoretic text reads 'his fugitives' (from barach, 'to flee'), but many scholars and ancient versions read mibcharav ('his choicest troops,' from bachar, 'to choose'). We follow the emended reading as it fits the military context better — God is prophesying the destruction of Zedekiah's best soldiers, not merely the fate of those who flee. The recognition formula 'you will know that I, the LORD, have spoken' (vida'tem ki ani YHWH dibbarti) is a signature Ezekiel phrase, occurring over sixty times in the book. It asserts that historical events will vindicate the prophetic word."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "כֹּ֤ה אָמַר֙ אֲדֹנָ֣י יְהוִ֔ה וְלָקַ֣חְתִּי אָ֗נִי מִצַּמֶּ֧רֶת הָאֶ֛רֶז הָרָמָ֖ה וְנָתָ֑תִּי מֵרֹ֤אשׁ יֹֽנְקוֹתָיו֙ רַ֣ךְ אֶקְטֹ֔ף וְשָׁתַ֣לְתִּי אָ֔נִי עַ֥ל הַר־גָּבֹ֖הַּ וְתָלֽוּל׃",
+      "text_kjv": "Thus saith the Lord GOD; I will also take of the highest branch of the high cedar, and will set it; I will crop off from the top of his young twigs a tender one, and will plant it upon an high mountain and eminent:",
+      "rendering": "This is what the Lord GOD says: I myself will take a sprig from the lofty top of the cedar and plant it. From the topmost of its young shoots I will pluck a tender one and plant it myself on a high and towering mountain.",
+      "expanded_rendering": "The emphatic 'I myself' (ani) contrasts God's action with Nebuchadnezzar's. Where the first eagle took the cedar top for exile, God will take a tender sprig for restoration. The image of God personally planting on the high mountain of Israel points beyond any historical king to a future Davidic ruler — a messianic figure planted by God's own hand, not raised by political maneuvering. This promise reverses the chapter's entire trajectory of judgment.",
+      "translator_notes": ["The emphatic first-person pronoun ani ('I myself') appears twice in the Hebrew, stressing that this action is God's alone — no eagle, no foreign king, no human agency. The 'tender' shoot (rakh) echoes Isaiah 53:2 ('he grew up like a tender shoot') and Isaiah 11:1 ('a shoot from the stump of Jesse'), creating a web of messianic imagery. The 'high and towering mountain' (har gavoah vetalul) is Mount Zion — the location reverses the exile: what Babylon took down, God will raise up."],
+      "key_terms": [
+        {
+          "hebrew": "רַךְ",
+          "transliteration": "rakh",
+          "rendered_as": "tender",
+          "semantic_range": "tender, soft, gentle, young, delicate",
+          "note": "The tenderness of the sprig contrasts with the power of the eagles. God's chosen instrument of restoration is not mighty but fragile — a theological pattern that runs through Scripture from David the shepherd boy to the Suffering Servant of Isaiah."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "בְּהַ֨ר מְר֤וֹם יִשְׂרָאֵל֙ אֶשְׁתֳּלֶ֔נּוּ וְנָשָׂ֤א עָנָף֙ וְעָ֣שָׂה פֶ֔רִי וְהָיָ֖ה לְאֶ֣רֶז אַדִּ֑יר וְשָׁכְנ֣וּ תַחְתָּ֗יו כֹּ֚ל צִפּ֣וֹר כָּל־כָּנָ֔ף בְּצֵ֥ל דָּלִיּוֹתָ֖יו תִּשְׁכֹּֽנָּה׃",
+      "text_kjv": "In the mountain of the height of Israel will I plant it: and it shall bring forth boughs, and bear fruit, and be a goodly cedar: and under it shall dwell all fowl of every wing; in the shadow of the branches thereof shall they dwell.",
+      "rendering": "On the high mountain of Israel I will plant it, and it will produce branches and bear fruit and become a magnificent cedar. Birds of every kind will nest under it; they will find shelter in the shade of its boughs.",
+      "expanded_rendering": "The vision moves from judgment to messianic hope. The cedar planted by God on the mountain of Israel will become a great tree sheltering 'birds of every kind' — a universal image suggesting that all nations will find refuge under God's chosen ruler. This is the same tree-kingdom imagery that appears in Daniel 4:10-12 (Nebuchadnezzar's dream of a great tree) and in Jesus's mustard seed parable (Mark 4:30-32), where the kingdom of God becomes a tree in which 'the birds of the air nest in its branches.'",
+      "translator_notes": ["The phrase kol tsippor kol kanaf ('every bird of every wing') is a merism indicating totality — all creatures, all nations will find shelter under this cedar. The verb shakhenu ('they will nest/dwell') uses the same root as Shekhinah (sh-k-n, 'to dwell') — where God's planting occurs, dwelling occurs. The cedar that began the chapter as a symbol of the failed Davidic monarchy is here restored as a symbol of the future messianic kingdom — God will succeed where human kings failed."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וְֽיָדְע֞וּ כָּל־עֲצֵ֣י הַשָּׂדֶ֗ה כִּ֣י אֲנִ֤י יְהוָה֙ הִשְׁפַּ֣לְתִּי ׀ עֵ֣ץ גָּבֹ֗הַּ הִגְבַּ֙הְתִּי֙ עֵ֣ץ שָׁפָ֔ל הוֹבַ֙שְׁתִּי֙ עֵ֣ץ לָ֔ח וְהִפְרַ֖חְתִּי עֵ֣ץ יָבֵ֑שׁ אֲנִ֥י יְהוָ֖ה דִּבַּ֥רְתִּי וְעָשִֽׂיתִי׃",
+      "text_kjv": "And all the trees of the field shall know that I the LORD have brought down the high tree, have exalted the low tree, have dried up the green tree, and have made the dry tree to flourish: I the LORD have spoken and have done it.",
+      "rendering": "Then all the trees of the field will know that I, the LORD, bring down the tall tree and raise up the low tree, dry up the green tree and make the withered tree flourish. I, the LORD, have spoken, and I will do it.",
+      "expanded_rendering": "The four reversals — tall brought low, low raised high, green dried up, withered made to flourish — express the comprehensive sovereignty of God over nations and kings. The 'trees of the field' are the nations of the world, and they will witness God's power to overturn every human hierarchy. The final declaration 'I, the LORD, have spoken and I will do it' seals the prophecy with divine certainty — this is not aspiration but covenant promise.",
+      "translator_notes": ["The four antithetical pairs form a chiastic structure: high/low, low/high, green/dry, dry/flourishing. Each reversal asserts divine sovereignty over what humans assume to be fixed hierarchies. The 'trees of the field' (atsei hassadeh) personify the nations — the same metaphor appears in Isaiah 55:12 and Judges 9:8-15 (Jotham's fable). The closing formula 'I, the LORD, have spoken and I will do it' (ani YHWH dibbarti ve'asiti) upgrades the recognition formula of verse 21: not only has God spoken, but he will act. Word and deed are united in the divine character."],
+      "key_terms": [
+        {
+          "hebrew": "דִּבַּרְתִּי וְעָשִׂיתִי",
+          "transliteration": "dibbarti ve'asiti",
+          "rendered_as": "I have spoken and I will do it",
+          "semantic_range": "I have declared and I will accomplish, word and deed together",
+          "note": "The pairing of divine speech and divine action is a theological statement about God's character — his word is never empty but always performative. What God declares, God accomplishes."
+        }
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

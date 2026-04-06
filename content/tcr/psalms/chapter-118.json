@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Psalms",
+    "chapter": 118,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Psalm 118 is the climactic finale of the Egyptian Hallel (Psalms 113-118). It opens and closes with the refrain 'Give thanks to the LORD, for He is good — His faithful love endures forever.' Between these frames, a speaker (likely a king or leader) recounts being surrounded by enemies, pushed to the brink, and then rescued by the LORD. The psalm moves from personal testimony to a liturgical procession approaching the Temple gates, culminating in the famous declaration: 'The stone the builders rejected has become the cornerstone.' The psalm celebrates the reversal of human rejection by divine choice.",
+    "remarkable": "Psalm 118 is the most quoted psalm in the New Testament. 'The stone the builders rejected has become the cornerstone' (v. 22) is applied to Jesus by every gospel writer and by Paul and Peter. 'Blessed is he who comes in the name of the LORD' (v. 26) is the crowd's acclamation at the triumphal entry into Jerusalem. 'This is the day the LORD has made' (v. 24) has become one of the most recognized sentences in the Bible. The psalm's theological center is the reversal pattern: what the powerful rejected, God chose. What nations surrounded, God broke through. What was pushed to falling, God upheld. The entire Hallel collection builds to this psalm — the Passover celebration culminates in the declaration that God's faithful love overturns every human verdict.",
+    "friction": "The identity of the speaker is debated — is this a king returning from battle, a personified Israel, or a liturgical 'everyman'? The processional elements (gates, binding the sacrifice, the altar) suggest a specific Temple ceremony, but the language is general enough to be adopted by any worshiper. The 'stone the builders rejected' (v. 22) was originally a metaphor for Israel or its king, rejected by the powerful nations but chosen by God. The New Testament application to Jesus extends this beyond its original scope — which is theologically significant precisely because the pattern of divine reversal operates at multiple levels.",
+    "connections": "Jesus quotes verse 22 (the rejected stone) in Matthew 21:42, Mark 12:10, and Luke 20:17. Peter quotes it in Acts 4:11 and 1 Peter 2:7. Paul alludes to it in Ephesians 2:20. The crowd quotes verse 26 at the triumphal entry (Matthew 21:9, Mark 11:9, Luke 19:38, John 12:13). Jesus refers to verse 26 in Matthew 23:39 as a prophecy about Jerusalem's future recognition of Him. The Hallel was the last hymn sung at the Last Supper (Matthew 26:30) — Psalm 118 was likely the final psalm Jesus sang before Gethsemane."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "הוֹד֣וּ לַיהוָ֣ה כִּי־ט֑וֹב כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ׃",
+      "text_kjv": "O give thanks unto the LORD; for he is good: because his mercy endureth for ever.",
+      "rendering": "Give thanks to the LORD, for He is good,\nfor His faithful love endures forever.",
+      "translator_notes": [
+        "The opening formula hodu la-YHWH ki tov ki le'olam chasdo ('give thanks to the LORD for He is good, for His faithful love is forever') is shared with Psalms 106:1, 107:1, and 136:1. It functions as a liturgical refrain that frames the entire psalm (repeated in v. 29). The word chesed is rendered 'faithful love' — the covenant loyalty that does not expire."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "faithful love, covenant loyalty, steadfast kindness, lovingkindness",
+          "note": "The refrain 'His faithful love endures forever' is the theological backbone of the psalm. Everything that follows — the distress, the rescue, the reversal — is an expression of chesed in action."
+        }
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "יֹֽאמַר־נָ֥א יִשְׂרָאֵ֑ל כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ׃",
+      "text_kjv": "Let Israel now say, that his mercy endureth for ever.",
+      "rendering": "Let Israel say:\n\"His faithful love endures forever.\"",
+      "translator_notes": [
+        "The threefold call (Israel, house of Aaron, those who fear the LORD) mirrors Psalm 115:9-11. Each group is invited to affirm the refrain. Israel speaks first as the covenant nation."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "יֹֽאמְרוּ־נָ֥א בֵית־אַהֲרֹ֑ן כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ׃",
+      "text_kjv": "Let the house of Aaron now say, that his mercy endureth for ever.",
+      "rendering": "Let the house of Aaron say:\n\"His faithful love endures forever.\"",
+      "translator_notes": [
+        "The priests add their voice to the refrain. As those who minister closest to God's presence, their testimony carries liturgical authority."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "יֹֽאמְרוּ־נָ֥א יִרְאֵ֣י יְהוָ֑ה כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ׃",
+      "text_kjv": "Let them now that fear the LORD say, that his mercy endureth for ever.",
+      "rendering": "Let those who fear the LORD say:\n\"His faithful love endures forever.\"",
+      "translator_notes": [
+        "The third group — yir'ei YHWH ('those who fear the LORD') — completes the threefold pattern. This phrase may include God-fearing non-Israelites, extending the scope of praise beyond ethnic boundaries."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "מִֽן־הַ֭מֵּצַ֥ר קָרָ֣אתִי יָּ֑הּ עָנָ֖נִי בַמֶּרְחָ֣ב יָֽהּ׃",
+      "text_kjv": "I called upon the LORD in distress: the LORD answered me, and set me in a large place.",
+      "rendering": "From the narrow place I called on the LORD;\nthe LORD answered me with wide-open space.",
+      "expanded_rendering": "Min ha-metzar qarati Yah ('from the narrow place I called on the LORD') — the word metzar ('narrow place, strait, distress') describes a space closing in, constriction, claustrophobia. The psalmist was squeezed and called out. God's answer was ba-merchav Yah ('with broad space, the LORD') — the opposite of narrowness. God did not merely remove the pressure; He opened everything up. The contrast between metzar ('narrow') and merchav ('broad, wide, spacious') is the psalm's first statement of reversal.",
+      "translator_notes": [
+        "The word metzar comes from the root tzarar ('to be narrow, to press, to bind'). It is related to mitzrayim ('Egypt'), and some scholars hear an etymological echo here: Egypt was the original 'narrow place' from which Israel cried out to God. The merchav ('broad place') is the space of freedom, movement, and possibility."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "יְהוָ֣ה לִ֭י לֹ֣א אִירָ֑א מַה־יַּעֲשֶׂ֖ה לִ֣י אָדָֽם׃",
+      "text_kjv": "The LORD is on my side; I will not fear: what can man do unto me?",
+      "rendering": "The LORD is for me — I will not fear.\nWhat can any human do to me?",
+      "translator_notes": [
+        "YHWH li ('the LORD is for me / the LORD is mine') is a statement of radical allegiance and confidence. The rhetorical question mah ya'aseh li adam ('what can a human do to me?') is quoted in Hebrews 13:6. The logic is not that humans are powerless but that their power is nothing compared to having the LORD on one's side."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "יְהוָ֣ה לִ֭י בְּעֹזְרָ֑י וַ֝אֲנִ֗י אֶרְאֶ֥ה בְשֹׂנְאָֽי׃",
+      "text_kjv": "The LORD taketh my part with them that help me: therefore shall I see my desire upon them that hate me.",
+      "rendering": "The LORD is for me, among my helpers;\nI will look in triumph on those who hate me.",
+      "translator_notes": [
+        "YHWH li be-ozrai ('the LORD is for me among those who help me') — God is not merely one helper among many but the decisive helper whose presence changes everything. The phrase er'eh vesone'ai ('I will look upon those who hate me') implies seeing their defeat, though the word 'defeat' is not stated — the looking itself is an act of vindication."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "ט֗וֹב לַחֲס֥וֹת בַּיהוָ֑ה מִ֝בְּטֹ֗חַ בָּאָדָֽם׃",
+      "text_kjv": "It is better to trust in the LORD than to put confidence in man.",
+      "rendering": "It is better to take refuge in the LORD\nthan to trust in any human.",
+      "translator_notes": [
+        "The word lachsot ('to take refuge, to seek shelter') describes the act of running to God for protection. The contrast with bittoach ba-adam ('trusting in humans') is not cynicism about people but clarity about where ultimate security lies."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "ט֗וֹב לַחֲס֥וֹת בַּיהוָ֑ה מִ֝בְּטֹ֗חַ בִּנְדִיבִֽים׃",
+      "text_kjv": "It is better to trust in the LORD than to put confidence in princes.",
+      "rendering": "It is better to take refuge in the LORD\nthan to trust in princes.",
+      "translator_notes": [
+        "The parallel intensifies: if trusting humans generally is inferior to trusting God, trusting nedivim ('princes, nobles, powerful leaders') is equally inferior. Even the most powerful human allies cannot provide what the LORD provides."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "כָּל־גּוֹיִ֥ם סְבָב֑וּנִי בְּשֵׁ֥ם יְ֝הוָ֗ה כִּ֣י אֲמִילַֽם׃",
+      "text_kjv": "All nations compassed me about: but in the name of the LORD will I destroy them.",
+      "rendering": "All nations surrounded me,\nbut in the name of the LORD I cut them off.",
+      "translator_notes": [
+        "Kol goyim sevavuni ('all nations encircled me') — the military imagery describes being completely surrounded. The response is beshem YHWH ki amilam ('in the name of the LORD, surely I cut them off'). The verb mul (Hiphil: amil) means 'to cut off, to circumcise, to remove.' The power to break the siege comes not from military strength but from the name — the authority and presence — of the LORD."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "סַבּ֥וּנִי גַם־סְבָב֑וּנִי בְּשֵׁ֥ם יְ֝הוָ֗ה כִּ֣י אֲמִילַֽם׃",
+      "text_kjv": "They compassed me about; yea, they compassed me about: but in the name of the LORD I will destroy them.",
+      "rendering": "They surrounded me — yes, surrounded me on every side,\nbut in the name of the LORD I cut them off.",
+      "translator_notes": [
+        "The doubled savvuni gam sevavuni ('they encircled me, they even encircled me') intensifies the sense of siege. The refrain beshem YHWH ki amilam remains unchanged — the response does not escalate with the threat because the LORD's name is already sufficient."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "סַבּ֤וּנִי כִדְבוֹרִ֗ים דֹּ֭עֲכוּ כְּאֵ֣שׁ קוֹצִ֑ים בְּשֵׁ֥ם יְ֝הוָ֗ה כִּ֣י אֲמִילַֽם׃",
+      "text_kjv": "They compassed me about like bees; they are quenched as the fire of thorns: for in the name of the LORD I will destroy them.",
+      "rendering": "They swarmed around me like bees;\nthey blazed like a fire of thorns,\nbut in the name of the LORD I cut them off.",
+      "translator_notes": [
+        "Two similes describe the enemies: kidevorim ('like bees') — swarming, stinging, relentless — and ke-esh qotzim ('like fire of thorns') — fierce and fast but quickly extinguished. Thorn fires burn hot but burn out almost immediately. The enemies are dangerous but unsustainable. The refrain closes the third cycle: in the name of the LORD, they are cut off."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "דַּחֹ֣ה דְחִיתַ֣נִי לִנְפֹּ֑ל וַ֖יהוָ֣ה עֲזָרָֽנִי׃",
+      "text_kjv": "Thou hast thrust sore at me that I might fall: but the LORD helped me.",
+      "rendering": "I was pushed hard — pushed to falling,\nbut the LORD helped me.",
+      "translator_notes": [
+        "Dachoh dechitani linpol ('pushing you pushed me to fall') — the emphatic infinitive absolute (dachoh) intensifies the verb: the push was severe, determined, intended to destroy. The subject 'you' addresses the enemy directly. The counter-statement is simple: va-YHWH azarani ('but the LORD helped me'). The contrast between the elaborate description of the attack and the brief statement of rescue dramatizes the sufficiency of divine help."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "עָזִּ֣י וְזִמְרָ֣ת יָ֑הּ וַֽיְהִי־לִ֝֗י לִֽישׁוּעָֽה׃",
+      "text_kjv": "The LORD is my strength and song, and is become my salvation.",
+      "rendering": "The LORD is my strength and my song;\nHe has become my salvation.",
+      "expanded_rendering": "Ozzi ve-zimrat Yah ('my strength and my song is the LORD') — this line is a direct quotation of the Song of the Sea (Exodus 15:2), sung after the crossing of the Red Sea. By quoting this ancient victory song, the psalmist places his personal deliverance within the framework of the Exodus itself. God is both ozz ('strength') for the battle and zimrah ('song') for the celebration. Vayehi li lishu'ah ('and He became for me salvation') — the deliverance is not theoretical but experienced.",
+      "translator_notes": [
+        "The phrase ozzi ve-zimrat Yah is identical to Exodus 15:2a and Isaiah 12:2. The intertextual connection is deliberate — every subsequent rescue by the LORD is a re-enactment of the Exodus. The word zimrat can mean 'song' or 'strength/protection' (from a separate root zamar meaning 'to be strong'), and the ambiguity may be intentional."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "ק֤וֹל ׀ רִנָּ֬ה וִישׁוּעָ֗ה בְּאָהֳלֵ֥י צַדִּיקִ֑ים יְמִ֥ין יְ֝הוָ֗ה עֹ֣שָׂה חָֽיִל׃",
+      "text_kjv": "The voice of rejoicing and salvation is in the tabernacles of the righteous: the right hand of the LORD doeth valiantly.",
+      "rendering": "Shouts of joy and salvation\nfill the tents of the righteous:\n\"The right hand of the LORD acts with power!\"",
+      "translator_notes": [
+        "Qol rinnah vishu'ah ('the sound of joyful shouting and salvation') fills be-oholei tzaddiqim ('the tents of the righteous'). The 'tents' may refer to actual dwellings, to festival booths, or to the encampment metaphor for God's people. The quotation within the psalm — yemin YHWH osah chayil ('the right hand of the LORD does valiantly') — is what the righteous are shouting. The yemin ('right hand') is the hand of power, of oath-taking, of action."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "יְמִ֣ין יְ֭הוָה רוֹמֵמָ֑ה יְמִ֥ין יְ֝הוָ֗ה עֹ֣שָׂה חָֽיִל׃",
+      "text_kjv": "The right hand of the LORD is exalted: the right hand of the LORD doeth valiantly.",
+      "rendering": "The right hand of the LORD is raised high;\nthe right hand of the LORD acts with power!",
+      "translator_notes": [
+        "The triple mention of yemin YHWH ('the right hand of the LORD') across verses 15-16 creates a drumbeat of celebration. The verb romemah ('is raised high, is exalted') pictures God's hand lifted in victory — the image of a warrior who has won the fight and raises his weapon-hand in triumph."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "לֹֽא־אָמ֥וּת כִּי־אֶחְיֶ֑ה וַ֝אֲסַפֵּ֗ר מַֽעֲשֵׂ֥י יָֽהּ׃",
+      "text_kjv": "I shall not die, but live, and declare the works of the LORD.",
+      "rendering": "I will not die but live,\nand I will declare the works of the LORD.",
+      "translator_notes": [
+        "The phrase lo amut ki echyeh has become one of the most quoted lines in the Psalms. The ki ('but, rather') is adversative, creating a sharp contrast: not death but life. The verb sapper ('to recount, to tell, to declare') is the verb of testimony — the survivor becomes a witness."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "יַסֹּ֣ר יִסְּרַ֣נִּי יָּ֑הּ וְ֝לַמָּ֗וֶת לֹ֣א נְתָנָֽנִי׃",
+      "text_kjv": "The LORD hath chastened me sore: but he hath not given me over unto death.",
+      "rendering": "The LORD disciplined me severely,\nbut He did not hand me over to death.",
+      "translator_notes": [
+        "Yassor yisserani Yah ('disciplining the LORD disciplined me') — the emphatic infinitive absolute acknowledges that the suffering was real and severe, and that it came from the LORD. This is not enemy action alone but divine discipline. Yet ve-la-mavet lo netanani ('but to death He did not give me') — the discipline had a limit. God chastened but did not destroy. The distinction between discipline and destruction is crucial: discipline serves a purpose; destruction ends all purpose."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "פִּתְחוּ־לִ֥י שַׁעֲרֵי־צֶ֑דֶק אָבֹ֥א בָ֝֗ם אוֹדֶ֥ה יָֽהּ׃",
+      "text_kjv": "Open to me the gates of righteousness: I will go into them, and I will praise the LORD:",
+      "rendering": "Open the gates of righteousness for me;\nI will enter through them and thank the LORD.",
+      "translator_notes": [
+        "The scene shifts to the Temple: pitchu li sha'arei tzedeq ('open for me the gates of righteousness'). The sha'arei tzedeq ('gates of righteousness') are the Temple gates through which the righteous enter to worship. The psalmist, having survived the crisis, now approaches the place of thanksgiving. The verb odeh ('I will give thanks') indicates that the purpose of entering is public testimony."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "זֶֽה־הַשַּׁ֥עַר לַיהוָ֑ה צַ֝דִּיקִ֗ים יָבֹ֥אוּ בֽוֹ׃",
+      "text_kjv": "This gate of the LORD, into which the righteous shall enter.",
+      "rendering": "This is the gate of the LORD;\nthe righteous will enter through it.",
+      "translator_notes": [
+        "A voice (perhaps a gatekeeper or Levite) responds: zeh ha-sha'ar la-YHWH ('this is the gate belonging to the LORD') — the gate is identified as divine property. The condition of entry: tzaddiqim yavo'u vo ('the righteous will enter through it'). The exchange suggests a liturgical dialogue between the one approaching and those guarding the entrance."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "אוֹדְךָ֣ כִּ֣י עֲנִיתָ֑נִי וַתְּהִי־לִ֝֗י לִֽישׁוּעָֽה׃",
+      "text_kjv": "I will praise thee: for thou hast heard me, and art become my salvation.",
+      "rendering": "I thank You, for You answered me\nand became my salvation.",
+      "translator_notes": [
+        "Now inside the gates, the psalmist addresses God directly: odekha ki anitani ('I thank You for You answered me'). The verb anah ('to answer') confirms that the prayer of distress (v. 5) was heard and responded to. The phrase vattehi li lishu'ah ('and You became my salvation') repeats verse 14b, creating a structural echo."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "אֶ֭בֶן מָאֲס֣וּ הַבּוֹנִ֑ים הָ֝יְתָ֗ה לְרֹ֣אשׁ פִּנָּֽה׃",
+      "text_kjv": "The stone which the builders refused is become the head stone of the corner.",
+      "rendering": "The stone the builders rejected\nhas become the cornerstone.",
+      "expanded_rendering": "Even ma'asu ha-bonim hayetah lerosh pinnah ('the stone the builders rejected has become the head of the corner') — this is the psalm's most famous line and one of the most quoted verses in all of Scripture. The even ('stone') was examined by the bonim ('builders') and ma'asu ('rejected, refused, found unfit'). But that very stone became the rosh pinnah ('head of the corner') — the cornerstone, the foundation stone, the stone that determines the alignment of the entire structure. The reversal is complete: what human judgment discarded, divine purpose made foundational. In its original context, the 'stone' likely refers to Israel or its king, rejected by the powerful nations but chosen by God as the cornerstone of His purposes.",
+      "translator_notes": [
+        "The rosh pinnah ('head of the corner') is the most important stone in a building — it sets the angle, determines the alignment, and bears the weight of two walls. Some scholars identify it as the capstone rather than the foundation stone, but in either case it is the stone that holds the structure together. Jesus applies this verse to Himself in Matthew 21:42, Mark 12:10, and Luke 20:17. Peter uses it in Acts 4:11 and 1 Peter 2:7."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "רֹאשׁ פִּנָּה",
+          "transliteration": "rosh pinnah",
+          "rendered_as": "cornerstone",
+          "semantic_range": "head of the corner, cornerstone, capstone, chief stone",
+          "note": "The rosh pinnah is the stone that determines the alignment and integrity of the entire building. As a metaphor, it describes the element that human builders considered worthless but that God made essential — the principle of divine reversal at the architectural level."
+        }
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "מֵאֵ֣ת יְ֭הוָה הָ֣יְתָה זֹּ֑את הִ֖יא נִפְלָאָ֣ת בְּעֵינֵֽינוּ׃",
+      "text_kjv": "This is the LORD's doing; it is marvellous in our eyes.",
+      "rendering": "This is from the LORD;\nit is marvelous in our eyes.",
+      "translator_notes": [
+        "Me-et YHWH hayetah zot ('from the LORD this has come about') — the reversal was not human cleverness but divine action. The word nifla't ('wonderful, marvelous') comes from the root pala ('to be extraordinary, beyond human capacity'). The reversal exceeds what anyone could have planned or expected — it can only be explained as God's work."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "זֶה־הַ֭יּוֹם עָשָׂ֣ה יְהוָ֑ה נָגִ֖ילָה וְנִשְׂמְחָ֣ה בֽוֹ׃",
+      "text_kjv": "This is the day which the LORD hath made; we will rejoice and be glad in it.",
+      "rendering": "This is the day the LORD has made;\nlet us rejoice and be glad in it.",
+      "translator_notes": [
+        "Zeh ha-yom asah YHWH ('this is the day the LORD has made') — the 'day' is not a generic day but this specific day of reversal and vindication. The LORD 'made' it in the sense that He brought it about, orchestrated it, caused it to happen. The response is nagilah venismechah vo ('let us exult and rejoice in it') — corporate celebration of what God has done."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "אָנָּ֣א יְ֭הוָה הוֹשִׁ֘יעָ֥ה נָּ֑א אָנָּ֥א יְ֝הוָ֗ה הַצְלִ֘יחָ֥ה נָּֽא׃",
+      "text_kjv": "Save now, I beseech thee, O LORD: O LORD, I beseech thee, send now prosperity.",
+      "rendering": "Please, LORD, save us!\nPlease, LORD, grant us success!",
+      "translator_notes": [
+        "The double anna YHWH ('please, LORD') is urgent entreaty. The verbs hoshi'ah na ('save, please!') and hatzlichah na ('grant success, please!') form the Hebrew phrase from which 'Hosanna' derives. Hoshi'ah na became Hosanna in Greek transliteration — the crowd's cry at Jesus' triumphal entry (Matthew 21:9) is a direct quotation of this verse."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הוֹשִׁיעָה נָּא",
+          "transliteration": "hoshi'ah na",
+          "rendered_as": "save us!",
+          "semantic_range": "save now, deliver please, rescue us",
+          "note": "This phrase is the origin of the word 'Hosanna.' In its original context, it is a plea for deliverance. By Jesus' time, it had become a liturgical acclamation of praise — but the plea for salvation remains embedded in its meaning."
+        }
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "בָּר֣וּךְ הַ֭בָּא בְּשֵׁ֣ם יְהוָ֑ה בֵּ֝רַכְנוּכֶ֗ם מִבֵּ֥ית יְהוָֽה׃",
+      "text_kjv": "Blessed be he that cometh in the name of the LORD: we have blessed you out of the house of the LORD.",
+      "rendering": "Blessed is the one who comes in the name of the LORD.\nWe bless you from the house of the LORD.",
+      "expanded_rendering": "Barukh ha-ba beshem YHWH ('blessed is the one who comes in the name of the LORD') — a priestly or Levitical blessing pronounced on the one entering the Temple. The phrase beshem YHWH ('in the name of the LORD') means 'by the authority of, as a representative of, under the banner of.' The second line — berakhunukhem mibbeit YHWH ('we bless you from the house of the LORD') — is the blessing of the Temple community upon the arriving worshiper. The crowds at Jesus' triumphal entry into Jerusalem quoted this verse (Matthew 21:9, Mark 11:9, Luke 19:38, John 12:13), recognizing Jesus as the one who comes in God's name.",
+      "translator_notes": [
+        "In the original liturgical setting, this may have been spoken by the priests to a king or pilgrim arriving at the Temple. In its New Testament application, the phrase takes on messianic significance — Jesus is identified as 'the one who comes' in God's name, and His entry into Jerusalem is framed as a fulfillment of this psalm."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "אֵ֤ל ׀ יְהוָה֮ וַיָּ֪אֶר לָ֥נוּ אִסְרוּ־חַ֥ג בַּעֲבֹתִ֑ים עַד־קַ֝רְנ֗וֹת הַמִּזְבֵּֽחַ׃",
+      "text_kjv": "God is the LORD, which hath shewed us light: bind the sacrifice with cords, even unto the horns of the altar.",
+      "rendering": "The LORD is God, and He has given us light.\nBind the festival offering with branches\nup to the horns of the altar.",
+      "translator_notes": [
+        "El YHWH vayyaer lanu ('the LORD is God, and He has shone upon us') — the verb he'ir ('to give light, to shine') may refer to the priestly blessing of Numbers 6:25 ('the LORD make His face shine upon you'). The second instruction — isru chag ba-avotim ad qarnot ha-mizbeach ('bind the festival offering with cords/branches up to the horns of the altar') — describes the preparation of the sacrifice. The avotim can mean 'cords' or 'thick branches.' The qarnot ha-mizbeach ('horns of the altar') were the projecting corners of the sacrificial altar."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "אֵלִ֣י אַתָּ֣ה וְאוֹדֶ֑ךָּ אֱ֝לֹהַ֗י אֲרוֹמְמֶֽךָּ׃",
+      "text_kjv": "Thou art my God, and I will praise thee: thou art my God, I will exalt thee.",
+      "rendering": "You are my God, and I will thank You;\nmy God, I will exalt You.",
+      "translator_notes": [
+        "Eli attah ve-odekka ('You are my God and I will thank You') — the personal declaration. The shift from communal praise to individual address is intimate: attah ('You') is direct, face-to-face language. The psalmist claims God personally — not merely 'our God' but 'my God' — and pledges both thanksgiving (odekka) and exaltation (aromemekka)."
+      ],
+      "reading_level": "5th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "הוֹד֣וּ לַיהוָ֣ה כִּי־ט֑וֹב כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ׃",
+      "text_kjv": "O give thanks unto the LORD; for he is good: for his mercy endureth for ever.",
+      "rendering": "Give thanks to the LORD, for He is good,\nfor His faithful love endures forever.",
+      "translator_notes": [
+        "The psalm closes with the same refrain that opened it (v. 1): hodu la-YHWH ki tov ki le'olam chasdo. The frame is complete. Everything between the two refrains — the distress, the siege, the rescue, the rejected stone, the opened gates, the festival procession — is contained within and explained by the steadfast faithful love of the LORD."
+      ],
+      "reading_level": "5th grade"
+    }
+  ]
+}

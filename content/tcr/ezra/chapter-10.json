@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Ezra",
+    "chapter": 10,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "While Ezra prays and weeps before the Temple, a large crowd gathers and weeps with him. Shecaniah son of Jehiel proposes a covenant to send away the foreign wives and their children. Ezra makes the priests, Levites, and all Israel swear an oath to do this. He then withdraws to fast. A proclamation orders all returnees to assemble in Jerusalem within three days or forfeit their property and be expelled from the community. The assembly meets in the rain and agrees to the mass divorce. A commission is appointed to investigate case by case. The chapter ends with a detailed list of those found guilty — priests, Levites, singers, gatekeepers, and laypeople — and notes that some of these wives had borne children.",
+    "remarkable": "This chapter describes one of the most wrenching events in biblical history — the systematic dissolution of marriages between Israelite men and foreign women. The text does not celebrate this action; it narrates it with a kind of grim determination. The weeping of the assembly (verse 1) is not merely penitential — it reflects the human cost of what is being demanded. The rain pouring on the open-air assembly (verse 9) mirrors the tears. Shecaniah's proposal uses the language of hope ('there is still hope for Israel,' verse 2), but the hope requires devastating personal sacrifice. The chapter ends abruptly with the list of offenders and the note about children — ve-yesh mehem nashim va-yasimu banim ('and some of them had wives by whom they had children,' verse 44). That single sentence is the book's most haunting line. The text acknowledges the human wreckage without comment, leaving the reader to reckon with the cost of covenant purity.",
+    "friction": "This chapter raises the sharpest ethical questions in the book. The modern reader recoils at the forced dissolution of families, and the text itself does not fully resolve the tension. The justification is theological: intermarriage threatens the covenant community's faithfulness to God, and the exile itself was caused by such unfaithfulness. Deuteronomy 7:1-4 provides the legal basis. Yet Ruth the Moabitess was welcomed into Israel and became David's ancestor, and Deuteronomy 21:10-14 provides for marriage with captured foreign women. The difference, as the text presents it, is assimilation versus conversion: Ruth joined Israel's God; these marriages apparently did not involve the wives' conversion. We render the text without softening or condemning — the narrative speaks for itself, including its disturbing final verse.",
+    "connections": "Shecaniah's proposal echoes the covenant renewal patterns of Joshua 24, 2 Kings 23, and Nehemiah 10. The three-day deadline (verse 8) parallels Joshua's three-day preparation for entering the land (Joshua 1:11). The property forfeiture and community expulsion (cherem, verse 8) echo the holy war language of Joshua 6-7. Nehemiah will face the same intermarriage problem (Nehemiah 13:23-27) and respond with physical violence rather than legal process, making Ezra's committee approach appear restrained by comparison. The final list of offenders parallels the returnee lists of chapters 2 and 8, but this time the names carry shame rather than honor."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וּכְהִתְפַּלֵּ֤ל עֶזְרָא֙ וּ֠כְהִתְוַדֹּ֠תוֹ בֹּכֶ֨ה וּמִתְנַפֵּ֜ל לִפְנֵ֣י ׀ בֵּ֣ית הָאֱלֹהִ֗ים נִקְבְּצ֨וּ אֵלָ֤יו מִיִּשְׂרָאֵל֙ קָהָ֣ל רַב־מְאֹ֔ד אֲנָשִׁ֣ים וְנָשִׁ֣ים וִילָדִ֑ים כִּֽי־בָכ֥וּ הָעָ֖ם הַרְבֵּ֥ה בֶֽכֶה׃",
+      "text_kjv": "Now when Ezra had prayed, and when he had confessed, weeping and casting himself down before the house of God, there assembled unto him out of Israel a very great congregation of men and women and children: for the people wept very sore.",
+      "rendering": "While Ezra was praying and confessing, weeping and throwing himself down before the house of God, a very large assembly of Israelites gathered around him — men, women, and children — for the people were weeping bitterly.",
+      "translator_notes": [
+        "The scene is public and communal: Ezra's private grief has become a corporate event. The inclusion of men, women, and children (anashim ve-nashim vi-ladim) means entire families participated in the mourning — including, presumably, some of the very women and children who would be affected by the coming action. The phrase bakhu ha-am harbeh vekheh ('the people wept much weeping') uses the cognate accusative for emphasis: they wept with weeping."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וַיַּ֡עַן שְׁכַנְיָ֣ה בֶן־יְחִיאֵ֣ל מִבְּנֵ֣י עוֹלָ֡ם וַיֹּאמֶר֩ לְעֶזְרָ֨א אֲנַ֤חְנוּ מָעַ֙לְנוּ֙ בֵּאלֹהֵ֔ינוּ וַנֹּ֛שֶׁב נָשִׁ֥ים נׇכְרִיּ֖וֹת מֵעַמֵּ֣י הָאָ֑רֶץ וְעַתָּ֛ה יֵשׁ־מִקְוֶ֥ה לְיִשְׂרָאֵ֖ל עַל־זֹֽאת׃",
+      "text_kjv": "And Shechaniah the son of Jehiel, one of the sons of Elam, answered and said unto Ezra, We have trespassed against our God, and have taken strange wives of the people of the land: yet now there is hope in Israel concerning this thing.",
+      "rendering": "Shecaniah son of Jehiel, one of the descendants of Elam, spoke up and said to Ezra, 'We have been unfaithful to our God and have married foreign women from the peoples of the land. But even now, there is hope for Israel in this matter.",
+      "translator_notes": [
+        "Shecaniah's opening is simultaneously an admission of guilt and an assertion of hope: anachnu ma'alnu be-Eloheinu ('we have been unfaithful to our God') followed by yesh miqveh le-Yisrael ('there is hope for Israel'). The word miqveh ('hope, expectation') is the same word used in Jeremiah 17:13 ('the LORD, the hope of Israel'). Remarkably, Shecaniah's own father Jehiel appears in the list of offenders (verse 26), meaning Shecaniah is proposing action that implicates his own family."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְעַתָּ֣ה נִֽכְרׇת־בְּרִ֣ית ׀ לֵאלֹהֵ֡ינוּ לְהוֹצִ֣יא כׇל־נָשִׁ֣ים וְהַנּוֹלָ֣ד מֵהֶ֡ם בַּעֲצַ֣ת אֲדֹנָי֩ וְהַ֨חֲרֵדִ֜ים בְּמִצְוַ֤ת אֱלֹהֵ֙ינוּ֙ וְכַתּוֹרָ֣ה יֵעָשֶׂ֔ה׃",
+      "text_kjv": "Now therefore let us make a covenant with our God to put away all the wives, and such as are born of them, according to the counsel of my lord, and of those that tremble at the commandment of our God; and let it be done according to the law.",
+      "rendering": "Now let us make a covenant with our God to send away all these wives and the children born to them, following the counsel of my lord and of those who tremble at the command of our God. Let it be done according to the Law.",
+      "expanded_rendering": "Berit ('covenant') elevates the community's decision from policy to sacred obligation — by binding themselves before God in a formal covenant, the assembly places their corporate action under divine authority, making the commitment irrevocable and its violation an act of sacrilege.",
+      "translator_notes": [
+        "Shecaniah proposes a formal berit ('covenant') — a binding agreement before God. The scope is total: kol nashim ve-ha-nolad mehem ('all the wives and those born from them'). The children are included because they represent the mixed lineage that threatens covenant identity. The phrase ba-atsat Adonai ('by the counsel of my lord') defers to Ezra's authority. The phrase ve-kha-Torah ye'aseh ('and according to the Torah let it be done') grounds the action in legal authority, though the specific Torah text authorizing mass divorce is debated — Deuteronomy 24:1-4 permits divorce but does not command it."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, binding agreement, treaty, pact, solemn contract",
+          "note": "Berit here is a communal vow — the entire assembly binds itself to a course of action before God. The covenant language elevates the decision from policy to sacred obligation. Breaking this berit would itself constitute unfaithfulness."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "ק֛וּם כִּֽי־עָלֶ֥יךָ הַדָּבָ֖ר וַאֲנַ֣חְנוּ עִמָּ֑ךְ חֲזַ֖ק וַעֲשֵֽׂה׃",
+      "text_kjv": "Arise; for this matter belongeth unto thee: we also will be with thee: be of good courage, and do it.",
+      "rendering": "Rise up, for this matter falls to you, and we are with you. Be strong, and act.'",
+      "translator_notes": [
+        "Shecaniah's exhortation echoes the charge given to Joshua: chazaq va-aseh ('be strong and act,' 1 Chronicles 28:10, 20). The words are encouraging but they also place the full weight of responsibility on Ezra: alekha ha-davar ('the matter is upon you'). The community pledges support (anachnu immakh, 'we are with you') but the decision and its consequences rest on Ezra's shoulders."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וַיָּ֣קׇם עֶזְרָ֗א וַיַּשְׁבַּ֞ע אֶת־שָׂרֵ֧י הַכֹּהֲנִ֛ים הַלְוִיִּ֥ם וְכׇל־יִשְׂרָאֵ֖ל לַעֲשׂ֣וֹת כַּדָּבָ֣ר הַזֶּ֑ה וַיִּשָּׁבֵֽעוּ׃",
+      "text_kjv": "Then arose Ezra, and made the chief priests, the Levites, and all Israel, to swear that they should do according to this word. And they sware.",
+      "rendering": "Then Ezra stood up and made the leading priests, the Levites, and all Israel swear to do as had been proposed. And they swore.",
+      "translator_notes": [
+        "Ezra moves from prayer to action. He extracts an oath (vayyashba, 'he caused to swear') from the entire leadership structure — priests, Levites, and the whole assembly. The oath binds them before God. The final word vayyishave'u ('and they swore') is terse and absolute — there is no recorded dissent."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיָּ֣קׇם עֶזְרָ֗א מִלִּפְנֵי֙ בֵּ֣ית הָאֱלֹהִ֔ים וַיֵּ֕לֶךְ אֶל־לִשְׁכַּ֖ת יְהוֹחָנָ֣ן בֶּן־אֶלְיָשִׁ֑יב וַיֵּ֣לֶךְ שָׁ֔ם לֶ֚חֶם לֹ֣א אָכַ֔ל וּמַ֥יִם לֹא־שָׁתָ֖ה כִּ֣י מִתְאַבֵּ֔ל עַ֖ל מַ֥עַל הַגּוֹלָֽה׃",
+      "text_kjv": "Then Ezra rose up from before the house of God, and went into the chamber of Johanan the son of Eliashib: and when he came thither, he did eat no bread, nor drink water: for he mourned because of the transgression of them that had been carried away.",
+      "rendering": "Then Ezra withdrew from the front of the house of God and went to the chamber of Jehohanan son of Eliashib. He went there and neither ate food nor drank water, for he was mourning over the unfaithfulness of the exiles.",
+      "translator_notes": [
+        "Ezra's fast is total — no food, no water. The chamber of Jehohanan son of Eliashib was likely a Temple storeroom used by the priestly administration. If this Eliashib is the high priest of Nehemiah's time (Nehemiah 3:1), the chronological relationship between Ezra and Nehemiah becomes complex. The mourning (mit'abel, 'grieving, lamenting') continues even after the oath, showing that the resolution brings no joy to Ezra."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיַּעֲבִ֥ירוּ ק֛וֹל בִּיהוּדָ֖ה וִירוּשָׁלָ֑͏ִם לְכֹ֣ל בְּנֵ֣י הַגּוֹלָ֗ה לְהִקָּבֵ֖ץ יְרוּשָׁלָֽ͏ִם׃",
+      "text_kjv": "And they made proclamation throughout Judah and Jerusalem unto all the children of the captivity, that they should gather themselves together unto Jerusalem;",
+      "rendering": "A proclamation was issued throughout Judah and Jerusalem to all the returned exiles, ordering them to assemble in Jerusalem.",
+      "translator_notes": [
+        "The verb vayyya'aviru qol ('they caused a voice to pass') describes a herald going through the territory with an official announcement. The summons covers all of Judah and Jerusalem — every member of the exilic community is called."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְכֹ֗ל אֲשֶׁ֤ר לֹֽא־יָבוֹא֙ לִשְׁלֹ֣שֶׁת הַיָּמִ֔ים כַּעֲצַ֥ת הַשָּׂרִ֖ים וְהַזְּקֵנִ֑ים יׇחֳרַ֣ם כׇּל־רְכוּשׁ֗וֹ וְה֧וּא יִבָּדֵ֛ל מִקְּהַ֖ל הַגּוֹלָֽה׃",
+      "text_kjv": "And that whosoever would not come within three days, according to the counsel of the princes and the elders, all his substance should be forfeited, and himself separated from the congregation of the captivity.",
+      "rendering": "Anyone who did not appear within three days, as the officials and elders directed, would have all his property confiscated and would himself be expelled from the assembly of the exiles.",
+      "translator_notes": [
+        "The penalty for non-compliance is severe: yocharam kol rekhusho ('all his property will be devoted to destruction'). The word cherem is the same term used for the total destruction of Jericho (Joshua 6:17-18) — property placed under the ban belongs to God and is removed from human use. Expulsion from the community (yibadel mi-qehal ha-golah) means loss of identity as an Israelite. The three-day deadline (given the distances involved in Judah) shows urgency."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיִּקָּבְצ֣וּ כׇל־אַנְשֵׁי־יְהוּדָ֣ה וּבִנְיָמִ֡ן יְרוּשָׁלַ֡͏ִם לִשְׁלֹ֣שֶׁת הַיָּמִים֩ ה֨וּא חֹ֜דֶשׁ הַתְּשִׁיעִ֗י בְּעֶשְׂרִ֣ים בַּחֹ֔דֶשׁ וַיֵּשְׁבוּ֙ כׇל־הָעָ֔ם בִּרְח֖וֹב בֵּ֣ית הָאֱלֹהִ֑ים מַרְעִידִ֥ים עַל־הַדָּבָ֖ר וּמֵהַגְּשָׁמִֽים׃",
+      "text_kjv": "Then all the men of Judah and Benjamin gathered themselves together unto Jerusalem within three days. It was the ninth month, on the twentieth day of the month; and all the people sat in the street of the house of God, trembling because of this matter, and for the great rain.",
+      "rendering": "All the men of Judah and Benjamin assembled in Jerusalem within the three days. It was the ninth month, on the twentieth of the month. All the people sat in the open square of the house of God, trembling because of the matter and because of the heavy rain.",
+      "translator_notes": [
+        "The ninth month (Kislev, November-December) is the beginning of the rainy season in Judah. The people sit in the open square (rechov beit ha-Elohim) with no shelter, drenched by rain. The word mar'idim ('trembling') describes physical shaking caused by both fear and cold. The double cause — al ha-davar u-me-ha-geshamim ('because of the matter and because of the rains') — is grimly observed by the narrator. The weather mirrors the emotional desolation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיָּ֨קׇם עֶזְרָ֤א הַכֹּהֵן֙ וַיֹּ֣אמֶר אֲלֵהֶ֔ם אַתֶּ֣ם מְעַלְתֶּ֔ם וַתֹּשִׁ֖יבוּ נָשִׁ֣ים נׇכְרִיּ֑וֹת לְהוֹסִ֖יף עַל־אַשְׁמַ֥ת יִשְׂרָאֵֽל׃",
+      "text_kjv": "And Ezra the priest stood up, and said unto them, Ye have transgressed, and have taken strange wives, to increase the trespass of Israel.",
+      "rendering": "Ezra the priest stood and said to them, 'You have been unfaithful. You have married foreign women, adding to the guilt of Israel.",
+      "translator_notes": [
+        "Ezra's charge is direct: attem me'altem ('you have been unfaithful'). The verb ma'al is the same sacrilege term from 9:2. The phrase le-hosif al ashmat Yisrael ('to add to the guilt of Israel') means this intermarriage compounds the nation's already-existing burden of guilt — the guilt that caused the exile in the first place."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְעַתָּ֗ה תְּנ֥וּ תוֹדָ֛ה לַיהוָ֖ה אֱלֹהֵ֣י אֲבֹתֵיכֶ֑ם וַעֲשׂ֣וּ רְצוֹנ֗וֹ וְהִבָּֽדְלוּ֙ מֵעַמֵּ֣י הָאָ֔רֶץ וּמִן־הַנָּשִׁ֖ים הַנׇּכְרִיּֽוֹת׃",
+      "text_kjv": "Now therefore make confession unto the LORD God of your fathers, and do his pleasure: and separate yourselves from the people of the land, and from the strange wives.",
+      "rendering": "Now make confession to the LORD, the God of your ancestors, and do his will. Separate yourselves from the peoples of the land and from the foreign wives.'",
+      "expanded_rendering": "Todah ('confession') carries the double sense of acknowledging sin and giving thanks to God for his right to demand obedience. Hivvadelu ('separate yourselves') uses the root badal that pervades the holiness vocabulary — the same act of divine separation that ordered creation now orders the covenant community's boundaries.",
+      "translator_notes": [
+        "The command tenu todah ('give confession/thanks') is ambiguous — todah can mean either 'thanksgiving' or 'confession.' In context, it means both: confess the sin and acknowledge God's right to demand obedience. The phrase va-asu retsono ('do his will/pleasure') uses ratson, which implies willing, delighted obedience. The command ve-hibbadelu ('separate yourselves') uses the same root (badal) that describes God's creative separating in Genesis 1 — a re-creation of holy boundaries."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיַּעֲנ֧וּ כׇל־הַקָּהָ֛ל וַיֹּאמְר֖וּ ק֣וֹל גָּד֑וֹל כֵּ֣ן כִּדְבָרְךָ֔ עָלֵ֖ינוּ לַעֲשֽׂוֹת׃",
+      "text_kjv": "Then all the congregation answered and said with a loud voice, As thou hast said, so must we do.",
+      "rendering": "The whole assembly responded in a loud voice: 'Yes! As you have said, so we must do.",
+      "translator_notes": [
+        "The assembly's response is unanimous and emphatic: ken ki-devarekha aleinu la'asot ('yes, according to your word — it is upon us to do'). The word aleinu ('upon us') accepts responsibility — this is not imposed from outside but owned by the community."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "אֲבָ֞ל הָעָ֥ם רָב֙ וְהָעֵ֣ת גְּשָׁמִ֔ים וְאֵ֥ין כֹּ֖חַ לַעֲמ֣וֹד בַּח֑וּץ וְהַמְּלָאכָ֞ה לֹ֣א לְי֧וֹם אֶחָ֛ד וְלֹ֥א לִשְׁנַ֖יִם כִּֽי־הִרְבִּ֥ינוּ לִפְשֹׁ֖עַ בַּדָּבָ֥ר הַזֶּֽה׃",
+      "text_kjv": "But the people are many, and it is a time of much rain, and we are not able to stand without, neither is this a work of one day or two: for we are many that have transgressed in this thing.",
+      "rendering": "But the people are many, and it is the rainy season, and we cannot stand outside. Besides, this is not the work of one or two days, for we have sinned greatly in this matter.",
+      "translator_notes": [
+        "Practical reality intervenes: the crowd is too large, the rain too heavy, and the cases too numerous for an outdoor mass proceeding. The admission ki hirbinu lifshoa ('for we have greatly transgressed') acknowledges the scale of the problem — this is not a few isolated cases but a widespread failure."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "יַעֲמְדוּ־נָ֣א שָׂרֵ֗ינוּ לְכׇל־הַקָּהָ֔ל וְכֹ֣ל ׀ אֲשֶׁ֣ר בְּעָרֵ֗ינוּ הַהֹשִׁ֞יב נָשִׁ֤ים נׇכְרִיּוֹת֙ יָבֹא֙ לְעִתִּ֣ים מְזֻמָּנִ֔ים וְעִמָּהֶ֛ם זִקְנֵ֥י עִיר־וָעִ֖יר וְשֹׁפְטֶ֑יהָ עַ֗ד לְהָשִׁיב֙ חֲר֣וֹן אַף־אֱלֹהֵ֔ינוּ מִמֶּ֖נּוּ עַ֥ד לַדָּבָ֖ר הַזֶּֽה׃",
+      "text_kjv": "Let now our rulers of all the congregation stand, and let all them which have taken strange wives in our cities come at appointed times, and with them the elders of every city, and the judges thereof, until the fierce wrath of our God for this matter be turned from us.",
+      "rendering": "Let our officials represent the whole assembly. Let everyone in our towns who has married a foreign woman come at designated times, accompanied by the elders and judges of each town, until the burning anger of our God over this matter has turned away from us.'",
+      "translator_notes": [
+        "The proposal creates a judicial process rather than a mob action: designated officials, scheduled hearings, local elders and judges as witnesses. Each case will be examined individually (le-ittim mezummanim, 'at appointed/designated times'). The goal is explicitly theological: le-hashiv charon af Eloheinu ('to turn back the burning anger of our God'). The community fears that God's wrath will destroy the remnant if the problem is not resolved."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "אַ֣ךְ יוֹנָתָ֧ן בֶּן־עֲשָׂהאֵ֛ל וְיַחְזְיָ֥ה בֶן־תִּקְוָ֖ה עָמְד֣וּ עַל־זֹ֑את וּמְשֻׁלָּ֥ם וְשַׁבְּתַ֛י הַלֵּוִ֖י עֲזָרֻֽם׃",
+      "text_kjv": "Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah were employed about this matter: and Meshullam and Shabbethai the Levite helped them.",
+      "rendering": "Only Jonathan son of Asahel and Jahzeiah son of Tikvah opposed this, with Meshullam and Shabbethai the Levite supporting them.",
+      "translator_notes": [
+        "The phrase amdu al zot ('stood against this') is ambiguous — it could mean they 'were appointed over this matter' (supervised the process) or 'stood in opposition to this' (dissented). Most interpreters read it as opposition, since the Hebrew al in this construction typically means 'against' rather than 'over.' If this is dissent, the text records it without comment — four men opposed the mass divorce, and the narrative simply notes their names and moves on. This is the only recorded opposition."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיַּעֲשׂוּ־כֵן֙ בְּנֵ֣י הַגּוֹלָ֔ה וַיִּבָּדֵ֗ל עֶזְרָ֣א הַכֹּהֵן֮ אֲנָשִׁ֣ים רָאשֵׁ֣י הָאָבוֹת֒ לְבֵ֤ית אֲבֹתָם֙ וְכֻלָּ֣ם בְּשֵׁמ֔וֹת וַיֵּשְׁב֛וּ בְּי֥וֹם אֶחָ֖ד לַחֹ֣דֶשׁ הָעֲשִׂירִ֑י לְדַרְיֹ֖שׁ הַדָּבָֽר׃",
+      "text_kjv": "And the children of the captivity did so. And Ezra the priest, with certain chief of the fathers, after the house of their fathers, and all of them by their names, were separated, and sat down in the first day of the tenth month to examine the matter.",
+      "rendering": "The returned exiles did as proposed. Ezra the priest selected men who were heads of ancestral houses, all designated by name. They convened on the first day of the tenth month to investigate the matter.",
+      "translator_notes": [
+        "The commission began its work on 1 Tevet (approximately December-January) — ten days after the assembly. Ezra chose the investigators from the ancestral house leaders, each named and accountable. The verb lidrosh ha-davar ('to investigate the matter') uses the same root darash ('to seek, inquire') that defines Ezra's own vocation (7:10). The investigation is conducted with the same scholarly rigor Ezra applies to Torah."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיְכַלּ֣וּ בַכֹּ֔ל אֲנָשִׁ֕ים הַהֹשִׁ֖יבוּ נָשִׁ֣ים נׇכְרִיּ֑וֹת עַ֛ד י֥וֹם אֶחָ֖ד לַחֹ֥דֶשׁ הָרִאשֽׁוֹן׃",
+      "text_kjv": "And they made an end with all the men that had taken strange wives by the first day of the first month.",
+      "rendering": "They finished investigating all the men who had married foreign women by the first day of the first month.",
+      "translator_notes": [
+        "The investigation took three months (from 1 Tevet to 1 Nisan). The thoroughness is deliberate — every case was examined individually, with local elders and judges participating (verse 14). The completion date — 1 Nisan, the first day of the first month — coincides with the new year. The purification is complete as a new year begins."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיִּמָּצֵ֣א מִבְּנֵ֣י הַכֹּהֲנִ֗ים אֲשֶׁ֤ר הֹשִׁ֙יבוּ֙ נָשִׁ֣ים נׇכְרִיּ֔וֹת מִבְּנֵ֛י יֵשׁ֥וּעַ בֶּן־יוֹצָדָ֖ק וְאֶחָ֑יו מַעֲשֵׂיָ֧ה וֶאֱלִיעֶ֛זֶר וְיָרִ֥יב וּגְדַלְיָֽה׃",
+      "text_kjv": "And among the sons of the priests there were found that had taken strange wives: namely, of the sons of Jeshua the son of Jozadak, and his brethren; Maaseiah, and Eliezer, and Jarib, and Gedaliah.",
+      "rendering": "Among the priests who had married foreign women were found: from the descendants of Jeshua son of Jozadak and his brothers — Maaseiah, Eliezer, Jarib, and Gedaliah.",
+      "translator_notes": [
+        "The list of offenders begins with the most devastating category: the descendants of Jeshua the high priest himself. The high-priestly family — the very line that led the restoration — is implicated. This explains the depth of Ezra's grief: the corruption reaches the highest level of religious leadership."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיִּתְּנ֥וּ יָדָ֖ם לְהוֹצִ֣יא נְשֵׁיהֶ֑ם וַאֲשֵׁמִ֕ים אֵ֥יל צֹ֖אן עַל־אַשְׁמָתָֽם׃",
+      "text_kjv": "And they gave their hands that they would put away their wives; and being guilty, they offered a ram of the flock for their trespass.",
+      "rendering": "They pledged to send away their wives, and since they were guilty, they offered a ram from the flock for their guilt.",
+      "expanded_rendering": "Asham ('guilt offering') is the sacrificial category prescribed for sacrilege against what is holy (Leviticus 5:14-19) — the intermarriage is thus treated not merely as a social violation but as trespass against the sacred, requiring both repentance and ritual atonement to restore the covenantal relationship.",
+      "translator_notes": [
+        "The phrase vayyittenu yadam ('they gave their hands') means they made a solemn handshake — a physical gesture of binding commitment. The guilt offering (eil tson, 'a ram of the flock') follows the asham regulation of Leviticus 5:14-19 — a ram offered for sacrilege against holy things. The intermarriage is treated as a trespass against the holy, requiring both repentance and ritual sacrifice."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וּמִבְּנֵ֣י אִמֵּ֔ר חֲנָנִ֖י וּזְבַדְיָֽה׃",
+      "text_kjv": "And of the sons of Immer; Hanani, and Zebadiah.",
+      "rendering": "From the descendants of Immer: Hanani and Zebadiah.",
+      "translator_notes": [
+        "The Immer priestly division (see 2:37) has two offenders listed."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וּמִבְּנֵ֖י חָרִ֑ם מַעֲשֵׂיָ֧ה וְאֵלִיָּ֛ה וּשְׁמַֽעְיָ֥ה וִיחִיאֵ֖ל וְעֻזִּיָּֽה׃",
+      "text_kjv": "And of the sons of Harim; Maaseiah, and Elijah, and Shemaiah, and Jehiel, and Uzziah.",
+      "rendering": "From the descendants of Harim: Maaseiah, Elijah, Shemaiah, Jehiel, and Uzziah.",
+      "translator_notes": [
+        "Five offenders from the Harim priestly family — the largest priestly contingent on the list."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וּמִבְּנֵ֖י פַּשְׁח֑וּר אֶלְיוֹעֵנַ֤י מַעֲשֵׂיָה֙ יִשְׁמָעֵ֔אל נְתַנְאֵ֥ל יוֹזָבָ֖ד וְאֶלְעָשָֽׂה׃",
+      "text_kjv": "And of the sons of Pashur; Elioenai, Maaseiah, Ishmael, Nethaneel, Jozabad, and Elasah.",
+      "rendering": "From the descendants of Pashhur: Elioenai, Maaseiah, Ishmael, Nethanel, Jozabad, and Elasah.",
+      "translator_notes": [
+        "Six offenders from the Pashhur priestly family."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וּמִן־הַלְוִיִּ֑ם יוֹזָבָ֣ד וְשִׁמְעִ֗י וְקֵ֤לָיָה ה֣וּא קְלִיטָ֔א פְּתַחְיָ֥ה יְהוּדָ֖ה וֶאֱלִיעֶֽזֶר׃",
+      "text_kjv": "Also of the Levites; Jozabad, and Shimei, and Kelaiah, (the same is Kelita,) Pethahiah, Judah, and Eliezer.",
+      "rendering": "Among the Levites: Jozabad, Shimei, Kelaiah (also known as Kelita), Pethahiah, Judah, and Eliezer.",
+      "translator_notes": [
+        "Six Levites are named. Given that only 74 Levites returned in the first wave and perhaps 38 more with Ezra, six offenders represents a significant proportion of the Levitical community."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וּמִן־הַמְשֹׁרְרִ֖ים אֶלְיָשִׁ֑יב וּמִן־הַשֹּׁ֣עֲרִ֔ים שַׁלֻּ֥ם וָטֶ֖לֶם וְאוּרִֽי׃",
+      "text_kjv": "Of the singers also; Eliashib: and of the porters; Shallum, and Telem, and Uri.",
+      "rendering": "From the singers: Eliashib. From the gatekeepers: Shallum, Telem, and Uri.",
+      "translator_notes": [
+        "One singer and three gatekeepers are named. The list moves systematically through every category of Temple personnel before turning to the laity — no class is exempt from scrutiny."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וּמִיִּשְׂרָאֵ֑ל מִבְּנֵ֣י פַרְעֹ֗שׁ רַ֠מְיָ֠ה וְיִזִּיָּ֤ה וּמַלְכִּיָּה֙ וּמִיָּמִ֣ן וְאֶלְעָזָ֔ר וּמַלְכִּיָּ֖ה וּבְנָיָֽה׃",
+      "text_kjv": "Moreover of Israel: of the sons of Parosh; Ramiah, and Jeziah, and Malchiah, and Miamin, and Eleazar, and Malchijah, and Benaiah.",
+      "rendering": "From the rest of Israel — from the descendants of Parosh: Ramiah, Izziah, Malchijah, Mijamin, Eleazar, Malchijah, and Benaiah.",
+      "translator_notes": [
+        "The lay list begins with the Parosh clan — the same family that headed the returnee list in 2:3. Seven names are listed. Malchijah appears twice, indicating either two people with the same name or a textual issue."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וּמִבְּנֵ֣י עֵילָ֔ם מַתַּנְיָ֖ה זְכַרְיָ֣ה וִיחִיאֵ֑ל וְעַבְדִּ֥י וִירֵמ֖וֹת וְאֵלִיָּֽה׃",
+      "text_kjv": "And of the sons of Elam; Mattaniah, Zechariah, and Jehiel, and Abdi, and Jeremoth, and Eliah.",
+      "rendering": "From the descendants of Elam: Mattaniah, Zechariah, Jehiel, Abdi, Jeremoth, and Elijah.",
+      "translator_notes": [
+        "Jehiel — the father of Shecaniah who proposed the covenant (verse 2) — appears here. Shecaniah proposed the dissolution of marriages knowing his own father was an offender. The personal cost of his proposal becomes visible."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וּמִבְּנֵ֖י זַתּ֑וּא אֶלְיוֹעֵנַ֤י אֶלְיָשִׁיב֙ מַתַּנְיָ֔ה וִירֵמ֥וֹת וְזָבָ֖ד וַעֲזִיזָֽא׃",
+      "text_kjv": "And of the sons of Zattu; Elioenai, Eliashib, Mattaniah, and Jeremoth, and Zabad, and Aziza.",
+      "rendering": "From the descendants of Zattu: Elioenai, Eliashib, Mattaniah, Jeremoth, Zabad, and Aziza.",
+      "translator_notes": [
+        "Six offenders from the Zattu clan."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וּמִבְּנֵ֖י בֵּבָ֑י יְהוֹחָנָ֥ן חֲנַנְיָ֖ה זַבַּ֥י עַתְלָֽי׃",
+      "text_kjv": "Of the sons also of Bebai; Jehohanan, Hananiah, Zabbai, and Athlai.",
+      "rendering": "From the descendants of Bebai: Jehohanan, Hananiah, Zabbai, and Athlai.",
+      "translator_notes": [
+        "Four offenders from the Bebai clan."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וּמִבְּנֵ֖י בָּנִ֑י מְשֻׁלָּ֤ם מַלּוּךְ֙ וַעֲדָיָ֔ה יָשׁ֖וּב וּשְׁאָ֥ל וִירֵמֽוֹת׃",
+      "text_kjv": "And of the sons of Bani; Meshullam, Malluch, and Adaiah, Jashub, and Sheal, and Ramoth.",
+      "rendering": "From the descendants of Bani: Meshullam, Malluch, Adaiah, Jashub, Sheal, and Jeremoth.",
+      "translator_notes": [
+        "Six offenders from the Bani clan."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וּמִבְּנֵי֙ פַּחַ֣ת מוֹאָ֔ב עַדְנָ֥א וּכְלָ֖ל בְּנָיָ֣ה מַעֲשֵׂיָ֑ה מַתַּנְיָ֥ה בְצַלְאֵ֖ל וּבִנּ֥וּי וּמְנַשֶּֽׁה׃",
+      "text_kjv": "And of the sons of Pahathmoab; Adna, and Chelal, Benaiah, Maaseiah, Mattaniah, Bezaleel, and Binnui, and Manasseh.",
+      "rendering": "From the descendants of Pahath-moab: Adna, Chelal, Benaiah, Maaseiah, Mattaniah, Bezalel, Binnui, and Manasseh.",
+      "translator_notes": [
+        "Eight offenders from the large Pahath-moab clan — the most of any single lay family."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וּבְנֵ֖י חָרִ֑ם אֱלִיעֶ֧זֶר יִשִּׁיָּ֛ה מַלְכִּיָּ֖ה שְׁמַעְיָ֥ה שִׁמְעֽוֹן׃",
+      "text_kjv": "And of the sons of Harim; Eliezer, Ishijah, Malchiah, Shemaiah, Shimeon,",
+      "rendering": "From the descendants of Harim: Eliezer, Ishijah, Malchijah, Shemaiah, Shimeon,",
+      "translator_notes": [
+        "The Harim clan's lay members now appear (distinct from the priestly Harim in verse 21)."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "בִּנְיָמִ֥ן מַלּ֖וּךְ שְׁמַרְיָֽה׃",
+      "text_kjv": "Benjamin, Malluch, and Shemariah.",
+      "rendering": "Benjamin, Malluch, and Shemariah.",
+      "translator_notes": [
+        "Three more from the Harim clan, completing eight names total for this family."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "מִבְּנֵ֖י חָשֻׁ֑ם מַתְּנַ֤י מַתַּתָּה֙ זָבָ֣ד אֱלִיפֶ֔לֶט יְרֵמַ֥י מְנַשֶּׁ֖ה שִׁמְעִֽי׃",
+      "text_kjv": "Of the sons of Hashum; Mattenai, Mattathah, Zabad, Eliphelet, Jeremai, Manasseh, and Shimei.",
+      "rendering": "From the descendants of Hashum: Mattenai, Mattattah, Zabad, Eliphelet, Jeremai, Manasseh, and Shimei.",
+      "translator_notes": [
+        "Seven offenders from the Hashum clan."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "מִבְּנֵ֖י בָּנִ֑י מַעֲדַ֥י עַמְרָ֖ם וְאוּאֵֽל׃",
+      "text_kjv": "Of the sons of Bani; Maadai, Amram, and Uel,",
+      "rendering": "From the descendants of Bani: Maadai, Amram, and Uel,",
+      "translator_notes": [
+        "The Bani clan appears again (compare verse 29), perhaps representing a different branch of the same family."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "בְּנָיָ֥ה בֵדְיָ֖ה כְּלֽוּהוּ׃",
+      "text_kjv": "Benaiah, Bedeiah, Chelluh,",
+      "rendering": "Benaiah, Bedeiah, Cheluhu,",
+      "translator_notes": [
+        "Three more from the Bani clan."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וַנְיָ֥ה מְרֵמ֖וֹת אֶלְיָשִֽׁיב׃",
+      "text_kjv": "Vaniah, Meremoth, Eliashib,",
+      "rendering": "Vaniah, Meremoth, Eliashib,",
+      "translator_notes": [
+        "Three more names continue the Bani clan list."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "מַתַּנְיָ֥ה מַתְּנַ֖י וְיַעֲשָֽׂו׃",
+      "text_kjv": "Mattaniah, Mattenai, and Jaasau,",
+      "rendering": "Mattaniah, Mattenai, and Jaasu,",
+      "translator_notes": [
+        "Three more from Bani, bringing the total to approximately twelve — the largest single family grouping on the offenders list."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וּבָנִ֥י וּבִנּ֖וּי שִׁמְעִֽי׃",
+      "text_kjv": "And Bani, and Binnui, Shimei,",
+      "rendering": "and Bani, Binnui, Shimei,",
+      "translator_notes": [
+        "The list continues with names that may be additional Bani clan members or a new sub-group."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְשֶׁלֶמְיָ֥ה וְנָתָ֖ן וַעֲדָיָֽה׃",
+      "text_kjv": "And Shelemiah, and Nathan, and Adaiah,",
+      "rendering": "Shelemiah, Nathan, and Adaiah,",
+      "translator_notes": [
+        "Three more names in the continuing sequence."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "מַכְנַדְבַ֥י שָׁשַׁ֖י שָׁרָֽי׃",
+      "text_kjv": "Machnadebai, Shashai, Sharai,",
+      "rendering": "Machnadebai, Shashai, Sharai,",
+      "translator_notes": [
+        "Machnadebai is an unusual name — possibly Persian in origin or a corrupted Hebrew form."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "עֲזַרְאֵ֥ל וְשֶׁלֶמְיָ֖הוּ שְׁמַרְיָֽה׃",
+      "text_kjv": "Azareel, and Shelemiah, Shemariah,",
+      "rendering": "Azarel, Shelemiah, Shemariah,",
+      "translator_notes": [
+        "Three more names. Shemariah ('the LORD has guarded') appears also in verse 32 — different individuals from different clans."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "שַׁלּ֥וּם אֲמַרְיָ֖ה יוֹסֵֽף׃",
+      "text_kjv": "Shallum, Amariah, and Joseph.",
+      "rendering": "Shallum, Amariah, and Joseph.",
+      "translator_notes": [
+        "The name Joseph (Yosef) is rare in the post-exilic lists, connecting this individual to the patriarchal tradition."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "מִבְּנֵ֖י נְב֑וֹ יְעִיאֵ֤ל מַתִּתְיָה֙ זָבָ֣ד זְבִינָ֔א יַדַּ֥י וְיוֹאֵ֖ל בְּנָיָֽה׃",
+      "text_kjv": "Of the sons of Nebo; Jeiel, Mattithiah, Zabad, Zebina, Jadau, and Joel, Benaiah.",
+      "rendering": "From the descendants of Nebo: Jeiel, Mattithiah, Zabad, Zebina, Jaddai, Joel, and Benaiah.",
+      "translator_notes": [
+        "Seven offenders from the Nebo clan conclude the geographic/clan section of the list. The total number of named offenders is approximately 111 — a significant number from a community of 42,360."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "כׇּל־אֵ֕לֶּה נָשְׂא֖וּ נָשִׁ֣ים נׇכְרִיּ֑וֹת וְיֵ֣שׁ מֵהֶ֣ם נָשִׁ֔ים וַיָּשִׂ֖ימוּ בָּנִֽים׃",
+      "text_kjv": "All these had taken strange wives: and some of them had wives by whom they had children.",
+      "rendering": "All of these had married foreign women. And some of them had wives by whom they had children.",
+      "translator_notes": [
+        "The book of Ezra ends with this devastating understatement. The phrase ve-yesh mehem nashim vayyasimu banim ('and some of them were women, and they had produced children') acknowledges the human reality behind the legal process: these were not abstract cases but families with children. The children are mentioned last, as if the narrator cannot bring himself to say more. The sentence names no names, assigns no blame to the women, and offers no resolution. The book simply stops. There is no triumphant conclusion, no word of divine approval, no prayer of thanksgiving. The silence after this final verse forces the reader to sit with the cost of what has been done — a cost the narrator will not pretend to resolve."
+      ],
+      "reading_level": "8th grade"
+    }
+  ]
+}

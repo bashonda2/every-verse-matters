@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Joel",
+    "chapter": 2,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Joel 2 is the theological center of the book, moving from judgment to mercy to eschatological promise. The chapter opens with the alarm trumpet sounding as the Day of the LORD approaches — a vast army (the locust horde described in military terms) sweeps the land. Then comes the great turning point: 'Rend your hearts, not your garments, and return to the LORD your God' (v. 13). God responds to repentance with restoration, promising to drive away the northern army and restore the years the locusts have eaten. The chapter culminates with the promise of the Spirit poured out on all flesh — young and old, male and female, slave and free — followed by cosmic signs preceding the great Day of the LORD.",
+    "remarkable": "Verse 13 — 'Rend your hearts, not your garments' — is one of the most quoted prophetic lines in Scripture, a call to internal transformation rather than external religious performance. God's self-description in that verse echoes the Exodus 34:6 formula: 'gracious and compassionate, slow to anger, abounding in faithful love.' The Spirit outpouring prophecy (vv. 28-29) is quoted by Peter at Pentecost (Acts 2:17-21) as fulfilled in the early church. The universality of the Spirit — sons, daughters, old men, young men, male servants, female servants — breaks every social barrier. Joel's vision of the Spirit democratizes prophecy: no longer limited to designated prophets but available to all.",
+    "friction": "The Hebrew versification differs from English starting at verse 28: English 2:28-32 = Hebrew 3:1-5. We follow English versification and note the Hebrew numbering. The 'northern army' (v. 20) is debated — does it refer to the locust swarm (which typically comes from the south in Palestine, making 'northern' unusual) or to an eschatological invading army (Babylonian, Assyrian, or apocalyptic)? We render as written while noting the tension. The relationship between the literal locust plague (ch. 1) and the military/apocalyptic imagery of chapter 2 is the central interpretive question of the book.",
+    "connections": "V. 13's divine self-description quotes Exodus 34:6-7. Vv. 28-29 are quoted in Acts 2:17-21. The cosmic signs (vv. 30-31) appear in Jesus's eschatological discourse (Mark 13:24-25, Matthew 24:29) and Revelation 6:12. 'Everyone who calls on the name of the LORD will be saved' (v. 32) is quoted by Paul in Romans 10:13. The 'teacher of righteousness' (v. 23) has connections to the Qumran community's Teacher of Righteousness."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "תִּקְע֤וּ שׁוֹפָר֙ בְּצִיּ֔וֹן וְהָרִ֖יעוּ בְּהַ֣ר קָדְשִׁ֑י יִרְגְּז֕וּ כֹּ֖ל יֹשְׁבֵ֥י הָאָֽרֶץ כִּי־בָ֥א יוֹם־יְהוָ֖ה כִּ֥י קָרֽוֹב׃",
+      "text_kjv": "Blow ye the trumpet in Zion, and sound an alarm in my holy mountain: let all the inhabitants of the land tremble: for the day of the LORD cometh, for it is nigh at hand;",
+      "rendering": "Blow the ram's horn in Zion! Sound the alarm on my holy mountain! Let all the inhabitants of the land tremble, for the day of the LORD is coming — it is near!",
+      "translator_notes": ["The shofar ('ram's horn') blown in Zion is a military alarm, not a liturgical call. The 'holy mountain' (har qodshi) is Mount Zion/the Temple Mount. The imperative to tremble (yirgezu) indicates the day of the LORD is not a day of comfort but of dread — even for God's own people. The double assertion 'is coming...is near' (va...qarov) creates urgency: the day is not distant but imminent."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "י֤וֹם חֹ֙שֶׁךְ֙ וַאֲפֵלָ֔ה י֥וֹם עָנָ֖ן וַעֲרָפֶ֑ל כְּשַׁ֗חַר פָּרֻשׂ֙ עַל־הֶ֣הָרִ֔ים עַ֥ם רַ֛ב וְעָצ֖וּם כָּמֹ֗הוּ לֹ֤א נִהְיָה֙ מִן־הָ֣עוֹלָ֔ם וְאַחֲרָ֕יו לֹ֥א יוֹסֵ֖ף עַד־שְׁנֵ֥י דּ֖וֹר וָדֽוֹר׃",
+      "text_kjv": "A day of darkness and of gloominess, a day of clouds and of thick darkness, as the morning spread upon the mountains: a great people and a strong; there hath not been ever the like, neither shall be any more after it, even to the years of many generations.",
+      "rendering": "A day of darkness and gloom, a day of clouds and dense fog — like dawn spreading over the mountains, a vast and powerful army! Nothing like it has ever been, and nothing like it will come again for ages to come.",
+      "translator_notes": ["The four terms for darkness — choshekh ('darkness'), aphelah ('deep darkness'), anan ('clouds'), and araphel ('thick fog') — create an overwhelming atmosphere of cosmic disruption. The simile 'like dawn spreading over the mountains' (keshachar parus al heharim) is paradoxical: dawn normally brings light, but this dawn is a dark army covering the hills like spreading shadow. The uniqueness claim echoes 1:2 — this is unprecedented and unrepeatable."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "לְפָנָיו֙ אָ֣כְלָה אֵ֔שׁ וְאַחֲרָ֖יו תְּלַהֵ֣ט לֶהָבָ֑ה כְּגַן־עֵ֨דֶן הָאָ֜רֶץ לְפָנָ֗יו וְאַחֲרָיו֙ מִדְבַּ֣ר שְׁמָמָ֔ה וְגַם־פְּלֵיטָ֖ה לֹא־הָ֥יְתָה לּֽוֹ׃",
+      "text_kjv": "A fire devoureth before them; and behind them a flame burneth: the land is as the garden of Eden before them, and behind them a desolate wilderness; yea, and nothing shall escape them.",
+      "rendering": "Before it, fire devours; behind it, flames scorch. Before it, the land is like the Garden of Eden; behind it, a desolate wilderness. Nothing escapes it.",
+      "translator_notes": ["The contrast is devastating: Eden before the army, wasteland after it. The Garden of Eden (gan Eden) reference is the only time Joel uses this image, and it depicts the pre-plague land as paradisiacal — rich, fruitful, beautiful. The army transforms paradise into desert in a single pass. The phrase gam peleitah lo haytah lo ('nothing escapes it') means total devastation without remainder — no survivors, no remnant."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "כְּמַרְאֵ֤ה סוּסִים֙ מַרְאֵ֔הוּ וּכְפָרָשִׁ֖ים כֵּ֥ן יְרוּצֽוּן׃",
+      "text_kjv": "The appearance of them is as the appearance of horses; and as horsemen, so shall they run.",
+      "rendering": "They look like warhorses; they charge like cavalry.",
+      "translator_notes": ["The military metaphor now describes the locusts explicitly as an army. The comparison to horses (susim) is apt — the head of a locust, seen up close, resembles a horse's head (in several languages, locusts and horses share etymological connections). The verb yerutsun ('they run') describes the rapid, disciplined advance of cavalry."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "כְּק֣וֹל מַרְכָּב֗וֹת עַל־רָאשֵׁ֤י הֶהָרִים֙ יְרַקֵּד֔וּן כְּקוֹל֙ לַ֣הַב אֵ֔שׁ אֹכְלָ֖ה קָ֑שׁ כְּעַ֣ם עָצ֔וּם עֱר֖וּךְ מִלְחָמָֽה׃",
+      "text_kjv": "Like the noise of chariots on the tops of mountains shall they leap, like the noise of a flame of fire that devoureth the stubble, as a strong people set in battle array.",
+      "rendering": "With a sound like chariots they leap over the mountaintops, like the crackling of fire consuming stubble, like a mighty army drawn up for battle.",
+      "translator_notes": ["Three auditory similes describe the sound of the locust swarm: chariots rattling over rough terrain, fire crackling through dry straw, and the organized noise of an army in formation. Anyone who has witnessed a locust swarm confirms the accuracy — the sound of millions of wings and mandibles creates an overwhelming roar. The phrase erukh milchamah ('drawn up for battle') describes military formation — this is not a chaotic mob but a disciplined force."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "מִפָּנָיו֙ יָחִ֣ילוּ עַמִּ֔ים כָּל־פָּנִ֖ים קִבְּצ֥וּ פָארֽוּר׃",
+      "text_kjv": "Before their face the people shall be much pained: all faces shall gather blackness.",
+      "rendering": "Before them, peoples writhe in anguish; every face turns pale.",
+      "translator_notes": ["The verb yachilu ('writhe, tremble') is the word for labor pains — the approaching army causes contortions of fear. The phrase kibbetsu pa'rur ('faces gather paleness/blackness') describes the draining of color from faces in terror. The Hebrew pa'rur may mean 'glow' (flushing) or 'pallor' (draining) — we render as 'turns pale' since fear typically blanches the face."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "כְּגִבּוֹרִים֙ יְרֻצ֔וּן כְּאַנְשֵׁ֥י מִלְחָמָ֖ה יַעֲל֣וּ חוֹמָ֑ה וְאִ֤ישׁ בִּדְרָכָיו֙ יֵלֵכ֔וּן וְלֹ֥א יְעַבְּט֖וּן אֹרְחוֹתָֽם׃",
+      "text_kjv": "They shall run like mighty men; they shall climb the wall like men of war; and they shall march every one on his ways, and they shall not break their ranks:",
+      "rendering": "They charge like warriors; they scale walls like soldiers. Each one marches in formation — they do not break ranks.",
+      "translator_notes": ["The military discipline of the locust swarm is its most terrifying feature — each individual moves in coordination with the whole. The verb ya'aletun chomah ('they scale walls') describes siege warfare — no fortification stops them. The phrase lo ye'abbetun orchotam ('they do not break their paths/ranks') depicts perfect tactical discipline. Unlike human armies that break formation under pressure, this force maintains absolute order."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְאִ֤ישׁ אָחִיו֙ לֹ֣א יִדְחָק֔וּן אִ֥ישׁ בִּמְסִלָּת֖וֹ יֵלֵכ֑וּן וּבְעַ֥ד הַשֶּׁ֛לַח יִפֹּ֖לוּ לֹ֥א יִבְצָֽעוּ׃",
+      "text_kjv": "Neither shall one thrust another; they shall walk every one in his path: and when they fall upon the sword, they shall not be wounded.",
+      "rendering": "They do not jostle each other; each advances on his own path. They plunge through defenses without breaking stride.",
+      "translator_notes": ["The locust-army maintains order without crowding — each one has its assigned lane. The final clause — falling through shelach ('weapons/defenses') without being stopped (lo yivtsa'u) — means conventional weapons are useless against them. Swords cannot stop a locust swarm; arrows are futile against millions. The invulnerability completes the portrait of an unstoppable force."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "בָּעִ֣יר יָשֹׁ֗קּוּ בַּחוֹמָה֙ יְרֻצ֔וּן בַּבָּתִּ֖ים יַעֲל֑וּ בְּעַ֧ד הַחַלּוֹנ֛וֹת יָבֹ֖אוּ כַּגַּנָּֽב׃",
+      "text_kjv": "They shall run to and fro in the city; they shall run upon the wall, they shall climb up upon the houses; they shall enter in at the windows like a thief.",
+      "rendering": "They swarm over the city; they race along the walls. They climb into houses; they enter through windows like thieves.",
+      "translator_notes": ["The invasion penetrates every space — city streets, walls, houses, windows. The comparison to thieves (kaggannav) entering through windows captures the violation of personal space — no home is safe. The relentless advance from open field (vv. 3-5) to city (v. 9) to individual dwelling tracks the locust swarm's actual behavior — they fill every space, leaving no refuge."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "לְפָנָיו֙ רָ֣גְזָה אֶ֔רֶץ רָעֲשׁ֖וּ שָׁמָ֑יִם שֶׁ֤מֶשׁ וְיָרֵ֙חַ֙ קָדָ֔רוּ וְכוֹכָבִ֖ים אָסְפ֥וּ נָגְהָֽם׃",
+      "text_kjv": "The earth shall quake before them; the heavens shall tremble: the sun and the moon shall be dark, and the stars shall withdraw their shining:",
+      "rendering": "Before them the earth quakes and the heavens tremble. The sun and moon grow dark, and the stars withdraw their light.",
+      "translator_notes": ["The cosmic disruption moves the description from locust plague to eschatological Day of the LORD. The darkening of sun, moon, and stars is a standard prophetic image for divine judgment (cf. Isaiah 13:10, Ezekiel 32:7, Amos 8:9). Literally, a massive locust swarm can indeed darken the sky — but Joel's language exceeds the literal to reach the cosmic. The trembling of heaven and earth (ragezah erets, ra'ashu shamayim) collapses the distinction between natural disaster and divine intervention."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַֽיהוָ֗ה נָתַ֤ן קוֹלוֹ֙ לִפְנֵ֣י חֵיל֔וֹ כִּ֥י רַ֛ב מְאֹ֖ד מַחֲנֵ֑הוּ כִּ֤י עָצוּם֙ עֹשֵׂ֣ה דְבָר֔וֹ כִּֽי־גָד֥וֹל יוֹם־יְהוָ֖ה וְנוֹרָ֣א מְאֹ֑ד וּמִ֖י יְכִילֶֽנּוּ׃",
+      "text_kjv": "And the LORD shall utter his voice before his army: for his camp is very great: for he is strong that executeth his word: for the day of the LORD is great and very terrible; and who can abide it?",
+      "rendering": "The LORD thunders at the head of his army — his forces are beyond counting, and mighty is the one who carries out his command. For the day of the LORD is great and very terrible — who can endure it?",
+      "translator_notes": ["The locust army is identified as God's own army (cheilo, 'his army') — the LORD himself commands the swarm. God 'gives his voice' (natan qolo) before the army like a commander issuing battle orders. The question 'who can endure it?' (umi yekhi'lennu) is rhetorical — no one can withstand the Day of the LORD by their own strength. This question sets up the answer that follows: only repentance can avert the coming devastation."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְגַם־עַתָּ֗ה נְאֻם־יְהוָ֔ה שֻׁ֥בוּ עָדַ֖י בְּכָל־לְבַבְכֶ֑ם וּבְצ֥וֹם וּבִבְכִ֖י וּבְמִסְפֵּֽד׃",
+      "text_kjv": "Therefore also now, saith the LORD, turn ye even to me with all your heart, and with fasting, and with weeping, and with mourning:",
+      "rendering": "\"Yet even now,\" declares the LORD, \"return to me with all your heart — with fasting, with weeping, and with mourning.\"",
+      "translator_notes": ["The phrase vegam attah ('yet even now') is the pivot of the entire book — despite the devastation described in 1:1-2:11, there is still time. The window has not closed. The verb shuvu ('return!') echoes the prophetic call throughout the tradition. The three accompaniments — fasting (tsom), weeping (bekhi), and mourning (misped) — describe the full physical expression of repentance. But the key phrase is bekhol levavkhem ('with all your heart') — external acts without internal transformation are insufficient (as v. 13 will make explicit)."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְקִרְע֤וּ לְבַבְכֶם֙ וְאַל־בִּגְדֵיכֶ֔ם וְשׁ֖וּבוּ אֶל־יְהוָ֣ה אֱלֹהֵיכֶ֑ם כִּי־חַנּ֤וּן וְרַחוּם֙ ה֔וּא אֶ֤רֶךְ אַפַּ֙יִם֙ וְרַב־חֶ֔סֶד וְנִחָ֖ם עַל־הָרָעָֽה׃",
+      "text_kjv": "And rend your heart, and not your garments, and turn unto the LORD your God: for he is gracious and merciful, slow to anger, and of great kindness, and repenteth him of the evil.",
+      "rendering": "Rend your hearts, not your garments, and return to the LORD your God, for he is gracious and compassionate, slow to anger and abounding in faithful love, and he relents concerning disaster.",
+      "expanded_rendering": "Qire'u levavkhem ve'al bigdeikhem ('Rend your hearts, not your garments') is Joel's most distinctive contribution to prophetic theology. Tearing one's garments was the standard expression of grief and repentance — but it could be performed mechanically, without internal change. Joel demands the opposite: tear open your heart, not your clothes. The heart (lev) in Hebrew is the seat of will, decision, and commitment — to rend it is to break open the hardened interior and expose it to God. The divine self-description that follows — channun verachum, erekh appayim verav chesed — quotes the foundational revelation of God's character from Exodus 34:6, the moment when God passed before Moses and proclaimed his name. This is not a new revelation but the oldest one: God's essential nature is grace, compassion, patience, and faithful love. The final phrase — venichcam al hara'ah ('he relents concerning disaster') — means that God's threatened judgments are conditional: repentance can alter the outcome.",
+      "translator_notes": ["The divine self-description formula originates in Exodus 34:6-7 and is quoted or echoed in Numbers 14:18, Nehemiah 9:17, Psalm 86:15, 103:8, 145:8, Jonah 4:2, and Nahum 1:3. Joel omits the final element of the Exodus 34 formula ('who does not leave the guilty unpunished') — whether this omission emphasizes mercy over judgment or is simply a rhetorical choice is debated. The verb nicham ('relent, change mind, be comforted') applied to God is theologically significant — it means God's response to human repentance is genuine change, not predetermined outcome."],
+      "key_terms": [
+        {
+          "hebrew": "חֶסֶד",
+          "transliteration": "chesed",
+          "rendered_as": "faithful love",
+          "semantic_range": "faithful love, steadfast love, covenant loyalty, lovingkindness, mercy",
+          "note": "Here chesed appears in the foundational divine attribute formula — 'abounding in faithful love' (rav chesed). This is not a single act of kindness but an overflowing abundance of covenantal commitment that defines who God is."
+        },
+        {
+          "hebrew": "חַנּוּן וְרַחוּם",
+          "transliteration": "channun verachum",
+          "rendered_as": "gracious and compassionate",
+          "semantic_range": "gracious (freely giving), compassionate (womb-love, maternal tenderness)",
+          "note": "The paired attributes from Exodus 34:6. Channun describes free, unmerited favor; rachum describes deep, visceral compassion rooted in the image of the womb."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "מִ֥י יוֹדֵ֖עַ יָשׁ֣וּב וְנִחָ֑ם וְהִשְׁאִ֤יר אַחֲרָיו֙ בְּרָכָ֔ה מִנְחָ֣ה וָנֶ֔סֶךְ לַיהוָ֖ה אֱלֹהֵיכֶֽם׃",
+      "text_kjv": "Who knoweth if he will return and repent, and leave a blessing behind him; even a meat offering and a drink offering unto the LORD your God?",
+      "rendering": "Who knows? He may turn and relent, and leave a blessing behind him — enough for a grain offering and a drink offering to the LORD your God.",
+      "translator_notes": ["The phrase mi yodea ('who knows?') expresses humble uncertainty — there is no guarantee that repentance will avert judgment, only the hope based on God's character (v. 13). The 'blessing left behind' (berakhah) would be enough grain and wine to resume the daily temple offerings (minchah vanesekh) that ceased in 1:9. The modest hope is not for abundance but for enough — enough to worship again. This humility is the appropriate posture before a sovereign God."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "תִּקְע֥וּ שׁוֹפָ֖ר בְּצִיּ֑וֹן קַדְּשׁוּ־צ֖וֹם קִרְא֥וּ עֲצָרָֽה׃",
+      "text_kjv": "Blow the trumpet in Zion, sanctify a fast, call a solemn assembly:",
+      "rendering": "Blow the ram's horn in Zion! Consecrate a fast; call a sacred assembly.",
+      "translator_notes": ["The shofar that sounded the alarm in verse 1 now sounds the call to repentance. The same instrument announces both danger and the response to danger. The instructions repeat 1:14 but with heightened urgency — the threat has been fully described (2:1-11), the theology has been articulated (2:12-14), and now the practical response is commanded."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "אִסְפוּ־עָ֞ם קַדְּשׁ֤וּ קָהָל֙ קִבְצ֣וּ זְקֵנִ֔ים אִסְפוּ֙ עֽוֹלָלִ֔ים וְיֹנְקֵ֖י שָׁדָ֑יִם יֵצֵ֤א חָתָן֙ מֵֽחֶדְר֔וֹ וְכַלָּ֖ה מֵחֻפָּתָֽהּ׃",
+      "text_kjv": "Gather the people, sanctify the congregation, assemble the elders, gather the children, and those that suck the breasts: let the bridegroom go forth of his chamber, and the bride out of her closet.",
+      "rendering": "Gather the people; consecrate the assembly. Bring together the elders; gather the children, even nursing infants. Let the bridegroom leave his room and the bride her chamber.",
+      "translator_notes": ["The universality of the assembly is emphasized — no one is exempt. The elders (zeqenim), children (olalim), and nursing infants (yoneqei shadayim) represent every age. The bridegroom and bride leaving their wedding chamber (cheder / chuppah) is the most striking inclusion — even newlyweds, who were exempted from military service for a year (Deuteronomy 24:5), must join the national repentance. Nothing takes priority over returning to God."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "בֵּ֤ין הָאוּלָם֙ וְלַמִּזְבֵּ֔חַ יִבְכּוּ֙ הַכֹּ֣הֲנִ֔ים מְשָׁרְתֵ֖י יְהוָ֑ה וְיֹֽאמְרוּ֙ ח֤וּסָה יְהוָה֙ עַל־עַמֶּ֔ךָ וְאַל־תִּתֵּ֧ן נַחֲלָתְךָ֛ לְחֶרְפָּ֖ה לִמְשָׁל־בָּ֣ם גּוֹיִ֑ם לָ֚מָּה יֹאמְר֣וּ בָעַמִּ֔ים אַיֵּ֖ה אֱלֹהֵיהֶֽם׃",
+      "text_kjv": "Let the priests, the ministers of the LORD, weep between the porch and the altar, and let them say, Spare thy people, O LORD, and give not thine heritage to reproach, that the heathen should rule over them: wherefore should they say among the people, Where is their God?",
+      "rendering": "Let the priests, the ministers of the LORD, weep between the portico and the altar. Let them say, 'Have pity on your people, LORD! Do not make your inheritance an object of scorn, a byword among the nations. Why should they say among the peoples, \"Where is their God?\"'",
+      "translator_notes": ["The priests stand between the ulam ('portico/porch') of the temple and the altar — the space of intercession between God's house and the place of sacrifice. Their prayer has two dimensions: concern for the people ('have pity on your people') and concern for God's reputation ('why should they say, where is their God?'). The argument that God's honor is at stake among the nations is a classic prophetic appeal (cf. Exodus 32:12, Numbers 14:15-16, Ezekiel 36:20-23) — if Israel is destroyed, the nations will conclude that YHWH was powerless to protect his people."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וַיְקַנֵּ֥א יְהוָ֖ה לְאַרְצ֑וֹ וַיַּחְמֹ֖ל עַל־עַמּֽוֹ׃",
+      "text_kjv": "Then will the LORD be jealous for his land, and pity his people.",
+      "rendering": "Then the LORD became zealous for his land and had compassion on his people.",
+      "translator_notes": ["The verb vayyeqanne ('became zealous/jealous') describes God's protective passion for what belongs to him. The land is 'his land' (artso), the people are 'his people' (ammo) — God acts to defend what is his. The verb vayyachmol ('had compassion, spared') marks the turning point: judgment yields to mercy. From this verse forward, the chapter moves into restoration."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיַּ֨עַן יְהוָ֜ה וַיֹּ֣אמֶר לְעַמּ֗וֹ הִנְנִ֨י שֹׁלֵ֤חַ לָכֶם֙ אֶת־הַדָּגָ֤ן וְהַתִּירוֹשׁ֙ וְהַיִּצְהָ֔ר וּשְׂבַעְתֶּ֖ם אֹת֑וֹ וְלֹֽא־אֶתֵּ֨ן אֶתְכֶ֥ם ע֛וֹד חֶרְפָּ֖ה בַּגּוֹיִֽם׃",
+      "text_kjv": "Yea, the LORD will answer and say unto his people, Behold, I will send you corn, and wine, and oil, and ye shall be satisfied therewith: and I will no more make you a reproach among the heathen:",
+      "rendering": "The LORD answered and said to his people, \"I am about to send you grain, new wine, and oil, and you will be satisfied with them. I will never again make you an object of scorn among the nations.",
+      "translator_notes": ["God's answer (vayya'an) is a direct response to the priestly prayer of verse 17. The triad of grain, new wine, and oil (dagan, tirosh, yitshar) restores exactly what was lost in 1:10. The promise 'never again' (lo...od) an object of scorn answers the prayer's concern about national disgrace. The restoration begins with the most basic level — food — before moving to cosmic promises."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְאֶת־הַצְּפוֹנִ֞י אַרְחִ֣יק מֵעֲלֵיכֶ֗ם וְהִדַּחְתִּיו֮ אֶל־אֶ֣רֶץ צִיָּ֣ה וּשְׁמָמָה֒ אֶת־פָּנָיו֙ אֶל־הַיָּ֣ם הַקַּדְמֹנִ֔י וְסֹפ֖וֹ אֶל־הַיָּ֣ם הָאַחֲר֑וֹן וְעָלָ֣ה בָאְשׁ֗וֹ וְתַ֙עַל֙ צַחֲנָת֔וֹ כִּ֥י הִגְדִּ֖יל לַעֲשֽׂוֹת׃",
+      "text_kjv": "But I will remove far off from you the northern army, and will drive him into a land barren and desolate, with his face toward the east sea, and his hinder part toward the utmost sea, and his stink shall come up, and his ill savour shall come up, because he hath done great things.",
+      "rendering": "I will drive the northern army far from you and push it into a parched and desolate land — its front ranks into the eastern sea and its rear guard into the western sea. Its stench will rise; its foul smell will go up, for it has done terrible things.\"",
+      "translator_notes": ["The 'northern army' (hatsephoni) is unusual for a locust swarm, which typically approaches Palestine from the south or east. This has led some scholars to identify the enemy as a human army (Babylon/Assyria came from the north). We render the text as written. The 'eastern sea' is the Dead Sea; the 'western sea' (hayam ha'acharon, literally 'the hinder sea') is the Mediterranean. The army is driven into the ocean from both ends. The rising stench of millions of dead locusts is historically attested — decomposing locust swarms create an unbearable odor."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "אַל־תִּֽירְאִ֖י אֲדָמָ֑ה גִּ֣ילִי וּשְׂמָ֔חִי כִּֽי־הִגְדִּ֥יל יְהוָ֖ה לַעֲשֽׂוֹת׃",
+      "text_kjv": "Fear not, O land; be glad and rejoice: for the LORD will do great things.",
+      "rendering": "Do not be afraid, O land! Rejoice and be glad, for the LORD has done great things.",
+      "translator_notes": ["The phrase higdil la'asot ('has done great things') deliberately echoes its use in verse 20, where it described the army's terrible deeds. The same phrase now describes God's great acts of restoration. The land (adamah) is addressed directly and told to stop being afraid (al tire'i, feminine) — the personified earth that mourned in 1:10 is now commanded to celebrate."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "אַל־תִּֽירְא֞וּ בַּהֲמ֣וֹת שָׂדַ֗י כִּ֤י דָשְׁאוּ֙ נְא֣וֹת מִדְבָּ֔ר כִּי־עֵץ֙ נָשָׂ֣א פִרְי֔וֹ תְּאֵנָ֥ה וָגֶ֖פֶן נָתְנ֥וּ חֵילָֽם׃",
+      "text_kjv": "Be not afraid, ye beasts of the field: for the pastures of the wilderness do spring, for the tree beareth her fruit, the fig tree and the vine do yield their strength.",
+      "rendering": "Do not be afraid, wild animals, for the wilderness pastures are turning green. The trees bear their fruit; the fig tree and the vine yield their abundance.",
+      "translator_notes": ["The animals that groaned in 1:18 and cried out in 1:20 are now comforted. The wilderness pastures (ne'ot midbar) consumed by fire (1:19-20) are green again. The fig tree (te'enah) and vine (gephen) destroyed in 1:7 and 1:12 now yield their cheilam ('strength, full yield, abundance'). The restoration reverses every specific loss catalogued in chapter 1."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וּבְנֵ֣י צִיּ֗וֹן גִּ֤ילוּ וְשִׂמְחוּ֙ בַּיהוָ֣ה אֱלֹֽהֵיכֶ֔ם כִּֽי־נָתַ֥ן לָכֶ֛ם אֶת־הַמּוֹרֶ֖ה לִצְדָקָ֑ה וַיּ֣וֹרֶד לָכֶ֗ם גֶּ֛שֶׁם מוֹרֶ֥ה וּמַלְק֖וֹשׁ בָּרִאשֽׁוֹן׃",
+      "text_kjv": "Be glad then, ye children of Zion, and rejoice in the LORD your God: for he hath given you the former rain moderately, and he will cause to come down for you the rain, the former rain, and the latter rain in the first month.",
+      "rendering": "Children of Zion, rejoice and be glad in the LORD your God! For he has given you the autumn rain in righteousness — he has poured down rain for you, both autumn rain and spring rain, as before.",
+      "translator_notes": ["The phrase hammmoreh litsedaqah is ambiguous: moreh can mean 'teacher' or 'autumn rain' (the early rain that begins the agricultural year). 'Teacher of righteousness' (moreh tsedaqah) became an important title in the Qumran community. We render as 'autumn rain in righteousness' based on the agricultural context, but note the double meaning. The two rains — moreh ('autumn/early rain,' October-November) and malqosh ('spring/latter rain,' March-April) — are the critical rainfalls of the Palestinian agricultural calendar. Their return means the agricultural cycle can resume. The phrase barishon ('as before' or 'in the first month') indicates restoration to the original pattern."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וּמָלְא֥וּ הַגֳּרָנ֖וֹת בָּ֑ר וְהֵשִׁ֥יקוּ הַיְקָבִ֖ים תִּיר֥וֹשׁ וְיִצְהָֽר׃",
+      "text_kjv": "And the floors shall be full of wheat, and the fats shall overflow with wine and oil.",
+      "rendering": "The threshing floors will be full of grain, and the vats will overflow with new wine and oil.",
+      "translator_notes": ["The threshing floors (goranot) that were empty (1:10-11) are now full. The vats (yeqavim) overflow (heshiqu, 'overflow, be saturated') with new wine (tirosh) and oil (yitshar). The restoration is not merely adequate but abundant — the vats overflow. This reverses the futility curses of Deuteronomy 28 and restores the blessing promises of Deuteronomy 28:1-14."],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְשִׁלַּמְתִּ֤י לָכֶם֙ אֶת־הַשָּׁנִ֔ים אֲשֶׁר֙ אָכַ֣ל הָאַרְבֶּ֔ה הַיֶּ֖לֶק וְהֶחָסִ֣יל וְהַגָּזָ֑ם חֵילִי֙ הַגָּד֔וֹל אֲשֶׁ֥ר שִׁלַּ֖חְתִּי בָּכֶֽם׃",
+      "text_kjv": "And I will restore to you the years that the locust hath eaten, the cankerworm, and the caterpiller, and the palmerworm, my great army which I sent among you.",
+      "rendering": "I will repay you for the years that the swarming locust ate — the hopping locust, the destroying locust, and the cutting locust — my great army that I sent against you.",
+      "translator_notes": ["The four locust names from 1:4 reappear, now identified as 'my great army' (cheili haggadol) — the same forces that devastated the land are acknowledged as divinely commissioned. The verb vishillamti ('I will repay, restore, make whole') is the language of restitution — God compensates for the loss he himself authorized. The phrase 'the years' (hashanim) indicates the loss spanned multiple seasons. God does not merely stop the damage but makes up for accumulated years of loss."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וַאֲכַלְתֶּ֤ם אָכוֹל֙ וְשָׂב֔וֹעַ וְהִלַּלְתֶּ֗ם אֶת־שֵׁ֤ם יְהוָה֙ אֱלֹ֣הֵיכֶ֔ם אֲשֶׁר־עָשָׂ֥ה עִמָּכֶ֖ם לְהַפְלִ֑יא וְלֹא־יֵבֹ֥שׁוּ עַמִּ֖י לְעוֹלָֽם׃",
+      "text_kjv": "And ye shall eat in plenty, and be satisfied, and praise the name of the LORD your God, that hath dealt wondrously with you: and my people shall never be ashamed.",
+      "rendering": "You will eat abundantly and be satisfied, and you will praise the name of the LORD your God, who has dealt wondrously with you. My people will never be put to shame.",
+      "translator_notes": ["The emphatic infinitive akhaltem akhol ('you will surely eat, eat abundantly') emphasizes the abundance of restoration. Eating and satisfaction (savo'a) fulfill the covenant blessing promise. The verb lehaphli ('to deal wondrously, to do extraordinary things') describes God's restoration as miraculous, not merely natural recovery. The closing promise 'my people will never be put to shame' (lo yevoshu ammi le'olam) directly answers the prayer of verse 17 — God's people will not be disgraced among the nations."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וִידַעְתֶּ֗ם כִּ֣י בְקֶ֤רֶב יִשְׂרָאֵל֙ אָ֔נִי וַאֲנִ֛י יְהוָ֥ה אֱלֹהֵיכֶ֖ם וְאֵ֣ין ע֑וֹד וְלֹא־יֵבֹ֥שׁוּ עַמִּ֖י לְעוֹלָֽם׃",
+      "text_kjv": "And ye shall know that I am in the midst of Israel, and that I am the LORD your God, and none else: and my people shall never be ashamed.",
+      "rendering": "Then you will know that I am in the midst of Israel, and that I am the LORD your God — there is no other. My people will never be put to shame.",
+      "translator_notes": ["The verb vida'tem ('you will know') uses the key prophetic knowledge term — through the experience of devastation and restoration, Israel will achieve the da'at ('knowledge') of God that they lacked. The phrase beqerev Yisra'el ani ('I am in the midst of Israel') echoes the covenant presence theology — God dwells among his people. The exclusive claim 'there is no other' (ve'ein od) echoes Deuteronomy 4:35 and Isaiah 45:5-6. The repetition of 'my people will never be put to shame' from verse 26 creates an emphatic literary bracket."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְהָיָ֣ה אַחֲרֵי־כֵ֗ן אֶשְׁפּ֤וֹךְ אֶת־רוּחִי֙ עַל־כָּל־בָּשָׂ֔ר וְנִבְּא֖וּ בְּנֵיכֶ֣ם וּבְנֹֽתֵיכֶ֑ם זִקְנֵיכֶם֙ חֲלֹמ֣וֹת יַחֲלֹמ֔וּן בַּח֣וּרֵיכֶ֔ם חֶזְיֹנ֖וֹת יִרְאֽוּ׃",
+      "text_kjv": "And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions:",
+      "rendering": "After this I will pour out my Spirit on all flesh. Your sons and your daughters will prophesy; your old men will dream dreams; your young men will see visions.",
+      "expanded_rendering": "Eshpokh et ruchi al kol basar ('I will pour out my Spirit on all flesh') is one of the most revolutionary promises in the Hebrew Bible. In the pre-Joel tradition, the Spirit (ruach) fell on specific individuals for specific tasks — judges, kings, prophets. Joel envisions something unprecedented: the Spirit poured on kol basar ('all flesh') without distinction. The four categories — sons/daughters, old/young — demolish the barriers of gender and age. Prophecy, dreams, and visions are no longer the exclusive domain of a prophetic elite but the common experience of the entire covenant community. Peter identifies the fulfillment of this prophecy at Pentecost (Acts 2:17-21), when the Spirit fell on all who were gathered.",
+      "translator_notes": ["This verse is 3:1 in the Hebrew text. The phrase acharei khen ('after this') is a general temporal marker — 'after' the agricultural restoration and the defeat of the locust army. The verb eshpokh ('I will pour out') uses the image of liquid poured abundantly — the Spirit is not rationed but lavished. Peter's Pentecost sermon (Acts 2:17-21) quotes this passage with one modification: he changes 'after this' to 'in the last days,' interpreting Pentecost as the inauguration of the eschatological age Joel envisions."],
+      "key_terms": [
+        {
+          "hebrew": "רוּחַ",
+          "transliteration": "ruach",
+          "rendered_as": "Spirit",
+          "semantic_range": "spirit, wind, breath, Spirit of God",
+          "note": "Here ruach is God's own Spirit (ruchi, 'my Spirit'), the divine presence and power that enables prophecy, dreams, and visions. The 'pouring out' image suggests abundance without measure."
+        }
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וְגַ֥ם עַל־הָֽעֲבָדִ֖ים וְעַל־הַשְּׁפָח֑וֹת בַּיָּמִ֣ים הָהֵ֔מָּה אֶשְׁפּ֖וֹךְ אֶת־רוּחִֽי׃",
+      "text_kjv": "And also upon the servants and upon the handmaids in those days will I pour out my spirit.",
+      "rendering": "Even on the male and female servants I will pour out my Spirit in those days.",
+      "translator_notes": ["This verse is 3:2 in the Hebrew text. The extension of the Spirit to avadim ('male servants/slaves') and shephachot ('female servants/maidservants') demolishes the final social barrier. In the ancient world, slaves had no religious standing; they were property. Joel's vision includes them as recipients of divine revelation. The emphatic vegam ('and also, even') stresses how radical this inclusion is. Paul echoes this leveling in Galatians 3:28: 'there is neither slave nor free.'"],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וְנָתַתִּ֥י מוֹפְתִ֖ים בַּשָּׁמַ֣יִם וּבָאָ֑רֶץ דָּ֣ם וָאֵ֔שׁ וְתִֽימֲר֖וֹת עָשָֽׁן׃",
+      "text_kjv": "And I will shew wonders in the heavens and in the earth, blood, and fire, and pillars of smoke.",
+      "rendering": "I will display wonders in the heavens and on the earth — blood, fire, and columns of smoke.",
+      "translator_notes": ["This verse is 3:3 in the Hebrew text. The 'wonders' (mophetim) are the same word used for the signs and wonders of the Exodus (Exodus 7:3, Deuteronomy 4:34). Blood, fire, and smoke columns describe either volcanic/cosmic phenomena or the aftermath of battle — the imagery is apocalyptic. Jesus references these signs in his eschatological discourse (Mark 13:24-25). The timrot ashan ('columns of smoke') may evoke the pillar of cloud and fire from the Exodus (Exodus 13:21-22), now deployed in judgment rather than guidance."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "הַשֶּׁ֗מֶשׁ יֵהָפֵ֤ךְ לְחֹ֙שֶׁךְ֙ וְהַיָּרֵ֣חַ לְדָ֔ם לִפְנֵ֗י בּ֚וֹא י֣וֹם יְהוָ֔ה הַגָּד֖וֹל וְהַנּוֹרָֽא׃",
+      "text_kjv": "The sun shall be turned into darkness, and the moon into blood, before the great and the terrible day of the LORD come.",
+      "rendering": "The sun will be turned to darkness and the moon to blood, before the coming of the great and terrible day of the LORD.",
+      "translator_notes": ["This verse is 3:4 in the Hebrew text. The cosmic signs — darkened sun, blood-red moon — signal the approaching Day of the LORD. These images appear in Isaiah 13:10, Ezekiel 32:7, and are quoted by Peter at Pentecost (Acts 2:20), by Jesus in Mark 13:24, and in Revelation 6:12. The 'blood moon' phenomenon (lunar eclipse creating a red appearance) may be the natural basis for the image, but Joel's usage transcends natural explanation — the entire cosmic order convulses before the Day arrives."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְהָיָ֗ה כֹּ֧ל אֲשֶׁר־יִקְרָ֛א בְּשֵׁ֥ם יְהוָ֖ה יִמָּלֵ֑ט כִּ֠י בְּהַר־צִיּ֨וֹן וּבִירוּשָׁלַ֜͏ִם תִּהְיֶ֣ה פְלֵיטָ֗ה כַּאֲשֶׁר֙ אָמַ֣ר יְהוָ֔ה וּבַ֨שְּׂרִידִ֔ים אֲשֶׁ֥ר יְהוָ֖ה קֹרֵֽא׃",
+      "text_kjv": "And it shall come to pass, that whosoever shall call on the name of the LORD shall be delivered: for in mount Zion and in Jerusalem shall be deliverance, as the LORD hath said, and in the remnant whom the LORD shall call.",
+      "rendering": "And everyone who calls on the name of the LORD will be saved, for on Mount Zion and in Jerusalem there will be deliverance, as the LORD has said — among the survivors whom the LORD calls.",
+      "expanded_rendering": "Kol asher yiqra beshem YHWH yimmalet ('everyone who calls on the name of the LORD will be saved') is a universal promise embedded in a particular location (Zion/Jerusalem). The verb yimmalet ('will be saved, will escape') means survival through the Day of the LORD — not everyone will perish, but those who call on God's name will be delivered. Paul quotes this verse in Romans 10:13 as the foundation for universal salvation through faith: 'Everyone who calls on the name of the Lord will be saved.' The final phrase — 'among the survivors whom the LORD calls' (uvasseridim asher YHWH qore) — adds a dimension of divine initiative: salvation is available to all who call, but it is God who first calls the survivors. There is a mutual calling: the people call on God, and God calls the remnant.",
+      "translator_notes": ["This verse is 3:5 in the Hebrew text. Peter quotes it at Pentecost (Acts 2:21) and Paul in Romans 10:13. In its original context, the promise is eschatological — survival through the Day of the LORD for those on Mount Zion who invoke YHWH's name. The phrase peleitah ('deliverance, escape, surviving remnant') connects to the remnant theology that runs through Isaiah, Jeremiah, and the Twelve Prophets. The double calling — humans calling on God, God calling the survivors — creates a theology of mutual seeking that resolves the Joel narrative: the people respond to God's call to repent (2:12-17), and God responds by calling them into deliverance."],
+      "reading_level": "8th grade"
+    }
+  ]
+}

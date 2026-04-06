@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Daniel",
+    "chapter": 11,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-04-01T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Daniel 11 contains the most detailed predictive text in the Hebrew Bible — a blow-by-blow account of the wars between the Ptolemaic kingdom of Egypt ('the king of the south') and the Seleucid kingdom of Syria ('the king of the north') spanning approximately 323-164 BCE. The chapter traces Persian kings (v. 2), Alexander the Great's empire and its division (vv. 3-4), the Ptolemaic-Seleucid wars (vv. 5-20), and the career of Antiochus IV Epiphanes in extraordinary detail (vv. 21-35), including his desecration of the Jerusalem temple — the 'abomination of desolation' (shiqquts meshomem, v. 31). Beginning at verse 36, the text shifts to descriptions that do not clearly correspond to any known historical events, leading to debate about whether these verses describe Antiochus in idealized terms, a future eschatological figure, or a literary transition from history to apocalyptic prophecy.",
+    "remarkable": "The historical precision of verses 2-35 is so detailed that critical scholars almost universally date this section to the Maccabean period (c. 167-164 BCE), viewing it as prophecy after the fact (vaticinium ex eventu). Conservative scholars maintain it as genuine predictive prophecy from the sixth century BCE. Either reading makes the chapter remarkable: as history, it provides one of the most detailed ancient accounts of the Ptolemaic-Seleucid wars; as prophecy, its accuracy is unparalleled. The 'abomination of desolation' (v. 31) becomes a template for desecration that Jesus applies to future events (Matthew 24:15). The description of 'those who are wise' (maskilim, vv. 33, 35) suffering and refining anticipates the theology of redemptive suffering. The shift at verse 36 to events without clear historical referent has generated centuries of interpretive debate.",
+    "friction": "The primary challenge is rendering the relentless military and political language with clarity while preserving the Hebrew's compressed style. The chapter uses 'king of the north' and 'king of the south' without naming specific rulers — we preserve this ambiguity as the Hebrew intends. Many verses are syntactically dense, with pronoun references that can be ambiguous (whose daughter? whose army? whose forces?). We resolved these based on context while noting ambiguities. The word shiqquts ('abomination') in verse 31 carries strong overtones of idolatrous defilement — we preserved the traditional rendering. The shift at verse 36 is handled by noting the break without imposing an interpretation.",
+    "connections": "The chapter connects to Daniel 2 (four kingdoms), Daniel 7 (four beasts), and Daniel 8 (ram and goat, the 'little horn' = Antiochus). The 'abomination of desolation' connects to 9:27, 12:11, Matthew 24:15, and Mark 13:14. 1 Maccabees 1:54-64 describes the historical fulfillment under Antiochus. The maskilim ('wise ones') appear again in 12:3, 10. The chapter's theology of God's sovereignty over political history connects to Isaiah 10:5-19 (Assyria as God's instrument) and to the book's overall theme that earthly kingdoms rise and fall under divine governance."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַאֲנִ֗י בִּשְׁנַ֤ת אַחַת֙ לְדָרְיָ֣וֶשׁ הַמָּדִ֔י עָמְדִ֛י לְמַחֲזִ֥יק וּלְמָע֖וֹז לֽוֹ׃",
+      "text_kjv": "Also I in the first year of Darius the Mede, even I, stood to confirm and to strengthen him.",
+      "rendering": "As for me, in the first year of Darius the Mede, I took my stand to support and strengthen him.",
+      "translator_notes": ["The speaker is the angel from chapter 10. He states that he supported Michael (the 'him' of the previous verse) in the first year of Darius the Mede — the same year Daniel prayed in chapter 9. The verbs lemachaziq ulema'oz ('to support and to be a stronghold for') describe military alliance language — the angel served as a reinforcement for Michael in the cosmic conflict over the transition from Babylonian to Persian power."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְעַתָּ֕ה אֱמֶ֖ת אַגִּ֣יד לָ֑ךְ הִנֵּה־ע֞וֹד שְׁלֹשָׁ֣ה מְלָכִ֣ים ׀ עֹמְדִ֣ים לְפָרַ֗ס וְהָֽרְבִיעִי֙ יַעֲשִׁ֤יר עֹֽשֶׁר־גָּדוֹל֙ מִכֹּ֔ל וּכְחֶזְקָת֣וֹ בְעָשְׁר֔וֹ יָעִ֣יר הַכֹּ֔ל אֵ֖ת מַלְכ֥וּת יָוָֽן׃",
+      "text_kjv": "And now will I shew thee the truth. Behold, there shall stand up yet three kings in Persia; and the fourth shall be far richer than they all: and by his strength through his riches he shall stir up all against the realm of Grecia.",
+      "rendering": "Now I will tell you the truth. Three more kings will arise in Persia, and a fourth will gain wealth far exceeding all of them. When he becomes strong through his wealth, he will stir up everything against the kingdom of Greece.",
+      "translator_notes": ["The three kings following Cyrus are generally identified as Cambyses, pseudo-Smerdis (Bardiya), and Darius I, with the wealthy fourth being Xerxes I (Ahasuerus of Esther), whose massive invasion of Greece in 480 BCE fits the description perfectly. The Hebrew ya'ir hakkol ('he will stir up everything/everyone') indicates a total mobilization — Xerxes assembled the largest army the ancient world had seen for his Greek campaign. The word yavan ('Greece/Ionia') is the standard Hebrew designation for the Greek world."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וְעָמַ֖ד מֶ֣לֶךְ גִּבּ֑וֹר וּמָשַׁל֙ מִמְשָׁ֣ל רַ֔ב וְעָשָׂ֖ה כִּרְצוֹנֽוֹ׃",
+      "text_kjv": "And a mighty king shall stand up, that shall rule with great dominion, and do according to his will.",
+      "rendering": "Then a mighty king will arise, ruling with vast dominion and doing as he pleases.",
+      "translator_notes": ["The 'mighty king' (melekh gibbor) is universally identified as Alexander the Great (356-323 BCE), whose conquests created the largest empire the world had yet seen. The phrase 'doing as he pleases' (asah kirtsonno) characterizes his unchallenged authority — no one could resist him. The same phrase recurs for later kings in this chapter, becoming a marker of absolute power that is always temporary."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "וּכְעָמְד֣וֹ תִּשָּׁבֵ֣ר מַלְכוּת֗וֹ וְתֵחָץ֙ לְאַרְבַּ֣ע רוּח֣וֹת הַשָּׁמַ֔יִם וְלֹ֥א לְאַחֲרִית֖וֹ וְלֹ֣א כְמָשְׁל֔וֹ אֲשֶׁ֣ר מָשָׁ֑ל כִּ֤י תִנָּתֵשׁ֙ מַלְכוּת֔וֹ וְלַאֲחֵרִ֖ים מִלְּבַד־אֵֽלֶּה׃",
+      "text_kjv": "And when he shall stand up, his kingdom shall be broken, and shall be divided toward the four winds of heaven; and not to his posterity, nor according to his dominion which he ruled: for his kingdom shall be plucked up, even for others beside those.",
+      "rendering": "When he has arisen, his kingdom will be shattered and divided toward the four winds of heaven — but not to his descendants, and not with the authority with which he ruled. For his kingdom will be uprooted and given to others besides these.",
+      "translator_notes": ["Alexander died in 323 BCE at age 32, and his empire was eventually divided among four generals (the Diadochi): Cassander (Macedonia/Greece), Lysimachus (Thrace/Asia Minor), Seleucus (Syria/Mesopotamia), and Ptolemy (Egypt). The phrase 'not to his descendants' (lo le'acharito) is historically precise — Alexander's son Alexander IV and half-brother Philip III were both murdered. The four winds (arba ruchot hashamayim) correspond to the four divisions, matching the four-headed leopard of 7:6 and the four horns of 8:8."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "וְיֶחֱזַ֥ק מֶֽלֶךְ־הַנֶּ֖גֶב וּמִן־שָׂרָ֑יו וְיֶחֱזַ֤ק עָלָיו֙ וּמָשָׁ֔ל מִמְשָׁ֥ל רַ֖ב מֶמְשַׁלְתּֽוֹ׃",
+      "text_kjv": "And the king of the south shall be strong, and one of his princes; and he shall be strong above him, and have dominion; his dominion shall be a great dominion.",
+      "rendering": "The king of the south will grow strong, but one of his commanders will grow stronger still and will rule — his domain will be a vast domain.",
+      "translator_notes": ["The 'king of the south' (melekh ha-negev) introduces the Ptolemaic dynasty of Egypt. The first is Ptolemy I Soter (323-285 BCE). The commander (sar) who becomes even stronger is Seleucus I Nicator (305-281 BCE), who had initially served under Ptolemy but eventually built a larger empire stretching from Asia Minor to India. The text establishes the two-power dynamic — north (Seleucid) and south (Ptolemaic) — that drives the rest of the chapter, with the land of Israel caught between them."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וּלְקֵ֤ץ שָׁנִים֙ יִתְחַבָּ֔רוּ וּבַ֤ת מֶֽלֶךְ־הַנֶּגֶב֙ תָּב֣וֹא אֶל־מֶ֣לֶךְ הַצָּפ֔וֹן לַעֲשׂ֖וֹת מֵישָׁרִ֑ים וְלֹֽא־תַעְצֹ֞ר כּ֣וֹחַ הַזְּר֗וֹעַ וְלֹ֤א יַעֲמֹד֙ וּזְרֹע֔וֹ וְתִנָּתֵ֣ן הִ֗יא וּמְבִיאֶ֙יהָ֙ וְהַיֹּלְדָ֔הּ וּמַחֲזִקָ֖הּ בָּעִתִּֽים׃",
+      "text_kjv": "And in the end of years they shall join themselves together; for the king's daughter of the south shall come to the king of the north to make an agreement: but she shall not retain the power of the arm; neither shall he stand, nor his arm: but she shall be given up, and they that brought her, and he that begat her, and he that strengthened her in these times.",
+      "rendering": "After some years they will form an alliance. The daughter of the king of the south will come to the king of the north to seal an agreement, but she will not retain her power, nor will he keep his strength. She will be given over, along with those who brought her, the one who fathered her, and the one who supported her in those times.",
+      "translator_notes": ["This describes the marriage of Berenice, daughter of Ptolemy II Philadelphus (king of the south), to Antiochus II Theos (king of the north) around 252 BCE. The marriage was a diplomatic alliance (mesharim, 'equitable terms, agreement'). When Ptolemy II died, Antiochus's first wife Laodice had Berenice, her young son, and her attendants murdered, and then poisoned Antiochus — fulfilling the prophecy that none would retain power. The Hebrew is notably compressed, requiring the reader to track multiple pronoun referents. The word hayoldeha ('the one who fathered her') likely refers to Ptolemy II, who died before the consequences unfolded."],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וְעָמַ֛ד מִנֵּ֥צֶר שָׁרָשֶׁ֖יהָ כַּנּ֑וֹ וְיָבֹ֣א אֶל־הַחַ֗יִל וְיָבֹא֙ בְּמָעוֹז֙ מֶ֣לֶךְ הַצָּפ֔וֹן וְעָשָׂ֥ה בָהֶ֖ם וְהֶחֱזִֽיק׃",
+      "text_kjv": "But out of a branch of her roots shall one stand up in his estate, which shall come with an army, and shall enter into the fortress of the king of the north, and shall deal against them, and shall prevail:",
+      "rendering": "From a shoot of her roots one will arise in his place. He will come against the army and enter the fortress of the king of the north, acting against them and prevailing.",
+      "translator_notes": ["The 'shoot of her roots' (netser sharasheyha) — a branch from the same family tree as Berenice — is her brother Ptolemy III Euergetes (246-222 BCE), who invaded the Seleucid empire to avenge his sister's murder. The botanical metaphor (netser, 'shoot, branch') emphasizes dynastic continuity. Ptolemy III's invasion of the Seleucid heartland was spectacularly successful, reaching deep into Mesopotamia."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וְגַ֣ם אֱ‍ֽלֹהֵיהֶ֡ם עִם־נְסִכֵיהֶם֩ עִם־כְּלֵ֨י חֶמְדָּתָ֜ם כֶּ֣סֶף וְזָהָ֗ב בַּשְּׁבִי֙ יָבִ֣א מִצְרָ֔יִם וְה֕וּא שָׁנִ֥ים יַעֲמֹ֖ד מִמֶּ֥לֶךְ הַצָּפֽוֹן׃",
+      "text_kjv": "And shall also carry captives into Egypt their gods, with their princes, and with their precious vessels of silver and of gold; and he shall continue more years than the king of the north.",
+      "rendering": "He will also carry off to Egypt their gods, along with their cast images and their precious vessels of silver and gold. Then he will stand back from the king of the north for some years.",
+      "translator_notes": ["Ptolemy III's plunder of Seleucid temples and the removal of cult images to Egypt is historically documented — ancient sources say he recovered Egyptian idols that had been carried off by the Persians. The word nesikheyhem ('their cast images, libation vessels') can refer to molten images or drink offerings. The phrase shanim ya'amod ('he will stand for years') indicates a period where Ptolemy III refrained from further conflict with the north — he consolidated his gains rather than pressing further."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וּבָ֗א בְּמַלְכ֛וּת מֶ֥לֶךְ הַנֶּ֖גֶב וְשָׁ֥ב אֶל־אַדְמָתֽוֹ׃",
+      "text_kjv": "So the king of the south shall come into his kingdom, and shall return into his own land.",
+      "rendering": "Then he will invade the realm of the king of the south but will return to his own land.",
+      "translator_notes": ["The subject shifts to the king of the north — Seleucus II Callinicus (246-226 BCE) — who attempted a counterattack against Egypt but failed and was forced to withdraw. The brief verse captures an unsuccessful retaliatory campaign. Some read the subject as the king of the south returning home, but the context (a northern response to the southern invasion) supports the northern king as subject."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וּבָנָ֣יו יִתְגָּר֗וּ וְאָסְפ֞וּ הֲמ֤וֹן חֲיָלִים֙ רַבִּ֔ים וּבָ֥א בוֹא֙ וְשָׁטַ֣ף וְעָבָ֔ר וְיָשֹׁ֖ב וְיִתְגָּר֑וּ עַד־מְעֻזֹּֽה׃",
+      "text_kjv": "But his sons shall be stirred up, and shall assemble a multitude of great forces: and one shall certainly come, and overflow, and pass through: then shall he return, and be stirred up, even to his fortress.",
+      "rendering": "His sons will mobilize and assemble a vast multitude of forces. One of them will sweep forward like a flood, pressing on; then he will return and wage war all the way to his fortress.",
+      "translator_notes": ["The sons of Seleucus II are Seleucus III Ceraunus (226-223 BCE), who died quickly, and Antiochus III 'the Great' (223-187 BCE), who became one of the most significant Seleucid rulers. The singular shift ('one of them') focuses on Antiochus III. The flood metaphor (shataf ve'avar, 'overflow and pass through') describes an overwhelming military advance. The 'fortress' (me'uzoh) at the end likely refers to the Egyptian border fortifications — Antiochus III pushed his campaign to the gates of Egypt."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וְיִתְמַרְמַר֙ מֶ֣לֶךְ הַנֶּ֔גֶב וְיָצָ֕א וְנִלְחַ֥ם עִמּ֖וֹ עִם־מֶ֣לֶךְ הַצָּפ֑וֹן וְהֶעֱמִ֥יד הָמ֣וֹן רָ֔ב וְנִתַּ֥ן הֶהָמ֖וֹן בְּיָדֽוֹ׃",
+      "text_kjv": "And the king of the south shall be moved with choler, and shall come forth and fight with him, even with the king of the north: and he shall set forth a great multitude; but the multitude shall be given into his hand.",
+      "rendering": "The king of the south will be enraged and go out to fight against him — against the king of the north — who will raise a great multitude, but the multitude will be given into his hand.",
+      "translator_notes": ["This describes the Battle of Raphia (217 BCE), where Ptolemy IV Philopator, despite his normally indolent character, roused himself (yitmarmar, 'will be bitterly enraged') to fight Antiochus III. Antiochus brought a massive army but Ptolemy won a decisive victory. The phrase 'given into his hand' (nittan beyado) means the southern king's hand — Ptolemy defeated the northern multitude. The pronoun references here are potentially confusing; context clarifies that the king of the north raised the multitude and the king of the south defeated it."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וְנִשָּׂ֥א הֶהָמ֖וֹן וְרָ֣ם לְבָב֑וֹ וְהִפִּ֥יל רִבֹּא֖וֹת וְלֹ֥א יָעֽוֹז׃",
+      "text_kjv": "And when he hath taken away the multitude, his heart shall be lifted up; and he shall cast down many ten thousands: but he shall not be strengthened by it.",
+      "rendering": "When the multitude has been swept away, his heart will be exalted. He will bring down tens of thousands, yet he will not prevail.",
+      "translator_notes": ["Ptolemy IV won at Raphia and inflicted enormous casualties, but he failed to press his advantage. His heart was 'exalted' (ram levavo) — pride and self-satisfaction — but he did not use the victory to destroy Seleucid power permanently. The word ribb'ot ('myriads, tens of thousands') indicates massive casualties. The paradox — victory without lasting strength — captures Ptolemy IV's character perfectly. He returned to Egypt and declined into luxury and neglect."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וְשָׁב֙ מֶ֣לֶךְ הַצָּפ֔וֹן וְהֶעֱמִ֣יד הָמ֔וֹן רַ֖ב מִן־הָרִאשׁ֑וֹן וּלְקֵ֨ץ הָעִתִּ֤ים שָׁנִים֙ יָב֣וֹא ב֔וֹא בְּחַ֥יִל גָּד֖וֹל וּבִרְכ֥וּשׁ רָֽב׃",
+      "text_kjv": "For the king of the north shall return, and shall set forth a multitude greater than the former, and shall certainly come after certain years with a great army and with much riches.",
+      "rendering": "The king of the north will return and raise a multitude even greater than the first. After a period of some years, he will advance with a large army and abundant resources.",
+      "translator_notes": ["Antiochus III spent years rebuilding his forces after Raphia, campaigning eastward to restore Seleucid authority before turning south again. The phrase leqets ha'ittim shanim ('at the end of the times, years') indicates a significant passage of time — approximately sixteen years elapsed between Raphia (217 BCE) and Antiochus III's renewed southern campaign (201 BCE). By then Ptolemy IV had died and his young son Ptolemy V Epiphanes was a child, making Egypt vulnerable."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וּבָעִתִּ֣ים הָהֵ֔ם רַבִּ֥ים יַעַמְד֖וּ עַל־מֶ֣לֶךְ הַנֶּ֑גֶב וּבְנֵ֣י ׀ פָּרִיצֵ֣י עַמְּךָ֗ יִנַּשְּׂא֛וּ לְהַעֲמִ֥יד חָז֖וֹן וְנִכְשָֽׁלוּ׃",
+      "text_kjv": "And in those times there shall many stand up against the king of the south: also the robbers of thy people shall exalt themselves to establish the vision; but they shall fall.",
+      "rendering": "In those times, many will rise against the king of the south. Violent ones among your own people will lift themselves up to fulfill the vision, but they will stumble.",
+      "translator_notes": ["The phrase beney paritsey ammekha ('violent ones/breakers among your people') refers to a faction within Judah that allied with Antiochus III against Ptolemaic Egypt. The word parits means 'violent one, breaker, robber' — these were aggressive, ambitious men within the Jewish community. Their motivation — 'to fulfill the vision' (leha'amid chazon) — suggests they saw in the shifting political situation an opportunity to advance prophetic expectations, perhaps of national independence. The text says they will 'stumble' (nikhshalu) — their aspirations would fail. This is one of the few moments where the text directly addresses Daniel's own people within the political narrative."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְיָבֹא֙ מֶ֣לֶךְ הַצָּפ֔וֹן וְיִשְׁפֹּ֥ךְ סֽוֹלְלָ֖ה וְלָכַ֣ד עִיר מִבְצָר֑וֹת וּזְרֹע֤וֹת הַנֶּ֙גֶב֙ לֹ֣א יַעֲמֹ֔דוּ וְעַם֙ מִבְחָרָ֔יו וְאֵ֥ין כֹּ֖חַ לַעֲמֹֽד׃",
+      "text_kjv": "So the king of the north shall come, and cast up a mount, and take the most fenced cities: and the arms of the south shall not withstand, neither his chosen people, neither shall there be any strength to withstand.",
+      "rendering": "The king of the north will come, build siege ramps, and capture a fortified city. The forces of the south will not stand — not even his best troops will have the strength to resist.",
+      "translator_notes": ["This describes Antiochus III's capture of Sidon (198 BCE), where an Egyptian garrison under the general Scopas was besieged. The solelah ('siege ramp') was the standard technique for assaulting fortified cities. The phrase am mivcharav ('his chosen troops, his elite forces') indicates that Egypt sent its best warriors to relieve the siege, but they failed. The repeated emphasis on inability to 'stand' (lo ya'amodu... ein koach la'amod) conveys the totality of southern military collapse."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְיַ֨עַשׂ הַבָּ֤א אֵלָיו֙ כִּרְצוֹנ֔וֹ וְאֵ֥ין עוֹמֵ֖ד לְפָנָ֑יו וְיַעֲמֹ֥ד בְּאֶֽרֶץ־הַצְּבִ֖י וְכָלָ֥ה בְיָדֽוֹ׃",
+      "text_kjv": "But he that cometh against him shall do according to his own will, and none shall stand before him: and he shall stand in the glorious land, which by his hand shall be consumed.",
+      "rendering": "The one who comes against him will do as he pleases, with no one able to stand before him. He will take his stand in the beautiful land, with destruction in his hand.",
+      "translator_notes": ["Antiochus III now 'does as he pleases' (ya'aseh kirtsono) — the same phrase applied to Alexander in verse 3, marking a peak of unchallenged power. The 'beautiful land' (erets ha-tsevi) is the land of Israel — tsevi means 'beauty, splendor, ornament' (cf. 8:9). Antiochus III's control of Judea after the Battle of Panium (198 BCE) brought Israel under Seleucid rule for the first time. The phrase vekhalah beyado ('with destruction in his hand' or 'with all of it in his hand') is ambiguous — it could mean total control or total devastation."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וְיָשֵׂ֣ם ׀ פָּ֠נָ֠יו לָב֞וֹא בְּתֹ֧קֶף כָּל־מַלְכוּת֛וֹ וִישָׁרִ֥ים עִמּ֖וֹ וְעָשָׂ֑ה וּבַ֤ת הַנָּשִׁים֙ יִתֶּן־ל֔וֹ לְהַשְׁחִיתָ֖הּ וְלֹ֥א תַעֲמֹ֛ד וְלֹא־ל֥וֹ תִהְיֶֽה׃",
+      "text_kjv": "He shall also set his face to enter with the strength of his whole kingdom, and upright ones with him; thus shall he do: and he shall give him the daughter of women, corrupting her: but she shall not stand on his side, neither be for him.",
+      "rendering": "He will set his determination to come with the strength of his entire kingdom, making equitable terms with him. He will do this, giving him the daughter of women to destroy it — but she will not stand with him or be on his side.",
+      "translator_notes": ["Antiochus III, rather than invading Egypt directly, pursued diplomacy — he gave his daughter Cleopatra I in marriage to the young Ptolemy V (194 BCE). The phrase bat ha-nashim ('daughter of women') is an unusual designation, perhaps emphasizing her beauty or her human vulnerability as a pawn in geopolitics. The purpose — lehashchitah ('to destroy it/her') — suggests Antiochus intended Cleopatra to undermine Egypt from within as a Seleucid agent. Instead, she sided with her husband's interests against her father's plans — 'she will not stand with him or be on his side.'"],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וְיָשֵׁ֣ב פָּנָ֗יו לְאִיִּים֙ וְלָכַ֣ד רַבִּ֔ים וְהִשְׁבִּ֥ית קָצִ֛ין חֶרְפָּת֖וֹ ל֑וֹ בִּלְתִּ֥י חֶרְפָּת֖וֹ יָשִׁ֥יב לֽוֹ׃",
+      "text_kjv": "After this shall he turn his face unto the isles, and shall take many: but a prince for his own behalf shall cause the reproach offered by him to cease; without his own reproach he shall cause it to turn upon him.",
+      "rendering": "Then he will turn his attention to the coastlands and capture many of them, but a commander will put an end to his insolence — indeed, he will turn his insolence back upon him.",
+      "translator_notes": ["Antiochus III turned to conquering islands and coastal territories in Asia Minor and Greece (197-190 BCE), bringing him into conflict with Rome. The 'commander' (qatsin) is the Roman consul Lucius Cornelius Scipio (or his brother Scipio Africanus), who defeated Antiochus at the Battle of Magnesia (190 BCE) and imposed humiliating terms. The word cherpah ('reproach, insolence, disgrace') is used twice — the Romans ended the reproach Antiochus was inflicting and turned it back on him through the Treaty of Apamea, which stripped him of territory and imposed massive indemnity."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וְיָשֵׁ֣ב פָּנָ֔יו לְמָעוּזֵּ֖י אַרְצ֑וֹ וְנִכְשַׁ֥ל וְנָפַ֖ל וְלֹ֥א יִמָּצֵֽא׃",
+      "text_kjv": "Then he shall turn his face toward the fort of his own land: but he shall stumble and fall, and not be found.",
+      "rendering": "He will turn back toward the fortresses of his own land, but he will stumble and fall and be found no more.",
+      "translator_notes": ["Antiochus III retreated to his own territories after the Roman defeat and was killed in 187 BCE while attempting to plunder a temple in Elymais to pay the Roman indemnity. The phrase 'stumble and fall and be found no more' (nikhshal venafal velo yimmatse) describes his death with stark brevity — the mighty king who 'did as he pleased' (v. 3, echoed in v. 16) ends ignominiously. The pattern of rising and falling power is a recurring motif throughout this chapter."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וְעָמַ֧ד עַל־כַּנּ֛וֹ מַעֲבִ֥יר נוֹגֵ֖שׂ הֶ֣דֶר מַלְכ֑וּת וּבְיָמִ֤ים אֲחָדִים֙ יִשָּׁבֵ֔ר וְלֹ֥א בְאַפַּ֖יִם וְלֹ֥א בְמִלְחָמָֽה׃",
+      "text_kjv": "Then shall stand up in his estate a raiser of taxes in the glory of the kingdom: but within few days he shall be destroyed, neither in anger, nor in battle.",
+      "rendering": "In his place will arise one who sends an exactor through the splendor of the kingdom. But within a few days he will be broken — not in anger and not in battle.",
+      "translator_notes": ["This brief reign describes Seleucus IV Philopator (187-175 BCE), son of Antiochus III. The 'exactor' (noges) is generally identified as Seleucus's minister Heliodorus, who was sent to plunder the Jerusalem temple treasury (2 Maccabees 3). The phrase heder malkhut ('splendor/glory of the kingdom') likely refers to the temple or the land of Israel. Seleucus IV was assassinated by Heliodorus after only a few years — 'not in anger and not in battle' indicates he died by intrigue rather than in open conflict."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וְעָמַ֤ד עַל־כַּנּוֹ֙ נִבְזֶ֔ה וְלֹא־נָתְנ֥וּ עָלָ֖יו ה֣וֹד מַלְכ֑וּת וּבָ֣א בְשַׁלְוָ֔ה וְהֶחֱזִ֥יק מַלְכ֖וּת בַּחֲלַקְלַקּֽוֹת׃",
+      "text_kjv": "And in his estate shall stand up a vile person, to whom they shall not give the honour of the kingdom: but he shall come in peaceably, and obtain the kingdom by flatteries.",
+      "rendering": "In his place will arise a despised one to whom the royal honor was not given. He will come in a time of security and seize the kingdom through intrigue.",
+      "translator_notes": ["The 'despised one' (nivzeh) is Antiochus IV Epiphanes (175-164 BCE), the central antagonist of Daniel 8 and 11. He was not the legitimate heir — the throne should have passed to Seleucus IV's son Demetrius, who was a hostage in Rome. Antiochus seized power through political maneuvering (chalaqlaqqot, 'smooth words, flatteries, intrigues'). The word nivzeh ('despised, contemptible') is the narrator's assessment of his character. He took the title Epiphanes ('God Manifest'), which his detractors parodied as Epimanes ('the Madman')."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וּזְרֹע֥וֹת הַשֶּׁ֛טֶף יִשָּׁטְפ֥וּ מִלְּפָנָ֖יו וְיִשָּׁבֵ֑רוּ וְגַ֖ם נְגִ֥יד בְּרִֽית׃",
+      "text_kjv": "And with the arms of a flood shall they be overflown from before him, and shall be broken; yea, also the prince of the covenant.",
+      "rendering": "Overwhelming forces will be swept away before him and shattered — along with the prince of the covenant.",
+      "translator_notes": ["The 'prince of the covenant' (negid berit) is debated: it may refer to the Jewish high priest Onias III, who was deposed and later murdered (2 Maccabees 4:34), or to Ptolemy VI of Egypt. If Onias III is meant, the phrase carries enormous theological weight — the person who represented Israel's covenant relationship with God was destroyed by Antiochus's political machinations. The flood metaphor (zer'ot ha-shetef, 'arms of the flood') describes an irresistible military sweep."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וּמִן־הִתְחַבְּר֥וּת אֵלָ֖יו יַעֲשֶׂ֣ה מִרְמָ֑ה וְעָלָ֥ה וְעָצַ֖ם בִּמְעַט־גּֽוֹי׃",
+      "text_kjv": "And after the league made with him he shall work deceitfully: for he shall come up, and shall become strong with a small people.",
+      "rendering": "After allying with him, he will act deceitfully. He will rise to power with only a small force.",
+      "translator_notes": ["Antiochus IV used deception (mirmah) as a consistent strategy — forming alliances only to betray them. The phrase bim'at goy ('with a small people/nation') indicates he initially commanded limited resources but leveraged them through cunning rather than brute force. The combination of deception and small numbers sets up the contrast with his eventual ambitions."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "בְּשַׁלְוָ֞ה וּבְמִשְׁמַנֵּ֣י מְדִינָה֮ יָבוֹא֒ וְעָשָׂ֗ה אֲשֶׁ֨ר לֹא־עָשׂ֤וּ אֲבֹתָיו֙ וַאֲב֣וֹת אֲבֹתָ֔יו בִּזָּ֧ה וְשָׁלָ֛ל וּרְכ֖וּשׁ לָהֶ֣ם יִבְז֑וֹר וְעַ֧ל מִבְצָרִ֛ים יְחַשֵּׁ֥ב מַחֲשְׁבֹתָ֖יו וְעַד־עֵֽת׃",
+      "text_kjv": "He shall enter peaceably even upon the fattest places of the province; and he shall do that which his fathers have not done, nor his fathers' fathers; he shall scatter among them the prey, and spoil, and riches: yea, and he shall forecast his devices against the strong holds, even for a time.",
+      "rendering": "In a time of security he will enter the richest parts of the province and do what none of his ancestors or his ancestors' ancestors did — he will distribute plunder, spoil, and wealth among them. He will plot his schemes against fortified places, but only for a time.",
+      "translator_notes": ["Antiochus IV bought loyalty through lavish distribution of plunder — an unprecedented strategy among Seleucid kings ('what none of his ancestors did'). The word yibzor ('he will scatter, distribute') indicates generous, even profligate dispersal of wealth among supporters. The phrase ve'ad et ('but only for a time') introduces the crucial theological qualification that recurs throughout Daniel: all human power is temporary and operates within divinely set limits."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וְיָעֵ֣ר כֹּח֣וֹ וּלְבָב֗וֹ עַל־מֶ֤לֶךְ הַנֶּ֙גֶב֙ בְּחַ֣יִל גָּד֔וֹל וּמֶ֣לֶךְ הַנֶּ֗גֶב יִתְגָּרֶ֛ה לַמִּלְחָמָ֖ה בְּחַֽיִל־גָּד֣וֹל וְעָצ֣וּם עַד־מְאֹ֑ד וְלֹ֣א יַעֲמֹ֔ד כִּֽי־יַחְשְׁב֥וּ עָלָ֖יו מַחֲשָׁבֽוֹת׃",
+      "text_kjv": "And he shall stir up his power and his courage against the king of the south with a great army; and the king of the south shall be stirred up to battle with a very great and mighty army; but he shall not stand: for they shall forecast devices against him.",
+      "rendering": "He will rouse his strength and determination against the king of the south with a large army. The king of the south will mobilize for war with an extremely large and powerful army, but he will not stand because plots will be devised against him.",
+      "translator_notes": ["This describes Antiochus IV's first Egyptian campaign (170/169 BCE). Ptolemy VI Philometor (king of the south) assembled a massive army but was undermined by treachery from within his own court — 'plots will be devised against him' (yachshevu alav machashavot). The defeat was caused not by military inferiority but by internal betrayal. The verb ya'er ('will rouse') carries the sense of stirring up courage and resolve for a major undertaking."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְאֹכְלֵ֧י פַת־בָּג֛וֹ יִשְׁבְּר֖וּהוּ וְחֵיל֣וֹ יִשְׁט֑וֹף וְנָפְל֖וּ חֲלָלִ֥ים רַבִּֽים׃",
+      "text_kjv": "Yea, they that feed of the portion of his meat shall destroy him, and his army shall overflow: and many shall fall down slain.",
+      "rendering": "Those who eat his royal food will destroy him. His army will be swept away, and many will fall slain.",
+      "translator_notes": ["The betrayers are those closest to the king — those who eat his pat bag ('royal food, food from the king's table'). The word bag is the same term used for the food Daniel refused in 1:5 — a link within the book. Ptolemy VI was betrayed by members of his own court who were in league with Antiochus IV. The phrase chalelim rabbim ('many slain') describes the human cost of the resulting military collapse."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וּשְׁנֵיהֶ֤ם הַמְּלָכִים֙ לְבָבָ֣ם לְמֵרָ֔ע וְעַל־שֻׁלְחָ֥ן אֶחָ֖ד כָּזָ֣ב יְדַבֵּ֑רוּ וְלֹ֣א תִצְלָ֔ח כִּי־ע֥וֹד קֵ֖ץ לַמּוֹעֵֽד׃",
+      "text_kjv": "And both these kings' hearts shall be to do mischief, and they shall speak lies at one table; but it shall not prosper: for yet the end shall be at the time appointed.",
+      "rendering": "Both these kings, with their hearts set on evil, will speak lies to each other at the same table. But it will not succeed, for the end is still at the appointed time.",
+      "translator_notes": ["After defeating Ptolemy VI, Antiochus IV negotiated with him — both deceiving the other. The image of lying at the same table (al shulchan echad kazav yedabberu) is vivid diplomatic cynicism. The theological conclusion — 'it will not succeed, for the end is still at the appointed time' (ki od qets lammo'ed) — asserts divine sovereignty over the timeline. Human scheming cannot alter God's schedule. This is a key theme throughout Daniel: human empires operate within divinely appointed boundaries."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וְיָשֹׁ֤ב אַרְצוֹ֙ בִּרְכ֣וּשׁ גָּד֔וֹל וּלְבָב֖וֹ עַל־בְּרִ֣ית קֹ֑דֶשׁ וְעָשָׂ֖ה וְשָׁ֥ב לְאַרְצֽוֹ׃",
+      "text_kjv": "Then shall he return into his land with great riches; and his heart shall be against the holy covenant; and he shall do exploits, and return to his own land.",
+      "rendering": "He will return to his land with great wealth, but his heart will be set against the holy covenant. He will take action and then return to his own land.",
+      "translator_notes": ["On his return from Egypt (169 BCE), Antiochus IV turned against Jerusalem and the Jewish religion — his heart was 'against the holy covenant' (al berit qodesh). The phrase berit qodesh ('holy covenant') refers to the Sinai covenant and its associated worship — the entire system of Jewish religious life centered on the temple. The vague 'he will take action' (ve'asah) likely refers to his plundering of the Jerusalem temple (1 Maccabees 1:20-24; 2 Maccabees 5:15-21), where he seized the golden altar, the lampstand, the table of showbread, and other sacred vessels."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "לַמּוֹעֵ֣ד יָשׁ֔וּב וּבָ֖א בַנֶּ֑גֶב וְלֹֽא־תִהְיֶ֥ה כָרִאשֹׁנָ֖ה וְכָאַחֲרוֹנָֽה׃",
+      "text_kjv": "At the time appointed he shall return, and come toward the south; but it shall not be as the former, or as the latter.",
+      "rendering": "At the appointed time he will return and come against the south, but this time it will not be as before.",
+      "translator_notes": ["Antiochus IV's second Egyptian campaign (168 BCE) would end very differently from his first. The phrase lo tihyeh karishonah vekha'acharonah ('it will not be as the first or as the last') indicates this campaign will fail. The word mo'ed ('appointed time') again emphasizes divine scheduling — even this invasion occurs within God's predetermined timeline."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "וּבָ֨אוּ ב֜וֹ צִיִּ֤ים כִּתִּים֙ וְנִכְאָ֔ה וְשָׁ֕ב וְזָעַ֖ם עַל־בְּרִ֣ית ק֑וֹדֶשׁ וְעָשָׂ֣ה וְשָׁ֔ב וְיָבֵ֖ן עַל־עֹזְבֵ֥י בְּרִ֖ית קֹֽדֶשׁ׃",
+      "text_kjv": "For the ships of Chittim shall come against him: therefore he shall be grieved, and return, and have indignation against the holy covenant: so shall he do; he shall even return, and have intelligence with them that forsake the holy covenant.",
+      "rendering": "Ships of Kittim will come against him, and he will lose heart and turn back. He will rage against the holy covenant and take action. He will return and show favor to those who abandon the holy covenant.",
+      "translator_notes": ["The 'ships of Kittim' (tsiyyim kittim) refer to Roman warships. In 168 BCE, the Roman legate Gaius Popilius Laenas confronted Antiochus IV outside Alexandria and drew a circle in the sand around him, demanding he leave Egypt before stepping out of it. This humiliation (nikah, 'he lost heart, was disheartened') drove Antiochus into a rage (za'am) that he directed against Jerusalem and the Jewish religion. The phrase 'those who abandon the holy covenant' (ozvey berit qodesh) refers to Hellenizing Jews who cooperated with Antiochus's religious persecution — a collaboration that divided the Jewish community and intensified the crisis."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וּזְרֹעִ֖ים מִמֶּ֣נּוּ יַעֲמֹ֑דוּ וְחִלְּל֞וּ הַמִּקְדָּ֤שׁ הַמָּעוֹז֙ וְהֵסִ֣ירוּ הַתָּמִ֔יד וְנָתְנ֖וּ הַשִּׁקּ֥וּץ מְשׁוֹמֵֽם׃",
+      "text_kjv": "And arms shall stand on his part, and they shall pollute the sanctuary of strength, and shall take away the daily sacrifice, and they shall place the abomination that maketh desolate.",
+      "rendering": "Forces from him will arise, profane the temple fortress, abolish the regular offering, and set up the abomination that causes desolation.",
+      "translator_notes": ["This verse describes the climactic desecration of December 167 BCE, when Antiochus IV's forces profaned the Jerusalem temple (1 Maccabees 1:54). The 'regular offering' (ha-tamid) refers to the daily morning and evening sacrifices that were the heartbeat of temple worship. The shiqquts meshomem ('abomination that causes desolation') is the defining phrase of the crisis — most likely a pagan altar or idol set up on the altar of burnt offering. The word shiqquts ('abomination, detestable thing') is the standard term for idolatrous defilement, possibly a deliberate distortion of a pagan deity's name (ba'al shamem, 'lord of heaven' → shiqquts meshomem). Jesus cites this phrase in Matthew 24:15 and Mark 13:14, applying it to a future desecration."],
+      "key_terms": [
+        {
+          "hebrew": "שִׁקּוּץ מְשׁוֹמֵם",
+          "transliteration": "shiqquts meshomem",
+          "rendered_as": "abomination that causes desolation",
+          "semantic_range": "detestable thing causing horror, idolatrous object bringing desolation, appalling sacrilege",
+          "note": "The phrase has become one of the most interpreted expressions in biblical prophecy. Historically connected to Antiochus's desecration of the temple, it was reapplied by Jesus to future events and has been read against multiple historical and eschatological horizons."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וּמַרְשִׁיעֵ֣י בְרִ֔ית יַחֲנִ֖יף בַּחֲלַקּ֑וֹת וְעַ֛ם יֹדְעֵ֥י אֱלֹהָ֖יו יַחֲזִ֥קוּ וְעָשֽׂוּ׃",
+      "text_kjv": "And such as do wickedly against the covenant shall he corrupt by flatteries: but the people that do know their God shall be strong, and do exploits.",
+      "rendering": "Those who act wickedly against the covenant he will seduce with smooth words, but the people who know their God will stand firm and take action.",
+      "translator_notes": ["A sharp contrast emerges between two Jewish responses to the persecution. The marshiey berit ('those who act wickedly against the covenant') are the Hellenizers who cooperated with Antiochus — he will win them over with chalaqot ('smooth words, flattery, slippery persuasion'). But the am yodey Elohav ('the people who know their God') — identified with the Maccabean resistance — will yachaziku ('stand firm, hold fast') and take action. The verb ya'asu ('they will act') likely refers to the armed resistance led by Judas Maccabeus and his family."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וּמַשְׂכִּ֣ילֵי עָ֔ם יָבִ֖ינוּ לָֽרַבִּ֑ים וְנִכְשְׁל֞וּ בְּחֶ֤רֶב וּבְלֶהָבָה֙ בִּשְׁבִ֣י וּבְבִזָּ֔ה יָמִֽים׃",
+      "text_kjv": "And they that understand among the people shall instruct many: yet they shall fall by the sword, and by flame, by captivity, and by spoil, many days.",
+      "rendering": "Those who are wise among the people will give understanding to many, though they will fall by sword and flame, by captivity and plunder, for a time.",
+      "translator_notes": ["The maskilim ('wise ones, those who have insight') are a distinct group — not warriors but teachers who give understanding (yavinu) to the many. They suffer persecution — sword, fire, captivity, and plunder — yet continue their instructive mission. The maskilim appear again in verse 35 and in 12:3, where they 'shine like the brightness of the sky.' Their role is to sustain faithful understanding during the crisis. The word yamim ('days') here means 'for a time, for a period' — the suffering has limits."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וּבְהִכָּ֣שְׁלָ֔ם יֵעָזְר֖וּ עֵ֣זֶר מְעָ֑ט וְנִלְו֧וּ עֲלֵיהֶ֛ם רַבִּ֖ים בַּחֲלַקְלַקּֽוֹת׃",
+      "text_kjv": "Now when they shall fall, they shall be holpen with a little help: but many shall cleave to them with flatteries.",
+      "rendering": "When they stumble, they will receive a little help, though many will join them insincerely.",
+      "translator_notes": ["The 'little help' (ezer me'at) has been read as a guarded reference to the Maccabean revolt — significant enough to provide relief but described modestly, perhaps because the book's theology values faithful endurance (the maskilim) over military action. Alternatively, the author may view the Maccabean victory as only partial deliverance. The 'many who join insincerely' (nilvu... bachalaqlaqqot) describes opportunists who allied with the faithful once the tide turned — their commitment was superficial rather than principled."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וּמִן־הַמַּשְׂכִּילִ֣ים יִכָּֽשְׁל֗וּ לִצְר֥וֹף בָּהֶ֛ם וּלְבָרֵ֥ר וְלַלְבֵּ֖ן עַד־עֵ֣ת קֵ֑ץ כִּי־ע֖וֹד לַמּוֹעֵֽד׃",
+      "text_kjv": "And some of them of understanding shall fall, to try them, and to purge, and to make them white, even to the time of the end: because it is yet for a time appointed.",
+      "rendering": "Some of the wise will stumble so that they may be refined, purified, and made clean until the time of the end, for it is still for the appointed time.",
+      "translator_notes": ["The suffering of the maskilim is given theological purpose — it serves to refine (litsrof), purify (levarer), and cleanse (lehalben) them. The metallurgical metaphor (refining) combines with the laundering metaphor (whitening) to describe suffering as purification. This is one of the earliest expressions of redemptive suffering theology in the Hebrew Bible — suffering that produces spiritual purity rather than merely punishment. The phrase ad et qets ('until the time of the end') sets a limit on the suffering, and ki od lammo'ed ('for it is still for the appointed time') reaffirms divine scheduling. The 'time of the end' introduces eschatological vocabulary that becomes central in chapter 12."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וְעָשָׂ֨ה כִרְצוֹנ֜וֹ הַמֶּ֗לֶךְ וְיִתְרוֹמֵ֤ם וְיִתְגַּדֵּל֙ עַל־כָּל־אֵ֔ל וְעַל֙ אֵ֣ל אֵלִ֔ים יְדַבֵּ֖ר נִפְלָא֑וֹת וְהִצְלִ֙יחַ֙ עַד־כָּ֣לָה זַ֔עַם כִּ֥י נֶחֱרָצָ֖ה נֶעֱשָֽׂתָה׃",
+      "text_kjv": "And the king shall do according to his will; and he shall exalt himself, and magnify himself above every god, and shall speak marvellous things against the God of gods, and shall prosper till the indignation be accomplished: for that that is determined shall be done.",
+      "rendering": "The king will do as he pleases. He will exalt himself and magnify himself above every god. Against the God of gods he will speak astonishing things. He will prosper until the wrath is completed, for what has been decreed will be accomplished.",
+      "translator_notes": ["Beginning with this verse, the chapter describes events that do not clearly match the known history of Antiochus Epiphanes. Some interpreters see this as an idealized portrait of Antiochus pushed beyond historical accuracy into theological typology; others see a transition to a future eschatological figure (an 'antichrist' type); still others view it as genuine prophecy about Antiochus that simply does not match our incomplete historical records. The phrase 'God of gods' (El elim) is a superlative — the supreme deity. The king's self-exaltation echoes Isaiah 14:13-14 and anticipates Paul's 'man of lawlessness' in 2 Thessalonians 2:4. The word za'am ('wrath, indignation') refers to God's measured judgment — the king's success operates only within the span of divine wrath against Israel."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְעַל־אֱלֹהֵ֤י אֲבֹתָיו֙ לֹ֣א יָבִ֔ין וְעַל־חֶמְדַּ֥ת נָשִׁ֛ים וְעַֽל־כָּל־אֱל֖וֹהַּ לֹ֣א יָבִ֑ין כִּ֥י עַל־כֹּ֖ל יִתְגַּדָּֽל׃",
+      "text_kjv": "Neither shall he regard the God of his fathers, nor the desire of women, nor regard any god: for he shall magnify himself above all.",
+      "rendering": "He will show no regard for the gods of his ancestors, nor for the one desired by women, nor for any god, for he will magnify himself above all.",
+      "translator_notes": ["The phrase chemdat nashim ('the desire of women') is one of the most debated expressions in Daniel. Interpretations include: (1) a deity especially beloved by women, such as Tammuz/Adonis (cf. Ezekiel 8:14); (2) the natural desire for women, suggesting the king rejects normal human affection; (3) a reference to a specific figure desired by women (sometimes read messianically). We render literally to preserve the ambiguity. The verb yavin ('he will regard, understand, consider') is rendered 'show regard for' — the king dismisses all religious and human attachments in his self-deification."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וְלֶאֱלֹ֙הַּ֙ מָֽעֻזִּ֔ים עַל־כַּנּ֖וֹ יְכַבֵּ֑ד וְלֶאֱל֙וֹהַּ֙ אֲשֶׁ֣ר לֹא־יְדָעֻ֣הוּ אֲבֹתָ֔יו יְכַבֵּ֕ד בְּזָהָ֥ב וּבְכֶ֛סֶף וּבְאֶ֥בֶן יְקָרָ֖ה וּבַחֲמֻדּֽוֹת׃",
+      "text_kjv": "But in his estate shall he honour the God of forces: and a god whom his fathers knew not shall he honour with gold, and silver, and with precious stones, and pleasant things.",
+      "rendering": "Instead, he will honor a god of fortresses in their place. He will honor a god his ancestors did not know with gold, silver, precious stones, and costly gifts.",
+      "translator_notes": ["The 'god of fortresses' (eloah ma'uzzim) is unidentified — no known deity bears this title. It may refer to Jupiter Capitolinus (Zeus Olympios), whose cult Antiochus promoted; to a deified concept of military power itself; or to a deity associated with fortified places. The phrase 'a god his ancestors did not know' (eloah asher lo yeda'uhu avotav) echoes the Deuteronomic warning against foreign gods (Deuteronomy 32:17). Despite rejecting all existing gods (v. 37), this king installs a new cult of power."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְעָשָׂ֞ה לְמִבְצְרֵ֤י מָֽעֻזִּים֙ עִם־אֱל֣וֹהַּ נֵכָ֔ר אֲשֶׁ֥ר יַכִּ֖יר הִכִּ֣ירוּ יַרְבֶּ֣ה כָב֑וֹד וְהִמְשִׁילָם֙ בָּֽרַבִּ֔ים וַאֲדָמָ֖ה יְחַלֵּ֥ק בִּמְחִֽיר׃",
+      "text_kjv": "Thus shall he do in the most strong holds with a strange god, whom he shall acknowledge and increase with glory: and he shall cause them to rule over many, and shall divide the land for gain.",
+      "rendering": "He will deal with the strongest fortresses with the help of a foreign god. Those who acknowledge him he will load with honor, making them rule over many, and he will distribute land for a price.",
+      "translator_notes": ["The king rewards his supporters with governance over populations (himshilam barabbim) and distributes land (adamah) as political patronage. This system of rewarding religious compliance with political power describes the Hellenizing program in Judea, where cooperative Jews received positions of authority. The 'foreign god' (eloah nekhar) is a deity alien to the nation's tradition — the introduction of foreign worship enforced through political incentives."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "וּבְעֵ֣ת קֵ֗ץ יִתְנַגַּ֤ח עִמּוֹ֙ מֶ֣לֶךְ הַנֶּ֔גֶב וְיִשְׂתָּעֵ֨ר עָלָ֜יו מֶ֣לֶךְ הַצָּפ֗וֹן בְּרֶ֙כֶב֙ וּבְפָ֣רָשִׁ֔ים וּבָאֳנִיּ֖וֹת רַבּ֑וֹת וּבָ֥א בַאֲרָצ֖וֹת וְשָׁטַ֥ף וְעָבָֽר׃",
+      "text_kjv": "And at the time of the end shall the king of the south push at him: and the king of the north shall come against him like a whirlwind, with chariots, and with horsemen, and with many ships; and he shall enter into the countries, and shall overflow and pass over.",
+      "rendering": "At the time of the end, the king of the south will engage him in battle. The king of the north will storm against him with chariots, cavalry, and many ships. He will invade lands, sweeping through like a flood.",
+      "translator_notes": ["The phrase be'et qets ('at the time of the end') signals a shift — from this point, no clear historical correspondence to known events of Antiochus IV's reign can be established with certainty. The verb yitnagach ('will charge, butt, engage') suggests aggressive initiation by the south. The king of the north's response — yista'er ('will storm') — describes a tornado-like assault. The flood metaphor (shataf ve'avar) returns from verse 10. Whether these events describe unknown historical episodes, idealized typological events, or future eschatological conflicts remains debated."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 41,
+      "text_hebrew": "וּבָ֣א בְּאֶ֣רֶץ הַצְּבִ֗י וְרַבּוֹת֙ יִכָּשֵׁ֔לוּ וְאֵ֙לֶּה֙ יִמָּלְט֣וּ מִיָּד֔וֹ אֱד֣וֹם וּמוֹאָ֔ב וְרֵאשִׁ֖ית בְּנֵ֥י עַמּֽוֹן׃",
+      "text_kjv": "He shall enter also into the glorious land, and many countries shall be overthrown: but these shall escape out of his hand, even Edom, and Moab, and the chief of the children of Ammon.",
+      "rendering": "He will enter the beautiful land, and many will fall. But these will escape from his hand: Edom, Moab, and the foremost of the Ammonites.",
+      "translator_notes": ["The 'beautiful land' (erets ha-tsevi) is Israel, as in verse 16. The nations that escape — Edom, Moab, and Ammon (all Transjordanian peoples) — are precisely those east of the Jordan River, suggesting the invasion route bypasses the eastern desert. The word re'shit ('foremost, first, best') applied to the Ammonites may mean their leading people or their territory's chief region. These three nations were traditional enemies of Israel (cf. Psalm 83:6-7), making their escape from the invader ironic."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 42,
+      "text_hebrew": "וְיִשְׁלַ֥ח יָד֖וֹ בַּאֲרָצ֑וֹת וְאֶ֣רֶץ מִצְרַ֔יִם לֹ֥א תִהְיֶ֖ה לִפְלֵיטָֽה׃",
+      "text_kjv": "He shall stretch forth his hand also upon the countries: and the land of Egypt shall not escape.",
+      "rendering": "He will stretch out his hand against the lands, and the land of Egypt will not escape.",
+      "translator_notes": ["Unlike the Transjordanian nations of verse 41, Egypt will not escape. The phrase yishlach yado ('he will stretch out his hand') is a gesture of aggressive power projection. Historically, Antiochus IV was prevented from conquering Egypt by Roman intervention (v. 30), but this section — if describing events beyond Antiochus — depicts a successful Egyptian conquest. The verse's brevity creates menace through understatement."],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 43,
+      "text_hebrew": "וּמָשַׁ֗ל בְּמִכְמַנֵּי֙ הַזָּהָ֣ב וְהַכֶּ֔סֶף וּבְכֹ֖ל חֲמֻד֣וֹת מִצְרָ֑יִם וְלֻבִ֥ים וְכֻשִׁ֖ים בְּמִצְעָדָֽיו׃",
+      "text_kjv": "But he shall have power over the treasures of gold and of silver, and over all the precious things of Egypt: and the Libyans and the Ethiopians shall be at his steps.",
+      "rendering": "He will gain control over the treasuries of gold and silver and all the precious things of Egypt. The Libyans and Cushites will follow in his train.",
+      "translator_notes": ["The conquered wealth of Egypt and the submission of North African peoples — Lubim (Libyans) and Kushim (Cushites/Ethiopians) — depict total domination of the southern territories. The phrase bemits'adav ('in his steps, at his heels') means they will follow as subjects or vassal troops. Cush refers to the region south of Egypt (modern Sudan/Ethiopia). The comprehensive plunder of Egyptian treasuries echoes Ptolemy III's earlier plunder of Seleucid temples (v. 8), reversing the direction of conquest."],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 44,
+      "text_hebrew": "וּשְׁמֻע֤וֹת יְבַהֲלֻ֙הוּ֙ מִמִּזְרָ֣ח וּמִצָּפ֔וֹן וְיָצָ֖א בְּחֵמָ֣א גְדוֹלָ֑ה לְהַשְׁמִ֥יד וּֽלְהַחֲרִ֖ים רַבִּֽים׃",
+      "text_kjv": "But tidings out of the east and out of the north shall trouble him: therefore he shall go forth with great fury to destroy, and utterly to make away many.",
+      "rendering": "But reports from the east and the north will alarm him, and he will set out in a great rage to annihilate and completely destroy many.",
+      "translator_notes": ["The threatening reports (shemu'ot, 'news, rumors') from east and north suggest military threats from multiple directions. The king's response — going out 'in great rage' (bechema gedolah) to 'annihilate and completely destroy' (lehashmid ulehacharim) — describes genocidal fury. The verb hacharim ('to devote to destruction, to put under the ban') is the language of herem warfare (cf. Joshua 6:21), adding a quasi-religious dimension to the destruction. Antiochus IV did die during an eastern campaign (164 BCE), but the details here do not closely match the historical accounts of his death."],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 45,
+      "text_hebrew": "וְיִטַּ֞ע אָהֳלֶ֤י אַפַּדְנוֹ֙ בֵּין־יַמִּ֔ים לְהַר־צְבִי־קֹ֑דֶשׁ וּבָ֣א עַד־קִצּ֔וֹ וְאֵ֥ין עוֹזֵ֖ר לֽוֹ׃",
+      "text_kjv": "And he shall plant the tabernacles of his palace between the seas in the glorious holy mountain; yet he shall come to his end, and none shall help him.",
+      "rendering": "He will pitch his royal tents between the sea and the beautiful holy mountain. Yet he will come to his end, and no one will help him.",
+      "translator_notes": ["The 'beautiful holy mountain' (har tsevi qodesh) is Mount Zion — the temple mount in Jerusalem. The location 'between the seas' (beyn yammim) places his encampment between the Mediterranean and the Dead Sea (or between the seas and the mountain), which describes the coastal plain west of Jerusalem. The phrase 'he will come to his end' (uva ad qitso) is abrupt and final — the mighty king who exalted himself above every god simply ends. The statement 'no one will help him' (ve'ein ozer lo) marks total abandonment — neither gods nor allies will save him. This anonymous, unheroic death contrasts with his grandiose self-exaltation. The historical Antiochus IV died in Persia in 164 BCE, not near Jerusalem, which is one reason many interpreters see this section as referring to a figure beyond Antiochus."],
+      "reading_level": "9th grade"
+    }
+  ]
+}

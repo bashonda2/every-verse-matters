@@ -1,0 +1,422 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "1 Samuel",
+    "chapter": 2,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Hannah sings a victory song after dedicating Samuel to the LORD at Shiloh — a poem that moves from personal vindication to cosmic theology, culminating in the first mention of a coming 'anointed one' (mashiach) in the books of Samuel. The narrative then contrasts Samuel's faithful ministry as a child with the predatory corruption of Eli's sons Hophni and Phinehas, who steal from the sacrifices and sleep with women at the tabernacle entrance. A man of God delivers a devastating oracle against Eli's house: the priesthood will be stripped from his family and given to a faithful priest.",
+    "remarkable": "Hannah's song in verses 1-10 is one of the great theological poems in the Hebrew Bible and the direct literary ancestor of Mary's Magnificat (Luke 1:46-55). What makes it remarkable is its scope: a woman who was barren and mocked by a rival does not simply thank God for a son — she composes a poem about the total reversal of human power structures. The hungry are fed, the barren bear seven, the mighty are shattered, the poor are raised from the dust to sit with princes. Most striking is verse 10: Hannah, who asked for a single child, ends her prayer with a vision of God's anointed king — a figure who does not yet exist in Israel. She sees past her own story to the monarchy her son will inaugurate.",
+    "friction": "The Hebrew of Hannah's song is dense, archaic poetry with several textual difficulties. In verse 1, qeren ('horn') is a metaphor for strength that has no single English equivalent — we rendered it literally and noted the symbolism. Verse 3 uses the rare form nit'qu ('are weighed / measured') for God's assessment of human actions, which some traditions render 'are weighed' and others 'are measured' — we chose 'measured' and noted the ambiguity. In verse 5, the barren woman bearing seven is a literary number for completeness, not a biographical fact about Hannah (she bore six total per verse 21). The description of Eli's sons as benei beliyya'al ('sons of worthlessness') in verse 12 uses a term whose etymology is debated — we rendered it 'worthless men' and discussed the range in key_terms. The man of God's prophecy in verses 27-36 contains some of the most difficult Hebrew in the chapter, with several phrases whose referents are disputed.",
+    "connections": "Hannah's song establishes the theological framework for the entire Samuel-Kings narrative: God reverses human power structures, pulling down the mighty and lifting the lowly. The 'anointed one' (mashiach) of verse 10 is the first use of this term for a royal figure in the Former Prophets — it will become the defining title for Saul, David, and their successors. The contrast between Samuel and Eli's sons anticipates the contrast between David and Saul. The man of God's prophecy against Eli's house (vv. 27-36) will be fulfilled in stages: the deaths of Hophni and Phinehas (1 Sam 4:11), the removal of Eli's line from the high priesthood under Solomon (1 Kings 2:27), and the rise of Zadok as the faithful priest. The 'linen ephod' Samuel wears as a boy (v. 18) is priestly garb, signaling that this child given by prayer will serve as priest, prophet, and kingmaker."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַתִּתְפַּלֵּ֤ל חַנָּה֙ וַתֹּאמַ֔ר עָלַ֤ץ לִבִּי֙ בַּיהֹוָ֔ה רָ֥מָה קַרְנִ֖י בַּיהֹוָ֑ה רָ֤חַב פִּי֙ עַל־א֣וֹיְבַ֔י כִּ֥י שָׂמַ֖חְתִּי בִּישׁוּעָתֶֽךָ׃",
+      "text_kjv": "And Hannah prayed, and said, My heart rejoiceth in the LORD, mine horn is exalted in the LORD, my mouth is enlarged over mine enemies; because I rejoice in thy salvation.",
+      "rendering": "Hannah prayed and said:\n\"My heart exults in the LORD;\nmy horn is raised high by the LORD.\nMy mouth opens wide against my enemies,\nfor I rejoice in Your salvation.",
+      "translator_notes": [
+        "The verb vatitpallel ('she prayed') introduces what follows as prayer, though its form is a victory song. Hebrew prayer encompasses praise, lament, and proclamation — not just petition.",
+        "The three-line opening structure uses synonymous parallelism: heart exults / horn is raised / mouth opens wide. Each line intensifies the same theme of vindication. The shift from 'my heart' to 'my horn' to 'my mouth' moves from internal emotion to public display.",
+        "'My horn is raised high' (ramah qarni) — the horn (qeren) is the primary symbol of strength throughout the poem. It appears here in verse 1 and returns in verse 10 for the anointed king, framing the entire song."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "קֶרֶן",
+          "transliteration": "qeren",
+          "rendered_as": "horn",
+          "semantic_range": "horn, strength, power, dignity, ray of light",
+          "note": "The horn of a bull or wild ox symbolizes strength and dominance throughout the Hebrew Bible. Hannah uses it for her own restored dignity in verse 1 and for the coming king's power in verse 10. The image carries connotations of being lifted up, made visible, and given authority — the opposite of the humiliation she endured from Peninnah."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "אֵין־קָד֥וֹשׁ כַּיהֹוָ֖ה כִּ֣י אֵ֣ין בִּלְתֶּ֑ךָ וְאֵ֥ין צ֖וּר כֵּאלֹהֵֽינוּ׃",
+      "text_kjv": "There is none holy as the LORD: for there is none beside thee: neither is there any rock like our God.",
+      "rendering": "There is no one holy like the LORD —\nthere is no one besides You —\nand there is no rock like our God.",
+      "translator_notes": [
+        "The three-line structure moves from God's holiness (qadosh) to His uniqueness ('none besides You') to His reliability (tsur, 'rock'). The middle line — ki ein biltekha ('for there is none besides You') — is the strongest claim: not merely that God is the greatest, but that He stands alone. The rock metaphor (tsur) connotes immovable stability and protection, a fortress image used throughout the Psalms and the Song of Moses (Deut 32:4)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "אַל־תַּרְבּ֤וּ תְדַבְּרוּ֙ גְּבֹהָ֣ה גְבֹהָ֔ה יֵצֵ֥א עָתָ֖ק מִפִּיכֶ֑ם כִּ֣י אֵ֤ל דֵּעוֹת֙ יְהֹוָ֔ה וְל֥וֹ נִתְכְּנ֖וּ עֲלִלֽוֹת׃",
+      "text_kjv": "Talk no more so exceeding proudly; let not arrogancy come out of your mouth: for the LORD is a God of knowledge, and by him actions are weighed.",
+      "rendering": "Do not keep speaking so proudly;\nlet no arrogance come from your mouth,\nfor the LORD is a God of knowledge,\nand by Him actions are measured.",
+      "translator_notes": [
+        "The doubled gevohah gevohah ('proudly proudly' or 'high high') is emphatic — Hannah is addressing the kind of boastful speech she endured from Peninnah. The word 'ataq ('arrogance, insolence') describes speech that is brazen and presumptuous.",
+        "The phrase El de'ot ('God of knowledge') may mean God who possesses all knowledge or God to whom all knowledge belongs — the plural de'ot could be intensive. The verb nitkenu ('are measured / are weighed') is debated: from takan, it can mean 'to weigh, to measure, to assess.' We chose 'measured' because the image is of God evaluating human deeds against a standard. The proud speaker will be assessed by a God who knows everything."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "קֶ֥שֶׁת גִּבֹּרִ֖ים חַתִּ֑ים וְנִכְשָׁלִ֖ים אָ֥זְרוּ חָֽיִל׃",
+      "text_kjv": "The bows of the mighty men are broken, and they that stumbled are girded with strength.",
+      "rendering": "The bows of the mighty are shattered,\nbut those who stumble are armed with strength.",
+      "translator_notes": [
+        "The reversal pattern that defines the song begins here. Chattim ('shattered') describes the breaking of weapons, not merely bending them — the mighty are completely disarmed. Meanwhile, the nikashalim ('those who stumble') — the weak, the faltering — are 'girded with strength' (azeru chayil). The verb azar ('to gird') is military: it means to strap on armor or weapons. The weak become warriors by God's doing."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "שְׂבֵעִ֤ים בַּלֶּ֙חֶם֙ נִשְׂכָּ֔רוּ וּרְעֵבִ֖ים חָדֵ֑לּוּ עַד־עֲקָרָ֞ה יָלְדָ֣ה שִׁבְעָ֗ה וְרַבַּ֥ת בָּנִ֖ים אֻמְלָֽלָה׃",
+      "text_kjv": "They that were full have hired out themselves for bread; and they that were hungry ceased: so that the barren hath born seven; and she that hath many children is waxed feeble.",
+      "rendering": "Those who were full hire themselves out for bread,\nbut the hungry hunger no more.\nThe barren woman bears seven,\nwhile the mother of many withers away.",
+      "translator_notes": [
+        "The reversals accelerate: the well-fed must now work for food, while the hungry are satisfied. The climactic line — 'the barren woman bears seven' — uses the number of completeness, not biography. Hannah bore six children total (v. 21), but her song speaks in the language of divine fullness. Seven means God has given more than enough.",
+        "The verb umlelah ('withers, languishes') describes a slow fading — the mother of many does not lose her children violently but simply declines. The contrast is between divine vitality (the barren made fruitful) and human self-sufficiency that cannot sustain itself."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "יְהֹוָ֖ה מֵמִ֣ית וּמְחַיֶּ֑ה מוֹרִ֥יד שְׁא֖וֹל וַיָּֽעַל׃",
+      "text_kjv": "The LORD killeth, and maketh alive: he bringeth down to the grave, and bringeth up.",
+      "rendering": "The LORD kills and gives life;\nHe brings down to Sheol and raises up.",
+      "translator_notes": [
+        "The poem moves from social reversals to cosmic sovereignty. God's power extends over life and death itself. Sheol is the underworld, the realm of the dead — not a place of punishment but of shadowy non-existence. The claim that God 'raises up' from Sheol is striking: in early Israelite thought, Sheol was generally considered final. Hannah's song pushes beyond that expectation, asserting that even death is not beyond God's reach."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "יְהֹוָ֖ה מוֹרִ֣ישׁ וּמַעֲשִׁ֑יר מַשְׁפִּ֖יל אַף־מְרוֹמֵֽם׃",
+      "text_kjv": "The LORD maketh poor, and maketh rich: he bringeth low, and lifteth up.",
+      "rendering": "The LORD makes poor and makes rich;\nHe brings low and lifts high.",
+      "translator_notes": [
+        "The four verbs come in two pairs, each a reversal: morish/ma'ashir (impoverishes/enriches), mashpil/meromem (brings low/exalts). The structure is deliberately symmetrical, reflecting the balanced sovereignty of God over all human conditions. Neither wealth nor poverty is permanent or self-caused — both are within God's governance."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "מֵקִ֨ים מֵעָפָ֜ר דָּ֗ל מֵאַשְׁפֹּת֙ יָרִ֣ים אֶבְי֔וֹן לְהוֹשִׁיב֙ עִם־נְדִיבִ֔ים וְכִסֵּ֥א כָב֖וֹד יַנְחִלֵ֑ם כִּ֤י לַיהֹוָה֙ מְצֻ֣קֵי אֶ֔רֶץ וַיָּ֥שֶׁת עֲלֵיהֶ֖ם תֵּבֵֽל׃",
+      "text_kjv": "He raiseth up the poor out of the dust, and lifteth up the beggar from the dunghill, to set them among princes, and to make them inherit the throne of glory: for the pillars of the earth are the LORD'S, and he hath set the world upon them.",
+      "rendering": "He raises the poor from the dust;\nHe lifts the needy from the ash heap\nto seat them with princes\nand grant them a throne of honor.\nFor the pillars of the earth belong to the LORD,\nand He has set the world upon them.",
+      "translator_notes": [
+        "The movement from 'dust' (afar) to 'ash heap' (ashpot) to 'princes' (nedivim) to 'throne of honor' (kisse kavod) is the most dramatic vertical reversal in the song. The ashpot is literally the refuse dump outside a village — where the destitute sit to beg. From there, God lifts them to royal thrones.",
+        "The phrase metzuqei eretz ('pillars of the earth') reflects ancient cosmology where the earth rests on foundations or pillars. The theological point transcends the cosmology: God's right to reverse human power structures rests on His role as Creator. He set the world on its foundations; human hierarchies are His to rearrange.",
+        "This verse is echoed directly in Psalm 113:7-8 and in Mary's Magnificat (Luke 1:52): 'He has brought down the powerful from their thrones and lifted up the lowly.'"
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "רַגְלֵ֤י חֲסִידָו֙ יִשְׁמֹ֔ר וּרְשָׁעִ֖ים בַּחֹ֣שֶׁךְ יִדָּ֑מּוּ כִּֽי־לֹ֥א בְכֹ֖חַ יִגְבַּר־אִֽישׁ׃",
+      "text_kjv": "He will keep the feet of his saints, and the wicked shall be silent in darkness; for by strength shall no man prevail.",
+      "rendering": "He guards the steps of His faithful ones,\nbut the wicked will be silenced in darkness —\nfor no one prevails by their own strength.",
+      "translator_notes": [
+        "The chasidav ('His faithful ones,' from chesed) are those bound to God in covenant loyalty. The verb yishmar ('He guards') echoes the creation mandate and the priestly blessing (Num 6:24). By contrast, the wicked are yiddamu ('silenced') — the verb damam means to be still, to cease, to be cut off. Darkness and silence together suggest Sheol.",
+        "The final line — ki lo vekoach yigbar ish ('for not by strength does a man prevail') — is the thesis statement of the entire Samuel narrative. Saul, the tall warrior-king, will fail; David, the youngest shepherd boy, will triumph. Human power does not determine outcomes. God does."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "יְהֹוָ֞ה יֵחַ֣תּוּ מְרִיבָ֗ו עָלָו֙ בַּשָּׁמַ֣יִם יַרְעֵ֔ם יְהֹוָ֖ה יָדִ֣ין אַפְסֵי־אָ֑רֶץ וְיִתֶּן־עֹ֣ז לְמַלְכּ֔וֹ וְיָ֖רֵם קֶ֥רֶן מְשִׁיחֽוֹ׃",
+      "text_kjv": "The adversaries of the LORD shall be broken to pieces; out of heaven shall he thunder upon them: the LORD shall judge the ends of the earth; and he shall give strength unto his king, and exalt the horn of his anointed.",
+      "rendering": "The LORD — His adversaries will be shattered!\nAgainst them He thunders from heaven.\nThe LORD judges the ends of the earth.\nHe will give strength to His king\nand raise high the horn of His anointed.\"",
+      "translator_notes": [
+        "This verse is the theological climax of the song. The word meshicho ('His anointed one') is the first occurrence of mashiach in the books of Samuel in a royal context. Hannah, praying before any king exists in Israel, uses the term that will define Saul and David and ultimately the messianic expectation of later Judaism and Christianity.",
+        "The verb yarim qeren meshicho ('He will raise the horn of His anointed') closes the inclusio begun in verse 1 (ramah qarni, 'my horn is raised'). Hannah's personal horn of strength becomes the horn of the coming king. Her story is subsumed into God's larger purpose.",
+        "The thunder theophany (ba-shamayim yar'em, 'from heaven He thunders') connects to the storm theophany tradition in Psalm 18:13 and to the thunder that accompanied the Israelite victory in 1 Samuel 7:10. God's voice in the storm is a weapon against His enemies."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מָשִׁיחַ",
+          "transliteration": "mashiach",
+          "rendered_as": "anointed",
+          "semantic_range": "anointed one, messiah, one consecrated by oil, chosen king",
+          "note": "This is the first use of mashiach in the books of Samuel as a royal title. The term will become central to the entire narrative: Samuel will anoint Saul (1 Sam 10:1) and then David (1 Sam 16:13). Hannah speaks the word before any king exists — her song is prophetic, reaching beyond her own story to the monarchy her son will inaugurate and to the messianic hope that extends far beyond David's dynasty."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַיֵּ֤לֶךְ אֶלְקָנָה֙ הָרָמָ֔תָה עַל־בֵּית֑וֹ וְהַנַּ֗עַר הָיָ֤ה מְשָׁרֵת֙ אֶת־יְהֹוָ֔ה אֶת־פְּנֵ֖י עֵלִ֥י הַכֹּהֵֽן׃",
+      "text_kjv": "And Elkanah went to Ramah to his house. And the child did minister unto the LORD before Eli the priest.",
+      "rendering": "Elkanah went home to Ramah, but the boy remained, serving the LORD in the presence of Eli the priest.",
+      "translator_notes": [
+        "The transition is abrupt and poignant: Elkanah 'went home' but the child stayed. The verb mesharet ('serving, ministering') indicates formal religious service — even as a small child, Samuel has a recognized role at the sanctuary. The phrase et penei Eli ('before Eli' or 'in the presence of Eli') establishes the mentoring relationship while also setting up the contrast that follows: Samuel serves faithfully; Eli's own sons do not."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וּבְנֵ֥י עֵלִ֖י בְּנֵ֣י בְלִיָּ֑עַל לֹ֥א יָדְע֖וּ אֶת־יְהֹוָֽה׃",
+      "text_kjv": "Now the sons of Eli were sons of Belial; they knew not the LORD.",
+      "rendering": "Now the sons of Eli were worthless men. They did not know the LORD.",
+      "translator_notes": [
+        "The phrase benei beliyya'al ('sons of worthlessness' or 'sons of wickedness') is one of the harshest designations in Hebrew. It describes people who are fundamentally destructive to the community — those from whom no good can come. Applied to priests, it is shocking.",
+        "The statement lo yade'u et YHWH ('they did not know the LORD') uses yada ('to know') in its fullest sense — not ignorance of God's existence but absence of relationship, reverence, and covenant faithfulness. Knowing God in Hebrew means intimate, personal, covenantal engagement. Eli's sons had none of it."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּלִיַּעַל",
+          "transliteration": "beliyya'al",
+          "rendered_as": "worthless",
+          "semantic_range": "worthlessness, wickedness, destruction, chaos, ruin",
+          "note": "The etymology is debated: possibly beli ('without') + ya'al ('worth, profit'), meaning 'without value,' or beli ('without') + 'ol ('yoke'), meaning 'without restraint.' Some connect it to a mythological figure of destruction. In context, it describes people who are morally bankrupt and socially destructive — a complete absence of the good that a human being, especially a priest, should embody."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וּמִשְׁפַּ֥ט הַכֹּהֲנִ֖ים אֶת־הָעָ֑ם כׇּל־אִ֞ישׁ זֹבֵ֣חַ זֶ֗בַח וּבָ֨א נַ֤עַר הַכֹּהֵן֙ כְּבַשֵּׁ֣ל הַבָּשָׂ֔ר וְהַמַּזְלֵ֛ג שְׁלֹ֥שׁ הַשִּׁנַּ֖יִם בְּיָדֽוֹ׃",
+      "text_kjv": "And the priests' custom with the people was, that, when any man offered sacrifice, the priest's servant came, while the flesh was in seething, with a fleshhook of three teeth in his hand;",
+      "rendering": "Now this was the practice of the priests with the people: whenever anyone offered a sacrifice, the priest's servant would come while the meat was boiling, with a three-pronged fork in his hand,",
+      "translator_notes": [
+        "The narrator uses mishpat ('practice, custom, judgment') with deliberate irony — what should mean 'the proper procedure' here describes corruption. The three-pronged fork (mazleg shelosh ha-shinayim) was a real cultic utensil, but its use here is perverted: instead of serving the sacrifice properly, it becomes a tool for priestly theft."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְהִכָּ֨ה בַכִּיּ֜וֹר א֣וֹ בַדּ֗וּד א֤וֹ בַקַּלַּ֙חַת֙ א֣וֹ בַפָּר֔וּר כֹּ֚ל אֲשֶׁ֣ר יַעֲלֶ֣ה הַמַּזְלֵ֔ג יִקַּ֥ח הַכֹּהֵ֖ן בּ֑וֹ כָּ֚כָה יַעֲשׂ֣וּ לְכׇל־יִשְׂרָאֵ֔ל הַבָּאִ֥ים שָׁ֖ם בְּשִׁלֹֽה׃",
+      "text_kjv": "And he struck it into the pan, or kettle, or caldron, or pot; all that the fleshhook brought up the priest took for himself. So they did in Shiloh unto all the Israelites that came thither.",
+      "rendering": "and would thrust it into the basin, or kettle, or caldron, or pot. Whatever the fork brought up, the priest would take for himself. This is what they did to all the Israelites who came there to Shiloh.",
+      "translator_notes": [
+        "The four cooking vessels — kiyyor (basin), dud (kettle), qallachat (caldron), parur (pot) — are listed exhaustively to show that no offering escaped the priests' grab. The randomness of the fork thrust adds insult: the priest does not even choose specific portions but takes whatever comes up, treating the sacred offering as a grab bag. The phrase 'to all the Israelites' (lekhol Yisra'el) underlines that this was systematic, not occasional."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "גַּ֣ם בְּטֶ֘רֶם֮ יַקְטִר֣וּן אֶת־הַחֵלֶב֒ וּבָ֣א ׀ נַ֣עַר הַכֹּהֵ֗ן וְאָמַר֙ לָאִ֣ישׁ הַזֹּבֵ֔חַ תְּנָ֣ה בָשָׂ֔ר לִצְל֖וֹת לַכֹּהֵ֑ן וְלֹֽא־יִקַּ֧ח מִמְּךָ֛ בָּשָׂ֥ר מְבֻשָּׁ֖ל כִּ֥י אִם־חָֽי׃",
+      "text_kjv": "Also before they burnt the fat, the priest's servant came, and said to the man that sacrificed, Give flesh to roast for the priest; for he will not have sodden flesh of thee, but raw.",
+      "rendering": "Even before they burned the fat, the priest's servant would come and say to the man who was sacrificing, \"Give meat for the priest to roast. He will not accept boiled meat from you — only raw.\"",
+      "translator_notes": [
+        "This escalates the offense. The fat (chelev) belonged exclusively to the LORD — burning it on the altar was non-negotiable (Leviticus 3:16: 'all the fat belongs to the LORD'). By demanding raw meat before the fat was burned, Eli's sons were not merely taking more than their share — they were claiming priority over God Himself. The demand for raw rather than boiled meat suggests they wanted choice cuts to prepare as they pleased, not the boiled remnants the normal priestly portion allowed."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וַיֹּ֨אמֶר אֵלָ֜יו הָאִ֗ישׁ קַטֵּ֨ר יַקְטִיר֤וּן כַּיּוֹם֙ הַחֵ֔לֶב וְקַח־לְךָ֖ כַּאֲשֶׁ֣ר תְּאַוֶּ֣ה נַפְשֶׁ֑ךָ וְאָמַ֣ר ׀ לֹ֣א כִּ֤י עַתָּה֙ תִתֵּ֔ן וְאִם־לֹ֖א לָקַ֥חְתִּי בְחׇזְקָֽה׃",
+      "text_kjv": "And if any man said unto him, Let them not fail to burn the fat presently, and then take as much as thy soul desireth; then he would answer him, Nay; but thou shalt give it me now: and if not, I will take it by force.",
+      "rendering": "If the man said to him, \"Let them burn the fat first, and then take whatever you want,\" the servant would say, \"No — give it now. If you do not, I will take it by force.\"",
+      "translator_notes": [
+        "The worshiper's request is modest and pious: just let God's portion be burned first, then take what you want. The servant's response — lo, ki attah titten ('No, you will give it now') — is a direct assertion of priestly power over divine right. The final threat, laqachti bechozqah ('I will take it by force'), turns the sanctuary into a scene of coercion. The place of worship becomes a place of robbery."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַתְּהִ֨י חַטַּ֧את הַנְּעָרִ֛ים גְּדוֹלָ֥ה מְאֹ֖ד אֶת־פְּנֵ֣י יְהֹוָ֑ה כִּ֤י נִֽאֲצוּ֙ הָאֲנָשִׁ֔ים אֵ֖ת מִנְחַ֥ת יְהֹוָֽה׃",
+      "text_kjv": "Wherefore the sin of the young men was very great before the LORD: for men abhorred the offering of the LORD.",
+      "rendering": "The sin of the young men was very great in the sight of the LORD, for they treated the LORD's offering with contempt.",
+      "translator_notes": [
+        "The verb ni'atzu ('they treated with contempt, they spurned') is the narrator's verdict. The Hebrew ni'ets means to show utter disrespect, to treat as worthless. The irony is layered: Eli's sons, the benei beliyya'al ('sons of worthlessness'), treat God's offering as worthless. The result is that the people themselves begin to 'abhor' the sacrificial system — priestly corruption makes worship repulsive to the worshipers."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וּשְׁמוּאֵ֕ל מְשָׁרֵ֖ת אֶת־פְּנֵ֣י יְהֹוָ֑ה נַ֕עַר חָג֖וּר אֵפ֥וֹד בָּֽד׃",
+      "text_kjv": "But Samuel ministered before the LORD, being a child, girded with a linen ephod.",
+      "rendering": "But Samuel was serving in the presence of the LORD — a boy wearing a linen ephod.",
+      "translator_notes": [
+        "The contrast with the preceding verses is sharp and deliberate. Against the backdrop of priestly corruption, the narrator presents a child faithfully serving God. The linen ephod (efod bad) is priestly garment — the same kind worn by the high priest (Exodus 28:6-14) and by David when he danced before the ark (2 Samuel 6:14). That a boy wears it signals his priestly consecration and foreshadows his role as the faithful servant Eli's sons refused to be."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וּמְעִ֤יל קָטֹן֙ תַּעֲשֶׂה־לּ֣וֹ אִמּ֔וֹ וְהַעַלְתָ֥ה ל֖וֹ מִיָּמִ֣ים ׀ יָמִ֑ימָה בַּעֲלוֹתָ֛הּ אֶת־אִישָׁ֖הּ לִזְבֹּ֥חַ אֶת־זֶ֥בַח הַיָּמִֽים׃",
+      "text_kjv": "Moreover his mother made him a little coat, and brought it to him from year to year, when she came up with her husband to offer the yearly sacrifice.",
+      "rendering": "His mother would make him a small robe and bring it up to him each year when she came with her husband to offer the yearly sacrifice.",
+      "translator_notes": [
+        "The me'il qaton ('small robe') is a tender detail: Hannah makes a priestly robe sized for a growing boy. The word me'il is the same used for the high priest's robe (Exodus 28:31) and for the robe of the ghostly Samuel that the witch of Endor sees (1 Sam 28:14). Each year Hannah measures her absent son's growth by the size of the robe she sews. The phrase miyamim yamimah ('from days to days,' i.e., year to year) marks the rhythm of faithful, quiet devotion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וּבֵרַ֨ךְ עֵלִ֜י אֶת־אֶלְקָנָ֣ה וְאֶת־אִשְׁתּ֗וֹ וְאָמַר֙ יָשֵׂם֩ יְהֹוָ֨ה לְךָ֥ זֶ֙רַע֙ מִן־הָאִשָּׁ֣ה הַזֹּ֔את תַּ֚חַת הַשְּׁאֵלָ֔ה אֲשֶׁ֥ר שָׁאַ֖ל לַיהֹוָ֑ה וְהָלְכ֖וּ לִמְקֹמֽוֹ׃",
+      "text_kjv": "And Eli blessed Elkanah and his wife, and said, The LORD give thee seed of this woman for the loan which is lent to the LORD. And they went unto their own home.",
+      "rendering": "Eli would bless Elkanah and his wife, saying, \"May the LORD give you children by this woman in place of the one she dedicated to the LORD.\" Then they would go home.",
+      "translator_notes": [
+        "Eli's blessing uses a wordplay on sha'al ('to ask, to request') — the same root behind Samuel's name. The phrase ha-she'elah asher sha'al ('the petition that was asked') echoes Hannah's original request in 1:27. Eli prays that God will repay Hannah's gift with more children. The word tachat ('in place of, in exchange for') frames Samuel's dedication as a transaction of faith: Hannah gave her firstborn to God, and God will give back abundantly."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "כִּֽי־פָקַ֤ד יְהֹוָה֙ אֶת־חַנָּ֔ה וַתַּ֛הַר וַתֵּ֥לֶד שְׁלֹשָֽׁה־בָנִ֖ים וּשְׁתֵּ֣י בָנ֑וֹת וַיִּגְדַּ֛ל הַנַּ֥עַר שְׁמוּאֵ֖ל עִם־יְהֹוָֽה׃",
+      "text_kjv": "And the LORD visited Hannah, so that she conceived, and bare three sons and two daughters. And the child Samuel grew before the LORD.",
+      "rendering": "The LORD attended to Hannah, and she conceived and bore three sons and two daughters. Meanwhile, the boy Samuel grew up in the presence of the LORD.",
+      "translator_notes": [
+        "The verb paqad ('attended to, visited, remembered') is a theologically loaded term indicating God's active intervention — the same verb used when God 'remembered' Sarah (Genesis 21:1) and 'attended to' Israel in Egypt (Exodus 4:31). Five more children confirm that Hannah's barrenness was not biological fate but divine timing.",
+        "The phrase vayyigdal hanna'ar Shemu'el im YHWH ('the boy Samuel grew up with the LORD') is striking: 'with the LORD' (im YHWH) suggests companionship, not merely location. Samuel grows up in God's presence as other children grow up in their parents' home."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וְעֵלִ֖י זָקֵ֣ן מְאֹ֑ד וְשָׁמַ֗ע אֵ֣ת כׇּל־אֲשֶׁ֤ר יַעֲשׂוּן֙ בָּנָ֔יו לְכׇל־יִשְׂרָאֵ֕ל וְאֵ֤ת אֲשֶׁר־יִשְׁכְּבוּן֙ אֶת־הַנָּשִׁ֔ים הַצֹּ֣בְא֔וֹת פֶּ֖תַח אֹ֥הֶל מוֹעֵֽד׃",
+      "text_kjv": "Now Eli was very old, and heard all that his sons did unto all Israel; and how they lay with the women that assembled at the door of the tabernacle of the congregation.",
+      "rendering": "Now Eli was very old. He heard about everything his sons were doing to all Israel, and how they were sleeping with the women who served at the entrance of the tent of meeting.",
+      "translator_notes": [
+        "The sin escalates from theft to sexual exploitation. The women 'who served' (ha-tzove'ot) at the tent entrance had a recognized role in tabernacle service (cf. Exodus 38:8). Eli's sons used their priestly position to prey on women in religious service — an abuse of sacred trust. The note that Eli 'heard' (shama) but did not act becomes the basis of his judgment: knowledge without correction is complicity."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיֹּ֣אמֶר לָהֶ֔ם לָ֥מָּה תַעֲשׂ֖וּן כַּדְּבָרִ֣ים הָאֵ֑לֶּה אֲשֶׁ֨ר אָנֹכִ֤י שֹׁמֵ֙עַ֙ אֶת־דִּבְרֵיכֶ֣ם רָעִ֔ים מֵאֵ֖ת כׇּל־הָעָ֥ם אֵֽלֶּה׃",
+      "text_kjv": "And he said unto them, Why do ye such things? for I hear of your evil dealings by all this people.",
+      "rendering": "He said to them, \"Why do you do such things? I hear about your wicked deeds from all these people.",
+      "translator_notes": [
+        "Eli's rebuke begins with a question rather than a command: 'Why do you do such things?' The phrasing reveals a father who reasons with corrupt sons rather than exercising his authority as high priest to remove them. The phrase divreichem ra'im ('your evil words/deeds' — davar can mean both) coming 'from all the people' (me'et kol ha'am) shows that the corruption is public knowledge. Everyone knows; only Eli hesitates to act decisively."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "אַ֖ל בָּנָ֑י כִּ֣י לֽוֹא־טוֹבָ֤ה הַשְּׁמוּעָה֙ אֲשֶׁ֣ר אָנֹכִ֣י שֹׁמֵ֔עַ מַעֲבִרִ֖ים עַם־יְהֹוָֽה׃",
+      "text_kjv": "Nay, my sons; for it is no good report that I hear: ye make the LORD'S people to transgress.",
+      "rendering": "No, my sons — the report I hear is not good. You are causing the LORD's people to sin.",
+      "translator_notes": [
+        "Eli's correction is remarkably mild: 'the report is not good' is an understatement for sacrilege and sexual predation. The verb ma'avirim ('causing to cross over, causing to transgress') reveals the deeper damage: the priests' corruption does not merely offend God — it leads the people themselves into sin. When those responsible for holiness become corrupt, the entire community's relationship with God is poisoned."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "אִם־יֶחֱטָ֨א אִ֤ישׁ לְאִישׁ֙ וּפִלְל֣וֹ אֱלֹהִ֔ים וְאִ֤ם לַיהֹוָה֙ יֶחֱטָא־אִ֔ישׁ מִ֖י יִתְפַּלֶּל־ל֑וֹ וְלֹ֤א יִשְׁמְעוּ֙ לְק֣וֹל אֲבִיהֶ֔ם כִּֽי־חָפֵ֥ץ יְהֹוָ֖ה לַהֲמִיתָֽם׃",
+      "text_kjv": "If one man sin against another, the judge shall judge him: but if a man sin against the LORD, who shall intreat for him? Notwithstanding they hearkened not unto the voice of their father, because the LORD would slay them.",
+      "rendering": "If one person sins against another, God can mediate. But if a person sins against the LORD, who will intercede for him?\" But they would not listen to their father's voice, because the LORD intended to put them to death.",
+      "translator_notes": [
+        "Eli's theological reasoning is sound — sin against God has no higher court of appeal — but it comes too late and too gently. The verb pilelo ('mediate, judge, arbitrate') suggests God as arbiter in human disputes, but when the offense is directly against God, the mediating structure collapses.",
+        "The narrator's explanation — ki chafetz YHWH lahamitam ('because the LORD intended to put them to death') — is one of the most theologically difficult statements in Samuel. It does not mean God caused their corruption; rather, their corruption had reached a point where God's purpose was now their judgment. The verb chafetz ('desired, intended, was pleased to') indicates divine resolve, not arbitrary cruelty. Their refusal to repent sealed their fate."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "וְהַנַּ֣עַר שְׁמוּאֵ֔ל הֹלֵ֥ךְ וְגָדֵ֖ל וָט֑וֹב גַּ֚ם עִם־יְהֹוָ֔ה וְגַ֖ם עִם־אֲנָשִֽׁים׃",
+      "text_kjv": "And the child Samuel grew on, and was in favour both with the LORD, and also with men.",
+      "rendering": "The boy Samuel continued to grow in stature and in favor, both with the LORD and with people.",
+      "translator_notes": [
+        "This verse echoes the description of the young Moses (Exodus 2:10) and anticipates the description of Jesus in Luke 2:52 ('And Jesus increased in wisdom and in stature, and in favor with God and people'). The phrase holekh vegadel vatov ('going and growing and good') uses three participles in sequence to describe steady, continuous development. The double 'with' (im YHWH ve-gam im anashim) places Samuel in right relationship in both directions — toward God and toward the community — in direct contrast to Eli's sons, who had right relationship with neither."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "וַיָּבֹ֥א אִישׁ־אֱלֹהִ֖ים אֶל־עֵלִ֑י וַיֹּ֣אמֶר אֵלָ֗יו כֹּ֚ה אָמַ֣ר יְהֹוָ֔ה הֲנִגְלֹ֤ה נִגְלֵ֙יתִי֙ אֶל־בֵּ֣ית אָבִ֔יךָ בִּהְיוֹתָ֥ם בְּמִצְרַ֖יִם לְבֵ֥ית פַּרְעֹֽה׃",
+      "text_kjv": "And there came a man of God unto Eli, and said unto him, Thus saith the LORD, Did I plainly appear unto the house of thy father, when they were in Egypt in Pharaoh's house?",
+      "rendering": "A man of God came to Eli and said to him, \"This is what the LORD says: Did I not clearly reveal Myself to your ancestor's house when they were in Egypt, in the house of Pharaoh?",
+      "translator_notes": [
+        "The 'man of God' (ish Elohim) is unnamed — a prophetic figure who delivers God's oracle and disappears from the narrative. The phrase hanigloh nigleti ('did I not clearly reveal Myself') uses the emphatic infinitive absolute construction: the revelation to Aaron's house in Egypt was unmistakable and deliberate. God's point is that Eli's priestly line exists because of divine initiative, not human merit."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "וּבָחֹ֣ר אֹת֣וֹ מִכׇּל־שִׁבְטֵ֣י יִשְׂרָאֵ֡ל לִ֣י ׀ לְ֠כֹהֵ֠ן לַעֲל֨וֹת עַֽל־מִזְבְּחִ֜י לְהַקְטִ֧יר קְטֹ֛רֶת לָשֵׂ֥את אֵפ֖וֹד לְפָנָ֑י וָאֶתְּנָ֗ה לְבֵ֤ית אָבִ֙יךָ֙ אֶת־כׇּל־אִשֵּׁ֖י בְּנֵ֥י יִשְׂרָאֵֽל׃",
+      "text_kjv": "And did I choose him out of all the tribes of Israel to be my priest, to offer upon mine altar, to burn incense, to wear an ephod before me? and did I give unto the house of thy father all the offerings made by fire of the children of Israel?",
+      "rendering": "I chose him out of all the tribes of Israel to be My priest — to go up to My altar, to burn incense, to wear the ephod before Me. And I gave to your ancestor's house all the fire offerings of the sons of Israel.",
+      "translator_notes": [
+        "Three priestly functions are listed: ascending the altar for sacrifice, burning incense, and wearing the ephod. These represent the full scope of priestly service — sacrificial, intercessory, and oracular (the ephod was associated with divine inquiry). God gave all of this to Aaron's line. The phrase kol ishei benei Yisra'el ('all the fire offerings of the sons of Israel') reminds Eli that priestly provisions were God's gift, not something to be seized by force — which is exactly what his sons have been doing."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "לָ֣מָּה תִבְעֲט֗וּ בְּזִבְחִי֙ וּבְמִנְחָתִ֔י אֲשֶׁ֥ר צִוִּ֖יתִי מָע֑וֹן וַתְּכַבֵּ֤ד אֶת־בָּנֶ֙יךָ֙ מִמֶּ֔נִּי לְהַבְרִיאֲכֶ֗ם מֵרֵאשִׁ֛ית כׇּל־מִנְחַ֥ת יִשְׂרָאֵ֖ל לְעַמִּֽי׃",
+      "text_kjv": "Wherefore kick ye at my sacrifice and at mine offering, which I have commanded in my habitation; and honourest thy sons above me, to make yourselves fat with the chiefest of all the offerings of Israel my people?",
+      "rendering": "Why do you trample on My sacrifice and My offering that I commanded for My dwelling? You honor your sons above Me, fattening yourselves on the best of every offering from Israel, My people.\"",
+      "translator_notes": [
+        "The verb tiv'atu ('you trample, you kick') is the language of an animal kicking against its master — the same verb used in Deuteronomy 32:15 where Israel, grown fat, 'kicked' against God. The accusation vatekhabbed et banekha mimmenni ('you honor your sons above Me') is devastating: Eli's failure to restrain his sons is not passive weakness but active idolatry — he prioritizes his sons' comfort over God's honor. The verb lehavri'akhem ('to fatten yourselves') makes the corruption physical and visceral."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "לָכֵ֗ן נְאֻם־יְהֹוָה֮ אֱלֹהֵ֣י יִשְׂרָאֵל֒ אָמ֣וֹר אָמַ֔רְתִּי בֵּיתְךָ֥ וּבֵית־אָבִ֖יךָ יִתְהַלְּכ֣וּ לְפָנַ֑י עַד־עוֹלָ֔ם וְעַתָּ֤ה נְאֻם־יְהֹוָה֙ חָלִ֣ילָה לִּ֔י כִּֽי־מְכַבְּדַ֥י אֲכַבֵּ֖ד וּבֹזַ֥י יֵקָֽלּוּ׃",
+      "text_kjv": "Wherefore the LORD God of Israel saith, I said indeed that thy house, and the house of thy father, should walk before me for ever: but now the LORD saith, Be it far from me; for them that honour me I will honour, and they that despise me shall be lightly esteemed.",
+      "rendering": "Therefore — this is the declaration of the LORD, the God of Israel — I did indeed say that your house and your ancestor's house would walk before Me forever. But now — this is the LORD's declaration — far be it from Me! For those who honor Me I will honor, and those who despise Me will be disgraced.",
+      "expanded_rendering": "This verse contains one of the most consequential theological statements in the Hebrew Bible: God revokes a promise. He had said Eli's priestly line would serve 'forever' — and now He says 'far be it from Me.' The principle He establishes is not arbitrary: honor for honor, contempt for contempt. God's covenant faithfulness does not override human accountability. A family entrusted with sacred service who treats that service with contempt will lose it. The promise was conditional on faithfulness, even if the word 'forever' seemed absolute.",
+      "translator_notes": [
+        "The phrase chalilah li ('far be it from Me') expresses God's moral revulsion at the idea of rewarding contempt with continued blessing. The principle mekhabdai akhabbed uvozai yeqallu ('those who honor Me I will honor, and those who despise Me will be disgraced') becomes a governing principle for the entire Deuteronomistic History. The verb yeqallu ('will be made light, will be disgraced') is the opposite of kaved ('to be heavy, to honor') — a wordplay: those who treat God lightly will themselves become lightweights, stripped of dignity and standing."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "הִנֵּה֙ יָמִ֣ים בָּאִ֔ים וְגָדַעְתִּ֣י אֶת־זְרֹעֲךָ֔ וְאֶת־זְרֹ֖עַ בֵּ֣ית אָבִ֑יךָ מִהְי֥וֹת זָקֵ֖ן בְּבֵיתֶֽךָ׃",
+      "text_kjv": "Behold, the days come, that I will cut off thine arm, and the arm of thy father's house, that there shall not be an old man in thine house.",
+      "rendering": "The days are coming when I will cut off your strength and the strength of your ancestor's house, so that no one in your family will reach old age.",
+      "translator_notes": [
+        "The 'arm' (zero'a) is literally the forearm but metaphorically represents strength and power. 'Cutting off the arm' means destroying the family's capacity to function and thrive. The curse of premature death — 'no old man in your house' — is the opposite of the biblical blessing of long life. The punishment fits the crime: a priestly house that consumed what belonged to God will itself be consumed."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְהִבַּטְתָּ֙ צַ֣ר מָע֔וֹן בְּכֹ֥ל אֲשֶׁר־יֵיטִ֖יב אֶת־יִשְׂרָאֵ֑ל וְלֹא־יִהְיֶ֥ה זָקֵ֛ן בְּבֵיתְךָ֖ כׇּל־הַיָּמִֽים׃",
+      "text_kjv": "And thou shalt see an enemy in my habitation, in all the wealth which God shall give Israel: and there shall not be an old man in thine house for ever.",
+      "rendering": "You will see distress in My dwelling, even though God will do good for Israel. And there will never be an old man in your house.",
+      "translator_notes": [
+        "This is one of the most difficult verses in the chapter textually. The phrase tsar ma'on is variously translated as 'distress in the dwelling,' 'an adversary in the dwelling,' or 'a rival in the habitation.' The ma'on likely refers to the sanctuary. The painful irony: Israel will prosper, but Eli's house will watch that prosperity from outside, without sharing in it. The repetition of 'no old man in your house' from verse 31 drives the curse home with doubled force."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְאִ֗ישׁ לֹֽא־אַכְרִ֤ית לְךָ֙ מֵעִ֣ם מִזְבְּחִ֔י לְכַלּ֥וֹת אֶת־עֵינֶ֖יךָ וְלַאֲדִ֣יב אֶת־נַפְשֶׁ֑ךָ וְכׇל־מַרְבִּ֥ית בֵּיתְךָ֖ יָמ֥וּתוּ אֲנָשִֽׁים׃",
+      "text_kjv": "And the man of thine, whom I shall not cut off from mine altar, shall be to consume thine eyes, and to grieve thine heart: and all the increase of thine house shall die in the flower of their age.",
+      "rendering": "Any man of yours I do not cut off from My altar will be spared only to consume your eyes with tears and to grieve your soul. All the offspring of your house will die as young men.",
+      "translator_notes": [
+        "The cruelty of the judgment is that it is not total annihilation but lingering suffering. Some descendants will survive — but only to serve as living reminders of what was lost. The phrase lekhalot et einekha ('to consume your eyes') means to watch helplessly as the family declines. The phrase la'adiv et nafshekha ('to grieve your soul') describes deep, persistent sorrow. The surviving members of Eli's line will live in perpetual mourning."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "וְזֶה־לְּךָ֣ הָא֔וֹת אֲשֶׁ֥ר יָבֹ֖א אֶל־שְׁנֵ֣י בָנֶ֑יךָ אֶל־חׇפְנִ֣י וּפִֽינְחָ֔ס בְּי֥וֹם אֶחָ֖ד יָמ֥וּתוּ שְׁנֵיהֶֽם׃",
+      "text_kjv": "And this shall be a sign unto thee, that shall come upon thy two sons, on Hophni and Phinehas; in one day they shall die both of them.",
+      "rendering": "And this will be the sign for you — what will happen to your two sons, Hophni and Phinehas: both of them will die on the same day.",
+      "translator_notes": [
+        "The sign (ot) is a confirming event that validates the larger prophecy. The deaths of Hophni and Phinehas on a single day will prove that the entire oracle is from God. This is fulfilled in 1 Samuel 4:11 when both sons die in the battle where the ark is captured. The naming of both sons — Chofni u-Finchas — makes the prophecy unmistakably specific. There is no ambiguity and no escape."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וַהֲקִימֹתִ֥י לִי֙ כֹּהֵ֣ן נֶאֱמָ֔ן כַּאֲשֶׁ֧ר בִּלְבָבִ֛י וּבְנַפְשִׁ֖י יַעֲשֶׂ֑ה וּבָנִ֤יתִי לוֹ֙ בַּ֣יִת נֶאֱמָ֔ן וְהִתְהַלֵּ֥ךְ לִפְנֵֽי־מְשִׁיחִ֖י כׇּל־הַיָּמִֽים׃",
+      "text_kjv": "And I will raise me up a faithful priest, that shall do according to that which is in mine heart and in my mind: and I will build him a sure house; and he shall walk before mine anointed for ever.",
+      "rendering": "I will raise up for Myself a faithful priest who will do what is in My heart and in My mind. I will build for him an enduring house, and he will walk before My anointed one always.",
+      "translator_notes": [
+        "The kohen ne'eman ('faithful priest') stands in direct contrast to the benei beliyya'al of verse 12. The word ne'eman ('faithful, reliable, trustworthy') shares a root with 'amen' — this priest will be an 'amen' to God's will. The phrase ka'asher bilvavi uvenafshi ('according to what is in My heart and in My mind') means the priest's actions will perfectly mirror God's intentions.",
+        "The term meshichi ('My anointed one') appears again, connecting back to Hannah's prophecy in verse 10. The faithful priest will walk 'before' (lifnei) the anointed king — a relationship of service and proximity. Historically, this is understood as pointing to Zadok, who replaced Abiathar (the last of Eli's line) under Solomon (1 Kings 2:35)."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וְהָיָ֗ה כׇּל־הַנּוֹתָר֙ בְּבֵ֣יתְךָ֔ יָב֣וֹא לְהִשְׁתַּחֲוֺ֣ת ל֔וֹ לַאֲגוֹרַ֥ת כֶּ֖סֶף וְכִכַּר־לָ֑חֶם וְאָמַ֗ר סְפָחֵ֥נִי נָ֛א אֶל־אַחַ֥ת הַכְּהֻנּ֖וֹת לֶאֱכֹ֥ל פַּת־לָֽחֶם׃",
+      "text_kjv": "And it shall come to pass, that every one that is left in thine house shall come and crouch to him for a piece of silver and a morsel of bread, and shall say, Put me, I pray thee, into one of the priests' offices, that I may eat a piece of bread.",
+      "rendering": "Everyone left in your house will come and bow down to him for a small coin and a loaf of bread, saying, 'Please assign me to one of the priestly duties so I can eat a piece of bread.'\"",
+      "translator_notes": [
+        "The final image is one of complete reversal: the descendants of the high priest, who once seized the best portions of every sacrifice in Israel, will beg for crumbs. The agorat kesef ('a small coin of silver') and kikkar lechem ('a loaf of bread') represent the smallest possible payment. The plea sefacheni na ('please attach me, assign me') uses a verb that means to join oneself to something as an appendage — not as a leader but as the lowest servant. The priests who fattened themselves on God's offerings will produce descendants who starve without them. The prophecy's arc is complete: from contemptuous plenty to humiliated poverty."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

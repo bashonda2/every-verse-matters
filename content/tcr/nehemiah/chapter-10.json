@@ -1,0 +1,432 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Nehemiah",
+    "chapter": 10,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Following the great prayer of confession in chapter 9, this chapter records the sealed covenant document: first the signatories (Nehemiah the governor, then priests, Levites, and lay leaders), and then the specific obligations the community binds itself to. The people pledge to keep the Torah, avoid intermarriage with surrounding peoples, observe the Sabbath and sabbatical year, pay an annual Temple tax, supply wood for the altar, bring firstfruits and firstborn, and support the Levites with tithes. The chapter functions as a constitutional document for the restored community.",
+    "remarkable": "This is one of the few places in the Hebrew Bible where a covenant is made not between God and Israel but among Israelites themselves, binding one another to Torah obedience. The document is simultaneously religious and administrative — it addresses worship, economics, marriage, and agricultural practice. The obligations chosen are not random; they target the exact areas where the post-exilic community was most vulnerable to compromise. Every pledge in this chapter corresponds to a violation Nehemiah will confront in chapter 13. The WLC versification begins this chapter with what English Bibles number as 9:38, making the sealed covenant the opening verse rather than the closing verse of the prayer.",
+    "friction": "The WLC (Hebrew) versification differs from most English Bibles: WLC 10:1 corresponds to English 9:38, and WLC 10:2-40 corresponds to English 10:1-39. We follow the WLC numbering with 40 verses. The long list of signatories (vv. 2-28) presents textual difficulties — some names appear in variant forms across different manuscript traditions, and the relationship between these lists and other Nehemiah name lists (chapters 7, 11, 12) is not always clear. The annual third-of-a-shekel Temple tax (v. 33) differs from the half-shekel tax of Exodus 30:13, possibly reflecting the economic hardship of the post-exilic period or a different weight standard.",
+    "connections": "The covenant form here echoes the Sinai covenant pattern: declaration of intent, listing of witnesses/parties, and specific stipulations. The intermarriage prohibition recalls Deuteronomy 7:3 and the crisis of Ezra 9-10. The Sabbath commerce ban addresses the violation Nehemiah will personally witness in 13:15-22. The firstfruits and tithe provisions draw on Numbers 18:21-32 and Deuteronomy 14:22-29. The wood offering, not prescribed in the Pentateuch, appears to be a post-exilic innovation to ensure the altar fire never went out (Leviticus 6:12-13)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וּבְכׇל־זֹ֕את אֲנַ֛חְנוּ כֹּרְתִ֥ים אֲמָנָ֖ה וְכֹתְבִ֑ים וְעַ֧ל הֶחָת֛וּם שָׂרֵ֥ינוּ לְוִיֵּ֖נוּ כֹּהֲנֵֽינוּ׃",
+      "text_kjv": "And because of all this we make a sure covenant, and write it; and our princes, our Levites, and our priests, seal unto it.",
+      "rendering": "Because of all this, we are making a binding agreement and putting it in writing. Our officials, our Levites, and our priests are affixing their seals to it.",
+      "translator_notes": [
+        "In the WLC versification, this verse opens chapter 10; in most English Bibles it appears as 9:38. The word amanah ('firm agreement, binding pledge') derives from the root aman ('to be firm, reliable') — the same root as amen and emunah. The verb koretim ('cutting') preserves the ancient covenant ritual language. The sealed document (chatum) is a legal instrument with physical seals pressed into clay or wax."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "וְעַ֖ל הַחֲתוּמִ֑ים נְחֶמְיָ֧ה הַתִּרְשָׁ֛תָא בֶּן־חֲכַלְיָ֖ה וְצִדְקִיָּֽה׃",
+      "text_kjv": "Now those that sealed were, Nehemiah, the Tirshatha, the son of Hachaliah, and Zidkijah,",
+      "rendering": "On the sealed document: Nehemiah the governor, son of Hacaliah, and Zedekiah;",
+      "translator_notes": [
+        "Nehemiah is called ha-Tirshata, a Persian administrative title meaning 'governor' (also used in Ezra 2:63 and Nehemiah 7:65, 70). He signs first as the civil authority. Zedekiah (Tsidqiyyah, 'the LORD is my righteousness') may be Nehemiah's secretary or a leading official; he appears nowhere else in the book."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "שְׂרָיָ֥ה עֲזַרְיָ֖ה יִרְמְיָֽה׃",
+      "text_kjv": "Seraiah, Azariah, Jeremiah,",
+      "rendering": "Seraiah, Azariah, Jeremiah,",
+      "translator_notes": [
+        "The priestly signatories begin here and continue through verse 9. Seraiah heads the priestly list, possibly representing the high-priestly family (see Ezra 2:2; Nehemiah 12:1). These names represent priestly clans or houses rather than necessarily individual persons — the head of each clan signs on behalf of the entire family."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "פַּשְׁח֥וּר אֲמַרְיָ֖ה מַלְכִּיָּֽה׃",
+      "text_kjv": "Pashur, Amariah, Malchijah,",
+      "rendering": "Pashhur, Amariah, Malkiah,",
+      "translator_notes": [
+        "Pashhur is a prominent priestly family name (see Ezra 2:38; Nehemiah 7:41). Amariah and Malkiah (meaning 'the LORD has spoken' and 'my king is the LORD') are common priestly names across the post-exilic literature."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "חַטּ֥וּשׁ שְׁבַנְיָ֖ה מַלּֽוּךְ׃",
+      "text_kjv": "Hattush, Shebaniah, Malluch,",
+      "rendering": "Hattush, Shebaniah, Malluk,",
+      "translator_notes": [
+        "Hattush appears among the returnees in Ezra 8:2. Malluk (also spelled Malluchi or Melicu in variant traditions) represents another priestly house. The short verse format — three names per verse — gives the list a rhythmic, formal quality appropriate to a legal document."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "חָרִ֥ם מְרֵמ֖וֹת עֹבַדְיָֽה׃",
+      "text_kjv": "Harim, Meremoth, Obadiah,",
+      "rendering": "Harim, Meremoth, Obadiah,",
+      "translator_notes": [
+        "Harim is a priestly family attested in Ezra 2:39 (1,017 members returned from exile). Meremoth son of Uriah was involved in weighing the Temple vessels (Ezra 8:33) and wall-building (Nehemiah 3:4, 21). Obadiah ('servant of the LORD') is a common name in this period."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "דָּנִיֵּ֥אל גִּנְּת֖וֹן בָּרֽוּךְ׃",
+      "text_kjv": "Daniel, Ginnethon, Baruch,",
+      "rendering": "Daniel, Ginnethon, Baruk,",
+      "translator_notes": [
+        "This Daniel is a priestly signatory, not the Daniel of the Babylonian court. Ginnethon (also Ginnetho in 12:4) is a priestly house. Baruk ('blessed') is likewise a priestly clan head signing the covenant document."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "מְשֻׁלָּ֥ם אֲבִיָּ֖ה מִיָּמִֽן׃",
+      "text_kjv": "Meshullam, Abijah, Mijamin,",
+      "rendering": "Meshullam, Abiah, Miamin,",
+      "translator_notes": [
+        "Meshullam ('repaid, made whole') is one of the most common post-exilic names. Abiah ('my father is the LORD') and Miamin ('from the right hand,' indicating favor) are priestly houses also attested in Nehemiah 12."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "מַעַזְיָ֥ה בִלְגַּ֖י שְׁמַעְיָ֑ה אֵ֖לֶּה הַכֹּהֲנִֽים׃",
+      "text_kjv": "Maaziah, Bilgai, Shemaiah: these were the priests.",
+      "rendering": "Maaziah, Bilgai, and Shemaiah. These constituted the priestly signatories.",
+      "translator_notes": [
+        "The priestly list ends with a summary formula: eleh ha-kohanim ('these were the priests'). Twenty-one priestly representatives have signed (vv. 2-9), representing the major priestly clans of the post-exilic community. Maaziah is the last of the twenty-four priestly divisions (1 Chronicles 24:18)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וְהַלְוִיִּ֑ם וְיֵשׁ֨וּעַ֙ בֶּן־אֲזַנְיָ֔ה בִּנּ֕וּי מִבְּנֵ֥י חֵנָדָ֖ד קַדְמִיאֵֽל׃",
+      "text_kjv": "And the Levites: both Jeshua the son of Azaniah, Binnui of the sons of Henadad, Kadmiel;",
+      "rendering": "And the Levites: Jeshua son of Azaniah, Binnui of the descendants of Henadad, Kadmiel,",
+      "translator_notes": [
+        "The Levitical signatories begin. Jeshua son of Azaniah heads the list. Binnui is identified by his ancestral house — 'of the sons of Henadad.' Kadmiel appears also in Ezra 2:40 and Nehemiah 9:4-5 as a Levitical leader. These are the worship and teaching leaders of the community."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַאֲחֵיהֶ֑ם שְׁבַנְיָ֥ה הוֹדִיָּ֖ה קְלִיטָֽא׃",
+      "text_kjv": "And their brethren, Shebaniah, Hodijah, Kelita,",
+      "rendering": "and their associates: Shebaniah, Hodiah, Kelita,",
+      "translator_notes": [
+        "The phrase va-acheihem ('and their brothers/associates') indicates these Levites are from the same general group but perhaps of lesser rank. Shebaniah and Hodiah appeared among the prayer leaders in 9:4-5. Kelita is also called Kelaiah in Ezra 10:23."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "פְּלָאיָ֥ה חָנָ֖ן עֲנָיָֽה׃",
+      "text_kjv": "Pelaiah, Hanan, Anaiah,",
+      "rendering": "Pelaiah, Hanan, Anaiah,",
+      "translator_notes": [
+        "Pelaiah ('the LORD has done wonders') assisted in explaining the Law in 8:7. Hanan and Anaiah are Levitical leaders; Hanan will appear again in 13:13 as a storehouse administrator. These names continue the pattern of Levites who served both liturgical and administrative functions."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "הוֹשֵׁ֥עַ עֲנָיָ֖ה חַשּֽׁוּב׃",
+      "text_kjv": "Hoshea, Anaiah, Hashub,",
+      "rendering": "Hoshea, Anaiah, Hasshub,",
+      "translator_notes": [
+        "Hoshea ('salvation') shares a root with Joshua and Jesus. The continuing Levitical list shows the depth of Levitical participation in this covenant renewal — these are not merely witnesses but active parties binding themselves to the agreement."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "הַלּוֹחֵ֥שׁ פִּלְחָ֖א שׁוֹבֵֽק׃",
+      "text_kjv": "Hallohesh, Pilha, Shobek,",
+      "rendering": "Hallohesh, Pilha, Shobek,",
+      "translator_notes": [
+        "Hallohesh ('the whisperer' or 'the enchanter') is an unusual name; his son Shallun repaired part of the wall (3:12). Pilha and Shobek appear only in this list. The Levitical section ends here, with seventeen Levitical signatories (vv. 10-14)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "רְח֥וּם חֲשַׁבְנָ֖ה מַעֲשֵׂיָֽה׃",
+      "text_kjv": "Rehum, Hashabnah, Maaseiah,",
+      "rendering": "Rehum, Hashabnah, Maaseiah,",
+      "translator_notes": [
+        "The lay leaders ('heads of the people') begin here and continue through verse 28. These represent the secular clan heads and prominent families of the post-exilic community. Rehum appears in Ezra 2:2 among the returnees. Maaseiah ('work of the LORD') is an extremely common post-exilic name."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וְאַחְיָ֥ה חָנָ֖ן עָנָֽן׃",
+      "text_kjv": "And Ahijah, Hanan, Anan,",
+      "rendering": "Ahiah, Hanan, Anan,",
+      "translator_notes": [
+        "Ahiah ('brother of the LORD') and Hanan ('gracious') are common names in this period. Anan appears only here. The brevity of each verse — typically three names — reflects the documentary character of this section: it reads like a formal registry."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "מַלּ֥וּךְ חָרִ֖ם בַּעֲנָֽה׃",
+      "text_kjv": "Malluch, Harim, Baanah.",
+      "rendering": "Malluk, Harim, Baanah,",
+      "translator_notes": [
+        "Malluk and Harim appear both in the priestly list (vv. 5-6) and here among the lay leaders — these are different individuals or families bearing the same clan name. Baanah ('son of affliction') also appears in Ezra 2:2 among the first returnees."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "רָאשֵׁ֖י הָעָ֑ם פַּרְעֹשׁ֙ פַּחַ֣ת מוֹאָ֔ב עֵילָ֥ם זַתּ֖וּא בָּנִֽי׃",
+      "text_kjv": "The chief of the people; Parosh, Pahathmoab, Elam, Zatthu, Bani,",
+      "rendering": "The heads of the people: Parosh, Pahath-moab, Elam, Zattu, Bani,",
+      "translator_notes": [
+        "The header rashei ha-am ('heads of the people') introduces the largest group of signatories. Parosh ('flea') headed the largest returning family (Ezra 2:3 — 2,172 members). Pahath-moab ('governor of Moab') is a clan name suggesting pre-exilic administrative ties to Moab. Elam and Zattu are major clan names from the return lists (Ezra 2:7-8)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "בֻּנִּ֥י עַזְגָּ֖ד בֵּבָֽי׃",
+      "text_kjv": "Bunni, Azgad, Bebai,",
+      "rendering": "Bunni, Azgad, Bebai,",
+      "translator_notes": [
+        "Azgad ('Gad is strong') led a large clan of 1,222 (Ezra 2:12) or 2,322 (Nehemiah 7:17) returnees. Bebai returned with 623 members (Ezra 2:11). These family heads represent thousands of people by their signature."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "אֲדֹנִיָּ֥ה בִגְוַ֖י עָדִֽין׃",
+      "text_kjv": "Adonijah, Bigvai, Adin,",
+      "rendering": "Adoniah, Bigvai, Adin,",
+      "translator_notes": [
+        "Adoniah ('the LORD is my master') is a common name. Bigvai is likely a Persian name adopted by this clan; his family returned with 2,056 members (Ezra 2:14). Adin ('pleasure, delight') led a clan of 454 returnees (Ezra 2:15)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "אָטֵ֥ר חִזְקִיָּ֖ה עַזּֽוּר׃",
+      "text_kjv": "Ater, Hizkijah, Azzur,",
+      "rendering": "Ater, Hizkiah, Azzur,",
+      "translator_notes": [
+        "Ater ('shut, left-handed') is a clan name from Ezra 2:16. Hizkiah (a shortened form of Hezekiah, 'the LORD strengthens') and Azzur ('helper') continue the lay leader list. These are not the famous kings or prophets of the same names but post-exilic clan heads."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "הוֹדִיָּ֥ה חָשֻׁ֖ם בֵּצָֽי׃",
+      "text_kjv": "Hodijah, Hashum, Bezai,",
+      "rendering": "Hodiah, Hashum, Bezai,",
+      "translator_notes": [
+        "Hodiah ('splendor of the LORD') appears multiple times in Nehemiah in different roles. Hashum is a large clan (Ezra 2:19 — 223 members). Bezai returned with 323 members (Ezra 2:17). The list continues to document the broad participation of the community."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "חָרִ֥יף עֲנָת֖וֹת נוֹבָֽי׃",
+      "text_kjv": "Hariph, Anathoth, Nebai,",
+      "rendering": "Hariph, Anathoth, Nobai,",
+      "translator_notes": [
+        "Hariph (or Jorah in Ezra 2:18) led a clan of 112 returnees. Anathoth is both a Benjaminite town (Jeremiah's hometown) and apparently a clan name here. Nobai appears only in this list."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "מַגְפִּיעָ֥שׁ מְשֻׁלָּ֖ם חֵזִֽיר׃",
+      "text_kjv": "Magpiash, Meshullam, Hezir,",
+      "rendering": "Magpiash, Meshullam, Hezir,",
+      "translator_notes": [
+        "Magpiash appears only here. Meshullam is the most common name in Ezra-Nehemiah, appearing at least ten times for different individuals. Hezir ('swine') is also the name of a priestly division (1 Chronicles 24:15); here it designates a lay clan."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "מְשֵׁיזַבְאֵ֥ל צָד֖וֹק יַדּֽוּעַ׃",
+      "text_kjv": "Meshezabeel, Zadok, Jaddua,",
+      "rendering": "Meshezabel, Zadok, Yaddua,",
+      "translator_notes": [
+        "Meshezabel ('God delivers') appears also in 3:4 and 11:24. Zadok ('righteous') is a name with deep priestly associations, though here it is a lay leader. Yaddua ('known') is also the name of the last high priest mentioned in the Hebrew Bible (12:11, 22)."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 26,
+      "text_hebrew": "פְּלַטְיָ֥ה חָנָ֖ן עֲנָיָֽה׃",
+      "text_kjv": "Pelatiah, Hanan, Anaiah,",
+      "rendering": "Pelatiah, Hanan, Anaiah,",
+      "translator_notes": [
+        "Pelatiah ('the LORD has delivered') is a name expressing gratitude for divine rescue. Hanan and Anaiah appear in both Levitical and lay lists, indicating these are different individuals. The repetition of names across lists reflects the limited name pool of the post-exilic community."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 27,
+      "text_hebrew": "הוֹשֵׁ֥עַ חֲנַנְיָ֖ה חַשּֽׁוּב׃",
+      "text_kjv": "Hoshea, Hananiah, Hashub,",
+      "rendering": "Hoshea, Hananiah, Hasshub,",
+      "translator_notes": [
+        "Hoshea ('salvation') shares its root with Joshua and Hosea. Hananiah ('the LORD is gracious') is a very common name (see Nehemiah 3:8, 30; 7:2). Hasshub ('considerate') worked on wall repairs (3:11, 23). The lay leader list nears completion."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 28,
+      "text_hebrew": "הַלּוֹחֵ֥שׁ פִּלְחָ֖א שׁוֹבֵֽק׃",
+      "text_kjv": "Hallohesh, Pilha, Shobek,",
+      "rendering": "Hallohesh, Pilha, Shobek,",
+      "translator_notes": [
+        "These same three names appeared in verse 14 among the Levites; here they close the lay leader list. This may reflect a scribal duplication, or these may be different individuals with the same names. The total count of named signatories is approximately eighty-four, representing the full spectrum of post-exilic leadership."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 29,
+      "text_hebrew": "וּשְׁאָ֣ר הָעָ֡ם הַכֹּהֲנִ֣ים הַ֠לְוִיִּ֠ם הַשּׁוֹעֲרִ֨ים הַמְשֹׁרְרִ֜ים הַנְּתִינִ֗ים וְֽכׇל־הַנִּבְדָּ֞ל מֵעַמֵּ֤י הָאֲרָצוֹת֙ אֶל־תּוֹרַ֣ת הָאֱלֹהִ֔ים נְשֵׁיהֶ֖ם בְּנֵיהֶ֣ם וּבְנֹתֵיהֶ֑ם כֹּ֖ל יוֹדֵ֥עַ מֵבִֽין׃",
+      "text_kjv": "And the rest of the people, the priests, the Levites, the porters, the singers, the Nethinims, and all they that had separated themselves from the people of the lands unto the law of God, their wives, their sons, and their daughters, every one having knowledge, and having understanding;",
+      "rendering": "The rest of the people — priests, Levites, gatekeepers, singers, Temple servants, and everyone who had separated from the peoples of the lands to follow the Law of God, along with their wives, sons, and daughters, everyone old enough to understand —",
+      "key_terms": [
+        {
+          "hebrew": "תּוֹרַת",
+          "transliteration": "torat",
+          "rendered_as": "Law",
+          "semantic_range": "instruction, teaching, law, direction, guidance",
+          "note": "Torah here is the standard by which separation is defined — those who have committed to God's instruction have thereby separated from the surrounding peoples. Torah is both the content of the covenant and the criterion for community membership."
+        }
+      ],
+      "translator_notes": [
+        "This verse expands the covenant signatories beyond the named leaders to the entire community. Six groups are listed: priests, Levites, gatekeepers (sho'arim), singers (meshorerim), Temple servants (netinim, literally 'given ones' — servants dedicated to Temple service), and all who separated from surrounding peoples. The phrase kol yodea mevin ('everyone knowing and understanding') sets a minimum age of comprehension for covenant participation — this is not merely a leaders' agreement but a community commitment."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 30,
+      "text_hebrew": "מַחֲזִיקִ֣ים עַל־אֲחֵיהֶ֗ם אַדִּירֵיהֶ֔ם וּבָאִ֛ים בְּאָלָ֥ה וּבִשְׁבוּעָ֖ה לָלֶ֣כֶת בְּתוֹרַ֣ת הָאֱלֹהִ֗ים אֲשֶׁ֤ר נִתְּנָה֙ בְּיַ֣ד מֹשֶׁ֣ה עֶֽבֶד־הָאֱלֹהִ֔ים וְלִשְׁמ֣וֹר וְלַעֲשׂ֔וֹת אֵ֖ת כׇּל־מִצְוֹ֥ת ׀ יְהוָ֛ה אֲדֹנֵ֖ינוּ וּמִשְׁפָּטָ֥יו וְחֻקָּֽיו׃",
+      "text_kjv": "They clave to their brethren, their nobles, and entered into a curse, and into an oath, to walk in God's law, which was given by Moses the servant of God, and to observe and do all the commandments of the LORD our Lord, and his judgments and his statutes;",
+      "rendering": "joined with their leading members and entered into a sworn oath with a curse: to walk in God's Law that was given through Moses the servant of God, and to observe and carry out all the commands of the LORD our Lord, along with his rules and his statutes.",
+      "expanded_rendering": "The phrase ba'im be-alah uvishvu'ah ('entering into a curse and an oath') indicates a self-imprecation — the signatories invoke divine punishment on themselves if they break the covenant. This is not a voluntary pledge that can be quietly dropped; it is a binding oath with consequences. The alah ('curse') is the penalty clause; the shevu'ah ('oath') is the solemn commitment. Together they form the most serious obligation available in ancient Israelite society. The content of the oath is comprehensive: to walk in (lalekhet be-) God's Torah, to observe (lishmor) and to do (la'asot) all commands, rules, and statutes. The three-fold legal vocabulary (mitsvot, mishpatim, chuqqim) covers the full body of Mosaic legislation.",
+      "translator_notes": [
+        "The verb machaziqim ('joining, holding fast to') indicates solidarity with the leaders who signed. The alah ('curse') is a standard element in ancient Near Eastern covenant making — participants call down divine wrath on themselves if they violate the terms (see Deuteronomy 27:15-26 for the Torah's curse formulas). Moses is called eved ha-Elohim ('servant of God'), establishing his mediatorial authority."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 31,
+      "text_hebrew": "וַאֲשֶׁ֗ר לֹא־נִתֵּ֤ן בְּנֹתֵ֨ינוּ֙ לְעַמֵּ֣י הָאָ֔רֶץ וְאֶת־בְּנֹ֣תֵיהֶ֔ם לֹ֥א נִקַּ֖ח לְבָנֵֽינוּ׃",
+      "text_kjv": "And that we would not give our daughters unto the people of the land, nor take their daughters for our sons:",
+      "rendering": "We will not give our daughters in marriage to the peoples of the land, and we will not take their daughters for our sons.",
+      "translator_notes": [
+        "The first specific obligation addresses intermarriage — the crisis that dominated Ezra 9-10 and will resurface in Nehemiah 13:23-28. The prohibition is bilateral: no giving daughters out and no taking daughters in. The phrase ammei ha-arets ('peoples of the land') refers to the surrounding non-Israelite populations. This pledge draws on Deuteronomy 7:3, which prohibits intermarriage as a safeguard against religious syncretism."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 32,
+      "text_hebrew": "וְעַמֵּ֣י הָאָ֡רֶץ הַמְבִיאִ֣ים אֶת־הַמַּקָּח֣וֹת וְכׇל־שֶׁ֣בֶר בְּי֣וֹם הַשַּׁבָּ֣ת לִמְכּ֡וֹר לֹא־נִקַּ֣ח מֵהֶ֣ם בַּשַּׁבָּ֣ת ׀ וּבְי֣וֹם קֹ֡דֶשׁ וְנִטֹּ֛שׁ אֶת־הַשָּׁנָ֥ה הַשְּׁבִיעִ֖ית וּמַשָּׁ֥א כׇל־יָֽד׃",
+      "text_kjv": "And if the people of the land bring ware or any victuals on the sabbath day to sell, that we would not buy it of them on the sabbath, or on the holy day: and that we would leave the seventh year, and the exaction of every debt.",
+      "rendering": "If the peoples of the land bring merchandise or any grain to sell on the Sabbath day, we will not buy from them on the Sabbath or on any holy day. We will let the land lie fallow in the seventh year and cancel every debt.",
+      "translator_notes": [
+        "Two economic sabbath obligations are combined: weekly Sabbath rest (no commerce) and the seventh-year sabbatical (land rest and debt release). The Sabbath commerce ban targets the specific violation Nehemiah will witness in 13:15-22, where Tyrian merchants sell fish and goods on the Sabbath. The seventh-year provisions draw on Exodus 23:10-11 (fallow year) and Deuteronomy 15:1-3 (debt release). The phrase massa khol yad ('the loan of every hand') means the cancellation of debts owed by fellow Israelites."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 33,
+      "text_hebrew": "וְהֶעֱמַ֤דְנוּ עָלֵ֨ינוּ֙ מִצְוֹ֔ת לָתֵ֥ת עָלֵ֖ינוּ שְׁלִשִׁ֣ית הַשָּׁ֑קֶל בַּשָּׁנָ֕ה לַעֲבֹדַ֖ת בֵּ֥ית אֱלֹהֵֽינוּ׃",
+      "text_kjv": "Also we made ordinances for us, to charge ourselves yearly with the third part of a shekel for the service of the house of our God;",
+      "rendering": "We imposed on ourselves the obligation to pay a third of a shekel each year for the service of the house of our God:",
+      "translator_notes": [
+        "The annual Temple tax of a third of a shekel (shelishit ha-shaqel) differs from the half-shekel census tax of Exodus 30:13. This may reflect the reduced economic circumstances of the post-exilic community, or it may be calculated on a different weight standard than the Exodus provision. The phrase he'emadnu aleinu mitsvot ('we established obligations upon ourselves') emphasizes that this is self-imposed communal taxation for the Temple's ongoing operation."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 34,
+      "text_hebrew": "לְלֶ֤חֶם הַמַּעֲרֶ֨כֶת֙ וּמִנְחַ֣ת הַתָּמִ֗יד וּלְעוֹלַ֣ת הַ֠תָּמִ֠יד הַשַּׁבָּת֤וֹת הֶחֳדָשִׁים֙ לַמּ֣וֹעֲדִ֔ים וְלַקֳּדָשִׁ֖ים וְלַחַטָּא֑וֹת לְכַפֵּ֥ר עַל־יִשְׂרָאֵ֖ל וְכֹ֖ל מְלֶ֥אכֶת בֵּית־אֱלֹהֵֽינוּ׃",
+      "text_kjv": "For the shewbread, and for the continual meat offering, and for the continual burnt offering, of the sabbaths, of the new moons, for the set feasts, and for the holy things, and for the sin offerings to make an atonement for Israel, and for all the work of the house of our God.",
+      "rendering": "for the rows of bread, the regular grain offering, the regular burnt offering, the Sabbath offerings, the new moon offerings, the appointed festivals, the holy offerings, the sin offerings to make atonement for Israel, and all the work of the house of our God.",
+      "translator_notes": [
+        "The Temple tax funds seven categories of worship: the lechem ha-ma'arekhet ('bread of arrangement,' the showbread of Leviticus 24:5-9), the regular grain offering (minchat ha-tamid), the daily burnt offering (olat ha-tamid), Sabbath offerings, new moon offerings, festival offerings, holy things, and sin offerings. The phrase lekhapper al Yisra'el ('to make atonement for Israel') identifies the purpose: these sacrifices maintain the covenant relationship between God and the community."
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 35,
+      "text_hebrew": "וְהַגּוֹרָל֨וֹת הִפַּ֜לְנוּ עַל־קֻרְבַּ֣ן הָעֵצִ֗ים הַכֹּהֲנִ֣ים הַלְוִיִּם֮ וְהָעָם֒ לְהָבִ֞יא לְבֵ֤ית אֱלֹהֵ֨ינוּ֙ לְבֵית־אֲבֹתֵ֔ינוּ לְעִתִּ֥ים מְזֻמָּנִ֖ים שָׁנָ֣ה בְשָׁנָ֑ה לְבַעֵ֗ר עַל־מִזְבַּ֛ח יְהוָ֥ה אֱלֹהֵ֖ינוּ כַּכָּת֥וּב בַּתּוֹרָֽה׃",
+      "text_kjv": "And we cast the lots among the priests, the Levites, and the people, for the wood offering, to bring it into the house of our God, after the houses of our fathers, at times appointed year by year, to burn upon the altar of the LORD our God, as it is written in the law:",
+      "rendering": "We cast lots among the priests, the Levites, and the people for the wood offering — to bring wood to the house of our God by ancestral houses at designated times each year, to burn on the altar of the LORD our God, as prescribed in the Law.",
+      "translator_notes": [
+        "The wood offering (qurban ha-etsim) is not explicitly commanded in the Pentateuch, but the requirement to keep the altar fire burning perpetually (Leviticus 6:12-13) necessitates a continuous wood supply. The community organized this by lot (goral), assigning specific families to deliver wood at specific times. Nehemiah 13:31 will mention this wood supply as one of Nehemiah's final accomplishments. The phrase kakkatuv ba-Torah ('as written in the Law') may refer to the general altar-fire requirement rather than a specific wood-offering law."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 36,
+      "text_hebrew": "וּלְהָבִ֞יא אֶת־בִּכּוּרֵ֤י אַדְמָתֵ֨נוּ֙ וּבִכּוּרֵ֗י כׇּל־פְּרִ֛י כׇּל־עֵ֖ץ שָׁנָ֣ה בְשָׁנָ֑ה לְבֵ֖ית יְהוָֽה׃",
+      "text_kjv": "Also the firstfruits of our ground, and the firstfruits of all fruit of all trees, year by year, unto the house of the LORD:",
+      "rendering": "We will bring the firstfruits of our soil and the firstfruits of every fruit tree, year by year, to the house of the LORD.",
+      "translator_notes": [
+        "The firstfruits obligation (bikkurim) draws on Exodus 23:19, 34:26, and Deuteronomy 26:1-11. Two categories are specified: the firstfruits of the ground (bikkurei admatenu — grain, vegetables) and the firstfruits of every fruit tree (bikkurei kol peri kol ets). The annual rhythm (shanah veshanah, 'year by year') establishes this as a permanent obligation, not a one-time commitment."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 37,
+      "text_hebrew": "וְאֶת־בְּכֹרֹ֤ת בָּנֵ֨ינוּ֙ וּבְהֶמְתֵּ֔ינוּ כַּכָּת֖וּב בַּתּוֹרָ֑ה וְאֶת־בְּכוֹרֵ֨י בְקָרֵ֜ינוּ וְצֹאנֵ֗ינוּ לְהָבִיא֙ לְבֵ֣ית אֱלֹהֵ֔ינוּ לַכֹּ֣הֲנִ֔ים הַמְשָׁרְתִ֖ים בְּבֵ֥ית אֱלֹהֵֽינוּ׃",
+      "text_kjv": "Also the firstborn of our sons, and of our cattle, as it is written in the law, and the firstlings of our herds and of our flocks, to bring to the house of our God, unto the priests that minister in the house of our God:",
+      "rendering": "We will bring the firstborn of our sons and our livestock, as prescribed in the Law, and the firstborn of our herds and flocks to the house of our God, to the priests who serve in the house of our God.",
+      "translator_notes": [
+        "The firstborn law (bekhorot) draws on Exodus 13:2, 11-16 and Numbers 18:15-18. Firstborn sons are 'redeemed' with a monetary payment (pidyon ha-ben); firstborn clean animals are sacrificed. The phrase lakohanim ha-mesharetim ('to the priests who minister') directs these offerings to the serving priesthood, who depend on these contributions for their livelihood."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 38,
+      "text_hebrew": "וְאֶת־רֵאשִׁ֣ית עֲרִיסֹתֵ֣ינוּ וּ֠תְרוּמֹתֵ֠ינוּ וּפְרִ֨י כׇל־עֵ֜ץ תִּיר֣וֹשׁ וְיִצְהָ֗ר נָבִיא֙ לַכֹּ֣הֲנִ֔ים אֶל־לִשְׁכ֖וֹת בֵּ֣ית אֱלֹהֵ֑ינוּ וּמַעְשַׂ֤ר אַדְמָתֵ֨נוּ֙ לַלְוִיִּ֔ם וְהֵם֙ הַלְוִיִּ֔ם הַֽמְעַשְּׂרִ֔ים בְּכֹ֖ל עָרֵ֥י עֲבֹדָתֵֽנוּ׃",
+      "text_kjv": "And that we should bring the firstfruits of our dough, and our offerings, and the fruit of all manner of trees, of wine and of oil, unto the priests, to the chambers of the house of our God; and the tithes of our ground unto the Levites: for they, the Levites, take the tithes in all the cities of our tillage.",
+      "rendering": "We will also bring the first of our coarse meal, our contributions, the fruit of every tree, the new wine, and the fresh oil to the priests, to the storerooms of the house of our God. We will bring the tithe of our soil to the Levites, for the Levites are the ones who collect the tithes in all our farming towns.",
+      "translator_notes": [
+        "The arisotenu ('our coarse meal' or 'our dough') refers to the first portion of grain processing (Numbers 15:20-21). The terumot ('contributions, heave offerings') are the elevated offerings set apart for the priests. The tithe (ma'aser) goes specifically to the Levites, who collect it in the agricultural towns (arei avodatenu, 'cities of our labor/farming'). This system ensures both priestly and Levitical support. The 'storerooms' (lishkot) of the Temple will become a flashpoint in 13:4-9 when Tobiah occupies one."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 39,
+      "text_hebrew": "וְהָיָ֨ה הַכֹּהֵ֧ן בֶּן־אַהֲרֹ֛ן עִם־הַלְוִיִּ֖ם בַּעְשֵׂ֣ר הַלְוִיִּ֑ם וְהַלְוִיִּ֗ם יַעֲל֤וּ אֶת־מַעֲשַׂר֙ הַֽמַּעֲשֵׂ֔ר לְבֵ֤ית אֱלֹהֵ֨ינוּ֙ אֶל־הַלְּשָׁכ֔וֹת אֶל־בֵּ֖ית הָאוֹצָֽר׃",
+      "text_kjv": "And the priest the son of Aaron shall be with the Levites, when the Levites take tithes: and the Levites shall bring up the tithe of the tithes unto the house of our God, to the chambers, into the treasure house.",
+      "rendering": "A priest, a descendant of Aaron, must be with the Levites when the Levites collect the tithes. The Levites will then bring a tenth of the tithes to the house of our God, to the storerooms of the treasury.",
+      "translator_notes": [
+        "The oversight mechanism: an Aaronic priest must be present during tithe collection, providing accountability. The 'tithe of the tithe' (ma'asar ha-ma'aser) is the Levites' own obligation — they receive the people's tithe and then give a tenth of what they receive to the priests (Numbers 18:26-28). The beit ha-otsar ('treasury house') is the Temple storehouse complex. This system will collapse in Nehemiah 13:10-13 when the Levites abandon their posts because tithes stop coming."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 40,
+      "text_hebrew": "כִּ֣י אֶל־הַ֠לְּשָׁכ֠וֹת יָבִ֨יאוּ בְנֵֽי־יִשְׂרָאֵ֜ל וּבְנֵ֣י הַלֵּוִ֗י אֶת־תְּרוּמַ֤ת הַדָּגָן֙ הַתִּיר֣וֹשׁ וְהַיִּצְהָ֔ר וְשָׁם֙ כְּלֵ֣י הַמִּקְדָּ֔שׁ וְהַכֹּהֲנִ֣ים הַמְשָׁרְתִ֔ים וְהַשּׁוֹעֲרִ֖ים וְהַמְשֹׁרְרִ֑ים וְלֹ֥א נַעֲזֹ֖ב אֶת־בֵּ֥ית אֱלֹהֵֽינוּ׃",
+      "text_kjv": "For the children of Israel and the children of Levi shall bring the offering of the corn, of the new wine, and the oil, unto the chambers, where are the vessels of the sanctuary, and the priests that minister, and the porters, and the singers: and we will not forsake the house of our God.",
+      "rendering": "For the Israelites and the Levites must bring the contributions of grain, new wine, and oil to the storerooms where the sanctuary vessels are kept, along with the serving priests, the gatekeepers, and the singers. We will not neglect the house of our God.",
+      "expanded_rendering": "The chapter ends with a comprehensive declaration: all contributions — grain, wine, oil — come to the Temple storerooms, supporting the full apparatus of worship: vessels, priests, gatekeepers, singers. The final sentence is the covenant's closing pledge and its most poignant line: velo na'azov et beit Eloheinu ('we will not neglect the house of our God'). The verb azav ('neglect, abandon, forsake') is the same verb used throughout chapter 9 for what God refused to do to Israel — 'you did not abandon them' (9:17, 19, 31). Now the people pledge not to abandon God's house. It is a direct covenant response: because God did not forsake us, we will not forsake his Temple. The tragic irony is that chapter 13 will show this very pledge being violated.",
+      "translator_notes": [
+        "The three staple contributions — grain (dagan), new wine (tirosh), and oil (yitshar) — represent the full agricultural economy of ancient Israel. The storerooms (leshakhot) are the Temple's administrative infrastructure. The closing vow — velo na'azov et beit Eloheinu ('we will not neglect the house of our God') — serves as the covenant's seal. This exact phrase becomes the standard by which Nehemiah measures the community's faithfulness in chapter 13."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}

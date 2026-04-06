@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "2 Samuel",
+    "chapter": 5,
+    "source_text": "Westminster Leningrad Codex (WLC)",
+    "reference_text": "KJV",
+    "generated_at": "2026-03-29T00:00:00Z",
+    "prompt_version": "1.3",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "All the tribes of Israel come to David at Hebron, acknowledge him as their rightful shepherd and commander, and formally anoint him king over a united Israel. David captures the Jebusite stronghold of Zion, renames it the City of David, and establishes it as his capital. Hiram of Tyre sends materials and craftsmen to build David a palace, confirming his international legitimacy. David takes additional wives and concubines, and a list of sons born in Jerusalem is recorded. The Philistines twice challenge David's new kingship, and twice the LORD grants him decisive victory -- first at Baal-perazim and then in the Valley of Rephaim, where God Himself leads the assault through the sound of marching in the treetops.",
+    "remarkable": "This chapter records the political and theological climax of David's long ascent: the anointing that was private in 1 Samuel 16 is now ratified publicly by every tribe. The Hebrew makes the transition stark -- the same nation that followed Saul and then fractured between Ish-bosheth and David now speaks with a single voice: 'We are your bone and your flesh.' The capture of Jerusalem is equally significant. The Jebusites taunt David that even the blind and the lame could defend their fortress, yet David takes it anyway, seizing a city that belonged to no Israelite tribe and making it the capital of all twelve -- a stroke of political genius that avoids tribal jealousy. The Philistine battles at the end reveal a David utterly unlike Saul: he inquires of the LORD before each engagement and obeys precisely, even when God gives different instructions for the second battle. The sound of marching in the balsam trees (v. 24) is one of Scripture's most vivid images of divine warfare -- God's invisible army moving ahead of David's visible one.",
+    "friction": "Verse 6 contains one of the most debated passages in Samuel. The Jebusites' taunt about 'the blind and the lame' and David's apparent counter-statement that 'the blind and the lame shall not come into the house' has generated centuries of interpretive difficulty. Does David issue a permanent ban on disabled persons from the temple? Is this a proverb about the Jebusites? The Hebrew is compressed and likely idiomatic. We render the exchange as a military taunt and counter-taunt about the Jebusites' confidence, not as legislation about disabled persons. The phrase in verse 8 about the tsinnor ('water shaft' or 'gutter') through which the city was taken is also notoriously obscure -- the word occurs only here and in Psalm 42:8, and its exact meaning remains uncertain. We render it as 'water channel' with a note on the ambiguity. Verse 2 uses nagid ('prince, designated ruler') rather than melek ('king'), preserving the theological distinction that God designates and the people confirm.",
+    "connections": "David's anointing at Hebron fulfills Samuel's anointing in 1 Samuel 16:13, completing a journey that spans nearly twenty chapters. The covenant (berit) David cuts with the elders in verse 3 echoes the covenant-making pattern established at Sinai (Exodus 24:7-8) and renewed by Joshua (Joshua 24:25) -- Israel's leadership transitions are marked by formal covenant ratification. The capture of Zion anticipates the Ark's arrival in chapter 6 and Solomon's temple in 1 Kings 6 -- David is preparing the stage for God's permanent dwelling. The Philistine defeats reverse the disaster of 1 Samuel 4 and 31; the nation that killed Saul on Gilboa is now routed by Saul's successor. God's instruction to circle behind the Philistines and wait for the sound in the trees (v. 24) echoes the holy-war pattern where the LORD fights while Israel follows (Exodus 14:14, Joshua 5:13-15, Judges 4:14)."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "text_hebrew": "וַיָּבֹ֜אוּ כׇּל־שִׁבְטֵ֧י יִשְׂרָאֵ֛ל אֶל־דָּוִ֖ד חֶבְר֑וֹנָה וַיֹּאמְר֣וּ לֵאמֹ֔ר הִנְּנ֛וּ עַצְמְךָ֥ וּבְשָׂרְךָ֖ אֲנָֽחְנוּ׃",
+      "text_kjv": "Then came all the tribes of Israel to David unto Hebron, and spake, saying, Behold, we are thy bone and thy flesh.",
+      "rendering": "All the tribes of Israel came to David at Hebron and declared, \"We are your bone and your flesh.\"",
+      "expanded_rendering": "The phrase atsmekha uvsarekha anachnu ('your bone and your flesh we are') is the language of kinship and covenant loyalty, not mere biological descent. It echoes Adam's recognition of Eve in Genesis 2:23 -- 'bone of my bones and flesh of my flesh' -- and carries the force of an oath: we belong to you, we are bound to you, we recognize you as our own. After years of civil division between the house of Saul and the house of David, all twelve tribes now speak with one voice and one claim: kinship loyalty that demands political unity under David.",
+      "translator_notes": [
+        "The tribes come to David, not the reverse. The verb vayyavo'u ('they came') emphasizes that this is a voluntary convergence -- David does not summon or coerce. Hebron, David's capital during the seven-year civil period, serves as the meeting place. The declaration hinnenu ('here we are') carries overtones of covenant readiness, the same word Abraham uses in response to God (Genesis 22:1)."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "עַצְמְךָ וּבְשָׂרְךָ",
+          "transliteration": "atsmekha uvsarekha",
+          "rendered_as": "your bone and your flesh",
+          "semantic_range": "bone and flesh; kinship, blood relation, covenant solidarity",
+          "note": "This formula expresses the deepest possible claim of shared identity. It appears in covenant and kinship contexts (Genesis 2:23, Genesis 29:14, Judges 9:2) and functions as both a statement of fact and a pledge of allegiance. The tribes are not merely acknowledging biology -- they are binding themselves to David."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 2,
+      "text_hebrew": "גַּם־תְּמ֣וֹל גַּם־שִׁלְשֹׁ֗ם בִּהְי֨וֹת שָׁא֤וּל מֶ֙לֶךְ֙ עָלֵ֔ינוּ אַתָּ֗ה הָיִ֛יתָ הַמּוֹצִ֥יא וְהַמֵּבִ֖יא אֶת־יִשְׂרָאֵ֑ל וַיֹּ֨אמֶר יְהֹוָ֜ה לְךָ֗ אַתָּ֨ה תִרְעֶ֤ה אֶת־עַמִּי֙ אֶת־יִשְׂרָאֵ֔ל וְאַתָּ֛ה תִּהְיֶ֥ה לְנָגִ֖יד עַל־יִשְׂרָאֵֽל׃",
+      "text_kjv": "Also in time past, when Saul was king over us, thou wast he that leddest out and broughtest in Israel: and the LORD said to thee, Thou shalt feed my people Israel, and thou shalt be a captain over Israel.",
+      "rendering": "Even before, when Saul was king over us, you were the one leading Israel out and bringing them back. And the LORD said to you, 'You will shepherd My people Israel, and you will be leader over Israel.'",
+      "translator_notes": [
+        "The phrase gam temol gam shilshom ('also yesterday also the day before') is idiomatic for 'in the past, previously.' It acknowledges David's leadership during Saul's reign without directly condemning Saul -- a diplomatically careful statement.",
+        "The verb tir'eh ('you will shepherd') frames kingship as pastoral care, not domination. Israel's king is a shepherd first -- responsible for feeding, protecting, and guiding the flock. This metaphor governs the entire Davidic theology and reaches forward to Ezekiel 34 and the messianic 'good shepherd' tradition."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "נָגִיד",
+          "transliteration": "nagid",
+          "rendered_as": "leader",
+          "semantic_range": "prince, ruler, designated leader, commander, one placed at the front",
+          "note": "Nagid is distinct from melek ('king'). A nagid is God's appointee -- the one whom the LORD has designated to lead. Saul was first called nagid (1 Samuel 9:16), and now the title transfers to David. The word carries the theological weight that kingship in Israel is not self-made but divinely conferred. The people may anoint, but God designates."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 3,
+      "text_hebrew": "וַ֠יָּבֹ֠אוּ כׇּל־זִקְנֵ֨י יִשְׂרָאֵ֤ל אֶל־הַמֶּ֙לֶךְ֙ חֶבְר֔וֹנָה וַיִּכְרֹ֣ת לָהֶם֩ הַמֶּ֨לֶךְ דָּוִ֥ד בְּרִ֛ית בְּחֶבְר֖וֹן לִפְנֵ֣י יְהֹוָ֑ה וַיִּמְשְׁח֧וּ אֶת־דָּוִ֛ד לְמֶ֖לֶךְ עַל־יִשְׂרָאֵֽל׃",
+      "text_kjv": "So all the elders of Israel came to the king to Hebron; and king David made a league with them in Hebron before the LORD: and they anointed David king over Israel.",
+      "rendering": "All the elders of Israel came to the king at Hebron, and King David cut a covenant with them at Hebron before the LORD. Then they anointed David king over all Israel.",
+      "expanded_rendering": "The verb vayyikhrot ('he cut') preserves the ancient covenant-making ritual in which an animal was cut in two and the parties passed between the halves (cf. Genesis 15:9-18, Jeremiah 34:18). David does not simply receive a crown -- he enters a binding agreement with the elders, with the LORD as witness. The phrase lifnei YHWH ('before the LORD') elevates this from a political negotiation to a sacred ceremony: God is not merely invoked but present as guarantor. This is a constitutional moment -- the king's power is not absolute but covenanted, bounded by mutual obligation. Only after the covenant is ratified do they anoint David, making the anointing the seal on an agreement already struck.",
+      "translator_notes": [
+        "The sequence matters: covenant first, then anointing. David binds himself to obligations toward the people before receiving the oil of kingship. This pattern distinguishes Israelite monarchy from ancient Near Eastern despotism -- the king serves under covenant, not above it.",
+        "This is David's third anointing: first by Samuel privately (1 Samuel 16:13), then by the men of Judah (2 Samuel 2:4), and now by all Israel. Each anointing expands the scope of his authority -- from divine designation to tribal recognition to national confirmation."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בְּרִית",
+          "transliteration": "berit",
+          "rendered_as": "covenant",
+          "semantic_range": "covenant, treaty, pact, binding agreement, alliance",
+          "note": "The berit is the foundational concept of Israelite theology and politics. Here it establishes a constitutional relationship between king and people under God's oversight. David's covenant with the elders mirrors the Sinai pattern: mutual obligation, divine witness, formal ratification. The king gains authority; the people gain protection and accountability."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 4,
+      "text_hebrew": "בֶּן־שְׁלֹשִׁ֥ים שָׁנָ֛ה דָּוִ֖ד בְּמׇלְכ֑וֹ אַרְבָּעִ֥ים שָׁנָ֖ה מָלָֽךְ׃",
+      "text_kjv": "David was thirty years old when he began to reign, and he reigned forty years.",
+      "rendering": "David was thirty years old when he became king, and he reigned for forty years.",
+      "translator_notes": [
+        "This summary formula is characteristic of the regnal records embedded in Samuel-Kings. Thirty was the age of full maturity in ancient Israel -- the age at which Levites entered full service (Numbers 4:3). Forty years is the conventional number for a complete generation of leadership (Moses, the wilderness period, Eli, Solomon). Whether precisely literal or typological, it signals that David's reign was complete and full."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 5,
+      "text_hebrew": "בְּחֶבְר֣וֹן מָלַ֗ךְ עַל־יְהוּדָה֙ שֶׁ֣בַע שָׁנִ֔ים וְשִׁשָּׁ֖ה חֳדָשִׁ֑ים וּבִירוּשָׁלַ֣‍ִם מָלַ֗ךְ שְׁלֹשִׁ֤ים וְשָׁלֹשׁ֙ שָׁנָ֔ה עַל־כׇּל־יִשְׂרָאֵ֖ל וִיהוּדָֽה׃",
+      "text_kjv": "In Hebron he reigned over Judah seven years and six months: and in Jerusalem he reigned thirty and three years over all Israel and Judah.",
+      "rendering": "He ruled over Judah from Hebron for seven years and six months, then ruled from Jerusalem over all Israel and Judah for thirty-three years.",
+      "translator_notes": [
+        "The precision of 'seven years and six months' for the Hebron period contrasts with the round number of thirty-three for Jerusalem, suggesting the narrator drew on different record sources. The distinction between reigning 'over Judah' and 'over all Israel and Judah' marks the political transformation: David's move to Jerusalem coincides with his authority expanding from one tribe to the entire nation."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 6,
+      "text_hebrew": "וַיֵּ֨לֶךְ הַמֶּ֜לֶךְ וַאֲנָשָׁ֗יו יְרוּשָׁלַ֙‍ִם֙ אֶל־הַיְבוּסִ֔י יוֹשֵׁ֖ב הָאָ֑רֶץ וַיֹּ֨אמֶר לְדָוִ֜ד לֵאמֹ֗ר לֹא־תָב֣וֹא הֵ֔נָּה כִּ֣י אִם־הֱסִֽירְךָ֗ הַעִוְרִ֤ים וְהַפִּסְחִים֙ לֵאמֹ֔ר לֹא־יָב֥וֹא דָוִ֖ד הֵֽנָּה׃",
+      "text_kjv": "And the king and his men went to Jerusalem unto the Jebusites, the inhabitants of the land: which spake unto David, saying, Except thou take away the blind and the lame, thou shalt not come in hither: thinking, David cannot come in hither.",
+      "rendering": "The king and his men marched to Jerusalem against the Jebusites, the inhabitants of the land. They said to David, \"You will never get in here -- even the blind and the lame could turn you back!\" They were certain David could not enter.",
+      "expanded_rendering": "The Jebusite taunt is military bravado at its most contemptuous. The phrase ha'ivrim vehapiskhim ('the blind and the lame') functions as a proverb of invulnerability: our fortress is so impregnable that even our disabled defenders could hold it against you. Jerusalem sat on a narrow ridge with steep valleys on three sides, and the Jebusites had held it since before the conquest -- neither Joshua nor the judges had taken it. Their confidence was grounded in geography and centuries of successful defense. The narrator records this taunt so the reader feels the full weight of what David is about to accomplish: the impossible fortress falls to the covenant king.",
+      "translator_notes": [
+        "This verse is notoriously difficult in Hebrew. The phrase ki im hesirekha ha'ivrim vehapiskhim is compressed and likely idiomatic. The meaning appears to be a scornful challenge: you cannot enter unless you first remove even the blind and lame (who are sufficient to defend it). The Jebusites are not describing their actual garrison but mocking David's capacity to breach their walls.",
+        "Jerusalem (Yerushalaim) was strategically positioned between the tribal territories of Judah and Benjamin, belonging fully to neither. By capturing a non-Israelite city, David avoided the political problem of ruling from any single tribe's territory -- a masterstroke that would make Jerusalem a truly national capital."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הַיְבוּסִי",
+          "transliteration": "haYevusi",
+          "rendered_as": "the Jebusites",
+          "semantic_range": "Jebusites (Canaanite people); inhabitants of Jebus/Jerusalem",
+          "note": "The Jebusites were a pre-Israelite Canaanite people who held Jerusalem (called Jebus in Judges 19:10) for centuries. Their continued presence in the heart of Israelite territory was a reminder of the incomplete conquest. David's capture of their stronghold completes what Joshua began."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 7,
+      "text_hebrew": "וַיִּלְכֹּ֣ד דָּוִ֔ד אֵ֖ת מְצֻדַ֣ת צִיּ֑וֹן הִ֖יא עִ֥יר דָּוִֽד׃",
+      "text_kjv": "Nevertheless David took the strong hold of Zion: the same is the city of David.",
+      "rendering": "But David captured the stronghold of Zion -- that is, the City of David.",
+      "expanded_rendering": "The terseness of the Hebrew is itself a statement. After the Jebusites' elaborate taunt, the narrator records David's conquest in eight words: vayyilkod David et metsudat Tsiyyon. No battle description, no casualty report, no dramatic siege narrative -- just the bare fact of capture. The metsudah ('stronghold, fortress') was the fortified citadel on the southeastern ridge of Jerusalem, the oldest and most defensible part of the city. The narrator immediately renames it: hi ir David ('that is the City of David'). In a single verse, centuries of Jebusite occupation end and a new identity is imposed. Zion -- a name whose etymology is uncertain but may relate to tsiyyah ('dry, parched place') or to a root meaning 'protect, defend' -- enters the theological vocabulary of Israel. From this point forward, Zion will become the symbol of God's chosen dwelling, the seat of the Davidic dynasty, and the prophetic hope of restoration. All of that begins here, in this spare sentence.",
+      "translator_notes": [
+        "The word metsudah ('stronghold, fortress') comes from the root ts-w-d, meaning 'to hunt, to capture' -- the stronghold is named for its capacity to trap and defend. That David captures the capture-proof fortress is embedded in the word itself.",
+        "The identification hi ir David ('that is the City of David') is an editorial note that fixes the name for all subsequent readers. The City of David is not the entirety of later Jerusalem but specifically the original Jebusite citadel on the Ophel ridge -- a narrow spur south of what would become the Temple Mount."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "מְצֻדַת צִיּוֹן",
+          "transliteration": "metsudat Tsiyyon",
+          "rendered_as": "stronghold of Zion",
+          "semantic_range": "fortress, stronghold, citadel; Zion (place name, later theological symbol)",
+          "note": "This is the first occurrence of the name Zion attached to David's conquest, and it marks the beginning of Zion's transformation from a Jebusite fortress name into one of the most theologically loaded words in the Hebrew Bible. In the Psalms and Prophets, Zion becomes synonymous with God's presence, His chosen city, and the hope of ultimate redemption. Every later use of 'Zion' reaches back to this moment -- David's capture of an impregnable fortress that God gave him."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 8,
+      "text_hebrew": "וַיֹּ֨אמֶר דָּוִ֜ד בַּיּ֣וֹם הַה֗וּא כׇּל־מַכֵּ֤ה יְבוּסִי֙ וְיִגַּ֣ע בַּצִּנּ֔וֹר וְאֶת־הַפִּסְחִים֙ וְאֶת־הַעִוְרִ֔ים שְׂנֻאֵ֖י נֶ֣פֶשׁ דָּוִ֑ד עַל־כֵּן֙ יֹֽאמְר֔וּ עִוֵּ֣ר וּפִסֵּ֔חַ לֹ֥א יָב֖וֹא אֶל־הַבָּֽיִת׃",
+      "text_kjv": "And David said on that day, Whosoever getteth up to the gutter, and smiteth the Jebusites, and the lame and the blind, that are hated of David's soul, he shall be chief and captain. Wherefore they said, The blind and the lame shall not come into the house.",
+      "rendering": "David said on that day, \"Whoever strikes down the Jebusites -- let him reach the water channel! -- and the lame and the blind whom David despises...\" For this reason people say, \"The blind and the lame will not enter the house.\"",
+      "translator_notes": [
+        "The tsinnor is the crux of this verse. The word appears only here and in Psalm 42:8 (where it means 'waterfall' or 'water channel'). Most scholars connect it to Warren's Shaft or a similar underground water access point in ancient Jerusalem. The strategy would involve soldiers ascending through the water system to bypass the walls -- a commando-style infiltration that renders the 'impregnable' fortress vulnerable from within.",
+        "The verse's grammar is broken or compressed, likely because the narrator is summarizing a well-known military tradition in shorthand. The 1 Chronicles 11:6 parallel clarifies that Joab was the first to go up and thereby earned the position of commander -- a detail this verse implies but does not state."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "צִנּוֹר",
+          "transliteration": "tsinnor",
+          "rendered_as": "water channel",
+          "semantic_range": "water shaft, channel, gutter, watercourse, pipe",
+          "note": "This rare word has generated extensive archaeological and linguistic debate. The most widely accepted interpretation connects it to the underground water systems discovered beneath ancient Jerusalem, which would have provided a covert entry point for attackers. If correct, David's conquest of the 'impregnable' city was achieved not by overwhelming force but by exploiting a hidden vulnerability."
+        }
+      ],
+      "reading_level": "10th grade"
+    },
+    {
+      "verse": 9,
+      "text_hebrew": "וַיֵּ֥שֶׁב דָּוִ֖ד בַּמְּצֻדָ֑ה וַיִּקְרָא־לָ֖הּ עִ֥יר דָּוִֽד וַיִּ֤בֶן דָּוִד֙ סָבִ֔יב מִן־הַמִּלּ֖וֹא וָבָֽיְתָה׃",
+      "text_kjv": "So David dwelt in the fort, and called it the city of David. And David built round about from Millo and inward.",
+      "rendering": "David settled in the stronghold and named it the City of David. Then David built up the surrounding area from the Millo inward.",
+      "translator_notes": [
+        "The verb vayyeshev ('he settled, dwelt') marks the transition from conquest to residency -- David does not merely capture the citadel but makes it his permanent home. The renaming is an act of political claim: the anonymous Jebusite fortress becomes ir David, permanently associated with the new dynasty.",
+        "The Millo (from the root m-l-', 'to fill') refers to a terraced fill structure that expanded the usable area of Jerusalem's narrow ridge. Archaeological work on the southeastern hill has uncovered massive stone terracing that may correspond to this Millo. Building 'from the Millo inward' suggests David constructed or reinforced the outer terracing and then developed the interior -- a program of urban expansion that transformed a captured citadel into a royal capital."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "הַמִּלּוֹא",
+          "transliteration": "hammillo",
+          "rendered_as": "the Millo",
+          "semantic_range": "the Millo (a fill, terrace, or rampart structure); from mala' ('to fill')",
+          "note": "The Millo appears repeatedly in Jerusalem's building history (1 Kings 9:15, 9:24, 11:27; 2 Kings 12:20). It was likely a massive stone-and-earth fill that created level building platforms on the steep slopes of the City of David. Its construction and repair were significant royal projects for both David and Solomon."
+        }
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 10,
+      "text_hebrew": "וַיֵּ֥לֶךְ דָּוִ֖ד הָל֣וֹךְ וְגָד֑וֹל וַיהֹוָ֛ה אֱלֹהֵ֥י צְבָא֖וֹת עִמּֽוֹ׃",
+      "text_kjv": "And David went on, and grew great, and the LORD God of hosts was with him.",
+      "rendering": "David continued to grow greater, and the LORD God of Armies was with him.",
+      "expanded_rendering": "The Hebrew halokh vegadol ('going and becoming great') is an infinitive absolute construction expressing continuous, unstoppable growth. David does not merely succeed -- he rises in an unbroken trajectory. But the narrator immediately attributes this to the source: YHWH Elohei Tseva'ot immo ('the LORD God of Armies was with him'). The divine title Tseva'ot ('Armies, Hosts') is significant in context -- David's military victories are not the product of his own generalship but of the God who commands the heavenly armies. The phrase immo ('with him') is the covenant promise in its most compressed form: God's presence with His chosen one. This single verse serves as the theological thesis statement for all of David's rise.",
+      "translator_notes": [
+        "The title YHWH Elohei Tseva'ot ('the LORD God of Armies/Hosts') appears here to frame David's expanding power as divine, not merely political. The 'armies' may refer to Israel's forces, the angelic hosts, or the cosmic powers under God's command -- likely all three simultaneously. We render Tseva'ot as 'Armies' rather than the traditional 'hosts' to preserve the military force of the title."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 11,
+      "text_hebrew": "וַ֠יִּשְׁלַ֠ח חִירָ֨ם מֶֽלֶךְ־צֹ֥ר מַלְאָכִים֮ אֶל־דָּוִד֒ וַעֲצֵ֣י אֲרָזִ֔ים וְחָרָשֵׁ֣י עֵ֔ץ וְחָרָשֵׁ֖י אֶ֣בֶן קִ֑יר וַיִּבְנוּ־בַ֖יִת לְדָוִֽד׃",
+      "text_kjv": "And Hiram king of Tyre sent messengers to David, and cedar trees, and carpenters, and masons: and they built David an house.",
+      "rendering": "Hiram king of Tyre sent envoys to David, along with cedar timber, woodworkers, and stonemasons, and they built David a palace.",
+      "translator_notes": [
+        "Hiram's initiative is significant: a foreign king sends materials and skilled labor to David unsolicited. This is diplomatic recognition from the most powerful commercial city on the Mediterranean coast. Tyre's cedar wood was the premier building material of the ancient Near East -- its use signaled wealth, permanence, and royal status. The construction of a bayit ('house, palace') in Jerusalem transforms David from a military occupier into an established monarch with international standing.",
+        "The word bayit ('house') will become theologically loaded in chapter 7, where God promises to build David a 'house' (dynasty) in return. Here the physical house foreshadows the dynastic house -- David builds a palace, and God will build a lineage."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 12,
+      "text_hebrew": "וַיֵּ֣דַע דָּוִ֔ד כִּֽי־הֱכִינ֧וֹ יְהֹוָ֛ה לְמֶ֖לֶךְ עַל־יִשְׂרָאֵ֑ל וְכִי֙ נִשֵּׂ֣א מַמְלַכְתּ֔וֹ בַּעֲב֖וּר עַמּ֥וֹ יִשְׂרָאֵֽל׃",
+      "text_kjv": "And David perceived that the LORD had established him king over Israel, and that he had exalted his kingdom for his people Israel's sake.",
+      "rendering": "David recognized that the LORD had established him as king over Israel and had elevated his kingdom for the sake of His people Israel.",
+      "expanded_rendering": "This verse records David's theological self-understanding at the peak of his political success. The verb vayyeda ('he recognized, he knew') implies not arrogance but clarity: David sees that his kingship is not self-achieved but divinely established (hekino, from the root k-w-n, meaning 'to establish, to make firm, to prepare'). More remarkably, David grasps the purpose: his kingdom was elevated ba'avur ammo Yisrael ('for the sake of His people Israel'). The kingdom exists to serve the people, not the reverse. This is the covenant king's charter -- power received from God, exercised for God's people. It stands in deliberate contrast to the warning about kings in 1 Samuel 8:11-18, where the king would take and take. David understands that he was given.",
+      "translator_notes": [
+        "The verb hekino ('He established him') from the root k-w-n is the same root used in God's promise to establish David's throne forever (2 Samuel 7:12-16). The narrator anticipates the dynastic covenant by using its key vocabulary here.",
+        "The phrase ba'avur ammo Yisrael ('for the sake of His people Israel') is the theological corrective to royal self-aggrandizement. David's kingdom is instrumental -- it exists as a means to bless Israel, not as an end in itself."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 13,
+      "text_hebrew": "וַיִּקַּ֣ח דָּוִ֗ד ע֚וֹד פִּֽלַגְשִׁ֣ים וְנָשִׁ֔ים מִירוּשָׁלַ֔‍ִם אַחֲרֵ֖י בֹּא֣וֹ מֵחֶבְר֑וֹן וַיִּוָּ֤לְדוּ עוֹד֙ לְדָוִ֔ד בָּנִ֖ים וּבָנֽוֹת׃",
+      "text_kjv": "And David took him more concubines and wives out of Jerusalem, after he was come from Hebron: and there were yet sons and daughters born to David.",
+      "rendering": "David took more concubines and wives from Jerusalem after he came from Hebron, and more sons and daughters were born to David.",
+      "translator_notes": [
+        "The narrator records this without explicit commentary, but the placement immediately after David's recognition that his kingdom serves God's people creates an implicit tension. Multiple marriages were standard practice for ancient Near Eastern kings -- they cemented political alliances and demonstrated royal status. Yet Deuteronomy 17:17 warns that the king 'must not acquire many wives for himself, or his heart will turn away.' The seeds of future crisis (Amnon, Absalom, Adonijah) are planted in this single verse.",
+        "The distinction between nashim ('wives') and pilagshim ('concubines') reflects legal status: wives had full marriage contracts and inheritance rights for their children, while concubines had a recognized but subordinate position."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 14,
+      "text_hebrew": "וְאֵ֗לֶּה שְׁמ֤וֹת הַיִּלֹּדִים֙ ל֣וֹ בִירוּשָׁלַ֔‍ִם שַׁמּ֣וּעַ וְשׁוֹבָ֔ב וְנָתָ֖ן וּשְׁלֹמֹֽה׃",
+      "text_kjv": "And these be the names of those that were born unto him in Jerusalem; Shammuah, and Shobab, and Nathan, and Solomon,",
+      "rendering": "These are the names of those born to him in Jerusalem: Shammua, Shobab, Nathan, and Solomon,",
+      "translator_notes": [
+        "The list of sons born in Jerusalem signals dynastic establishment. Of these four, Nathan and Solomon are the most significant for later history. Solomon will succeed David as king, and Nathan appears in the genealogy of Jesus in Luke 3:31. The names themselves carry meaning: Shammua ('heard'), Shobab ('returned' or possibly 'rebellious'), Nathan ('He gave'), and Shelomoh/Solomon ('his peace, his wholeness')."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 15,
+      "text_hebrew": "וְיִבְחָ֣ר וֶאֱלִישׁ֔וּעַ וְנֶ֖פֶג וְיָפִֽיעַ׃",
+      "text_kjv": "Ibhar also, and Elishua, and Nepheg, and Japhia,",
+      "rendering": "Ibhar, Elishua, Nepheg, and Japhia,",
+      "translator_notes": [
+        "The names continue the dynastic register. Ibhar ('He chooses'), Elishua ('My God is salvation'), Nepheg ('sprout'), and Japhia ('He shines'). Several of these names are theophoric -- containing embedded references to God's character and action. The naming of royal sons was itself a theological statement: each name proclaimed something about the God who gave the king his dynasty."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 16,
+      "text_hebrew": "וֶאֱלִישָׁמָ֣ע וְאֶלְיָדָ֔ע וֶאֱלִיפָֽלֶט׃",
+      "text_kjv": "And Elishama, and Eliada, and Eliphalet.",
+      "rendering": "Elishama, Eliada, and Eliphelet.",
+      "translator_notes": [
+        "The final three sons all bear names beginning with El- ('God'): Elishama ('My God has heard'), Eliada ('God knows'), and Eliphelet ('My God is deliverance'). The concentration of theophoric names in David's household reflects the theological conviction that every child is a gift from God and every name is a confession of faith. The parallel list in 1 Chronicles 3:5-8 includes additional names, suggesting that this list may be selective rather than exhaustive."
+      ],
+      "reading_level": "6th grade"
+    },
+    {
+      "verse": 17,
+      "text_hebrew": "וַיִּשְׁמְע֣וּ פְלִשְׁתִּ֗ים כִּי־מָשְׁח֨וּ אֶת־דָּוִ֤ד לְמֶ֙לֶךְ֙ עַל־יִשְׂרָאֵ֔ל וַיַּעֲל֥וּ כׇל־פְּלִשְׁתִּ֖ים לְבַקֵּ֣שׁ אֶת־דָּוִ֑ד וַיִּשְׁמַ֣ע דָּוִ֔ד וַיֵּ֖רֶד אֶל־הַמְּצוּדָֽה׃",
+      "text_kjv": "But when the Philistines heard that they had anointed David king over Israel, all the Philistines came up to seek David; and David heard of it, and went down to the hold.",
+      "rendering": "When the Philistines heard that David had been anointed king over Israel, all the Philistines came up to find him. David heard of it and went down to the stronghold.",
+      "translator_notes": [
+        "The Philistines had tolerated David as a Judahite vassal king ruling from Hebron -- a divided Israel served their interests. A united Israel under David was a different matter entirely, demanding immediate military response. The phrase kol Pelishtim ('all the Philistines') indicates a full military mobilization, not a raiding party."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 18,
+      "text_hebrew": "וּפְלִשְׁתִּ֖ים בָּ֑אוּ וַיִּנָּטְשׁ֖וּ בְּעֵ֥מֶק רְפָאִֽים׃",
+      "text_kjv": "The Philistines also came and spread themselves in the valley of Rephaim.",
+      "rendering": "The Philistines came and spread out across the Valley of Rephaim.",
+      "translator_notes": [
+        "The verb vayyinateshu ('they spread out, deployed') is military language describing an army taking up battle positions across a wide area. The Valley of Rephaim (emeq Refa'im) lies southwest of Jerusalem, providing a natural invasion corridor toward the new capital. The name Rephaim carries overtones of the ancient giant warriors (cf. Genesis 15:20, Deuteronomy 2:11) and of the shades of the dead -- an ominous valley for a decisive confrontation.",
+        "The Philistines' choice of terrain is strategic: by occupying the valley between their territory and Jerusalem, they threaten to cut David off from Judah and reverse his consolidation of power."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 19,
+      "text_hebrew": "וַיִּשְׁאַ֤ל דָּוִד֙ בַּיהֹוָ֣ה לֵאמֹ֔ר הַאֶעֱלֶ֖ה אֶל־פְּלִשְׁתִּ֑ים הֲתִתְּנֵ֣ם בְּיָדִ֔י וַיֹּ֤אמֶר יְהֹוָה֙ אֶל־דָּוִ֔ד עֲלֵ֕ה כִּֽי־נָתֹ֥ן אֶתֵּ֛ן אֶת־הַפְּלִשְׁתִּ֖ים בְּיָדֶֽךָ׃",
+      "text_kjv": "And David enquired of the LORD, saying, Shall I go up to the Philistines? wilt thou deliver them into mine hand? And the LORD said unto David, Go up: for I will doubtless deliver the Philistines into thine hand.",
+      "rendering": "David inquired of the LORD, \"Should I go up against the Philistines? Will You give them into my hand?\" The LORD said to David, \"Go up, for I will certainly give the Philistines into your hand.\"",
+      "expanded_rendering": "David's inquiry before battle is the defining mark of his kingship in contrast to Saul's. The verb vayyish'al ('he inquired, he asked') is the same root as the name Sha'ul (Saul) -- the one whose name means 'asked for' failed to ask, while David, who was never asked for, always asks. The double emphasis in God's response -- naton etten ('I will certainly give,' an infinitive absolute for emphasis) -- provides absolute assurance. God does not merely permit the battle; He guarantees the outcome. David fights, but the victory is God's gift.",
+      "translator_notes": [
+        "The inquiry was likely made through the priestly ephod, using the Urim and Thummim (cf. 1 Samuel 23:9-12, 30:7-8). David's two questions -- 'Should I go up?' and 'Will You give them to me?' -- seek both tactical permission and theological assurance. God answers both with a single response: go, and I will give.",
+        "The infinitive absolute construction naton etten ('giving I will give') expresses certainty and emphasis. God's promise is not conditional or tentative -- it is guaranteed."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 20,
+      "text_hebrew": "וַיָּבֹ֨א דָוִ֜ד בְּבַ֤עַל פְּרָצִים֙ וַיַּכֵּ֣ם שָׁ֣ם דָּוִ֔ד וַיֹּ֕אמֶר פָּרַ֨ץ יְהֹוָ֧ה אֶת־אֹיְבַ֛י לְפָנַ֖י כְּפֶ֣רֶץ מָ֑יִם עַל־כֵּ֗ן קָרָ֛א שֵֽׁם־הַמָּק֥וֹם הַה֖וּא בַּ֥עַל פְּרָצִֽים׃",
+      "text_kjv": "And David came to Baalperazim, and David smote them there, and said, The LORD hath broken forth upon mine enemies before me, as the breach of waters. Therefore he called the name of that place Baalperazim.",
+      "rendering": "David came to Baal-perazim and defeated them there. David said, \"The LORD has burst through my enemies before me like a flood breaking through!\" That is why he named that place Baal-perazim.",
+      "expanded_rendering": "David's victory declaration is vivid and hydrological: parats YHWH et oyvai lefanai keferets mayim ('the LORD has burst through my enemies before me like the bursting of waters'). The verb parats means 'to break through, to breach, to burst forth' -- it describes a dam breaking, a wall collapsing, an unstoppable force tearing through resistance. David does not credit his army or his strategy; he credits the LORD as the one who broke through. The place name Baal-perazim means 'Master of Breakthroughs' or 'Lord of the Breaking-Forth,' permanently memorializing the LORD's overwhelming assault. Every time this place is named, the theology is retold: God is the one who breaks through.",
+      "translator_notes": [
+        "The imagery of flooding water (perets mayim) would have been powerfully concrete in the Judean landscape, where flash floods in dry wadis could obliterate everything in their path. David compares God's assault on the Philistines to a flash flood -- sudden, total, and irresistible.",
+        "The name Ba'al Peratsim is provocative: ba'al ('master, lord') was the chief Canaanite deity, but David uses it as a common noun meaning 'master, possessor.' The LORD is the true Ba'al -- the true Master -- of the breakthrough. There may be deliberate theological polemic in this naming."
+      ],
+      "key_terms": [
+        {
+          "hebrew": "בַּעַל פְּרָצִים",
+          "transliteration": "Ba'al Peratsim",
+          "rendered_as": "Baal-perazim",
+          "semantic_range": "Master/Lord of breakthroughs, breaches, bursting-forth",
+          "note": "The place name commemorates God's overwhelming victory using the language of flooding and breaking through barriers. The root p-r-ts appears throughout the Hebrew Bible for divine acts of power that shatter opposition (cf. 2 Samuel 6:8, 1 Chronicles 13:11). Naming the battlefield makes the theology permanent and geographic."
+        }
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 21,
+      "text_hebrew": "וַיַּעַזְבוּ־שָׁ֖ם אֶת־עֲצַבֵּיהֶ֑ם וַיִּשָּׂאֵ֥ם דָּוִ֖ד וַאֲנָשָֽׁיו׃",
+      "text_kjv": "And there they left their images, and David and his men burned them.",
+      "rendering": "The Philistines abandoned their idols there, and David and his men carried them away.",
+      "translator_notes": [
+        "The MT reads vayyissa'em ('they carried them away'), while the parallel in 1 Chronicles 14:12 reads vayyisarefu ba'esh ('they burned them with fire'), following the command of Deuteronomy 7:5, 25. The Chronicles version reflects the Torah's mandate to destroy captured idols. We follow the MT of Samuel, which simply records removal. Both traditions agree on the essential point: the Philistine gods were powerless."
+      ],
+      "reading_level": "8th grade"
+    },
+    {
+      "verse": 22,
+      "text_hebrew": "וַיֹּסִ֥פוּ ע֛וֹד פְּלִשְׁתִּ֖ים לַעֲל֑וֹת וַיִּנָּטְשׁ֖וּ בְּעֵ֥מֶק רְפָאִֽים׃",
+      "text_kjv": "And the Philistines came up yet again, and spread themselves in the valley of Rephaim.",
+      "rendering": "The Philistines came up yet again and spread out across the Valley of Rephaim.",
+      "translator_notes": [
+        "The Philistines' return to the same valley demonstrates both their determination and their failure to learn. The verb vayyosifu ('they did again, they continued') shows persistence -- a single defeat did not break their resolve. They deploy in the same location, expecting perhaps a different outcome. But this time God will give David a completely different strategy, demonstrating that the LORD is not bound to a single method and that David must inquire fresh each time."
+      ],
+      "reading_level": "7th grade"
+    },
+    {
+      "verse": 23,
+      "text_hebrew": "וַיִּשְׁאַ֤ל דָּוִד֙ בַּיהֹוָ֔ה וַיֹּ֖אמֶר לֹ֣א תַעֲלֶ֑ה הָסֵב֙ אֶל־אַחֲרֵיהֶ֔ם וּבָ֥אתָ לָהֶ֖ם מִמּ֥וּל בְּכָאִֽים׃",
+      "text_kjv": "And when David enquired of the LORD, he said, Thou shalt not go up; but fetch a compass behind them, and come upon them over against the mulberry trees.",
+      "rendering": "David inquired of the LORD, and He said, \"Do not go straight up. Circle around behind them and come at them from in front of the balsam trees.\"",
+      "translator_notes": [
+        "The bekha'im (plural of bakha, possibly related to bakhah, 'to weep') are usually identified as balsam trees, which exude a resinous sap that 'weeps' from the bark. Some scholars connect the name to the 'Valley of Baca' in Psalm 84:7. The exact species is uncertain, but the trees served as a geographic marker and would play a crucial role in the next verse.",
+        "The verb hasev ('circle around') is a military maneuver term -- David is to execute a flanking movement, coming at the Philistines from behind rather than meeting them head-on. This requires discipline and trust: the army must resist the instinct to charge and instead execute a patient encirclement."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 24,
+      "text_hebrew": "וִיהִ֣י ׀ בְּשׇׁמְעֲךָ֗ אֶת־ק֤וֹל צְעָדָה֙ בְּרָאשֵׁ֣י הַבְּכָאִ֔ים אָ֖ז תֶּחֱרָ֑ץ כִּ֣י אָ֗ז יָצָ֤א יְהֹוָה֙ לְפָנֶ֔יךָ לְהַכּ֖וֹת בְּמַחֲנֵ֥ה פְלִשְׁתִּֽים׃",
+      "text_kjv": "And let it be, when thou hearest the sound of a going in the tops of the mulberry trees, that then thou shalt bestir thyself: for then shall the LORD go out before thee, to smite the host of the Philistines.",
+      "rendering": "When you hear the sound of marching in the tops of the balsam trees, then move decisively, for at that moment the LORD will have gone out ahead of you to strike the Philistine camp.",
+      "translator_notes": [
+        "The qol tse'adah berashei habekha'im ('sound of marching in the tops of the balsam trees') has fascinated interpreters for millennia. The word tse'adah means 'a step, a marching pace' -- it is the sound of feet, not wind. The narrator presents this as the audible evidence of God's heavenly army deploying through the forest canopy. Whether understood as a supernatural phenomenon or as God using the sound of wind as a tactical signal, the theological point is the same: God fights ahead of David.",
+        "The verb techarats (from the root ch-r-ts, 'to be sharp, to decide, to act decisively') appears only here and in a few other places. It conveys urgency and sharpness -- the moment the sound comes, David must strike without delay."
+      ],
+      "reading_level": "9th grade"
+    },
+    {
+      "verse": 25,
+      "text_hebrew": "וַיַּ֤עַשׂ דָּוִד֙ כֵּ֔ן כַּאֲשֶׁ֥ר צִוָּ֖הוּ יְהֹוָ֑ה וַיַּ֤ךְ אֶת־פְּלִשְׁתִּים֙ מִגֶּ֔בַע עַד־בֹּאֲךָ֖ גָֽזֶר׃",
+      "text_kjv": "And David did so, as the LORD had commanded him; and smote the Philistines from Geba until thou come to Gazer.",
+      "rendering": "David did exactly as the LORD commanded him, and he struck down the Philistines from Geba all the way to Gezer.",
+      "translator_notes": [
+        "The phrase ka'asher tsivvahu YHWH ('just as the LORD commanded him') is the narrator's final verdict on David's military conduct: complete obedience. This stands in sharp contrast to Saul, who repeatedly modified or ignored divine commands (1 Samuel 13:8-14, 15:1-23). The theological point is clear: obedience to God's specific instructions, even unconventional ones, produces victory.",
+        "Geba (or Gibeon, as some manuscripts and the LXX read) was a Benjaminite town north of Jerusalem. Gezer was a major Canaanite city on the western edge of the Shephelah, guarding the approach to the coastal plain. A rout extending from Geba to Gezer covers roughly twenty miles of pursuit -- the Philistine army was completely shattered."
+      ],
+      "reading_level": "9th grade"
+    }
+  ]
+}
