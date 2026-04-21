@@ -288,7 +288,7 @@ Special Weeks use `"chapters": []` with a `"passages"` array and `"theme"` field
     "build": "30 7 * * 6",
     "notify": "0 8 * * 6"
   },
-  "notification_email": "contact@everyversematters.com",
+  "notification_email": "aaron@covenantbuilders.ai",
   "cost_alert_threshold_weekly": 50.00,
   "anthropic_api_key_env": "ANTHROPIC_API_KEY"
 }

@@ -242,7 +242,7 @@ response = client.messages.create(
 - **Domain:** everyversematters.com (primary), everyversematters.org (redirect)
 - **SSL:** Let's Encrypt via certbot (auto-renewing, cert at `/etc/letsencrypt/live/everyversematters.com/`)
 - **DNS:** Namecheap — A records for `@` and `www` → `209.74.80.143`
-- **Email:** `contact@everyversematters.com` → Gmail via ImprovMX (MX: `mx1/mx2.improvmx.com`). TCR uses `contact@thecovenantrendering.com` → Hotmail via Namecheap email forwarding.
+- **Email:** `aaron@covenantbuilders.ai`. TCR uses `contact@thecovenantrendering.com` → Hotmail via Namecheap email forwarding.
 - **VPS Path:** `/var/www/evm/` (site static files + MCP server + content data)
 
 > **DEPLOY PATH — DO NOT GET THIS WRONG:**

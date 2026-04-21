@@ -340,7 +340,7 @@ DEEP DIVE PAGE — SPECIAL WEEK (Easter, Christmas, Introduction)
 - All prophetic quotes verified against Source Registry or stripped
 - Clean, mobile-responsive design (two columns stack on mobile)
 - Deployed to VPS at everyversematters.com
-- **Contact:** `contact@everyversematters.com` (forwarded via ImprovMX). TCR uses `contact@thecovenantrendering.com` (forwarded via Namecheap email forwarding). Kept separate to maintain TCR's scholarly independence.
+- **Contact:** `aaron@covenantbuilders.ai`. TCR uses `contact@thecovenantrendering.com` (forwarded via Namecheap email forwarding). Kept separate to maintain TCR's scholarly independence.
 
 ### MVP Pages
 1. **Homepage** — Weekly Feed with sections for all weeks, Deep Dive links for weeks with content
