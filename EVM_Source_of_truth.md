@@ -408,6 +408,7 @@ Potential premium features:
 - [ ] Admin dashboard for pipeline monitoring
 - [ ] Add search functionality
 - [ ] Social media presence (Instagram, Facebook)
+- [ ] Dead Sea Scrolls (DSS) integration for Isaiah commentary — inject 1QIsa-a variant data into pipeline and Deep Dive UI (blocked on DSS data preparation in TCR repo)
 
 ### Phase 3: Growth (May–December 2026)
 - [ ] Full year of OT content live (52 weeks, both homepage and Deep Dive)
@@ -466,7 +467,7 @@ Potential premium features:
 
 | Date | Summary |
 |------|---------|
-| 2026-04-04 | Week 15 deployed (Exodus 7-13, 155 verses, QA 0% flagged). Anthropic API key rotated. Full OT TCR data (34 new books) added to pipeline — TCR context now available for all 52 weeks. |
+| 2026-04-04 | Week 15 deployed (Exodus 7-13, 155 verses, QA 0% flagged). Anthropic API key rotated. Full OT TCR data (34 new books) added to pipeline — TCR context now available for all 52 weeks. Contact email updated to `aaron@covenantbuilders.ai`. DSS Isaiah integration added to roadmap (blocked on data). |
 | 2026-03-28 | SOT restructured into 4-document architecture (SOT, Data Reference, Quality Contract, Operational Playbook). Special Week pipeline implemented and deployed for Easter Week 14. |
 | 2026-03-07 | First fully automated GitHub Actions pipeline run (Week 10). Pipeline migrated from VPS cron. |
 | 2026-02-23 | TCR integration complete (Genesis, 50 chapters). Multi-translation deep dive UI live. MCP HTTP transport deployed. Anti-hallucination hardening shipped. |
