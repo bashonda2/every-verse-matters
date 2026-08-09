@@ -4,3 +4,7 @@ dist/
 *.pyc
 __pycache__/
 .DS_Store
+
+# Model-migration test artifacts (local eval only, not production content)
+logs/gpt-test/
+logs/claude-test/

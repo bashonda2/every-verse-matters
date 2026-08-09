@@ -22,7 +22,7 @@ from datetime import datetime, timezone
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 
-from pipeline.utils.api_client import get_client
+from pipeline.utils.api_client import get_client, load_config
 
 CONTENT_DIR = ROOT / "content" / "weeks" / "2026"
 KJV_DIR = ROOT / "data" / "kjv_verses"
@@ -121,8 +121,10 @@ def check_cross_references(verse_data: dict) -> list[dict]:
     return issues
 
 
-def audit_verse_with_haiku(verse_data: dict, client) -> dict:
-    """Run Haiku audit on a single verse's commentary."""
+def audit_verse_with_haiku(verse_data: dict, client, model: str = "claude-opus-5") -> dict:
+    """Run an audit call on a single verse's commentary.
+    Historical name kept for call-site compatibility; audit model is now configurable
+    via data/config.json → audit_model (defaults to Opus 5 for stronger anti-hallucination)."""
     ref = f"{verse_data.get('book')} {verse_data.get('chapter')}:{verse_data.get('verse')}"
     commentary = verse_data.get("commentary", {})
 
@@ -140,15 +142,17 @@ def audit_verse_with_haiku(verse_data: dict, client) -> dict:
 
     try:
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=300,
+            model=model,
+            max_tokens=1024,
+            thinking={"type": "disabled"},
             system=AUDIT_SYSTEM,
             messages=[{
                 "role": "user",
                 "content": f"Audit this verse commentary for potential hallucinations:\n\n{json.dumps(audit_input, indent=2)}"
             }]
         )
-        text = response.content[0].text.strip()
+        # Opus 5 may return ThinkingBlock + TextBlock; grab the text block defensively.
+        text = next((b.text for b in response.content if getattr(b, "type", None) == "text"), "").strip()
         # Strip markdown fences
         text = re.sub(r'^```(?:json)?\s*', '', text, flags=re.MULTILINE)
         text = re.sub(r'\s*```$', '', text, flags=re.MULTILINE)
@@ -173,10 +177,14 @@ def run_qa(week_num: int, audit_all: bool = False) -> dict:
 
     verses = json.loads(comm_path.read_text())
     client = get_client()
+    config = load_config()
+    audit_model = config.get("audit_model", "claude-opus-5")
+    print(f"    Audit model: {audit_model}")
 
     report = {
         "week": week_num,
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "audit_model": audit_model,
         "total_verses": len(verses),
         "audited_verses": 0,
         "passed": 0,
@@ -210,7 +218,7 @@ def run_qa(week_num: int, audit_all: bool = False) -> dict:
         if i % 10 == 0:
             print(f"    Auditing verse {i+1}/{len(verses)}...")
 
-        result = audit_verse_with_haiku(verse, client)
+        result = audit_verse_with_haiku(verse, client, model=audit_model)
         report["audited_verses"] += 1
 
         if not result.get("pass", True):

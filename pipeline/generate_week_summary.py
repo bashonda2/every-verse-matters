@@ -121,7 +121,7 @@ def generate_week_summary(week_num: int) -> dict:
     result = call_claude(
         system_prompt=SYSTEM_PROMPT,
         user_message=prompt,
-        model="claude-sonnet-4-5-20250929",
+        model="claude-sonnet-5",
         max_tokens=5500,
     )
 

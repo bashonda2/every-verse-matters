@@ -2,12 +2,17 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-# Approximate pricing per 1M tokens (as of early 2026)
+# Approximate pricing per 1M tokens (as of mid-2026)
+# Note: claude-sonnet-5 has an introductory rate ($2/$10) through Aug 31 2026,
+# then reverts to standard $3/$15. We use standard for conservative cost estimates.
 PRICING = {
-    "claude-opus-4-6": {"input": 5.00, "output": 25.00},
-    "claude-sonnet-4-6": {"input": 3.00, "output": 15.00},
+    "claude-opus-5":              {"input": 5.00, "output": 25.00},
+    "claude-opus-4-6":            {"input": 5.00, "output": 25.00},
+    "claude-sonnet-5":            {"input": 3.00, "output": 15.00},
+    "claude-sonnet-4-6":          {"input": 3.00, "output": 15.00},
     "claude-sonnet-4-5-20250929": {"input": 3.00, "output": 15.00},
-    "claude-haiku-4-5-20251001": {"input": 1.00, "output": 5.00},
+    "claude-haiku-4-5-20251001":  {"input": 1.00, "output": 5.00},
+    "claude-haiku-4-5":           {"input": 1.00, "output": 5.00},
 }
 
 
