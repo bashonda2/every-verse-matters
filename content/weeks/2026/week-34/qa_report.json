@@ -1,0 +1,25 @@
+{
+  "week": 34,
+  "generated_at": "2026-08-15T13:18:14.142624+00:00",
+  "audit_model": "claude-opus-5",
+  "total_verses": 212,
+  "audited_verses": 1,
+  "passed": 211,
+  "failed": 1,
+  "high_risk": [
+    {
+      "verse": "Psalms 22:31",
+      "risk_level": "high",
+      "flags": [
+        "Prophetic quote attribution risk: 'Testimony' by President Russell M. Nelson, October 2021 General Conference — the talk title is generic/one-word and matches the pattern of fabricated citations. Real conference talks typically have more distinctive titles, and this title/date pairing could not be treated as verified. President Nelson's October 2021 addresses do not obviously correspond to a talk titled simply 'Testimony.'",
+        "Quote text risk: The quoted passage reads as a smooth, generically prophetic paraphrase ('Your testimony is not just for you. It is for your family, for your community, and for the world.') rather than a distinctive, verifiable direct quotation. Hedged/generic phrasing is a hallucination indicator.",
+        "Cross-reference wording risk: The Hebrews 2:12-13 connection asserts that Christ's 'seed' means 'His body, the Church' — an interpretive gloss presented as if drawn from the cited text; the phrase 'seed' does not appear in Hebrews 2:12-13.",
+        "Cross-reference wording risk: The D&C 84:37-38 quotation is presented as a condensed/elided paraphrase ('All those who receive the priesthood receive this oath and covenant...') rather than an exact citation, and the 'oath and covenant' language actually appears in D&C 84:39-40 rather than verses 37-38."
+      ]
+    }
+  ],
+  "medium_risk": [],
+  "xref_issues": [],
+  "overall_pass": false,
+  "fail_pct": 0.5
+}
