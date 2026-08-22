@@ -1,0 +1,26 @@
+{
+  "week": 35,
+  "generated_at": "2026-08-22T21:11:25.065389+00:00",
+  "audit_model": "claude-opus-5",
+  "total_verses": 278,
+  "audited_verses": 1,
+  "passed": 277,
+  "failed": 1,
+  "high_risk": [
+    {
+      "verse": "Psalms 51:19",
+      "risk_level": "high",
+      "flags": [
+        "PROPHETIC QUOTE — SELF-ADMITTED UNCERTAINTY: The entry attributed to President Spencer W. Kimball contains an internal note stating: 'I cannot state the exact quote with sufficient confidence for publication. Omitting to preserve accuracy.' The quote was nonetheless left populated in the prophetic_quotes array rather than removed. This is an unresolved, self-flagged reconstruction presented as a direct quotation. It must not be published.",
+        "PROPHETIC QUOTE — TITLE/CONTENT MISMATCH: 'The Blessings and Responsibilities of Womanhood' (Kimball, Ensign, March 1976) is a real address, but its subject matter is the role and divine worth of women, not the nature of sacrifice or the broken heart. The attributed quote about 'the offering of one's own heart—broken and contrite' does not plausibly belong to that talk. Additionally, the date given ('October 1976') does not match the known publication of that title, suggesting a conflated or invented citation.",
+        "VERSE REFERENCE — LIKELY WRONG VERSE: Psalm 51:19 in the KJV reads, 'Then shalt thou be pleased with the sacrifices of righteousness, with burnt offering and whole burnt offering: then shall they offer bullocks upon thine altar.' The 'broken spirit... broken and a contrite heart' language the entire commentary is built upon is Psalm 51:17. Nearly every cross-reference connection in this entry describes Psalm 51:17, not 51:19. The verse citation appears to be off by two.",
+        "CROSS-REFERENCE — FABRICATED HEBREW CLAIM: The Isaiah 57:15 entry asserts that 'nidkeh' is 'the exact term used in Psalm 51:19.' Isaiah 57:15 uses 'dakka'; Psalm 51:17 (not :19) uses 'nishbar' (broken) and 'nidkeh' (contrite). The claim of an 'exact term' match to verse 19 is false as stated, and the philological precision asserted here is the kind of specific, checkable detail that is most often hallucinated.",
+        "CROSS-REFERENCE — MISATTRIBUTED SPEAKER: The Mosiah 4:2 entry states 'Mosiah describes the people awakening...' The narrative voice in Mosiah 4:2 is the record's narrator describing the reaction of the people to King Benjamin's address; Mosiah is not the speaker or describer. Minor but indicates loose handling of source detail."
+      ]
+    }
+  ],
+  "medium_risk": [],
+  "xref_issues": [],
+  "overall_pass": false,
+  "fail_pct": 0.4
+}
