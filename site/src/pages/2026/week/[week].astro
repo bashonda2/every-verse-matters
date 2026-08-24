@@ -21,13 +21,49 @@ const commPath = join(weekDir, 'commentary.json');
 const hasCommentary = existsSync(commPath);
 const verses: any[] = hasCommentary ? JSON.parse(readFileSync(commPath, 'utf-8')) : [];
 
-// Load TCR data for this week's chapters, keyed by "Book Chapter:Verse"
+// Load TCR data for this week's chapters, keyed by "Book Chapter:Verse".
+// Keep in sync with the slug_map in pipeline/generate_commentary.py.
 const tcrSlugMap: Record<string, string> = {
   Genesis: 'genesis',
   Exodus: 'exodus',
   Leviticus: 'leviticus',
   Numbers: 'numbers',
   Deuteronomy: 'deuteronomy',
+  Joshua: 'joshua',
+  Judges: 'judges',
+  Ruth: 'ruth',
+  '1 Samuel': '1-samuel',
+  '2 Samuel': '2-samuel',
+  '1 Kings': '1-kings',
+  '2 Kings': '2-kings',
+  '1 Chronicles': '1-chronicles',
+  '2 Chronicles': '2-chronicles',
+  Ezra: 'ezra',
+  Nehemiah: 'nehemiah',
+  Esther: 'esther',
+  Job: 'job',
+  Psalms: 'psalms',
+  Proverbs: 'proverbs',
+  Ecclesiastes: 'ecclesiastes',
+  'Song of Solomon': 'song-of-songs',
+  'Song of Songs': 'song-of-songs',
+  Isaiah: 'isaiah',
+  Jeremiah: 'jeremiah',
+  Lamentations: 'lamentations',
+  Ezekiel: 'ezekiel',
+  Daniel: 'daniel',
+  Hosea: 'hosea',
+  Joel: 'joel',
+  Amos: 'amos',
+  Obadiah: 'obadiah',
+  Jonah: 'jonah',
+  Micah: 'micah',
+  Nahum: 'nahum',
+  Habakkuk: 'habakkuk',
+  Zephaniah: 'zephaniah',
+  Haggai: 'haggai',
+  Zechariah: 'zechariah',
+  Malachi: 'malachi',
 };
 const tcrIndex: Record<string, any> = {};
 if (weekData?.chapters) {
