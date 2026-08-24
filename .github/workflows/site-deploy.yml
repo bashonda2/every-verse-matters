@@ -1,0 +1,56 @@
+name: Site Deploy (build + rsync only)
+
+# Rebuilds the Astro site from the current main-branch content and rsyncs
+# to the VPS. Used when we need to ship a code-only site change (layout,
+# component, disclaimer wording, etc.) without re-running the AI content
+# pipeline.
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: site-deploy
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Install site dependencies
+        working-directory: site
+        run: npm ci
+
+      - name: Build Astro site
+        working-directory: site
+        run: npm run build
+
+      - name: Set up SSH for deploy
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Deploy to VPS
+        run: |
+          rsync -az --delete -e "ssh -i ~/.ssh/deploy_key" \
+            site/dist/ \
+            root@${{ secrets.VPS_HOST }}:/var/www/evm/site/dist/
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Site Deploy" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Ref:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Triggered by:** ${{ github.actor }}" >> $GITHUB_STEP_SUMMARY
