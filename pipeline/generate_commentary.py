@@ -223,14 +223,92 @@ def format_tcr_context(tcr_chapter, verse_start, verse_end):
     )
 
 
+def load_dss_chapter(book, chapter):
+    """Load Dead Sea Scrolls (DSS) variant data for a chapter, if available.
+    Currently scoped to Isaiah (1QIsaᵃ, the Great Isaiah Scroll). The loader is
+    intentionally extensible — additional books (e.g. DSS Psalms fragments) can
+    be enabled by adding them to slug_map below and dropping the JSON files into
+    content/dss/<slug>/."""
+    slug_map = {
+        "Isaiah": "isaiah",
+    }
+    slug = slug_map.get(book)
+    if not slug:
+        return None
+    path = ROOT / "content" / "dss" / slug / f"chapter-{chapter:02d}.json"
+    if not path.exists():
+        return None
+    with open(path) as f:
+        return json.load(f)
+
+
+def format_dss_context(dss_chapter, verse_start, verse_end):
+    """Format DSS variant data for the given verse range into a prompt block.
+    Only surfaces verses within the batch range; caps notes to keep prompt
+    bloat reasonable. Silently returns an empty string when no DSS data or
+    no in-range verses exist so it's safe to call unconditionally."""
+    if not dss_chapter:
+        return ""
+
+    meta = dss_chapter.get("meta", {}) or {}
+    preamble = dss_chapter.get("preamble", {}) or {}
+    tradition_label = meta.get("tradition_label", "Dead Sea Scrolls")
+    manuscript = meta.get("source_text", "1QIsaᵃ (Qumran)")
+    date_str = meta.get("date", "c. 125 BCE")
+
+    chunks = []
+    for v in dss_chapter.get("verses", []):
+        if not (verse_start <= v.get("verse", 0) <= verse_end):
+            continue
+
+        parts = [f"  Verse {v['verse']}:"]
+        if v.get("significance"):
+            parts.append(f"    Variant significance: {v['significance']}")
+        if v.get("mt_reading") and v.get("dss_reading"):
+            parts.append(f"    MT Hebrew:  {v['mt_reading']}")
+            parts.append(f"    DSS Hebrew: {v['dss_reading']}")
+        if v.get("mt_rendering"):
+            parts.append(f"    MT reads:  \"{v['mt_rendering']}\"")
+        if v.get("variant_rendering"):
+            parts.append(f"    DSS reads: \"{v['variant_rendering']}\"")
+        if v.get("manuscript_reference"):
+            parts.append(f"    Manuscript: {v['manuscript_reference']}")
+        if v.get("variant_notes"):
+            notes = " | ".join(v["variant_notes"][:3])  # cap at 3 to avoid bloat
+            parts.append(f"    Notes: {notes}")
+
+        chunks.append("\n".join(parts))
+
+    if not chunks:
+        return ""
+
+    header_bits = [
+        f"\n\nDEAD SEA SCROLLS ({tradition_label}) — SOURCE CONTEXT:",
+        f"The following variants are drawn from {manuscript}, dated {date_str}, "
+        "predating the Masoretic Text by roughly a millennium. Use this material "
+        "to ENRICH commentary where relevant — especially when a DSS variant "
+        "carries theological weight (e.g. Isaiah 53:11's 'he shall see light'). "
+        "When you cite a variant, attribute it to the Dead Sea Scrolls (or "
+        "1QIsaᵃ where appropriate). Do not invent variants that are not "
+        "presented below.",
+    ]
+    if preamble.get("summary"):
+        header_bits.append(f"Chapter summary: {preamble['summary']}")
+    if preamble.get("notable_variants"):
+        header_bits.append(f"Notable variants in this chapter: {preamble['notable_variants']}")
+
+    return "\n".join(header_bits) + "\n\n" + "\n\n".join(chunks)
+
+
 def generate_verse_batch(
     book, chapter, verse_start, verse_end,
     week_title, week_num, scripture_block,
-    system_prompt, model, tcr_chapter=None,
+    system_prompt, model, tcr_chapter=None, dss_chapter=None,
 ):
     """Generate commentary for a batch of verses within a chapter."""
 
     tcr_context = format_tcr_context(tcr_chapter, verse_start, verse_end)
+    dss_context = format_dss_context(dss_chapter, verse_start, verse_end)
 
     user_message = (
         f"Generate verse-by-verse commentary for {book} chapter {chapter}, "
@@ -240,6 +318,7 @@ def generate_verse_batch(
         f"Cover every verse from {verse_start} to {verse_end}. "
         f"Follow the commentary structure exactly."
         + tcr_context
+        + dss_context
     )
 
     print(f"    Batch: {book} {chapter}:{verse_start}-{verse_end}...")
@@ -280,10 +359,15 @@ def generate_chapter(book, chapter, week_title, week_num, scripture_block, syste
     """Generate commentary for a full chapter by splitting into batches."""
     total_verses = get_verse_count(book, chapter)
     tcr_chapter = load_tcr_chapter(book, chapter)
+    dss_chapter = load_dss_chapter(book, chapter)
+
+    badges = []
     if tcr_chapter:
-        print(f"  {book} {chapter} ({total_verses} verses) [TCR available ✓]")
-    else:
-        print(f"  {book} {chapter} ({total_verses} verses)")
+        badges.append("TCR")
+    if dss_chapter:
+        badges.append("DSS")
+    badge_str = f" [{' + '.join(badges)} available ✓]" if badges else ""
+    print(f"  {book} {chapter} ({total_verses} verses){badge_str}")
 
     all_verses = []
     all_usage = []
@@ -296,7 +380,9 @@ def generate_chapter(book, chapter, week_title, week_num, scripture_block, syste
             verses, usage = generate_verse_batch(
                 book, chapter, verse, batch_end,
                 week_title, week_num, scripture_block,
-                system_prompt, model, tcr_chapter=tcr_chapter,
+                system_prompt, model,
+                tcr_chapter=tcr_chapter,
+                dss_chapter=dss_chapter,
             )
             all_verses.extend(verses)
             all_usage.append(usage)

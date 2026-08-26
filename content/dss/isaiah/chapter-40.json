@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Isaiah",
+    "chapter": 40,
+    "tradition": "dss-1qisaiah-a",
+    "tradition_label": "Dead Sea Scrolls (1QIsaᵃ)",
+    "source_text": "1QIsaᵃ (Qumran Cave 1)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 125 BCE",
+    "manuscript_location": "Shrine of the Book, Israel Museum, Jerusalem",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Isaiah 40 opens the 'Book of Consolation' with 31 verses. The scroll preserves this chapter in excellent condition across columns XXXII-XXXIII. Most variants are orthographic (1QIsaᵃ's characteristic plene spelling), but verse 3 — quoted in all four Gospels — and verse 7 contain textually significant readings.",
+    "notable_variants": "Verse 3: the syntactic division of 'a voice crying in the wilderness' versus 'a voice crying: In the wilderness prepare' is preserved identically in both MT and 1QIsaᵃ, but the scroll adds a paragraph break after 'wilderness,' supporting the Synoptic reading. Verse 6: the scroll reads 'and he said' (singular) where MT has 'and I said.' Verse 7: the scroll includes 'the grass withers, the flower fades, when the breath of the LORD blows upon it' — a line that some MT manuscripts lack. Verse 12: minor orthographic variant in 'measured.'",
+    "scroll_condition": "Well preserved. Columns XXXII-XXXIII are fully legible with no significant lacunae.",
+    "column_reference": "Columns XXXII-XXXIII of 1QIsaᵃ"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "נַחֲמוּ",
+      "dss_reading": "נחמו",
+      "variant_rendering": "comfort",
+      "mt_rendering": "comfort",
+      "manuscript_reference": "1QIsaᵃ col. XXXII, line 25",
+      "variant_notes": [
+        "Plene spelling in the scroll but identical word. The doubled imperative nachamú nachamú is present in both texts."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "צְבָאָהּ",
+      "dss_reading": "צבאה",
+      "variant_rendering": "her warfare",
+      "mt_rendering": "her warfare",
+      "manuscript_reference": "1QIsaᵃ col. XXXII, line 26",
+      "variant_notes": [
+        "Orthographic only. 1QIsaᵃ writes without Masoretic vowel pointing but the consonantal text is identical."
+      ]
+    },
+    {
+      "verse": 3,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "קוֹל קוֹרֵא בַּמִּדְבָּר פַּנּוּ דֶּרֶךְ יְהוָה",
+      "dss_reading": "קול קורא במדבר פנו דרך יהוה",
+      "variant_rendering": "A voice cries out: In the wilderness prepare the way of the LORD",
+      "mt_rendering": "A voice cries out: In the wilderness prepare the way of the LORD",
+      "manuscript_reference": "1QIsaᵃ col. XXXII, line 27",
+      "variant_notes": [
+        "The consonantal text of 1QIsaᵃ is identical to the MT here, but the scroll places a physical paragraph break (setumah-like spacing) after 'in the wilderness,' which could support reading 'A voice cries out in the wilderness: Prepare the way of the LORD' — the reading adopted by all four Gospels (Matt 3:3, Mark 1:3, Luke 3:4, John 1:23).",
+        "The MT accentuation (atnach under bamidbar) connects 'in the wilderness' with 'prepare,' yielding 'A voice cries out: In the wilderness prepare the way of the LORD.' The scroll's paragraph spacing is ambiguous but leans toward the Gospel reading.",
+        "This is one of the most discussed text-critical points in the entire Hebrew Bible because of its New Testament implications. The DSS evidence does not decisively resolve the syntax but does show the Gospel reading was available in the pre-Christian period."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXII, line 28",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 5,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "יַחְדָּו",
+      "dss_reading": "יחדיו",
+      "variant_rendering": "together",
+      "mt_rendering": "together",
+      "manuscript_reference": "1QIsaᵃ col. XXXII, line 29",
+      "variant_notes": [
+        "1QIsaᵃ adds a yod as a mater lectionis — standard plene spelling convention in the scroll."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "וָאֹמַר",
+      "dss_reading": "ואמר",
+      "variant_rendering": "and he said",
+      "mt_rendering": "and I said",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 1",
+      "variant_notes": [
+        "The MT reads va'omar ('and I said'), with the first-person singular. 1QIsaᵃ reads ve'amar ('and he said'), third-person singular. This changes who is speaking: in the MT the prophet responds 'What shall I cry?'; in the scroll, an unidentified voice says it.",
+        "The LXX (Septuagint) also reads third person here, agreeing with 1QIsaᵃ against the MT. This suggests the third-person reading may be older, with the MT reflecting a later scribal change to first person to identify the speaker as the prophet himself."
+      ]
+    },
+    {
+      "verse": 7,
+      "has_variant": true,
+      "significance": "major",
+      "mt_reading": "יָבֵשׁ חָצִיר נָבֵל צִיץ",
+      "dss_reading": "יבש חציר נבל ציץ כי רוח יהוה נשבה בו",
+      "variant_rendering": "The grass withers, the flower fades, when the breath of the LORD blows upon it",
+      "mt_rendering": "The grass withers, the flower fades",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 2",
+      "variant_notes": [
+        "1QIsaᵃ includes the clause 'when the breath of the LORD blows upon it' (ki ruach YHWH nashvah bo) in verse 7, which in the MT appears only in verse 8. Some MT manuscripts also include this clause in verse 7.",
+        "This is likely not a 'plus' in the scroll but rather reflects an older text that included the clause in both verses 7 and 8. The MT may have suffered haplography (accidental omission due to similar endings). The LXX also includes this clause, supporting the scroll's reading."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 3",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 9,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "הָרִימִי",
+      "dss_reading": "הרימי",
+      "variant_rendering": "lift up",
+      "mt_rendering": "lift up",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 4",
+      "variant_notes": [
+        "Identical consonantal text. Orthographic variant only in the scroll's plene spelling convention."
+      ]
+    },
+    {
+      "verse": 10,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "בְּחָזָק",
+      "dss_reading": "בחוזק",
+      "variant_rendering": "with strength",
+      "mt_rendering": "with strength",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 5",
+      "variant_notes": [
+        "1QIsaᵃ adds a vav as mater lectionis in chozaq. No change in meaning."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 6",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "מָדַד",
+      "dss_reading": "מדד",
+      "variant_rendering": "measured",
+      "mt_rendering": "measured",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 7",
+      "variant_notes": [
+        "Identical consonantal text. No significant variant."
+      ]
+    },
+    {
+      "verse": 13,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 8",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 9",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "גּוֹיִם",
+      "dss_reading": "גואים",
+      "variant_rendering": "nations",
+      "mt_rendering": "nations",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 10",
+      "variant_notes": [
+        "1QIsaᵃ spells goyim with an aleph — a characteristic Qumran orthographic feature reflecting pronunciation."
+      ]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 11",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 17,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "כְּאַיִן",
+      "dss_reading": "כאין",
+      "variant_rendering": "as nothing",
+      "mt_rendering": "as nothing",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 12",
+      "variant_notes": [
+        "Minor orthographic. The scroll uses a fuller spelling but the word is identical."
+      ]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 13",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 19,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 14",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 20,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "יִסְכָּן",
+      "dss_reading": "יסכון",
+      "variant_rendering": "skillful",
+      "mt_rendering": "skillful",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 15",
+      "variant_notes": [
+        "Plene spelling with vav in the scroll. Same word."
+      ]
+    },
+    {
+      "verse": 21,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 16",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 22,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "חוּג",
+      "dss_reading": "חוג",
+      "variant_rendering": "circle",
+      "mt_rendering": "circle",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 17",
+      "variant_notes": [
+        "Identical reading. The famous 'circle of the earth' (chug ha'aretz) is the same in both texts."
+      ]
+    },
+    {
+      "verse": 23,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 18",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 24,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "בַּל",
+      "dss_reading": "בול",
+      "variant_rendering": "not",
+      "mt_rendering": "not",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 19",
+      "variant_notes": [
+        "1QIsaᵃ writes with vav — minor orthographic. Meaning unchanged."
+      ]
+    },
+    {
+      "verse": 25,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 20",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 26,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 21",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 27,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 22",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 28,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "אֵין",
+      "dss_reading": "אין",
+      "variant_rendering": "there is no",
+      "mt_rendering": "there is no",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 23",
+      "variant_notes": [
+        "Identical consonantal text."
+      ]
+    },
+    {
+      "verse": 29,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 24",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 30,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 25",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 31,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "כַּנְּשָׁרִים",
+      "dss_reading": "כנשרים",
+      "variant_rendering": "as eagles",
+      "mt_rendering": "as eagles",
+      "manuscript_reference": "1QIsaᵃ col. XXXIII, line 26",
+      "variant_notes": [
+        "Identical consonantal text. The beloved promise 'mount up with wings as eagles' reads the same in both the oldest and the medieval manuscripts."
+      ]
+    }
+  ]
+}

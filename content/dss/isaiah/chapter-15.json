@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Isaiah",
+    "chapter": 15,
+    "tradition": "dss-1qisaiah-a",
+    "tradition_label": "Dead Sea Scrolls (1QIsaᵃ)",
+    "source_text": "1QIsaᵃ (Qumran Cave 1)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 125 BCE",
+    "manuscript_location": "Shrine of the Book, Israel Museum, Jerusalem",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Chapter 15 begins the oracle against Moab (continuing through ch. 16). The 9 verses catalog the destruction of Moabite cities with vivid lamentation imagery. 1QIsaᵃ preserves this chapter with primarily orthographic variants, especially in the Moabite place names.",
+    "notable_variants": "Several place names show minor spelling differences. Verse 9 has a notable variant where 1QIsaᵃ reads דימון (Dimon) consistently, matching the MT's wordplay on dam (blood).",
+    "scroll_condition": "Well preserved; fully legible.",
+    "column_reference": "Columns XIII–XIV of 1QIsaᵃ"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XIII, line 14",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "הַבַּיִת",
+      "dss_reading": "הבית",
+      "variant_rendering": "the house/temple",
+      "mt_rendering": "the house/temple",
+      "variant_notes": [
+        "1QIsaᵃ writes הבית without the yod-yod of the MT's vocalized form. The reading is the same: Moab goes up to the house/temple to weep. No impact on meaning."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XIII, line 15"
+    },
+    {
+      "verse": 3,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XIII, line 16",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "חֶשְׁבּוֹן",
+      "dss_reading": "חשבון",
+      "variant_rendering": "Heshbon",
+      "mt_rendering": "Heshbon",
+      "variant_notes": [
+        "Identical consonantal text for the city name Heshbon. No impact on meaning."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XIII, line 17"
+    },
+    {
+      "verse": 5,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XIII, line 18",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "נִמְרִים",
+      "dss_reading": "נמרים",
+      "variant_rendering": "Nimrim",
+      "mt_rendering": "Nimrim",
+      "variant_notes": [
+        "Identical consonantal text. The waters of Nimrim are desolate in both traditions. No impact on meaning."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XIII, line 19"
+    },
+    {
+      "verse": 7,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XIV, line 1",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XIV, line 2",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 9,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "דִּימוֹן",
+      "dss_reading": "דימון",
+      "variant_rendering": "Dimon",
+      "mt_rendering": "Dimon",
+      "variant_notes": [
+        "Both texts read דימון (Dimon) rather than the actual city name Dibon. This is a deliberate wordplay on dam (דם, 'blood'): 'The waters of Dimon are full of blood.' The consistent spelling in 1QIsaᵃ confirms this was understood as intentional paronomasia, not a scribal error."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XIV, line 3"
+    }
+  ]
+}

@@ -2,10 +2,10 @@
 ## EveryVerseMatters.com — Source of Truth
 
 **Owner:** Aaron Blonquist
-**PM:** Claude (Opus 4.6) — via claude.ai for strategy/research, via API for automated production
+**PM:** Claude (Opus 5) — via claude.ai for strategy/research, via API for automated production
 **Created:** February 22, 2026
-**Last Updated:** April 4, 2026
-**Version:** 2.1
+**Last Updated:** August 26, 2026
+**Version:** 2.2
 
 ---
 
@@ -22,12 +22,13 @@
 
 ## Current State
 
-- **Deployed:** everyversematters.com live with Weeks 3-15 content (including Easter Special Week).
+- **Deployed:** everyversematters.com live with Weeks 3-35 content (Psalms Part 2, published August 22, 2026).
 - **Pipeline:** 10-stage automated pipeline via GitHub Actions. Runs every Saturday 4:00 AM MT. Zero human intervention.
+- **Model stack:** Haiku 4.5 for commentary generation, Sonnet 5 for discovery/hooks/summaries/quote verification, Opus 5 for QA audit (thinking disabled for classification speed).
 - **Special Weeks:** Thematic commentary path implemented and deployed for Easter (Week 14). Christmas (Week 52) will follow same pattern.
-- **Quality:** Anti-hallucination hardened — 3-layer system (prompt + reference verification + Haiku audit). All prophetic quotes verified or stripped.
-- **Translations:** Multi-translation deep dive: KJV + JST + TCR tabs per verse. TCR covers the full Old Testament (39 books, all chapters).
-- **Next milestone:** Week 16 automated run — Exodus 14-18 (Crossing the Red Sea).
+- **Quality:** Anti-hallucination hardened — 3-layer system (prompt + reference verification + Opus 5 audit). All prophetic quotes verified or stripped.
+- **Translations & Sources:** Multi-translation deep dive: KJV + JST + TCR per verse. TCR covers the full Old Testament (39 books, all chapters). Dead Sea Scrolls (1QIsaᵃ) variant data now integrated for Isaiah (all 66 chapters) — surfaces in both pipeline prompts and the Deep Dive UI.
+- **Next milestone:** Isaiah weeks (38-42) — first live surfacing of DSS variants, including the Suffering Servant chapter (Isaiah 53, Week 41).
 - **Repos:** EVM: `github.com/bashonda2/every-verse-matters` | TCR: `github.com/bashonda2/the-covenant-rendering`
 
 ---
@@ -408,7 +409,7 @@ Potential premium features:
 - [ ] Admin dashboard for pipeline monitoring
 - [ ] Add search functionality
 - [ ] Social media presence (Instagram, Facebook)
-- [ ] Dead Sea Scrolls (DSS) integration for Isaiah commentary — inject 1QIsa-a variant data into pipeline and Deep Dive UI (blocked on DSS data preparation in TCR repo)
+- [x] Dead Sea Scrolls (DSS) integration for Isaiah commentary — 1QIsaᵃ variant data (66 chapters) wired into both pipeline prompt and Deep Dive UI; first live surfacing in Weeks 38-42 (Isaiah)
 
 ### Phase 3: Growth (May–December 2026)
 - [ ] Full year of OT content live (52 weeks, both homepage and Deep Dive)
@@ -467,6 +468,9 @@ Potential premium features:
 
 | Date | Summary |
 |------|---------|
+| 2026-08-26 | Dead Sea Scrolls integration shipped. 1QIsaᵃ (Great Isaiah Scroll) variant data for all 66 Isaiah chapters copied from TCR repo into `content/dss/isaiah/`. Pipeline injects DSS context alongside TCR into every Isaiah verse batch. Deep Dive UI renders a new DSS block (parchment accent) below the TCR block, showing MT vs DSS renderings, Hebrew consonantal variants, manuscript column references, and variant significance badges. First live surfacing in Weeks 38-42 (Isaiah). |
+| 2026-08-23 | Fixed silent TCR rendering bug on Deep Dive: `[week].astro` slug map only covered Genesis-Deuteronomy, so Weeks 20+ shipped without TCR verses visible. Expanded map to full 39-book OT parity with pipeline. Added lightweight `site-deploy.yml` workflow for code-only site pushes without re-running the AI pipeline. |
+| 2026-08-08 | Model migration: Sonnet 4.5 → Sonnet 5 (discovery/hooks/summaries/quote verification), added Opus 5 as the QA audit model (replacing Haiku 4.5 auditing Haiku 4.5). Haiku 4.5 retained for commentary generation after side-by-side tests against Job 19 rejected Opus 5 as a commentary replacement (runtime + JSON reliability). |
 | 2026-04-04 | Week 15 deployed (Exodus 7-13, 155 verses, QA 0% flagged). Anthropic API key rotated. Full OT TCR data (34 new books) added to pipeline — TCR context now available for all 52 weeks. Contact email updated to `aaron@covenantbuilders.ai`. DSS Isaiah integration added to roadmap (blocked on data). |
 | 2026-03-28 | SOT restructured into 4-document architecture (SOT, Data Reference, Quality Contract, Operational Playbook). Special Week pipeline implemented and deployed for Easter Week 14. |
 | 2026-03-07 | First fully automated GitHub Actions pipeline run (Week 10). Pipeline migrated from VPS cron. |

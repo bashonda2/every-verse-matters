@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Isaiah",
+    "chapter": 8,
+    "tradition": "dss-1qisaiah-a",
+    "tradition_label": "Dead Sea Scrolls (1QIsaᵃ)",
+    "source_text": "1QIsaᵃ (Qumran Cave 1)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 125 BCE",
+    "manuscript_location": "Shrine of the Book, Israel Museum, Jerusalem",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Isaiah 8 contains the Maher-shalal-hash-baz sign-child narrative and two Immanuel references (vv. 8, 10). 1QIsaᵃ preserves this chapter well. Most variants are orthographic, with the Immanuel references reading identically to the MT.",
+    "notable_variants": "The two Immanuel references (vv. 8, 10) are textually identical in both traditions. The Maher-shalal-hash-baz naming (v. 1) reads the same. Verse 11 has a minor variant in the phrase 'with strength of hand' where 1QIsaᵃ uses a slightly fuller form.",
+    "scroll_condition": "Good condition. Fully legible throughout.",
+    "column_reference": "Columns VII–VIII of 1QIsaᵃ contain Isaiah chapter 8."
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "מַהֵ֥ר שָׁלָ֖ל חָ֥שׁ בַּֽז",
+      "dss_reading": "מהר שלל חש בז",
+      "variant_rendering": "Maher-shalal-hash-baz",
+      "mt_rendering": "Maher-shalal-hash-baz",
+      "manuscript_reference": "1QIsaᵃ col. VII, line 17",
+      "variant_notes": [
+        "The prophetic sign-name 'Swift-is-the-plunder, Speedy-is-the-prey' reads identically in both traditions. The four-word name is preserved intact."
+      ]
+    },
+    {
+      "verse": 2,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VII, line 18",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 3,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "הַנְּבִיאָה",
+      "dss_reading": "הנביאה",
+      "variant_rendering": "the prophetess",
+      "mt_rendering": "the prophetess",
+      "manuscript_reference": "1QIsaᵃ col. VII, line 19",
+      "variant_notes": [
+        "Identical consonantal text. Isaiah's wife is designated by the same title."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VII, line 20",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 5,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VII, line 21",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 6,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "הַשִּׁלֹחַ",
+      "dss_reading": "השלוח",
+      "variant_rendering": "Shiloah",
+      "mt_rendering": "Shiloah",
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 1",
+      "variant_notes": [
+        "Plene spelling with waw. The 'gently flowing waters of Shiloah' reads the same in meaning."
+      ]
+    },
+    {
+      "verse": 7,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 2",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 8,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "עִמָּנוּ אֵל",
+      "dss_reading": "עמנואל",
+      "variant_rendering": "Immanuel",
+      "mt_rendering": "Immanuel",
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 3",
+      "variant_notes": [
+        "The first Immanuel reference in this chapter. 1QIsaᵃ writes the name as a single word (עמנואל, 'Immanuel') rather than the MT's two-word form (עמנו אל, 'God is with us'). This is a spelling difference, not a meaning difference — both are the same name/phrase.",
+        "The single-word spelling suggests the scribe understood this as a proper name, while the MT's two-word form preserves the transparency of the name's meaning: 'God [is] with us.' The land is called 'your land, O Immanuel,' connecting the child of 7:14 to the land of Judah."
+      ]
+    },
+    {
+      "verse": 9,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "חָתּוּ",
+      "dss_reading": "חתו",
+      "variant_rendering": "be shattered",
+      "mt_rendering": "be shattered",
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 4",
+      "variant_notes": [
+        "Identical consonantal text. The warning to the nations is the same."
+      ]
+    },
+    {
+      "verse": 10,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "עִמָּנוּ אֵל",
+      "dss_reading": "עמנואל",
+      "variant_rendering": "God is with us",
+      "mt_rendering": "God is with us",
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 5",
+      "variant_notes": [
+        "The second Immanuel reference, serving as the conclusion to the warning passage. Again, 1QIsaᵃ writes it as one word (עמנואל). The declaration 'for God is with us' (ki immanu El) functions as both a name-reference and a theological statement.",
+        "The identical meaning in both traditions underscores that the Immanuel promise from 7:14 continues to resonate through this chapter as a refrain of divine presence."
+      ]
+    },
+    {
+      "verse": 11,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "בְּחֶזְקַת הַיָּד",
+      "dss_reading": "בחוזק היד",
+      "variant_rendering": "with strength of hand",
+      "mt_rendering": "with strength of hand",
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 6",
+      "variant_notes": [
+        "1QIsaᵃ uses a slightly different nominal form: chozeq ('strength') instead of the MT's chezqat ('strength of'). Both convey the same meaning — God seizing Isaiah 'with strength of hand,' a forceful divine compulsion. The variant is morphological, not semantic."
+      ]
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "קֶשֶׁר",
+      "dss_reading": "קשר",
+      "variant_rendering": "conspiracy",
+      "mt_rendering": "conspiracy",
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 7",
+      "variant_notes": [
+        "Identical consonantal text."
+      ]
+    },
+    {
+      "verse": 13,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 8",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 14,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "צוּר",
+      "dss_reading": "צור",
+      "variant_rendering": "rock",
+      "mt_rendering": "rock",
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 9",
+      "variant_notes": [
+        "Identical consonantal text. The 'stone of stumbling and rock of offense' passage reads the same. This passage is quoted in Romans 9:33 and 1 Peter 2:8."
+      ]
+    },
+    {
+      "verse": 15,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 10",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 16,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 11",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 17,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 12",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 18,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 13",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 19,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "הָאֹבוֹת",
+      "dss_reading": "האובות",
+      "variant_rendering": "the mediums",
+      "mt_rendering": "the mediums",
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 14",
+      "variant_notes": [
+        "Plene spelling with waw. The warning against consulting mediums and spiritists reads the same."
+      ]
+    },
+    {
+      "verse": 20,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 15",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    },
+    {
+      "verse": 21,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "צוּקָה",
+      "dss_reading": "צוקה",
+      "variant_rendering": "distress",
+      "mt_rendering": "distress",
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 16",
+      "variant_notes": [
+        "Identical consonantal text. The description of distress and darkness reads the same."
+      ]
+    },
+    {
+      "verse": 22,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. VIII, line 17",
+      "variant_notes": [
+        "No significant variant. The scroll reads identically to the MT here."
+      ]
+    }
+  ]
+}

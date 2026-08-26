@@ -80,6 +80,27 @@ if (weekData?.chapters) {
   }
 }
 
+// Load Dead Sea Scrolls data (currently Isaiah only via 1QIsa-a) using the
+// same book -> slug pattern. Keep this map in sync with the pipeline-side
+// slug_map in pipeline/generate_commentary.py::load_dss_chapter().
+const dssSlugMap: Record<string, string> = {
+  Isaiah: 'isaiah',
+};
+const dssIndex: Record<string, any> = {};
+if (weekData?.chapters) {
+  for (const ch of weekData.chapters) {
+    const slug = dssSlugMap[ch.book];
+    if (!slug) continue;
+    const padded = String(ch.chapter).padStart(2, '0');
+    const dssPath = join(root, 'content', 'dss', slug, `chapter-${padded}.json`);
+    if (!existsSync(dssPath)) continue;
+    const dssChapter = JSON.parse(readFileSync(dssPath, 'utf-8'));
+    for (const v of dssChapter.verses ?? []) {
+      dssIndex[`${ch.book} ${ch.chapter}:${v.verse}`] = v;
+    }
+  }
+}
+
 const overviewsPath = join(weekDir, 'chapter_overviews.json');
 const overviews: Record<string, string> = existsSync(overviewsPath) ? JSON.parse(readFileSync(overviewsPath, 'utf-8')) : {};
 
@@ -225,7 +246,11 @@ const nextWeek = weekNum < 52 ? weekNum + 1 : null;
           {chapterVerses
             .sort((a: any, b: any) => a.verse - b.verse)
             .map((v: any) => (
-              <VerseCommentary {...v} tcr={tcrIndex[`${v.book} ${v.chapter}:${v.verse}`] ?? null} />
+              <VerseCommentary
+                {...v}
+                tcr={tcrIndex[`${v.book} ${v.chapter}:${v.verse}`] ?? null}
+                dss={dssIndex[`${v.book} ${v.chapter}:${v.verse}`] ?? null}
+              />
             ))}
 
           {/* Per-chapter back to top */}

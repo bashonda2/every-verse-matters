@@ -3,8 +3,8 @@
 
 **Owner:** Aaron Blonquist
 **Created:** March 28, 2026
-**Last Updated:** April 4, 2026
-**Version:** 1.1
+**Last Updated:** August 26, 2026
+**Version:** 1.2
 
 ---
 
@@ -332,6 +332,15 @@ response = client.messages.create(
 | Mar 28 | Special Week pipeline implemented: `run_special_week()` in `generate_commentary.py`, `commentary_special.txt` prompt, enriched creator discovery for Special Weeks, downstream hardening fixes (`verify_quotes.py`, `verify_references.py`, `run_qa.py`). Easter Week 14 deployed via GitHub Actions — 12 passages, 20 verses, all stages passed. |
 | Mar 28 | SOT restructured into 4-document architecture (Source of Truth, Data Reference, Quality Contract, Operational Playbook). |
 | Apr 4 | Anthropic API key rotated — updated `ANTHROPIC_API_KEY` secret in GitHub Actions. Week 15 (Exodus 7-13) deployed: 155 verses, 7 chapters, 8 stages passed, QA 0/155 flagged (0.0%), runtime 82 min. Full OT TCR data added (34 new books beyond Pentateuch) — `slug_map` in `generate_commentary.py` expanded to all 39 OT books. TCR context now enriches commentary for every remaining week through Week 52. |
+
+### Summer 2026 — August
+
+| Date | Milestone |
+|------|-----------|
+| Aug 8 | Model migration validated and shipped. Head-to-head tests against Job 19 (Week 33): rejected GPT-5.6 Luna (dropped 5/29 verses) and GPT-5.6 Sol (reliable but 40-50% thinner prose than Haiku 4.5); rejected Opus 5 as a Haiku 4.5 replacement (24 min/chapter runtime blows the GH Actions 6-hour cap, ~5x cost, JSON parse fragility on long outputs). Committed changes: Sonnet 4.5 → **Sonnet 5** for `discovery_model` (hooks, week summary, quote verification); added `audit_model: claude-opus-5` for QA — same-tier auditing itself was the anti-hallucination weak spot, and Opus 5 with `thinking: disabled` audits at 1.8s/verse and ~$0.007/verse. Haiku 4.5 retained for commentary generation. Reusable test harnesses added: `pipeline/test_gpt_luna.py`, `pipeline/test_claude_model.py`. |
+| Aug 22 | Week 35 (Psalms Part 2) scheduled run failed at 31s: `ModuleNotFoundError: No module named 'httpx'`. Root cause: `pipeline/utils/api_client.py` imports `httpx` directly (for transient-error retry classes), but it was never declared in `requirements.txt` — worked purely as a transitive dep of the Anthropic SDK. Latest anthropic release stopped exposing it. Fix: added `httpx>=0.27.0` to `requirements.txt`. Manually dispatched the pipeline; Week 35 completed cleanly in 2h04m. Also bumped GitHub Actions to Node 24 targets to clear the Node 20 deprecation warning: `actions/checkout@v7`, `actions/setup-python@v6`, `actions/setup-node@v7` (with `node-version: "24"`). |
+| Aug 23 | Fixed silent TCR rendering bug — `site/src/pages/2026/week/[week].astro` only mapped Genesis-Deuteronomy in its `tcrSlugMap`, so every week from Joshua onward (Weeks 20-35) shipped with the KJV verse block only. Expanded the map to full 39-book OT parity with `pipeline/generate_commentary.py`. Verified 100% match rate on Weeks 20-35 against real data. Added new lightweight `.github/workflows/site-deploy.yml` workflow (build + rsync, ~30s) so future site-only fixes can ship without re-running the 2-hour AI content pipeline. |
+| Aug 26 | Dead Sea Scrolls integration shipped. Copied 66 chapters of 1QIsaᵃ variant data from the TCR repo into `content/dss/isaiah/`. Added `load_dss_chapter()` + `format_dss_context()` in `pipeline/generate_commentary.py`, wired through `generate_chapter()` → `generate_verse_batch()` alongside TCR. Prompt context now includes chapter preamble (summary + notable variants + scroll condition), variant significance tier (minor/moderate/theological), MT vs DSS Hebrew consonantal text, MT vs DSS English renderings, manuscript column reference, and up to 3 variant notes per verse. `VerseCommentary.astro` renders a new DSS block (parchment `#c8a97b` accent) below the TCR block, gated on "meaningful" variants only (skips pure orthographic-only entries). `[week].astro` loads DSS data per Isaiah chapter and passes it into the component. First live surfacing: Weeks 38-42 (Isaiah), with Week 41 (Isaiah 53) as the highest-signal test — DSS 53:11 "he shall see light" variant now flows straight from scroll to commentary. |
 
 ---
 

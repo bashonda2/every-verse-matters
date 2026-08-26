@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "project": "The Covenant Rendering",
+    "version": "1.0.0",
+    "book": "Isaiah",
+    "chapter": 64,
+    "tradition": "dss-1qisaiah-a",
+    "tradition_label": "Dead Sea Scrolls (1QIsaᵃ)",
+    "source_text": "1QIsaᵃ (Qumran Cave 1)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 125 BCE",
+    "manuscript_location": "Shrine of the Book, Israel Museum, Jerusalem",
+    "generated_at": "2026-04-05T00:00:00Z",
+    "prompt_version": "1.0",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "Isaiah 64 contains 12 verses (following the Hebrew versification; the English shifts by one verse from the Hebrew starting at 63:19/64:1) in column XLIX of 1QIsaᵃ. This chapter continues the communal lament that began in 63:15, with a plea for theophany (v. 1), a confession of universal sinfulness (vv. 5-7), and an appeal based on the potter-clay relationship (v. 8). The variants are predominantly minor, with one notable reading in the 'eye has not seen' passage (v. 4) quoted by Paul in 1 Corinthians 2:9.",
+    "notable_variants": "Verse 4 (English v. 4) contains the famous 'eye has not seen, ear has not heard' passage quoted in 1 Corinthians 2:9, and the scroll preserves a reading very close to MT. Verse 8 has the potter-clay metaphor with stable text. Verse 11 (English v. 11) contains the lament over the destroyed Temple with no substantive variant.",
+    "scroll_condition": "Column XLIX is in good condition with full legibility throughout.",
+    "column_reference": "1QIsaᵃ column XLIX"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "לוּא־קָרַעְתָּ שָׁמַיִם יָרַדְתָּ",
+      "dss_reading": "לוא קרעתה שמים ירדתה",
+      "variant_rendering": "Oh that You would rend the heavens and come down!",
+      "mt_rendering": "Oh that You would rend the heavens and come down!",
+      "variant_notes": [
+        "The scroll uses the fuller suffix form -tah for both verbs. Note: in the Hebrew versification this is 63:19b, but in the English it is 64:1. The dramatic plea for theophany — 'Oh that You would rend the heavens and come down, that the mountains might quake at Your presence!' — is identical in both texts."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XLIX, line 20"
+    },
+    {
+      "verse": 2,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "כִּקְדֹחַ אֵשׁ",
+      "dss_reading": "כקדוח אש",
+      "variant_rendering": "as fire kindles",
+      "mt_rendering": "as fire kindles",
+      "variant_notes": [
+        "The scroll uses plene spelling for qedoach ('kindling') with waw. The fire imagery — as when fire kindles brushwood, as fire causes water to boil — is identical in both texts."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XLIX, line 21"
+    },
+    {
+      "verse": 3,
+      "has_variant": false,
+      "manuscript_reference": "1QIsaᵃ col. XLIX, line 22",
+      "variant_notes": [
+        "No significant variant. The recollection of past theophanies — 'When You did awesome things that we did not expect, You came down, the mountains quaked at Your presence' — is identical in both texts."
+      ]
+    },
+    {
+      "verse": 4,
+      "has_variant": true,
+      "significance": "theological",
+      "mt_reading": "עַיִן לֹא־רָאָתָה אֱלֹהִים זוּלָתְךָ יַעֲשֶׂה לִמְחַכֵּה־לוֹ",
+      "dss_reading": "עין לוא ראתה אלוהים זולתכה יעשה למחכה לו",
+      "variant_rendering": "No eye has seen a God besides You, who acts for those who wait for Him",
+      "mt_rendering": "No eye has seen a God besides You, who acts for those who wait for Him",
+      "variant_notes": [
+        "The scroll spells lo with waw-aleph and uses fuller suffix forms, but the substantive reading is identical. This verse is quoted (loosely) by Paul in 1 Corinthians 2:9: 'What no eye has seen, nor ear heard, nor the heart of man imagined, what God has prepared for those who love Him.' Paul's quotation expands significantly beyond the Hebrew — he appears to combine Isaiah 64:4 with Isaiah 65:17 and possibly extra-biblical tradition.",
+        "The scroll's confirmation that the Hebrew text read the same as MT is significant for establishing the base text from which Paul was working (likely via the LXX, which also expands the verse)."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XLIX, line 23"
+    },
+    {
+      "verse": 5,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "פָּגַעְתָּ אֶת־שָׂשׂ וְעֹשֵׂה צֶדֶק",
+      "dss_reading": "פגעתה את שש ועושה צדק",
+      "variant_rendering": "You meet him who joyfully works righteousness",
+      "mt_rendering": "You meet him who joyfully works righteousness",
+      "variant_notes": [
+        "The scroll uses fuller suffix -tah and plene spelling for oseh ('one who does'). The verse contains the powerful confession that follows: 'Behold, You were angry and we sinned; in our sins we have been a long time, and shall we be saved?'"
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XLIX, line 24"
+    },
+    {
+      "verse": 6,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וַנָּמֹק",
+      "dss_reading": "ונמוק",
+      "variant_rendering": "and we melt away",
+      "mt_rendering": "and we melt away",
+      "variant_notes": [
+        "The scroll uses plene spelling for namog ('we melt/fade'). The confession that 'we have all become like one who is unclean, and all our righteous deeds are like a polluted garment; we all fade like a leaf, and our iniquities like the wind carry us away' is identical in meaning. This is one of the most searching confessions of human sinfulness in the Hebrew Bible."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XLIX, line 25"
+    },
+    {
+      "verse": 7,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "וְאֵין־קוֹרֵא בְשִׁמְךָ",
+      "dss_reading": "ואין קורא בשמכה",
+      "variant_rendering": "there is no one who calls upon Your name",
+      "mt_rendering": "there is no one who calls upon Your name",
+      "variant_notes": [
+        "The scroll uses fuller suffix -kha. The lament continues: 'No one calls on Your name, no one rouses himself to take hold of You; for You have hidden Your face from us and delivered us into the hand of our iniquities.'"
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XLIX, line 26"
+    },
+    {
+      "verse": 8,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "אַתָּה יְהוָה אָבִינוּ אֲנַחְנוּ הַחֹמֶר",
+      "dss_reading": "אתה יהוה אבינו אנחנו החומר",
+      "variant_rendering": "But now, O LORD, You are our Father; we are the clay",
+      "mt_rendering": "But now, O LORD, You are our Father; we are the clay",
+      "variant_notes": [
+        "The scroll uses plene spelling for chomer ('clay'). The potter-clay metaphor is identical: 'You are our Father; we are the clay and You are our potter; we are all the work of Your hand.' This is the second direct address to God as Father in this lament (cf. 63:16). The metaphor is echoed by Paul in Romans 9:20-21."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. XLIX, line 27"
+    },
+    {
+      "verse": 9,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "אַל־תִּקְצֹף יְהוָה עַד־מְאֹד",
+      "dss_reading": "אל תקצוף יהוה עד מאוד",
+      "variant_rendering": "Do not be exceedingly angry, O LORD",
+      "mt_rendering": "Do not be exceedingly angry, O LORD",
+      "variant_notes": [
+        "The scroll uses plene spelling for tiqtsof ('be angry') and me'od ('exceedingly'). The plea not to remember iniquity forever is identical in both texts."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. L, line 1"
+    },
+    {
+      "verse": 10,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "עָרֶיךָ הַקֹּדֶשׁ הָיוּ מִדְבָּר",
+      "dss_reading": "עריכה הקודש היו מדבר",
+      "variant_rendering": "Your holy cities have become a wilderness",
+      "mt_rendering": "Your holy cities have become a wilderness",
+      "variant_notes": [
+        "The scroll uses fuller suffix -kha and plene spelling for qodesh. The lament over Zion and Jerusalem becoming a wilderness and desolation is identical in meaning."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. L, line 2"
+    },
+    {
+      "verse": 11,
+      "has_variant": true,
+      "significance": "moderate",
+      "mt_reading": "בֵּית קָדְשֵׁנוּ וְתִפְאַרְתֵּנוּ",
+      "dss_reading": "בית קודשנו ותפארתנו",
+      "variant_rendering": "our holy and beautiful house",
+      "mt_rendering": "our holy and beautiful house",
+      "variant_notes": [
+        "The scroll uses plene spelling for qodshenu ('our holiness'). The lament over the Temple — 'Our holy and beautiful house, where our fathers praised You, has been burned by fire, and all our pleasant places have become ruins' — is identical in meaning. This may refer to the Babylonian destruction of 586 BCE or may be a literary/eschatological construction."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. L, line 3"
+    },
+    {
+      "verse": 12,
+      "has_variant": true,
+      "significance": "minor",
+      "mt_reading": "הַעַל־אֵלֶּה תִתְאַפַּק יְהוָה",
+      "dss_reading": "העל אלה תתאפק יהוה",
+      "variant_rendering": "After all this, will You restrain Yourself, O LORD?",
+      "mt_rendering": "After all this, will You restrain Yourself, O LORD?",
+      "variant_notes": [
+        "No meaningful variant. The closing question of the lament — 'Will You keep silent and afflict us so severely?' — is identical in both texts. The chapter ends with a raw, unresolved plea, setting up God's response in chapters 65-66."
+      ],
+      "manuscript_reference": "1QIsaᵃ col. L, line 4"
+    }
+  ]
+}

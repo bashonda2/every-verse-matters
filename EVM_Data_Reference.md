@@ -3,8 +3,8 @@
 
 **Owner:** Aaron Blonquist
 **Created:** March 28, 2026
-**Last Updated:** March 28, 2026
-**Version:** 1.0
+**Last Updated:** August 26, 2026
+**Version:** 1.1
 
 ---
 
@@ -349,17 +349,26 @@ everyversematters/
 │       └── ...
 │
 ├── content/                           # Generated content (pipeline output)
-│   └── weeks/
-│       └── 2026/
-│           ├── week-09/
-│           │   ├── commentary.json    # Verse-by-verse Deep Dive commentary
-│           │   ├── creators.json      # Third-party content catalog
-│           │   ├── hook.json          # Homepage hook paragraph
-│           │   ├── snippets.json      # Companion snippets (5-7 per week)
-│           │   ├── quality_report.json # QA results
-│           │   └── metadata.json      # Run stats (tokens, cost, timing)
-│           ├── week-10/
-│           └── ...
+│   ├── weeks/
+│   │   └── 2026/
+│   │       ├── week-09/
+│   │       │   ├── commentary.json    # Verse-by-verse Deep Dive commentary
+│   │       │   ├── creators.json      # Third-party content catalog
+│   │       │   ├── hook.json          # Homepage hook paragraph
+│   │       │   ├── snippets.json      # Companion snippets (5-7 per week)
+│   │       │   ├── quality_report.json # QA results
+│   │       │   └── metadata.json      # Run stats (tokens, cost, timing)
+│   │       ├── week-10/
+│   │       └── ...
+│   ├── tcr/                           # The Covenant Rendering (Hebrew OT, all 39 books)
+│   │   ├── genesis/chapter-01.json   # Per-chapter WLC Hebrew + KJV + TCR rendering
+│   │   ├── ...                        # translator notes, key terms, expanded meanings
+│   │   └── malachi/
+│   └── dss/                           # Dead Sea Scrolls variant data
+│       └── isaiah/                    # 1QIsaᵃ (Great Isaiah Scroll), all 66 chapters
+│           ├── chapter-01.json
+│           ├── ...
+│           └── chapter-66.json
 │
 ├── site/                              # Astro frontend
 │   ├── src/
@@ -405,7 +414,97 @@ everyversematters/
 
 ---
 
-## 6. SOURCE REGISTRY — DATA MODEL
+## 6. SCRIPTURE TEXT SOURCES — TCR & DSS
+
+Two per-verse text sources supplement the KJV (and optional JST) at both the pipeline layer and the Deep Dive UI layer. Both live under `content/` in per-book, per-chapter JSON files, and both are loaded by identical patterns in `pipeline/generate_commentary.py` and `site/src/pages/2026/week/[week].astro`.
+
+### 6.1 The Covenant Rendering (TCR)
+
+**Coverage:** Full Old Testament — 39 books, all chapters.
+**Source:** `bashonda2/the-covenant-rendering` (Aaron Blonquist, CC-BY-4.0).
+**Base text:** Westminster Leningrad Codex (WLC).
+**Purpose:** A scholarly modern-English rendering paired with translator notes and Hebrew key-term glosses. Injected into every commentary generation prompt for OT books; rendered in the Deep Dive UI with a sage-green accent.
+**Path:** `content/tcr/{book-slug}/chapter-{NN}.json`
+
+Per-verse schema (fields commentary generation and UI consume):
+```json
+{
+  "verse": 1,
+  "text_hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים...",
+  "text_kjv": "In the beginning God created the heaven and the earth.",
+  "rendering": "In the beginning, God created the heavens and the earth.",
+  "expanded_rendering": "Optional expanded gloss...",
+  "translator_notes": ["Note on the perfect tense...", "..."],
+  "key_terms": [
+    {
+      "hebrew": "רֵאשִׁית",
+      "transliteration": "re'shit",
+      "rendered_as": "beginning",
+      "semantic_range": "start, firstborn, chief part",
+      "note": "Root ראש (rosh, 'head') — same word behind 'firstfruits'."
+    }
+  ],
+  "reading_level": "8th grade"
+}
+```
+
+### 6.2 Dead Sea Scrolls — Great Isaiah Scroll (1QIsaᵃ)
+
+**Coverage:** Isaiah only — all 66 chapters. Extensible to other DSS books (Psalms fragments, Samuel scrolls) by adding to the slug map on both sides.
+**Source:** `bashonda2/the-covenant-rendering` (DSS data alongside TCR), CC-BY-4.0.
+**Manuscript:** 1QIsaᵃ (Qumran Cave 1), c. 125 BCE, Shrine of the Book, Israel Museum.
+**Purpose:** Surface pre-Christian Hebrew variants (orthographic → moderate → theological) so the commentary can note where the DSS text materially agrees with, differs from, or amplifies the Masoretic Text. First live in Weeks 38-42 (Isaiah), including Isaiah 53 (Week 41) where 1QIsaᵃ's "he shall see light" reading is the most consequential OT variant in scholarship.
+**Path:** `content/dss/isaiah/chapter-{NN}.json`
+
+Chapter-level meta:
+```json
+{
+  "meta": {
+    "book": "Isaiah",
+    "chapter": 53,
+    "tradition": "dss-1qisaiah-a",
+    "tradition_label": "Dead Sea Scrolls (1QIsaᵃ)",
+    "source_text": "1QIsaᵃ (Qumran Cave 1)",
+    "base_text": "Westminster Leningrad Codex (WLC)",
+    "date": "c. 125 BCE",
+    "manuscript_location": "Shrine of the Book, Israel Museum, Jerusalem",
+    "license": "CC-BY-4.0"
+  },
+  "preamble": {
+    "summary": "One-paragraph orientation to this chapter in 1QIsaᵃ.",
+    "notable_variants": "Verse-by-verse cheat sheet of variants.",
+    "scroll_condition": "Physical state of the column.",
+    "column_reference": "Column XLIV of 1QIsaᵃ"
+  },
+  "verses": [ /* see below */ ]
+}
+```
+
+Per-verse schema:
+```json
+{
+  "verse": 11,
+  "has_variant": true,
+  "significance": "theological",
+  "mt_reading": "יִרְאֶה",
+  "dss_reading": "יראה אור",
+  "variant_rendering": "he shall see light",
+  "mt_rendering": "he shall see",
+  "manuscript_reference": "1QIsaᵃ col. XLIV, line 11",
+  "variant_notes": [
+    "MT reads simply yireh; 1QIsaᵃ adds אור (light)...",
+    "Second note (up to 3 shown in prompt)..."
+  ]
+}
+```
+
+**Significance tiers:** `minor` (orthographic / plene spelling), `moderate` (word-form or verb-form differences), `theological` (variant meaningfully affects meaning).
+
+**UI rendering rule:** The Deep Dive shows a DSS block only when meaningful — i.e. when the DSS rendering differs from MT, when variant notes are present, or when the significance is `theological`. Verses that are purely orthographic variants (renderings identical between MT and DSS, no notes) are skipped to avoid noise.
+
+---
+
+## 7. SOURCE REGISTRY — DATA MODEL
 
 ### Purpose
 The Source Registry (`data/sources_registry.json`) is EVM's editorial backbone — a living, curated catalog of every source the platform is authorized to draw from. See Quality Contract for vetting rules and enforcement.
@@ -470,7 +569,7 @@ SOURCES PAGE (About > Sources)
 
 ---
 
-## 7. PROMPT TEMPLATES
+## 8. PROMPT TEMPLATES
 
 ### 7.1 Commentary Prompt Template (Standard Weeks)
 
@@ -688,7 +787,7 @@ OUTPUT: JSON array of 5-7 snippet objects.
 
 ---
 
-## 8. KEY REFERENCES
+## 9. KEY REFERENCES
 
 - **Anthropic API Docs:** https://docs.anthropic.com
 - **Claude Web Search Tool:** https://docs.anthropic.com/en/docs/build-with-claude/tool-use/web-search
