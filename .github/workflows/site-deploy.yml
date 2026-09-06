@@ -11,6 +11,9 @@ on:
         description: "Optional week numbers to regenerate with the production voice (for example: 36 37)"
         required: false
         type: string
+  push:
+    tags:
+      - "deploy-audio-*"
 
 permissions:
   contents: write
@@ -27,40 +30,56 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          # Audio deploy tags trigger a production build, so always generate
+          # and commit against the current main branch rather than detached HEAD.
+          ref: main
 
       - name: Set up Node.js
         uses: actions/setup-node@v7
         with:
           node-version: "24"
 
+      - name: Resolve requested audio weeks
+        id: audio
+        env:
+          INPUT_WEEKS: ${{ inputs.audio_weeks }}
+        run: |
+          weeks="$INPUT_WEEKS"
+          if [[ -z "$weeks" && "$GITHUB_REF_NAME" == deploy-audio-* ]]; then
+            weeks="${GITHUB_REF_NAME#deploy-audio-}"
+            weeks="${weeks//-/ }"
+          fi
+          if [[ -n "$weeks" && ! "$weeks" =~ ^[0-9]+([,\ ]+[0-9]+)*$ ]]; then
+            echo "Audio weeks must contain only week numbers separated by spaces or commas"
+            exit 1
+          fi
+          echo "weeks=$weeks" >> "$GITHUB_OUTPUT"
+
       - name: Set up Python
-        if: ${{ inputs.audio_weeks != '' }}
+        if: ${{ steps.audio.outputs.weeks != '' }}
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Install audio dependencies
-        if: ${{ inputs.audio_weeks != '' }}
+        if: ${{ steps.audio.outputs.weeks != '' }}
         run: pip install openai python-dotenv
 
       - name: Regenerate requested audio
-        if: ${{ inputs.audio_weeks != '' }}
+        if: ${{ steps.audio.outputs.weeks != '' }}
         env:
-          AUDIO_WEEKS: ${{ inputs.audio_weeks }}
+          AUDIO_WEEKS: ${{ steps.audio.outputs.weeks }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          if [[ ! "$AUDIO_WEEKS" =~ ^[0-9]+([,\ ]+[0-9]+)*$ ]]; then
-            echo "audio_weeks must contain only week numbers separated by spaces or commas"
-            exit 1
-          fi
           for week in $(echo "$AUDIO_WEEKS" | tr ',' ' '); do
             python3 pipeline/generate_audio.py "$week"
           done
 
       - name: Commit regenerated audio
-        if: ${{ inputs.audio_weeks != '' }}
+        if: ${{ steps.audio.outputs.weeks != '' }}
         env:
-          AUDIO_WEEKS: ${{ inputs.audio_weeks }}
+          AUDIO_WEEKS: ${{ steps.audio.outputs.weeks }}
         run: |
           git config user.name "EVM Pipeline Bot"
           git config user.email "pipeline@everyversematters.com"
