@@ -183,7 +183,8 @@ response = client.messages.create(
 ### Stage 6.5: Audio Generation
 
 **Script:** `pipeline/generate_audio.py`
-**API:** OpenAI tts-1-hd, voice: echo (warm male pastoral tone)
+**API:** OpenAI gpt-4o-mini-tts, voice: cedar (OpenAI-recommended quality voice)
+**Delivery:** Warm, natural scripture-study narration with gentle pacing; avoids synthetic announcer cadence
 **Output:** `site/public/audio/week-{nn}-hook.mp3`
 
 ### Stage 7: Site Rebuild & Deploy
@@ -276,7 +277,7 @@ response = client.messages.create(
 |-----------|-------|---------------------|
 | Deep Dive Commentary | Haiku 4.5 | $2-4 |
 | Hook Paragraph Generation | Sonnet 4.5 | $0.10-0.25 |
-| Hook Audio (TTS) | OpenAI tts-1-hd | ~$0.02/week |
+| Hook Audio (TTS) | OpenAI gpt-4o-mini-tts | Usage-priced |
 | Companion Snippet Extraction | Haiku 4.5 | $0.05-0.10 |
 | Quote Verification | Sonnet + Web Search | $0.25-0.50 |
 | Creator Discovery | Sonnet + Web Search | $1-3 |

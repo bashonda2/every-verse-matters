@@ -5,8 +5,7 @@ Converts the hook paragraph to speech using OpenAI TTS.
 Outputs an MP3 to site/public/audio/week-{nn}-hook.mp3 for static serving.
 
 Requires: OPENAI_API_KEY in .env
-Model: tts-1-hd (higher quality), voice: nova (warm, clear)
-Cost: ~$15/1M chars. Hook is ~200 words ≈ $0.02/week.
+Model: gpt-4o-mini-tts, voice: cedar (OpenAI-recommended quality voice)
 """
 
 import sys
@@ -20,9 +19,21 @@ load_dotenv(ROOT / ".env")
 
 AUDIO_DIR = ROOT / "site" / "public" / "audio"
 CONTENT_DIR = ROOT / "content" / "weeks" / "2026"
+DEFAULT_MODEL = "gpt-4o-mini-tts"
+DEFAULT_VOICE = "cedar"
+DEFAULT_INSTRUCTIONS = (
+    "Speak in a warm, natural, thoughtful voice suited to a scripture study "
+    "podcast. Use gentle pacing, clear phrasing, and quiet confidence. Avoid "
+    "a synthetic announcer cadence, exaggerated drama, or sales-like energy."
+)
 
 
-def generate_audio(week_num: int, voice: str = "nova", model: str = "tts-1-hd") -> Path:
+def generate_audio(
+    week_num: int,
+    voice: str = DEFAULT_VOICE,
+    model: str = DEFAULT_MODEL,
+    instructions: str = DEFAULT_INSTRUCTIONS,
+) -> Path:
     """Generate TTS audio for a week's hook paragraph."""
     try:
         from openai import OpenAI
@@ -58,21 +69,29 @@ def generate_audio(week_num: int, voice: str = "nova", model: str = "tts-1-hd") 
 
     client = OpenAI(api_key=api_key)
 
+    speech_options = {
+        "model": model,
+        "voice": voice,
+        "input": hook_text,
+        "response_format": "mp3",
+    }
+    # Delivery instructions are supported by the GPT-4o mini TTS family, but
+    # not by the legacy tts-1/tts-1-hd models accepted by the CLI override.
+    if model.startswith("gpt-4o-mini-tts"):
+        speech_options["instructions"] = instructions
+
     with client.audio.speech.with_streaming_response.create(
-        model=model,
-        voice=voice,
-        input=hook_text,
-        response_format="mp3",
+        **speech_options,
     ) as response:
         response.stream_to_file(str(output_path))
 
     size_kb = output_path.stat().st_size / 1024
-    cost_estimate = len(hook_text) * 15 / 1_000_000  # tts-1-hd: $15/1M chars
-    print(f"  ✓ Audio saved: {output_path} ({size_kb:.0f} KB, ~${cost_estimate:.4f})")
+    print(f"  ✓ Audio saved: {output_path} ({size_kb:.0f} KB)")
 
     # Update hook.json with audio path
     hook_data["audio_url"] = f"/audio/week-{str(week_num).zfill(2)}-hook.mp3"
     hook_data["audio_voice"] = voice
+    hook_data["audio_model"] = model
     hook_path.write_text(json.dumps(hook_data, indent=2, ensure_ascii=False))
     print(f"  ✓ hook.json updated with audio_url")
 
@@ -81,12 +100,13 @@ def generate_audio(week_num: int, voice: str = "nova", model: str = "tts-1-hd") 
 
 if __name__ == "__main__":
     week_num = int(sys.argv[1]) if len(sys.argv) > 1 else 9
-    voice = sys.argv[2] if len(sys.argv) > 2 else "nova"
+    voice = sys.argv[2] if len(sys.argv) > 2 else DEFAULT_VOICE
+    model = sys.argv[3] if len(sys.argv) > 3 else DEFAULT_MODEL
 
     print(f"\n{'='*60}")
     print(f"EVM Audio Generation — Week {week_num}")
     print(f"{'='*60}\n")
 
-    path = generate_audio(week_num, voice=voice)
+    path = generate_audio(week_num, voice=voice, model=model)
     print(f"\nDone. Serve at: /audio/{path.name}")
     print("Rebuild the site to include the audio file: npm run build (in /site)")

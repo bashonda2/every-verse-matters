@@ -1,12 +1,19 @@
 name: Site Deploy (build + rsync only)
 
-# Rebuilds the Astro site from the current main-branch content and rsyncs
-# to the VPS. Used when we need to ship a code-only site change (layout,
-# component, disclaimer wording, etc.) without re-running the AI content
-# pipeline.
+# Rebuilds the Astro site from the current main-branch content and rsyncs to
+# the VPS. It can optionally regenerate selected weeks' hook audio first,
+# without re-running the AI commentary pipeline.
 
 on:
   workflow_dispatch:
+    inputs:
+      audio_weeks:
+        description: "Optional week numbers to regenerate with the production voice (for example: 36 37)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
 
 concurrency:
   group: site-deploy
@@ -25,6 +32,48 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: "24"
+
+      - name: Set up Python
+        if: ${{ inputs.audio_weeks != '' }}
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install audio dependencies
+        if: ${{ inputs.audio_weeks != '' }}
+        run: pip install openai python-dotenv
+
+      - name: Regenerate requested audio
+        if: ${{ inputs.audio_weeks != '' }}
+        env:
+          AUDIO_WEEKS: ${{ inputs.audio_weeks }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [[ ! "$AUDIO_WEEKS" =~ ^[0-9]+([,\ ]+[0-9]+)*$ ]]; then
+            echo "audio_weeks must contain only week numbers separated by spaces or commas"
+            exit 1
+          fi
+          for week in $(echo "$AUDIO_WEEKS" | tr ',' ' '); do
+            python3 pipeline/generate_audio.py "$week"
+          done
+
+      - name: Commit regenerated audio
+        if: ${{ inputs.audio_weeks != '' }}
+        env:
+          AUDIO_WEEKS: ${{ inputs.audio_weeks }}
+        run: |
+          git config user.name "EVM Pipeline Bot"
+          git config user.email "pipeline@everyversematters.com"
+          for week in $(echo "$AUDIO_WEEKS" | tr ',' ' '); do
+            week_padded=$(printf "%02d" "$week")
+            git add "site/public/audio/week-${week_padded}-hook.mp3"
+            git add "content/weeks/2026/week-${week_padded}/hook.json"
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m "Regenerate Week ${AUDIO_WEEKS} audio with quality voice"
+            git pull --rebase origin main
+            git push
+          fi
 
       - name: Install site dependencies
         working-directory: site
