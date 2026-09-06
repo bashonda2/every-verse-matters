@@ -5,11 +5,11 @@
    ───────────────────────────────────────── */
 @theme {
   /* Brand colors */
-  --color-gold:        #9E7A38;
-  --color-gold-light:  #C4A35A;
-  --color-gold-muted:  #B8976A;
-  --color-gold-faint:  rgba(158, 122, 56, 0.08);
-  --color-gold-border: rgba(158, 122, 56, 0.25);
+  --color-gold:        #76551A;
+  --color-gold-light:  #6F511D;
+  --color-gold-muted:  #66512D;
+  --color-gold-faint:  rgba(118, 85, 26, 0.08);
+  --color-gold-border: rgba(118, 85, 26, 0.32);
 
   /* Surface */
   --color-cream:       #FAF7F2;
@@ -20,16 +20,16 @@
   /* Text */
   --color-text:        #2C2418;
   --color-text-2:      #5C4F3D;
-  --color-text-muted:  #8A7D6B;
-  --color-text-light:  #A89B87;
+  --color-text-muted:  #665843;
+  --color-text-light:  #5E523F;
 
   /* Structural (mapped to old names for VerseCommentary etc.) */
   --color-navy:        #FAF7F2;
   --color-navy-light:  #F5F0E8;
   --color-navy-lighter:#E8E0D4;
-  --color-verse-bg:    #F5F0E8;
-  --color-expand-bg:   #F0EBE0;
-  --color-border:      #E8E0D4;
+  --color-verse-bg:    #FFFFFF;
+  --color-expand-bg:   #FCFBF8;
+  --color-border:      #D9CDBD;
   --color-shadow-warm: rgba(44, 36, 24, 0.06);
   --color-shadow-gold: rgba(158, 122, 56, 0.10);
 }
@@ -69,7 +69,7 @@ html.dark {
    ───────────────────────────────────────── */
 body {
   font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.75;
   background-color: var(--color-cream);
   color: var(--color-text);
@@ -92,12 +92,137 @@ nav, .font-sans, button, label, input, select, textarea {
   border-left: 3px solid var(--color-gold);
   padding: 0.85rem 1.25rem;
   background: var(--color-verse-bg);
-  font-style: italic;
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 1.05rem;
-  line-height: 1.85;
+  font-style: normal;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.18rem;
+  line-height: 1.75;
   border-radius: 0 0.5rem 0.5rem 0;
+  color: var(--color-text);
+}
+
+/* ─────────────────────────────────────────
+   DEEP DIVE — LONG-FORM READING
+   ───────────────────────────────────────── */
+.deep-dive-page {
+  font-size: 1.125rem;
+  line-height: 1.82;
+}
+
+.deep-dive-page .verse-commentary {
+  max-width: 74ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deep-dive-page .scripture-stack {
+  gap: 0.9rem;
+}
+
+.deep-dive-page .scripture-source {
+  padding: 1rem 1.15rem;
+  background: var(--color-verse-bg);
+  border: 1px solid var(--color-border);
+  border-left-width: 4px;
+  border-radius: 0.4rem 0.65rem 0.65rem 0.4rem;
+}
+
+.deep-dive-page .scripture-source .verse-text {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
+.deep-dive-page .source-label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.deep-dive-page .translation-detail {
+  color: var(--color-text-2) !important;
+  font-size: 1rem !important;
+  line-height: 1.7;
+}
+
+.deep-dive-page .translation-note {
+  color: var(--color-text-2) !important;
+  font-size: 0.95rem !important;
+  line-height: 1.65;
+}
+
+.deep-dive-page .commentary-narrative {
+  max-width: 72ch;
+  color: var(--color-text);
+  font-size: 1.125rem;
+  line-height: 1.85;
+}
+
+.deep-dive-page .study-detail {
+  overflow: hidden;
+  background: var(--color-expand-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 0.65rem;
+}
+
+.deep-dive-page .study-detail > summary {
+  padding: 0.85rem 1rem;
+  color: var(--color-gold-light);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 650;
+}
+
+.deep-dive-page .study-detail[open] > summary {
+  border-bottom: 1px solid var(--color-border);
+  background: rgba(118, 85, 26, 0.035);
+}
+
+.deep-dive-page .study-detail-content {
+  padding: 1rem 1.15rem 1.2rem;
+  color: var(--color-text);
+  font-size: 1.04rem;
+  line-height: 1.82;
+}
+
+.deep-dive-page .study-detail-content .secondary-copy {
   color: var(--color-text-2);
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+
+  .deep-dive-page {
+    line-height: 1.75;
+  }
+
+  .deep-dive-page .scripture-source {
+    padding: 0.9rem 1rem;
+  }
+
+  .deep-dive-page .scripture-source .verse-text {
+    font-size: 1.12rem;
+    line-height: 1.72;
+  }
+
+  .deep-dive-page .commentary-narrative {
+    font-size: 1.03rem;
+    line-height: 1.78;
+  }
+
+  .deep-dive-page .study-detail-content {
+    padding: 0.9rem 1rem 1.05rem;
+    font-size: 1rem;
+    line-height: 1.75;
+  }
 }
 
 /* ─────────────────────────────────────────
