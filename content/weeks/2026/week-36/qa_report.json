@@ -1,0 +1,59 @@
+{
+  "week": 36,
+  "generated_at": "2026-09-06T05:13:12.351716+00:00",
+  "audit_model": "claude-opus-5",
+  "total_verses": 354,
+  "audited_verses": 4,
+  "passed": 350,
+  "failed": 4,
+  "high_risk": [
+    {
+      "verse": "Psalms 119:18",
+      "risk_level": "high",
+      "flags": [
+        "PROPHETIC QUOTE — Attribution/citation mismatch risk: Dallin H. Oaks is credited with a talk titled 'Scripture Reading and Revelation' dated April 1995. Elder Oaks delivered 'Scripture Reading and Revelation' as an Ensign article (January 1995), not as an April 1995 general conference address. The talk title is also thematically generic in a way that matches common fabrication patterns. The date/venue pairing raises suspicion of a synthesized citation.",
+        "PROPHETIC QUOTE — Quote wording appears reconstructed rather than verbatim. The phrasing 'The veil becomes thin, and the scriptures come alive with meaning and application to our particular circumstances' reads as a plausible-sounding paraphrase blended into a direct quotation. Direct quotation marks with unverifiable phrasing attributed to a named apostle is a high-risk pattern.",
+        "CROSS-REFERENCE — 2 Nephi 32:8 misquoted and mismatched. The text supplied ('Wherefore, now after I have spoken these words, lest ye shall say that I have not spoken plainly...') more closely resembles 2 Nephi 25:28 or 2 Nephi 31:3 language. 2 Nephi 32:8 actually concerns the Spirit teaching a man to pray and the evil spirit that teaches a man not to pray. The stated connection does not match the cited verse's actual content.",
+        "CROSS-REFERENCE — Alma 32:34-35 quotation is inaccurate. The supplied text ('And behold, as thy soul shall be blessed...even so shall the Lord bless thee') appears to conflate Alma 32:34-35 (which discusses knowledge being perfect in that thing, and light being discernible and real) with Alma 32:42 or Alma 34 language. The quoted fragment does not correspond to verses 34-35.",
+        "CROSS-REFERENCE — D&C 76:10-12 ellipsis quotation is compressed across verses in a way that cannot be verified as accurate. The phrase 'Thus came the vision unto us' does not appear in verses 10-12; verse 12 reads 'we beheld the glory of the Son...' The elided quotation pattern is a common hallucination indicator."
+      ]
+    },
+    {
+      "verse": "Psalms 119:19",
+      "risk_level": "high",
+      "flags": [
+        "PROPHETIC QUOTE — Brigham Young, '\"The Purpose of the Gospel\"', 'October 1870 General Conference': Title is generic/thematic rather than a specific discourse title. Brigham Young's discourses are conventionally cited by Journal of Discourses volume and page (e.g., JD 13:xxx) with a specific date and location, not by an invented sermon title paired with a bare 'General Conference' attribution. The combination of a vague title plus a round-number date pattern is a strong hallucination indicator.",
+        "PROPHETIC QUOTE WORDING — The quote 'We are here as sojourners in this world, and we ought to understand that we are not of it' reads as a modern paraphrase tailored to the verse's theme rather than Brigham Young's characteristic 19th-century discourse style. Suspicion of fabricated or reconstructed wording.",
+        "CROSS-REFERENCE MISMATCH — Alma 5:50: The described connection does not match the cited verse. Alma 5:50 is the 'repent, repent... the kingdom of heaven is soon at hand' / 'the Son of God cometh in his glory' passage. The quoted phrase 'consider on the blessed and happy state of those that keep the commandments of God' belongs to Mosiah 2:41, not Alma 5:50. This is a misattributed quotation combined with a strained thematic link.",
+        "CROSS-REFERENCE MISMATCH — D&C 45:46-47: These verses describe the Second Coming — the saints who have slept coming forth to meet the Lord, and the Lord standing upon the Mount of Olivet. The quoted phrases 'seek Me early' and 'keep My commandments' do not appear there; 'seek me early' is D&C 88:83. The stated connection to pilgrimage and access to God's word does not correspond to the cited passage.",
+        "CROSS-REFERENCE — Hebrews 11:13-16: Connection is plausible and well-attested, but note the quoted phrase 'a city whose builder and maker is God' is Hebrews 11:10, slightly outside the cited range. Minor citation imprecision."
+      ]
+    },
+    {
+      "verse": "Psalms 119:23",
+      "risk_level": "high",
+      "flags": [
+        "FABRICATED_QUOTE_RISK: Brigham Young quote attributed to a talk titled 'The Confidence of the Saints,' October 1865 General Conference. Brigham Young's discourses are preserved primarily in the Journal of Discourses and are typically cited by volume/page, not by discrete talk titles. The title reads as a generic, invented-sounding construction, and the quote's polished, aphoristic phrasing does not match Brigham Young's characteristic rhetorical style. High risk of fabricated attribution.",
+        "UNVERIFIABLE_CITATION_FORMAT: Citation lacks Journal of Discourses volume and page reference, which is the standard and expected sourcing for 19th-century discourses. Absence of specific locator increases hallucination risk.",
+        "CROSS_REFERENCE_MISMATCH: Alma 5:34-35 is cited as Alma 'opposing worldly authorities and their persecution of believers.' Alma 5:34-35 is actually an invitation to repentance and coming unto Christ ('come unto me and ye shall partake of the fruit of the tree of life... repent, repent... bring forth fruit meet for repentance'). It contains no reference to worldly authorities, persecution, or institutional opposition. The described connection does not match the content of the cited verse.",
+        "CROSS_REFERENCE_PARTIAL_MISMATCH: D&C 121:1-6 is described as containing 'My son, peace be unto thy soul; thine adversity and thine afflictions shall be but a small moment.' That language appears in D&C 121:7-8, not within the cited range of verses 1-6. The quoted comfort is attributed to a verse range that does not contain it."
+      ]
+    },
+    {
+      "verse": "Psalms 119:24",
+      "risk_level": "high",
+      "flags": [
+        "Prophetic quote attribution is suspicious: 'The Key to Living Water' is attributed to Dallin H. Oaks, October 2007 General Conference. The known talk with this title was given by Elder Dallin H. Oaks in April 2007, and the quoted language does not match a verifiable excerpt. Speaker/date/title combination is unverified and possibly fabricated.",
+        "Quoted prophetic statement reads as generalized paraphrase-style prose ('Our minds and spirits can be nourished by the word of God...') rather than a distinctive, verifiable direct quotation — high risk of invented wording presented inside quotation marks.",
+        "Cross-reference Psalm 119:47-48 misquotes the KJV text: the actual verses read 'And I will delight myself in thy commandments, which I have loved,' not 'For I have delighted... in thy commandments.' The Hebrew gloss 'ta'anu' is not a correct transliteration for the delight verb (sha'a/shaʿashuaʿ in v.24; ʿanag/shaʿashaʿ elsewhere) — the Hebrew term appears invented.",
+        "Cross-reference Psalm 1:2 misattributes the Hebrew term: the delight word in Psalm 1:2 is 'chephets/chaphets,' but the KJV wording cited ('day and night') is conflated with an unsupported transliteration; unverified linguistic claim presented with false specificity.",
+        "Cross-reference 2 Nephi 4:15-16 quote does not match the actual text of those verses, which concern Nephi's soul delighting in the scriptures and writing for his children's learning; the phrase 'I did remember all the tender mercies of the Lord' is from 1 Nephi 8:8 / 1 Nephi 1:20 context, not 2 Nephi 4:15-16. Citation-content mismatch.",
+        "Cross-reference D&C 42:61 quote does not match that verse, which concerns receiving revelation and knowledge ('thou shalt receive revelation upon revelation'). The quoted promise about eternal life as 'the greatest of all the gifts of God' is D&C 14:7. Citation-content mismatch."
+      ]
+    }
+  ],
+  "medium_risk": [],
+  "xref_issues": [],
+  "overall_pass": false,
+  "fail_pct": 1.1
+}
