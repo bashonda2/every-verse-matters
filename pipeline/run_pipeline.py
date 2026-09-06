@@ -210,7 +210,8 @@ def main():
     results.append(r)
 
     # Stage 6.5: Audio Generation (requires OPENAI_API_KEY)
-    r = run_stage("Audio Generation", "pipeline/generate_audio.py", [week_str, "echo"], dry_run)
+    # generate_audio.py owns the production model, voice, and delivery style.
+    r = run_stage("Audio Generation", "pipeline/generate_audio.py", [week_str], dry_run)
     results.append(r)
 
     # Stage 6.6: Cross-Reference Verification
