@@ -5,8 +5,13 @@
   "total_verses": 288,
   "audited_verses": 1,
   "passed": 287,
-  "failed": 1,
-  "high_risk": [
+  "failed": 0,
+  "high_risk": [],
+  "medium_risk": [],
+  "xref_issues": [],
+  "overall_pass": true,
+  "fail_pct": 0.0,
+  "resolved_high_risk": [
     {
       "verse": "Proverbs 31:31",
       "risk_level": "high",
@@ -19,8 +24,6 @@
       ]
     }
   ],
-  "medium_risk": [],
-  "xref_issues": [],
-  "overall_pass": false,
-  "fail_pct": 0.3
+  "manual_review_note": "Aaron reviewed the 1 high-risk flag from the automated Opus 5 audit on 2026-09-05 and resolved it manually: the flagged prophetic quote at Proverbs 31:31 (attribution to President Dallin H. Oaks, \"The Woman Question\", May 1975) was fabricated — Oaks was not called to the Quorum of the Twelve until 1984 and not sustained as President until 2018. Quote removed from commentary.json. All other content unchanged.",
+  "manually_resolved_at": "2026-09-06T01:41:35.523010+00:00"
 }

@@ -27,7 +27,9 @@ permissions:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    # 300 min: Psalms 119 alone (176 verses) can push a heavy week past the
+    # earlier 180-min cap. See Week 36 (Aug 29, 2026) cancellation.
+    timeout-minutes: 300
 
     steps:
       - name: Checkout repository
