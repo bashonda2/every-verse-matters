@@ -48,16 +48,42 @@ def load_registry() -> dict:
 
 
 def quote_in_registry(quote: dict, registry: dict) -> bool:
-    """Check if a quote is from a verifiable source in the registry."""
+    """Check whether the specific cited talk is present in the registry.
+
+    A known speaker alone is not evidence that every title attributed to that
+    speaker is real.
+    """
     speaker = quote.get("speaker", "").lower()
     talk = quote.get("talk_title", "").lower()
 
-    for key, entry in registry.items():
-        if speaker and speaker in key:
+    if not talk:
+        return False
+
+    for entry in registry.values():
+        registered_talk = entry.get("name", "").lower()
+        if talk != registered_talk:
+            continue
+
+        registered_speaker = entry.get("author", "").lower()
+        if not speaker or not registered_speaker:
             return True
-        if speaker and key in speaker:
-            return True
-        if talk and talk[:20] in key:
+
+        # Honorifics may differ over time. Once the exact talk title matches,
+        # require the cited and registered authors to share a surname.
+        titles = {"elder", "president", "sister", "brother"}
+        speaker_parts = [
+            part for part in re.findall(r"[a-z]+", speaker) if part not in titles
+        ]
+        registered_parts = [
+            part
+            for part in re.findall(r"[a-z]+", registered_speaker)
+            if part not in titles
+        ]
+        if (
+            speaker_parts
+            and registered_parts
+            and speaker_parts[-1] == registered_parts[-1]
+        ):
             return True
     return False
 
@@ -84,7 +110,9 @@ def verify_with_web_search(quote: dict, client, model: str) -> tuple[bool, str]:
         for block in response.content:
             if hasattr(block, "text"):
                 text_out += block.text
-        if "VERIFIED" in text_out.upper():
+        # "UNVERIFIED" contains the substring "VERIFIED", so require the
+        # affirmative response token at the beginning of the result.
+        if re.match(r"^\s*VERIFIED\s*:", text_out, flags=re.IGNORECASE):
             return True, text_out.strip()
         return False, text_out.strip()
     except Exception as e:

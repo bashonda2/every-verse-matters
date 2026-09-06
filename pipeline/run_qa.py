@@ -10,7 +10,8 @@ Two checks:
    implausible cross-reference connections
 
 Output: qa_report.json with pass/fail per verse and summary stats.
-Pipeline halts deployment if critical failures exceed threshold.
+High-risk prophetic quotes are removed and the sanitized verse is re-audited.
+Any high-risk issue that remains after quote removal still blocks deployment.
 """
 
 import sys
@@ -162,6 +163,26 @@ def audit_verse_with_haiku(verse_data: dict, client, model: str = "claude-opus-5
         return {"pass": True, "flags": [], "risk_level": "low", "error": str(e)}
 
 
+def strip_prophetic_quotes(verse_data: dict) -> list[dict]:
+    """Remove and return all prophetic quotes from one verse."""
+    commentary = verse_data.get("commentary", {})
+    quotes = commentary.get("prophetic_quotes", [])
+    if not isinstance(quotes, list) or not quotes:
+        return []
+
+    commentary["prophetic_quotes"] = []
+    return quotes
+
+
+def quote_provenance(quote: dict) -> dict:
+    """Retain citation metadata without preserving suspect quote text."""
+    return {
+        key: quote.get(key)
+        for key in ("speaker", "talk_title", "month_year")
+        if quote.get(key)
+    }
+
+
 def run_qa(week_num: int, audit_all: bool = False) -> dict:
     """
     Run full QA suite on a week's commentary.
@@ -191,11 +212,13 @@ def run_qa(week_num: int, audit_all: bool = False) -> dict:
         "failed": 0,
         "high_risk": [],
         "medium_risk": [],
+        "auto_remediated": [],
         "xref_issues": [],
         "overall_pass": True,
     }
 
     print(f"\n  Running QA audit for Week {week_num} ({len(verses)} verses)...")
+    commentary_modified = False
 
     for i, verse in enumerate(verses):
         ref = f"{verse.get('book')} {verse.get('chapter')}:{verse.get('verse')}"
@@ -222,6 +245,57 @@ def run_qa(week_num: int, audit_all: bool = False) -> dict:
         report["audited_verses"] += 1
 
         if not result.get("pass", True):
+            # A suspect prophetic quote is safer to omit than to publish. Remove
+            # every quote from the flagged verse, then audit the remaining JST
+            # and cross-reference content again. Never treat a re-audit error as
+            # a pass: unresolved high-risk content must continue to block.
+            if result.get("risk_level") == "high" and has_quotes:
+                removed_quotes = strip_prophetic_quotes(verse)
+                commentary_modified = bool(removed_quotes) or commentary_modified
+                remediation_result = audit_verse_with_haiku(
+                    verse, client, model=audit_model
+                )
+                report["audited_verses"] += 1
+
+                remediation = {
+                    "verse": ref,
+                    "removed_quotes": [
+                        quote_provenance(quote) for quote in removed_quotes
+                    ],
+                    "original_flags": result.get("flags", []),
+                    "reaudit_passed": (
+                        remediation_result.get("pass") is True
+                        and not remediation_result.get("error")
+                    ),
+                }
+                if remediation_result.get("error"):
+                    remediation["reaudit_error"] = remediation_result["error"]
+                    result = {
+                        "pass": False,
+                        "risk_level": "high",
+                        "flags": [
+                            "Automatic quote removal succeeded, but the "
+                            f"sanitized verse could not be re-audited: "
+                            f"{remediation_result['error']}"
+                        ],
+                    }
+                else:
+                    result = remediation_result
+
+                remediation["remaining_risk_level"] = result.get(
+                    "risk_level", "low"
+                )
+                remediation["remaining_flags"] = result.get("flags", [])
+                report["auto_remediated"].append(remediation)
+                print(
+                    f"    🧹 Removed {len(removed_quotes)} high-risk "
+                    f"prophetic quote(s) from {ref}; re-audited sanitized verse"
+                )
+
+                if result.get("pass") is True:
+                    report["passed"] += 1
+                    continue
+
             report["failed"] += 1
             entry = {
                 "verse": ref,
@@ -246,13 +320,25 @@ def run_qa(week_num: int, audit_all: bool = False) -> dict:
     report["fail_pct"] = round(fail_pct, 1)
     report["overall_pass"] = fail_pct <= FAIL_THRESHOLD_PCT and high_risk_count == 0
 
+    if commentary_modified:
+        comm_path.write_text(json.dumps(verses, indent=2, ensure_ascii=False))
+        print(
+            f"  ✓ Commentary updated — "
+            f"{len(report['auto_remediated'])} verse(s) auto-remediated"
+        )
+
     # Write report
     report_path = week_dir / "qa_report.json"
     report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False))
 
     status = "✅ PASS" if report["overall_pass"] else "❌ FAIL"
     print(f"\n  QA {status} — {failed}/{total} verses flagged ({fail_pct:.1f}%)")
-    print(f"  High risk: {high_risk_count} | Medium: {len(report['medium_risk'])} | XRef issues: {len(report['xref_issues'])}")
+    print(
+        f"  High risk: {high_risk_count} | "
+        f"Auto-remediated: {len(report['auto_remediated'])} | "
+        f"Medium: {len(report['medium_risk'])} | "
+        f"XRef issues: {len(report['xref_issues'])}"
+    )
     print(f"  Report: {report_path}")
 
     return report
