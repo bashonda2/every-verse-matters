@@ -91,23 +91,23 @@ const dssMeaningful = dss && (
 );
 ---
 
-<article id={`v${verse}`} class="mb-10 scroll-mt-20">
+<article id={`v${verse}`} class="verse-commentary mb-12 scroll-mt-20">
   <h3 class="font-sans text-gold font-semibold text-xl mb-3">{ref}</h3>
 
-  <div class="mb-5 space-y-3">
+  <div class="scripture-stack mb-6 flex flex-col">
     {/* KJV — always shown */}
-    <div class="pl-4" style="border-left:3px solid var(--color-gold);">
-      <p class="font-sans text-[10px] font-bold uppercase tracking-widest mb-1" style="color:var(--color-gold);opacity:.7;">KJV</p>
-      <blockquote class="verse-text text-text/90">
+    <div class="scripture-source" style="border-left-color:var(--color-gold);">
+      <p class="source-label" style="color:var(--color-gold);">KJV</p>
+      <blockquote class="verse-text">
         {text_kjv}
       </blockquote>
     </div>
 
     {/* JST — shown when a JST revision exists */}
     {text_jst && (
-      <div class="pl-4" style="border-left:3px solid #5b9bd5;">
-        <p class="font-sans text-[10px] font-bold uppercase tracking-widest mb-1" style="color:#5b9bd5;">JST</p>
-        <blockquote class="verse-text text-text/90" style="font-style:italic;">
+      <div class="scripture-source" style="border-left-color:#3677ad;">
+        <p class="source-label" style="color:#28618f;">JST</p>
+        <blockquote class="verse-text">
           {text_jst}
         </blockquote>
       </div>
@@ -115,16 +115,16 @@ const dssMeaningful = dss && (
 
     {/* TCR — shown when The Covenant Rendering exists for this verse */}
     {tcr && (
-      <div class="pl-4" style="border-left:3px solid #6db89e;">
-        <p class="font-sans text-[10px] font-bold uppercase tracking-widest mb-1">
-          <a href="https://thecovenantrendering.com" target="_blank" rel="noopener" style="color:#6db89e;text-decoration:none;">TCR</a>
+      <div class="scripture-source" style="border-left-color:#40866f;">
+        <p class="source-label">
+          <a href="https://thecovenantrendering.com" target="_blank" rel="noopener" style="color:#286c57;text-decoration:none;">TCR</a>
         </p>
-        <blockquote class="verse-text text-text/90">
+        <blockquote class="verse-text">
           {tcr.rendering}
         </blockquote>
 
         {tcr.expanded_rendering && (
-          <p class="text-sm leading-relaxed mt-2 pl-1" style="color:var(--color-text-muted);font-style:italic;">
+          <p class="translation-detail mt-3">
             {tcr.expanded_rendering}
           </p>
         )}
@@ -132,24 +132,24 @@ const dssMeaningful = dss && (
         {tcr.key_terms && tcr.key_terms.length > 0 && (
           <div class="space-y-1.5 mt-2">
             {tcr.key_terms.map((kt: TcrKeyTerm) => (
-              <div class="text-sm">
-                <span class="font-sans font-semibold" style="color:#6db89e;">{kt.rendered_as}</span>
-                <span class="font-sans text-xs ml-1.5" style="color:var(--color-text-muted);">{kt.hebrew} · {kt.transliteration}</span>
-                <span class="text-xs" style="color:var(--color-text-muted);"> — {kt.note}</span>
+              <div class="translation-note">
+                <span class="font-sans font-semibold" style="color:#286c57;">{kt.rendered_as}</span>
+                <span class="font-sans ml-1.5">{kt.hebrew} · {kt.transliteration}</span>
+                <span> — {kt.note}</span>
               </div>
             ))}
           </div>
         )}
 
         {tcr.translator_notes && tcr.translator_notes.length > 0 && (
-          <details class="mt-2 text-sm">
-            <summary class="font-sans font-medium flex items-center gap-1.5 cursor-pointer" style="color:var(--color-text-muted);font-size:.75rem;">
+          <details class="mt-3">
+            <summary class="translation-note font-sans font-semibold flex items-center gap-1.5 cursor-pointer">
               <span class="chevron text-xs">&#9654;</span> Translator Notes
             </summary>
-            <ul class="mt-1.5 space-y-1 list-none">
+            <ul class="mt-2 space-y-1.5 list-none">
               {tcr.translator_notes.map((note: string) => (
-                <li class="flex gap-2 text-xs" style="color:var(--color-text-muted);">
-                  <span style="color:#6db89e;margin-top:.15rem;font-size:.5rem;">&#9670;</span>
+                <li class="translation-note flex gap-2">
+                  <span style="color:#40866f;margin-top:.15rem;font-size:.55rem;">&#9670;</span>
                   <span>{note}</span>
                 </li>
               ))}
@@ -161,13 +161,13 @@ const dssMeaningful = dss && (
 
     {/* DSS — Dead Sea Scrolls variant, shown when meaningful */}
     {dssMeaningful && (
-      <div class="pl-4" style="border-left:3px solid #c8a97b;">
-        <p class="font-sans text-[10px] font-bold uppercase tracking-widest mb-1 flex items-center gap-2">
-          <span title="Dead Sea Scrolls — Great Isaiah Scroll (1QIsaᵃ), c. 125 BCE" style="color:#c8a97b;">DSS</span>
+      <div class="scripture-source" style="border-left-color:#9a6e31;">
+        <p class="source-label flex items-center gap-2">
+          <span title="Dead Sea Scrolls — Great Isaiah Scroll (1QIsaᵃ), c. 125 BCE" style="color:#76551a;">DSS</span>
           {dss?.significance && (
             <span
-              class="font-sans font-normal normal-case tracking-normal text-[10px] px-1.5 py-0.5 rounded"
-              style={`color:#c8a97b;background:rgba(200,169,123,.12);letter-spacing:.02em;`}
+              class="font-sans font-semibold normal-case tracking-normal text-xs px-2 py-0.5 rounded"
+              style={`color:#76551a;background:rgba(118,85,26,.10);letter-spacing:.01em;`}
             >
               {dss.significance} variant
             </span>
@@ -176,44 +176,44 @@ const dssMeaningful = dss && (
 
         {dss?.variant_rendering && dss.mt_rendering && dss.variant_rendering !== dss.mt_rendering && (
           <div class="space-y-1.5">
-            <div class="text-sm">
-              <span class="font-sans text-xs uppercase tracking-wider mr-1.5" style="color:var(--color-text-muted);opacity:.7;">MT</span>
-              <span style="color:var(--color-text-muted);">"{dss.mt_rendering}"</span>
+            <div class="translation-detail">
+              <span class="font-sans text-sm font-semibold uppercase tracking-wider mr-1.5" style="color:var(--color-text-2);">MT</span>
+              <span>"{dss.mt_rendering}"</span>
             </div>
-            <blockquote class="verse-text text-text/90">
+            <blockquote class="verse-text">
               "{dss.variant_rendering}"
             </blockquote>
           </div>
         )}
 
         {dss?.variant_rendering && (!dss.mt_rendering || dss.variant_rendering === dss.mt_rendering) && (
-          <blockquote class="verse-text text-text/90">
+          <blockquote class="verse-text">
             "{dss.variant_rendering}"
           </blockquote>
         )}
 
         {dss?.mt_reading && dss?.dss_reading && (
-          <div class="mt-2 text-xs" style="color:var(--color-text-muted);font-family:'Cormorant Garamond',Georgia,serif;">
-            <div><span style="opacity:.6;">MT:</span> <span dir="rtl" lang="he">{dss.mt_reading}</span></div>
-            <div><span style="opacity:.6;">DSS:</span> <span dir="rtl" lang="he">{dss.dss_reading}</span></div>
+          <div class="translation-note mt-3" style="font-family:Georgia,'Times New Roman',serif;">
+            <div><strong>MT:</strong> <span dir="rtl" lang="he">{dss.mt_reading}</span></div>
+            <div><strong>DSS:</strong> <span dir="rtl" lang="he">{dss.dss_reading}</span></div>
           </div>
         )}
 
         {dss?.manuscript_reference && (
-          <p class="font-sans text-[10px] mt-1.5" style="color:var(--color-text-muted);opacity:.65;">
+          <p class="translation-note font-sans mt-2">
             {dss.manuscript_reference}
           </p>
         )}
 
         {dss?.variant_notes && dss.variant_notes.length > 0 && (
-          <details class="mt-2 text-sm">
-            <summary class="font-sans font-medium flex items-center gap-1.5 cursor-pointer" style="color:var(--color-text-muted);font-size:.75rem;">
+          <details class="mt-3">
+            <summary class="translation-note font-sans font-semibold flex items-center gap-1.5 cursor-pointer">
               <span class="chevron text-xs">&#9654;</span> Scroll Notes
             </summary>
-            <ul class="mt-1.5 space-y-1 list-none">
+            <ul class="mt-2 space-y-1.5 list-none">
               {dss.variant_notes.map((note: string) => (
-                <li class="flex gap-2 text-xs" style="color:var(--color-text-muted);">
-                  <span style="color:#c8a97b;margin-top:.15rem;font-size:.5rem;">&#9670;</span>
+                <li class="translation-note flex gap-2">
+                  <span style="color:#9a6e31;margin-top:.15rem;font-size:.55rem;">&#9670;</span>
                   <span>{note}</span>
                 </li>
               ))}
@@ -225,24 +225,24 @@ const dssMeaningful = dss && (
   </div>
 
   {c.narrative && (
-    <div class="text-text/85 mb-5 whitespace-pre-line">
+    <div class="commentary-narrative mb-6 whitespace-pre-line">
       {c.narrative}
     </div>
   )}
 
   {c.word_study && c.word_study.length > 0 && (
-    <details class="mb-3 bg-expand-bg rounded-lg">
-      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+    <details class="study-detail mb-3">
+      <summary class="flex items-center gap-2">
         <span class="chevron text-xs">&#9654;</span> Word Study
       </summary>
-      <div class="px-4 pb-4 space-y-3">
+      <div class="study-detail-content space-y-4">
         {c.word_study.map((w: WordStudy) => (
           <div>
             <span class="font-semibold text-gold">{w.term_english}</span>
-            {w.term_original && <span class="text-text-muted ml-1">({w.term_original})</span>}
-            {w.transliteration && <span class="text-text-muted ml-1 italic">— {w.transliteration}</span>}
-            <p class="text-text/75 mt-1">{w.meaning}</p>
-            {w.significance && <p class="text-text/65 mt-1">{w.significance}</p>}
+            {w.term_original && <span class="secondary-copy ml-1">({w.term_original})</span>}
+            {w.transliteration && <span class="secondary-copy ml-1 italic">— {w.transliteration}</span>}
+            <p class="mt-1">{w.meaning}</p>
+            {w.significance && <p class="secondary-copy mt-1">{w.significance}</p>}
           </div>
         ))}
       </div>
@@ -250,15 +250,15 @@ const dssMeaningful = dss && (
   )}
 
   {c.cross_references && c.cross_references.length > 0 && (
-    <details class="mb-3 bg-expand-bg rounded-lg">
-      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+    <details class="study-detail mb-3">
+      <summary class="flex items-center gap-2">
         <span class="chevron text-xs">&#9654;</span> Cross-References
       </summary>
-      <div class="px-4 pb-4 space-y-2">
+      <div class="study-detail-content space-y-3">
         {c.cross_references.map((r: CrossRef) => (
           <div>
             <span class="font-semibold text-gold">{r.reference}</span>
-            <span class="text-text/70 ml-1">— {r.connection}</span>
+            <span class="ml-1">— {r.connection}</span>
           </div>
         ))}
       </div>
@@ -266,48 +266,48 @@ const dssMeaningful = dss && (
   )}
 
   {c.historical_context && (
-    <details class="mb-3 bg-expand-bg rounded-lg">
-      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+    <details class="study-detail mb-3">
+      <summary class="flex items-center gap-2">
         <span class="chevron text-xs">&#9654;</span> Historical &amp; Cultural Context
       </summary>
-      <div class="px-4 pb-4 text-text/75 leading-relaxed whitespace-pre-line">
+      <div class="study-detail-content whitespace-pre-line">
         {c.historical_context}
       </div>
     </details>
   )}
 
   {c.restoration_lens && (
-    <details class="mb-3 bg-expand-bg rounded-lg">
-      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+    <details class="study-detail mb-3">
+      <summary class="flex items-center gap-2">
         <span class="chevron text-xs">&#9654;</span> Restoration Lens
       </summary>
-      <div class="px-4 pb-4 space-y-2 text-text/75 leading-relaxed">
+      <div class="study-detail-content space-y-3">
         {c.restoration_lens.jst_changes && (
-          <div><span class="font-semibold text-gold text-xs uppercase">JST:</span> <span class="whitespace-pre-line">{c.restoration_lens.jst_changes}</span></div>
+          <div><span class="font-semibold text-gold text-sm uppercase">JST:</span> <span class="whitespace-pre-line">{c.restoration_lens.jst_changes}</span></div>
         )}
         {c.restoration_lens.bom_parallels && (
-          <div><span class="font-semibold text-gold text-xs uppercase">Book of Mormon:</span> <span class="whitespace-pre-line">{c.restoration_lens.bom_parallels}</span></div>
+          <div><span class="font-semibold text-gold text-sm uppercase">Book of Mormon:</span> <span class="whitespace-pre-line">{c.restoration_lens.bom_parallels}</span></div>
         )}
         {c.restoration_lens.dc_connections && (
-          <div><span class="font-semibold text-gold text-xs uppercase">D&amp;C:</span> <span class="whitespace-pre-line">{c.restoration_lens.dc_connections}</span></div>
+          <div><span class="font-semibold text-gold text-sm uppercase">D&amp;C:</span> <span class="whitespace-pre-line">{c.restoration_lens.dc_connections}</span></div>
         )}
         {c.restoration_lens.temple_connections && (
-          <div><span class="font-semibold text-gold text-xs uppercase">Temple:</span> <span class="whitespace-pre-line">{c.restoration_lens.temple_connections}</span></div>
+          <div><span class="font-semibold text-gold text-sm uppercase">Temple:</span> <span class="whitespace-pre-line">{c.restoration_lens.temple_connections}</span></div>
         )}
       </div>
     </details>
   )}
 
   {c.prophetic_quotes && c.prophetic_quotes.length > 0 && (
-    <details class="mb-3 bg-expand-bg rounded-lg">
-      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+    <details class="study-detail mb-3">
+      <summary class="flex items-center gap-2">
         <span class="chevron text-xs">&#9654;</span> From the Prophets
       </summary>
-      <div class="px-4 pb-4 space-y-3">
+      <div class="study-detail-content space-y-4">
         {c.prophetic_quotes.map((q: PropheticQuote) => (
           <blockquote class="border-l-2 border-gold/40 pl-3">
-            <p class="text-text/75 italic">"{q.quote_or_paraphrase}"</p>
-            <p class="text-text-muted text-sm mt-1">— {q.speaker}{q.talk_title ? `, "${q.talk_title}"` : ''}{q.date ? ` (${q.date})` : ''}</p>
+            <p class="italic">"{q.quote_or_paraphrase}"</p>
+            <p class="secondary-copy text-base mt-2">— {q.speaker}{q.talk_title ? `, "${q.talk_title}"` : ''}{q.date ? ` (${q.date})` : ''}</p>
           </blockquote>
         ))}
       </div>
@@ -315,22 +315,22 @@ const dssMeaningful = dss && (
   )}
 
   {c.christological_typology && (
-    <details class="mb-3 bg-expand-bg rounded-lg">
-      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+    <details class="study-detail mb-3">
+      <summary class="flex items-center gap-2">
         <span class="chevron text-xs">&#9654;</span> Pointing to Christ
       </summary>
-      <div class="px-4 pb-4 text-text/75 leading-relaxed whitespace-pre-line">
+      <div class="study-detail-content whitespace-pre-line">
         {c.christological_typology}
       </div>
     </details>
   )}
 
   {c.application && (
-    <details class="mb-3 bg-expand-bg rounded-lg">
-      <summary class="px-4 py-3 font-sans font-medium text-gold-light flex items-center gap-2">
+    <details class="study-detail mb-3">
+      <summary class="flex items-center gap-2">
         <span class="chevron text-xs">&#9654;</span> Application
       </summary>
-      <div class="px-4 pb-4 text-text/75 leading-relaxed whitespace-pre-line">
+      <div class="study-detail-content whitespace-pre-line">
         {c.application}
       </div>
     </details>
