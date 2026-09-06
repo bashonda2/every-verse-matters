@@ -123,6 +123,7 @@ const nextWeek = weekNum < 52 ? weekNum + 1 : null;
 ---
 
 <Layout title={`Week ${weekNum}: ${weekData?.title ?? 'Unknown'}`}>
+  <div class="deep-dive-page">
   <div id="top" class="mb-8">
     <div class="flex items-center justify-between mb-2 font-sans">
       {prevWeek ? (
@@ -327,6 +328,7 @@ const nextWeek = weekNum < 52 ? weekNum + 1 : null;
       <polyline points="3,11 8,5 13,11" />
     </svg>
   </button>
+  </div>
 
   <script>
     // Floating back-to-top: show after scrolling 400px
