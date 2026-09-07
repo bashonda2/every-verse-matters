@@ -29,6 +29,8 @@ const currentWeekNum = currentWeek.week;
   <style is:global>
     #tagline-row { display: block; }
     #tagline-text { font-size: 11px; }
+    .site-header { background: rgba(250, 247, 242, 0.95); }
+    html.dark .site-header { background: rgba(26, 26, 46, 0.95); }
     @media (min-width: 860px) { #tagline-text { font-size: 15px; white-space: nowrap; } }
     @media (max-width: 480px) { #main-nav { gap: 0.75rem; } .nav-link { font-size: 11px !important; } }
   </style>
@@ -36,7 +38,7 @@ const currentWeekNum = currentWeek.week;
 <body class="min-h-screen flex flex-col">
 
   <!-- ── HEADER ── -->
-  <header style="position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);background:var(--color-header-bg);" class="transition-colors">
+  <header style="position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);" class="site-header transition-colors">
 
     <!-- Row 1: Wordmark + Nav -->
     <div style="max-width:1200px;margin:0 auto;padding:10px 2rem;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--color-border);">
