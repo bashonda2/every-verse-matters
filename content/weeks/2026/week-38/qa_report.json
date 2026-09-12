@@ -1,0 +1,49 @@
+{
+  "week": 38,
+  "generated_at": "2026-09-12T16:01:59.791956+00:00",
+  "audit_model": "claude-opus-5",
+  "total_verses": 216,
+  "audited_verses": 2,
+  "passed": 215,
+  "failed": 1,
+  "high_risk": [
+    {
+      "verse": "Isaiah 9:21",
+      "risk_level": "high",
+      "flags": [
+        "Cross-reference D&C 35:14 appears misquoted or misattributed. The quoted text 'For I am about to call upon you to do my work' does not match the known language of D&C 35:14, which concerns the Lord's servants confounding the wise and the arm of the Lord being revealed. The claim that this verse specifically states 'his hand is stretched out to gather Israel' with that quoted wording is suspicious and may be a fabricated or conflated citation.",
+        "The refrain-counting claims are stated with unverified precision. Isaiah 5:25 is described as 'the first occurrence' of the refrain and Isaiah 10:4 as 'the fourth and final occurrence.' While the refrain does recur in Isaiah 5-10, the specific ordinal enumeration is presented as established fact without qualification and should be verified against the text (occurrences appear at 5:25, 9:12, 9:17, 9:21, 10:4 — which would make 10:4 the fifth, not fourth).",
+        "Cross-reference 2 Nephi 15:25 is described as containing the refrain, which is plausible since 2 Nephi 15 parallels Isaiah 5. However, it is attributed to 'Nephi's rendering' when the Isaiah chapters in 2 Nephi are transcriptions from the brass plates; the characterization is loose and the interpretive claim about 'latter-day covenant communities' is an editorial assertion presented as the verse's emphasis."
+      ]
+    }
+  ],
+  "medium_risk": [],
+  "auto_remediated": [
+    {
+      "verse": "Isaiah 9:21",
+      "removed_quotes": [
+        {
+          "speaker": "President Russell M. Nelson",
+          "talk_title": "\"Hear Him\"",
+          "month_year": "April 2020"
+        }
+      ],
+      "original_flags": [
+        "Cross-reference D&C 35:14 appears misattributed: the quoted text 'For I am about to call upon you to do my work' does not match the language of D&C 35:14, which concerns the weak things of the world thrashing the nations by the power of the Spirit and the Lord's arm being their arm. The 'stretched-out hand' connection as described may be constructed rather than textual. HIGH RISK — cited verse content does not appear to match the described connection.",
+        "Prophetic quote from President Russell M. Nelson, '\"Hear Him\"' (April 2020): the citation is specific (full name, specific talk title, specific month/year), which is favorable. However, the quote is rendered with an ellipsis joining two separate statements ('God's standard never changes...' + 'Unless repentance occurs, division and discord will increase, along with loss of divine guidance and help.'). Elided composite quotes are a common hallucination pattern, and the second clause has a generic, paraphrastic cadence. MEDIUM RISK — recommend verifying the quote against the published text of the April 2020 address.",
+        "The 'significance' field restates the quote's content as if it were Nelson's explicit application to Isaiah 9:21. Attributing an interpretive linkage to a named Church leader that he may not have made is a paraphrase-as-attribution risk. MEDIUM RISK.",
+        "Isaiah 10:4 is described as 'the fourth and final occurrence' of the refrain. The refrain appears in Isaiah 5:25, 9:12, 9:17, 9:21, and 10:4 — the enumeration in the commentary may be inaccurate depending on counting method. LOW-MEDIUM RISK — numerical claim should be verified."
+      ],
+      "reaudit_passed": false,
+      "remaining_risk_level": "high",
+      "remaining_flags": [
+        "Cross-reference D&C 35:14 appears misquoted or misattributed. The quoted text 'For I am about to call upon you to do my work' does not match the known language of D&C 35:14, which concerns the Lord's servants confounding the wise and the arm of the Lord being revealed. The claim that this verse specifically states 'his hand is stretched out to gather Israel' with that quoted wording is suspicious and may be a fabricated or conflated citation.",
+        "The refrain-counting claims are stated with unverified precision. Isaiah 5:25 is described as 'the first occurrence' of the refrain and Isaiah 10:4 as 'the fourth and final occurrence.' While the refrain does recur in Isaiah 5-10, the specific ordinal enumeration is presented as established fact without qualification and should be verified against the text (occurrences appear at 5:25, 9:12, 9:17, 9:21, 10:4 — which would make 10:4 the fifth, not fourth).",
+        "Cross-reference 2 Nephi 15:25 is described as containing the refrain, which is plausible since 2 Nephi 15 parallels Isaiah 5. However, it is attributed to 'Nephi's rendering' when the Isaiah chapters in 2 Nephi are transcriptions from the brass plates; the characterization is loose and the interpretive claim about 'latter-day covenant communities' is an editorial assertion presented as the verse's emphasis."
+      ]
+    }
+  ],
+  "xref_issues": [],
+  "overall_pass": false,
+  "fail_pct": 0.5
+}
