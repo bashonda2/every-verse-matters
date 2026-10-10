@@ -1,0 +1,45 @@
+{
+  "week": 42,
+  "generated_at": "2026-10-10T17:29:18.054105+00:00",
+  "audit_model": "claude-opus-5",
+  "total_verses": 114,
+  "audited_verses": 2,
+  "passed": 113,
+  "failed": 1,
+  "high_risk": [
+    {
+      "verse": "Isaiah 61:3",
+      "risk_level": "high",
+      "flags": [
+        "Automatic quote removal succeeded, but the sanitized verse could not be re-audited: Extra data: line 9 column 1 (char 698)"
+      ]
+    }
+  ],
+  "medium_risk": [],
+  "auto_remediated": [
+    {
+      "verse": "Isaiah 61:3",
+      "removed_quotes": [
+        {
+          "speaker": "Elder D. Todd Christofferson",
+          "talk_title": "The Divine Gift of Repentance"
+        }
+      ],
+      "original_flags": [
+        "QUOTE_VERIFICATION_RISK: The quote attributed to Elder D. Todd Christofferson is suspiciously well-tailored to Isaiah 61:3's exact imagery ('ashes of sin become the oil of joy'), which is a hallmark of AI-generated text constructed to fit the verse rather than retrieved from an actual talk. While 'The Divine Gift of Repentance' (October 2011 general conference) is a real D. Todd Christofferson talk with a correct date, the quoted language reads as synthesized paraphrase in general-conference register rather than verbatim prophetic text. Requires manual verification against the official transcript before publication.",
+        "CROSS_REFERENCE_MISMATCH (HIGH): D&C 64:34 is cited with the quoted phrase 'make known that which hath been decreed.' D&C 64:34 actually reads, 'Behold, the Lord requireth the heart and a willing mind; and the willing and obedient shall eat the good of the land of Zion in these last days.' The quoted language does not appear in that verse, and the described connection to 'God's decreed restoration' does not match the verse's content. This is a probable fabricated citation and/or misquotation.",
+        "CROSS_REFERENCE_WEAK: Genesis 2:8-9 connection is an interpretive leap. The 'planting of the LORD' in Isaiah 61:3 is a covenant/Zion metaphor; the Eden-restoration link is a theological inference presented as a textual echo rather than a well-established cross-reference.",
+        "SINGLE_QUOTE_HIGH_SPECIFICITY_RISK: The quote is long (four sentences) and thematically seamless with the verse, increasing the likelihood of fabricated or conflated source material."
+      ],
+      "reaudit_passed": false,
+      "reaudit_error": "Extra data: line 9 column 1 (char 698)",
+      "remaining_risk_level": "high",
+      "remaining_flags": [
+        "Automatic quote removal succeeded, but the sanitized verse could not be re-audited: Extra data: line 9 column 1 (char 698)"
+      ]
+    }
+  ],
+  "xref_issues": [],
+  "overall_pass": false,
+  "fail_pct": 0.9
+}
