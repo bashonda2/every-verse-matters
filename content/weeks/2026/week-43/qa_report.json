@@ -1,0 +1,34 @@
+{
+  "week": 43,
+  "generated_at": "2026-10-17T15:41:38.979077+00:00",
+  "audit_model": "claude-opus-5",
+  "total_verses": 171,
+  "audited_verses": 2,
+  "passed": 171,
+  "failed": 0,
+  "high_risk": [],
+  "medium_risk": [],
+  "auto_remediated": [
+    {
+      "verse": "Jeremiah 1:5",
+      "removed_quotes": [
+        {
+          "speaker": "President Russell M. Nelson",
+          "talk_title": "\"Sustaining the Prophets\""
+        }
+      ],
+      "original_flags": [
+        "Prophetic quote attributed to President Russell M. Nelson with talk title 'Sustaining the Prophets' dated October 2021 General Conference — this title/date pairing is suspicious. The quoted language ('Each of us has been born at this precise moment in history... We did not come here by accident') closely resembles sentiments President Nelson has expressed elsewhere (e.g., 'Hope of Israel' worldwide devotional, June 2018), raising concern that the quote has been relocated to a fabricated or incorrect talk attribution.",
+        "The quote appears to be a composite or paraphrase: three sentences are strung together that may originate from separate contexts, yet are presented as a single continuous direct quotation with quotation-level fidelity.",
+        "Talk title 'Sustaining the Prophets' is generic in character and does not correspond to a readily identifiable General Conference address by President Nelson in October 2021; citation lacks a page or session reference.",
+        "Thematic mismatch risk: the cited quote concerns premortal timing and missionary covenant, which does not align with what a talk titled 'Sustaining the Prophets' would be expected to address — suggesting the title may have been generated rather than sourced."
+      ],
+      "reaudit_passed": true,
+      "remaining_risk_level": "low",
+      "remaining_flags": []
+    }
+  ],
+  "xref_issues": [],
+  "overall_pass": true,
+  "fail_pct": 0.0
+}
